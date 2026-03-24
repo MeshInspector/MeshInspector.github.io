@@ -8,7 +8,7 @@ var classMR_1_1ConstantCuspParams =
     [ "operator MR.ToolPathParams", "classMR_1_1ConstantCuspParams.html#a7dc5fb04c060b38a82b62e2b3fe659fb", null ],
     [ "baseFeed", "classMR_1_1ConstantCuspParams.html#a49149680f75c85e851510c4447b43dfe", null ],
     [ "bypassDir", "classMR_1_1ConstantCuspParams.html#a28397b7bf0c6302bd83d093a2c3dbb54", null ],
-    [ "cb", "classMR_1_1ConstantCuspParams.html#abe8d9df83f275ca43cbd1c0d9d752c89", null ],
+    [ "cb", "classMR_1_1ConstantCuspParams.html#a10758245cc24e7f629659a90a88e42d6", null ],
     [ "critTransitionLength", "classMR_1_1ConstantCuspParams.html#a3ab5c924813db110a7a7ba75c976d6e5", null ],
     [ "flatTool", "classMR_1_1ConstantCuspParams.html#a01536f453eaad46e6b08e49e61fa7f47", null ],
     [ "fromCenterToBoundary", "classMR_1_1ConstantCuspParams.html#ae8fbe8df4b09cedd330a7ca233f3367f", null ],

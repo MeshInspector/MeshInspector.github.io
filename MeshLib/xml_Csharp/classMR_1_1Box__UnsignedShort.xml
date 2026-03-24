@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Box__UnsignedShort" kind="class" language="C#" prot="public">
     <compoundname>MR::Box_UnsignedShort</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Box_UnsignedShort</basecompoundref>
@@ -39,7 +39,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.Box_UnsignedShort.this[int e]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box&lt;unsigned short&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Box&lt;unsigned short&gt;::Box</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;::Box</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Box&lt;unsigned short&gt;::Box</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;::Box</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -141,7 +141,7 @@
           <declname>max</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Box&lt;unsigned short&gt;::Box</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;::Box</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>_1</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Box&lt;unsigned short&gt;::Box</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;::Box</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -179,7 +179,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box&lt;unsigned short&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -198,7 +198,7 @@
           <declname>pt</declname>
         </param>
         <briefdescription>
-<para>minimally increases the box to include given point Generated from method <computeroutput>MR.Box&lt;unsigned short&gt;::include</computeroutput>. </para>
+<para>minimally increases the box to include given point Generated from method <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;<ref refid="classMR_1_1Box__UnsignedShort_1ab87e2e6a6252c623145dad7bae4c20dd" kindref="member">include</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -217,7 +217,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>minimally increases the box to include another box Generated from method <computeroutput>MR.Box&lt;unsigned short&gt;::include</computeroutput>. </para>
+<para>minimally increases the box to include another box Generated from method <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;<ref refid="classMR_1_1Box__UnsignedShort_1ab87e2e6a6252c623145dad7bae4c20dd" kindref="member">include</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -236,7 +236,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box&lt;unsigned short&gt;::intersect</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;<ref refid="classMR_1_1Box__UnsignedShort_1a555058ed32f5e838bcc295bfffbf0111" kindref="member">intersect</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -246,13 +246,19 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Box given by its min- and max- corners Generated from class <computeroutput>MR.Box&lt;unsigned short&gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SimpleVolumeMinMaxU16" kindref="compound">MR.SimpleVolumeMinMaxU16</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Box given by its min- and max- corners Generated from class <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SimpleVolumeMinMaxU16" kindref="compound">MR.SimpleVolumeMinMaxU16</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Box_UnsignedShort</label>
+        <link refid="classMR_1_1Box__UnsignedShort"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Box_UnsignedShort</label>
+        <label>MR.Const_Box_UnsignedShort</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -260,25 +266,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_UnsignedShort</label>
-        <link refid="classMR_1_1Box__UnsignedShort"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Box_UnsignedShort &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Box_UnsignedShort &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Box_UnsignedShort</label>
+        <link refid="classMR_1_1Box__UnsignedShort"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Box_UnsignedShort</label>
+        <label>MR.Const_Box_UnsignedShort</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -286,20 +292,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_UnsignedShort</label>
-        <link refid="classMR_1_1Box__UnsignedShort"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Box_UnsignedShort &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Box_UnsignedShort &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13213" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13214" bodyend="13335"/>

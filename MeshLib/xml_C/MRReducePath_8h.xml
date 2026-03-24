@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRReducePath_8h" kind="file" language="C++">
     <compoundname>MRReducePath.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
       <node id="2">
@@ -13,9 +13,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -25,79 +25,36 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
       </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRReducePath_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" line="12" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRReducePath_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" prot="public" static="no">
-        <type>struct <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref></type>
-        <definition>typedef struct MR_MeshTriPoint MR_MeshTriPoint</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTriPoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" line="13" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRReducePath_8h_1a9138e3f58ce2b39215044d2e368587ae" prot="public" static="no">
-        <type>struct <ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref></type>
-        <definition>typedef struct MR_std_vector_MR_EdgePoint MR_std_vector_MR_EdgePoint</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_EdgePoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" line="14" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRReducePath_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" prot="public" static="no">
-        <type>struct <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector2f MR_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" line="15" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRReducePath_8h_1a59213ee09c5f29eb6273e57886f8086c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_reducePathViaVertex</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_MeshTriPoint *start, MR_VertId v, const MR_MeshTriPoint *end, MR_std_vector_MR_EdgePoint *outPath, MR_std_vector_MR_Vector2f *tmp, MR_std_vector_MR_EdgePoint *cachePath)</argsstring>
         <name>MR_reducePathViaVertex</name>
@@ -161,10 +118,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" line="29" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" declline="29" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRReducePath.h" line="29" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRReducePath.h" declline="29" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRReducePath_8h_1a3a0e8014fc410d5398a75f5e7944cd51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
         <definition>MRC_API int MR_reducePath</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_MeshTriPoint *start, MR_std_vector_MR_EdgePoint *path, const MR_MeshTriPoint *end, const int *maxIter)</argsstring>
         <name>MR_reducePath</name>
@@ -195,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" line="39" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h" declline="39" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRReducePath.h" line="39" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRReducePath.h" declline="39" declcolumn="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,7 +163,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -214,20 +171,20 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRReducePath_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRReducePath_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRReducePath_8h_1a9138e3f58ce2b39215044d2e368587ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRReducePath_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRReducePath_8h_1a59213ee09c5f29eb6273e57886f8086c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRReducePath_8h_1a59213ee09c5f29eb6273e57886f8086c" kindref="member">MR_reducePathViaVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*outPath,<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*tmp,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*cachePath);</highlight></codeline>
+<codeline lineno="29" refid="MRReducePath_8h_1a59213ee09c5f29eb6273e57886f8086c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRReducePath_8h_1a59213ee09c5f29eb6273e57886f8086c" kindref="member">MR_reducePathViaVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*outPath,<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*tmp,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*cachePath);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRReducePath_8h_1a3a0e8014fc410d5398a75f5e7944cd51" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRReducePath_8h_1a3a0e8014fc410d5398a75f5e7944cd51" kindref="member">MR_reducePath</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*maxIter);</highlight></codeline>
+<codeline lineno="39" refid="MRReducePath_8h_1a3a0e8014fc410d5398a75f5e7944cd51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRReducePath_8h_1a3a0e8014fc410d5398a75f5e7944cd51" kindref="member">MR_reducePath</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*maxIter);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRReducePath.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRReducePath.h"/>
   </compounddef>
 </doxygen>

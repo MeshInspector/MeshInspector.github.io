@@ -1,11 +1,7 @@
 var MRUniformSampling_8h =
 [
-    [ "MR_PointCloud", "MRUniformSampling_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_std_function_bool_from_float", "MRUniformSampling_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_optional_MR_PointCloud", "MRUniformSampling_8h.html#ab344b30a267b068a4443e581cbbf0c82", null ],
-    [ "MR_std_optional_MR_VertBitSet", "MRUniformSampling_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc", null ],
     [ "MR_UniformSamplingSettings", "MRUniformSampling_8h.html#ae90cf75a257e0ff4ce2f453401d70317", null ],
-    [ "MR_VertCoords", "MRUniformSampling_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_makeUniformSampledCloud", "MRUniformSampling_8h.html#adc7e70a24b7e1fca4a322112076b7811", null ],
     [ "MR_pointUniformSampling", "MRUniformSampling_8h.html#a0fccc62c4bcd4a71c235e0cfaee5d1f0", null ],
     [ "MR_UniformSamplingSettings_AssignFromAnother", "MRUniformSampling_8h.html#af74fa9f9a59c5092e0a5df4693512bc0", null ],

@@ -1,0 +1,17 @@
+var expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h =
+[
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ac9916094f7c66b0214a856e06fe3ea70", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_AssignFromAnother", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a11c044d6c8f14ab657f9536a077f126c", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_ConstructFromAnother", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a283a43053120c9eb582569ed50285c9a", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_DefaultConstruct", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ae7736d42925c129acdfa6563de8c5c8e", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_DefaultConstructArray", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ab53ade0c1ff277d387992dbc0c7a4edd", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_Destroy", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a4adcd0b564f30f38bfcc624d39e424ad", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_DestroyArray", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#af3fab9317ba0f97e1f818d04dfcc3c0d", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_error", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#abb4c3228f43254e39cee676b074c2d86", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_error_mut", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a43f74bdec841bdbe6da3b033bb1223e3", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_OffsetMutablePtr", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#aa7fcdc422dd77036cce32f3f626d7530", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_OffsetPtr", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ab43b0be5b701ff1698ab733fdd55ea38", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_success", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a68819024fda2369e73270d5436b7a1b9", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_value", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a004aae7a05d070d95934b9692f7a3a3e", null ],
+    [ "MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_value_mut", "expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a2b343bd3365375e69746741ee4d42eda", null ]
+];

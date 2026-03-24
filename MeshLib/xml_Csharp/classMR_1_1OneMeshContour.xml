@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OneMeshContour" kind="class" language="C#" prot="public">
     <compoundname>MR::OneMeshContour</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_OneMeshContour</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="615" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="615" bodyend="615"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="617" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="617" bodyend="617"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1OneMeshContour_1ad83baba38b7c88bf5680adab53480930" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="617" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="617" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="619" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="619" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="636" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="636" bodyend="640"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="638" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="638" bodyend="642"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="646" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="646" bodyend="652"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="648" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="648" bodyend="654"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OneMeshContour_1ad9009beeb0ea300673f2907ecfad322b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="657" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="657" bodyend="664"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="659" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="659" bodyend="666"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OneMeshContour_1ad3733d7b40e3a113338b1a1f8b3d6610" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -107,13 +107,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OneMeshContour.OneMeshContour</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OneMeshContour_1a9c23def4e384c8691f85dc8052708697" kindref="member">MR.OneMeshContour.OneMeshContour</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="669" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="669" bodyend="676"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="671" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="671" bodyend="678"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OneMeshContour_1ac30a6c9846e2e7ef3ba3d121df1e09a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -126,13 +126,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OneMeshContour.OneMeshContour</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OneMeshContour_1a9c23def4e384c8691f85dc8052708697" kindref="member">MR.OneMeshContour.OneMeshContour</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="681" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="681" bodyend="681"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="683" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="683" bodyend="683"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OneMeshContour_1a4062240824d49b1554a3f6598eb7260f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -145,13 +145,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OneMeshContour.OneMeshContour</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OneMeshContour_1a9c23def4e384c8691f85dc8052708697" kindref="member">MR.OneMeshContour.OneMeshContour</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="686" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="686" bodyend="686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="688" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="688" bodyend="688"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OneMeshContour_1a20434af7e40d04306c03067ad3a1626b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></type>
@@ -164,13 +164,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.OneMeshContour.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::OneMeshContour::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="691" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="691" bodyend="698"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="693" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="693" bodyend="700"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -179,48 +179,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_OneMeshContour</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OneMeshContour</label>
         <link refid="classMR_1_1OneMeshContour"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OneMeshContour</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_OneMeshContour &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_OneMeshContour</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OneMeshContour</label>
         <link refid="classMR_1_1OneMeshContour"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OneMeshContour</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_OneMeshContour &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="613" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="614" bodyend="699"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="615" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="616" bodyend="701"/>
     <listofallmembers>
       <member refid="classMR_1_1OneMeshContour_1a20434af7e40d04306c03067ad3a1626b" prot="public" virt="non-virtual"><scope>MR::OneMeshContour</scope><name>assign</name></member>
       <member refid="classMR_1_1OneMeshContour_1ad83baba38b7c88bf5680adab53480930" prot="public" virt="non-virtual"><scope>MR::OneMeshContour</scope><name>closed</name></member>

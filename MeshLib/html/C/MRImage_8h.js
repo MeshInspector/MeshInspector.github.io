@@ -1,9 +1,5 @@
 var MRImage_8h =
 [
-    [ "MR_Image", "MRImage_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0", null ],
-    [ "MR_MeshTexture", "MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790", null ],
-    [ "MR_std_vector_MR_Color", "MRImage_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51", null ],
-    [ "MR_Vector2f", "MRImage_8h.html#a72ab0be0b71b29e9f310e7526a8cc57b", null ],
     [ "MR_Image_AssignFromAnother", "MRImage_8h.html#ac4dd8da545948df33e49b0dc8b8a4fd9", null ],
     [ "MR_Image_ConstructFrom", "MRImage_8h.html#ab3bda65b0aa331029bb21c950f7b599a", null ],
     [ "MR_Image_ConstructFromAnother", "MRImage_8h.html#a9496854229bd53207610ad5c61bf5f63", null ],
@@ -18,13 +14,11 @@ var MRImage_8h =
     [ "MR_Image_heapBytes", "MRImage_8h.html#a2c508c6dbb51580a2e62da16e57e6926", null ],
     [ "MR_Image_index", "MRImage_8h.html#aec86d2b43148043e0ab38588eedbdefe", null ],
     [ "MR_Image_index_mut", "MRImage_8h.html#a3bacbde18a8341eb22d8556514498a1a", null ],
-    [ "MR_Image_MutableStaticDowncastTo_MR_MeshTexture", "MRImage_8h.html#a18e69eef0660b9813ab4432d46360360", null ],
     [ "MR_Image_OffsetMutablePtr", "MRImage_8h.html#a42d15b02110616d02ed7126496958811", null ],
     [ "MR_Image_OffsetPtr", "MRImage_8h.html#aad3a990af3c8ec94e29327c04ab1ff42", null ],
     [ "MR_Image_sample", "MRImage_8h.html#ac6087b62b884a48aa7610e1538005f57", null ],
     [ "MR_Image_sampleBilinear", "MRImage_8h.html#a871f6b2f34062be182e991458ba72092", null ],
     [ "MR_Image_sampleDiscrete", "MRImage_8h.html#a7e41534cd3c8a213f9dc9f9c2758164a", null ],
     [ "MR_Image_Set_pixels", "MRImage_8h.html#aab0b663b054c5bad0647b49577f23831", null ],
-    [ "MR_Image_Set_resolution", "MRImage_8h.html#a2a2216249cbf183851ef39b9b997b197", null ],
-    [ "MR_Image_StaticDowncastTo_MR_MeshTexture", "MRImage_8h.html#ac7e37e48309538f5a08f55a58b10b7b7", null ]
+    [ "MR_Image_Set_resolution", "MRImage_8h.html#a2a2216249cbf183851ef39b9b997b197", null ]
 ];

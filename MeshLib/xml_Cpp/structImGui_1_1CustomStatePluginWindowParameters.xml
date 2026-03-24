@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structImGui_1_1CustomStatePluginWindowParameters" kind="struct" language="C++" prot="public">
     <compoundname>ImGui::CustomStatePluginWindowParameters</compoundname>
-    <includes refid="ImGuiHelpers_8h" local="no">ImGuiHelpers.h</includes>
+    <includes refid="ImGuiHelpers_8h" local="no">MRViewer/ImGuiHelpers.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1aeb0498cd6f3dce0e76837aa8d02fba62" prot="public" static="no" mutable="no">
         <type>bool *</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="190" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="190" bodyend="190"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="187" column="10" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="187" bodyend="187"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a1b847836011905ac5e81447b23f40ca5" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="192" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="192" bodyend="192"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="189" column="11" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="189" bodyend="189"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a1f70e63acc39d4e06bd02168e934b9d0" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="194" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="194" bodyend="194"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="191" column="11" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="191" bodyend="191"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a587435906bc6bfce42fc472c1863c883" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="196" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="196" bodyend="-1"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="193" column="10" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="193" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a806cc2ab5e052004470f0333fb459651" prot="public" static="no" mutable="no">
         <type>ImVec2 *</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="198" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="198" bodyend="198"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="195" column="12" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="195" bodyend="195"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1ae299a30eaa219843f278913c0d69044a" prot="public" static="no" mutable="no">
         <type>ImVec2</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="200" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="200" bodyend="200"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="197" column="12" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="197" bodyend="197"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a5754729068dbf7969cf941f3c84abfe4" prot="public" static="no" mutable="no">
         <type>ImGuiWindowFlags</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="202" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="202" bodyend="-1"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="199" column="22" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="199" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1aba6660d67c3455cb242987a649e85162" prot="public" static="no" mutable="no">
         <type>ImVec2 *</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="204" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="204" bodyend="204"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="201" column="12" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="201" bodyend="201"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a22df65426ef651326ea22792fd010bd1" prot="public" static="no" mutable="no">
         <type>std::function&lt; void()&gt;</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="206" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="206" bodyend="-1"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="203" column="19" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="203" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a03c3bb1a741563a7f133d3da8f2b6d98" prot="public" static="no" mutable="no">
         <type>std::function&lt; void()&gt;</type>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="208" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="208" bodyend="-1"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="205" column="19" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="205" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a8869d27559f2cc20b992776b28c8af03" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="210" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="210" bodyend="210"/>
+        <location file="MRViewer/ImGuiHelpers.h" line="207" column="10" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="207" bodyend="207"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -186,7 +186,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="184" bodyend="211"/>
+    <location file="MRViewer/ImGuiHelpers.h" line="180" column="1" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="181" bodyend="208"/>
     <listofallmembers>
       <member refid="structImGui_1_1CustomStatePluginWindowParameters_1a587435906bc6bfce42fc472c1863c883" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>allowScrollbar</name></member>
       <member refid="structImGui_1_1CustomStatePluginWindowParameters_1aba6660d67c3455cb242987a649e85162" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>changedSize</name></member>

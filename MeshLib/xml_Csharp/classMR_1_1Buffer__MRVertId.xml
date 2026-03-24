@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRVertId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRVertId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRVertId_1ab014948ebe0c2b817e190d5cd9af7dff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1NoDefInit__MRVertId" kindref="compound">MR.NoDefInit_MRVertId</ref></type>
@@ -11,13 +12,166 @@
         <name>this[ulong i]</name>
         <qualifiedname>MR.Buffer_MRVertId.this[ulong i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1527" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1528" bodyend="1538"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2175" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2176" bodyend="2186"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a1d1ccf6d45d6b8d3b7f0ac023679d7e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1NoDefInit__MRVertId" kindref="compound">MR.NoDefInit_MRVertId</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.NoDefInit_MRVertId &gt; MR.Buffer_MRVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MRVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2097" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2097" bodyend="2100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a9d75f370d4174f8ebb35b2c0aee2a002" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRVertId.Buffer_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Buffer_MRVertId</name>
+        <qualifiedname>MR.Buffer_MRVertId.Buffer_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2112" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2112" bodyend="2117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a036aed454db30b068e6e925ebe236196" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRVertId.Buffer_MRVertId</definition>
+        <argsstring>(MR._ByValue_Buffer_MRVertId _other)</argsstring>
+        <name>Buffer_MRVertId</name>
+        <qualifiedname>MR.Buffer_MRVertId.Buffer_MRVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2122" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2122" bodyend="2128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1ae490b7c593820eec4526b4e58d85dbc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRVertId.Buffer_MRVertId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Buffer_MRVertId</name>
+        <qualifiedname>MR.Buffer_MRVertId.Buffer_MRVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2133" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2133" bodyend="2138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a779101573d52d340c27efa28c78dc552" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Buffer__MRVertId" kindref="compound">MR.Buffer_MRVertId</ref></type>
+        <definition>unsafe MR.Buffer_MRVertId MR.Buffer_MRVertId.assign</definition>
+        <argsstring>(MR._ByValue_Buffer_MRVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Buffer_MRVertId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2143" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2143" bodyend="2150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a4c8c4e53ccfed424b76fa1cc011c4042" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MRVertId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Buffer_MRVertId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRVertId_1a4c8c4e53ccfed424b76fa1cc011c4042" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2155" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2155" bodyend="2160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a6ce7af156f853722b639203fbc37043b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MRVertId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Buffer_MRVertId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRVertId_1a6ce7af156f853722b639203fbc37043b" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2165" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2165" bodyend="2170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a383ff10d2cf9590d3a20339c5bdc946e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRVertId" kindref="compound">NoDefInit_MRVertId</ref></type>
+        <definition>unsafe new MR.? NoDefInit_MRVertId MR.Buffer_MRVertId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Buffer_MRVertId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRVertId_1a383ff10d2cf9590d3a20339c5bdc946e" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2191" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2191" bodyend="2200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a8f684c5f6690cc0e90cd34fd2bdb2415" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Buffer_MRVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MRVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2102" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2102" bodyend="2105"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,134 +195,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1459" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1459" bodyend="1459"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a9d75f370d4174f8ebb35b2c0aee2a002" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRVertId.Buffer_MRVertId</definition>
-        <argsstring>()</argsstring>
-        <name>Buffer_MRVertId</name>
-        <qualifiedname>MR.Buffer_MRVertId.Buffer_MRVertId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1464" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1464" bodyend="1469"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a036aed454db30b068e6e925ebe236196" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRVertId.Buffer_MRVertId</definition>
-        <argsstring>(MR._ByValue_Buffer_MRVertId _other)</argsstring>
-        <name>Buffer_MRVertId</name>
-        <qualifiedname>MR.Buffer_MRVertId.Buffer_MRVertId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MRVertId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1474" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1474" bodyend="1480"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1ae490b7c593820eec4526b4e58d85dbc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRVertId.Buffer_MRVertId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Buffer_MRVertId</name>
-        <qualifiedname>MR.Buffer_MRVertId.Buffer_MRVertId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1485" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1485" bodyend="1490"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a779101573d52d340c27efa28c78dc552" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Buffer__MRVertId" kindref="compound">MR.Buffer_MRVertId</ref></type>
-        <definition>unsafe MR.Buffer_MRVertId MR.Buffer_MRVertId.assign</definition>
-        <argsstring>(MR._ByValue_Buffer_MRVertId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Buffer_MRVertId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MRVertId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1495" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1495" bodyend="1502"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a4c8c4e53ccfed424b76fa1cc011c4042" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MRVertId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Buffer_MRVertId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1507" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1507" bodyend="1512"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a6ce7af156f853722b639203fbc37043b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MRVertId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Buffer_MRVertId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1517" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1517" bodyend="1522"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId_1a383ff10d2cf9590d3a20339c5bdc946e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRVertId" kindref="compound">NoDefInit_MRVertId</ref></type>
-        <definition>unsafe new MR.? NoDefInit_MRVertId MR.Buffer_MRVertId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Buffer_MRVertId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1543" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1543" bodyend="1552"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2107" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2107" bodyend="2107"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+<para>std::vector&amp;lt;V&amp;gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -184,55 +215,69 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Buffer_MRVertId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Buffer_MRVertId</label>
         <link refid="classMR_1_1Buffer__MRVertId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Buffer_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Buffer_MRVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Buffer_MRVertId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Buffer_MRVertId</label>
         <link refid="classMR_1_1Buffer__MRVertId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Buffer_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Buffer_MRVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1457" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1458" bodyend="1553"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2041" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2042" bodyend="2201"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRVertId_1a779101573d52d340c27efa28c78dc552" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>assign</name></member>
       <member refid="classMR_1_1Buffer__MRVertId_1a5851a62f5294f0c9af74b9db25245d90" prot="package" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>Buffer_MRVertId</name></member>
@@ -241,6 +286,8 @@
       <member refid="classMR_1_1Buffer__MRVertId_1ae490b7c593820eec4526b4e58d85dbc5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>Buffer_MRVertId</name></member>
       <member refid="classMR_1_1Buffer__MRVertId_1a4c8c4e53ccfed424b76fa1cc011c4042" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>clear</name></member>
       <member refid="classMR_1_1Buffer__MRVertId_1a383ff10d2cf9590d3a20339c5bdc946e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Buffer__MRVertId_1a1d1ccf6d45d6b8d3b7f0ac023679d7e9" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Buffer__MRVertId_1a8f684c5f6690cc0e90cd34fd2bdb2415" prot="private" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRVertId_1a6ce7af156f853722b639203fbc37043b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>resize</name></member>
       <member refid="classMR_1_1Buffer__MRVertId_1ab014948ebe0c2b817e190d5cd9af7dff" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId</scope><name>this[ulong i]</name></member>
     </listofallmembers>

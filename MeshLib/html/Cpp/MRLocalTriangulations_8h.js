@@ -1,13 +1,13 @@
 var MRLocalTriangulations_8h =
 [
-    [ "TrianglesRepetitions", "MRLocalTriangulations_8h.html#ga2e1577ec0c0eb82d6a29e4b16e6661a6", null ],
-    [ "autoOrientLocalTriangulations", "MRLocalTriangulations_8h.html#ga766eb6ed8020c98e0caeb0118287298c", null ],
-    [ "computeNormal", "MRLocalTriangulations_8h.html#ga722c841f31a22129cba0c81fb113b9c7", null ],
-    [ "computeTrianglesRepetitions", "MRLocalTriangulations_8h.html#ga0d986d210124a86a1e5a8a4b4b25e3da", null ],
-    [ "findRepeatedOrientedTriangles", "MRLocalTriangulations_8h.html#ga1dcb49395eda9b8e8b13d63826562c4f", null ],
-    [ "findRepeatedOrientedTriangles", "MRLocalTriangulations_8h.html#ga30e859796571a1dbe7dd005f7d61524f", null ],
-    [ "findRepeatedUnorientedTriangles", "MRLocalTriangulations_8h.html#ga37d3ab394f01aad014be9cd4c8043b32", null ],
-    [ "orientLocalTriangulations", "MRLocalTriangulations_8h.html#gae62d8b1a2722dd8c71578f1b4bdcee07", null ],
-    [ "orientLocalTriangulations", "MRLocalTriangulations_8h.html#ga1eb1be8db7d87629cb51dc77cc9bddee", null ],
-    [ "uniteLocalTriangulations", "MRLocalTriangulations_8h.html#ga0ed6bf3b7f4f98f684d5c85bb4356b62", null ]
+    [ "MR::TrianglesRepetitions", "group__GeneralGroup.html#ga2e1577ec0c0eb82d6a29e4b16e6661a6", null ],
+    [ "MR::autoOrientLocalTriangulations", "group__GeneralGroup.html#gadb594f27c4b0102d6c539ec19902b9a8", null ],
+    [ "MR::computeNormal", "group__GeneralGroup.html#ga491b009b8232c0959330e8f6f0b3183e", null ],
+    [ "MR::computeTrianglesRepetitions", "group__GeneralGroup.html#ga877a9f90ad1efc5a87c776436e975765", null ],
+    [ "MR::findRepeatedOrientedTriangles", "group__GeneralGroup.html#gaef144aa4430effb527153589ec292535", null ],
+    [ "MR::findRepeatedOrientedTriangles", "group__GeneralGroup.html#gaf4e5bc20e8919fb045eca11e3af4679c", null ],
+    [ "MR::findRepeatedUnorientedTriangles", "group__GeneralGroup.html#ga4ac0a9e7441c06dae7c5034229688c3d", null ],
+    [ "MR::orientLocalTriangulations", "group__GeneralGroup.html#gacc338c7641717949b9a37b5aa886ced4", null ],
+    [ "MR::orientLocalTriangulations", "group__GeneralGroup.html#ga6d813adef70fb304fd4bdbffaf0410b1", null ],
+    [ "MR::uniteLocalTriangulations", "group__GeneralGroup.html#ga088ce72aeaa455614704fae504ddce2d", null ]
 ];

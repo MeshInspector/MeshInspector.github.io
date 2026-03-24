@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FanRecordWithCenter" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FanRecordWithCenter</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1FanRecord" prot="public" virt="non-virtual">mrmeshpy.FanRecord</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17706" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17844" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -27,7 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FanRecordWithCenter.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -42,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17709" bodyend="17710"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17847" bodyend="17848"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -50,7 +49,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FanRecordWithCenter.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -65,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17713" bodyend="17714"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17851" bodyend="17852"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1ad2405ab24621d31eae35c8b16f6a7fe3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FanRecordWithCenter" kindref="compound">FanRecordWithCenter</ref></type>
@@ -88,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17717" bodyend="17718"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17855" bodyend="17856"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1ad2405ab24621d31eae35c8b16f6a7fe3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FanRecordWithCenter" kindref="compound">FanRecordWithCenter</ref></type>
@@ -111,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17721" bodyend="17722"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17859" bodyend="17860"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -121,7 +119,6 @@
         <argsstring>(self, VertId c=..., VertId b=..., int fn=0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FanRecordWithCenter.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -147,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17724" bodyend="17725"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17862" bodyend="17863"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1a190d8145c44ff43dd07c2048aebd1e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -155,7 +152,6 @@
         <argsstring>(self, FanRecordWithCenter arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FanRecordWithCenter.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -172,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17727" bodyend="17730"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17865" bodyend="17868"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1af3bf46f2b3770ad6796e66dca60e88c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -192,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17732" bodyend="17735"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17870" bodyend="17873"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1a8097bd4d4ce22648c3dc2fffaa9a1e1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -214,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17737" bodyend="17738"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17875" bodyend="17876"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -243,31 +239,27 @@ describes one fan of triangles around a point including the point
         <link refid="classmrmeshpy_1_1FanRecordWithCenter"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_center</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.FanRecord</label>
         <link refid="classmrmeshpy_1_1FanRecord"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_border</edgelabel>
-          <edgelabel>_offsetof_firstNei</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17700" bodyend="17738"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17838" bodyend="17876"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a9763b8976aa503132fa3ff96bc6644af" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a190d8145c44ff43dd07c2048aebd1e3b" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FanRecord_1a01397fe7bd6b716bf0a2e2f8dfb32b53" prot="protected" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>_offsetof_border</name></member>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a20bb81a3738f7e8f0338e15b9a81f6f2" prot="protected" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>_offsetof_center</name></member>
+      <member refid="classmrmeshpy_1_1FanRecord_1a16351090b37f8051fe0018f234793ff7" prot="protected" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>_offsetof_firstNei</name></member>
+      <member refid="classmrmeshpy_1_1FanRecord_1af3c748acb254096045371f2eb3d77ca9" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>border</name></member>
+      <member refid="classmrmeshpy_1_1FanRecord_1a3ae5fc4371c4bf1251b3a1f43e400111" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>border</name></member>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1af3bf46f2b3770ad6796e66dca60e88c4" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>center</name></member>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a8097bd4d4ce22648c3dc2fffaa9a1e1c" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1FanRecord_1af3479836283572f672441b41ff52a61d" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>firstNei</name></member>
+      <member refid="classmrmeshpy_1_1FanRecord_1a2b405caee53e6f502f1b28be51104a21" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>firstNei</name></member>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1ad2405ab24621d31eae35c8b16f6a7fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1FanRecordWithCenter_1ad2405ab24621d31eae35c8b16f6a7fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>operator</name></member>
     </listofallmembers>

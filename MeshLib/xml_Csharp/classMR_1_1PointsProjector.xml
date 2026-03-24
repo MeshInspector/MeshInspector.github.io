@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsProjector" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsProjector</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PointsProjector</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="792" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="792" bodyend="799"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="828" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="828" bodyend="835"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1af5ad43172425f94d2f9b4bf7d8dc6bbe" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="802" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="802" bodyend="811"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="838" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="838" bodyend="847"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="813" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="813" bodyend="813"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="849" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="849" bodyend="849"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="818" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="818" bodyend="823"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="854" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="854" bodyend="859"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1a33f67c86c1eec53b6cefe1a97a695e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -92,13 +92,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PointsProjector.PointsProjector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsProjector_1ae84b7ac905c1a874c3bbaa67190bb24e" kindref="member">MR.PointsProjector.PointsProjector</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="828" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="828" bodyend="834"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="864" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="864" bodyend="870"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1a08ea3a7b4ff5c24d2ea51ca85db5382a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -111,13 +111,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PointsProjector.PointsProjector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsProjector_1ae84b7ac905c1a874c3bbaa67190bb24e" kindref="member">MR.PointsProjector.PointsProjector</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="839" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="839" bodyend="839"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="875" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="875" bodyend="875"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1aa1ba3439ca6f0e555db84954c6681976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -130,13 +130,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PointsProjector.PointsProjector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsProjector_1ae84b7ac905c1a874c3bbaa67190bb24e" kindref="member">MR.PointsProjector.PointsProjector</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="844" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="844" bodyend="844"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="880" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="880" bodyend="880"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1a3809be8681b04e87e9aa74482758b5bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointsProjector" kindref="compound">MR.PointsProjector</ref></type>
@@ -149,13 +149,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PointsProjector.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PointsProjector::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="849" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="849" bodyend="856"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="885" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="885" bodyend="892"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1a2a10ac52db9e5932b79ab4c2b09b3ab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="862" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="862" bodyend="869"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="898" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="898" bodyend="905"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -183,48 +183,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PointsProjector</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PointsProjector</label>
         <link refid="classMR_1_1PointsProjector"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PointsProjector</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PointsProjector &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PointsProjector</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PointsProjector</label>
         <link refid="classMR_1_1PointsProjector"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PointsProjector</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PointsProjector &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="789" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="790" bodyend="870"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="825" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="826" bodyend="906"/>
     <listofallmembers>
       <member refid="classMR_1_1PointsProjector_1a3809be8681b04e87e9aa74482758b5bf" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>assign</name></member>
       <member refid="classMR_1_1PointsProjector_1ac967eb4f15ef52ae0c89e7f1ba464133" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>operator MR.IPointsProjector</name></member>

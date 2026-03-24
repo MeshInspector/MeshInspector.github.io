@@ -6,7 +6,7 @@ var classMR_1_1PointsLoadSettings =
     [ "PointsLoadSettings", "classMR_1_1PointsLoadSettings.html#ab6c4d981e60ec8cfdf72f6981e8dd167", null ],
     [ "PointsLoadSettings", "classMR_1_1PointsLoadSettings.html#ab3fd31ca11a9b36c390966180f354a36", null ],
     [ "assign", "classMR_1_1PointsLoadSettings.html#ac54cd04062d9273c28d31ce11753783c", null ],
-    [ "callback", "classMR_1_1PointsLoadSettings.html#ad259d800f642a181b24772252cb6d3e9", null ],
+    [ "callback", "classMR_1_1PointsLoadSettings.html#ae878a2165d7f33672bf25b663ef0d184", null ],
     [ "colors", "classMR_1_1PointsLoadSettings.html#a23738fee48586fce88572f0c4bd8ebd8", null ],
     [ "outXf", "classMR_1_1PointsLoadSettings.html#a396fb6fb14e6f3750c88764e172d70f2", null ],
     [ "telemetrySignal", "classMR_1_1PointsLoadSettings.html#a2e5cf330234a0a7bfcd408f7f515a43f", null ]

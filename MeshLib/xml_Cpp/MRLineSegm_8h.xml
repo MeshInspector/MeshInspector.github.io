@@ -1,42 +1,43 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRLineSegm_8h" kind="file" language="C++">
     <compoundname>MRLineSegm.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
-    <includedby refid="MRIntersection_8h" local="yes">MRIntersection.h</includedby>
-    <includedby refid="MRLineSegm3_8h" local="yes">MRLineSegm3.h</includedby>
-    <includedby refid="MRPolyline_8h" local="yes">MRPolyline.h</includedby>
-    <includedby refid="MRTriangleIntersection_8h" local="yes">MRTriangleIntersection.h</includedby>
+    <includedby refid="MRIntersection_8h" local="yes">MRMesh/MRIntersection.h</includedby>
+    <includedby refid="MRLineSegm3_8h" local="yes">MRMesh/MRLineSegm3.h</includedby>
+    <includedby refid="MRPolyline_8h" local="yes">MRMesh/MRPolyline.h</includedby>
+    <includedby refid="MRTriangleIntersection_8h" local="yes">MRMesh/MRTriangleIntersection.h</includedby>
+    <includedby refid="MRTwoLineSegmDist_8h" local="yes">MRMesh/MRTwoLineSegmDist.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
-        <label>MRLineSegm.h</label>
+        <label>MRMesh/MRLineSegm.h</label>
         <link refid="MRLineSegm_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="5">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -48,74 +49,121 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="13">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
-      <node id="8">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="9">
-        <label>algorithm</label>
-      </node>
-      <node id="10">
-        <label>cmath</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>cstddef</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="11">
-        <label>cstring</label>
-      </node>
-      <node id="12">
-        <label>iosfwd</label>
+      <node id="17">
+        <label>algorithm</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="19">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="20">
+        <label>iosfwd</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
         <label>type_traits</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="15">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="10">
-        <label>MRCudaContoursDistanceMap.h</label>
+        <label>MRCuda/MRCudaContoursDistanceMap.h</label>
         <link refid="MRCudaContoursDistanceMap_8h"/>
       </node>
       <node id="11">
-        <label>MRCudaMeshDistanceMap.h</label>
+        <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
       </node>
-      <node id="20">
-        <label>MRCudaSweptVolume.h</label>
+      <node id="19">
+        <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
       <node id="5">
-        <label>MRAggregateFlow.h</label>
+        <label>MRMesh/MRAggregateFlow.h</label>
         <link refid="MRAggregateFlow_8h"/>
       </node>
       <node id="6">
-        <label>MRBestFit.h</label>
+        <label>MRMesh/MRBestFit.h</label>
         <link refid="MRBestFit_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="8">
-        <label>MRChangePolylineAction.h</label>
+        <label>MRMesh/MRChangePolylineAction.h</label>
         <link refid="MRChangePolylineAction_8h"/>
       </node>
       <node id="7">
-        <label>MRDenseBox.h</label>
+        <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
       </node>
       <node id="9">
-        <label>MRDistanceMap.h</label>
+        <label>MRMesh/MRDistanceMap.h</label>
         <link refid="MRDistanceMap_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -127,11 +175,11 @@
         </childnode>
       </node>
       <node id="12">
-        <label>MRDistanceMapLoad.h</label>
+        <label>MRMesh/MRDistanceMapLoad.h</label>
         <link refid="MRDistanceMapLoad_8h"/>
       </node>
       <node id="13">
-        <label>MRIOFormatsRegistry.h</label>
+        <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -139,11 +187,11 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRIntersection.h</label>
+        <label>MRMesh/MRIntersection.h</label>
         <link refid="MRIntersection_8h"/>
       </node>
       <node id="1">
-        <label>MRLineSegm.h</label>
+        <label>MRMesh/MRLineSegm.h</label>
         <link refid="MRLineSegm_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -153,13 +201,15 @@
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
       <node id="3">
-        <label>MRLineSegm3.h</label>
+        <label>MRMesh/MRLineSegm3.h</label>
         <link refid="MRLineSegm3_8h"/>
       </node>
       <node id="4">
-        <label>MRPolyline.h</label>
+        <label>MRMesh/MRPolyline.h</label>
         <link refid="MRPolyline_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -177,19 +227,23 @@
         </childnode>
       </node>
       <node id="17">
-        <label>MRPolyline2Collide.h</label>
+        <label>MRMesh/MRPolyline2Collide.h</label>
         <link refid="MRPolyline2Collide_8h"/>
       </node>
       <node id="22">
-        <label>MRTriangleIntersection.h</label>
+        <label>MRMesh/MRTriangleIntersection.h</label>
         <link refid="MRTriangleIntersection_8h"/>
       </node>
-      <node id="19">
-        <label>MRCudaAccessor.h</label>
+      <node id="23">
+        <label>MRMesh/MRTwoLineSegmDist.h</label>
+        <link refid="MRTwoLineSegmDist_8h"/>
+      </node>
+      <node id="20">
+        <label>MRViewer/MRCudaAccessor.h</label>
         <link refid="MRCudaAccessor_8h"/>
       </node>
       <node id="18">
-        <label>MRSweptVolume.h</label>
+        <label>MRVoxels/MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
         <childnode refid="19" relation="include">
         </childnode>
@@ -197,17 +251,17 @@
         </childnode>
       </node>
       <node id="21">
-        <label>MRToolPath.h</label>
+        <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
       <node id="14">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="16">
-        <label>MRVoxelsSave.h</label>
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
     </invincdepgraph>
@@ -220,23 +274,23 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/></highlight></codeline>
-<codeline lineno="13"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;<sp/></highlight></codeline>
-<codeline lineno="14" refid="structMR_1_1LineSegm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;<sp/></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1LineSegm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga012f7dcffa0f21fdd89da4726c09fef7" kindref="member">LineSegm</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga3257b02c520c257af06a8750951851e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3257b02c520c257af06a8750951851e6" kindref="member">T</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::ValueType;</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>V<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>,<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga012f7dcffa0f21fdd89da4726c09fef7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga012f7dcffa0f21fdd89da4726c09fef7" kindref="member">LineSegm</ref>()<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1gaf25a41f042c3bade3e1bd129c6c69702" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>constexpr<sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm</ref>(<sp/>const<sp/>V<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>,<sp/>const<sp/>V<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>(<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>),<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref>(<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gaf25a41f042c3bade3e1bd129c6c69702" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>constexpr<sp/><ref refid="group__GeneralGroup_1ga012f7dcffa0f21fdd89da4726c09fef7" kindref="member">LineSegm</ref>(<sp/>const<sp/>V<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>,<sp/>const<sp/>V<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>(<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>),<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref>(<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>U&gt;</highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1ga5fe5f232802842f5c2716a95abb8c28b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5fe5f232802842f5c2716a95abb8c28b" kindref="member">LineSegm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;U&gt;</ref><sp/>&amp;<sp/>p<sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>(<sp/>p.a<sp/>),<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref>(<sp/>p.b<sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga5fe5f232802842f5c2716a95abb8c28b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5fe5f232802842f5c2716a95abb8c28b" kindref="member">LineSegm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga012f7dcffa0f21fdd89da4726c09fef7" kindref="member">LineSegm&lt;U&gt;</ref><sp/>&amp;<sp/>p<sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>(<sp/>p.a<sp/>),<sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref>(<sp/>p.b<sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1gac7639a48742e5c77367777128549d36e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>V<sp/><ref refid="group__GeneralGroup_1gac7639a48742e5c77367777128549d36e" kindref="member">dir</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/><ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1gaa0c1c59c920a38b8c03970caf1da046a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1ga3257b02c520c257af06a8750951851e6" kindref="member">T</ref><sp/><ref refid="group__GeneralGroup_1gaa0c1c59c920a38b8c03970caf1da046a" kindref="member">lengthSq</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7639a48742e5c77367777128549d36e" kindref="member">dir</ref>().lengthSq();<sp/>}</highlight></codeline>
 <codeline lineno="28" refid="group__GeneralGroup_1ga086b850940021667f55efa192653d966" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1ga3257b02c520c257af06a8750951851e6" kindref="member">T</ref><sp/><ref refid="group__GeneralGroup_1ga086b850940021667f55efa192653d966" kindref="member">length</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7639a48742e5c77367777128549d36e" kindref="member">dir</ref>().length();<sp/>}</highlight></codeline>
@@ -244,7 +298,7 @@
 <codeline lineno="31"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;<sp/></highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gabc57b066e60b9354fd351e2018fe5b7e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga300a438da6440ee7d2e92933bcfa6018" kindref="member">operator == </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;V&gt;</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;V&gt;</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gabc57b066e60b9354fd351e2018fe5b7e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kindref="member">operator == </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;V&gt;</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;V&gt;</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>==<sp/>b.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>==<sp/>b.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">}</highlight></codeline>
@@ -253,7 +307,7 @@
 <codeline lineno="40" refid="group__GeneralGroup_1ga3499fd4f69711941f919d6cfc7789d8b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>V<sp/><ref refid="group__GeneralGroup_1ga3499fd4f69711941f919d6cfc7789d8b" kindref="member">closestPointOnLineSegm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;V&gt;</ref><sp/>&amp;<sp/>l<sp/>)</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ab<sp/>=<sp/>l.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>l.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/>dot(<sp/>pt<sp/>-<sp/>l.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>,<sp/>ab<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>pt<sp/>-<sp/>l.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>,<sp/>ab<sp/>);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>abLengthSq<sp/>=<sp/>ab.lengthSq();</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>dt<sp/>&lt;=<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>l.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>;</highlight></codeline>
@@ -263,34 +317,34 @@
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>l.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>*<sp/>(<sp/>1<sp/>-<sp/>ratio<sp/>)<sp/>+<sp/>l.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>*<sp/>ratio;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;<sp/></highlight></codeline>
 <codeline lineno="56" refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" kindref="member">doSegmentsIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;V&gt;</ref><sp/>&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;V&gt;</ref><sp/>&amp;<sp/>y,</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::ValueType<sp/>*<sp/>xPos<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::ValueType<sp/>*<sp/>yPos<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xvec<sp/>=<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ya<sp/>=<sp/>cross(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>yb<sp/>=<sp/>cross(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ya<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>yb<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>ya<sp/>*<sp/>yb<sp/>&gt;<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>yvec<sp/>=<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xa<sp/>=<sp/>cross(<sp/>yvec,<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xb<sp/>=<sp/>cross(<sp/>yvec,<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xa<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>yvec,<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xb<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>yvec,<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>xa<sp/>*<sp/>xb<sp/>&gt;<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>cross(<sp/>xvec,<sp/>yvec<sp/>)<sp/>==<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>xvec,<sp/>yvec<sp/>)<sp/>==<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>xvec<sp/>!=<sp/>V()<sp/>)</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>dot(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)<sp/>*<sp/>dot(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)<sp/>&gt;<sp/>0<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dot(<sp/>-xvec,<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>*<sp/>dot(<sp/>-xvec,<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>&gt;<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)<sp/>&gt;<sp/>0<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>-xvec,<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>-xvec,<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>&gt;<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>yvec<sp/>!=<sp/>V()<sp/>)</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>dot(<sp/>yvec,<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)<sp/>*<sp/>dot(<sp/>yvec,<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)<sp/>&gt;<sp/>0<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dot(<sp/>-yvec,<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>*<sp/>dot(<sp/>-yvec,<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>&gt;<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>yvec,<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>yvec,<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)<sp/>&gt;<sp/>0<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>-yvec,<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>-yvec,<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>)<sp/>&gt;<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>!=<sp/>y.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>)</highlight></codeline>
@@ -310,12 +364,12 @@
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="106"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;<sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;<sp/></highlight></codeline>
 <codeline lineno="111" refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" kindref="member">doSegmentLineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm&lt;V&gt;</ref><sp/>&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Line" kindref="compound">Line&lt;V&gt;</ref><sp/>&amp;<sp/>y,</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::ValueType<sp/>*<sp/>xPos<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::ValueType<sp/>*<sp/>yPos<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)</highlight></codeline>
 <codeline lineno="113"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xa<sp/>=<sp/>cross(<sp/>y.<ref refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kindref="member">d</ref>,<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kindref="member">p</ref><sp/>);</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xb<sp/>=<sp/>cross(<sp/>y.<ref refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kindref="member">d</ref>,<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kindref="member">p</ref><sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xa<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>y.<ref refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kindref="member">d</ref>,<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kindref="member">p</ref><sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xb<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>y.<ref refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kindref="member">d</ref>,<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>y.<ref refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kindref="member">p</ref><sp/>);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>xa<sp/>&lt;=<sp/>0<sp/>)<sp/>==<sp/>(<sp/>xb<sp/>&lt;=<sp/>0<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
@@ -328,8 +382,8 @@
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>yPos<sp/>)</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xvec<sp/>=<sp/>x.<ref refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" kindref="member">b</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref>;</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ya<sp/>=<sp/>cross(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kindref="member">p</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>yb<sp/>=<sp/>cross(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kindref="member">p</ref><sp/>+<sp/>y.<ref refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kindref="member">d</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ya<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kindref="member">p</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>yb<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>xvec,<sp/>y.<ref refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kindref="member">p</ref><sp/>+<sp/>y.<ref refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kindref="member">d</ref><sp/>-<sp/>x.<ref refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kindref="member">a</ref><sp/>);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>denom<sp/>=<sp/>ya<sp/>-<sp/>yb;</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*yPos<sp/>=<sp/>denom<sp/>==<sp/>0<sp/>?<sp/>0<sp/>:<sp/>ya<sp/>/<sp/>denom;</highlight></codeline>
@@ -337,14 +391,14 @@
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="140"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal">MR_BIND_TEMPLATE(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" kindref="member">doSegmentsIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm&lt;Vector2&lt;float&gt;&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm&lt;Vector2&lt;float&gt;&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
-<codeline lineno="143"><highlight class="normal">MR_BIND_TEMPLATE(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" kindref="member">doSegmentsIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm&lt;Vector2&lt;double&gt;&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm&lt;Vector2&lt;double&gt;&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">MR_BIND_TEMPLATE(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" kindref="member">doSegmentsIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;float&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;float&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">MR_BIND_TEMPLATE(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" kindref="member">doSegmentsIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal">MR_BIND_TEMPLATE(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" kindref="member">doSegmentLineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm&lt;Vector2&lt;float&gt;&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4" kindref="member">Line</ref>&lt;Vector2&lt;float&gt;&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
-<codeline lineno="146"><highlight class="normal">MR_BIND_TEMPLATE(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" kindref="member">doSegmentLineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm&lt;Vector2&lt;double&gt;&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4" kindref="member">Line</ref>&lt;Vector2&lt;double&gt;&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">MR_BIND_TEMPLATE(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" kindref="member">doSegmentLineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;float&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7bd69cb78e3f605f1d440983da5ddaa7" kindref="member">Line</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;float&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">MR_BIND_TEMPLATE(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" kindref="member">doSegmentLineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7bd69cb78e3f605f1d440983da5ddaa7" kindref="member">Line</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h"/>
+    <location file="MRMesh/MRLineSegm.h"/>
   </compounddef>
 </doxygen>

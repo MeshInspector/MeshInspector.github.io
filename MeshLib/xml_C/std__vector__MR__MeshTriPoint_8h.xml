@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__MeshTriPoint_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_MeshTriPoint.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_MeshTriPoint.h</label>
+        <link refid="std__vector__MR__MeshTriPoint_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_MeshTriPoint_const_iterator MR_std_vector_MR_MeshTriPoint_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="22" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_MeshTriPoint_iterator MR_std_vector_MR_MeshTriPoint_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="26" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1af400b8e0e3b2d31dfd5fd45b374f2156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a40c3faca0d9ffe5eef3bfb74bf392e85" kindref="member">MR_std_vector_MR_MeshTriPoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="30" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="30" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a631633adfc818d3044c6a90c72310608" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1ae4dcc9322d2341d7b8db802e9e801d28" kindref="member">MR_std_vector_MR_MeshTriPoint_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a6b0656e509a07fe70ab0bccc97f2df59" kindref="member">MR_std_vector_MR_MeshTriPoint_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a1d6922952fe8a2806d7fdb8a28dae0ec" kindref="member">MR_std_vector_MR_MeshTriPoint_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="35" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="35" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aa35d7f21f58c02163d3e3f3deace32c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_MeshTriPoint *other)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a40c3faca0d9ffe5eef3bfb74bf392e85" kindref="member">MR_std_vector_MR_MeshTriPoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="41" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="41" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a4e584bd51c7424f46fc57b9beeef0538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, MR_PassBy other_pass_by, MR_std_vector_MR_MeshTriPoint *other)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a40c3faca0d9ffe5eef3bfb74bf392e85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ae4dcc9322d2341d7b8db802e9e801d28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a1d6922952fe8a2806d7fdb8a28dae0ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="57" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="57" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a6b0656e509a07fe70ab0bccc97f2df59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="61" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="61" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a184ccac558fa451edfa88e8ef5e7d27c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_MeshTriPoint_size</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_size</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ac30127a28a4b7cbea6ccc1ef8558d75a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshTriPoint_empty</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_empty</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ae73133d81f4f8c1614f9526ef489030f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_resize</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_resize</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ac5ca406930503378b8d155b6769c9762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, size_t new_size, const MR_MeshTriPoint *value)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a7f7b07a9b2adcb6b9ca7bdd94320cdae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_clear</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_clear</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ae0d7c91a4c5f3fc4eb77521ed88a262b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_MeshTriPoint_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_capacity</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a1af45a2ae762d6e90453235e1f739924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_reserve</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_reserve</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a284e6b61c20e13877f765410af361dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a9b6135b35e55b3650d37ac19e991a470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API const MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_at</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_at</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="101" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="101" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a89d3a425e0195534997c7f7313a472b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_at_mut</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="107" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="107" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aaec5adda7d4bf8273c6ee442d226e4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API const MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_front</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_front</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="112" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="112" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aea8c9e1ef10433c0c1d480552101da08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_front_mut</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="117" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="117" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a3d7fa5c283b9ea767b9f4722d7d06c73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API const MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_back</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_back</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="122" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="122" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a905e4ff91420dc5e54f43f60e2c55c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_back_mut</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="127" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="127" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a1388997dde97e0044c4f07a908192b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_push_back</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, const MR_MeshTriPoint *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_push_back</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aa69b8d8409aaee118b11cf0430146bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_pop_back</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ad3bb655fe75861f1a447c6ef854f491d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_insert</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, size_t position, const MR_MeshTriPoint *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_insert</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a05bd9ea2c9e021d07e5fa9fe80937f1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_erase</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_erase</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a7de2321a34f180bc6d0c89a86f69c0ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_iterator *position, const MR_MeshTriPoint *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a2a2757e69e1395a681215f54df238677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a3ffb04ca96e1d13ec5fdc3bc757b9981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_const_iterator *position, const MR_MeshTriPoint *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ab18bcfa78f8f5b6cbf47db6054ecc676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a1e5a951251febe34788de975055ba736" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_const_iterator * MR_std_vector_MR_MeshTriPoint_begin</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_begin</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1aadfd3c58be9dd7c20488e92a68d9ad17" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="177" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="177" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a6b4660aac67a46e04ea50652cde0902d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshTriPoint_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_is_begin</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a7d60924cd46244e5aef5eea68da7ef1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_iterator * MR_std_vector_MR_MeshTriPoint_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_begin_mut</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a2597eb6c3631d88963c349a2bbc3e3e6" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="188" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="188" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a1995c7762444038abf73885235437648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshTriPoint_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a0d53a68146b9786d5e8433597e75e73f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_const_iterator * MR_std_vector_MR_MeshTriPoint_end</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_end</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1aadfd3c58be9dd7c20488e92a68d9ad17" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="199" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="199" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aef4138ba3b90aecf3cdd16b6c634cfa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshTriPoint_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_is_end</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a6f78456f2cdb6bcbceeff22458b3515c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_iterator * MR_std_vector_MR_MeshTriPoint_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_end_mut</name>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a2597eb6c3631d88963c349a2bbc3e3e6" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="210" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="210" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aa45d74ff56585e74feeb8424430514da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshTriPoint_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ad6b1e7b8494ff6bf651d02255b3a6c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_MeshTriPoint_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_to_index</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ada05eb533f222f8b24e29101a69f7d18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_MeshTriPoint_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint *_this, const MR_std_vector_MR_MeshTriPoint_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a2b4cae298ca9b47b3d9bcd71b70ee292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_const_iterator * MR_std_vector_MR_MeshTriPoint_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1aadfd3c58be9dd7c20488e92a68d9ad17" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="229" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="229" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a2dfd720792add0604ffc4a6df15705f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_const_iterator * MR_std_vector_MR_MeshTriPoint_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a1508af41f04491833e1ccf37e7e85ddc" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a173a0b9e90e7ac690251c9614cc21b19" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a7cb8723f5c4794939a4323469168bf5f" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="234" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="234" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ae77e53442f2839f5cd03646c7403c750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_const_iterator * MR_std_vector_MR_MeshTriPoint_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1aadfd3c58be9dd7c20488e92a68d9ad17" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="241" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="241" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1acb140f01d923c3fb58929164a8e7c958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_const_iterator *_this, const MR_std_vector_MR_MeshTriPoint_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aadfd3c58be9dd7c20488e92a68d9ad17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a1508af41f04491833e1ccf37e7e85ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a7cb8723f5c4794939a4323469168bf5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshTriPoint_const_iterator * MR_std_vector_MR_MeshTriPoint_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="258" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="258" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a173a0b9e90e7ac690251c9614cc21b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_const_iterator * MR_std_vector_MR_MeshTriPoint_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="262" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="262" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a0516deabc8b4d5371f880f3208aded54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_const_iterator * MR_std_vector_MR_MeshTriPoint_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1aadfd3c58be9dd7c20488e92a68d9ad17" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="267" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="267" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1af767304db5b0854c7a0e1a1fcd79131e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_iterator * MR_std_vector_MR_MeshTriPoint_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a2597eb6c3631d88963c349a2bbc3e3e6" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="271" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="271" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1ad39a93c3b0ee884c3a7fb3f5cb151e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_iterator * MR_std_vector_MR_MeshTriPoint_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a98b123742449f7a53442eaf0b1771c7f" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a261a83df008f87d3303901f14e68c4eb" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a1ed4c201e64724ee57b3af31429f6811" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="276" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="276" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aa752752e0d5e9e3146b5b93139593cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_iterator * MR_std_vector_MR_MeshTriPoint_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a2597eb6c3631d88963c349a2bbc3e3e6" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="283" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="283" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a641e0a9d2bb0238812c15aa331b1936d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_iterator *_this, const MR_std_vector_MR_MeshTriPoint_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a2597eb6c3631d88963c349a2bbc3e3e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a98b123742449f7a53442eaf0b1771c7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a1ed4c201e64724ee57b3af31429f6811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshTriPoint_iterator * MR_std_vector_MR_MeshTriPoint_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="300" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="300" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a261a83df008f87d3303901f14e68c4eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshTriPoint_iterator * MR_std_vector_MR_MeshTriPoint_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="304" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="304" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a6bf6ddd8c8fe7d845e0cfe9cc68b1ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API const MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="310" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="310" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a8ac8da0658ae3b64d8b604a57d8fee50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a545be3ebc2855ccd3b2d919b101d8239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a771f87a3b970f9ab02d0f44b02dc8a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a3ee2f19168d2e630985a00c4b3b9d573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_MeshTriPoint_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_const_iterator *a, const MR_std_vector_MR_MeshTriPoint_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_MeshTriPoint_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aaf20ce8c5c9ec2ed972c4ccba2b93f60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_MeshTriPoint_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_const_iterator *a, const MR_std_vector_MR_MeshTriPoint_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_MeshTriPoint_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aea4304c2be18b1362da4050d6ba22c17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_MeshTriPoint * MR_std_vector_MR_MeshTriPoint_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="338" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="338" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a7ee01a030a262d6340e5451eaf4887e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a13840ca197c52a6db844b03202e65ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a3e8f6ee4e5f8df409528d925ee49fd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshTriPoint_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_MeshTriPoint_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_MeshTriPoint_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1aa4ae95761370b584b20fac83175dd520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_MeshTriPoint_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_iterator *a, const MR_std_vector_MR_MeshTriPoint_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_MeshTriPoint_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshTriPoint_8h_1a89fae847b9fbe4cdaca136f72a5b4e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_MeshTriPoint_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshTriPoint_iterator *a, const MR_std_vector_MR_MeshTriPoint_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_MeshTriPoint_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__MeshTriPoint_8h_1af400b8e0e3b2d31dfd5fd45b374f2156" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1af400b8e0e3b2d31dfd5fd45b374f2156" kindref="member">MR_std_vector_MR_MeshTriPoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__MeshTriPoint_8h_1a631633adfc818d3044c6a90c72310608" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a631633adfc818d3044c6a90c72310608" kindref="member">MR_std_vector_MR_MeshTriPoint_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__MeshTriPoint_8h_1aa35d7f21f58c02163d3e3f3deace32c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1aa35d7f21f58c02163d3e3f3deace32c2" kindref="member">MR_std_vector_MR_MeshTriPoint_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__MeshTriPoint_8h_1a4e584bd51c7424f46fc57b9beeef0538" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a4e584bd51c7424f46fc57b9beeef0538" kindref="member">MR_std_vector_MR_MeshTriPoint_AssignFromAnother</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__MeshTriPoint_8h_1a40c3faca0d9ffe5eef3bfb74bf392e85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a40c3faca0d9ffe5eef3bfb74bf392e85" kindref="member">MR_std_vector_MR_MeshTriPoint_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__MeshTriPoint_8h_1ae4dcc9322d2341d7b8db802e9e801d28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ae4dcc9322d2341d7b8db802e9e801d28" kindref="member">MR_std_vector_MR_MeshTriPoint_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__MeshTriPoint_8h_1a1d6922952fe8a2806d7fdb8a28dae0ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a1d6922952fe8a2806d7fdb8a28dae0ec" kindref="member">MR_std_vector_MR_MeshTriPoint_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__MeshTriPoint_8h_1a6b0656e509a07fe70ab0bccc97f2df59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a6b0656e509a07fe70ab0bccc97f2df59" kindref="member">MR_std_vector_MR_MeshTriPoint_OffsetMutablePtr</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__MeshTriPoint_8h_1a184ccac558fa451edfa88e8ef5e7d27c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a184ccac558fa451edfa88e8ef5e7d27c" kindref="member">MR_std_vector_MR_MeshTriPoint_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__MeshTriPoint_8h_1ac30127a28a4b7cbea6ccc1ef8558d75a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ac30127a28a4b7cbea6ccc1ef8558d75a" kindref="member">MR_std_vector_MR_MeshTriPoint_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__MeshTriPoint_8h_1ae73133d81f4f8c1614f9526ef489030f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ae73133d81f4f8c1614f9526ef489030f" kindref="member">MR_std_vector_MR_MeshTriPoint_resize</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__MeshTriPoint_8h_1ac5ca406930503378b8d155b6769c9762" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ac5ca406930503378b8d155b6769c9762" kindref="member">MR_std_vector_MR_MeshTriPoint_resize_with_default_value</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__MeshTriPoint_8h_1a7f7b07a9b2adcb6b9ca7bdd94320cdae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a7f7b07a9b2adcb6b9ca7bdd94320cdae" kindref="member">MR_std_vector_MR_MeshTriPoint_clear</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__MeshTriPoint_8h_1ae0d7c91a4c5f3fc4eb77521ed88a262b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ae0d7c91a4c5f3fc4eb77521ed88a262b" kindref="member">MR_std_vector_MR_MeshTriPoint_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__MeshTriPoint_8h_1a1af45a2ae762d6e90453235e1f739924" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a1af45a2ae762d6e90453235e1f739924" kindref="member">MR_std_vector_MR_MeshTriPoint_reserve</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__MeshTriPoint_8h_1a284e6b61c20e13877f765410af361dff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a284e6b61c20e13877f765410af361dff" kindref="member">MR_std_vector_MR_MeshTriPoint_shrink_to_fit</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__MeshTriPoint_8h_1a9b6135b35e55b3650d37ac19e991a470" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a9b6135b35e55b3650d37ac19e991a470" kindref="member">MR_std_vector_MR_MeshTriPoint_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__MeshTriPoint_8h_1a89d3a425e0195534997c7f7313a472b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a89d3a425e0195534997c7f7313a472b9" kindref="member">MR_std_vector_MR_MeshTriPoint_at_mut</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__MeshTriPoint_8h_1aaec5adda7d4bf8273c6ee442d226e4e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1aaec5adda7d4bf8273c6ee442d226e4e8" kindref="member">MR_std_vector_MR_MeshTriPoint_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__MeshTriPoint_8h_1aea8c9e1ef10433c0c1d480552101da08" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1aea8c9e1ef10433c0c1d480552101da08" kindref="member">MR_std_vector_MR_MeshTriPoint_front_mut</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__MeshTriPoint_8h_1a3d7fa5c283b9ea767b9f4722d7d06c73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a3d7fa5c283b9ea767b9f4722d7d06c73" kindref="member">MR_std_vector_MR_MeshTriPoint_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__MeshTriPoint_8h_1a905e4ff91420dc5e54f43f60e2c55c74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a905e4ff91420dc5e54f43f60e2c55c74" kindref="member">MR_std_vector_MR_MeshTriPoint_back_mut</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__MeshTriPoint_8h_1a1388997dde97e0044c4f07a908192b97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a1388997dde97e0044c4f07a908192b97" kindref="member">MR_std_vector_MR_MeshTriPoint_push_back</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__MeshTriPoint_8h_1aa69b8d8409aaee118b11cf0430146bc8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1aa69b8d8409aaee118b11cf0430146bc8" kindref="member">MR_std_vector_MR_MeshTriPoint_pop_back</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__MeshTriPoint_8h_1ad3bb655fe75861f1a447c6ef854f491d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ad3bb655fe75861f1a447c6ef854f491d" kindref="member">MR_std_vector_MR_MeshTriPoint_insert</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__MeshTriPoint_8h_1a05bd9ea2c9e021d07e5fa9fe80937f1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a05bd9ea2c9e021d07e5fa9fe80937f1b" kindref="member">MR_std_vector_MR_MeshTriPoint_erase</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__MeshTriPoint_8h_1a7de2321a34f180bc6d0c89a86f69c0ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a7de2321a34f180bc6d0c89a86f69c0ec" kindref="member">MR_std_vector_MR_MeshTriPoint_insert_at_mutable_iter</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__MeshTriPoint_8h_1a2a2757e69e1395a681215f54df238677" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a2a2757e69e1395a681215f54df238677" kindref="member">MR_std_vector_MR_MeshTriPoint_erase_at_mutable_iter</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__MeshTriPoint_8h_1a3ffb04ca96e1d13ec5fdc3bc757b9981" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a3ffb04ca96e1d13ec5fdc3bc757b9981" kindref="member">MR_std_vector_MR_MeshTriPoint_insert_at_iter</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__MeshTriPoint_8h_1ab18bcfa78f8f5b6cbf47db6054ecc676" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ab18bcfa78f8f5b6cbf47db6054ecc676" kindref="member">MR_std_vector_MR_MeshTriPoint_erase_at_iter</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__MeshTriPoint_8h_1a1e5a951251febe34788de975055ba736" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a1e5a951251febe34788de975055ba736" kindref="member">MR_std_vector_MR_MeshTriPoint_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__MeshTriPoint_8h_1a6b4660aac67a46e04ea50652cde0902d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6b4660aac67a46e04ea50652cde0902d" kindref="member">MR_std_vector_MR_MeshTriPoint_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__MeshTriPoint_8h_1a7d60924cd46244e5aef5eea68da7ef1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a7d60924cd46244e5aef5eea68da7ef1f" kindref="member">MR_std_vector_MR_MeshTriPoint_begin_mut</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__MeshTriPoint_8h_1a1995c7762444038abf73885235437648" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a1995c7762444038abf73885235437648" kindref="member">MR_std_vector_MR_MeshTriPoint_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__MeshTriPoint_8h_1a0d53a68146b9786d5e8433597e75e73f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a0d53a68146b9786d5e8433597e75e73f" kindref="member">MR_std_vector_MR_MeshTriPoint_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__MeshTriPoint_8h_1aef4138ba3b90aecf3cdd16b6c634cfa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1aef4138ba3b90aecf3cdd16b6c634cfa5" kindref="member">MR_std_vector_MR_MeshTriPoint_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__MeshTriPoint_8h_1a6f78456f2cdb6bcbceeff22458b3515c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a6f78456f2cdb6bcbceeff22458b3515c" kindref="member">MR_std_vector_MR_MeshTriPoint_end_mut</ref>(<ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__MeshTriPoint_8h_1aa45d74ff56585e74feeb8424430514da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1aa45d74ff56585e74feeb8424430514da" kindref="member">MR_std_vector_MR_MeshTriPoint_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__MeshTriPoint_8h_1ad6b1e7b8494ff6bf651d02255b3a6c86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ad6b1e7b8494ff6bf651d02255b3a6c86" kindref="member">MR_std_vector_MR_MeshTriPoint_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__MeshTriPoint_8h_1ada05eb533f222f8b24e29101a69f7d18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1ada05eb533f222f8b24e29101a69f7d18" kindref="member">MR_std_vector_MR_MeshTriPoint_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__MeshTriPoint_8h_1a2b4cae298ca9b47b3d9bcd71b70ee292" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a2b4cae298ca9b47b3d9bcd71b70ee292" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__MeshTriPoint_8h_1a2dfd720792add0604ffc4a6df15705f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a2dfd720792add0604ffc4a6df15705f5" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__MeshTriPoint_8h_1ae77e53442f2839f5cd03646c7403c750" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1ae77e53442f2839f5cd03646c7403c750" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__MeshTriPoint_8h_1acb140f01d923c3fb58929164a8e7c958" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1acb140f01d923c3fb58929164a8e7c958" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__MeshTriPoint_8h_1aadfd3c58be9dd7c20488e92a68d9ad17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1aadfd3c58be9dd7c20488e92a68d9ad17" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__MeshTriPoint_8h_1a1508af41f04491833e1ccf37e7e85ddc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a1508af41f04491833e1ccf37e7e85ddc" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__MeshTriPoint_8h_1a7cb8723f5c4794939a4323469168bf5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a7cb8723f5c4794939a4323469168bf5f" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__MeshTriPoint_8h_1a173a0b9e90e7ac690251c9614cc21b19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a173a0b9e90e7ac690251c9614cc21b19" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__MeshTriPoint_8h_1a0516deabc8b4d5371f880f3208aded54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a0516deabc8b4d5371f880f3208aded54" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__MeshTriPoint_8h_1af767304db5b0854c7a0e1a1fcd79131e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1af767304db5b0854c7a0e1a1fcd79131e" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__MeshTriPoint_8h_1ad39a93c3b0ee884c3a7fb3f5cb151e5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1ad39a93c3b0ee884c3a7fb3f5cb151e5c" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__MeshTriPoint_8h_1aa752752e0d5e9e3146b5b93139593cf7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1aa752752e0d5e9e3146b5b93139593cf7" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__MeshTriPoint_8h_1a641e0a9d2bb0238812c15aa331b1936d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a641e0a9d2bb0238812c15aa331b1936d" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__MeshTriPoint_8h_1a2597eb6c3631d88963c349a2bbc3e3e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a2597eb6c3631d88963c349a2bbc3e3e6" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__MeshTriPoint_8h_1a98b123742449f7a53442eaf0b1771c7f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a98b123742449f7a53442eaf0b1771c7f" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__MeshTriPoint_8h_1a1ed4c201e64724ee57b3af31429f6811" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a1ed4c201e64724ee57b3af31429f6811" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__MeshTriPoint_8h_1a261a83df008f87d3303901f14e68c4eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a261a83df008f87d3303901f14e68c4eb" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__MeshTriPoint_8h_1a6bf6ddd8c8fe7d845e0cfe9cc68b1ef3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1a6bf6ddd8c8fe7d845e0cfe9cc68b1ef3" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__MeshTriPoint_8h_1a8ac8da0658ae3b64d8b604a57d8fee50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8ac8da0658ae3b64d8b604a57d8fee50" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_incr</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__MeshTriPoint_8h_1a545be3ebc2855ccd3b2d919b101d8239" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a545be3ebc2855ccd3b2d919b101d8239" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_decr</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__MeshTriPoint_8h_1a771f87a3b970f9ab02d0f44b02dc8a7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a771f87a3b970f9ab02d0f44b02dc8a7b" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__MeshTriPoint_8h_1a3ee2f19168d2e630985a00c4b3b9d573" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a3ee2f19168d2e630985a00c4b3b9d573" kindref="member">MR_sub_MR_std_vector_MR_MeshTriPoint_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__MeshTriPoint_8h_1aaf20ce8c5c9ec2ed972c4ccba2b93f60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1aaf20ce8c5c9ec2ed972c4ccba2b93f60" kindref="member">MR_equal_MR_std_vector_MR_MeshTriPoint_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a6bde8dad6608bd7551df044e3cd769d4" kindref="member">MR_std_vector_MR_MeshTriPoint_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__MeshTriPoint_8h_1aea4304c2be18b1362da4050d6ba22c17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__vector__MR__MeshTriPoint_8h_1aea4304c2be18b1362da4050d6ba22c17" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__MeshTriPoint_8h_1a7ee01a030a262d6340e5451eaf4887e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a7ee01a030a262d6340e5451eaf4887e6" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_incr</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__MeshTriPoint_8h_1a13840ca197c52a6db844b03202e65ba4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a13840ca197c52a6db844b03202e65ba4" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_decr</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__MeshTriPoint_8h_1a3e8f6ee4e5f8df409528d925ee49fd2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a3e8f6ee4e5f8df409528d925ee49fd2a" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator_add_assign</ref>(<ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__MeshTriPoint_8h_1aa4ae95761370b584b20fac83175dd520" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1aa4ae95761370b584b20fac83175dd520" kindref="member">MR_sub_MR_std_vector_MR_MeshTriPoint_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__MeshTriPoint_8h_1a89fae847b9fbe4cdaca136f72a5b4e26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a89fae847b9fbe4cdaca136f72a5b4e26" kindref="member">MR_equal_MR_std_vector_MR_MeshTriPoint_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshTriPoint_8h_1a8d00bdc0473f9f37cae78eb741444180" kindref="member">MR_std_vector_MR_MeshTriPoint_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshTriPoint.h"/>
+  </compounddef>
+</doxygen>

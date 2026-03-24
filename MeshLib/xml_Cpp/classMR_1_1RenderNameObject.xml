@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderNameObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderNameObject</compoundname>
     <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
-    <includes refid="MRRenderNameObject_8h" local="no">MRRenderNameObject.h</includes>
+    <includes refid="MRRenderNameObject_8h" local="no">MRViewer/MRRenderNameObject.h</includes>
     <innerclass refid="structMR_1_1RenderNameObject_1_1Task" prot="private">MR::RenderNameObject::Task</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaecb61a158ef2e9ddf82490093b706d09" kind="variable"><name>task_</name></member>
@@ -18,9 +18,9 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga69c0c2402a4627adbdc249752455b85d" kind="function"><name>RenderNameObject</name></member>
-      <member refid="group__GeneralGroup_1ga85d8945ec399906e1fea281443b0f95b" kind="function"><name>renderUi</name></member>
-      <member refid="group__GeneralGroup_1gabe38b27c54c9e73bcaaec12c763a5548" kind="function"><name>getObjectNameText</name></member>
-      <member refid="group__GeneralGroup_1ga35847863e6041c18811a8700ebf5b618" kind="function"><name>getObjectNameExtraText</name></member>
+      <member refid="group__GeneralGroup_1ga5f1d4cd4588edcedc661a41a00ce1842" kind="function"><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga8fb0ea359c9ad7eeeb64f82cd4e4359e" kind="function"><name>getObjectNameText</name></member>
+      <member refid="group__GeneralGroup_1gae6c471394e6e8eb94106946f63d5e2d1" kind="function"><name>getObjectNameExtraText</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -50,11 +50,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderNameObject.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderNameObject.h" bodystart="19" bodyend="82"/>
+    <location file="MRViewer/MRRenderNameObject.h" line="18" column="1" bodyfile="MRViewer/MRRenderNameObject.h" bodystart="19" bodyend="82"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6cc3204a31145ab371e129da393b7215" prot="public" virt="virtual"><scope>MR::RenderNameObject</scope><name>forceBindAll</name></member>
-      <member refid="group__GeneralGroup_1ga35847863e6041c18811a8700ebf5b618" prot="public" virt="virtual"><scope>MR::RenderNameObject</scope><name>getObjectNameExtraText</name></member>
-      <member refid="group__GeneralGroup_1gabe38b27c54c9e73bcaaec12c763a5548" prot="public" virt="virtual"><scope>MR::RenderNameObject</scope><name>getObjectNameText</name></member>
+      <member refid="group__GeneralGroup_1gae6c471394e6e8eb94106946f63d5e2d1" prot="public" virt="virtual"><scope>MR::RenderNameObject</scope><name>getObjectNameExtraText</name></member>
+      <member refid="group__GeneralGroup_1ga8fb0ea359c9ad7eeeb64f82cd4e4359e" prot="public" virt="virtual"><scope>MR::RenderNameObject</scope><name>getObjectNameText</name></member>
       <member refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" prot="public" virt="pure-virtual"><scope>MR::RenderNameObject</scope><name>glBytes</name></member>
       <member refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" prot="public" virt="pure-virtual"><scope>MR::RenderNameObject</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1ga4dd0fcaa01f1c3f38ba3160e1ea99826" prot="public" virt="non-virtual"><scope>MR::RenderNameObject</scope><name>nameUiLocalOffset</name></member>
@@ -66,7 +66,7 @@
       <member refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" prot="public" virt="pure-virtual"><scope>MR::RenderNameObject</scope><name>render</name></member>
       <member refid="group__GeneralGroup_1ga69c0c2402a4627adbdc249752455b85d" prot="public" virt="non-virtual"><scope>MR::RenderNameObject</scope><name>RenderNameObject</name></member>
       <member refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" prot="public" virt="pure-virtual"><scope>MR::RenderNameObject</scope><name>renderPicker</name></member>
-      <member refid="group__GeneralGroup_1ga85d8945ec399906e1fea281443b0f95b" prot="public" virt="virtual"><scope>MR::RenderNameObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga5f1d4cd4588edcedc661a41a00ce1842" prot="public" virt="virtual"><scope>MR::RenderNameObject</scope><name>renderUi</name></member>
       <member refid="group__GeneralGroup_1gaecb61a158ef2e9ddf82490093b706d09" prot="private" virt="non-virtual"><scope>MR::RenderNameObject</scope><name>task_</name></member>
       <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderNameObject</scope><name>~IRenderObject</name></member>
     </listofallmembers>

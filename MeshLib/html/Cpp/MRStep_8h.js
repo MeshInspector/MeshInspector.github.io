@@ -1,7 +1,8 @@
 var MRStep_8h =
 [
-    [ "fromSceneStepFile", "MRStep_8h.html#abe5065ffde4d1425331b865265807b7e", null ],
-    [ "fromSceneStepFile", "MRStep_8h.html#adad8cf91a6a24357a4abdeffc053e6cf", null ],
-    [ "fromStep", "MRStep_8h.html#abbf7faeb36062c71f04bafb9137d97bf", null ],
-    [ "fromStep", "MRStep_8h.html#a18cc94bfc1baa02c861e6023774fcd8b", null ]
+    [ "MR::MeshLoad::StepLoadSettings", "structMR_1_1MeshLoad_1_1StepLoadSettings.html", "structMR_1_1MeshLoad_1_1StepLoadSettings" ],
+    [ "MR::MeshLoad::fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#af82c12efa3f3e13a47d5616a3a2dd5a1", null ],
+    [ "MR::MeshLoad::fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#a2359a5b19e144222f02b54bbd1c64ea7", null ],
+    [ "MR::MeshLoad::fromStep", "namespaceMR_1_1MeshLoad.html#af8cb15148c8421e06a2fb126237416d4", null ],
+    [ "MR::MeshLoad::fromStep", "namespaceMR_1_1MeshLoad.html#a949d7b6686c5cb76b565854e32918ea5", null ]
 ];

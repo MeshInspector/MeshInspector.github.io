@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1UI" kind="namespace" language="C++">
     <compoundname>MR::UI</compoundname>
     <innerclass refid="structMR_1_1UI_1_1ButtonCustomizationParams" prot="public">MR::UI::ButtonCustomizationParams</innerclass>
@@ -27,9 +27,9 @@
       <member refid="group__GeneralGroup_1ga7ce97f5be533c3522d66cb2fbfaf250f" kind="variable"><name>defaultSliderFlags</name></member>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1UI_1a50698dfeecb0a68a2ddfc71eae08a0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::UI::nonOverlappingLabel</definition>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1a62974a19abd9783255dced3579c49e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::UI::nonOverlappingLabel</definition>
         <argsstring>()</argsstring>
         <name>nonOverlappingLabel</name>
         <qualifiedname>MR::UI::nonOverlappingLabel</qualifiedname>
@@ -40,11 +40,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="43" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" declline="43" declcolumn="19"/>
+        <location file="MRViewer/MRUINonOverlappingLabels.h" line="43" column="7" declfile="MRViewer/MRUINonOverlappingLabels.h" declline="43" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1UI_1a5caf1537f165f3557d3f718bfb47a032" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref> &amp;</type>
-        <definition>MRVIEWER_API WindowRectAllocator &amp; MR::UI::getDefaultWindowRectAllocator</definition>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1a1b2da483d87fc6d65243ab1e365a1a89" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref> &amp;</type>
+        <definition>WindowRectAllocator &amp; MR::UI::getDefaultWindowRectAllocator</definition>
         <argsstring>()</argsstring>
         <name>getDefaultWindowRectAllocator</name>
         <qualifiedname>MR::UI::getDefaultWindowRectAllocator</qualifiedname>
@@ -54,11 +54,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="95" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" declline="95" declcolumn="35"/>
+        <location file="MRViewer/MRUIRectAllocator.h" line="95" column="23" declfile="MRViewer/MRUIRectAllocator.h" declline="95" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1UI_1a8782e9cded23844b3ae2138d6287b99c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref> &amp;</type>
-        <definition>MRVIEWER_API LabelRectAllocator &amp; MR::UI::getDefaultLabelRectAllocator</definition>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1a152d0b2c8b5f2ed42476ab4ffeccdb44" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref> &amp;</type>
+        <definition>LabelRectAllocator &amp; MR::UI::getDefaultLabelRectAllocator</definition>
         <argsstring>()</argsstring>
         <name>getDefaultLabelRectAllocator</name>
         <qualifiedname>MR::UI::getDefaultLabelRectAllocator</qualifiedname>
@@ -68,53 +68,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="118" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" declline="118" declcolumn="34"/>
+        <location file="MRViewer/MRUIRectAllocator.h" line="118" column="22" declfile="MRViewer/MRUIRectAllocator.h" declline="118" declcolumn="22"/>
       </memberdef>
-      <member refid="group__GeneralGroup_1gaf1937d08c3cb699681eeb7fd4dde005e" kind="function"><name>saveChangesPopup</name></member>
-      <member refid="group__GeneralGroup_1ga5d2fd1d58ef16bcced4cfefc67d2c023" kind="function"><name>scale</name></member>
-      <member refid="group__GeneralGroup_1ga1e1ec7c96ccb4a9963415c5d53b50081" kind="function"><name>isItemActive</name></member>
-      <member refid="group__GeneralGroup_1ga0d337a1adf7e16aaa08b683a6b65e886" kind="function"><name>getTexture</name></member>
-      <member refid="group__GeneralGroup_1ga986e400ed59dea0ae3e54284d9b8d110" kind="function"><name>init</name></member>
-      <member refid="group__GeneralGroup_1gad5f5d8b8b0e1a7192c658352c6b0a4a2" kind="function"><name>getImGuiModPrimaryCtrl</name></member>
-      <member refid="group__GeneralGroup_1gaef6aee6b25d8ef46fa79ca793724ce57" kind="function"><name>getImGuiPrimaryCtrlName</name></member>
-      <member refid="group__GeneralGroup_1ga6d5300d4685c08883eebec83b277c71a" kind="function"><name>checkKey</name></member>
-      <member refid="group__GeneralGroup_1ga8e2e5a94838570d15a333a1f11ebea6d" kind="function"><name>buttonEx</name></member>
-      <member refid="group__GeneralGroup_1gad36410efe7dec5964b4857d7d6978975" kind="function"><name>buttonEx</name></member>
-      <member refid="group__GeneralGroup_1gae14306471133180f84a3a02650ced599" kind="function"><name>button</name></member>
+      <member refid="group__GeneralGroup_1ga07b8484f3cb783f25cfba5964f6adc23" kind="function"><name>saveChangesPopup</name></member>
+      <member refid="group__GeneralGroup_1ga1f1e28fea78aec9cd7466142e64d5dc8" kind="function"><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga597724a20f801bd861eae361fdbc09f5" kind="function"><name>isItemActive</name></member>
+      <member refid="group__GeneralGroup_1ga5f60f09ca0ec1e1fdc5b3e18a48df65a" kind="function"><name>getTexture</name></member>
+      <member refid="group__GeneralGroup_1gae19a547457c762941f3c9373c493b328" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gacbeee4f5a5992d28dd9afdac0c247ed0" kind="function"><name>getImGuiModPrimaryCtrl</name></member>
+      <member refid="group__GeneralGroup_1ga04c5021b765196b5c08680395c8b43b9" kind="function"><name>getImGuiPrimaryCtrlName</name></member>
+      <member refid="group__GeneralGroup_1gac0e975d98d60a5816f4b591ae33998cb" kind="function"><name>checkKey</name></member>
+      <member refid="group__GeneralGroup_1ga048022f8db9ba805720a9295c5b807dc" kind="function"><name>buttonEx</name></member>
+      <member refid="group__GeneralGroup_1ga4724e42d45423eb5a14d4ef2ad6ce8ce" kind="function"><name>buttonEx</name></member>
+      <member refid="group__GeneralGroup_1ga51bbdede216ec98a179b1d79c7778424" kind="function"><name>button</name></member>
       <member refid="group__GeneralGroup_1gad13b9be4aa5cae65c61e91ac1ab04ecd" kind="function"><name>button</name></member>
-      <member refid="group__GeneralGroup_1gaffdd9ce8585853bc545f4f60bda2611f" kind="function"><name>buttonCommonSize</name></member>
-      <member refid="group__GeneralGroup_1gaca27e412cdac5850b5894de3b19321b9" kind="function"><name>buttonUnique</name></member>
-      <member refid="group__GeneralGroup_1gab942eba103eec750f809a30b78753bcc" kind="function"><name>drawPoltHorizontalAxis</name></member>
-      <member refid="group__GeneralGroup_1gabd0b046581a9cea311efcbb11a16b2ff" kind="function"><name>drawPoltVerticalAxis</name></member>
-      <member refid="group__GeneralGroup_1gab53314e24f68de52f675b6881591b212" kind="function"><name>buttonIconEx</name></member>
+      <member refid="group__GeneralGroup_1gaf3fe99ef2ac60ce444b1fa8b1d9924eb" kind="function"><name>buttonCommonSize</name></member>
+      <member refid="group__GeneralGroup_1gaeb8e40c5030727effc3d479aef63aab5" kind="function"><name>buttonUnique</name></member>
+      <member refid="group__GeneralGroup_1ga6616c6cb8fc7980e716baaf503de9594" kind="function"><name>drawPoltHorizontalAxis</name></member>
+      <member refid="group__GeneralGroup_1ga35ba12315e807886b07432c6a09f06bd" kind="function"><name>drawPoltVerticalAxis</name></member>
+      <member refid="group__GeneralGroup_1gab41f3c193c5d11bb63c508635a903c18" kind="function"><name>buttonIconEx</name></member>
       <member refid="group__GeneralGroup_1ga336fa6393e7abeefe2f5d4e8f29d75a6" kind="function"><name>buttonIcon</name></member>
       <member refid="group__GeneralGroup_1ga4e984c41bbd6d1102d9a05c16ad0ebb1" kind="function"><name>buttonIconFlatBG</name></member>
-      <member refid="group__GeneralGroup_1gaabff9f0c939748442c1095fa471e389b" kind="function"><name>buttonUniqueIcon</name></member>
-      <member refid="group__GeneralGroup_1gaf1d819a7e036a6af0d93441966c462c4" kind="function"><name>toggle</name></member>
-      <member refid="group__GeneralGroup_1ga53a8b0ecd1302a3bda2f1df01ef818a8" kind="function"><name>checkbox</name></member>
-      <member refid="group__GeneralGroup_1ga9b2e8bbfe90af034977fca967163a4d4" kind="function"><name>checkboxOrFixedValue</name></member>
-      <member refid="group__GeneralGroup_1ga877e7bd4fbef2de7e95cee03dc0f71b3" kind="function"><name>checkboxValid</name></member>
-      <member refid="group__GeneralGroup_1gab4909c09a4671c9b042825346cf6f637" kind="function"><name>checkboxMixed</name></member>
+      <member refid="group__GeneralGroup_1ga58ec49881680b1fd6db854b68c14d051" kind="function"><name>buttonUniqueIcon</name></member>
+      <member refid="group__GeneralGroup_1gacf18e839e546ee2e215a7749eb39e3fb" kind="function"><name>toggle</name></member>
+      <member refid="group__GeneralGroup_1ga5eb9e7cf777d1d49bb4ff9014d5c2ecc" kind="function"><name>checkbox</name></member>
+      <member refid="group__GeneralGroup_1ga44c1ea072b256b7ae6f25f34ea02bd36" kind="function"><name>checkboxOrFixedValue</name></member>
+      <member refid="group__GeneralGroup_1gade42daff92fe99bd56d3811c1f03d37f" kind="function"><name>checkboxValid</name></member>
+      <member refid="group__GeneralGroup_1gaf9fe1762f9d482bc97ef29f32c482d32" kind="function"><name>checkboxMixed</name></member>
       <member refid="group__GeneralGroup_1ga9542cf007c0f98d41fea874268894222" kind="function"><name>checkbox</name></member>
       <member refid="group__GeneralGroup_1ga5ac8bec4cccdbdcba62669312b5cefca" kind="function"><name>checkboxValid</name></member>
       <member refid="group__GeneralGroup_1gaba6c7c72b70351ba42eae4e3a2e0df4b" kind="function"><name>checkboxFlags</name></member>
-      <member refid="group__GeneralGroup_1ga0c37be14d527eafdf4f327608985ab9e" kind="function"><name>checkboxOrModifier</name></member>
-      <member refid="group__GeneralGroup_1ga8475dd1f1a29f5bb0edc0fcd7c53d115" kind="function"><name>radioButton</name></member>
-      <member refid="group__GeneralGroup_1gaf6f24e8f5454ee5851179f720cd07eb4" kind="function"><name>radioButtonOrFixedValue</name></member>
-      <member refid="group__GeneralGroup_1ga106b8bc31fb0bf822e4d25da72a41ead" kind="function"><name>radioButtonOrModifier</name></member>
-      <member refid="group__GeneralGroup_1gaaa136c1366383c9c03db4f4b7520c2a6" kind="function"><name>colorEdit4</name></member>
-      <member refid="group__GeneralGroup_1gacb0c4c1be185e69b6f58108b3471f882" kind="function"><name>colorEdit4</name></member>
-      <member refid="group__GeneralGroup_1ga820aa2a94b65ad7536194e8527f89a12" kind="function"><name>combo</name></member>
-      <member refid="group__GeneralGroup_1ga72b7457df4d4b5353fc89751ef8d9501" kind="function"><name>beginCombo</name></member>
-      <member refid="group__GeneralGroup_1ga8cffb4ab7998318c522df73a1d12a4f9" kind="function"><name>endCombo</name></member>
-      <member refid="group__GeneralGroup_1gaf81d056e2ca2afaceec0e67e12ed9afb" kind="function"><name>inputText</name></member>
-      <member refid="group__GeneralGroup_1ga8e4c6b5d376e0b7733631a2901b86d4b" kind="function"><name>inputTextIntoArray</name></member>
-      <member refid="group__GeneralGroup_1gab4275e67335731ec2250b16795f2e4a1" kind="function"><name>inputTextMultiline</name></member>
-      <member refid="group__GeneralGroup_1ga31bf75f2c49957b473bd51d2aeb25ec8" kind="function"><name>inputTextIntoArrayMultiline</name></member>
-      <member refid="group__GeneralGroup_1ga0e4fcd89c72f4be1967ab7ba90d92c1b" kind="function"><name>inputTextMultilineFullyScrollable</name></member>
-      <member refid="group__GeneralGroup_1ga5e2b43c7fc21e6665c27724211ffb039" kind="function"><name>inputTextIntoArrayMultilineFullyScrollable</name></member>
-      <member refid="group__GeneralGroup_1gafc1009af05439b78707e8372d21f9a87" kind="function"><name>inputTextCentered</name></member>
-      <member refid="group__GeneralGroup_1ga5e2ab9c1b7ae397ac4ef58403551d17c" kind="function"><name>inputTextCenteredReadOnly</name></member>
+      <member refid="group__GeneralGroup_1ga835470ee64e548dcc3ab716a798a7138" kind="function"><name>checkboxOrModifier</name></member>
+      <member refid="group__GeneralGroup_1ga7cc8ce03a319165e963759f32f10a6ed" kind="function"><name>radioButton</name></member>
+      <member refid="group__GeneralGroup_1ga24fbd4d34f4c8fb7619417e8b9f89dd9" kind="function"><name>radioButtonOrFixedValue</name></member>
+      <member refid="group__GeneralGroup_1gae23e34c7d540e2fdac1c814aa87b9fc8" kind="function"><name>radioButtonOrModifier</name></member>
+      <member refid="group__GeneralGroup_1ga9d58ddb6c791dae5e351f4840fe1e0d7" kind="function"><name>colorEdit4</name></member>
+      <member refid="group__GeneralGroup_1ga23c5e251a1465055f90bb9f927e4457f" kind="function"><name>colorEdit4</name></member>
+      <member refid="group__GeneralGroup_1ga6c7b3d3c1a92df8922d837b21ce204e7" kind="function"><name>combo</name></member>
+      <member refid="group__GeneralGroup_1ga2193c08b263eaf7846514617a8cceb3d" kind="function"><name>beginCombo</name></member>
+      <member refid="group__GeneralGroup_1ga7dc615f9f11bece5ca09e64692f2a345" kind="function"><name>endCombo</name></member>
+      <member refid="group__GeneralGroup_1ga8ef408d20f36346c3def4ea505ffa9bb" kind="function"><name>comboElem</name></member>
+      <member refid="group__GeneralGroup_1ga2c6272f604f041b385fcb0fd25eb8838" kind="function"><name>inputText</name></member>
+      <member refid="group__GeneralGroup_1gac57d6a8b1c3753dfbc2f3ba92671b62f" kind="function"><name>inputTextIntoArray</name></member>
+      <member refid="group__GeneralGroup_1gaaef133295e612ebeb0b2d3286d560f43" kind="function"><name>inputTextMultiline</name></member>
+      <member refid="group__GeneralGroup_1gad3a22ba617eb135e3d33c413f0ed69cb" kind="function"><name>inputTextIntoArrayMultiline</name></member>
+      <member refid="group__GeneralGroup_1ga7312b1606a282f1ad4353afcc7d20b0e" kind="function"><name>inputTextMultilineFullyScrollable</name></member>
+      <member refid="group__GeneralGroup_1ga13a9f801e26e30dff13981ea3479195f" kind="function"><name>inputTextIntoArrayMultilineFullyScrollable</name></member>
+      <member refid="group__GeneralGroup_1gac6e1d47398c0698542a3bc3c6e0471c4" kind="function"><name>inputTextCentered</name></member>
+      <member refid="group__GeneralGroup_1gad9caf1b51b14e5d738f86cf7b31726db" kind="function"><name>inputTextCenteredReadOnly</name></member>
       <member refid="group__GeneralGroup_1ga73b24c79591c799e7d48900fbeb29f28" kind="function"><name>getDefaultDragSpeed</name></member>
       <member refid="group__GeneralGroup_1ga34c3f1871780efe66e47bcc052cefd3d" kind="function"><name>getDefaultStep</name></member>
       <member refid="group__GeneralGroup_1ga7ede0f8f76cc959c7be6cb81ee9174f8" kind="function"><name>slider</name></member>
@@ -124,34 +125,34 @@
       <member refid="group__GeneralGroup_1ga7e2c992cf1725ac8f53f110fdb0f5541" kind="function"><name>plusMinusGeneric</name></member>
       <member refid="group__GeneralGroup_1ga59568041afcf5034cb6871916598a340" kind="function"><name>dragPlusMinus</name></member>
       <member refid="group__GeneralGroup_1ga2d696a4ba7ed6899c61e4f297218a530" kind="function"><name>inputPlusMinus</name></member>
-      <member refid="group__GeneralGroup_1ga8383efc65d62e5b793a5e660ecd07c1e" kind="function"><name>notificationChar</name></member>
-      <member refid="group__GeneralGroup_1ga86829359873813f479f46ac25fb54708" kind="function"><name>mouseControlHint</name></member>
-      <member refid="group__GeneralGroup_1ga94309985ed89c89e0d6199e0c6a2e333" kind="function"><name>transparentText</name></member>
-      <member refid="group__GeneralGroup_1ga2e82aeb6c8dcd97dab6e1f0e68d4fed4" kind="function"><name>transparentTextWrapped</name></member>
-      <member refid="group__GeneralGroup_1ga48b16082f6b002090c0a1170ed6c5eab" kind="function"><name>notificationFrame</name></member>
-      <member refid="group__GeneralGroup_1gacc1b0768c46020da319d0cd47c499308" kind="function"><name>setTooltipIfHovered</name></member>
-      <member refid="group__GeneralGroup_1ga66d0089d8a8616f6c454c5bce46731a0" kind="function"><name>separator</name></member>
-      <member refid="group__GeneralGroup_1ga489ca486b23bdee5ee17ba7afcb6a8d6" kind="function"><name>separator</name></member>
-      <member refid="group__GeneralGroup_1gab9c07e6962a54926b13596b7ecbbdae0" kind="function"><name>separator</name></member>
-      <member refid="group__GeneralGroup_1ga878027b7be9898c79a8e079b56ccc99c" kind="function"><name>separator</name></member>
-      <member refid="group__GeneralGroup_1gac1aee2cb41aa2e487c0cca2604c28e31" kind="function"><name>separator</name></member>
-      <member refid="group__GeneralGroup_1gafacb65ecd8ca9e640f01ffc1b7963245" kind="function"><name>progressBar</name></member>
-      <member refid="group__GeneralGroup_1gab5dcf6cb9ab83cbd7fd1a8ff6659136f" kind="function"><name>beginTabBar</name></member>
-      <member refid="group__GeneralGroup_1ga1b2f7496c5cc2c04acdc85d6ad564a63" kind="function"><name>endTabBar</name></member>
-      <member refid="group__GeneralGroup_1gafbf63021d04e94c878b093fd86fef43f" kind="function"><name>beginTabItem</name></member>
-      <member refid="group__GeneralGroup_1ga321f93b24c9b7d723ce8aec45fe75374" kind="function"><name>endTabItem</name></member>
-      <member refid="group__GeneralGroup_1gafadef8b878371dc0bc9aa07df5dec003" kind="function"><name>alignTextToFramePadding</name></member>
-      <member refid="group__GeneralGroup_1ga66dc61c68cc74e41c52ec9552380924e" kind="function"><name>alignTextToControl</name></member>
-      <member refid="group__GeneralGroup_1ga88497709249abe39b1a8945f1da37c1d" kind="function"><name>alignTextToRadioButton</name></member>
-      <member refid="group__GeneralGroup_1ga3502094462c7bea898971f68600afd5d" kind="function"><name>alignTextToCheckBox</name></member>
-      <member refid="group__GeneralGroup_1ga349b19917b34be8d0e7c991e3ea1b747" kind="function"><name>alignTextToButton</name></member>
-      <member refid="group__GeneralGroup_1ga5abc6e37a08e8c040cded2ae7ccd147b" kind="function"><name>highlightWindowArea</name></member>
-      <member refid="group__GeneralGroup_1gac87e004a565fe8b0a9d822499a594fb7" kind="function"><name>saveCustomConfigModal</name></member>
+      <member refid="group__GeneralGroup_1gab657442894f53abfacde49fa08c8043e" kind="function"><name>notificationChar</name></member>
+      <member refid="group__GeneralGroup_1ga399037581eed5ef17e203bb0586fdf9d" kind="function"><name>mouseControlHint</name></member>
+      <member refid="group__GeneralGroup_1gae688f6f6bfbffdc8e8142b0d9dc81c48" kind="function"><name>transparentText</name></member>
+      <member refid="group__GeneralGroup_1ga621da772abd72cdc839b77de5aaa597f" kind="function"><name>transparentTextWrapped</name></member>
+      <member refid="group__GeneralGroup_1ga2a928890b9a43f6554cc6d37bf2897f1" kind="function"><name>notificationFrame</name></member>
+      <member refid="group__GeneralGroup_1ga72a6e43be3b0234ba5c386345b8a8914" kind="function"><name>setTooltipIfHovered</name></member>
+      <member refid="group__GeneralGroup_1ga107537384f8b9e8e591f0b00448faf11" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1ga10ae9385473f4d17bbd6f2aa48f49d1f" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1ga8733c4ac5d571077d258598620c69a36" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1ga822e1ee1f929d534781ec0a2a5f6b754" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1gaf8af2aa7c1bad64f628911cb17972401" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1ga053ef267b6d0adb6ab4753aee85f5e98" kind="function"><name>progressBar</name></member>
+      <member refid="group__GeneralGroup_1gad9043e988ce7766a2c812aadd292751e" kind="function"><name>beginTabBar</name></member>
+      <member refid="group__GeneralGroup_1ga5053136a20524c6750a30a4506b4414a" kind="function"><name>endTabBar</name></member>
+      <member refid="group__GeneralGroup_1gaa5ea346391fd7ce3e2859908a526f17a" kind="function"><name>beginTabItem</name></member>
+      <member refid="group__GeneralGroup_1gacae35e4fee0a92de63be2b7554fd54f6" kind="function"><name>endTabItem</name></member>
+      <member refid="group__GeneralGroup_1gacc10795315e96496e8a1fcd4d7858352" kind="function"><name>alignTextToFramePadding</name></member>
+      <member refid="group__GeneralGroup_1gad0d6065df69d3b45a0bb703a08ed5824" kind="function"><name>alignTextToControl</name></member>
+      <member refid="group__GeneralGroup_1gaa91dc686ca5d29c22d29449cd378a62b" kind="function"><name>alignTextToRadioButton</name></member>
+      <member refid="group__GeneralGroup_1gae32b665c63449b0aa55f9462116b138e" kind="function"><name>alignTextToCheckBox</name></member>
+      <member refid="group__GeneralGroup_1gaa2a7445893c79401607de9a52a62a7d1" kind="function"><name>alignTextToButton</name></member>
+      <member refid="group__GeneralGroup_1ga637238a58e24b49026d735227b16bad9" kind="function"><name>highlightWindowArea</name></member>
+      <member refid="group__GeneralGroup_1ga0ccb8c76d1cf02640ffb750f83373ef8" kind="function"><name>saveCustomConfigModal</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="9" column="1"/>
+    <location file="MRViewer/MRUINonOverlappingLabels.h" line="9" column="1"/>
   </compounddef>
 </doxygen>

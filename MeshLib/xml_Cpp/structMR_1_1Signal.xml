@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Signal" kind="struct" language="C++" prot="public">
     <compoundname>MR::Signal</compoundname>
     <basecompoundref prot="public" virt="non-virtual">boost::signals2::signal&lt; T &gt;</basecompoundref>
-    <includes refid="MRSignal_8h" local="no">MRSignal.h</includes>
+    <includes refid="MRSignal_8h" local="no">MRMesh/MRSignal.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -44,7 +44,7 @@
         <label>boost::signals2::signal&lt; T &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSignal.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSignal.h" bodystart="27" bodyend="34"/>
+    <location file="MRMesh/MRSignal.h" line="26" column="1" bodyfile="MRMesh/MRSignal.h" bodystart="27" bodyend="34"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad2ac352405fa0b18359e9604a84d95eb" prot="public" virt="non-virtual"><scope>MR::Signal</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga69ea1c4cfb77f79ea8c163ceb39ef970" prot="public" virt="non-virtual"><scope>MR::Signal</scope><name>operator=</name></member>

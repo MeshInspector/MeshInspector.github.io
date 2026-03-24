@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TransformedMesh" kind="class" language="C#" prot="public">
     <compoundname>MR::TransformedMesh</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TransformedMesh</basecompoundref>
@@ -84,7 +84,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TransformedMesh_1acc9155f19c5235e343b0b1ad850a2b4e" kindref="member">MR.TransformedMesh.TransformedMesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -103,7 +103,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TransformedMesh_1acc9155f19c5235e343b0b1ad850a2b4e" kindref="member">MR.TransformedMesh.TransformedMesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -122,7 +122,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TransformedMesh_1acc9155f19c5235e343b0b1ad850a2b4e" kindref="member">MR.TransformedMesh.TransformedMesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,7 +146,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. Parameter <computeroutput>xf</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TransformedMesh_1acc9155f19c5235e343b0b1ad850a2b4e" kindref="member">MR.TransformedMesh.TransformedMesh</ref></computeroutput>. Parameter <computeroutput>xf</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -165,7 +165,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TransformedMesh.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TransformedMesh::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -184,7 +184,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>union operation on two meshes Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+<para>union operation on two meshes Generated from function <computeroutput>MR::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -203,7 +203,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>difference operation on two meshes Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+<para>difference operation on two meshes Generated from function <computeroutput>MR::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -222,7 +222,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>intersection operation on two meshes Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>intersection operation on two meshes Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,7 +243,7 @@
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. Parameter <computeroutput>xf</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TransformedMesh_1acc9155f19c5235e343b0b1ad850a2b4e" kindref="member">MR.TransformedMesh.TransformedMesh</ref></computeroutput>. Parameter <computeroutput>xf</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -258,45 +258,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_TransformedMesh</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TransformedMesh</label>
         <link refid="classMR_1_1TransformedMesh"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TransformedMesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TransformedMesh &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_TransformedMesh</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TransformedMesh</label>
         <link refid="classMR_1_1TransformedMesh"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TransformedMesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TransformedMesh &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="120" bodyend="246"/>

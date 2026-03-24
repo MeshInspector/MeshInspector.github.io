@@ -1,10 +1,6 @@
 var MREdgeLengthMesh_8h =
 [
     [ "MR_EdgeLengthMesh", "MREdgeLengthMesh_8h.html#a21d0c9081671ec94a88f3883cd8e36f2", null ],
-    [ "MR_Mesh", "MREdgeLengthMesh_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTopology", "MREdgeLengthMesh_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
-    [ "MR_std_optional_float", "MREdgeLengthMesh_8h.html#a55e42a260ef15081eb6a47c600bd1f4b", null ],
-    [ "MR_UndirectedEdgeScalars", "MREdgeLengthMesh_8h.html#af24d03a25a98fafdbaf79dfeda2fc526", null ],
     [ "MR_EdgeLengthMesh_AssignFromAnother", "MREdgeLengthMesh_8h.html#a79e9815df135b73a7e8640fc10d46a73", null ],
     [ "MR_EdgeLengthMesh_ConstructFrom", "MREdgeLengthMesh_8h.html#a73b7521d8eee6830ace017a53dd979d5", null ],
     [ "MR_EdgeLengthMesh_ConstructFromAnother", "MREdgeLengthMesh_8h.html#ac7c7f2d49b04c953bb542fafece99b69", null ],

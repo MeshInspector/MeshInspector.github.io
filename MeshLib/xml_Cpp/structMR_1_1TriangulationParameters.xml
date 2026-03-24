@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TriangulationParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::TriangulationParameters</compoundname>
-    <includes refid="MRPointCloudTriangulation_8h" local="no">MRPointCloudTriangulation.h</includes>
+    <includes refid="MRPointCloudTriangulation_8h" local="no">MRMesh/MRPointCloudTriangulation.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1TriangulationParameters_1af9e046f71d9cf4b908279bd24f0a1707" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -21,16 +21,16 @@ Too big value increases difficulty of optimization and decreases performance</pa
 <table rows="1" cols="2"><caption id="structMR_1_1TriangulationParameters_1TriangulationParameters::numNeighbours_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_2.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="36" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="36" column="9" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationParameters_1a474b58f25243d6fbbaee08808d91e4cd" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -46,7 +46,7 @@ Too big value increases difficulty of optimization and decreases performance</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="43" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="43" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="43" column="11" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationParameters_1aebe6d2d03a26dccb4842f001e3506202" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -62,16 +62,16 @@ Too big value increases difficulty of optimization and decreases performance</pa
 <para><table rows="1" cols="2"><caption id="structMR_1_1TriangulationParameters_1TriangulationParameters::critAngle_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_4.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="56" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="56" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="56" column="11" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationParameters_1a2266345249c3a1483c179688e4dad925" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -87,7 +87,7 @@ Too big value increases difficulty of optimization and decreases performance</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="59" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="59" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="59" column="11" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationParameters_1a18b9e4beb720ba7134c197142243b529" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -104,7 +104,7 @@ Too big value increases difficulty of optimization and decreases performance</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="65" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="65" column="11" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationParameters_1ad996c79c53b722337bb916669996e58a" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -120,7 +120,7 @@ Too big value increases difficulty of optimization and decreases performance</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="68" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="68" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="68" column="10" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationParameters_1a08e53e768a419301b8abf98737e18046" prot="public" static="no" mutable="no">
         <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> *</type>
@@ -136,14 +136,14 @@ Too big value increases difficulty of optimization and decreases performance</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="71" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="71" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="71" column="23" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="71" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
 <para>Parameters of point cloud triangulation. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="group__PointCloudTriangulationGroup_1ga9a35a19f982f5409d7939ad87946a479" kindref="member">triangulatePointCloud</ref> </para>
+<para><simplesect kind="see"><para><ref refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" kindref="member">triangulatePointCloud</ref> </para>
 </simplesect>
 </para>
     </detaileddescription>
@@ -160,7 +160,7 @@ Too big value increases difficulty of optimization and decreases performance</pa
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="22" bodyend="72"/>
+    <location file="MRMesh/MRPointCloudTriangulation.h" line="21" column="1" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="22" bodyend="72"/>
     <listofallmembers>
       <member refid="structMR_1_1TriangulationParameters_1ad996c79c53b722337bb916669996e58a" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>automaticRadiusIncrease</name></member>
       <member refid="structMR_1_1TriangulationParameters_1a2266345249c3a1483c179688e4dad925" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>boundaryAngle</name></member>

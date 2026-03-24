@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PartialChangeMeshAction" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PartialChangeMeshAction</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
@@ -27,7 +27,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42429" bodyend="42433"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43373" bodyend="43377"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshAction_1ae43d051cf6e503310763c8f258d63d08" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -51,7 +51,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42436" bodyend="42439"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43380" bodyend="43383"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshAction_1ae43d051cf6e503310763c8f258d63d08" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -73,7 +73,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42442" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42442" bodyend="42443"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43386" bodyend="43387"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshAction_1a93fe98881a940c929e9ded0a191ef93b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -98,7 +98,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42445" bodyend="42446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43389" bodyend="43390"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshAction_1a0ecad143254f44e8916d25feec870df9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PartialChangeMeshAction" kindref="compound">PartialChangeMeshAction</ref></type>
@@ -121,7 +121,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42449" bodyend="42450"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43393" bodyend="43394"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshAction_1a0ecad143254f44e8916d25feec870df9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PartialChangeMeshAction" kindref="compound">PartialChangeMeshAction</ref></type>
@@ -144,7 +144,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42453" bodyend="42454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43397" bodyend="43398"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -170,7 +170,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42456" bodyend="42459"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43400" bodyend="43403"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshAction_1a46ef31418298239387f09f2781bd614a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -191,7 +191,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42460" bodyend="42461"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43404" bodyend="43405"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshAction_1a48130f4a9f4b898c9920d2bfa3aef42c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -210,7 +210,7 @@ and old mesh is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42462" bodyend="42463"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43406" bodyend="43407"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -245,7 +245,7 @@ Undo action for efficiently storage of partial change in mesh (e.g. a modificati
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42421" bodyend="42463"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43365" bodyend="43407"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PartialChangeMeshAction_1ae43d051cf6e503310763c8f258d63d08" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PartialChangeMeshAction_1ae43d051cf6e503310763c8f258d63d08" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshAction</scope><name>__init__</name></member>

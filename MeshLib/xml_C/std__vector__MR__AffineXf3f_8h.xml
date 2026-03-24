@@ -1,0 +1,1777 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__AffineXf3f_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_AffineXf3f.h</compoundname>
+    <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRCMesh/MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_AffineXf3f.h</label>
+        <link refid="std__vector__MR__AffineXf3f_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ade4f9b6e48bea7a0d3bcd5363c0ed5a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1ab9613ced5a38a08c0ff6a92fc1b409c3" kindref="member">MR_std_vector_MR_AffineXf3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="29" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="29" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1acdbdbee04151e2cd8afd313cd5a221e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1af77d38ba5cbfae390f0452fab261089f" kindref="member">MR_std_vector_MR_AffineXf3f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a28e8184a2e3ab2194460fe73369a2502" kindref="member">MR_std_vector_MR_AffineXf3f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a745a41f2f8b2e1132a8169132ea6b88d" kindref="member">MR_std_vector_MR_AffineXf3f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="34" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="34" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a30a06f22f39bfbf488c52cc90d6d8e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_AffineXf3f *other)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1ab9613ced5a38a08c0ff6a92fc1b409c3" kindref="member">MR_std_vector_MR_AffineXf3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="40" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="40" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ad11495999a99ba7036d7d666df32fa92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, MR_PassBy other_pass_by, MR_std_vector_MR_AffineXf3f *other)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ab9613ced5a38a08c0ff6a92fc1b409c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1af77d38ba5cbfae390f0452fab261089f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a745a41f2f8b2e1132a8169132ea6b88d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="56" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="56" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a28e8184a2e3ab2194460fe73369a2502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="60" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="60" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a2ec764b305f93be025e20a1151bb6ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_ConstructFromRange</definition>
+        <argsstring>(const MR_AffineXf3f *ptr, size_t size)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_ConstructFromRange</name>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a range of elements. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1ab9613ced5a38a08c0ff6a92fc1b409c3" kindref="member">MR_std_vector_MR_AffineXf3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="64" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="64" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a933930aed3b5494b534c1f1e23217619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_AssignFromRange</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, const MR_AffineXf3f *ptr, size_t size)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_AssignFromRange</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign from a range of elements, overwriting previous contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="68" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a602abff87bc0766c01362f2c6f45c2a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_AffineXf3f_size</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_size</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="72" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="72" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ae3e1577f9ad8ad89e731097792ddcff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AffineXf3f_empty</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_empty</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="76" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a56825a4fa17e05c966d9c146025ce646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_resize</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_resize</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a64b59bc365045d82e9eca736cbe821fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, size_t new_size, const MR_AffineXf3f *value)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="85" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a3b48e94772614aee1fce6c3405bfeb66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_clear</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_clear</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ac9a8242abdffa12bae887901f35c42f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_AffineXf3f_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_capacity</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="94" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="94" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a4cf1cfbb3311d1b6d2dc042d5c9a55ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_reserve</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_reserve</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a040d3217d93352b1b066f57ff585aa03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a292adb82eb044e8229e71ce2957c5f6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_at</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_at</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="108" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="108" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1aae838e65abe4510549d06b67e5af8115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_at_mut</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="114" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="114" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a24626e5235e377ea4f456154129a07c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_front</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_front</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="119" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="119" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a2089f2690c94913e7aec8e02a237c5d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_front_mut</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="124" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="124" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a0e3715b79d569b4db2f03dc267530b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_back</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_back</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="129" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="129" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a240e82eb4570fb2be17c93da59bb6ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_back_mut</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="134" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="134" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a8521da661e650d972477b34074599c54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_data</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_data</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="139" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="139" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a3c4ec44a570fe523350ab1f331feddd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_data_mut</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_data_mut</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="144" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="144" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a8201fc9eca3128f5bce56a1903538368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_push_back</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, MR_AffineXf3f new_elem)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_push_back</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="149" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ab6d5dc4ae9f495579abb6941802ca731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_pop_back</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="153" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a9c690a6d80a612d5e9600d995694fe3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_insert</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, size_t position, MR_AffineXf3f new_elem)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_insert</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="158" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ae8902c03fba203b778064084d5bec375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_erase</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_erase</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a13f0e9b7a75fccaed5651def27887aeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_iterator *position, MR_AffineXf3f new_elem)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="168" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a91e68ccf38284d323ee165a2e57ec492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="173" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1af75678a7bf08ec75853bb6a3292c6bc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_const_iterator *position, MR_AffineXf3f new_elem)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="179" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ab1d4b5effe908d5bc9f799bb41889b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="184" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a32aa53134bcb035dd8c710d3ce091e1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_const_iterator * MR_std_vector_MR_AffineXf3f_begin</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_begin</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a59f00b0cbbde544965107e0734060dd6" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="190" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="190" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a401e3d7ef68588d375a026e052d74289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AffineXf3f_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_is_begin</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="195" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="195" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a0ef674baa88c709da542d4005f3c60db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_iterator * MR_std_vector_MR_AffineXf3f_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_begin_mut</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1aa3784d17b509644363a34f6489d02c0d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="201" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="201" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a1c0cf6ef8484cdb5264d5f13c163e629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AffineXf3f_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="206" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="206" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1aac8848af00a0f894b42144eef42dacae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_const_iterator * MR_std_vector_MR_AffineXf3f_end</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_end</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a59f00b0cbbde544965107e0734060dd6" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="212" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="212" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ab98aada732b2a2e44f1cfdbcfd261c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AffineXf3f_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_is_end</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="217" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a8d5704c973ebbae9887de0f39d1efcc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_iterator * MR_std_vector_MR_AffineXf3f_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_end_mut</name>
+        <param>
+          <type><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1aa3784d17b509644363a34f6489d02c0d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="223" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="223" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1aa111cfde9cd7c2be28959528afa7065a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AffineXf3f_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="228" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a823c57f9069d24bf9a3ff2ddb655e20e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_AffineXf3f_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_to_index</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="233" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="233" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a4a7032cdc68bb465e88fdc5827d35cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_AffineXf3f_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f *_this, const MR_std_vector_MR_AffineXf3f_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="238" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="238" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ab28f4ddae812cdd86e12899e56846c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_const_iterator * MR_std_vector_MR_AffineXf3f_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a59f00b0cbbde544965107e0734060dd6" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="242" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="242" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1aaffca5220a48a6884e2fd73adb01ff99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_const_iterator * MR_std_vector_MR_AffineXf3f_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1ac67dd825571a3ce0d0d33b5358588a51" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a745ee28e8b70cc684b4c68c69502d3a6" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1aeb8cf01d594bfb4853a7520ecc909c7c" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="247" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="247" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a5ef6bad304b9c69d1a31d155b92f907d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_const_iterator * MR_std_vector_MR_AffineXf3f_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a59f00b0cbbde544965107e0734060dd6" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="254" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="254" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ae1b8e89a847cbb5bdbfc7e088b30f283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_const_iterator *_this, const MR_std_vector_MR_AffineXf3f_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="261" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a59f00b0cbbde544965107e0734060dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="264" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="264" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ac67dd825571a3ce0d0d33b5358588a51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="267" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="267" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1aeb8cf01d594bfb4853a7520ecc909c7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AffineXf3f_const_iterator * MR_std_vector_MR_AffineXf3f_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="271" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="271" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a745ee28e8b70cc684b4c68c69502d3a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_const_iterator * MR_std_vector_MR_AffineXf3f_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="275" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="275" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ad93c59b1b4aaaf238ecbde95cfd42dc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_const_iterator * MR_std_vector_MR_AffineXf3f_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a59f00b0cbbde544965107e0734060dd6" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="280" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="280" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ab9c88545d19f01fd0934642c51da39ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_iterator * MR_std_vector_MR_AffineXf3f_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1aa3784d17b509644363a34f6489d02c0d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="284" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="284" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a4ea309159f069229429bb1b490e50fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_iterator * MR_std_vector_MR_AffineXf3f_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a7864f7754f9f978776b1ab9865d0c259" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1adbf51ae8259266ff7166941dd1e438fc" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1a2497c038e02bd55d913786412ec045a4" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="289" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="289" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a8c3dab57176300aa1544eb4ca38c0ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_iterator * MR_std_vector_MR_AffineXf3f_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AffineXf3f_8h_1aa3784d17b509644363a34f6489d02c0d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="296" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="296" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1aaad5bfc9bba97f9f92ba79e49fa4aaab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_iterator *_this, const MR_std_vector_MR_AffineXf3f_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="303" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="303" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1aa3784d17b509644363a34f6489d02c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="306" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="306" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a7864f7754f9f978776b1ab9865d0c259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="309" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="309" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a2497c038e02bd55d913786412ec045a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AffineXf3f_iterator * MR_std_vector_MR_AffineXf3f_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="313" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="313" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1adbf51ae8259266ff7166941dd1e438fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AffineXf3f_iterator * MR_std_vector_MR_AffineXf3f_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="317" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="317" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a6897ba7512f695dc70199c8e7022af82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="323" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="323" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a0be4613136575d98441930346efedbfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="327" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="327" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a51f3269594ca81d052e9a8816a16029e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="331" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="331" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1af1d24ded80457e430d27bc5d96c138a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="335" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="335" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a458d5e29dba68c6cc35dd749ce4795e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_AffineXf3f_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_const_iterator *a, const MR_std_vector_MR_AffineXf3f_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_AffineXf3f_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="340" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="340" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a65f91fd2fa05acabbcca380692d3f85c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_AffineXf3f_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_const_iterator *a, const MR_std_vector_MR_AffineXf3f_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_AffineXf3f_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="345" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="345" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a557dc3a1a9e6c7efd2b5df8afe10a36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_std_vector_MR_AffineXf3f_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="351" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="351" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a5aca42d2237fbe37269ffd42361beaba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="355" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="355" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a7e4e1ae9cffbc8a58562ccceea89af07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="359" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="359" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a76aa1f5522b97326f69532229d5b6af0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AffineXf3f_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_AffineXf3f_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_AffineXf3f_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="363" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="363" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1ad911a163c01de1eae9ceb0dab476885d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_AffineXf3f_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_iterator *a, const MR_std_vector_MR_AffineXf3f_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_AffineXf3f_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="368" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="368" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AffineXf3f_8h_1a89135bfda87325af0872b3a185a72539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_AffineXf3f_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AffineXf3f_iterator *a, const MR_std_vector_MR_AffineXf3f_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_AffineXf3f_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" line="373" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h" declline="373" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__vector__MR__AffineXf3f_8h_1ade4f9b6e48bea7a0d3bcd5363c0ed5a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1ade4f9b6e48bea7a0d3bcd5363c0ed5a9" kindref="member">MR_std_vector_MR_AffineXf3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="std__vector__MR__AffineXf3f_8h_1acdbdbee04151e2cd8afd313cd5a221e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1acdbdbee04151e2cd8afd313cd5a221e7" kindref="member">MR_std_vector_MR_AffineXf3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="std__vector__MR__AffineXf3f_8h_1a30a06f22f39bfbf488c52cc90d6d8e90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a30a06f22f39bfbf488c52cc90d6d8e90" kindref="member">MR_std_vector_MR_AffineXf3f_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__vector__MR__AffineXf3f_8h_1ad11495999a99ba7036d7d666df32fa92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ad11495999a99ba7036d7d666df32fa92" kindref="member">MR_std_vector_MR_AffineXf3f_AssignFromAnother</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__vector__MR__AffineXf3f_8h_1ab9613ced5a38a08c0ff6a92fc1b409c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ab9613ced5a38a08c0ff6a92fc1b409c3" kindref="member">MR_std_vector_MR_AffineXf3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__vector__MR__AffineXf3f_8h_1af77d38ba5cbfae390f0452fab261089f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1af77d38ba5cbfae390f0452fab261089f" kindref="member">MR_std_vector_MR_AffineXf3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="std__vector__MR__AffineXf3f_8h_1a745a41f2f8b2e1132a8169132ea6b88d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a745a41f2f8b2e1132a8169132ea6b88d" kindref="member">MR_std_vector_MR_AffineXf3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__vector__MR__AffineXf3f_8h_1a28e8184a2e3ab2194460fe73369a2502" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a28e8184a2e3ab2194460fe73369a2502" kindref="member">MR_std_vector_MR_AffineXf3f_OffsetMutablePtr</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__vector__MR__AffineXf3f_8h_1a2ec764b305f93be025e20a1151bb6ec5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a2ec764b305f93be025e20a1151bb6ec5" kindref="member">MR_std_vector_MR_AffineXf3f_ConstructFromRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="std__vector__MR__AffineXf3f_8h_1a933930aed3b5494b534c1f1e23217619" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a933930aed3b5494b534c1f1e23217619" kindref="member">MR_std_vector_MR_AffineXf3f_AssignFromRange</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__vector__MR__AffineXf3f_8h_1a602abff87bc0766c01362f2c6f45c2a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a602abff87bc0766c01362f2c6f45c2a4" kindref="member">MR_std_vector_MR_AffineXf3f_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__vector__MR__AffineXf3f_8h_1ae3e1577f9ad8ad89e731097792ddcff4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ae3e1577f9ad8ad89e731097792ddcff4" kindref="member">MR_std_vector_MR_AffineXf3f_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__vector__MR__AffineXf3f_8h_1a56825a4fa17e05c966d9c146025ce646" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a56825a4fa17e05c966d9c146025ce646" kindref="member">MR_std_vector_MR_AffineXf3f_resize</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="std__vector__MR__AffineXf3f_8h_1a64b59bc365045d82e9eca736cbe821fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a64b59bc365045d82e9eca736cbe821fd" kindref="member">MR_std_vector_MR_AffineXf3f_resize_with_default_value</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="std__vector__MR__AffineXf3f_8h_1a3b48e94772614aee1fce6c3405bfeb66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a3b48e94772614aee1fce6c3405bfeb66" kindref="member">MR_std_vector_MR_AffineXf3f_clear</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="std__vector__MR__AffineXf3f_8h_1ac9a8242abdffa12bae887901f35c42f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ac9a8242abdffa12bae887901f35c42f6" kindref="member">MR_std_vector_MR_AffineXf3f_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__vector__MR__AffineXf3f_8h_1a4cf1cfbb3311d1b6d2dc042d5c9a55ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a4cf1cfbb3311d1b6d2dc042d5c9a55ea" kindref="member">MR_std_vector_MR_AffineXf3f_reserve</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="std__vector__MR__AffineXf3f_8h_1a040d3217d93352b1b066f57ff585aa03" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a040d3217d93352b1b066f57ff585aa03" kindref="member">MR_std_vector_MR_AffineXf3f_shrink_to_fit</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__vector__MR__AffineXf3f_8h_1a292adb82eb044e8229e71ce2957c5f6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a292adb82eb044e8229e71ce2957c5f6c" kindref="member">MR_std_vector_MR_AffineXf3f_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="std__vector__MR__AffineXf3f_8h_1aae838e65abe4510549d06b67e5af8115" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1aae838e65abe4510549d06b67e5af8115" kindref="member">MR_std_vector_MR_AffineXf3f_at_mut</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="std__vector__MR__AffineXf3f_8h_1a24626e5235e377ea4f456154129a07c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a24626e5235e377ea4f456154129a07c8" kindref="member">MR_std_vector_MR_AffineXf3f_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="std__vector__MR__AffineXf3f_8h_1a2089f2690c94913e7aec8e02a237c5d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a2089f2690c94913e7aec8e02a237c5d1" kindref="member">MR_std_vector_MR_AffineXf3f_front_mut</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="std__vector__MR__AffineXf3f_8h_1a0e3715b79d569b4db2f03dc267530b97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a0e3715b79d569b4db2f03dc267530b97" kindref="member">MR_std_vector_MR_AffineXf3f_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="std__vector__MR__AffineXf3f_8h_1a240e82eb4570fb2be17c93da59bb6ac3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a240e82eb4570fb2be17c93da59bb6ac3" kindref="member">MR_std_vector_MR_AffineXf3f_back_mut</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="std__vector__MR__AffineXf3f_8h_1a8521da661e650d972477b34074599c54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a8521da661e650d972477b34074599c54" kindref="member">MR_std_vector_MR_AffineXf3f_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="std__vector__MR__AffineXf3f_8h_1a3c4ec44a570fe523350ab1f331feddd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a3c4ec44a570fe523350ab1f331feddd6" kindref="member">MR_std_vector_MR_AffineXf3f_data_mut</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="std__vector__MR__AffineXf3f_8h_1a8201fc9eca3128f5bce56a1903538368" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a8201fc9eca3128f5bce56a1903538368" kindref="member">MR_std_vector_MR_AffineXf3f_push_back</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="std__vector__MR__AffineXf3f_8h_1ab6d5dc4ae9f495579abb6941802ca731" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ab6d5dc4ae9f495579abb6941802ca731" kindref="member">MR_std_vector_MR_AffineXf3f_pop_back</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="std__vector__MR__AffineXf3f_8h_1a9c690a6d80a612d5e9600d995694fe3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a9c690a6d80a612d5e9600d995694fe3a" kindref="member">MR_std_vector_MR_AffineXf3f_insert</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__AffineXf3f_8h_1ae8902c03fba203b778064084d5bec375" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ae8902c03fba203b778064084d5bec375" kindref="member">MR_std_vector_MR_AffineXf3f_erase</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="std__vector__MR__AffineXf3f_8h_1a13f0e9b7a75fccaed5651def27887aeb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a13f0e9b7a75fccaed5651def27887aeb" kindref="member">MR_std_vector_MR_AffineXf3f_insert_at_mutable_iter</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*position,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__AffineXf3f_8h_1a91e68ccf38284d323ee165a2e57ec492" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a91e68ccf38284d323ee165a2e57ec492" kindref="member">MR_std_vector_MR_AffineXf3f_erase_at_mutable_iter</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="std__vector__MR__AffineXf3f_8h_1af75678a7bf08ec75853bb6a3292c6bc1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1af75678a7bf08ec75853bb6a3292c6bc1" kindref="member">MR_std_vector_MR_AffineXf3f_insert_at_iter</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*position,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__AffineXf3f_8h_1ab1d4b5effe908d5bc9f799bb41889b61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ab1d4b5effe908d5bc9f799bb41889b61" kindref="member">MR_std_vector_MR_AffineXf3f_erase_at_iter</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="std__vector__MR__AffineXf3f_8h_1a32aa53134bcb035dd8c710d3ce091e1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a32aa53134bcb035dd8c710d3ce091e1b" kindref="member">MR_std_vector_MR_AffineXf3f_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__AffineXf3f_8h_1a401e3d7ef68588d375a026e052d74289" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a401e3d7ef68588d375a026e052d74289" kindref="member">MR_std_vector_MR_AffineXf3f_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="std__vector__MR__AffineXf3f_8h_1a0ef674baa88c709da542d4005f3c60db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a0ef674baa88c709da542d4005f3c60db" kindref="member">MR_std_vector_MR_AffineXf3f_begin_mut</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__AffineXf3f_8h_1a1c0cf6ef8484cdb5264d5f13c163e629" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a1c0cf6ef8484cdb5264d5f13c163e629" kindref="member">MR_std_vector_MR_AffineXf3f_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="std__vector__MR__AffineXf3f_8h_1aac8848af00a0f894b42144eef42dacae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1aac8848af00a0f894b42144eef42dacae" kindref="member">MR_std_vector_MR_AffineXf3f_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="std__vector__MR__AffineXf3f_8h_1ab98aada732b2a2e44f1cfdbcfd261c76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ab98aada732b2a2e44f1cfdbcfd261c76" kindref="member">MR_std_vector_MR_AffineXf3f_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="std__vector__MR__AffineXf3f_8h_1a8d5704c973ebbae9887de0f39d1efcc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a8d5704c973ebbae9887de0f39d1efcc9" kindref="member">MR_std_vector_MR_AffineXf3f_end_mut</ref>(<ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="std__vector__MR__AffineXf3f_8h_1aa111cfde9cd7c2be28959528afa7065a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1aa111cfde9cd7c2be28959528afa7065a" kindref="member">MR_std_vector_MR_AffineXf3f_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="std__vector__MR__AffineXf3f_8h_1a823c57f9069d24bf9a3ff2ddb655e20e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a823c57f9069d24bf9a3ff2ddb655e20e" kindref="member">MR_std_vector_MR_AffineXf3f_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="std__vector__MR__AffineXf3f_8h_1a4a7032cdc68bb465e88fdc5827d35cef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a4a7032cdc68bb465e88fdc5827d35cef" kindref="member">MR_std_vector_MR_AffineXf3f_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="std__vector__MR__AffineXf3f_8h_1ab28f4ddae812cdd86e12899e56846c96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1ab28f4ddae812cdd86e12899e56846c96" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__AffineXf3f_8h_1aaffca5220a48a6884e2fd73adb01ff99" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1aaffca5220a48a6884e2fd73adb01ff99" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__AffineXf3f_8h_1a5ef6bad304b9c69d1a31d155b92f907d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a5ef6bad304b9c69d1a31d155b92f907d" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="std__vector__MR__AffineXf3f_8h_1ae1b8e89a847cbb5bdbfc7e088b30f283" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ae1b8e89a847cbb5bdbfc7e088b30f283" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="std__vector__MR__AffineXf3f_8h_1a59f00b0cbbde544965107e0734060dd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a59f00b0cbbde544965107e0734060dd6" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__AffineXf3f_8h_1ac67dd825571a3ce0d0d33b5358588a51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ac67dd825571a3ce0d0d33b5358588a51" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__AffineXf3f_8h_1aeb8cf01d594bfb4853a7520ecc909c7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1aeb8cf01d594bfb4853a7520ecc909c7c" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="std__vector__MR__AffineXf3f_8h_1a745ee28e8b70cc684b4c68c69502d3a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a745ee28e8b70cc684b4c68c69502d3a6" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="std__vector__MR__AffineXf3f_8h_1ad93c59b1b4aaaf238ecbde95cfd42dc5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1ad93c59b1b4aaaf238ecbde95cfd42dc5" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="std__vector__MR__AffineXf3f_8h_1ab9c88545d19f01fd0934642c51da39ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1ab9c88545d19f01fd0934642c51da39ac" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__AffineXf3f_8h_1a4ea309159f069229429bb1b490e50fac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a4ea309159f069229429bb1b490e50fac" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__AffineXf3f_8h_1a8c3dab57176300aa1544eb4ca38c0ded" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a8c3dab57176300aa1544eb4ca38c0ded" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="std__vector__MR__AffineXf3f_8h_1aaad5bfc9bba97f9f92ba79e49fa4aaab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1aaad5bfc9bba97f9f92ba79e49fa4aaab" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__AffineXf3f_8h_1aa3784d17b509644363a34f6489d02c0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1aa3784d17b509644363a34f6489d02c0d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="std__vector__MR__AffineXf3f_8h_1a7864f7754f9f978776b1ab9865d0c259" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a7864f7754f9f978776b1ab9865d0c259" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="std__vector__MR__AffineXf3f_8h_1a2497c038e02bd55d913786412ec045a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a2497c038e02bd55d913786412ec045a4" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="std__vector__MR__AffineXf3f_8h_1adbf51ae8259266ff7166941dd1e438fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1adbf51ae8259266ff7166941dd1e438fc" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__AffineXf3f_8h_1a6897ba7512f695dc70199c8e7022af82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a6897ba7512f695dc70199c8e7022af82" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__AffineXf3f_8h_1a0be4613136575d98441930346efedbfb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a0be4613136575d98441930346efedbfb" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_incr</ref>(<ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="std__vector__MR__AffineXf3f_8h_1a51f3269594ca81d052e9a8816a16029e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a51f3269594ca81d052e9a8816a16029e" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_decr</ref>(<ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="std__vector__MR__AffineXf3f_8h_1af1d24ded80457e430d27bc5d96c138a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1af1d24ded80457e430d27bc5d96c138a3" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="std__vector__MR__AffineXf3f_8h_1a458d5e29dba68c6cc35dd749ce4795e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a458d5e29dba68c6cc35dd749ce4795e5" kindref="member">MR_sub_MR_std_vector_MR_AffineXf3f_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="std__vector__MR__AffineXf3f_8h_1a65f91fd2fa05acabbcca380692d3f85c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a65f91fd2fa05acabbcca380692d3f85c" kindref="member">MR_equal_MR_std_vector_MR_AffineXf3f_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a040590abedb94ca96f10cea59adf0dcf" kindref="member">MR_std_vector_MR_AffineXf3f_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__AffineXf3f_8h_1a557dc3a1a9e6c7efd2b5df8afe10a36d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="std__vector__MR__AffineXf3f_8h_1a557dc3a1a9e6c7efd2b5df8afe10a36d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__AffineXf3f_8h_1a5aca42d2237fbe37269ffd42361beaba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a5aca42d2237fbe37269ffd42361beaba" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_incr</ref>(<ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="std__vector__MR__AffineXf3f_8h_1a7e4e1ae9cffbc8a58562ccceea89af07" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a7e4e1ae9cffbc8a58562ccceea89af07" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_decr</ref>(<ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="std__vector__MR__AffineXf3f_8h_1a76aa1f5522b97326f69532229d5b6af0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a76aa1f5522b97326f69532229d5b6af0" kindref="member">MR_std_vector_MR_AffineXf3f_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="std__vector__MR__AffineXf3f_8h_1ad911a163c01de1eae9ceb0dab476885d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AffineXf3f_8h_1ad911a163c01de1eae9ceb0dab476885d" kindref="member">MR_sub_MR_std_vector_MR_AffineXf3f_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="std__vector__MR__AffineXf3f_8h_1a89135bfda87325af0872b3a185a72539" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AffineXf3f_8h_1a89135bfda87325af0872b3a185a72539" kindref="member">MR_equal_MR_std_vector_MR_AffineXf3f_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0ee7906e57a995f242fc24d8a73f2d9d" kindref="member">MR_std_vector_MR_AffineXf3f_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AffineXf3f.h"/>
+  </compounddef>
+</doxygen>

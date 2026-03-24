@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshVoxelsConverter" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshVoxelsConverter</compoundname>
-    <includes refid="MRBoolean_8h" local="no">MRBoolean.h</includes>
+    <includes refid="MRBoolean_8h" local="no">MRVoxels/MRBoolean.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaff9a0bc144c30c521df635ba7c3ae056" kind="variable"><name>voxelSize</name></member>
       <member refid="group__GeneralGroup_1gab2f0c91461973d3a5fbb2ef07a4d3596" kind="variable"><name>surfaceOffset</name></member>
@@ -12,22 +12,22 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gab180b7c950637b7ef71f6a4d2dd078d1" kind="function"><name>operator()</name></member>
-      <member refid="group__GeneralGroup_1gae9647fc22d86c2a08eeefd53f6f48961" kind="function"><name>operator()</name></member>
-      <member refid="group__GeneralGroup_1gae2bf474d4a220ce2a3fef16172d2874d" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga8cdbb299f455b9d61db9dd2742781758" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga1fec7954ca12a18f84497f9f0553585d" kind="function"><name>operator()</name></member>
     </sectiondef>
     <briefdescription>
 <para>converter of meshes in or from signed distance volumetric representation </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="17" bodyend="35"/>
+    <location file="MRVoxels/MRBoolean.h" line="16" column="1" bodyfile="MRVoxels/MRBoolean.h" bodystart="17" bodyend="35"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadaab280c372f3b9aa33c9a6087199957" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>adaptivity</name></member>
       <member refid="group__GeneralGroup_1gaacaa105e052e556811b815c3f19520a7" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>callBack</name></member>
       <member refid="group__GeneralGroup_1gadc6a0a341b57e23c8d707441794d45f3" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>offsetVoxels</name></member>
       <member refid="group__GeneralGroup_1gab180b7c950637b7ef71f6a4d2dd078d1" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
-      <member refid="group__GeneralGroup_1gae9647fc22d86c2a08eeefd53f6f48961" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
-      <member refid="group__GeneralGroup_1gae2bf474d4a220ce2a3fef16172d2874d" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga8cdbb299f455b9d61db9dd2742781758" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga1fec7954ca12a18f84497f9f0553585d" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1gab2f0c91461973d3a5fbb2ef07a4d3596" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>surfaceOffset</name></member>
       <member refid="group__GeneralGroup_1gaff9a0bc144c30c521df635ba7c3ae056" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>voxelSize</name></member>
     </listofallmembers>

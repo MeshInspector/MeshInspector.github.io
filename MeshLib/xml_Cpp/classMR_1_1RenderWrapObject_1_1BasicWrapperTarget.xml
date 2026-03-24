@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderWrapObject::BasicWrapperTarget</compoundname>
     <basecompoundref refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped" prot="public" virt="non-virtual">MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</basecompoundref>
-    <includes refid="MRRenderWrapObject_8h" local="no">MRRenderWrapObject.h</includes>
+    <includes refid="MRRenderWrapObject_8h" local="no">MRViewer/MRRenderWrapObject.h</includes>
     <templateparamlist>
       <param>
         <type>std::derived_from&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="32" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="32" bodyend="-1"/>
+        <location file="MRViewer/MRRenderWrapObject.h" line="32" column="22" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="30" column="5"/>
+        <location file="MRViewer/MRRenderWrapObject.h" line="30" column="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -79,7 +79,7 @@
         <label>ObjectType</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="28" bodyend="33"/>
+    <location file="MRViewer/MRRenderWrapObject.h" line="27" column="1" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="28" bodyend="33"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1ad5152bbde21a5324ac54935274da4bbb" prot="public" virt="non-virtual"><scope>MR::RenderWrapObject::BasicWrapperTarget</scope><name>target_</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1aef895bcd79874b03bc852acf63bda8c2" prot="protected" virt="non-virtual"><scope>MR::RenderWrapObject::BasicWrapperTarget</scope><name>~BasicWrapperTarget</name></member>

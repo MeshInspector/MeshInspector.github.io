@@ -1,5 +1,5 @@
 var MRFreeFormDeformer_8h =
 [
-    [ "findBestFreeformDeformation", "MRFreeFormDeformer_8h.html#ga5257f65923756edeb18ddf7a4b1edf81", null ],
-    [ "makeFreeFormOriginGrid", "MRFreeFormDeformer_8h.html#gadd5f5baf42852a03fb03fcd8a53b1b69", null ]
+    [ "MR::findBestFreeformDeformation", "group__GeneralGroup.html#ga3b44cbf37beff319f6d4fe9f0a12024f", null ],
+    [ "MR::makeFreeFormOriginGrid", "group__GeneralGroup.html#ga6c7c9b7158d19c16a538796d96742fe2", null ]
 ];

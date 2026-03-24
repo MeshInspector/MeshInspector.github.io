@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRString_8h" kind="file" language="C++">
     <compoundname>MRString.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
       <node id="1">
@@ -13,63 +13,36 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRString_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRString_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></type>
-        <definition>typedef struct MR_std_string_view MR_std_string_view</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string_view</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="13" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRString_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref></type>
-        <definition>typedef struct MR_std_vector_std_string MR_std_vector_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRString_8h_1a2fca89005bcfc6a8ffb05d0b62c0d78b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_findSubstringCaseInsensitive</definition>
         <argsstring>(const char *string, const char *string_end, const char *substring, const char *substring_end)</argsstring>
         <name>MR_findSubstringCaseInsensitive</name>
@@ -98,10 +71,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="27" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="27" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRString_8h_1a9b7ce354046f8ac3423f758e6dcdd585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
         <definition>MRC_API int MR_calcDamerauLevenshteinDistance</definition>
         <argsstring>(const char *stringA, const char *stringA_end, const char *stringB, const char *stringB_end, const bool *caseSensitive, int *outLeftRightAddition)</argsstring>
         <name>MR_calcDamerauLevenshteinDistance</name>
@@ -145,10 +118,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="41" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="41" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="41" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="41" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRString_8h_1a02016bca08b40cca6e46ef85ed1f6c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
         <definition>MRC_API MR_std_vector_std_string * MR_split</definition>
         <argsstring>(const char *string, const char *string_end, const char *delimiter, const char *delimiter_end)</argsstring>
         <name>MR_split</name>
@@ -171,16 +144,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Splits given string by delimiter. <simplesect kind="return"><para>vector of split strings Generated from function <computeroutput>MR::split</computeroutput>. Parameter <computeroutput>string</computeroutput> can not be null. If <computeroutput>string_end</computeroutput> is null, then <computeroutput>string</computeroutput> is assumed to be null-terminated. Parameter <computeroutput>delimiter</computeroutput> can not be null. If <computeroutput>delimiter_end</computeroutput> is null, then <computeroutput>delimiter</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Splits given string by delimiter. <simplesect kind="return"><para>vector of split strings Generated from function <computeroutput>MR::split</computeroutput>. Parameter <computeroutput>string</computeroutput> can not be null. If <computeroutput>string_end</computeroutput> is null, then <computeroutput>string</computeroutput> is assumed to be null-terminated. Parameter <computeroutput>delimiter</computeroutput> can not be null. If <computeroutput>delimiter_end</computeroutput> is null, then <computeroutput>delimiter</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__string_8h_1ac5f612487a5f49656b4f4ceae0bdd6c9" kindref="member">MR_std_vector_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="54" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="54" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="54" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="54" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRString_8h_1ac8335e464659f316b9021b3b115f2d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API MR_std_string * MR_replace</definition>
         <argsstring>(const char *target, const char *target_end, const char *from, const char *from_end, const char *to, const char *to_end)</argsstring>
         <name>MR_replace</name>
@@ -233,7 +206,7 @@
 <parametername>zero</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>or more times. Generated from function <computeroutput>MR::replace</computeroutput>. Parameter <computeroutput>target</computeroutput> can not be null. If <computeroutput>target_end</computeroutput> is null, then <computeroutput>target</computeroutput> is assumed to be null-terminated. Parameter <computeroutput>from</computeroutput> can not be null. If <computeroutput>from_end</computeroutput> is null, then <computeroutput>from</computeroutput> is assumed to be null-terminated. Parameter <computeroutput>to</computeroutput> can not be null. If <computeroutput>to_end</computeroutput> is null, then <computeroutput>to</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>or more times. Generated from function <computeroutput>MR::replace</computeroutput>. Parameter <computeroutput>target</computeroutput> can not be null. If <computeroutput>target_end</computeroutput> is null, then <computeroutput>target</computeroutput> is assumed to be null-terminated. Parameter <computeroutput>from</computeroutput> can not be null. If <computeroutput>from_end</computeroutput> is null, then <computeroutput>from</computeroutput> is assumed to be null-terminated. Parameter <computeroutput>to</computeroutput> can not be null. If <computeroutput>to_end</computeroutput> is null, then <computeroutput>to</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string_8h_1a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" kindref="member">MR_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -241,10 +214,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="65" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="65" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="65" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="65" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRString_8h_1a1e0bde14d170a00b409d84ed2c46f8f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_replaceInplace</definition>
         <argsstring>(MR_std_string *target, const char *from, const char *from_end, const char *to, const char *to_end)</argsstring>
         <name>MR_replaceInplace</name>
@@ -300,10 +273,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="74" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRString_8h_1a761c476b3907f0b69dd807ef0a27e0aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
         <definition>MRC_API MR_std_string_view * MR_trim</definition>
         <argsstring>(const char *str, const char *str_end)</argsstring>
         <name>MR_trim</name>
@@ -318,14 +291,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view Generated from function <computeroutput>MR::trim</computeroutput>. Parameter <computeroutput>str</computeroutput> can not be null. If <computeroutput>str_end</computeroutput> is null, then <computeroutput>str</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_view_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view Generated from function <computeroutput>MR::trim</computeroutput>. Parameter <computeroutput>str</computeroutput> can not be null. If <computeroutput>str_end</computeroutput> is null, then <computeroutput>str</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" kindref="member">MR_std_string_view_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="81" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="81" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="81" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="81" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRString_8h_1a29d2ca719ccfa90529543fb832aa871f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
         <definition>MRC_API MR_std_string_view * MR_trimLeft</definition>
         <argsstring>(const char *str, const char *str_end)</argsstring>
         <name>MR_trimLeft</name>
@@ -340,14 +313,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Removes all whitespace character (detected by std::isspace) at the beginning of string view Generated from function <computeroutput>MR::trimLeft</computeroutput>. Parameter <computeroutput>str</computeroutput> can not be null. If <computeroutput>str_end</computeroutput> is null, then <computeroutput>str</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_view_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Removes all whitespace character (detected by std::isspace) at the beginning of string view Generated from function <computeroutput>MR::trimLeft</computeroutput>. Parameter <computeroutput>str</computeroutput> can not be null. If <computeroutput>str_end</computeroutput> is null, then <computeroutput>str</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" kindref="member">MR_std_string_view_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="88" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="88" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="88" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="88" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRString_8h_1a95ca4120d6ab5fee907117ac3d93edce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
         <definition>MRC_API MR_std_string_view * MR_trimRight</definition>
         <argsstring>(const char *str, const char *str_end)</argsstring>
         <name>MR_trimRight</name>
@@ -362,14 +335,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Removes all whitespace character (detected by std::isspace) at the end of string view Generated from function <computeroutput>MR::trimRight</computeroutput>. Parameter <computeroutput>str</computeroutput> can not be null. If <computeroutput>str_end</computeroutput> is null, then <computeroutput>str</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_view_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Removes all whitespace character (detected by std::isspace) at the end of string view Generated from function <computeroutput>MR::trimRight</computeroutput>. Parameter <computeroutput>str</computeroutput> can not be null. If <computeroutput>str_end</computeroutput> is null, then <computeroutput>str</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" kindref="member">MR_std_string_view_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="95" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="95" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="95" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="95" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRString_8h_1a3f559f4b3910c386775645dad777c241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_hasFormatPlaceholders</definition>
         <argsstring>(const char *str, const char *str_end)</argsstring>
         <name>MR_hasFormatPlaceholders</name>
@@ -388,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h" declline="101" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h" declline="101" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -398,8 +371,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -407,33 +380,33 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRString_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRString_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRString_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRString_8h_1a2fca89005bcfc6a8ffb05d0b62c0d78b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRString_8h_1a2fca89005bcfc6a8ffb05d0b62c0d78b" kindref="member">MR_findSubstringCaseInsensitive</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*string_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*substring,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*substring_end);</highlight></codeline>
+<codeline lineno="27" refid="MRString_8h_1a2fca89005bcfc6a8ffb05d0b62c0d78b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRString_8h_1a2fca89005bcfc6a8ffb05d0b62c0d78b" kindref="member">MR_findSubstringCaseInsensitive</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*string_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*substring,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*substring_end);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRString_8h_1a9b7ce354046f8ac3423f758e6dcdd585" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRString_8h_1a9b7ce354046f8ac3423f758e6dcdd585" kindref="member">MR_calcDamerauLevenshteinDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*stringA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*stringA_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*stringB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*stringB_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*caseSensitive,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*outLeftRightAddition);</highlight></codeline>
+<codeline lineno="41" refid="MRString_8h_1a9b7ce354046f8ac3423f758e6dcdd585" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRString_8h_1a9b7ce354046f8ac3423f758e6dcdd585" kindref="member">MR_calcDamerauLevenshteinDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*stringA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*stringA_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*stringB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*stringB_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*caseSensitive,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*outLeftRightAddition);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRString_8h_1a02016bca08b40cca6e46ef85ed1f6c12" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*<ref refid="MRString_8h_1a02016bca08b40cca6e46ef85ed1f6c12" kindref="member">MR_split</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*string_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*delimiter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*delimiter_end);</highlight></codeline>
+<codeline lineno="54" refid="MRString_8h_1a02016bca08b40cca6e46ef85ed1f6c12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*<ref refid="MRString_8h_1a02016bca08b40cca6e46ef85ed1f6c12" kindref="member">MR_split</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*string_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*delimiter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*delimiter_end);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRString_8h_1ac8335e464659f316b9021b3b115f2d89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRString_8h_1ac8335e464659f316b9021b3b115f2d89" kindref="member">MR_replace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*target_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*from,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*from_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*to,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*to_end);</highlight></codeline>
+<codeline lineno="65" refid="MRString_8h_1ac8335e464659f316b9021b3b115f2d89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRString_8h_1ac8335e464659f316b9021b3b115f2d89" kindref="member">MR_replace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*target_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*from,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*from_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*to,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*to_end);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRString_8h_1a1e0bde14d170a00b409d84ed2c46f8f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRString_8h_1a1e0bde14d170a00b409d84ed2c46f8f9" kindref="member">MR_replaceInplace</ref>(<ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*from,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*from_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*to,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*to_end);</highlight></codeline>
+<codeline lineno="74" refid="MRString_8h_1a1e0bde14d170a00b409d84ed2c46f8f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRString_8h_1a1e0bde14d170a00b409d84ed2c46f8f9" kindref="member">MR_replaceInplace</ref>(<ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*from,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*from_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*to,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*to_end);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRString_8h_1a761c476b3907f0b69dd807ef0a27e0aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRString_8h_1a761c476b3907f0b69dd807ef0a27e0aa" kindref="member">MR_trim</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
+<codeline lineno="81" refid="MRString_8h_1a761c476b3907f0b69dd807ef0a27e0aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRString_8h_1a761c476b3907f0b69dd807ef0a27e0aa" kindref="member">MR_trim</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRString_8h_1a29d2ca719ccfa90529543fb832aa871f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRString_8h_1a29d2ca719ccfa90529543fb832aa871f" kindref="member">MR_trimLeft</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
+<codeline lineno="88" refid="MRString_8h_1a29d2ca719ccfa90529543fb832aa871f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRString_8h_1a29d2ca719ccfa90529543fb832aa871f" kindref="member">MR_trimLeft</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRString_8h_1a95ca4120d6ab5fee907117ac3d93edce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRString_8h_1a95ca4120d6ab5fee907117ac3d93edce" kindref="member">MR_trimRight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
+<codeline lineno="95" refid="MRString_8h_1a95ca4120d6ab5fee907117ac3d93edce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRString_8h_1a95ca4120d6ab5fee907117ac3d93edce" kindref="member">MR_trimRight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRString_8h_1a3f559f4b3910c386775645dad777c241" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRString_8h_1a3f559f4b3910c386775645dad777c241" kindref="member">MR_hasFormatPlaceholders</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
+<codeline lineno="101" refid="MRString_8h_1a3f559f4b3910c386775645dad777c241" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRString_8h_1a3f559f4b3910c386775645dad777c241" kindref="member">MR_hasFormatPlaceholders</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="104"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRString.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRString.h"/>
   </compounddef>
 </doxygen>

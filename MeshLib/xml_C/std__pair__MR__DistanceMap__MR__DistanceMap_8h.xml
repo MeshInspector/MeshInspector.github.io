@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__MR__DistanceMap__MR__DistanceMap_8h" kind="file" language="C++">
+    <compoundname>std_pair_MR_DistanceMap_MR_DistanceMap.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_MR_DistanceMap_MR_DistanceMap.h</label>
+        <link refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ad69e845341a09388c2330a69d19c699f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_DistanceMap_MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a5f5f3a708ad9ff98dc9cccfab8b921c2" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="21" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="21" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a1b3c90665fcce0531beb6336c3b6349e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_DistanceMap_MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a0b17883ed511a04978eab46b6f900e30" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a66978be15b2a4788695c074d7d414167" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a6d603bc1976b9885ade757a558f5f8ef" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="26" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="26" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ada8d0210adcd4557f7269c38dec32609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_DistanceMap_MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_pair_MR_DistanceMap_MR_DistanceMap *other)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a5f5f3a708ad9ff98dc9cccfab8b921c2" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="32" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="32" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ae5823a6c963838d7b66689a7f0c4ebec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_DistanceMap_MR_DistanceMap_AssignFromAnother</definition>
+        <argsstring>(MR_std_pair_MR_DistanceMap_MR_DistanceMap *_this, MR_PassBy other_pass_by, MR_std_pair_MR_DistanceMap_MR_DistanceMap *other)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a5f5f3a708ad9ff98dc9cccfab8b921c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_DistanceMap_MR_DistanceMap_Destroy</definition>
+        <argsstring>(const MR_std_pair_MR_DistanceMap_MR_DistanceMap *_this)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_Destroy</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a0b17883ed511a04978eab46b6f900e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_DistanceMap_MR_DistanceMap_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_MR_DistanceMap_MR_DistanceMap *_this)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a6d603bc1976b9885ade757a558f5f8ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+        <definition>MRC_API const MR_std_pair_MR_DistanceMap_MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_MR_DistanceMap_MR_DistanceMap *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="48" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="48" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a66978be15b2a4788695c074d7d414167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_DistanceMap_MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_MR_DistanceMap_MR_DistanceMap *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="52" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="52" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a26f493051e44efbafa279c3faf609000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_DistanceMap_MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_Construct</definition>
+        <argsstring>(MR_PassBy first_pass_by, MR_DistanceMap *first, MR_PassBy second_pass_by, MR_DistanceMap *second)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_Construct</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>first_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>second_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>second</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a5f5f3a708ad9ff98dc9cccfab8b921c2" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="59" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="59" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ace3309b23e7d6ff41803d4902e0d025c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
+        <definition>MRC_API const MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_first</definition>
+        <argsstring>(const MR_std_pair_MR_DistanceMap_MR_DistanceMap *_this)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_first</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="65" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="65" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1aaee0a656d2fc901e8a3796cfbcd3dffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
+        <definition>MRC_API MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_first_mut</definition>
+        <argsstring>(MR_std_pair_MR_DistanceMap_MR_DistanceMap *_this)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_first_mut</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="71" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="71" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a713142aba9555e860328592be0db2342" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
+        <definition>MRC_API const MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_second</definition>
+        <argsstring>(const MR_std_pair_MR_DistanceMap_MR_DistanceMap *_this)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_second</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="77" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="77" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a8b2ac3e90a5d94cc2a19c9317da11e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
+        <definition>MRC_API MR_DistanceMap * MR_std_pair_MR_DistanceMap_MR_DistanceMap_second_mut</definition>
+        <argsstring>(MR_std_pair_MR_DistanceMap_MR_DistanceMap *_this)</argsstring>
+        <name>MR_std_pair_MR_DistanceMap_MR_DistanceMap_second_mut</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" line="83" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h" declline="83" declcolumn="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ad69e845341a09388c2330a69d19c699f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ad69e845341a09388c2330a69d19c699f" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a1b3c90665fcce0531beb6336c3b6349e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a1b3c90665fcce0531beb6336c3b6349e" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ada8d0210adcd4557f7269c38dec32609" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ada8d0210adcd4557f7269c38dec32609" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ae5823a6c963838d7b66689a7f0c4ebec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ae5823a6c963838d7b66689a7f0c4ebec" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_AssignFromAnother</ref>(<ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a5f5f3a708ad9ff98dc9cccfab8b921c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a5f5f3a708ad9ff98dc9cccfab8b921c2" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a0b17883ed511a04978eab46b6f900e30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a0b17883ed511a04978eab46b6f900e30" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a6d603bc1976b9885ade757a558f5f8ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a6d603bc1976b9885ade757a558f5f8ef" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a66978be15b2a4788695c074d7d414167" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a66978be15b2a4788695c074d7d414167" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_OffsetMutablePtr</ref>(<ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a26f493051e44efbafa279c3faf609000" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a26f493051e44efbafa279c3faf609000" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_Construct</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>first_pass_by,<sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*first,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>second_pass_by,<sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*second);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ace3309b23e7d6ff41803d4902e0d025c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1ace3309b23e7d6ff41803d4902e0d025c" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1aaee0a656d2fc901e8a3796cfbcd3dffb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1aaee0a656d2fc901e8a3796cfbcd3dffb" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_first_mut</ref>(<ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a713142aba9555e860328592be0db2342" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a713142aba9555e860328592be0db2342" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a8b2ac3e90a5d94cc2a19c9317da11e6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="std__pair__MR__DistanceMap__MR__DistanceMap_8h_1a8b2ac3e90a5d94cc2a19c9317da11e6a" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap_second_mut</ref>(<ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h"/>
+  </compounddef>
+</doxygen>

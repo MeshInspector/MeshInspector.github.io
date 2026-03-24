@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Vector2b" kind="struct" language="C#" prot="public">
     <compoundname>MR::Vector2b</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.Vector2b &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="structMR_1_1Vector2b_1aa2e788f7ec0cf8e2abc481ea7dc5a289" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -39,7 +39,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.Vector2b.this[int e]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector2b.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector2b::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -203,7 +203,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -222,7 +222,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator-</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -245,7 +245,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -268,7 +268,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator-</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -291,7 +291,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -314,7 +314,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -337,7 +337,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator/</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator/</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -434,7 +434,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector2b.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector2b::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -483,7 +483,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -502,7 +502,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -521,7 +521,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -540,7 +540,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator/=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator/=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,7 +598,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.Vector2b &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -609,7 +609,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.Vector2b &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="410" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="411" bodyend="710"/>

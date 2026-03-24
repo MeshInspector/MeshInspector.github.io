@@ -1,10 +1,6 @@
 var MRSharpenMarchingCubesMesh_8h =
 [
-    [ "MR_Mesh", "MRSharpenMarchingCubesMesh_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRSharpenMarchingCubesMesh_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_SharpenMarchingCubesMeshSettings", "MRSharpenMarchingCubesMesh_8h.html#a021d448f41f915e716465329ede33f3a", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRSharpenMarchingCubesMesh_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_Vector_MR_VoxelId_MR_FaceId", "MRSharpenMarchingCubesMesh_8h.html#a9692dc04329fdb84eb3ddd8d265ba089", null ],
     [ "MR_sharpenMarchingCubesMesh", "MRSharpenMarchingCubesMesh_8h.html#a0d59244b3ffae9c30b528e16e48dfbe4", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_AssignFromAnother", "MRSharpenMarchingCubesMesh_8h.html#a19285a27a0f78b0f88d4c93af4f2f491", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_ConstructFrom", "MRSharpenMarchingCubesMesh_8h.html#a5adb29e31b9e585e4d1334eaf6240e42", null ],

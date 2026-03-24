@@ -10,6 +10,6 @@ var classMR_1_1DetectTunnelSettings =
     [ "filterEquivalentCoLoops", "classMR_1_1DetectTunnelSettings.html#a68b007c4eb80865d90ec5a5cdc284098", null ],
     [ "maxIters", "classMR_1_1DetectTunnelSettings.html#adc555b54ed2e8763296a62b1572e7a81", null ],
     [ "maxTunnelLength", "classMR_1_1DetectTunnelSettings.html#a98dbdacb703cc7a992cbe17953669c9e", null ],
-    [ "metric", "classMR_1_1DetectTunnelSettings.html#a0b8b5c85abf9db87e7e2ad0e89b21e9f", null ],
-    [ "progress", "classMR_1_1DetectTunnelSettings.html#a894196449b15605733a65f2f2ca90eec", null ]
+    [ "metric", "classMR_1_1DetectTunnelSettings.html#ab75976ae55daff384a370f30b59a8499", null ],
+    [ "progress", "classMR_1_1DetectTunnelSettings.html#a89a2ae6df6229c7107ba7d3f23342ac3", null ]
 ];

@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__optional__std__vector__MR__SomeLocalTriangulations_8h" kind="file" language="C++">
+    <compoundname>std_optional_std_vector_MR_SomeLocalTriangulations.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_optional_std_vector_MR_SomeLocalTriangulations.h</label>
+        <link refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a96a4efbc5e5934820f5146e5077638c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+        <definition>MRC_API MR_std_optional_std_vector_MR_SomeLocalTriangulations * MR_std_optional_std_vector_MR_SomeLocalTriangulations_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a23bc5aa137ce64a429197fca2def138b" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="22" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="22" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1aa94effafdfa0d4ebccdb8ce83845fd86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+        <definition>MRC_API MR_std_optional_std_vector_MR_SomeLocalTriangulations * MR_std_optional_std_vector_MR_SomeLocalTriangulations_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a12fcb330496bd99d10e65f53d31d89e9" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1ad6b5849ad99081bb08583da022a6c943" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a7f86c94368db922217344f9d92fdc3ef" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="27" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="27" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a05cf4c767237f7b60e71aed6076e64ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+        <definition>MRC_API MR_std_optional_std_vector_MR_SomeLocalTriangulations * MR_std_optional_std_vector_MR_SomeLocalTriangulations_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_optional_std_vector_MR_SomeLocalTriangulations *other)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a23bc5aa137ce64a429197fca2def138b" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="33" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="33" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1afdc31f7f68f5f81095aae6e16a8d412c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+        <definition>MRC_API MR_std_optional_std_vector_MR_SomeLocalTriangulations * MR_std_optional_std_vector_MR_SomeLocalTriangulations_ConstructFrom</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_SomeLocalTriangulations *other)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_ConstructFrom</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new instance. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass <computeroutput>MR_PassBy_NoObject</computeroutput> and a null pointer. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a23bc5aa137ce64a429197fca2def138b" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="38" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="38" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1af5a6121e3cb5169ce803451b3ecd6812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_std_vector_MR_SomeLocalTriangulations_AssignFromAnother</definition>
+        <argsstring>(MR_std_optional_std_vector_MR_SomeLocalTriangulations *_this, MR_PassBy other_pass_by, MR_std_optional_std_vector_MR_SomeLocalTriangulations *other)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a6b9aad0751e52b707b472702bba194e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_std_vector_MR_SomeLocalTriangulations_AssignFrom</definition>
+        <argsstring>(MR_std_optional_std_vector_MR_SomeLocalTriangulations *_this, MR_PassBy other_pass_by, MR_std_vector_MR_SomeLocalTriangulations *other)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_AssignFrom</name>
+        <param>
+          <type><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass <computeroutput>MR_PassBy_NoObject</computeroutput> and a null pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a23bc5aa137ce64a429197fca2def138b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_std_vector_MR_SomeLocalTriangulations_Destroy</definition>
+        <argsstring>(const MR_std_optional_std_vector_MR_SomeLocalTriangulations *_this)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a12fcb330496bd99d10e65f53d31d89e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_std_vector_MR_SomeLocalTriangulations_DestroyArray</definition>
+        <argsstring>(const MR_std_optional_std_vector_MR_SomeLocalTriangulations *_this)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="55" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a7f86c94368db922217344f9d92fdc3ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+        <definition>MRC_API const MR_std_optional_std_vector_MR_SomeLocalTriangulations * MR_std_optional_std_vector_MR_SomeLocalTriangulations_OffsetPtr</definition>
+        <argsstring>(const MR_std_optional_std_vector_MR_SomeLocalTriangulations *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="59" column="69" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="59" declcolumn="69"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1ad6b5849ad99081bb08583da022a6c943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+        <definition>MRC_API MR_std_optional_std_vector_MR_SomeLocalTriangulations * MR_std_optional_std_vector_MR_SomeLocalTriangulations_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_optional_std_vector_MR_SomeLocalTriangulations *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="63" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="63" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1acb36f28ce01ca10633b397bffa266319" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_optional_std_vector_MR_SomeLocalTriangulations_has_value</definition>
+        <argsstring>(const MR_std_optional_std_vector_MR_SomeLocalTriangulations *_this)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_has_value</name>
+        <param>
+          <type>const <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores an object, as opposed to being empty. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1af3179372207f361085fe351824d8ce7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_SomeLocalTriangulations * MR_std_optional_std_vector_MR_SomeLocalTriangulations_value</definition>
+        <argsstring>(const MR_std_optional_std_vector_MR_SomeLocalTriangulations *_this)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_value</name>
+        <param>
+          <type>const <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="72" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="72" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a276fa5290e2ab8bc26bcc858e613df76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_SomeLocalTriangulations * MR_std_optional_std_vector_MR_SomeLocalTriangulations_value_mut</definition>
+        <argsstring>(MR_std_optional_std_vector_MR_SomeLocalTriangulations *_this)</argsstring>
+        <name>MR_std_optional_std_vector_MR_SomeLocalTriangulations_value_mut</name>
+        <param>
+          <type><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" line="77" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h" declline="77" declcolumn="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_SomeLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a96a4efbc5e5934820f5146e5077638c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*<ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a96a4efbc5e5934820f5146e5077638c8" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1aa94effafdfa0d4ebccdb8ce83845fd86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*<ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1aa94effafdfa0d4ebccdb8ce83845fd86" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a05cf4c767237f7b60e71aed6076e64ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*<ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a05cf4c767237f7b60e71aed6076e64ed" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1afdc31f7f68f5f81095aae6e16a8d412c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*<ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1afdc31f7f68f5f81095aae6e16a8d412c" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1af5a6121e3cb5169ce803451b3ecd6812" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1af5a6121e3cb5169ce803451b3ecd6812" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_AssignFromAnother</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a6b9aad0751e52b707b472702bba194e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a6b9aad0751e52b707b472702bba194e8" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_AssignFrom</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a23bc5aa137ce64a429197fca2def138b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a23bc5aa137ce64a429197fca2def138b" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a12fcb330496bd99d10e65f53d31d89e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a12fcb330496bd99d10e65f53d31d89e9" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a7f86c94368db922217344f9d92fdc3ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*<ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a7f86c94368db922217344f9d92fdc3ef" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1ad6b5849ad99081bb08583da022a6c943" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*<ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1ad6b5849ad99081bb08583da022a6c943" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_OffsetMutablePtr</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1acb36f28ce01ca10633b397bffa266319" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1acb36f28ce01ca10633b397bffa266319" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1af3179372207f361085fe351824d8ce7a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref><sp/>*<ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1af3179372207f361085fe351824d8ce7a" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a276fa5290e2ab8bc26bcc858e613df76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref><sp/>*<ref refid="std__optional__std__vector__MR__SomeLocalTriangulations_8h_1a276fa5290e2ab8bc26bcc858e613df76" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations_value_mut</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h"/>
+  </compounddef>
+</doxygen>

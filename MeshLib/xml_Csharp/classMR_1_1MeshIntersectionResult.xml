@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshIntersectionResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshIntersectionResult</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshIntersectionResult</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="137" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="137" bodyend="137"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="145" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="145" bodyend="145"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshIntersectionResult_1a03cb48bf74c78540570d751913d1f9e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="140" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="140" bodyend="140"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="150" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="150" bodyend="150"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshIntersectionResult_1a7de2c929d2fe83acde97870716169342" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="143" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="143" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="155" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="155" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="169" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="169" bodyend="173"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="181" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="181" bodyend="185"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="179" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="179" bodyend="185"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="191" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="191" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshIntersectionResult_1a97fb143f55e638e9b952a0be279de405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="190" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="190" bodyend="198"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="202" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="202" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshIntersectionResult_1a74d1d5d6411a6b4718636256afb063cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshIntersectionResult.MeshIntersectionResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshIntersectionResult_1aa60d379fecec6f15aa6155f210070548" kindref="member">MR.MeshIntersectionResult.MeshIntersectionResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="203" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="203" bodyend="210"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="215" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="215" bodyend="222"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshIntersectionResult_1ac66a2eb14a1b8c5328d055bd18861c91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshIntersectionResult.MeshIntersectionResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshIntersectionResult_1aa60d379fecec6f15aa6155f210070548" kindref="member">MR.MeshIntersectionResult.MeshIntersectionResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="215" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="215" bodyend="215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="227" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="227" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshIntersectionResult_1a7538dca67c0be98cc55490edd30be9c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MR.MeshIntersectionResult</ref></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshIntersectionResult.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshIntersectionResult::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="220" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="220" bodyend="227"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="232" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="232" bodyend="239"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,48 +181,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshIntersectionResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshIntersectionResult</label>
         <link refid="classMR_1_1MeshIntersectionResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshIntersectionResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshIntersectionResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshIntersectionResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshIntersectionResult</label>
         <link refid="classMR_1_1MeshIntersectionResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshIntersectionResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshIntersectionResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="134" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="135" bodyend="228"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="140" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="141" bodyend="240"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshIntersectionResult_1a7538dca67c0be98cc55490edd30be9c3" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshIntersectionResult_1a7de2c929d2fe83acde97870716169342" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>distanceAlongLine</name></member>

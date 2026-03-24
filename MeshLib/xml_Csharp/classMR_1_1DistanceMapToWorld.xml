@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMapToWorld" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceMapToWorld</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceMapToWorld</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1289" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1289" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1351" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1351" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DistanceMapToWorld_1a6f8ee7b73a16f41db4f310ef9c50bdac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -26,15 +26,16 @@
         <name>pixelXVec</name>
         <qualifiedname>MR.DistanceMapToWorld.pixelXVec</qualifiedname>
         <briefdescription>
+<para>vector in world space of pixel x positive direction length is equal to pixel size </para>
         </briefdescription>
         <detaileddescription>
-<para>vector in world space of pixel x positive direction length is equal to pixel size <simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelYVec</computeroutput> </para>
+<para><simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelYVec</computeroutput> </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1294" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1294" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1358" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1358" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DistanceMapToWorld_1aa3abd2a558c2e1064c518788b02f13d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -43,15 +44,16 @@
         <name>pixelYVec</name>
         <qualifiedname>MR.DistanceMapToWorld.pixelYVec</qualifiedname>
         <briefdescription>
+<para>vector in world space of pixel y positive direction length is equal to pixel size </para>
         </briefdescription>
         <detaileddescription>
-<para>vector in world space of pixel y positive direction length is equal to pixel size <simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelXVec</computeroutput> </para>
+<para><simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelXVec</computeroutput> </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1299" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1299" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1365" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1365" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DistanceMapToWorld_1a5738206ef6e1203005535f1c21288fa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -60,15 +62,16 @@
         <name>direction</name>
         <qualifiedname>MR.DistanceMapToWorld.direction</qualifiedname>
         <briefdescription>
+<para>vector of depth direction </para>
         </briefdescription>
         <detaileddescription>
-<para>vector of depth direction <simplesect kind="note"><para>typically it should be normalized and orthogonal to <computeroutput>pixelXVec</computeroutput> <computeroutput>pixelYVec</computeroutput> plane </para>
+<para><simplesect kind="note"><para>typically it should be normalized and orthogonal to <computeroutput>pixelXVec</computeroutput> <computeroutput>pixelYVec</computeroutput> plane </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1303" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1303" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1371" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1371" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -92,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1307" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1307" bodyend="1311"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1375" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1375" bodyend="1379"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -109,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1317" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1317" bodyend="1323"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1385" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1385" bodyend="1391"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapToWorld_1a33fdd1e343b40d882e13bb29fba77111" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -122,13 +125,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceMapToWorld.DistanceMapToWorld</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" kindref="member">MR.DistanceMapToWorld.DistanceMapToWorld</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1328" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1328" bodyend="1335"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1396" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1396" bodyend="1403"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapToWorld_1ab6acb651987dc943e668beddb62f3178" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -141,13 +144,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceMapToWorld.DistanceMapToWorld</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" kindref="member">MR.DistanceMapToWorld.DistanceMapToWorld</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1340" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1340" bodyend="1340"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1408" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1408" bodyend="1408"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapToWorld_1a72e88e17f64ad791e8094559f2cc3ee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -160,13 +163,13 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Init fields by <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></computeroutput> struct Generated from constructor <computeroutput>MR.DistanceMapToWorld.DistanceMapToWorld</computeroutput>. </para>
+<para>Init fields by <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></computeroutput> struct Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" kindref="member">MR.DistanceMapToWorld.DistanceMapToWorld</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1346" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1346" bodyend="1353"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1414" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1414" bodyend="1421"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapToWorld_1a2460b9ac7406e4bfe47f7297065dcf27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -179,13 +182,13 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Init fields by <computeroutput><ref refid="classMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></computeroutput> struct Generated from constructor <computeroutput>MR.DistanceMapToWorld.DistanceMapToWorld</computeroutput>. </para>
+<para>Init fields by <computeroutput><ref refid="classMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></computeroutput> struct Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" kindref="member">MR.DistanceMapToWorld.DistanceMapToWorld</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1365" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1365" bodyend="1372"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1433" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1433" bodyend="1440"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapToWorld_1a33a09f7b1cbf03e01de0d67bdcc9ee0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -198,13 +201,13 @@
           <declname>xf</declname>
         </param>
         <briefdescription>
-<para>Converts from <ref refid="structMR_1_1AffineXf3f" kindref="compound">AffineXf3f</ref> Generated from constructor <computeroutput>MR.DistanceMapToWorld.DistanceMapToWorld</computeroutput>. </para>
+<para>Converts from <ref refid="structMR_1_1AffineXf3f" kindref="compound">AffineXf3f</ref> Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" kindref="member">MR.DistanceMapToWorld.DistanceMapToWorld</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1384" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1384" bodyend="1393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1452" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1452" bodyend="1461"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapToWorld_1a71cd15348b85a411d7c32f3a131bf6ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DistanceMapToWorld" kindref="compound">MR.DistanceMapToWorld</ref></type>
@@ -217,13 +220,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DistanceMapToWorld.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DistanceMapToWorld::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1404" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1404" bodyend="1411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1472" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1472" bodyend="1479"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -238,13 +241,13 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Init fields by <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></computeroutput> struct Generated from constructor <computeroutput>MR.DistanceMapToWorld.DistanceMapToWorld</computeroutput>. </para>
+<para>Init fields by <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></computeroutput> struct Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" kindref="member">MR.DistanceMapToWorld.DistanceMapToWorld</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1359" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1359" bodyend="1359"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1427" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1427" bodyend="1427"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapToWorld_1a88a6c37ca2375d6901ed65ebebdae8dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -257,13 +260,13 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Init fields by <computeroutput><ref refid="classMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></computeroutput> struct Generated from constructor <computeroutput>MR.DistanceMapToWorld.DistanceMapToWorld</computeroutput>. </para>
+<para>Init fields by <computeroutput><ref refid="classMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></computeroutput> struct Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" kindref="member">MR.DistanceMapToWorld.DistanceMapToWorld</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1378" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1378" bodyend="1378"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1446" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1446" bodyend="1446"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapToWorld_1a18a27180350c5ff5fb355a9ce25c59a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -276,13 +279,13 @@
           <declname>xf</declname>
         </param>
         <briefdescription>
-<para>Converts from <ref refid="structMR_1_1AffineXf3f" kindref="compound">AffineXf3f</ref> Generated from constructor <computeroutput>MR.DistanceMapToWorld.DistanceMapToWorld</computeroutput>. </para>
+<para>Converts from <ref refid="structMR_1_1AffineXf3f" kindref="compound">AffineXf3f</ref> Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" kindref="member">MR.DistanceMapToWorld.DistanceMapToWorld</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1399" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1399" bodyend="1399"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1467" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1467" bodyend="1467"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -291,48 +294,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DistanceMapToWorld</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceMapToWorld</label>
         <link refid="classMR_1_1DistanceMapToWorld"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceMapToWorld</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistanceMapToWorld &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DistanceMapToWorld</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceMapToWorld</label>
         <link refid="classMR_1_1DistanceMapToWorld"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceMapToWorld</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistanceMapToWorld &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1286" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1287" bodyend="1412"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1346" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1347" bodyend="1480"/>
     <listofallmembers>
       <member refid="classMR_1_1DistanceMapToWorld_1a71cd15348b85a411d7c32f3a131bf6ee" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>assign</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a5738206ef6e1203005535f1c21288fa2" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>direction</name></member>

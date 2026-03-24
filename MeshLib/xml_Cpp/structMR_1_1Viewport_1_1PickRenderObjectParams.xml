@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Viewport_1_1PickRenderObjectParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::Viewport::PickRenderObjectParams</compoundname>
-    <includes refid="MRViewport_8h" local="no">MRViewport.h</includes>
+    <includes refid="MRViewport_8h" local="no">MRViewer/MRViewport.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaf55c401102e507d9640c49fce0276911" kind="variable"><name>point</name></member>
       <member refid="group__GeneralGroup_1ga0522dd8b3c54c93dfc03d9c91c9901ac" kind="variable"><name>predicate</name></member>
@@ -38,7 +38,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="189" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="190" bodyend="215"/>
+    <location file="MRViewer/MRViewport.h" line="189" column="5" bodyfile="MRViewer/MRViewport.h" bodystart="190" bodyend="215"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae36ec72eafffc8aa02f03a6a2cae2877" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>baseRenderParams</name></member>
       <member refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>defaults</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1detail_1_1MakeScopeGuard" kind="struct" language="C++" prot="public">
     <compoundname>MR::detail::MakeScopeGuard</compoundname>
-    <includes refid="MRFinally_8h" local="no">MRFinally.h</includes>
+    <includes refid="MRFinally_8h" local="no">MRMesh/MRFinally.h</includes>
     <templateparamlist>
       <param>
         <type>template&lt; typename &gt; typename</type>
@@ -32,14 +32,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="75" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="75" bodyend="78"/>
+        <location file="MRMesh/MRFinally.h" line="75" column="7" bodyfile="MRMesh/MRFinally.h" bodystart="75" bodyend="78"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="72" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="73" bodyend="79"/>
+    <location file="MRMesh/MRFinally.h" line="72" column="1" bodyfile="MRMesh/MRFinally.h" bodystart="73" bodyend="79"/>
     <listofallmembers>
       <member refid="structMR_1_1detail_1_1MakeScopeGuard_1a7d35fb7fc3a07cf2ff15168afa6381a0" prot="public" virt="non-virtual"><scope>MR::detail::MakeScopeGuard</scope><name>operator-&gt;*</name></member>
     </listofallmembers>

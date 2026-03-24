@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DecimateSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::DecimateSettings</compoundname>
-    <includes refid="MRMeshDecimate_8h" local="no">MRMeshDecimate.h</includes>
+    <includes refid="MRMeshDecimate_8h" local="no">MRMesh/MRMeshDecimate.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7b024d2a905ecd6515a263ec20d35dc6" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a216960c15f7b00558ab28053967a9615" kindref="member">DecimateStrategy</ref></type>
+        <type><ref refid="group__DecimateGroup_1ga216960c15f7b00558ab28053967a9615" kindref="member">DecimateStrategy</ref></type>
         <definition>DecimateStrategy MR::DecimateSettings::strategy</definition>
         <argsstring></argsstring>
         <name>strategy</name>
         <qualifiedname>MR::DecimateSettings::strategy</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098" kindref="member">DecimateStrategy::MinimizeError</ref></initializer>
+        <initializer>= <ref refid="group__DecimateGroup_1gga216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098" kindref="member">DecimateStrategy::MinimizeError</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="35" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="35" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="36" column="22" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ab97888b6d597260226ade61b4e542ef0" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -29,11 +29,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for <ref refid="namespaceMR_1a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098" kindref="member">DecimateStrategy::MinimizeError</ref>: stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value for <ref refid="namespaceMR_1a216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552" kindref="member">DecimateStrategy::ShortestEdgeFirst</ref> only: stop the decimation as soon as the shortest edge in the mesh is greater than this value </para>
+<para>for <ref refid="group__DecimateGroup_1gga216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098" kindref="member">DecimateStrategy::MinimizeError</ref>: stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value for <ref refid="group__DecimateGroup_1gga216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552" kindref="member">DecimateStrategy::ShortestEdgeFirst</ref> only: stop the decimation as soon as the shortest edge in the mesh is greater than this value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="41" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="42" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ac98cbfa367475605fa88982f55dc9a61" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="44" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="44" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="45" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5ec13d6be73db6e77b404aea2c0d3371" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="47" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="47" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="48" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1af1fd605860fa7a20931506008f29daa9" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="50" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="51" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5f0e2ae094cddee1b490103a349feda5" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="54" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="54" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="55" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ac0e97c22838e162343661fd588f7a326" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="57" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="57" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="58" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ab8a313e9caff73dd179f03a9c7b80baa" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="61" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="61" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="62" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a2f6ca4e4f21750ae6d21f4d0c4376dca" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="65" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="66" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ac4cfcdf2807788f5914a0640372d4a07" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="69" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="70" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1abb741e47d580e75e37b13adcad8a362e" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="72" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="72" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="73" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a38bbdf3c479e6edea3b93ca7a7b52084" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="75" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="75" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="76" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a9359f9da0b131c164d942b1361bd9644" prot="public" static="no" mutable="no">
         <type>FaceBitSet *</type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="78" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="78" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="79" column="17" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a0731477e770d3880ed47726b66c43479" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeBitSet *</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="81" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="81" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="82" column="26" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a1ec65ab68109bf48005d935a85a08713" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="85" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="85" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="86" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1adcc8d3606bda7323ca4c7b6f6866df2c" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeBitSet *</type>
@@ -257,10 +257,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="89" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="89" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="90" column="27" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5c38997b3f0df2d9e534bf87f530cdd7" prot="public" static="no" mutable="no">
-        <type>UndirectedEdgeHashMap *</type>
+        <type><ref refid="group__GeneralGroup_1gae4c04995449710309dc72ed533991d7f" kindref="member">UndirectedEdgeHashMap</ref> *</type>
         <definition>UndirectedEdgeHashMap* MR::DecimateSettings::twinMap</definition>
         <argsstring></argsstring>
         <name>twinMap</name>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="93" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="93" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="94" column="28" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ae341a50784372571b1b5bb3e6948981e" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="96" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="96" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="97" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aee15c4faad0020190c28ac13da3e735e" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="101" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="101" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="102" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1abc44005d50714fe75f875a25f3a59f66" prot="public" static="no" mutable="no">
         <type>VertBitSet *</type>
@@ -321,7 +321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="106" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="106" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="107" column="17" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aebecde304889b67910dd05d032cb8d07" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -337,10 +337,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="110" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="110" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="111" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5901e72dc3fd85459f38318a894afbbd" prot="public" static="no" mutable="no">
-        <type>PreCollapseCallback</type>
+        <type><ref refid="group__GeneralGroup_1ga8ca6fbc7c349a31c3f0a68ce8f513265" kindref="member">PreCollapseCallback</ref></type>
         <definition>PreCollapseCallback MR::DecimateSettings::preCollapse</definition>
         <argsstring></argsstring>
         <name>preCollapse</name>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="118" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="118" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="119" column="25" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a21d7c6d9122286b4edf7bd531d38b72b" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(UndirectedEdgeId ue, float &amp;collapseErrorSq, Vector3f &amp;collapsePos)&gt;</type>
@@ -369,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="128" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="128" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="129" column="19" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1afc72ed6f7c868487d053596c86220d6f" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(EdgeId del, EdgeId rem)&gt;</type>
@@ -384,7 +384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="132" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="132" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="133" column="19" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a8a682d43b723098485a748e97bd12111" prot="public" static="no" mutable="no">
         <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; QuadraticForm3f, VertId &gt; *</type>
@@ -400,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="139" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="139" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="140" column="13" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a320a08e8abf402aa6a0dae956ad9be0e" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -416,10 +416,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="142" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="142" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="143" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aa54526c521844dcca8dc5aa91e3628de" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::DecimateSettings::progressCallback</definition>
         <argsstring></argsstring>
         <name>progressCallback</name>
@@ -431,7 +431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="145" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="145" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="146" column="22" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="146" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a8f97c534c28993195cc07d01e1721fe4" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -447,7 +447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="149" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="149" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="150" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -463,7 +463,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="153" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="153" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="154" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7d69e19f2609b7330c6ac5d17a9ebfff" prot="public" static="no" mutable="no">
         <type>std::vector&lt; FaceBitSet &gt; *</type>
@@ -479,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="158" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="158" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="159" column="18" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7cc18ed533890cfc09a39ba3724b5f85" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -495,14 +495,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="161" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="161" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="162" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="162" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Parameters structure for <ref refid="group__DecimateGroup_1ga16a994862b0ba8f6a68c61463be0ed4e" kindref="member">MR::decimateMesh</ref>. </para>
+<para>Parameters structure for <ref refid="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" kindref="member">MR::decimateMesh</ref>. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="group__DecimateGroup_1ga16a994862b0ba8f6a68c61463be0ed4e" kindref="member">decimateMesh</ref> </para>
+<para><simplesect kind="see"><para><ref refid="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" kindref="member">decimateMesh</ref> </para>
 </simplesect>
 </para>
     </detaileddescription>
@@ -519,7 +519,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="33" column="1"/>
+    <location file="MRMesh/MRMeshDecimate.h" line="34" column="1" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="35" bodyend="163"/>
     <listofallmembers>
       <member refid="structMR_1_1DecimateSettings_1a21d7c6d9122286b4edf7bd531d38b72b" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>adjustCollapse</name></member>
       <member refid="structMR_1_1DecimateSettings_1a2f6ca4e4f21750ae6d21f4d0c4376dca" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>

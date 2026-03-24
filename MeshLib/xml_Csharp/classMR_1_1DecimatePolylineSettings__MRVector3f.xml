@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DecimatePolylineSettings__MRVector3f" kind="class" language="C#" prot="public">
     <compoundname>MR::DecimatePolylineSettings_MRVector3f</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DecimatePolylineSettings_MRVector3f</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="712" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="712" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="758" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="758" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a41c6f9ce5211971a38e9776d95df93f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="715" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="715" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="763" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="763" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a6dc14879ee7002cec471e0be237ed76d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -41,13 +41,13 @@
         <name>stabilizer</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector3f.stabilizer</qualifiedname>
         <briefdescription>
+<para>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. </para>
         </briefdescription>
         <detaileddescription>
-<para>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="720" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="720" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="770" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="770" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a9d684452ddae6fbb84ae69bc88f6c1e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -56,13 +56,13 @@
         <name>optimizeVertexPos</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector3f.optimizeVertexPos</qualifiedname>
         <briefdescription>
+<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position </para>
         </briefdescription>
         <detaileddescription>
-<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="724" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="724" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="776" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="776" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a79e1f3d2dd3863765eadab3a38d9e283" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="727" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="727" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="781" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="781" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a4f9b26292d957bb31cc5ef4940504f23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -86,13 +86,13 @@
         <name>region</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector3f.region</qualifiedname>
         <briefdescription>
+<para>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline. </para>
         </briefdescription>
         <detaileddescription>
-<para>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="731" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="732" bodyend="741"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="787" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="788" bodyend="797"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a6fc3b6c9774ba80270da4b2ac9b3d6a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -101,17 +101,17 @@
         <name>touchBdVertices</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector3f.touchBdVertices</qualifiedname>
         <briefdescription>
+<para>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed. </para>
         </briefdescription>
         <detaileddescription>
-<para>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="746" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="746" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="804" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="804" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1af48eeb12abff2241f959eec95fba3c30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromMREdgeIdConstMRVector3fRef</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromMREdgeIdConstMRVector3fRef MR.DecimatePolylineSettings_MRVector3f.preCollapse</definition>
+      <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a437f741e1de6955c64e18429cafe8187" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef MR.DecimatePolylineSettings_MRVector3f.preCollapse</definition>
         <argsstring></argsstring>
         <name>preCollapse</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector3f.preCollapse</qualifiedname>
@@ -123,11 +123,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="754" column="80" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="754" bodyend="754"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="812" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="812" bodyend="812"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a313167697d24e1f4653ba24d87c7187e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef</type>
-        <definition>new unsafe MR.Std.Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef MR.DecimatePolylineSettings_MRVector3f.adjustCollapse</definition>
+      <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1afbdbd8a23899b58774a33ccdc912dfa7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef MR.DecimatePolylineSettings_MRVector3f.adjustCollapse</definition>
         <argsstring></argsstring>
         <name>adjustCollapse</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector3f.adjustCollapse</qualifiedname>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="764" column="93" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="764" bodyend="764"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="822" column="93" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="822" bodyend="822"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a60e440df5bac2bb017734dc6d120e09b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId" kindref="compound">Vector_MRQuadraticForm3f_MRVertId</ref></type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="771" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="772" bodyend="781"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="829" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="830" bodyend="839"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="807" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="807" bodyend="811"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="865" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="865" bodyend="869"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="817" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="817" bodyend="823"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="875" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="875" bodyend="881"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1ac06e6e9806df893769f6cb58b65272da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -244,13 +244,13 @@
           <declname>vertForms</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.DecimatePolylineSettings&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::DecimatePolylineSettings&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="828" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="828" bodyend="838"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="886" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="886" bodyend="896"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a993f19a57aa6b29df7877e2806f3fd80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -263,13 +263,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DecimatePolylineSettings&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;::DecimatePolylineSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::DecimatePolylineSettings&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;::DecimatePolylineSettings</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="843" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="843" bodyend="850"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="901" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="901" bodyend="908"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1a988ce2d52dd53256f8ac93c5a97606ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -282,13 +282,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DecimatePolylineSettings&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;::DecimatePolylineSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::DecimatePolylineSettings&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;::DecimatePolylineSettings</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="855" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="855" bodyend="855"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="913" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="913" bodyend="913"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1aebe591a272ea58af9c1cc63457ee6c9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -301,13 +301,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DecimatePolylineSettings&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;::DecimatePolylineSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::DecimatePolylineSettings&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;::DecimatePolylineSettings</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="860" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="860" bodyend="860"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="918" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="918" bodyend="918"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DecimatePolylineSettings__MRVector3f_1ae75dc95a81c1876c6380f047786bd50c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DecimatePolylineSettings__MRVector3f" kindref="compound">MR.DecimatePolylineSettings_MRVector3f</ref></type>
@@ -320,13 +320,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DecimatePolylineSettings&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DecimatePolylineSettings&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="865" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="865" bodyend="872"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="923" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="923" bodyend="930"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -334,50 +334,50 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DecimatePolylineSettings_MRVector3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DecimatePolylineSettings_MRVector3f</label>
         <link refid="classMR_1_1DecimatePolylineSettings__MRVector3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DecimatePolylineSettings_MRVector3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DecimatePolylineSettings_MRVector3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DecimatePolylineSettings_MRVector3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DecimatePolylineSettings_MRVector3f</label>
         <link refid="classMR_1_1DecimatePolylineSettings__MRVector3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DecimatePolylineSettings_MRVector3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DecimatePolylineSettings_MRVector3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="709" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="710" bodyend="873"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="753" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="754" bodyend="931"/>
     <listofallmembers>
-      <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a313167697d24e1f4653ba24d87c7187e" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>adjustCollapse</name></member>
+      <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1afbdbd8a23899b58774a33ccdc912dfa7" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>adjustCollapse</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1ae75dc95a81c1876c6380f047786bd50c" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>assign</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a13bad25fea0f983f8b736072985fbba4" prot="package" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>DecimatePolylineSettings_MRVector3f</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1ac44507341f59380a30751ab03013228a" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>DecimatePolylineSettings_MRVector3f</name></member>
@@ -389,7 +389,7 @@
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a41c6f9ce5211971a38e9776d95df93f3" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>maxEdgeLen</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a4391a848f31d726d5e2372b52f6572dc" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>maxError</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a9d684452ddae6fbb84ae69bc88f6c1e8" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>optimizeVertexPos</name></member>
-      <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1af48eeb12abff2241f959eec95fba3c30" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>preCollapse</name></member>
+      <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a437f741e1de6955c64e18429cafe8187" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>preCollapse</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a4f9b26292d957bb31cc5ef4940504f23" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>region</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a6dc14879ee7002cec471e0be237ed76d" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>stabilizer</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1a6fc3b6c9774ba80270da4b2ac9b3d6a2" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector3f</scope><name>touchBdVertices</name></member>

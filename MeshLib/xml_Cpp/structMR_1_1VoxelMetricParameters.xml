@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VoxelMetricParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::VoxelMetricParameters</compoundname>
-    <includes refid="MRVoxelPath_8h" local="no">MRVoxelPath.h</includes>
+    <includes refid="MRVoxelPath_8h" local="no">MRVoxels/MRVoxelPath.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1ae851669e25fee95a2b98a79736a529cf" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="39" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="39" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelPath.h" line="39" column="12" bodyfile="MRVoxels/MRVoxelPath.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1ab2680e847f9d7f989c60b09700889278" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="40" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="40" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelPath.h" line="40" column="12" bodyfile="MRVoxels/MRVoxelPath.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1a3ae620491a9dd4eff4445eb022a73b7e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="41" bodyend="41"/>
+        <location file="MRVoxels/MRVoxelPath.h" line="41" column="11" bodyfile="MRVoxels/MRVoxelPath.h" bodystart="41" bodyend="41"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1a5fae9a4b03e837ee2d487ce8e8dae34e" prot="public" static="no" mutable="no">
         <type><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="42" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="42" bodyend="42"/>
+        <location file="MRVoxels/MRVoxelPath.h" line="42" column="16" bodyfile="MRVoxels/MRVoxelPath.h" bodystart="42" bodyend="42"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1a4a39f4473b82dc98d9b380e6c081a438" prot="public" static="no" mutable="no">
         <type><ref refid="group__VoxelPathGroup_1ga85e60c553cc81b298c4bfeac4a623b79" kindref="member">QuarterBit</ref></type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="43" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="43" bodyend="43"/>
+        <location file="MRVoxels/MRVoxelPath.h" line="43" column="16" bodyfile="MRVoxels/MRVoxelPath.h" bodystart="43" bodyend="43"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -88,7 +88,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="38" bodyend="44"/>
+    <location file="MRVoxels/MRVoxelPath.h" line="37" column="1" bodyfile="MRVoxels/MRVoxelPath.h" bodystart="38" bodyend="44"/>
     <listofallmembers>
       <member refid="structMR_1_1VoxelMetricParameters_1a3ae620491a9dd4eff4445eb022a73b7e" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>maxDistRatio</name></member>
       <member refid="structMR_1_1VoxelMetricParameters_1a5fae9a4b03e837ee2d487ce8e8dae34e" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>plane</name></member>

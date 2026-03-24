@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h" kind="file" language="C++">
+    <compoundname>std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h</label>
+        <link refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a560fd88f91cbb1cf97669eff25190081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1afa7eea38bf04b026dfdb33bb87da616c" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="19" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="19" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad93195db580dbf5c1047fb42d44896ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ac493f4539d051d3abe1a91936adb5227" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a2bfbaa0392187680aac4bb0648b27d6e" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a30376a4e17fcab014448889f83c109b6" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="24" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="24" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a31db8fe2dadb640803dac8c0c2414b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *other)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1afa7eea38bf04b026dfdb33bb87da616c" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="31" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="31" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a3309bfc9f0532f113e98505a47feb03e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignFromAnother</definition>
+        <argsstring>(MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this, const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *other)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1afa7eea38bf04b026dfdb33bb87da616c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_Destroy</definition>
+        <argsstring>(const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_Destroy</name>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ac493f4539d051d3abe1a91936adb5227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DestroyArray</definition>
+        <argsstring>(const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a30376a4e17fcab014448889f83c109b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+        <definition>MRC_API const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_OffsetPtr</definition>
+        <argsstring>(const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="48" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="48" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a2bfbaa0392187680aac4bb0648b27d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="52" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="52" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1af58147dd7958b56a4a9debe480f45cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_index</definition>
+        <argsstring>(const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_index</name>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the index of the stored element type. In rare cases may return -1 if this variant is &quot;valueless by exception&quot;. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="56" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="56" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad0b2fb8ffc85bd5c342548f8bd94ef82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_FaceId</definition>
+        <argsstring>(MR_FaceId value)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_FaceId</name>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 0, of type <computeroutput>MR::FaceId</computeroutput>. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1afa7eea38bf04b026dfdb33bb87da616c" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="62" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="62" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a4192defe105efd8b553c2fae12007a57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_EdgeId</definition>
+        <argsstring>(MR_EdgeId value)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_EdgeId</name>
+        <param>
+          <type><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 1, of type <computeroutput>MR::EdgeId</computeroutput>. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1afa7eea38bf04b026dfdb33bb87da616c" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="68" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="68" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad40bf0d39d6296b8623ec50f54242df8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_VertId</definition>
+        <argsstring>(MR_VertId value)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_VertId</name>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 2, of type <computeroutput>MR::VertId</computeroutput>. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1afa7eea38bf04b026dfdb33bb87da616c" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="74" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="74" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1aadea9784b99186bc05d284ea31a22081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_FaceId</definition>
+        <argsstring>(MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this, MR_FaceId value)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_FaceId</name>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 0, of type <computeroutput>MR::FaceId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a1414f72d3a496a2dabbd23fc357daeb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_EdgeId</definition>
+        <argsstring>(MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this, MR_EdgeId value)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_EdgeId</name>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 1, of type <computeroutput>MR::EdgeId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="86" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a437c97f11f590befcb022f58b47b9d4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_VertId</definition>
+        <argsstring>(MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this, MR_VertId value)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_VertId</name>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 2, of type <computeroutput>MR::VertId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="92" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a46407c677b0c7bc89638f1f4d3ece503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <definition>MRC_API const MR_FaceId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_FaceId</definition>
+        <argsstring>(const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_FaceId</name>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>MR::FaceId</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="97" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="97" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a2368aaf369b2b089490f32af0219ca44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_FaceId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_FaceId_mut</definition>
+        <argsstring>(MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_FaceId_mut</name>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>MR::FaceId</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="102" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="102" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1add7c45ee24e33184ff8f9a59bf48fee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
+        <definition>MRC_API const MR_EdgeId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_EdgeId</definition>
+        <argsstring>(const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_EdgeId</name>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>MR::EdgeId</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="107" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="107" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a22855c7d931361e0df1b530f48a68659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
+        <definition>MRC_API MR_EdgeId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_EdgeId_mut</definition>
+        <argsstring>(MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_EdgeId_mut</name>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>MR::EdgeId</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="112" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="112" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a81c94ac1f74403e5199489652814c7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <definition>MRC_API const MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_VertId</definition>
+        <argsstring>(const MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_VertId</name>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 2, of type <computeroutput>MR::VertId</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="117" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="117" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad2119697456b0eb793568e7679a582bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <definition>MRC_API MR_VertId * MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_VertId_mut</definition>
+        <argsstring>(MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_VertId_mut</name>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 2, of type <computeroutput>MR::VertId</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" line="122" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h" declline="122" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a560fd88f91cbb1cf97669eff25190081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a560fd88f91cbb1cf97669eff25190081" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad93195db580dbf5c1047fb42d44896ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad93195db580dbf5c1047fb42d44896ac" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a31db8fe2dadb640803dac8c0c2414b46" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a31db8fe2dadb640803dac8c0c2414b46" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a3309bfc9f0532f113e98505a47feb03e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a3309bfc9f0532f113e98505a47feb03e" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignFromAnother</ref>(<ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1afa7eea38bf04b026dfdb33bb87da616c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1afa7eea38bf04b026dfdb33bb87da616c" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ac493f4539d051d3abe1a91936adb5227" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ac493f4539d051d3abe1a91936adb5227" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a30376a4e17fcab014448889f83c109b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a30376a4e17fcab014448889f83c109b6" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a2bfbaa0392187680aac4bb0648b27d6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a2bfbaa0392187680aac4bb0648b27d6e" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_OffsetMutablePtr</ref>(<ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1af58147dd7958b56a4a9debe480f45cc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1af58147dd7958b56a4a9debe480f45cc9" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad0b2fb8ffc85bd5c342548f8bd94ef82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad0b2fb8ffc85bd5c342548f8bd94ef82" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_FaceId</ref>(<ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a4192defe105efd8b553c2fae12007a57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a4192defe105efd8b553c2fae12007a57" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_EdgeId</ref>(<ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad40bf0d39d6296b8623ec50f54242df8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad40bf0d39d6296b8623ec50f54242df8" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_ConstructAs_MR_VertId</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1aadea9784b99186bc05d284ea31a22081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1aadea9784b99186bc05d284ea31a22081" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_FaceId</ref>(<ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a1414f72d3a496a2dabbd23fc357daeb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a1414f72d3a496a2dabbd23fc357daeb8" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_EdgeId</ref>(<ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a437c97f11f590befcb022f58b47b9d4a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a437c97f11f590befcb022f58b47b9d4a" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_AssignAs_MR_VertId</ref>(<ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a46407c677b0c7bc89638f1f4d3ece503" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a46407c677b0c7bc89638f1f4d3ece503" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_FaceId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a2368aaf369b2b089490f32af0219ca44" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a2368aaf369b2b089490f32af0219ca44" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_FaceId_mut</ref>(<ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1add7c45ee24e33184ff8f9a59bf48fee4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1add7c45ee24e33184ff8f9a59bf48fee4" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_EdgeId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a22855c7d931361e0df1b530f48a68659" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a22855c7d931361e0df1b530f48a68659" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_EdgeId_mut</ref>(<ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a81c94ac1f74403e5199489652814c7d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1a81c94ac1f74403e5199489652814c7d2" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad2119697456b0eb793568e7679a582bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h_1ad2119697456b0eb793568e7679a582bd" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId_get_MR_VertId_mut</ref>(<ref refid="MROneMeshContours_8h_1a5c2f43940af6e59f0406175201873978" kindref="member">MR_std_variant_MR_FaceId_MR_EdgeId_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h"/>
+  </compounddef>
+</doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshApproxRelaxParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshApproxRelaxParams</compoundname>
     <basecompoundref refid="structMR_1_1MeshRelaxParams" prot="public" virt="non-virtual">MR::MeshRelaxParams</basecompoundref>
-    <includes refid="MRMeshRelax_8h" local="no">MRMeshRelax.h</includes>
+    <includes refid="MRMeshRelax_8h" local="no">MRMesh/MRMeshRelax.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshApproxRelaxParams_1aed8137acdd95c73e5606d4ad5fa7e3ae" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="54" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="54" bodyend="54"/>
+        <location file="MRMesh/MRMeshRelax.h" line="54" column="11" bodyfile="MRMesh/MRMeshRelax.h" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshApproxRelaxParams_1a1cee1338307334369140e04b54f03b51" prot="public" static="no" mutable="no">
         <type><ref refid="group__GeneralGroup_1ga6ab288ae813e1aa688312e31c258df71" kindref="member">RelaxApproxType</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="55" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="55" bodyend="55"/>
+        <location file="MRMesh/MRMeshRelax.h" line="55" column="21" bodyfile="MRMesh/MRMeshRelax.h" bodystart="55" bodyend="55"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -77,7 +77,7 @@
         <link refid="structMR_1_1RelaxParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="51" bodyend="56"/>
+    <location file="MRMesh/MRMeshRelax.h" line="50" column="1" bodyfile="MRMesh/MRMeshRelax.h" bodystart="51" bodyend="56"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>_padding</name></member>
       <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>force</name></member>

@@ -1,63 +1,110 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHistogram_8h" kind="file" language="C++">
     <compoundname>MRHistogram.h</compoundname>
     <includes refid="MRHeapBytes_8h" local="yes">MRHeapBytes.h</includes>
-    <includedby refid="MRObjectVoxels_8h" local="yes">MRObjectVoxels.h</includedby>
+    <includedby refid="MRObjectVoxels_8h" local="yes">MRVoxels/MRObjectVoxels.h</includedby>
     <incdepgraph>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
       <node id="2">
         <label>MRHeapBytes.h</label>
         <link refid="MRHeapBytes_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRHistogram.h</label>
+        <label>MRMesh/MRHistogram.h</label>
         <link refid="MRHistogram_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
       <node id="3">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="6">
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="14">
         <label>memory</label>
       </node>
-      <node id="5">
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="9">
         <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>MRBinaryOperationsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="1">
-        <label>MRHistogram.h</label>
+        <label>MRMesh/MRHistogram.h</label>
         <link refid="MRHistogram_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRChangeVoxelSelectionAction.h</label>
+        <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
         <link refid="MRChangeVoxelSelectionAction_8h"/>
       </node>
       <node id="5">
-        <label>MRChangeVoxelsAction.h</label>
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
       <node id="2">
-        <label>MRObjectVoxels.h</label>
+        <label>MRVoxels/MRObjectVoxels.h</label>
         <link refid="MRObjectVoxels_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -80,24 +127,24 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"></codeline>
-<codeline lineno="12" refid="classMR_1_1Histogram" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classMR_1_1Histogram" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kindref="member">Histogram</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kindref="member">Histogram</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga9987d6f205ec5eb085631e1d45e333b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga9987d6f205ec5eb085631e1d45e333b7" kindref="member">Histogram</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gad5ea2693d9db6b1e3a7b67617c339db0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gad5ea2693d9db6b1e3a7b67617c339db0" kindref="member">Histogram</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga2b4f6ecb70d69c8ccba757095f5162cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b4f6ecb70d69c8ccba757095f5162cc" kindref="member">addSample</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count<sp/>=<sp/>1<sp/>);</highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1gac1ebc3ae44e75437744d7f0b35a0dad5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac1ebc3ae44e75437744d7f0b35a0dad5" kindref="member">addHistogram</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref>&amp;<sp/>hist<sp/>);</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gab826dc466fb10e173c94b9cf2f5c19be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab826dc466fb10e173c94b9cf2f5c19be" kindref="member">addSample</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" kindref="member">addHistogram</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kindref="member">Histogram</ref>&amp;<sp/>hist<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1ga489a0a4c59abc3a2d4a5b3382fd7e4b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;size_t&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga489a0a4c59abc3a2d4a5b3382fd7e4b3" kindref="member">getBins</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga7f76d8d458118ec2a7e966bc9d00e576" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;size_t&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga7f76d8d458118ec2a7e966bc9d00e576" kindref="member">getBins</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="group__GeneralGroup_1ga46da7c1b719682c2e39bfb89ee04eca3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga46da7c1b719682c2e39bfb89ee04eca3" kindref="member">getMin</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga827e85fc6dbb381db1ecdd86cc85efc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga827e85fc6dbb381db1ecdd86cc85efc8" kindref="member">getMax</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga3881c7b843a4627bcb06716c07ccf9dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3881c7b843a4627bcb06716c07ccf9dc" kindref="member">getMin</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gaf9aa6fd5d961ef9d8be749d04462bb20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9aa6fd5d961ef9d8be749d04462bb20" kindref="member">getMax</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gaa191601972d6382ef20f1b6fa9ad85a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa191601972d6382ef20f1b6fa9ad85a0" kindref="member">getBinId</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga77d44fead356e682cf2c30805722b59c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>std::pair&lt;float,<sp/>float&gt;<sp/><ref refid="group__GeneralGroup_1ga77d44fead356e682cf2c30805722b59c" kindref="member">getBinMinMax</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>binId<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ga09293cb2dee99d5947d104123d90b0a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga09293cb2dee99d5947d104123d90b0a3" kindref="member">getBinId</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gae3c682af52ef9db6180d864329779bfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;float,<sp/>float&gt;<sp/><ref refid="group__GeneralGroup_1gae3c682af52ef9db6180d864329779bfc" kindref="member">getBinMinMax</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>binId<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39" refid="group__GeneralGroup_1ga4666262b73e1f92125d26cb27d2d5eca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4666262b73e1f92125d26cb27d2d5eca" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gacfd51356fbcb71948b1ef3f058ac75c7" kindref="member">MR::heapBytes</ref>(<sp/>bins_<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
@@ -109,6 +156,6 @@
 <codeline lineno="46"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h"/>
+    <location file="MRMesh/MRHistogram.h"/>
   </compounddef>
 </doxygen>

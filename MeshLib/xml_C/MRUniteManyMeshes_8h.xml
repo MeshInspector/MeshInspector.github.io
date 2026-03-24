@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUniteManyMeshes_8h" kind="file" language="C++">
     <compoundname>MRUniteManyMeshes.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,22 +14,33 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -70,49 +81,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" bodystart="21" bodyend="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" bodystart="21" bodyend="28"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRUniteManyMeshes_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRUniteManyMeshes_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_Mesh_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="14" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRUniteManyMeshes_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="15" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRUniteManyMeshes_8h_1ae7193edfceac57cfb2d1d3b5b68a90b8" prot="public" static="no">
         <type>struct <ref refid="MRUniteManyMeshes_8h_1ae7193edfceac57cfb2d1d3b5b68a90b8" kindref="member">MR_std_vector_const_MR_Mesh_ptr</ref></type>
         <definition>typedef struct MR_std_vector_const_MR_Mesh_ptr MR_std_vector_const_MR_Mesh_ptr</definition>
@@ -121,10 +93,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;const MR::Mesh *&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="16" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="16" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRUniteManyMeshes_8h_1a8e5eb6878680e80dcb60b3200acd0b03" prot="public" static="no">
         <type>enum <ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref></type>
@@ -138,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="28" column="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="28" column="26"/>
       </memberdef>
       <memberdef kind="typedef" id="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" prot="public" static="no">
         <type>struct <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref></type>
@@ -148,16 +121,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Parameters structure for uniteManyMeshes function Generated from class <computeroutput>MR::UniteManyMeshesParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Parameters structure for uniteManyMeshes function Generated from class <computeroutput>MR::UniteManyMeshesParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="33" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="33" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a815aeec03d41ba8646fcbdac6c9a7bb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_UniteManyMeshesParams_Get_useRandomShifts</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_useRandomShifts</name>
@@ -172,10 +145,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="40" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="40" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="40" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="40" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a811f8a6529787d033b5897f8bd4995f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_useRandomShifts</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, bool value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_useRandomShifts</name>
@@ -190,14 +163,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Apply random shift to each mesh, to prevent degenerations on coincident surfaces Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>useRandomShifts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>useRandomShifts</computeroutput>. </para>
+<para>Apply random shift to each mesh, to prevent degenerations on coincident surfaces Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>useRandomShifts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>useRandomShifts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="46" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="46" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a202072a113d7b995762e70912bc88b60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_UniteManyMeshesParams_GetMutable_useRandomShifts</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_useRandomShifts</name>
@@ -212,10 +185,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="53" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1abaf33831a6cce06066386248fcebe754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_UniteManyMeshesParams_Get_fixDegenerations</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_fixDegenerations</name>
@@ -230,10 +203,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="62" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="62" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="62" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="62" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a6c4a9a452fac99be5f360a11fca89d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_fixDegenerations</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, bool value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_fixDegenerations</name>
@@ -248,14 +221,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>fixDegenerations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fixDegenerations</computeroutput>. </para>
+<para>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>fixDegenerations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fixDegenerations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="70" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="70" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a1504abd5af5b5a33f63671af7a788996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_UniteManyMeshesParams_GetMutable_fixDegenerations</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_fixDegenerations</name>
@@ -270,10 +243,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="79" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="79" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a0617a974f50a8dc4b23565863e781a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_UniteManyMeshesParams_Get_maxAllowedError</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_maxAllowedError</name>
@@ -288,10 +261,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="87" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="87" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="87" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="87" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1aaffbbf139f639e5dd671ab65d7cb37d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_maxAllowedError</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, float value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_maxAllowedError</name>
@@ -306,14 +279,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>maxAllowedError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAllowedError</computeroutput>. </para>
+<para>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>maxAllowedError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAllowedError</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="94" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="94" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a9168d43d84ac114dcdf6bf405b0c9232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_UniteManyMeshesParams_GetMutable_maxAllowedError</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_maxAllowedError</name>
@@ -328,10 +301,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="102" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="102" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="102" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="102" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a70c75718ab3a41239834c257b81dc796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const unsigned int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const unsigned int *</type>
         <definition>MRC_API const unsigned int * MR_UniteManyMeshesParams_Get_randomShiftsSeed</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_randomShiftsSeed</name>
@@ -346,10 +319,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="109" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="109" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="109" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="109" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1ac881f6ffd1c094cc5366a297a00c9df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_randomShiftsSeed</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, unsigned int value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_randomShiftsSeed</name>
@@ -364,14 +337,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Seed that is used for random shifts Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>randomShiftsSeed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>randomShiftsSeed</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>randomShiftsSeed</computeroutput>. </para>
+<para>Seed that is used for random shifts Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>randomShiftsSeed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>randomShiftsSeed</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>randomShiftsSeed</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="116" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="116" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a441855aa68b57c9e34fb4d732cdbf3fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API unsigned int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int *</type>
         <definition>MRC_API unsigned int * MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</name>
@@ -386,10 +359,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="123" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="123" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="123" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="123" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1af72e4f9ed5825f5341a675e70e72bc45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
         <definition>MRC_API MR_FaceBitSet *const  * MR_UniteManyMeshesParams_Get_newFaces</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_newFaces</name>
@@ -404,10 +377,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="130" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="130" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="130" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="130" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1afbcc59689b65300b513db258ed8cddbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_newFaces</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, MR_FaceBitSet *value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_newFaces</name>
@@ -422,14 +395,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If set, the bitset will store new faces created by boolean operations Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>newFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>newFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>newFaces</computeroutput>. </para>
+<para>If set, the bitset will store new faces created by boolean operations Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>newFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>newFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>newFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="137" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="137" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a90512e36c0f8188183949f30d298d6be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
         <definition>MRC_API MR_FaceBitSet ** MR_UniteManyMeshesParams_GetMutable_newFaces</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_newFaces</name>
@@ -444,10 +417,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="144" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="144" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="144" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="144" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1ade5e7a8333f3b493b6ecd5e0de810bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref> *</type>
         <definition>MRC_API const MR_NestedComponenetsMode * MR_UniteManyMeshesParams_Get_nestedComponentsMode</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_nestedComponentsMode</name>
@@ -462,10 +435,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="152" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="152" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="152" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="152" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a765535345779f67b4492757b3d613d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_nestedComponentsMode</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, MR_NestedComponenetsMode value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_nestedComponentsMode</name>
@@ -480,14 +453,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>nestedComponentsMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nestedComponentsMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>nestedComponentsMode</computeroutput>. </para>
+<para>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>nestedComponentsMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nestedComponentsMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>nestedComponentsMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="160" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="160" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1ab9918bbfb181a8c73974a959291c4743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref> *</type>
         <definition>MRC_API MR_NestedComponenetsMode * MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</name>
@@ -502,10 +475,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="168" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="168" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="168" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="168" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a4f205153ad98413752624545ea12622c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_UniteManyMeshesParams_Get_mergeOnFail</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_mergeOnFail</name>
@@ -520,10 +493,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="175" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="175" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="175" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="175" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a83a923a10580b9a067b3125e4007bdcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_mergeOnFail</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, bool value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_mergeOnFail</name>
@@ -538,14 +511,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If set - merges meshes instead of booleaning it if boolean operation fails Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>mergeOnFail</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>mergeOnFail</computeroutput>. </para>
+<para>If set - merges meshes instead of booleaning it if boolean operation fails Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>mergeOnFail</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>mergeOnFail</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="181" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="181" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="181" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="181" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a56184079cfc91b2ef085c1163385634e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_UniteManyMeshesParams_GetMutable_mergeOnFail</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_mergeOnFail</name>
@@ -560,10 +533,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="188" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="188" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a7f5c25f2651505ece1869a5f256987ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_UniteManyMeshesParams_Get_forceCut</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_forceCut</name>
@@ -580,10 +553,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="197" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="197" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="197" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="197" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a1b4a1d176cfc6acee41c4dd6291fc068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_forceCut</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, bool value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_forceCut</name>
@@ -598,16 +571,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>forceCut</computeroutput>. </para>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>forceCut</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="205" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="205" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a582895e6bacbdc68c33fadd71312aa05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_UniteManyMeshesParams_GetMutable_forceCut</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_forceCut</name>
@@ -624,10 +597,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="214" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="214" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="214" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="214" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a17a85aa62b4e0013af638f2d511effe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_UniteManyMeshesParams_Get_progressCb</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Get_progressCb</name>
@@ -642,10 +615,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="220" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="220" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="220" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="220" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a9014cb316d4a994f59f7ea04e1257248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Set_progressCb</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_UniteManyMeshesParams_Set_progressCb</name>
@@ -654,7 +627,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -664,14 +637,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>progressCb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progressCb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>progressCb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progressCb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="226" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="226" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a93c8e78713f0a6edbe3badbeaa4ae39c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_UniteManyMeshesParams_GetMutable_progressCb</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_GetMutable_progressCb</name>
@@ -686,10 +659,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="232" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="232" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="232" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="232" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1aea25dd860532caabb4545140e67c3773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
         <definition>MRC_API MR_UniteManyMeshesParams * MR_UniteManyMeshesParams_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_UniteManyMeshesParams_DefaultConstruct</name>
@@ -703,10 +676,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="236" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="236" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="236" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="236" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a973f757a98dc45a29df0ea202982411d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
         <definition>MRC_API MR_UniteManyMeshesParams * MR_UniteManyMeshesParams_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_UniteManyMeshesParams_DefaultConstructArray</name>
@@ -721,10 +694,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="241" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="241" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="241" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="241" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a87c006da53cc0a9054d0afb1986bae2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
         <definition>MRC_API MR_UniteManyMeshesParams * MR_UniteManyMeshesParams_ConstructFrom</definition>
         <argsstring>(bool useRandomShifts, bool fixDegenerations, float maxAllowedError, unsigned int randomShiftsSeed, MR_FaceBitSet *newFaces, MR_NestedComponenetsMode nestedComponentsMode, bool mergeOnFail, bool forceCut, MR_PassBy progressCb_pass_by, MR_std_function_bool_from_float *progressCb)</argsstring>
         <name>MR_UniteManyMeshesParams_ConstructFrom</name>
@@ -761,7 +734,7 @@
           <declname>forceCut</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>progressCb_pass_by</declname>
         </param>
         <param>
@@ -771,14 +744,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::UniteManyMeshesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>randomShiftsSeed</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>nestedComponentsMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" kindref="member">MR_UniteManyMeshesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::UniteManyMeshesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>randomShiftsSeed</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>nestedComponentsMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" kindref="member">MR_UniteManyMeshesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="250" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="250" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="250" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="250" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a963ca5e79de4f0122e2ec63db134d238" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
         <definition>MRC_API const MR_UniteManyMeshesParams * MR_UniteManyMeshesParams_OffsetPtr</definition>
         <argsstring>(const MR_UniteManyMeshesParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_UniteManyMeshesParams_OffsetPtr</name>
@@ -797,10 +770,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="254" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="254" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="254" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="254" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a2c7233bf8812cb4af5412dcd22e6ac60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
         <definition>MRC_API MR_UniteManyMeshesParams * MR_UniteManyMeshesParams_OffsetMutablePtr</definition>
         <argsstring>(MR_UniteManyMeshesParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_UniteManyMeshesParams_OffsetMutablePtr</name>
@@ -819,15 +792,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="258" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="258" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="258" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="258" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a4824c6fc906c8bbb0901aefd1cabceb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
         <definition>MRC_API MR_UniteManyMeshesParams * MR_UniteManyMeshesParams_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_UniteManyMeshesParams *_other)</argsstring>
         <name>MR_UniteManyMeshesParams_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -841,10 +814,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="263" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="263" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="263" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="263" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_Destroy</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_Destroy</name>
@@ -853,16 +826,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_UniteManyMeshesParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="266" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="266" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1aea6a2768acab3a6cf00c4f5b9af6e20d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniteManyMeshesParams_DestroyArray</definition>
         <argsstring>(const MR_UniteManyMeshesParams *_this)</argsstring>
         <name>MR_UniteManyMeshesParams_DestroyArray</name>
@@ -871,16 +844,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_UniteManyMeshesParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="269" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="269" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="269" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="269" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1a2b9cc39c7987242ef812466516187831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref> *</type>
         <definition>MRC_API MR_UniteManyMeshesParams * MR_UniteManyMeshesParams_AssignFromAnother</definition>
         <argsstring>(MR_UniteManyMeshesParams *_this, MR_PassBy _other_pass_by, MR_UniteManyMeshesParams *_other)</argsstring>
         <name>MR_UniteManyMeshesParams_AssignFromAnother</name>
@@ -889,7 +862,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -899,14 +872,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::UniteManyMeshesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::UniteManyMeshesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="276" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="276" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="276" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="276" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUniteManyMeshes_8h_1aea757129ffa2722d3062c2f234acf0fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_uniteManyMeshes</definition>
         <argsstring>(const MR_std_vector_const_MR_Mesh_ptr *meshes, const MR_UniteManyMeshesParams *params)</argsstring>
         <name>MR_uniteManyMeshes</name>
@@ -921,11 +894,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::uniteManyMeshes</computeroutput>. Parameter <computeroutput>meshes</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::uniteManyMeshes</computeroutput>. Parameter <computeroutput>meshes</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" line="286" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h" declline="286" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" line="286" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h" declline="286" declcolumn="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -935,8 +908,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -945,102 +918,102 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRUniteManyMeshes_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRUniteManyMeshes_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRUniteManyMeshes_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRUniteManyMeshes_8h_1ae7193edfceac57cfb2d1d3b5b68a90b8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUniteManyMeshes_8h_1ae7193edfceac57cfb2d1d3b5b68a90b8" kindref="member">MR_std_vector_const_MR_Mesh_ptr</ref><sp/><ref refid="MRUniteManyMeshes_8h_1ae7193edfceac57cfb2d1d3b5b68a90b8" kindref="member">MR_std_vector_const_MR_Mesh_ptr</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_const_MR_Mesh_ptr.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref></highlight></codeline>
+<codeline lineno="20" refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5a1f9866b626345c006575db992e30e70a" kindref="member">MR_NestedComponenetsMode_Remove</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5a5686960c5309ee42c800b9aae6d53557" kindref="member">MR_NestedComponenetsMode_Merge</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="23" refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5a1f9866b626345c006575db992e30e70a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5a1f9866b626345c006575db992e30e70a" kindref="member">MR_NestedComponenetsMode_Remove</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="25" refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5a5686960c5309ee42c800b9aae6d53557" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5a5686960c5309ee42c800b9aae6d53557" kindref="member">MR_NestedComponenetsMode_Merge</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="27" refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5a78ef8e00427c0af348d84b9a69df2d85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5a78ef8e00427c0af348d84b9a69df2d85" kindref="member">MR_NestedComponenetsMode_Union</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="28" refid="MRUniteManyMeshes_8h_1a8e5eb6878680e80dcb60b3200acd0b03" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref>;</highlight></codeline>
+<codeline lineno="33" refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRUniteManyMeshes_8h_1a815aeec03d41ba8646fcbdac6c9a7bb9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a815aeec03d41ba8646fcbdac6c9a7bb9" kindref="member">MR_UniteManyMeshesParams_Get_useRandomShifts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40" refid="MRUniteManyMeshes_8h_1a815aeec03d41ba8646fcbdac6c9a7bb9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a815aeec03d41ba8646fcbdac6c9a7bb9" kindref="member">MR_UniteManyMeshesParams_Get_useRandomShifts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRUniteManyMeshes_8h_1a811f8a6529787d033b5897f8bd4995f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a811f8a6529787d033b5897f8bd4995f9" kindref="member">MR_UniteManyMeshesParams_Set_useRandomShifts</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="46" refid="MRUniteManyMeshes_8h_1a811f8a6529787d033b5897f8bd4995f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a811f8a6529787d033b5897f8bd4995f9" kindref="member">MR_UniteManyMeshesParams_Set_useRandomShifts</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRUniteManyMeshes_8h_1a202072a113d7b995762e70912bc88b60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a202072a113d7b995762e70912bc88b60" kindref="member">MR_UniteManyMeshesParams_GetMutable_useRandomShifts</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53" refid="MRUniteManyMeshes_8h_1a202072a113d7b995762e70912bc88b60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a202072a113d7b995762e70912bc88b60" kindref="member">MR_UniteManyMeshesParams_GetMutable_useRandomShifts</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRUniteManyMeshes_8h_1abaf33831a6cce06066386248fcebe754" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1abaf33831a6cce06066386248fcebe754" kindref="member">MR_UniteManyMeshesParams_Get_fixDegenerations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62" refid="MRUniteManyMeshes_8h_1abaf33831a6cce06066386248fcebe754" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1abaf33831a6cce06066386248fcebe754" kindref="member">MR_UniteManyMeshesParams_Get_fixDegenerations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRUniteManyMeshes_8h_1a6c4a9a452fac99be5f360a11fca89d96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a6c4a9a452fac99be5f360a11fca89d96" kindref="member">MR_UniteManyMeshesParams_Set_fixDegenerations</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="70" refid="MRUniteManyMeshes_8h_1a6c4a9a452fac99be5f360a11fca89d96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a6c4a9a452fac99be5f360a11fca89d96" kindref="member">MR_UniteManyMeshesParams_Set_fixDegenerations</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRUniteManyMeshes_8h_1a1504abd5af5b5a33f63671af7a788996" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a1504abd5af5b5a33f63671af7a788996" kindref="member">MR_UniteManyMeshesParams_GetMutable_fixDegenerations</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="79" refid="MRUniteManyMeshes_8h_1a1504abd5af5b5a33f63671af7a788996" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a1504abd5af5b5a33f63671af7a788996" kindref="member">MR_UniteManyMeshesParams_GetMutable_fixDegenerations</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRUniteManyMeshes_8h_1a0617a974f50a8dc4b23565863e781a2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a0617a974f50a8dc4b23565863e781a2c" kindref="member">MR_UniteManyMeshesParams_Get_maxAllowedError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87" refid="MRUniteManyMeshes_8h_1a0617a974f50a8dc4b23565863e781a2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a0617a974f50a8dc4b23565863e781a2c" kindref="member">MR_UniteManyMeshesParams_Get_maxAllowedError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRUniteManyMeshes_8h_1aaffbbf139f639e5dd671ab65d7cb37d4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1aaffbbf139f639e5dd671ab65d7cb37d4" kindref="member">MR_UniteManyMeshesParams_Set_maxAllowedError</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="94" refid="MRUniteManyMeshes_8h_1aaffbbf139f639e5dd671ab65d7cb37d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1aaffbbf139f639e5dd671ab65d7cb37d4" kindref="member">MR_UniteManyMeshesParams_Set_maxAllowedError</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRUniteManyMeshes_8h_1a9168d43d84ac114dcdf6bf405b0c9232" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a9168d43d84ac114dcdf6bf405b0c9232" kindref="member">MR_UniteManyMeshesParams_GetMutable_maxAllowedError</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102" refid="MRUniteManyMeshes_8h_1a9168d43d84ac114dcdf6bf405b0c9232" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a9168d43d84ac114dcdf6bf405b0c9232" kindref="member">MR_UniteManyMeshesParams_GetMutable_maxAllowedError</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRUniteManyMeshes_8h_1a70c75718ab3a41239834c257b81dc796" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a70c75718ab3a41239834c257b81dc796" kindref="member">MR_UniteManyMeshesParams_Get_randomShiftsSeed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109" refid="MRUniteManyMeshes_8h_1a70c75718ab3a41239834c257b81dc796" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a70c75718ab3a41239834c257b81dc796" kindref="member">MR_UniteManyMeshesParams_Get_randomShiftsSeed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRUniteManyMeshes_8h_1ac881f6ffd1c094cc5366a297a00c9df5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1ac881f6ffd1c094cc5366a297a00c9df5" kindref="member">MR_UniteManyMeshesParams_Set_randomShiftsSeed</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="116" refid="MRUniteManyMeshes_8h_1ac881f6ffd1c094cc5366a297a00c9df5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1ac881f6ffd1c094cc5366a297a00c9df5" kindref="member">MR_UniteManyMeshesParams_Set_randomShiftsSeed</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRUniteManyMeshes_8h_1a441855aa68b57c9e34fb4d732cdbf3fe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a441855aa68b57c9e34fb4d732cdbf3fe" kindref="member">MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="MRUniteManyMeshes_8h_1a441855aa68b57c9e34fb4d732cdbf3fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a441855aa68b57c9e34fb4d732cdbf3fe" kindref="member">MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRUniteManyMeshes_8h_1af72e4f9ed5825f5341a675e70e72bc45" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1af72e4f9ed5825f5341a675e70e72bc45" kindref="member">MR_UniteManyMeshesParams_Get_newFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130" refid="MRUniteManyMeshes_8h_1af72e4f9ed5825f5341a675e70e72bc45" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1af72e4f9ed5825f5341a675e70e72bc45" kindref="member">MR_UniteManyMeshesParams_Get_newFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137" refid="MRUniteManyMeshes_8h_1afbcc59689b65300b513db258ed8cddbc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1afbcc59689b65300b513db258ed8cddbc" kindref="member">MR_UniteManyMeshesParams_Set_newFaces</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="137" refid="MRUniteManyMeshes_8h_1afbcc59689b65300b513db258ed8cddbc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1afbcc59689b65300b513db258ed8cddbc" kindref="member">MR_UniteManyMeshesParams_Set_newFaces</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRUniteManyMeshes_8h_1a90512e36c0f8188183949f30d298d6be" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRUniteManyMeshes_8h_1a90512e36c0f8188183949f30d298d6be" kindref="member">MR_UniteManyMeshesParams_GetMutable_newFaces</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144" refid="MRUniteManyMeshes_8h_1a90512e36c0f8188183949f30d298d6be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRUniteManyMeshes_8h_1a90512e36c0f8188183949f30d298d6be" kindref="member">MR_UniteManyMeshesParams_GetMutable_newFaces</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRUniteManyMeshes_8h_1ade5e7a8333f3b493b6ecd5e0de810bea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1ade5e7a8333f3b493b6ecd5e0de810bea" kindref="member">MR_UniteManyMeshesParams_Get_nestedComponentsMode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152" refid="MRUniteManyMeshes_8h_1ade5e7a8333f3b493b6ecd5e0de810bea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1ade5e7a8333f3b493b6ecd5e0de810bea" kindref="member">MR_UniteManyMeshesParams_Get_nestedComponentsMode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRUniteManyMeshes_8h_1a765535345779f67b4492757b3d613d57" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a765535345779f67b4492757b3d613d57" kindref="member">MR_UniteManyMeshesParams_Set_nestedComponentsMode</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref><sp/>value);</highlight></codeline>
+<codeline lineno="160" refid="MRUniteManyMeshes_8h_1a765535345779f67b4492757b3d613d57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a765535345779f67b4492757b3d613d57" kindref="member">MR_UniteManyMeshesParams_Set_nestedComponentsMode</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref><sp/>value);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRUniteManyMeshes_8h_1ab9918bbfb181a8c73974a959291c4743" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1ab9918bbfb181a8c73974a959291c4743" kindref="member">MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="168" refid="MRUniteManyMeshes_8h_1ab9918bbfb181a8c73974a959291c4743" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1ab9918bbfb181a8c73974a959291c4743" kindref="member">MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="MRUniteManyMeshes_8h_1a4f205153ad98413752624545ea12622c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a4f205153ad98413752624545ea12622c" kindref="member">MR_UniteManyMeshesParams_Get_mergeOnFail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175" refid="MRUniteManyMeshes_8h_1a4f205153ad98413752624545ea12622c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a4f205153ad98413752624545ea12622c" kindref="member">MR_UniteManyMeshesParams_Get_mergeOnFail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="MRUniteManyMeshes_8h_1a83a923a10580b9a067b3125e4007bdcd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a83a923a10580b9a067b3125e4007bdcd" kindref="member">MR_UniteManyMeshesParams_Set_mergeOnFail</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="181" refid="MRUniteManyMeshes_8h_1a83a923a10580b9a067b3125e4007bdcd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a83a923a10580b9a067b3125e4007bdcd" kindref="member">MR_UniteManyMeshesParams_Set_mergeOnFail</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRUniteManyMeshes_8h_1a56184079cfc91b2ef085c1163385634e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a56184079cfc91b2ef085c1163385634e" kindref="member">MR_UniteManyMeshesParams_GetMutable_mergeOnFail</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188" refid="MRUniteManyMeshes_8h_1a56184079cfc91b2ef085c1163385634e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a56184079cfc91b2ef085c1163385634e" kindref="member">MR_UniteManyMeshesParams_GetMutable_mergeOnFail</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRUniteManyMeshes_8h_1a7f5c25f2651505ece1869a5f256987ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a7f5c25f2651505ece1869a5f256987ec" kindref="member">MR_UniteManyMeshesParams_Get_forceCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="197" refid="MRUniteManyMeshes_8h_1a7f5c25f2651505ece1869a5f256987ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a7f5c25f2651505ece1869a5f256987ec" kindref="member">MR_UniteManyMeshesParams_Get_forceCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205" refid="MRUniteManyMeshes_8h_1a1b4a1d176cfc6acee41c4dd6291fc068" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a1b4a1d176cfc6acee41c4dd6291fc068" kindref="member">MR_UniteManyMeshesParams_Set_forceCut</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="205" refid="MRUniteManyMeshes_8h_1a1b4a1d176cfc6acee41c4dd6291fc068" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a1b4a1d176cfc6acee41c4dd6291fc068" kindref="member">MR_UniteManyMeshesParams_Set_forceCut</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214" refid="MRUniteManyMeshes_8h_1a582895e6bacbdc68c33fadd71312aa05" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a582895e6bacbdc68c33fadd71312aa05" kindref="member">MR_UniteManyMeshesParams_GetMutable_forceCut</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="214" refid="MRUniteManyMeshes_8h_1a582895e6bacbdc68c33fadd71312aa05" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRUniteManyMeshes_8h_1a582895e6bacbdc68c33fadd71312aa05" kindref="member">MR_UniteManyMeshesParams_GetMutable_forceCut</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRUniteManyMeshes_8h_1a17a85aa62b4e0013af638f2d511effe1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a17a85aa62b4e0013af638f2d511effe1" kindref="member">MR_UniteManyMeshesParams_Get_progressCb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="220" refid="MRUniteManyMeshes_8h_1a17a85aa62b4e0013af638f2d511effe1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a17a85aa62b4e0013af638f2d511effe1" kindref="member">MR_UniteManyMeshesParams_Get_progressCb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRUniteManyMeshes_8h_1a9014cb316d4a994f59f7ea04e1257248" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a9014cb316d4a994f59f7ea04e1257248" kindref="member">MR_UniteManyMeshesParams_Set_progressCb</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="226" refid="MRUniteManyMeshes_8h_1a9014cb316d4a994f59f7ea04e1257248" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a9014cb316d4a994f59f7ea04e1257248" kindref="member">MR_UniteManyMeshesParams_Set_progressCb</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRUniteManyMeshes_8h_1a93c8e78713f0a6edbe3badbeaa4ae39c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a93c8e78713f0a6edbe3badbeaa4ae39c" kindref="member">MR_UniteManyMeshesParams_GetMutable_progressCb</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232" refid="MRUniteManyMeshes_8h_1a93c8e78713f0a6edbe3badbeaa4ae39c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a93c8e78713f0a6edbe3badbeaa4ae39c" kindref="member">MR_UniteManyMeshesParams_GetMutable_progressCb</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="MRUniteManyMeshes_8h_1aea25dd860532caabb4545140e67c3773" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1aea25dd860532caabb4545140e67c3773" kindref="member">MR_UniteManyMeshesParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="236" refid="MRUniteManyMeshes_8h_1aea25dd860532caabb4545140e67c3773" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1aea25dd860532caabb4545140e67c3773" kindref="member">MR_UniteManyMeshesParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="MRUniteManyMeshes_8h_1a973f757a98dc45a29df0ea202982411d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a973f757a98dc45a29df0ea202982411d" kindref="member">MR_UniteManyMeshesParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="241" refid="MRUniteManyMeshes_8h_1a973f757a98dc45a29df0ea202982411d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a973f757a98dc45a29df0ea202982411d" kindref="member">MR_UniteManyMeshesParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRUniteManyMeshes_8h_1a87c006da53cc0a9054d0afb1986bae2b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a87c006da53cc0a9054d0afb1986bae2b" kindref="member">MR_UniteManyMeshesParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useRandomShifts,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fixDegenerations,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxAllowedError,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>randomShiftsSeed,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*newFaces,<sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref><sp/>nestedComponentsMode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mergeOnFail,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forceCut,<sp/>MR_PassBy<sp/>progressCb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
+<codeline lineno="250" refid="MRUniteManyMeshes_8h_1a87c006da53cc0a9054d0afb1986bae2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a87c006da53cc0a9054d0afb1986bae2b" kindref="member">MR_UniteManyMeshesParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useRandomShifts,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fixDegenerations,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxAllowedError,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>randomShiftsSeed,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*newFaces,<sp/><ref refid="MRUniteManyMeshes_8h_1a4d170c6ac395b7e751c7ff25ae839ac5" kindref="member">MR_NestedComponenetsMode</ref><sp/>nestedComponentsMode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mergeOnFail,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forceCut,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progressCb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="MRUniteManyMeshes_8h_1a963ca5e79de4f0122e2ec63db134d238" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a963ca5e79de4f0122e2ec63db134d238" kindref="member">MR_UniteManyMeshesParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="254" refid="MRUniteManyMeshes_8h_1a963ca5e79de4f0122e2ec63db134d238" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a963ca5e79de4f0122e2ec63db134d238" kindref="member">MR_UniteManyMeshesParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="258" refid="MRUniteManyMeshes_8h_1a2c7233bf8812cb4af5412dcd22e6ac60" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a2c7233bf8812cb4af5412dcd22e6ac60" kindref="member">MR_UniteManyMeshesParams_OffsetMutablePtr</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="258" refid="MRUniteManyMeshes_8h_1a2c7233bf8812cb4af5412dcd22e6ac60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a2c7233bf8812cb4af5412dcd22e6ac60" kindref="member">MR_UniteManyMeshesParams_OffsetMutablePtr</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MRUniteManyMeshes_8h_1a4824c6fc906c8bbb0901aefd1cabceb0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a4824c6fc906c8bbb0901aefd1cabceb0" kindref="member">MR_UniteManyMeshesParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="263" refid="MRUniteManyMeshes_8h_1a4824c6fc906c8bbb0901aefd1cabceb0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a4824c6fc906c8bbb0901aefd1cabceb0" kindref="member">MR_UniteManyMeshesParams_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" kindref="member">MR_UniteManyMeshesParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="266" refid="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" kindref="member">MR_UniteManyMeshesParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269" refid="MRUniteManyMeshes_8h_1aea6a2768acab3a6cf00c4f5b9af6e20d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1aea6a2768acab3a6cf00c4f5b9af6e20d" kindref="member">MR_UniteManyMeshesParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="269" refid="MRUniteManyMeshes_8h_1aea6a2768acab3a6cf00c4f5b9af6e20d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1aea6a2768acab3a6cf00c4f5b9af6e20d" kindref="member">MR_UniteManyMeshesParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="276" refid="MRUniteManyMeshes_8h_1a2b9cc39c7987242ef812466516187831" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a2b9cc39c7987242ef812466516187831" kindref="member">MR_UniteManyMeshesParams_AssignFromAnother</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="276" refid="MRUniteManyMeshes_8h_1a2b9cc39c7987242ef812466516187831" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1a2b9cc39c7987242ef812466516187831" kindref="member">MR_UniteManyMeshesParams_AssignFromAnother</ref>(<ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"></highlight></codeline>
 <codeline lineno="278"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Computes<sp/>the<sp/>surface<sp/>of<sp/>objects&apos;<sp/>union<sp/>each<sp/>of<sp/>which<sp/>is<sp/>defined<sp/>by<sp/>its<sp/>own<sp/>surface<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="279"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-<sp/>merge<sp/>non<sp/>intersecting<sp/>meshes<sp/>first</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="280"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-<sp/>unite<sp/>merged<sp/>groups</highlight></codeline>
-<codeline lineno="286" refid="MRUniteManyMeshes_8h_1aea757129ffa2722d3062c2f234acf0fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1aea757129ffa2722d3062c2f234acf0fe" kindref="member">MR_uniteManyMeshes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1ae7193edfceac57cfb2d1d3b5b68a90b8" kindref="member">MR_std_vector_const_MR_Mesh_ptr</ref><sp/>*meshes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-<sp/>unite<sp/>merged<sp/>groups</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="MRUniteManyMeshes_8h_1aea757129ffa2722d3062c2f234acf0fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRUniteManyMeshes_8h_1aea757129ffa2722d3062c2f234acf0fe" kindref="member">MR_uniteManyMeshes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1ae7193edfceac57cfb2d1d3b5b68a90b8" kindref="member">MR_std_vector_const_MR_Mesh_ptr</ref><sp/>*meshes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniteManyMeshes_8h_1a768fbaa1a635c9393fdb3628694b9f61" kindref="member">MR_UniteManyMeshesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="289"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="290"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniteManyMeshes.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniteManyMeshes.h"/>
   </compounddef>
 </doxygen>

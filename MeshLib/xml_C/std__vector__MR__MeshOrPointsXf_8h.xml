@@ -1,0 +1,1589 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__MeshOrPointsXf_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_MeshOrPointsXf.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_MeshOrPointsXf.h</label>
+        <link refid="std__vector__MR__MeshOrPointsXf_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a56cbf73c4ea3d475d90a13532675aa65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a0be188b9f9d03ec5064693bbbbd83eaf" kindref="member">MR_std_vector_MR_MeshOrPointsXf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="30" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="30" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1afb700c02e56df64eea2ceb180fef2339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a98eeb3e450017e03418ffcb3015df422" kindref="member">MR_std_vector_MR_MeshOrPointsXf_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1ad976d6ac1f642f27ba9ad453cf035175" kindref="member">MR_std_vector_MR_MeshOrPointsXf_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a208494a05003b46e859052e7c2084054" kindref="member">MR_std_vector_MR_MeshOrPointsXf_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="35" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="35" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a5be634c49010abc4270173d3130fab68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_MeshOrPointsXf *other)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a0be188b9f9d03ec5064693bbbbd83eaf" kindref="member">MR_std_vector_MR_MeshOrPointsXf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="41" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="41" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a4f026d3d65ff85cd659810eeca95ad7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, MR_PassBy other_pass_by, MR_std_vector_MR_MeshOrPointsXf *other)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a0be188b9f9d03ec5064693bbbbd83eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a98eeb3e450017e03418ffcb3015df422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a208494a05003b46e859052e7c2084054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="57" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="57" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ad976d6ac1f642f27ba9ad453cf035175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="61" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="61" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a6f5aee59265c7d06b444d4df2cab3549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_MeshOrPointsXf_size</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_size</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1aa032f86f354c5a2476be1f084f6246db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshOrPointsXf_empty</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_empty</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a47470d24c55547b705826b2c69309804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, size_t new_size, const MR_MeshOrPointsXf *value)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a8612dd1a6baf621dabb488cfb13583d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_clear</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_clear</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="79" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1af58ec26f1334043711288ba432719565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_MeshOrPointsXf_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_capacity</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="83" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="83" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1af7ca502a6732dadffa9d2121b3f2021d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_reserve</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_reserve</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="87" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a68af8b39a4b254ac9f277b5793768ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a71d48571222263ece7a6865e567b9a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API const MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_at</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_at</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="97" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="97" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a528824c6182a84d1d43d7dfd4bb61e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_at_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="103" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="103" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1aeffb0524cf96fc92a6670a64c9bfc7b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API const MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_front</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_front</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="108" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="108" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a1a9aa679fb9646df178efb0c7201b246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_front_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="113" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="113" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a1a91e05b3c25372fb3ba9a78c8afd6be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API const MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_back</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_back</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="118" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="118" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ad524392802d2cbf47b233ee591bca5aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_back_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="123" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="123" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a8183f621856d557cc1d654b568f3b925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_push_back</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, const MR_MeshOrPointsXf *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_push_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="129" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a37e816f4ae83e827b49f131c644f4618" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_pop_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ac733bafa64ce08d8c103ce5990d0056c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_insert</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, size_t position, const MR_MeshOrPointsXf *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_insert</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ae608e63e1ec3504bcfb48478ac73b608" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_erase</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_erase</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a0682d225b3db6151e3c95823a09b34c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_iterator *position, const MR_MeshOrPointsXf *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ac359df28818bc2ab131b3339c732f3e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="155" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a35a877b566be11cb52ca5efc53dc4243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_const_iterator *position, const MR_MeshOrPointsXf *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a55a655755a4313bb02d53fa1ed1b6296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1aae938da73143167426a51c6f236b3fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_const_iterator * MR_std_vector_MR_MeshOrPointsXf_begin</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a53ef103902ca2e4efb8c311ef93e7713" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="173" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="173" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1aceb347cf31ce5a94f0563e2be32f2054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshOrPointsXf_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_is_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1abeb0be61f609f7b246178edd770a9a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_iterator * MR_std_vector_MR_MeshOrPointsXf_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_begin_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a4c794214be612aa16fc15382d1b3e0e2" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="184" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="184" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a5cf0faa16ff6a373c1b511a61df789a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshOrPointsXf_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1adf2c33408e56b3e5dcb4a1d4a8ff89ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_const_iterator * MR_std_vector_MR_MeshOrPointsXf_end</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a53ef103902ca2e4efb8c311ef93e7713" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="195" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="195" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a289c266c5bcf39be9d1b940c59b57076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshOrPointsXf_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_is_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a6f5f5f9d954a134b32704654b870ab2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_iterator * MR_std_vector_MR_MeshOrPointsXf_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_end_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a4c794214be612aa16fc15382d1b3e0e2" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="206" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="206" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ae5e441546407b578edd67e972fef9c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshOrPointsXf_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a739f52c7d9454b4ad598265d26de03ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_MeshOrPointsXf_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_to_index</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="216" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a9a8858f67a1a6391c74900a660d19211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_MeshOrPointsXf_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf *_this, const MR_std_vector_MR_MeshOrPointsXf_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a6f376cf66c5a50a859dfa6d4e6f093e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_const_iterator * MR_std_vector_MR_MeshOrPointsXf_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a53ef103902ca2e4efb8c311ef93e7713" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="225" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="225" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1acfeca68ac3d942a9334b349fe9043da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_const_iterator * MR_std_vector_MR_MeshOrPointsXf_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1aaa7c029856f3ba93e0b0f2bf90adbe59" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a58bfc843009c46c10e81e658d2879239" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a0337b2be3ec00f542561ea4fb2dde507" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="230" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="230" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a050225d455e264688a60ff73a9278bf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_const_iterator * MR_std_vector_MR_MeshOrPointsXf_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a53ef103902ca2e4efb8c311ef93e7713" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="237" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="237" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a201158cfd0a1ddd3d90cbe28a1b7870a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_const_iterator *_this, const MR_std_vector_MR_MeshOrPointsXf_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a53ef103902ca2e4efb8c311ef93e7713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1aaa7c029856f3ba93e0b0f2bf90adbe59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="250" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a0337b2be3ec00f542561ea4fb2dde507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshOrPointsXf_const_iterator * MR_std_vector_MR_MeshOrPointsXf_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="254" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="254" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a58bfc843009c46c10e81e658d2879239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_const_iterator * MR_std_vector_MR_MeshOrPointsXf_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="258" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="258" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a3cdb719c9d6f74244a264a303445d2f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_const_iterator * MR_std_vector_MR_MeshOrPointsXf_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a53ef103902ca2e4efb8c311ef93e7713" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="263" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="263" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a126aae382b77a8c71a9968dea6b8f20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_iterator * MR_std_vector_MR_MeshOrPointsXf_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a4c794214be612aa16fc15382d1b3e0e2" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="267" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="267" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a414d8b7a1b396d2506cc7f599705a2d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_iterator * MR_std_vector_MR_MeshOrPointsXf_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a3c65d30f7a28cdf3e39487cbd14c16cc" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a2fdd5b9e2d18d45fbf5ed9074ae76d6d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1af012e8ab5f7e7b0a96656c7c3f503e30" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="272" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="272" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a329f38cfdc42e3501a19225fd1ba17d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_iterator * MR_std_vector_MR_MeshOrPointsXf_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a4c794214be612aa16fc15382d1b3e0e2" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="279" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="279" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a78953e74ac11e6805abfd05c25d4fab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_iterator *_this, const MR_std_vector_MR_MeshOrPointsXf_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a4c794214be612aa16fc15382d1b3e0e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a3c65d30f7a28cdf3e39487cbd14c16cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1af012e8ab5f7e7b0a96656c7c3f503e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshOrPointsXf_iterator * MR_std_vector_MR_MeshOrPointsXf_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="296" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="296" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a2fdd5b9e2d18d45fbf5ed9074ae76d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshOrPointsXf_iterator * MR_std_vector_MR_MeshOrPointsXf_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="300" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="300" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a6d547ff3b95ccaf2d87dc8c12ebc444c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API const MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="306" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="306" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1af86a284a19f5260d8dcbfbbcd7938496" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="310" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ac478cef4c6c3225d17b8814983ffec2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ad83ec887ddedbacc0a07a874ef9f978c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1abab40d316af072ed19b1f73ffa2ebf5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_MeshOrPointsXf_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_const_iterator *a, const MR_std_vector_MR_MeshOrPointsXf_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_MeshOrPointsXf_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="323" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="323" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a5d3a4178a83d9c2ed79a3adb40395b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_MeshOrPointsXf_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_const_iterator *a, const MR_std_vector_MR_MeshOrPointsXf_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_MeshOrPointsXf_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1ae236ac7c279d23697fbae0c425e2a345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref> *</type>
+        <definition>MRC_API MR_MeshOrPointsXf * MR_std_vector_MR_MeshOrPointsXf_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="334" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="334" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a16b9f7309da65fc5ff63958f088f5144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1aaad2e90a808ed477d75e8641a210cb30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a71c6c0f6466ecaa0c321ad420c4e2965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshOrPointsXf_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_MeshOrPointsXf_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_MeshOrPointsXf_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1af04f5c97037b21dbdd438a5304a00d58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_MeshOrPointsXf_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_iterator *a, const MR_std_vector_MR_MeshOrPointsXf_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_MeshOrPointsXf_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshOrPointsXf_8h_1a2d3af44829595b9e53e3cefa6bda2451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_MeshOrPointsXf_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshOrPointsXf_iterator *a, const MR_std_vector_MR_MeshOrPointsXf_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_MeshOrPointsXf_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h" declline="356" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshOrPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__MeshOrPointsXf_8h_1a56cbf73c4ea3d475d90a13532675aa65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a56cbf73c4ea3d475d90a13532675aa65" kindref="member">MR_std_vector_MR_MeshOrPointsXf_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__MeshOrPointsXf_8h_1afb700c02e56df64eea2ceb180fef2339" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1afb700c02e56df64eea2ceb180fef2339" kindref="member">MR_std_vector_MR_MeshOrPointsXf_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__MeshOrPointsXf_8h_1a5be634c49010abc4270173d3130fab68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a5be634c49010abc4270173d3130fab68" kindref="member">MR_std_vector_MR_MeshOrPointsXf_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__MeshOrPointsXf_8h_1a4f026d3d65ff85cd659810eeca95ad7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a4f026d3d65ff85cd659810eeca95ad7e" kindref="member">MR_std_vector_MR_MeshOrPointsXf_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__MeshOrPointsXf_8h_1a0be188b9f9d03ec5064693bbbbd83eaf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a0be188b9f9d03ec5064693bbbbd83eaf" kindref="member">MR_std_vector_MR_MeshOrPointsXf_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__MeshOrPointsXf_8h_1a98eeb3e450017e03418ffcb3015df422" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a98eeb3e450017e03418ffcb3015df422" kindref="member">MR_std_vector_MR_MeshOrPointsXf_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__MeshOrPointsXf_8h_1a208494a05003b46e859052e7c2084054" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a208494a05003b46e859052e7c2084054" kindref="member">MR_std_vector_MR_MeshOrPointsXf_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__MeshOrPointsXf_8h_1ad976d6ac1f642f27ba9ad453cf035175" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1ad976d6ac1f642f27ba9ad453cf035175" kindref="member">MR_std_vector_MR_MeshOrPointsXf_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__MeshOrPointsXf_8h_1a6f5aee59265c7d06b444d4df2cab3549" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a6f5aee59265c7d06b444d4df2cab3549" kindref="member">MR_std_vector_MR_MeshOrPointsXf_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__MeshOrPointsXf_8h_1aa032f86f354c5a2476be1f084f6246db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1aa032f86f354c5a2476be1f084f6246db" kindref="member">MR_std_vector_MR_MeshOrPointsXf_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__vector__MR__MeshOrPointsXf_8h_1a47470d24c55547b705826b2c69309804" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a47470d24c55547b705826b2c69309804" kindref="member">MR_std_vector_MR_MeshOrPointsXf_resize_with_default_value</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="std__vector__MR__MeshOrPointsXf_8h_1a8612dd1a6baf621dabb488cfb13583d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a8612dd1a6baf621dabb488cfb13583d0" kindref="member">MR_std_vector_MR_MeshOrPointsXf_clear</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__MeshOrPointsXf_8h_1af58ec26f1334043711288ba432719565" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1af58ec26f1334043711288ba432719565" kindref="member">MR_std_vector_MR_MeshOrPointsXf_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__MeshOrPointsXf_8h_1af7ca502a6732dadffa9d2121b3f2021d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1af7ca502a6732dadffa9d2121b3f2021d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_reserve</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__MeshOrPointsXf_8h_1a68af8b39a4b254ac9f277b5793768ef1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a68af8b39a4b254ac9f277b5793768ef1" kindref="member">MR_std_vector_MR_MeshOrPointsXf_shrink_to_fit</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="std__vector__MR__MeshOrPointsXf_8h_1a71d48571222263ece7a6865e567b9a84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a71d48571222263ece7a6865e567b9a84" kindref="member">MR_std_vector_MR_MeshOrPointsXf_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="std__vector__MR__MeshOrPointsXf_8h_1a528824c6182a84d1d43d7dfd4bb61e32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a528824c6182a84d1d43d7dfd4bb61e32" kindref="member">MR_std_vector_MR_MeshOrPointsXf_at_mut</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__vector__MR__MeshOrPointsXf_8h_1aeffb0524cf96fc92a6670a64c9bfc7b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1aeffb0524cf96fc92a6670a64c9bfc7b3" kindref="member">MR_std_vector_MR_MeshOrPointsXf_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="std__vector__MR__MeshOrPointsXf_8h_1a1a9aa679fb9646df178efb0c7201b246" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a1a9aa679fb9646df178efb0c7201b246" kindref="member">MR_std_vector_MR_MeshOrPointsXf_front_mut</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__vector__MR__MeshOrPointsXf_8h_1a1a91e05b3c25372fb3ba9a78c8afd6be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a1a91e05b3c25372fb3ba9a78c8afd6be" kindref="member">MR_std_vector_MR_MeshOrPointsXf_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="std__vector__MR__MeshOrPointsXf_8h_1ad524392802d2cbf47b233ee591bca5aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1ad524392802d2cbf47b233ee591bca5aa" kindref="member">MR_std_vector_MR_MeshOrPointsXf_back_mut</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="std__vector__MR__MeshOrPointsXf_8h_1a8183f621856d557cc1d654b568f3b925" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a8183f621856d557cc1d654b568f3b925" kindref="member">MR_std_vector_MR_MeshOrPointsXf_push_back</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__MeshOrPointsXf_8h_1a37e816f4ae83e827b49f131c644f4618" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a37e816f4ae83e827b49f131c644f4618" kindref="member">MR_std_vector_MR_MeshOrPointsXf_pop_back</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="std__vector__MR__MeshOrPointsXf_8h_1ac733bafa64ce08d8c103ce5990d0056c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1ac733bafa64ce08d8c103ce5990d0056c" kindref="member">MR_std_vector_MR_MeshOrPointsXf_insert</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__MeshOrPointsXf_8h_1ae608e63e1ec3504bcfb48478ac73b608" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1ae608e63e1ec3504bcfb48478ac73b608" kindref="member">MR_std_vector_MR_MeshOrPointsXf_erase</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="std__vector__MR__MeshOrPointsXf_8h_1a0682d225b3db6151e3c95823a09b34c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a0682d225b3db6151e3c95823a09b34c9" kindref="member">MR_std_vector_MR_MeshOrPointsXf_insert_at_mutable_iter</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="std__vector__MR__MeshOrPointsXf_8h_1ac359df28818bc2ab131b3339c732f3e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1ac359df28818bc2ab131b3339c732f3e3" kindref="member">MR_std_vector_MR_MeshOrPointsXf_erase_at_mutable_iter</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__MeshOrPointsXf_8h_1a35a877b566be11cb52ca5efc53dc4243" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a35a877b566be11cb52ca5efc53dc4243" kindref="member">MR_std_vector_MR_MeshOrPointsXf_insert_at_iter</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="std__vector__MR__MeshOrPointsXf_8h_1a55a655755a4313bb02d53fa1ed1b6296" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a55a655755a4313bb02d53fa1ed1b6296" kindref="member">MR_std_vector_MR_MeshOrPointsXf_erase_at_iter</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__MeshOrPointsXf_8h_1aae938da73143167426a51c6f236b3fce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1aae938da73143167426a51c6f236b3fce" kindref="member">MR_std_vector_MR_MeshOrPointsXf_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__MR__MeshOrPointsXf_8h_1aceb347cf31ce5a94f0563e2be32f2054" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1aceb347cf31ce5a94f0563e2be32f2054" kindref="member">MR_std_vector_MR_MeshOrPointsXf_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__MeshOrPointsXf_8h_1abeb0be61f609f7b246178edd770a9a0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1abeb0be61f609f7b246178edd770a9a0c" kindref="member">MR_std_vector_MR_MeshOrPointsXf_begin_mut</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__MR__MeshOrPointsXf_8h_1a5cf0faa16ff6a373c1b511a61df789a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a5cf0faa16ff6a373c1b511a61df789a9" kindref="member">MR_std_vector_MR_MeshOrPointsXf_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__MeshOrPointsXf_8h_1adf2c33408e56b3e5dcb4a1d4a8ff89ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1adf2c33408e56b3e5dcb4a1d4a8ff89ab" kindref="member">MR_std_vector_MR_MeshOrPointsXf_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__MR__MeshOrPointsXf_8h_1a289c266c5bcf39be9d1b940c59b57076" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a289c266c5bcf39be9d1b940c59b57076" kindref="member">MR_std_vector_MR_MeshOrPointsXf_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__MeshOrPointsXf_8h_1a6f5f5f9d954a134b32704654b870ab2f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a6f5f5f9d954a134b32704654b870ab2f" kindref="member">MR_std_vector_MR_MeshOrPointsXf_end_mut</ref>(<ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__MR__MeshOrPointsXf_8h_1ae5e441546407b578edd67e972fef9c88" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1ae5e441546407b578edd67e972fef9c88" kindref="member">MR_std_vector_MR_MeshOrPointsXf_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__vector__MR__MeshOrPointsXf_8h_1a739f52c7d9454b4ad598265d26de03ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a739f52c7d9454b4ad598265d26de03ee" kindref="member">MR_std_vector_MR_MeshOrPointsXf_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__vector__MR__MeshOrPointsXf_8h_1a9a8858f67a1a6391c74900a660d19211" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a9a8858f67a1a6391c74900a660d19211" kindref="member">MR_std_vector_MR_MeshOrPointsXf_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6e43bd72abbfb106b2deaa517c163b66" kindref="member">MR_std_vector_MR_MeshOrPointsXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__MeshOrPointsXf_8h_1a6f376cf66c5a50a859dfa6d4e6f093e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a6f376cf66c5a50a859dfa6d4e6f093e3" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="std__vector__MR__MeshOrPointsXf_8h_1acfeca68ac3d942a9334b349fe9043da4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1acfeca68ac3d942a9334b349fe9043da4" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__vector__MR__MeshOrPointsXf_8h_1a050225d455e264688a60ff73a9278bf8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a050225d455e264688a60ff73a9278bf8" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="std__vector__MR__MeshOrPointsXf_8h_1a201158cfd0a1ddd3d90cbe28a1b7870a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a201158cfd0a1ddd3d90cbe28a1b7870a" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__MeshOrPointsXf_8h_1a53ef103902ca2e4efb8c311ef93e7713" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a53ef103902ca2e4efb8c311ef93e7713" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="std__vector__MR__MeshOrPointsXf_8h_1aaa7c029856f3ba93e0b0f2bf90adbe59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1aaa7c029856f3ba93e0b0f2bf90adbe59" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__MeshOrPointsXf_8h_1a0337b2be3ec00f542561ea4fb2dde507" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a0337b2be3ec00f542561ea4fb2dde507" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__MeshOrPointsXf_8h_1a58bfc843009c46c10e81e658d2879239" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a58bfc843009c46c10e81e658d2879239" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="std__vector__MR__MeshOrPointsXf_8h_1a3cdb719c9d6f74244a264a303445d2f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a3cdb719c9d6f74244a264a303445d2f7" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__MeshOrPointsXf_8h_1a126aae382b77a8c71a9968dea6b8f20f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a126aae382b77a8c71a9968dea6b8f20f" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="std__vector__MR__MeshOrPointsXf_8h_1a414d8b7a1b396d2506cc7f599705a2d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a414d8b7a1b396d2506cc7f599705a2d4" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="std__vector__MR__MeshOrPointsXf_8h_1a329f38cfdc42e3501a19225fd1ba17d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a329f38cfdc42e3501a19225fd1ba17d0" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="std__vector__MR__MeshOrPointsXf_8h_1a78953e74ac11e6805abfd05c25d4fab8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a78953e74ac11e6805abfd05c25d4fab8" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__MeshOrPointsXf_8h_1a4c794214be612aa16fc15382d1b3e0e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a4c794214be612aa16fc15382d1b3e0e2" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="std__vector__MR__MeshOrPointsXf_8h_1a3c65d30f7a28cdf3e39487cbd14c16cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a3c65d30f7a28cdf3e39487cbd14c16cc" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__MeshOrPointsXf_8h_1af012e8ab5f7e7b0a96656c7c3f503e30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1af012e8ab5f7e7b0a96656c7c3f503e30" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__MeshOrPointsXf_8h_1a2fdd5b9e2d18d45fbf5ed9074ae76d6d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a2fdd5b9e2d18d45fbf5ed9074ae76d6d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__MeshOrPointsXf_8h_1a6d547ff3b95ccaf2d87dc8c12ebc444c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1a6d547ff3b95ccaf2d87dc8c12ebc444c" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__MeshOrPointsXf_8h_1af86a284a19f5260d8dcbfbbcd7938496" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1af86a284a19f5260d8dcbfbbcd7938496" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_incr</ref>(<ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__MeshOrPointsXf_8h_1ac478cef4c6c3225d17b8814983ffec2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1ac478cef4c6c3225d17b8814983ffec2d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_decr</ref>(<ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__MeshOrPointsXf_8h_1ad83ec887ddedbacc0a07a874ef9f978c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1ad83ec887ddedbacc0a07a874ef9f978c" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__MeshOrPointsXf_8h_1abab40d316af072ed19b1f73ffa2ebf5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1abab40d316af072ed19b1f73ffa2ebf5c" kindref="member">MR_sub_MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="std__vector__MR__MeshOrPointsXf_8h_1a5d3a4178a83d9c2ed79a3adb40395b2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a5d3a4178a83d9c2ed79a3adb40395b2b" kindref="member">MR_equal_MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e58b4fa924edf2bf6d424d394fd59de" kindref="member">MR_std_vector_MR_MeshOrPointsXf_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__MR__MeshOrPointsXf_8h_1ae236ac7c279d23697fbae0c425e2a345" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*<ref refid="std__vector__MR__MeshOrPointsXf_8h_1ae236ac7c279d23697fbae0c425e2a345" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__MeshOrPointsXf_8h_1a16b9f7309da65fc5ff63958f088f5144" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a16b9f7309da65fc5ff63958f088f5144" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_incr</ref>(<ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__MeshOrPointsXf_8h_1aaad2e90a808ed477d75e8641a210cb30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1aaad2e90a808ed477d75e8641a210cb30" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_decr</ref>(<ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__MeshOrPointsXf_8h_1a71c6c0f6466ecaa0c321ad420c4e2965" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a71c6c0f6466ecaa0c321ad420c4e2965" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__MeshOrPointsXf_8h_1af04f5c97037b21dbdd438a5304a00d58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1af04f5c97037b21dbdd438a5304a00d58" kindref="member">MR_sub_MR_std_vector_MR_MeshOrPointsXf_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="std__vector__MR__MeshOrPointsXf_8h_1a2d3af44829595b9e53e3cefa6bda2451" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshOrPointsXf_8h_1a2d3af44829595b9e53e3cefa6bda2451" kindref="member">MR_equal_MR_std_vector_MR_MeshOrPointsXf_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3dcce41ee39f1d08f56928bd52faad8d" kindref="member">MR_std_vector_MR_MeshOrPointsXf_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshOrPointsXf.h"/>
+  </compounddef>
+</doxygen>

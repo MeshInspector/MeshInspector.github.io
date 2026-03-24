@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DenoiseViaNormalsSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::DenoiseViaNormalsSettings</compoundname>
-    <includes refid="MRNormalDenoising_8h" local="no">MRNormalDenoising.h</includes>
+    <includes refid="MRNormalDenoising_8h" local="no">MRMesh/MRNormalDenoising.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gad6004983564c77dbe469d819de9b1100" kind="variable"><name>fastIndicatorComputation</name></member>
       <member refid="group__GeneralGroup_1gaa7cab391c3f837a22f2d158c7647315a" kind="variable"><name>beta</name></member>
@@ -19,7 +19,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="37" bodyend="67"/>
+    <location file="MRMesh/MRNormalDenoising.h" line="36" column="1" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="37" bodyend="67"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa7cab391c3f837a22f2d158c7647315a" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>beta</name></member>
       <member refid="group__GeneralGroup_1ga63ddf357508ffd766addcbe0684a1619" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>cb</name></member>

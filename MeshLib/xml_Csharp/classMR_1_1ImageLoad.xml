@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ImageLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::ImageLoad</compoundname>
     <sectiondef kind="public-static-func">
@@ -170,7 +170,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageLoad.cs" bodystart="4" bodyend="22"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" bodystart="4" bodyend="56"/>
     <listofallmembers>
       <member refid="classMR_1_1ImageLoad_1ad1494ca8b7d8a6d0c11896779b7b6bfa" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromAnySupportedFormat</name></member>
       <member refid="classMR_1_1ImageLoad_1aad3cc3de4bda02076d924d20b4700216" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromJpeg</name></member>

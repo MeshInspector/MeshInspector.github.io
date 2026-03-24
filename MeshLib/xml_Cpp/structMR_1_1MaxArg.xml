@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MaxArg" kind="struct" language="C++" prot="public">
     <compoundname>MR::MaxArg</compoundname>
-    <includes refid="MRMinMaxArg_8h" local="no">MRMinMaxArg.h</includes>
+    <includes refid="MRMinMaxArg_8h" local="no">MRMesh/MRMinMaxArg.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
       </param>
       <param>
-        <type>typename I</type>
+        <type>typename <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
@@ -26,7 +26,7 @@
     <detaileddescription>
 <para>maximum of some elements of type T, and the index of where maximum is reached of type I </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="49" bodyend="76"/>
+    <location file="MRMesh/MRMinMaxArg.h" line="48" column="1" bodyfile="MRMesh/MRMinMaxArg.h" bodystart="49" bodyend="76"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae1be1deb12cae946010ff62e920861a9" prot="public" virt="non-virtual"><scope>MR::MaxArg</scope><name>arg</name></member>
       <member refid="group__GeneralGroup_1ga92801c4c188336ee3d3fb4032cfa7f03" prot="public" virt="non-virtual"><scope>MR::MaxArg</scope><name>asPair</name></member>

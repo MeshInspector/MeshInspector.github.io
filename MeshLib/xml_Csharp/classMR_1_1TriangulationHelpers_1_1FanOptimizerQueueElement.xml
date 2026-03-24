@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangulationHelpers::FanOptimizerQueueElement</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.TriangulationHelpers.Const_FanOptimizerQueueElement</basecompoundref>
@@ -161,7 +161,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a63bc49ce930867100df4a9f996a112dd" kindref="member">MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -180,7 +180,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a63bc49ce930867100df4a9f996a112dd" kindref="member">MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriangulationHelpers.FanOptimizerQueueElement.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriangulationHelpers::FanOptimizerQueueElement::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -214,15 +214,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_FanOptimizerQueueElement</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TriangulationHelpers.FanOptimizerQueueElement</label>
         <link refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement"/>
@@ -230,25 +221,25 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FanOptimizerQueueElement &gt;</label>
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.TriangulationHelpers.Const_FanOptimizerQueueElement</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.TriangulationHelpers.Const_FanOptimizerQueueElement &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_FanOptimizerQueueElement</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TriangulationHelpers.FanOptimizerQueueElement</label>
         <link refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement"/>
@@ -256,13 +247,22 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FanOptimizerQueueElement &gt;</label>
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.TriangulationHelpers.Const_FanOptimizerQueueElement</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.TriangulationHelpers.Const_FanOptimizerQueueElement &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="205" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="206" bodyend="281"/>

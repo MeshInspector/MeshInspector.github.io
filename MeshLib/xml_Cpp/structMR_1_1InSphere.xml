@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1InSphere" kind="struct" language="C++" prot="public">
     <compoundname>MR::InSphere</compoundname>
-    <includes refid="MRMeshThickness_8h" local="no">MRMeshThickness.h</includes>
+    <includes refid="MRMeshThickness_8h" local="no">MRMesh/MRMeshThickness.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gad8f2efb34f2d4b1e4b866ad31694dd50" kind="variable"><name>center</name></member>
       <member refid="group__GeneralGroup_1ga55fffe1bc5347e4a6ea79bc6e3479c1f" kind="variable"><name>radius</name></member>
@@ -40,7 +40,7 @@
         <link refid="structMR_1_1PointOnFace"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="65" bodyend="69"/>
+    <location file="MRMesh/MRMeshThickness.h" line="64" column="1" bodyfile="MRMesh/MRMeshThickness.h" bodystart="65" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad8f2efb34f2d4b1e4b866ad31694dd50" prot="public" virt="non-virtual"><scope>MR::InSphere</scope><name>center</name></member>
       <member refid="group__GeneralGroup_1ga9305d6a23336a3bf9ef33323fccc83d2" prot="public" virt="non-virtual"><scope>MR::InSphere</scope><name>oppositeTouchPoint</name></member>

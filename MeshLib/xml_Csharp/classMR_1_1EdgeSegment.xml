@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgeSegment" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgeSegment</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgeSegment</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="882" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="882" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="894" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="894" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1EdgeSegment_1a2dff636de993441ba84b39743f40469c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1SegmPointf" kindref="compound">MR.SegmPointf</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="885" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="885" bodyend="885"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="899" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="899" bodyend="899"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1EdgeSegment_1a6bb2f0aace3dcd18e6441e21d476d055" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1SegmPointf" kindref="compound">MR.SegmPointf</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="888" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="888" bodyend="888"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="904" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="904" bodyend="904"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="914" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="914" bodyend="918"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="930" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="930" bodyend="934"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="924" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="924" bodyend="930"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="940" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="940" bodyend="946"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgeSegment_1a5e9c78b1f0cc8d0f7a57fd6c38cfb030" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -101,13 +101,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgeSegment.EdgeSegment</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeSegment_1a203dea7d6d449b5e2b5277256bd95b66" kindref="member">MR.EdgeSegment.EdgeSegment</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="935" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="935" bodyend="942"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="951" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="951" bodyend="958"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgeSegment_1a3b122ec24fb61eb608f42003960a3aad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -120,13 +120,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgeSegment.EdgeSegment</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeSegment_1a203dea7d6d449b5e2b5277256bd95b66" kindref="member">MR.EdgeSegment.EdgeSegment</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="947" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="947" bodyend="947"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="963" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="963" bodyend="963"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgeSegment_1aa619c0055951eea849548283037776a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -149,13 +149,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgeSegment.EdgeSegment</computeroutput>. Parameter <computeroutput>a</computeroutput> defaults to <computeroutput>0.0f</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>1.0f</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeSegment_1a203dea7d6d449b5e2b5277256bd95b66" kindref="member">MR.EdgeSegment.EdgeSegment</ref></computeroutput>. Parameter <computeroutput>a</computeroutput> defaults to <computeroutput>0.0f</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>1.0f</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="954" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="954" bodyend="962"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="970" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="970" bodyend="978"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgeSegment_1a84c76bdaad4ae47d4b2cccd430525730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1EdgeSegment" kindref="compound">MR.EdgeSegment</ref></type>
@@ -168,13 +168,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.EdgeSegment.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::EdgeSegment::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="974" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="974" bodyend="981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="990" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="990" bodyend="997"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -189,13 +189,13 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgeSegment.EdgeSegment</computeroutput>. Parameter <computeroutput>a</computeroutput> defaults to <computeroutput>0.0f</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>1.0f</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeSegment_1a203dea7d6d449b5e2b5277256bd95b66" kindref="member">MR.EdgeSegment.EdgeSegment</ref></computeroutput>. Parameter <computeroutput>a</computeroutput> defaults to <computeroutput>0.0f</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>1.0f</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="969" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="969" bodyend="969"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="985" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="985" bodyend="985"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -204,8 +204,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.EdgeSegment</label>
+        <link refid="classMR_1_1EdgeSegment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_EdgeSegment</label>
+        <label>MR.Const_EdgeSegment</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -213,25 +219,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.EdgeSegment</label>
-        <link refid="classMR_1_1EdgeSegment"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EdgeSegment &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_EdgeSegment &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.EdgeSegment</label>
+        <link refid="classMR_1_1EdgeSegment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_EdgeSegment</label>
+        <label>MR.Const_EdgeSegment</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -239,23 +245,17 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.EdgeSegment</label>
-        <link refid="classMR_1_1EdgeSegment"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EdgeSegment &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_EdgeSegment &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="879" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="880" bodyend="982"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="889" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="890" bodyend="998"/>
     <listofallmembers>
       <member refid="classMR_1_1EdgeSegment_1a2dff636de993441ba84b39743f40469c" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>a</name></member>
       <member refid="classMR_1_1EdgeSegment_1a84c76bdaad4ae47d4b2cccd430525730" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>assign</name></member>

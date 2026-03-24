@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2320" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2320" bodyend="2320"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2358" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2358" bodyend="2358"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2325" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2325" bodyend="2330"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2363" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2363" bodyend="2368"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1afe59d3c787d29df08d737ca4ad58bec5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,13 +54,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&gt;::Binary</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&amp;amp;gt;::Binary</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2335" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2335" bodyend="2341"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2373" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2373" bodyend="2379"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1a9640b01c63cdbf74f5fd1df8d9c2b98d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,13 +73,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&gt;::Binary</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&amp;amp;gt;::Binary</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2346" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2346" bodyend="2346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2384" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2384" bodyend="2384"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1a210e033a7f53c9ef30eb42c335356fc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f" kindref="compound">MR.Features.Traits.Binary_MRSphere3f_MRSphere3f</ref></type>
@@ -92,63 +92,63 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2351" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2351" bodyend="2358"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2389" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2389" bodyend="2396"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Binary_MRSphere3f_MRSphere3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Features.Traits.Binary_MRSphere3f_MRSphere3f</label>
         <link refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Binary_MRSphere3f_MRSphere3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Binary_MRSphere3f_MRSphere3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Features.Traits.Binary_MRSphere3f_MRSphere3f</label>
         <link refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Binary_MRSphere3f_MRSphere3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2318" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2319" bodyend="2359"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2356" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2357" bodyend="2397"/>
     <listofallmembers>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1a210e033a7f53c9ef30eb42c335356fc5" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1a162aecb8bca90376462cd22721cdd104" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Binary_MRSphere3f_MRSphere3f</name></member>

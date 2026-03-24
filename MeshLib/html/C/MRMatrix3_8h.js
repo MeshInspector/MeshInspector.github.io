@@ -17,8 +17,6 @@ var MRMatrix3_8h =
     [ "MR_Matrix3f", "MRMatrix3_8h.html#a864a32707cffe3bd344334f0e4b292cf", null ],
     [ "MR_Matrix3i", "MRMatrix3_8h.html#a80cecc14d585d3bb506d6a8c70954d7a", null ],
     [ "MR_Matrix3i64", "MRMatrix3_8h.html#acc0a38c5c5d95fc26f9f9a26fee0c0ec", null ],
-    [ "MR_std_istream", "MRMatrix3_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_ostream", "MRMatrix3_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_Vector3_unsigned_char", "MRMatrix3_8h.html#aaaed28db9b98fcce268e87e2dab74ff9", null ],
     [ "MR_add_assign_MR_Matrix3_unsigned_char", "MRMatrix3_8h.html#a2f583a2318dcbdd827e2c241f2369d4d", null ],
     [ "MR_add_assign_MR_Matrix3b", "MRMatrix3_8h.html#ae9436c1886b3356ca270aca5cff3ce6a", null ],

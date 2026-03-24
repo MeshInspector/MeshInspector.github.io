@@ -1,4 +1,4 @@
 var MRFileDialogCocoa_8h =
 [
-    [ "runCocoaFileDialog", "MRFileDialogCocoa_8h.html#a5ed2d537fb1f07972b6ab6d769996ce2", null ]
+    [ "MR::detail::runCocoaFileDialog", "namespaceMR_1_1detail.html#a5594c749385503cd1087702f28de4651", null ]
 ];

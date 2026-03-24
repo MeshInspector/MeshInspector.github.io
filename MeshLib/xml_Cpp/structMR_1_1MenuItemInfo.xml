@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MenuItemInfo" kind="struct" language="C++" prot="public">
     <compoundname>MR::MenuItemInfo</compoundname>
-    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <includes refid="MRRibbonSchema_8h" local="no">MRViewer/MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga926a6449190c31f77c5b88b8c236958e" kind="variable"><name>item</name></member>
       <member refid="group__GeneralGroup_1ga1a97de0241883ed6ff2ee906e70519b4" kind="variable"><name>caption</name></member>
@@ -10,6 +10,10 @@
       <member refid="group__GeneralGroup_1ga7ae92cc9abaa72fdd49fb11994a79ecb" kind="variable"><name>icon</name></member>
       <member refid="group__GeneralGroup_1gae677c83b3387bfadf5f8bdd53f77ab9f" kind="variable"><name>captionSize</name></member>
       <member refid="group__GeneralGroup_1ga4a18cee73e324a82d8e83c0849ee1c16" kind="variable"><name>helpLink</name></member>
+      <member refid="group__GeneralGroup_1gaeb272c4d19fee08c880f250900aa2ad8" kind="variable"><name>localeDomainId</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga803bb16ee34f64fc4ccd1b50d7e78535" kind="function"><name>getCaption</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -28,13 +32,15 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="28" bodyend="35"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="27" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="28" bodyend="38"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1a97de0241883ed6ff2ee906e70519b4" prot="public" virt="non-virtual"><scope>MR::MenuItemInfo</scope><name>caption</name></member>
       <member refid="group__GeneralGroup_1gae677c83b3387bfadf5f8bdd53f77ab9f" prot="public" virt="non-virtual"><scope>MR::MenuItemInfo</scope><name>captionSize</name></member>
+      <member refid="group__GeneralGroup_1ga803bb16ee34f64fc4ccd1b50d7e78535" prot="public" virt="non-virtual"><scope>MR::MenuItemInfo</scope><name>getCaption</name></member>
       <member refid="group__GeneralGroup_1ga4a18cee73e324a82d8e83c0849ee1c16" prot="public" virt="non-virtual"><scope>MR::MenuItemInfo</scope><name>helpLink</name></member>
       <member refid="group__GeneralGroup_1ga7ae92cc9abaa72fdd49fb11994a79ecb" prot="public" virt="non-virtual"><scope>MR::MenuItemInfo</scope><name>icon</name></member>
       <member refid="group__GeneralGroup_1ga926a6449190c31f77c5b88b8c236958e" prot="public" virt="non-virtual"><scope>MR::MenuItemInfo</scope><name>item</name></member>
+      <member refid="group__GeneralGroup_1gaeb272c4d19fee08c880f250900aa2ad8" prot="public" virt="non-virtual"><scope>MR::MenuItemInfo</scope><name>localeDomainId</name></member>
       <member refid="group__GeneralGroup_1ga9a40f27aa0f9195b23043223e671187f" prot="public" virt="non-virtual"><scope>MR::MenuItemInfo</scope><name>tooltip</name></member>
     </listofallmembers>
   </compounddef>

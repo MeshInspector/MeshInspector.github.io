@@ -1,0 +1,1671 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__GCommand_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_GCommand.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_GCommand.h</label>
+        <link refid="std__vector__MR__GCommand_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref></type>
+        <definition>typedef struct MR_GCommand MR_GCommand</definition>
+        <argsstring></argsstring>
+        <name>MR_GCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::GCommand</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="13" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref></type>
+        <definition>typedef struct MR_std_vector_MR_GCommand MR_std_vector_MR_GCommand</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_GCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::GCommand&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="18" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_GCommand_const_iterator MR_std_vector_MR_GCommand_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="22" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_GCommand_iterator MR_std_vector_MR_GCommand_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="26" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ab35b3c6cb3c32eb9eda9b361dd3107ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand * MR_std_vector_MR_GCommand_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_GCommand_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1af0b91dc20a3257daee59239f358f40d2" kindref="member">MR_std_vector_MR_GCommand_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="30" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="30" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a5aef0fb4c481a2cda66f8f336755f127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand * MR_std_vector_MR_GCommand_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_GCommand_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a5b778660cc803c92d97660dd52b91ec7" kindref="member">MR_std_vector_MR_GCommand_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__GCommand_8h_1af91c06c8274af9224bb8cd9e312c8be2" kindref="member">MR_std_vector_MR_GCommand_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a8115701c22ddbbeab9a2d54aab0b59b0" kindref="member">MR_std_vector_MR_GCommand_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="35" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="35" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a5f73b5704b91b38643575104d1fa972e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand * MR_std_vector_MR_GCommand_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_GCommand *other)</argsstring>
+        <name>MR_std_vector_MR_GCommand_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1af0b91dc20a3257daee59239f358f40d2" kindref="member">MR_std_vector_MR_GCommand_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="41" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="41" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a4bf84fb0db3e50f4f0b6c92e82943a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, MR_PassBy other_pass_by, MR_std_vector_MR_GCommand *other)</argsstring>
+        <name>MR_std_vector_MR_GCommand_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1af0b91dc20a3257daee59239f358f40d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a5b778660cc803c92d97660dd52b91ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a8115701c22ddbbeab9a2d54aab0b59b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_GCommand * MR_std_vector_MR_GCommand_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_GCommand_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="57" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="57" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1af91c06c8274af9224bb8cd9e312c8be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand * MR_std_vector_MR_GCommand_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_GCommand_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="61" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="61" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a5cfcfc0e84d45402b456e060e4fb9729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_GCommand_size</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_size</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ae1ed58383d78e4ef1c1eb3f17194f0b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_GCommand_empty</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_empty</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a0102560451cb9ed84a821b6f7839ae58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_resize</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_GCommand_resize</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a2297be0373999f6a60e1308b76554539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, size_t new_size, const MR_GCommand *value)</argsstring>
+        <name>MR_std_vector_MR_GCommand_resize_with_default_value</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1adabcc3a286925394ed96431a6dfb12f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_clear</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_clear</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a55baada92a88b355ad7807cb2d0d62fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_GCommand_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_capacity</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1abd1da461b3bd4476e40dc13335a96360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_reserve</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_GCommand_reserve</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ad9460adef8a04bcddce56c7f38486a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_shrink_to_fit</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ad246a79e3d812a18c8b72a4aa259d743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+        <definition>MRC_API const MR_GCommand * MR_std_vector_MR_GCommand_at</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_GCommand_at</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="101" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="101" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a9e6adb8c9ac097f25afae482b7a7bcc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+        <definition>MRC_API MR_GCommand * MR_std_vector_MR_GCommand_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_GCommand_at_mut</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="107" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="107" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1afb3777c0435a498b0f2d176475dbfe62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+        <definition>MRC_API const MR_GCommand * MR_std_vector_MR_GCommand_front</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_front</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="112" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="112" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1aab15123f46c0a8b5c5140f752f979622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+        <definition>MRC_API MR_GCommand * MR_std_vector_MR_GCommand_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_front_mut</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="117" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="117" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1aa563904d4c9db76cc28a30535cb44dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+        <definition>MRC_API const MR_GCommand * MR_std_vector_MR_GCommand_back</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_back</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="122" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="122" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a5a65b4b8dc8fefee5496db510575febb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+        <definition>MRC_API MR_GCommand * MR_std_vector_MR_GCommand_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_back_mut</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="127" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="127" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1aa2bea7301a4e5056a3f87e6ef8562962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_push_back</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, const MR_GCommand *new_elem)</argsstring>
+        <name>MR_std_vector_MR_GCommand_push_back</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a17b80e03108d85cb92e61e6fe4700cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_pop_back</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a68ae0ecc12af89d6e346bfe52f9cd1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_insert</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, size_t position, const MR_GCommand *new_elem)</argsstring>
+        <name>MR_std_vector_MR_GCommand_insert</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a2c3b43ae9c827ece54c8ada423a97086" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_erase</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_GCommand_erase</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1afc0abed50a09668b053c950bcc27f98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_iterator *position, const MR_GCommand *new_elem)</argsstring>
+        <name>MR_std_vector_MR_GCommand_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ae8a770c375b8fb5f6c2fd9ffe28bc539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_GCommand_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1aeeb7e41d60a5395101ccead44ec23f4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_const_iterator *position, const MR_GCommand *new_elem)</argsstring>
+        <name>MR_std_vector_MR_GCommand_insert_at_iter</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a848686823c2599eab7606b266bf6669d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_GCommand_erase_at_iter</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1aa23e96cad53e11583ae4dfd4d59d94ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_const_iterator * MR_std_vector_MR_GCommand_begin</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_begin</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a809e374a1072818dc857b5308fb03895" kindref="member">MR_std_vector_MR_GCommand_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="177" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="177" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1acf1c48195e27041aab9843c13b119298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_GCommand_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_GCommand_is_begin</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1aaa9c390fd8f07a3cfb77c0c879744623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_iterator * MR_std_vector_MR_GCommand_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_begin_mut</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a79830bd4e0668e3a655e8c1192c5208d" kindref="member">MR_std_vector_MR_GCommand_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="188" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="188" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a76be5276b006023a1927a048ab2cab56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_GCommand_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_GCommand_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a47a4501799f3d6cf7a908566491fe0ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_const_iterator * MR_std_vector_MR_GCommand_end</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_end</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a809e374a1072818dc857b5308fb03895" kindref="member">MR_std_vector_MR_GCommand_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="199" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="199" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a137c09f66691012e1d9a7ded2d317b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_GCommand_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_GCommand_is_end</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ac181f4bc57648c4f02bbf59989392825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_iterator * MR_std_vector_MR_GCommand_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_GCommand *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_end_mut</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a79830bd4e0668e3a655e8c1192c5208d" kindref="member">MR_std_vector_MR_GCommand_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="210" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="210" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a24baf4a22f4e33a5d2ae22cb2c4569f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_GCommand_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_GCommand_is_end_mut</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1aec6ff5bfd98d0da9c8a138ec113eda23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_GCommand_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_GCommand_to_index</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a5201a5f4afe7486702a5e24f8e0d2ffd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_GCommand_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand *_this, const MR_std_vector_MR_GCommand_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_GCommand_to_index_mut</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a6c9d9b8fd877f02b10ef1772900b9143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_const_iterator * MR_std_vector_MR_GCommand_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a809e374a1072818dc857b5308fb03895" kindref="member">MR_std_vector_MR_GCommand_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="229" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="229" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ae2b3c9d0ff8ccda38c5a73056c87ec06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_const_iterator * MR_std_vector_MR_GCommand_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a5a42399aadd7967f24f8c626d04ad2d0" kindref="member">MR_std_vector_MR_GCommand_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__GCommand_8h_1adddee70e2bbab918eaf38faca2b55b8e" kindref="member">MR_std_vector_MR_GCommand_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a830ae97fb743b0f781772f7fd03cb717" kindref="member">MR_std_vector_MR_GCommand_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="234" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="234" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a715aaa4dfd6c5aa969a4b1e31b3f77f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_const_iterator * MR_std_vector_MR_GCommand_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a809e374a1072818dc857b5308fb03895" kindref="member">MR_std_vector_MR_GCommand_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="241" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="241" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ad1d294c41da5911faafd37ea21953d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_const_iterator *_this, const MR_std_vector_MR_GCommand_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a809e374a1072818dc857b5308fb03895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a5a42399aadd7967f24f8c626d04ad2d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a830ae97fb743b0f781772f7fd03cb717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_GCommand_const_iterator * MR_std_vector_MR_GCommand_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="258" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="258" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1adddee70e2bbab918eaf38faca2b55b8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_const_iterator * MR_std_vector_MR_GCommand_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="262" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="262" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a0c0f45c847454a346df079faef0d83c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_const_iterator * MR_std_vector_MR_GCommand_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a809e374a1072818dc857b5308fb03895" kindref="member">MR_std_vector_MR_GCommand_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="267" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="267" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1af3fa80590cadfa0356dd29308f2ec77c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_iterator * MR_std_vector_MR_GCommand_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a79830bd4e0668e3a655e8c1192c5208d" kindref="member">MR_std_vector_MR_GCommand_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="271" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="271" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a96bcfdbc37c6922f3682a7777037e932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_iterator * MR_std_vector_MR_GCommand_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a05adafdf91253e87539965284e2315f2" kindref="member">MR_std_vector_MR_GCommand_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a016e3efa20d153de2637cbd625e38ae4" kindref="member">MR_std_vector_MR_GCommand_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a97e64e9c346cbb2fe483d77be0090b18" kindref="member">MR_std_vector_MR_GCommand_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="276" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="276" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a713457a1cce122723eaee828462878e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_iterator * MR_std_vector_MR_GCommand_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__GCommand_8h_1a79830bd4e0668e3a655e8c1192c5208d" kindref="member">MR_std_vector_MR_GCommand_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="283" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="283" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ac76b520137e0673c07a1ea8009bf1a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_iterator *_this, const MR_std_vector_MR_GCommand_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a79830bd4e0668e3a655e8c1192c5208d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a05adafdf91253e87539965284e2315f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a97e64e9c346cbb2fe483d77be0090b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_GCommand_iterator * MR_std_vector_MR_GCommand_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="300" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="300" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a016e3efa20d153de2637cbd625e38ae4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_GCommand_iterator * MR_std_vector_MR_GCommand_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="304" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="304" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a8a7cf7108f8ac48faa19ee9032cba68a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+        <definition>MRC_API const MR_GCommand * MR_std_vector_MR_GCommand_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="310" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="310" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a06e443d60698071bc8502405771df128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a21c5eafe2867fb7ecbcfa3d8033f3306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a71b3378eb97b034c0dc84ea7368f9346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_GCommand_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a2a6ade252872009c238b87ae0c3f9e50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_GCommand_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_const_iterator *a, const MR_std_vector_MR_GCommand_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_GCommand_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a92b5528a0fba540d14f15c0cd1e6503c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_GCommand_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_const_iterator *a, const MR_std_vector_MR_GCommand_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_GCommand_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a127597b60b4b564ed5763bc29cb470e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref> *</type>
+        <definition>MRC_API MR_GCommand * MR_std_vector_MR_GCommand_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="338" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="338" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a87aac77dc41a75f41ab2fc0fb16ecb98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1acbff8debe4d276f038ac01f961dff5fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1a68b42b7331c20afecc8b3cdd2f37826c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_GCommand_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_GCommand_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_GCommand_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1ac59d566b89926e0ec5a1179ba85d7bd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_GCommand_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_iterator *a, const MR_std_vector_MR_GCommand_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_GCommand_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__GCommand_8h_1acd9199af5df5de50edbae87e73f4bd6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_GCommand_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_GCommand_iterator *a, const MR_std_vector_MR_GCommand_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_GCommand_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRToolPath.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__GCommand_8h_1ab35b3c6cb3c32eb9eda9b361dd3107ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1ab35b3c6cb3c32eb9eda9b361dd3107ba" kindref="member">MR_std_vector_MR_GCommand_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__GCommand_8h_1a5aef0fb4c481a2cda66f8f336755f127" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a5aef0fb4c481a2cda66f8f336755f127" kindref="member">MR_std_vector_MR_GCommand_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__GCommand_8h_1a5f73b5704b91b38643575104d1fa972e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a5f73b5704b91b38643575104d1fa972e" kindref="member">MR_std_vector_MR_GCommand_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__GCommand_8h_1a4bf84fb0db3e50f4f0b6c92e82943a85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a4bf84fb0db3e50f4f0b6c92e82943a85" kindref="member">MR_std_vector_MR_GCommand_AssignFromAnother</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__GCommand_8h_1af0b91dc20a3257daee59239f358f40d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1af0b91dc20a3257daee59239f358f40d2" kindref="member">MR_std_vector_MR_GCommand_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__GCommand_8h_1a5b778660cc803c92d97660dd52b91ec7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a5b778660cc803c92d97660dd52b91ec7" kindref="member">MR_std_vector_MR_GCommand_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__GCommand_8h_1a8115701c22ddbbeab9a2d54aab0b59b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a8115701c22ddbbeab9a2d54aab0b59b0" kindref="member">MR_std_vector_MR_GCommand_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__GCommand_8h_1af91c06c8274af9224bb8cd9e312c8be2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1af91c06c8274af9224bb8cd9e312c8be2" kindref="member">MR_std_vector_MR_GCommand_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__GCommand_8h_1a5cfcfc0e84d45402b456e060e4fb9729" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a5cfcfc0e84d45402b456e060e4fb9729" kindref="member">MR_std_vector_MR_GCommand_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__GCommand_8h_1ae1ed58383d78e4ef1c1eb3f17194f0b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ae1ed58383d78e4ef1c1eb3f17194f0b9" kindref="member">MR_std_vector_MR_GCommand_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__GCommand_8h_1a0102560451cb9ed84a821b6f7839ae58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a0102560451cb9ed84a821b6f7839ae58" kindref="member">MR_std_vector_MR_GCommand_resize</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__GCommand_8h_1a2297be0373999f6a60e1308b76554539" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a2297be0373999f6a60e1308b76554539" kindref="member">MR_std_vector_MR_GCommand_resize_with_default_value</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__GCommand_8h_1adabcc3a286925394ed96431a6dfb12f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1adabcc3a286925394ed96431a6dfb12f3" kindref="member">MR_std_vector_MR_GCommand_clear</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__GCommand_8h_1a55baada92a88b355ad7807cb2d0d62fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a55baada92a88b355ad7807cb2d0d62fd" kindref="member">MR_std_vector_MR_GCommand_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__GCommand_8h_1abd1da461b3bd4476e40dc13335a96360" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1abd1da461b3bd4476e40dc13335a96360" kindref="member">MR_std_vector_MR_GCommand_reserve</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__GCommand_8h_1ad9460adef8a04bcddce56c7f38486a2f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad9460adef8a04bcddce56c7f38486a2f" kindref="member">MR_std_vector_MR_GCommand_shrink_to_fit</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__GCommand_8h_1ad246a79e3d812a18c8b72a4aa259d743" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1ad246a79e3d812a18c8b72a4aa259d743" kindref="member">MR_std_vector_MR_GCommand_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__GCommand_8h_1a9e6adb8c9ac097f25afae482b7a7bcc2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a9e6adb8c9ac097f25afae482b7a7bcc2" kindref="member">MR_std_vector_MR_GCommand_at_mut</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__GCommand_8h_1afb3777c0435a498b0f2d176475dbfe62" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1afb3777c0435a498b0f2d176475dbfe62" kindref="member">MR_std_vector_MR_GCommand_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__GCommand_8h_1aab15123f46c0a8b5c5140f752f979622" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1aab15123f46c0a8b5c5140f752f979622" kindref="member">MR_std_vector_MR_GCommand_front_mut</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__GCommand_8h_1aa563904d4c9db76cc28a30535cb44dc1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1aa563904d4c9db76cc28a30535cb44dc1" kindref="member">MR_std_vector_MR_GCommand_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__GCommand_8h_1a5a65b4b8dc8fefee5496db510575febb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a5a65b4b8dc8fefee5496db510575febb" kindref="member">MR_std_vector_MR_GCommand_back_mut</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__GCommand_8h_1aa2bea7301a4e5056a3f87e6ef8562962" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1aa2bea7301a4e5056a3f87e6ef8562962" kindref="member">MR_std_vector_MR_GCommand_push_back</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__GCommand_8h_1a17b80e03108d85cb92e61e6fe4700cd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a17b80e03108d85cb92e61e6fe4700cd6" kindref="member">MR_std_vector_MR_GCommand_pop_back</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__GCommand_8h_1a68ae0ecc12af89d6e346bfe52f9cd1c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a68ae0ecc12af89d6e346bfe52f9cd1c2" kindref="member">MR_std_vector_MR_GCommand_insert</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__GCommand_8h_1a2c3b43ae9c827ece54c8ada423a97086" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a2c3b43ae9c827ece54c8ada423a97086" kindref="member">MR_std_vector_MR_GCommand_erase</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__GCommand_8h_1afc0abed50a09668b053c950bcc27f98e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1afc0abed50a09668b053c950bcc27f98e" kindref="member">MR_std_vector_MR_GCommand_insert_at_mutable_iter</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__GCommand_8h_1ae8a770c375b8fb5f6c2fd9ffe28bc539" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ae8a770c375b8fb5f6c2fd9ffe28bc539" kindref="member">MR_std_vector_MR_GCommand_erase_at_mutable_iter</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__GCommand_8h_1aeeb7e41d60a5395101ccead44ec23f4d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1aeeb7e41d60a5395101ccead44ec23f4d" kindref="member">MR_std_vector_MR_GCommand_insert_at_iter</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__GCommand_8h_1a848686823c2599eab7606b266bf6669d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a848686823c2599eab7606b266bf6669d" kindref="member">MR_std_vector_MR_GCommand_erase_at_iter</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__GCommand_8h_1aa23e96cad53e11583ae4dfd4d59d94ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1aa23e96cad53e11583ae4dfd4d59d94ce" kindref="member">MR_std_vector_MR_GCommand_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__GCommand_8h_1acf1c48195e27041aab9843c13b119298" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1acf1c48195e27041aab9843c13b119298" kindref="member">MR_std_vector_MR_GCommand_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__GCommand_8h_1aaa9c390fd8f07a3cfb77c0c879744623" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1aaa9c390fd8f07a3cfb77c0c879744623" kindref="member">MR_std_vector_MR_GCommand_begin_mut</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__GCommand_8h_1a76be5276b006023a1927a048ab2cab56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a76be5276b006023a1927a048ab2cab56" kindref="member">MR_std_vector_MR_GCommand_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__GCommand_8h_1a47a4501799f3d6cf7a908566491fe0ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a47a4501799f3d6cf7a908566491fe0ee" kindref="member">MR_std_vector_MR_GCommand_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__GCommand_8h_1a137c09f66691012e1d9a7ded2d317b2f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a137c09f66691012e1d9a7ded2d317b2f" kindref="member">MR_std_vector_MR_GCommand_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__GCommand_8h_1ac181f4bc57648c4f02bbf59989392825" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1ac181f4bc57648c4f02bbf59989392825" kindref="member">MR_std_vector_MR_GCommand_end_mut</ref>(<ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__GCommand_8h_1a24baf4a22f4e33a5d2ae22cb2c4569f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a24baf4a22f4e33a5d2ae22cb2c4569f8" kindref="member">MR_std_vector_MR_GCommand_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__GCommand_8h_1aec6ff5bfd98d0da9c8a138ec113eda23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__GCommand_8h_1aec6ff5bfd98d0da9c8a138ec113eda23" kindref="member">MR_std_vector_MR_GCommand_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__GCommand_8h_1a5201a5f4afe7486702a5e24f8e0d2ffd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__GCommand_8h_1a5201a5f4afe7486702a5e24f8e0d2ffd" kindref="member">MR_std_vector_MR_GCommand_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a74d888f02412f83e4463e59b0c0d3861" kindref="member">MR_std_vector_MR_GCommand</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__GCommand_8h_1a6c9d9b8fd877f02b10ef1772900b9143" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a6c9d9b8fd877f02b10ef1772900b9143" kindref="member">MR_std_vector_MR_GCommand_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__GCommand_8h_1ae2b3c9d0ff8ccda38c5a73056c87ec06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1ae2b3c9d0ff8ccda38c5a73056c87ec06" kindref="member">MR_std_vector_MR_GCommand_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__GCommand_8h_1a715aaa4dfd6c5aa969a4b1e31b3f77f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a715aaa4dfd6c5aa969a4b1e31b3f77f2" kindref="member">MR_std_vector_MR_GCommand_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__GCommand_8h_1ad1d294c41da5911faafd37ea21953d0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad1d294c41da5911faafd37ea21953d0b" kindref="member">MR_std_vector_MR_GCommand_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__GCommand_8h_1a809e374a1072818dc857b5308fb03895" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a809e374a1072818dc857b5308fb03895" kindref="member">MR_std_vector_MR_GCommand_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__GCommand_8h_1a5a42399aadd7967f24f8c626d04ad2d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a5a42399aadd7967f24f8c626d04ad2d0" kindref="member">MR_std_vector_MR_GCommand_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__GCommand_8h_1a830ae97fb743b0f781772f7fd03cb717" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a830ae97fb743b0f781772f7fd03cb717" kindref="member">MR_std_vector_MR_GCommand_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__GCommand_8h_1adddee70e2bbab918eaf38faca2b55b8e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1adddee70e2bbab918eaf38faca2b55b8e" kindref="member">MR_std_vector_MR_GCommand_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__GCommand_8h_1a0c0f45c847454a346df079faef0d83c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a0c0f45c847454a346df079faef0d83c5" kindref="member">MR_std_vector_MR_GCommand_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__GCommand_8h_1af3fa80590cadfa0356dd29308f2ec77c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1af3fa80590cadfa0356dd29308f2ec77c" kindref="member">MR_std_vector_MR_GCommand_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__GCommand_8h_1a96bcfdbc37c6922f3682a7777037e932" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a96bcfdbc37c6922f3682a7777037e932" kindref="member">MR_std_vector_MR_GCommand_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__GCommand_8h_1a713457a1cce122723eaee828462878e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a713457a1cce122723eaee828462878e7" kindref="member">MR_std_vector_MR_GCommand_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__GCommand_8h_1ac76b520137e0673c07a1ea8009bf1a5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac76b520137e0673c07a1ea8009bf1a5a" kindref="member">MR_std_vector_MR_GCommand_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__GCommand_8h_1a79830bd4e0668e3a655e8c1192c5208d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a79830bd4e0668e3a655e8c1192c5208d" kindref="member">MR_std_vector_MR_GCommand_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__GCommand_8h_1a05adafdf91253e87539965284e2315f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a05adafdf91253e87539965284e2315f2" kindref="member">MR_std_vector_MR_GCommand_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__GCommand_8h_1a97e64e9c346cbb2fe483d77be0090b18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a97e64e9c346cbb2fe483d77be0090b18" kindref="member">MR_std_vector_MR_GCommand_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__GCommand_8h_1a016e3efa20d153de2637cbd625e38ae4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a016e3efa20d153de2637cbd625e38ae4" kindref="member">MR_std_vector_MR_GCommand_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__GCommand_8h_1a8a7cf7108f8ac48faa19ee9032cba68a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a8a7cf7108f8ac48faa19ee9032cba68a" kindref="member">MR_std_vector_MR_GCommand_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__GCommand_8h_1a06e443d60698071bc8502405771df128" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a06e443d60698071bc8502405771df128" kindref="member">MR_std_vector_MR_GCommand_const_iterator_incr</ref>(<ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__GCommand_8h_1a21c5eafe2867fb7ecbcfa3d8033f3306" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a21c5eafe2867fb7ecbcfa3d8033f3306" kindref="member">MR_std_vector_MR_GCommand_const_iterator_decr</ref>(<ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__GCommand_8h_1a71b3378eb97b034c0dc84ea7368f9346" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a71b3378eb97b034c0dc84ea7368f9346" kindref="member">MR_std_vector_MR_GCommand_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__GCommand_8h_1a2a6ade252872009c238b87ae0c3f9e50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__GCommand_8h_1a2a6ade252872009c238b87ae0c3f9e50" kindref="member">MR_sub_MR_std_vector_MR_GCommand_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__GCommand_8h_1a92b5528a0fba540d14f15c0cd1e6503c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a92b5528a0fba540d14f15c0cd1e6503c" kindref="member">MR_equal_MR_std_vector_MR_GCommand_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ad4382b32037fe14abcaef6613b151ae7" kindref="member">MR_std_vector_MR_GCommand_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__GCommand_8h_1a127597b60b4b564ed5763bc29cb470e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__GCommand_8h_1ace59308137c86730185d551295ea9885" kindref="member">MR_GCommand</ref><sp/>*<ref refid="std__vector__MR__GCommand_8h_1a127597b60b4b564ed5763bc29cb470e6" kindref="member">MR_std_vector_MR_GCommand_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__GCommand_8h_1a87aac77dc41a75f41ab2fc0fb16ecb98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a87aac77dc41a75f41ab2fc0fb16ecb98" kindref="member">MR_std_vector_MR_GCommand_iterator_incr</ref>(<ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__GCommand_8h_1acbff8debe4d276f038ac01f961dff5fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1acbff8debe4d276f038ac01f961dff5fa" kindref="member">MR_std_vector_MR_GCommand_iterator_decr</ref>(<ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__GCommand_8h_1a68b42b7331c20afecc8b3cdd2f37826c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1a68b42b7331c20afecc8b3cdd2f37826c" kindref="member">MR_std_vector_MR_GCommand_iterator_add_assign</ref>(<ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__GCommand_8h_1ac59d566b89926e0ec5a1179ba85d7bd9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__GCommand_8h_1ac59d566b89926e0ec5a1179ba85d7bd9" kindref="member">MR_sub_MR_std_vector_MR_GCommand_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__GCommand_8h_1acd9199af5df5de50edbae87e73f4bd6f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1acd9199af5df5de50edbae87e73f4bd6f" kindref="member">MR_equal_MR_std_vector_MR_GCommand_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__GCommand_8h_1ac559584047f8520b45814c735adc2eac" kindref="member">MR_std_vector_MR_GCommand_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_GCommand.h"/>
+  </compounddef>
+</doxygen>

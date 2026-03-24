@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshVertPart" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshVertPart</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshVertPart</basecompoundref>
@@ -55,7 +55,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshVertPart.MeshVertPart</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshVertPart_1a0a84e6f5049258f462433b269f01c209" kindref="member">MR.MeshVertPart.MeshVertPart</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -74,7 +74,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshVertPart.MeshVertPart</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshVertPart_1a0a84e6f5049258f462433b269f01c209" kindref="member">MR.MeshVertPart.MeshVertPart</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -98,7 +98,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshVertPart.MeshVertPart</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshVertPart_1a0a84e6f5049258f462433b269f01c209" kindref="member">MR.MeshVertPart.MeshVertPart</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -117,7 +117,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshVertPart.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshVertPart::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -138,7 +138,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshVertPart.MeshVertPart</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshVertPart_1a0a84e6f5049258f462433b269f01c209" kindref="member">MR.MeshVertPart.MeshVertPart</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -153,45 +153,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshVertPart</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshVertPart</label>
         <link refid="classMR_1_1MeshVertPart"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshVertPart</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshVertPart &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshVertPart</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshVertPart</label>
         <link refid="classMR_1_1MeshVertPart"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshVertPart</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshVertPart &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="345" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="346" bodyend="420"/>

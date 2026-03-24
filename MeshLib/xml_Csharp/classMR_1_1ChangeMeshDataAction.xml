@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshDataAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshDataAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshDataAction</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="231" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="231" bodyend="236"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="169" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="169" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1af7de23f8d400fef4edf7ea00cd65f806" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="239" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="239" bodyend="246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="179" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="179" bodyend="188"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="248" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="248" bodyend="248"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a649b380c3505d72838e3df6d2c4dfa6e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ChangeMeshDataAction</name>
-        <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="250" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="250" bodyend="250"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="190" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="190" bodyend="190"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -99,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshDataAction_1a8e81a27b0800e1b61e45e48a861ba9ba" kindref="member">MR.ChangeMeshDataAction.ChangeMeshDataAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="255" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="255" bodyend="261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="195" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="195" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1ade315b669376cb9a6ba80e20878b978b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -118,13 +96,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshDataAction_1a8e81a27b0800e1b61e45e48a861ba9ba" kindref="member">MR.ChangeMeshDataAction.ChangeMeshDataAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="266" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="266" bodyend="266"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="206" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="206" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1ad524015f916a2afa8dba37f54d4a0e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -137,18 +115,18 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshDataAction_1a8e81a27b0800e1b61e45e48a861ba9ba" kindref="member">MR.ChangeMeshDataAction.ChangeMeshDataAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="271" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="271" bodyend="271"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="211" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="211" bodyend="211"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a5cad6fc3e613cdfd19d3712b94ea8bfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a8f6314230daf9a77295fc8da48b13df4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
-        <argsstring>(string name, MR.Const_ObjectMesh obj, bool cloneMesh)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMesh obj, bool cloneMesh)</argsstring>
         <name>ChangeMeshDataAction</name>
         <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
         <param>
@@ -156,7 +134,7 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectMesh</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectMesh</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -164,18 +142,18 @@
           <declname>cloneMesh</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s data before making any changes in it Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+<para>use this constructor to remember object's data before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshDataAction_1a8e81a27b0800e1b61e45e48a861ba9ba" kindref="member">MR.ChangeMeshDataAction.ChangeMeshDataAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="277" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="277" bodyend="287"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="217" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="217" bodyend="227"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a2c65232d6d1dde587b54dab497c59b59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1aee4467b185b661a90d1c662634257128" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
-        <argsstring>(string name, MR.Const_ObjectMesh obj, MR.Misc._Moved&lt; MR.ObjectMeshData &gt; newData)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMesh obj, MR.Misc._Moved&lt; MR.ObjectMeshData &gt; newData)</argsstring>
         <name>ChangeMeshDataAction</name>
         <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
         <param>
@@ -183,7 +161,7 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectMesh</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectMesh</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -191,13 +169,13 @@
           <declname>newData</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s data and immediately set new data Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+<para>use this constructor to remember object's data and immediately set new data Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshDataAction_1a8e81a27b0800e1b61e45e48a861ba9ba" kindref="member">MR.ChangeMeshDataAction.ChangeMeshDataAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="293" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="293" bodyend="304"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="233" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="233" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a4f73a8d6f982852ced02566dbfe24f1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ChangeMeshDataAction" kindref="compound">MR.ChangeMeshDataAction</ref></type>
@@ -210,13 +188,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeMeshDataAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeMeshDataAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="309" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="309" bodyend="316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="249" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="249" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a660f93b323bf38d2a50096ddef2602c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -235,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="321" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="321" bodyend="326"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="261" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="261" bodyend="266"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -244,58 +222,57 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeMeshDataAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeMeshDataAction</label>
         <link refid="classMR_1_1ChangeMeshDataAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeMeshDataAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshDataAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeMeshDataAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeMeshDataAction</label>
         <link refid="classMR_1_1ChangeMeshDataAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeMeshDataAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshDataAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="228" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="229" bodyend="327"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="166" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="167" bodyend="267"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeMeshDataAction_1a660f93b323bf38d2a50096ddef2602c5" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1a4f73a8d6f982852ced02566dbfe24f1c" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1a290e5eb3ee2402470161e827fedce259" prot="package" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
-      <member refid="classMR_1_1ChangeMeshDataAction_1a649b380c3505d72838e3df6d2c4dfa6e" prot="package" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1a8e81a27b0800e1b61e45e48a861ba9ba" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1ade315b669376cb9a6ba80e20878b978b" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1ad524015f916a2afa8dba37f54d4a0e1b" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
-      <member refid="classMR_1_1ChangeMeshDataAction_1a5cad6fc3e613cdfd19d3712b94ea8bfa" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
-      <member refid="classMR_1_1ChangeMeshDataAction_1a2c65232d6d1dde587b54dab497c59b59" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a8f6314230daf9a77295fc8da48b13df4" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1aee4467b185b661a90d1c662634257128" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1af7de23f8d400fef4edf7ea00cd65f806" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>operator ChangeMeshDataAction?</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1a0dba73219d89b37f3696b13783edfa90" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>

@@ -10,8 +10,6 @@ var MROffsetContours_8h =
     [ "MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref", "MROffsetContours_8h.html#a86c80f9482459f931628d471a8a33238", null ],
     [ "MR_std_function_float_from_int_int", "MROffsetContours_8h.html#a5f76635f94a6f6f33d8106b366946a55", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins", "MROffsetContours_8h.html#a15a1ba7470e401dd2f31209c36f94b49", null ],
-    [ "MR_std_vector_std_vector_MR_Vector2f", "MROffsetContours_8h.html#a603c36c96311a8cb693f3e5500963e17", null ],
-    [ "MR_std_vector_std_vector_MR_Vector3f", "MROffsetContours_8h.html#a79b88ecd897f6c27c8428cecc4a91f30", null ],
     [ "MR_OffsetContoursParams_CornerType", "MROffsetContours_8h.html#a64ad55755209c24292c2151ab32696c4", [
       [ "MR_OffsetContoursParams_CornerType_Round", "MROffsetContours_8h.html#a64ad55755209c24292c2151ab32696c4adf9da5f69308ecefb4ca2d1d5b325ee9", null ],
       [ "MR_OffsetContoursParams_CornerType_Sharp", "MROffsetContours_8h.html#a64ad55755209c24292c2151ab32696c4a0ae7dedf14a31f2d53102fd398630741", null ]

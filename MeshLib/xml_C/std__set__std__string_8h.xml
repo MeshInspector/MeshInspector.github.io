@@ -1,0 +1,760 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__set__std__string_8h" kind="file" language="C++">
+    <compoundname>std_set_std_string.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_set_std_string.h</label>
+        <link refid="std__set__std__string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" prot="public" static="no">
+        <type>struct <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref></type>
+        <definition>typedef struct MR_std_set_std_string_const_iterator MR_std_set_std_string_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_set_std_string_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="22" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__set__std__string_8h_1a4fd5856033daac5fe0ae392536854066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string * MR_std_set_std_string_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_set_std_string_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__set__std__string_8h_1a4b3f38c3232625724c3adb6f0a579909" kindref="member">MR_std_set_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="26" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="26" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a4359a92a0f2f9b624b77149890fc54f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string * MR_std_set_std_string_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_set_std_string_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__set__std__string_8h_1a4b4c8fafdbc7f10b9f07bc7a461dbaad" kindref="member">MR_std_set_std_string_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__set__std__string_8h_1a7af12e4b37925beae9bb0226de8c6f6e" kindref="member">MR_std_set_std_string_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__set__std__string_8h_1ad9344235c7eb73e6c6ded807f6a9fc3c" kindref="member">MR_std_set_std_string_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="31" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="31" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a4f947e0df733eb7ee0da696ce35bb1cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string * MR_std_set_std_string_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_set_std_string *other)</argsstring>
+        <name>MR_std_set_std_string_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__set__std__string_8h_1a4b3f38c3232625724c3adb6f0a579909" kindref="member">MR_std_set_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="37" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="37" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a3e0649085ec956158c96727cc93848c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_AssignFromAnother</definition>
+        <argsstring>(MR_std_set_std_string *_this, MR_PassBy other_pass_by, MR_std_set_std_string *other)</argsstring>
+        <name>MR_std_set_std_string_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a4b3f38c3232625724c3adb6f0a579909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_Destroy</definition>
+        <argsstring>(const MR_std_set_std_string *_this)</argsstring>
+        <name>MR_std_set_std_string_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a4b4c8fafdbc7f10b9f07bc7a461dbaad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_DestroyArray</definition>
+        <argsstring>(const MR_std_set_std_string *_this)</argsstring>
+        <name>MR_std_set_std_string_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1ad9344235c7eb73e6c6ded807f6a9fc3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_set_std_string * MR_std_set_std_string_OffsetPtr</definition>
+        <argsstring>(const MR_std_set_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_set_std_string_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="53" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="53" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a7af12e4b37925beae9bb0226de8c6f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string * MR_std_set_std_string_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_set_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_set_std_string_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="57" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="57" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1aca37dfc7e3de168fcc046857487e3f23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_set_std_string_size</definition>
+        <argsstring>(const MR_std_set_std_string *_this)</argsstring>
+        <name>MR_std_set_std_string_size</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="61" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="61" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a32d56d303a343c3dd9f222dfa04db5bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_set_std_string_empty</definition>
+        <argsstring>(const MR_std_set_std_string *_this)</argsstring>
+        <name>MR_std_set_std_string_empty</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="65" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1ae14a96beb6000fc29a3acb6a730c2a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_clear</definition>
+        <argsstring>(MR_std_set_std_string *_this)</argsstring>
+        <name>MR_std_set_std_string_clear</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="70" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a940ddb7322c09f0f0ac0e38f7ddb305e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_set_std_string_contains</definition>
+        <argsstring>(const MR_std_set_std_string *_this, const char *key, const char *key_end)</argsstring>
+        <name>MR_std_set_std_string_contains</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the contain contains this key. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> can not be null. If <computeroutput>key_end</computeroutput> is null, then <computeroutput>key</computeroutput> is assumed to be null-terminated. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="76" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1addc0c4b7e7e8e187b5416fc9f9a85d0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string_const_iterator * MR_std_set_std_string_find</definition>
+        <argsstring>(const MR_std_set_std_string *_this, const char *key, const char *key_end)</argsstring>
+        <name>MR_std_set_std_string_find</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the element by key, or returns the end iterator if no such key. Returns a read-only iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> can not be null. If <computeroutput>key_end</computeroutput> is null, then <computeroutput>key</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__set__std__string_8h_1accd4ce954630c8e7d740c350fcc03584" kindref="member">MR_std_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="84" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="84" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a7db3a719a8dbc77532df02965f9ad02b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_insert</definition>
+        <argsstring>(MR_std_set_std_string *_this, const char *new_elem, const char *new_elem_end)</argsstring>
+        <name>MR_std_set_std_string_insert</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>new_elem</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>new_elem_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. If <computeroutput>new_elem_end</computeroutput> is null, then <computeroutput>new_elem</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a1caa305ad3ed759903642ef50efeefc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string_const_iterator * MR_std_set_std_string_begin</definition>
+        <argsstring>(const MR_std_set_std_string *_this)</argsstring>
+        <name>MR_std_set_std_string_begin</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__set__std__string_8h_1accd4ce954630c8e7d740c350fcc03584" kindref="member">MR_std_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="97" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="97" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a65a635e0bf6ab88095b5d8d0f7bc228d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_set_std_string_is_begin</definition>
+        <argsstring>(const MR_std_set_std_string *_this, const MR_std_set_std_string_const_iterator *iter)</argsstring>
+        <name>MR_std_set_std_string_is_begin</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a632832368342f721bc9505fa60f55da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string_const_iterator * MR_std_set_std_string_end</definition>
+        <argsstring>(const MR_std_set_std_string *_this)</argsstring>
+        <name>MR_std_set_std_string_end</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__set__std__string_8h_1accd4ce954630c8e7d740c350fcc03584" kindref="member">MR_std_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="108" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="108" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a482d2cfa83c591d8deefe9c9ec0ad71c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_set_std_string_is_end</definition>
+        <argsstring>(const MR_std_set_std_string *_this, const MR_std_set_std_string_const_iterator *iter)</argsstring>
+        <name>MR_std_set_std_string_is_end</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="113" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1afebcca59b58da7d367ed33945c90c016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string_const_iterator * MR_std_set_std_string_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__set__std__string_8h_1accd4ce954630c8e7d740c350fcc03584" kindref="member">MR_std_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="117" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="117" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a47f89107fe9a42990b69545f536d92c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string_const_iterator * MR_std_set_std_string_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__set__std__string_8h_1a1062c6a2c819d0135f7ae19a84f87a4f" kindref="member">MR_std_set_std_string_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__set__std__string_8h_1a60ddad319669b199e52c268f395905e8" kindref="member">MR_std_set_std_string_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__set__std__string_8h_1a28bbea600d481726afce57327713f6a5" kindref="member">MR_std_set_std_string_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="122" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="122" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1abcda4766c6897399179fada0c2a166ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string_const_iterator * MR_std_set_std_string_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_set_std_string_const_iterator *other)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__set__std__string_8h_1accd4ce954630c8e7d740c350fcc03584" kindref="member">MR_std_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="129" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="129" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a7b06d4e2f4271f5b3d5c289f8d8f075f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_set_std_string_const_iterator *_this, const MR_std_set_std_string_const_iterator *other)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1accd4ce954630c8e7d740c350fcc03584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a1062c6a2c819d0135f7ae19a84f87a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="142" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a28bbea600d481726afce57327713f6a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_set_std_string_const_iterator * MR_std_set_std_string_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_set_std_string_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="146" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="146" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1a60ddad319669b199e52c268f395905e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_set_std_string_const_iterator * MR_std_set_std_string_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_set_std_string_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="150" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="150" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1ade6a5930db0d68940f0cb6c012b05f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_std_set_std_string_const_iterator_deref</definition>
+        <argsstring>(const MR_std_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="156" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="156" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1aad7bfc624b73916bec9757d2dae9fc5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_const_iterator_incr</definition>
+        <argsstring>(MR_std_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="160" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1aa6f25c09ae68a5eb190369e95167269a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_set_std_string_const_iterator_decr</definition>
+        <argsstring>(MR_std_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_set_std_string_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="164" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="164" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__set__std__string_8h_1af84ca924b0471cdfbeea41562de51e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_set_std_string_const_iterator</definition>
+        <argsstring>(const MR_std_set_std_string_const_iterator *a, const MR_std_set_std_string_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_set_std_string_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h" declline="169" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__set__std__string_8h_1a4fd5856033daac5fe0ae392536854066" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*<ref refid="std__set__std__string_8h_1a4fd5856033daac5fe0ae392536854066" kindref="member">MR_std_set_std_string_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="std__set__std__string_8h_1a4359a92a0f2f9b624b77149890fc54f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*<ref refid="std__set__std__string_8h_1a4359a92a0f2f9b624b77149890fc54f9" kindref="member">MR_std_set_std_string_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="std__set__std__string_8h_1a4f947e0df733eb7ee0da696ce35bb1cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*<ref refid="std__set__std__string_8h_1a4f947e0df733eb7ee0da696ce35bb1cb" kindref="member">MR_std_set_std_string_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__set__std__string_8h_1a3e0649085ec956158c96727cc93848c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a3e0649085ec956158c96727cc93848c6" kindref="member">MR_std_set_std_string_AssignFromAnother</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__set__std__string_8h_1a4b3f38c3232625724c3adb6f0a579909" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a4b3f38c3232625724c3adb6f0a579909" kindref="member">MR_std_set_std_string_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__set__std__string_8h_1a4b4c8fafdbc7f10b9f07bc7a461dbaad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a4b4c8fafdbc7f10b9f07bc7a461dbaad" kindref="member">MR_std_set_std_string_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__set__std__string_8h_1ad9344235c7eb73e6c6ded807f6a9fc3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*<ref refid="std__set__std__string_8h_1ad9344235c7eb73e6c6ded807f6a9fc3c" kindref="member">MR_std_set_std_string_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__set__std__string_8h_1a7af12e4b37925beae9bb0226de8c6f6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*<ref refid="std__set__std__string_8h_1a7af12e4b37925beae9bb0226de8c6f6e" kindref="member">MR_std_set_std_string_OffsetMutablePtr</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__set__std__string_8h_1aca37dfc7e3de168fcc046857487e3f23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1aca37dfc7e3de168fcc046857487e3f23" kindref="member">MR_std_set_std_string_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__set__std__string_8h_1a32d56d303a343c3dd9f222dfa04db5bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a32d56d303a343c3dd9f222dfa04db5bf" kindref="member">MR_std_set_std_string_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__set__std__string_8h_1ae14a96beb6000fc29a3acb6a730c2a75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1ae14a96beb6000fc29a3acb6a730c2a75" kindref="member">MR_std_set_std_string_clear</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__set__std__string_8h_1a940ddb7322c09f0f0ac0e38f7ddb305e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a940ddb7322c09f0f0ac0e38f7ddb305e" kindref="member">MR_std_set_std_string_contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_end);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="std__set__std__string_8h_1addc0c4b7e7e8e187b5416fc9f9a85d0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*<ref refid="std__set__std__string_8h_1addc0c4b7e7e8e187b5416fc9f9a85d0f" kindref="member">MR_std_set_std_string_find</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_end);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__set__std__string_8h_1a7db3a719a8dbc77532df02965f9ad02b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a7db3a719a8dbc77532df02965f9ad02b" kindref="member">MR_std_set_std_string_insert</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*new_elem,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*new_elem_end);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="std__set__std__string_8h_1a1caa305ad3ed759903642ef50efeefc0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*<ref refid="std__set__std__string_8h_1a1caa305ad3ed759903642ef50efeefc0" kindref="member">MR_std_set_std_string_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="std__set__std__string_8h_1a65a635e0bf6ab88095b5d8d0f7bc228d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a65a635e0bf6ab88095b5d8d0f7bc228d" kindref="member">MR_std_set_std_string_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__set__std__string_8h_1a632832368342f721bc9505fa60f55da4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*<ref refid="std__set__std__string_8h_1a632832368342f721bc9505fa60f55da4" kindref="member">MR_std_set_std_string_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="std__set__std__string_8h_1a482d2cfa83c591d8deefe9c9ec0ad71c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a482d2cfa83c591d8deefe9c9ec0ad71c" kindref="member">MR_std_set_std_string_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__set__std__string_8h_1afebcca59b58da7d367ed33945c90c016" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*<ref refid="std__set__std__string_8h_1afebcca59b58da7d367ed33945c90c016" kindref="member">MR_std_set_std_string_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__set__std__string_8h_1a47f89107fe9a42990b69545f536d92c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*<ref refid="std__set__std__string_8h_1a47f89107fe9a42990b69545f536d92c2" kindref="member">MR_std_set_std_string_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="std__set__std__string_8h_1abcda4766c6897399179fada0c2a166ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*<ref refid="std__set__std__string_8h_1abcda4766c6897399179fada0c2a166ba" kindref="member">MR_std_set_std_string_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="std__set__std__string_8h_1a7b06d4e2f4271f5b3d5c289f8d8f075f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a7b06d4e2f4271f5b3d5c289f8d8f075f" kindref="member">MR_std_set_std_string_const_iterator_AssignFromAnother</ref>(<ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="std__set__std__string_8h_1accd4ce954630c8e7d740c350fcc03584" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1accd4ce954630c8e7d740c350fcc03584" kindref="member">MR_std_set_std_string_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="std__set__std__string_8h_1a1062c6a2c819d0135f7ae19a84f87a4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a1062c6a2c819d0135f7ae19a84f87a4f" kindref="member">MR_std_set_std_string_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="std__set__std__string_8h_1a28bbea600d481726afce57327713f6a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*<ref refid="std__set__std__string_8h_1a28bbea600d481726afce57327713f6a5" kindref="member">MR_std_set_std_string_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="std__set__std__string_8h_1a60ddad319669b199e52c268f395905e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*<ref refid="std__set__std__string_8h_1a60ddad319669b199e52c268f395905e8" kindref="member">MR_std_set_std_string_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="std__set__std__string_8h_1ade6a5930db0d68940f0cb6c012b05f34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="std__set__std__string_8h_1ade6a5930db0d68940f0cb6c012b05f34" kindref="member">MR_std_set_std_string_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="std__set__std__string_8h_1aad7bfc624b73916bec9757d2dae9fc5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1aad7bfc624b73916bec9757d2dae9fc5c" kindref="member">MR_std_set_std_string_const_iterator_incr</ref>(<ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="std__set__std__string_8h_1aa6f25c09ae68a5eb190369e95167269a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1aa6f25c09ae68a5eb190369e95167269a" kindref="member">MR_std_set_std_string_const_iterator_decr</ref>(<ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="std__set__std__string_8h_1af84ca924b0471cdfbeea41562de51e79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1af84ca924b0471cdfbeea41562de51e79" kindref="member">MR_equal_MR_std_set_std_string_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__set__std__string_8h_1a75f2d68098bb03b32e5005dcfbfea00a" kindref="member">MR_std_set_std_string_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_set_std_string.h"/>
+  </compounddef>
+</doxygen>

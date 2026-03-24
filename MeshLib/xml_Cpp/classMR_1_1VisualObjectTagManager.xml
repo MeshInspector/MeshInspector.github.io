@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VisualObjectTagManager" kind="class" language="C++" prot="public">
     <compoundname>MR::VisualObjectTagManager</compoundname>
-    <includes refid="MRVisualObjectTag_8h" local="no">MRVisualObjectTag.h</includes>
+    <includes refid="MRVisualObjectTag_8h" local="no">MRViewer/MRVisualObjectTag.h</includes>
     <innerclass refid="structMR_1_1VisualObjectTagManager_1_1ProtectedTag" prot="private">MR::VisualObjectTagManager::ProtectedTag</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga357a7188eb9a9ff3553c502b24b2bf86" kind="variable"><name>onTagAdded_</name></member>
@@ -10,37 +10,37 @@
       <member refid="group__GeneralGroup_1gae793b31ad6cf1ad03d1fd5624ac90c79" kind="variable"><name>visTags_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gacc1fbe4ee1dee7064b9d1bac1569dd66" kind="function"><name>instance</name></member>
-      <member refid="group__GeneralGroup_1ga9f69634ddb326faeffe67952e15e67e4" kind="function"><name>tags</name></member>
-      <member refid="group__GeneralGroup_1gae17781f3480401df2d0f12b90816be27" kind="function"><name>registerTag</name></member>
-      <member refid="group__GeneralGroup_1gac2b3c766f95d02b57e4a529fecdae7cd" kind="function"><name>updateTag</name></member>
-      <member refid="group__GeneralGroup_1gaa2d4ea3df24507fdc138c0186b48e6cd" kind="function"><name>unregisterTag</name></member>
-      <member refid="group__GeneralGroup_1gaea004b378789ba0a88c63d1854d82f82" kind="function"><name>getAllObjectsWithTag</name></member>
-      <member refid="group__GeneralGroup_1gaec8c30ef080775365eeebc279fdc39da" kind="function"><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga31e359f6dbfe9dd5ece0cc5536815de7" kind="function"><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gab799619d1e2398b3e3e2c3d0495750ec" kind="function"><name>tags</name></member>
+      <member refid="group__GeneralGroup_1ga7c6cb0cea735bb0696d8592e4341523c" kind="function"><name>registerTag</name></member>
+      <member refid="group__GeneralGroup_1ga418d622dd8754d6e8a7f228b160228ea" kind="function"><name>updateTag</name></member>
+      <member refid="group__GeneralGroup_1ga9033728ee24edf0f374021b2608fbf05" kind="function"><name>unregisterTag</name></member>
+      <member refid="group__GeneralGroup_1ga34a64f20f0d77b16c8711a3dd15ab3ac" kind="function"><name>getAllObjectsWithTag</name></member>
+      <member refid="group__GeneralGroup_1gae195aa29a3aed7c3e8e53ea0519baa59" kind="function"><name>update</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga4e20686f28269f2f8bae46204a1a08ea" kind="function"><name>VisualObjectTagManager</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <member refid="group__GeneralGroup_1gaab3891f875cc95a74b2741c4c49da1b4" kind="friend"><name>deserializeFromJson</name></member>
+      <member refid="group__GeneralGroup_1gaf4bbfb7affce8bc85f680fc1562f61ce" kind="friend"><name>deserializeFromJson</name></member>
     </sectiondef>
     <briefdescription>
 <para>class for storing and changing visual object properties based on the object tags </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="25" bodyend="56"/>
+    <location file="MRViewer/MRVisualObjectTag.h" line="24" column="1" bodyfile="MRViewer/MRVisualObjectTag.h" bodystart="25" bodyend="56"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gaab3891f875cc95a74b2741c4c49da1b4" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>deserializeFromJson</name></member>
-      <member refid="group__GeneralGroup_1gaea004b378789ba0a88c63d1854d82f82" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>getAllObjectsWithTag</name></member>
-      <member refid="group__GeneralGroup_1gacc1fbe4ee1dee7064b9d1bac1569dd66" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gaf4bbfb7affce8bc85f680fc1562f61ce" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>deserializeFromJson</name></member>
+      <member refid="group__GeneralGroup_1ga34a64f20f0d77b16c8711a3dd15ab3ac" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>getAllObjectsWithTag</name></member>
+      <member refid="group__GeneralGroup_1ga31e359f6dbfe9dd5ece0cc5536815de7" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>instance</name></member>
       <member refid="group__GeneralGroup_1ga357a7188eb9a9ff3553c502b24b2bf86" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>onTagAdded_</name></member>
       <member refid="group__GeneralGroup_1ga64eaec41ee2d5126b17348e4353eee23" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>onTagRemoved_</name></member>
-      <member refid="group__GeneralGroup_1gae17781f3480401df2d0f12b90816be27" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>registerTag</name></member>
-      <member refid="group__GeneralGroup_1ga9f69634ddb326faeffe67952e15e67e4" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>tags</name></member>
-      <member refid="group__GeneralGroup_1gaa2d4ea3df24507fdc138c0186b48e6cd" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>unregisterTag</name></member>
-      <member refid="group__GeneralGroup_1gaec8c30ef080775365eeebc279fdc39da" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>update</name></member>
-      <member refid="group__GeneralGroup_1gac2b3c766f95d02b57e4a529fecdae7cd" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>updateTag</name></member>
+      <member refid="group__GeneralGroup_1ga7c6cb0cea735bb0696d8592e4341523c" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>registerTag</name></member>
+      <member refid="group__GeneralGroup_1gab799619d1e2398b3e3e2c3d0495750ec" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>tags</name></member>
+      <member refid="group__GeneralGroup_1ga9033728ee24edf0f374021b2608fbf05" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>unregisterTag</name></member>
+      <member refid="group__GeneralGroup_1gae195aa29a3aed7c3e8e53ea0519baa59" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga418d622dd8754d6e8a7f228b160228ea" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>updateTag</name></member>
       <member refid="group__GeneralGroup_1gae793b31ad6cf1ad03d1fd5624ac90c79" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>visTags_</name></member>
       <member refid="group__GeneralGroup_1ga4e20686f28269f2f8bae46204a1a08ea" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>VisualObjectTagManager</name></member>
     </listofallmembers>

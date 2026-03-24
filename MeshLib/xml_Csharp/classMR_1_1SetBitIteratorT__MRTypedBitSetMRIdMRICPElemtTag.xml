@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" kind="class" language="C#" prot="public">
+    <compoundname>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a80edfd76cf30edf00176185d2f44eac9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16699" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16699" bodyend="16699"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1ae66e575cfc1c223e27a768024f3e7a25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</definition>
+        <argsstring>()</argsstring>
+        <name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16704" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16704" bodyend="16709"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a7af415ae4031982f017f2daea9bb5bed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag _other)</argsstring>
+        <name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16714" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16714" bodyend="16720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a189bc672683371f3e26e3f86ed4e9a95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</definition>
+        <argsstring>(SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag _other)</argsstring>
+        <name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" kindref="compound">SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16725" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16725" bodyend="16725"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a23fb112cf75957affe793c35ef11d6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</definition>
+        <argsstring>(MR.Const_TypedBitSet_MRIdMRICPElemtTag bitset)</argsstring>
+        <name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16731" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16731" bodyend="16737"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a4b4a568c4964b047547b8bde1f03f636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" kindref="compound">MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</ref></type>
+        <definition>unsafe MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.assign</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16748" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16748" bodyend="16755"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a2e8196a182c1233bf77775db346a5be6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16760" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16760" bodyend="16765"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1acb9aa8b40183e03179b88c9e31455495" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.operator SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</definition>
+        <argsstring>(MR.Const_TypedBitSet_MRIdMRICPElemtTag bitset)</argsstring>
+        <name>operator SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.operator SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16743" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16743" bodyend="16743"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16697" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16698" bodyend="16766"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a4b4a568c4964b047547b8bde1f03f636" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>assign</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a2e8196a182c1233bf77775db346a5be6" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>incr</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1acb9aa8b40183e03179b88c9e31455495" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>operator SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a80edfd76cf30edf00176185d2f44eac9" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1ae66e575cfc1c223e27a768024f3e7a25" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a7af415ae4031982f017f2daea9bb5bed" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a189bc672683371f3e26e3f86ed4e9a95" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a23fb112cf75957affe793c35ef11d6ad" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

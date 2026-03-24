@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structfmt_1_1formatter_3_01MR_1_1Vector3_3_01T_01_4_01_4" kind="struct" language="C++" prot="public">
     <compoundname>fmt::formatter&lt; MR::Vector3&lt; T &gt; &gt;</compoundname>
     <basecompoundref prot="public" virt="non-virtual">fmt::formatter&lt; T &gt;</basecompoundref>
     <derivedcompoundref refid="structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4" prot="public" virt="non-virtual">fmt::formatter&lt; MR::AffineXf3&lt; T &gt; &gt;</derivedcompoundref>
     <derivedcompoundref refid="structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4" prot="public" virt="non-virtual">fmt::formatter&lt; MR::Matrix3&lt; T &gt; &gt;</derivedcompoundref>
-    <includes refid="MRFormat_8h" local="no">MRFormat.h</includes>
+    <includes refid="MRFormat_8h" local="no">MRMesh/MRFormat.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="26" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="26" bodyend="38"/>
+        <location file="MRMesh/MRFormat.h" line="26" column="20" bodyfile="MRMesh/MRFormat.h" bodystart="26" bodyend="38"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -78,7 +78,7 @@
         <label>fmt::formatter&lt; T &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="24" bodyend="39"/>
+    <location file="MRMesh/MRFormat.h" line="23" column="1" bodyfile="MRMesh/MRFormat.h" bodystart="24" bodyend="39"/>
     <listofallmembers>
       <member refid="structfmt_1_1formatter_3_01MR_1_1Vector3_3_01T_01_4_01_4_1a70abde1896e9f18cec9470698f04be5c" prot="public" virt="non-virtual"><scope>fmt::formatter&lt; MR::Vector3&lt; T &gt; &gt;</scope><name>format</name></member>
     </listofallmembers>

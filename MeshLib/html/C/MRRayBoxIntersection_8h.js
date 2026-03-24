@@ -1,10 +1,6 @@
 var MRRayBoxIntersection_8h =
 [
-    [ "MR_Box3f", "MRRayBoxIntersection_8h.html#a387c2b6c194640a4dfac77733cbe3880", null ],
-    [ "MR_IntersectionPrecomputes_float", "MRRayBoxIntersection_8h.html#a87d83329d62d5328563c6e5b3bac7144", null ],
-    [ "MR_Line3f", "MRRayBoxIntersection_8h.html#aca1d803422d4caa25c56d04a67efbc52", null ],
     [ "MR_RayOrigin_float", "MRRayBoxIntersection_8h.html#aeea809d1ec90ea1c9da1c0e1fb31a43a", null ],
-    [ "MR_Vector3f", "MRRayBoxIntersection_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_rayBoxIntersect_4_MR_Box3f", "MRRayBoxIntersection_8h.html#a1e0ab36ee9b679ed253f027f1735609c", null ],
     [ "MR_rayBoxIntersect_5", "MRRayBoxIntersection_8h.html#ace4c89fdc6d8651ba11ccf6ef59ab9fa", null ],
     [ "MR_RayOrigin_float_AssignFromAnother", "MRRayBoxIntersection_8h.html#ab974954149dbc55cf98ae7a07ec00e43", null ],

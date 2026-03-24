@@ -1,14 +1,14 @@
 var MRFileDialog_8h =
 [
-    [ "getLastUsedDir", "MRFileDialog_8h.html#ga6236a401964ba52cc8c681800b9016b6", null ],
-    [ "openFileDialog", "MRFileDialog_8h.html#ga0a4bcce4daa4d3b3423c31dff3a881bb", null ],
-    [ "openFileDialogAsync", "MRFileDialog_8h.html#ga5cb1fd46b50301553853ea480cee32b3", null ],
-    [ "openFilesDialog", "MRFileDialog_8h.html#ga9fc3a0fb211326213beb41fb1ecd8d71", null ],
-    [ "openFilesDialogAsync", "MRFileDialog_8h.html#ga3654bd75dee95f4fbb08dcb1e75af8da", null ],
-    [ "openFolderDialog", "MRFileDialog_8h.html#ga8614fe4e6c04bcdc38ea5cfdf301743a", null ],
-    [ "openFolderDialogAsync", "MRFileDialog_8h.html#ga964135dd0f9cc9740de117f85b0e793d", null ],
-    [ "openFoldersDialog", "MRFileDialog_8h.html#ga0d9e3b8996c4a924319accda1afc4afe", null ],
-    [ "saveFileDialog", "MRFileDialog_8h.html#ga5840a11e5e60139f9bbbf678072379e2", null ],
-    [ "saveFileDialogAsync", "MRFileDialog_8h.html#gaa9296b50297d1b2d93a8f2f08c495eef", null ],
-    [ "setLastUsedDir", "MRFileDialog_8h.html#gaff1ca147e48327b0475511d0b7b84957", null ]
+    [ "MR::FileDialog::getLastUsedDir", "group__GeneralGroup.html#gaa254a1389ccd0613cffbfc4a425f3dbf", null ],
+    [ "MR::openFileDialog", "group__GeneralGroup.html#gad7ce3b9a758aeabec86131348faf5482", null ],
+    [ "MR::openFileDialogAsync", "group__GeneralGroup.html#ga134fbce7bbcc0698a8912394c476d829", null ],
+    [ "MR::openFilesDialog", "group__GeneralGroup.html#ga4a71ebb12610742b8bef66999fca5500", null ],
+    [ "MR::openFilesDialogAsync", "group__GeneralGroup.html#ga607858b01e8fd9f8d1cbe5429f4a1f49", null ],
+    [ "MR::openFolderDialog", "group__GeneralGroup.html#ga95c6167df877c265446f7c26b584ed31", null ],
+    [ "MR::openFolderDialogAsync", "group__GeneralGroup.html#ga4f7e73ac0c175a78e45cd70fcc8237d1", null ],
+    [ "MR::openFoldersDialog", "group__GeneralGroup.html#ga02193289ba5ccdb5cc2c958ce4bdc8ab", null ],
+    [ "MR::saveFileDialog", "group__GeneralGroup.html#ga11a8e1d4c39111b3c9ad8563de97ad2a", null ],
+    [ "MR::saveFileDialogAsync", "group__GeneralGroup.html#ga485a9150a4e5548660270bdb08102234", null ],
+    [ "MR::FileDialog::setLastUsedDir", "group__GeneralGroup.html#gac507a834f0757fc127d7222f8ffcb462", null ]
 ];

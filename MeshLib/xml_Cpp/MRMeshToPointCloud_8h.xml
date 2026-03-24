@@ -1,199 +1,237 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshToPointCloud_8h" kind="file" language="C++">
     <compoundname>MRMeshToPointCloud.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRPointCloud_8h" local="yes">MRPointCloud.h</includes>
     <incdepgraph>
-      <node id="20">
+      <node id="27">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>MRCloudPartMapping.h</label>
-        <link refid="MRCloudPartMapping_8h"/>
         <childnode refid="28" relation="include">
         </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
       </node>
-      <node id="14">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRCloudPartMapping.h</label>
+        <link refid="MRCloudPartMapping_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="21">
+      <node id="28">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
       </node>
       <node id="5">
-        <label>MRMacros.h</label>
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="1">
-        <label>MRMeshToPointCloud.h</label>
-        <link refid="MRMeshToPointCloud_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>MRPointCloud.h</label>
-        <link refid="MRPointCloud_8h"/>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRMeshToPointCloud.h</label>
+        <link refid="MRMeshToPointCloud_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRPointCloud.h</label>
+        <link refid="MRPointCloud_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="31">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="18">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="14">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="17">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="28">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="8">
+      <node id="6">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="22">
+      <node id="29">
         <label>MRphmap.h</label>
       </node>
-      <node id="15">
+      <node id="22">
         <label>algorithm</label>
       </node>
-      <node id="9">
-        <label>cassert</label>
-      </node>
-      <node id="16">
-        <label>cmath</label>
-      </node>
       <node id="7">
-        <label>concepts</label>
+        <label>array</label>
       </node>
       <node id="12">
-        <label>cstddef</label>
-      </node>
-      <node id="17">
-        <label>cstring</label>
+        <label>cassert</label>
       </node>
       <node id="23">
-        <label>functional</label>
+        <label>cmath</label>
       </node>
-      <node id="18">
-        <label>iosfwd</label>
-      </node>
-      <node id="24">
-        <label>iterator</label>
-      </node>
-      <node id="26">
-        <label>memory</label>
-      </node>
-      <node id="13">
-        <label>type_traits</label>
+      <node id="16">
+        <label>concepts</label>
       </node>
       <node id="19">
+        <label>cstddef</label>
+      </node>
+      <node id="24">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="25">
+        <label>iosfwd</label>
+      </node>
+      <node id="30">
+        <label>iterator</label>
+      </node>
+      <node id="32">
+        <label>memory</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="20">
+        <label>type_traits</label>
+      </node>
+      <node id="26">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -203,16 +241,16 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPointCloud_8h" kindref="compound">MRPointCloud.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="group__MeshAlgorithmGroup_1gac05a6a40f6f3f078e9ceb0870a399516" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/><ref refid="group__MeshAlgorithmGroup_1gac05a6a40f6f3f078e9ceb0870a399516" kindref="member">meshToPointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>saveNormals<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>verts<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13" refid="group__MeshAlgorithmGroup_1gaff12e899a2fa7790b09853a93701515f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/><ref refid="group__MeshAlgorithmGroup_1gaff12e899a2fa7790b09853a93701515f" kindref="member">meshToPointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>saveNormals<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>verts<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h"/>
+    <location file="MRMesh/MRMeshToPointCloud.h"/>
   </compounddef>
 </doxygen>

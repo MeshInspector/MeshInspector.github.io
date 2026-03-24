@@ -1,5 +1,5 @@
 var MRGLTexture_8h =
 [
-    [ "setTextureFilterType", "MRGLTexture_8h.html#gab51fca826c7b90369fdc1dc86a01fbad", null ],
-    [ "setTextureWrapType", "MRGLTexture_8h.html#ga36f6d95d5a8018c4dd23ab51ba99ab31", null ]
+    [ "MR::setTextureFilterType", "group__GeneralGroup.html#ga8dcd56fe27c91c37ab9c4426ba6e8bf9", null ],
+    [ "MR::setTextureWrapType", "group__GeneralGroup.html#gaed8079191a6bbed1f89a66fb15944c37", null ]
 ];

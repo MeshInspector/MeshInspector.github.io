@@ -1,5 +1,5 @@
 var classMR_1_1IFastWindingNumberByParts =
 [
-    [ "calcFromGridByParts", "classMR_1_1IFastWindingNumberByParts.html#a17ebabc94f34b596e9b89abc8f1c2f61", null ],
-    [ "calcFromGridWithDistancesByParts", "classMR_1_1IFastWindingNumberByParts.html#afabe417f4268f89ed1bae1d57dd01976", null ]
+    [ "calcFromGridByParts", "classMR_1_1IFastWindingNumberByParts.html#a9e1bbdeec36e5fe078a532d171681959", null ],
+    [ "calcFromGridWithDistancesByParts", "classMR_1_1IFastWindingNumberByParts.html#ae986caad43d62a9e8b6605580abd04e5", null ]
 ];

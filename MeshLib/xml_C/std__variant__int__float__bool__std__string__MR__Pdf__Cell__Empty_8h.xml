@@ -1,0 +1,704 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h" kind="file" language="C++">
+    <compoundname>std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h</label>
+        <link refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1abe334bce11c6a7780005fe4d3a38f5d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="23" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="23" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ad299a4357504018ee1ccc6d84a61fdbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a74bc8431a0b165771cb925d1ea2b68ef" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a832665b234fda87f6893e2c86165fd38" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a8d646c069652192e27aaea0cf4c1ecf4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="28" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="28" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ae332c61c6f4c76eb395c8ba895260edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *other)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="34" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="34" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a81006ba2f18b5adee97cca4c327e7238" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignFromAnother</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this, MR_PassBy other_pass_by, MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *other)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="40" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a74bc8431a0b165771cb925d1ea2b68ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DestroyArray</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a8d646c069652192e27aaea0cf4c1ecf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_OffsetPtr</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="50" column="74" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="50" declcolumn="74"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a832665b234fda87f6893e2c86165fd38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="54" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="54" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1abc949a0cd647af36c72b1268d48355bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_index</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_index</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the index of the stored element type. In rare cases may return -1 if this variant is &quot;valueless by exception&quot;. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="58" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="58" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5da723af75c939b80c6f857c60e9700d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_int</definition>
+        <argsstring>(int value)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_int</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 0, of type <computeroutput>int</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="63" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="63" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1aa3b9c3dcdf1f805bc773ab5b9b615671" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_float</definition>
+        <argsstring>(float value)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_float</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 1, of type <computeroutput>float</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="68" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="68" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1af675a1f2e9394cf05ff03fb677f6ab74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_bool</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_bool</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 2, of type <computeroutput>bool</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="73" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="73" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a42a897a08801ff5f715d1d514ba0bb31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_std_string</definition>
+        <argsstring>(const char *value, const char *value_end)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_std_string</name>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 3, of type <computeroutput>std::string</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="81" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="81" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1aeb727b83c19877e283573139c12e6d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_MR_Pdf_Cell_Empty</definition>
+        <argsstring>(const MR_Pdf_Cell_Empty *value)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_MR_Pdf_Cell_Empty</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 4, of type <computeroutput>MR::Pdf::Cell::Empty</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="88" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="88" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a67eb06b64e728dcbb5acbf27d2af37c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_int</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this, int value)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_int</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 0, of type <computeroutput>int</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="93" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5d5ab1d8f244ebf8c1710a116b6ccf29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_float</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this, float value)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_float</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 1, of type <computeroutput>float</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a32635097523bb0c02e3f25c4afe1343a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_bool</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this, bool value)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_bool</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 2, of type <computeroutput>bool</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="103" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a91c7a834ba0c839bfd8492a862180d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_std_string</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_std_string</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 3, of type <computeroutput>std::string</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="111" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1add500be8ce7068ef41c1a62ba00499b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_MR_Pdf_Cell_Empty</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this, const MR_Pdf_Cell_Empty *value)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_MR_Pdf_Cell_Empty</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 4, of type <computeroutput>MR::Pdf::Cell::Empty</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a3b248ccb0cdd28a7e47662c29d230145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_int</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_int</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>int</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="123" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="123" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ad5e3425a6c5c7ce58642f163f4f56b05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
+        <definition>MRC_API int * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_int_mut</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_int_mut</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>int</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="128" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="128" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a3dd5a112475f08beeec379ace3a20055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_float</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_float</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>float</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="133" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="133" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ac8be4eb8e94a7a58543d86b701d221e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_float_mut</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_float_mut</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>float</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="138" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="138" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1af22f3083125c29e1e3f311e7c3540b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
+        <definition>MRC_API const bool * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_bool</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_bool</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 2, of type <computeroutput>bool</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="143" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="143" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a04712412f986eb016fa8ddf8e3460971" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
+        <definition>MRC_API bool * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_bool_mut</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_bool_mut</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 2, of type <computeroutput>bool</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="148" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="148" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a24406fa5909fd4533157ddd17254ce6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_std_string</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_std_string</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 3, of type <computeroutput>std::string</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="153" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="153" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5de4cbfa714132398844636bf3d1c2f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_std_string_mut</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_std_string_mut</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 3, of type <computeroutput>std::string</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="158" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="158" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a384fb027c59b5815d8e8b462e90942ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API const MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_MR_Pdf_Cell_Empty</definition>
+        <argsstring>(const MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_MR_Pdf_Cell_Empty</name>
+        <param>
+          <type>const <ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 4, of type <computeroutput>MR::Pdf::Cell::Empty</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="163" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="163" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1acb97ddb4d1b05085d6710cd7c154b301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref> *</type>
+        <definition>MRC_API MR_Pdf_Cell_Empty * MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_MR_Pdf_Cell_Empty_mut</definition>
+        <argsstring>(MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty *_this)</argsstring>
+        <name>MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_MR_Pdf_Cell_Empty_mut</name>
+        <param>
+          <type><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 4, of type <computeroutput>MR::Pdf::Cell::Empty</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" line="168" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h" declline="168" declcolumn="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref><sp/><ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCIOExtras/MRPdf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1abe334bce11c6a7780005fe4d3a38f5d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1abe334bce11c6a7780005fe4d3a38f5d5" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ad299a4357504018ee1ccc6d84a61fdbf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ad299a4357504018ee1ccc6d84a61fdbf" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ae332c61c6f4c76eb395c8ba895260edb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ae332c61c6f4c76eb395c8ba895260edb" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a81006ba2f18b5adee97cca4c327e7238" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a81006ba2f18b5adee97cca4c327e7238" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignFromAnother</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5afa1dd8f9e3130bd2380cb3d8200943" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a74bc8431a0b165771cb925d1ea2b68ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a74bc8431a0b165771cb925d1ea2b68ef" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a8d646c069652192e27aaea0cf4c1ecf4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a8d646c069652192e27aaea0cf4c1ecf4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a832665b234fda87f6893e2c86165fd38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a832665b234fda87f6893e2c86165fd38" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_OffsetMutablePtr</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1abc949a0cd647af36c72b1268d48355bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1abc949a0cd647af36c72b1268d48355bb" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5da723af75c939b80c6f857c60e9700d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5da723af75c939b80c6f857c60e9700d" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_int</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1aa3b9c3dcdf1f805bc773ab5b9b615671" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1aa3b9c3dcdf1f805bc773ab5b9b615671" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1af675a1f2e9394cf05ff03fb677f6ab74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1af675a1f2e9394cf05ff03fb677f6ab74" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_bool</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a42a897a08801ff5f715d1d514ba0bb31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a42a897a08801ff5f715d1d514ba0bb31" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_std_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1aeb727b83c19877e283573139c12e6d64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1aeb727b83c19877e283573139c12e6d64" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_ConstructAs_MR_Pdf_Cell_Empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a67eb06b64e728dcbb5acbf27d2af37c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a67eb06b64e728dcbb5acbf27d2af37c6" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_int</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5d5ab1d8f244ebf8c1710a116b6ccf29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5d5ab1d8f244ebf8c1710a116b6ccf29" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_float</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a32635097523bb0c02e3f25c4afe1343a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a32635097523bb0c02e3f25c4afe1343a" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_bool</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a91c7a834ba0c839bfd8492a862180d70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a91c7a834ba0c839bfd8492a862180d70" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_std_string</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1add500be8ce7068ef41c1a62ba00499b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1add500be8ce7068ef41c1a62ba00499b7" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_AssignAs_MR_Pdf_Cell_Empty</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a3b248ccb0cdd28a7e47662c29d230145" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a3b248ccb0cdd28a7e47662c29d230145" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ad5e3425a6c5c7ce58642f163f4f56b05" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ad5e3425a6c5c7ce58642f163f4f56b05" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_int_mut</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a3dd5a112475f08beeec379ace3a20055" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a3dd5a112475f08beeec379ace3a20055" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ac8be4eb8e94a7a58543d86b701d221e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1ac8be4eb8e94a7a58543d86b701d221e7" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_float_mut</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1af22f3083125c29e1e3f311e7c3540b4c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1af22f3083125c29e1e3f311e7c3540b4c" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a04712412f986eb016fa8ddf8e3460971" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a04712412f986eb016fa8ddf8e3460971" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_bool_mut</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a24406fa5909fd4533157ddd17254ce6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a24406fa5909fd4533157ddd17254ce6c" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_std_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5de4cbfa714132398844636bf3d1c2f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a5de4cbfa714132398844636bf3d1c2f5" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_std_string_mut</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a384fb027c59b5815d8e8b462e90942ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1a384fb027c59b5815d8e8b462e90942ff" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_MR_Pdf_Cell_Empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1acb97ddb4d1b05085d6710cd7c154b301" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a3e73b4d542a09776dce4009d78038b27" kindref="member">MR_Pdf_Cell_Empty</ref><sp/>*<ref refid="std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty_8h_1acb97ddb4d1b05085d6710cd7c154b301" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty_get_MR_Pdf_Cell_Empty_mut</ref>(<ref refid="MRPdf_8h_1a8e16741698a9b77ba669cb915121d9f4" kindref="member">MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty.h"/>
+  </compounddef>
+</doxygen>

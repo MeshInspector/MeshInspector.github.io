@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Pdf" kind="class" language="C#" prot="public">
     <compoundname>MR::Pdf</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Pdf</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2333" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2333" bodyend="2333"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2355" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2355" bodyend="2355"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -40,13 +40,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
+<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2340" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2340" bodyend="2346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2362" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2362" bodyend="2368"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a16bbcf439a61f0280ca4b75d794091db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -59,13 +59,13 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2358" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2358" bodyend="2364"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2380" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2380" bodyend="2386"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a30cd1126694beefcfc9027481c111963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Pdf" kindref="compound">MR.Pdf</ref></type>
@@ -78,13 +78,13 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Pdf.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Pdf::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2369" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2369" bodyend="2379"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2391" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2391" bodyend="2401"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a6d388008158fb5091b6bea938a4af4dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2391" bodyend="2401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2413" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2413" bodyend="2423"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a0e55d08257fc54de21002b38fef87f57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2406" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2406" bodyend="2415"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2428" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2428" bodyend="2437"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a61f1c8f403e455399795e7fc82a1505d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2421" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2421" bodyend="2430"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2443" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2443" bodyend="2452"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1abefb7ac91c7bea3bd376d4d516050f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2439" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2439" bodyend="2444"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2461" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2461" bodyend="2466"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a6748467c364fceaea8d791644777e014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2449" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2449" bodyend="2454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2471" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2471" bodyend="2476"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a85f14c4da256660377f19fecac7f7594" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2462" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2462" bodyend="2471"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2484" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2484" bodyend="2493"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1ac2acb25dfb9a3e24e5967b1ae33d5170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2476" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2476" bodyend="2481"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2498" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2498" bodyend="2503"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2487" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2487" bodyend="2492"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2509" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2509" bodyend="2514"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1aa1444104fb141136e12cd5d8a78b9906" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2498" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2498" bodyend="2503"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2520" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2520" bodyend="2525"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a2555484e4a9c5f7af9953cf4f9654ff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -291,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2509" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2509" bodyend="2518"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2531" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2531" bodyend="2540"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a51a4723334e0f898d86529510e497398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2523" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2523" bodyend="2528"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2545" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2545" bodyend="2550"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a4fad0bc269b79679f87134abb1153da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -329,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2533" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2533" bodyend="2538"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2555" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2555" bodyend="2560"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1aa38099f7c803af1342913d11211e4dd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -348,7 +348,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2544" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2544" bodyend="2549"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2566" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2566" bodyend="2571"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1ae4d317d6077128773c47585a9ed4eec9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -367,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2555" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2555" bodyend="2562"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2577" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2577" bodyend="2584"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1ae680de1d38dd6f0141a9b34618841d3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -386,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2568" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2568" bodyend="2575"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2590" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2590" bodyend="2597"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1ac931f08e01533327142426ef99808a3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -405,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2581" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2581" bodyend="2588"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2603" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2603" bodyend="2610"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a135901363aebd555e24072143161d3a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -424,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2594" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2594" bodyend="2601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2616" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2616" bodyend="2623"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a29aff82df6a9dd81c9b1a01c29f69fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -443,7 +443,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2608" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2608" bodyend="2617"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2630" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2630" bodyend="2639"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a0daf769118ccd6ca5debdb21db5ed213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -462,7 +462,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2623" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2623" bodyend="2628"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2645" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2645" bodyend="2650"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1adb91f52efb4d8ab4c12121541b81ab5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -489,7 +489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2635" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2635" bodyend="2647"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2657" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2657" bodyend="2669"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1a99a915764e302676099d57196383d025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -512,7 +512,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2652" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2652" bodyend="2661"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2674" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2674" bodyend="2683"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Pdf_1afecf91141f31312b5f3cfccbe066506e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -539,7 +539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2667" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2667" bodyend="2681"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2689" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2689" bodyend="2703"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -554,13 +554,13 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
+<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2353" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2353" bodyend="2353"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2375" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2375" bodyend="2375"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -569,48 +569,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Pdf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Pdf</label>
         <link refid="classMR_1_1Pdf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Pdf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Pdf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Pdf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Pdf</label>
         <link refid="classMR_1_1Pdf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Pdf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Pdf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2331" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2332" bodyend="2682"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2353" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2354" bodyend="2704"/>
     <listofallmembers>
       <member refid="classMR_1_1Pdf_1ac2acb25dfb9a3e24e5967b1ae33d5170" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage</name></member>
       <member refid="classMR_1_1Pdf_1a85f14c4da256660377f19fecac7f7594" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImageFromFile</name></member>

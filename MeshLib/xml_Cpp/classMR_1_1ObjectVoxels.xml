@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectVoxels" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectVoxels</compoundname>
     <basecompoundref refid="classMR_1_1ObjectMeshHolder" prot="public" virt="non-virtual">MR::ObjectMeshHolder</basecompoundref>
-    <includes refid="MRObjectVoxels_8h" local="no">MRObjectVoxels.h</includes>
+    <includes refid="MRObjectVoxels_8h" local="no">MRVoxels/MRObjectVoxels.h</includes>
     <innerclass refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams" prot="public">MR::ObjectVoxels::VolumeRenderingParams</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga3ace9713c9d0e39585ccb708a7cadf94" kind="typedef"><name>IsoSurfaceChangedSignal</name></member>
@@ -34,14 +34,14 @@
       <member refid="group__GeneralGroup_1gadd6ed6dadad3ee60701ec86b112535c2" kind="variable"><name>volumeRendering_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga78c40f61f0dd24dcb84cfbbe901ddfd5" kind="function"><name>ObjectVoxels</name></member>
+      <member refid="group__GeneralGroup_1gadedf1f1574fe5ce4838b7a443b3e3902" kind="function"><name>ObjectVoxels</name></member>
       <member refid="group__GeneralGroup_1ga2f2260ca64565ffbedc9236f28e19b98" kind="function"><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga86927a7f3ce177f9394efc66a87d95bc" kind="function"><name>ObjectVoxels</name></member>
       <member refid="group__GeneralGroup_1ga205cdfb1f95b74b571b884147dc2581f" kind="function"><name>~ObjectVoxels</name></member>
       <member refid="group__GeneralGroup_1gad263dcb8982dbf8095729fa3a3d2032e" kind="function"><name>typeName</name></member>
       <member refid="group__GeneralGroup_1gaa0402c3a95f58c263dacb32b997a95aa" kind="function"><name>className</name></member>
       <member refid="group__GeneralGroup_1ga07a8d2c3383e05788beb2de69718b514" kind="function"><name>classNameInPlural</name></member>
-      <member refid="group__GeneralGroup_1gafcc452d7af81256782737daa253d27f8" kind="function"><name>applyScale</name></member>
+      <member refid="group__GeneralGroup_1ga0e70ef55b8ceb030186bbb54665ac999" kind="function"><name>applyScale</name></member>
       <member refid="group__GeneralGroup_1ga31a6e0940a4632729bd5bab336d3b99f" kind="function"><name>surface</name></member>
       <member refid="group__GeneralGroup_1ga40a8a10a59c84f407f0b8cbdec7bedb1" kind="function"><name>vdbVolume</name></member>
       <member refid="group__GeneralGroup_1ga10fd8457c5eafb626b75de39437e545a" kind="function"><name>varVdbVolume</name></member>
@@ -51,51 +51,51 @@
       <member refid="group__GeneralGroup_1ga2ce02d5c6f811849926b7409f892983f" kind="function"><name>getIsoValue</name></member>
       <member refid="group__GeneralGroup_1gaf4e1350561bc2e71d56741b954562868" kind="function"><name>histogram</name></member>
       <member refid="group__GeneralGroup_1ga15d13587d3a07d097c841db2c9face4d" kind="function"><name>voxelSize</name></member>
-      <member refid="group__GeneralGroup_1gae0e4a39d7b533adf3f8e3a245164b4b0" kind="function"><name>getInfoLines</name></member>
-      <member refid="group__GeneralGroup_1ga8f0f53e50de7d14d34db9b1f463e508a" kind="function"><name>construct</name></member>
-      <member refid="group__GeneralGroup_1gaff8794b9bd15a75ebc129b43162e181d" kind="function"><name>construct</name></member>
-      <member refid="group__GeneralGroup_1ga4d07a6c88bfa67908a0e441317edcf64" kind="function"><name>construct</name></member>
-      <member refid="group__GeneralGroup_1ga549a71e31be2ea76b5dbf1753be436f8" kind="function"><name>construct</name></member>
-      <member refid="group__GeneralGroup_1ga73375f3d9e19e2d0efbe514ff064d0d8" kind="function"><name>updateHistogramAndSurface</name></member>
-      <member refid="group__GeneralGroup_1ga9d44fbce630c101df9460eb14221d020" kind="function"><name>setIsoValue</name></member>
-      <member refid="group__GeneralGroup_1ga199fc0f49264a02925125c12597017e5" kind="function"><name>updateIsoSurface</name></member>
-      <member refid="group__GeneralGroup_1ga90c1f592f11b44bf17a0306d54872421" kind="function"><name>updateVdbVolume</name></member>
-      <member refid="group__GeneralGroup_1ga3572c9f87867a96883b1894481cbd313" kind="function"><name>updateHistogram</name></member>
-      <member refid="group__GeneralGroup_1ga0be5abb458a3b28d1c15a5709be051c3" kind="function"><name>recalculateIsoSurface</name></member>
-      <member refid="group__GeneralGroup_1ga46adc4914b8a2574e7b26f15962e31f6" kind="function"><name>recalculateIsoSurface</name></member>
-      <member refid="group__GeneralGroup_1gaf7b8b9838d50a4946c46bf66319c4ecb" kind="function"><name>recalculateHistogram</name></member>
+      <member refid="group__GeneralGroup_1ga426a357a10f27bbc5b62882c7327905d" kind="function"><name>getInfoLines</name></member>
+      <member refid="group__GeneralGroup_1gaec0361fef3b3d280ffa21a8ae3d7813c" kind="function"><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga817da46c64743f8603e0f31bf4fbe2a4" kind="function"><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga3a3c78720a7b46bc376d7765c07eeee8" kind="function"><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga4277fbb2607f5f37508ea18cb00f8f7c" kind="function"><name>construct</name></member>
+      <member refid="group__GeneralGroup_1gaa29bdba1ba0647a7e4aa6225996ea9ed" kind="function"><name>updateHistogramAndSurface</name></member>
+      <member refid="group__GeneralGroup_1ga2231e29551cd4d2532fc1a1ecd391b51" kind="function"><name>setIsoValue</name></member>
+      <member refid="group__GeneralGroup_1ga30dbd10af43f975fe9365af6e563413d" kind="function"><name>updateIsoSurface</name></member>
+      <member refid="group__GeneralGroup_1ga519ee7f003741d4e52b2eedb5a4f5415" kind="function"><name>updateVdbVolume</name></member>
+      <member refid="group__GeneralGroup_1ga935f4ba4160b0b4c6cc1599da7a822ac" kind="function"><name>updateHistogram</name></member>
+      <member refid="group__GeneralGroup_1ga2c2d54768b1e58be6b96e23637a42f65" kind="function"><name>recalculateIsoSurface</name></member>
+      <member refid="group__GeneralGroup_1gaebe3552cb0839a3091d64b386442ea7f" kind="function"><name>recalculateIsoSurface</name></member>
+      <member refid="group__GeneralGroup_1ga430f52a59c529e87799574fb2adffea1" kind="function"><name>recalculateHistogram</name></member>
       <member refid="group__GeneralGroup_1ga286fc3a36e00873cc102a1a962b67cf5" kind="function"><name>getDualMarchingCubes</name></member>
-      <member refid="group__GeneralGroup_1ga0a5cca18a913b0ac50da4541a044cd2b" kind="function"><name>setDualMarchingCubes</name></member>
+      <member refid="group__GeneralGroup_1gad6eac90e7648857dfd4b26b0c4b160e5" kind="function"><name>setDualMarchingCubes</name></member>
       <member refid="group__GeneralGroup_1gae1bf2bbd9c8eaf107a9d67293a6f772e" kind="function"><name>setVoxelPointPositioner</name></member>
-      <member refid="group__GeneralGroup_1gaa7689d9348c5d2068caa119fcc147c62" kind="function"><name>setActiveBounds</name></member>
-      <member refid="group__GeneralGroup_1gab2dd41586da53c1ff6c7310a1e2edfbc" kind="function"><name>getActiveBounds</name></member>
-      <member refid="group__GeneralGroup_1ga2b89808d3b55996770009742a602af5b" kind="function"><name>invalidateActiveBoundsCaches</name></member>
+      <member refid="group__GeneralGroup_1gaf143f9c6dc763aac39a1a410685fdccd" kind="function"><name>setActiveBounds</name></member>
+      <member refid="group__GeneralGroup_1ga21fac797124aacbda1e3226395b7203f" kind="function"><name>getActiveBounds</name></member>
+      <member refid="group__GeneralGroup_1ga46c318d30136991af524514bcf7601b2" kind="function"><name>invalidateActiveBoundsCaches</name></member>
       <member refid="group__GeneralGroup_1ga2474b64ee36bdd0c3cbb7c2688559071" kind="function"><name>getSelectedVoxels</name></member>
       <member refid="group__GeneralGroup_1ga4333c77a23030251df09a35b3432fdd6" kind="function"><name>selectVoxels</name></member>
       <member refid="group__GeneralGroup_1ga19a1ede2bbe7c71b85f57b9df7756802" kind="function"><name>getVolumeRenderActiveVoxels</name></member>
-      <member refid="group__GeneralGroup_1ga6be8bdda84b5d0d82340ae4a80f99533" kind="function"><name>setVolumeRenderActiveVoxels</name></member>
-      <member refid="group__GeneralGroup_1ga52de422e1d7fb5ec8e0e37ef30f82c69" kind="function"><name>getVoxelIdByCoordinate</name></member>
-      <member refid="group__GeneralGroup_1gae95cb9aac98fc4c476dbe2a0c24936de" kind="function"><name>getVoxelIdByPoint</name></member>
-      <member refid="group__GeneralGroup_1ga1b97cf935f92ffe31c6ca76284f2afd5" kind="function"><name>getCoordinateByVoxelId</name></member>
+      <member refid="group__GeneralGroup_1ga1d6b8c3617f60d9de22f3b3c012ae115" kind="function"><name>setVolumeRenderActiveVoxels</name></member>
+      <member refid="group__GeneralGroup_1ga46643038ac42beb7eb5b2966b804b065" kind="function"><name>getVoxelIdByCoordinate</name></member>
+      <member refid="group__GeneralGroup_1ga7c93c68f6996971c993bc377f524e71c" kind="function"><name>getVoxelIdByPoint</name></member>
+      <member refid="group__GeneralGroup_1ga069108face391be04a188ca6fa7cc126" kind="function"><name>getCoordinateByVoxelId</name></member>
       <member refid="group__GeneralGroup_1ga5d0809111b5537e09fcc341afb335c7f" kind="function"><name>getVolumeIndexer</name></member>
-      <member refid="group__GeneralGroup_1gaa4895821e0732d2e6739a80e58470a10" kind="function"><name>prepareDataForVolumeRendering</name></member>
+      <member refid="group__GeneralGroup_1ga781fb3f4d7c72a098b634ddabcdba977" kind="function"><name>prepareDataForVolumeRendering</name></member>
       <member refid="group__GeneralGroup_1ga1e13873d4779acb7a43e40d9b78cce31" kind="function"><name>isVolumeRenderingEnabled</name></member>
-      <member refid="group__GeneralGroup_1ga7b6992372db5a6af73668c757adb5d2d" kind="function"><name>enableVolumeRendering</name></member>
+      <member refid="group__GeneralGroup_1gac094140a2ce12e98a6fb42525f713855" kind="function"><name>enableVolumeRendering</name></member>
       <member refid="group__GeneralGroup_1ga159f6d43a0f7884b73f1e4305fd5b21e" kind="function"><name>getVolumeRenderingData</name></member>
       <member refid="group__GeneralGroup_1ga2132ce7c3f346b36f4cbf3887618d1b0" kind="function"><name>getVolumeRenderingParams</name></member>
-      <member refid="group__GeneralGroup_1ga5246da2576d34a9bf853f47de4c56192" kind="function"><name>setVolumeRenderingParams</name></member>
-      <member refid="group__GeneralGroup_1gad8df4c2427d39243427462f856e0ea37" kind="function"><name>hasVisualRepresentation</name></member>
-      <member refid="group__GeneralGroup_1gacafaf2f146e0c9e5187d1bf88ec8a3fe" kind="function"><name>setMaxSurfaceVertices</name></member>
+      <member refid="group__GeneralGroup_1ga3b28a55a1e24bff7b05f8b7b2f36a27b" kind="function"><name>setVolumeRenderingParams</name></member>
+      <member refid="group__GeneralGroup_1ga7f0a9978d5b54c121fa7ad7b0456100e" kind="function"><name>hasVisualRepresentation</name></member>
+      <member refid="group__GeneralGroup_1gaa739c274a00bb0a3c5c6106154ad49bc" kind="function"><name>setMaxSurfaceVertices</name></member>
       <member refid="group__GeneralGroup_1ga9e4730fb8ac4fa2f313f3bef340d0216" kind="function"><name>getMaxSurfaceVertices</name></member>
-      <member refid="group__GeneralGroup_1ga224d80aaee530a620181296ca8a114a1" kind="function"><name>clone</name></member>
-      <member refid="group__GeneralGroup_1gafbad2a43279c25456d0ae5f6ad86f37e" kind="function"><name>shallowClone</name></member>
-      <member refid="group__GeneralGroup_1ga3c066a65c73f77c0e3a8438729f6102b" kind="function"><name>setDirtyFlags</name></member>
-      <member refid="group__GeneralGroup_1gad3732570546f8c517f606d58fcedf077" kind="function"><name>activeVoxels</name></member>
+      <member refid="group__GeneralGroup_1gaac550200485fff9f9bb28ae6f3b9822d" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga0dba824e99a6a229135fc5054dcecebc" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1gae2e229df2c5e7c3c1a22c409bcd34d14" kind="function"><name>setDirtyFlags</name></member>
+      <member refid="group__GeneralGroup_1gadedff1739acd543aa2f8914dcc8ca1e4" kind="function"><name>activeVoxels</name></member>
       <member refid="group__GeneralGroup_1gab8414868d177c677e751eae0934bb6d9" kind="function"><name>ObjectVoxels</name></member>
-      <member refid="group__GeneralGroup_1gad43c1a2a2825cbe90ba7cd3c398e210c" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga5286b77a132b626476a159eca8284084" kind="function"><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1ga1c26c30edd465ed8fa5cce096943dd41" kind="function"><name>serializeFormat</name></member>
-      <member refid="group__GeneralGroup_1gaf7fd2489b0d231cb123d39993536de2b" kind="function"><name>setSerializeFormat</name></member>
-      <member refid="group__GeneralGroup_1ga8d8dc2407b56398b61d81060eddd8f33" kind="function"><name>resetFrontColor</name></member>
+      <member refid="group__GeneralGroup_1ga4e05efe43388a379ebea5ee73eda2de2" kind="function"><name>setSerializeFormat</name></member>
+      <member refid="group__GeneralGroup_1gafeeac41257b653790782ef921fc2ef85" kind="function"><name>resetFrontColor</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <member refid="group__GeneralGroup_1ga8ef56bc4de8bf9e65311ce5b7eab9fd9" kind="function"><name>StaticTypeName</name></member>
@@ -109,12 +109,12 @@
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1gaedfd1da83106d31ce40ca06201af7e99" kind="function"><name>ObjectVoxels</name></member>
-      <member refid="group__GeneralGroup_1gaba61550178a3b30b0ebf21cc444e4c41" kind="function"><name>swapBase_</name></member>
-      <member refid="group__GeneralGroup_1gacbc8ed71deeabea4a842af8a85e62b76" kind="function"><name>swapSignals_</name></member>
-      <member refid="group__GeneralGroup_1ga8d05e0dff6ba746d6758554f24bf308b" kind="function"><name>serializeFields_</name></member>
-      <member refid="group__GeneralGroup_1ga2e7884eb663e4b1c43c6207525dee0c4" kind="function"><name>deserializeFields_</name></member>
-      <member refid="group__GeneralGroup_1gaef0612e4bb2f6807b2b810404153d5dd" kind="function"><name>deserializeModel_</name></member>
-      <member refid="group__GeneralGroup_1ga01db317d14e060f58c079fbcaa73e3ce" kind="function"><name>serializeModel_</name></member>
+      <member refid="group__GeneralGroup_1gaee831a6c2f2b17b6a98e6005354a7691" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga2a77b686aa2283cbd191232e44724c4a" kind="function"><name>swapSignals_</name></member>
+      <member refid="group__GeneralGroup_1gaff4439c691e85ab9bef5aa9bc775e3e1" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gae54ab523a24b44f19fe5b98f3180c997" kind="function"><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga65b4a3ca47835fc39606d407e5edffd5" kind="function"><name>deserializeModel_</name></member>
+      <member refid="group__GeneralGroup_1ga4b66326802c2afb34138769dde3c0dcb" kind="function"><name>serializeModel_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -224,7 +224,7 @@
           <edgelabel>showPoints_</edgelabel>
           <edgelabel>showSelectedEdges_</edgelabel>
           <edgelabel>showSelectedFaces_</edgelabel>
-          <edgelabel>...</edgelabel>
+          <edgelabel>  ...</edgelabel>
         </childnode>
         <childnode refid="12" relation="usage">
           <edgelabel>bordersColor_</edgelabel>
@@ -297,7 +297,6 @@
         <childnode refid="9" relation="usage">
           <edgelabel>clipByPlane_</edgelabel>
           <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
           <edgelabel>pickable_</edgelabel>
           <edgelabel>showName_</edgelabel>
         </childnode>
@@ -320,155 +319,154 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="20" bodyend="284"/>
+    <location file="MRVoxels/MRObjectVoxels.h" line="19" column="1" bodyfile="MRVoxels/MRObjectVoxels.h" bodystart="20" bodyend="284"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2a862db8c0bbaab02dd925ce69fe27f5" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeBounds_</name></member>
-      <member refid="group__GeneralGroup_1gad3732570546f8c517f606d58fcedf077" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeVoxels</name></member>
+      <member refid="group__GeneralGroup_1gadedff1739acd543aa2f8914dcc8ca1e4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeVoxels</name></member>
       <member refid="group__GeneralGroup_1ga20803d63891113d2fd85b93690ca60d4" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeVoxels_</name></member>
-      <member refid="group__GeneralGroup_1ga6e46a8f887794d93a56e63b0e920d688" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>actualSerializeFormat</name></member>
-      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>addChild</name></member>
-      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>addChildBefore</name></member>
-      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addTag</name></member>
+      <member refid="group__GeneralGroup_1gaa8ad23b98d545682db124f812216b717" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>actualSerializeFormat</name></member>
+      <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a56371d5594dc04ece2f123377835e11d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addTag</name></member>
       <member refid="group__GeneralGroup_1ga230a519ac5df8f4d1c2d2bf3b20fa0c4" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>addTexture</name></member>
       <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ambientStrength_</name></member>
       <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ancillary_</name></member>
       <member refid="group__GeneralGroup_1gaabe11a7d97527caa17d527044aa97a11" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ancillaryTexture_</name></member>
       <member refid="group__GeneralGroup_1ga41d53a14ee2d2fa5b894d5a5b19586e5" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ancillaryUVCoordinates_</name></member>
-      <member refid="group__GeneralGroup_1gafcc452d7af81256782737daa253d27f8" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>applyScale</name></member>
+      <member refid="group__GeneralGroup_1ga0e70ef55b8ceb030186bbb54665ac999" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>applyScale</name></member>
       <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>asType</name></member>
       <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>asType</name></member>
-      <member refid="group__GeneralGroup_1gaa5f39fc0b3b8e02be1b763de0f3aee8d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>avgEdgeLen</name></member>
+      <member refid="group__GeneralGroup_1ga66a42a27b1f6e8f56408bdb8c5e9ad82" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>avgEdgeLen</name></member>
       <member refid="group__GeneralGroup_1ga7b9b185e83a83d6a3cdf3f18fca7d410" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>avgEdgeLen_</name></member>
       <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>backFacesColor_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>bastards_</name></member>
       <member refid="group__GeneralGroup_1gab7fd1ed5927f5fc5a4c51cfa56bf2012" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>bordersColor_</name></member>
-      <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>boundingBoxToInfoLines_</name></member>
+      <member refid="classMR_1_1VisualObject_1a5166814acd584216ff6f71fa1b642a6a" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>boundingBoxToInfoLines_</name></member>
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>children_</name></member>
       <member refid="group__GeneralGroup_1gaa0402c3a95f58c263dacb32b997a95aa" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>className</name></member>
       <member refid="group__GeneralGroup_1ga07a8d2c3383e05788beb2de69718b514" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>classNameInPlural</name></member>
-      <member refid="group__GeneralGroup_1gab00fb14684a12947e6387838d4f07254" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>clearAncillaryTexture</name></member>
+      <member refid="group__GeneralGroup_1gaf6717313d51b810949341a85039402a2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>clearAncillaryTexture</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>clipByPlane_</name></member>
-      <member refid="group__GeneralGroup_1ga224d80aaee530a620181296ca8a114a1" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>clone</name></member>
-      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>cloneTree</name></member>
+      <member refid="group__GeneralGroup_1gaac550200485fff9f9bb28ae6f3b9822d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>clone</name></member>
+      <member refid="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>coloringType_</name></member>
-      <member refid="group__GeneralGroup_1gaa05cf4d24dd3776eba6722f5ba23423d" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>computeBoundingBox_</name></member>
-      <member refid="group__GeneralGroup_1ga8f0f53e50de7d14d34db9b1f463e508a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
-      <member refid="group__GeneralGroup_1gaff8794b9bd15a75ebc129b43162e181d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
-      <member refid="group__GeneralGroup_1ga4d07a6c88bfa67908a0e441317edcf64" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
-      <member refid="group__GeneralGroup_1ga549a71e31be2ea76b5dbf1753be436f8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
-      <member refid="group__GeneralGroup_1gabbd8c9742b25153a57e2610b0671cb54" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyAllSolidColors</name></member>
-      <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectVoxels</scope><name>copyAllSolidColors</name></member>
-      <member refid="group__GeneralGroup_1ga00f8a0a206c97b35f8704326a799ca88" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>copyColors</name></member>
-      <member refid="group__GeneralGroup_1gad06db08e2f5541bb068d5d48fb05f19e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>copyTextureAndColors</name></member>
+      <member refid="group__GeneralGroup_1ga5e2aac0fdcedeffa2fa63a6e919ad77a" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>computeBoundingBox_</name></member>
+      <member refid="group__GeneralGroup_1gaec0361fef3b3d280ffa21a8ae3d7813c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga817da46c64743f8603e0f31bf4fbe2a4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga3a3c78720a7b46bc376d7765c07eeee8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga4277fbb2607f5f37508ea18cb00f8f7c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga9f6d4c54d2b17cae07a659e48192c9fc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a64b9343aa9d5bb3c96e4a4f25fec077e" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectVoxels</scope><name>copyAllSolidColors</name></member>
+      <member refid="group__GeneralGroup_1ga9de7cd3fdf80c3ce5e6bbf73a7d8b202" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>copyColors</name></member>
+      <member refid="group__GeneralGroup_1gad59eb1857e4bc50d0c79ce476f27bb43" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>copyTextureAndColors</name></member>
       <member refid="group__GeneralGroup_1gab3f35c8b6e713ad9cd367208c6f5a576" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>creases</name></member>
       <member refid="group__GeneralGroup_1gaf852a5542908bb08f0eecec630ba0ef8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>creasesChangedSignal</name></member>
       <member refid="group__GeneralGroup_1gadd1291e117b3b7ccbb8fd36655d6ea1f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>data</name></member>
       <member refid="group__GeneralGroup_1ga4d8f66e084faf7466dcbbc15865dfe6b" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>data_</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>depthTest_</name></member>
-      <member refid="group__GeneralGroup_1ga2e7884eb663e4b1c43c6207525dee0c4" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>deserializeFields_</name></member>
-      <member refid="group__GeneralGroup_1gaef0612e4bb2f6807b2b810404153d5dd" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>deserializeModel_</name></member>
-      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>deserializeRecursive</name></member>
-      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>detachFromParent</name></member>
+      <member refid="group__GeneralGroup_1gae54ab523a24b44f19fe5b98f3180c997" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga65b4a3ca47835fc39606d407e5edffd5" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a5ad7a9244371a01ba7538ff24ce15165" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1acde230852a1c88579a652d00e088d03a" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>detachFromParent</name></member>
       <member refid="group__GeneralGroup_1ga1077ee7fda27e5924dd707c93bffafba" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>dimensions</name></member>
       <member refid="group__GeneralGroup_1ga5e8a9407c8b8a8ad38c6df9235ad57a7" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>dualMarchingCubes_</name></member>
       <member refid="group__GeneralGroup_1gafae46ed97209f2812a1d201e7005e7ba" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>edgesColor_</name></member>
       <member refid="group__GeneralGroup_1ga1292f930863c1ec575b946a71efaa225" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>edgeSelectionChangedSignal</name></member>
       <member refid="group__GeneralGroup_1ga219bb50dadde8e1916311120d3a9a6c4" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>edgeSelectionColor_</name></member>
       <member refid="group__GeneralGroup_1gaa1769e8d7559173dc663c5b67a445a07" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>edgeWidth_</name></member>
-      <member refid="group__GeneralGroup_1ga7b6992372db5a6af73668c757adb5d2d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>enableVolumeRendering</name></member>
+      <member refid="group__GeneralGroup_1gac094140a2ce12e98a6fb42525f713855" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>enableVolumeRendering</name></member>
       <member refid="group__GeneralGroup_1ga48c0b6cc10d1a9e2b625d37d6c982ebd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>faceSelectionChangedSignal</name></member>
       <member refid="group__GeneralGroup_1ga03a8c271c0681ce20d9510255ef66d78" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>faceSelectionColor_</name></member>
-      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a0520ac7d486992d1ab8e2e421b9237f9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>find</name></member>
-      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1a831f4bf76e2d9593f570d292c549999f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>findCommonAncestor</name></member>
       <member refid="group__GeneralGroup_1gaadf8f8358c5a229c964aa46e1e991a52" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>flatShading</name></member>
       <member refid="group__GeneralGroup_1ga24fe3e12e40596c73eb4986aa7e32b75" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>flatShading_</name></member>
-      <member refid="group__GeneralGroup_1gab2dd41586da53c1ff6c7310a1e2edfbc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getActiveBounds</name></member>
-      <member refid="group__GeneralGroup_1ga0a095f30ca36c65f0f11707a7f2c6a3c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1ga21fac797124aacbda1e3226395b7203f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getActiveBounds</name></member>
+      <member refid="group__GeneralGroup_1gac22ecd9403c85722f7624b0a796f0f52" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getAllVisualizeProperties</name></member>
       <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getAmbientStrength</name></member>
       <member refid="group__GeneralGroup_1ga5f368326a7047c6e9f9a0307f856cd44" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getAncillaryTexture</name></member>
       <member refid="group__GeneralGroup_1gaa3e69591117ea11ea4f535d546518fc0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getAncillaryUVCoords</name></member>
-      <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBackColor</name></member>
-      <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1aaadfdf324a8f3034c46482d41883c7ed" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1ac2e2bd1a56e1f645197a55b4cd836447" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1ga2ebe27e0c471f4bb22cc1c0172484d60" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBordersColor</name></member>
-      <member refid="group__GeneralGroup_1ga4614145288bd617226a859bac9cdf102" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBordersColorsForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1ga879851373d119e303a053d46f65a4903" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBordersColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a879917fdd52cd217edf1813bb70f208c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBoundingBox</name></member>
       <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getColoringType</name></member>
-      <member refid="group__GeneralGroup_1ga1b97cf935f92ffe31c6ca76284f2afd5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getCoordinateByVoxelId</name></member>
-      <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getDirtyFlags</name></member>
+      <member refid="group__GeneralGroup_1ga069108face391be04a188ca6fa7cc126" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getCoordinateByVoxelId</name></member>
+      <member refid="classMR_1_1VisualObject_1a914e8fc171467b6f166d49699142cdab" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getDirtyFlags</name></member>
       <member refid="group__GeneralGroup_1ga286fc3a36e00873cc102a1a962b67cf5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getDualMarchingCubes</name></member>
       <member refid="group__GeneralGroup_1ga0e1db2e8c5435c87e74d548d3fa1d8f3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getEdgesColor</name></member>
-      <member refid="group__GeneralGroup_1gacf2d935cea3f429740ba6a64891c3622" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getEdgesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga7ddea20852c4ca2ccc7cc49feeb8ec92" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getEdgesColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1gad65f6d1258779e47bfb25301f328516c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getEdgeWidth</name></member>
       <member refid="group__GeneralGroup_1ga0e3c9e77446d31e2e7e12cf822f5edb6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getFacesColorMap</name></member>
-      <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getFrontColor</name></member>
-      <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getFrontColorsForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getGlobalAlpha</name></member>
-      <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getGlobalAlphaForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1gae0e4a39d7b533adf3f8e3a245164b4b0" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1VisualObject_1a1a7338d02444c3c17636f700e2d3deaa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a0327ee42465cea0b0b7bba53bd891278" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a4ad6675a1fd07271d8e43ebb948c5f66" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a922537446a44518abfb3a0f77c50456e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga426a357a10f27bbc5b62882c7327905d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getInfoLines</name></member>
       <member refid="group__GeneralGroup_1ga2ce02d5c6f811849926b7409f892983f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getIsoValue</name></member>
       <member refid="group__GeneralGroup_1ga9e4730fb8ac4fa2f313f3bef340d0216" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getMaxSurfaceVertices</name></member>
-      <member refid="group__GeneralGroup_1ga611eccd4a51c43217840486907ce7ac5" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getModelHash</name></member>
+      <member refid="group__GeneralGroup_1ga50911deee9ba664ce8939acb05d66332" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getModelHash</name></member>
       <member refid="group__GeneralGroup_1gac9c4f457b06a88041861aa3e40ea3fc3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointsColor</name></member>
-      <member refid="group__GeneralGroup_1gaf16e8b7b9ac4e98832cb35652884ecaa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointsColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga6d9cb5e4e391bb6e0f300a7158f42fa1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointsColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1gab26b6b5cf92baf23c6b2e8170a87b89d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getPointSize</name></member>
-      <member refid="group__GeneralGroup_1gaa095821c8be332dee208deb420d5c7f8" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga12db668572358bc3aa3cde449fa6a894" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getRedrawFlag</name></member>
       <member refid="group__GeneralGroup_1ga79856827ecd3b0b2406f09572b88c904" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedEdges</name></member>
-      <member refid="group__GeneralGroup_1gaa49e3d041e928be2a4dce19111b076d3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedEdgesColor</name></member>
-      <member refid="group__GeneralGroup_1ga549bd63e28ae072a175f4c2c4730a650" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga42ff986f94a4bb2bfb7b8883b775ec46" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedEdgesColor</name></member>
+      <member refid="group__GeneralGroup_1ga5b126dd9b7a986f4b8bab1292b53d22d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedEdgesColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1ga697b65bd9396e5efa3f7a8645c661485" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedFaces</name></member>
-      <member refid="group__GeneralGroup_1ga02fa90265375040e74918e796c8998fa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedFacesColor</name></member>
-      <member refid="group__GeneralGroup_1gadc4040df962d3e34cc03a1091a411198" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedFacesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1gac3f3d3b3f32e309fe068bd004f4f2fca" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedFacesColor</name></member>
+      <member refid="group__GeneralGroup_1ga8ce1e2f3c114e24b4969de944fa04149" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedFacesColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1ga2474b64ee36bdd0c3cbb7c2688559071" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedVoxels</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a05ec077c2240d9e3d7a9889ec4ad308d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSpecularStrength</name></member>
-      <member refid="group__GeneralGroup_1ga7786ada7f2144c0075ef92fe2c1e07f3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getTexture</name></member>
+      <member refid="group__GeneralGroup_1ga5770fa5fe21ed44ab696c0251d41ca3f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getTexture</name></member>
       <member refid="group__GeneralGroup_1ga5e8fda60a93aea300380380a7f156e9e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getTexturePerFace</name></member>
       <member refid="group__GeneralGroup_1ga2d3c121c2b9e8728bd52a1e0ff43537e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getTextures</name></member>
       <member refid="group__GeneralGroup_1ga13de75b67197d64f39f0a3a1600d47d0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getUVCoords</name></member>
       <member refid="group__GeneralGroup_1gacc73743db2e1a6e34b313feefd404cdd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVertsColorMap</name></member>
-      <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVisualizeProperty</name></member>
-      <member refid="group__GeneralGroup_1gacee748e7294050525fc705701ce36f2a" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getVisualizePropertyMask</name></member>
-      <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVisualizePropertyMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a8a2a869017f81470b3f79df6d3cf6ba3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1ga937224b013185de8a75766c3f63423ba" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a40041b6ff06cecae8e29609f272c1dc7" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVisualizePropertyMask_</name></member>
       <member refid="group__GeneralGroup_1ga5d0809111b5537e09fcc341afb335c7f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVolumeIndexer</name></member>
       <member refid="group__GeneralGroup_1ga19a1ede2bbe7c71b85f57b9df7756802" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVolumeRenderActiveVoxels</name></member>
       <member refid="group__GeneralGroup_1ga159f6d43a0f7884b73f1e4305fd5b21e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVolumeRenderingData</name></member>
       <member refid="group__GeneralGroup_1ga2132ce7c3f346b36f4cbf3887618d1b0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVolumeRenderingParams</name></member>
-      <member refid="group__GeneralGroup_1ga52de422e1d7fb5ec8e0e37ef30f82c69" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVoxelIdByCoordinate</name></member>
-      <member refid="group__GeneralGroup_1gae95cb9aac98fc4c476dbe2a0c24936de" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVoxelIdByPoint</name></member>
-      <member refid="group__GeneralGroup_1ga2f0c431e946a273dfa9a2bb927206291" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getWorldBox</name></member>
-      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getWorldTreeBox</name></member>
+      <member refid="group__GeneralGroup_1ga46643038ac42beb7eb5b2966b804b065" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVoxelIdByCoordinate</name></member>
+      <member refid="group__GeneralGroup_1ga7c93c68f6996971c993bc377f524e71c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVoxelIdByPoint</name></member>
+      <member refid="group__GeneralGroup_1ga4a23f1d3dcde64228575d9b50ba65725" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Object_1ad214d65abcf7233510a268c7d615beda" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalAlpha_</name></member>
       <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalClippedByPlane</name></member>
-      <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a60eba5ae5638c7f26c6fb7995b234222" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalClippedByPlaneMask</name></member>
       <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalVisibility</name></member>
-      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a33afd7cea9523c3669d9d549f1ab53b4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalVisibilityMask</name></member>
       <member refid="group__GeneralGroup_1ga47bee6e3a0ea9a036e59d7857f8f43b4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>grid</name></member>
       <member refid="group__GeneralGroup_1ga6b32af4a4df60d871381468457e8797c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>hasAncillaryTexture</name></member>
       <member refid="group__GeneralGroup_1gaff1133d23968e690753672eb833bc4e7" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>hasModel</name></member>
-      <member refid="group__GeneralGroup_1gad8df4c2427d39243427462f856e0ea37" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>hasVisualRepresentation</name></member>
-      <member refid="group__GeneralGroup_1gad43c1a2a2825cbe90ba7cd3c398e210c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga7f0a9978d5b54c121fa7ad7b0456100e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>hasVisualRepresentation</name></member>
+      <member refid="group__GeneralGroup_1ga5286b77a132b626476a159eca8284084" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1gaf4e1350561bc2e71d56741b954562868" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>histogram</name></member>
       <member refid="group__GeneralGroup_1gaade0f3c85b65f3d2a32f82999bac20a6" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>histogram_</name></member>
       <member refid="group__GeneralGroup_1gacf5e6edf0ad0b6842194f491ab9eb018" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>indexer_</name></member>
-      <member refid="group__GeneralGroup_1ga2b89808d3b55996770009742a602af5b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
-      <member refid="group__GeneralGroup_1gac864caaffa64ff08d668eddfafdb8cd9" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache</name></member>
-      <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache_</name></member>
-      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invertNormals_</name></member>
-      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isAncestor</name></member>
+      <member refid="group__GeneralGroup_1ga46c318d30136991af524514bcf7601b2" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
+      <member refid="group__GeneralGroup_1ga4195be2ed0948828c7593a815c4ec474" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classMR_1_1VisualObject_1a0afddb47790734d5e623060cab2fa9e4" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache_</name></member>
+      <member refid="classMR_1_1Object_1a253fd3912bdef96fa071f29d781225a9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isAncillary</name></member>
-      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1a67ca42a9190dd34feda17f5c75fa676c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isGlobalAncillary</name></member>
       <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isLocked</name></member>
-      <member refid="group__GeneralGroup_1gadc32b4c9b303a885eadfbde1f3b7eeb0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isMeshClosed</name></member>
+      <member refid="group__GeneralGroup_1gaa1fdd0e5996148b4803fcd6dd21329a6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isMeshClosed</name></member>
       <member refid="group__GeneralGroup_1ga3ace9713c9d0e39585ccb708a7cadf94" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>IsoSurfaceChangedSignal</name></member>
       <member refid="group__GeneralGroup_1ga3933529459eee6bf988f3b9814a52818" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isoSurfaceChangedSignal</name></member>
       <member refid="group__GeneralGroup_1gac257dbc7894eba4c8b84527119932c26" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isoValue_</name></member>
@@ -487,19 +485,19 @@
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>needRedraw_</name></member>
-      <member refid="group__GeneralGroup_1gae973674ab47a1d078458067b5ee20e94" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numComponents</name></member>
+      <member refid="group__GeneralGroup_1ga9978ffcbffb3b232e5e0f4ac8a3d56ef" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numComponents</name></member>
       <member refid="group__GeneralGroup_1ga996fcb729de614183881e67181ee8ed9" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numComponents_</name></member>
-      <member refid="group__GeneralGroup_1ga65d1cacc3a9399d6727312a92af6dd6d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numCreaseEdges</name></member>
+      <member refid="group__GeneralGroup_1ga76939cb6ffbd4c31e2e919546c3c3f43" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numCreaseEdges</name></member>
       <member refid="group__GeneralGroup_1gaf410ff87afee85c7978cca07f1616415" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numCreaseEdges_</name></member>
-      <member refid="group__GeneralGroup_1gadf70ea63a061b567f190fecc6d87bde8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHandles</name></member>
+      <member refid="group__GeneralGroup_1gabf61c09f3b0261be1832dc6fbe9c1485" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHandles</name></member>
       <member refid="group__GeneralGroup_1ga638c9fd07d62fc31be6c0b36171ebb71" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHandles_</name></member>
-      <member refid="group__GeneralGroup_1gaa7f6eec79b9b3546a484aee6efacabd6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHoles</name></member>
+      <member refid="group__GeneralGroup_1ga627e707c19c7c6fe4eae252971baf295" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHoles</name></member>
       <member refid="group__GeneralGroup_1ga1f8f8cc0499cdafeb2d13bf4cc596002" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHoles_</name></member>
-      <member refid="group__GeneralGroup_1gac079f513ed46863aa2e8e1b1ad09ef8d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedEdges</name></member>
+      <member refid="group__GeneralGroup_1gab1db56c00c887c67b3b7f45775dbd26a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedEdges</name></member>
       <member refid="group__GeneralGroup_1ga54b15a24e639bc505ad9080bd8128b4c" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedEdges_</name></member>
-      <member refid="group__GeneralGroup_1gac66f8710ce4b8991eb62b48ee5c94585" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedFaces</name></member>
+      <member refid="group__GeneralGroup_1ga617abbf29ae992a4fce93230e90d4da5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedFaces</name></member>
       <member refid="group__GeneralGroup_1ga102e4183b2d8571edf565f4dd6e61a94" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedFaces_</name></member>
-      <member refid="group__GeneralGroup_1ga022adb5d0ee40a016579d8c18405fc1c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numUndirectedEdges</name></member>
+      <member refid="group__GeneralGroup_1ga02502a93cc14a00d295f57685e53f49d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numUndirectedEdges</name></member>
       <member refid="group__GeneralGroup_1ga6bceb32f08fb95f31d399daf788c3bf1" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numUndirectedEdges_</name></member>
       <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>Object</name></member>
@@ -507,23 +505,23 @@
       <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>Object</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="group__GeneralGroup_1gafdeea9bea6ac29b86dd0104749f644fc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectMeshHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1ac39b8635e5ec3a3e5d0c900806a6766e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="group__GeneralGroup_1ga37d2a428bd3835007572b583f596f4b5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectMeshHolder</name></member>
       <member refid="group__GeneralGroup_1ga4b6ecb13b750192ac9a2d97d8dce077f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectMeshHolder</name></member>
       <member refid="group__GeneralGroup_1ga2e5a1d2eb57673d1f8ca824ea753f470" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectMeshHolder</name></member>
       <member refid="group__GeneralGroup_1ga88f45ea2e9b2aa653872e5c794327f4c" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectMeshHolder</name></member>
-      <member refid="group__GeneralGroup_1ga78c40f61f0dd24dcb84cfbbe901ddfd5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
+      <member refid="group__GeneralGroup_1gadedf1f1574fe5ce4838b7a443b3e3902" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="group__GeneralGroup_1ga86927a7f3ce177f9394efc66a87d95bc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="group__GeneralGroup_1gab8414868d177c677e751eae0934bb6d9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="group__GeneralGroup_1gaedfd1da83106d31ce40ca06201af7e99" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="group__GeneralGroup_1ga40080eaaf8af23095fec3cc9cd024aba" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>onlyOddFragments_</name></member>
-      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>onWorldXfChanged_</name></member>
+      <member refid="classMR_1_1Object_1aac36fc983d44d6c7aca1abc5d12dd457" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>onWorldXfChanged_</name></member>
       <member refid="group__GeneralGroup_1ga2f2260ca64565ffbedc9236f28e19b98" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga9b6725a731d27509c295fc3a0acd2bfd" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectMeshHolder::"><scope>MR::ObjectVoxels</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectVoxels</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectVoxels</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectVoxels</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectVoxels</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1af9423022c44615eb44c4c83247239a89" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectVoxels</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>parent</name></member>
       <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>parent</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>parent_</name></member>
@@ -533,111 +531,111 @@
       <member refid="group__GeneralGroup_1gab187aa4debc4ac6ed823e8b65e20df33" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>pointSize_</name></member>
       <member refid="group__GeneralGroup_1gabfb0b5e6707ccd91eba2f65995c7d4fb" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>polygonOffset_</name></member>
       <member refid="group__GeneralGroup_1ga1718038412b660b33a44a751a1d0e3e5" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>positioner_</name></member>
-      <member refid="group__GeneralGroup_1gaa4895821e0732d2e6739a80e58470a10" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>prepareDataForVolumeRendering</name></member>
-      <member refid="group__GeneralGroup_1gaf7b8b9838d50a4946c46bf66319c4ecb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateHistogram</name></member>
-      <member refid="group__GeneralGroup_1ga0be5abb458a3b28d1c15a5709be051c3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
-      <member refid="group__GeneralGroup_1ga46adc4914b8a2574e7b26f15962e31f6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
-      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>removeAllChildren</name></member>
+      <member refid="group__GeneralGroup_1ga781fb3f4d7c72a098b634ddabcdba977" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>prepareDataForVolumeRendering</name></member>
+      <member refid="group__GeneralGroup_1ga430f52a59c529e87799574fb2adffea1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateHistogram</name></member>
+      <member refid="group__GeneralGroup_1ga2c2d54768b1e58be6b96e23637a42f65" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
+      <member refid="group__GeneralGroup_1gaebe3552cb0839a3091d64b386442ea7f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
+      <member refid="classMR_1_1Object_1a7a29a352087add682135f1b2e1c8030e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>removeChild</name></member>
-      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>removeChild</name></member>
-      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>removeTag</name></member>
-      <member refid="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>render</name></member>
-      <member refid="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Object_1a47b1fa919826f583d492e9c5c12b448f" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aaf5c6ed94ae5c2460bd980f52836d6c4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a63e449ef55a202b2a236381ea648c197" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>render</name></member>
+      <member refid="classMR_1_1VisualObject_1aac0a5515da7ce6683875d89c3be53962" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>renderForPicker</name></member>
       <member refid="classMR_1_1VisualObject_1ab054b578e5da7a7822d693ec0f61b1e7" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>renderObj_</name></member>
-      <member refid="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>renderUi</name></member>
-      <member refid="group__GeneralGroup_1gab51ab843d80b3a3634dc2eabf965d9bc" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>resetColors</name></member>
-      <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetDirty</name></member>
-      <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>resetDirtyExceptMask</name></member>
-      <member refid="group__GeneralGroup_1ga8d8dc2407b56398b61d81060eddd8f33" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a59c2d4684d78ce2b766917491d4423c6" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga2c8d4041089359d161add79204ad2fbc" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a082b75c147ea8895dfebb00954bbe55b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1VisualObject_1ab36aa732541316cc626236ab5d3c2e1f" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="group__GeneralGroup_1gafeeac41257b653790782ef921fc2ef85" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>resetFrontColor</name></member>
       <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetRedrawFlag</name></member>
-      <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Object_1a28ae4cd299540ffaf382524cb03062c8" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>resetXf</name></member>
       <member refid="group__GeneralGroup_1gaf469437543789ff03f203fb7eeec6719" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>reverseVoxelSize_</name></member>
-      <member refid="group__GeneralGroup_1gace01531be18fadb25ae2920e3bd7d50d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>sameModels</name></member>
-      <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>select</name></member>
+      <member refid="group__GeneralGroup_1ga4bd8f5cef86101c686388e9c14035670" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Object_1a6a0d3c1523518070b289fea6871fb3b2" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>select</name></member>
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selected_</name></member>
-      <member refid="group__GeneralGroup_1gaf910e09552ec4e84e66100250572622f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectedArea</name></member>
+      <member refid="group__GeneralGroup_1ga59a4df7e3b1bbcab57bf1f3e2d09ea48" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectedArea</name></member>
       <member refid="group__GeneralGroup_1gacb6fda2cf6c7571a2377f2589cf588e4" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectedArea_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectedColor_</name></member>
-      <member refid="group__GeneralGroup_1ga6d9dce6f8274d0a26509ac4ec953985f" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>selectEdges</name></member>
+      <member refid="group__GeneralGroup_1ga5ca15ead6c47599803fd5988fefc7f17" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>selectEdges</name></member>
       <member refid="group__GeneralGroup_1gac93a94170b78edb3958c03c152eddf69" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectedVoxels_</name></member>
-      <member refid="group__GeneralGroup_1ga9dd8c2355f747dedea3a0f888c09e6da" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>selectFaces</name></member>
+      <member refid="group__GeneralGroup_1gac8b7c9b6157b208fcd93c13a0ee52af4" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>selectFaces</name></member>
       <member refid="group__GeneralGroup_1ga805c1ad3440c499cc84cd984e5284780" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>SelectionChangedSignal</name></member>
       <member refid="group__GeneralGroup_1ga4333c77a23030251df09a35b3432fdd6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectVoxels</name></member>
-      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="group__GeneralGroup_1ga8d05e0dff6ba746d6758554f24bf308b" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>serializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a51befbcd75bb0e8dabe65ab428c0ca61" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="group__GeneralGroup_1gaff4439c691e85ab9bef5aa9bc775e3e1" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>serializeFields_</name></member>
       <member refid="group__GeneralGroup_1ga1c26c30edd465ed8fa5cce096943dd41" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>serializeFormat</name></member>
       <member refid="group__GeneralGroup_1ga1881a76d2dfb69ac810a9bbe76d84eb6" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>serializeFormat_</name></member>
-      <member refid="group__GeneralGroup_1ga01db317d14e060f58c079fbcaa73e3ce" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>serializeModel_</name></member>
-      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>serializeRecursive</name></member>
-      <member refid="group__GeneralGroup_1gaa7689d9348c5d2068caa119fcc147c62" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setActiveBounds</name></member>
+      <member refid="group__GeneralGroup_1ga4b66326802c2afb34138769dde3c0dcb" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a816a99fe61e3ee86b2dddb57fc65aef9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>serializeRecursive</name></member>
+      <member refid="group__GeneralGroup_1gaf143f9c6dc763aac39a1a410685fdccd" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setActiveBounds</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAllVisualizeProperties</name></member>
-      <member refid="group__GeneralGroup_1ga436b709dbbda06b658597f05236e0038" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga9ffe0e484a89b59b8a16a7a306abd146" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setAllVisualizeProperties_</name></member>
       <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setAmbientStrength</name></member>
-      <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1Object_1aff1c500650f7ae09501f12d0830ebe69" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setAncillary</name></member>
       <member refid="group__GeneralGroup_1gaf874792709a30f721e8547c417eb4a02" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setAncillaryTexture</name></member>
       <member refid="group__GeneralGroup_1gaa401434ef1423f095077a16d6f720a35" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setAncillaryUVCoords</name></member>
-      <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setBackColor</name></member>
-      <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a1e3ac26b9298450f4ceca9647eba0ebe" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a0804555b5e6ebc6457db73f7ece2f2f0" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setBackColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1gab613dad6e4c41c979981b68208847e66" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setBordersColor</name></member>
-      <member refid="group__GeneralGroup_1gaa3ef8213f304b20aed1b9b217a7d6115" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setBordersColorsForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setColoringType</name></member>
-      <member refid="group__GeneralGroup_1ga36ddfec6affd166dfff04497d5f5c414" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setCreases</name></member>
+      <member refid="group__GeneralGroup_1gae2ff1266fe7607111b028387011440aa" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setBordersColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a02b8062708aff001c1a3b54b9701358c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setColoringType</name></member>
+      <member refid="group__GeneralGroup_1ga7acd2fd89b48cc0b4de9fa833b2295f3" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setCreases</name></member>
       <member refid="group__GeneralGroup_1gad4ddf1dcf1a9a25c4b8c8906ca2a91ab" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setData</name></member>
       <member refid="group__GeneralGroup_1ga1cd34a0818b932b3f89c6f50ba941202" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDefaultColors_</name></member>
       <member refid="group__GeneralGroup_1ga4077a96067e9b325bfe06d5b6c961dd4" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDefaultSceneProperties_</name></member>
-      <member refid="group__GeneralGroup_1ga3c066a65c73f77c0e3a8438729f6102b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlags</name></member>
-      <member refid="group__GeneralGroup_1ga35ed64e6f4307c9d14a5989ffee7accb" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlagsFast</name></member>
-      <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlagsFast_</name></member>
-      <member refid="group__GeneralGroup_1ga0a5cca18a913b0ac50da4541a044cd2b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDualMarchingCubes</name></member>
+      <member refid="group__GeneralGroup_1gae2e229df2c5e7c3c1a22c409bcd34d14" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlags</name></member>
+      <member refid="group__GeneralGroup_1gace1996eee59e03e17316a7dbfc40314f" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlagsFast</name></member>
+      <member refid="classMR_1_1VisualObject_1ada03a725b4d776e6f5cf4ffef8d69ab8" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlagsFast_</name></member>
+      <member refid="group__GeneralGroup_1gad6eac90e7648857dfd4b26b0c4b160e5" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDualMarchingCubes</name></member>
       <member refid="group__GeneralGroup_1ga3e32ed3d337d28b3cb298e23cc6b468b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColor</name></member>
-      <member refid="group__GeneralGroup_1gab9199ebc6d8e732a5ae7bf131c07dbf4" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga1b2543b075a6ec3f0e3a90037e445aeb" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setEdgeWidth</name></member>
+      <member refid="group__GeneralGroup_1ga9e52cf38c35dbb484860feda2f372340" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga729f265cc4c80fd5b450358a97d70b3c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setEdgeWidth</name></member>
       <member refid="group__GeneralGroup_1gad2c095e852b96639b8c16e180e0078a2" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setFacesColorMap</name></member>
       <member refid="group__GeneralGroup_1ga70efb013b248cdab3b4c5d509cd74d8a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setFlatShading</name></member>
-      <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setFrontColor</name></member>
-      <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setFrontColorsForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalAlpha</name></member>
-      <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalAlphaForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalClippedByPlane</name></member>
-      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalVisibility</name></member>
-      <member refid="group__GeneralGroup_1ga9d44fbce630c101df9460eb14221d020" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setIsoValue</name></member>
+      <member refid="classMR_1_1VisualObject_1a3c722ed93ed3e9d102e112407e954dfb" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a6b7f9fbf5c1ff6ad337c466292694f50" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a91fc5d3b3532c88837d1186e65726910" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a4b0fbd86e1de750cfd532b814e9650b2" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1ad02af726a65c651f1bef221ac46e7966" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1Object_1a2d67075395231ca81600bcf6241a6e24" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalVisibility</name></member>
+      <member refid="group__GeneralGroup_1ga2231e29551cd4d2532fc1a1ecd391b51" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setIsoValue</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setLocked</name></member>
-      <member refid="group__GeneralGroup_1gacafaf2f146e0c9e5187d1bf88ec8a3fe" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setMaxSurfaceVertices</name></member>
+      <member refid="group__GeneralGroup_1gaa739c274a00bb0a3c5c6106154ad49bc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setMaxSurfaceVertices</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setParentLocked</name></member>
-      <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1VisualObject_1aa3e7f7bc3338336fb7978ac720bd690c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setPickable</name></member>
       <member refid="group__GeneralGroup_1ga7edf3cbac749281058bb3d423e7fe0ae" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setPointsColor</name></member>
-      <member refid="group__GeneralGroup_1ga20e51cfe7a3a41521d9c12c7ff8aa325" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setPointsColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga475c4ee495af9d86679bf1e248f6a93d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setPointSize</name></member>
-      <member refid="group__GeneralGroup_1ga9b00584a66e9aad565f7377bd1a9953b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedEdgesColor</name></member>
-      <member refid="group__GeneralGroup_1ga55c3ee7c0c2c75b83ed6d518d42205c4" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedEdgesColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1gae634350a83cd46f84c090de62f38861d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedFacesColor</name></member>
-      <member refid="group__GeneralGroup_1ga4c79d2993d13237b8a374fe0fd5cbced" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedFacesColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1gaf7fd2489b0d231cb123d39993536de2b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setSerializeFormat</name></member>
-      <member refid="group__GeneralGroup_1gac0a70c6a02e639b70d3467fe92680e66" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSharedModel_</name></member>
+      <member refid="group__GeneralGroup_1gac5f75c14218ba8e001a776a5a77a6c48" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setPointsColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga1112ff891c579ae8b418e78320dc1deb" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setPointSize</name></member>
+      <member refid="group__GeneralGroup_1gaf15299f81c09967c3e8d56e76a32452c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedEdgesColor</name></member>
+      <member refid="group__GeneralGroup_1ga8e1bbb67dcf6e4fdfbaad9d3758f6ab5" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga074e102035e0fdfa8f7baf5c1a5ecb28" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedFacesColor</name></member>
+      <member refid="group__GeneralGroup_1gab1c09edad8fef9c1754a421fb3f663c5" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedFacesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga4e05efe43388a379ebea5ee73eda2de2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setSerializeFormat</name></member>
+      <member refid="group__GeneralGroup_1ga7f4b16c5a6294a18671f4bf538980d96" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setSpecularStrength</name></member>
-      <member refid="group__GeneralGroup_1ga13a3bbb9c2a89014d739d771d67c1432" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setTexture</name></member>
+      <member refid="group__GeneralGroup_1ga031526908b8c24a19998010795548bf1" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setTexture</name></member>
       <member refid="group__GeneralGroup_1ga1468395d79ceedfab7575a425cc97f7d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setTexturePerFace</name></member>
       <member refid="group__GeneralGroup_1ga9e857e430e96a10412942e874d13da0a" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setTextures</name></member>
-      <member refid="group__GeneralGroup_1ga0e1f5fb75ff002cd9cf560859663047e" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setupRenderObject_</name></member>
-      <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="group__GeneralGroup_1ga4dda7c8f974fc1d88b553ad6e192d1fb" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setupRenderObject_</name></member>
+      <member refid="classMR_1_1VisualObject_1a6452b6118f39a4d050c573f6ec1668ba" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="group__GeneralGroup_1gab5f8d8f157a25084f946c4378faa0c62" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setUVCoords</name></member>
       <member refid="group__GeneralGroup_1ga3f8e456d81aff83b30c9717c73e7aeba" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setVertsColorMap</name></member>
-      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setVisibilityMask</name></member>
-      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisible</name></member>
-      <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisualizeProperty</name></member>
-      <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setVisualizePropertyMask</name></member>
-      <member refid="group__GeneralGroup_1ga6be8bdda84b5d0d82340ae4a80f99533" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVolumeRenderActiveVoxels</name></member>
-      <member refid="group__GeneralGroup_1ga5246da2576d34a9bf853f47de4c56192" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVolumeRenderingParams</name></member>
+      <member refid="classMR_1_1Object_1abd94110891bc5e4715ab564a4912a01a" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a7c38cdec34f5eb072645d48c9c348046" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1VisualObject_1a9b8b6765c96451bc5ff4518f62dd3213" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1a696363ee390aa359dc5738c2cdf603ca" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1ga1d6b8c3617f60d9de22f3b3c012ae115" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVolumeRenderActiveVoxels</name></member>
+      <member refid="group__GeneralGroup_1ga3b28a55a1e24bff7b05f8b7b2f36a27b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVolumeRenderingParams</name></member>
       <member refid="group__GeneralGroup_1gae1bf2bbd9c8eaf107a9d67293a6f772e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setVoxelPointPositioner</name></member>
-      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setWorldXf</name></member>
-      <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setXf</name></member>
+      <member refid="classMR_1_1Object_1a61f69554fe584800b9f60fac7e7f2200" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1Object_1a13e613fb84a7c11c723e88c920ddbfda" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setXfsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1gaf0c66d3dd88973f029e2b39f28453178" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>shadingEnabled_</name></member>
-      <member refid="group__GeneralGroup_1gafbad2a43279c25456d0ae5f6ad86f37e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>shallowClone</name></member>
-      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>shallowCloneTree</name></member>
+      <member refid="group__GeneralGroup_1ga0dba824e99a6a229135fc5054dcecebc" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1a406d860dc855babd99ec6eb2eccd06d8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>shininess_</name></member>
       <member refid="group__GeneralGroup_1ga7fcd56a6b217b20156b3dbaf4af67cfd" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>showBordersHighlight_</name></member>
       <member refid="group__GeneralGroup_1ga2d4ce0acba3551b05cd666448ac281ea" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>showEdges_</name></member>
@@ -649,49 +647,49 @@
       <member refid="group__GeneralGroup_1gad879a1f93bfd6cabaa301a5c100bba0c" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>showSelectedEdges_</name></member>
       <member refid="group__GeneralGroup_1gab0bf0b80cfcbea1dbaa1b6756875f04d" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>showSelectedFaces_</name></member>
       <member refid="group__GeneralGroup_1gaf72fa2fcab15bd3bf7603fdd80cbba88" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>showTexture_</name></member>
-      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Object_1a4cf0bc879b98d57f31a9787e357dce2a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>specularStrength_</name></member>
       <member refid="group__GeneralGroup_1ga86ec3be299cb148bccb050e3a002a972" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>StaticClassName</name></member>
       <member refid="group__GeneralGroup_1ga2c8bd1649911f9a3240c2b629c24dd90" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>StaticClassNameInPlural</name></member>
       <member refid="group__GeneralGroup_1ga8ef56bc4de8bf9e65311ce5b7eab9fd9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>StaticTypeName</name></member>
-      <member refid="group__GeneralGroup_1gaed6ee2653cd047b6aa6715f675e0e440" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1ga177a34c96d7edbf6e850dc2191f76400" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>supportsVisualizeProperty</name></member>
       <member refid="group__GeneralGroup_1ga31a6e0940a4632729bd5bab336d3b99f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>surface</name></member>
-      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>swap</name></member>
-      <member refid="group__GeneralGroup_1gaba61550178a3b30b0ebf21cc444e4c41" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>swapBase_</name></member>
-      <member refid="group__GeneralGroup_1gacbc8ed71deeabea4a842af8a85e62b76" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1Object_1af6d1058c77b340a20c6cfaf8ccbf48fd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>swap</name></member>
+      <member refid="group__GeneralGroup_1gaee831a6c2f2b17b6a98e6005354a7691" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga2a77b686aa2283cbd191232e44724c4a" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>tags_</name></member>
       <member refid="group__GeneralGroup_1ga00b7332057379b5380b52ad91a88ed4e" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>textures_</name></member>
-      <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>toggleVisualizeProperty</name></member>
-      <member refid="group__GeneralGroup_1ga2f428924fc3ccde64c380a28dc17c5f3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>totalArea</name></member>
+      <member refid="classMR_1_1VisualObject_1a86ce6403029b66a411da5fda4efde0a3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1gadfe0d12433a55b68bb9573fa3404faba" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>totalArea</name></member>
       <member refid="group__GeneralGroup_1gabfac8fd9808955939be1f0186cbdb896" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>totalArea_</name></member>
       <member refid="group__GeneralGroup_1gad263dcb8982dbf8095729fa3a3d2032e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>unselectedColor_</name></member>
       <member refid="group__GeneralGroup_1ga663d9471a16c9490dadae17913e17742" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateAncillaryUVCoords</name></member>
       <member refid="group__GeneralGroup_1gab7e47b82a6501403576f8f97bf8b117a" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateData</name></member>
       <member refid="group__GeneralGroup_1gaf9474b43d51c62988e5b27581aff6adc" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateFacesColorMap</name></member>
-      <member refid="group__GeneralGroup_1ga3572c9f87867a96883b1894481cbd313" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogram</name></member>
+      <member refid="group__GeneralGroup_1ga935f4ba4160b0b4c6cc1599da7a822ac" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogram</name></member>
       <member refid="group__GeneralGroup_1ga2e46e5fe99373426ccd0901f480720cc" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogram_</name></member>
-      <member refid="group__GeneralGroup_1ga73375f3d9e19e2d0efbe514ff064d0d8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogramAndSurface</name></member>
-      <member refid="group__GeneralGroup_1ga199fc0f49264a02925125c12597017e5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateIsoSurface</name></member>
-      <member refid="group__GeneralGroup_1ga5ae7f8e47569bd51dbe646f1227d4104" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateTexture</name></member>
+      <member refid="group__GeneralGroup_1gaa29bdba1ba0647a7e4aa6225996ea9ed" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogramAndSurface</name></member>
+      <member refid="group__GeneralGroup_1ga30dbd10af43f975fe9365af6e563413d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateIsoSurface</name></member>
+      <member refid="group__GeneralGroup_1gad80eb8318a20bb1dcfec3fcaf59f8687" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateTexture</name></member>
       <member refid="group__GeneralGroup_1ga01587efe8374921bfb24c7f40d3e48ea" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateTexturePerFace</name></member>
       <member refid="group__GeneralGroup_1ga0834f40134c75b693c4475dc2ccbd4a0" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateTextures</name></member>
       <member refid="group__GeneralGroup_1ga47088bf32314b542fdbe1975b00d6759" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateUVCoords</name></member>
-      <member refid="group__GeneralGroup_1ga90c1f592f11b44bf17a0306d54872421" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateVdbVolume</name></member>
+      <member refid="group__GeneralGroup_1ga519ee7f003741d4e52b2eedb5a4f5415" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateVdbVolume</name></member>
       <member refid="group__GeneralGroup_1ga4117a6dc7b78840dbc64df893726468c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateVertsColorMap</name></member>
-      <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1VisualObject_1ac2b8bafaf72ee52d9a2312d0a51666b2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
       <member refid="group__GeneralGroup_1ga10fd8457c5eafb626b75de39437e545a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>varVdbVolume</name></member>
       <member refid="group__GeneralGroup_1ga40a8a10a59c84f407f0b8cbdec7bedb1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>vdbVolume</name></member>
       <member refid="group__GeneralGroup_1gac5328eef76782cbced806363a3597ca0" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>vdbVolume_</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>visibilityMask_</name></member>
-      <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1afba4e36ba430b26b2a358fe7669c568b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>VisualObject</name></member>
-      <member refid="group__GeneralGroup_1ga8d7824bc0f0e8a4bf4a0ae4274d5c4e0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>volume</name></member>
+      <member refid="group__GeneralGroup_1gae5adb8502374b31a67dbafdd4ec3d480" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>volume</name></member>
       <member refid="group__GeneralGroup_1ga58dd82a33da66d9d3ec4496e55d90a20" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>volume_</name></member>
       <member refid="group__GeneralGroup_1ga47d5f0c15484962e0f95372d8f8916ae" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>volumeRenderActiveVoxels_</name></member>
       <member refid="group__GeneralGroup_1gadd6ed6dadad3ee60701ec86b112535c2" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>volumeRendering_</name></member>
@@ -701,14 +699,14 @@
       <member refid="group__GeneralGroup_1gaf9f3bf968d1e9084c912f67cf8fcdaec" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>voxelsChangedSignal</name></member>
       <member refid="group__GeneralGroup_1ga15d13587d3a07d097c841db2c9face4d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>voxelSize</name></member>
       <member refid="group__GeneralGroup_1ga33c3cd830b02b4b20f5c72a8bf2f7a47" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>worldBox_</name></member>
-      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a2b84ff3669616f30ffec70c763993f12" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>worldXf</name></member>
       <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>worldXfChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>xf</name></member>
       <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>xf_</name></member>
       <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>XfChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>xfsForAllViewports</name></member>
       <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>~Object</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>~ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1afc70bfdd1da7c7b37030df9392d86ab5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>~ObjectChildrenHolder</name></member>
       <member refid="group__GeneralGroup_1ga205cdfb1f95b74b571b884147dc2581f" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>~ObjectVoxels</name></member>
       <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>~VisualObject</name></member>
     </listofallmembers>

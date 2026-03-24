@@ -1,7 +1,5 @@
 var MRUniqueTemporaryFolder_8h =
 [
-    [ "MR_std_filesystem_path", "MRUniqueTemporaryFolder_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
-    [ "MR_std_function_void_from_const_std_filesystem_path_ref", "MRUniqueTemporaryFolder_8h.html#a30107ef4120845cdac99e9368f431014", null ],
     [ "MR_UniqueTemporaryFolder", "MRUniqueTemporaryFolder_8h.html#a4a438655e0772225e1f8fd14e86431da", null ],
     [ "MR_div_MR_UniqueTemporaryFolder_std_filesystem_path", "MRUniqueTemporaryFolder_8h.html#a9a9c51748601c32342534bb061f44aed", null ],
     [ "MR_UniqueTemporaryFolder_AssignFromAnother", "MRUniqueTemporaryFolder_8h.html#a8967486c3051435cb5e7cde686b0f8c6", null ],

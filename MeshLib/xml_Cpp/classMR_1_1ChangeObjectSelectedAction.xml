@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeObjectSelectedAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeObjectSelectedAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeObjectFields_8h" local="no">MRChangeObjectFields.h</includes>
+    <includes refid="MRChangeObjectFields_8h" local="no">MRMesh/MRChangeObjectFields.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga937d04b50120a0a1c237ab976bf7f0d7" kind="typedef"><name>Obj</name></member>
     </sectiondef>
@@ -51,7 +51,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="72" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="73" bodyend="124"/>
+    <location file="MRMesh/MRChangeObjectFields.h" line="72" column="1" bodyfile="MRMesh/MRChangeObjectFields.h" bodystart="73" bodyend="124"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaace3c2763b5625fb8eea898a21f5fc26" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaa52b1585ac548e84db85dd7223403ca9" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>ChangeObjectSelectedAction</name></member>

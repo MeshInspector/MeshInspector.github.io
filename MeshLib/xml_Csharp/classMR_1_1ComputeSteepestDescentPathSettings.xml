@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ComputeSteepestDescentPathSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::ComputeSteepestDescentPathSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ComputeSteepestDescentPathSettings</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="451" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="451" bodyend="451"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="473" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="473" bodyend="473"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ComputeSteepestDescentPathSettings_1a26028f8f71feb1405babba377b2ce09b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Box__VertId" kindref="compound">Box_VertId</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="454" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="455" bodyend="464"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="478" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="479" bodyend="488"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ComputeSteepestDescentPathSettings_1a9beb76581163776c677e35398b266735" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="467" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="468" bodyend="477"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="493" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="494" bodyend="503"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="496" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="496" bodyend="500"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="522" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="522" bodyend="526"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="506" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="506" bodyend="512"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="532" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="532" bodyend="538"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ComputeSteepestDescentPathSettings_1a4a1de14562cfe2b35b795a50494c9085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="517" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="517" bodyend="527"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="543" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="543" bodyend="553"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ComputeSteepestDescentPathSettings_1a039f7bda688ad753304a770f3fb7cd19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ComputeSteepestDescentPathSettings.ComputeSteepestDescentPathSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ComputeSteepestDescentPathSettings_1a5d5816d5186fe8a08a9af93f7abbbba0" kindref="member">MR.ComputeSteepestDescentPathSettings.ComputeSteepestDescentPathSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="532" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="532" bodyend="539"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="558" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="558" bodyend="565"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ComputeSteepestDescentPathSettings_1a82fb9636b5a37b8c2bdafb56e7ab8278" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ComputeSteepestDescentPathSettings.ComputeSteepestDescentPathSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ComputeSteepestDescentPathSettings_1a5d5816d5186fe8a08a9af93f7abbbba0" kindref="member">MR.ComputeSteepestDescentPathSettings.ComputeSteepestDescentPathSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="544" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="544" bodyend="544"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="570" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="570" bodyend="570"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ComputeSteepestDescentPathSettings_1a2e4c7f9581f7207ac3e7474204a10ed9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ComputeSteepestDescentPathSettings" kindref="compound">MR.ComputeSteepestDescentPathSettings</ref></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ComputeSteepestDescentPathSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ComputeSteepestDescentPathSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="549" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="549" bodyend="556"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="575" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="575" bodyend="582"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,48 +181,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ComputeSteepestDescentPathSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ComputeSteepestDescentPathSettings</label>
         <link refid="classMR_1_1ComputeSteepestDescentPathSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ComputeSteepestDescentPathSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ComputeSteepestDescentPathSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ComputeSteepestDescentPathSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ComputeSteepestDescentPathSettings</label>
         <link refid="classMR_1_1ComputeSteepestDescentPathSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ComputeSteepestDescentPathSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ComputeSteepestDescentPathSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="448" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="449" bodyend="557"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="468" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="469" bodyend="583"/>
     <listofallmembers>
       <member refid="classMR_1_1ComputeSteepestDescentPathSettings_1a2e4c7f9581f7207ac3e7474204a10ed9" prot="public" virt="non-virtual"><scope>MR::ComputeSteepestDescentPathSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1ComputeSteepestDescentPathSettings_1a92b2bcf719adc5457948aeeecf34bb8c" prot="package" virt="non-virtual"><scope>MR::ComputeSteepestDescentPathSettings</scope><name>ComputeSteepestDescentPathSettings</name></member>

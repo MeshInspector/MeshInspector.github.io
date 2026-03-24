@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Box__Color" kind="class" language="C#" prot="public">
     <compoundname>MR::Box_Color</compoundname>
     <basecompoundref refid="classMR_1_1ConstBox__Color" prot="public" virt="non-virtual">MR.ConstBox_Color</basecompoundref>
@@ -67,7 +67,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.Box_Color.this[int e]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -333,7 +333,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -352,7 +352,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -371,7 +371,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator*=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -390,7 +390,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator/=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator/=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -429,8 +429,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Box_Color</label>
+        <link refid="classMR_1_1Box__Color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_Color</label>
+        <label>MR.ConstBox_Color</label>
         <link refid="classMR_1_1ConstBox__Color"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -439,25 +445,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_Color</label>
-        <link refid="classMR_1_1Box__Color"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_Color &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.ConstBox_Color &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Box_Color</label>
+        <link refid="classMR_1_1Box__Color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_Color</label>
+        <label>MR.ConstBox_Color</label>
         <link refid="classMR_1_1ConstBox__Color"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -466,20 +472,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_Color</label>
-        <link refid="classMR_1_1Box__Color"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_Color &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.ConstBox_Color &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="418" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="419" bodyend="607"/>

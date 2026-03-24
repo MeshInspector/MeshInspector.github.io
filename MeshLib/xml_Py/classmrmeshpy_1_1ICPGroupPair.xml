@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ICPGroupPair" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ICPGroupPair</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1ICPPairData" prot="public" virt="non-virtual">mrmeshpy.ICPPairData</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23121" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1ICPGroupPair_1ac2b3e231f8e7d62902688eb972bfdc60" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23122" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23179" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -42,7 +42,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ICPGroupPair.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -57,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23127" bodyend="23128"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23184" bodyend="23185"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICPGroupPair_1a7e1902a08bc33e478b1278f1264895a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPair" kindref="compound">ICPGroupPair</ref></type>
@@ -80,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23131" bodyend="23132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23188" bodyend="23189"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICPGroupPair_1a7e1902a08bc33e478b1278f1264895a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPair" kindref="compound">ICPGroupPair</ref></type>
@@ -103,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23135" bodyend="23136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23192" bodyend="23193"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -113,7 +112,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ICPGroupPair.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -124,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23138" bodyend="23139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23195" bodyend="23196"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICPGroupPair_1a8cee7ed74929fd00185476667a007598" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -132,7 +130,6 @@
         <argsstring>(self, ICPGroupPair arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ICPGroupPair.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -149,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23141" bodyend="23144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23198" bodyend="23201"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -176,36 +173,40 @@
         <link refid="classmrmeshpy_1_1ICPGroupPair"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_srcId</edgelabel>
-          <edgelabel>_offsetof_tgtClosestId</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.ICPPairData</label>
         <link refid="classmrmeshpy_1_1ICPPairData"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_distSq</edgelabel>
-          <edgelabel>_offsetof_srcNorm</edgelabel>
-          <edgelabel>_offsetof_srcPoint</edgelabel>
-          <edgelabel>_offsetof_tgtNorm</edgelabel>
-          <edgelabel>_offsetof_tgtPoint</edgelabel>
-          <edgelabel>_offsetof_weight</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23117" bodyend="23144"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23174" bodyend="23201"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a024a604081665729f2ae92aee9077513" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1ICPGroupPair_1aa3032ba6bdbbaa290c8616c9c97473a0" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICPGroupPair_1aac8c8cfe71c39aee9eb8487b0f10b6c0" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICPGroupPair_1a8cee7ed74929fd00185476667a007598" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a975ad0f4fbf56b0b696b016bb5459394" prot="protected" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>_offsetof_distSq</name></member>
       <member refid="classmrmeshpy_1_1ICPGroupPair_1a1706865a69213811ffd66f99b2695cb8" prot="protected" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>_offsetof_srcId</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a2b21da77be31bc7aefe9d51008c2cf1c" prot="protected" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>_offsetof_srcNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a9be727a0422ad006449afad101e0841d" prot="protected" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>_offsetof_srcPoint</name></member>
       <member refid="classmrmeshpy_1_1ICPGroupPair_1ac2b3e231f8e7d62902688eb972bfdc60" prot="protected" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>_offsetof_tgtClosestId</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a507276f8b26de9a904d2ec49bf33c393" prot="protected" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>_offsetof_tgtNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a53baaf24a2f082c08ab6834b7a741adc" prot="protected" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>_offsetof_tgtPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a94e12fe9d68b29a4f4ac5fca26ae40b9" prot="protected" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>_offsetof_weight</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a81a16851930b610d0f2da952f2e9dfb2" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1ad0bc3f78c9ae7c4183be09dfdde928b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>distSq</name></member>
       <member refid="classmrmeshpy_1_1ICPGroupPair_1a7e1902a08bc33e478b1278f1264895a9" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ICPGroupPair_1a7e1902a08bc33e478b1278f1264895a9" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a89482cc3aa04a939129275e013cec31d" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>srcNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a515d9cd8b7997e018b8a5beac3198fa0" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>srcNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a30219ca3196957a77bb962d99a1fa358" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>srcPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1afda2b1f35f010bc4ec2c329159ea9bb7" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>srcPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a962a452004d14db0007b9ce46984b430" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>tgtNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a06e2f5b153ceba9f49471637a8b885f4" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>tgtNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a8fd5cbb59c667c22d5b48c5e0a3fe81e" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>tgtPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1ae3543d2260c7847ebf61a1b2bd780d4b" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>tgtPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a9a47e51ee552fd10d2b79ed1b21ef4f4" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>weight</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a81e6a858233d91201b69b2364f6e675e" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPGroupPair</scope><name>weight</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

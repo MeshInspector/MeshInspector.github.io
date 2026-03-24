@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SplineSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::SplineSettings</compoundname>
-    <includes refid="MRMarkedContour_8h" local="no">MRMarkedContour.h</includes>
+    <includes refid="MRMarkedContour_8h" local="no">MRMesh/MRMarkedContour.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga44a44b80a4845cea1a439df65b616c4e" kind="variable"><name>samplingStep</name></member>
       <member refid="group__GeneralGroup_1ga7f3e029be9ca17a1b73f53ca166fe2ca" kind="variable"><name>controlStability</name></member>
@@ -14,7 +14,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" bodystart="56" bodyend="74"/>
+    <location file="MRMesh/MRMarkedContour.h" line="55" column="1" bodyfile="MRMesh/MRMarkedContour.h" bodystart="56" bodyend="74"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7f3e029be9ca17a1b73f53ca166fe2ca" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>controlStability</name></member>
       <member refid="group__GeneralGroup_1gae191af78be4cbd6a213f4296abadbaab" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>iterations</name></member>

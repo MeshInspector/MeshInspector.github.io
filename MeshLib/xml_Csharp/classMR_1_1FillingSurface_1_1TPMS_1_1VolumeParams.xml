@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FillingSurface::TPMS::VolumeParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.FillingSurface.TPMS.Const_VolumeParams</basecompoundref>
@@ -125,7 +125,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FillingSurface.TPMS.VolumeParams.VolumeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a70dfed2260b4d5c7b3852d26688a8f59" kindref="member">MR.FillingSurface.TPMS.VolumeParams.VolumeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -144,7 +144,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FillingSurface.TPMS.VolumeParams.VolumeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a70dfed2260b4d5c7b3852d26688a8f59" kindref="member">MR.FillingSurface.TPMS.VolumeParams.VolumeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,7 +163,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FillingSurface.TPMS.VolumeParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FillingSurface::TPMS::VolumeParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -178,45 +178,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_VolumeParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FillingSurface.TPMS.VolumeParams</label>
         <link refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.FillingSurface.TPMS.Const_VolumeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VolumeParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_VolumeParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FillingSurface.TPMS.VolumeParams</label>
         <link refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.FillingSurface.TPMS.Const_VolumeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VolumeParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="137" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="138" bodyend="207"/>

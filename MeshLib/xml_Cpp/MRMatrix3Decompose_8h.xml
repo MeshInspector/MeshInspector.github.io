@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMatrix3Decompose_8h" kind="file" language="C++">
     <compoundname>MRMatrix3Decompose.h</compoundname>
     <includes refid="MRMatrix3_8h" local="yes">MRMatrix3.h</includes>
     <incdepgraph>
-      <node id="9">
+      <node id="10">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -19,15 +25,37 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRMatrix3Decompose.h</label>
+        <label>MRMesh/MRMatrix3Decompose.h</label>
         <link refid="MRMatrix3Decompose_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -47,47 +75,66 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="10">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="9">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="11">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="19">
         <label>algorithm</label>
       </node>
       <node id="12">
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>cassert</label>
+      </node>
+      <node id="20">
         <label>cmath</label>
       </node>
       <node id="6">
         <label>cstddef</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>cstring</label>
       </node>
-      <node id="14">
+      <node id="16">
+        <label>functional</label>
+      </node>
+      <node id="22">
         <label>iosfwd</label>
+      </node>
+      <node id="15">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="14">
+        <label>string</label>
       </node>
       <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>utility</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -104,7 +151,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="13" refid="group__GeneralGroup_1ga227c386f62eafef4624dfa5aad12289a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga227c386f62eafef4624dfa5aad12289a" kindref="member">decomposeMatrix3</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref>&amp;<sp/>m,<sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref>&amp;<sp/>rotation,<sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref>&amp;<sp/>scaling<sp/>)</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>[q,<sp/>r]<sp/>=<sp/>m.qr();</highlight></codeline>
@@ -120,7 +167,7 @@
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>rotation<sp/>=<sp/>q<sp/>*<sp/>sign;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="30" refid="group__GeneralGroup_1gabfe7262e1e5d80122b05aa8e68fc0545" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabfe7262e1e5d80122b05aa8e68fc0545" kindref="member">isRigid</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref>&amp;<sp/>m<sp/>)</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/>rot,<sp/>scale;</highlight></codeline>
@@ -135,8 +182,8 @@
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3Decompose.h"/>
+    <location file="MRMesh/MRMatrix3Decompose.h"/>
   </compounddef>
 </doxygen>

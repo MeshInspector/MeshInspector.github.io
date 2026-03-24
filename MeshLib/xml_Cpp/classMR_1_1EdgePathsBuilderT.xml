@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgePathsBuilderT" kind="class" language="C++" prot="public">
     <compoundname>MR::EdgePathsBuilderT</compoundname>
-    <includes refid="MREdgePathsBuilder_8h" local="no">MREdgePathsBuilder.h</includes>
+    <includes refid="MREdgePathsBuilder_8h" local="no">MRMesh/MREdgePathsBuilder.h</includes>
     <innerclass refid="structMR_1_1EdgePathsBuilderT_1_1CandidateVert" prot="private">MR::EdgePathsBuilderT::CandidateVert</innerclass>
     <innerclass refid="structMR_1_1EdgePathsBuilderT_1_1ReachedVert" prot="public">MR::EdgePathsBuilderT::ReachedVert</innerclass>
     <templateparamlist>
@@ -42,7 +42,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="38" bodyend="124"/>
+    <location file="MRMesh/MREdgePathsBuilder.h" line="37" column="1" bodyfile="MRMesh/MREdgePathsBuilder.h" bodystart="38" bodyend="124"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga06a2df9bc73ccff1cc28c1d322505754" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addNextStep_</name></member>
       <member refid="group__GeneralGroup_1ga7567736873ea92c6a2359d13bdf9ff52" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addOrgRingSteps</name></member>

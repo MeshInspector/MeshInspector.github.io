@@ -32,6 +32,11 @@ var structMR_1_1SceneColors =
       [ "UnselectedMeasurementsZ", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aae4f723429576e2b535e52168ac94eda2", null ],
       [ "SelectedTemporaryMeasurements", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa543c0ab476d5490df39cee5d7f8c8834", null ],
       [ "UnselectedTemporaryMeasurements", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa73c4634de1e83e6666d9cc6293f63326", null ],
+      [ "BrushAdd", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aacaa8780785f91ee4134c590351b90e00", null ],
+      [ "BrushRemove", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa809402fd8548327d78ada6a7fe3874ab", null ],
+      [ "BrushSmooth", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa8c1e02635341889b62067b9ab1a5ed22", null ],
+      [ "BrushDeform", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aae3db601d8322c3b769efbacea915ebc5", null ],
+      [ "BrushPatch", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aaea2413e64fc7fa47cbc5d38fa3be22f4", null ],
       [ "Count", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483", null ]
     ] ]
 ];

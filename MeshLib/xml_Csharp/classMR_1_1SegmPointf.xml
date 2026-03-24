@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SegmPointf" kind="class" language="C#" prot="public">
     <compoundname>MR::SegmPointf</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SegmPointf</basecompoundref>
@@ -11,13 +11,13 @@
         <name>a</name>
         <qualifiedname>MR.SegmPointf.a</qualifiedname>
         <briefdescription>
-<para>&lt; a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 </para>
+<para>a in [0,1], a=0 =&amp;gt; point is in v0, a=1 =&amp;gt; point is in v1 </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="205" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="205" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="209" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="209" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="209" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="209" bodyend="213"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="213" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="213" bodyend="217"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="219" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="219" bodyend="225"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="223" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="223" bodyend="229"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SegmPointf_1af85f0e8bf729561fa0d2691a93a576ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -71,13 +71,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SegmPointf.SegmPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" kindref="member">MR.SegmPointf.SegmPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="230" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="230" bodyend="237"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="234" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="234" bodyend="241"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SegmPointf_1a68caf76bfd137a66ab103adad4867336" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -90,13 +90,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SegmPointf.SegmPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" kindref="member">MR.SegmPointf.SegmPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="242" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="242" bodyend="242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="246" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="246" bodyend="246"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SegmPointf_1a915c2f3f92f96e2cd214ac9aa6e597b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -109,13 +109,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SegmPointf.SegmPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" kindref="member">MR.SegmPointf.SegmPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="247" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="247" bodyend="253"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="251" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="251" bodyend="257"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SegmPointf_1a6de84c5cde260a14e743e152a1a5d565" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref float</type>
@@ -124,13 +124,13 @@
         <name>convertTo_FloatRef</name>
         <qualifiedname>MR.SegmPointf.convertTo_FloatRef</qualifiedname>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.SegmPointf.operator float &amp;</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::SegmPointf::operator float &amp;amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="263" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="263" bodyend="268"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="267" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="267" bodyend="272"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SegmPointf_1a9cd1fcf1878d6daeda23d7e2c5870323" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SegmPointf" kindref="compound">MR.SegmPointf</ref></type>
@@ -143,13 +143,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SegmPointf.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SegmPointf::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="273" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="273" bodyend="280"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="277" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="277" bodyend="284"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -164,13 +164,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SegmPointf.SegmPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" kindref="member">MR.SegmPointf.SegmPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="258" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="258" bodyend="258"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="262" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="262" bodyend="262"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -179,68 +179,62 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SegmPointf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SegmPointf</label>
         <link refid="classMR_1_1SegmPointf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SegmPointf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SegmPointf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_SegmPointf &gt;</label>
-      </node>
-      <node id="6">
-        <label>System::IEquatable&lt; float &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SegmPointf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SegmPointf</label>
         <link refid="classMR_1_1SegmPointf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SegmPointf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SegmPointf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_SegmPointf &gt;</label>
-      </node>
-      <node id="6">
-        <label>System::IEquatable&lt; float &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="202" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="203" bodyend="281"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="204" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="205" bodyend="285"/>
     <listofallmembers>
       <member refid="classMR_1_1SegmPointf_1aaa814d1b0c9279af10a35e4e1bd5bfe5" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>a</name></member>
       <member refid="classMR_1_1SegmPointf_1a9cd1fcf1878d6daeda23d7e2c5870323" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>assign</name></member>

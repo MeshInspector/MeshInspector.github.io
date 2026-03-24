@@ -1,0 +1,1613 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__Nesting__NestingResult_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_Nesting_NestingResult.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_Nesting_NestingResult.h</label>
+        <link refid="std__vector__MR__Nesting__NestingResult_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a698f372827e7494d7da82d03dbe6a05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a9ab4362854f9eff41fccbba37b13f813" kindref="member">MR_std_vector_MR_Nesting_NestingResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="30" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="30" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ab4bb65526428ad2bacddb53f3f70cc99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1acdba48fe54428cbcef50470fe8b9de42" kindref="member">MR_std_vector_MR_Nesting_NestingResult_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a50052795b1ecb4c6ee5c3ec1805cf4ca" kindref="member">MR_std_vector_MR_Nesting_NestingResult_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a3ed5f97a69b79482541e46088b61cb26" kindref="member">MR_std_vector_MR_Nesting_NestingResult_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="35" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="35" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a7674cf9ad8eeed752f7ed14aceef2a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_Nesting_NestingResult *other)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a9ab4362854f9eff41fccbba37b13f813" kindref="member">MR_std_vector_MR_Nesting_NestingResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="41" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="41" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a29099bc74aef1ca2acb350d6e088e691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, MR_PassBy other_pass_by, MR_std_vector_MR_Nesting_NestingResult *other)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a9ab4362854f9eff41fccbba37b13f813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1acdba48fe54428cbcef50470fe8b9de42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a3ed5f97a69b79482541e46088b61cb26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="57" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="57" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a50052795b1ecb4c6ee5c3ec1805cf4ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="61" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="61" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a7cba0677df7cae0147616ed23decfa62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_Nesting_NestingResult_size</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_size</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a92754e87d494c9edfde6e73d1d0616ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Nesting_NestingResult_empty</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_empty</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1adfb30ee43222e692678d848bc9e05d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_resize</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_resize</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1adc180e96f0953dcf6b541f7725e6569f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, size_t new_size, const MR_Nesting_NestingResult *value)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a3e206ee7674c4a582150c8f73c32856a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_clear</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_clear</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ae54572c6685aa3362d22c922ca6d96b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_Nesting_NestingResult_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_capacity</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a2b683d341ad1c6b6ea9f7018c4e4482b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_reserve</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_reserve</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a103e5749eb5d24adb8e4245d5a12ab1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1aeb5e1cf6b7fa1d118ec3551c3fc4ff17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API const MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_at</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_at</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="101" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="101" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ad3250d7015672fe1b4bf1c356ca9a069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_at_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="107" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="107" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a6279999da3311f9524819ec9202a27f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API const MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_front</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_front</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="112" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="112" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1aa1dbb775dcdd79f847811318d6e8f930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_front_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="117" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="117" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ad4d7b3b78aa4f7eb0744dc186af95b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API const MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_back</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_back</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="122" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="122" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a346ffe30bcc5954e7c40e044d777d83d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_back_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="127" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="127" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a22c689d77fa2018ffa7863f3a78f0ef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_push_back</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, const MR_Nesting_NestingResult *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_push_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a392771b086c55ac966f4aef7f0a7d260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_pop_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a6c932a9d5b6d941e7d4362eaad870dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_insert</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, size_t position, const MR_Nesting_NestingResult *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_insert</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a02ae448d65e973b577bdbf6fd9db24e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_erase</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_erase</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ab517b5f042db8ffbc9611daaa78df076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_iterator *position, const MR_Nesting_NestingResult *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a13d794a8592bd65414393f729816e7f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a53218c5f5be2d40d69cea31bd574e1d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_const_iterator *position, const MR_Nesting_NestingResult *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ab1663de8b7cadbe089bfed84705aba95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a082800dde97660c03dd3f5883da972a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_const_iterator * MR_std_vector_MR_Nesting_NestingResult_begin</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeceaf2b29fa9e01d3c65686c5b85ba7c" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="177" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="177" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a1a34d88496598a8aeff910599845cefa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Nesting_NestingResult_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_is_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ac35b22342dca5fd90250c8f83c18ef70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_iterator * MR_std_vector_MR_Nesting_NestingResult_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_begin_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a57fe773220c9b0596babbcdefd22a497" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="188" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="188" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a2a2187d43db8973271b6d645d1857d74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Nesting_NestingResult_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a162d5626c2014733be92d0b8e05196aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_const_iterator * MR_std_vector_MR_Nesting_NestingResult_end</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeceaf2b29fa9e01d3c65686c5b85ba7c" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="199" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="199" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a68c38f944bbde76531266934520a0876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Nesting_NestingResult_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_is_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a01910c47dcb67ff8f1b32b6d0471acc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_iterator * MR_std_vector_MR_Nesting_NestingResult_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_end_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a57fe773220c9b0596babbcdefd22a497" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="210" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="210" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a269a72e2b635ede31df12f16b6a31de8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Nesting_NestingResult_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a7cd1ce84c2a0d9aa4b9c91e5faa135ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_Nesting_NestingResult_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_to_index</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a0772bb4cede9d5368ee243df880124c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_Nesting_NestingResult_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult *_this, const MR_std_vector_MR_Nesting_NestingResult_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a5e142b98eb99b2e10291919c9300d733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_const_iterator * MR_std_vector_MR_Nesting_NestingResult_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeceaf2b29fa9e01d3c65686c5b85ba7c" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="229" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="229" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a1808b66256ab15550838f05daa7208a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_const_iterator * MR_std_vector_MR_Nesting_NestingResult_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a093bfb54ebbdd14ae39fac75d2735933" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a225e661f4f1c59228b69fd098d4bcc6e" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeb540f819dc9a68b3b82f29a7bd4eb4b" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="234" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="234" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1af8101c4db13ee564f850d414077e994d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_const_iterator * MR_std_vector_MR_Nesting_NestingResult_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeceaf2b29fa9e01d3c65686c5b85ba7c" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="241" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="241" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ae89ff0dbf8a11b50f1b360d6f97233d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_const_iterator *_this, const MR_std_vector_MR_Nesting_NestingResult_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1aeceaf2b29fa9e01d3c65686c5b85ba7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a093bfb54ebbdd14ae39fac75d2735933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1aeb540f819dc9a68b3b82f29a7bd4eb4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Nesting_NestingResult_const_iterator * MR_std_vector_MR_Nesting_NestingResult_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="258" column="69" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="258" declcolumn="69"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a225e661f4f1c59228b69fd098d4bcc6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_const_iterator * MR_std_vector_MR_Nesting_NestingResult_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="262" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="262" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a6611b73c6614660f325f9739fd7a2934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_const_iterator * MR_std_vector_MR_Nesting_NestingResult_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeceaf2b29fa9e01d3c65686c5b85ba7c" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="267" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="267" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a42fe3425d1dfb069e4ba9c34cb3d12db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_iterator * MR_std_vector_MR_Nesting_NestingResult_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a57fe773220c9b0596babbcdefd22a497" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="271" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="271" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a6930e8651cc61e7e2fd897071bd53419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_iterator * MR_std_vector_MR_Nesting_NestingResult_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1ae1390d809279a1b711bf3704827482f3" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a107589d8ee78d608cf153155471af507" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a5ff530b580649f51919accdba2c60cc2" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="276" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="276" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1aa9ae3e0cf2d0b270b9a4bd676553458e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_iterator * MR_std_vector_MR_Nesting_NestingResult_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a57fe773220c9b0596babbcdefd22a497" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="283" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="283" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a9248176ad2f6156c299557fb8209a640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_iterator *_this, const MR_std_vector_MR_Nesting_NestingResult_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a57fe773220c9b0596babbcdefd22a497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ae1390d809279a1b711bf3704827482f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a5ff530b580649f51919accdba2c60cc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Nesting_NestingResult_iterator * MR_std_vector_MR_Nesting_NestingResult_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="300" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="300" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a107589d8ee78d608cf153155471af507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Nesting_NestingResult_iterator * MR_std_vector_MR_Nesting_NestingResult_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="304" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="304" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a5bf9fb59ae88d934f195be1558a7c5bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API const MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="310" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="310" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1abb8dd1558662c34d9ef198abb5d93e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1aa8b1eae5561359eec7fa2dc074b8527b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ab3495258ec6e3da640ea4eba7fb9d0f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a144a0854b66fcb4c3841a780c3bbb908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_Nesting_NestingResult_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_const_iterator *a, const MR_std_vector_MR_Nesting_NestingResult_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_Nesting_NestingResult_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1ab9810e4ff26732c96299b4a7a764cf94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_Nesting_NestingResult_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_const_iterator *a, const MR_std_vector_MR_Nesting_NestingResult_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_Nesting_NestingResult_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a0d426720b42b4a1aa61754f348969f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_std_vector_MR_Nesting_NestingResult_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="338" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="338" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1aaf1f519e28f3e0faffe77698ba43c787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a82099ac2d92de05997338dd1aafda98f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1af1ec6952487e9386e4b2a76aecd6e43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Nesting_NestingResult_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_Nesting_NestingResult_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_Nesting_NestingResult_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a3fb2cf5711911643c8a9602631aa1e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_Nesting_NestingResult_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_iterator *a, const MR_std_vector_MR_Nesting_NestingResult_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_Nesting_NestingResult_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Nesting__NestingResult_8h_1a1542c14100b0a83ae98f2de66213d9dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_Nesting_NestingResult_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Nesting_NestingResult_iterator *a, const MR_std_vector_MR_Nesting_NestingResult_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_Nesting_NestingResult_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRNestingStructures.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__Nesting__NestingResult_8h_1a698f372827e7494d7da82d03dbe6a05e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a698f372827e7494d7da82d03dbe6a05e" kindref="member">MR_std_vector_MR_Nesting_NestingResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__Nesting__NestingResult_8h_1ab4bb65526428ad2bacddb53f3f70cc99" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1ab4bb65526428ad2bacddb53f3f70cc99" kindref="member">MR_std_vector_MR_Nesting_NestingResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__Nesting__NestingResult_8h_1a7674cf9ad8eeed752f7ed14aceef2a16" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a7674cf9ad8eeed752f7ed14aceef2a16" kindref="member">MR_std_vector_MR_Nesting_NestingResult_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__Nesting__NestingResult_8h_1a29099bc74aef1ca2acb350d6e088e691" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a29099bc74aef1ca2acb350d6e088e691" kindref="member">MR_std_vector_MR_Nesting_NestingResult_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__Nesting__NestingResult_8h_1a9ab4362854f9eff41fccbba37b13f813" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a9ab4362854f9eff41fccbba37b13f813" kindref="member">MR_std_vector_MR_Nesting_NestingResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__Nesting__NestingResult_8h_1acdba48fe54428cbcef50470fe8b9de42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1acdba48fe54428cbcef50470fe8b9de42" kindref="member">MR_std_vector_MR_Nesting_NestingResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__Nesting__NestingResult_8h_1a3ed5f97a69b79482541e46088b61cb26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a3ed5f97a69b79482541e46088b61cb26" kindref="member">MR_std_vector_MR_Nesting_NestingResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__Nesting__NestingResult_8h_1a50052795b1ecb4c6ee5c3ec1805cf4ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a50052795b1ecb4c6ee5c3ec1805cf4ca" kindref="member">MR_std_vector_MR_Nesting_NestingResult_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__Nesting__NestingResult_8h_1a7cba0677df7cae0147616ed23decfa62" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a7cba0677df7cae0147616ed23decfa62" kindref="member">MR_std_vector_MR_Nesting_NestingResult_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__Nesting__NestingResult_8h_1a92754e87d494c9edfde6e73d1d0616ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a92754e87d494c9edfde6e73d1d0616ab" kindref="member">MR_std_vector_MR_Nesting_NestingResult_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__Nesting__NestingResult_8h_1adfb30ee43222e692678d848bc9e05d37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1adfb30ee43222e692678d848bc9e05d37" kindref="member">MR_std_vector_MR_Nesting_NestingResult_resize</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__Nesting__NestingResult_8h_1adc180e96f0953dcf6b541f7725e6569f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1adc180e96f0953dcf6b541f7725e6569f" kindref="member">MR_std_vector_MR_Nesting_NestingResult_resize_with_default_value</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__Nesting__NestingResult_8h_1a3e206ee7674c4a582150c8f73c32856a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a3e206ee7674c4a582150c8f73c32856a" kindref="member">MR_std_vector_MR_Nesting_NestingResult_clear</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__Nesting__NestingResult_8h_1ae54572c6685aa3362d22c922ca6d96b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1ae54572c6685aa3362d22c922ca6d96b5" kindref="member">MR_std_vector_MR_Nesting_NestingResult_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__Nesting__NestingResult_8h_1a2b683d341ad1c6b6ea9f7018c4e4482b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a2b683d341ad1c6b6ea9f7018c4e4482b" kindref="member">MR_std_vector_MR_Nesting_NestingResult_reserve</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__Nesting__NestingResult_8h_1a103e5749eb5d24adb8e4245d5a12ab1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a103e5749eb5d24adb8e4245d5a12ab1e" kindref="member">MR_std_vector_MR_Nesting_NestingResult_shrink_to_fit</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__Nesting__NestingResult_8h_1aeb5e1cf6b7fa1d118ec3551c3fc4ff17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeb5e1cf6b7fa1d118ec3551c3fc4ff17" kindref="member">MR_std_vector_MR_Nesting_NestingResult_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__Nesting__NestingResult_8h_1ad3250d7015672fe1b4bf1c356ca9a069" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1ad3250d7015672fe1b4bf1c356ca9a069" kindref="member">MR_std_vector_MR_Nesting_NestingResult_at_mut</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__Nesting__NestingResult_8h_1a6279999da3311f9524819ec9202a27f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a6279999da3311f9524819ec9202a27f0" kindref="member">MR_std_vector_MR_Nesting_NestingResult_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__Nesting__NestingResult_8h_1aa1dbb775dcdd79f847811318d6e8f930" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1aa1dbb775dcdd79f847811318d6e8f930" kindref="member">MR_std_vector_MR_Nesting_NestingResult_front_mut</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__Nesting__NestingResult_8h_1ad4d7b3b78aa4f7eb0744dc186af95b55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1ad4d7b3b78aa4f7eb0744dc186af95b55" kindref="member">MR_std_vector_MR_Nesting_NestingResult_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__Nesting__NestingResult_8h_1a346ffe30bcc5954e7c40e044d777d83d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a346ffe30bcc5954e7c40e044d777d83d" kindref="member">MR_std_vector_MR_Nesting_NestingResult_back_mut</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__Nesting__NestingResult_8h_1a22c689d77fa2018ffa7863f3a78f0ef2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a22c689d77fa2018ffa7863f3a78f0ef2" kindref="member">MR_std_vector_MR_Nesting_NestingResult_push_back</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__Nesting__NestingResult_8h_1a392771b086c55ac966f4aef7f0a7d260" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a392771b086c55ac966f4aef7f0a7d260" kindref="member">MR_std_vector_MR_Nesting_NestingResult_pop_back</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__Nesting__NestingResult_8h_1a6c932a9d5b6d941e7d4362eaad870dd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a6c932a9d5b6d941e7d4362eaad870dd6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_insert</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__Nesting__NestingResult_8h_1a02ae448d65e973b577bdbf6fd9db24e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a02ae448d65e973b577bdbf6fd9db24e5" kindref="member">MR_std_vector_MR_Nesting_NestingResult_erase</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__Nesting__NestingResult_8h_1ab517b5f042db8ffbc9611daaa78df076" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1ab517b5f042db8ffbc9611daaa78df076" kindref="member">MR_std_vector_MR_Nesting_NestingResult_insert_at_mutable_iter</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__Nesting__NestingResult_8h_1a13d794a8592bd65414393f729816e7f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a13d794a8592bd65414393f729816e7f8" kindref="member">MR_std_vector_MR_Nesting_NestingResult_erase_at_mutable_iter</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__Nesting__NestingResult_8h_1a53218c5f5be2d40d69cea31bd574e1d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a53218c5f5be2d40d69cea31bd574e1d9" kindref="member">MR_std_vector_MR_Nesting_NestingResult_insert_at_iter</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__Nesting__NestingResult_8h_1ab1663de8b7cadbe089bfed84705aba95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1ab1663de8b7cadbe089bfed84705aba95" kindref="member">MR_std_vector_MR_Nesting_NestingResult_erase_at_iter</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__Nesting__NestingResult_8h_1a082800dde97660c03dd3f5883da972a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a082800dde97660c03dd3f5883da972a4" kindref="member">MR_std_vector_MR_Nesting_NestingResult_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__Nesting__NestingResult_8h_1a1a34d88496598a8aeff910599845cefa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a1a34d88496598a8aeff910599845cefa" kindref="member">MR_std_vector_MR_Nesting_NestingResult_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__Nesting__NestingResult_8h_1ac35b22342dca5fd90250c8f83c18ef70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1ac35b22342dca5fd90250c8f83c18ef70" kindref="member">MR_std_vector_MR_Nesting_NestingResult_begin_mut</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__Nesting__NestingResult_8h_1a2a2187d43db8973271b6d645d1857d74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a2a2187d43db8973271b6d645d1857d74" kindref="member">MR_std_vector_MR_Nesting_NestingResult_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__Nesting__NestingResult_8h_1a162d5626c2014733be92d0b8e05196aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a162d5626c2014733be92d0b8e05196aa" kindref="member">MR_std_vector_MR_Nesting_NestingResult_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__Nesting__NestingResult_8h_1a68c38f944bbde76531266934520a0876" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a68c38f944bbde76531266934520a0876" kindref="member">MR_std_vector_MR_Nesting_NestingResult_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__Nesting__NestingResult_8h_1a01910c47dcb67ff8f1b32b6d0471acc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a01910c47dcb67ff8f1b32b6d0471acc3" kindref="member">MR_std_vector_MR_Nesting_NestingResult_end_mut</ref>(<ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__Nesting__NestingResult_8h_1a269a72e2b635ede31df12f16b6a31de8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a269a72e2b635ede31df12f16b6a31de8" kindref="member">MR_std_vector_MR_Nesting_NestingResult_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__Nesting__NestingResult_8h_1a7cd1ce84c2a0d9aa4b9c91e5faa135ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a7cd1ce84c2a0d9aa4b9c91e5faa135ec" kindref="member">MR_std_vector_MR_Nesting_NestingResult_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__Nesting__NestingResult_8h_1a0772bb4cede9d5368ee243df880124c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a0772bb4cede9d5368ee243df880124c9" kindref="member">MR_std_vector_MR_Nesting_NestingResult_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a780c518f8dc4b20e01182b96b02cbefe" kindref="member">MR_std_vector_MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__Nesting__NestingResult_8h_1a5e142b98eb99b2e10291919c9300d733" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a5e142b98eb99b2e10291919c9300d733" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__Nesting__NestingResult_8h_1a1808b66256ab15550838f05daa7208a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a1808b66256ab15550838f05daa7208a2" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__Nesting__NestingResult_8h_1af8101c4db13ee564f850d414077e994d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1af8101c4db13ee564f850d414077e994d" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__Nesting__NestingResult_8h_1ae89ff0dbf8a11b50f1b360d6f97233d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1ae89ff0dbf8a11b50f1b360d6f97233d4" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__Nesting__NestingResult_8h_1aeceaf2b29fa9e01d3c65686c5b85ba7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeceaf2b29fa9e01d3c65686c5b85ba7c" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__Nesting__NestingResult_8h_1a093bfb54ebbdd14ae39fac75d2735933" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a093bfb54ebbdd14ae39fac75d2735933" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__Nesting__NestingResult_8h_1aeb540f819dc9a68b3b82f29a7bd4eb4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1aeb540f819dc9a68b3b82f29a7bd4eb4b" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__Nesting__NestingResult_8h_1a225e661f4f1c59228b69fd098d4bcc6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a225e661f4f1c59228b69fd098d4bcc6e" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__Nesting__NestingResult_8h_1a6611b73c6614660f325f9739fd7a2934" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a6611b73c6614660f325f9739fd7a2934" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__Nesting__NestingResult_8h_1a42fe3425d1dfb069e4ba9c34cb3d12db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a42fe3425d1dfb069e4ba9c34cb3d12db" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__Nesting__NestingResult_8h_1a6930e8651cc61e7e2fd897071bd53419" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a6930e8651cc61e7e2fd897071bd53419" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__Nesting__NestingResult_8h_1aa9ae3e0cf2d0b270b9a4bd676553458e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1aa9ae3e0cf2d0b270b9a4bd676553458e" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__Nesting__NestingResult_8h_1a9248176ad2f6156c299557fb8209a640" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a9248176ad2f6156c299557fb8209a640" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__Nesting__NestingResult_8h_1a57fe773220c9b0596babbcdefd22a497" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a57fe773220c9b0596babbcdefd22a497" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__Nesting__NestingResult_8h_1ae1390d809279a1b711bf3704827482f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1ae1390d809279a1b711bf3704827482f3" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__Nesting__NestingResult_8h_1a5ff530b580649f51919accdba2c60cc2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a5ff530b580649f51919accdba2c60cc2" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__Nesting__NestingResult_8h_1a107589d8ee78d608cf153155471af507" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a107589d8ee78d608cf153155471af507" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__Nesting__NestingResult_8h_1a5bf9fb59ae88d934f195be1558a7c5bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a5bf9fb59ae88d934f195be1558a7c5bd" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__Nesting__NestingResult_8h_1abb8dd1558662c34d9ef198abb5d93e01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1abb8dd1558662c34d9ef198abb5d93e01" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_incr</ref>(<ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__Nesting__NestingResult_8h_1aa8b1eae5561359eec7fa2dc074b8527b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aa8b1eae5561359eec7fa2dc074b8527b" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_decr</ref>(<ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__Nesting__NestingResult_8h_1ab3495258ec6e3da640ea4eba7fb9d0f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1ab3495258ec6e3da640ea4eba7fb9d0f5" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__Nesting__NestingResult_8h_1a144a0854b66fcb4c3841a780c3bbb908" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a144a0854b66fcb4c3841a780c3bbb908" kindref="member">MR_sub_MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__Nesting__NestingResult_8h_1ab9810e4ff26732c96299b4a7a764cf94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1ab9810e4ff26732c96299b4a7a764cf94" kindref="member">MR_equal_MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1e3c910a93c45ed75d192bdf56f69b52" kindref="member">MR_std_vector_MR_Nesting_NestingResult_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__Nesting__NestingResult_8h_1a0d426720b42b4a1aa61754f348969f4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="std__vector__MR__Nesting__NestingResult_8h_1a0d426720b42b4a1aa61754f348969f4f" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__Nesting__NestingResult_8h_1aaf1f519e28f3e0faffe77698ba43c787" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1aaf1f519e28f3e0faffe77698ba43c787" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_incr</ref>(<ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__Nesting__NestingResult_8h_1a82099ac2d92de05997338dd1aafda98f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a82099ac2d92de05997338dd1aafda98f" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_decr</ref>(<ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__Nesting__NestingResult_8h_1af1ec6952487e9386e4b2a76aecd6e43c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1af1ec6952487e9386e4b2a76aecd6e43c" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__Nesting__NestingResult_8h_1a3fb2cf5711911643c8a9602631aa1e61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a3fb2cf5711911643c8a9602631aa1e61" kindref="member">MR_sub_MR_std_vector_MR_Nesting_NestingResult_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__Nesting__NestingResult_8h_1a1542c14100b0a83ae98f2de66213d9dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Nesting__NestingResult_8h_1a1542c14100b0a83ae98f2de66213d9dc" kindref="member">MR_equal_MR_std_vector_MR_Nesting_NestingResult_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a39dee13a56cb3fc88401a7f482cfa8d6" kindref="member">MR_std_vector_MR_Nesting_NestingResult_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Nesting_NestingResult.h"/>
+  </compounddef>
+</doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Plane3" kind="struct" language="C++" prot="public">
     <compoundname>MR::Plane3</compoundname>
-    <includes refid="MRPlane3_8h" local="no">MRPlane3.h</includes>
+    <includes refid="MRPlane3_8h" local="no">MRMesh/MRPlane3.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -38,7 +38,7 @@
     <detaileddescription>
 <para>3-dimensional plane: dot(n,x) - d = 0 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPlane3.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPlane3.h" bodystart="21" bodyend="64"/>
+    <location file="MRMesh/MRPlane3.h" line="20" column="1" bodyfile="MRMesh/MRPlane3.h" bodystart="21" bodyend="64"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa721053621e7ed2a54dc3f05081f7c04" prot="public" virt="non-virtual"><scope>MR::Plane3</scope><name>d</name></member>
       <member refid="group__GeneralGroup_1ga4f9977f7a0aeb3eaba36bc94e95143a9" prot="public" virt="non-virtual"><scope>MR::Plane3</scope><name>distance</name></member>

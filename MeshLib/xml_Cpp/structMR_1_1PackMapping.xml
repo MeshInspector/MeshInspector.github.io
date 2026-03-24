@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PackMapping" kind="struct" language="C++" prot="public">
     <compoundname>MR::PackMapping</compoundname>
-    <includes refid="MRBuffer_8h" local="no">MRBuffer.h</includes>
+    <includes refid="MRBuffer_8h" local="no">MRMesh/MRBuffer.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga064cdbdc31f7c5de6f7cb77f75c1a962" kind="variable"><name>e</name></member>
       <member refid="group__GeneralGroup_1ga53564598fd272bd72bf4ea9a97a2340a" kind="variable"><name>f</name></member>
@@ -13,7 +13,7 @@
     <detaileddescription>
 <para>mapping of mesh elements: old -&gt; new, the mapping is tight (or packing) in the sense that there are no unused new elements within [0, (e/f/v).tsize) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="155" bodyend="159"/>
+    <location file="MRMesh/MRBuffer.h" line="143" column="1" bodyfile="MRMesh/MRBuffer.h" bodystart="144" bodyend="148"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga064cdbdc31f7c5de6f7cb77f75c1a962" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>e</name></member>
       <member refid="group__GeneralGroup_1ga53564598fd272bd72bf4ea9a97a2340a" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>f</name></member>

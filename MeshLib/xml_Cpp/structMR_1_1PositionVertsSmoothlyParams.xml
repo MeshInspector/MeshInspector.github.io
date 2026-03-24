@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PositionVertsSmoothlyParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::PositionVertsSmoothlyParams</compoundname>
-    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRPositionVertsSmoothly.h</includes>
+    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRMesh/MRPositionVertsSmoothly.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga35aa8fa1280f405afeb9f43189843024" kind="variable"><name>region</name></member>
       <member refid="group__GeneralGroup_1ga8e96983524e4526167e2bf795ac13686" kind="variable"><name>vertShifts</name></member>
@@ -27,7 +27,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="23" bodyend="39"/>
+    <location file="MRMesh/MRPositionVertsSmoothly.h" line="22" column="1" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="23" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7a683cc3d1052af67b00984f50fa920d" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>edgeWeights</name></member>
       <member refid="group__GeneralGroup_1ga35aa8fa1280f405afeb9f43189843024" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>region</name></member>

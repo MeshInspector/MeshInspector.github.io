@@ -1,7 +1,7 @@
 var MRObjectSave_8h =
 [
-    [ "serializeObjectTree", "MRObjectSave_8h.html#ga8e2307a8f198f020fdeaf54194c5b3c1", null ],
-    [ "serializeObjectTree", "MRObjectSave_8h.html#ga96300fe7beb9ae21cb2eba4e6e58f0cb", null ],
-    [ "toAnySupportedFormat", "MRObjectSave_8h.html#gadd2495742f624ca0843f8ace8045dce5", null ],
-    [ "toAnySupportedSceneFormat", "MRObjectSave_8h.html#ga69e0def5ecc5e5bf5dc89d3a4fe892ff", null ]
+    [ "MR::serializeObjectTree", "group__GeneralGroup.html#ga52f72eaec639a525805b33872f567ba2", null ],
+    [ "MR::serializeObjectTree", "group__GeneralGroup.html#ga3fa67e9b2bffd51623fd22f0bc905c63", null ],
+    [ "MR::ObjectSave::toAnySupportedFormat", "group__GeneralGroup.html#ga0608cdde2a887ca5a818ea80d05340ab", null ],
+    [ "MR::ObjectSave::toAnySupportedSceneFormat", "group__GeneralGroup.html#gadd599c2ce208d307f45d847e255a38da", null ]
 ];

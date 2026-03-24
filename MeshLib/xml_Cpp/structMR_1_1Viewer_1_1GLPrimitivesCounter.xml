@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Viewer_1_1GLPrimitivesCounter" kind="struct" language="C++" prot="private">
     <compoundname>MR::Viewer::GLPrimitivesCounter</compoundname>
     <sectiondef kind="public-attrib">
@@ -12,7 +12,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="587" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" bodystart="588" bodyend="591"/>
+    <location file="MRViewer/MRViewer.h" line="587" column="13" bodyfile="MRViewer/MRViewer.h" bodystart="588" bodyend="591"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5e3703eba5285dc1c4ccfdcb9784030e" prot="public" virt="non-virtual"><scope>MR::Viewer::GLPrimitivesCounter</scope><name>counter</name></member>
       <member refid="group__GeneralGroup_1ga4dd7ea4b014eafdbbb1c753fb97eb3ab" prot="public" virt="non-virtual"><scope>MR::Viewer::GLPrimitivesCounter</scope><name>reset</name></member>

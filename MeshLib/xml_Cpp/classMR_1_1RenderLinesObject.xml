@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderLinesObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderLinesObject</compoundname>
     <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
-    <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;</derivedcompoundref>
-    <includes refid="MRRenderLinesObject_8h" local="no">MRRenderLinesObject.h</includes>
+    <includes refid="MRRenderLinesObject_8h" local="no">MRViewer/MRRenderLinesObject.h</includes>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga113d7ee8bb8a894bcab50bb29828e562" kind="typedef"><name>GLuint</name></member>
     </sectiondef>
@@ -55,28 +54,10 @@
         <label>MR::IRenderObject</label>
         <link refid="classMR_1_1IRenderObject"/>
       </node>
-      <node id="4">
-        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectLines, RenderLinesObject &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent"/>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR::RenderLinesObject</label>
         <link refid="classMR_1_1RenderLinesObject"/>
         <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;</label>
-        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
-        <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
@@ -92,7 +73,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="17" bodyend="70"/>
+    <location file="MRViewer/MRRenderLinesObject.h" line="16" column="1" bodyfile="MRViewer/MRRenderLinesObject.h" bodystart="17" bodyend="70"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac63f7831409d2dc2e41ee91f8664c80a" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>accumScreenLengthTex_</name></member>
       <member refid="group__GeneralGroup_1ga28cec058407553b31e64b2b7bbb50fab" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>bindLines_</name></member>

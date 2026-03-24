@@ -7,12 +7,12 @@ var classMR_1_1MarchingCubesParams =
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a7798be64c0a77fc70da302be877ce912", null ],
     [ "assign", "classMR_1_1MarchingCubesParams.html#af318d4629315800cb3b176b51963521e", null ],
     [ "cachingMode", "classMR_1_1MarchingCubesParams.html#a852de63ff0aa233c9cdedcadc75e534e", null ],
-    [ "cb", "classMR_1_1MarchingCubesParams.html#a7b4053971568fa801dd2a58e62952d72", null ],
-    [ "freeVolume", "classMR_1_1MarchingCubesParams.html#a8c76b3c455b2056a2f524ef7e5901c64", null ],
+    [ "cb", "classMR_1_1MarchingCubesParams.html#a0db721571e052c44dea2700e0c005f8f", null ],
+    [ "freeVolume", "classMR_1_1MarchingCubesParams.html#a21124291760e32f15be8d58f386adaf9", null ],
     [ "iso", "classMR_1_1MarchingCubesParams.html#ae24ce2681cd684b9209fe2f3138c2dfa", null ],
     [ "lessInside", "classMR_1_1MarchingCubesParams.html#a5acb82da0e16db53e25fdffc90595f03", null ],
     [ "maxVertices", "classMR_1_1MarchingCubesParams.html#aa4c30046ae0305235443c5eb6c6dee6c", null ],
     [ "origin", "classMR_1_1MarchingCubesParams.html#a3e88ef617156d8fa1b7747e13b5e7c97", null ],
     [ "outVoxelPerFaceMap", "classMR_1_1MarchingCubesParams.html#ab70a53c123978b49b73f2a024a1f6811", null ],
-    [ "positioner", "classMR_1_1MarchingCubesParams.html#abe4798cfe4e1d39e47330e393115726a", null ]
+    [ "positioner", "classMR_1_1MarchingCubesParams.html#a01f6d274d5f74943b287e9ac3621b438", null ]
 ];

@@ -1,0 +1,1629 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__VertBitSet_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_VertBitSet.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_VertBitSet.h</label>
+        <link refid="std__vector__MR__VertBitSet_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a0d9ca83648cf14ad25d45da3554de34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet * MR_std_vector_MR_VertBitSet_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a53cb3d6cc6c904f32c5f4adf5819405a" kindref="member">MR_std_vector_MR_VertBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="30" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="30" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a66c902e0ed8d8b27fbf2f00f2d3b17f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet * MR_std_vector_MR_VertBitSet_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a78410b37d8c496715aa9be6b3715e662" kindref="member">MR_std_vector_MR_VertBitSet_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a7eb169115fadf51f130950cbdc19d8e0" kindref="member">MR_std_vector_MR_VertBitSet_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a3ee5c740fc1d533f48ae7d30e5423313" kindref="member">MR_std_vector_MR_VertBitSet_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="35" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="35" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1aeba02d25cda36e94263d4215dc431431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet * MR_std_vector_MR_VertBitSet_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_VertBitSet *other)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a53cb3d6cc6c904f32c5f4adf5819405a" kindref="member">MR_std_vector_MR_VertBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="41" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="41" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a917219e6054bcae2a7f93016c96005fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, MR_PassBy other_pass_by, MR_std_vector_MR_VertBitSet *other)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a53cb3d6cc6c904f32c5f4adf5819405a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a78410b37d8c496715aa9be6b3715e662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a3ee5c740fc1d533f48ae7d30e5423313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VertBitSet * MR_std_vector_MR_VertBitSet_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="57" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="57" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a7eb169115fadf51f130950cbdc19d8e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet * MR_std_vector_MR_VertBitSet_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="61" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="61" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a0eaa38fe992924527bccd2a046cabaab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_VertBitSet_size</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_size</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a75103bda646ce670c1b3a3101739f628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VertBitSet_empty</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_empty</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a4b3ca32451b36bfe15339902ed9cf2f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_resize</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_resize</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ab3ddfc376375845877f75c976f9a3a9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, size_t new_size, const MR_VertBitSet *value)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1addb20b107c4e0bb31a299f155a01f0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_clear</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_clear</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a70b365069da13dcfa8b6009265f83fd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_VertBitSet_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_capacity</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ae1c1a7133e47ed78f1d9fd628a6bb188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_reserve</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_reserve</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a1042ffdc2642eff978ec5abddccc0d5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a334e892981247fee7ce14d1a94437b3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API const MR_VertBitSet * MR_std_vector_MR_VertBitSet_at</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_at</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="101" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="101" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ab7d1aa1d19279a11ff840fd683bd026b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_VertBitSet * MR_std_vector_MR_VertBitSet_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_at_mut</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="107" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="107" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a778af77a2392e924b7a61a99a993c4c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API const MR_VertBitSet * MR_std_vector_MR_VertBitSet_front</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_front</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="112" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="112" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a67bf72c58aecbd6d00ec4d8d649cca22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_VertBitSet * MR_std_vector_MR_VertBitSet_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_front_mut</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="117" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="117" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a80ea3139c5b3e5cdeb6b7ebdc2325961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API const MR_VertBitSet * MR_std_vector_MR_VertBitSet_back</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_back</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="122" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="122" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1aca7d2fefcb485f289a702592b137ded8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_VertBitSet * MR_std_vector_MR_VertBitSet_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_back_mut</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="127" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="127" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1adb03292fe6fed3e1affa9634a011da6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_push_back</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, MR_PassBy new_elem_pass_by, MR_VertBitSet *new_elem)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_push_back</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a72eb843794993ae965d68d1f8a5fc239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_pop_back</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1aaba59bce79810eae51e9c70b5c052cc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_insert</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, size_t position, MR_PassBy new_elem_pass_by, MR_VertBitSet *new_elem)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_insert</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="141" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a12e2d92e189b4eca34fba86bf414885f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_erase</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_erase</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="145" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a969f00c218d6b2358c4a2ae2806e8215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_iterator *position, MR_PassBy new_elem_pass_by, MR_VertBitSet *new_elem)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="151" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a09a596bae10fa79da4944172ecc4f598" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a5f37b378504160738a740a7b0a113ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_const_iterator *position, MR_PassBy new_elem_pass_by, MR_VertBitSet *new_elem)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a77ab4ae93bd04f96d78a84bc876c0485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a40813487a5ce1c40f7b040e2732a3e14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_const_iterator * MR_std_vector_MR_VertBitSet_begin</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_begin</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a46d53bbed461173852992ce1528425ba" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="173" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="173" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ae6873a79031237c3e19a01efa5f72471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VertBitSet_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_is_begin</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a7f227c6574df70d48358216f9e86275e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_iterator * MR_std_vector_MR_VertBitSet_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_begin_mut</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1aa392b47627167809b948b08419df923f" kindref="member">MR_std_vector_MR_VertBitSet_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="184" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="184" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a636844c3a00da8f1f2f0d19cb3489576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VertBitSet_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1aef846f12a53dc3aebb1485208c2e91dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_const_iterator * MR_std_vector_MR_VertBitSet_end</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_end</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a46d53bbed461173852992ce1528425ba" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="195" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="195" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a763d337d7296dc35f4b4b7c306d3ffa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VertBitSet_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_is_end</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a9c47a6808546a0a6ddca466d3adb6225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_iterator * MR_std_vector_MR_VertBitSet_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_end_mut</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1aa392b47627167809b948b08419df923f" kindref="member">MR_std_vector_MR_VertBitSet_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="206" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="206" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1aadeabe3e7f7f581cac2d7fe740d76e34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VertBitSet_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a6c95d583567e292e1b6e1dbf91aed3f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_VertBitSet_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_to_index</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="216" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a996de5a1d08f26ae4716468c57a114b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_VertBitSet_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet *_this, const MR_std_vector_MR_VertBitSet_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ad7ae236a0bc06994b6d4a7878030e7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_const_iterator * MR_std_vector_MR_VertBitSet_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a46d53bbed461173852992ce1528425ba" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="225" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="225" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ae91354a750b15696a49a947114437614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_const_iterator * MR_std_vector_MR_VertBitSet_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1ac2242f70066944bf841c588cc28fd147" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a23f0a460e8153afb2da3e97f31a13945" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1ac5bb6c3a971faf2d44b6cdd401cbdbb2" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="230" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="230" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1afa448aee25a87ca351b0d152ffe8d05b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_const_iterator * MR_std_vector_MR_VertBitSet_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a46d53bbed461173852992ce1528425ba" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="237" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="237" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ab778438ca7f49d061fb83ef36c5caf3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_const_iterator *_this, const MR_std_vector_MR_VertBitSet_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a46d53bbed461173852992ce1528425ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ac2242f70066944bf841c588cc28fd147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="250" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ac5bb6c3a971faf2d44b6cdd401cbdbb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VertBitSet_const_iterator * MR_std_vector_MR_VertBitSet_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="254" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="254" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a23f0a460e8153afb2da3e97f31a13945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_const_iterator * MR_std_vector_MR_VertBitSet_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="258" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="258" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1afd32ae9c8943464bcd6d6e6301bfb832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_const_iterator * MR_std_vector_MR_VertBitSet_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a46d53bbed461173852992ce1528425ba" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="263" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="263" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a090ed4f6bd35ad4a7e1427fc501f0269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_iterator * MR_std_vector_MR_VertBitSet_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1aa392b47627167809b948b08419df923f" kindref="member">MR_std_vector_MR_VertBitSet_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="267" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="267" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1adaf54d684eece631d31bf02d69784f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_iterator * MR_std_vector_MR_VertBitSet_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a1a9335e99757e758f5678f0447854526" kindref="member">MR_std_vector_MR_VertBitSet_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a60e50179f5ccd72dfb5e6e34f033be0e" kindref="member">MR_std_vector_MR_VertBitSet_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1a96e1331e6cb7bd97b7c11e77620ea39d" kindref="member">MR_std_vector_MR_VertBitSet_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="272" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="272" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a59cbe710e8e6cb6266993898b1ee2b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_iterator * MR_std_vector_MR_VertBitSet_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VertBitSet_8h_1aa392b47627167809b948b08419df923f" kindref="member">MR_std_vector_MR_VertBitSet_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="279" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="279" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a6dbc632a17d9d6c8aae0794afc0b08a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_iterator *_this, const MR_std_vector_MR_VertBitSet_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1aa392b47627167809b948b08419df923f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a1a9335e99757e758f5678f0447854526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a96e1331e6cb7bd97b7c11e77620ea39d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VertBitSet_iterator * MR_std_vector_MR_VertBitSet_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="296" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="296" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a60e50179f5ccd72dfb5e6e34f033be0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VertBitSet_iterator * MR_std_vector_MR_VertBitSet_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="300" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="300" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1af1b84fad9e551f4e9b48a812a8c78cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API const MR_VertBitSet * MR_std_vector_MR_VertBitSet_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="306" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="306" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ab2f2f79832866afa587280c6f242f7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="310" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1aa854186e84f40841e2ed775727bf5296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a36106a9b68a8ea5d75503ac093374556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a3c5c95162fda09b2a8f2dd2769b295cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_VertBitSet_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_const_iterator *a, const MR_std_vector_MR_VertBitSet_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_VertBitSet_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="323" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="323" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a49ab2590e5b72fbb2be64e4737f19fee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_VertBitSet_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_const_iterator *a, const MR_std_vector_MR_VertBitSet_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_VertBitSet_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ad5e462bf3d2e4d787c74d129a4df605a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_VertBitSet * MR_std_vector_MR_VertBitSet_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="334" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="334" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1a9dd7a87ec5f1a6826a679730cd47045a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1ab2aeaf57210da97949f4df03f4a6158b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1aab0d6888653761c3cd35c86fbef97a7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VertBitSet_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_VertBitSet_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_VertBitSet_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1af4c28bd5c80e6189207158f5e84dc248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_VertBitSet_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_iterator *a, const MR_std_vector_MR_VertBitSet_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_VertBitSet_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VertBitSet_8h_1af739af4d9f436b0b35c9c7664654d6a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_VertBitSet_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VertBitSet_iterator *a, const MR_std_vector_MR_VertBitSet_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_VertBitSet_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h" declline="356" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__VertBitSet_8h_1a0d9ca83648cf14ad25d45da3554de34f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a0d9ca83648cf14ad25d45da3554de34f" kindref="member">MR_std_vector_MR_VertBitSet_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__VertBitSet_8h_1a66c902e0ed8d8b27fbf2f00f2d3b17f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a66c902e0ed8d8b27fbf2f00f2d3b17f7" kindref="member">MR_std_vector_MR_VertBitSet_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__VertBitSet_8h_1aeba02d25cda36e94263d4215dc431431" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1aeba02d25cda36e94263d4215dc431431" kindref="member">MR_std_vector_MR_VertBitSet_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__VertBitSet_8h_1a917219e6054bcae2a7f93016c96005fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a917219e6054bcae2a7f93016c96005fa" kindref="member">MR_std_vector_MR_VertBitSet_AssignFromAnother</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__VertBitSet_8h_1a53cb3d6cc6c904f32c5f4adf5819405a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a53cb3d6cc6c904f32c5f4adf5819405a" kindref="member">MR_std_vector_MR_VertBitSet_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__VertBitSet_8h_1a78410b37d8c496715aa9be6b3715e662" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a78410b37d8c496715aa9be6b3715e662" kindref="member">MR_std_vector_MR_VertBitSet_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__VertBitSet_8h_1a3ee5c740fc1d533f48ae7d30e5423313" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a3ee5c740fc1d533f48ae7d30e5423313" kindref="member">MR_std_vector_MR_VertBitSet_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__VertBitSet_8h_1a7eb169115fadf51f130950cbdc19d8e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a7eb169115fadf51f130950cbdc19d8e0" kindref="member">MR_std_vector_MR_VertBitSet_OffsetMutablePtr</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__VertBitSet_8h_1a0eaa38fe992924527bccd2a046cabaab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a0eaa38fe992924527bccd2a046cabaab" kindref="member">MR_std_vector_MR_VertBitSet_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__VertBitSet_8h_1a75103bda646ce670c1b3a3101739f628" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a75103bda646ce670c1b3a3101739f628" kindref="member">MR_std_vector_MR_VertBitSet_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__VertBitSet_8h_1a4b3ca32451b36bfe15339902ed9cf2f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a4b3ca32451b36bfe15339902ed9cf2f7" kindref="member">MR_std_vector_MR_VertBitSet_resize</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__VertBitSet_8h_1ab3ddfc376375845877f75c976f9a3a9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1ab3ddfc376375845877f75c976f9a3a9b" kindref="member">MR_std_vector_MR_VertBitSet_resize_with_default_value</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__VertBitSet_8h_1addb20b107c4e0bb31a299f155a01f0bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1addb20b107c4e0bb31a299f155a01f0bc" kindref="member">MR_std_vector_MR_VertBitSet_clear</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__VertBitSet_8h_1a70b365069da13dcfa8b6009265f83fd9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a70b365069da13dcfa8b6009265f83fd9" kindref="member">MR_std_vector_MR_VertBitSet_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__VertBitSet_8h_1ae1c1a7133e47ed78f1d9fd628a6bb188" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1ae1c1a7133e47ed78f1d9fd628a6bb188" kindref="member">MR_std_vector_MR_VertBitSet_reserve</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__VertBitSet_8h_1a1042ffdc2642eff978ec5abddccc0d5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a1042ffdc2642eff978ec5abddccc0d5a" kindref="member">MR_std_vector_MR_VertBitSet_shrink_to_fit</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__VertBitSet_8h_1a334e892981247fee7ce14d1a94437b3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a334e892981247fee7ce14d1a94437b3e" kindref="member">MR_std_vector_MR_VertBitSet_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__VertBitSet_8h_1ab7d1aa1d19279a11ff840fd683bd026b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1ab7d1aa1d19279a11ff840fd683bd026b" kindref="member">MR_std_vector_MR_VertBitSet_at_mut</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__VertBitSet_8h_1a778af77a2392e924b7a61a99a993c4c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a778af77a2392e924b7a61a99a993c4c2" kindref="member">MR_std_vector_MR_VertBitSet_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__VertBitSet_8h_1a67bf72c58aecbd6d00ec4d8d649cca22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a67bf72c58aecbd6d00ec4d8d649cca22" kindref="member">MR_std_vector_MR_VertBitSet_front_mut</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__VertBitSet_8h_1a80ea3139c5b3e5cdeb6b7ebdc2325961" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a80ea3139c5b3e5cdeb6b7ebdc2325961" kindref="member">MR_std_vector_MR_VertBitSet_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__VertBitSet_8h_1aca7d2fefcb485f289a702592b137ded8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1aca7d2fefcb485f289a702592b137ded8" kindref="member">MR_std_vector_MR_VertBitSet_back_mut</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="std__vector__MR__VertBitSet_8h_1adb03292fe6fed3e1affa9634a011da6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1adb03292fe6fed3e1affa9634a011da6b" kindref="member">MR_std_vector_MR_VertBitSet_push_back</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="std__vector__MR__VertBitSet_8h_1a72eb843794993ae965d68d1f8a5fc239" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a72eb843794993ae965d68d1f8a5fc239" kindref="member">MR_std_vector_MR_VertBitSet_pop_back</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="std__vector__MR__VertBitSet_8h_1aaba59bce79810eae51e9c70b5c052cc0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1aaba59bce79810eae51e9c70b5c052cc0" kindref="member">MR_std_vector_MR_VertBitSet_insert</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="std__vector__MR__VertBitSet_8h_1a12e2d92e189b4eca34fba86bf414885f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a12e2d92e189b4eca34fba86bf414885f" kindref="member">MR_std_vector_MR_VertBitSet_erase</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="std__vector__MR__VertBitSet_8h_1a969f00c218d6b2358c4a2ae2806e8215" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a969f00c218d6b2358c4a2ae2806e8215" kindref="member">MR_std_vector_MR_VertBitSet_insert_at_mutable_iter</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="std__vector__MR__VertBitSet_8h_1a09a596bae10fa79da4944172ecc4f598" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a09a596bae10fa79da4944172ecc4f598" kindref="member">MR_std_vector_MR_VertBitSet_erase_at_mutable_iter</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__VertBitSet_8h_1a5f37b378504160738a740a7b0a113ac3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a5f37b378504160738a740a7b0a113ac3" kindref="member">MR_std_vector_MR_VertBitSet_insert_at_iter</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="std__vector__MR__VertBitSet_8h_1a77ab4ae93bd04f96d78a84bc876c0485" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a77ab4ae93bd04f96d78a84bc876c0485" kindref="member">MR_std_vector_MR_VertBitSet_erase_at_iter</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__VertBitSet_8h_1a40813487a5ce1c40f7b040e2732a3e14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a40813487a5ce1c40f7b040e2732a3e14" kindref="member">MR_std_vector_MR_VertBitSet_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__MR__VertBitSet_8h_1ae6873a79031237c3e19a01efa5f72471" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1ae6873a79031237c3e19a01efa5f72471" kindref="member">MR_std_vector_MR_VertBitSet_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__VertBitSet_8h_1a7f227c6574df70d48358216f9e86275e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a7f227c6574df70d48358216f9e86275e" kindref="member">MR_std_vector_MR_VertBitSet_begin_mut</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__MR__VertBitSet_8h_1a636844c3a00da8f1f2f0d19cb3489576" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a636844c3a00da8f1f2f0d19cb3489576" kindref="member">MR_std_vector_MR_VertBitSet_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__VertBitSet_8h_1aef846f12a53dc3aebb1485208c2e91dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1aef846f12a53dc3aebb1485208c2e91dd" kindref="member">MR_std_vector_MR_VertBitSet_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__MR__VertBitSet_8h_1a763d337d7296dc35f4b4b7c306d3ffa4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a763d337d7296dc35f4b4b7c306d3ffa4" kindref="member">MR_std_vector_MR_VertBitSet_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__VertBitSet_8h_1a9c47a6808546a0a6ddca466d3adb6225" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a9c47a6808546a0a6ddca466d3adb6225" kindref="member">MR_std_vector_MR_VertBitSet_end_mut</ref>(<ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__MR__VertBitSet_8h_1aadeabe3e7f7f581cac2d7fe740d76e34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1aadeabe3e7f7f581cac2d7fe740d76e34" kindref="member">MR_std_vector_MR_VertBitSet_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__vector__MR__VertBitSet_8h_1a6c95d583567e292e1b6e1dbf91aed3f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VertBitSet_8h_1a6c95d583567e292e1b6e1dbf91aed3f4" kindref="member">MR_std_vector_MR_VertBitSet_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__vector__MR__VertBitSet_8h_1a996de5a1d08f26ae4716468c57a114b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VertBitSet_8h_1a996de5a1d08f26ae4716468c57a114b4" kindref="member">MR_std_vector_MR_VertBitSet_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__VertBitSet_8h_1ad7ae236a0bc06994b6d4a7878030e7d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1ad7ae236a0bc06994b6d4a7878030e7d2" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="std__vector__MR__VertBitSet_8h_1ae91354a750b15696a49a947114437614" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1ae91354a750b15696a49a947114437614" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__vector__MR__VertBitSet_8h_1afa448aee25a87ca351b0d152ffe8d05b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1afa448aee25a87ca351b0d152ffe8d05b" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="std__vector__MR__VertBitSet_8h_1ab778438ca7f49d061fb83ef36c5caf3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1ab778438ca7f49d061fb83ef36c5caf3f" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__VertBitSet_8h_1a46d53bbed461173852992ce1528425ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a46d53bbed461173852992ce1528425ba" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="std__vector__MR__VertBitSet_8h_1ac2242f70066944bf841c588cc28fd147" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1ac2242f70066944bf841c588cc28fd147" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__VertBitSet_8h_1ac5bb6c3a971faf2d44b6cdd401cbdbb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1ac5bb6c3a971faf2d44b6cdd401cbdbb2" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__VertBitSet_8h_1a23f0a460e8153afb2da3e97f31a13945" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a23f0a460e8153afb2da3e97f31a13945" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="std__vector__MR__VertBitSet_8h_1afd32ae9c8943464bcd6d6e6301bfb832" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1afd32ae9c8943464bcd6d6e6301bfb832" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__VertBitSet_8h_1a090ed4f6bd35ad4a7e1427fc501f0269" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a090ed4f6bd35ad4a7e1427fc501f0269" kindref="member">MR_std_vector_MR_VertBitSet_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="std__vector__MR__VertBitSet_8h_1adaf54d684eece631d31bf02d69784f2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1adaf54d684eece631d31bf02d69784f2c" kindref="member">MR_std_vector_MR_VertBitSet_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="std__vector__MR__VertBitSet_8h_1a59cbe710e8e6cb6266993898b1ee2b4e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a59cbe710e8e6cb6266993898b1ee2b4e" kindref="member">MR_std_vector_MR_VertBitSet_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="std__vector__MR__VertBitSet_8h_1a6dbc632a17d9d6c8aae0794afc0b08a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a6dbc632a17d9d6c8aae0794afc0b08a7" kindref="member">MR_std_vector_MR_VertBitSet_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__VertBitSet_8h_1aa392b47627167809b948b08419df923f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1aa392b47627167809b948b08419df923f" kindref="member">MR_std_vector_MR_VertBitSet_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="std__vector__MR__VertBitSet_8h_1a1a9335e99757e758f5678f0447854526" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a1a9335e99757e758f5678f0447854526" kindref="member">MR_std_vector_MR_VertBitSet_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__VertBitSet_8h_1a96e1331e6cb7bd97b7c11e77620ea39d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a96e1331e6cb7bd97b7c11e77620ea39d" kindref="member">MR_std_vector_MR_VertBitSet_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__VertBitSet_8h_1a60e50179f5ccd72dfb5e6e34f033be0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1a60e50179f5ccd72dfb5e6e34f033be0e" kindref="member">MR_std_vector_MR_VertBitSet_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__VertBitSet_8h_1af1b84fad9e551f4e9b48a812a8c78cec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1af1b84fad9e551f4e9b48a812a8c78cec" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__VertBitSet_8h_1ab2f2f79832866afa587280c6f242f7f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1ab2f2f79832866afa587280c6f242f7f3" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_incr</ref>(<ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__VertBitSet_8h_1aa854186e84f40841e2ed775727bf5296" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1aa854186e84f40841e2ed775727bf5296" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_decr</ref>(<ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__VertBitSet_8h_1a36106a9b68a8ea5d75503ac093374556" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a36106a9b68a8ea5d75503ac093374556" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__VertBitSet_8h_1a3c5c95162fda09b2a8f2dd2769b295cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VertBitSet_8h_1a3c5c95162fda09b2a8f2dd2769b295cc" kindref="member">MR_sub_MR_std_vector_MR_VertBitSet_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="std__vector__MR__VertBitSet_8h_1a49ab2590e5b72fbb2be64e4737f19fee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a49ab2590e5b72fbb2be64e4737f19fee" kindref="member">MR_equal_MR_std_vector_MR_VertBitSet_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0bf2b3c87c09b94d69384b51e377ca2e" kindref="member">MR_std_vector_MR_VertBitSet_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__MR__VertBitSet_8h_1ad5e462bf3d2e4d787c74d129a4df605a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="std__vector__MR__VertBitSet_8h_1ad5e462bf3d2e4d787c74d129a4df605a" kindref="member">MR_std_vector_MR_VertBitSet_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__VertBitSet_8h_1a9dd7a87ec5f1a6826a679730cd47045a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1a9dd7a87ec5f1a6826a679730cd47045a" kindref="member">MR_std_vector_MR_VertBitSet_iterator_incr</ref>(<ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__VertBitSet_8h_1ab2aeaf57210da97949f4df03f4a6158b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1ab2aeaf57210da97949f4df03f4a6158b" kindref="member">MR_std_vector_MR_VertBitSet_iterator_decr</ref>(<ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__VertBitSet_8h_1aab0d6888653761c3cd35c86fbef97a7a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1aab0d6888653761c3cd35c86fbef97a7a" kindref="member">MR_std_vector_MR_VertBitSet_iterator_add_assign</ref>(<ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__VertBitSet_8h_1af4c28bd5c80e6189207158f5e84dc248" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VertBitSet_8h_1af4c28bd5c80e6189207158f5e84dc248" kindref="member">MR_sub_MR_std_vector_MR_VertBitSet_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="std__vector__MR__VertBitSet_8h_1af739af4d9f436b0b35c9c7664654d6a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VertBitSet_8h_1af739af4d9f436b0b35c9c7664654d6a4" kindref="member">MR_equal_MR_std_vector_MR_VertBitSet_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aa854b3f59c3d7b5d01fb2614dfbe6f3a" kindref="member">MR_std_vector_MR_VertBitSet_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VertBitSet.h"/>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Polyline2" kind="class" language="C#" prot="public">
     <compoundname>MR::Polyline2</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Polyline2</basecompoundref>
@@ -84,7 +84,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Polyline2.Polyline2</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -103,7 +103,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Polyline2.Polyline2</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -122,7 +122,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Polyline2.Polyline2</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -141,7 +141,7 @@
           <declname>contour</declname>
         </param>
         <briefdescription>
-<para>creates polyline from one contour (open or closed) Generated from constructor <computeroutput>MR.Polyline2.Polyline2</computeroutput>. </para>
+<para>creates polyline from one contour (open or closed) Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>contours</declname>
         </param>
         <briefdescription>
-<para>creates polyline from several contours (each can be open or closed) Generated from constructor <computeroutput>MR.Polyline2.Polyline2</computeroutput>. </para>
+<para>creates polyline from several contours (each can be open or closed) Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
 <parametername>ps</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>point coordinates Generated from constructor <computeroutput>MR.Polyline2.Polyline2</computeroutput>. </para>
+<para>point coordinates Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -220,7 +220,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Polyline2.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Polyline2::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -276,7 +276,7 @@
 <para>adds connected line in this, passing progressively via points *[vs, vs+num) </para>
         </briefdescription>
         <detaileddescription>
-<para>if num &gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a2812f7d28c0073a60e69b464336d83ba" kindref="member">MR.Polyline2.addFromPoints</ref></computeroutput>. </para>
+<para>if num &amp;gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a2812f7d28c0073a60e69b464336d83ba" kindref="member">MR.Polyline2.addFromPoints</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -314,7 +314,7 @@
 <parametername>outEmap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>(optionally) returns mappings: from.id -&gt; this.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1af177a1d423bc1ab0e96db95c60e141da" kindref="member">MR.Polyline2.addPart</ref></computeroutput>. </para>
+<para>(optionally) returns mappings: from.id -&amp;gt; this.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1af177a1d423bc1ab0e96db95c60e141da" kindref="member">MR.Polyline2.addPart</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -374,7 +374,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&gt; new.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a31388521b351a304f6e9fa9b584564fd" kindref="member">MR.Polyline2.pack</ref></computeroutput>. </para>
+<para>tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&amp;gt; new.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a31388521b351a304f6e9fa9b584564fd" kindref="member">MR.Polyline2.pack</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -557,7 +557,7 @@
           <declname>contour</declname>
         </param>
         <briefdescription>
-<para>creates polyline from one contour (open or closed) Generated from constructor <computeroutput>MR.Polyline2.Polyline2</computeroutput>. </para>
+<para>creates polyline from one contour (open or closed) Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -576,7 +576,7 @@
           <declname>contours</declname>
         </param>
         <briefdescription>
-<para>creates polyline from several contours (each can be open or closed) Generated from constructor <computeroutput>MR.Polyline2.Polyline2</computeroutput>. </para>
+<para>creates polyline from several contours (each can be open or closed) Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -591,45 +591,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Polyline2</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Polyline2</label>
         <link refid="classMR_1_1Polyline2"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Polyline2</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Polyline2 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Polyline2</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Polyline2</label>
         <link refid="classMR_1_1Polyline2"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Polyline2</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Polyline2 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="393" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="394" bodyend="680"/>

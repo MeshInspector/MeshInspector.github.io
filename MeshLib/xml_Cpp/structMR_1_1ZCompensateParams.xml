@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ZCompensateParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::ZCompensateParams</compoundname>
-    <includes refid="MROffsetVerts_8h" local="no">MROffsetVerts.h</includes>
+    <includes refid="MROffsetVerts_8h" local="no">MRMesh/MROffsetVerts.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gace23d61165b2d32752b31667f44c5306" kind="variable"><name>maxShift</name></member>
       <member refid="group__GeneralGroup_1ga63aacee1cab39c7a61fbcbd98bb05d08" kind="variable"><name>reduceSelfIntersections</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" bodystart="38" bodyend="51"/>
+    <location file="MRMesh/MROffsetVerts.h" line="37" column="1" bodyfile="MRMesh/MROffsetVerts.h" bodystart="38" bodyend="51"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gace23d61165b2d32752b31667f44c5306" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>maxShift</name></member>
       <member refid="group__GeneralGroup_1gab7a1ca3fc82fe6085925f64efc8337b4" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>minThickness</name></member>

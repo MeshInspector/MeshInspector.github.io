@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshShader_8h" kind="file" language="C++">
     <compoundname>MRMeshShader.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -7,7 +7,7 @@
     <includes local="no">string</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRMeshShader.h</label>
+        <label>MRViewer/MRMeshShader.h</label>
         <link refid="MRMeshShader_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -46,16 +46,16 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="group__GeneralGroup_1ga1ef70778faa5587efd51d899e5e425e1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga1ef70778faa5587efd51d899e5e425e1" kindref="member">getMeshVerticesShader</ref>();</highlight></codeline>
+<codeline lineno="12" refid="group__GeneralGroup_1ga58b5db17906c4933f686cc9d1476a155" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga58b5db17906c4933f686cc9d1476a155" kindref="member">getMeshVerticesShader</ref>();</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1ga2b81893b02fa429ab4e07214a0f2f056" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga2b81893b02fa429ab4e07214a0f2f056" kindref="member">getMeshFragmentShader</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>gl4,<sp/><ref refid="group__GeneralGroup_1ga26e449af7b615d9ec3575a5298ac7083" kindref="member">ShaderTransparencyMode</ref><sp/>mode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>msaaEnabled<sp/>);</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga453e0ab2d0aa5b3ca3a51bb87086761f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga453e0ab2d0aa5b3ca3a51bb87086761f" kindref="member">getMeshFragmentShader</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>gl4,<sp/><ref refid="group__GeneralGroup_1ga26e449af7b615d9ec3575a5298ac7083" kindref="member">ShaderTransparencyMode</ref><sp/>mode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>msaaEnabled<sp/>);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1gadf0c9f368d580d753d6be5949cb9aeb5" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gadf0c9f368d580d753d6be5949cb9aeb5" kindref="member">getMeshFragmentShaderArgumetsBlock</ref>();</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gabb7612a6b46687b1a08ffe80aeca641a" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gabb7612a6b46687b1a08ffe80aeca641a" kindref="member">getMeshFragmentShaderArgumetsBlock</ref>();</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga983223b5a1d14a48822c74d9b77cbd96" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga983223b5a1d14a48822c74d9b77cbd96" kindref="member">getMeshFragmentShaderColoringBlock</ref>();</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gab290dd3e9fa97c3f11d1b72981966efe" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gab290dd3e9fa97c3f11d1b72981966efe" kindref="member">getMeshFragmentShaderColoringBlock</ref>();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshShader.h"/>
+    <location file="MRViewer/MRMeshShader.h"/>
   </compounddef>
 </doxygen>

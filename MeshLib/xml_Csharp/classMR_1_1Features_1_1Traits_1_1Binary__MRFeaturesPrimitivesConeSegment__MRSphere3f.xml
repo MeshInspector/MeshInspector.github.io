@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2462" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2462" bodyend="2462"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2500" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2500" bodyend="2500"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2467" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2467" bodyend="2472"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2505" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2505" bodyend="2510"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f_1ae076a16274ca59bb2cd1909881a42fc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,13 +54,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&gt;::Binary</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&amp;amp;gt;::Binary</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2477" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2477" bodyend="2483"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2515" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2515" bodyend="2521"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f_1a7d04501f537e859e5b7eeb83bfcc8dc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,13 +73,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&gt;::Binary</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&amp;amp;gt;::Binary</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2488" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2488" bodyend="2488"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2526" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2526" bodyend="2526"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f_1aba1f3302963e7d5ed8ad654ce2ee6984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f" kindref="compound">MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</ref></type>
@@ -92,63 +92,63 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2493" column="97" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2493" bodyend="2500"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2531" column="97" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2531" bodyend="2538"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>, <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</label>
         <link refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</label>
         <link refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2460" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2461" bodyend="2501"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2498" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2499" bodyend="2539"/>
     <listofallmembers>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f_1aba1f3302963e7d5ed8ad654ce2ee6984" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f_1a883a5833fa09223d3a8ba466c89dd1b7" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</scope><name>Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</name></member>

@@ -1,6 +1,7 @@
 var MRZip_8h =
 [
-    [ "compressZip", "MRZip_8h.html#ga5b20b87f58909c05202f8eebdbbcdd1e", null ],
-    [ "decompressZip", "MRZip_8h.html#ga60ea0861186c3cd722eaed269571bc6d", null ],
-    [ "decompressZip", "MRZip_8h.html#ga2e076375162aa8d5f3665a95f10e3710", null ]
+    [ "MR::compressZip", "group__SerializerGroup.html#gaaeb1d5f0f783381f2285fd4d7fbd1c6b", null ],
+    [ "MR::compressZip", "group__SerializerGroup.html#ga4466031d05f4eb56868dc88105bc5248", null ],
+    [ "MR::decompressZip", "group__SerializerGroup.html#ga4a175d8a8e417663622148510dd390ba", null ],
+    [ "MR::decompressZip", "group__SerializerGroup.html#gaeb9ec7f1149bdc406b6d901c2bc1986f", null ]
 ];

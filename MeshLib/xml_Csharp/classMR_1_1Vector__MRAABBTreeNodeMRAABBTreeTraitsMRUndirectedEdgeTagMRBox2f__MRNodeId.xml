@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1aa2026bf7e04712272dd9ab4aa3f59ceb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
@@ -11,13 +12,13 @@
         <name>vec</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.vec</qualifiedname>
         <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47878" column="96" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47878" bodyend="47878"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59677" column="96" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59677" bodyend="59677"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ada4d6ee6b17e076347f4e88390dfa6ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
@@ -26,13 +27,516 @@
         <name>this[MR.NodeId i]</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.this[MR.NodeId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48036" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48037" bodyend="48047"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59835" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59836" bodyend="59846"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1af240faa6577ce243b84649ce2c43c550" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f &gt; MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59664" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59664" bodyend="59667"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1aaff1a07a13dd6ada7bc8993f0f5ae4d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59706" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59706" bodyend="59712"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ae0ab8840464aa2db284de3f9459d63ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
+        <argsstring>(MR._ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId _other)</argsstring>
+        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59717" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59717" bodyend="59724"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1aef7f08309aef2f4db94688f988815303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
+        <argsstring>(Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId _other)</argsstring>
+        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
+        <param>
+          <type>Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59729" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59729" bodyend="59729"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a4b0f448879495bb1b270e1fa27786cb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
+        <argsstring>(Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId _other)</argsstring>
+        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kindref="compound">Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59734" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59734" bodyend="59734"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a35d3bade9caf0e4ad16c13481fc84e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59740" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59740" bodyend="59746"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a97271bfafad07e53c2c1c4506e2d0a4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
+        <argsstring>(ulong size, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f val)</argsstring>
+        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59752" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59752" bodyend="59759"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a288024d664e49b520179ba7d9453f0a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f &gt; vec)</argsstring>
+        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59765" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59765" bodyend="59772"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a58a712ffdf479ef9bdcfb079a7e5eb34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kindref="compound">MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</ref></type>
+        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59783" column="98" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59783" bodyend="59790"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a749ad44da3bb902020c55d0571aedefe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a749ad44da3bb902020c55d0571aedefe" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59795" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59795" bodyend="59800"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ab9d5fc9c8476c1622cd34063df4390a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ab9d5fc9c8476c1622cd34063df4390a4" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59805" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59805" bodyend="59810"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a2b2379625cd63582c56be6404c51a023" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resize</definition>
+        <argsstring>(ulong newSize, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ab9d5fc9c8476c1622cd34063df4390a4" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59815" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59815" bodyend="59820"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a903f32986431d259315fb996b73c00ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a903f32986431d259315fb996b73c00ff" kindref="member">reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59825" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59825" bodyend="59830"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a7e3c3ed45028b7e09cec2054e49e5d8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a7e3c3ed45028b7e09cec2054e49e5d8c" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59852" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59852" bodyend="59857"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a140c8512ccf2f194bc842c25c3f972a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a7e3c3ed45028b7e09cec2054e49e5d8c" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59863" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59863" bodyend="59868"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a8200155998ce52dd06aef9c55a26aa5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeSet</definition>
+        <argsstring>(MR.NodeId pos, ulong len, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a8200155998ce52dd06aef9c55a26aa5f" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59875" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59875" bodyend="59880"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ae045a4b27aa8f38a1bf57b3bad9a1e9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeSet</definition>
+        <argsstring>(MR.NodeId i, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a8200155998ce52dd06aef9c55a26aa5f" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59886" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59886" bodyend="59891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a4e6294330b2b5ef34e0118d9b1364467" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
+        <definition>unsafe MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeAt</definition>
+        <argsstring>(MR.NodeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a4e6294330b2b5ef34e0118d9b1364467" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59897" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59897" bodyend="59902"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a1abeb27c7edb199051840c9953dece49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.pushBack</definition>
+        <argsstring>(MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59907" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59907" bodyend="59913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ad1b7beb083de268a78d68690291bf688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.pushBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f &gt; t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59918" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59918" bodyend="59924"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a373297f44c58574c1d98ecedde5255e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59929" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59929" bodyend="59934"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1acedc51b52b0d3e99fc58c317642b206f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
+        <definition>unsafe MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59939" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59939" bodyend="59944"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1afbb6a4d3594ef5a7cdd3ae6e4a9caba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
+        <definition>unsafe new MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1afbb6a4d3594ef5a7cdd3ae6e4a9caba2" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59949" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59949" bodyend="59957"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a5ac06a8e6f3b6ab5cbc15c820c74107e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
+        <definition>unsafe new MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a5ac06a8e6f3b6ab5cbc15c820c74107e" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59962" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59962" bodyend="59970"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a073fa337a30363524d4eae7b83489e16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
+        <definition>unsafe new MR.? AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a073fa337a30363524d4eae7b83489e16" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59975" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59975" bodyend="59984"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a208c1c3c2ffd3b65cffe213b0f9f015b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.swap</definition>
+        <argsstring>(MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kindref="compound">MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a208c1c3c2ffd3b65cffe213b0f9f015b" kindref="member">swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59989" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59989" bodyend="59994"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1adabf0cf052bb7bab522681e2c7ca559d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59669" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59669" bodyend="59672"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,480 +560,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47897" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47897" bodyend="47901"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1aaff1a07a13dd6ada7bc8993f0f5ae4d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
-        <argsstring>()</argsstring>
-        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47907" bodyend="47913"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ae0ab8840464aa2db284de3f9459d63ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
-        <argsstring>(MR._ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId _other)</argsstring>
-        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47918" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47918" bodyend="47925"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1aef7f08309aef2f4db94688f988815303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
-        <argsstring>(Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId _other)</argsstring>
-        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
-        <param>
-          <type>Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47930" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47930" bodyend="47930"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a4b0f448879495bb1b270e1fa27786cb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
-        <argsstring>(Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId _other)</argsstring>
-        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kindref="compound">Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47935" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47935" bodyend="47935"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a35d3bade9caf0e4ad16c13481fc84e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47941" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47941" bodyend="47947"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a97271bfafad07e53c2c1c4506e2d0a4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
-        <argsstring>(ulong size, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f val)</argsstring>
-        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47953" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47953" bodyend="47960"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a288024d664e49b520179ba7d9453f0a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f &gt; vec)</argsstring>
-        <name>Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f &gt;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47966" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47966" bodyend="47973"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a58a712ffdf479ef9bdcfb079a7e5eb34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kindref="compound">MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</ref></type>
-        <definition>unsafe MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.assign</definition>
-        <argsstring>(MR._ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47984" column="98" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47984" bodyend="47991"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a749ad44da3bb902020c55d0571aedefe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47996" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47996" bodyend="48001"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ab9d5fc9c8476c1622cd34063df4390a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48006" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48006" bodyend="48011"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a2b2379625cd63582c56be6404c51a023" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resize</definition>
-        <argsstring>(ulong newSize, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f t)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48016" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48016" bodyend="48021"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a903f32986431d259315fb996b73c00ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.reserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>capacity</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::reserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48026" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48026" bodyend="48031"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a7e3c3ed45028b7e09cec2054e49e5d8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48053" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48053" bodyend="48058"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a140c8512ccf2f194bc842c25c3f972a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f value)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48064" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48064" bodyend="48069"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a8200155998ce52dd06aef9c55a26aa5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeSet</definition>
-        <argsstring>(MR.NodeId pos, ulong len, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>ulong</type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48076" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48076" bodyend="48081"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ae045a4b27aa8f38a1bf57b3bad9a1e9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeSet</definition>
-        <argsstring>(MR.NodeId i, MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48087" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48087" bodyend="48092"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a4e6294330b2b5ef34e0118d9b1364467" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
-        <definition>unsafe MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeAt</definition>
-        <argsstring>(MR.NodeId i)</argsstring>
-        <name>autoResizeAt</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.autoResizeAt</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeAt</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48098" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48098" bodyend="48103"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a1abeb27c7edb199051840c9953dece49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.pushBack</definition>
-        <argsstring>(MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48108" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48108" bodyend="48114"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1ad1b7beb083de268a78d68690291bf688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.pushBack</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f &gt; t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref> &gt;</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48119" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48119" bodyend="48125"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a373297f44c58574c1d98ecedde5255e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.popBack</definition>
-        <argsstring>()</argsstring>
-        <name>popBack</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.popBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::pop_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48130" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48130" bodyend="48135"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1acedc51b52b0d3e99fc58c317642b206f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
-        <definition>unsafe MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.emplaceBack</definition>
-        <argsstring>()</argsstring>
-        <name>emplaceBack</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.emplaceBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48140" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48140" bodyend="48145"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1afbb6a4d3594ef5a7cdd3ae6e4a9caba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
-        <definition>unsafe new MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.front</definition>
-        <argsstring>()</argsstring>
-        <name>front</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.front</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::front</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48150" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48150" bodyend="48158"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a5ac06a8e6f3b6ab5cbc15c820c74107e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
-        <definition>unsafe new MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.back</definition>
-        <argsstring>()</argsstring>
-        <name>back</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.back</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48163" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48163" bodyend="48171"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a073fa337a30363524d4eae7b83489e16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.? <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
-        <definition>unsafe new MR.? AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48176" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48176" bodyend="48185"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a208c1c3c2ffd3b65cffe213b0f9f015b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.swap</definition>
-        <argsstring>(MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId b)</argsstring>
-        <name>swap</name>
-        <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId.swap</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kindref="compound">MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::swap</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48190" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48190" bodyend="48195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59696" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59696" bodyend="59700"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -544,17 +575,17 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47979" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47979" bodyend="47979"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59778" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59778" bodyend="59778"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -570,55 +601,69 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;MR::AABBTreeNode&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;&amp;amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</label>
         <link refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</label>
         <link refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47875" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47876" bodyend="48196"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59608" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59609" bodyend="59995"/>
     <listofallmembers>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a58a712ffdf479ef9bdcfb079a7e5eb34" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a4e6294330b2b5ef34e0118d9b1364467" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>autoResizeAt</name></member>
@@ -629,6 +674,8 @@
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a073fa337a30363524d4eae7b83489e16" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>data</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1acedc51b52b0d3e99fc58c317642b206f" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1afbb6a4d3594ef5a7cdd3ae6e4a9caba2" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1af240faa6577ce243b84649ce2c43c550" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1adabf0cf052bb7bab522681e2c7ca559d" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1abd7bf56757cbdcd34265c2668ddaadaa" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>operator Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a373297f44c58574c1d98ecedde5255e0" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a1abeb27c7edb199051840c9953dece49" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</scope><name>pushBack</name></member>

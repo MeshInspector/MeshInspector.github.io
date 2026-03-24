@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FaceBitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FaceBitSet</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -25,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16514" bodyend="16515"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16652" bodyend="16653"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a134da73cef9b628d9b2d6f6a0cc9db22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -42,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16517" bodyend="16520"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16655" bodyend="16658"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1aaf07df34c1607d673b0c8270b03b9d72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -65,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16523" bodyend="16524"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16661" bodyend="16662"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1aaf07df34c1607d673b0c8270b03b9d72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -88,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16527" bodyend="16528"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16665" bodyend="16666"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +97,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -113,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16529" bodyend="16530"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16667" bodyend="16668"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a9cb1e47c66d2a21cc3730d24bd6f2386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -121,7 +119,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__eq__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__eq__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97">__eq__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -133,12 +130,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)
-</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16531" bodyend="16532"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16669" bodyend="16670"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a2e3b6de4e0ed5b37ccbf0b8f934fa5c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -146,7 +141,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -161,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16533" bodyend="16534"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16671" bodyend="16672"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a6f5f1fa4bdad810423d1a95586f40a65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -169,7 +163,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -180,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16536" bodyend="16537"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16674" bodyend="16675"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1ad76b8ae914f41226edf49c1be769371c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -188,7 +181,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -210,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16539" bodyend="16542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16677" bodyend="16680"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -218,7 +210,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -235,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16544" bodyend="16547"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16682" bodyend="16685"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -243,7 +234,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -260,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16549" bodyend="16552"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16687" bodyend="16690"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a63b2afcce37aeab792d47351386d6e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -268,7 +258,6 @@
         <argsstring>(self, FaceBitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -285,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16554" bodyend="16557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16692" bodyend="16695"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a96ae721cf5201e69bbdd9f2c8a2ed6d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -293,7 +282,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -308,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16558" bodyend="16559"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16696" bodyend="16697"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1aa989812bb586a4d97db66a5d6a4b3bd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -316,7 +304,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -331,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16560" bodyend="16561"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16698" bodyend="16699"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a620a3172c71340082ce5f2b2592b8e91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref>]</type>
@@ -339,7 +326,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -350,7 +336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16562" bodyend="16563"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16700" bodyend="16701"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a5306d6365c4f1f80be01a199a1371263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -358,7 +344,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -373,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16564" bodyend="16565"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16702" bodyend="16703"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a2baa20bcc9116f41217c748a0d9ece17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -381,7 +366,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -396,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16566" bodyend="16567"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16704" bodyend="16705"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a59b6929ca16cbe090c495f80bb98ef1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -404,7 +388,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -415,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16568" bodyend="16569"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16706" bodyend="16707"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a1668f0c3d5587d8ef5d31e483ebe3b22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -423,7 +406,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -438,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16570" bodyend="16571"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16708" bodyend="16709"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1ab523743769810a55a8eea4e7f67e208d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -446,7 +428,6 @@
         <argsstring>(self, FaceBitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.FaceBitSet.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -461,7 +442,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16572" bodyend="16573"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16710" bodyend="16711"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a3839575ccb9308d837c8bb010b8306c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -495,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16575" bodyend="16576"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16713" bodyend="16714"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a24a5fbbef66d6641d4e063809991ef79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -525,7 +506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16578" bodyend="16579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16716" bodyend="16717"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a7d011098911a5f6105a8f1725c114404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -555,7 +536,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16580" bodyend="16581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16718" bodyend="16719"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a2bf044c9441dd561503427a225021c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -576,7 +557,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16582" bodyend="16585"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16720" bodyend="16723"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a5413661ed81139b69648b57d7bd22e5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -595,7 +576,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16586" bodyend="16587"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16724" bodyend="16725"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a1515b0074222b63826c043be950d32a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -616,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16588" bodyend="16589"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16726" bodyend="16727"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a33f9efbad7e33682bd52b276f5d681da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -637,7 +618,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16590" bodyend="16591"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16728" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16728" bodyend="16729"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1aa83ac1b1692331b568641a319933503c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -658,7 +639,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16592" bodyend="16593"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16730" bodyend="16731"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a7879496e5e51cd78b4b379167043229b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -679,7 +660,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16594" bodyend="16595"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16732" bodyend="16733"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a781a209eb157323a9f2a2249d5d33fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -704,7 +685,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16596" bodyend="16597"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16734" bodyend="16735"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a9b58c9ff3bc0d8243a47dc1e4a2293c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -729,7 +710,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16598" bodyend="16599"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16736" bodyend="16737"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1aa5a4b1d60fcfd572ab41da7cf101ff9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -756,7 +737,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16601" bodyend="16602"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16739" bodyend="16740"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1aea5d1b6ce817048dde533f7a0bf8773b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -779,7 +760,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16604" bodyend="16605"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16742" bodyend="16743"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a3974e8b489d1a918457febfe6644d10e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -798,7 +779,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16607" bodyend="16608"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16745" bodyend="16746"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1acf46b414b4626604e107d28e9100c8e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -820,7 +801,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16610" bodyend="16611"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16748" bodyend="16749"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a6d27b0707a4b1cc1973f969065b36da8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -842,7 +823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16613" bodyend="16614"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16751" bodyend="16752"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1aba076e1627b6d46a92dc40aa26996e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -864,7 +845,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16616" bodyend="16617"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16754" bodyend="16755"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1ac014c55b27f0b232209745b9801d8638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -890,7 +871,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16619" bodyend="16620"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16757" bodyend="16758"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a84843e4532e94e773190a035c5a13396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -916,7 +897,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16622" bodyend="16623"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16760" bodyend="16761"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a7d03062daa7bf2044de6e9bc5f1e978e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -941,7 +922,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16624" bodyend="16627"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16762" bodyend="16765"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a60b667616829f078187d290eaab1dc6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -966,7 +947,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16628" bodyend="16631"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16766" bodyend="16769"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1ac575961be449c8ece85d395acab6321a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -991,7 +972,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16632" bodyend="16635"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16770" bodyend="16773"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a6a511adc61f0559df27369d1112257b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1018,7 +999,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16637" bodyend="16638"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16775" bodyend="16776"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1ad012f1d5442cd8ffbc51f0bc30e044a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1041,7 +1022,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16640" bodyend="16641"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16778" bodyend="16779"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1abfc3326d731f4f194321d3eb2925a027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1060,7 +1041,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16643" bodyend="16644"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16781" bodyend="16782"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1af85d10b6069037cb96e66cf56c70bdc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1091,7 +1072,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16646" bodyend="16647"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16784" bodyend="16785"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a66ca1e6ef5ebd1139abfcc8cb1829415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1118,7 +1099,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16649" bodyend="16650"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16787" bodyend="16788"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a31d3e4221363689e370baf60ee30ccaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1141,7 +1122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16652" bodyend="16653"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16790" bodyend="16791"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a828b46b245108270612ce3bbba72c15b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1160,7 +1141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16655" bodyend="16656"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16793" bodyend="16794"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1a61bb6bfbf712dedb3c703642ed2b5669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1189,7 +1170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16657" bodyend="16660"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16795" bodyend="16798"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1afbc1a015a36759b53c012c7991819d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1214,7 +1195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16661" bodyend="16662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16799" bodyend="16800"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FaceBitSet_1af20611e73e2da0a3b06173a95c14ce61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1242,14 +1223,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16663" bodyend="16664"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16801" bodyend="16802"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::FaceBitSet
-Aliases:  Vector_FaceBitSet_GraphVertId.reference, Vector_FaceBitSet_GraphVertId.value_type, ColorMapAggregator_FaceTag_ElementBitSet, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBitSet, Vector_FaceBitSet_GraphVertId.const_reference
+Aliases:  Vector_FaceBitSet_GraphVertId.const_reference, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBitSet, Vector_FaceBitSet_GraphVertId.reference, ColorMapAggregator_FaceTag_ElementBitSet, Vector_FaceBitSet_GraphVertId.value_type
 
 Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
 with all bits after size() considered off during testing
@@ -1277,16 +1258,9 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16504" bodyend="16664"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16642" bodyend="16802"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a9185d70e452093505fdaea723f0f14a2" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__and__</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a9cb1e47c66d2a21cc3730d24bd6f2386" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__eq__</name></member>
@@ -1303,13 +1277,23 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1FaceBitSet_1a5306d6365c4f1f80be01a199a1371263" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a2baa20bcc9116f41217c748a0d9ece17" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a59b6929ca16cbe090c495f80bb98ef1a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a1668f0c3d5587d8ef5d31e483ebe3b22" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1ab523743769810a55a8eea4e7f67e208d" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a3839575ccb9308d837c8bb010b8306c2" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a24a5fbbef66d6641d4e063809991ef79" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a7d011098911a5f6105a8f1725c114404" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a2bf044c9441dd561503427a225021c77" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a134da73cef9b628d9b2d6f6a0cc9db22" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a5413661ed81139b69648b57d7bd22e5b" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a1515b0074222b63826c043be950d32a6" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a33f9efbad7e33682bd52b276f5d681da" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>find_first_not_set</name></member>
@@ -1320,26 +1304,41 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1FaceBitSet_1aa5a4b1d60fcfd572ab41da7cf101ff9e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1aea5d1b6ce817048dde533f7a0bf8773b" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a3974e8b489d1a918457febfe6644d10e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1acf46b414b4626604e107d28e9100c8e8" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a6d27b0707a4b1cc1973f969065b36da8" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1aba076e1627b6d46a92dc40aa26996e8a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1ac014c55b27f0b232209745b9801d8638" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a84843e4532e94e773190a035c5a13396" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a7d03062daa7bf2044de6e9bc5f1e978e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a60b667616829f078187d290eaab1dc6e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1ac575961be449c8ece85d395acab6321a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1aaf07df34c1607d673b0c8270b03b9d72" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1aaf07df34c1607d673b0c8270b03b9d72" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a6a511adc61f0559df27369d1112257b0" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1ad012f1d5442cd8ffbc51f0bc30e044a4" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1abfc3326d731f4f194321d3eb2925a027" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1af85d10b6069037cb96e66cf56c70bdc1" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a66ca1e6ef5ebd1139abfcc8cb1829415" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a31d3e4221363689e370baf60ee30ccaf" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a828b46b245108270612ce3bbba72c15b" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1a61bb6bfbf712dedb3c703642ed2b5669" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1afbc1a015a36759b53c012c7991819d4d" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1FaceBitSet_1af20611e73e2da0a3b06173a95c14ce61" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBitSet</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

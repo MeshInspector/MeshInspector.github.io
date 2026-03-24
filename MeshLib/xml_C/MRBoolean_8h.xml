@@ -1,11 +1,25 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBoolean_8h" kind="file" language="C++">
     <compoundname>MRBoolean.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
       <node id="1">
         <label>MRBoolean.h</label>
         <link refid="MRBoolean_8h"/>
@@ -16,95 +30,14 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
-      <node id="3">
-        <label>MRCMisc/exports.h</label>
-      </node>
       <node id="4">
         <label>stddef.h</label>
       </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRBoolean_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
-        <type>struct MR_AffineXf3f</type>
-        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
-        <argsstring></argsstring>
-        <name>MR_AffineXf3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" prot="public" static="no">
-        <type>struct <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref></type>
-        <definition>typedef struct MR_FloatGrid MR_FloatGrid</definition>
-        <argsstring></argsstring>
-        <name>MR_FloatGrid</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="13" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBoolean_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="14" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBoolean_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
-        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBoolean_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" prot="public" static="no">
-        <type>struct <ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_ObjectMesh MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBoolean_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="17" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" prot="public" static="no">
         <type>struct <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref></type>
         <definition>typedef struct MR_MeshVoxelsConverter MR_MeshVoxelsConverter</definition>
@@ -113,16 +46,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::MeshVoxelsConverter</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::MeshVoxelsConverter</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="23" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="23" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRBoolean_8h_1ab47388fc6ecedea1b6ff285400bbe14c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_MeshVoxelsConverter_Get_voxelSize</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_Get_voxelSize</name>
@@ -137,10 +70,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="30" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="30" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a2af0ac2c6fb0106d9a94346e38b9015b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVoxelsConverter_Set_voxelSize</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this, float value)</argsstring>
         <name>MR_MeshVoxelsConverter_Set_voxelSize</name>
@@ -155,14 +88,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="36" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="36" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1abee313630461221e00b523e69a928002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_MeshVoxelsConverter_GetMutable_voxelSize</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_GetMutable_voxelSize</name>
@@ -177,10 +110,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="43" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="43" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="43" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="43" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a215ed98703eaf21032681a959ecff52e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_MeshVoxelsConverter_Get_surfaceOffset</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_Get_surfaceOffset</name>
@@ -195,10 +128,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="50" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="50" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="50" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="50" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a2d74be12c64889e097b1b35ddd732c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVoxelsConverter_Set_surfaceOffset</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this, float value)</argsstring>
         <name>MR_MeshVoxelsConverter_Set_surfaceOffset</name>
@@ -213,14 +146,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>surfaceOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>surfaceOffset</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>surfaceOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>surfaceOffset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="56" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="56" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a6e65fedaf2f558f6043aab71d446a5f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_MeshVoxelsConverter_GetMutable_surfaceOffset</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_GetMutable_surfaceOffset</name>
@@ -235,10 +168,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="63" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="63" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="63" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="63" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a08612bc891dfe4f3af89b09f250c6ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_MeshVoxelsConverter_Get_callBack</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_Get_callBack</name>
@@ -253,10 +186,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="69" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="69" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="69" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="69" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a4a55ef142b125b94d44e51d0567d8ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVoxelsConverter_Set_callBack</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_MeshVoxelsConverter_Set_callBack</name>
@@ -265,7 +198,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -275,14 +208,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>callBack</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callBack</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callBack</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>callBack</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callBack</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>callBack</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="75" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="75" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1ac0c513c08c92d036da8e2eb523fc8bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_MeshVoxelsConverter_GetMutable_callBack</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_GetMutable_callBack</name>
@@ -297,10 +230,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="81" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="81" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="81" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="81" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a366dcf77060f4e61461dbd6e9e46582d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_MeshVoxelsConverter_Get_offsetVoxels</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_Get_offsetVoxels</name>
@@ -315,10 +248,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="88" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="88" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="88" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="88" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a16929f38e576883f8bc86791632984c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVoxelsConverter_Set_offsetVoxels</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this, float value)</argsstring>
         <name>MR_MeshVoxelsConverter_Set_offsetVoxels</name>
@@ -333,14 +266,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>offsetVoxels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offsetVoxels</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>offsetVoxels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offsetVoxels</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="94" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="94" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a39a01fb3437c23e3cf4711945ff800fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_MeshVoxelsConverter_GetMutable_offsetVoxels</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_GetMutable_offsetVoxels</name>
@@ -355,10 +288,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="101" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="101" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="101" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="101" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a38a5327607b0480c286deb62e6e76e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_MeshVoxelsConverter_Get_adaptivity</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_Get_adaptivity</name>
@@ -373,10 +306,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="108" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="108" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="108" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="108" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a635554829730bf18c61f5780f13f998d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVoxelsConverter_Set_adaptivity</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this, float value)</argsstring>
         <name>MR_MeshVoxelsConverter_Set_adaptivity</name>
@@ -391,14 +324,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>adaptivity</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>adaptivity</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshVoxelsConverter</computeroutput> named <computeroutput>adaptivity</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>adaptivity</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="114" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="114" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a7606a2a57d24c9940f25a88ff6e1fa50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_MeshVoxelsConverter_GetMutable_adaptivity</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_GetMutable_adaptivity</name>
@@ -413,10 +346,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="121" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="121" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="121" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="121" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a11539f4312ca387d8ec150a4f876b3bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
         <definition>MRC_API MR_MeshVoxelsConverter * MR_MeshVoxelsConverter_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MeshVoxelsConverter_DefaultConstruct</name>
@@ -430,10 +363,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="125" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="125" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="125" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="125" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a68360c051a0764a6333f36fde1993ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
         <definition>MRC_API MR_MeshVoxelsConverter * MR_MeshVoxelsConverter_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MeshVoxelsConverter_DefaultConstructArray</name>
@@ -448,10 +381,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="130" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="130" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="130" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="130" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a6bdf0da8ffadf06fa5e0dc71e371284c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
         <definition>MRC_API MR_MeshVoxelsConverter * MR_MeshVoxelsConverter_ConstructFrom</definition>
         <argsstring>(float voxelSize, float surfaceOffset, MR_PassBy callBack_pass_by, MR_std_function_bool_from_float *callBack, float offsetVoxels, float adaptivity)</argsstring>
         <name>MR_MeshVoxelsConverter_ConstructFrom</name>
@@ -464,7 +397,7 @@
           <declname>surfaceOffset</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>callBack_pass_by</declname>
         </param>
         <param>
@@ -482,14 +415,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshVoxelsConverter</computeroutput> elementwise. The reference to the parameter <computeroutput>callBack</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBoolean_8h_1ac1971ef97ad102715520ff3372bb594e" kindref="member">MR_MeshVoxelsConverter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshVoxelsConverter</computeroutput> elementwise. The reference to the parameter <computeroutput>callBack</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBoolean_8h_1ac1971ef97ad102715520ff3372bb594e" kindref="member">MR_MeshVoxelsConverter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="136" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="136" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="136" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="136" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1ac23d33b600047989bc0ce39504e40a8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
         <definition>MRC_API const MR_MeshVoxelsConverter * MR_MeshVoxelsConverter_OffsetPtr</definition>
         <argsstring>(const MR_MeshVoxelsConverter *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshVoxelsConverter_OffsetPtr</name>
@@ -508,10 +441,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="140" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="140" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="140" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="140" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a598f102bd3c93ec80ebb6bdc3586568d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
         <definition>MRC_API MR_MeshVoxelsConverter * MR_MeshVoxelsConverter_OffsetMutablePtr</definition>
         <argsstring>(MR_MeshVoxelsConverter *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshVoxelsConverter_OffsetMutablePtr</name>
@@ -530,15 +463,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="144" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="144" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="144" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="144" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1ab3548ad255b2d230a065e9871eb58a64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
         <definition>MRC_API MR_MeshVoxelsConverter * MR_MeshVoxelsConverter_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_MeshVoxelsConverter *_other)</argsstring>
         <name>MR_MeshVoxelsConverter_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -552,10 +485,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="149" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="149" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="149" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="149" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1ac1971ef97ad102715520ff3372bb594e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVoxelsConverter_Destroy</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_Destroy</name>
@@ -564,16 +497,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshVoxelsConverter</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="152" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="152" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a36119f29428329b119d03611dfd9d647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVoxelsConverter_DestroyArray</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this)</argsstring>
         <name>MR_MeshVoxelsConverter_DestroyArray</name>
@@ -582,16 +515,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshVoxelsConverter</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="155" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="155" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1af45e966e87e54a7c62fe83298811abcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref> *</type>
         <definition>MRC_API MR_MeshVoxelsConverter * MR_MeshVoxelsConverter_AssignFromAnother</definition>
         <argsstring>(MR_MeshVoxelsConverter *_this, MR_PassBy _other_pass_by, MR_MeshVoxelsConverter *_other)</argsstring>
         <name>MR_MeshVoxelsConverter_AssignFromAnother</name>
@@ -600,7 +533,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -610,14 +543,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshVoxelsConverter::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshVoxelsConverter::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="162" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="162" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="162" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="162" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a509a180ef8c379e8b0630483780cabf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
         <definition>MRC_API MR_FloatGrid * MR_MeshVoxelsConverter_call_2</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this, const MR_MeshPart *mp, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_MeshVoxelsConverter_call_2</name>
@@ -640,10 +573,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="170" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="170" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="170" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="170" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1a8750336d0d1f2a8bb15b46e2b712247e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
         <definition>MRC_API MR_FloatGrid * MR_MeshVoxelsConverter_call_1_MR_ObjectMesh</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this, const MR_ObjectMesh *obj)</argsstring>
         <name>MR_MeshVoxelsConverter_call_1_MR_ObjectMesh</name>
@@ -662,10 +595,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="176" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="176" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="176" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="176" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRBoolean_8h_1adf3c1664b118bdc2de7dbfd285b5398f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API MR_Mesh * MR_MeshVoxelsConverter_call_1_MR_FloatGrid</definition>
         <argsstring>(const MR_MeshVoxelsConverter *_this, const MR_FloatGrid *grid)</argsstring>
         <name>MR_MeshVoxelsConverter_call_1_MR_FloatGrid</name>
@@ -674,7 +607,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+          <type>const <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
           <declname>grid</declname>
         </param>
         <briefdescription>
@@ -684,7 +617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" line="182" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h" declline="182" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" line="182" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h" declline="182" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -694,8 +627,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -703,87 +636,87 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRBoolean_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRFloatGrid.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRBoolean_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRBoolean_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRBoolean_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRBoolean_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRFloatGrid.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>converter<sp/>of<sp/>meshes<sp/>in<sp/>or<sp/>from<sp/>signed<sp/>distance<sp/>volumetric<sp/>representation</highlight></codeline>
-<codeline lineno="23" refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>converter<sp/>of<sp/>meshes<sp/>in<sp/>or<sp/>from<sp/>signed<sp/>distance<sp/>volumetric<sp/>representation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>both<sp/>in<sp/>and<sp/>from</highlight></codeline>
-<codeline lineno="30" refid="MRBoolean_8h_1ab47388fc6ecedea1b6ff285400bbe14c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1ab47388fc6ecedea1b6ff285400bbe14c" kindref="member">MR_MeshVoxelsConverter_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>both<sp/>in<sp/>and<sp/>from</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRBoolean_8h_1ab47388fc6ecedea1b6ff285400bbe14c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1ab47388fc6ecedea1b6ff285400bbe14c" kindref="member">MR_MeshVoxelsConverter_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>both<sp/>in<sp/>and<sp/>from</highlight></codeline>
-<codeline lineno="36" refid="MRBoolean_8h_1a2af0ac2c6fb0106d9a94346e38b9015b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a2af0ac2c6fb0106d9a94346e38b9015b" kindref="member">MR_MeshVoxelsConverter_Set_voxelSize</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>both<sp/>in<sp/>and<sp/>from</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRBoolean_8h_1a2af0ac2c6fb0106d9a94346e38b9015b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a2af0ac2c6fb0106d9a94346e38b9015b" kindref="member">MR_MeshVoxelsConverter_Set_voxelSize</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>both<sp/>in<sp/>and<sp/>from</highlight></codeline>
-<codeline lineno="43" refid="MRBoolean_8h_1abee313630461221e00b523e69a928002" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1abee313630461221e00b523e69a928002" kindref="member">MR_MeshVoxelsConverter_GetMutable_voxelSize</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>both<sp/>in<sp/>and<sp/>from</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRBoolean_8h_1abee313630461221e00b523e69a928002" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1abee313630461221e00b523e69a928002" kindref="member">MR_MeshVoxelsConverter_GetMutable_voxelSize</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>number<sp/>voxels<sp/>around<sp/>surface<sp/>to<sp/>calculate<sp/>distance<sp/>in<sp/>(should<sp/>be<sp/>positive)</highlight></codeline>
-<codeline lineno="50" refid="MRBoolean_8h_1a215ed98703eaf21032681a959ecff52e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a215ed98703eaf21032681a959ecff52e" kindref="member">MR_MeshVoxelsConverter_Get_surfaceOffset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>number<sp/>voxels<sp/>around<sp/>surface<sp/>to<sp/>calculate<sp/>distance<sp/>in<sp/>(should<sp/>be<sp/>positive)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRBoolean_8h_1a215ed98703eaf21032681a959ecff52e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a215ed98703eaf21032681a959ecff52e" kindref="member">MR_MeshVoxelsConverter_Get_surfaceOffset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>number<sp/>voxels<sp/>around<sp/>surface<sp/>to<sp/>calculate<sp/>distance<sp/>in<sp/>(should<sp/>be<sp/>positive)</highlight></codeline>
-<codeline lineno="56" refid="MRBoolean_8h_1a2d74be12c64889e097b1b35ddd732c56" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a2d74be12c64889e097b1b35ddd732c56" kindref="member">MR_MeshVoxelsConverter_Set_surfaceOffset</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>number<sp/>voxels<sp/>around<sp/>surface<sp/>to<sp/>calculate<sp/>distance<sp/>in<sp/>(should<sp/>be<sp/>positive)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRBoolean_8h_1a2d74be12c64889e097b1b35ddd732c56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a2d74be12c64889e097b1b35ddd732c56" kindref="member">MR_MeshVoxelsConverter_Set_surfaceOffset</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>number<sp/>voxels<sp/>around<sp/>surface<sp/>to<sp/>calculate<sp/>distance<sp/>in<sp/>(should<sp/>be<sp/>positive)</highlight></codeline>
-<codeline lineno="63" refid="MRBoolean_8h_1a6e65fedaf2f558f6043aab71d446a5f5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a6e65fedaf2f558f6043aab71d446a5f5" kindref="member">MR_MeshVoxelsConverter_GetMutable_surfaceOffset</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>number<sp/>voxels<sp/>around<sp/>surface<sp/>to<sp/>calculate<sp/>distance<sp/>in<sp/>(should<sp/>be<sp/>positive)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRBoolean_8h_1a6e65fedaf2f558f6043aab71d446a5f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a6e65fedaf2f558f6043aab71d446a5f5" kindref="member">MR_MeshVoxelsConverter_GetMutable_surfaceOffset</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRBoolean_8h_1a08612bc891dfe4f3af89b09f250c6ce1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRBoolean_8h_1a08612bc891dfe4f3af89b09f250c6ce1" kindref="member">MR_MeshVoxelsConverter_Get_callBack</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69" refid="MRBoolean_8h_1a08612bc891dfe4f3af89b09f250c6ce1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRBoolean_8h_1a08612bc891dfe4f3af89b09f250c6ce1" kindref="member">MR_MeshVoxelsConverter_Get_callBack</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRBoolean_8h_1a4a55ef142b125b94d44e51d0567d8ffb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a4a55ef142b125b94d44e51d0567d8ffb" kindref="member">MR_MeshVoxelsConverter_Set_callBack</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="75" refid="MRBoolean_8h_1a4a55ef142b125b94d44e51d0567d8ffb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a4a55ef142b125b94d44e51d0567d8ffb" kindref="member">MR_MeshVoxelsConverter_Set_callBack</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRBoolean_8h_1ac0c513c08c92d036da8e2eb523fc8bf1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRBoolean_8h_1ac0c513c08c92d036da8e2eb523fc8bf1" kindref="member">MR_MeshVoxelsConverter_GetMutable_callBack</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81" refid="MRBoolean_8h_1ac0c513c08c92d036da8e2eb523fc8bf1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRBoolean_8h_1ac0c513c08c92d036da8e2eb523fc8bf1" kindref="member">MR_MeshVoxelsConverter_GetMutable_callBack</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>value<sp/>is<sp/>in<sp/>voxels<sp/>(not<sp/>in<sp/>meters!),<sp/>0<sp/>for<sp/>no-offset</highlight></codeline>
-<codeline lineno="88" refid="MRBoolean_8h_1a366dcf77060f4e61461dbd6e9e46582d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a366dcf77060f4e61461dbd6e9e46582d" kindref="member">MR_MeshVoxelsConverter_Get_offsetVoxels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>value<sp/>is<sp/>in<sp/>voxels<sp/>(not<sp/>in<sp/>meters!),<sp/>0<sp/>for<sp/>no-offset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRBoolean_8h_1a366dcf77060f4e61461dbd6e9e46582d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a366dcf77060f4e61461dbd6e9e46582d" kindref="member">MR_MeshVoxelsConverter_Get_offsetVoxels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>value<sp/>is<sp/>in<sp/>voxels<sp/>(not<sp/>in<sp/>meters!),<sp/>0<sp/>for<sp/>no-offset</highlight></codeline>
-<codeline lineno="94" refid="MRBoolean_8h_1a16929f38e576883f8bc86791632984c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a16929f38e576883f8bc86791632984c7" kindref="member">MR_MeshVoxelsConverter_Set_offsetVoxels</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>value<sp/>is<sp/>in<sp/>voxels<sp/>(not<sp/>in<sp/>meters!),<sp/>0<sp/>for<sp/>no-offset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRBoolean_8h_1a16929f38e576883f8bc86791632984c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a16929f38e576883f8bc86791632984c7" kindref="member">MR_MeshVoxelsConverter_Set_offsetVoxels</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>value<sp/>is<sp/>in<sp/>voxels<sp/>(not<sp/>in<sp/>meters!),<sp/>0<sp/>for<sp/>no-offset</highlight></codeline>
-<codeline lineno="101" refid="MRBoolean_8h_1a39a01fb3437c23e3cf4711945ff800fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a39a01fb3437c23e3cf4711945ff800fb" kindref="member">MR_MeshVoxelsConverter_GetMutable_offsetVoxels</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>value<sp/>is<sp/>in<sp/>voxels<sp/>(not<sp/>in<sp/>meters!),<sp/>0<sp/>for<sp/>no-offset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRBoolean_8h_1a39a01fb3437c23e3cf4711945ff800fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a39a01fb3437c23e3cf4711945ff800fb" kindref="member">MR_MeshVoxelsConverter_GetMutable_offsetVoxels</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0,<sp/>1]<sp/>ratio<sp/>of<sp/>combining<sp/>small<sp/>triangles<sp/>into<sp/>bigger<sp/>ones</highlight></codeline>
-<codeline lineno="108" refid="MRBoolean_8h_1a38a5327607b0480c286deb62e6e76e28" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a38a5327607b0480c286deb62e6e76e28" kindref="member">MR_MeshVoxelsConverter_Get_adaptivity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0,<sp/>1]<sp/>ratio<sp/>of<sp/>combining<sp/>small<sp/>triangles<sp/>into<sp/>bigger<sp/>ones</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRBoolean_8h_1a38a5327607b0480c286deb62e6e76e28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a38a5327607b0480c286deb62e6e76e28" kindref="member">MR_MeshVoxelsConverter_Get_adaptivity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0,<sp/>1]<sp/>ratio<sp/>of<sp/>combining<sp/>small<sp/>triangles<sp/>into<sp/>bigger<sp/>ones</highlight></codeline>
-<codeline lineno="114" refid="MRBoolean_8h_1a635554829730bf18c61f5780f13f998d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a635554829730bf18c61f5780f13f998d" kindref="member">MR_MeshVoxelsConverter_Set_adaptivity</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0,<sp/>1]<sp/>ratio<sp/>of<sp/>combining<sp/>small<sp/>triangles<sp/>into<sp/>bigger<sp/>ones</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRBoolean_8h_1a635554829730bf18c61f5780f13f998d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a635554829730bf18c61f5780f13f998d" kindref="member">MR_MeshVoxelsConverter_Set_adaptivity</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0,<sp/>1]<sp/>ratio<sp/>of<sp/>combining<sp/>small<sp/>triangles<sp/>into<sp/>bigger<sp/>ones</highlight></codeline>
-<codeline lineno="121" refid="MRBoolean_8h_1a7606a2a57d24c9940f25a88ff6e1fa50" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a7606a2a57d24c9940f25a88ff6e1fa50" kindref="member">MR_MeshVoxelsConverter_GetMutable_adaptivity</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0,<sp/>1]<sp/>ratio<sp/>of<sp/>combining<sp/>small<sp/>triangles<sp/>into<sp/>bigger<sp/>ones</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRBoolean_8h_1a7606a2a57d24c9940f25a88ff6e1fa50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBoolean_8h_1a7606a2a57d24c9940f25a88ff6e1fa50" kindref="member">MR_MeshVoxelsConverter_GetMutable_adaptivity</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRBoolean_8h_1a11539f4312ca387d8ec150a4f876b3bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1a11539f4312ca387d8ec150a4f876b3bb" kindref="member">MR_MeshVoxelsConverter_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="125" refid="MRBoolean_8h_1a11539f4312ca387d8ec150a4f876b3bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1a11539f4312ca387d8ec150a4f876b3bb" kindref="member">MR_MeshVoxelsConverter_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRBoolean_8h_1a68360c051a0764a6333f36fde1993ff8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1a68360c051a0764a6333f36fde1993ff8" kindref="member">MR_MeshVoxelsConverter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="130" refid="MRBoolean_8h_1a68360c051a0764a6333f36fde1993ff8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1a68360c051a0764a6333f36fde1993ff8" kindref="member">MR_MeshVoxelsConverter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRBoolean_8h_1a6bdf0da8ffadf06fa5e0dc71e371284c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1a6bdf0da8ffadf06fa5e0dc71e371284c" kindref="member">MR_MeshVoxelsConverter_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>surfaceOffset,<sp/>MR_PassBy<sp/>callBack_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callBack,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetVoxels,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>adaptivity);</highlight></codeline>
+<codeline lineno="136" refid="MRBoolean_8h_1a6bdf0da8ffadf06fa5e0dc71e371284c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1a6bdf0da8ffadf06fa5e0dc71e371284c" kindref="member">MR_MeshVoxelsConverter_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>surfaceOffset,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callBack_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callBack,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetVoxels,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>adaptivity);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRBoolean_8h_1ac23d33b600047989bc0ce39504e40a8a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1ac23d33b600047989bc0ce39504e40a8a" kindref="member">MR_MeshVoxelsConverter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="140" refid="MRBoolean_8h_1ac23d33b600047989bc0ce39504e40a8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1ac23d33b600047989bc0ce39504e40a8a" kindref="member">MR_MeshVoxelsConverter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRBoolean_8h_1a598f102bd3c93ec80ebb6bdc3586568d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1a598f102bd3c93ec80ebb6bdc3586568d" kindref="member">MR_MeshVoxelsConverter_OffsetMutablePtr</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="144" refid="MRBoolean_8h_1a598f102bd3c93ec80ebb6bdc3586568d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1a598f102bd3c93ec80ebb6bdc3586568d" kindref="member">MR_MeshVoxelsConverter_OffsetMutablePtr</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRBoolean_8h_1ab3548ad255b2d230a065e9871eb58a64" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1ab3548ad255b2d230a065e9871eb58a64" kindref="member">MR_MeshVoxelsConverter_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="149" refid="MRBoolean_8h_1ab3548ad255b2d230a065e9871eb58a64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1ab3548ad255b2d230a065e9871eb58a64" kindref="member">MR_MeshVoxelsConverter_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRBoolean_8h_1ac1971ef97ad102715520ff3372bb594e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1ac1971ef97ad102715520ff3372bb594e" kindref="member">MR_MeshVoxelsConverter_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152" refid="MRBoolean_8h_1ac1971ef97ad102715520ff3372bb594e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1ac1971ef97ad102715520ff3372bb594e" kindref="member">MR_MeshVoxelsConverter_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRBoolean_8h_1a36119f29428329b119d03611dfd9d647" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a36119f29428329b119d03611dfd9d647" kindref="member">MR_MeshVoxelsConverter_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="155" refid="MRBoolean_8h_1a36119f29428329b119d03611dfd9d647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a36119f29428329b119d03611dfd9d647" kindref="member">MR_MeshVoxelsConverter_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRBoolean_8h_1af45e966e87e54a7c62fe83298811abcd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1af45e966e87e54a7c62fe83298811abcd" kindref="member">MR_MeshVoxelsConverter_AssignFromAnother</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="162" refid="MRBoolean_8h_1af45e966e87e54a7c62fe83298811abcd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*<ref refid="MRBoolean_8h_1af45e966e87e54a7c62fe83298811abcd" kindref="member">MR_MeshVoxelsConverter_AssignFromAnother</ref>(<ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRBoolean_8h_1a509a180ef8c379e8b0630483780cabf0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRBoolean_8h_1a509a180ef8c379e8b0630483780cabf0" kindref="member">MR_MeshVoxelsConverter_call_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="170" refid="MRBoolean_8h_1a509a180ef8c379e8b0630483780cabf0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRBoolean_8h_1a509a180ef8c379e8b0630483780cabf0" kindref="member">MR_MeshVoxelsConverter_call_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="MRBoolean_8h_1a8750336d0d1f2a8bb15b46e2b712247e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRBoolean_8h_1a8750336d0d1f2a8bb15b46e2b712247e" kindref="member">MR_MeshVoxelsConverter_call_1_MR_ObjectMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="176" refid="MRBoolean_8h_1a8750336d0d1f2a8bb15b46e2b712247e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRBoolean_8h_1a8750336d0d1f2a8bb15b46e2b712247e" kindref="member">MR_MeshVoxelsConverter_call_1_MR_ObjectMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRBoolean_8h_1adf3c1664b118bdc2de7dbfd285b5398f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRBoolean_8h_1adf3c1664b118bdc2de7dbfd285b5398f" kindref="member">MR_MeshVoxelsConverter_call_1_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid);</highlight></codeline>
+<codeline lineno="182" refid="MRBoolean_8h_1adf3c1664b118bdc2de7dbfd285b5398f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRBoolean_8h_1adf3c1664b118bdc2de7dbfd285b5398f" kindref="member">MR_MeshVoxelsConverter_call_1_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1a88599c70457e9aa5dda46470c5cb6be2" kindref="member">MR_MeshVoxelsConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="185"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRBoolean.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRBoolean.h"/>
   </compounddef>
 </doxygen>

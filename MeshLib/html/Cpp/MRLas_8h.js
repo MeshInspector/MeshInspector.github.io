@@ -1,5 +1,5 @@
 var MRLas_8h =
 [
-    [ "fromLas", "MRLas_8h.html#gab39953df84a0deacd37f047884a37372", null ],
-    [ "fromLas", "MRLas_8h.html#gae4cbf7590e7b73675bbbdaa9fb468ac2", null ]
+    [ "MR::PointsLoad::fromLas", "group__GeneralGroup.html#ga53e10905b0b0c7883ff7e24d2a59385d", null ],
+    [ "MR::PointsLoad::fromLas", "group__GeneralGroup.html#gac78490328f89a7922ecb887a7373da8c", null ]
 ];

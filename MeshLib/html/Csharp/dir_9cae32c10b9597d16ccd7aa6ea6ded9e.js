@@ -7,6 +7,7 @@ var dir_9cae32c10b9597d16ccd7aa6ea6ded9e =
     [ "MRIOExtras.cs", "MRIOExtras_8cs.html", "MRIOExtras_8cs" ],
     [ "MRJpeg.cs", "MRJpeg_8cs.html", "MRJpeg_8cs" ],
     [ "MRLas.cs", "MRLas_8cs.html", "MRLas_8cs" ],
+    [ "MRNesting3mfExport.cs", "MRNesting3mfExport_8cs.html", "MRNesting3mfExport_8cs" ],
     [ "MRPdf.cs", "MRPdf_8cs.html", "MRPdf_8cs" ],
     [ "MRPng.cs", "MRPng_8cs.html", "MRPng_8cs" ],
     [ "MRStep.cs", "MRStep_8cs.html", "MRStep_8cs" ],

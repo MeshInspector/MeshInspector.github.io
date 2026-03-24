@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetViewportConfigPresetMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::SetViewportConfigPresetMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
+    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga3d2a81d9958b76933c36a468144ccc9d" kind="enum"><name>Type</name></member>
     </sectiondef>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="71" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="72" bodyend="89"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="71" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="72" bodyend="89"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaab1e4ca9d8717e7092bf07b4ff40434a" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>blocking</name></member>
@@ -68,9 +68,9 @@
       <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>isAvailable</name></member>
       <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>MR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>name</name></member>
-      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>RibbonMenuItem</name></member>
       <member refid="group__GeneralGroup_1gaf38a4828a4d0a03c1ff96f685d5bc06f" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>setCustomUpdateViewports</name></member>
-      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>setDropItemsFromItemList</name></member>
       <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>setRibbonItemType</name></member>
       <member refid="group__GeneralGroup_1gaa5f3104ebb87b4497658882eaf9511cc" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>SetViewportConfigPresetMenuItem</name></member>
       <member refid="group__GeneralGroup_1ga3d2a81d9958b76933c36a468144ccc9d" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>Type</name></member>

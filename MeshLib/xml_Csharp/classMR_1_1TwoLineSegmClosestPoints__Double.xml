@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TwoLineSegmClosestPoints__Double" kind="class" language="C#" prot="public">
+    <compoundname>MR::TwoLineSegmClosestPoints_Double</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_TwoLineSegmClosestPoints_Double</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a6bda8d70bf05aa7965dc750481915f8a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new unsafe ref MR.Vector3d MR.TwoLineSegmClosestPoints_Double.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.a</qualifiedname>
+        <briefdescription>
+<para>the closest points each from its respective segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="356" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TwoLineSegmClosestPoints__Double_1ac05dffa16c04a7683497276496e5c223" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new unsafe ref MR.Vector3d MR.TwoLineSegmClosestPoints_Double.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.b</qualifiedname>
+        <briefdescription>
+<para>the closest points each from its respective segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="361" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a76e4a6599941c162133d1960558a5eca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new unsafe ref MR.Vector3d MR.TwoLineSegmClosestPoints_Double.dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="366" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="366" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a2a67ed52a52bf6859df7b774372c96ff" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TwoLineSegmClosestPoints_Double</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="370" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="370" bodyend="374"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a51890143204d14aa4520681bcfbe640e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</definition>
+        <argsstring>()</argsstring>
+        <name>TwoLineSegmClosestPoints_Double</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="380" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="380" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a5094deef402e32037fa85c34de4bf3e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</definition>
+        <argsstring>(MR.Vector3d a, MR.Vector3d b, MR.Vector3d dir)</argsstring>
+        <name>TwoLineSegmClosestPoints_Double</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="391" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="391" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1aa06a05859852a3978516bc6bcb6fe5d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</definition>
+        <argsstring>(MR.Const_TwoLineSegmClosestPoints_Double _other)</argsstring>
+        <name>TwoLineSegmClosestPoints_Double</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</qualifiedname>
+        <param>
+          <type>MR.Const_TwoLineSegmClosestPoints_Double</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="402" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="402" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1ac1cf2aa3b5319fb9476310a394c3a4db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</definition>
+        <argsstring>(TwoLineSegmClosestPoints_Double _other)</argsstring>
+        <name>TwoLineSegmClosestPoints_Double</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.TwoLineSegmClosestPoints_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TwoLineSegmClosestPoints__Double" kindref="compound">TwoLineSegmClosestPoints_Double</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="414" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="414" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a91f214652184bac1abbcaf941974609e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TwoLineSegmClosestPoints__Double" kindref="compound">MR.TwoLineSegmClosestPoints_Double</ref></type>
+        <definition>unsafe MR.TwoLineSegmClosestPoints_Double MR.TwoLineSegmClosestPoints_Double.assign</definition>
+        <argsstring>(MR.Const_TwoLineSegmClosestPoints_Double _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TwoLineSegmClosestPoints_Double.assign</qualifiedname>
+        <param>
+          <type>MR.Const_TwoLineSegmClosestPoints_Double</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="419" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="419" bodyend="426"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.TwoLineSegmClosestPoints_Double</label>
+        <link refid="classMR_1_1TwoLineSegmClosestPoints__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_TwoLineSegmClosestPoints_Double</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.TwoLineSegmClosestPoints_Double</label>
+        <link refid="classMR_1_1TwoLineSegmClosestPoints__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_TwoLineSegmClosestPoints_Double</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="351" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="352" bodyend="427"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1a6bda8d70bf05aa7965dc750481915f8a" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>a</name></member>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1a91f214652184bac1abbcaf941974609e" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>assign</name></member>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1ac05dffa16c04a7683497276496e5c223" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>b</name></member>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1a76e4a6599941c162133d1960558a5eca" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>dir</name></member>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1a2a67ed52a52bf6859df7b774372c96ff" prot="package" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>TwoLineSegmClosestPoints_Double</name></member>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1a51890143204d14aa4520681bcfbe640e" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>TwoLineSegmClosestPoints_Double</name></member>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1a5094deef402e32037fa85c34de4bf3e0" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>TwoLineSegmClosestPoints_Double</name></member>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1aa06a05859852a3978516bc6bcb6fe5d8" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>TwoLineSegmClosestPoints_Double</name></member>
+      <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1ac1cf2aa3b5319fb9476310a394c3a4db" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>TwoLineSegmClosestPoints_Double</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

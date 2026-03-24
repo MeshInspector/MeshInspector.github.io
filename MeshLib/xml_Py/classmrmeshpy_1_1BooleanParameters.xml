@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BooleanParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BooleanParameters</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -594,25 +594,6 @@ if set merge all non-intersecting components
 \\brief Structure with parameters for boolean call
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BooleanParameters</label>
-        <link refid="classmrmeshpy_1_1BooleanParameters"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cb</edgelabel>
-          <edgelabel>_offsetof_forceCut</edgelabel>
-          <edgelabel>_offsetof_mapper</edgelabel>
-          <edgelabel>_offsetof_mergeAllNonIntersectingComponents</edgelabel>
-          <edgelabel>_offsetof_outCutEdges</edgelabel>
-          <edgelabel>_offsetof_outPreCutA</edgelabel>
-          <edgelabel>_offsetof_outPreCutB</edgelabel>
-          <edgelabel>_offsetof_rigidB2A</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3513" bodyend="3612"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BooleanParameters_1a6154ed5c425feb028745230d3efbe85f" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanParameters</scope><name>__init__</name></member>

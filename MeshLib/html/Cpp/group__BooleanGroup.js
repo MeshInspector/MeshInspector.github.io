@@ -4,7 +4,6 @@ var group__BooleanGroup =
       [ "Maps", "structMR_1_1BooleanResultMapper_1_1Maps.html", [
         [ "cut2newFaces", "structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c", null ],
         [ "cut2origin", "structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9", null ],
-        [ "identity", "structMR_1_1BooleanResultMapper_1_1Maps.html#abb0760c2ba75ba32b9fcf2d5e36fe803", null ],
         [ "old2newEdges", "structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9", null ],
         [ "old2newVerts", "structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973", null ]
       ] ],
@@ -14,13 +13,14 @@ var group__BooleanGroup =
         [ "Count", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ],
       [ "BooleanResultMapper", "structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9", null ],
-      [ "filteredOldFaceBitSet", "structMR_1_1BooleanResultMapper.html#ab684f42e7c2f76fd478da500c3b2ddcd", null ],
+      [ "filteredOldFaceBitSet", "structMR_1_1BooleanResultMapper.html#aaf90aec00a5988f4230c6f10a48a275f", null ],
       [ "getMaps", "structMR_1_1BooleanResultMapper.html#a90a7bf08cca602701e835565e3d516e7", null ],
-      [ "map", "structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914", null ],
-      [ "map", "structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b", null ],
-      [ "map", "structMR_1_1BooleanResultMapper.html#a98265093e5d605c22ac13fb59ac056b2", null ],
-      [ "map", "structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c", null ],
-      [ "newFaces", "structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4", null ],
+      [ "getNew2OldFaceMap", "structMR_1_1BooleanResultMapper.html#a2afc6594c031077012caba95a2ba2672", null ],
+      [ "map", "structMR_1_1BooleanResultMapper.html#a3c9521a76c9f0ff1327150e75980e48f", null ],
+      [ "map", "structMR_1_1BooleanResultMapper.html#af6e316b7b21f94033491018406e4e3a6", null ],
+      [ "map", "structMR_1_1BooleanResultMapper.html#a4025520e93584d2b0b95e661d513df2b", null ],
+      [ "map", "structMR_1_1BooleanResultMapper.html#a8f369cfaf8161eeacbd279d20b92aadb", null ],
+      [ "newFaces", "structMR_1_1BooleanResultMapper.html#a49d9476b91391ce052bbd2b26db33be5", null ],
       [ "maps", "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f", null ]
     ] ],
     [ "MR::BooleanInternalParameters", "structMR_1_1BooleanInternalParameters.html", [
@@ -71,15 +71,21 @@ var group__BooleanGroup =
       [ "MR::BooleanOperation::DifferenceAB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MR::boolean", "group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9", null ],
-    [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#ga6f7ebfbd5a56670b4a78787e6318ee7e", null ],
-    [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#gafe85b81b6d40ee16ccd3e12919143c43", null ],
-    [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga698235aeb90b1a947f95fa76eeb78ff3", null ],
-    [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga33e04ff2f620e99f7bcd23080433c39f", null ],
-    [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga883d13829f7b1336863883d48777b302", null ],
-    [ "MR::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],
-    [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245", null ],
-    [ "MR::cutMesh", "group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc", null ],
-    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga3f74a4803a385d6714d3711d05b747dc", null ],
-    [ "MR::getBooleanPoints", "group__BooleanGroup.html#gabcddc5448fa2c146bca47925a093d3c2", null ]
+    [ "MR::boolean", "group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729", null ],
+    [ "MR::boolean", "group__BooleanGroup.html#gafdc7b5669facb509c577f29284ddfb9a", null ],
+    [ "MR::boolean", "group__BooleanGroup.html#ga39d92839525374ba15a2557ed8f93b8f", null ],
+    [ "MR::boolean", "group__BooleanGroup.html#ga6ed597bf8c9350700adae2b23fed4f74", null ],
+    [ "MR::convertIntFloatAllVerts", "group__BooleanGroup.html#gaea2a58b1c675ac131f93a0785e7d7ec1", null ],
+    [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#ga8f2f47f6c859930c9c0252e4bc28944e", null ],
+    [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#gaccf79b17bf64faa5454a116f768def33", null ],
+    [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga9b27124d1aee7872d4ac97a96ef4fee2", null ],
+    [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga86ca2da82f81a72954e27baf0e31fbd8", null ],
+    [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga1038937a987d09a86802e694724e7aa7", null ],
+    [ "MR::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga60c552ace8de5755edd7e5a28dd4dc6b", null ],
+    [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga84ad133112b40770a9311344d2bbfdde", null ],
+    [ "MR::cutMesh", "group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c", null ],
+    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga17c23a55f3d3172ff25ce29e501a75e1", null ],
+    [ "MR::findIntersectionContours", "group__BooleanGroup.html#ga0b6ca259502ac9cd412a6d3b42249201", null ],
+    [ "MR::getBooleanPoints", "group__BooleanGroup.html#gac5ed86269f5cf1022e94d272e28f73b7", null ],
+    [ "MR::selfBoolean", "group__BooleanGroup.html#ga6d540f90dc1f346721c02d850438ed29", null ]
 ];

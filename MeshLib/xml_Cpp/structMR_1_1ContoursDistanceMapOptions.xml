@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ContoursDistanceMapOptions" kind="struct" language="C++" prot="public">
     <compoundname>MR::ContoursDistanceMapOptions</compoundname>
-    <includes refid="MRDistanceMap_8h" local="no">MRDistanceMap.h</includes>
+    <includes refid="MRDistanceMap_8h" local="no">MRMesh/MRDistanceMap.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="structMR_1_1ContoursDistanceMapOptions_1a8338b4b187db812314a5890ccf5e6ec6" prot="public" static="no" strong="no">
         <type></type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="206" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="207" bodyend="215"/>
+        <location file="MRMesh/MRDistanceMap.h" line="206" column="5" bodyfile="MRMesh/MRDistanceMap.h" bodystart="207" bodyend="215"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="215" column="36"/>
+        <location file="MRMesh/MRDistanceMap.h" line="215" column="36"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContoursDistanceMapOptions_1a5015f92ab6db453e909083c2c9486054" prot="public" static="no" mutable="no">
         <type>const <ref refid="structMR_1_1ContoursDistanceMapOffset" kindref="compound">ContoursDistanceMapOffset</ref> *</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="217" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="217" bodyend="217"/>
+        <location file="MRMesh/MRDistanceMap.h" line="217" column="37" bodyfile="MRMesh/MRDistanceMap.h" bodystart="217" bodyend="217"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContoursDistanceMapOptions_1ad970162a0cd7b031b6f1394f856f5ba0" prot="public" static="no" mutable="no">
         <type>const PixelBitSet *</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="219" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="219" bodyend="219"/>
+        <location file="MRMesh/MRDistanceMap.h" line="219" column="23" bodyfile="MRMesh/MRDistanceMap.h" bodystart="219" bodyend="219"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContoursDistanceMapOptions_1ab4eb6c6f113595f62886ed7e689760ae" prot="public" static="no" mutable="no">
         <type>std::vector&lt; UndirectedEdgeId &gt; *</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="221" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="221" bodyend="221"/>
+        <location file="MRMesh/MRDistanceMap.h" line="221" column="17" bodyfile="MRMesh/MRDistanceMap.h" bodystart="221" bodyend="221"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContoursDistanceMapOptions_1abaa6a767d5ebd7c04e839e485898634f" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="223" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="223" bodyend="223"/>
+        <location file="MRMesh/MRDistanceMap.h" line="223" column="11" bodyfile="MRMesh/MRDistanceMap.h" bodystart="223" bodyend="223"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContoursDistanceMapOptions_1a37e6ab24d4bd5bee82c4ff4cfded2aec" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="225" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="225" bodyend="225"/>
+        <location file="MRMesh/MRDistanceMap.h" line="225" column="11" bodyfile="MRMesh/MRDistanceMap.h" bodystart="225" bodyend="225"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -159,7 +159,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="204" bodyend="226"/>
+    <location file="MRMesh/MRDistanceMap.h" line="203" column="1" bodyfile="MRMesh/MRDistanceMap.h" bodystart="204" bodyend="226"/>
     <listofallmembers>
       <member refid="structMR_1_1ContoursDistanceMapOptions_1ada938644fd6754f567016b529b5f7340" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContourOrientation</name></member>
       <member refid="structMR_1_1ContoursDistanceMapOptions_1a8338b4b187db812314a5890ccf5e6ec6ac0f03fce7a18db1b1d8c8c977e711727" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContourOrientation</name></member>

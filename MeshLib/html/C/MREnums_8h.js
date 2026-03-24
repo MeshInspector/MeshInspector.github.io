@@ -7,6 +7,7 @@ var MREnums_8h =
     [ "MR_OffsetMode", "MREnums_8h.html#adec1219ece1c9c68f233e4ab1056cd02", null ],
     [ "MR_OrientNormals", "MREnums_8h.html#ae07e1336427a647b041b525ba1b2e725", null ],
     [ "MR_Processing", "MREnums_8h.html#ae27ea8c7570f040835b33a0df5f6be04", null ],
+    [ "MR_RememberShape", "MREnums_8h.html#ae7edb655a25d3bc6dd3415d5cfbda767", null ],
     [ "MR_Reorder", "MREnums_8h.html#a7869edbba7e774adc1c184741e30f492", null ],
     [ "MR_Turn", "MREnums_8h.html#aa9a1b49c0f81a0c79c304b9458276549", null ],
     [ "MR_UseAABBTree", "MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5", null ],
@@ -32,6 +33,10 @@ var MREnums_8h =
       [ "MR_OrientNormals_TowardOrigin", "MREnums_8h.html#a7e870a89eaf0714e711833b123b397b3a895fc9daf6c5031555850f1c3c3cac4c", null ],
       [ "MR_OrientNormals_AwayFromOrigin", "MREnums_8h.html#a7e870a89eaf0714e711833b123b397b3a0249a411bf2394e3efbbad25a602079c", null ],
       [ "MR_OrientNormals_Smart", "MREnums_8h.html#a7e870a89eaf0714e711833b123b397b3ad38dbb20ad31f3b7610abce74844df12", null ]
+    ] ],
+    [ "MR_RememberShape", "MREnums_8h.html#acb93b9836cfc63b8a860cd876cbade18", [
+      [ "MR_RememberShape_Yes", "MREnums_8h.html#acb93b9836cfc63b8a860cd876cbade18a192361388fb7ef8e9f066eabfb0aa274", null ],
+      [ "MR_RememberShape_No", "MREnums_8h.html#acb93b9836cfc63b8a860cd876cbade18a0f5583e21a8f6f167050bc42a4fd3099", null ]
     ] ],
     [ "MR_VertexMass", "MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3", [
       [ "MR_VertexMass_Unit", "MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3a1c92effa2e6d6ff88b2c909fe0c6c8ae", null ],

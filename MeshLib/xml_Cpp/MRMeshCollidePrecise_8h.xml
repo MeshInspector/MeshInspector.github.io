@@ -1,14 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshCollidePrecise_8h" kind="file" language="C++">
     <compoundname>MRMeshCollidePrecise.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes refid="MRMeshPart_8h" local="yes">MRMeshPart.h</includes>
     <includes refid="MRPrecisePredicates3_8h" local="yes">MRPrecisePredicates3.h</includes>
     <includes local="no">functional</includes>
-    <includedby refid="MRIntersectionContour_8h" local="yes">MRIntersectionContour.h</includedby>
+    <includedby refid="MRIntersectionContour_8h" local="yes">MRMesh/MRIntersectionContour.h</includedby>
     <incdepgraph>
-      <node id="13">
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -17,67 +23,7 @@
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="1">
-        <label>MRMeshCollidePrecise.h</label>
-        <link refid="MRMeshCollidePrecise_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRMeshPart.h</label>
-        <link refid="MRMeshPart_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRPrecisePredicates3.h</label>
-        <link refid="MRPrecisePredicates3_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -87,62 +33,154 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRMeshCollidePrecise.h</label>
+        <link refid="MRMeshCollidePrecise_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRMeshFwd.h</label>
-      </node>
-      <node id="14">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="15">
-        <label>algorithm</label>
-      </node>
-      <node id="19">
-        <label>array</label>
-      </node>
-      <node id="5">
-        <label>cassert</label>
-      </node>
-      <node id="16">
-        <label>cmath</label>
-      </node>
-      <node id="6">
-        <label>cstddef</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
       <node id="17">
-        <label>cstring</label>
-      </node>
-      <node id="21">
-        <label>functional</label>
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
       <node id="18">
-        <label>iosfwd</label>
+        <label>MRPrecisePredicates3.h</label>
+        <link refid="MRPrecisePredicates3_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
       </node>
       <node id="20">
-        <label>optional</label>
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
-        <label>type_traits</label>
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="22">
+        <label>algorithm</label>
       </node>
       <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="23">
+        <label>cmath</label>
+      </node>
+      <node id="14">
+        <label>cstddef</label>
+      </node>
+      <node id="24">
+        <label>cstring</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="25">
+        <label>iosfwd</label>
+      </node>
+      <node id="26">
+        <label>optional</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="16">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>MRContoursCut.h</label>
+        <label>MRMesh/MRContoursCut.h</label>
         <link refid="MRContoursCut_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRIntersectionContour.h</label>
+        <label>MRMesh/MRIntersectionContour.h</label>
         <link refid="MRIntersectionContour_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -150,23 +188,23 @@
         </childnode>
       </node>
       <node id="5">
-        <label>MRMeshBoolean.h</label>
+        <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshCollidePrecise.h</label>
+        <label>MRMesh/MRMeshCollidePrecise.h</label>
         <link refid="MRMeshCollidePrecise_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MROneMeshContours.h</label>
+        <label>MRMesh/MROneMeshContours.h</label>
         <link refid="MROneMeshContours_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>MRTripleFaceIntersections.h</label>
+        <label>MRMesh/MRTripleFaceIntersections.h</label>
         <link refid="MRTripleFaceIntersections_8h"/>
       </node>
     </invincdepgraph>
@@ -190,8 +228,8 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"></codeline>
-<codeline lineno="16" refid="structMR_1_1EdgeTri" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1EdgeTri" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EdgeTri_1abc6f03d4ca7344789c80a99a10605739" kindref="member">EdgeTri</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18" refid="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" kindref="member">edge</ref>;</highlight></codeline>
 <codeline lineno="19" refid="structMR_1_1EdgeTri_1ad73baa8260912b59b30536da0cb50318" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="structMR_1_1EdgeTri_1ad73baa8260912b59b30536da0cb50318" kindref="member">tri</ref>;</highlight></codeline>
@@ -199,12 +237,12 @@
 <codeline lineno="21" refid="structMR_1_1EdgeTri_1a45de5d714a586bda433f476169bb81ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1EdgeTri_1a45de5d714a586bda433f476169bb81ef" kindref="member">EdgeTri</ref>(<sp/>EdgeId<sp/>e,<sp/>FaceId<sp/>t<sp/>)<sp/>:<sp/><ref refid="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" kindref="member">edge</ref>(<sp/>e<sp/>),<sp/><ref refid="structMR_1_1EdgeTri_1ad73baa8260912b59b30536da0cb50318" kindref="member">tri</ref>(<sp/>t<sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga300a438da6440ee7d2e92933bcfa6018" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="24" refid="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref>&amp;<sp/>b<sp/>)</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a.<ref refid="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" kindref="member">edge</ref>.undirected()<sp/>==<sp/>b.<ref refid="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" kindref="member">edge</ref>.undirected()<sp/>&amp;&amp;<sp/>a.<ref refid="structMR_1_1EdgeTri_1ad73baa8260912b59b30536da0cb50318" kindref="member">tri</ref><sp/>==<sp/>b.<ref refid="structMR_1_1EdgeTri_1ad73baa8260912b59b30536da0cb50318" kindref="member">tri</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="structMR_1_1VarEdgeTri" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref></highlight></codeline>
+<codeline lineno="31" refid="structMR_1_1VarEdgeTri" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VarEdgeTri_1a9823b1d64efd1d93070b51f01ffa10c6" kindref="member">VarEdgeTri</ref></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="33" refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" kindref="member">edge</ref>;</highlight></codeline>
 <codeline lineno="34" refid="structMR_1_1VarEdgeTri_1_1FlaggedTri" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri" kindref="compound">FlaggedTri</ref></highlight></codeline>
@@ -214,8 +252,8 @@
 <codeline lineno="38" refid="structMR_1_1VarEdgeTri_1_1FlaggedTri_1a408a18646248d1d57deb6e7546ec9716" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri_1a408a18646248d1d57deb6e7546ec9716" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri" kindref="compound">FlaggedTri</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="39" refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>FaceId<sp/><ref refid="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" kindref="member">tri</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FaceId(<sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>.<ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri_1aa5ab2cbeb1b2f73ba9d3a268be384ace" kindref="member">face</ref><sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="42" refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bool(<sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>.<ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri_1a29688551fde640070c748b997eddb5ab" kindref="member">isEdgeATriB</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="41" refid="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>FaceId<sp/><ref refid="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" kindref="member">tri</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FaceId(<sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>.face<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bool(<sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>.isEdgeATriB<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="43" refid="structMR_1_1VarEdgeTri_1a2845a94e12c71150e5cc22e2c03a027d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref><sp/><ref refid="structMR_1_1VarEdgeTri_1a2845a94e12c71150e5cc22e2c03a027d" kindref="member">edgeTri</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref>(<sp/><ref refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" kindref="member">edge</ref>,<sp/><ref refid="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" kindref="member">tri</ref>()<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="structMR_1_1VarEdgeTri_1a8e7c3895e3226b4e74de73d21cd4c4ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a8e7c3895e3226b4e74de73d21cd4c4ad" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" kindref="member">edge</ref>.valid();<sp/>}</highlight></codeline>
@@ -226,41 +264,41 @@
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>t.valid()<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" kindref="member">edge</ref><sp/>=<sp/>e;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>.<ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri_1a29688551fde640070c748b997eddb5ab" kindref="member">isEdgeATriB</ref><sp/>=<sp/><ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB</ref>;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>.<ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri_1aa5ab2cbeb1b2f73ba9d3a268be384ace" kindref="member">face</ref><sp/>=<sp/>t;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>.isEdgeATriB<sp/>=<sp/><ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kindref="member">flaggedTri</ref>.face<sp/>=<sp/>t;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="56" refid="structMR_1_1VarEdgeTri_1a959f88d5011716b91abacd8e5b6d357c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VarEdgeTri_1a959f88d5011716b91abacd8e5b6d357c" kindref="member">VarEdgeTri</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref>&amp;<sp/>et<sp/>)<sp/>:<sp/><ref refid="structMR_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref>(<sp/><ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB</ref>,<sp/>et.<ref refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" kindref="member">edge</ref>,<sp/>et.<ref refid="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" kindref="member">tri</ref><sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="56" refid="structMR_1_1VarEdgeTri_1a959f88d5011716b91abacd8e5b6d357c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VarEdgeTri_1a959f88d5011716b91abacd8e5b6d357c" kindref="member">VarEdgeTri</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref>&amp;<sp/>et<sp/>)<sp/>:<sp/><ref refid="structMR_1_1VarEdgeTri_1a9823b1d64efd1d93070b51f01ffa10c6" kindref="member">VarEdgeTri</ref>(<sp/><ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB</ref>,<sp/>et.<ref refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" kindref="member">edge</ref>,<sp/>et.<ref refid="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" kindref="member">tri</ref><sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="structMR_1_1VarEdgeTri_1a5f818bf5f96cbe4b5c899d56e9185ce6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a5f818bf5f96cbe4b5c899d56e9185ce6" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58" refid="structMR_1_1VarEdgeTri_1a5f818bf5f96cbe4b5c899d56e9185ce6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a5f818bf5f96cbe4b5c899d56e9185ce6" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VarEdgeTri_1a9823b1d64efd1d93070b51f01ffa10c6" kindref="member">VarEdgeTri</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="59"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/><ref refid="structMR_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref><sp/>)<sp/>==<sp/>8<sp/>);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="group__AABBTreeGroup_1ga457b7bb3a129cf50a82586b670a93148" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1ga457b7bb3a129cf50a82586b670a93148" kindref="member">PreciseCollisionResult</ref><sp/>=<sp/>std::vector&lt;VarEdgeTri&gt;;</highlight></codeline>
+<codeline lineno="64" refid="group__AABBTreeGroup_1ga457b7bb3a129cf50a82586b670a93148" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1ga457b7bb3a129cf50a82586b670a93148" kindref="member">PreciseCollisionResult</ref><sp/>=<sp/>std::vector&lt;VarEdgeTri&gt;;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="group__AABBTreeGroup_1ga11d4ca955f1a62e15ebea578ffa83454" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__AABBTreeGroup_1ga457b7bb3a129cf50a82586b670a93148" kindref="member">PreciseCollisionResult</ref><sp/><ref refid="group__AABBTreeGroup_1ga11d4ca955f1a62e15ebea578ffa83454" kindref="member">findCollidingEdgeTrisPrecise</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>b,</highlight></codeline>
+<codeline lineno="71" refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__AABBTreeGroup_1ga457b7bb3a129cf50a82586b670a93148" kindref="member">PreciseCollisionResult</ref><sp/><ref refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kindref="member">findCollidingEdgeTrisPrecise</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>b,</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/>conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>anyIntersection<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="group__AABBTreeGroup_1ga50f22b9cff7188bb21cc3c7d72ec4a03" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::vector&lt;EdgeTri&gt;<sp/><ref refid="group__AABBTreeGroup_1ga50f22b9cff7188bb21cc3c7d72ec4a03" kindref="member">findSelfCollidingEdgeTrisPrecise</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,</highlight></codeline>
+<codeline lineno="80" refid="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;EdgeTri&gt;<sp/><ref refid="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" kindref="member">findSelfCollidingEdgeTrisPrecise</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/>conv,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>anyIntersection<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aVertSizes<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="group__AABBTreeGroup_1ga8c7d357b072699f62023d97ea1c81f45" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::vector&lt;EdgeTri&gt;<sp/><ref refid="group__AABBTreeGroup_1ga11d4ca955f1a62e15ebea578ffa83454" kindref="member">findCollidingEdgeTrisPrecise</ref>(<sp/></highlight></codeline>
+<codeline lineno="84" refid="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;EdgeTri&gt;<sp/><ref refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kindref="member">findCollidingEdgeTrisPrecise</ref>(<sp/></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;<sp/>&amp;<sp/>edgesA,</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FaceId&gt;<sp/>&amp;<sp/>facesB,</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/>conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="group__AABBTreeGroup_1ga939afe34134c1d66c9ca5f19e33dc323" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::vector&lt;EdgeTri&gt;<sp/><ref refid="group__AABBTreeGroup_1ga11d4ca955f1a62e15ebea578ffa83454" kindref="member">findCollidingEdgeTrisPrecise</ref>(<sp/></highlight></codeline>
+<codeline lineno="90" refid="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;EdgeTri&gt;<sp/><ref refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kindref="member">findCollidingEdgeTrisPrecise</ref>(<sp/></highlight></codeline>
 <codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FaceId&gt;<sp/>&amp;<sp/>facesA,</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;<sp/>&amp;<sp/>edgesB,</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/>conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="group__AABBTreeGroup_1gada6fc8da7b44241f0c208c2f2b085124" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref><sp/><ref refid="group__AABBTreeGroup_1gada6fc8da7b44241f0c208c2f2b085124" kindref="member">getVectorConverters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>a<sp/>);</highlight></codeline>
+<codeline lineno="98" refid="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref><sp/><ref refid="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" kindref="member">getVectorConverters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>a<sp/>);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="group__AABBTreeGroup_1ga125d7b99c7b4840e87a3470ef0c64b17" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref><sp/><ref refid="group__AABBTreeGroup_1gada6fc8da7b44241f0c208c2f2b085124" kindref="member">getVectorConverters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>b,</highlight></codeline>
+<codeline lineno="104" refid="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref><sp/><ref refid="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" kindref="member">getVectorConverters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>b,</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h"/>
+    <location file="MRMesh/MRMeshCollidePrecise.h"/>
   </compounddef>
 </doxygen>

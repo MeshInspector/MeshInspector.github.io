@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::FixUndercuts::DistMapImproveDirectionParameters</compoundname>
     <basecompoundref refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" prot="public" virt="non-virtual">MR::FixUndercuts::ImproveDirectionParameters</basecompoundref>
-    <includes refid="MRFixUndercuts_8h" local="no">MRFixUndercuts.h</includes>
+    <includes refid="MRFixUndercuts_8h" local="no">MRVoxels/MRFixUndercuts.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga865b6dc16827bcf5024f2e675a74e8e0" kind="variable"><name>distanceMapResolution</name></member>
     </sectiondef>
@@ -35,7 +35,7 @@
         <link refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="127" bodyend="130"/>
+    <location file="MRVoxels/MRFixUndercuts.h" line="126" column="1" bodyfile="MRVoxels/MRFixUndercuts.h" bodystart="127" bodyend="130"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac0272dc3ddf798713b8395f78ed62b2e" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>baseAngleStep</name></member>
       <member refid="group__GeneralGroup_1ga865b6dc16827bcf5024f2e675a74e8e0" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>distanceMapResolution</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetBitIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::SetBitIterator</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIterator</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12624" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12624" bodyend="12624"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13420" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13420" bodyend="13420"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12629" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12629" bodyend="12634"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13425" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13425" bodyend="13430"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIterator_1aa8025a79724586c7f23cacd93c67a8ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,13 +54,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SetBitIterator.SetBitIterator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SetBitIterator_1af1e8ce1bf82c151c5145f3e74029139a" kindref="member">MR.SetBitIterator.SetBitIterator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12639" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12639" bodyend="12645"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13435" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13435" bodyend="13441"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIterator_1a9ddc68c7faf7c3d18ca4a3af87f02c8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,13 +73,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SetBitIterator.SetBitIterator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SetBitIterator_1af1e8ce1bf82c151c5145f3e74029139a" kindref="member">MR.SetBitIterator.SetBitIterator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12650" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12650" bodyend="12650"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13446" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13446" bodyend="13446"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIterator_1a054b9ded355cb214ff0eb79607d21a92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -92,13 +92,13 @@
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR.SetBitIterator.SetBitIterator</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput><ref refid="classMR_1_1SetBitIterator_1af1e8ce1bf82c151c5145f3e74029139a" kindref="member">MR.SetBitIterator.SetBitIterator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12656" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12656" bodyend="12662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13452" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13452" bodyend="13458"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIterator_1a03cb763e1e1c2b7d92f65ce170979222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SetBitIterator" kindref="compound">MR.SetBitIterator</ref></type>
@@ -111,13 +111,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SetBitIterator.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIterator::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12673" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12673" bodyend="12680"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13469" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13469" bodyend="13476"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIterator_1ae50e4d633e77e7f2929d9820a40f9573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -126,13 +126,13 @@
         <name>incr</name>
         <qualifiedname>MR.SetBitIterator.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SetBitIterator.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIterator::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12685" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12685" bodyend="12690"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13481" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13481" bodyend="13486"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -147,13 +147,13 @@
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR.SetBitIterator.SetBitIterator</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput><ref refid="classMR_1_1SetBitIterator_1af1e8ce1bf82c151c5145f3e74029139a" kindref="member">MR.SetBitIterator.SetBitIterator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12668" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12668" bodyend="12668"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13464" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13464" bodyend="13464"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -162,8 +162,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.SetBitIterator</label>
+        <link refid="classMR_1_1SetBitIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_SetBitIterator</label>
+        <label>MR.Const_SetBitIterator</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,25 +177,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.SetBitIterator</label>
-        <link refid="classMR_1_1SetBitIterator"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SetBitIterator &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_SetBitIterator &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.SetBitIterator</label>
+        <link refid="classMR_1_1SetBitIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_SetBitIterator</label>
+        <label>MR.Const_SetBitIterator</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -197,23 +203,17 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.SetBitIterator</label>
-        <link refid="classMR_1_1SetBitIterator"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SetBitIterator &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_SetBitIterator &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12622" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12623" bodyend="12691"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13418" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13419" bodyend="13487"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIterator_1a03cb763e1e1c2b7d92f65ce170979222" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>assign</name></member>
       <member refid="classMR_1_1SetBitIterator_1ae50e4d633e77e7f2929d9820a40f9573" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>incr</name></member>

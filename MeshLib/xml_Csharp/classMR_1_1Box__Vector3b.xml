@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Box__Vector3b" kind="class" language="C#" prot="public">
     <compoundname>MR::Box_Vector3b</compoundname>
     <basecompoundref refid="classMR_1_1ConstBox__Vector3b" prot="public" virt="non-virtual">MR.ConstBox_Vector3b</basecompoundref>
@@ -53,7 +53,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.Box_Vector3b.this[int e]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector3b.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector3b::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -192,7 +192,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -211,7 +211,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -230,7 +230,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -249,7 +249,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator/=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator/=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -288,8 +288,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Box_Vector3b</label>
+        <link refid="classMR_1_1Box__Vector3b"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_Vector3b</label>
+        <label>MR.ConstBox_Vector3b</label>
         <link refid="classMR_1_1ConstBox__Vector3b"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -298,25 +304,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_Vector3b</label>
-        <link refid="classMR_1_1Box__Vector3b"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_Vector3b &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.ConstBox_Vector3b &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Box_Vector3b</label>
+        <link refid="classMR_1_1Box__Vector3b"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_Vector3b</label>
+        <label>MR.ConstBox_Vector3b</label>
         <link refid="classMR_1_1ConstBox__Vector3b"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -325,20 +331,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_Vector3b</label>
-        <link refid="classMR_1_1Box__Vector3b"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_Vector3b &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.ConstBox_Vector3b &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="290" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="291" bodyend="416"/>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMarkedContour_8h" kind="file" language="C++">
     <compoundname>MRMarkedContour.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,51 +14,36 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMarkedContour_8h_1a36d7d5a26d258211a2da5d9311a0798c" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref></type>
-        <definition>typedef struct MR_BitSet MR_BitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_BitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="13" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarkedContour_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="14" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" prot="public" static="no">
         <type>struct <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref></type>
         <definition>typedef struct MR_MarkedContour3f MR_MarkedContour3f</definition>
@@ -67,11 +52,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::MarkedContour3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::MarkedContour3f</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="19" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="19" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" prot="public" static="no">
         <type>struct <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref></type>
@@ -81,16 +66,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::SplineSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::SplineSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="23" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="23" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMarkedContour_8h_1a092b81eb16d314d31851ccd061115877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_std_vector_MR_Vector3f * MR_MarkedContour3f_Get_contour</definition>
         <argsstring>(const MR_MarkedContour3f *_this)</argsstring>
         <name>MR_MarkedContour3f_Get_contour</name>
@@ -105,10 +90,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="29" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="29" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="29" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="29" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a04db03c0a1c2c6b328a51bca1d5874c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MarkedContour3f_Set_contour</definition>
         <argsstring>(MR_MarkedContour3f *_this, MR_PassBy value_pass_by, MR_std_vector_MR_Vector3f *value)</argsstring>
         <name>MR_MarkedContour3f_Set_contour</name>
@@ -117,7 +102,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -127,14 +112,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MarkedContour3f</computeroutput> named <computeroutput>contour</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>contour</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>contour</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MarkedContour3f</computeroutput> named <computeroutput>contour</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>contour</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>contour</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="35" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="35" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a6fdd0273c4e260e11456f53c07654081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3f * MR_MarkedContour3f_GetMutable_contour</definition>
         <argsstring>(MR_MarkedContour3f *_this)</argsstring>
         <name>MR_MarkedContour3f_GetMutable_contour</name>
@@ -149,10 +134,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="41" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="41" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="41" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="41" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a4d9fe22f9c3c22023f9c4087844d1ff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref> *</type>
         <definition>MRC_API const MR_BitSet * MR_MarkedContour3f_Get_marks</definition>
         <argsstring>(const MR_MarkedContour3f *_this)</argsstring>
         <name>MR_MarkedContour3f_Get_marks</name>
@@ -163,14 +148,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>indices of control (marked) points Modifies a member variable of class <computeroutput>MR::MarkedContour3f</computeroutput> named <computeroutput>marks</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>marks</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>marks</computeroutput>. </para>
+<para>indices of control (marked) points Modifies a member variable of class <computeroutput>MR::MarkedContour3f</computeroutput> named <computeroutput>marks</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>marks</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>marks</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="48" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="48" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="48" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="48" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1aaaf54d3d585fa7d19615a47989e27e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MarkedContour3f_Set_marks</definition>
         <argsstring>(MR_MarkedContour3f *_this, MR_PassBy value_pass_by, MR_BitSet *value)</argsstring>
         <name>MR_MarkedContour3f_Set_marks</name>
@@ -179,7 +164,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -193,10 +178,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="55" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="55" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a5b62a85e9043eac1b43f7f9bfba2f07e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref> *</type>
         <definition>MRC_API MR_BitSet * MR_MarkedContour3f_GetMutable_marks</definition>
         <argsstring>(MR_MarkedContour3f *_this)</argsstring>
         <name>MR_MarkedContour3f_GetMutable_marks</name>
@@ -210,10 +195,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="62" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="62" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="62" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="62" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a0c8e26d179f8dad832b268f18eaaf00f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_MarkedContour3f_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MarkedContour3f_DefaultConstruct</name>
@@ -227,10 +212,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="66" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="66" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="66" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="66" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a666fa08e8494788d0c09d90bd3e29a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_MarkedContour3f_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MarkedContour3f_DefaultConstructArray</name>
@@ -245,15 +230,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="71" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="71" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="71" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="71" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a9ca93fe95f98296feec41c4f79013ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_MarkedContour3f_ConstructFrom</definition>
         <argsstring>(MR_PassBy contour_pass_by, MR_std_vector_MR_Vector3f *contour, MR_PassBy marks_pass_by, MR_BitSet *marks)</argsstring>
         <name>MR_MarkedContour3f_ConstructFrom</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>contour_pass_by</declname>
         </param>
         <param>
@@ -261,7 +246,7 @@
           <declname>contour</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>marks_pass_by</declname>
         </param>
         <param>
@@ -271,14 +256,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MarkedContour3f</computeroutput> elementwise. The reference to the parameter <computeroutput>contour</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>marks</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" kindref="member">MR_MarkedContour3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MarkedContour3f</computeroutput> elementwise. The reference to the parameter <computeroutput>contour</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>marks</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" kindref="member">MR_MarkedContour3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="78" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="78" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="78" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="78" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a3fdc4c4696166699bfcc9b7aa5cdad98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API const MR_MarkedContour3f * MR_MarkedContour3f_OffsetPtr</definition>
         <argsstring>(const MR_MarkedContour3f *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MarkedContour3f_OffsetPtr</name>
@@ -297,10 +282,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="82" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="82" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="82" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="82" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a9114944c801f0224fcb86f5136548a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_MarkedContour3f_OffsetMutablePtr</definition>
         <argsstring>(MR_MarkedContour3f *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MarkedContour3f_OffsetMutablePtr</name>
@@ -319,15 +304,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="86" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="86" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="86" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="86" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1ae8967ee22477cac61caf855dbb7aac2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_MarkedContour3f_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_MarkedContour3f *_other)</argsstring>
         <name>MR_MarkedContour3f_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -341,10 +326,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="91" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="91" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="91" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="91" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MarkedContour3f_Destroy</definition>
         <argsstring>(const MR_MarkedContour3f *_this)</argsstring>
         <name>MR_MarkedContour3f_Destroy</name>
@@ -353,16 +338,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MarkedContour3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="94" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="94" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1aeeff4663266f04febd5c7d46b71ef99e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MarkedContour3f_DestroyArray</definition>
         <argsstring>(const MR_MarkedContour3f *_this)</argsstring>
         <name>MR_MarkedContour3f_DestroyArray</name>
@@ -371,16 +356,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MarkedContour3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="97" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="97" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1ad6298faa5002be58fa2ecf50d08a0970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_MarkedContour3f_AssignFromAnother</definition>
         <argsstring>(MR_MarkedContour3f *_this, MR_PassBy _other_pass_by, MR_MarkedContour3f *_other)</argsstring>
         <name>MR_MarkedContour3f_AssignFromAnother</name>
@@ -389,7 +374,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -399,14 +384,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MarkedContour3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MarkedContour3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="104" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="104" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="104" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="104" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a044ee5cd7f3c340f07b4fea5e773949e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_isClosed_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *c)</argsstring>
         <name>MR_isClosed_std_vector_MR_Vector3f</name>
@@ -421,15 +406,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="108" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="108" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="108" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="108" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a4bb8b0ad599c66f2287e2473ed730560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_markedContour</definition>
         <argsstring>(MR_PassBy in_pass_by, MR_std_vector_MR_Vector3f *in)</argsstring>
         <name>MR_markedContour</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>in_pass_by</declname>
         </param>
         <param>
@@ -445,15 +430,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="113" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="113" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="113" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="113" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a65a15e7467f90db23c4e5831a7cc8411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_markedFirstLast</definition>
         <argsstring>(MR_PassBy in_pass_by, MR_std_vector_MR_Vector3f *in)</argsstring>
         <name>MR_markedFirstLast</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>in_pass_by</declname>
         </param>
         <param>
@@ -469,10 +454,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="118" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="118" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="118" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="118" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a11caaef5af8d0dadfddcdc87283d80c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_resample</definition>
         <argsstring>(const MR_MarkedContour3f *in, float minStep, MR_std_vector_MR_Vector3f *normals)</argsstring>
         <name>MR_resample</name>
@@ -504,15 +489,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="127" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="127" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="127" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="127" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a7f4f2f45c4757df6cb3756e6b0fce38f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_makeSpline_3_float</definition>
         <argsstring>(MR_PassBy in_pass_by, MR_MarkedContour3f *in, const float *markStability, const MR_std_vector_MR_Vector3f *normals)</argsstring>
         <name>MR_makeSpline_3_float</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>in_pass_by</declname>
         </param>
         <param>
@@ -561,15 +546,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="137" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="137" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="137" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="137" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a30909015f692f1b1c81a08b866d8f0aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_makeSpline_3_std_vector_MR_Vector3f</definition>
         <argsstring>(MR_PassBy in_pass_by, MR_MarkedContour3f *in, const MR_std_vector_MR_Vector3f *normals, const float *markStability)</argsstring>
         <name>MR_makeSpline_3_std_vector_MR_Vector3f</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>in_pass_by</declname>
         </param>
         <param>
@@ -618,10 +603,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="147" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="147" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="147" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="147" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1aaec260f5274e2828919a4de9fd92d70d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_SplineSettings_Get_samplingStep</definition>
         <argsstring>(const MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_Get_samplingStep</name>
@@ -636,10 +621,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="155" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="155" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="155" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="155" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1ac11b28fa1fca6add6b45541d8392be01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SplineSettings_Set_samplingStep</definition>
         <argsstring>(MR_SplineSettings *_this, float value)</argsstring>
         <name>MR_SplineSettings_Set_samplingStep</name>
@@ -654,14 +639,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>samplingStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>samplingStep</computeroutput>. </para>
+<para>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>samplingStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>samplingStep</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="162" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="162" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a0d2ab7dd43bdcf3ae43ba793d433095f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_SplineSettings_GetMutable_samplingStep</definition>
         <argsstring>(MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_GetMutable_samplingStep</name>
@@ -676,10 +661,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="170" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="170" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="170" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="170" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1aa68ad784919cccb9b51f19bb52e4693f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_SplineSettings_Get_controlStability</definition>
         <argsstring>(const MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_Get_controlStability</name>
@@ -694,10 +679,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="177" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="177" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="177" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="177" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a17268fef2ae17d5abcd9252865195a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SplineSettings_Set_controlStability</definition>
         <argsstring>(MR_SplineSettings *_this, float value)</argsstring>
         <name>MR_SplineSettings_Set_controlStability</name>
@@ -712,14 +697,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a positive value, the more the value the closer resulting spline will be to given control points Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>controlStability</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>controlStability</computeroutput>. </para>
+<para>a positive value, the more the value the closer resulting spline will be to given control points Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>controlStability</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>controlStability</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="183" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="183" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a9ebcb4e316b747050d78e15641b7c717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_SplineSettings_GetMutable_controlStability</definition>
         <argsstring>(MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_GetMutable_controlStability</name>
@@ -734,10 +719,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="190" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="190" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="190" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="190" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a6016bd46eeafe4315cd9beeac240ea33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
         <definition>MRC_API const int * MR_SplineSettings_Get_iterations</definition>
         <argsstring>(const MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_Get_iterations</name>
@@ -752,10 +737,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="199" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="199" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="199" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="199" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1adcf8fc86c52f3238b79822adbbd54337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SplineSettings_Set_iterations</definition>
         <argsstring>(MR_SplineSettings *_this, int value)</argsstring>
         <name>MR_SplineSettings_Set_iterations</name>
@@ -770,14 +755,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+<para>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="207" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="207" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="207" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="207" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a2fe8ef7abc253ae3b830ef50d208b1c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
         <definition>MRC_API int * MR_SplineSettings_GetMutable_iterations</definition>
         <argsstring>(MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_GetMutable_iterations</name>
@@ -792,10 +777,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="216" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="216" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="216" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="216" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a8ed1c9fd35f09577167c89bb8caf9be5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *const *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3f *const  * MR_SplineSettings_Get_normals</definition>
         <argsstring>(const MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_Get_normals</name>
@@ -810,10 +795,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="223" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="223" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="223" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="223" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a3667c31eb1a7b3c3d5c8cd5513b7c320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SplineSettings_Set_normals</definition>
         <argsstring>(MR_SplineSettings *_this, MR_std_vector_MR_Vector3f *value)</argsstring>
         <name>MR_SplineSettings_Set_normals</name>
@@ -828,14 +813,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional parameter with the normals of input points that will be resampled to become normals of output points Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normals</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>normals</computeroutput>. </para>
+<para>optional parameter with the normals of input points that will be resampled to become normals of output points Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normals</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>normals</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="230" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="230" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="230" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="230" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a6109a1c97f55e1eab35cfa8384dd9b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> **</type>
         <definition>MRC_API MR_std_vector_MR_Vector3f ** MR_SplineSettings_GetMutable_normals</definition>
         <argsstring>(MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_GetMutable_normals</name>
@@ -850,10 +835,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="237" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="237" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="237" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="237" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a087b64d085acf468af8ead4d3c2663cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_SplineSettings_Get_normalsAffectShape</definition>
         <argsstring>(const MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_Get_normalsAffectShape</name>
@@ -868,10 +853,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="244" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="244" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="244" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="244" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a88857eeb3bc8a96cce04678c8a6ae716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SplineSettings_Set_normalsAffectShape</definition>
         <argsstring>(MR_SplineSettings *_this, bool value)</argsstring>
         <name>MR_SplineSettings_Set_normalsAffectShape</name>
@@ -886,14 +871,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>normalsAffectShape</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>normalsAffectShape</computeroutput>. </para>
+<para>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>normalsAffectShape</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>normalsAffectShape</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="250" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="250" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a4690182699850e53b92041889be8cfa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_SplineSettings_GetMutable_normalsAffectShape</definition>
         <argsstring>(MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_GetMutable_normalsAffectShape</name>
@@ -908,10 +893,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="257" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="257" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="257" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="257" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a20b4a6a2a678fed09dbf7d1e7c5cd609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
         <definition>MRC_API MR_SplineSettings * MR_SplineSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_SplineSettings_DefaultConstruct</name>
@@ -925,10 +910,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="261" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="261" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="261" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="261" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a494a86c076022c54d78f85ce90ba4ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
         <definition>MRC_API MR_SplineSettings * MR_SplineSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_SplineSettings_DefaultConstructArray</name>
@@ -943,10 +928,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="266" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="266" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="266" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="266" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a4139e7898cf77c32f6c80b9861c5d0b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
         <definition>MRC_API MR_SplineSettings * MR_SplineSettings_ConstructFrom</definition>
         <argsstring>(float samplingStep, float controlStability, int iterations, MR_std_vector_MR_Vector3f *normals, bool normalsAffectShape)</argsstring>
         <name>MR_SplineSettings_ConstructFrom</name>
@@ -973,14 +958,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SplineSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>normals</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" kindref="member">MR_SplineSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SplineSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>normals</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" kindref="member">MR_SplineSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="272" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="272" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="272" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="272" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1afead43155c3e3629026742be7127fdd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
         <definition>MRC_API const MR_SplineSettings * MR_SplineSettings_OffsetPtr</definition>
         <argsstring>(const MR_SplineSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SplineSettings_OffsetPtr</name>
@@ -999,10 +984,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="276" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="276" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="276" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="276" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a0003b4aa84597ae34848085ef669f0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
         <definition>MRC_API MR_SplineSettings * MR_SplineSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_SplineSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SplineSettings_OffsetMutablePtr</name>
@@ -1021,10 +1006,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="280" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="280" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="280" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="280" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1afd6170c9fdcf84fb6f9da32dd2e3f056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
         <definition>MRC_API MR_SplineSettings * MR_SplineSettings_ConstructFromAnother</definition>
         <argsstring>(const MR_SplineSettings *_other)</argsstring>
         <name>MR_SplineSettings_ConstructFromAnother</name>
@@ -1039,10 +1024,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="286" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="286" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="286" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="286" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SplineSettings_Destroy</definition>
         <argsstring>(const MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_Destroy</name>
@@ -1051,16 +1036,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SplineSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="289" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="289" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1aaf6ccece342ef4b7064f962e1b1d78ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SplineSettings_DestroyArray</definition>
         <argsstring>(const MR_SplineSettings *_this)</argsstring>
         <name>MR_SplineSettings_DestroyArray</name>
@@ -1069,16 +1054,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SplineSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="292" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="292" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1a11b9779c7fa678498988c5312e6ab63d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref> *</type>
         <definition>MRC_API MR_SplineSettings * MR_SplineSettings_AssignFromAnother</definition>
         <argsstring>(MR_SplineSettings *_this, const MR_SplineSettings *_other)</argsstring>
         <name>MR_SplineSettings_AssignFromAnother</name>
@@ -1093,14 +1078,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SplineSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SplineSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="300" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="300" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="300" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="300" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMarkedContour_8h_1ac0006cadbd64720c62405504180f60d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref> *</type>
         <definition>MRC_API MR_MarkedContour3f * MR_makeSpline_2</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *controlPoints, const MR_SplineSettings *settings)</argsstring>
         <name>MR_makeSpline_2</name>
@@ -1130,7 +1115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="308" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" declline="308" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" line="308" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h" declline="308" declcolumn="28"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1140,8 +1125,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -1150,110 +1135,110 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMarkedContour_8h_1a36d7d5a26d258211a2da5d9311a0798c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRMarkedContour_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRMarkedContour_8h_1a092b81eb16d314d31851ccd061115877" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a092b81eb16d314d31851ccd061115877" kindref="member">MR_MarkedContour3f_Get_contour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="29" refid="MRMarkedContour_8h_1a092b81eb16d314d31851ccd061115877" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a092b81eb16d314d31851ccd061115877" kindref="member">MR_MarkedContour3f_Get_contour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRMarkedContour_8h_1a04db03c0a1c2c6b328a51bca1d5874c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a04db03c0a1c2c6b328a51bca1d5874c7" kindref="member">MR_MarkedContour3f_Set_contour</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="35" refid="MRMarkedContour_8h_1a04db03c0a1c2c6b328a51bca1d5874c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a04db03c0a1c2c6b328a51bca1d5874c7" kindref="member">MR_MarkedContour3f_Set_contour</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRMarkedContour_8h_1a6fdd0273c4e260e11456f53c07654081" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a6fdd0273c4e260e11456f53c07654081" kindref="member">MR_MarkedContour3f_GetMutable_contour</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41" refid="MRMarkedContour_8h_1a6fdd0273c4e260e11456f53c07654081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a6fdd0273c4e260e11456f53c07654081" kindref="member">MR_MarkedContour3f_GetMutable_contour</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRMarkedContour_8h_1a4d9fe22f9c3c22023f9c4087844d1ff3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*<ref refid="MRMarkedContour_8h_1a4d9fe22f9c3c22023f9c4087844d1ff3" kindref="member">MR_MarkedContour3f_Get_marks</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48" refid="MRMarkedContour_8h_1a4d9fe22f9c3c22023f9c4087844d1ff3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*<ref refid="MRMarkedContour_8h_1a4d9fe22f9c3c22023f9c4087844d1ff3" kindref="member">MR_MarkedContour3f_Get_marks</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRMarkedContour_8h_1aaaf54d3d585fa7d19615a47989e27e1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1aaaf54d3d585fa7d19615a47989e27e1f" kindref="member">MR_MarkedContour3f_Set_marks</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="55" refid="MRMarkedContour_8h_1aaaf54d3d585fa7d19615a47989e27e1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1aaaf54d3d585fa7d19615a47989e27e1f" kindref="member">MR_MarkedContour3f_Set_marks</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRMarkedContour_8h_1a5b62a85e9043eac1b43f7f9bfba2f07e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*<ref refid="MRMarkedContour_8h_1a5b62a85e9043eac1b43f7f9bfba2f07e" kindref="member">MR_MarkedContour3f_GetMutable_marks</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62" refid="MRMarkedContour_8h_1a5b62a85e9043eac1b43f7f9bfba2f07e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*<ref refid="MRMarkedContour_8h_1a5b62a85e9043eac1b43f7f9bfba2f07e" kindref="member">MR_MarkedContour3f_GetMutable_marks</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRMarkedContour_8h_1a0c8e26d179f8dad832b268f18eaaf00f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a0c8e26d179f8dad832b268f18eaaf00f" kindref="member">MR_MarkedContour3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66" refid="MRMarkedContour_8h_1a0c8e26d179f8dad832b268f18eaaf00f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a0c8e26d179f8dad832b268f18eaaf00f" kindref="member">MR_MarkedContour3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRMarkedContour_8h_1a666fa08e8494788d0c09d90bd3e29a9f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a666fa08e8494788d0c09d90bd3e29a9f" kindref="member">MR_MarkedContour3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="71" refid="MRMarkedContour_8h_1a666fa08e8494788d0c09d90bd3e29a9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a666fa08e8494788d0c09d90bd3e29a9f" kindref="member">MR_MarkedContour3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRMarkedContour_8h_1a9ca93fe95f98296feec41c4f79013ac7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a9ca93fe95f98296feec41c4f79013ac7" kindref="member">MR_MarkedContour3f_ConstructFrom</ref>(MR_PassBy<sp/>contour_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*contour,<sp/>MR_PassBy<sp/>marks_pass_by,<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*marks);</highlight></codeline>
+<codeline lineno="78" refid="MRMarkedContour_8h_1a9ca93fe95f98296feec41c4f79013ac7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a9ca93fe95f98296feec41c4f79013ac7" kindref="member">MR_MarkedContour3f_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>contour_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*contour,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>marks_pass_by,<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*marks);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRMarkedContour_8h_1a3fdc4c4696166699bfcc9b7aa5cdad98" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a3fdc4c4696166699bfcc9b7aa5cdad98" kindref="member">MR_MarkedContour3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="82" refid="MRMarkedContour_8h_1a3fdc4c4696166699bfcc9b7aa5cdad98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a3fdc4c4696166699bfcc9b7aa5cdad98" kindref="member">MR_MarkedContour3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRMarkedContour_8h_1a9114944c801f0224fcb86f5136548a85" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a9114944c801f0224fcb86f5136548a85" kindref="member">MR_MarkedContour3f_OffsetMutablePtr</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="86" refid="MRMarkedContour_8h_1a9114944c801f0224fcb86f5136548a85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a9114944c801f0224fcb86f5136548a85" kindref="member">MR_MarkedContour3f_OffsetMutablePtr</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRMarkedContour_8h_1ae8967ee22477cac61caf855dbb7aac2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1ae8967ee22477cac61caf855dbb7aac2d" kindref="member">MR_MarkedContour3f_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="91" refid="MRMarkedContour_8h_1ae8967ee22477cac61caf855dbb7aac2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1ae8967ee22477cac61caf855dbb7aac2d" kindref="member">MR_MarkedContour3f_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" kindref="member">MR_MarkedContour3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94" refid="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" kindref="member">MR_MarkedContour3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRMarkedContour_8h_1aeeff4663266f04febd5c7d46b71ef99e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1aeeff4663266f04febd5c7d46b71ef99e" kindref="member">MR_MarkedContour3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="97" refid="MRMarkedContour_8h_1aeeff4663266f04febd5c7d46b71ef99e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1aeeff4663266f04febd5c7d46b71ef99e" kindref="member">MR_MarkedContour3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRMarkedContour_8h_1ad6298faa5002be58fa2ecf50d08a0970" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1ad6298faa5002be58fa2ecf50d08a0970" kindref="member">MR_MarkedContour3f_AssignFromAnother</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="104" refid="MRMarkedContour_8h_1ad6298faa5002be58fa2ecf50d08a0970" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1ad6298faa5002be58fa2ecf50d08a0970" kindref="member">MR_MarkedContour3f_AssignFromAnother</ref>(<ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRMarkedContour_8h_1a044ee5cd7f3c340f07b4fea5e773949e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a044ee5cd7f3c340f07b4fea5e773949e" kindref="member">MR_isClosed_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="108" refid="MRMarkedContour_8h_1a044ee5cd7f3c340f07b4fea5e773949e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a044ee5cd7f3c340f07b4fea5e773949e" kindref="member">MR_isClosed_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*c);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRMarkedContour_8h_1a4bb8b0ad599c66f2287e2473ed730560" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a4bb8b0ad599c66f2287e2473ed730560" kindref="member">MR_markedContour</ref>(MR_PassBy<sp/>in_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*in);</highlight></codeline>
+<codeline lineno="113" refid="MRMarkedContour_8h_1a4bb8b0ad599c66f2287e2473ed730560" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a4bb8b0ad599c66f2287e2473ed730560" kindref="member">MR_markedContour</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>in_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*in);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRMarkedContour_8h_1a65a15e7467f90db23c4e5831a7cc8411" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a65a15e7467f90db23c4e5831a7cc8411" kindref="member">MR_markedFirstLast</ref>(MR_PassBy<sp/>in_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*in);</highlight></codeline>
+<codeline lineno="118" refid="MRMarkedContour_8h_1a65a15e7467f90db23c4e5831a7cc8411" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a65a15e7467f90db23c4e5831a7cc8411" kindref="member">MR_markedFirstLast</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>in_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*in);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRMarkedContour_8h_1a11caaef5af8d0dadfddcdc87283d80c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a11caaef5af8d0dadfddcdc87283d80c4" kindref="member">MR_resample</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*in,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minStep,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*normals);</highlight></codeline>
+<codeline lineno="127" refid="MRMarkedContour_8h_1a11caaef5af8d0dadfddcdc87283d80c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a11caaef5af8d0dadfddcdc87283d80c4" kindref="member">MR_resample</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*in,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minStep,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*normals);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137" refid="MRMarkedContour_8h_1a7f4f2f45c4757df6cb3756e6b0fce38f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a7f4f2f45c4757df6cb3756e6b0fce38f" kindref="member">MR_makeSpline_3_float</ref>(MR_PassBy<sp/>in_pass_by,<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*markStability,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*normals);</highlight></codeline>
+<codeline lineno="137" refid="MRMarkedContour_8h_1a7f4f2f45c4757df6cb3756e6b0fce38f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a7f4f2f45c4757df6cb3756e6b0fce38f" kindref="member">MR_makeSpline_3_float</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>in_pass_by,<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*markStability,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*normals);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147" refid="MRMarkedContour_8h_1a30909015f692f1b1c81a08b866d8f0aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a30909015f692f1b1c81a08b866d8f0aa" kindref="member">MR_makeSpline_3_std_vector_MR_Vector3f</ref>(MR_PassBy<sp/>in_pass_by,<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*markStability);</highlight></codeline>
+<codeline lineno="147" refid="MRMarkedContour_8h_1a30909015f692f1b1c81a08b866d8f0aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a30909015f692f1b1c81a08b866d8f0aa" kindref="member">MR_makeSpline_3_std_vector_MR_Vector3f</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>in_pass_by,<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*markStability);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRMarkedContour_8h_1aaec260f5274e2828919a4de9fd92d70d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1aaec260f5274e2828919a4de9fd92d70d" kindref="member">MR_SplineSettings_Get_samplingStep</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="155" refid="MRMarkedContour_8h_1aaec260f5274e2828919a4de9fd92d70d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1aaec260f5274e2828919a4de9fd92d70d" kindref="member">MR_SplineSettings_Get_samplingStep</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRMarkedContour_8h_1ac11b28fa1fca6add6b45541d8392be01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1ac11b28fa1fca6add6b45541d8392be01" kindref="member">MR_SplineSettings_Set_samplingStep</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="162" refid="MRMarkedContour_8h_1ac11b28fa1fca6add6b45541d8392be01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1ac11b28fa1fca6add6b45541d8392be01" kindref="member">MR_SplineSettings_Set_samplingStep</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRMarkedContour_8h_1a0d2ab7dd43bdcf3ae43ba793d433095f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a0d2ab7dd43bdcf3ae43ba793d433095f" kindref="member">MR_SplineSettings_GetMutable_samplingStep</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170" refid="MRMarkedContour_8h_1a0d2ab7dd43bdcf3ae43ba793d433095f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a0d2ab7dd43bdcf3ae43ba793d433095f" kindref="member">MR_SplineSettings_GetMutable_samplingStep</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRMarkedContour_8h_1aa68ad784919cccb9b51f19bb52e4693f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1aa68ad784919cccb9b51f19bb52e4693f" kindref="member">MR_SplineSettings_Get_controlStability</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177" refid="MRMarkedContour_8h_1aa68ad784919cccb9b51f19bb52e4693f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1aa68ad784919cccb9b51f19bb52e4693f" kindref="member">MR_SplineSettings_Get_controlStability</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="MRMarkedContour_8h_1a17268fef2ae17d5abcd9252865195a22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a17268fef2ae17d5abcd9252865195a22" kindref="member">MR_SplineSettings_Set_controlStability</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="183" refid="MRMarkedContour_8h_1a17268fef2ae17d5abcd9252865195a22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a17268fef2ae17d5abcd9252865195a22" kindref="member">MR_SplineSettings_Set_controlStability</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRMarkedContour_8h_1a9ebcb4e316b747050d78e15641b7c717" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a9ebcb4e316b747050d78e15641b7c717" kindref="member">MR_SplineSettings_GetMutable_controlStability</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="190" refid="MRMarkedContour_8h_1a9ebcb4e316b747050d78e15641b7c717" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a9ebcb4e316b747050d78e15641b7c717" kindref="member">MR_SplineSettings_GetMutable_controlStability</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="MRMarkedContour_8h_1a6016bd46eeafe4315cd9beeac240ea33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a6016bd46eeafe4315cd9beeac240ea33" kindref="member">MR_SplineSettings_Get_iterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="199" refid="MRMarkedContour_8h_1a6016bd46eeafe4315cd9beeac240ea33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a6016bd46eeafe4315cd9beeac240ea33" kindref="member">MR_SplineSettings_Get_iterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRMarkedContour_8h_1adcf8fc86c52f3238b79822adbbd54337" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1adcf8fc86c52f3238b79822adbbd54337" kindref="member">MR_SplineSettings_Set_iterations</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="207" refid="MRMarkedContour_8h_1adcf8fc86c52f3238b79822adbbd54337" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1adcf8fc86c52f3238b79822adbbd54337" kindref="member">MR_SplineSettings_Set_iterations</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRMarkedContour_8h_1a2fe8ef7abc253ae3b830ef50d208b1c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a2fe8ef7abc253ae3b830ef50d208b1c3" kindref="member">MR_SplineSettings_GetMutable_iterations</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="216" refid="MRMarkedContour_8h_1a2fe8ef7abc253ae3b830ef50d208b1c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a2fe8ef7abc253ae3b830ef50d208b1c3" kindref="member">MR_SplineSettings_GetMutable_iterations</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MRMarkedContour_8h_1a8ed1c9fd35f09577167c89bb8caf9be5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a8ed1c9fd35f09577167c89bb8caf9be5" kindref="member">MR_SplineSettings_Get_normals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="223" refid="MRMarkedContour_8h_1a8ed1c9fd35f09577167c89bb8caf9be5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a8ed1c9fd35f09577167c89bb8caf9be5" kindref="member">MR_SplineSettings_Get_normals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRMarkedContour_8h_1a3667c31eb1a7b3c3d5c8cd5513b7c320" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a3667c31eb1a7b3c3d5c8cd5513b7c320" kindref="member">MR_SplineSettings_Set_normals</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="230" refid="MRMarkedContour_8h_1a3667c31eb1a7b3c3d5c8cd5513b7c320" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a3667c31eb1a7b3c3d5c8cd5513b7c320" kindref="member">MR_SplineSettings_Set_normals</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRMarkedContour_8h_1a6109a1c97f55e1eab35cfa8384dd9b38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>**<ref refid="MRMarkedContour_8h_1a6109a1c97f55e1eab35cfa8384dd9b38" kindref="member">MR_SplineSettings_GetMutable_normals</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="237" refid="MRMarkedContour_8h_1a6109a1c97f55e1eab35cfa8384dd9b38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>**<ref refid="MRMarkedContour_8h_1a6109a1c97f55e1eab35cfa8384dd9b38" kindref="member">MR_SplineSettings_GetMutable_normals</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRMarkedContour_8h_1a087b64d085acf468af8ead4d3c2663cc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a087b64d085acf468af8ead4d3c2663cc" kindref="member">MR_SplineSettings_Get_normalsAffectShape</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="244" refid="MRMarkedContour_8h_1a087b64d085acf468af8ead4d3c2663cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a087b64d085acf468af8ead4d3c2663cc" kindref="member">MR_SplineSettings_Get_normalsAffectShape</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRMarkedContour_8h_1a88857eeb3bc8a96cce04678c8a6ae716" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a88857eeb3bc8a96cce04678c8a6ae716" kindref="member">MR_SplineSettings_Set_normalsAffectShape</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="250" refid="MRMarkedContour_8h_1a88857eeb3bc8a96cce04678c8a6ae716" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a88857eeb3bc8a96cce04678c8a6ae716" kindref="member">MR_SplineSettings_Set_normalsAffectShape</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="257" refid="MRMarkedContour_8h_1a4690182699850e53b92041889be8cfa8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a4690182699850e53b92041889be8cfa8" kindref="member">MR_SplineSettings_GetMutable_normalsAffectShape</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="257" refid="MRMarkedContour_8h_1a4690182699850e53b92041889be8cfa8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMarkedContour_8h_1a4690182699850e53b92041889be8cfa8" kindref="member">MR_SplineSettings_GetMutable_normalsAffectShape</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261" refid="MRMarkedContour_8h_1a20b4a6a2a678fed09dbf7d1e7c5cd609" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a20b4a6a2a678fed09dbf7d1e7c5cd609" kindref="member">MR_SplineSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="261" refid="MRMarkedContour_8h_1a20b4a6a2a678fed09dbf7d1e7c5cd609" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a20b4a6a2a678fed09dbf7d1e7c5cd609" kindref="member">MR_SplineSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRMarkedContour_8h_1a494a86c076022c54d78f85ce90ba4ac7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a494a86c076022c54d78f85ce90ba4ac7" kindref="member">MR_SplineSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="266" refid="MRMarkedContour_8h_1a494a86c076022c54d78f85ce90ba4ac7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a494a86c076022c54d78f85ce90ba4ac7" kindref="member">MR_SplineSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="272" refid="MRMarkedContour_8h_1a4139e7898cf77c32f6c80b9861c5d0b5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a4139e7898cf77c32f6c80b9861c5d0b5" kindref="member">MR_SplineSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingStep,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>controlStability,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterations,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*normals,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normalsAffectShape);</highlight></codeline>
+<codeline lineno="272" refid="MRMarkedContour_8h_1a4139e7898cf77c32f6c80b9861c5d0b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a4139e7898cf77c32f6c80b9861c5d0b5" kindref="member">MR_SplineSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingStep,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>controlStability,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterations,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*normals,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normalsAffectShape);</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="276" refid="MRMarkedContour_8h_1afead43155c3e3629026742be7127fdd9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1afead43155c3e3629026742be7127fdd9" kindref="member">MR_SplineSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="276" refid="MRMarkedContour_8h_1afead43155c3e3629026742be7127fdd9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1afead43155c3e3629026742be7127fdd9" kindref="member">MR_SplineSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="280" refid="MRMarkedContour_8h_1a0003b4aa84597ae34848085ef669f0bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a0003b4aa84597ae34848085ef669f0bc" kindref="member">MR_SplineSettings_OffsetMutablePtr</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="280" refid="MRMarkedContour_8h_1a0003b4aa84597ae34848085ef669f0bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a0003b4aa84597ae34848085ef669f0bc" kindref="member">MR_SplineSettings_OffsetMutablePtr</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRMarkedContour_8h_1afd6170c9fdcf84fb6f9da32dd2e3f056" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1afd6170c9fdcf84fb6f9da32dd2e3f056" kindref="member">MR_SplineSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="286" refid="MRMarkedContour_8h_1afd6170c9fdcf84fb6f9da32dd2e3f056" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1afd6170c9fdcf84fb6f9da32dd2e3f056" kindref="member">MR_SplineSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="289" refid="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" kindref="member">MR_SplineSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="289" refid="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" kindref="member">MR_SplineSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="290"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292" refid="MRMarkedContour_8h_1aaf6ccece342ef4b7064f962e1b1d78ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1aaf6ccece342ef4b7064f962e1b1d78ff" kindref="member">MR_SplineSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="292" refid="MRMarkedContour_8h_1aaf6ccece342ef4b7064f962e1b1d78ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1aaf6ccece342ef4b7064f962e1b1d78ff" kindref="member">MR_SplineSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="293"><highlight class="normal"></highlight></codeline>
-<codeline lineno="300" refid="MRMarkedContour_8h_1a11b9779c7fa678498988c5312e6ab63d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a11b9779c7fa678498988c5312e6ab63d" kindref="member">MR_SplineSettings_AssignFromAnother</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="300" refid="MRMarkedContour_8h_1a11b9779c7fa678498988c5312e6ab63d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*<ref refid="MRMarkedContour_8h_1a11b9779c7fa678498988c5312e6ab63d" kindref="member">MR_SplineSettings_AssignFromAnother</ref>(<ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="301"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308" refid="MRMarkedContour_8h_1ac0006cadbd64720c62405504180f60d1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1ac0006cadbd64720c62405504180f60d1" kindref="member">MR_makeSpline_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*controlPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="308" refid="MRMarkedContour_8h_1ac0006cadbd64720c62405504180f60d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1ac0006cadbd64720c62405504180f60d1" kindref="member">MR_makeSpline_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*controlPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight></codeline>
 <codeline lineno="310"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="311"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMarkedContour.h"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RememberShape" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RememberShape</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RememberShape_1aa4b426bd03b77415ea4ae1836e31447c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RememberShape::No</definition>
+        <argsstring></argsstring>
+        <name>No</name>
+        <qualifiedname>mrmeshpy.RememberShape.No</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1RememberShape" kindref="compound">RememberShape</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51019" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RememberShape_1ab424adad106e29292331caebfbc45e91" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RememberShape::Yes</definition>
+        <argsstring></argsstring>
+        <name>Yes</name>
+        <qualifiedname>mrmeshpy.RememberShape.Yes</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1RememberShape" kindref="compound">RememberShape</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51020" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RememberShape_1ae8c1823f2d7e9db76763a1d1c24a1795" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RememberShape::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1RememberShape" kindref="compound">RememberShape</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51021" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1a90597c5c2dd37e91b095efbcf8a77576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RememberShape.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51022" bodyend="51023"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1adbf365e440d4a14cbb2d915c0773e4a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RememberShape.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51024" bodyend="51025"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1a601e72a7872b5d6a5f7ec16de007b6b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RememberShape.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51026" bodyend="51027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1a6a2c139b05840ba632b0e488b170efcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RememberShape.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51028" bodyend="51029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1ab52d92b36ac6c01769e91af4f4d26a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RememberShape.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51030" bodyend="51031"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1a8a91c651fa65bc043fbf35e4e9e1c2cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RememberShape.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51032" bodyend="51033"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1a2ca0cf91acc2c7edbd2165e6f676d8a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RememberShape.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51034" bodyend="51035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1a47d09234b3d3708cbe645e607c4ef303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RememberShape.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51036" bodyend="51037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1a3f14b75ad17ea23851432f377ea1a17c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RememberShape.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51038" bodyend="51039"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1a1d37824bc2403e0866b806c4dbcea4a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RememberShape.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.RememberShape.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51040" bodyend="51041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1af8bc6fbfab27830307d59017ddfaea41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RememberShape.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.RememberShape.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51043" bodyend="51044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RememberShape_1ae08b37504ef3bf51812afbf584b0969f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RememberShape.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.RememberShape.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51046" bodyend="51047"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Yes : true Laplacian mode when initial mesh shape is remembered and copied in apply
+
+  No : ignore initial mesh shape in the region and just position vertices smoothly in the region
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51011" bodyend="51047"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RememberShape_1a90597c5c2dd37e91b095efbcf8a77576" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1adbf365e440d4a14cbb2d915c0773e4a5" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1a601e72a7872b5d6a5f7ec16de007b6b2" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1a6a2c139b05840ba632b0e488b170efcf" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1ab52d92b36ac6c01769e91af4f4d26a9e" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1a8a91c651fa65bc043fbf35e4e9e1c2cb" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1ae8c1823f2d7e9db76763a1d1c24a1795" prot="private" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1a2ca0cf91acc2c7edbd2165e6f676d8a4" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1a47d09234b3d3708cbe645e607c4ef303" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1a3f14b75ad17ea23851432f377ea1a17c" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1a1d37824bc2403e0866b806c4dbcea4a1" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1af8bc6fbfab27830307d59017ddfaea41" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1aa4b426bd03b77415ea4ae1836e31447c" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>No</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1ae08b37504ef3bf51812afbf584b0969f" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1RememberShape_1ab424adad106e29292331caebfbc45e91" prot="public" virt="non-virtual"><scope>mrmeshpy::RememberShape</scope><name>Yes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeBoundarySelectionHistoryAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeBoundarySelectionHistoryAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRMeshBoundarySelectionWidget.h</includes>
+    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRViewer/MRMeshBoundarySelectionWidget.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaeab5e009a950591d4004c74d8a38b2d1" kind="variable"><name>name_</name></member>
       <member refid="group__GeneralGroup_1ga5780218115e938759c21ee8472c84ae2" kind="variable"><name>widget_</name></member>
@@ -46,7 +46,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="146" bodyend="165"/>
+    <location file="MRViewer/MRMeshBoundarySelectionWidget.h" line="145" column="1" bodyfile="MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="146" bodyend="165"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7d6c878105bdd69d6bbb3524c5fc8243" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gab6b0066b48e0db5030ebf1cdeeec5d4f" prot="public" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>ChangeBoundarySelectionHistoryAction</name></member>

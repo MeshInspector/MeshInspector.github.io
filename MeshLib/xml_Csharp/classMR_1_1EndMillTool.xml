@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EndMillTool" kind="class" language="C#" prot="public">
     <compoundname>MR::EndMillTool</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_EndMillTool</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="395" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="395" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="425" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="425" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1EndMillTool_1ac1f839824ec15cb7571b9846577d76bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="398" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="398" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="430" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="430" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1EndMillTool_1a1143c5a9b453ec4b82ce897b855e1f6a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1EndMillCutter" kindref="compound">MR.EndMillCutter</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="401" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="401" bodyend="401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="435" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="435" bodyend="435"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="420" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="420" bodyend="424"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="454" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="454" bodyend="458"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="430" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="430" bodyend="436"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="464" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="464" bodyend="470"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EndMillTool_1a4ba15f058753c8baea087dd784fc3b97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="441" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="441" bodyend="448"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="475" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="475" bodyend="482"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EndMillTool_1a2cfded56b8f7ff9a93506dc5142f6c5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EndMillTool.EndMillTool</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EndMillTool_1a2d1371043c7236534910fd282285fc54" kindref="member">MR.EndMillTool.EndMillTool</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="453" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="453" bodyend="460"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="487" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="487" bodyend="494"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EndMillTool_1a1cf348c08d2951f29add9616d7b886d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EndMillTool.EndMillTool</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EndMillTool_1a2d1371043c7236534910fd282285fc54" kindref="member">MR.EndMillTool.EndMillTool</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="465" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="465" bodyend="465"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="499" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="499" bodyend="499"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EndMillTool_1a7a4854eaf487891745bee6d3cbc5a4a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1EndMillTool" kindref="compound">MR.EndMillTool</ref></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.EndMillTool.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::EndMillTool::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="470" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="470" bodyend="477"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="504" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="504" bodyend="511"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,48 +181,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_EndMillTool</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.EndMillTool</label>
         <link refid="classMR_1_1EndMillTool"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_EndMillTool</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EndMillTool &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_EndMillTool</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.EndMillTool</label>
         <link refid="classMR_1_1EndMillTool"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_EndMillTool</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EndMillTool &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="392" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="393" bodyend="478"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="420" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="421" bodyend="512"/>
     <listofallmembers>
       <member refid="classMR_1_1EndMillTool_1a7a4854eaf487891745bee6d3cbc5a4a7" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>assign</name></member>
       <member refid="classMR_1_1EndMillTool_1a1143c5a9b453ec4b82ce897b855e1f6a" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>cutter</name></member>

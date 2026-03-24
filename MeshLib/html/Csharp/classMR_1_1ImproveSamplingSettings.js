@@ -9,7 +9,7 @@ var classMR_1_1ImproveSamplingSettings =
     [ "cloudOfSamples", "classMR_1_1ImproveSamplingSettings.html#a363f8ca3168b9428d3f214bcfe0d4ffb", null ],
     [ "minPointsInSample", "classMR_1_1ImproveSamplingSettings.html#aa5d77053a689abf8f34dbbcc176351fa", null ],
     [ "numIters", "classMR_1_1ImproveSamplingSettings.html#a8b211c1c81f36442d58d29539366cd89", null ],
-    [ "progress", "classMR_1_1ImproveSamplingSettings.html#ad82383e4590c752e92d99a1d006406ca", null ],
+    [ "progress", "classMR_1_1ImproveSamplingSettings.html#ac40da5210578fc37d6736d9033ef0aeb", null ],
     [ "pt2sm", "classMR_1_1ImproveSamplingSettings.html#a8368b9c1b9a722b2e0e521b1ca3a6546", null ],
     [ "ptColors", "classMR_1_1ImproveSamplingSettings.html#a2596e29d7dd1b7eb0af9565216771996", null ],
     [ "ptsInSm", "classMR_1_1ImproveSamplingSettings.html#ac6885db58fe8e38db313d27a4365cb29", null ],

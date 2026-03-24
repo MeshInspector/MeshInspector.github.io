@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshOrPointsXf" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshOrPointsXf</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshOrPointsXf</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="831" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="831" bodyend="831"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="851" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="851" bodyend="851"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshOrPointsXf_1ae6d851625ab0095d40569bfe4e953898" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="833" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="833" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="853" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="853" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="852" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="852" bodyend="856"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="872" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="872" bodyend="876"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -69,13 +69,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshOrPointsXf.MeshOrPointsXf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsXf_1a1239c438c3dff98bad1422ee93a5e7f8" kindref="member">MR.MeshOrPointsXf.MeshOrPointsXf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="862" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="862" bodyend="869"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="882" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="882" bodyend="889"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOrPointsXf_1ab5c001c10cea279cb54761b168ab8f8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -88,13 +88,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshOrPointsXf.MeshOrPointsXf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsXf_1a1239c438c3dff98bad1422ee93a5e7f8" kindref="member">MR.MeshOrPointsXf.MeshOrPointsXf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="874" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="874" bodyend="874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="894" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="894" bodyend="894"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOrPointsXf_1a66c907740dac44c6b17788206dc69da5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="879" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="879" bodyend="886"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="899" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="899" bodyend="906"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOrPointsXf_1a29d33ac36c28d0afbb50410594f66ba5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref></type>
@@ -130,13 +130,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshOrPointsXf.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshOrPointsXf::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="891" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="891" bodyend="898"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="911" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="911" bodyend="918"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -145,48 +145,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshOrPointsXf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshOrPointsXf</label>
         <link refid="classMR_1_1MeshOrPointsXf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshOrPointsXf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshOrPointsXf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshOrPointsXf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshOrPointsXf</label>
         <link refid="classMR_1_1MeshOrPointsXf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshOrPointsXf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshOrPointsXf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="829" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="830" bodyend="899"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="849" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="850" bodyend="919"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshOrPointsXf_1a29d33ac36c28d0afbb50410594f66ba5" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshOrPointsXf_1a5b479a3b5e1cc916f5fdf3ef004d2ebc" prot="package" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>MeshOrPointsXf</name></member>

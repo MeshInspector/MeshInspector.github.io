@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1LoadedObjectT" kind="struct" language="C++" prot="public">
     <compoundname>MR::LoadedObjectT</compoundname>
-    <includes refid="MRLoadedObjects_8h" local="no">MRLoadedObjects.h</includes>
+    <includes refid="MRLoadedObjects_8h" local="no">MRMesh/MRLoadedObjects.h</includes>
     <templateparamlist>
       <param>
         <type>typename ObjectT</type>
@@ -19,7 +19,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" bodystart="20" bodyend="26"/>
+    <location file="MRMesh/MRLoadedObjects.h" line="19" column="1" bodyfile="MRMesh/MRLoadedObjects.h" bodystart="20" bodyend="26"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga869e1d0fd0383f0a90acabb56fc23eaa" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>lengthUnit</name></member>
       <member refid="group__GeneralGroup_1gaa8b42b98f6528509e4c4fe107fe6545a" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>obj</name></member>

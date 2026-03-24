@@ -1,5 +1,5 @@
 var MRZlib_8h =
 [
-    [ "zlibCompressStream", "MRZlib_8h.html#gade26a1cffee8e1e012f32d8d7bcc6637", null ],
-    [ "zlibDecompressStream", "MRZlib_8h.html#ga3c93ff1b38318770dd195fbdbe3dc45c", null ]
+    [ "MR::zlibCompressStream", "group__GeneralGroup.html#ga391a2ecfeefaef70abbdbb81665886f5", null ],
+    [ "MR::zlibDecompressStream", "group__GeneralGroup.html#ga790822c4da5f4e95c06eca6e0dd9328e", null ]
 ];

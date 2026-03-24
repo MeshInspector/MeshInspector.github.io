@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ConstBox__Box3i64" kind="class" language="C#" prot="public">
     <compoundname>MR::ConstBox_Box3i64</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR::Misc::Object&lt; ConstBox_Box3i64 &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.ConstBox_Box3i64 &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1Box__Box3i64" prot="public" virt="non-virtual">MR.Box_Box3i64</derivedcompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ConstBox__Box3i64_1ad56498fbd457b6d258706df0a4677f78" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -56,7 +56,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.ConstBox_Box3i64.this[int e]</qualifiedname>
         <briefdescription>
-<para>min/max access by 0/1 index Generated from method <computeroutput>MR.Box3i64.operator[]</computeroutput>. </para>
+<para>min/max access by 0/1 index Generated from method <computeroutput>MR::Box3i64::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,7 +252,7 @@
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min&apos;s coordinate, 1 element in (c) means take max&apos;s coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box3i64_1ae8e329f7f8a9ee2c3659ebc356dbc637" kindref="member">MR.Box3i64.corner</ref></computeroutput>. </para>
+<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min's coordinate, 1 element in (c) means take max's coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box3i64_1ae8e329f7f8a9ee2c3659ebc356dbc637" kindref="member">MR.Box3i64.corner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -572,7 +572,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Box3i64" kindref="compound">ConstBox_Box3i64</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Box3i64" kindref="compound">Box_Box3i64</ref></computeroutput> intentionally doesn&apos;t. </para>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Box3i64" kindref="compound">ConstBox_Box3i64</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Box3i64" kindref="compound">Box_Box3i64</ref></computeroutput> intentionally doesn't. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -614,7 +614,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box3i64_1afebe9a58efa476e171fb2887e35c538b" kindref="member">MR.Box3i64.getMinBoxCorner</ref></computeroutput>. </para>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box3i64_1afebe9a58efa476e171fb2887e35c538b" kindref="member">MR.Box3i64.getMinBoxCorner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -633,7 +633,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box3i64_1aa36f335b1475b996936f7839ee2e65a8" kindref="member">MR.Box3i64.getMaxBoxCorner</ref></computeroutput>. </para>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box3i64_1aa36f335b1475b996936f7839ee2e65a8" kindref="member">MR.Box3i64.getMaxBoxCorner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -656,7 +656,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box3i64.operator==</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box3i64::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -734,13 +734,13 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Misc::Object&lt; ConstBox_Box3i64 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="3">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="4">
-        <label>System::IEquatable&lt; MR.ConstBox_Box3i64 &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -755,13 +755,13 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Misc::Object&lt; ConstBox_Box3i64 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="3">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="4">
-        <label>System::IEquatable&lt; MR.ConstBox_Box3i64 &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="9533" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="9534" bodyend="9935"/>

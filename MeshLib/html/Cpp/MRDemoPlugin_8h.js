@@ -1,4 +1,4 @@
 var MRDemoPlugin_8h =
 [
-    [ "DemoPluginInstance", "MRDemoPlugin_8h.html#ga8a3c1e07f9e74f5a6f9079cc9067fb3a", null ]
+    [ "MR::DemoPluginInstance", "group__GeneralGroup.html#ga6590ab84d17c8ed3219887a38f0caf77", null ]
 ];

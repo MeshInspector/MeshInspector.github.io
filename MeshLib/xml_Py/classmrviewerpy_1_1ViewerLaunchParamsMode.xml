@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrviewerpy_1_1ViewerLaunchParamsMode" kind="class" language="Python" prot="public">
     <compoundname>mrviewerpy::ViewerLaunchParamsMode</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -346,22 +346,6 @@
   NoWindow : Don&apos;t initialize GL window (don&apos;t call GL functions)(force `isAnimating`)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrviewerpy.ViewerLaunchParamsMode</label>
-        <link refid="classmrviewerpy_1_1ViewerLaunchParamsMode"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Hide</edgelabel>
-          <edgelabel>HideInit</edgelabel>
-          <edgelabel>NoWindow</edgelabel>
-          <edgelabel>Show</edgelabel>
-          <edgelabel>TryHidden</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="298" bodyend="343"/>
     <listofallmembers>
       <member refid="classmrviewerpy_1_1ViewerLaunchParamsMode_1a5ed4a208742845c656081e481c48dd2a" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParamsMode</scope><name>__eq__</name></member>

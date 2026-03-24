@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1HistoryStore" kind="class" language="C++" prot="public">
     <compoundname>MR::HistoryStore</compoundname>
-    <includes refid="MRHistoryStore_8h" local="no">MRHistoryStore.h</includes>
+    <includes refid="MRHistoryStore_8h" local="no">MRViewer/MRHistoryStore.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" prot="public" static="no" strong="yes">
         <type></type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="82" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="83" bodyend="93"/>
+        <location file="MRViewer/MRHistoryStore.h" line="82" column="5" bodyfile="MRViewer/MRHistoryStore.h" bodystart="83" bodyend="93"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" prot="public" static="no">
         <type>boost::signals2::signal&lt; void(<ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> &amp;store, <ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">ChangeType</ref>, std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt; action)&gt;</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="94" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="94" bodyend="-1"/>
+        <location file="MRViewer/MRHistoryStore.h" line="94" column="5" bodyfile="MRViewer/MRHistoryStore.h" bodystart="94" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="95" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="95" bodyend="-1"/>
+        <location file="MRViewer/MRHistoryStore.h" line="95" column="31" bodyfile="MRViewer/MRHistoryStore.h" bodystart="95" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="99" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="99" bodyend="99"/>
+        <location file="MRViewer/MRHistoryStore.h" line="99" column="26" bodyfile="MRViewer/MRHistoryStore.h" bodystart="99" bodyend="99"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1HistoryStore_1aed0e12ff84e63d845ee0b029f35c3d34" prot="private" static="no" mutable="no">
         <type><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref></type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="102" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="102" bodyend="-1"/>
+        <location file="MRViewer/MRHistoryStore.h" line="102" column="26" bodyfile="MRViewer/MRHistoryStore.h" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1HistoryStore_1aebe17336faa9e654050260e82c2ed015" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="105" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="105" bodyend="105"/>
+        <location file="MRViewer/MRHistoryStore.h" line="105" column="12" bodyfile="MRViewer/MRHistoryStore.h" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1HistoryStore_1af31638e683b171500f05b72b77c95096" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="109" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="109" bodyend="109"/>
+        <location file="MRViewer/MRHistoryStore.h" line="109" column="12" bodyfile="MRViewer/MRHistoryStore.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1HistoryStore_1a073a36acb7f7db51782c2e7a13a0289a" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="112" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="112" bodyend="112"/>
+        <location file="MRViewer/MRHistoryStore.h" line="112" column="12" bodyfile="MRViewer/MRHistoryStore.h" bodystart="112" bodyend="112"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1HistoryStore_1a472abaa2a395b236afb568457688375e" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -214,13 +214,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="115" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="115" bodyend="115"/>
+        <location file="MRViewer/MRHistoryStore.h" line="115" column="10" bodyfile="MRViewer/MRHistoryStore.h" bodystart="115" bodyend="115"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1a79d9326f089992c7b1a6a573a2d367ae" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> *</type>
-        <definition>static MRVIEWER_API HistoryStore * MR::HistoryStore::getViewerInstance</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1afb751ad4669fe2d69d69abe96ca4ede0" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> *</type>
+        <definition>static HistoryStore * MR::HistoryStore::getViewerInstance</definition>
         <argsstring>()</argsstring>
         <name>getViewerInstance</name>
         <qualifiedname>MR::HistoryStore::getViewerInstance</qualifiedname>
@@ -231,13 +231,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="20" column="39"/>
+        <location file="MRViewer/MRHistoryStore.h" line="20" column="27"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1a1d11982a306bc53b5ccaddff114cd614" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API</type>
-        <definition>virtual MRVIEWER_API MR::HistoryStore::~HistoryStore</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1afb495fde66aa8b89c80251673cb24725" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::HistoryStore::~HistoryStore</definition>
         <argsstring>()</argsstring>
         <name>~HistoryStore</name>
         <qualifiedname>MR::HistoryStore::~HistoryStore</qualifiedname>
@@ -247,11 +247,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="22" column="26"/>
+        <location file="MRViewer/MRHistoryStore.h" line="22" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1aa0c8ea0276f02eca0f11f888ecfc39f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::HistoryStore::appendAction</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a36060c54f1f5175ea61611c5be4330f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::HistoryStore::appendAction</definition>
         <argsstring>(std::shared_ptr&lt; HistoryAction &gt; action)</argsstring>
         <name>appendAction</name>
         <qualifiedname>MR::HistoryStore::appendAction</qualifiedname>
@@ -266,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="26" column="31"/>
+        <location file="MRViewer/MRHistoryStore.h" line="26" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1a44c0ab7153a1b5967525c1cea2fe4e67" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref> *</type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="29" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="29" bodyend="29"/>
+        <location file="MRViewer/MRHistoryStore.h" line="29" column="27" bodyfile="MRViewer/MRHistoryStore.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1afd26beea23b71e238921b37d2baa32ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -300,7 +300,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="32" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="32" bodyend="32"/>
+        <location file="MRViewer/MRHistoryStore.h" line="32" column="10" bodyfile="MRViewer/MRHistoryStore.h" bodystart="32" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1af2142010702571f062becfaf361b015c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="35" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="35" bodyend="35"/>
+        <location file="MRViewer/MRHistoryStore.h" line="35" column="11" bodyfile="MRViewer/MRHistoryStore.h" bodystart="35" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1ae49bd57fda5c9d3b6005f942e9ee7f45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -330,11 +330,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="38" bodyend="38"/>
+        <location file="MRViewer/MRHistoryStore.h" line="38" column="10" bodyfile="MRViewer/MRHistoryStore.h" bodystart="38" bodyend="38"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1aeaca3b28f85fa63c443235a4539cfa25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::HistoryStore::clear</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a937c14bc43ffa66f6483e97c285385d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::HistoryStore::clear</definition>
         <argsstring>()</argsstring>
         <name>clear</name>
         <qualifiedname>MR::HistoryStore::clear</qualifiedname>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="41" column="23"/>
+        <location file="MRViewer/MRHistoryStore.h" line="41" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1a48c223a0850725e085ef49953af02cd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -364,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="44" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="44" bodyend="44"/>
+        <location file="MRViewer/MRHistoryStore.h" line="44" column="10" bodyfile="MRViewer/MRHistoryStore.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1a45b3529c2a011c9abd585452550ac145" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -379,11 +379,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="47" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="47" bodyend="47"/>
+        <location file="MRViewer/MRHistoryStore.h" line="47" column="13" bodyfile="MRViewer/MRHistoryStore.h" bodystart="47" bodyend="47"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1ae5153ad77359e03f6105aa8db1293b14" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API size_t</type>
-        <definition>MRVIEWER_API size_t MR::HistoryStore::calcUsedMemory</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a516ec6dea821d2eb440a2f559338882d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::HistoryStore::calcUsedMemory</definition>
         <argsstring>() const</argsstring>
         <name>calcUsedMemory</name>
         <qualifiedname>MR::HistoryStore::calcUsedMemory</qualifiedname>
@@ -394,7 +394,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="50" column="26"/>
+        <location file="MRViewer/MRHistoryStore.h" line="50" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1a6c72ca2143023fcef93b3e221d010c6d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref> &amp;</type>
@@ -409,7 +409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="53" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="53" bodyend="53"/>
+        <location file="MRViewer/MRHistoryStore.h" line="53" column="33" bodyfile="MRViewer/MRHistoryStore.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1a68425383420b18f6c04f4405f2e4a1f5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -424,11 +424,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="56" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="56" bodyend="56"/>
+        <location file="MRViewer/MRHistoryStore.h" line="56" column="13" bodyfile="MRViewer/MRHistoryStore.h" bodystart="56" bodyend="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1a34a9d69ae6d37fc5a5b4155b63d3c100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::HistoryStore::filterStack</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1aa00e5762696dd0498eb02bbb5aa7913d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::HistoryStore::filterStack</definition>
         <argsstring>(HistoryStackFilter filteringCondition, bool deepFiltering=true)</argsstring>
         <name>filterStack</name>
         <qualifiedname>MR::HistoryStore::filterStack</qualifiedname>
@@ -448,11 +448,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="59" column="23"/>
+        <location file="MRViewer/MRHistoryStore.h" line="59" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1a0bce5005471a434712469838de3edcd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::HistoryStore::undo</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1abe14d6ec7d22f82214bf5148fdcb5c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::HistoryStore::undo</definition>
         <argsstring>()</argsstring>
         <name>undo</name>
         <qualifiedname>MR::HistoryStore::undo</qualifiedname>
@@ -465,11 +465,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="63" column="31"/>
+        <location file="MRViewer/MRHistoryStore.h" line="63" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1a5c5f420102ae277252e92dea8b27fa2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::HistoryStore::redo</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a3a9b5815441908defc54d37b0b0c10f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::HistoryStore::redo</definition>
         <argsstring>()</argsstring>
         <name>redo</name>
         <qualifiedname>MR::HistoryStore::redo</qualifiedname>
@@ -482,7 +482,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="67" column="31"/>
+        <location file="MRViewer/MRHistoryStore.h" line="67" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -497,11 +497,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="70" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="70" bodyend="70"/>
+        <location file="MRViewer/MRHistoryStore.h" line="70" column="11" bodyfile="MRViewer/MRHistoryStore.h" bodystart="70" bodyend="70"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1a8f09d582234535d00d32ca5ece30c992" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::vector&lt; std::string &gt;</type>
-        <definition>MRVIEWER_API std::vector&lt; std::string &gt; MR::HistoryStore::getNActions</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1ac187b562e8b00012a4983cb5d8a23859" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; MR::HistoryStore::getNActions</definition>
         <argsstring>(unsigned n, HistoryAction::Type type) const</argsstring>
         <name>getNActions</name>
         <qualifiedname>MR::HistoryStore::getNActions</qualifiedname>
@@ -520,11 +520,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="73" column="31"/>
+        <location file="MRViewer/MRHistoryStore.h" line="73" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1a9a8500d0fc99954fc5387bad5fe4367e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt;</type>
-        <definition>MRVIEWER_API std::shared_ptr&lt; HistoryAction &gt; MR::HistoryStore::getLastAction</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a82401db914aac455a150f60d71415abe" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; HistoryAction &gt; MR::HistoryStore::getLastAction</definition>
         <argsstring>(HistoryAction::Type type) const</argsstring>
         <name>getLastAction</name>
         <qualifiedname>MR::HistoryStore::getLastAction</qualifiedname>
@@ -539,11 +539,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="76" column="35"/>
+        <location file="MRViewer/MRHistoryStore.h" line="76" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1HistoryStore_1ae95320267281820e0d4bdb60d052085e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::string</type>
-        <definition>MRVIEWER_API std::string MR::HistoryStore::getLastActionName</definition>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1ac8c2dbe1a4603881ab217ec42e4fcf24" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::HistoryStore::getLastActionName</definition>
         <argsstring>(HistoryAction::Type type) const</argsstring>
         <name>getLastActionName</name>
         <qualifiedname>MR::HistoryStore::getLastActionName</qualifiedname>
@@ -558,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="79" column="31"/>
+        <location file="MRViewer/MRHistoryStore.h" line="79" column="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -575,7 +575,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="118" column="10"/>
+        <location file="MRViewer/MRHistoryStore.h" line="118" column="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -583,27 +583,27 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="16" bodyend="119"/>
+    <location file="MRViewer/MRHistoryStore.h" line="15" column="1" bodyfile="MRViewer/MRHistoryStore.h" bodystart="16" bodyend="119"/>
     <listofallmembers>
-      <member refid="classMR_1_1HistoryStore_1aa0c8ea0276f02eca0f11f888ecfc39f4" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>appendAction</name></member>
-      <member refid="classMR_1_1HistoryStore_1ae5153ad77359e03f6105aa8db1293b14" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>calcUsedMemory</name></member>
+      <member refid="classMR_1_1HistoryStore_1a36060c54f1f5175ea61611c5be4330f3" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>appendAction</name></member>
+      <member refid="classMR_1_1HistoryStore_1a516ec6dea821d2eb440a2f559338882d" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>calcUsedMemory</name></member>
       <member refid="classMR_1_1HistoryStore_1afcedddcbe7c972d3a5b239e53a0f17ee" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>changedSignal</name></member>
       <member refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>ChangeType</name></member>
-      <member refid="classMR_1_1HistoryStore_1aeaca3b28f85fa63c443235a4539cfa25" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>clear</name></member>
+      <member refid="classMR_1_1HistoryStore_1a937c14bc43ffa66f6483e97c285385d6" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>clear</name></member>
       <member refid="classMR_1_1HistoryStore_1a8042fadc60cba3c3bad3e9360cb971e9" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>filterByMemoryLimit_</name></member>
-      <member refid="classMR_1_1HistoryStore_1a34a9d69ae6d37fc5a5b4155b63d3c100" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>filterStack</name></member>
+      <member refid="classMR_1_1HistoryStore_1aa00e5762696dd0498eb02bbb5aa7913d" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>filterStack</name></member>
       <member refid="classMR_1_1HistoryStore_1aebe17336faa9e654050260e82c2ed015" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>firstRedoIndex_</name></member>
       <member refid="classMR_1_1HistoryStore_1a6c72ca2143023fcef93b3e221d010c6d" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getHistoryStack</name></member>
-      <member refid="classMR_1_1HistoryStore_1a9a8500d0fc99954fc5387bad5fe4367e" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getLastAction</name></member>
-      <member refid="classMR_1_1HistoryStore_1ae95320267281820e0d4bdb60d052085e" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getLastActionName</name></member>
+      <member refid="classMR_1_1HistoryStore_1a82401db914aac455a150f60d71415abe" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getLastAction</name></member>
+      <member refid="classMR_1_1HistoryStore_1ac8c2dbe1a4603881ab217ec42e4fcf24" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getLastActionName</name></member>
       <member refid="classMR_1_1HistoryStore_1a45b3529c2a011c9abd585452550ac145" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getMemoryLimit</name></member>
-      <member refid="classMR_1_1HistoryStore_1a8f09d582234535d00d32ca5ece30c992" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getNActions</name></member>
+      <member refid="classMR_1_1HistoryStore_1ac187b562e8b00012a4983cb5d8a23859" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getNActions</name></member>
       <member refid="classMR_1_1HistoryStore_1a44c0ab7153a1b5967525c1cea2fe4e67" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getScopeBlockPtr</name></member>
       <member refid="classMR_1_1HistoryStore_1a68425383420b18f6c04f4405f2e4a1f5" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getStackPointer</name></member>
-      <member refid="classMR_1_1HistoryStore_1a79d9326f089992c7b1a6a573a2d367ae" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getViewerInstance</name></member>
+      <member refid="classMR_1_1HistoryStore_1afb751ad4669fe2d69d69abe96ca4ede0" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getViewerInstance</name></member>
       <member refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>HistoryStoreChangedSignal</name></member>
       <member refid="classMR_1_1HistoryStore_1af2142010702571f062becfaf361b015c" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>isSceneModified</name></member>
-      <member refid="classMR_1_1HistoryStore_1a5c5f420102ae277252e92dea8b27fa2f" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>redo</name></member>
+      <member refid="classMR_1_1HistoryStore_1a3a9b5815441908defc54d37b0b0c10f8" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>redo</name></member>
       <member refid="classMR_1_1HistoryStore_1af31638e683b171500f05b72b77c95096" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>savedSceneIndex_</name></member>
       <member refid="classMR_1_1HistoryStore_1ad4ae2d5a23f7a50246c84ea58037c1c3" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>scopedBlock_</name></member>
       <member refid="classMR_1_1HistoryStore_1a48c223a0850725e085ef49953af02cd1" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>setMemoryLimit</name></member>
@@ -611,10 +611,10 @@
       <member refid="classMR_1_1HistoryStore_1afd26beea23b71e238921b37d2baa32ad" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>setScopeBlockPtr</name></member>
       <member refid="classMR_1_1HistoryStore_1aed0e12ff84e63d845ee0b029f35c3d34" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>stack_</name></member>
       <member refid="classMR_1_1HistoryStore_1a073a36acb7f7db51782c2e7a13a0289a" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>storageLimit_</name></member>
-      <member refid="classMR_1_1HistoryStore_1a0bce5005471a434712469838de3edcd7" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>undo</name></member>
+      <member refid="classMR_1_1HistoryStore_1abe14d6ec7d22f82214bf5148fdcb5c4f" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>undo</name></member>
       <member refid="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>undoRedoInProgress</name></member>
       <member refid="classMR_1_1HistoryStore_1a472abaa2a395b236afb568457688375e" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>undoRedoInProgress_</name></member>
-      <member refid="classMR_1_1HistoryStore_1a1d11982a306bc53b5ccaddff114cd614" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>~HistoryStore</name></member>
+      <member refid="classMR_1_1HistoryStore_1afb495fde66aa8b89c80251673cb24725" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>~HistoryStore</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

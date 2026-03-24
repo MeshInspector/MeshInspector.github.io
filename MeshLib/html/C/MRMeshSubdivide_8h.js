@@ -1,18 +1,7 @@
 var MRMeshSubdivide_8h =
 [
-    [ "MR_expected_MR_Mesh_std_string", "MRMeshSubdivide_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_FaceBitSet", "MRMeshSubdivide_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_Mesh", "MRMeshSubdivide_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRMeshSubdivide_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_ObjectMesh", "MRMeshSubdivide_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6", null ],
-    [ "MR_ObjectMeshData", "MRMeshSubdivide_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e", null ],
-    [ "MR_std_function_bool_from_float", "MRMeshSubdivide_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_function_bool_from_MR_EdgeId", "MRMeshSubdivide_8h.html#a5406af15a4ce0b3061cd59f056e30578", null ],
-    [ "MR_std_function_void_from_MR_EdgeId_MR_EdgeId", "MRMeshSubdivide_8h.html#ad023ae65e5f5b35808a42976d62d515e", null ],
     [ "MR_std_function_void_from_MR_VertId", "MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e", null ],
     [ "MR_SubdivideSettings", "MRMeshSubdivide_8h.html#af97cd28a6761a7b1feeb63a7f167f8fa", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRMeshSubdivide_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_VertBitSet", "MRMeshSubdivide_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_copySubdividePackMesh", "MRMeshSubdivide_8h.html#a654dcfe291da6bc8c58b4ede74be4789", null ],
     [ "MR_makeSubdividedObjectMeshData", "MRMeshSubdivide_8h.html#a845731bb02a1c8cd68589622d8b6ecd4", null ],
     [ "MR_subdivideMesh_MR_Mesh", "MRMeshSubdivide_8h.html#a9848b1959d8c3696ed7f4e4daff50c69", null ],

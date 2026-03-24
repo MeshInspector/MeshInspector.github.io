@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BooleanInternalParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::BooleanInternalParameters</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanInternalParameters</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="823" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="824" bodyend="833"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="867" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="868" bodyend="877"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BooleanInternalParameters_1ad159d3c04fa90a979e44c70f419922d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_Mesh</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="836" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="837" bodyend="846"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="882" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="883" bodyend="892"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BooleanInternalParameters_1a559037667f33f13759dd15407667f9e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdVectorMREdgeId</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="849" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="850" bodyend="859"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="897" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="898" bodyend="907"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="863" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="863" bodyend="867"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="911" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="911" bodyend="915"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="873" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="873" bodyend="879"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="921" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="921" bodyend="927"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanInternalParameters_1a5423bc6d9385efe02231a7b3e89cbd72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="884" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="884" bodyend="893"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="932" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="932" bodyend="941"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanInternalParameters_1a833c0f6ee14231909d415891b69a7851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BooleanInternalParameters.BooleanInternalParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanInternalParameters_1ad2883b0992b59d222f1157ace89dd4ef" kindref="member">MR.BooleanInternalParameters.BooleanInternalParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="898" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="898" bodyend="905"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="946" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="946" bodyend="953"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanInternalParameters_1a2d47ecf9fd1f635559cdf74cc7600cb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BooleanInternalParameters.BooleanInternalParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanInternalParameters_1ad2883b0992b59d222f1157ace89dd4ef" kindref="member">MR.BooleanInternalParameters.BooleanInternalParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="910" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="910" bodyend="910"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="958" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="958" bodyend="958"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanInternalParameters_1a40469601d1e1f038cac4f91f99c02d3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BooleanInternalParameters" kindref="compound">MR.BooleanInternalParameters</ref></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BooleanInternalParameters.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BooleanInternalParameters::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="915" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="915" bodyend="922"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="963" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="963" bodyend="970"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,48 +181,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_BooleanInternalParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.BooleanInternalParameters</label>
         <link refid="classMR_1_1BooleanInternalParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BooleanInternalParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BooleanInternalParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_BooleanInternalParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.BooleanInternalParameters</label>
         <link refid="classMR_1_1BooleanInternalParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BooleanInternalParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BooleanInternalParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="820" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="821" bodyend="923"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="862" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="863" bodyend="971"/>
     <listofallmembers>
       <member refid="classMR_1_1BooleanInternalParameters_1a40469601d1e1f038cac4f91f99c02d3f" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1a7c7e1e92e247f07389e06325187b0925" prot="package" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>BooleanInternalParameters</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ModelBaseRenderParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ModelBaseRenderParams</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BaseRenderParams" prot="public" virt="non-virtual">mrmeshpy.BaseRenderParams</basecompoundref>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35891" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1ModelBaseRenderParams_1ade356b6819548e5c4c3d41f8038e9f11" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35892" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1ModelBaseRenderParams_1adc1d147ef997cadfda305621b5702e95" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35893" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36170" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -58,9 +58,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ModelBaseRenderParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9">__init__</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -75,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35897" bodyend="35898"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36174" bodyend="36175"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,9 +82,6 @@
         <argsstring>(self, ModelBaseRenderParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ModelBaseRenderParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9">__init__</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -104,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35900" bodyend="35903"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36177" bodyend="36180"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelBaseRenderParams_1ae92beac97e365f7d6538e863182e257b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
@@ -124,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35905" bodyend="35908"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36182" bodyend="36185"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelBaseRenderParams_1a235b7a0ad2ece15baba598b369f4221a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix4f" kindref="compound">Matrix4f</ref></type>
@@ -142,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35910" bodyend="35911"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36187" bodyend="36188"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -178,35 +172,31 @@ the picker uses this as is while the primary rendering adds more fields).
         <link refid="classmrmeshpy_1_1ModelBaseRenderParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_clipPlane</edgelabel>
-          <edgelabel>_offsetof_depthFunction</edgelabel>
-          <edgelabel>_offsetof_modelMatrix</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.BaseRenderParams</label>
         <link refid="classmrmeshpy_1_1BaseRenderParams"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_projMatrix</edgelabel>
-          <edgelabel>_offsetof_viewMatrix</edgelabel>
-          <edgelabel>_offsetof_viewport</edgelabel>
-          <edgelabel>_offsetof_viewportId</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35884" bodyend="35911"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36161" bodyend="36188"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1a1aefb9240bd73939f48077f69e7534a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_clipPlane</name></member>
       <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1ade356b6819548e5c4c3d41f8038e9f11" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_depthFunction</name></member>
       <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1adc1d147ef997cadfda305621b5702e95" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_modelMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1af7997e808b6568af2a49c55a235c3857" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_projMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1ac31eb9426e51e8bdf9345f89b6011c35" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_viewMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a568dec1e206b4f44ccdc0aa769c26fc4" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a640000a5d2d184e97188790f3ec5c3d2" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_viewportId</name></member>
       <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1ae92beac97e365f7d6538e863182e257b" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>clipPlane</name></member>
       <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1a235b7a0ad2ece15baba598b369f4221a" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>modelMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a66148c04dc295e2bdf7b7b622bf44ff2" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>projMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a06a24f78b01ee76af109eec7fdd8a6e6" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a3151a01c38d5c2e60e7030dc94614922" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a6d55411a0fd13023b9bb7f1c0af1de4d" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1af45fd7caab5cc62075d65f1168bd1300" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>viewportId</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a44585bc0b0c20ddbf9fb174fe454473c" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>viewportId</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

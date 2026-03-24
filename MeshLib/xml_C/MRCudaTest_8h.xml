@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCudaTest_8h" kind="file" language="C++">
+    <compoundname>MRCudaTest.h</compoundname>
+    <includes refid="uda_2include_2MRCCuda_2exports_8h" local="no">MRCCuda/exports.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRCudaTest.h</label>
+        <link refid="MRCudaTest_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCCuda/exports.h</label>
+        <link refid="uda_2include_2MRCCuda_2exports_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRCudaTest_8h_1aa10a569e3c244f0af7e4d6cb135976ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_void_std_string * MR_Cuda_negatePicture</definition>
+        <argsstring>(MR_Image *image)</argsstring>
+        <name>MR_Cuda_negatePicture</name>
+        <param>
+          <type><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref> *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::Cuda::negatePicture</computeroutput>. Parameter <computeroutput>image</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaTest.h" line="17" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaTest.h" declline="17" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaTest_8h_1afc92acbb8a0050422ac3e9d0f02c0e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_loadMRCudaDll</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cuda_loadMRCudaDll</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::Cuda::loadMRCudaDll</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaTest.h" line="21" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaTest.h" declline="21" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="uda_2include_2MRCCuda_2exports_8h" kindref="compound">MRCCuda/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRImage.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>function<sp/>inverts<sp/>Color<sp/>value<sp/>(255<sp/>-<sp/>value<sp/>in<sp/>each<sp/>channel<sp/>except<sp/>alpha)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRCudaTest_8h_1aa10a569e3c244f0af7e4d6cb135976ad" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCudaTest_8h_1aa10a569e3c244f0af7e4d6cb135976ad" kindref="member">MR_Cuda_negatePicture</ref>(<ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*image);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>call<sp/>this<sp/>function<sp/>to<sp/>load<sp/>MRCuda<sp/>shared<sp/>library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRCudaTest_8h_1afc92acbb8a0050422ac3e9d0f02c0e90" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaTest_8h_1afc92acbb8a0050422ac3e9d0f02c0e90" kindref="member">MR_Cuda_loadMRCudaDll</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaTest.h"/>
+  </compounddef>
+</doxygen>

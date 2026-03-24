@@ -1,114 +1,178 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRISceneStateCheck_8h" kind="file" language="C++">
     <compoundname>MRISceneStateCheck.h</compoundname>
-    <includes local="yes">MRViewerFwd.h</includes>
-    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes local="no">memory</includes>
     <includes local="no">vector</includes>
     <includes local="no">string</includes>
-    <includedby refid="MRRibbonMenuItem_8h" local="yes">MRRibbonMenuItem.h</includedby>
-    <includedby refid="MRSceneStateCheck_8h" local="yes">MRSceneStateCheck.h</includedby>
+    <includedby refid="MRRibbonMenuItem_8h" local="yes">MRViewer/MRRibbonMenuItem.h</includedby>
+    <includedby refid="MRSceneStateCheck_8h" local="yes">MRViewer/MRSceneStateCheck.h</includedby>
     <incdepgraph>
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
       <node id="1">
-        <label>MRISceneStateCheck.h</label>
+        <label>MRViewer/MRISceneStateCheck.h</label>
         <link refid="MRISceneStateCheck_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRMesh/MRMeshFwd.h</label>
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
-      <node id="2">
-        <label>MRViewerFwd.h</label>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
       </node>
       <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="16">
         <label>memory</label>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
         <label>string</label>
       </node>
-      <node id="5">
+      <node id="11">
         <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="17">
-        <label>MRCameraOrientationPlugin.h</label>
+      <node id="15">
+        <label>MRCommonPlugins/Basic/MRCameraOrientationPlugin.h</label>
         <link refid="MRCameraOrientationPlugin_8h"/>
       </node>
       <node id="3">
-        <label>MRDrawViewportWidgetsItem.h</label>
+        <label>MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h</label>
         <link refid="MRDrawViewportWidgetsItem_8h"/>
       </node>
-      <node id="19">
-        <label>MRMoveObjectByMouse.h</label>
+      <node id="16">
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
-      <node id="21">
-        <label>MRSelectObjectByClick.h</label>
+      <node id="17">
+        <label>MRCommonPlugins/Selectors/MRSelectObjectByClick.h</label>
         <link refid="MRSelectObjectByClick_8h"/>
       </node>
-      <node id="15">
-        <label>MRAddCustomTheme.h</label>
+      <node id="18">
+        <label>MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h</label>
         <link refid="MRAddCustomTheme_8h"/>
       </node>
       <node id="4">
-        <label>MRIOFilesMenuItems.h</label>
+        <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
-      <node id="11">
-        <label>MRRibbonSceneButtons.h</label>
+      <node id="5">
+        <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
-      <node id="12">
-        <label>MRSceneControlMenuItems.h</label>
+      <node id="6">
+        <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
         <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
       </node>
-      <node id="16">
-        <label>MRBinaryOperationsPlugin.h</label>
+      <node id="19">
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="20">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="1">
-        <label>MRISceneStateCheck.h</label>
+        <label>MRViewer/MRISceneStateCheck.h</label>
         <link refid="MRISceneStateCheck_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRLambdaRibbonItem.h</label>
+      <node id="7">
+        <label>MRViewer/MRLambdaRibbonItem.h</label>
         <link refid="MRLambdaRibbonItem_8h"/>
       </node>
-      <node id="18">
-        <label>MRMeshModifier.h</label>
+      <node id="21">
+        <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
-      <node id="6">
-        <label>MRRibbonButtonDrawer.h</label>
+      <node id="8">
+        <label>MRViewer/MRRibbonButtonDrawer.h</label>
         <link refid="MRRibbonButtonDrawer_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRRibbonMenu.h</label>
+      <node id="9">
+        <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
       <node id="2">
-        <label>MRRibbonMenuItem.h</label>
+        <label>MRViewer/MRRibbonMenuItem.h</label>
         <link refid="MRRibbonMenuItem_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -122,51 +186,51 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>MRRibbonMenuSearch.h</label>
+      <node id="12">
+        <label>MRViewer/MRRibbonMenuSearch.h</label>
         <link refid="MRRibbonMenuSearch_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MRRibbonRegisterItem.h</label>
-        <link refid="MRRibbonRegisterItem_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>MRRibbonSchema.h</label>
-        <link refid="MRRibbonSchema_8h"/>
-        <childnode refid="7" relation="include">
+      <node id="10">
+        <label>MRViewer/MRRibbonRegisterItem.h</label>
+        <link refid="MRRibbonRegisterItem_8h"/>
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+      </node>
+      <node id="11">
+        <label>MRViewer/MRRibbonSchema.h</label>
+        <link refid="MRRibbonSchema_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="13">
-        <label>MRSceneControlMenuItems.h</label>
+        <label>MRViewer/MRSceneControlMenuItems.h</label>
         <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
       </node>
       <node id="23">
-        <label>MRSceneStateCheck.h</label>
+        <label>MRViewer/MRSceneStateCheck.h</label>
         <link refid="MRSceneStateCheck_8h"/>
-        <childnode refid="16" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>MRStatePlugin.h</label>
+        <label>MRViewer/MRStatePlugin.h</label>
         <link refid="MRStatePlugin_8h"/>
         <childnode refid="15" relation="include">
         </childnode>
@@ -174,9 +238,9 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
@@ -188,7 +252,7 @@
         </childnode>
       </node>
       <node id="22">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -201,8 +265,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -211,15 +275,15 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1ISceneStateCheck" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ISceneStateCheck" kindref="compound">ISceneStateCheck</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ISceneStateCheck" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ISceneStateCheck" kindref="compound">ISceneStateCheck</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" kindref="member">~ISceneStateCheck</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" kindref="member">isAvailable</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;const<sp/>Object&gt;&gt;&amp;<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};<sp/>}</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h"/>
+    <location file="MRViewer/MRISceneStateCheck.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,5 @@
 var MRPolylineEdgeIterator_8h =
 [
-    [ "MR_IteratorRange_MR_PolylineUndirectedEdgeIterator", "MRPolylineEdgeIterator_8h.html#a210c323dfaa0990243a9ea8357bf584f", null ],
-    [ "MR_PolylineTopology", "MRPolylineEdgeIterator_8h.html#a02d1fe1568aa3e29e692594602ba76bd", null ],
-    [ "MR_PolylineUndirectedEdgeIterator", "MRPolylineEdgeIterator_8h.html#ae6e065050c61472b2891c5a5007dc426", null ],
     [ "MR_deref_MR_PolylineUndirectedEdgeIterator", "MRPolylineEdgeIterator_8h.html#ad043ad5943c348babe884f32649f03f0", null ],
     [ "MR_incr_MR_PolylineUndirectedEdgeIterator", "MRPolylineEdgeIterator_8h.html#aed725035194c5e1d6bc898b3f77c7c18", null ],
     [ "MR_not_equal_MR_PolylineUndirectedEdgeIterator", "MRPolylineEdgeIterator_8h.html#af44606218cedf357d3aa650285959d6d", null ],

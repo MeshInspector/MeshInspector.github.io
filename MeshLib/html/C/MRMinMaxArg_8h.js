@@ -1,6 +1,5 @@
 var MRMinMaxArg_8h =
 [
-    [ "MR_MinMaxArg_float_MR_VertId", "MRMinMaxArg_8h.html#a17053ed9ad2431bc5c202e9135ddb2c6", null ],
     [ "MR_std_pair_float_MR_VertId", "MRMinMaxArg_8h.html#a94e95814e5f5c93075bde4b4700b2373", null ],
     [ "MR_MinMaxArg_float_MR_VertId_AssignFromAnother", "MRMinMaxArg_8h.html#a4ad35c912fc0dc8fa82c537ad6c8ab3b", null ],
     [ "MR_MinMaxArg_float_MR_VertId_ConstructFrom", "MRMinMaxArg_8h.html#a6a4363bbafab1bbfb583fe1add26b55e", null ],

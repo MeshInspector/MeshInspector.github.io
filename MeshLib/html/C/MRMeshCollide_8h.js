@@ -1,13 +1,8 @@
 var MRMeshCollide_8h =
 [
-    [ "MR_AffineXf3f", "MRMeshCollide_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_expected_bool_std_string", "MRMeshCollide_8h.html#a74aaa8804e7ff506aeb3bda836914375", null ],
-    [ "MR_expected_MR_FaceBitSet_std_string", "MRMeshCollide_8h.html#a6aeecd4fac2aea90513510421de3f37b", null ],
     [ "MR_expected_std_vector_MR_FaceFace_std_string", "MRMeshCollide_8h.html#aba9a9797e256d419b82e9ab4886546fd", null ],
     [ "MR_Face2RegionMap", "MRMeshCollide_8h.html#a241ebc5168b85254384f769ec1b1268e", null ],
-    [ "MR_Mesh", "MRMeshCollide_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRMeshCollide_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_std_function_bool_from_float", "MRMeshCollide_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_pair_MR_FaceBitSet_MR_FaceBitSet", "MRMeshCollide_8h.html#a8ceedec9dcad3f944edabd2d4d228de7", null ],
     [ "MR_std_vector_MR_FaceFace", "MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11", null ],
     [ "MR_findCollidingTriangleBitsets", "MRMeshCollide_8h.html#aa7b06d1e1a64adfa8b6b48ea296e99b6", null ],

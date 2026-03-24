@@ -2,8 +2,8 @@ var classMR_1_1ObjectLines =
 [
     [ "ObjectLines", "classMR_1_1ObjectLines.html#a43e082ee9e735a497c44d23a53b84c97", null ],
     [ "ObjectLines", "classMR_1_1ObjectLines.html#a52483cabd06f9095eb2d61c6ba4fd777", null ],
-    [ "addChild", "classMR_1_1ObjectLines.html#a36cd2f5c40c5e3d3298b97d2a6fe81e4", null ],
-    [ "addChildBefore", "classMR_1_1ObjectLines.html#a80c264e78400f8164b6a34cc66dc81b3", null ],
+    [ "addChild", "classMR_1_1ObjectLines.html#ac095b0903d1e6ba0bca0f9e71c26e111", null ],
+    [ "addChildBefore", "classMR_1_1ObjectLines.html#acb14e3d882b1b85c62a25141e04ba0b9", null ],
     [ "addTag", "classMR_1_1ObjectLines.html#aa84a619361e9b1f0b2d2881e1182da0a", null ],
     [ "applyScale", "classMR_1_1ObjectLines.html#a2038628a03272f790e58e01d8c515560", null ],
     [ "assign", "classMR_1_1ObjectLines.html#a539db3da83ba7adf63af3ef2b4ca9da2", null ],
@@ -44,7 +44,7 @@ var classMR_1_1ObjectLines =
     [ "setParentLocked", "classMR_1_1ObjectLines.html#aed52d189a92ae8d66cf7e4637b20a28b", null ],
     [ "setPickable", "classMR_1_1ObjectLines.html#ad084ba48f1f9dd451bcd85c68b90206f", null ],
     [ "setPointSize", "classMR_1_1ObjectLines.html#aa47af905f9c16b850c5f872aee5f7463", null ],
-    [ "setPolyline", "classMR_1_1ObjectLines.html#adc02e8585f35d647e6e2f29e63ccb4af", null ],
+    [ "setPolyline", "classMR_1_1ObjectLines.html#a2564c53856db18a68543b1c61c9d578b", null ],
     [ "setShininess", "classMR_1_1ObjectLines.html#ab7f95994701c4fbc2c9619ed5bcf4a18", null ],
     [ "setSpecularStrength", "classMR_1_1ObjectLines.html#a01fd8604bff7ccf8b881ee538440d553", null ],
     [ "setUseDefaultScenePropertiesOnDeserialization", "classMR_1_1ObjectLines.html#a098791b43d461fb8f7e633be60a78727", null ],
@@ -60,7 +60,7 @@ var classMR_1_1ObjectLines =
     [ "swap", "classMR_1_1ObjectLines.html#a6bb4b065ab8f0184d0e5d0f4cb8523b3", null ],
     [ "toggleVisualizeProperty", "classMR_1_1ObjectLines.html#abd868c9731a8424a7f0f715dcb331c5c", null ],
     [ "updateLinesColorMap", "classMR_1_1ObjectLines.html#a168a73719b454b617cf9f70542f5e479", null ],
-    [ "updatePolyline", "classMR_1_1ObjectLines.html#a929a8be8c284b6ee7df613dfb9a1037f", null ],
+    [ "updatePolyline", "classMR_1_1ObjectLines.html#a2455814e18898ccca34377271159060c", null ],
     [ "updateVertsColorMap", "classMR_1_1ObjectLines.html#a542c1c739945796c36f526861cfe4de6", null ],
-    [ "varPolyline", "classMR_1_1ObjectLines.html#a08e9d11f18ea02f40e7154bda1938966", null ]
+    [ "varPolyline", "classMR_1_1ObjectLines.html#a5c5d537cecef8816f0109fe3836d14aa", null ]
 ];

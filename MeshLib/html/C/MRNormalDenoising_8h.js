@@ -1,13 +1,6 @@
 var MRNormalDenoising_8h =
 [
     [ "MR_DenoiseViaNormalsSettings", "MRNormalDenoising_8h.html#a550c956b4ffd37bc735d1733d6416bf4", null ],
-    [ "MR_expected_void_std_string", "MRNormalDenoising_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_FaceNormals", "MRNormalDenoising_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5", null ],
-    [ "MR_Mesh", "MRNormalDenoising_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTopology", "MRNormalDenoising_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
-    [ "MR_std_function_bool_from_float", "MRNormalDenoising_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRNormalDenoising_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_UndirectedEdgeScalars", "MRNormalDenoising_8h.html#af24d03a25a98fafdbaf79dfeda2fc526", null ],
     [ "MR_denoiseNormals", "MRNormalDenoising_8h.html#a5ff316df5b461f39dbf6dfad579adc5d", null ],
     [ "MR_DenoiseViaNormalsSettings_AssignFromAnother", "MRNormalDenoising_8h.html#a722f2d33993f47c8b42150a7f758ba79", null ],
     [ "MR_DenoiseViaNormalsSettings_ConstructFrom", "MRNormalDenoising_8h.html#a4f3c23815419a6a0d51ce969aa0ef585", null ],

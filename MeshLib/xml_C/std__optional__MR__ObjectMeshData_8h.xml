@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__optional__MR__ObjectMeshData_8h" kind="file" language="C++">
+    <compoundname>std_optional_MR_ObjectMeshData.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_optional_MR_ObjectMeshData.h</label>
+        <link refid="std__optional__MR__ObjectMeshData_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a7e73709773f16c10906fc19e0c0112c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_ObjectMeshData * MR_std_optional_MR_ObjectMeshData_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__ObjectMeshData_8h_1a8d02286ec56c696bd7fb4873bfe4efac" kindref="member">MR_std_optional_MR_ObjectMeshData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="22" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="22" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1abde234f3049d192229005715c3277c9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_ObjectMeshData * MR_std_optional_MR_ObjectMeshData_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__optional__MR__ObjectMeshData_8h_1a79fd7b8cc6d329ae95a0875d73786995" kindref="member">MR_std_optional_MR_ObjectMeshData_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__optional__MR__ObjectMeshData_8h_1a96bf3e8a88550e17bd39163a9493aef0" kindref="member">MR_std_optional_MR_ObjectMeshData_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__optional__MR__ObjectMeshData_8h_1a2d4cddafb49a1ffd7962fe40419e66dc" kindref="member">MR_std_optional_MR_ObjectMeshData_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="27" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="27" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a55ef8dd5e219546a4db9c639cd619c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_ObjectMeshData * MR_std_optional_MR_ObjectMeshData_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_optional_MR_ObjectMeshData *other)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__ObjectMeshData_8h_1a8d02286ec56c696bd7fb4873bfe4efac" kindref="member">MR_std_optional_MR_ObjectMeshData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="33" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="33" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1aefc611477ff730a1625610cef2b66e89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_ObjectMeshData * MR_std_optional_MR_ObjectMeshData_ConstructFrom</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_ObjectMeshData *other)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_ConstructFrom</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new instance. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass <computeroutput>MR_PassBy_NoObject</computeroutput> and a null pointer. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__ObjectMeshData_8h_1a8d02286ec56c696bd7fb4873bfe4efac" kindref="member">MR_std_optional_MR_ObjectMeshData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="38" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="38" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a833db6237e4c8d6eb701a02fef3d6804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_ObjectMeshData_AssignFromAnother</definition>
+        <argsstring>(MR_std_optional_MR_ObjectMeshData *_this, MR_PassBy other_pass_by, MR_std_optional_MR_ObjectMeshData *other)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a721a50f7de891eed4c58b5910b334f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_ObjectMeshData_AssignFrom</definition>
+        <argsstring>(MR_std_optional_MR_ObjectMeshData *_this, MR_PassBy other_pass_by, MR_ObjectMeshData *other)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_AssignFrom</name>
+        <param>
+          <type><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass <computeroutput>MR_PassBy_NoObject</computeroutput> and a null pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a8d02286ec56c696bd7fb4873bfe4efac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_ObjectMeshData_Destroy</definition>
+        <argsstring>(const MR_std_optional_MR_ObjectMeshData *_this)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a79fd7b8cc6d329ae95a0875d73786995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_ObjectMeshData_DestroyArray</definition>
+        <argsstring>(const MR_std_optional_MR_ObjectMeshData *_this)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="55" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a2d4cddafb49a1ffd7962fe40419e66dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_ObjectMeshData * MR_std_optional_MR_ObjectMeshData_OffsetPtr</definition>
+        <argsstring>(const MR_std_optional_MR_ObjectMeshData *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="59" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="59" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a96bf3e8a88550e17bd39163a9493aef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_ObjectMeshData * MR_std_optional_MR_ObjectMeshData_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_optional_MR_ObjectMeshData *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="63" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="63" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a2c5a8bd6bfcf5be9ac5de50ab41ada58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_optional_MR_ObjectMeshData_has_value</definition>
+        <argsstring>(const MR_std_optional_MR_ObjectMeshData *_this)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_has_value</name>
+        <param>
+          <type>const <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores an object, as opposed to being empty. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1ad1cc23db41f9aa9a769e7dc38ed89c50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
+        <definition>MRC_API const MR_ObjectMeshData * MR_std_optional_MR_ObjectMeshData_value</definition>
+        <argsstring>(const MR_std_optional_MR_ObjectMeshData *_this)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_value</name>
+        <param>
+          <type>const <ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="72" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="72" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__ObjectMeshData_8h_1a7a125bca14f744f8c6f8b05b55e30430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
+        <definition>MRC_API MR_ObjectMeshData * MR_std_optional_MR_ObjectMeshData_value_mut</definition>
+        <argsstring>(MR_std_optional_MR_ObjectMeshData *_this)</argsstring>
+        <name>MR_std_optional_MR_ObjectMeshData_value_mut</name>
+        <param>
+          <type><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" line="77" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h" declline="77" declcolumn="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshData.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__optional__MR__ObjectMeshData_8h_1a7e73709773f16c10906fc19e0c0112c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*<ref refid="std__optional__MR__ObjectMeshData_8h_1a7e73709773f16c10906fc19e0c0112c8" kindref="member">MR_std_optional_MR_ObjectMeshData_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="std__optional__MR__ObjectMeshData_8h_1abde234f3049d192229005715c3277c9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*<ref refid="std__optional__MR__ObjectMeshData_8h_1abde234f3049d192229005715c3277c9e" kindref="member">MR_std_optional_MR_ObjectMeshData_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__optional__MR__ObjectMeshData_8h_1a55ef8dd5e219546a4db9c639cd619c10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*<ref refid="std__optional__MR__ObjectMeshData_8h_1a55ef8dd5e219546a4db9c639cd619c10" kindref="member">MR_std_optional_MR_ObjectMeshData_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__optional__MR__ObjectMeshData_8h_1aefc611477ff730a1625610cef2b66e89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*<ref refid="std__optional__MR__ObjectMeshData_8h_1aefc611477ff730a1625610cef2b66e89" kindref="member">MR_std_optional_MR_ObjectMeshData_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__optional__MR__ObjectMeshData_8h_1a833db6237e4c8d6eb701a02fef3d6804" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__ObjectMeshData_8h_1a833db6237e4c8d6eb701a02fef3d6804" kindref="member">MR_std_optional_MR_ObjectMeshData_AssignFromAnother</ref>(<ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__optional__MR__ObjectMeshData_8h_1a721a50f7de891eed4c58b5910b334f3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__ObjectMeshData_8h_1a721a50f7de891eed4c58b5910b334f3a" kindref="member">MR_std_optional_MR_ObjectMeshData_AssignFrom</ref>(<ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__optional__MR__ObjectMeshData_8h_1a8d02286ec56c696bd7fb4873bfe4efac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__ObjectMeshData_8h_1a8d02286ec56c696bd7fb4873bfe4efac" kindref="member">MR_std_optional_MR_ObjectMeshData_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__optional__MR__ObjectMeshData_8h_1a79fd7b8cc6d329ae95a0875d73786995" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__ObjectMeshData_8h_1a79fd7b8cc6d329ae95a0875d73786995" kindref="member">MR_std_optional_MR_ObjectMeshData_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__optional__MR__ObjectMeshData_8h_1a2d4cddafb49a1ffd7962fe40419e66dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*<ref refid="std__optional__MR__ObjectMeshData_8h_1a2d4cddafb49a1ffd7962fe40419e66dc" kindref="member">MR_std_optional_MR_ObjectMeshData_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__optional__MR__ObjectMeshData_8h_1a96bf3e8a88550e17bd39163a9493aef0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*<ref refid="std__optional__MR__ObjectMeshData_8h_1a96bf3e8a88550e17bd39163a9493aef0" kindref="member">MR_std_optional_MR_ObjectMeshData_OffsetMutablePtr</ref>(<ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__optional__MR__ObjectMeshData_8h_1a2c5a8bd6bfcf5be9ac5de50ab41ada58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__ObjectMeshData_8h_1a2c5a8bd6bfcf5be9ac5de50ab41ada58" kindref="member">MR_std_optional_MR_ObjectMeshData_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__optional__MR__ObjectMeshData_8h_1ad1cc23db41f9aa9a769e7dc38ed89c50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*<ref refid="std__optional__MR__ObjectMeshData_8h_1ad1cc23db41f9aa9a769e7dc38ed89c50" kindref="member">MR_std_optional_MR_ObjectMeshData_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__optional__MR__ObjectMeshData_8h_1a7a125bca14f744f8c6f8b05b55e30430" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*<ref refid="std__optional__MR__ObjectMeshData_8h_1a7a125bca14f744f8c6f8b05b55e30430" kindref="member">MR_std_optional_MR_ObjectMeshData_value_mut</ref>(<ref refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kindref="member">MR_std_optional_MR_ObjectMeshData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_ObjectMeshData.h"/>
+  </compounddef>
+</doxygen>

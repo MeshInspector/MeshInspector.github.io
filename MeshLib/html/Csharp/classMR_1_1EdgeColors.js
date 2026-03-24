@@ -16,6 +16,7 @@ var classMR_1_1EdgeColors =
     [ "data", "classMR_1_1EdgeColors.html#a180f37dbf39836dced21dd74158d486f", null ],
     [ "emplaceBack", "classMR_1_1EdgeColors.html#a47177a41edab19c1fbff81cdc711e358", null ],
     [ "front", "classMR_1_1EdgeColors.html#ae11de232dd8fc5db2fe7b68d6fa756b5", null ],
+    [ "GetEnumerator", "classMR_1_1EdgeColors.html#ac63f0c90dabf4b3880267ece19d99285", null ],
     [ "operator EdgeColors", "classMR_1_1EdgeColors.html#a208b147c82a688ad6c9a12cc61411cf0", null ],
     [ "popBack", "classMR_1_1EdgeColors.html#aba1eba42ff6dfc723b97b20dbc7df412", null ],
     [ "pushBack", "classMR_1_1EdgeColors.html#a85bec026b4b12131d60410eb8408daab", null ],

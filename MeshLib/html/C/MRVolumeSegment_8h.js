@@ -1,17 +1,8 @@
 var MRVolumeSegment_8h =
 [
-    [ "MR_expected_MR_Mesh_std_string", "MRVolumeSegment_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_expected_MR_VoxelBitSet_std_string", "MRVolumeSegment_8h.html#adbc0fff30d322ff1210cc6de0d6dda12", null ],
-    [ "MR_expected_std_vector_MR_Mesh_std_string", "MRVolumeSegment_8h.html#a2704ecc047fdd30fa88d824c247edcde", null ],
-    [ "MR_std_function_bool_from_float", "MRVolumeSegment_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_vector_MR_Vector3i", "MRVolumeSegment_8h.html#a7f44233acc15e6606c18834b06a1629d", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f", "MRVolumeSegment_8h.html#aa2a44878522bc2a9ca50db378bfa329b", null ],
-    [ "MR_VdbVolume", "MRVolumeSegment_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
-    [ "MR_Vector3i", "MRVolumeSegment_8h.html#ad55ca9af0874ffb89877bad65ae2859d", null ],
     [ "MR_VolumeSegmentationParameters", "MRVolumeSegment_8h.html#a7121a8ffcb5592f4d56354b69b5ff914", null ],
     [ "MR_VolumeSegmenter", "MRVolumeSegment_8h.html#a44dacd5572f893e267413ac24c8daf81", null ],
     [ "MR_VolumeSegmenter_SeedType", "MRVolumeSegment_8h.html#a2af59428533d5b0b42136dfa6d503672", null ],
-    [ "MR_VoxelBitSet", "MRVolumeSegment_8h.html#a94b5f700f4835481dce132716ff73b05", null ],
     [ "MR_VoxelMetricParameters", "MRVolumeSegment_8h.html#a1bf861487a99eefce3b177f0edded8a4", null ],
     [ "MR_VolumeSegmenter_SeedType", "MRVolumeSegment_8h.html#aac9f0e02a3fca44ef300b6f4139c7cc0", [
       [ "MR_VolumeSegmenter_SeedType_Inside", "MRVolumeSegment_8h.html#aac9f0e02a3fca44ef300b6f4139c7cc0a5c5fd772c1865ba30595f1dabc5124ee", null ],

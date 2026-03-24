@@ -6,7 +6,7 @@ var classMR_1_1ArcInterpolationParams =
     [ "ArcInterpolationParams", "classMR_1_1ArcInterpolationParams.html#a4b5fb7cfbd1de755fe1414b25090c0ba", null ],
     [ "ArcInterpolationParams", "classMR_1_1ArcInterpolationParams.html#ad06499cf2e874e125456b92cf2d73894", null ],
     [ "assign", "classMR_1_1ArcInterpolationParams.html#ab5feeb59997872df7436810d1425635c", null ],
-    [ "cb", "classMR_1_1ArcInterpolationParams.html#a85070e607deb5fe2f48492578342e32a", null ],
+    [ "cb", "classMR_1_1ArcInterpolationParams.html#a87503d9b19229b126798623351d003d8", null ],
     [ "eps", "classMR_1_1ArcInterpolationParams.html#a843a6b500f0606b83fafbe1db975a602", null ],
     [ "maxRadius", "classMR_1_1ArcInterpolationParams.html#a7b08becbaf0a29e247c7f1a0e3741cb5", null ]
 ];

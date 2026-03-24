@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHistogram_8h" kind="file" language="C++">
     <compoundname>MRHistogram.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -18,41 +18,26 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stddef.h</label>
       </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRHistogram_8h_1aa12bdb75aa07ac9931f491f5e67125aa" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref></type>
-        <definition>typedef struct MR_std_pair_float_float MR_std_pair_float_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_pair_float_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="12" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistogram_8h_1a4f0d822b41437ab650418eb826969703" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref></type>
-        <definition>typedef struct MR_std_vector_uint64_t MR_std_vector_uint64_t</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_uint64_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="13" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" prot="public" static="no">
         <type>struct <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref></type>
         <definition>typedef struct MR_Histogram MR_Histogram</definition>
@@ -61,16 +46,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Simple class for calculating histogram Generated from class <computeroutput>MR::Histogram</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Simple class for calculating histogram Generated from class <computeroutput>MR::Histogram</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="19" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="19" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRHistogram_8h_1a641f3dba4f55d6b1db077270ee80ded2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
         <definition>MRC_API MR_Histogram * MR_Histogram_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Histogram_DefaultConstruct</name>
@@ -84,10 +69,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="23" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="23" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="23" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="23" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1ac82bdbee7be236225b704b1733724b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
         <definition>MRC_API MR_Histogram * MR_Histogram_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Histogram_DefaultConstructArray</name>
@@ -102,10 +87,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="28" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="28" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="28" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="28" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1aef3835a089489fcf1eea67440e09b460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
         <definition>MRC_API const MR_Histogram * MR_Histogram_OffsetPtr</definition>
         <argsstring>(const MR_Histogram *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Histogram_OffsetPtr</name>
@@ -124,10 +109,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="32" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="32" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="32" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="32" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1a516c802f29cd7c5ef659a805835c79ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
         <definition>MRC_API MR_Histogram * MR_Histogram_OffsetMutablePtr</definition>
         <argsstring>(MR_Histogram *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Histogram_OffsetMutablePtr</name>
@@ -146,15 +131,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="36" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="36" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="36" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="36" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1ab7df5275987b8963db644de22ed126e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
         <definition>MRC_API MR_Histogram * MR_Histogram_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_Histogram *_other)</argsstring>
         <name>MR_Histogram_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -168,10 +153,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="41" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="41" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="41" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="41" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1aff9ba11817bfd4f941d57e6240f5b06e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
         <definition>MRC_API MR_Histogram * MR_Histogram_Construct</definition>
         <argsstring>(float min, float max, MR_uint64_t size)</argsstring>
         <name>MR_Histogram_Construct</name>
@@ -184,7 +169,7 @@
           <declname>max</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -194,10 +179,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="47" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="47" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="47" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="47" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1ae439edbe9eb12a80e8d9a3c5b8d20d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Histogram_Destroy</definition>
         <argsstring>(const MR_Histogram *_this)</argsstring>
         <name>MR_Histogram_Destroy</name>
@@ -206,16 +191,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Histogram</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="50" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="50" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1a43105fd0cb9967446f0b7c86c63104aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Histogram_DestroyArray</definition>
         <argsstring>(const MR_Histogram *_this)</argsstring>
         <name>MR_Histogram_DestroyArray</name>
@@ -224,16 +209,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Histogram</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="53" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1ad3c64996e3bb034dad4933ae3ba628db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref> *</type>
         <definition>MRC_API MR_Histogram * MR_Histogram_AssignFromAnother</definition>
         <argsstring>(MR_Histogram *_this, MR_PassBy _other_pass_by, MR_Histogram *_other)</argsstring>
         <name>MR_Histogram_AssignFromAnother</name>
@@ -242,7 +227,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -252,14 +237,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Histogram::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Histogram::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="60" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="60" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="60" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="60" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1ac0967efba5ea9fbcacaad0a44e00efc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Histogram_addSample</definition>
         <argsstring>(MR_Histogram *_this, float sample, const MR_uint64_t *count)</argsstring>
         <name>MR_Histogram_addSample</name>
@@ -272,7 +257,7 @@
           <declname>sample</declname>
         </param>
         <param>
-          <type>const MR_uint64_t *</type>
+          <type>const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
           <declname>count</declname>
         </param>
         <briefdescription>
@@ -282,10 +267,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="66" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="66" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1aefd5d0c1c0e88b20a858c6fa7d6f344f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Histogram_addHistogram</definition>
         <argsstring>(MR_Histogram *_this, const MR_Histogram *hist)</argsstring>
         <name>MR_Histogram_addHistogram</name>
@@ -304,10 +289,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="72" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="72" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1afdc343f3f35ce33cbd030ed5f58ce3ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref> *</type>
         <definition>MRC_API const MR_std_vector_uint64_t * MR_Histogram_getBins</definition>
         <argsstring>(const MR_Histogram *_this)</argsstring>
         <name>MR_Histogram_getBins</name>
@@ -322,10 +307,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="78" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="78" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="78" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="78" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1ab411b8cc3ca8ecc7d0ea1196c5e87e06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_Histogram_getMin</definition>
         <argsstring>(const MR_Histogram *_this)</argsstring>
         <name>MR_Histogram_getMin</name>
@@ -340,10 +325,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="83" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="83" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="83" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="83" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1ac298871c8ab4ce01e1d57d11e0f71d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_Histogram_getMax</definition>
         <argsstring>(const MR_Histogram *_this)</argsstring>
         <name>MR_Histogram_getMax</name>
@@ -358,10 +343,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="88" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="88" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="88" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="88" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1a70b52fdcfc82e34b3766fa6844dc611d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_Histogram_getBinId</definition>
         <argsstring>(const MR_Histogram *_this, float sample)</argsstring>
         <name>MR_Histogram_getBinId</name>
@@ -380,10 +365,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="93" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="93" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="93" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="93" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1a60ca5a2cf302a66797dc80ef6d2447b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref> *</type>
         <definition>MRC_API MR_std_pair_float_float * MR_Histogram_getBinMinMax</definition>
         <argsstring>(const MR_Histogram *_this, MR_uint64_t binId)</argsstring>
         <name>MR_Histogram_getBinMinMax</name>
@@ -392,20 +377,20 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>binId</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Gets minimum and maximum of diapason inherited by bin Generated from method <computeroutput>MR::Histogram::getBinMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_pair_float_float_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Gets minimum and maximum of diapason inherited by bin Generated from method <computeroutput>MR::Histogram::getBinMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__float__float_8h_1a995c675ca78eb86624a44beb33126b06" kindref="member">MR_std_pair_float_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="99" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="99" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="99" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="99" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRHistogram_8h_1a9a6f4fc2e6bb5d409c13a140e2266932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_Histogram_heapBytes</definition>
         <argsstring>(const MR_Histogram *_this)</argsstring>
         <name>MR_Histogram_heapBytes</name>
@@ -420,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="104" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" declline="104" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" line="104" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h" declline="104" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -430,8 +415,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -439,50 +424,50 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRHistogram_8h_1aa12bdb75aa07ac9931f491f5e67125aa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref><sp/><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_float_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRHistogram_8h_1a4f0d822b41437ab650418eb826969703" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref><sp/><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_float_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRHistogram_8h_1a641f3dba4f55d6b1db077270ee80ded2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1a641f3dba4f55d6b1db077270ee80ded2" kindref="member">MR_Histogram_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23" refid="MRHistogram_8h_1a641f3dba4f55d6b1db077270ee80ded2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1a641f3dba4f55d6b1db077270ee80ded2" kindref="member">MR_Histogram_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRHistogram_8h_1ac82bdbee7be236225b704b1733724b41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1ac82bdbee7be236225b704b1733724b41" kindref="member">MR_Histogram_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28" refid="MRHistogram_8h_1ac82bdbee7be236225b704b1733724b41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1ac82bdbee7be236225b704b1733724b41" kindref="member">MR_Histogram_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRHistogram_8h_1aef3835a089489fcf1eea67440e09b460" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1aef3835a089489fcf1eea67440e09b460" kindref="member">MR_Histogram_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="32" refid="MRHistogram_8h_1aef3835a089489fcf1eea67440e09b460" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1aef3835a089489fcf1eea67440e09b460" kindref="member">MR_Histogram_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRHistogram_8h_1a516c802f29cd7c5ef659a805835c79ea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1a516c802f29cd7c5ef659a805835c79ea" kindref="member">MR_Histogram_OffsetMutablePtr</ref>(<ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="36" refid="MRHistogram_8h_1a516c802f29cd7c5ef659a805835c79ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1a516c802f29cd7c5ef659a805835c79ea" kindref="member">MR_Histogram_OffsetMutablePtr</ref>(<ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRHistogram_8h_1ab7df5275987b8963db644de22ed126e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1ab7df5275987b8963db644de22ed126e7" kindref="member">MR_Histogram_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="41" refid="MRHistogram_8h_1ab7df5275987b8963db644de22ed126e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1ab7df5275987b8963db644de22ed126e7" kindref="member">MR_Histogram_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRHistogram_8h_1aff9ba11817bfd4f941d57e6240f5b06e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1aff9ba11817bfd4f941d57e6240f5b06e" kindref="member">MR_Histogram_Construct</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max,<sp/>MR_uint64_t<sp/>size);</highlight></codeline>
+<codeline lineno="47" refid="MRHistogram_8h_1aff9ba11817bfd4f941d57e6240f5b06e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1aff9ba11817bfd4f941d57e6240f5b06e" kindref="member">MR_Histogram_Construct</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>size);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRHistogram_8h_1ae439edbe9eb12a80e8d9a3c5b8d20d00" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1ae439edbe9eb12a80e8d9a3c5b8d20d00" kindref="member">MR_Histogram_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50" refid="MRHistogram_8h_1ae439edbe9eb12a80e8d9a3c5b8d20d00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1ae439edbe9eb12a80e8d9a3c5b8d20d00" kindref="member">MR_Histogram_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRHistogram_8h_1a43105fd0cb9967446f0b7c86c63104aa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a43105fd0cb9967446f0b7c86c63104aa" kindref="member">MR_Histogram_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53" refid="MRHistogram_8h_1a43105fd0cb9967446f0b7c86c63104aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a43105fd0cb9967446f0b7c86c63104aa" kindref="member">MR_Histogram_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRHistogram_8h_1ad3c64996e3bb034dad4933ae3ba628db" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1ad3c64996e3bb034dad4933ae3ba628db" kindref="member">MR_Histogram_AssignFromAnother</ref>(<ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="60" refid="MRHistogram_8h_1ad3c64996e3bb034dad4933ae3ba628db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1ad3c64996e3bb034dad4933ae3ba628db" kindref="member">MR_Histogram_AssignFromAnother</ref>(<ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRHistogram_8h_1ac0967efba5ea9fbcacaad0a44e00efc5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1ac0967efba5ea9fbcacaad0a44e00efc5" kindref="member">MR_Histogram_addSample</ref>(<ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*count);</highlight></codeline>
+<codeline lineno="66" refid="MRHistogram_8h_1ac0967efba5ea9fbcacaad0a44e00efc5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1ac0967efba5ea9fbcacaad0a44e00efc5" kindref="member">MR_Histogram_addSample</ref>(<ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*count);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRHistogram_8h_1aefd5d0c1c0e88b20a858c6fa7d6f344f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1aefd5d0c1c0e88b20a858c6fa7d6f344f" kindref="member">MR_Histogram_addHistogram</ref>(<ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*hist);</highlight></codeline>
+<codeline lineno="72" refid="MRHistogram_8h_1aefd5d0c1c0e88b20a858c6fa7d6f344f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1aefd5d0c1c0e88b20a858c6fa7d6f344f" kindref="member">MR_Histogram_addHistogram</ref>(<ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*hist);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRHistogram_8h_1afdc343f3f35ce33cbd030ed5f58ce3ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/>*<ref refid="MRHistogram_8h_1afdc343f3f35ce33cbd030ed5f58ce3ae" kindref="member">MR_Histogram_getBins</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78" refid="MRHistogram_8h_1afdc343f3f35ce33cbd030ed5f58ce3ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/>*<ref refid="MRHistogram_8h_1afdc343f3f35ce33cbd030ed5f58ce3ae" kindref="member">MR_Histogram_getBins</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRHistogram_8h_1ab411b8cc3ca8ecc7d0ea1196c5e87e06" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1ab411b8cc3ca8ecc7d0ea1196c5e87e06" kindref="member">MR_Histogram_getMin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83" refid="MRHistogram_8h_1ab411b8cc3ca8ecc7d0ea1196c5e87e06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1ab411b8cc3ca8ecc7d0ea1196c5e87e06" kindref="member">MR_Histogram_getMin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRHistogram_8h_1ac298871c8ab4ce01e1d57d11e0f71d55" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1ac298871c8ab4ce01e1d57d11e0f71d55" kindref="member">MR_Histogram_getMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88" refid="MRHistogram_8h_1ac298871c8ab4ce01e1d57d11e0f71d55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1ac298871c8ab4ce01e1d57d11e0f71d55" kindref="member">MR_Histogram_getMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRHistogram_8h_1a70b52fdcfc82e34b3766fa6844dc611d" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRHistogram_8h_1a70b52fdcfc82e34b3766fa6844dc611d" kindref="member">MR_Histogram_getBinId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample);</highlight></codeline>
+<codeline lineno="93" refid="MRHistogram_8h_1a70b52fdcfc82e34b3766fa6844dc611d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRHistogram_8h_1a70b52fdcfc82e34b3766fa6844dc611d" kindref="member">MR_Histogram_getBinId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRHistogram_8h_1a60ca5a2cf302a66797dc80ef6d2447b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref><sp/>*<ref refid="MRHistogram_8h_1a60ca5a2cf302a66797dc80ef6d2447b1" kindref="member">MR_Histogram_getBinMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>binId);</highlight></codeline>
+<codeline lineno="99" refid="MRHistogram_8h_1a60ca5a2cf302a66797dc80ef6d2447b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref><sp/>*<ref refid="MRHistogram_8h_1a60ca5a2cf302a66797dc80ef6d2447b1" kindref="member">MR_Histogram_getBinMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>binId);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRHistogram_8h_1a9a6f4fc2e6bb5d409c13a140e2266932" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRHistogram_8h_1a9a6f4fc2e6bb5d409c13a140e2266932" kindref="member">MR_Histogram_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104" refid="MRHistogram_8h_1a9a6f4fc2e6bb5d409c13a140e2266932" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRHistogram_8h_1a9a6f4fc2e6bb5d409c13a140e2266932" kindref="member">MR_Histogram_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistogram.h"/>
   </compounddef>
 </doxygen>

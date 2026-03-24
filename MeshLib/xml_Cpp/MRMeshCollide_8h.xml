@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshCollide_8h" kind="file" language="C++">
     <compoundname>MRMeshCollide.h</compoundname>
     <includes refid="MRFaceFace_8h" local="yes">MRFaceFace.h</includes>
@@ -7,10 +7,40 @@
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <incdepgraph>
-      <node id="14">
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRFaceFace.h</label>
+        <link refid="MRFaceFace_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -19,91 +49,102 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRFaceFace.h</label>
-        <link refid="MRFaceFace_8h"/>
-        <childnode refid="3" relation="include">
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRMeshCollide.h</label>
+        <link refid="MRMeshCollide_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="1">
-        <label>MRMeshCollide.h</label>
-        <link refid="MRMeshCollide_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="19">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="20">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="15">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="16">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="6">
-        <label>cassert</label>
-      </node>
-      <node id="13">
-        <label>cmath</label>
-      </node>
-      <node id="10">
-        <label>compare</label>
-      </node>
-      <node id="7">
-        <label>cstddef</label>
-      </node>
-      <node id="17">
-        <label>string</label>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="8">
-        <label>type_traits</label>
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="23">
+        <label>MRPch/MRExpected.h</label>
       </node>
       <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="21">
+        <label>cmath</label>
+      </node>
+      <node id="18">
+        <label>compare</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="17">
         <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -122,36 +163,36 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
-<codeline lineno="19" refid="group__AABBTreeGroup_1gaaeb209f0c917451a03debbf058fc39e6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;FaceFace&gt;<sp/><ref refid="group__AABBTreeGroup_1gaaeb209f0c917451a03debbf058fc39e6" kindref="member">findCollidingTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>b,<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;FaceFace&gt;<sp/><ref refid="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" kindref="member">findCollidingTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>b,<sp/></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>firstIntersectionOnly<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__AABBTreeGroup_1ga47e983a2ba53dbe6d49313488f3cae23" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;FaceBitSet,<sp/>FaceBitSet&gt;<sp/><ref refid="group__AABBTreeGroup_1ga47e983a2ba53dbe6d49313488f3cae23" kindref="member">findCollidingTriangleBitsets</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>b,</highlight></codeline>
+<codeline lineno="23" refid="group__AABBTreeGroup_1ga8defd1b47b126123f3cf99c68e771ea0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;FaceBitSet,<sp/>FaceBitSet&gt;<sp/><ref refid="group__AABBTreeGroup_1ga8defd1b47b126123f3cf99c68e771ea0" kindref="member">findCollidingTriangleBitsets</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>b,</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__AABBTreeGroup_1ga69b56b2d80a7923ebfeed5757d334e4f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;bool&gt;</ref><sp/><ref refid="group__AABBTreeGroup_1ga69b56b2d80a7923ebfeed5757d334e4f" kindref="member">findSelfCollidingTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,</highlight></codeline>
+<codeline lineno="27" refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;bool&gt;</ref><sp/><ref refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" kindref="member">findSelfCollidingTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;FaceFace&gt;*<sp/>outCollidingPairs,<sp/></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{},</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Face2RegionMap*<sp/>regionMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>touchIsIntersection<sp/>=<sp/>false<sp/>);<sp/></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__AABBTreeGroup_1ga0ac96d312ea833414d4d74069169cb1b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::vector&lt;FaceFace&gt;</ref>&gt;<sp/><ref refid="group__AABBTreeGroup_1ga69b56b2d80a7923ebfeed5757d334e4f" kindref="member">findSelfCollidingTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="34" refid="group__AABBTreeGroup_1ga8fb534af9cf7d272a2addab053665534" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::vector&lt;FaceFace&gt;</ref>&gt;<sp/><ref refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" kindref="member">findSelfCollidingTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{},</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Face2RegionMap<sp/>*<sp/>regionMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>touchIsIntersection<sp/>=<sp/>false<sp/>);<sp/></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__AABBTreeGroup_1gac946d92c431583fc7c4d656445ba1c07" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__AABBTreeGroup_1gac946d92c431583fc7c4d656445ba1c07" kindref="member">findSelfCollidingTrianglesBS</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="39" refid="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" kindref="member">findSelfCollidingTrianglesBS</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{},</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Face2RegionMap*<sp/>regionMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>touchIsIntersection<sp/>=<sp/>false<sp/>);<sp/></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/></highlight></codeline>
-<codeline lineno="47" refid="group__AABBTreeGroup_1ga3c4d304b28fd4695d20dc454318f5660" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga3c4d304b28fd4695d20dc454318f5660" kindref="member">isInside</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="47" refid="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" kindref="member">isInside</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="group__AABBTreeGroup_1ga30d53ebf69ce150861f17e4695543778" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga30d53ebf69ce150861f17e4695543778" kindref="member">isNonIntersectingInside</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="54" refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" kindref="member">isNonIntersectingInside</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="group__AABBTreeGroup_1ga3358455877a4f3ab26bb581338d86cd4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga30d53ebf69ce150861f17e4695543778" kindref="member">isNonIntersectingInside</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>a,<sp/>FaceId<sp/>partFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="61" refid="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" kindref="member">isNonIntersectingInside</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>a,<sp/>FaceId<sp/>partFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h"/>
+    <location file="MRMesh/MRMeshCollide.h"/>
   </compounddef>
 </doxygen>

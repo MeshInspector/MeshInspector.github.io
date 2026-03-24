@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TriTriDistanceParams__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TriTriDistanceParams_float</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriTriDistanceParams__float_1afcbe22a602f149eb1dfd8aea5a4a1ea4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriTriDistanceParams_float::_offsetof_upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float._offsetof_upDistLimitSq</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58970" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriTriDistanceParams__float_1a04ee6c8a2deb51afc0ae98213e019eb8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriTriDistanceParams_float::_offsetof_upLimitCheck</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_upLimitCheck</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float._offsetof_upLimitCheck</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58971" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1abeab9860c7ef089c36d145846ca91fc9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceParams_float.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58975" bodyend="58976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1ad32849c457a61e86fb5df78d40993ab2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriTriDistanceParams__float" kindref="compound">TriTriDistanceParams_float</ref></type>
+        <definition> TriTriDistanceParams_float mrmeshpy.TriTriDistanceParams_float.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58979" bodyend="58980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1ad32849c457a61e86fb5df78d40993ab2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriTriDistanceParams__float" kindref="compound">TriTriDistanceParams_float</ref></type>
+        <definition> TriTriDistanceParams_float mrmeshpy.TriTriDistanceParams_float.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58983" bodyend="58984"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1af528f46757d8b61c8ceb9c86b842a64b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceParams_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58986" bodyend="58987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1a016865387b28688302262927213b4c98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceParams_float.__init__</definition>
+        <argsstring>(self, TriTriDistanceParams_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriTriDistanceParams__float" kindref="compound">TriTriDistanceParams_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58989" bodyend="58992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1acc19842f6c0ab8f88550bb477488df60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceParams_float.__init__</definition>
+        <argsstring>(self, float upDistLimitSq, UpLimitCheck upLimitCheck)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UpLimitCheck" kindref="compound">UpLimitCheck</ref></type>
+          <declname>upLimitCheck</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58994" bodyend="58997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1a4e23c68879ca5b7f802e1507571dbdae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriTriDistanceParams_float.canExitEarlier</definition>
+        <argsstring>(self)</argsstring>
+        <name>canExitEarlier</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.canExitEarlier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58999" bodyend="59000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1a32e8bad054cfa939f18302806433f6d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriTriDistanceParams_float.canExitEarlier</definition>
+        <argsstring>(self, float distSqLowerBound)</argsstring>
+        <name>canExitEarlier</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.canExitEarlier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSqLowerBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59002" bodyend="59003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1a4190fa5147f88c163b820744dea7cb74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriTriDistanceParams_float.upDistLimitSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.upDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck)
+then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq
+and the points a and b can be arbitrary
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59005" bodyend="59010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceParams__float_1a1e4f7f25a6c20ae77d2b1f6280afae65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceParams_float.upDistLimitSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceParams_float.upDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59012" bodyend="59013"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TriTriDistanceParams&lt;float&gt;
+Aliases:  TriTriDistanceParamsf, TriTriDistanceParamsf
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58965" bodyend="59013"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1abeab9860c7ef089c36d145846ca91fc9" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1af528f46757d8b61c8ceb9c86b842a64b" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1a016865387b28688302262927213b4c98" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1acc19842f6c0ab8f88550bb477488df60" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1afcbe22a602f149eb1dfd8aea5a4a1ea4" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>_offsetof_upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1a04ee6c8a2deb51afc0ae98213e019eb8" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>_offsetof_upLimitCheck</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1a4e23c68879ca5b7f802e1507571dbdae" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>canExitEarlier</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1a32e8bad054cfa939f18302806433f6d5" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>canExitEarlier</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1ad32849c457a61e86fb5df78d40993ab2" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1ad32849c457a61e86fb5df78d40993ab2" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1a4190fa5147f88c163b820744dea7cb74" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceParams__float_1a1e4f7f25a6c20ae77d2b1f6280afae65" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceParams_float</scope><name>upDistLimitSq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

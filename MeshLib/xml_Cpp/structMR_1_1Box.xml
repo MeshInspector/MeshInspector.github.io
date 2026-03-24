@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Box" kind="struct" language="C++" prot="public">
     <compoundname>MR::Box</compoundname>
-    <includes refid="MRBox_8h" local="no">MRBox.h</includes>
+    <includes refid="MRBox_8h" local="no">MRMesh/MRBox.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="29" bodyend="-1"/>
+        <location file="MRMesh/MRBox.h" line="29" column="5" bodyfile="MRMesh/MRBox.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" prot="public" static="no">
         <type>typename <ref refid="group__GeneralGroup_1gadbadae2704ad269b8d78edbb0f2faa93" kindref="member">VTraits::BaseType</ref></type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="30" bodyend="-1"/>
+        <location file="MRMesh/MRBox.h" line="30" column="5" bodyfile="MRMesh/MRBox.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" prot="public" static="no">
         <type>typename VTraits::template ChangeBaseType&lt; bool &gt;</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="32" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MRBox.h" line="32" column="5" bodyfile="MRMesh/MRBox.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structMR_1_1Box_1a30f9aaac8de3e73144319e59e64d5add" prot="public" static="no">
         <type><ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits</ref>&lt; <ref refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" kindref="member">Vb</ref> &gt;</type>
@@ -58,13 +58,13 @@
         <name>VbTraits</name>
         <qualifiedname>MR::Box::VbTraits</qualifiedname>
         <briefdescription>
-<para>if V is Vector3&lt;T&gt; then Vb is Vector3b </para>
+<para>if V is <ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref> then <ref refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" kindref="member">Vb</ref> is Vector3b </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="33" bodyend="-1"/>
+        <location file="MRMesh/MRBox.h" line="33" column="5" bodyfile="MRMesh/MRBox.h" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="31" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="31" bodyend="-1"/>
+        <location file="MRMesh/MRBox.h" line="31" column="26" bodyfile="MRMesh/MRBox.h" bodystart="31" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="35" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="35" bodyend="-1"/>
+        <location file="MRMesh/MRBox.h" line="35" column="7" bodyfile="MRMesh/MRBox.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Box_1a493e21ced874aa010247428e109d524d" prot="public" static="no" mutable="no">
         <type>V</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="35" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="35" bodyend="-1"/>
+        <location file="MRMesh/MRBox.h" line="35" column="11" bodyfile="MRMesh/MRBox.h" bodystart="35" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="38" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="38" bodyend="38"/>
+        <location file="MRMesh/MRBox.h" line="38" column="14" bodyfile="MRMesh/MRBox.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1aba9d01a2283f33ef63e5d1cb49a6b84a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>V &amp;</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="39" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="39" bodyend="39"/>
+        <location file="MRMesh/MRBox.h" line="39" column="14" bodyfile="MRMesh/MRBox.h" bodystart="39" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1ab72759c3d199697fa09474bba5c5284c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="42" bodyend="42"/>
+        <location file="MRMesh/MRBox.h" line="42" column="5" bodyfile="MRMesh/MRBox.h" bodystart="42" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a0b1e0b6b95e8b735eda8de2bb06fd987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="43" bodyend="43"/>
+        <location file="MRMesh/MRBox.h" line="43" column="5" bodyfile="MRMesh/MRBox.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1af6d43e68039fbfc977b3d70beb1f30c8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -206,7 +206,7 @@
         <name>Box</name>
         <qualifiedname>MR::Box::Box</qualifiedname>
         <param>
-          <type>NoInit</type>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
         </param>
         <briefdescription>
 <para>skip initialization of min/max </para>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="53" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="53" bodyend="53"/>
+        <location file="MRMesh/MRBox.h" line="53" column="14" bodyfile="MRMesh/MRBox.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1af6d43e68039fbfc977b3d70beb1f30c8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -234,7 +234,7 @@
         <name>Box</name>
         <qualifiedname>MR::Box::Box</qualifiedname>
         <param>
-          <type>NoInit</type>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="55" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="55" bodyend="55"/>
+        <location file="MRMesh/MRBox.h" line="55" column="14" bodyfile="MRMesh/MRBox.h" bodystart="55" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1abaa0e8fa0a608290aa2ac4bee9a34a4e" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
         <templateparamlist>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="60" bodyend="61"/>
+        <location file="MRMesh/MRBox.h" line="60" column="17" bodyfile="MRMesh/MRBox.h" bodystart="60" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1ae8181cac57d5ff92d32bfa86bdc5caf3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="66" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="66" bodyend="72"/>
+        <location file="MRMesh/MRBox.h" line="66" column="10" bodyfile="MRMesh/MRBox.h" bodystart="66" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a5edd7e58dce05a67482b2c179f6abc6e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="75" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="75" bodyend="75"/>
+        <location file="MRMesh/MRBox.h" line="75" column="7" bodyfile="MRMesh/MRBox.h" bodystart="75" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a58367ea0fa34d4b4d1009044564aded9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="80" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="80" bodyend="86"/>
+        <location file="MRMesh/MRBox.h" line="80" column="7" bodyfile="MRMesh/MRBox.h" bodystart="80" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a71c94df372502f935a239c62e591a70c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -329,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="106" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="106" bodyend="106"/>
+        <location file="MRMesh/MRBox.h" line="106" column="7" bodyfile="MRMesh/MRBox.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a2cfcb26887cd979172fd1831229c8144" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="109" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="109" bodyend="109"/>
+        <location file="MRMesh/MRBox.h" line="109" column="7" bodyfile="MRMesh/MRBox.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1aaf8c494ec86f9a6ef904299b78f1cc23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
@@ -359,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="112" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="112" bodyend="119"/>
+        <location file="MRMesh/MRBox.h" line="112" column="7" bodyfile="MRMesh/MRBox.h" bodystart="112" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a14ec2de1def8e99ce267fe830e9caa51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -378,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="122" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="122" bodyend="129"/>
+        <location file="MRMesh/MRBox.h" line="122" column="10" bodyfile="MRMesh/MRBox.h" bodystart="122" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a2d9fecc0393e456242b1409f8a6a79f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -397,7 +397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="132" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="132" bodyend="139"/>
+        <location file="MRMesh/MRBox.h" line="132" column="10" bodyfile="MRMesh/MRBox.h" bodystart="132" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1ada11cc33b5ba6f38f12211e1ae500598" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -416,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="142" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="142" bodyend="148"/>
+        <location file="MRMesh/MRBox.h" line="142" column="10" bodyfile="MRMesh/MRBox.h" bodystart="142" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1ad7f75d672fee1cd837085bd09be3c66e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -435,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="151" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="151" bodyend="157"/>
+        <location file="MRMesh/MRBox.h" line="151" column="10" bodyfile="MRMesh/MRBox.h" bodystart="151" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a1af67d1761b8fd15fa204b39d5f9bd46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -454,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="160" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="160" bodyend="167"/>
+        <location file="MRMesh/MRBox.h" line="160" column="7" bodyfile="MRMesh/MRBox.h" bodystart="160" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1aacbc2c9aca82714d27d007c9cc6aa696" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -473,7 +473,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="170" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="170" bodyend="178"/>
+        <location file="MRMesh/MRBox.h" line="170" column="10" bodyfile="MRMesh/MRBox.h" bodystart="170" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1acd003ee915daffe1dccdfe6bec573abc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref></type>
@@ -492,7 +492,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="181" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="181" bodyend="190"/>
+        <location file="MRMesh/MRBox.h" line="181" column="9" bodyfile="MRMesh/MRBox.h" bodystart="181" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1adcbce4d705b1bf09dd04c5023fe58ec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
@@ -510,7 +510,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="191" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="191" bodyend="191"/>
+        <location file="MRMesh/MRBox.h" line="191" column="10" bodyfile="MRMesh/MRBox.h" bodystart="191" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a25efa79c9a3710f2c59fac06fb39ad12" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
@@ -529,7 +529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="195" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="195" bodyend="203"/>
+        <location file="MRMesh/MRBox.h" line="195" column="7" bodyfile="MRMesh/MRBox.h" bodystart="195" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a6fa5434776a3bb7b53014edc67295ec8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="207" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="207" bodyend="220"/>
+        <location file="MRMesh/MRBox.h" line="207" column="7" bodyfile="MRMesh/MRBox.h" bodystart="207" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a36a72e5786051efa6c3fa7512b00c6c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -567,7 +567,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="224" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="224" bodyend="250"/>
+        <location file="MRMesh/MRBox.h" line="224" column="7" bodyfile="MRMesh/MRBox.h" bodystart="224" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a3f06adfa8006bd6000537a4d96e4f66e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref></type>
@@ -586,7 +586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="253" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="253" bodyend="257"/>
+        <location file="MRMesh/MRBox.h" line="253" column="9" bodyfile="MRMesh/MRBox.h" bodystart="253" bodyend="257"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a5221795da9f2f569a0ac9fd9a1a5cba4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref></type>
@@ -601,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="260" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="260" bodyend="270"/>
+        <location file="MRMesh/MRBox.h" line="260" column="9" bodyfile="MRMesh/MRBox.h" bodystart="260" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1af93a3ccd5c9d9d678844e2578807089f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -619,7 +619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="272" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="272" bodyend="273"/>
+        <location file="MRMesh/MRBox.h" line="272" column="10" bodyfile="MRMesh/MRBox.h" bodystart="272" bodyend="273"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1ac8eb14ff1a01b09de851695a4a0007d4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -637,7 +637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="274" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="274" bodyend="275"/>
+        <location file="MRMesh/MRBox.h" line="274" column="10" bodyfile="MRMesh/MRBox.h" bodystart="274" bodyend="275"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -661,7 +661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="63" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="63" bodyend="63"/>
+        <location file="MRMesh/MRBox.h" line="63" column="16" bodyfile="MRMesh/MRBox.h" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1aa47072e05e75f449f745364a9bcd91ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" kindref="member">Vb</ref></type>
@@ -680,7 +680,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="90" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="90" bodyend="96"/>
+        <location file="MRMesh/MRBox.h" line="90" column="15" bodyfile="MRMesh/MRBox.h" bodystart="90" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Box_1a5700cf25abb8325b86fda919b3022e65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" kindref="member">Vb</ref></type>
@@ -699,7 +699,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="100" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="100" bodyend="103"/>
+        <location file="MRMesh/MRBox.h" line="100" column="15" bodyfile="MRMesh/MRBox.h" bodystart="100" bodyend="103"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -723,7 +723,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="277" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="277" bodyend="280"/>
+        <location file="MRMesh/MRBox.h" line="277" column="12" bodyfile="MRMesh/MRBox.h" bodystart="277" bodyend="280"/>
       </memberdef>
       <memberdef kind="friend" id="structMR_1_1Box_1ad11edd7dcd9aece9bebc0a2c388015b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::istream &amp;</type>
@@ -745,7 +745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="282" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="282" bodyend="285"/>
+        <location file="MRMesh/MRBox.h" line="282" column="25" bodyfile="MRMesh/MRBox.h" bodystart="282" bodyend="285"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -753,7 +753,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="27" bodyend="286"/>
+    <location file="MRMesh/MRBox.h" line="26" column="1" bodyfile="MRMesh/MRBox.h" bodystart="27" bodyend="286"/>
     <listofallmembers>
       <member refid="structMR_1_1Box_1ab72759c3d199697fa09474bba5c5284c" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Box</name></member>
       <member refid="structMR_1_1Box_1a0b1e0b6b95e8b735eda8de2bb06fd987" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Box</name></member>

@@ -1,7 +1,5 @@
 var MRParabola_8h =
 [
-    [ "MR_Parabolad", "MRParabola_8h.html#a1b4d94d76f0d8747aa0c55910db4c1b3", null ],
-    [ "MR_Parabolaf", "MRParabola_8h.html#a57ed3f5d1e62d017b705f6f90fa63450", null ],
     [ "MR_Parabolad_AssignFromAnother", "MRParabola_8h.html#a2a018686e11cd07d562b6e8cffbdfbb1", null ],
     [ "MR_Parabolad_call", "MRParabola_8h.html#afe755483b5cee139d5d1a51e11ff1ecf", null ],
     [ "MR_Parabolad_Construct", "MRParabola_8h.html#aabd17353382c90c72182ea704f49835d", null ],

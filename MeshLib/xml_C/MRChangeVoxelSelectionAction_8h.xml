@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeVoxelSelectionAction_8h" kind="file" language="C++">
     <compoundname>MRChangeVoxelSelectionAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="2">
@@ -14,10 +14,24 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="1">
         <label>MRChangeVoxelSelectionAction.h</label>
@@ -28,102 +42,31 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
-      <node id="4">
-        <label>MRCMisc/exports.h</label>
-      </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
       </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRChangeVoxelSelectionAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
-        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
-        <argsstring></argsstring>
-        <name>MR_HistoryAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="13" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeVoxelSelectionAction_8h_1a94b5f700f4835481dce132716ff73b05" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref></type>
-        <definition>typedef struct MR_VoxelBitSet MR_VoxelBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VoxelBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="14" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeVoxelSelectionAction_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" prot="public" static="no">
-        <type>struct <ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_ObjectVoxels MR_std_shared_ptr_MR_ObjectVoxels</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_ObjectVoxels</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="15" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeVoxelSelectionAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" prot="public" static="no">
-        <type>struct <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref></type>
-        <definition>typedef struct MR_ChangVoxelSelectionAction MR_ChangVoxelSelectionAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangVoxelSelectionAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Undo action for ObjectVoxels face selection Generated from class <computeroutput>MR::ChangVoxelSelectionAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="25" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1ade372943131b7538c3b78c52b1276c09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
         <definition>MRC_API MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_ChangVoxelSelectionAction *_other)</argsstring>
         <name>MR_ChangVoxelSelectionAction_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -133,15 +76,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="30" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="30" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="30" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="30" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1ae14c40e75eaca0f9800a74f4b83f8271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
         <definition>MRC_API const MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_OffsetPtr</definition>
         <argsstring>(const MR_ChangVoxelSelectionAction *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChangVoxelSelectionAction_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -155,15 +98,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="34" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="34" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="34" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="34" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1af04dcf2ee3432d88743642959a0dd3b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
         <definition>MRC_API MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_OffsetMutablePtr</definition>
         <argsstring>(MR_ChangVoxelSelectionAction *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChangVoxelSelectionAction_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -177,15 +120,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="38" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="38" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="38" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="38" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a6eae9cd566821ada0a4f3b102b77d6eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API const MR_HistoryAction * MR_ChangVoxelSelectionAction_UpcastTo_MR_HistoryAction</definition>
         <argsstring>(const MR_ChangVoxelSelectionAction *object)</argsstring>
         <name>MR_ChangVoxelSelectionAction_UpcastTo_MR_HistoryAction</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>object</declname>
         </param>
         <briefdescription>
@@ -195,15 +138,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="43" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="43" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="43" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="43" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1ac41adb11cb137762d966370e4d2d745a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API MR_HistoryAction * MR_ChangVoxelSelectionAction_MutableUpcastTo_MR_HistoryAction</definition>
         <argsstring>(MR_ChangVoxelSelectionAction *object)</argsstring>
         <name>MR_ChangVoxelSelectionAction_MutableUpcastTo_MR_HistoryAction</name>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>object</declname>
         </param>
         <briefdescription>
@@ -213,10 +156,118 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="47" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="47" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="47" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="47" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1ac517f71d7e542aeb04851802973085df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <definition>MRC_API const MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_StaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangVoxelSelectionAction_StaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangVoxelSelectionAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="53" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="53" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a2a3b4624ad5d1b2d545fa1ef6dcb54e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <definition>MRC_API MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_MutableStaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangVoxelSelectionAction_MutableStaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangVoxelSelectionAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="58" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="58" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a89c73102b8847a9363cc8e0f3d3304c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <definition>MRC_API const MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_DynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangVoxelSelectionAction_DynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangVoxelSelectionAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="64" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="64" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a06a6ee3bd75113d2faa63a51085ffad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <definition>MRC_API MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_MutableDynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangVoxelSelectionAction_MutableDynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangVoxelSelectionAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="69" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="69" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a86cc8ef8851c2e03b905a1fe8a85d90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <definition>MRC_API const MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_DynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangVoxelSelectionAction_DynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangVoxelSelectionAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="77" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="77" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a9a092e62d5a399f41bbe913dfa9084bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <definition>MRC_API MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangVoxelSelectionAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangVoxelSelectionAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="84" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="84" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a3687138e880e2d986efbb61efac7b39d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
         <definition>MRC_API MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_Construct</definition>
         <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectVoxels *objVoxels)</argsstring>
         <name>MR_ChangVoxelSelectionAction_Construct</name>
@@ -239,95 +290,95 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="57" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="57" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="94" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="94" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a2bd64b90b39096768337d6d6f9173226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangVoxelSelectionAction_Destroy</definition>
         <argsstring>(const MR_ChangVoxelSelectionAction *_this)</argsstring>
         <name>MR_ChangVoxelSelectionAction_Destroy</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangVoxelSelectionAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="60" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="97" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a3a71bccf4b26045d8b0865eeb13a0c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangVoxelSelectionAction_DestroyArray</definition>
         <argsstring>(const MR_ChangVoxelSelectionAction *_this)</argsstring>
         <name>MR_ChangVoxelSelectionAction_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangVoxelSelectionAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="63" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="100" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="100" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1aa89a1b3942ddc10a173ef48354a577cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
         <definition>MRC_API MR_ChangVoxelSelectionAction * MR_ChangVoxelSelectionAction_AssignFromAnother</definition>
         <argsstring>(MR_ChangVoxelSelectionAction *_this, MR_PassBy _other_pass_by, MR_ChangVoxelSelectionAction *_other)</argsstring>
         <name>MR_ChangVoxelSelectionAction_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChangVoxelSelectionAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ChangVoxelSelectionAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="70" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="70" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="107" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="107" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a7961a395aaa64831b636f17eb51bbd56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API MR_std_string * MR_ChangVoxelSelectionAction_name</definition>
         <argsstring>(const MR_ChangVoxelSelectionAction *_this)</argsstring>
         <name>MR_ChangVoxelSelectionAction_name</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChangVoxelSelectionAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::ChangVoxelSelectionAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string_8h_1a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" kindref="member">MR_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="75" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="75" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="112" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="112" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1afa59fd467f0a0784d18891b8ae81d02c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangVoxelSelectionAction_action</definition>
         <argsstring>(MR_ChangVoxelSelectionAction *_this, MR_HistoryAction_Type _1)</argsstring>
         <name>MR_ChangVoxelSelectionAction_action</name>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -341,15 +392,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="79" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="116" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a4d9af27c7302eed4c2482d5c152634f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref> *</type>
         <definition>MRC_API const MR_VoxelBitSet * MR_ChangVoxelSelectionAction_selection</definition>
         <argsstring>(const MR_ChangVoxelSelectionAction *_this)</argsstring>
         <name>MR_ChangVoxelSelectionAction_selection</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -359,10 +410,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="84" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="84" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="121" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="121" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a5da4ac7f69e1984335b9b61d3c36de3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangVoxelSelectionAction_setObjectDirty</definition>
         <argsstring>(const MR_std_shared_ptr_MR_ObjectVoxels *_1)</argsstring>
         <name>MR_ChangVoxelSelectionAction_setObjectDirty</name>
@@ -377,15 +428,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="89" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="126" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="126" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelSelectionAction_8h_1a00d3d22fcbd7e20a66fe7f71b895ad3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_ChangVoxelSelectionAction_heapBytes</definition>
         <argsstring>(const MR_ChangVoxelSelectionAction *_this)</argsstring>
         <name>MR_ChangVoxelSelectionAction_heapBytes</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -395,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" line="93" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="93" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" line="130" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h" declline="130" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -406,8 +457,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRHistoryAction_8h" kindref="compound">MRCMesh/MRHistoryAction.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -415,46 +466,58 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRChangeVoxelSelectionAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRChangeVoxelSelectionAction_8h_1a94b5f700f4835481dce132716ff73b05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRChangeVoxelSelectionAction_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectVoxels.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRChangeVoxelSelectionAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectVoxels.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRChangeVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRChangeVoxelSelectionAction_8h_1ade372943131b7538c3b78c52b1276c09" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1ade372943131b7538c3b78c52b1276c09" kindref="member">MR_ChangVoxelSelectionAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="30" refid="MRChangeVoxelSelectionAction_8h_1ade372943131b7538c3b78c52b1276c09" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1ade372943131b7538c3b78c52b1276c09" kindref="member">MR_ChangVoxelSelectionAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRChangeVoxelSelectionAction_8h_1ae14c40e75eaca0f9800a74f4b83f8271" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1ae14c40e75eaca0f9800a74f4b83f8271" kindref="member">MR_ChangVoxelSelectionAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="34" refid="MRChangeVoxelSelectionAction_8h_1ae14c40e75eaca0f9800a74f4b83f8271" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1ae14c40e75eaca0f9800a74f4b83f8271" kindref="member">MR_ChangVoxelSelectionAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRChangeVoxelSelectionAction_8h_1af04dcf2ee3432d88743642959a0dd3b8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1af04dcf2ee3432d88743642959a0dd3b8" kindref="member">MR_ChangVoxelSelectionAction_OffsetMutablePtr</ref>(<ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="38" refid="MRChangeVoxelSelectionAction_8h_1af04dcf2ee3432d88743642959a0dd3b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1af04dcf2ee3432d88743642959a0dd3b8" kindref="member">MR_ChangVoxelSelectionAction_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRChangeVoxelSelectionAction_8h_1a6eae9cd566821ada0a4f3b102b77d6eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a6eae9cd566821ada0a4f3b102b77d6eb" kindref="member">MR_ChangVoxelSelectionAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43" refid="MRChangeVoxelSelectionAction_8h_1a6eae9cd566821ada0a4f3b102b77d6eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a6eae9cd566821ada0a4f3b102b77d6eb" kindref="member">MR_ChangVoxelSelectionAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRChangeVoxelSelectionAction_8h_1ac41adb11cb137762d966370e4d2d745a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1ac41adb11cb137762d966370e4d2d745a" kindref="member">MR_ChangVoxelSelectionAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47" refid="MRChangeVoxelSelectionAction_8h_1ac41adb11cb137762d966370e4d2d745a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1ac41adb11cb137762d966370e4d2d745a" kindref="member">MR_ChangVoxelSelectionAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRChangeVoxelSelectionAction_8h_1a3687138e880e2d986efbb61efac7b39d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a3687138e880e2d986efbb61efac7b39d" kindref="member">MR_ChangVoxelSelectionAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*objVoxels);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRChangeVoxelSelectionAction_8h_1a2bd64b90b39096768337d6d6f9173226" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1a2bd64b90b39096768337d6d6f9173226" kindref="member">MR_ChangVoxelSelectionAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRChangeVoxelSelectionAction_8h_1a3a71bccf4b26045d8b0865eeb13a0c64" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1a3a71bccf4b26045d8b0865eeb13a0c64" kindref="member">MR_ChangVoxelSelectionAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRChangeVoxelSelectionAction_8h_1aa89a1b3942ddc10a173ef48354a577cf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1aa89a1b3942ddc10a173ef48354a577cf" kindref="member">MR_ChangVoxelSelectionAction_AssignFromAnother</ref>(<ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRChangeVoxelSelectionAction_8h_1a7961a395aaa64831b636f17eb51bbd56" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a7961a395aaa64831b636f17eb51bbd56" kindref="member">MR_ChangVoxelSelectionAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRChangeVoxelSelectionAction_8h_1afa59fd467f0a0784d18891b8ae81d02c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1afa59fd467f0a0784d18891b8ae81d02c" kindref="member">MR_ChangVoxelSelectionAction_action</ref>(<ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRChangeVoxelSelectionAction_8h_1a4d9af27c7302eed4c2482d5c152634f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a4d9af27c7302eed4c2482d5c152634f1" kindref="member">MR_ChangVoxelSelectionAction_selection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53" refid="MRChangeVoxelSelectionAction_8h_1ac517f71d7e542aeb04851802973085df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1ac517f71d7e542aeb04851802973085df" kindref="member">MR_ChangVoxelSelectionAction_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRChangeVoxelSelectionAction_8h_1a2a3b4624ad5d1b2d545fa1ef6dcb54e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a2a3b4624ad5d1b2d545fa1ef6dcb54e9" kindref="member">MR_ChangVoxelSelectionAction_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRChangeVoxelSelectionAction_8h_1a89c73102b8847a9363cc8e0f3d3304c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a89c73102b8847a9363cc8e0f3d3304c9" kindref="member">MR_ChangVoxelSelectionAction_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRChangeVoxelSelectionAction_8h_1a06a6ee3bd75113d2faa63a51085ffad7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a06a6ee3bd75113d2faa63a51085ffad7" kindref="member">MR_ChangVoxelSelectionAction_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRChangeVoxelSelectionAction_8h_1a86cc8ef8851c2e03b905a1fe8a85d90f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a86cc8ef8851c2e03b905a1fe8a85d90f" kindref="member">MR_ChangVoxelSelectionAction_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRChangeVoxelSelectionAction_8h_1a9a092e62d5a399f41bbe913dfa9084bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a9a092e62d5a399f41bbe913dfa9084bb" kindref="member">MR_ChangVoxelSelectionAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRChangeVoxelSelectionAction_8h_1a5da4ac7f69e1984335b9b61d3c36de3e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1a5da4ac7f69e1984335b9b61d3c36de3e" kindref="member">MR_ChangVoxelSelectionAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*_1);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRChangeVoxelSelectionAction_8h_1a00d3d22fcbd7e20a66fe7f71b895ad3f" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeVoxelSelectionAction_8h_1a00d3d22fcbd7e20a66fe7f71b895ad3f" kindref="member">MR_ChangVoxelSelectionAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="94" refid="MRChangeVoxelSelectionAction_8h_1a3687138e880e2d986efbb61efac7b39d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a3687138e880e2d986efbb61efac7b39d" kindref="member">MR_ChangVoxelSelectionAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*objVoxels);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRChangeVoxelSelectionAction_8h_1a2bd64b90b39096768337d6d6f9173226" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1a2bd64b90b39096768337d6d6f9173226" kindref="member">MR_ChangVoxelSelectionAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRChangeVoxelSelectionAction_8h_1a3a71bccf4b26045d8b0865eeb13a0c64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1a3a71bccf4b26045d8b0865eeb13a0c64" kindref="member">MR_ChangVoxelSelectionAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRChangeVoxelSelectionAction_8h_1aa89a1b3942ddc10a173ef48354a577cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1aa89a1b3942ddc10a173ef48354a577cf" kindref="member">MR_ChangVoxelSelectionAction_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRChangeVoxelSelectionAction_8h_1a7961a395aaa64831b636f17eb51bbd56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a7961a395aaa64831b636f17eb51bbd56" kindref="member">MR_ChangVoxelSelectionAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRChangeVoxelSelectionAction_8h_1afa59fd467f0a0784d18891b8ae81d02c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1afa59fd467f0a0784d18891b8ae81d02c" kindref="member">MR_ChangVoxelSelectionAction_action</ref>(<ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRChangeVoxelSelectionAction_8h_1a4d9af27c7302eed4c2482d5c152634f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*<ref refid="MRChangeVoxelSelectionAction_8h_1a4d9af27c7302eed4c2482d5c152634f1" kindref="member">MR_ChangVoxelSelectionAction_selection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRChangeVoxelSelectionAction_8h_1a5da4ac7f69e1984335b9b61d3c36de3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1a5da4ac7f69e1984335b9b61d3c36de3e" kindref="member">MR_ChangVoxelSelectionAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRChangeVoxelSelectionAction_8h_1a00d3d22fcbd7e20a66fe7f71b895ad3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeVoxelSelectionAction_8h_1a00d3d22fcbd7e20a66fe7f71b895ad3f" kindref="member">MR_ChangVoxelSelectionAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRChangeVoxelSelectionAction.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelSelectionAction.h"/>
   </compounddef>
 </doxygen>

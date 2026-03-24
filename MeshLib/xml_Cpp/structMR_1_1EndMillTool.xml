@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1EndMillTool" kind="struct" language="C++" prot="public">
     <compoundname>MR::EndMillTool</compoundname>
-    <includes refid="MREndMill_8h" local="no">MREndMill.h</includes>
+    <includes refid="MREndMill_8h" local="no">MRMesh/MREndMill.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa183c2d5c3810c0fe6fe877b2486af67" kind="variable"><name>length</name></member>
       <member refid="group__GeneralGroup_1gad8f4a7587862e0863fa16e3bc9763cda" kind="variable"><name>diameter</name></member>
       <member refid="group__GeneralGroup_1ga174ff046b31f92f01628878141891300" kind="variable"><name>cutter</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga9b1c90969e9b1cf84df0eb2300a50457" kind="function"><name>getMinimalCutLength</name></member>
-      <member refid="group__GeneralGroup_1ga24e1133fc3ec61ea4a44d2c3edf8914b" kind="function"><name>toMesh</name></member>
+      <member refid="group__GeneralGroup_1ga7a843fd939d29c66c557a1646f25624d" kind="function"><name>getMinimalCutLength</name></member>
+      <member refid="group__GeneralGroup_1gafd82dda173138e4ccc395e22d4a9c2c0" kind="function"><name>toMesh</name></member>
     </sectiondef>
     <briefdescription>
 <para>end mill tool specifications </para>
@@ -30,13 +30,13 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="42" bodyend="55"/>
+    <location file="MRMesh/MREndMill.h" line="41" column="1" bodyfile="MRMesh/MREndMill.h" bodystart="42" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga174ff046b31f92f01628878141891300" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>cutter</name></member>
       <member refid="group__GeneralGroup_1gad8f4a7587862e0863fa16e3bc9763cda" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>diameter</name></member>
-      <member refid="group__GeneralGroup_1ga9b1c90969e9b1cf84df0eb2300a50457" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>getMinimalCutLength</name></member>
+      <member refid="group__GeneralGroup_1ga7a843fd939d29c66c557a1646f25624d" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>getMinimalCutLength</name></member>
       <member refid="group__GeneralGroup_1gaa183c2d5c3810c0fe6fe877b2486af67" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>length</name></member>
-      <member refid="group__GeneralGroup_1ga24e1133fc3ec61ea4a44d2c3edf8914b" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>toMesh</name></member>
+      <member refid="group__GeneralGroup_1gafd82dda173138e4ccc395e22d4a9c2c0" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>toMesh</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

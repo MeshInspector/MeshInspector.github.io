@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFrameRedrawRequest_8h" kind="file" language="C++">
     <compoundname>MRFrameRedrawRequest.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -26,7 +26,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFrameRedrawRequest.h</label>
+        <label>MRViewer/MRFrameRedrawRequest.h</label>
         <link refid="MRFrameRedrawRequest_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -73,11 +73,11 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="classMR_1_1FrameRedrawRequest" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1FrameRedrawRequest" kindref="compound">FrameRedrawRequest</ref></highlight></codeline>
+<codeline lineno="12" refid="classMR_1_1FrameRedrawRequest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1FrameRedrawRequest" kindref="compound">FrameRedrawRequest</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="15" refid="group__GeneralGroup_1ga232fbb1566c535b2b9267303a1a7d25c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga232fbb1566c535b2b9267303a1a7d25c" kindref="member">reset</ref>();</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga27be825efa89c1f49d55d88cee285d38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga27be825efa89c1f49d55d88cee285d38" kindref="member">requestFrame</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>millisecondsInterval<sp/>=<sp/>100<sp/>);</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1ga6250977a401d570cacd7052be7bad666" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6250977a401d570cacd7052be7bad666" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gad6f9a88dc104473096b5286166eef0dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad6f9a88dc104473096b5286166eef0dd" kindref="member">requestFrame</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>millisecondsInterval<sp/>=<sp/>100<sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__EMSCRIPTEN__</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>std::atomic&lt;bool&gt;<sp/>frameRequested_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
@@ -88,6 +88,6 @@
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h"/>
+    <location file="MRViewer/MRFrameRedrawRequest.h"/>
   </compounddef>
 </doxygen>

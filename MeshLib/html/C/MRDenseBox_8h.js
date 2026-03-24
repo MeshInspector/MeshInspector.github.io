@@ -1,13 +1,6 @@
 var MRDenseBox_8h =
 [
-    [ "MR_AffineXf3f", "MRDenseBox_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_Box3f", "MRDenseBox_8h.html#a387c2b6c194640a4dfac77733cbe3880", null ],
     [ "MR_DenseBox", "MRDenseBox_8h.html#ae7778a16236736a19339c616bdf70a01", null ],
-    [ "MR_MeshPart", "MRDenseBox_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_PointCloud", "MRDenseBox_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_Polyline3", "MRDenseBox_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
-    [ "MR_std_vector_float", "MRDenseBox_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRDenseBox_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
     [ "MR_Vector3b", "MRDenseBox_8h.html#ad7deee09a7a88ab8ac0869e945083455", null ],
     [ "MR_DenseBox_AssignFromAnother", "MRDenseBox_8h.html#ac9d33fd8fb7910cbaef717b9f2122317", null ],
     [ "MR_DenseBox_basisXf", "MRDenseBox_8h.html#a29c942b7c818516423f002176860eb01", null ],

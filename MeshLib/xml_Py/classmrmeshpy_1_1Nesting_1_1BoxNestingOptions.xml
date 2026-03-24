@@ -1,0 +1,796 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Nesting::BoxNestingOptions</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1af7a7fe1190237d83e6dc6eb1e7b226c0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_additinalSocketCorners</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_additinalSocketCorners</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_additinalSocketCorners</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1af0bf9dfbf1dfdf4c9ebd240af48514ed" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_allow3dNesting</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_allow3dNesting</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_allow3dNesting</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a218f829096ad8c2a3421422033a6d23b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_allowRotation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_allowRotation</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_allowRotation</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a930a42727de63bc43444695cb2b53644" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_cb</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a5018b881f54ffb0faec21edd79369037" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_checkLessCombinations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_checkLessCombinations</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_checkLessCombinations</qualifiedname>
+        <initializer>=  3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a3c5c55b57c25f4df878e586226a5b0b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_expansionFactor</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_expansionFactor</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_expansionFactor</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a6e7e154b9010715091ef7840d2e81d9e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_iterationLimit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_iterationLimit</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_iterationLimit</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a5cd567c9fff15e3f59b9a8b8fae74f17" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_preNestedVolumes</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_preNestedVolumes</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_preNestedVolumes</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a2671bea37078528c580b2db84156952b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_priorityMetric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_priorityMetric</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_priorityMetric</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1ac58869a51ef25a3095985c01e84d8b77" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.BoxNestingOptions::_offsetof_volumeBasedOrder</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_volumeBasedOrder</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions._offsetof_volumeBasedOrder</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37163" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a8848e2bf84db2ca717978dfe7f144302" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37166" bodyend="37167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1adf41ce1a832fa1a38ee545b098d39597" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions" kindref="compound">Nesting.BoxNestingOptions</ref></type>
+        <definition> Nesting.BoxNestingOptions mrmeshpy.Nesting.BoxNestingOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37170" bodyend="37171"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1adf41ce1a832fa1a38ee545b098d39597" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions" kindref="compound">Nesting.BoxNestingOptions</ref></type>
+        <definition> Nesting.BoxNestingOptions mrmeshpy.Nesting.BoxNestingOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37174" bodyend="37175"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a1af470bb121b63d26eda8bc3086ee1b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37177" bodyend="37178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1aa896fcbc5486e679c9fca1ef572cb5ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.__init__</definition>
+        <argsstring>(self, Nesting.BoxNestingOptions arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions" kindref="compound">Nesting.BoxNestingOptions</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37180" bodyend="37183"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a2f0329d7fcffcbbdb2b75eaeef9dad69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.__init__</definition>
+        <argsstring>(self, bool allow3dNesting, bool allowRotation, bool volumeBasedOrder, bool checkLessCombinations, int iterationLimit, Nesting.IBoxNestingPriority priorityMetric, Vector3f expansionFactor, std_vector_Box_Vector3_float preNestedVolumes, std_vector_Nesting_BoxNestingCorner additinalSocketCorners, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allow3dNesting</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allowRotation</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>volumeBasedOrder</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>checkLessCombinations</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterationLimit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority" kindref="compound">Nesting.IBoxNestingPriority</ref></type>
+          <declname>priorityMetric</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>expansionFactor</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Box__Vector3__float" kindref="compound">std_vector_Box_Vector3_float</ref></type>
+          <declname>preNestedVolumes</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner" kindref="compound">std_vector_Nesting_BoxNestingCorner</ref></type>
+          <declname>additinalSocketCorners</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37185" bodyend="37188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a18fc7b69e738f223f9d353dc9d22ad4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner" kindref="compound">std_vector_Nesting_BoxNestingCorner</ref></type>
+        <definition> std_vector_Nesting_BoxNestingCorner mrmeshpy.Nesting.BoxNestingOptions.additinalSocketCorners</definition>
+        <argsstring>(self)</argsstring>
+        <name>additinalSocketCorners</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.additinalSocketCorners</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>user might force these sockets to be considered as corners for placing candidates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37190" bodyend="37193"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a885c48c0ed25831ccda6e4d83d6c1902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.additinalSocketCorners</definition>
+        <argsstring>(self, std_vector_Nesting_BoxNestingCorner arg1)</argsstring>
+        <name>additinalSocketCorners</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.additinalSocketCorners</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner" kindref="compound">std_vector_Nesting_BoxNestingCorner</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37195" bodyend="37196"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1ab0cbafe6c4adb79d45c13222682de91b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Nesting.BoxNestingOptions.allow3dNesting</definition>
+        <argsstring>(self)</argsstring>
+        <name>allow3dNesting</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.allow3dNesting</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true allows placing objects over the bottom plane
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37198" bodyend="37201"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a55652080e2a672c48b162872504fba59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.allow3dNesting</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>allow3dNesting</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.allow3dNesting</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37203" bodyend="37204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a3a9f986c65535d00ef28323aeb766b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Nesting.BoxNestingOptions.allowRotation</definition>
+        <argsstring>(self)</argsstring>
+        <name>allowRotation</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.allowRotation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set false to keep original XY orientation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37206" bodyend="37209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a5da387645c2d880c8845abd257bfed1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.allowRotation</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>allowRotation</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.allowRotation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37211" bodyend="37212"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a88218a33cbbfeb236b9d874cbb639101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.Nesting.BoxNestingOptions.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback indicating progress of the nesting
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37214" bodyend="37217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a2849617f5d3284233e93cbfc7d190611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37219" bodyend="37220"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1ae5ce7fb3a374f088654a2a25ef507f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Nesting.BoxNestingOptions.checkLessCombinations</definition>
+        <argsstring>(self)</argsstring>
+        <name>checkLessCombinations</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.checkLessCombinations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reduces nesting candidate options for speedup
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37222" bodyend="37225"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1aee39663443f58d42c77bfe828aeb6090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.checkLessCombinations</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>checkLessCombinations</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.checkLessCombinations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37227" bodyend="37228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1aab32724a32e94e16bcddde7d85b4e2a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Nesting.BoxNestingOptions.expansionFactor</definition>
+        <argsstring>(self)</argsstring>
+        <name>expansionFactor</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.expansionFactor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional input expansion of boxes (useful to compensate shrinkage of material)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37230" bodyend="37233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1ac7659016e999ca4e028a80fb0207443e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.expansionFactor</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>expansionFactor</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.expansionFactor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37235" bodyend="37236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1afe1ecda453d1d6aecf03d9a5e7607054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Nesting.BoxNestingOptions.iterationLimit</definition>
+        <argsstring>(self)</argsstring>
+        <name>iterationLimit</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.iterationLimit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>limit maximum number of tries, not to freeze for too long in this function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37238" bodyend="37241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a9f69a70b70f518cc8eddceb83d2f435c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.iterationLimit</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>iterationLimit</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.iterationLimit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37243" bodyend="37244"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a369e7d28449a21af38003b5bceb0ad3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Box__Vector3__float" kindref="compound">std_vector_Box_Vector3_float</ref></type>
+        <definition> std_vector_Box_Vector3_float mrmeshpy.Nesting.BoxNestingOptions.preNestedVolumes</definition>
+        <argsstring>(self)</argsstring>
+        <name>preNestedVolumes</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.preNestedVolumes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not-nullptr contains boxes that are fixed in the nest and should not be intersected by floating (input) meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37246" bodyend="37249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1af28968c30145d5092f5598b99830b074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.preNestedVolumes</definition>
+        <argsstring>(self, std_vector_Box_Vector3_float arg1)</argsstring>
+        <name>preNestedVolumes</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.preNestedVolumes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Box__Vector3__float" kindref="compound">std_vector_Box_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37251" bodyend="37252"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a55f25ef6f6834596070a5940b27e0320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority" kindref="compound">Nesting.IBoxNestingPriority</ref></type>
+        <definition> Nesting.IBoxNestingPriority mrmeshpy.Nesting.BoxNestingOptions.priorityMetric</definition>
+        <argsstring>(self)</argsstring>
+        <name>priorityMetric</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.priorityMetric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>metric to calculate priority for candidates placement
+if not set - default `getNestPostionMinPriorityMetric` is used
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37254" bodyend="37258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1abdd01d64d171dae9150f934ca822402f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.priorityMetric</definition>
+        <argsstring>(self, Nesting.IBoxNestingPriority arg1)</argsstring>
+        <name>priorityMetric</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.priorityMetric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority" kindref="compound">Nesting.IBoxNestingPriority</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37260" bodyend="37261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a3186f279a94e57296eca954de5d21d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Nesting.BoxNestingOptions.volumeBasedOrder</definition>
+        <argsstring>(self)</argsstring>
+        <name>volumeBasedOrder</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.volumeBasedOrder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true - nests objects in the order of decreasing volume, otherwise nest in the input order
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37263" bodyend="37266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1aa7c40fbe2be3f42aeb480a13c25b46af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.BoxNestingOptions.volumeBasedOrder</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>volumeBasedOrder</name>
+        <qualifiedname>mrmeshpy.Nesting.BoxNestingOptions.volumeBasedOrder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37268" bodyend="37270"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Nesting::BoxNestingOptions
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37150" bodyend="37269"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a8848e2bf84db2ca717978dfe7f144302" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a1af470bb121b63d26eda8bc3086ee1b4" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1aa896fcbc5486e679c9fca1ef572cb5ad" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a2f0329d7fcffcbbdb2b75eaeef9dad69" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1af7a7fe1190237d83e6dc6eb1e7b226c0" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_additinalSocketCorners</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1af0bf9dfbf1dfdf4c9ebd240af48514ed" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_allow3dNesting</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a218f829096ad8c2a3421422033a6d23b" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_allowRotation</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a930a42727de63bc43444695cb2b53644" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a5018b881f54ffb0faec21edd79369037" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_checkLessCombinations</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a3c5c55b57c25f4df878e586226a5b0b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_expansionFactor</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a6e7e154b9010715091ef7840d2e81d9e" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_iterationLimit</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a5cd567c9fff15e3f59b9a8b8fae74f17" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_preNestedVolumes</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a2671bea37078528c580b2db84156952b" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_priorityMetric</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1ac58869a51ef25a3095985c01e84d8b77" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>_offsetof_volumeBasedOrder</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a18fc7b69e738f223f9d353dc9d22ad4c" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>additinalSocketCorners</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a885c48c0ed25831ccda6e4d83d6c1902" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>additinalSocketCorners</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1ab0cbafe6c4adb79d45c13222682de91b" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>allow3dNesting</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a55652080e2a672c48b162872504fba59" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>allow3dNesting</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a3a9f986c65535d00ef28323aeb766b0e" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>allowRotation</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a5da387645c2d880c8845abd257bfed1f" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>allowRotation</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a88218a33cbbfeb236b9d874cbb639101" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a2849617f5d3284233e93cbfc7d190611" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1ae5ce7fb3a374f088654a2a25ef507f71" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>checkLessCombinations</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1aee39663443f58d42c77bfe828aeb6090" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>checkLessCombinations</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1aab32724a32e94e16bcddde7d85b4e2a3" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>expansionFactor</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1ac7659016e999ca4e028a80fb0207443e" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>expansionFactor</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1afe1ecda453d1d6aecf03d9a5e7607054" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>iterationLimit</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a9f69a70b70f518cc8eddceb83d2f435c" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>iterationLimit</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1adf41ce1a832fa1a38ee545b098d39597" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1adf41ce1a832fa1a38ee545b098d39597" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a369e7d28449a21af38003b5bceb0ad3e" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>preNestedVolumes</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1af28968c30145d5092f5598b99830b074" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>preNestedVolumes</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a55f25ef6f6834596070a5940b27e0320" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>priorityMetric</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1abdd01d64d171dae9150f934ca822402f" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>priorityMetric</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1a3186f279a94e57296eca954de5d21d36" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>volumeBasedOrder</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions_1aa7c40fbe2be3f42aeb480a13c25b46af" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::BoxNestingOptions</scope><name>volumeBasedOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTree" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTree</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTree</basecompoundref>
@@ -74,7 +74,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.AABBTree.AABBTree</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AABBTree_1a0fe9f89526ce3b9319309cd487d21536" kindref="member">MR.AABBTree.AABBTree</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,7 +93,7 @@
           <declname>mp</declname>
         </param>
         <briefdescription>
-<para>creates tree for given mesh or its part Generated from constructor <computeroutput>MR.AABBTree.AABBTree</computeroutput>. </para>
+<para>creates tree for given mesh or its part Generated from constructor <computeroutput><ref refid="classMR_1_1AABBTree_1a0fe9f89526ce3b9319309cd487d21536" kindref="member">MR.AABBTree.AABBTree</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -112,7 +112,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.AABBTree.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTree::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -172,7 +172,7 @@
           <declname>leafMap</declname>
         </param>
         <briefdescription>
-<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTree_1a831781f0173f17a059fe1f1c9d27c6e1" kindref="member">MR.AABBTree.getLeafOrderAndReset</ref></computeroutput>. </para>
+<para>fills map: LeafId -&amp;gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTree_1a831781f0173f17a059fe1f1c9d27c6e1" kindref="member">MR.AABBTree.getLeafOrderAndReset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -182,50 +182,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>bounding volume hierarchy Generated from class <computeroutput><ref refid="classMR_1_1AABBTree" kindref="compound">MR.AABBTree</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.AABBTreeBase&lt;MR.AABBTreeTraits&lt;MR.FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;</computeroutput> This is the non-const half of the class. </para>
+<para>bounding volume hierarchy Generated from class <computeroutput><ref refid="classMR_1_1AABBTree" kindref="compound">MR.AABBTree</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_AABBTree</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.AABBTree</label>
         <link refid="classMR_1_1AABBTree"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_AABBTree</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_AABBTree &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_AABBTree</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.AABBTree</label>
         <link refid="classMR_1_1AABBTree"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_AABBTree</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_AABBTree &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="197" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="198" bodyend="284"/>

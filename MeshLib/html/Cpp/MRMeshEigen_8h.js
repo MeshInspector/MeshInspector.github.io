@@ -1,8 +1,8 @@
 var MRMeshEigen_8h =
 [
-    [ "meshFromEigen", "MRMeshEigen_8h.html#ga542e18e6f7d00b4661a728248b89f2e3", null ],
-    [ "meshToEigen", "MRMeshEigen_8h.html#gab3cf8a8259f3c725b9f74817803c8ee5", null ],
-    [ "pointsFromEigen", "MRMeshEigen_8h.html#gab318ba4dd28be5fa3500d2d01ca4f92c", null ],
-    [ "topologyFromEigen", "MRMeshEigen_8h.html#gac52a3e7c7c62d91ce00317455b37f75d", null ],
-    [ "topologyToEigen", "MRMeshEigen_8h.html#gabf8a680de7d5fbe8bf99057015853153", null ]
+    [ "MR::meshFromEigen", "group__MeshEigenGroup.html#gac8c5bb3011d7c265fbfe5bfc5f03406b", null ],
+    [ "MR::meshToEigen", "group__MeshEigenGroup.html#ga24bf8eab6bf0c1eed0bb93ca8668237d", null ],
+    [ "MR::pointsFromEigen", "group__MeshEigenGroup.html#ga8ce10cacd00a0f5129c854078fc950d7", null ],
+    [ "MR::topologyFromEigen", "group__MeshEigenGroup.html#ga0267bb7a55efaf30da7c464d5610ee99", null ],
+    [ "MR::topologyToEigen", "group__MeshEigenGroup.html#gaedf452a3921d36f5597817800bd3b55d", null ]
 ];

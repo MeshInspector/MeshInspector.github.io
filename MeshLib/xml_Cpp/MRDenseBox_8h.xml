@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDenseBox_8h" kind="file" language="C++">
     <compoundname>MRDenseBox.h</compoundname>
     <includes refid="MRBox_8h" local="yes">MRBox.h</includes>
@@ -7,62 +7,62 @@
     <includes refid="MRBestFit_8h" local="yes">MRBestFit.h</includes>
     <includes refid="MRPointCloud_8h" local="yes">MRPointCloud.h</includes>
     <incdepgraph>
-      <node id="18">
+      <node id="26">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRAffineXf3.h</label>
-        <link refid="MRAffineXf3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
-        <label>MRBestFit.h</label>
-        <link refid="MRBestFit_8h"/>
         <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+      </node>
+      <node id="29">
+        <label>MRBestFit.h</label>
+        <link refid="MRBestFit_8h"/>
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="40">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -72,336 +72,371 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
         <label>MRCloudPartMapping.h</label>
         <link refid="MRCloudPartMapping_8h"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="20">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
       <node id="1">
-        <label>MRDenseBox.h</label>
+        <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="47">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="39">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>MRLine.h</label>
-        <link refid="MRLine_8h"/>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="33">
+        <label>MRLine.h</label>
+        <link refid="MRLine_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
         <label>MRLine3.h</label>
         <link refid="MRLine3_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="45">
         <label>MRLineSegm.h</label>
         <link refid="MRLineSegm_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="31">
         <label>MRPlane3.h</label>
         <link refid="MRPlane3_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MRPointCloud.h</label>
+        <link refid="MRPointCloud_8h"/>
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-      </node>
-      <node id="46">
-        <label>MRPointCloud.h</label>
-        <link refid="MRPointCloud_8h"/>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="49">
         <label>MRPointCloudPart.h</label>
         <link refid="MRPointCloudPart_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="34">
         <label>MRPolyline.h</label>
         <link refid="MRPolyline_8h"/>
-        <childnode refid="29" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="35">
         <label>MRPolylineTopology.h</label>
         <link refid="MRPolylineTopology_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="37">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="48">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="43">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
-        <label>MRSymMatrix3.h</label>
-        <link refid="MRSymMatrix3_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
       <node id="30">
+        <label>MRSymMatrix3.h</label>
+        <link refid="MRSymMatrix3_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="46">
         <label>MRVector2.h</label>
         <link refid="MRVector2_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="16">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="19">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
-      <node id="20">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="27">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="12">
+      <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="35">
+      <node id="41">
         <label>MRphmap.h</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>algorithm</label>
       </node>
-      <node id="45">
+      <node id="8">
         <label>array</label>
       </node>
-      <node id="21">
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>cmath</label>
       </node>
-      <node id="32">
+      <node id="38">
         <label>concepts</label>
       </node>
-      <node id="9">
+      <node id="18">
         <label>cstddef</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>cstring</label>
       </node>
-      <node id="36">
+      <node id="12">
         <label>functional</label>
       </node>
-      <node id="16">
+      <node id="24">
         <label>iosfwd</label>
       </node>
-      <node id="37">
+      <node id="42">
         <label>iterator</label>
       </node>
-      <node id="22">
+      <node id="28">
         <label>limits</label>
       </node>
-      <node id="39">
+      <node id="44">
         <label>memory</label>
       </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="10">
+        <label>string</label>
+      </node>
+      <node id="19">
         <label>type_traits</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1DenseBox" prot="public">MR::DenseBox</innerclass>
@@ -419,20 +454,20 @@
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"></codeline>
-<codeline lineno="17" refid="structMR_1_1DenseBox" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DenseBox" kindref="compound">DenseBox</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1DenseBox" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2eeee7c69c1cc455568a2ab69d3a179b" kindref="member">DenseBox</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga7c79113a97744efd6bcbc544553fe582" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga7c79113a97744efd6bcbc544553fe582" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1gad18654ddb91781bc8e4d1417ce19a08e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gad18654ddb91781bc8e4d1417ce19a08e" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;&amp;<sp/>weights,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1ga38590d0d422769798b0be5129be63d55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga38590d0d422769798b0be5129be63d55" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1gaee07541d158133fc4c85e7170de4d3e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaee07541d158133fc4c85e7170de4d3e7" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1gaac374ad90e2a96d261ba863c1d6f46e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaac374ad90e2a96d261ba863c1d6f46e2" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga2eeee7c69c1cc455568a2ab69d3a179b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga2eeee7c69c1cc455568a2ab69d3a179b" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga4585db9e756fe2049a698a2845f731d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga4585db9e756fe2049a698a2845f731d4" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;&amp;<sp/>weights,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga44dab18e1c0d6202ae231a1815202361" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga44dab18e1c0d6202ae231a1815202361" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga6daa35be773bc76c0b406d9503effe5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6daa35be773bc76c0b406d9503effe5f" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga100a05419714fd2f5addccffddaba1f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga100a05419714fd2f5addccffddaba1f2" kindref="member">DenseBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga7efc7b0a63b1e8c7737349454066d83f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga7efc7b0a63b1e8c7737349454066d83f" kindref="member">center</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gae15fa3079fbe1aae94cb52176e59e802" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gae15fa3079fbe1aae94cb52176e59e802" kindref="member">corner</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3b&amp;<sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1gad6e0ec24db49e4d651459703603a3e4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad6e0ec24db49e4d651459703603a3e4d" kindref="member">contains</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga1b7bb0bf641dd2361eb4b05a663560c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga1b7bb0bf641dd2361eb4b05a663560c9" kindref="member">center</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gaf59c75ab8e961b02d3bb5a6230b6f3ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gaf59c75ab8e961b02d3bb5a6230b6f3ce" kindref="member">corner</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga73b7851ec4d88f2c3f7e87db186279be" kindref="member">Vector3b</ref>&amp;<sp/>index<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga5d54da8e42492b766a660eef3f7d8489" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5d54da8e42492b766a660eef3f7d8489" kindref="member">contains</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>box_;<sp/>}</highlight></codeline>
 <codeline lineno="43" refid="group__GeneralGroup_1ga941ca605a35dc828fc9b0e7c5358c7e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/><ref refid="group__GeneralGroup_1ga941ca605a35dc828fc9b0e7c5358c7e9" kindref="member">basisXf</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>basisXf_;<sp/>}</highlight></codeline>
 <codeline lineno="45" refid="group__GeneralGroup_1ga1d968d6262ca4a19b4f5610ef49dfdee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/><ref refid="group__GeneralGroup_1ga1d968d6262ca4a19b4f5610ef49dfdee" kindref="member">basisXfInv</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>basisXfInv_;<sp/>}</highlight></codeline>
@@ -450,6 +485,6 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h"/>
+    <location file="MRMesh/MRDenseBox.h"/>
   </compounddef>
 </doxygen>

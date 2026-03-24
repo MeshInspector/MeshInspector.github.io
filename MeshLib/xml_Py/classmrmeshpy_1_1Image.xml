@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Image" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Image</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1MeshTexture" prot="public" virt="non-virtual">mrmeshpy.MeshTexture</derivedcompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23866" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23923" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Image_1acd3c42e80afdf5711ff1d833752ffbd5" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23867" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23924" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -42,9 +42,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Image.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1a8bea5b69f18f560ca0f9418b836ff7c9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1af09bbf48e1565b2890137a0a99d97169">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1a61aa58f7b97e9b346fb976261c25f0e6">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -59,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23872" bodyend="23873"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23929" bodyend="23930"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1a342b21930a321bfe8105f94d0fa1fc60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
@@ -83,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23876" bodyend="23877"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23933" bodyend="23934"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1a342b21930a321bfe8105f94d0fa1fc60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
@@ -107,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23880" bodyend="23881"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23937" bodyend="23938"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -133,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23883" bodyend="23886"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23940" bodyend="23943"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1af340d1edffec4ddd5f128ba4449f5644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
@@ -155,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23888" bodyend="23889"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23945" bodyend="23946"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1ad2cbb9ee00c4ab211103ac69e16267ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -163,9 +160,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Image.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1a8bea5b69f18f560ca0f9418b836ff7c9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1af09bbf48e1565b2890137a0a99d97169">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1a61aa58f7b97e9b346fb976261c25f0e6">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -176,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23891" bodyend="23892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23948" bodyend="23949"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1a16ca8f3c0f4b66912bc72069dcaa8112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -184,9 +178,6 @@
         <argsstring>(self, Image arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Image.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1a8bea5b69f18f560ca0f9418b836ff7c9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1af09bbf48e1565b2890137a0a99d97169">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1a61aa58f7b97e9b346fb976261c25f0e6">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -203,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23894" bodyend="23897"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23951" bodyend="23954"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1a64f531a6404ca944fb359ac24f460101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -211,9 +202,6 @@
         <argsstring>(self, std_vector_Color pixels, Vector2i resolution)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Image.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1a8bea5b69f18f560ca0f9418b836ff7c9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1af09bbf48e1565b2890137a0a99d97169">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshTexture_1a61aa58f7b97e9b346fb976261c25f0e6">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -234,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23899" bodyend="23902"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23956" bodyend="23959"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1ae6d528017ae10dd77f98676fe8aa6e3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -260,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23903" bodyend="23904"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23960" bodyend="23961"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1ab75cd8c9ca6fe2a5028c545ecbdf8091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -280,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23905" bodyend="23908"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23962" bodyend="23965"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1ada2f20aa593305ea9352392fa97c672f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
@@ -309,7 +297,7 @@ returns sampled color at it according to given filter
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23909" bodyend="23913"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23966" bodyend="23970"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1a76082958ade33da570341c2dc4fcff40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
@@ -334,7 +322,7 @@ returns bilinear interpolated color at it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23914" bodyend="23918"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23971" bodyend="23975"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Image_1a63c2c17fee551e3c6c2a00d7e6850ee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
@@ -359,7 +347,7 @@ returns the color of the closest pixel
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23919" bodyend="23923"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23976" bodyend="23980"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -382,20 +370,7 @@ struct to hold Image data
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Image</label>
-        <link refid="classmrmeshpy_1_1Image"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_pixels</edgelabel>
-          <edgelabel>_offsetof_resolution</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23860" bodyend="23923"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23917" bodyend="23980"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Image_1af340d1edffec4ddd5f128ba4449f5644" prot="public" virt="non-virtual"><scope>mrmeshpy::Image</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1Image_1af340d1edffec4ddd5f128ba4449f5644" prot="public" virt="non-virtual"><scope>mrmeshpy::Image</scope><name>__getitem__</name></member>

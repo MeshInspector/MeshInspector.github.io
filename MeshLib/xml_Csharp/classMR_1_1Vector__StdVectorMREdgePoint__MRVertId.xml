@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_StdVectorMREdgePoint_MRVertId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_StdVectorMREdgePoint_MRVertId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ad9f95b1589ba2755092026dee5a08dfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_StdVectorMREdgePoint</type>
@@ -11,13 +12,13 @@
         <name>vec</name>
         <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.vec</qualifiedname>
         <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36432" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36432" bodyend="36432"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26688" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26688" bodyend="26688"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a77abd8d8d3a9a166b5897a3da3e4c1aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new MR.Std.Vector_MREdgePoint</type>
@@ -26,13 +27,516 @@
         <name>this[MR.VertId i]</name>
         <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.this[MR.VertId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36590" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36591" bodyend="36601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26846" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26847" bodyend="26857"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acb9bcb0dd59c2705260ed1191b324419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; MR.Std.Vector_MREdgePoint &gt;</type>
+        <definition>new IEnumerator&lt; MR.Std.Vector_MREdgePoint &gt; MR.Vector_StdVectorMREdgePoint_MRVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26675" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26675" bodyend="26678"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a594e00626c6ced2998012dd31e2c4f53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26717" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26717" bodyend="26723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a13c5f85f62f9c749f81d1a684edf4e3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
+        <argsstring>(MR._ByValue_Vector_StdVectorMREdgePoint_MRVertId _other)</argsstring>
+        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_StdVectorMREdgePoint_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26728" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26728" bodyend="26735"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ad578b41e018d91850676131e474d95e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
+        <argsstring>(Const_Vector_StdVectorMREdgePoint_MRVertId _other)</argsstring>
+        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
+        <param>
+          <type>Const_Vector_StdVectorMREdgePoint_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26740" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26740" bodyend="26740"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a446327bcf25510f9fe936958e4e739a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
+        <argsstring>(Vector_StdVectorMREdgePoint_MRVertId _other)</argsstring>
+        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId" kindref="compound">Vector_StdVectorMREdgePoint_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26745" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26745" bodyend="26745"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acda5ae62e0605137585f855bd9beb766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26751" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26751" bodyend="26757"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac9daa37a03d26b0ae72fe49681b4357d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
+        <argsstring>(ulong size, MR.Std.Const_Vector_MREdgePoint val)</argsstring>
+        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgePoint</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26763" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26763" bodyend="26770"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acab668fb818e1f3520da1657cbdcc0e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMREdgePoint &gt; vec)</argsstring>
+        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMREdgePoint &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26776" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26776" bodyend="26783"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1abc485bdb27c43307ebd890973c448a63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId" kindref="compound">MR.Vector_StdVectorMREdgePoint_MRVertId</ref></type>
+        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId MR.Vector_StdVectorMREdgePoint_MRVertId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_StdVectorMREdgePoint_MRVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_StdVectorMREdgePoint_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26794" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26794" bodyend="26801"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a273ca196952c263a93edf4f6483c0200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a273ca196952c263a93edf4f6483c0200" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26806" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26806" bodyend="26811"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a36d1476157e97d045e78b25e8ba22700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a36d1476157e97d045e78b25e8ba22700" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26816" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26816" bodyend="26821"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acba8c47f3f009ae41cec5d2c14c57d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.resize</definition>
+        <argsstring>(ulong newSize, MR.Std.Const_Vector_MREdgePoint t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgePoint</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a36d1476157e97d045e78b25e8ba22700" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26826" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26826" bodyend="26831"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afce42fe9057cce8d7a7bbf7e6f715fa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afce42fe9057cce8d7a7bbf7e6f715fa6" kindref="member">reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26836" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26836" bodyend="26841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afec944ea69862acb39b060eae2121f42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afec944ea69862acb39b060eae2121f42" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26863" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26863" bodyend="26868"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac2a34c0833e1253279e8d7d14a8d31f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, MR.Std.Const_Vector_MREdgePoint value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgePoint</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afec944ea69862acb39b060eae2121f42" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26874" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26874" bodyend="26879"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a5d4a39cf043e5ccefdcf4ae1f20c5298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeSet</definition>
+        <argsstring>(MR.VertId pos, ulong len, MR.Std._ByValue_Vector_MREdgePoint val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_MREdgePoint</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a5d4a39cf043e5ccefdcf4ae1f20c5298" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26886" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26886" bodyend="26891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1aa296494ee312b199f6c4fea9f820d449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeSet</definition>
+        <argsstring>(MR.VertId i, MR.Std._ByValue_Vector_MREdgePoint val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_MREdgePoint</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a5d4a39cf043e5ccefdcf4ae1f20c5298" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26897" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26897" bodyend="26902"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acf0059fb78c22e401e036e4239fbc9f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MREdgePoint</type>
+        <definition>unsafe MR.Std.Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeAt</definition>
+        <argsstring>(MR.VertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acf0059fb78c22e401e036e4239fbc9f2" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26908" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26908" bodyend="26913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a656f4ffa41863af543fc24799b1274d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.pushBack</definition>
+        <argsstring>(MR.Std.Const_Vector_MREdgePoint t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgePoint</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26918" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26918" bodyend="26924"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1af29052d5d2ab8df0ac517837d6454f88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.pushBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgePoint &gt; t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgePoint &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26929" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26929" bodyend="26935"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac1f837fc24a4056b4b7b95ad58894e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26940" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26940" bodyend="26945"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a4746a307584326a98d14ee21660bdfe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MREdgePoint</type>
+        <definition>unsafe MR.Std.Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26950" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26950" bodyend="26955"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ab1351a466ce68d06c7d282e103b63cb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Std.Vector_MREdgePoint</type>
+        <definition>unsafe new MR.Std.Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ab1351a466ce68d06c7d282e103b63cb7" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26960" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26960" bodyend="26968"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a05e7cd8b78f71739d70a37ab68f2566c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Std.Vector_MREdgePoint</type>
+        <definition>unsafe new MR.Std.Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a05e7cd8b78f71739d70a37ab68f2566c" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26973" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26973" bodyend="26981"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a6be958ba38eea8e133b62af1af43cfaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Std.? Vector_MREdgePoint</type>
+        <definition>unsafe new MR.Std.? Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a6be958ba38eea8e133b62af1af43cfaf" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26986" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26986" bodyend="26995"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a7ae8aadd11deb037760ede7bb008c9eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.swap</definition>
+        <argsstring>(MR.Vector_StdVectorMREdgePoint_MRVertId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId" kindref="compound">MR.Vector_StdVectorMREdgePoint_MRVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a7ae8aadd11deb037760ede7bb008c9eb" kindref="member">swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27000" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27000" bodyend="27005"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a5f8858b971ae312c9f9017a7cf3196f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_StdVectorMREdgePoint_MRVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26680" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26680" bodyend="26683"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,480 +560,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36451" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36451" bodyend="36455"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a594e00626c6ced2998012dd31e2c4f53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
-        <argsstring>()</argsstring>
-        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36461" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36461" bodyend="36467"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a13c5f85f62f9c749f81d1a684edf4e3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
-        <argsstring>(MR._ByValue_Vector_StdVectorMREdgePoint_MRVertId _other)</argsstring>
-        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_StdVectorMREdgePoint_MRVertId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36472" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36472" bodyend="36479"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ad578b41e018d91850676131e474d95e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
-        <argsstring>(Const_Vector_StdVectorMREdgePoint_MRVertId _other)</argsstring>
-        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
-        <param>
-          <type>Const_Vector_StdVectorMREdgePoint_MRVertId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36484" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36484" bodyend="36484"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a446327bcf25510f9fe936958e4e739a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
-        <argsstring>(Vector_StdVectorMREdgePoint_MRVertId _other)</argsstring>
-        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId" kindref="compound">Vector_StdVectorMREdgePoint_MRVertId</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36489" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36489" bodyend="36489"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acda5ae62e0605137585f855bd9beb766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36495" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36495" bodyend="36501"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac9daa37a03d26b0ae72fe49681b4357d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
-        <argsstring>(ulong size, MR.Std.Const_Vector_MREdgePoint val)</argsstring>
-        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Vector_MREdgePoint</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36507" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36507" bodyend="36514"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acab668fb818e1f3520da1657cbdcc0e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMREdgePoint &gt; vec)</argsstring>
-        <name>Vector_StdVectorMREdgePoint_MRVertId</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.Vector_StdVectorMREdgePoint_MRVertId</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMREdgePoint &gt;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36520" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36520" bodyend="36527"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1abc485bdb27c43307ebd890973c448a63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId" kindref="compound">MR.Vector_StdVectorMREdgePoint_MRVertId</ref></type>
-        <definition>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId MR.Vector_StdVectorMREdgePoint_MRVertId.assign</definition>
-        <argsstring>(MR._ByValue_Vector_StdVectorMREdgePoint_MRVertId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_StdVectorMREdgePoint_MRVertId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36538" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36538" bodyend="36545"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a273ca196952c263a93edf4f6483c0200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36550" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36550" bodyend="36555"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a36d1476157e97d045e78b25e8ba22700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36560" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36560" bodyend="36565"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acba8c47f3f009ae41cec5d2c14c57d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.resize</definition>
-        <argsstring>(ulong newSize, MR.Std.Const_Vector_MREdgePoint t)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Vector_MREdgePoint</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36570" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36570" bodyend="36575"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afce42fe9057cce8d7a7bbf7e6f715fa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.reserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>capacity</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::reserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36580" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36580" bodyend="36585"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afec944ea69862acb39b060eae2121f42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36607" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36607" bodyend="36612"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac2a34c0833e1253279e8d7d14a8d31f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, MR.Std.Const_Vector_MREdgePoint value)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Vector_MREdgePoint</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36618" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36618" bodyend="36623"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a5d4a39cf043e5ccefdcf4ae1f20c5298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeSet</definition>
-        <argsstring>(MR.VertId pos, ulong len, MR.Std._ByValue_Vector_MREdgePoint val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>ulong</type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>MR.Std._ByValue_Vector_MREdgePoint</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36630" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36630" bodyend="36635"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1aa296494ee312b199f6c4fea9f820d449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeSet</definition>
-        <argsstring>(MR.VertId i, MR.Std._ByValue_Vector_MREdgePoint val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>MR.Std._ByValue_Vector_MREdgePoint</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36641" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36641" bodyend="36646"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acf0059fb78c22e401e036e4239fbc9f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MREdgePoint</type>
-        <definition>unsafe MR.Std.Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeAt</definition>
-        <argsstring>(MR.VertId i)</argsstring>
-        <name>autoResizeAt</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.autoResizeAt</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::autoResizeAt</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36652" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36652" bodyend="36657"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a656f4ffa41863af543fc24799b1274d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.pushBack</definition>
-        <argsstring>(MR.Std.Const_Vector_MREdgePoint t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Std.Const_Vector_MREdgePoint</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36662" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36662" bodyend="36668"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1af29052d5d2ab8df0ac517837d6454f88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.pushBack</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgePoint &gt; t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgePoint &gt;</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36673" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36673" bodyend="36679"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac1f837fc24a4056b4b7b95ad58894e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.popBack</definition>
-        <argsstring>()</argsstring>
-        <name>popBack</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.popBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::pop_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36684" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36684" bodyend="36689"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a4746a307584326a98d14ee21660bdfe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MREdgePoint</type>
-        <definition>unsafe MR.Std.Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.emplaceBack</definition>
-        <argsstring>()</argsstring>
-        <name>emplaceBack</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.emplaceBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36694" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36694" bodyend="36699"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ab1351a466ce68d06c7d282e103b63cb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.Std.Vector_MREdgePoint</type>
-        <definition>unsafe new MR.Std.Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.front</definition>
-        <argsstring>()</argsstring>
-        <name>front</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.front</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::front</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36704" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36704" bodyend="36712"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a05e7cd8b78f71739d70a37ab68f2566c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.Std.Vector_MREdgePoint</type>
-        <definition>unsafe new MR.Std.Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.back</definition>
-        <argsstring>()</argsstring>
-        <name>back</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.back</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36717" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36717" bodyend="36725"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a6be958ba38eea8e133b62af1af43cfaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.Std.? Vector_MREdgePoint</type>
-        <definition>unsafe new MR.Std.? Vector_MREdgePoint MR.Vector_StdVectorMREdgePoint_MRVertId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36730" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36730" bodyend="36739"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a7ae8aadd11deb037760ede7bb008c9eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_StdVectorMREdgePoint_MRVertId.swap</definition>
-        <argsstring>(MR.Vector_StdVectorMREdgePoint_MRVertId b)</argsstring>
-        <name>swap</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.swap</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId" kindref="compound">MR.Vector_StdVectorMREdgePoint_MRVertId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::swap</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36744" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36744" bodyend="36749"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26707" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26707" bodyend="26711"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -544,17 +575,17 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36533" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36533" bodyend="36533"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26789" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26789" bodyend="26789"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -570,65 +601,79 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;std.vector&lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;std::vector&amp;amp;lt;<ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>&amp;amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Vector_StdVectorMREdgePoint_MRVertId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_StdVectorMREdgePoint_MRVertId</label>
         <link refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_StdVectorMREdgePoint_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_StdVectorMREdgePoint_MRVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Vector_StdVectorMREdgePoint_MRVertId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Vector_StdVectorMREdgePoint_MRVertId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_StdVectorMREdgePoint_MRVertId</label>
         <link refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_StdVectorMREdgePoint_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_StdVectorMREdgePoint_MRVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Vector_StdVectorMREdgePoint_MRVertId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="36429" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="36430" bodyend="36750"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26619" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26620" bodyend="27006"/>
     <listofallmembers>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1abc485bdb27c43307ebd890973c448a63" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acf0059fb78c22e401e036e4239fbc9f2" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>autoResizeAt</name></member>
@@ -639,6 +684,8 @@
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a6be958ba38eea8e133b62af1af43cfaf" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>data</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a4746a307584326a98d14ee21660bdfe1" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ab1351a466ce68d06c7d282e103b63cb7" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acb9bcb0dd59c2705260ed1191b324419" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a5f8858b971ae312c9f9017a7cf3196f8" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a121a802e8ff2a2e292477211ccf1f349" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>operator Vector_StdVectorMREdgePoint_MRVertId</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac1f837fc24a4056b4b7b95ad58894e1e" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a656f4ffa41863af543fc24799b1274d6" prot="public" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>pushBack</name></member>

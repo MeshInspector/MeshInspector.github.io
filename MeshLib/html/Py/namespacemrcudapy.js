@@ -2,7 +2,6 @@ var namespacemrcudapy =
 [
     [ "ComputeToolDistance", "classmrcudapy_1_1ComputeToolDistance.html", "classmrcudapy_1_1ComputeToolDistance" ],
     [ "FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
-    [ "func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int", "classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int.html", "classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int" ],
     [ "PointsProjector", "classmrcudapy_1_1PointsProjector.html", "classmrcudapy_1_1PointsProjector" ],
     [ "PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", "classmrcudapy_1_1PointsToMeshProjector" ],
     [ "computeDistanceMap", "namespacemrcudapy.html#afb6959a79e7044add2174d0f636bbce7", null ],
@@ -22,5 +21,5 @@ var namespacemrcudapy =
     [ "maxBufferSizeAlignedByBlock", "namespacemrcudapy.html#aab9adabccec4346ca61b1e628d692a35", null ],
     [ "negatePicture", "namespacemrcudapy.html#ac3163db5e369a9de3b776b9110700924", null ],
     [ "pointsToDistanceVolume", "namespacemrcudapy.html#abacc3f1ddc84e70bb38d8d75c6595bd3", null ],
-    [ "pointsToDistanceVolumeByParts", "namespacemrcudapy.html#a1517d1e5cac8d356c12190982d458964", null ]
+    [ "pointsToDistanceVolumeByParts", "namespacemrcudapy.html#aa34056830ad5daa6e50f8ccd1078e141", null ]
 ];

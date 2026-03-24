@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IViewerSettingsManager" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::IViewerSettingsManager</compoundname>
     <derivedcompoundref refid="classMR_1_1ViewerSettingsManager" prot="public" virt="non-virtual">MR::ViewerSettingsManager</derivedcompoundref>
-    <includes refid="MRViewerSettingsManager_8h" local="no">MRViewerSettingsManager.h</includes>
+    <includes refid="MRViewerSettingsManager_8h" local="no">MRViewer/MRViewerSettingsManager.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga5fa6959a71ea16d2cd2ca4e276a04665" kind="function"><name>~IViewerSettingsManager</name></member>
       <member refid="group__GeneralGroup_1gab9f733189fccd3f42fdaf8a567be0b21" kind="function"><name>loadInt</name></member>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" bodystart="16" bodyend="32"/>
+    <location file="MRViewer/MRViewerSettingsManager.h" line="15" column="1" bodyfile="MRViewer/MRViewerSettingsManager.h" bodystart="16" bodyend="32"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga06f9dd76c37cf576cfd31923c38dfcd0" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>loadBool</name></member>
       <member refid="group__GeneralGroup_1gab9f733189fccd3f42fdaf8a567be0b21" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>loadInt</name></member>

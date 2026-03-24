@@ -1,42 +1,42 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSchemaLoader" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonSchemaLoader</compoundname>
-    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <includes refid="MRRibbonSchema_8h" local="no">MRViewer/MRRibbonSchema.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gae9f61f9ad1a6e1cfbcdb30e93799a046" kind="function"><name>RibbonSchemaLoader</name></member>
       <member refid="group__GeneralGroup_1ga0bdc0e74b5b855dc50f9d3ed83b7ecad" kind="function"><name>~RibbonSchemaLoader</name></member>
-      <member refid="group__GeneralGroup_1gad9dde65427b1793ba6f4fa13663a5ec5" kind="function"><name>loadSchema</name></member>
+      <member refid="group__GeneralGroup_1gaf359b2109f232bee18709542a5964825" kind="function"><name>loadSchema</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gae1fb56f73fe32143e7af41b9a6ef2a78" kind="function"><name>readMenuItemsList</name></member>
-      <member refid="group__GeneralGroup_1ga41b33cc8ea85e93c4afed1e130fbd709" kind="function"><name>recalcItemSizes</name></member>
+      <member refid="group__GeneralGroup_1gac9a24698dde01124cd868f87b0361b83" kind="function"><name>readMenuItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga8491e8df9b573753128bd7b8ead53f79" kind="function"><name>recalcItemSizes</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <member refid="group__GeneralGroup_1ga691ceda2aee5d313445759892065cfa6" kind="function"><name>getStructureFiles_</name></member>
-      <member refid="group__GeneralGroup_1ga21064610abab0a6524a91349d54a0470" kind="function"><name>sortFilesByOrder_</name></member>
-      <member refid="group__GeneralGroup_1gab7e8563a297450e4086c93062470453b" kind="function"><name>readItemsJson_</name></member>
-      <member refid="group__GeneralGroup_1ga8922f80db8dd50ace1d0414338bc9a90" kind="function"><name>readItemsJson_</name></member>
-      <member refid="group__GeneralGroup_1ga6ab581434c5e1a94a44c8d1307a9ba5e" kind="function"><name>readUIJson_</name></member>
-      <member refid="group__GeneralGroup_1gae18febd5f891538a94cd80c617a2c7f0" kind="function"><name>readUIJson_</name></member>
+      <member refid="group__GeneralGroup_1gae2ca0e8edcd6c4eb680422b09f6f6f23" kind="function"><name>getStructureFiles_</name></member>
+      <member refid="group__GeneralGroup_1gac6d1ad0e142487c7cb72a4b34a6935fd" kind="function"><name>sortFilesByOrder_</name></member>
+      <member refid="group__GeneralGroup_1ga87d68013729492fa0e45dbee9a32317f" kind="function"><name>readItemsJson_</name></member>
+      <member refid="group__GeneralGroup_1ga321e1aade11391a5c4db869cf8179fe9" kind="function"><name>readItemsJson_</name></member>
+      <member refid="group__GeneralGroup_1ga89c5d25b89eac58d6a7f0e1a09808c9b" kind="function"><name>readUIJson_</name></member>
+      <member refid="group__GeneralGroup_1ga7db76e8a4aa067c73e069e26c3d132b9" kind="function"><name>readUIJson_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Class for loading ribbon schema from structure files (basically called from <ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>, but can be called separately) </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="134" bodyend="158"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="136" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="137" bodyend="161"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga691ceda2aee5d313445759892065cfa6" prot="protected" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>getStructureFiles_</name></member>
-      <member refid="group__GeneralGroup_1gad9dde65427b1793ba6f4fa13663a5ec5" prot="public" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>loadSchema</name></member>
-      <member refid="group__GeneralGroup_1gab7e8563a297450e4086c93062470453b" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readItemsJson_</name></member>
-      <member refid="group__GeneralGroup_1ga8922f80db8dd50ace1d0414338bc9a90" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readItemsJson_</name></member>
-      <member refid="group__GeneralGroup_1gae1fb56f73fe32143e7af41b9a6ef2a78" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readMenuItemsList</name></member>
-      <member refid="group__GeneralGroup_1ga6ab581434c5e1a94a44c8d1307a9ba5e" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readUIJson_</name></member>
-      <member refid="group__GeneralGroup_1gae18febd5f891538a94cd80c617a2c7f0" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readUIJson_</name></member>
-      <member refid="group__GeneralGroup_1ga41b33cc8ea85e93c4afed1e130fbd709" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>recalcItemSizes</name></member>
+      <member refid="group__GeneralGroup_1gae2ca0e8edcd6c4eb680422b09f6f6f23" prot="protected" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>getStructureFiles_</name></member>
+      <member refid="group__GeneralGroup_1gaf359b2109f232bee18709542a5964825" prot="public" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>loadSchema</name></member>
+      <member refid="group__GeneralGroup_1ga87d68013729492fa0e45dbee9a32317f" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readItemsJson_</name></member>
+      <member refid="group__GeneralGroup_1ga321e1aade11391a5c4db869cf8179fe9" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readItemsJson_</name></member>
+      <member refid="group__GeneralGroup_1gac9a24698dde01124cd868f87b0361b83" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readMenuItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga89c5d25b89eac58d6a7f0e1a09808c9b" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readUIJson_</name></member>
+      <member refid="group__GeneralGroup_1ga7db76e8a4aa067c73e069e26c3d132b9" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readUIJson_</name></member>
+      <member refid="group__GeneralGroup_1ga8491e8df9b573753128bd7b8ead53f79" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>recalcItemSizes</name></member>
       <member refid="group__GeneralGroup_1gae9f61f9ad1a6e1cfbcdb30e93799a046" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>RibbonSchemaLoader</name></member>
-      <member refid="group__GeneralGroup_1ga21064610abab0a6524a91349d54a0470" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>sortFilesByOrder_</name></member>
+      <member refid="group__GeneralGroup_1gac6d1ad0e142487c7cb72a4b34a6935fd" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>sortFilesByOrder_</name></member>
       <member refid="group__GeneralGroup_1ga0bdc0e74b5b855dc50f9d3ed83b7ecad" prot="public" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>~RibbonSchemaLoader</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ParallelProgressReporter" kind="class" language="C++" prot="public">
     <compoundname>MR::ParallelProgressReporter</compoundname>
-    <includes refid="MRParallelProgressReporter_8h" local="no">MRParallelProgressReporter.h</includes>
+    <includes refid="MRParallelProgressReporter_8h" local="no">MRMesh/MRParallelProgressReporter.h</includes>
     <innerclass refid="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter" prot="public">MR::ParallelProgressReporter::PerTaskReporter</innerclass>
     <innerclass refid="structMR_1_1ParallelProgressReporter_1_1TaskInfo" prot="public">MR::ParallelProgressReporter::TaskInfo</innerclass>
     <sectiondef kind="private-attrib">
@@ -15,9 +15,9 @@
       <member refid="group__GeneralGroup_1ga598517c76f8e542e9a0e729d88043bb1" kind="variable"><name>mainThreadId_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga2c6d0ee3e32d318d2f21e81a65c786fb" kind="function"><name>ParallelProgressReporter</name></member>
-      <member refid="group__GeneralGroup_1gafb8acccd63d1068e162e165f290b3227" kind="function"><name>newTask</name></member>
-      <member refid="group__GeneralGroup_1ga14f01226cb9a140ad5be9540453a8eed" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gaf1d953cc657c4b0ac3b50bbb44cdc1dd" kind="function"><name>ParallelProgressReporter</name></member>
+      <member refid="group__GeneralGroup_1ga0dbff57f458d4ac8ac5fabfe53eb685d" kind="function"><name>newTask</name></member>
+      <member refid="group__GeneralGroup_1gab12804eaa7827c0475e3cac1250a662c" kind="function"><name>operator()</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gabdfe8a6135f67c2c0d453940a135c50c" kind="function"><name>updateTask_</name></member>
@@ -27,15 +27,15 @@
     <detaileddescription>
 <para>This class allows progress to be reported from different threads. Unlike progress callback that is passed to <ref refid="group__BasicGroup_1gaf184f372f735726148d7a07cbbbb29af" kindref="member">ParallelFor</ref>, each task may report the progress separately, and the progress displayed to user is not just a number of completed tasks divided by the total number of tasks, but rather a (weighted) average of progresses reported from each task </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="21" bodyend="72"/>
+    <location file="MRMesh/MRParallelProgressReporter.h" line="20" column="1" bodyfile="MRMesh/MRParallelProgressReporter.h" bodystart="21" bodyend="72"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga86cf6968f94b8518a115c3a12af2f6cd" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>cb_</name></member>
       <member refid="group__GeneralGroup_1ga9e24875ac9a999b2110e7afd6d4d5e95" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>continue_</name></member>
       <member refid="group__GeneralGroup_1ga598517c76f8e542e9a0e729d88043bb1" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>mainThreadId_</name></member>
       <member refid="group__GeneralGroup_1gac23bdc95adc7deb6ef113101132f3960" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>mutex_</name></member>
-      <member refid="group__GeneralGroup_1gafb8acccd63d1068e162e165f290b3227" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>newTask</name></member>
-      <member refid="group__GeneralGroup_1ga14f01226cb9a140ad5be9540453a8eed" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>operator()</name></member>
-      <member refid="group__GeneralGroup_1ga2c6d0ee3e32d318d2f21e81a65c786fb" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>ParallelProgressReporter</name></member>
+      <member refid="group__GeneralGroup_1ga0dbff57f458d4ac8ac5fabfe53eb685d" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>newTask</name></member>
+      <member refid="group__GeneralGroup_1gab12804eaa7827c0475e3cac1250a662c" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gaf1d953cc657c4b0ac3b50bbb44cdc1dd" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>ParallelProgressReporter</name></member>
       <member refid="group__GeneralGroup_1ga7b9b9c50339c2c105662ca56619cc9c6" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>perTaskInfo_</name></member>
       <member refid="group__GeneralGroup_1gae630ffc4f6603a059244658600c77741" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>progress_</name></member>
       <member refid="group__GeneralGroup_1gaf0956ae113eb7654ed05a4cd64002ec5" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>totalWeight_</name></member>

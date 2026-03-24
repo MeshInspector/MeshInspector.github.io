@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SortIntersectionsData" kind="struct" language="C++" prot="public">
     <compoundname>MR::SortIntersectionsData</compoundname>
-    <includes refid="MROneMeshContours_8h" local="no">MROneMeshContours.h</includes>
+    <includes refid="MROneMeshContours_8h" local="no">MRMesh/MROneMeshContours.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gac190f44f37a1e2b9ece5d869fe02015d" kind="variable"><name>otherMesh</name></member>
       <member refid="group__GeneralGroup_1ga3e022423fc25738632598f90c2caf5b1" kind="variable"><name>contours</name></member>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="17" bodyend="24"/>
+    <location file="MRMesh/MROneMeshContours.h" line="16" column="1" bodyfile="MRMesh/MROneMeshContours.h" bodystart="17" bodyend="24"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e022423fc25738632598f90c2caf5b1" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>contours</name></member>
       <member refid="group__GeneralGroup_1ga4799d62c8691f94b44fc3c7f3a77bbe4" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>converter</name></member>

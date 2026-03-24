@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -417,23 +417,9 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;
-Aliases:  Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f_NodeId.value_type, Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f_NodeId.reference, Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f_NodeId.const_reference, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.Node
+Aliases:  Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f_NodeId.const_reference, Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f_NodeId.value_type, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.Node, Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f_NodeId.reference
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f</label>
-        <link refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_box</edgelabel>
-          <edgelabel>_offsetof_l</edgelabel>
-          <edgelabel>_offsetof_r</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="485" bodyend="553"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f_1aaf9d4885338f37a4634337984fe31ec3" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f</scope><name>__init__</name></member>

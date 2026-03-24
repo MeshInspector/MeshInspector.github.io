@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FixMeshDegeneraciesParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::FixMeshDegeneraciesParams</compoundname>
-    <includes refid="MRMeshFixer_8h" local="no">MRMeshFixer.h</includes>
+    <includes refid="MRMeshFixer_8h" local="no">MRMesh/MRMeshFixer.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42" prot="public" static="no" strong="yes">
         <type></type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="62" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="63" bodyend="67"/>
+        <location file="MRMesh/MRMeshFixer.h" line="62" column="5" bodyfile="MRMesh/MRMeshFixer.h" bodystart="63" bodyend="67"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="43" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="43" bodyend="43"/>
+        <location file="MRMesh/MRMeshFixer.h" line="43" column="11" bodyfile="MRMesh/MRMeshFixer.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a7fb7943cde7ab98ddfd5ffe1d1f4170e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="46" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="46" bodyend="46"/>
+        <location file="MRMesh/MRMeshFixer.h" line="46" column="11" bodyfile="MRMesh/MRMeshFixer.h" bodystart="46" bodyend="46"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a78bb997d121e9c191fabce84d8f05980" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="50" bodyend="50"/>
+        <location file="MRMesh/MRMeshFixer.h" line="50" column="11" bodyfile="MRMesh/MRMeshFixer.h" bodystart="50" bodyend="50"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a27e58d6d674f40a1d627ba6f034ef140" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="53" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="53" bodyend="53"/>
+        <location file="MRMesh/MRMeshFixer.h" line="53" column="11" bodyfile="MRMesh/MRMeshFixer.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1adbf34724488c4de119231db46448de01" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="57" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="57" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="57" column="11" bodyfile="MRMesh/MRMeshFixer.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a03fabfe38c70165440f7eaf7677e07ce" prot="public" static="no" mutable="no">
         <type>FaceBitSet *</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="60" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="60" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="60" column="16" bodyfile="MRMesh/MRMeshFixer.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a53fef689c0014c588a5990ec1626c5a7" prot="public" static="no" mutable="no">
         <type>enum <ref refid="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42" kindref="member">MR::FixMeshDegeneraciesParams::Mode</ref></type>
@@ -150,10 +150,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="67" column="22"/>
+        <location file="MRMesh/MRMeshFixer.h" line="67" column="22"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::FixMeshDegeneraciesParams::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
@@ -164,14 +164,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="69" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="69" column="22" bodyfile="MRMesh/MRMeshFixer.h" bodystart="69" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="41" bodyend="70"/>
+    <location file="MRMesh/MRMeshFixer.h" line="40" column="1" bodyfile="MRMesh/MRMeshFixer.h" bodystart="41" bodyend="70"/>
     <listofallmembers>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>cb</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a78bb997d121e9c191fabce84d8f05980" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>

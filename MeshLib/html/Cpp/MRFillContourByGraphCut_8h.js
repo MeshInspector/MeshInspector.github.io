@@ -1,6 +1,6 @@
 var MRFillContourByGraphCut_8h =
 [
-    [ "fillContourLeftByGraphCut", "MRFillContourByGraphCut_8h.html#gadea0ef926186e71514bcaf05a50aa51d", null ],
-    [ "fillContourLeftByGraphCut", "MRFillContourByGraphCut_8h.html#ga192299a4f8520a8867c43c89651f4304", null ],
-    [ "segmentByGraphCut", "MRFillContourByGraphCut_8h.html#ga90e052f4d7cc9dd0c2e2d004cda6abeb", null ]
+    [ "MR::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#gab3e1164ebf68822aab118be88463559f", null ],
+    [ "MR::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#ga60ce8ecdf324e3ba1847b97a26909194", null ],
+    [ "MR::segmentByGraphCut", "group__MeshSegmentationGroup.html#ga83df6392f2ec180519c0977c7c2a0db7", null ]
 ];

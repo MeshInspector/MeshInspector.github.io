@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1RectIndexer" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::RectIndexer</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1DistanceMap" prot="public" virt="non-virtual">mrmeshpy.DistanceMap</derivedcompoundref>
@@ -11,15 +11,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RectIndexer.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a537aa3f672d4fae4862b389fd7f39cc4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ae3315272a9e1826dcda63ec5b5358629">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a3ce5d48e25a8951884962a8ea4c78959">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1aa2c3ba1a8b94b798f418223a5561ce71">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -34,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49502" bodyend="49503"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50474" bodyend="50475"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1afcb24165cee73591b08899eff0afb0e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RectIndexer" kindref="compound">RectIndexer</ref></type>
@@ -60,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49506" bodyend="49507"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50478" bodyend="50479"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1afcb24165cee73591b08899eff0afb0e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RectIndexer" kindref="compound">RectIndexer</ref></type>
@@ -86,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49510" bodyend="49511"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50482" bodyend="50483"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -96,15 +87,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RectIndexer.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a537aa3f672d4fae4862b389fd7f39cc4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ae3315272a9e1826dcda63ec5b5358629">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a3ce5d48e25a8951884962a8ea4c78959">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1aa2c3ba1a8b94b798f418223a5561ce71">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -115,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49513" bodyend="49514"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50485" bodyend="50486"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a86960072848a0aafb6e007d0694220d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -123,15 +105,6 @@
         <argsstring>(self, Vector2i dims)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RectIndexer.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a537aa3f672d4fae4862b389fd7f39cc4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ae3315272a9e1826dcda63ec5b5358629">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a3ce5d48e25a8951884962a8ea4c78959">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1aa2c3ba1a8b94b798f418223a5561ce71">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -146,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49516" bodyend="49517"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50488" bodyend="50489"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a79c40c5a4132c74a4cbef5d9739e7e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -154,15 +127,6 @@
         <argsstring>(self, RectIndexer arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RectIndexer.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a537aa3f672d4fae4862b389fd7f39cc4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ae3315272a9e1826dcda63ec5b5358629">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a3ce5d48e25a8951884962a8ea4c78959">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1aa2c3ba1a8b94b798f418223a5561ce71">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -179,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49519" bodyend="49522"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50491" bodyend="50494"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a27e451d40797215779c9255b084d99f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -207,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49524" bodyend="49527"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50496" bodyend="50499"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a6c23c4d90dc1fef793b740fc91956626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -233,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49529" bodyend="49530"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50501" bodyend="50502"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a9ba99f18552f382c8e2f10540e3c9630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
@@ -251,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49531" bodyend="49532"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50503" bodyend="50504"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a87ec23ff9e60e4e9efcd49d86c652153" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
@@ -279,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49534" bodyend="49537"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50506" bodyend="50509"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1aa645b2294161a3337fa6eb76b0ef7875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
@@ -309,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49539" bodyend="49540"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50511" bodyend="50512"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a5a057c9ea99fecc08350ec8e9ee84e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -331,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49541" bodyend="49542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50513" bodyend="50514"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1abae9d444cfed27fc50696762e20f3d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -349,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49543" bodyend="49544"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50515" bodyend="50516"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1ab4448d6b90f03e77c082264013981c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -371,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49545" bodyend="49546"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50517" bodyend="50518"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a8749d8e7e091021bec46a95a5b21779a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
@@ -393,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49547" bodyend="49548"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50519" bodyend="50520"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1aa9005b3f3d99b3470b8a767a2ccc5020" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
@@ -415,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49550" bodyend="49551"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50522" bodyend="50523"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1af8a6233b03fc2a53e2ac399d228a6b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
@@ -437,7 +401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49553" bodyend="49554"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50525" bodyend="50526"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -466,7 +430,7 @@ a class for converting 2D integer coordinates into 1D linear coordinates and bac
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49494" bodyend="49554"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50466" bodyend="50526"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1RectIndexer_1acbb640ce6d30728b95373b2ff8890c80" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>__init__</name></member>

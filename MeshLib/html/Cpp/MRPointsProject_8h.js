@@ -1,8 +1,8 @@
 var MRPointsProject_8h =
 [
-    [ "findFewClosestPoints", "MRPointsProject_8h.html#ga5b2c2b50e8b1835a53ac746d5da87b54", null ],
-    [ "findNClosestPointsPerPoint", "MRPointsProject_8h.html#ga5ccfb741cd4bcb092c8884f744051203", null ],
-    [ "findProjectionOnPoints", "MRPointsProject_8h.html#ga2d8d5a16d2f63ea3eec0edfb4f85917b", null ],
-    [ "findProjectionOnPoints", "MRPointsProject_8h.html#ga732c66239ed6e0f0d31100e8e3ab29b4", null ],
-    [ "findTwoClosestPoints", "MRPointsProject_8h.html#ga994aaba24d39e18802b546f4fdab10cc", null ]
+    [ "MR::findFewClosestPoints", "group__AABBTreeGroup.html#ga435f633cd74c790a6f22a06436182137", null ],
+    [ "MR::findNClosestPointsPerPoint", "group__AABBTreeGroup.html#ga62582619bf0581f79f510b9d98928762", null ],
+    [ "MR::findProjectionOnPoints", "group__AABBTreeGroup.html#ga41532fd138cf2bb72805d8af6a1522b4", null ],
+    [ "MR::findProjectionOnPoints", "group__AABBTreeGroup.html#gab4c475c489f1543782e15d9b4bbe14cf", null ],
+    [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga32485df4ed1f18a0b4315756a69ff792", null ]
 ];

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UniqueTemporaryFolder" kind="class" language="C#" prot="public">
     <compoundname>MR::UniqueTemporaryFolder</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_UniqueTemporaryFolder</basecompoundref>
@@ -40,7 +40,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>creates new folder in temp directory Generated from constructor <computeroutput>MR.UniqueTemporaryFolder.UniqueTemporaryFolder</computeroutput>. Parameter <computeroutput>onPreTempFolderDelete</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>creates new folder in temp directory Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1ad4ae98591233a1cc8925ed28c24f10ee" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. Parameter <computeroutput>onPreTempFolderDelete</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -59,7 +59,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UniqueTemporaryFolder.UniqueTemporaryFolder</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1ad4ae98591233a1cc8925ed28c24f10ee" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78,7 +78,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UniqueTemporaryFolder.UniqueTemporaryFolder</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1ad4ae98591233a1cc8925ed28c24f10ee" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -97,7 +97,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UniqueTemporaryFolder.UniqueTemporaryFolder</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1ad4ae98591233a1cc8925ed28c24f10ee" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -116,7 +116,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UniqueTemporaryFolder.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UniqueTemporaryFolder::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>onPreTempFolderDelete</declname>
         </param>
         <briefdescription>
-<para>creates new folder in temp directory Generated from constructor <computeroutput>MR.UniqueTemporaryFolder.UniqueTemporaryFolder</computeroutput>. Parameter <computeroutput>onPreTempFolderDelete</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>creates new folder in temp directory Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1ad4ae98591233a1cc8925ed28c24f10ee" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. Parameter <computeroutput>onPreTempFolderDelete</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,50 +147,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>helper class to create a temporary folder; the folder will be removed on the object&apos;s destruction Generated from class <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder" kindref="compound">MR.UniqueTemporaryFolder</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>helper class to create a temporary folder; the folder will be removed on the object's destruction Generated from class <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder" kindref="compound">MR.UniqueTemporaryFolder</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_UniqueTemporaryFolder</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UniqueTemporaryFolder</label>
         <link refid="classMR_1_1UniqueTemporaryFolder"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UniqueTemporaryFolder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UniqueTemporaryFolder &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_UniqueTemporaryFolder</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UniqueTemporaryFolder</label>
         <link refid="classMR_1_1UniqueTemporaryFolder"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UniqueTemporaryFolder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UniqueTemporaryFolder &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="109" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="110" bodyend="165"/>

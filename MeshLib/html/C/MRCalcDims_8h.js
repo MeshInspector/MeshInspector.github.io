@@ -1,6 +1,5 @@
 var MRCalcDims_8h =
 [
-    [ "MR_Box3f", "MRCalcDims_8h.html#a387c2b6c194640a4dfac77733cbe3880", null ],
     [ "MR_OriginAndDimensions", "MRCalcDims_8h.html#a6ca6b1607459d08c79d3b696efe4f9ed", null ],
     [ "MR_calcOriginAndDimensions", "MRCalcDims_8h.html#aa4d5583d94fe2c01b128ea60e5ec6484", null ],
     [ "MR_OriginAndDimensions_AssignFromAnother", "MRCalcDims_8h.html#a7dec7b34321479c5e07779bc06e47aae", null ],

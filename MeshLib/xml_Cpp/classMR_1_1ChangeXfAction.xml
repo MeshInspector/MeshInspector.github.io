@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeXfAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeXfAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
     <derivedcompoundref refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" prot="public" virt="non-virtual">MR::DirectionWidget::ChangeDirAction</derivedcompoundref>
-    <includes refid="MRChangeXfAction_8h" local="no">MRChangeXfAction.h</includes>
+    <includes refid="MRChangeXfAction_8h" local="no">MRMesh/MRChangeXfAction.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga7d2647426f8708c71d2f6e85da678c2d" kind="variable"><name>obj_</name></member>
       <member refid="group__GeneralGroup_1gab818f28be739c6818b6bae8347ca44e9" kind="variable"><name>xf_</name></member>
@@ -53,7 +53,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="16" bodyend="64"/>
+    <location file="MRMesh/MRChangeXfAction.h" line="15" column="1" bodyfile="MRMesh/MRChangeXfAction.h" bodystart="16" bodyend="64"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae0205231d9c1c0389daaa03a05b302e2" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>

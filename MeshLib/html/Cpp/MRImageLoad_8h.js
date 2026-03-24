@@ -1,4 +1,4 @@
 var MRImageLoad_8h =
 [
-    [ "fromAnySupportedFormat", "MRImageLoad_8h.html#gad0427ed61cb0d0f0200d126cac01cc2b", null ]
+    [ "MR::ImageLoad::fromAnySupportedFormat", "group__ImageLoadGroup.html#ga2e9338f4df7d8c383cae3bab2971a671", null ]
 ];

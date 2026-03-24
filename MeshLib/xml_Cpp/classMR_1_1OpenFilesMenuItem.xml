@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OpenFilesMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::OpenFilesMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; DragEntranceListener, DragOverListener, DragDropListener, PreDrawListener &gt;</basecompoundref>
-    <includes refid="MRIOFilesMenuItems_8h" local="no">MRIOFilesMenuItems.h</includes>
+    <includes refid="MRIOFilesMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaf821b1fe157f80dabaf66a23133f2f78" kind="variable"><name>dragging_</name></member>
       <member refid="group__GeneralGroup_1gab855a6330dd6acc52da926d44ff7fd76" kind="variable"><name>dragPos_</name></member>
@@ -89,7 +89,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="29" bodyend="53"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="28" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="29" bodyend="53"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacd1d0b203f477e1a2f307be78c9c6eb8" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>blocking</name></member>
@@ -115,8 +115,8 @@
       <member refid="group__GeneralGroup_1ga2f51fd6a810f6df1a63fdd6b649bfcc3" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>preDraw_</name></member>
       <member refid="group__GeneralGroup_1gaaaf78d950cc79901f8ffe1fdd4dd2bba" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>recentPathsCache_</name></member>
       <member refid="group__GeneralGroup_1ga6f744df1a8933de02b25d92a4551d4d2" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>recentStoreConnection_</name></member>
-      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>RibbonMenuItem</name></member>
-      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setDropItemsFromItemList</name></member>
       <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setRibbonItemType</name></member>
       <member refid="group__GeneralGroup_1gafc218a75b4e145aec457b2ea5afbd805" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setupListUpdate_</name></member>
       <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>type</name></member>

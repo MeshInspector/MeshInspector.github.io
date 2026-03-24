@@ -1,9 +1,5 @@
 var MRPlane3_8h =
 [
-    [ "MR_Plane3d", "MRPlane3_8h.html#a47c990e52774bc8bd9e02d71ca3a353b", null ],
-    [ "MR_Plane3f", "MRPlane3_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
-    [ "MR_std_istream", "MRPlane3_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_ostream", "MRPlane3_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_input_MR_Plane3d", "MRPlane3_8h.html#aa6e0ea07c380ae48b0d3d655a5ba31ea", null ],
     [ "MR_input_MR_Plane3f", "MRPlane3_8h.html#a6c6ce1c312c8370942ebc59f8a0f7ec4", null ],
     [ "MR_neg_MR_Plane3d", "MRPlane3_8h.html#a23a39c97fb89286ee4e334b32a2b166f", null ],

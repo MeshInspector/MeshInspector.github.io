@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshSave_8h" kind="file" language="C++">
     <compoundname>MRMeshSave.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,90 +14,36 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshSave_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="13" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshSave_8h_1a66434f88501a5c24a45cf39f9dbcadbb" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref></type>
-        <definition>typedef struct MR_SaveSettings MR_SaveSettings</definition>
-        <argsstring></argsstring>
-        <name>MR_SaveSettings</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="14" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshSave_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="15" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshSave_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" prot="public" static="no">
-        <type>struct <ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref></type>
-        <definition>typedef struct MR_std_array_MR_Vector3f_3 MR_std_array_MR_Vector3f_3</definition>
-        <argsstring></argsstring>
-        <name>MR_std_array_MR_Vector3f_3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="16" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshSave_8h_1a933fad1748853c0c595a157b9f6527c6" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref></type>
-        <definition>typedef struct MR_std_ostream MR_std_ostream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_ostream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="17" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" prot="public" static="no">
         <type>struct <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref></type>
         <definition>typedef struct MR_MeshSave_BinaryStlSaver MR_MeshSave_BinaryStlSaver</definition>
@@ -106,16 +52,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saver in binary .stl format that can write triangles one by one not knowing their number beforehand Generated from class <computeroutput>MR::MeshSave::BinaryStlSaver</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>saver in binary .stl format that can write triangles one by one not knowing their number beforehand Generated from class <computeroutput>MR::MeshSave::BinaryStlSaver</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="23" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="23" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshSave_8h_1a50171a4415fb971d9c474ed66728b404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toMrmesh_std_filesystem_path</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toMrmesh_std_filesystem_path</name>
@@ -138,14 +84,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves in internal file format; SaveSettings::onlyValidPoints = true is ignored Generated from function <computeroutput>MR::MeshSave::toMrmesh</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>saves in internal file format; SaveSettings::onlyValidPoints = true is ignored Generated from function <computeroutput>MR::MeshSave::toMrmesh</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="33" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="33" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="33" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="33" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a206af16865defc8bd288d9c57105594f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toMrmesh_std_ostream</definition>
         <argsstring>(const MR_Mesh *mesh, MR_std_ostream *out, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toMrmesh_std_ostream</name>
@@ -164,14 +110,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toMrmesh</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toMrmesh</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="41" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="41" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="41" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="41" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a161a88837ab54ed6c2c3a12b909a2647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toOff_std_filesystem_path</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toOff_std_filesystem_path</name>
@@ -194,14 +140,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves in .off file Generated from function <computeroutput>MR::MeshSave::toOff</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>saves in .off file Generated from function <computeroutput>MR::MeshSave::toOff</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="50" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="50" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="50" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="50" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1ab690fd4d467d745ff7e3e37498d89609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toOff_std_ostream</definition>
         <argsstring>(const MR_Mesh *mesh, MR_std_ostream *out, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toOff_std_ostream</name>
@@ -220,14 +166,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toOff</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toOff</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="58" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="58" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="58" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="58" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a30eb7ebb01ecaebaddb7cf943dbadf4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toObj_4_std_filesystem_path</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings, int firstVertId)</argsstring>
         <name>MR_MeshSave_toObj_4_std_filesystem_path</name>
@@ -259,7 +205,7 @@
 <parametername>firstVertId</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is the index of first mesh vertex in the output file (if this object is not the first there) Generated from function <computeroutput>MR::MeshSave::toObj</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>is the index of first mesh vertex in the output file (if this object is not the first there) Generated from function <computeroutput>MR::MeshSave::toObj</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -267,10 +213,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="67" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="67" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="67" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="67" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1aa934b5546083cbd8900e99b6dd50f7c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toObj_4_std_ostream</definition>
         <argsstring>(const MR_Mesh *mesh, MR_std_ostream *out, const MR_SaveSettings *settings, int firstVertId)</argsstring>
         <name>MR_MeshSave_toObj_4_std_ostream</name>
@@ -293,14 +239,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toObj</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toObj</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="74" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="74" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="74" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="74" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a37632458b9b2259745dd33d5943d9a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toObj_3_std_filesystem_path</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toObj_3_std_filesystem_path</name>
@@ -323,14 +269,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toObj</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toObj</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="82" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="82" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="82" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="82" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1aea8a3ca2aac99480ba551025de1baea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toObj_3_std_ostream</definition>
         <argsstring>(const MR_Mesh *mesh, MR_std_ostream *out, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toObj_3_std_ostream</name>
@@ -349,14 +295,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toObj</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toObj</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="90" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="90" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="90" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="90" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a31cf43b1ce0d14abe9491be225feb51f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toBinaryStl_std_filesystem_path</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toBinaryStl_std_filesystem_path</name>
@@ -379,14 +325,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves in binary .stl file; SaveSettings::onlyValidPoints = false is ignored Generated from function <computeroutput>MR::MeshSave::toBinaryStl</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>saves in binary .stl file; SaveSettings::onlyValidPoints = false is ignored Generated from function <computeroutput>MR::MeshSave::toBinaryStl</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="100" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="100" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="100" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="100" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1ab3935fe4bd91d44056020f7445e8164f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toBinaryStl_std_ostream</definition>
         <argsstring>(const MR_Mesh *mesh, MR_std_ostream *out, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toBinaryStl_std_ostream</name>
@@ -405,19 +351,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toBinaryStl</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toBinaryStl</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="108" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="108" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="108" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="108" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1adbebbb700722002f08383ef5d9502b30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref> *</type>
         <definition>MRC_API MR_MeshSave_BinaryStlSaver * MR_MeshSave_BinaryStlSaver_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_MeshSave_BinaryStlSaver *_other)</argsstring>
         <name>MR_MeshSave_BinaryStlSaver_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -431,10 +377,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="113" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="113" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="113" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="113" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a0aa60c622e161492fab65d2682ba3a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref> *</type>
         <definition>MRC_API const MR_MeshSave_BinaryStlSaver * MR_MeshSave_BinaryStlSaver_OffsetPtr</definition>
         <argsstring>(const MR_MeshSave_BinaryStlSaver *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshSave_BinaryStlSaver_OffsetPtr</name>
@@ -453,10 +399,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="117" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="117" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="117" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="117" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a7cd0f47ce9f776da9856f6710dfabdda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref> *</type>
         <definition>MRC_API MR_MeshSave_BinaryStlSaver * MR_MeshSave_BinaryStlSaver_OffsetMutablePtr</definition>
         <argsstring>(MR_MeshSave_BinaryStlSaver *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshSave_BinaryStlSaver_OffsetMutablePtr</name>
@@ -475,10 +421,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="121" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="121" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="121" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="121" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a520f35414aca91f0d5c0f5a0d9fe636c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref> *</type>
         <definition>MRC_API MR_MeshSave_BinaryStlSaver * MR_MeshSave_BinaryStlSaver_Construct</definition>
         <argsstring>(MR_std_ostream *out, const MR_SaveSettings *settings, const unsigned int *expectedNumTris)</argsstring>
         <name>MR_MeshSave_BinaryStlSaver_Construct</name>
@@ -501,10 +447,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="133" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="133" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="133" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="133" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1ac10d9861eec17ae2dbf6392debb8dde9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshSave_BinaryStlSaver_Destroy</definition>
         <argsstring>(const MR_MeshSave_BinaryStlSaver *_this)</argsstring>
         <name>MR_MeshSave_BinaryStlSaver_Destroy</name>
@@ -513,16 +459,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshSave_BinaryStlSaver</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="136" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="136" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1aa6d60c71361d1bde95767a118e0912f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshSave_BinaryStlSaver_DestroyArray</definition>
         <argsstring>(const MR_MeshSave_BinaryStlSaver *_this)</argsstring>
         <name>MR_MeshSave_BinaryStlSaver_DestroyArray</name>
@@ -531,16 +477,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshSave_BinaryStlSaver</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="139" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="139" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1aef11e32f5adebec8ddb562eac432759e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_MeshSave_BinaryStlSaver_writeTri</definition>
         <argsstring>(MR_MeshSave_BinaryStlSaver *_this, const MR_std_array_MR_Vector3f_3 *tri)</argsstring>
         <name>MR_MeshSave_BinaryStlSaver_writeTri</name>
@@ -549,7 +495,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref> *</type>
+          <type>const <ref refid="structMR__std__array__MR__Vector3f__3" kindref="compound">MR_std_array_MR_Vector3f_3</ref> *</type>
           <declname>tri</declname>
         </param>
         <briefdescription>
@@ -559,10 +505,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="145" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="145" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1aaabebe37b094f03cd6ed12a3fe071323" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_MeshSave_BinaryStlSaver_updateHeadCounter</definition>
         <argsstring>(MR_MeshSave_BinaryStlSaver *_this)</argsstring>
         <name>MR_MeshSave_BinaryStlSaver_updateHeadCounter</name>
@@ -577,10 +523,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="151" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="151" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a968aaf959c0f844afab41fb3cedc3188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toAsciiStl_std_filesystem_path</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toAsciiStl_std_filesystem_path</name>
@@ -603,14 +549,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves in textual .stl file; SaveSettings::onlyValidPoints = false is ignored Generated from function <computeroutput>MR::MeshSave::toAsciiStl</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>saves in textual .stl file; SaveSettings::onlyValidPoints = false is ignored Generated from function <computeroutput>MR::MeshSave::toAsciiStl</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="161" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="161" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="161" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="161" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1abc88d210707eed8abc6a4b5e98b801e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toAsciiStl_std_ostream</definition>
         <argsstring>(const MR_Mesh *mesh, MR_std_ostream *out, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toAsciiStl_std_ostream</name>
@@ -629,14 +575,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toAsciiStl</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toAsciiStl</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="169" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="169" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="169" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="169" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a771b301307eb3a120028407862ac4c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toPly_std_filesystem_path</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toPly_std_filesystem_path</name>
@@ -659,14 +605,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves in .ply file Generated from function <computeroutput>MR::MeshSave::toPly</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>saves in .ply file Generated from function <computeroutput>MR::MeshSave::toPly</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="178" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="178" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="178" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="178" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a89700869b4f1e36c7058d5c367193f41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toPly_std_ostream</definition>
         <argsstring>(const MR_Mesh *mesh, MR_std_ostream *out, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toPly_std_ostream</name>
@@ -685,14 +631,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toPly</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toPly</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="186" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="186" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="186" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="186" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a365d28c76973f03911839bd21206c847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toModel3mf_std_filesystem_path</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toModel3mf_std_filesystem_path</name>
@@ -715,14 +661,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves in 3mf .model file Generated from function <computeroutput>MR::MeshSave::toModel3mf</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>saves in 3mf .model file Generated from function <computeroutput>MR::MeshSave::toModel3mf</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="195" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="195" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="195" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="195" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1acd79545a4175c372bd17ac2ca5d8370c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toModel3mf_std_ostream</definition>
         <argsstring>(const MR_Mesh *mesh, MR_std_ostream *out, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toModel3mf_std_ostream</name>
@@ -741,14 +687,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshSave::toModel3mf</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshSave::toModel3mf</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="203" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="203" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="203" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="203" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1aa2ad8210b2c7d6c3377330bc89b63ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_to3mf</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_to3mf</name>
@@ -771,14 +717,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves in .3mf file Generated from function <computeroutput>MR::MeshSave::to3mf</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>saves in .3mf file Generated from function <computeroutput>MR::MeshSave::to3mf</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="212" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="212" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="212" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="212" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1a82c411e8ebdadfc3cd47a800f2385591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3</definition>
         <argsstring>(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toAnySupportedFormat_3</name>
@@ -801,14 +747,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>detects the format from file extension and save mesh to it Generated from function <computeroutput>MR::MeshSave::toAnySupportedFormat</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>detects the format from file extension and save mesh to it Generated from function <computeroutput>MR::MeshSave::toAnySupportedFormat</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="221" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="221" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="221" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="221" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSave_8h_1afdfa0261ec2ecc94efd1281d1f8a2290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_4</definition>
         <argsstring>(const MR_Mesh *mesh, const char *extension, const char *extension_end, MR_std_ostream *out, const MR_SaveSettings *settings)</argsstring>
         <name>MR_MeshSave_toAnySupportedFormat_4</name>
@@ -835,11 +781,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>extension in <computeroutput>*.ext</computeroutput> format Generated from function <computeroutput>MR::MeshSave::toAnySupportedFormat</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>extension</computeroutput> can not be null. If <computeroutput>extension_end</computeroutput> is null, then <computeroutput>extension</computeroutput> is assumed to be null-terminated. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>extension in <computeroutput>*.ext</computeroutput> format Generated from function <computeroutput>MR::MeshSave::toAnySupportedFormat</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>extension</computeroutput> can not be null. If <computeroutput>extension_end</computeroutput> is null, then <computeroutput>extension</computeroutput> is assumed to be null-terminated. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" line="232" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h" declline="232" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" line="232" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h" declline="232" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -849,8 +795,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -859,73 +805,73 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMeshSave_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRMeshSave_8h_1a66434f88501a5c24a45cf39f9dbcadbb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRSaveSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRMeshSave_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRMeshSave_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRMeshSave_8h_1a933fad1748853c0c595a157b9f6527c6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRSaveSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__std__array__MR__Vector3f__3" kindref="compound">MR_std_array_MR_Vector3f_3</ref><sp/><ref refid="structMR__std__array__MR__Vector3f__3" kindref="compound">MR_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRMeshSave_8h_1a50171a4415fb971d9c474ed66728b404" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a50171a4415fb971d9c474ed66728b404" kindref="member">MR_MeshSave_toMrmesh_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="33" refid="MRMeshSave_8h_1a50171a4415fb971d9c474ed66728b404" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a50171a4415fb971d9c474ed66728b404" kindref="member">MR_MeshSave_toMrmesh_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRMeshSave_8h_1a206af16865defc8bd288d9c57105594f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a206af16865defc8bd288d9c57105594f" kindref="member">MR_MeshSave_toMrmesh_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="41" refid="MRMeshSave_8h_1a206af16865defc8bd288d9c57105594f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a206af16865defc8bd288d9c57105594f" kindref="member">MR_MeshSave_toMrmesh_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRMeshSave_8h_1a161a88837ab54ed6c2c3a12b909a2647" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a161a88837ab54ed6c2c3a12b909a2647" kindref="member">MR_MeshSave_toOff_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="50" refid="MRMeshSave_8h_1a161a88837ab54ed6c2c3a12b909a2647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a161a88837ab54ed6c2c3a12b909a2647" kindref="member">MR_MeshSave_toOff_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRMeshSave_8h_1ab690fd4d467d745ff7e3e37498d89609" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1ab690fd4d467d745ff7e3e37498d89609" kindref="member">MR_MeshSave_toOff_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="58" refid="MRMeshSave_8h_1ab690fd4d467d745ff7e3e37498d89609" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1ab690fd4d467d745ff7e3e37498d89609" kindref="member">MR_MeshSave_toOff_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRMeshSave_8h_1a30eb7ebb01ecaebaddb7cf943dbadf4d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a30eb7ebb01ecaebaddb7cf943dbadf4d" kindref="member">MR_MeshSave_toObj_4_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstVertId);</highlight></codeline>
+<codeline lineno="67" refid="MRMeshSave_8h_1a30eb7ebb01ecaebaddb7cf943dbadf4d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a30eb7ebb01ecaebaddb7cf943dbadf4d" kindref="member">MR_MeshSave_toObj_4_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstVertId);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRMeshSave_8h_1aa934b5546083cbd8900e99b6dd50f7c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1aa934b5546083cbd8900e99b6dd50f7c1" kindref="member">MR_MeshSave_toObj_4_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstVertId);</highlight></codeline>
+<codeline lineno="74" refid="MRMeshSave_8h_1aa934b5546083cbd8900e99b6dd50f7c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1aa934b5546083cbd8900e99b6dd50f7c1" kindref="member">MR_MeshSave_toObj_4_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstVertId);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRMeshSave_8h_1a37632458b9b2259745dd33d5943d9a3d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a37632458b9b2259745dd33d5943d9a3d" kindref="member">MR_MeshSave_toObj_3_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="82" refid="MRMeshSave_8h_1a37632458b9b2259745dd33d5943d9a3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a37632458b9b2259745dd33d5943d9a3d" kindref="member">MR_MeshSave_toObj_3_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRMeshSave_8h_1aea8a3ca2aac99480ba551025de1baea2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1aea8a3ca2aac99480ba551025de1baea2" kindref="member">MR_MeshSave_toObj_3_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="90" refid="MRMeshSave_8h_1aea8a3ca2aac99480ba551025de1baea2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1aea8a3ca2aac99480ba551025de1baea2" kindref="member">MR_MeshSave_toObj_3_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRMeshSave_8h_1a31cf43b1ce0d14abe9491be225feb51f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a31cf43b1ce0d14abe9491be225feb51f" kindref="member">MR_MeshSave_toBinaryStl_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="100" refid="MRMeshSave_8h_1a31cf43b1ce0d14abe9491be225feb51f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a31cf43b1ce0d14abe9491be225feb51f" kindref="member">MR_MeshSave_toBinaryStl_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRMeshSave_8h_1ab3935fe4bd91d44056020f7445e8164f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1ab3935fe4bd91d44056020f7445e8164f" kindref="member">MR_MeshSave_toBinaryStl_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="108" refid="MRMeshSave_8h_1ab3935fe4bd91d44056020f7445e8164f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1ab3935fe4bd91d44056020f7445e8164f" kindref="member">MR_MeshSave_toBinaryStl_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRMeshSave_8h_1adbebbb700722002f08383ef5d9502b30" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*<ref refid="MRMeshSave_8h_1adbebbb700722002f08383ef5d9502b30" kindref="member">MR_MeshSave_BinaryStlSaver_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="113" refid="MRMeshSave_8h_1adbebbb700722002f08383ef5d9502b30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*<ref refid="MRMeshSave_8h_1adbebbb700722002f08383ef5d9502b30" kindref="member">MR_MeshSave_BinaryStlSaver_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRMeshSave_8h_1a0aa60c622e161492fab65d2682ba3a3c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*<ref refid="MRMeshSave_8h_1a0aa60c622e161492fab65d2682ba3a3c" kindref="member">MR_MeshSave_BinaryStlSaver_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="117" refid="MRMeshSave_8h_1a0aa60c622e161492fab65d2682ba3a3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*<ref refid="MRMeshSave_8h_1a0aa60c622e161492fab65d2682ba3a3c" kindref="member">MR_MeshSave_BinaryStlSaver_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRMeshSave_8h_1a7cd0f47ce9f776da9856f6710dfabdda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*<ref refid="MRMeshSave_8h_1a7cd0f47ce9f776da9856f6710dfabdda" kindref="member">MR_MeshSave_BinaryStlSaver_OffsetMutablePtr</ref>(<ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="121" refid="MRMeshSave_8h_1a7cd0f47ce9f776da9856f6710dfabdda" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*<ref refid="MRMeshSave_8h_1a7cd0f47ce9f776da9856f6710dfabdda" kindref="member">MR_MeshSave_BinaryStlSaver_OffsetMutablePtr</ref>(<ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRMeshSave_8h_1a520f35414aca91f0d5c0f5a0d9fe636c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*<ref refid="MRMeshSave_8h_1a520f35414aca91f0d5c0f5a0d9fe636c" kindref="member">MR_MeshSave_BinaryStlSaver_Construct</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*expectedNumTris);</highlight></codeline>
+<codeline lineno="133" refid="MRMeshSave_8h_1a520f35414aca91f0d5c0f5a0d9fe636c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*<ref refid="MRMeshSave_8h_1a520f35414aca91f0d5c0f5a0d9fe636c" kindref="member">MR_MeshSave_BinaryStlSaver_Construct</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*expectedNumTris);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRMeshSave_8h_1ac10d9861eec17ae2dbf6392debb8dde9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1ac10d9861eec17ae2dbf6392debb8dde9" kindref="member">MR_MeshSave_BinaryStlSaver_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136" refid="MRMeshSave_8h_1ac10d9861eec17ae2dbf6392debb8dde9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1ac10d9861eec17ae2dbf6392debb8dde9" kindref="member">MR_MeshSave_BinaryStlSaver_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRMeshSave_8h_1aa6d60c71361d1bde95767a118e0912f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1aa6d60c71361d1bde95767a118e0912f8" kindref="member">MR_MeshSave_BinaryStlSaver_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139" refid="MRMeshSave_8h_1aa6d60c71361d1bde95767a118e0912f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1aa6d60c71361d1bde95767a118e0912f8" kindref="member">MR_MeshSave_BinaryStlSaver_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRMeshSave_8h_1aef11e32f5adebec8ddb562eac432759e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1aef11e32f5adebec8ddb562eac432759e" kindref="member">MR_MeshSave_BinaryStlSaver_writeTri</ref>(<ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*tri);</highlight></codeline>
+<codeline lineno="145" refid="MRMeshSave_8h_1aef11e32f5adebec8ddb562eac432759e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1aef11e32f5adebec8ddb562eac432759e" kindref="member">MR_MeshSave_BinaryStlSaver_writeTri</ref>(<ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__std__array__MR__Vector3f__3" kindref="compound">MR_std_array_MR_Vector3f_3</ref><sp/>*tri);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="MRMeshSave_8h_1aaabebe37b094f03cd6ed12a3fe071323" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1aaabebe37b094f03cd6ed12a3fe071323" kindref="member">MR_MeshSave_BinaryStlSaver_updateHeadCounter</ref>(<ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151" refid="MRMeshSave_8h_1aaabebe37b094f03cd6ed12a3fe071323" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshSave_8h_1aaabebe37b094f03cd6ed12a3fe071323" kindref="member">MR_MeshSave_BinaryStlSaver_updateHeadCounter</ref>(<ref refid="MRMeshSave_8h_1a15841922e4341270dd5c39f1d222792c" kindref="member">MR_MeshSave_BinaryStlSaver</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRMeshSave_8h_1a968aaf959c0f844afab41fb3cedc3188" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a968aaf959c0f844afab41fb3cedc3188" kindref="member">MR_MeshSave_toAsciiStl_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="161" refid="MRMeshSave_8h_1a968aaf959c0f844afab41fb3cedc3188" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a968aaf959c0f844afab41fb3cedc3188" kindref="member">MR_MeshSave_toAsciiStl_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRMeshSave_8h_1abc88d210707eed8abc6a4b5e98b801e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1abc88d210707eed8abc6a4b5e98b801e7" kindref="member">MR_MeshSave_toAsciiStl_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="169" refid="MRMeshSave_8h_1abc88d210707eed8abc6a4b5e98b801e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1abc88d210707eed8abc6a4b5e98b801e7" kindref="member">MR_MeshSave_toAsciiStl_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRMeshSave_8h_1a771b301307eb3a120028407862ac4c39" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a771b301307eb3a120028407862ac4c39" kindref="member">MR_MeshSave_toPly_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="178" refid="MRMeshSave_8h_1a771b301307eb3a120028407862ac4c39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a771b301307eb3a120028407862ac4c39" kindref="member">MR_MeshSave_toPly_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="MRMeshSave_8h_1a89700869b4f1e36c7058d5c367193f41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a89700869b4f1e36c7058d5c367193f41" kindref="member">MR_MeshSave_toPly_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="186" refid="MRMeshSave_8h_1a89700869b4f1e36c7058d5c367193f41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a89700869b4f1e36c7058d5c367193f41" kindref="member">MR_MeshSave_toPly_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRMeshSave_8h_1a365d28c76973f03911839bd21206c847" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a365d28c76973f03911839bd21206c847" kindref="member">MR_MeshSave_toModel3mf_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="195" refid="MRMeshSave_8h_1a365d28c76973f03911839bd21206c847" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a365d28c76973f03911839bd21206c847" kindref="member">MR_MeshSave_toModel3mf_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRMeshSave_8h_1acd79545a4175c372bd17ac2ca5d8370c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1acd79545a4175c372bd17ac2ca5d8370c" kindref="member">MR_MeshSave_toModel3mf_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="203" refid="MRMeshSave_8h_1acd79545a4175c372bd17ac2ca5d8370c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1acd79545a4175c372bd17ac2ca5d8370c" kindref="member">MR_MeshSave_toModel3mf_std_ostream</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRMeshSave_8h_1aa2ad8210b2c7d6c3377330bc89b63ec5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1aa2ad8210b2c7d6c3377330bc89b63ec5" kindref="member">MR_MeshSave_to3mf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="212" refid="MRMeshSave_8h_1aa2ad8210b2c7d6c3377330bc89b63ec5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1aa2ad8210b2c7d6c3377330bc89b63ec5" kindref="member">MR_MeshSave_to3mf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRMeshSave_8h_1a82c411e8ebdadfc3cd47a800f2385591" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a82c411e8ebdadfc3cd47a800f2385591" kindref="member">MR_MeshSave_toAnySupportedFormat_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="221" refid="MRMeshSave_8h_1a82c411e8ebdadfc3cd47a800f2385591" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1a82c411e8ebdadfc3cd47a800f2385591" kindref="member">MR_MeshSave_toAnySupportedFormat_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRMeshSave_8h_1afdfa0261ec2ecc94efd1281d1f8a2290" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1afdfa0261ec2ecc94efd1281d1f8a2290" kindref="member">MR_MeshSave_toAnySupportedFormat_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extension,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extension_end,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="232" refid="MRMeshSave_8h_1afdfa0261ec2ecc94efd1281d1f8a2290" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRMeshSave_8h_1afdfa0261ec2ecc94efd1281d1f8a2290" kindref="member">MR_MeshSave_toAnySupportedFormat_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extension,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extension_end,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="235"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSave.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSave.h"/>
   </compounddef>
 </doxygen>

@@ -1,12 +1,8 @@
 var MRMeshSaveObj_8h =
 [
-    [ "MR_expected_void_std_string", "MRMeshSaveObj_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
     [ "MR_MeshSave_NamedXfMesh", "MRMeshSaveObj_8h.html#ae03cad4bd459845c23e3ca76e1c55ccf", null ],
-    [ "MR_std_ostream", "MRMeshSaveObj_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_std_shared_ptr_const_MR_Mesh", "MRMeshSaveObj_8h.html#a94b819eab550077a4081785d3b3b4dc6", null ],
-    [ "MR_std_string", "MRMeshSaveObj_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_std_vector_MR_MeshSave_NamedXfMesh", "MRMeshSaveObj_8h.html#aa2a5b196251d59435fafcd7bf3369754", null ],
-    [ "MR_VertColors", "MRMeshSaveObj_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
     [ "MR_MeshSave_NamedXfMesh_AssignFromAnother", "MRMeshSaveObj_8h.html#a7dbdf56eaf547cc00506017317b7c70f", null ],
     [ "MR_MeshSave_NamedXfMesh_ConstructFrom", "MRMeshSaveObj_8h.html#ac28356bfd8a49e0636dc9605119343e4", null ],
     [ "MR_MeshSave_NamedXfMesh_ConstructFromAnother", "MRMeshSaveObj_8h.html#a3fd981dd3f643c67963cd9348156bd7d", null ],

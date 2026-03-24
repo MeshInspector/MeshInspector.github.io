@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoCtor__MRGraphEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoCtor_MRGraphEdgeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_NoCtor_MRGraphEdgeId</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11184" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11184" bodyend="11184"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13758" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13758" bodyend="13758"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11189" bodyend="11194"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13763" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13763" bodyend="13768"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoCtor__MRGraphEdgeId_1a5613e061cf5095cff0a43a970f0d24da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,13 +54,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.NoCtor&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::NoCtor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::NoCtor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11199" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11199" bodyend="11205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13773" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13773" bodyend="13779"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoCtor__MRGraphEdgeId_1acb95132b802ed356ae9ec0b95cd64b83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,13 +73,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.NoCtor&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::NoCtor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::NoCtor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11210" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11210" bodyend="11210"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13784" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13784" bodyend="13784"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoCtor__MRGraphEdgeId_1ad251b31a681a5b619d687a0a8dda0e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1NoCtor__MRGraphEdgeId" kindref="compound">MR.NoCtor_MRGraphEdgeId</ref></type>
@@ -92,63 +92,63 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NoCtor&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11215" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11215" bodyend="11222"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13789" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13789" bodyend="13796"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.NoCtor&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_NoCtor_MRGraphEdgeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.NoCtor_MRGraphEdgeId</label>
         <link refid="classMR_1_1NoCtor__MRGraphEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_NoCtor_MRGraphEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_NoCtor_MRGraphEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_NoCtor_MRGraphEdgeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.NoCtor_MRGraphEdgeId</label>
         <link refid="classMR_1_1NoCtor__MRGraphEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_NoCtor_MRGraphEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_NoCtor_MRGraphEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11182" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11183" bodyend="11223"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13756" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13757" bodyend="13797"/>
     <listofallmembers>
       <member refid="classMR_1_1NoCtor__MRGraphEdgeId_1ad251b31a681a5b619d687a0a8dda0e2a" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRGraphEdgeId</scope><name>assign</name></member>
       <member refid="classMR_1_1NoCtor__MRGraphEdgeId_1a687da785250f85d0f28039883f07e23e" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRGraphEdgeId</scope><name>NoCtor_MRGraphEdgeId</name></member>

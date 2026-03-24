@@ -2,7 +2,6 @@ var MRIOFilters_8h =
 [
     [ "MR_IOFilter", "MRIOFilters_8h.html#a86edf3ec5c251b6d45c75d48abe44d7b", null ],
     [ "MR_std_optional_MR_IOFilter", "MRIOFilters_8h.html#a6f9457ad555cbcec459fa345ec845f0f", null ],
-    [ "MR_std_string", "MRIOFilters_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_std_vector_MR_IOFilter", "MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df", null ],
     [ "MR_bitor_std_vector_MR_IOFilter", "MRIOFilters_8h.html#a7e3a7e3f734c8be6fbf505d8b2ad32af", null ],
     [ "MR_findFilter", "MRIOFilters_8h.html#a2641f6512c03a36c739fc1010c6db1c6", null ],

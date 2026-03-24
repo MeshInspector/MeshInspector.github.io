@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__MeshComponentsGroup" kind="group">
     <compoundname>MeshComponentsGroup</compoundname>
     <title>MeshComponents</title>
@@ -33,13 +33,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="19" bodyend="22"/>
+        <location file="MRMesh/MRMeshComponents.h" line="18" column="1" bodyfile="MRMesh/MRMeshComponents.h" bodystart="19" bodyend="22"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gae323fa14adee0d37e4e3f4162b02cec4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getComponent</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga823ed70b2a3f8987017e57cbc9ae2789" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::MeshComponents::getComponent</definition>
         <argsstring>(const MeshPart &amp;meshPart, FaceId id, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getComponent</name>
         <qualifiedname>MR::MeshComponents::getComponent</qualifiedname>
@@ -68,11 +68,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="26" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="26" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="26" column="14" declfile="MRMesh/MRMeshComponents.h" declline="26" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga21483f6451c3d64c44217ec15be4f110" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertBitSet</type>
-        <definition>MRMESH_API VertBitSet MR::MeshComponents::getComponentVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga75b5490074101f02a07ffafbe1d42d12" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::MeshComponents::getComponentVerts</definition>
         <argsstring>(const Mesh &amp;mesh, VertId id, const VertBitSet *region=nullptr)</argsstring>
         <name>getComponentVerts</name>
         <qualifiedname>MR::MeshComponents::getComponentVerts</qualifiedname>
@@ -96,11 +96,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="31" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="31" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="31" column="14" declfile="MRMesh/MRMeshComponents.h" declline="31" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7e21cd646141fd510e181ca8be259013" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertBitSet</type>
-        <definition>MRMESH_API VertBitSet MR::MeshComponents::getLargestComponentVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga80cae558467e7bd7f1653b46bb13948f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::MeshComponents::getLargestComponentVerts</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet *region=nullptr)</argsstring>
         <name>getLargestComponentVerts</name>
         <qualifiedname>MR::MeshComponents::getLargestComponentVerts</qualifiedname>
@@ -120,11 +120,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="34" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="34" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="34" column="14" declfile="MRMesh/MRMeshComponents.h" declline="34" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gae06989e422b7f72d02f514e959af0951" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertBitSet</type>
-        <definition>MRMESH_API VertBitSet MR::MeshComponents::getLargeComponentVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaf4ae6e26c37957e4d8c21b753af0d451" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::MeshComponents::getLargeComponentVerts</definition>
         <argsstring>(const Mesh &amp;mesh, int minVerts, const VertBitSet *region=nullptr)</argsstring>
         <name>getLargeComponentVerts</name>
         <qualifiedname>MR::MeshComponents::getLargeComponentVerts</qualifiedname>
@@ -158,11 +158,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="37" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="37" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="37" column="14" declfile="MRMesh/MRMeshComponents.h" declline="37" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gad4fc1494175cf23d40b88e84ff7aaf10" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getLargestComponent</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gad1f06f5521d13b8e679953ce57f4e690" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::MeshComponents::getLargestComponent</definition>
         <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={}, float minArea=0, int *numSmallerComponents=nullptr)</argsstring>
         <name>getLargestComponent</name>
         <qualifiedname>MR::MeshComponents::getLargestComponent</qualifiedname>
@@ -207,11 +207,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="41" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="41" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="41" column="14" declfile="MRMesh/MRMeshComponents.h" declline="41" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7ddf49eb92204fc207139407ae3bd40b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaab630260881d2a238df5dfc1d9a31517" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::MeshComponents::getComponents</definition>
         <argsstring>(const MeshPart &amp;meshPart, const FaceBitSet &amp;seeds, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getComponents</name>
         <qualifiedname>MR::MeshComponents::getComponents</qualifiedname>
@@ -240,11 +240,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="46" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="46" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="46" column="14" declfile="MRMesh/MRMeshComponents.h" declline="46" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga66b96824c77d512f0808874d7ab1cccd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga96e3045fbc7e35b4c183ed1fdb98850b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::MeshComponents::getComponents</definition>
         <argsstring>(const MeshTopology &amp;topology, const FaceBitSet &amp;seeds, const FaceBitSet *region=nullptr, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getComponents</name>
         <qualifiedname>MR::MeshComponents::getComponents</qualifiedname>
@@ -277,11 +277,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="48" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="48" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="48" column="14" declfile="MRMesh/MRMeshComponents.h" declline="48" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga2c1a5bdd9924f310ad8cc32808c28c81" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
         <argsstring>(const MeshPart &amp;meshPart, float minArea, const UndirectedEdgeBitSet *isCompBd)</argsstring>
         <name>getLargeByAreaComponents</name>
         <qualifiedname>MR::MeshComponents::getLargeByAreaComponents</qualifiedname>
@@ -304,11 +304,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="52" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="52" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="52" column="14" declfile="MRMesh/MRMeshComponents.h" declline="52" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gab667645725f8c74c78000972ab0e75a3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gad617931e08318ec49a55b018164c1c74" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
         <argsstring>(const MeshPart &amp;meshPart, UnionFind&lt; FaceId &gt; &amp;unionFind, float minArea, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</argsstring>
         <name>getLargeByAreaComponents</name>
         <qualifiedname>MR::MeshComponents::getLargeByAreaComponents</qualifiedname>
@@ -336,11 +336,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="55" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="55" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="55" column="14" declfile="MRMesh/MRMeshComponents.h" declline="55" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gaf0219dbc9312e96572e354d4a8ef45c5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
-        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::MeshComponents::expandToComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga8f7b3aea1e17934f892932ac212a71f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FaceBitSet &gt;</type>
+        <definition>Expected&lt; FaceBitSet &gt; MR::MeshComponents::expandToComponents</definition>
         <argsstring>(const MeshPart &amp;mp, const FaceBitSet &amp;seeds, const ExpandToComponentsParams &amp;params={})</argsstring>
         <name>expandToComponents</name>
         <qualifiedname>MR::MeshComponents::expandToComponents</qualifiedname>
@@ -364,11 +364,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="77" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="77" declcolumn="22"/>
+        <location file="MRMesh/MRMeshComponents.h" line="77" column="12" declfile="MRMesh/MRMeshComponents.h" declline="77" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga605347dc67b8e8d516df2782b68a805d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; FaceBitSet &gt;</type>
-        <definition>MRMESH_API std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getNLargeByAreaComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga23b859fdd8b110e1159c392f9f891f77" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; FaceBitSet &gt;</type>
+        <definition>std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getNLargeByAreaComponents</definition>
         <argsstring>(const MeshPart &amp;meshPart, const LargeByAreaComponentsSettings &amp;settings)</argsstring>
         <name>getNLargeByAreaComponents</name>
         <qualifiedname>MR::MeshComponents::getNLargeByAreaComponents</qualifiedname>
@@ -387,11 +387,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="95" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="95" declcolumn="25"/>
+        <location file="MRMesh/MRMeshComponents.h" line="95" column="15" declfile="MRMesh/MRMeshComponents.h" declline="95" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gab9901c9bddcd57e5616458bb61414654" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getLargeByAreaSmoothComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gafd9d69cd8ee018f61cfec8cdfe055f95" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::MeshComponents::getLargeByAreaSmoothComponents</definition>
         <argsstring>(const MeshPart &amp;meshPart, float minArea, float angleFromPlanar, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</argsstring>
         <name>getLargeByAreaSmoothComponents</name>
         <qualifiedname>MR::MeshComponents::getLargeByAreaSmoothComponents</qualifiedname>
@@ -419,11 +419,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="99" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="99" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="99" column="14" declfile="MRMesh/MRMeshComponents.h" declline="99" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gae360882572a82620a889fa7315e143f9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertBitSet</type>
-        <definition>MRMESH_API VertBitSet MR::MeshComponents::getComponentsVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gac2482651f614e0165c208254ab32c6fa" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::MeshComponents::getComponentsVerts</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;seeds, const VertBitSet *region=nullptr)</argsstring>
         <name>getComponentsVerts</name>
         <qualifiedname>MR::MeshComponents::getComponentsVerts</qualifiedname>
@@ -447,11 +447,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="103" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="103" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="103" column="14" declfile="MRMesh/MRMeshComponents.h" declline="103" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga32700de033e86d62c6191e9e36d38900" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API size_t</type>
-        <definition>MRMESH_API size_t MR::MeshComponents::getNumComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gae974a625c63fc8fe114d87f296074399" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::MeshComponents::getNumComponents</definition>
         <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getNumComponents</name>
         <qualifiedname>MR::MeshComponents::getNumComponents</qualifiedname>
@@ -476,11 +476,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="107" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="107" declcolumn="20"/>
+        <location file="MRMesh/MRMeshComponents.h" line="107" column="10" declfile="MRMesh/MRMeshComponents.h" declline="107" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga180f187a1a42a74bc04780f4108b79f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; FaceBitSet &gt;</type>
-        <definition>MRMESH_API std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getAllComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gac9ffcc637ef2fbb6ebbeda874df5abe5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; FaceBitSet &gt;</type>
+        <definition>std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getAllComponents</definition>
         <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getAllComponents</name>
         <qualifiedname>MR::MeshComponents::getAllComponents</qualifiedname>
@@ -507,11 +507,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="112" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="112" declcolumn="25"/>
+        <location file="MRMesh/MRMeshComponents.h" line="112" column="15" declfile="MRMesh/MRMeshComponents.h" declline="112" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga127ab85dbcf9d5eb4d0cbe544f600220" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt;</type>
-        <definition>MRMESH_API std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt; MR::MeshComponents::getAllComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaa93eb46b6c87bd17060bee960111398c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt;</type>
+        <definition>std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt; MR::MeshComponents::getAllComponents</definition>
         <argsstring>(const MeshPart &amp;meshPart, int maxComponentCount, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getAllComponents</name>
         <qualifiedname>MR::MeshComponents::getAllComponents</qualifiedname>
@@ -551,11 +551,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="119" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="119" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="119" column="13" declfile="MRMesh/MRMeshComponents.h" declline="119" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga4cf74d4564ff134bb6415bbcfe4feb42" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; FaceBitSet &gt;</type>
-        <definition>MRMESH_API std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getAllComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga97b195864ae6464fc4af8dbbfbf12c25" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; FaceBitSet &gt;</type>
+        <definition>std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getAllComponents</definition>
         <argsstring>(Face2RegionMap &amp;componentsMap, int componentsCount, const FaceBitSet &amp;region, int maxComponentCount)</argsstring>
         <name>getAllComponents</name>
         <qualifiedname>MR::MeshComponents::getAllComponents</qualifiedname>
@@ -593,11 +593,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="126" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="126" declcolumn="25"/>
+        <location file="MRMesh/MRMeshComponents.h" line="126" column="15" declfile="MRMesh/MRMeshComponents.h" declline="126" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gad3a06dae127c3ec8a96a7753bb54f38d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::pair&lt; Face2RegionMap, int &gt;</type>
-        <definition>MRMESH_API std::pair&lt; Face2RegionMap, int &gt; MR::MeshComponents::getAllComponentsMap</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga2aab1963ab19bf9523812ac0264c0841" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; Face2RegionMap, int &gt;</type>
+        <definition>std::pair&lt; Face2RegionMap, int &gt; MR::MeshComponents::getAllComponentsMap</definition>
         <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getAllComponentsMap</name>
         <qualifiedname>MR::MeshComponents::getAllComponentsMap</qualifiedname>
@@ -626,11 +626,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="132" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="132" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="132" column="13" declfile="MRMesh/MRMeshComponents.h" declline="132" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga4fed6b1a7dee671512d111e0c2afa504" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Vector&lt; double, RegionId &gt;</type>
-        <definition>MRMESH_API Vector&lt; double, RegionId &gt; MR::MeshComponents::getRegionAreas</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gabb9aee33af237e8ace6daa0b6b7ba783" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector&lt; double, RegionId &gt;</type>
+        <definition>Vector&lt; double, RegionId &gt; MR::MeshComponents::getRegionAreas</definition>
         <argsstring>(const MeshPart &amp;meshPart, const Face2RegionMap &amp;regionMap, int numRegions)</argsstring>
         <name>getRegionAreas</name>
         <qualifiedname>MR::MeshComponents::getRegionAreas</qualifiedname>
@@ -653,11 +653,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="136" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="136" declcolumn="20"/>
+        <location file="MRMesh/MRMeshComponents.h" line="136" column="10" declfile="MRMesh/MRMeshComponents.h" declline="136" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gac1a5db55dea6e15effad7c7ba1df9ed3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::pair&lt; FaceBitSet, int &gt;</type>
-        <definition>MRMESH_API std::pair&lt; FaceBitSet, int &gt; MR::MeshComponents::getLargeByAreaRegions</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaf0690687907bc23ce3b2772500238124" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; FaceBitSet, int &gt;</type>
+        <definition>std::pair&lt; FaceBitSet, int &gt; MR::MeshComponents::getLargeByAreaRegions</definition>
         <argsstring>(const MeshPart &amp;meshPart, const Face2RegionMap &amp;regionMap, int numRegions, float minArea)</argsstring>
         <name>getLargeByAreaRegions</name>
         <qualifiedname>MR::MeshComponents::getLargeByAreaRegions</qualifiedname>
@@ -688,11 +688,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="142" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="142" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="142" column="13" declfile="MRMesh/MRMeshComponents.h" declline="142" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gacf901304f8dae140ebe581b9fefcf3e8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; VertBitSet &gt;</type>
-        <definition>MRMESH_API std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gac3f08916e38c544b82948eebe0ad7927" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; VertBitSet &gt;</type>
+        <definition>std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVerts</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet *region=nullptr)</argsstring>
         <name>getAllComponentsVerts</name>
         <qualifiedname>MR::MeshComponents::getAllComponentsVerts</qualifiedname>
@@ -712,11 +712,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="146" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="146" declcolumn="25"/>
+        <location file="MRMesh/MRMeshComponents.h" line="146" column="15" declfile="MRMesh/MRMeshComponents.h" declline="146" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga2b1d2f430d5544f3129616e7909e2210" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; VertBitSet &gt;</type>
-        <definition>MRMESH_API std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVertsSeparatedByPath</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga44be685ea9ba443cf22a7e0e8c370e94" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; VertBitSet &gt;</type>
+        <definition>std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVertsSeparatedByPath</definition>
         <argsstring>(const Mesh &amp;mesh, const SurfacePath &amp;path)</argsstring>
         <name>getAllComponentsVertsSeparatedByPath</name>
         <qualifiedname>MR::MeshComponents::getAllComponentsVertsSeparatedByPath</qualifiedname>
@@ -735,11 +735,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="149" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="149" declcolumn="25"/>
+        <location file="MRMesh/MRMeshComponents.h" line="149" column="15" declfile="MRMesh/MRMeshComponents.h" declline="149" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga04428c18d364e05a14deea6fa9537514" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; VertBitSet &gt;</type>
-        <definition>MRMESH_API std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVertsSeparatedByPaths</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga35d4be81290a02ce78331c6173eac4f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; VertBitSet &gt;</type>
+        <definition>std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVertsSeparatedByPaths</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; SurfacePath &gt; &amp;paths)</argsstring>
         <name>getAllComponentsVertsSeparatedByPaths</name>
         <qualifiedname>MR::MeshComponents::getAllComponentsVertsSeparatedByPaths</qualifiedname>
@@ -758,11 +758,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="152" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="152" declcolumn="25"/>
+        <location file="MRMesh/MRMeshComponents.h" line="152" column="15" declfile="MRMesh/MRMeshComponents.h" declline="152" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7becc9588891fae069b72605a081462e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; EdgeBitSet &gt;</type>
-        <definition>MRMESH_API std::vector&lt; EdgeBitSet &gt; MR::MeshComponents::getAllComponentsEdges</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gafdcffc76ac25f878c3b7396979b31a59" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; EdgeBitSet &gt;</type>
+        <definition>std::vector&lt; EdgeBitSet &gt; MR::MeshComponents::getAllComponentsEdges</definition>
         <argsstring>(const Mesh &amp;mesh, const EdgeBitSet &amp;edges)</argsstring>
         <name>getAllComponentsEdges</name>
         <qualifiedname>MR::MeshComponents::getAllComponentsEdges</qualifiedname>
@@ -781,11 +781,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="155" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="155" declcolumn="25"/>
+        <location file="MRMesh/MRMeshComponents.h" line="155" column="15" declfile="MRMesh/MRMeshComponents.h" declline="155" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gaa2a0c5fb3196196acd144c6fa53c0fec" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; UndirectedEdgeBitSet &gt;</type>
-        <definition>MRMESH_API std::vector&lt; UndirectedEdgeBitSet &gt; MR::MeshComponents::getAllComponentsUndirectedEdges</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga771199217cd0fe03f92ad929b794ea15" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; UndirectedEdgeBitSet &gt;</type>
+        <definition>std::vector&lt; UndirectedEdgeBitSet &gt; MR::MeshComponents::getAllComponentsUndirectedEdges</definition>
         <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;edges)</argsstring>
         <name>getAllComponentsUndirectedEdges</name>
         <qualifiedname>MR::MeshComponents::getAllComponentsUndirectedEdges</qualifiedname>
@@ -804,11 +804,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="158" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="158" declcolumn="25"/>
+        <location file="MRMesh/MRMeshComponents.h" line="158" column="15" declfile="MRMesh/MRMeshComponents.h" declline="158" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gac4401b9655de3a844caf1234d8f453cf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::MeshComponents::hasFullySelectedComponent</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gab766c6742304e7dd92a89641da49284c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshComponents::hasFullySelectedComponent</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;selection)</argsstring>
         <name>hasFullySelectedComponent</name>
         <qualifiedname>MR::MeshComponents::hasFullySelectedComponent</qualifiedname>
@@ -827,11 +827,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="161" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="161" declcolumn="18"/>
+        <location file="MRMesh/MRMeshComponents.h" line="161" column="8" declfile="MRMesh/MRMeshComponents.h" declline="161" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gae10aa0366634495e852266e756441a82" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::MeshComponents::hasFullySelectedComponent</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaa41df9253ef4b45f4766fbed05ec4298" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshComponents::hasFullySelectedComponent</definition>
         <argsstring>(const MeshTopology &amp;topology, const VertBitSet &amp;selection)</argsstring>
         <name>hasFullySelectedComponent</name>
         <qualifiedname>MR::MeshComponents::hasFullySelectedComponent</qualifiedname>
@@ -849,11 +849,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="162" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="162" declcolumn="18"/>
+        <location file="MRMesh/MRMeshComponents.h" line="162" column="8" declfile="MRMesh/MRMeshComponents.h" declline="162" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gad556a5b5ed5f6001f378455d5b5a822c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::MeshComponents::excludeFullySelectedComponents</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gafb34a3c82c94661207c96d0fb0f48a27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MeshComponents::excludeFullySelectedComponents</definition>
         <argsstring>(const Mesh &amp;mesh, VertBitSet &amp;selection)</argsstring>
         <name>excludeFullySelectedComponents</name>
         <qualifiedname>MR::MeshComponents::excludeFullySelectedComponents</qualifiedname>
@@ -872,11 +872,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="165" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="165" declcolumn="17"/>
+        <location file="MRMesh/MRMeshComponents.h" line="165" column="7" declfile="MRMesh/MRMeshComponents.h" declline="165" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gac10c907d8a075e150d83213c07b5a200" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; FaceId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gababcff843eb7d0922339ed7becf7ca23" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; FaceId &gt;</type>
+        <definition>UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
         <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getUnionFindStructureFaces</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureFaces</qualifiedname>
@@ -901,11 +901,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="168" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="168" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="168" column="13" declfile="MRMesh/MRMeshComponents.h" declline="168" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga12885a556aa2c72c212aa5a7b1ea3906" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; FaceId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga3be1646e88ab7d6cafe9a020ba75c434" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; FaceId &gt;</type>
+        <definition>UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
         <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getUnionFindStructureFaces</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureFaces</qualifiedname>
@@ -934,11 +934,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="169" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="169" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="169" column="13" declfile="MRMesh/MRMeshComponents.h" declline="169" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga03aa19f1555050b3ad3cadd0034b94e8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; FaceId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7d9b47c38d78d37528e8b728632ea875" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; FaceId &gt;</type>
+        <definition>UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
         <argsstring>(const MeshPart &amp;meshPart, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getUnionFindStructureFacesPerEdge</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureFacesPerEdge</qualifiedname>
@@ -958,11 +958,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="173" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="173" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="173" column="13" declfile="MRMesh/MRMeshComponents.h" declline="173" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga08009215f08ce1a3fbe9ff82cdf1b110" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; FaceId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga6621f0b03784d1eba11d9394c25bbc0b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; FaceId &gt;</type>
+        <definition>UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
         <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getUnionFindStructureFacesPerEdge</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureFacesPerEdge</qualifiedname>
@@ -986,11 +986,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="174" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="174" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="174" column="13" declfile="MRMesh/MRMeshComponents.h" declline="174" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga0c25b3e3697cc2efad3f13c664fc87ec" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaab4f40960e177485925e0ef983994118" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; VertId &gt;</type>
+        <definition>UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet *region=nullptr)</argsstring>
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureVerts</qualifiedname>
@@ -1010,11 +1010,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="177" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="177" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="177" column="13" declfile="MRMesh/MRMeshComponents.h" declline="177" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga157f0c78514aec4479ff1a3466741381" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga1d49179fb661df7dcb1a026fc986ec5a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; VertId &gt;</type>
+        <definition>UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
         <argsstring>(const MeshTopology &amp;topology, const VertBitSet *region=nullptr)</argsstring>
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureVerts</qualifiedname>
@@ -1033,11 +1033,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="178" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="178" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="178" column="13" declfile="MRMesh/MRMeshComponents.h" declline="178" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga03c8c808b4ba34501215afe74c09330f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga404e853471df6d94afe6a73f1ec1b7ed" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; VertId &gt;</type>
+        <definition>UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
         <argsstring>(const Mesh &amp;mesh, const EdgeBitSet &amp;edges)</argsstring>
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureVerts</qualifiedname>
@@ -1056,11 +1056,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="181" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="181" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="181" column="13" declfile="MRMesh/MRMeshComponents.h" declline="181" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gaa753927490e5b30c4541fd6c06084f0c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga54416f91858b38cf3ce7372f9de68249" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; VertId &gt;</type>
+        <definition>UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
         <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;edges)</argsstring>
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureVerts</qualifiedname>
@@ -1079,11 +1079,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="184" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="184" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="184" column="13" declfile="MRMesh/MRMeshComponents.h" declline="184" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gace26e67d5d5067fe90238bc336ac1101" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsEx</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga3b8e4f75d863fddc12966da77ca570de" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; VertId &gt;</type>
+        <definition>UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsEx</definition>
         <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;ignoreEdges)</argsstring>
         <name>getUnionFindStructureVertsEx</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureVertsEx</qualifiedname>
@@ -1102,11 +1102,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="187" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="187" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="187" column="13" declfile="MRMesh/MRMeshComponents.h" declline="187" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga397973d9e4d6ee73a9d3ceaeb494102a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7e5fd0e6213bad557af5151e1d75b907" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; VertId &gt;</type>
+        <definition>UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath</definition>
         <argsstring>(const Mesh &amp;mesh, const SurfacePath &amp;path, VertBitSet *outPathVerts=nullptr)</argsstring>
         <name>getUnionFindStructureVertsSeparatedByPath</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath</qualifiedname>
@@ -1140,11 +1140,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="194" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="194" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="194" column="13" declfile="MRMesh/MRMeshComponents.h" declline="194" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gaeea1d750f9fa547cc54e67ea7ed92bfb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsSeparatedByPaths</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gacbb33dd08f88d0e7c8d8fd20492a5286" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; VertId &gt;</type>
+        <definition>UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsSeparatedByPaths</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; SurfacePath &gt; &amp;paths, VertBitSet *outPathVerts=nullptr)</argsstring>
         <name>getUnionFindStructureVertsSeparatedByPaths</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureVertsSeparatedByPaths</qualifiedname>
@@ -1167,11 +1167,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="197" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="197" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="197" column="13" declfile="MRMesh/MRMeshComponents.h" declline="197" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gae57265eee73c6542d4d0fd525fd84dd5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UnionFind&lt; UndirectedEdgeId &gt;</type>
-        <definition>MRMESH_API UnionFind&lt; UndirectedEdgeId &gt; MR::MeshComponents::getUnionFindStructureUndirectedEdges</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gab9cb78e1a9f65624f29658dc041cc0c7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; UndirectedEdgeId &gt;</type>
+        <definition>UnionFind&lt; UndirectedEdgeId &gt; MR::MeshComponents::getUnionFindStructureUndirectedEdges</definition>
         <argsstring>(const Mesh &amp;mesh, bool allPointToRoots=false)</argsstring>
         <name>getUnionFindStructureUndirectedEdges</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureUndirectedEdges</qualifiedname>
@@ -1208,11 +1208,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="202" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="202" declcolumn="23"/>
+        <location file="MRMesh/MRMeshComponents.h" line="202" column="13" declfile="MRMesh/MRMeshComponents.h" declline="202" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga459f3f630779f6450c9139dc3f6b8cc1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UndirectedEdgeBitSet</type>
-        <definition>MRMESH_API UndirectedEdgeBitSet MR::MeshComponents::getComponentsUndirectedEdges</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga144b55cc0f8b4e8963f7316fa8abc761" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UndirectedEdgeBitSet</type>
+        <definition>UndirectedEdgeBitSet MR::MeshComponents::getComponentsUndirectedEdges</definition>
         <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;seeds)</argsstring>
         <name>getComponentsUndirectedEdges</name>
         <qualifiedname>MR::MeshComponents::getComponentsUndirectedEdges</qualifiedname>
@@ -1231,7 +1231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="205" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="205" declcolumn="34"/>
+        <location file="MRMesh/MRMeshComponents.h" line="205" column="24" declfile="MRMesh/MRMeshComponents.h" declline="205" declcolumn="24"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

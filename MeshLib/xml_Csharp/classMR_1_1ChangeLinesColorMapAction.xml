@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeLinesColorMapAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeLinesColorMapAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeLinesColorMapAction</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="942" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="942" bodyend="947"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="724" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="724" bodyend="731"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a98f68cd39416ff47510cb7b016e697ea" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="950" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="950" bodyend="957"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="734" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="734" bodyend="743"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="959" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="959" bodyend="959"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a8d615c4582cf836b90853806272f917a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ChangeLinesColorMapAction</name>
-        <qualifiedname>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="961" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="961" bodyend="961"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="745" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="745" bodyend="745"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -99,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="966" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="966" bodyend="972"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="750" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="750" bodyend="756"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a6cf01ebe9bc06ed61d94193aad88d3a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -118,13 +96,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="977" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="977" bodyend="977"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="761" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="761" bodyend="761"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a0ab8d35480b7eb69f9cd7c630a4fee39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -137,18 +115,18 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="982" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="982" bodyend="982"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="766" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="766" bodyend="766"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a3fd652887080b57b506147124b6e1976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1adddffe67ff0dd382cefa11eb0968c0b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</definition>
-        <argsstring>(string name, MR.Const_ObjectLinesHolder obj)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectLinesHolder obj)</argsstring>
         <name>ChangeLinesColorMapAction</name>
         <qualifiedname>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</qualifiedname>
         <param>
@@ -156,22 +134,22 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectLinesHolder</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectLinesHolder</type>
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s line colors before making any changes in them Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>use this constructor to remember object's line colors before making any changes in them Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="988" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="988" bodyend="998"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="772" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="772" bodyend="782"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1aec33ae745ec339cd519461dca0ed427e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a4b73c067ecdf4c85e6968c022f3e275d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</definition>
-        <argsstring>(string name, MR.Const_ObjectLinesHolder obj, MR.Misc._Moved&lt; MR.UndirectedEdgeColors &gt; newColorMap)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectLinesHolder obj, MR.Misc._Moved&lt; MR.UndirectedEdgeColors &gt; newColorMap)</argsstring>
         <name>ChangeLinesColorMapAction</name>
         <qualifiedname>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</qualifiedname>
         <param>
@@ -179,7 +157,7 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectLinesHolder</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectLinesHolder</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -187,13 +165,13 @@
           <declname>newColorMap</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s lines colors and immediate set new value Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>use this constructor to remember object's lines colors and immediate set new value Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="1004" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="1004" bodyend="1015"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="788" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="788" bodyend="799"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a9a09e75736baa78344ae40822541c80e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ChangeLinesColorMapAction" kindref="compound">MR.ChangeLinesColorMapAction</ref></type>
@@ -206,13 +184,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeLinesColorMapAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeLinesColorMapAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="1020" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="1020" bodyend="1027"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="804" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="804" bodyend="811"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a23aa373dabe7a51b693db16e5c98fd27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -231,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="1032" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="1032" bodyend="1037"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="816" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="816" bodyend="821"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -240,58 +218,57 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeLinesColorMapAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeLinesColorMapAction</label>
         <link refid="classMR_1_1ChangeLinesColorMapAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeLinesColorMapAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeLinesColorMapAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeLinesColorMapAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeLinesColorMapAction</label>
         <link refid="classMR_1_1ChangeLinesColorMapAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeLinesColorMapAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeLinesColorMapAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="939" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="940" bodyend="1038"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="721" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="722" bodyend="822"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a23aa373dabe7a51b693db16e5c98fd27" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a9a09e75736baa78344ae40822541c80e" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1aaebf5f1fedf1072c2ab37f954277d8c4" prot="package" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
-      <member refid="classMR_1_1ChangeLinesColorMapAction_1a8d615c4582cf836b90853806272f917a" prot="package" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a6cf01ebe9bc06ed61d94193aad88d3a3" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a0ab8d35480b7eb69f9cd7c630a4fee39" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
-      <member refid="classMR_1_1ChangeLinesColorMapAction_1a3fd652887080b57b506147124b6e1976" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
-      <member refid="classMR_1_1ChangeLinesColorMapAction_1aec33ae745ec339cd519461dca0ed427e" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1ChangeLinesColorMapAction_1adddffe67ff0dd382cefa11eb0968c0b6" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1ChangeLinesColorMapAction_1a4b73c067ecdf4c85e6968c022f3e275d" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a98f68cd39416ff47510cb7b016e697ea" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>operator ChangeLinesColorMapAction?</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a7c57befdecb0eac6f83c4396fc5d33f8" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>

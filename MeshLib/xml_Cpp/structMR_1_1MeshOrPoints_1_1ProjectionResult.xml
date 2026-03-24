@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshOrPoints_1_1ProjectionResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshOrPoints::ProjectionResult</compoundname>
-    <includes refid="MRMeshOrPoints_8h" local="no">MRMeshOrPoints.h</includes>
+    <includes refid="MRMeshOrPoints_8h" local="no">MRMesh/MRMeshOrPoints.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga975a5de8766c9ee7093fa82c4620f049" kind="variable"><name>point</name></member>
       <member refid="group__GeneralGroup_1ga1da43d795c49a78d26d63c9f1f90bdae" kind="variable"><name>normal</name></member>
@@ -18,7 +18,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="71" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="72" bodyend="92"/>
+    <location file="MRMesh/MRMeshOrPoints.h" line="71" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="72" bodyend="92"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacd151f3c2558f8dc870aa2172d32a00e" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>closestVert</name></member>
       <member refid="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>distSq</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RebuildMeshSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::RebuildMeshSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_RebuildMeshSettings</basecompoundref>
@@ -11,13 +11,13 @@
         <name>preSubdivide</name>
         <qualifiedname>MR.RebuildMeshSettings.preSubdivide</qualifiedname>
         <briefdescription>
+<para>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles </para>
         </briefdescription>
         <detaileddescription>
-<para>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="252" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="252" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="276" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="276" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1af6b0bfd14a1bdf91361c18092958818c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -26,13 +26,13 @@
         <name>voxelSize</name>
         <qualifiedname>MR.RebuildMeshSettings.voxelSize</qualifiedname>
         <briefdescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here. </para>
         </briefdescription>
         <detaileddescription>
-<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="256" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="256" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="282" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a40e652cfcf9b51f248bd702feaf1a392" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1aacd4e54997154b3fd8baece917df2044" kindref="member">MR.SignDetectionModeShort</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="258" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="258" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="284" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="284" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a39c995357e466ff28935d7d5cb61080e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="261" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="261" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="289" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="289" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a17661a3ca4053eaf512af6316f5f8ddf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">MR.OffsetMode</ref></type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="263" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="263" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="291" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="291" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a2ece5739c2508a4979af93b06d90b2c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="266" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="267" bodyend="276"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="296" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="297" bodyend="306"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1af1e76cc18b9192228272bd52eda483e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -99,13 +99,13 @@
         <name>windingNumberThreshold</name>
         <qualifiedname>MR.RebuildMeshSettings.windingNumberThreshold</qualifiedname>
         <briefdescription>
+<para>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
         </briefdescription>
         <detaileddescription>
-<para>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="281" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="281" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="313" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="313" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1af049915213c1aba639b93ce800cd9ff8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -114,28 +114,28 @@
         <name>windingNumberBeta</name>
         <qualifiedname>MR.RebuildMeshSettings.windingNumberBeta</qualifiedname>
         <briefdescription>
+<para>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
         </briefdescription>
         <detaileddescription>
-<para>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="285" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="285" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="319" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="319" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a311e9844f73510dabf2388f36c2257f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">MR.IFastWindingNumber</ref></type>
-        <definition>new unsafe MR.IFastWindingNumber MR.RebuildMeshSettings.fwn</definition>
+      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1afeabe32f7ac89c253e74ebda8bf33b9d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.SharedPtr_MRIFastWindingNumber</type>
+        <definition>new unsafe MR.Std.SharedPtr_MRIFastWindingNumber MR.RebuildMeshSettings.fwn</definition>
         <argsstring></argsstring>
         <name>fwn</name>
         <qualifiedname>MR.RebuildMeshSettings.fwn</qualifiedname>
         <briefdescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings (if required). If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used </para>
         </briefdescription>
         <detaileddescription>
-<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings (if required). If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="289" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="289" bodyend="289"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="325" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="325" bodyend="325"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a49327eee56e82fb22ef3b02746f46e81" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="292" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="292" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="330" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="330" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a4970386a859f3aee311f5c91de77f57f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -159,43 +159,43 @@
         <name>tinyEdgeLength</name>
         <qualifiedname>MR.RebuildMeshSettings.tinyEdgeLength</qualifiedname>
         <briefdescription>
+<para>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio </para>
         </briefdescription>
         <detaileddescription>
-<para>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="296" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="296" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="336" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="336" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a25c06468022502c806bc59c208cbce23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.RebuildMeshSettings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1ab237acae8b1e668df00236fe5d4cfd2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.RebuildMeshSettings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.RebuildMeshSettings.progress</qualifiedname>
         <briefdescription>
-<para>To report algorithm&apos;s progress and cancel it on user demand. </para>
+<para>To report algorithm's progress and cancel it on user demand. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="299" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="299" bodyend="299"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="341" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="341" bodyend="341"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a47a6cfa3cba3da511c4030ab5bd63e37" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_VoidFuncFromMRSignDetectionMode</type>
-        <definition>new unsafe MR.Std.Function_VoidFuncFromMRSignDetectionMode MR.RebuildMeshSettings.onSignDetectionModeSelected</definition>
+      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1ad203d886815a40175d58c92989a41e3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MRSignDetectionMode</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MRSignDetectionMode MR.RebuildMeshSettings.onSignDetectionModeSelected</definition>
         <argsstring></argsstring>
         <name>onSignDetectionModeSelected</name>
         <qualifiedname>MR.RebuildMeshSettings.onSignDetectionModeSelected</qualifiedname>
         <briefdescription>
+<para>this callback is invoked when <ref refid="classMR_1a616095899064d3af43a1861f0ae70fed" kindref="member">SignDetectionMode</ref> is determined (useful if signMode = <ref refid="classMR_1aacd4e54997154b3fd8baece917df2044a06b9281e396db002010bde1de57262eb" kindref="member">SignDetectionModeShort.Auto</ref>), but before actual work begins </para>
         </briefdescription>
         <detaileddescription>
-<para>this callback is invoked when SignDetectionMode is determined (useful if signMode = <ref refid="classMR_1aacd4e54997154b3fd8baece917df2044a06b9281e396db002010bde1de57262eb" kindref="member">SignDetectionModeShort.Auto</ref>), but before actual work begins </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="303" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="303" bodyend="303"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="347" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="347" bodyend="347"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="336" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="336" bodyend="340"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="380" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="380" bodyend="384"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -236,12 +236,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="346" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="346" bodyend="352"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="390" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="390" bodyend="396"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RebuildMeshSettings_1a5d6d60d71860f80051959130c5c23b3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RebuildMeshSettings_1ad73ee672a56c1189e66ede7e9196e944" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.RebuildMeshSettings.RebuildMeshSettings</definition>
-        <argsstring>(bool preSubdivide, float voxelSize, MR.SignDetectionModeShort signMode, bool closeHolesInHoleWindingNumber, MR.OffsetMode offsetMode, MR.UndirectedEdgeBitSet? outSharpEdges, float windingNumberThreshold, float windingNumberBeta, MR._ByValueShared_IFastWindingNumber fwn, bool decimate, float tinyEdgeLength, MR.Std._ByValue_Function_BoolFuncFromFloat progress, MR.Std._ByValue_Function_VoidFuncFromMRSignDetectionMode onSignDetectionModeSelected)</argsstring>
+        <argsstring>(bool preSubdivide, float voxelSize, MR.SignDetectionModeShort signMode, bool closeHolesInHoleWindingNumber, MR.OffsetMode offsetMode, MR.UndirectedEdgeBitSet? outSharpEdges, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, bool decimate, float tinyEdgeLength, MR.Std._ByValue_Function_BoolFuncFromFloat progress, MR.Std._ByValue_Function_VoidFuncFromMRSignDetectionMode onSignDetectionModeSelected)</argsstring>
         <name>RebuildMeshSettings</name>
         <qualifiedname>MR.RebuildMeshSettings.RebuildMeshSettings</qualifiedname>
         <param>
@@ -277,7 +277,7 @@
           <declname>windingNumberBeta</declname>
         </param>
         <param>
-          <type>MR._ByValueShared_IFastWindingNumber</type>
+          <type>MR.Std._ByValue_SharedPtr_MRIFastWindingNumber</type>
           <declname>fwn</declname>
         </param>
         <param>
@@ -303,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="357" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="357" bodyend="367"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="401" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="401" bodyend="411"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RebuildMeshSettings_1af06806f775b8df087dc97f31fb70b636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -316,13 +316,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RebuildMeshSettings.RebuildMeshSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" kindref="member">MR.RebuildMeshSettings.RebuildMeshSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="372" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="372" bodyend="379"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="416" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="416" bodyend="423"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RebuildMeshSettings_1a887b7a5438c0dd25e6a8d6da58868b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -335,13 +335,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RebuildMeshSettings.RebuildMeshSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" kindref="member">MR.RebuildMeshSettings.RebuildMeshSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="384" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="384" bodyend="384"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="428" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="428" bodyend="428"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RebuildMeshSettings_1a6ac8e2815e2501d6c33b81057844df92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -354,13 +354,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RebuildMeshSettings.RebuildMeshSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" kindref="member">MR.RebuildMeshSettings.RebuildMeshSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="389" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="389" bodyend="389"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="433" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="433" bodyend="433"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RebuildMeshSettings_1a00c4275aef1b1248b44d74f526e34620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RebuildMeshSettings" kindref="compound">MR.RebuildMeshSettings</ref></type>
@@ -373,13 +373,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.RebuildMeshSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RebuildMeshSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="394" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="394" bodyend="401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="438" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="438" bodyend="445"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -388,61 +388,61 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_RebuildMeshSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.RebuildMeshSettings</label>
         <link refid="classMR_1_1RebuildMeshSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_RebuildMeshSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_RebuildMeshSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_RebuildMeshSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.RebuildMeshSettings</label>
         <link refid="classMR_1_1RebuildMeshSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_RebuildMeshSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_RebuildMeshSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="245" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="246" bodyend="402"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="267" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="268" bodyend="446"/>
     <listofallmembers>
       <member refid="classMR_1_1RebuildMeshSettings_1a00c4275aef1b1248b44d74f526e34620" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a39c995357e466ff28935d7d5cb61080e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>closeHolesInHoleWindingNumber</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a49327eee56e82fb22ef3b02746f46e81" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>decimate</name></member>
-      <member refid="classMR_1_1RebuildMeshSettings_1a311e9844f73510dabf2388f36c2257f7" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>fwn</name></member>
+      <member refid="classMR_1_1RebuildMeshSettings_1afeabe32f7ac89c253e74ebda8bf33b9d" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>fwn</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a17661a3ca4053eaf512af6316f5f8ddf" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>offsetMode</name></member>
-      <member refid="classMR_1_1RebuildMeshSettings_1a47a6cfa3cba3da511c4030ab5bd63e37" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>
+      <member refid="classMR_1_1RebuildMeshSettings_1ad203d886815a40175d58c92989a41e3a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a2ece5739c2508a4979af93b06d90b2c3" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>outSharpEdges</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1af0dbcaf69ab86fdf8ff783a07dfd2ed0" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>preSubdivide</name></member>
-      <member refid="classMR_1_1RebuildMeshSettings_1a25c06468022502c806bc59c208cbce23" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1RebuildMeshSettings_1ab237acae8b1e668df00236fe5d4cfd2a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>progress</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a677436ac9f9e1c4cf243177346c022e9" prot="package" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
-      <member refid="classMR_1_1RebuildMeshSettings_1a5d6d60d71860f80051959130c5c23b3e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
+      <member refid="classMR_1_1RebuildMeshSettings_1ad73ee672a56c1189e66ede7e9196e944" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1af06806f775b8df087dc97f31fb70b636" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a887b7a5438c0dd25e6a8d6da58868b5e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a6ac8e2815e2501d6c33b81057844df92" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>

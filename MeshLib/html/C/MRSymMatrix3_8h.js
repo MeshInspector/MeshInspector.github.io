@@ -1,11 +1,7 @@
 var MRSymMatrix3_8h =
 [
-    [ "MR_Matrix3d", "MRSymMatrix3_8h.html#af75d5aee2f1ffaf5e022bf46adacedaa", null ],
-    [ "MR_Matrix3f", "MRSymMatrix3_8h.html#a864a32707cffe3bd344334f0e4b292cf", null ],
     [ "MR_SymMatrix3_unsigned_char", "MRSymMatrix3_8h.html#a21ae2c31d5c83192bbf6248b5ba7cd59", null ],
     [ "MR_SymMatrix3b", "MRSymMatrix3_8h.html#ac3b6b6ac7be71e1e810afca196101d1b", null ],
-    [ "MR_SymMatrix3d", "MRSymMatrix3_8h.html#a1c368f42c21a18903319f8bf1c63ef01", null ],
-    [ "MR_SymMatrix3f", "MRSymMatrix3_8h.html#acc98317fa841947f4df16cb8b58b046a", null ],
     [ "MR_SymMatrix3i", "MRSymMatrix3_8h.html#aaa844153eb64dccf23991db529da5b98", null ],
     [ "MR_SymMatrix3i64", "MRSymMatrix3_8h.html#ad72033c07f412fefab4686b235444af9", null ],
     [ "MR_SymMatrix3_unsigned_char_add_assign", "MRSymMatrix3_8h.html#a45e82f50c78dfeb422a21eb2ad099eb5", null ],

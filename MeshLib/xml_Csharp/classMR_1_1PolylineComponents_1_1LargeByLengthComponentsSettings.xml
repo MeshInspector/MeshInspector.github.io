@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineComponents::LargeByLengthComponentsSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.PolylineComponents.Const_LargeByLengthComponentsSettings</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="134" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="134" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="142" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1a63f10039d8d4546be0e533ce66d44a14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Misc.? Box&lt; int &gt;</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="137" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="138" bodyend="147"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="147" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="148" bodyend="157"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1ac7b4a61c5d1878ea86a7ac3a213ac39d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="150" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="150" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="162" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="162" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="154" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="154" bodyend="158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="166" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="166" bodyend="170"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="164" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="164" bodyend="170"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="176" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="176" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1ab65c0522f3b9cfbb2a69cde87e08607b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="175" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="175" bodyend="183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="187" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="187" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1ad75cebc20d131c7b736b50703ec58648" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PolylineComponents.LargeByLengthComponentsSettings.LargeByLengthComponentsSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1a7ce73fe024d3be89ebba7fe69658f5fd" kindref="member">MR.PolylineComponents.LargeByLengthComponentsSettings.LargeByLengthComponentsSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="188" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="188" bodyend="195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="200" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="200" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1af65a6b869a1cfa8c8bd65b1ac4f9b74c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PolylineComponents.LargeByLengthComponentsSettings.LargeByLengthComponentsSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1a7ce73fe024d3be89ebba7fe69658f5fd" kindref="member">MR.PolylineComponents.LargeByLengthComponentsSettings.LargeByLengthComponentsSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="200" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="200" bodyend="200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="212" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="212" bodyend="212"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1af3df12d0919213baf0a23d18238f4e87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kindref="compound">MR.PolylineComponents.LargeByLengthComponentsSettings</ref></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PolylineComponents.LargeByLengthComponentsSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="205" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="205" bodyend="212"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="217" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="217" bodyend="224"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,13 +181,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_LargeByLengthComponentsSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PolylineComponents.LargeByLengthComponentsSettings</label>
         <link refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings"/>
@@ -195,20 +188,20 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_LargeByLengthComponentsSettings &gt;</label>
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.PolylineComponents.Const_LargeByLengthComponentsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_LargeByLengthComponentsSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PolylineComponents.LargeByLengthComponentsSettings</label>
         <link refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings"/>
@@ -216,13 +209,20 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_LargeByLengthComponentsSettings &gt;</label>
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.PolylineComponents.Const_LargeByLengthComponentsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="131" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="132" bodyend="213"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="137" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="138" bodyend="225"/>
     <listofallmembers>
       <member refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1af3df12d0919213baf0a23d18238f4e87" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::LargeByLengthComponentsSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1a85ce88360cf5ab4e54f95312ac0de0e3" prot="package" virt="non-virtual"><scope>MR::PolylineComponents::LargeByLengthComponentsSettings</scope><name>LargeByLengthComponentsSettings</name></member>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Nesting_1_1SequentialNester" kind="class" language="C++" prot="public">
+    <compoundname>MR::Nesting::SequentialNester</compoundname>
+    <includes refid="MRSequentialNester_8h" local="no">MRVoxels/MRSequentialNester.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga8bfd7e8c8917f1001565362c2ec79a7f" kind="variable"><name>baseParams_</name></member>
+      <member refid="group__GeneralGroup_1ga149223a4ecc98ce837dfce8ee330ab9a" kind="variable"><name>tetrisOptions_</name></member>
+      <member refid="group__GeneralGroup_1ga18ebd8b38cb82fe07a0992dcc6ec3b61" kind="variable"><name>voxelsCache_</name></member>
+      <member refid="group__GeneralGroup_1ga46652ae9d9d3313e0b54ee5f5361af80" kind="variable"><name>dimensionsCache_</name></member>
+      <member refid="group__GeneralGroup_1ga7f946bed1fcbf379a2752f4489ddd7f7" kind="variable"><name>occupiedVoxelsCache_</name></member>
+      <member refid="group__GeneralGroup_1ga4ff630b767f64c9de51eb6e5a0819c78" kind="variable"><name>nestedBoxesCache_</name></member>
+      <member refid="group__GeneralGroup_1gaa3d07152725cd212be0764fb70959eb9" kind="variable"><name>addBoxCornersCache_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaaf169bf48bf09a3aa9257ab2fa20a7f3" kind="function"><name>SequentialNester</name></member>
+      <member refid="group__GeneralGroup_1gadd6d11f91cd7c2f23476723ec6d9bccf" kind="function"><name>nestMesh</name></member>
+      <member refid="group__GeneralGroup_1ga956a20ce168470b2508f2e52ec9fcf2b" kind="function"><name>nestMeshes</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to add meshes to nest sequentially </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRVoxels/MRSequentialNester.h" line="16" column="1" bodyfile="MRVoxels/MRSequentialNester.h" bodystart="17" bodyend="39"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa3d07152725cd212be0764fb70959eb9" prot="private" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>addBoxCornersCache_</name></member>
+      <member refid="group__GeneralGroup_1ga8bfd7e8c8917f1001565362c2ec79a7f" prot="private" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>baseParams_</name></member>
+      <member refid="group__GeneralGroup_1ga46652ae9d9d3313e0b54ee5f5361af80" prot="private" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>dimensionsCache_</name></member>
+      <member refid="group__GeneralGroup_1ga4ff630b767f64c9de51eb6e5a0819c78" prot="private" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>nestedBoxesCache_</name></member>
+      <member refid="group__GeneralGroup_1gadd6d11f91cd7c2f23476723ec6d9bccf" prot="public" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>nestMesh</name></member>
+      <member refid="group__GeneralGroup_1ga956a20ce168470b2508f2e52ec9fcf2b" prot="public" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>nestMeshes</name></member>
+      <member refid="group__GeneralGroup_1ga7f946bed1fcbf379a2752f4489ddd7f7" prot="private" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>occupiedVoxelsCache_</name></member>
+      <member refid="group__GeneralGroup_1gaaf169bf48bf09a3aa9257ab2fa20a7f3" prot="public" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>SequentialNester</name></member>
+      <member refid="group__GeneralGroup_1ga149223a4ecc98ce837dfce8ee330ab9a" prot="private" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>tetrisOptions_</name></member>
+      <member refid="group__GeneralGroup_1ga18ebd8b38cb82fe07a0992dcc6ec3b61" prot="private" virt="non-virtual"><scope>MR::Nesting::SequentialNester</scope><name>voxelsCache_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

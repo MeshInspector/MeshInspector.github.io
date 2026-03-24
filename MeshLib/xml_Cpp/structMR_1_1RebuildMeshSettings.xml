@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RebuildMeshSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::RebuildMeshSettings</compoundname>
-    <includes refid="MRRebuildMesh_8h" local="no">MRRebuildMesh.h</includes>
+    <includes refid="MRRebuildMesh_8h" local="no">MRVoxels/MRRebuildMesh.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaedf85a579696f897a9cd4c1c719059b8" kind="variable"><name>preSubdivide</name></member>
       <member refid="group__GeneralGroup_1ga277cd0e4fca4f06fd90dd9977ec8a418" kind="variable"><name>voxelSize</name></member>
@@ -22,7 +22,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="16" bodyend="64"/>
+    <location file="MRVoxels/MRRebuildMesh.h" line="15" column="1" bodyfile="MRVoxels/MRRebuildMesh.h" bodystart="16" bodyend="64"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7e182394b11ff51cd7695df3a953505a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>closeHolesInHoleWindingNumber</name></member>
       <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>decimate</name></member>

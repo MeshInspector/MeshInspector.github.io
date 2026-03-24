@@ -1,9 +1,7 @@
 var MRDipole_8h =
 [
-    [ "MR_AABBTree", "MRDipole_8h.html#a5f65578b8ae684c98e7ad038c8b419e0", null ],
     [ "MR_Dipole", "MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774", null ],
     [ "MR_Dipoles", "MRDipole_8h.html#a384a8827a4fdb8f1dfa0c1022f758408", null ],
-    [ "MR_Mesh", "MRDipole_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_calcDipoles_2", "MRDipole_8h.html#a6c7f5d560f1b49e869ca706148358d3d", null ],
     [ "MR_calcDipoles_3", "MRDipole_8h.html#add515aa9e729e65b9c1eed6631531f3a", null ],
     [ "MR_calcFastWindingNumber", "MRDipole_8h.html#afce7e52e3a3a7e73d79992bb1879c961", null ],

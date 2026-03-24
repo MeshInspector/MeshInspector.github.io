@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRWin32MessageHandler_8h" kind="file" language="C++">
     <compoundname>MRWin32MessageHandler.h</compoundname>
     <briefdescription>
@@ -37,10 +37,10 @@
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>LONG_PTR<sp/>parentProc_;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWin32MessageHandler.h"/>
+    <location file="MRViewer/MRWin32MessageHandler.h"/>
   </compounddef>
 </doxygen>

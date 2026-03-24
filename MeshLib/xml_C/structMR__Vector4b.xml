@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR__Vector4b" kind="struct" language="C++" prot="public">
     <compoundname>MR_Vector4b</compoundname>
     <includes refid="MRVector4_8h" local="no">MRVector4.h</includes>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__Vector4b_1a8daf4e8b03549e8e3a8c44c45993cb10" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="24" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="24" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__Vector4b_1aa9b46dc5ae881a36ef121538b058ebc2" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__Vector4b_1aad79dd83ea202ee78d95064303aa1d5b" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="26" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -66,7 +66,7 @@
     <detaileddescription>
 <para>four-dimensional vector Generated from class <computeroutput>MR::Vector4b</computeroutput>. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="22" bodyend="27"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="22" bodyend="27"/>
     <listofallmembers>
       <member refid="structMR__Vector4b_1aad79dd83ea202ee78d95064303aa1d5b" prot="public" virt="non-virtual"><scope>MR_Vector4b</scope><name>w</name></member>
       <member refid="structMR__Vector4b_1ae31f3b34b3e1418996cbcd2de07609aa" prot="public" virt="non-virtual"><scope>MR_Vector4b</scope><name>x</name></member>

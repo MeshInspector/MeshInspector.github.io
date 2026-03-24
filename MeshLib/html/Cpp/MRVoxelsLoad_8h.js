@@ -1,26 +1,25 @@
 var MRVoxelsLoad_8h =
 [
-    [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
-    [ "VoxelsLoader", "MRVoxelsLoad_8h.html#ac95950f875729ac15c011d99d4624d96", null ],
-    [ "GridType", "MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19", [
-      [ "DenseGrid", "MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7", null ],
-      [ "LevelSet", "MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e", null ]
+    [ "MR::VoxelsLoad::VoxelsLoader", "group__VoxelsLoadGroup.html#gac95950f875729ac15c011d99d4624d96", null ],
+    [ "MR::VoxelsLoad::GridType", "group__VoxelsLoadGroup.html#ga5a3e4b96e9ddb9678f554fe8a8d56a19", [
+      [ "MR::VoxelsLoad::GridType::DenseGrid", "group__VoxelsLoadGroup.html#gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7", null ],
+      [ "MR::VoxelsLoad::GridType::LevelSet", "group__VoxelsLoadGroup.html#gga5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e", null ]
     ] ],
-    [ "findRawParameters", "MRVoxelsLoad_8h.html#ga36e0b89b1624754a51c853b7254c9223", null ],
-    [ "fromAnySupportedFormat", "MRVoxelsLoad_8h.html#ga112e15838444077291559cd2320baedb", null ],
-    [ "fromGav", "MRVoxelsLoad_8h.html#ga3a4b1b8a761fbb02df49c120adf8a866", null ],
-    [ "fromGav", "MRVoxelsLoad_8h.html#gab4eb40aeebde5d9880345caadb3a0ae7", null ],
-    [ "fromRaw", "MRVoxelsLoad_8h.html#gaa5b34db6cedd5a6c229f738a4b953212", null ],
-    [ "fromRaw", "MRVoxelsLoad_8h.html#gad3e3783e957919006d682b65886541bb", null ],
-    [ "fromRaw", "MRVoxelsLoad_8h.html#ga603131e52dfc2ce8aa33d3a0d0028878", null ],
-    [ "fromVdb", "MRVoxelsLoad_8h.html#gae5828d9a431d4b30b9d90a66a7fa0e9d", null ],
-    [ "gridFromRaw", "MRVoxelsLoad_8h.html#gaff744634fa4916b622b9c213b3a37243", null ],
-    [ "gridFromRaw", "MRVoxelsLoad_8h.html#ga8d1d5e8fd4d557ab5cb0501f801e09c2", null ],
-    [ "gridFromRaw", "MRVoxelsLoad_8h.html#ga7f875c47121fc2d63dc69e1376825a4f", null ],
-    [ "gridsFromAnySupportedFormat", "MRVoxelsLoad_8h.html#ga9c5c70dae47d427c0b4441b8b1df6b17", null ],
-    [ "gridsFromVdb", "MRVoxelsLoad_8h.html#ga292cb0932a07bdafb7ba56453be65262", null ],
-    [ "gridsFromVdb", "MRVoxelsLoad_8h.html#ga17380baf5a009298d3c817ed07b4b43f", null ],
-    [ "loadTiffDir", "MRVoxelsLoad_8h.html#a44442bb9fb78ce9c9668e928460258b9", null ],
-    [ "makeObjectFromVoxelsFile", "MRVoxelsLoad_8h.html#a3312390052a5a2d862b167edc9e773b3", null ],
-    [ "makeObjectVoxelsFromFile", "MRVoxelsLoad_8h.html#a771ff6491d2acec943253070393ce902", null ]
+    [ "MR::VoxelsLoad::findRawParameters", "group__VoxelsLoadGroup.html#gab02ac1c58396a89e54c4b384dd5142ea", null ],
+    [ "MR::VoxelsLoad::fromAnySupportedFormat", "group__VoxelsLoadGroup.html#ga1679273711f98deaa8bb82cf59834512", null ],
+    [ "MR::VoxelsLoad::fromGav", "group__VoxelsLoadGroup.html#gac56550c38609cdf38fcf34f3740e8f82", null ],
+    [ "MR::VoxelsLoad::fromGav", "group__VoxelsLoadGroup.html#ga6e416ae7982ee1812f92be62d196d48d", null ],
+    [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#gae42a24cac2267bb02933d82f3153182a", null ],
+    [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#ga8ce6022f00f55c40a634b016f91a3b31", null ],
+    [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#gab0a9073a8190607740aa7a4e108a70ea", null ],
+    [ "MR::VoxelsLoad::fromVdb", "group__VoxelsLoadGroup.html#ga7b175c416a672c40b25a2ec4bab31047", null ],
+    [ "MR::VoxelsLoad::gridFromRaw", "group__VoxelsLoadGroup.html#ga91731f11539ea11d1c4bd2dfbc25b2b1", null ],
+    [ "MR::VoxelsLoad::gridFromRaw", "group__VoxelsLoadGroup.html#gab8b39ae86f2bd1e780c542ceebadc56d", null ],
+    [ "MR::VoxelsLoad::gridFromRaw", "group__VoxelsLoadGroup.html#ga433ccf3ee64b6d83ded8726d9bccd584", null ],
+    [ "MR::VoxelsLoad::gridsFromAnySupportedFormat", "group__VoxelsLoadGroup.html#gad303045560cb427689099a6b7fd25789", null ],
+    [ "MR::VoxelsLoad::gridsFromVdb", "group__VoxelsLoadGroup.html#ga45ad7e33491adf48887a084a760ce0dd", null ],
+    [ "MR::VoxelsLoad::gridsFromVdb", "group__VoxelsLoadGroup.html#ga255028947dcc30bbf215b5da697a7e96", null ],
+    [ "MR::VoxelsLoad::loadTiffDir", "group__VoxelsLoadGroup.html#gaa3493438ee99f77d8e1ae26c176c0453", null ],
+    [ "MR::makeObjectFromVoxelsFile", "namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c", null ],
+    [ "MR::makeObjectVoxelsFromFile", "namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1", null ]
 ];

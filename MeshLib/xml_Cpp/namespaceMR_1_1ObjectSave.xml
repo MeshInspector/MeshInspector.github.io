@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1ObjectSave" kind="namespace" language="C++">
     <compoundname>MR::ObjectSave</compoundname>
     <innerclass refid="structMR_1_1ObjectSave_1_1Settings" prot="public">MR::ObjectSave::Settings</innerclass>
@@ -16,18 +16,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="326" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="326" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="326" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1ga69e0def5ecc5e5bf5dc89d3a4fe892ff" kind="function"><name>toAnySupportedSceneFormat</name></member>
-      <member refid="group__GeneralGroup_1gadd2495742f624ca0843f8ace8045dce5" kind="function"><name>toAnySupportedFormat</name></member>
+      <member refid="group__GeneralGroup_1gadd599c2ce208d307f45d847e255a38da" kind="function"><name>toAnySupportedSceneFormat</name></member>
+      <member refid="group__GeneralGroup_1ga0608cdde2a887ca5a818ea80d05340ab" kind="function"><name>toAnySupportedFormat</name></member>
     </sectiondef>
     <briefdescription>
-<para>namespace <ref refid="namespaceMR_1_1ObjectLoad" kindref="compound">ObjectLoad</ref> </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="323" column="1"/>
+    <location file="MRMesh/MRIOFormatsRegistry.h" line="323" column="1"/>
   </compounddef>
 </doxygen>

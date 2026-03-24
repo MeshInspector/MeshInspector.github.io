@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="598" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="598" bodyend="598"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="610" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="610" bodyend="610"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,13 +39,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::EdgePathsBuilderT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;::EdgePathsBuilderT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="603" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="603" bodyend="609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="615" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="615" bodyend="621"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a47132c9775cf57b1dd51021d0174bda1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -58,13 +58,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::EdgePathsBuilderT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;::EdgePathsBuilderT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="614" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="614" bodyend="614"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="626" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="626" bodyend="626"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a2373698c9cf45843446c28cee7817ebb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -77,18 +77,18 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::EdgePathsBuilderT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;::EdgePathsBuilderT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="619" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="619" bodyend="619"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="631" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="631" bodyend="631"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1af74bbda4458b55a1f4aac32bb189986c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a35553a48ca8ba0273899c82839145434" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.EdgePathsBuilderT_MRTrivialMetricToPenalty</definition>
-        <argsstring>(MR.Const_MeshTopology topology, MR.Std.Const_Function_FloatFuncFromMREdgeId metric)</argsstring>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Std.Const_Function_Float_From_MREdgeId metric)</argsstring>
         <name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.EdgePathsBuilderT_MRTrivialMetricToPenalty</qualifiedname>
         <param>
@@ -96,17 +96,17 @@
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_FloatFuncFromMREdgeId</type>
+          <type>MR.Std.Const_Function_Float_From_MREdgeId</type>
           <declname>metric</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::EdgePathsBuilderT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;::EdgePathsBuilderT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="624" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="624" bodyend="631"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="636" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="636" bodyend="643"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a3aeef77a65d13b1624430f74d02982dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -119,32 +119,32 @@
           <declname>topology</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::EdgePathsBuilderT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;::EdgePathsBuilderT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="636" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="636" bodyend="642"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="648" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="648" bodyend="654"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1acb050f90ea6e6d58a6016eae306576c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1afbf7e3e1fcdbe1b5d0d03ed967af8d35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.reset</definition>
-        <argsstring>(MR.Std.Const_Function_FloatFuncFromMREdgeId metric)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Float_From_MREdgeId metric)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.reset</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_FloatFuncFromMREdgeId</type>
+          <type>MR.Std.Const_Function_Float_From_MREdgeId</type>
           <declname>metric</declname>
         </param>
         <briefdescription>
-<para>clears everything without freeing memory, and sets new metric Generated from method <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::reset</computeroutput>. </para>
+<para>clears everything without freeing memory, and sets new metric Generated from method <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;<ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1afbf7e3e1fcdbe1b5d0d03ed967af8d35" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="648" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="648" bodyend="653"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="660" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="660" bodyend="665"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1ad896daa77e2a000d966606c52f18f62c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -161,13 +161,13 @@
           <declname>startMetric</declname>
         </param>
         <briefdescription>
-<para>compares proposed metric with best value known for startVert; if proposed metric is smaller then adds it in the queue and returns true Generated from method <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::addStart</computeroutput>. </para>
+<para>compares proposed metric with best value known for startVert; if proposed metric is smaller then adds it in the queue and returns true Generated from method <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;<ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1ad896daa77e2a000d966606c52f18f62c" kindref="member">addStart</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="660" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="660" bodyend="665"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="672" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="672" bodyend="677"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a7b202808163d3dd5d9eb8cd6443dc60f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.ReachedVert</type>
@@ -176,13 +176,13 @@
         <name>reachNext</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.reachNext</qualifiedname>
         <briefdescription>
-<para>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref> in v-field if no more vertices left Generated from method <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::reachNext</computeroutput>. </para>
+<para>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref> in v-field if no more vertices left Generated from method <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;<ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a7b202808163d3dd5d9eb8cd6443dc60f" kindref="member">reachNext</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="672" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="672" bodyend="677"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="684" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="684" bodyend="689"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a463836bfe43fc15ca1cee315d1ad2294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -195,13 +195,13 @@
           <declname>rv</declname>
         </param>
         <briefdescription>
-<para>adds steps for all origin ring edges of the reached vertex; returns true if at least one step was added Generated from method <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::addOrgRingSteps</computeroutput>. </para>
+<para>adds steps for all origin ring edges of the reached vertex; returns true if at least one step was added Generated from method <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;<ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a463836bfe43fc15ca1cee315d1ad2294" kindref="member">addOrgRingSteps</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="684" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="684" bodyend="689"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="696" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="696" bodyend="701"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1aa510fa8ba0c864bdc58b314c92bde300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.ReachedVert</type>
@@ -210,63 +210,63 @@
         <name>growOneEdge</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.growOneEdge</qualifiedname>
         <briefdescription>
-<para>the same as <ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a7b202808163d3dd5d9eb8cd6443dc60f" kindref="member">reachNext()</ref> + <ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a463836bfe43fc15ca1cee315d1ad2294" kindref="member">addOrgRingSteps()</ref> Generated from method <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;::growOneEdge</computeroutput>. </para>
+<para>the same as <ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a7b202808163d3dd5d9eb8cd6443dc60f" kindref="member">reachNext()</ref> + <ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a463836bfe43fc15ca1cee315d1ad2294" kindref="member">addOrgRingSteps()</ref> Generated from method <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;<ref refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1aa510fa8ba0c864bdc58b314c92bde300" kindref="member">growOneEdge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="695" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="695" bodyend="700"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="707" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="707" bodyend="712"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>the class is responsible for finding smallest metric edge paths on a mesh Generated from class <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>the class is responsible for finding smallest metric edge paths on a mesh Generated from class <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1TrivialMetricToPenalty" kindref="compound">MR.TrivialMetricToPenalty</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_EdgePathsBuilderT_MRTrivialMetricToPenalty</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.EdgePathsBuilderT_MRTrivialMetricToPenalty</label>
         <link refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EdgePathsBuilderT_MRTrivialMetricToPenalty &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_EdgePathsBuilderT_MRTrivialMetricToPenalty</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.EdgePathsBuilderT_MRTrivialMetricToPenalty</label>
         <link refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EdgePathsBuilderT_MRTrivialMetricToPenalty &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="596" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="597" bodyend="701"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="608" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="609" bodyend="713"/>
     <listofallmembers>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a463836bfe43fc15ca1cee315d1ad2294" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>addOrgRingSteps</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1ad896daa77e2a000d966606c52f18f62c" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>addStart</name></member>
@@ -274,11 +274,11 @@
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1aa0d4b7ae7640ad7bae71bbac0124eafc" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a47132c9775cf57b1dd51021d0174bda1" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a2373698c9cf45843446c28cee7817ebb" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1af74bbda4458b55a1f4aac32bb189986c" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
+      <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a35553a48ca8ba0273899c82839145434" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a3aeef77a65d13b1624430f74d02982dd" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1aa510fa8ba0c864bdc58b314c92bde300" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>growOneEdge</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a7b202808163d3dd5d9eb8cd6443dc60f" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>reachNext</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1acb050f90ea6e6d58a6016eae306576c1" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>reset</name></member>
+      <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1afbf7e3e1fcdbe1b5d0d03ed967af8d35" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>reset</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

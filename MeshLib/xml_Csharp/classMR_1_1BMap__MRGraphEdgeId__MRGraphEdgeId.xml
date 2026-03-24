@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_BMap_MRGraphEdgeId_MRGraphEdgeId</basecompoundref>
@@ -11,13 +11,12 @@
         <name>b</name>
         <qualifiedname>MR.BMap_MRGraphEdgeId_MRGraphEdgeId.b</qualifiedname>
         <briefdescription>
-<para>target size, all values inside b must be less than this value </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8278" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8278" bodyend="8278"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10804" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10804" bodyend="10804"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a573cdd252e62cd35d73f02df041faea7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -26,12 +25,13 @@
         <name>tsize</name>
         <qualifiedname>MR.BMap_MRGraphEdgeId_MRGraphEdgeId.tsize</qualifiedname>
         <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8281" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8281" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10809" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10809" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8300" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8300" bodyend="8304"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10828" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10828" bodyend="10832"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8310" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8310" bodyend="8316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10838" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10838" bodyend="10844"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a30e8dbf23eeaa11dc386e1412a8b0fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -89,13 +89,13 @@
           <declname>tsize</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8321" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8321" bodyend="8328"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10849" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10849" bodyend="10856"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1ae359cb35be99bd9d519672c0a9582b9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -108,13 +108,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::BMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::BMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8333" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8333" bodyend="8340"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10861" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10861" bodyend="10868"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1ae8e7b5f38b1836094974d1e3a0e5e8b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.BMap_MRGraphEdgeId_MRGraphEdgeId</ref></type>
@@ -127,63 +127,63 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8345" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8345" bodyend="8352"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10873" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10873" bodyend="10880"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>flat map: I -&amp;gt; T Generated from class <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_BMap_MRGraphEdgeId_MRGraphEdgeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.BMap_MRGraphEdgeId_MRGraphEdgeId</label>
         <link refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BMap_MRGraphEdgeId_MRGraphEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BMap_MRGraphEdgeId_MRGraphEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_BMap_MRGraphEdgeId_MRGraphEdgeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.BMap_MRGraphEdgeId_MRGraphEdgeId</label>
         <link refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BMap_MRGraphEdgeId_MRGraphEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BMap_MRGraphEdgeId_MRGraphEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8276" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8277" bodyend="8353"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10802" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10803" bodyend="10881"/>
     <listofallmembers>
       <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1ae8e7b5f38b1836094974d1e3a0e5e8b2" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a88188343521a1b2d1da8b33538edd8be" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>b</name></member>

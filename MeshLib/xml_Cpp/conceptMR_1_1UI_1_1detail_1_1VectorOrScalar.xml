@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="conceptMR_1_1UI_1_1detail_1_1VectorOrScalar" kind="concept">
     <compoundname>MR::UI::detail::VectorOrScalar</compoundname>
-    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <includes refid="MRUIStyle_8h" local="no">MRViewer/MRUIStyle.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -15,6 +15,6 @@ concept <ref refid="conceptMR_1_1UI_1_1detail_1_1VectorOrScalar" kindref="compou
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="357" column="5"/>
+    <location file="MRViewer/MRUIStyle.h" line="364" column="5"/>
   </compounddef>
 </doxygen>

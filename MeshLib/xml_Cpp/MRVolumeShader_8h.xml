@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVolumeShader_8h" kind="file" language="C++">
     <compoundname>MRVolumeShader.h</compoundname>
     <includes local="yes">exports.h</includes>
     <includes local="no">string</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRVolumeShader.h</label>
+        <label>MRViewer/MRVolumeShader.h</label>
         <link refid="MRVolumeShader_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -32,15 +32,15 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"></codeline>
-<codeline lineno="11" refid="group__GeneralGroup_1ga3e9889db672284199460d483317d72a2" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga3e9889db672284199460d483317d72a2" kindref="member">getTrivialVertexShader</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="group__GeneralGroup_1ga04c3601934f4ee38c1fe3682a9ce8c98" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga04c3601934f4ee38c1fe3682a9ce8c98" kindref="member">getTrivialVertexShader</ref>();</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1ga5a4a33e29777a43598f7c8536ddd3b5f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga5a4a33e29777a43598f7c8536ddd3b5f" kindref="member">getVolumeFragmentShader</ref>();</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga8abf3c8833fd7f0b7ea0e91be2623585" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga8abf3c8833fd7f0b7ea0e91be2623585" kindref="member">getVolumeFragmentShader</ref>();</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1gaf2d7af993188c7b28f07b6273c7fa6ec" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaf2d7af993188c7b28f07b6273c7fa6ec" kindref="member">getVolumePickerFragmentShader</ref>();</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga7cd770884ee9036ce3c6e163a719edfa" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga7cd770884ee9036ce3c6e163a719edfa" kindref="member">getVolumePickerFragmentShader</ref>();</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVolumeShader.h"/>
+    <location file="MRViewer/MRVolumeShader.h"/>
   </compounddef>
 </doxygen>

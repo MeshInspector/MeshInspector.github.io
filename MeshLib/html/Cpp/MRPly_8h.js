@@ -1,4 +1,4 @@
 var MRPly_8h =
 [
-    [ "loadPly", "MRPly_8h.html#ga098aaeed524d08781169a29e090d9c94", null ]
+    [ "MR::loadPly", "group__GeneralGroup.html#ga7ba16427d8162112c46bbda9267aeec3", null ]
 ];

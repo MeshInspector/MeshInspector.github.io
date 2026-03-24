@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeMeshDataAction_8h" kind="file" language="C++">
     <compoundname>MRChangeMeshDataAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -17,9 +17,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -29,38 +29,36 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRChangeMeshDataAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
-        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
-        <argsstring></argsstring>
-        <name>MR_HistoryAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="14" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" prot="public" static="no">
         <type>struct <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref></type>
         <definition>typedef struct MR_ObjectMeshData MR_ObjectMeshData</definition>
@@ -69,36 +67,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>mesh and its per-element attributes for ObjectMeshHolder Generated from class <computeroutput>MR::ObjectMeshData</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::LoadedMeshData</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="15" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeMeshDataAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_ObjectMesh MR_std_shared_ptr_MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="16" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeMeshDataAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="15" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" prot="public" static="no">
         <type>struct <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref></type>
@@ -108,11 +81,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Undo action for ObjectMeshData change Generated from class <computeroutput>MR::ChangeMeshDataAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Undo action for ObjectMeshData change Generated from class <computeroutput>MR::ChangeMeshDataAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="26" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" bodystart="26" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="26" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" prot="public" static="no">
         <type>struct <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref></type>
@@ -122,21 +95,21 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Undo action for ObjectMeshData change partially Generated from class <computeroutput>MR::PartialChangeMeshDataAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Undo action for ObjectMeshData change partially Generated from class <computeroutput>MR::PartialChangeMeshDataAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="34" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="34" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" bodystart="34" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a6e14942514c3fc987da9ab455f6fe848" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_ChangeMeshDataAction *_other)</argsstring>
         <name>MR_ChangeMeshDataAction_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -150,10 +123,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="39" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="39" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="39" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="39" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a1b7b70bb67e437d6c3b4be16c4664592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
         <definition>MRC_API const MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_OffsetPtr</definition>
         <argsstring>(const MR_ChangeMeshDataAction *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChangeMeshDataAction_OffsetPtr</name>
@@ -172,10 +145,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="43" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="43" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="43" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="43" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a1bff4adcfc92eed3e30577101756017a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_OffsetMutablePtr</definition>
         <argsstring>(MR_ChangeMeshDataAction *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChangeMeshDataAction_OffsetMutablePtr</name>
@@ -194,10 +167,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="47" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="47" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="47" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="47" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1acb57964946724ddc4011786bbb55d7ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API const MR_HistoryAction * MR_ChangeMeshDataAction_UpcastTo_MR_HistoryAction</definition>
         <argsstring>(const MR_ChangeMeshDataAction *object)</argsstring>
         <name>MR_ChangeMeshDataAction_UpcastTo_MR_HistoryAction</name>
@@ -212,10 +185,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="52" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="52" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="52" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="52" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1af213c0768f02ba9be562ca697ff4de85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API MR_HistoryAction * MR_ChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</definition>
         <argsstring>(MR_ChangeMeshDataAction *object)</argsstring>
         <name>MR_ChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</name>
@@ -230,10 +203,118 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="56" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="56" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="56" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="56" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a58771ff16a333ab71981ee8c77ed7528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_StaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeMeshDataAction_StaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeMeshDataAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="62" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="62" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1add0d97a01b2ab0f2996eec3dd8fb4aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_MutableStaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeMeshDataAction_MutableStaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeMeshDataAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="67" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="67" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a06ebaa6e515984c67bc20220140cf28d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_DynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeMeshDataAction_DynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeMeshDataAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="73" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="73" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a7fbc5c9d5b94e8305a9e1796c0de49c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_MutableDynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeMeshDataAction_MutableDynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeMeshDataAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="78" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="78" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a5a89e72250bffcc126ddc2d5f3fd4751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_DynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeMeshDataAction_DynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeMeshDataAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="86" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="86" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1ac0c7d1f063686c57512d9f0125fdbafe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeMeshDataAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeMeshDataAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="93" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="93" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a8c15335817c18a3f229226ce7e0ab49d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_Construct_bool</definition>
         <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectMesh *obj, bool cloneMesh)</argsstring>
         <name>MR_ChangeMeshDataAction_Construct_bool</name>
@@ -260,10 +341,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="66" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="66" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="103" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="103" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a1b4ca5ec428557ed885c16c106c7027f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_Construct_MR_ObjectMeshData</definition>
         <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectMesh *obj, MR_ObjectMeshData *newData)</argsstring>
         <name>MR_ChangeMeshDataAction_Construct_MR_ObjectMeshData</name>
@@ -290,10 +371,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="80" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="80" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="117" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="117" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1ab3d648debd608e1eb0789b2aff262ccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeMeshDataAction_Destroy</definition>
         <argsstring>(const MR_ChangeMeshDataAction *_this)</argsstring>
         <name>MR_ChangeMeshDataAction_Destroy</name>
@@ -302,16 +383,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeMeshDataAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="83" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="120" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1aac3cf5eaa38350f2f0b69db6df79ece8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeMeshDataAction_DestroyArray</definition>
         <argsstring>(const MR_ChangeMeshDataAction *_this)</argsstring>
         <name>MR_ChangeMeshDataAction_DestroyArray</name>
@@ -320,16 +401,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeMeshDataAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="86" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="123" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1acf1effeb8cc211a37658cbedaae52ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_ChangeMeshDataAction * MR_ChangeMeshDataAction_AssignFromAnother</definition>
         <argsstring>(MR_ChangeMeshDataAction *_this, MR_PassBy _other_pass_by, MR_ChangeMeshDataAction *_other)</argsstring>
         <name>MR_ChangeMeshDataAction_AssignFromAnother</name>
@@ -338,7 +419,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -348,14 +429,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChangeMeshDataAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ChangeMeshDataAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="93" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="93" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="130" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="130" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1af22d17388f5c42ee10d1ee8003d7a244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API MR_std_string * MR_ChangeMeshDataAction_name</definition>
         <argsstring>(const MR_ChangeMeshDataAction *_this)</argsstring>
         <name>MR_ChangeMeshDataAction_name</name>
@@ -366,14 +447,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChangeMeshDataAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::ChangeMeshDataAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string_8h_1a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" kindref="member">MR_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="98" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="98" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="135" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="135" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a9898dd007693f5f23aa2e423b7819827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeMeshDataAction_action</definition>
         <argsstring>(MR_ChangeMeshDataAction *_this, MR_HistoryAction_Type _1)</argsstring>
         <name>MR_ChangeMeshDataAction_action</name>
@@ -392,10 +473,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="102" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="139" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1ab6280af941ce5b1c26a05f34d55ed73e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeMeshDataAction_setObjectDirty</definition>
         <argsstring>(const MR_std_shared_ptr_MR_ObjectMesh *obj)</argsstring>
         <name>MR_ChangeMeshDataAction_setObjectDirty</name>
@@ -410,10 +491,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="106" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="143" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a9c303ed7db8781c4c2d0de88ca816f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_ChangeMeshDataAction_heapBytes</definition>
         <argsstring>(const MR_ChangeMeshDataAction *_this)</argsstring>
         <name>MR_ChangeMeshDataAction_heapBytes</name>
@@ -428,10 +509,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="110" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="110" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="147" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="147" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a8f7415daaad6f498afd85a45a567f055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref> *</type>
         <definition>MRC_API const MR_std_shared_ptr_MR_ObjectMesh * MR_ChangeMeshDataAction_obj</definition>
         <argsstring>(const MR_ChangeMeshDataAction *_this)</argsstring>
         <name>MR_ChangeMeshDataAction_obj</name>
@@ -446,10 +527,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="115" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="115" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="152" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="152" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a3f2bf38a44ba8e258e9fb4fc8e6fdba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
         <definition>MRC_API const MR_ObjectMeshData * MR_ChangeMeshDataAction_data</definition>
         <argsstring>(const MR_ChangeMeshDataAction *_this)</argsstring>
         <name>MR_ChangeMeshDataAction_data</name>
@@ -464,15 +545,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="120" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="120" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="157" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="157" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1adf918e065483652d735b269db987884a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_PartialChangeMeshDataAction *_other)</argsstring>
         <name>MR_PartialChangeMeshDataAction_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -486,10 +567,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="125" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="125" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="162" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="162" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a8fa481f1c89da724b38acf53eb356c53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
         <definition>MRC_API const MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_OffsetPtr</definition>
         <argsstring>(const MR_PartialChangeMeshDataAction *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PartialChangeMeshDataAction_OffsetPtr</name>
@@ -508,10 +589,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="129" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="129" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="166" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="166" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1aa3aa46f1a3c983e2795ab344228036d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_OffsetMutablePtr</definition>
         <argsstring>(MR_PartialChangeMeshDataAction *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PartialChangeMeshDataAction_OffsetMutablePtr</name>
@@ -530,10 +611,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="133" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="133" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="170" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="170" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a46fae566609b288e6551720dfd32184b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API const MR_HistoryAction * MR_PartialChangeMeshDataAction_UpcastTo_MR_HistoryAction</definition>
         <argsstring>(const MR_PartialChangeMeshDataAction *object)</argsstring>
         <name>MR_PartialChangeMeshDataAction_UpcastTo_MR_HistoryAction</name>
@@ -548,10 +629,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="138" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="138" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="175" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="175" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a8f9f97854b00c3b93c604ebc5b6e7006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API MR_HistoryAction * MR_PartialChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</definition>
         <argsstring>(MR_PartialChangeMeshDataAction *object)</argsstring>
         <name>MR_PartialChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</name>
@@ -566,10 +647,118 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="142" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="142" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="179" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="179" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a7c9b2349cfdbcd7049fe34a6c991e16c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API const MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_StaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_PartialChangeMeshDataAction_StaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::PartialChangeMeshDataAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="185" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="185" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a3a4388e8e1e31230e8cb4c280a4ebdeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_MutableStaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_PartialChangeMeshDataAction_MutableStaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::PartialChangeMeshDataAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="190" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="190" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a7a566cde63fcc0d35be7080adaba9c53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API const MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_DynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_PartialChangeMeshDataAction_DynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::PartialChangeMeshDataAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="196" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="196" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a7563252bd6e2144aa632c60b5806d057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_MutableDynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_PartialChangeMeshDataAction_MutableDynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::PartialChangeMeshDataAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="201" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="201" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a3f619e6e826c57e5dd03a4e0fe9d2469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API const MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_DynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_PartialChangeMeshDataAction_DynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::PartialChangeMeshDataAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="209" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="209" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a8a90622c3cb3fcd97f7627efc20f03cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <definition>MRC_API MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_PartialChangeMeshDataAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::PartialChangeMeshDataAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="216" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="216" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a6b5a21d7b29c0e25bfef697080b6e418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_Construct</definition>
         <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectMesh *obj, MR_ObjectMeshData *newData)</argsstring>
         <name>MR_PartialChangeMeshDataAction_Construct</name>
@@ -596,10 +785,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="156" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="156" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="230" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="230" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a646579e1c694ee6ac3c40aa5be3e3f8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PartialChangeMeshDataAction_Destroy</definition>
         <argsstring>(const MR_PartialChangeMeshDataAction *_this)</argsstring>
         <name>MR_PartialChangeMeshDataAction_Destroy</name>
@@ -608,16 +797,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PartialChangeMeshDataAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="159" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="233" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a0b86e21c2c271a598bac46d216a89fb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PartialChangeMeshDataAction_DestroyArray</definition>
         <argsstring>(const MR_PartialChangeMeshDataAction *_this)</argsstring>
         <name>MR_PartialChangeMeshDataAction_DestroyArray</name>
@@ -626,16 +815,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PartialChangeMeshDataAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="162" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="236" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1ac843bd1937d3884b5ea12615e914828d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref> *</type>
         <definition>MRC_API MR_PartialChangeMeshDataAction * MR_PartialChangeMeshDataAction_AssignFromAnother</definition>
         <argsstring>(MR_PartialChangeMeshDataAction *_this, MR_PassBy _other_pass_by, MR_PartialChangeMeshDataAction *_other)</argsstring>
         <name>MR_PartialChangeMeshDataAction_AssignFromAnother</name>
@@ -644,7 +833,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -654,14 +843,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PartialChangeMeshDataAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PartialChangeMeshDataAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="169" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="169" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="243" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="243" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1a7cb3cc47f2c941a734f814b83b39f29d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API MR_std_string * MR_PartialChangeMeshDataAction_name</definition>
         <argsstring>(const MR_PartialChangeMeshDataAction *_this)</argsstring>
         <name>MR_PartialChangeMeshDataAction_name</name>
@@ -672,14 +861,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PartialChangeMeshDataAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::PartialChangeMeshDataAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string_8h_1a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" kindref="member">MR_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="174" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="174" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="248" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="248" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1af05ed17c104f94cbb2be70a773b1aa4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PartialChangeMeshDataAction_action</definition>
         <argsstring>(MR_PartialChangeMeshDataAction *_this, MR_HistoryAction_Type type)</argsstring>
         <name>MR_PartialChangeMeshDataAction_action</name>
@@ -698,10 +887,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="178" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="252" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="252" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeMeshDataAction_8h_1ae37ddf857bc41c70c9bc66d9f49a50d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_PartialChangeMeshDataAction_heapBytes</definition>
         <argsstring>(const MR_PartialChangeMeshDataAction *_this)</argsstring>
         <name>MR_PartialChangeMeshDataAction_heapBytes</name>
@@ -716,7 +905,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" line="182" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h" declline="182" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" line="256" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h" declline="256" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -727,8 +916,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRHistoryAction_8h" kindref="compound">MRCMesh/MRHistoryAction.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -737,76 +926,100 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRChangeMeshDataAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshData.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRChangeMeshDataAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRChangeMeshDataAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref>;</highlight></codeline>
+<codeline lineno="34" refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRChangeMeshDataAction_8h_1a6e14942514c3fc987da9ab455f6fe848" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a6e14942514c3fc987da9ab455f6fe848" kindref="member">MR_ChangeMeshDataAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="39" refid="MRChangeMeshDataAction_8h_1a6e14942514c3fc987da9ab455f6fe848" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a6e14942514c3fc987da9ab455f6fe848" kindref="member">MR_ChangeMeshDataAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRChangeMeshDataAction_8h_1a1b7b70bb67e437d6c3b4be16c4664592" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a1b7b70bb67e437d6c3b4be16c4664592" kindref="member">MR_ChangeMeshDataAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="43" refid="MRChangeMeshDataAction_8h_1a1b7b70bb67e437d6c3b4be16c4664592" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a1b7b70bb67e437d6c3b4be16c4664592" kindref="member">MR_ChangeMeshDataAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRChangeMeshDataAction_8h_1a1bff4adcfc92eed3e30577101756017a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a1bff4adcfc92eed3e30577101756017a" kindref="member">MR_ChangeMeshDataAction_OffsetMutablePtr</ref>(<ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="47" refid="MRChangeMeshDataAction_8h_1a1bff4adcfc92eed3e30577101756017a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a1bff4adcfc92eed3e30577101756017a" kindref="member">MR_ChangeMeshDataAction_OffsetMutablePtr</ref>(<ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRChangeMeshDataAction_8h_1acb57964946724ddc4011786bbb55d7ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1acb57964946724ddc4011786bbb55d7ee" kindref="member">MR_ChangeMeshDataAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52" refid="MRChangeMeshDataAction_8h_1acb57964946724ddc4011786bbb55d7ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1acb57964946724ddc4011786bbb55d7ee" kindref="member">MR_ChangeMeshDataAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRChangeMeshDataAction_8h_1af213c0768f02ba9be562ca697ff4de85" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1af213c0768f02ba9be562ca697ff4de85" kindref="member">MR_ChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56" refid="MRChangeMeshDataAction_8h_1af213c0768f02ba9be562ca697ff4de85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1af213c0768f02ba9be562ca697ff4de85" kindref="member">MR_ChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRChangeMeshDataAction_8h_1a8c15335817c18a3f229226ce7e0ab49d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8c15335817c18a3f229226ce7e0ab49d" kindref="member">MR_ChangeMeshDataAction_Construct_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cloneMesh);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRChangeMeshDataAction_8h_1a1b4ca5ec428557ed885c16c106c7027f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a1b4ca5ec428557ed885c16c106c7027f" kindref="member">MR_ChangeMeshDataAction_Construct_MR_ObjectMeshData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*obj,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*newData);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRChangeMeshDataAction_8h_1ab3d648debd608e1eb0789b2aff262ccc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1ab3d648debd608e1eb0789b2aff262ccc" kindref="member">MR_ChangeMeshDataAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRChangeMeshDataAction_8h_1aac3cf5eaa38350f2f0b69db6df79ece8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1aac3cf5eaa38350f2f0b69db6df79ece8" kindref="member">MR_ChangeMeshDataAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62" refid="MRChangeMeshDataAction_8h_1a58771ff16a333ab71981ee8c77ed7528" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a58771ff16a333ab71981ee8c77ed7528" kindref="member">MR_ChangeMeshDataAction_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRChangeMeshDataAction_8h_1add0d97a01b2ab0f2996eec3dd8fb4aea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1add0d97a01b2ab0f2996eec3dd8fb4aea" kindref="member">MR_ChangeMeshDataAction_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRChangeMeshDataAction_8h_1a06ebaa6e515984c67bc20220140cf28d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a06ebaa6e515984c67bc20220140cf28d" kindref="member">MR_ChangeMeshDataAction_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRChangeMeshDataAction_8h_1a7fbc5c9d5b94e8305a9e1796c0de49c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a7fbc5c9d5b94e8305a9e1796c0de49c5" kindref="member">MR_ChangeMeshDataAction_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRChangeMeshDataAction_8h_1a5a89e72250bffcc126ddc2d5f3fd4751" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a5a89e72250bffcc126ddc2d5f3fd4751" kindref="member">MR_ChangeMeshDataAction_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRChangeMeshDataAction_8h_1acf1effeb8cc211a37658cbedaae52ff0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1acf1effeb8cc211a37658cbedaae52ff0" kindref="member">MR_ChangeMeshDataAction_AssignFromAnother</ref>(<ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="93" refid="MRChangeMeshDataAction_8h_1ac0c7d1f063686c57512d9f0125fdbafe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1ac0c7d1f063686c57512d9f0125fdbafe" kindref="member">MR_ChangeMeshDataAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRChangeMeshDataAction_8h_1af22d17388f5c42ee10d1ee8003d7a244" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1af22d17388f5c42ee10d1ee8003d7a244" kindref="member">MR_ChangeMeshDataAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRChangeMeshDataAction_8h_1a9898dd007693f5f23aa2e423b7819827" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a9898dd007693f5f23aa2e423b7819827" kindref="member">MR_ChangeMeshDataAction_action</ref>(<ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRChangeMeshDataAction_8h_1ab6280af941ce5b1c26a05f34d55ed73e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1ab6280af941ce5b1c26a05f34d55ed73e" kindref="member">MR_ChangeMeshDataAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRChangeMeshDataAction_8h_1a9c303ed7db8781c4c2d0de88ca816f70" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeMeshDataAction_8h_1a9c303ed7db8781c4c2d0de88ca816f70" kindref="member">MR_ChangeMeshDataAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MRChangeMeshDataAction_8h_1a8f7415daaad6f498afd85a45a567f055" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8f7415daaad6f498afd85a45a567f055" kindref="member">MR_ChangeMeshDataAction_obj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRChangeMeshDataAction_8h_1a3f2bf38a44ba8e258e9fb4fc8e6fdba8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a3f2bf38a44ba8e258e9fb4fc8e6fdba8" kindref="member">MR_ChangeMeshDataAction_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103" refid="MRChangeMeshDataAction_8h_1a8c15335817c18a3f229226ce7e0ab49d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8c15335817c18a3f229226ce7e0ab49d" kindref="member">MR_ChangeMeshDataAction_Construct_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cloneMesh);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRChangeMeshDataAction_8h_1a1b4ca5ec428557ed885c16c106c7027f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a1b4ca5ec428557ed885c16c106c7027f" kindref="member">MR_ChangeMeshDataAction_Construct_MR_ObjectMeshData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*obj,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*newData);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRChangeMeshDataAction_8h_1ab3d648debd608e1eb0789b2aff262ccc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1ab3d648debd608e1eb0789b2aff262ccc" kindref="member">MR_ChangeMeshDataAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRChangeMeshDataAction_8h_1adf918e065483652d735b269db987884a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1adf918e065483652d735b269db987884a" kindref="member">MR_PartialChangeMeshDataAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRChangeMeshDataAction_8h_1a8fa481f1c89da724b38acf53eb356c53" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8fa481f1c89da724b38acf53eb356c53" kindref="member">MR_PartialChangeMeshDataAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRChangeMeshDataAction_8h_1aa3aa46f1a3c983e2795ab344228036d5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1aa3aa46f1a3c983e2795ab344228036d5" kindref="member">MR_PartialChangeMeshDataAction_OffsetMutablePtr</ref>(<ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRChangeMeshDataAction_8h_1a46fae566609b288e6551720dfd32184b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a46fae566609b288e6551720dfd32184b" kindref="member">MR_PartialChangeMeshDataAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MRChangeMeshDataAction_8h_1a8f9f97854b00c3b93c604ebc5b6e7006" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8f9f97854b00c3b93c604ebc5b6e7006" kindref="member">MR_PartialChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="MRChangeMeshDataAction_8h_1a6b5a21d7b29c0e25bfef697080b6e418" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a6b5a21d7b29c0e25bfef697080b6e418" kindref="member">MR_PartialChangeMeshDataAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*obj,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*newData);</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRChangeMeshDataAction_8h_1a646579e1c694ee6ac3c40aa5be3e3f8b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a646579e1c694ee6ac3c40aa5be3e3f8b" kindref="member">MR_PartialChangeMeshDataAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRChangeMeshDataAction_8h_1a0b86e21c2c271a598bac46d216a89fb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0b86e21c2c271a598bac46d216a89fb7" kindref="member">MR_PartialChangeMeshDataAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="MRChangeMeshDataAction_8h_1aac3cf5eaa38350f2f0b69db6df79ece8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1aac3cf5eaa38350f2f0b69db6df79ece8" kindref="member">MR_ChangeMeshDataAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRChangeMeshDataAction_8h_1acf1effeb8cc211a37658cbedaae52ff0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1acf1effeb8cc211a37658cbedaae52ff0" kindref="member">MR_ChangeMeshDataAction_AssignFromAnother</ref>(<ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRChangeMeshDataAction_8h_1af22d17388f5c42ee10d1ee8003d7a244" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1af22d17388f5c42ee10d1ee8003d7a244" kindref="member">MR_ChangeMeshDataAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRChangeMeshDataAction_8h_1a9898dd007693f5f23aa2e423b7819827" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a9898dd007693f5f23aa2e423b7819827" kindref="member">MR_ChangeMeshDataAction_action</ref>(<ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRChangeMeshDataAction_8h_1ab6280af941ce5b1c26a05f34d55ed73e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1ab6280af941ce5b1c26a05f34d55ed73e" kindref="member">MR_ChangeMeshDataAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRChangeMeshDataAction_8h_1a9c303ed7db8781c4c2d0de88ca816f70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a9c303ed7db8781c4c2d0de88ca816f70" kindref="member">MR_ChangeMeshDataAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRChangeMeshDataAction_8h_1a8f7415daaad6f498afd85a45a567f055" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8f7415daaad6f498afd85a45a567f055" kindref="member">MR_ChangeMeshDataAction_obj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRChangeMeshDataAction_8h_1a3f2bf38a44ba8e258e9fb4fc8e6fdba8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a3f2bf38a44ba8e258e9fb4fc8e6fdba8" kindref="member">MR_ChangeMeshDataAction_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRChangeMeshDataAction_8h_1adf918e065483652d735b269db987884a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1adf918e065483652d735b269db987884a" kindref="member">MR_PartialChangeMeshDataAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRChangeMeshDataAction_8h_1ac843bd1937d3884b5ea12615e914828d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1ac843bd1937d3884b5ea12615e914828d" kindref="member">MR_PartialChangeMeshDataAction_AssignFromAnother</ref>(<ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRChangeMeshDataAction_8h_1a7cb3cc47f2c941a734f814b83b39f29d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a7cb3cc47f2c941a734f814b83b39f29d" kindref="member">MR_PartialChangeMeshDataAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRChangeMeshDataAction_8h_1af05ed17c104f94cbb2be70a773b1aa4b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1af05ed17c104f94cbb2be70a773b1aa4b" kindref="member">MR_PartialChangeMeshDataAction_action</ref>(<ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>type);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRChangeMeshDataAction_8h_1ae37ddf857bc41c70c9bc66d9f49a50d6" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeMeshDataAction_8h_1ae37ddf857bc41c70c9bc66d9f49a50d6" kindref="member">MR_PartialChangeMeshDataAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="166" refid="MRChangeMeshDataAction_8h_1a8fa481f1c89da724b38acf53eb356c53" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8fa481f1c89da724b38acf53eb356c53" kindref="member">MR_PartialChangeMeshDataAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRChangeMeshDataAction_8h_1aa3aa46f1a3c983e2795ab344228036d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1aa3aa46f1a3c983e2795ab344228036d5" kindref="member">MR_PartialChangeMeshDataAction_OffsetMutablePtr</ref>(<ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRChangeMeshDataAction_8h_1a46fae566609b288e6551720dfd32184b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a46fae566609b288e6551720dfd32184b" kindref="member">MR_PartialChangeMeshDataAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRChangeMeshDataAction_8h_1a8f9f97854b00c3b93c604ebc5b6e7006" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8f9f97854b00c3b93c604ebc5b6e7006" kindref="member">MR_PartialChangeMeshDataAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRChangeMeshDataAction_8h_1a7c9b2349cfdbcd7049fe34a6c991e16c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a7c9b2349cfdbcd7049fe34a6c991e16c" kindref="member">MR_PartialChangeMeshDataAction_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="MRChangeMeshDataAction_8h_1a3a4388e8e1e31230e8cb4c280a4ebdeb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a3a4388e8e1e31230e8cb4c280a4ebdeb" kindref="member">MR_PartialChangeMeshDataAction_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRChangeMeshDataAction_8h_1a7a566cde63fcc0d35be7080adaba9c53" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a7a566cde63fcc0d35be7080adaba9c53" kindref="member">MR_PartialChangeMeshDataAction_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="MRChangeMeshDataAction_8h_1a7563252bd6e2144aa632c60b5806d057" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a7563252bd6e2144aa632c60b5806d057" kindref="member">MR_PartialChangeMeshDataAction_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRChangeMeshDataAction_8h_1a3f619e6e826c57e5dd03a4e0fe9d2469" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a3f619e6e826c57e5dd03a4e0fe9d2469" kindref="member">MR_PartialChangeMeshDataAction_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRChangeMeshDataAction_8h_1a8a90622c3cb3fcd97f7627efc20f03cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a8a90622c3cb3fcd97f7627efc20f03cb" kindref="member">MR_PartialChangeMeshDataAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRChangeMeshDataAction_8h_1a6b5a21d7b29c0e25bfef697080b6e418" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a6b5a21d7b29c0e25bfef697080b6e418" kindref="member">MR_PartialChangeMeshDataAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/>*obj,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*newData);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRChangeMeshDataAction_8h_1a646579e1c694ee6ac3c40aa5be3e3f8b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a646579e1c694ee6ac3c40aa5be3e3f8b" kindref="member">MR_PartialChangeMeshDataAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRChangeMeshDataAction_8h_1a0b86e21c2c271a598bac46d216a89fb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a0b86e21c2c271a598bac46d216a89fb7" kindref="member">MR_PartialChangeMeshDataAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="MRChangeMeshDataAction_8h_1ac843bd1937d3884b5ea12615e914828d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1ac843bd1937d3884b5ea12615e914828d" kindref="member">MR_PartialChangeMeshDataAction_AssignFromAnother</ref>(<ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="MRChangeMeshDataAction_8h_1a7cb3cc47f2c941a734f814b83b39f29d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeMeshDataAction_8h_1a7cb3cc47f2c941a734f814b83b39f29d" kindref="member">MR_PartialChangeMeshDataAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRChangeMeshDataAction_8h_1af05ed17c104f94cbb2be70a773b1aa4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1af05ed17c104f94cbb2be70a773b1aa4b" kindref="member">MR_PartialChangeMeshDataAction_action</ref>(<ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>type);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRChangeMeshDataAction_8h_1ae37ddf857bc41c70c9bc66d9f49a50d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1ae37ddf857bc41c70c9bc66d9f49a50d6" kindref="member">MR_PartialChangeMeshDataAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeMeshDataAction.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeMeshDataAction.h"/>
   </compounddef>
 </doxygen>

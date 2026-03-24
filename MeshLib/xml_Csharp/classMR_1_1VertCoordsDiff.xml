@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertCoordsDiff" kind="class" language="C#" prot="public">
     <compoundname>MR::VertCoordsDiff</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_VertCoordsDiff</basecompoundref>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VertCoordsDiff.VertCoordsDiff</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" kindref="member">MR.VertCoordsDiff.VertCoordsDiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VertCoordsDiff.VertCoordsDiff</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" kindref="member">MR.VertCoordsDiff.VertCoordsDiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VertCoordsDiff.VertCoordsDiff</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" kindref="member">MR.VertCoordsDiff.VertCoordsDiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>to</declname>
         </param>
         <briefdescription>
-<para>computes the difference, that can be applied to vector-from in order to get vector-to Generated from constructor <computeroutput>MR.VertCoordsDiff.VertCoordsDiff</computeroutput>. </para>
+<para>computes the difference, that can be applied to vector-from in order to get vector-to Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" kindref="member">MR.VertCoordsDiff.VertCoordsDiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.VertCoordsDiff.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VertCoordsDiff::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -169,45 +169,45 @@
 <para>if the vectors are similar then this object is small, if the vectors are very distinct then this object will be even larger than one vector itself Generated from class <computeroutput><ref refid="classMR_1_1VertCoordsDiff" kindref="compound">MR.VertCoordsDiff</ref></computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_VertCoordsDiff</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.VertCoordsDiff</label>
         <link refid="classMR_1_1VertCoordsDiff"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_VertCoordsDiff</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VertCoordsDiff &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_VertCoordsDiff</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.VertCoordsDiff</label>
         <link refid="classMR_1_1VertCoordsDiff"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_VertCoordsDiff</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VertCoordsDiff &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="105" bodyend="175"/>

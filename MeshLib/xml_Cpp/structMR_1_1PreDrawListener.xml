@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PreDrawListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::PreDrawListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <derivedcompoundref refid="classMR_1_1AncillaryImGuiLabel" prot="public" virt="non-virtual">MR::AncillaryImGuiLabel</derivedcompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaaaad0be432409ee6a00436099613fe77" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga315d3fdaaa28ec7d64ac68a04c1a8429" kind="function"><name>~PreDrawListener</name></member>
-      <member refid="group__GeneralGroup_1ga69d5ba4966a5c7fc86d0f9f39924c180" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga11a2606430cb36b32bb169a8b602e88d" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1ga4e0adfc848772aeae37ad04a7d61d787" kind="function"><name>preDraw_</name></member>
@@ -59,9 +59,9 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="171" bodyend="177"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="170" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="171" bodyend="177"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga69d5ba4966a5c7fc86d0f9f39924c180" prot="public" virt="virtual"><scope>MR::PreDrawListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga11a2606430cb36b32bb169a8b602e88d" prot="public" virt="virtual"><scope>MR::PreDrawListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::PreDrawListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::PreDrawListener</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1gaaaad0be432409ee6a00436099613fe77" prot="public" virt="non-virtual"><scope>MR::PreDrawListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>

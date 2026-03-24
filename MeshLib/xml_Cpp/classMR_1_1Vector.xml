@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector" kind="class" language="C++" prot="public">
     <compoundname>MR::Vector</compoundname>
-    <includes refid="MRVector_8h" local="no">MRVector.h</includes>
+    <includes refid="MRVector_8h" local="no">MRMesh/MRVector.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
       </param>
       <param>
-        <type>typename I</type>
+        <type>typename <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
@@ -61,6 +61,12 @@
       <member refid="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" kind="function"><name>swap</name></member>
       <member refid="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" kind="function"><name>heapBytes</name></member>
     </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1gac2374ea2fa52ec9ff0f43f1d45aab889" kind="friend"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gab3222ec28cfb5b8baf0f806b9035207d" kind="friend"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1ga41b6e642d26380cc66a251b84ede3a07" kind="friend"><name>end</name></member>
+      <member refid="group__GeneralGroup_1gae4b694dba80d0a51e8c06de14eef2aff" kind="friend"><name>end</name></member>
+    </sectiondef>
     <briefdescription>
 <para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
@@ -84,7 +90,7 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="23" bodyend="167"/>
+    <location file="MRMesh/MRVector.h" line="22" column="1" bodyfile="MRMesh/MRVector.h" bodystart="23" bodyend="172"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga34cbfbd253ebde3284a83172a4443540" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeAt</name></member>
       <member refid="group__GeneralGroup_1gaf0951dea97b2041bcf0b554bf3f92408" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeSet</name></member>
@@ -92,6 +98,8 @@
       <member refid="group__GeneralGroup_1ga46444b5dbe2a6683e69b0da7019a275a" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>back</name></member>
       <member refid="group__GeneralGroup_1ga00e105c75d03f3e463940689fbbc9971" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>back</name></member>
       <member refid="group__GeneralGroup_1ga8c55eb98bf2596f633ff35ce1f8fe00b" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>backId</name></member>
+      <member refid="group__GeneralGroup_1gac2374ea2fa52ec9ff0f43f1d45aab889" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gab3222ec28cfb5b8baf0f806b9035207d" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>begin</name></member>
       <member refid="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>beginId</name></member>
       <member refid="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>capacity</name></member>
       <member refid="group__GeneralGroup_1ga0e593b171d655e35f554674f88083c76" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>clear</name></member>
@@ -100,6 +108,8 @@
       <member refid="group__GeneralGroup_1gaade5514343c87eb684306b423c1c7243" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>data</name></member>
       <member refid="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>data</name></member>
       <member refid="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga41b6e642d26380cc66a251b84ede3a07" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>end</name></member>
+      <member refid="group__GeneralGroup_1gae4b694dba80d0a51e8c06de14eef2aff" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>end</name></member>
       <member refid="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>endId</name></member>
       <member refid="group__GeneralGroup_1ga45f2bc56cf356b515e4663756f9603d0" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>front</name></member>
       <member refid="group__GeneralGroup_1ga94dc9dbf3a73cbe2587df726910c0c62" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>front</name></member>

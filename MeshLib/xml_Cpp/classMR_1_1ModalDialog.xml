@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ModalDialog" kind="class" language="C++" prot="public">
     <compoundname>MR::ModalDialog</compoundname>
-    <includes refid="MRModalDialog_8h" local="no">MRModalDialog.h</includes>
+    <includes refid="MRModalDialog_8h" local="no">MRViewer/MRModalDialog.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga2811055d3af6c5927e72be4d41ff504e" kind="variable"><name>label_</name></member>
       <member refid="group__GeneralGroup_1ga721993f1e4a7955cfe1e62a12638e2af" kind="variable"><name>settings_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga6367352ce1c441ad84edbc1c4939c9c8" kind="function"><name>ModalDialog</name></member>
-      <member refid="group__GeneralGroup_1ga858234d06631d6898dea488a675bc6d9" kind="function"><name>beginPopup</name></member>
-      <member refid="group__GeneralGroup_1ga25147c8c3226b614b4ddfa3f30e59d88" kind="function"><name>endPopup</name></member>
+      <member refid="group__GeneralGroup_1ga834d20a0c8af344b1de9104cb8d7185c" kind="function"><name>ModalDialog</name></member>
+      <member refid="group__GeneralGroup_1gae28105f5e12e75d9f730e4f9d36b43db" kind="function"><name>beginPopup</name></member>
+      <member refid="group__GeneralGroup_1gab4043b4abc7b0bd9a1af268f46165b41" kind="function"><name>endPopup</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gae4837412960e333a9ddeac07b8f44dde" kind="function"><name>windowWidth</name></member>
+      <member refid="group__GeneralGroup_1ga86bc14271bfec542326512b7bf6ab8bf" kind="function"><name>windowWidth</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gae737bce0e2dc1c28fbd496048e878954" kind="function"><name>setStyle_</name></member>
@@ -24,16 +24,16 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="38" bodyend="58"/>
+    <location file="MRViewer/MRModalDialog.h" line="37" column="1" bodyfile="MRViewer/MRModalDialog.h" bodystart="38" bodyend="58"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga858234d06631d6898dea488a675bc6d9" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>beginPopup</name></member>
-      <member refid="group__GeneralGroup_1ga25147c8c3226b614b4ddfa3f30e59d88" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>endPopup</name></member>
+      <member refid="group__GeneralGroup_1gae28105f5e12e75d9f730e4f9d36b43db" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>beginPopup</name></member>
+      <member refid="group__GeneralGroup_1gab4043b4abc7b0bd9a1af268f46165b41" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>endPopup</name></member>
       <member refid="group__GeneralGroup_1ga2811055d3af6c5927e72be4d41ff504e" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>label_</name></member>
-      <member refid="group__GeneralGroup_1ga6367352ce1c441ad84edbc1c4939c9c8" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>ModalDialog</name></member>
+      <member refid="group__GeneralGroup_1ga834d20a0c8af344b1de9104cb8d7185c" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>ModalDialog</name></member>
       <member refid="group__GeneralGroup_1gae737bce0e2dc1c28fbd496048e878954" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>setStyle_</name></member>
       <member refid="group__GeneralGroup_1ga721993f1e4a7955cfe1e62a12638e2af" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>settings_</name></member>
       <member refid="group__GeneralGroup_1gafc865cc4f9f82a13a0e212a58ef59a9e" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>unsetStyle_</name></member>
-      <member refid="group__GeneralGroup_1gae4837412960e333a9ddeac07b8f44dde" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>windowWidth</name></member>
+      <member refid="group__GeneralGroup_1ga86bc14271bfec542326512b7bf6ab8bf" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>windowWidth</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

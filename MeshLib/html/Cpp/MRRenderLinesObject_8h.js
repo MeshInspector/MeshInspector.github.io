@@ -1,4 +1,4 @@
 var MRRenderLinesObject_8h =
 [
-    [ "GetAvailableLineWidthRange", "MRRenderLinesObject_8h.html#gaaf818ad78dcf1287b09182b71c21927c", null ]
+    [ "MR::GetAvailableLineWidthRange", "group__GeneralGroup.html#ga967298b35a9d34b3cdb830bb43e9201d", null ]
 ];

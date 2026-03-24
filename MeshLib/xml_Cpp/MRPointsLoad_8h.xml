@@ -1,81 +1,126 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointsLoad_8h" kind="file" language="C++">
     <compoundname>MRPointsLoad.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MRIOFilters_8h" local="yes">MRIOFilters.h</includes>
     <includes refid="MRPointsLoadSettings_8h" local="yes">MRPointsLoadSettings.h</includes>
     <includes local="no">filesystem</includes>
     <incdepgraph>
-      <node id="3">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
       </node>
-      <node id="7">
+      <node id="15">
         <label>MRIOFilters.h</label>
         <link refid="MRIOFilters_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRPointsLoad.h</label>
-        <link refid="MRPointsLoad_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="1">
+        <label>MRMesh/MRPointsLoad.h</label>
+        <link refid="MRPointsLoad_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
         <label>MRPointsLoadSettings.h</label>
         <link refid="MRPointsLoadSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="4">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="5">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="8">
-        <label>compare</label>
-      </node>
-      <node id="12">
-        <label>filesystem</label>
-      </node>
-      <node id="9">
-        <label>optional</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>string</label>
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="14">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="16">
+        <label>compare</label>
+      </node>
+      <node id="19">
+        <label>filesystem</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>optional</label>
       </node>
       <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -88,7 +133,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRIOFilters_8h" kindref="compound">MRIOFilters.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPointsLoadSettings_8h" kindref="compound">MRPointsLoadSettings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -98,30 +143,30 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsLoad" kindref="compound">MR::PointsLoad</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"></codeline>
-<codeline lineno="18" refid="group__IOGroup_1gaff1fcad8c4a57da6a7dc90d9fb1f2a56" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1gaff1fcad8c4a57da6a7dc90d9fb1f2a56" kindref="member">fromText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="19" refid="group__IOGroup_1gab1a6e8a21cedba988c7ecaea8eda8d2c" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1gaff1fcad8c4a57da6a7dc90d9fb1f2a56" kindref="member">fromText</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="group__IOGroup_1ga1c3cebd38d164d456af80671f7250fbf" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga1c3cebd38d164d456af80671f7250fbf" kindref="member">fromText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="19" refid="group__IOGroup_1gacc3b6b39e72f9a09af6653f353e66998" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga1c3cebd38d164d456af80671f7250fbf" kindref="member">fromText</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="group__IOGroup_1ga365add9d0f24601d5f6b167a7401409c" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga365add9d0f24601d5f6b167a7401409c" kindref="member">fromPts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="23" refid="group__IOGroup_1ga76499883ce907d382fed5d9522aadaa8" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga365add9d0f24601d5f6b167a7401409c" kindref="member">fromPts</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="22" refid="group__IOGroup_1ga182f784fd22c46cd583b17466226b26a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga182f784fd22c46cd583b17466226b26a" kindref="member">fromPts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="group__IOGroup_1ga756bfbe6cede3121408e2ef95f428411" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga182f784fd22c46cd583b17466226b26a" kindref="member">fromPts</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="group__IOGroup_1ga64740729d79ac47a437b07ade4cdd263" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga64740729d79ac47a437b07ade4cdd263" kindref="member">fromPly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="27" refid="group__IOGroup_1gabcb84700ed6a15a625e0033b4b70004b" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga64740729d79ac47a437b07ade4cdd263" kindref="member">fromPly</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="26" refid="group__IOGroup_1ga352bcd3eb201034b3436586ca04f097b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga352bcd3eb201034b3436586ca04f097b" kindref="member">fromPly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__IOGroup_1ga63584572783b16916778f68be00de68b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga352bcd3eb201034b3436586ca04f097b" kindref="member">fromPly</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__IOGroup_1ga397a19d78a3050dda279565c1962c330" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga397a19d78a3050dda279565c1962c330" kindref="member">fromObj</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="31" refid="group__IOGroup_1gad4657017f48af1fe3829844adc135bf0" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga397a19d78a3050dda279565c1962c330" kindref="member">fromObj</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="30" refid="group__IOGroup_1ga6b969b26544c7ea1a5d6c27d3f6dce43" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga6b969b26544c7ea1a5d6c27d3f6dce43" kindref="member">fromObj</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="31" refid="group__IOGroup_1ga80e4f60af0a019706ae5488aa2d1acb2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga6b969b26544c7ea1a5d6c27d3f6dce43" kindref="member">fromObj</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__IOGroup_1ga20c9e8324f81247ee337a60745ad7c8c" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga20c9e8324f81247ee337a60745ad7c8c" kindref="member">fromDxf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="34" refid="group__IOGroup_1ga750d0574c9ee2875720273d1f4c73e62" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga20c9e8324f81247ee337a60745ad7c8c" kindref="member">fromDxf</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__IOGroup_1ga0bcd39338d08939438531f7d5c9d077d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga0bcd39338d08939438531f7d5c9d077d" kindref="member">fromDxf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="34" refid="group__IOGroup_1ga72bf2e744527a6f283dc17ddb3f49317" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga0bcd39338d08939438531f7d5c9d077d" kindref="member">fromDxf</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="group__IOGroup_1gab0f629849bb97f655fcf29a1b3afd9fa" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1gab0f629849bb97f655fcf29a1b3afd9fa" kindref="member">fromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="39" refid="group__IOGroup_1ga9a63511b8cba2da2a8c8373fefc0a384" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1gab0f629849bb97f655fcf29a1b3afd9fa" kindref="member">fromAnySupportedFormat</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>extension,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="37" refid="group__IOGroup_1ga7ffd96e7cc233f9a5d99dfc3e8bb0edb" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga7ffd96e7cc233f9a5d99dfc3e8bb0edb" kindref="member">fromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__IOGroup_1gaecd3b7671e06c949d93c808ec95506f7" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__IOGroup_1ga7ffd96e7cc233f9a5d99dfc3e8bb0edb" kindref="member">fromAnySupportedFormat</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>extension,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="group__IOGroup_1ga7f50d8551f5f8f8aaa9a7175d5f639cc" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__IOGroup_1ga7f50d8551f5f8f8aaa9a7175d5f639cc" kindref="member">telemetryLogSize</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud<sp/>);</highlight></codeline>
+<codeline lineno="42" refid="group__IOGroup_1ga56f3c968fa0da7592fff9bf39304344e" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__IOGroup_1ga56f3c968fa0da7592fff9bf39304344e" kindref="member">telemetryLogSize</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h"/>
+    <location file="MRMesh/MRPointsLoad.h"/>
   </compounddef>
 </doxygen>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROnInit_8h" kind="file" language="C++">
     <compoundname>MROnInit.h</compoundname>
     <includes refid="MRMacros_8h" local="yes">MRMacros.h</includes>
-    <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRIOFormatsRegistry.h</includedby>
+    <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRMesh/MRIOFormatsRegistry.h</includedby>
     <incdepgraph>
       <node id="2">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MROnInit.h</label>
+        <label>MRMesh/MROnInit.h</label>
         <link refid="MROnInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -18,11 +18,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="2">
-        <label>MRIOFormatsRegistry.h</label>
+        <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -30,19 +30,19 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MROnInit.h</label>
+        <label>MRMesh/MROnInit.h</label>
         <link refid="MROnInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRVoxelsSave.h</label>
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
     </invincdepgraph>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROnInit.h" line="5" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROnInit.h" bodystart="5" bodyend="6"/>
+        <location file="MRMesh/MROnInit.h" line="5" column="9" bodyfile="MRMesh/MROnInit.h" bodystart="5" bodyend="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -88,8 +88,8 @@
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROnInit.h"/>
+    <location file="MRMesh/MROnInit.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPrism_8h" kind="file" language="C++">
     <compoundname>MRPrism.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRPrism.h</label>
@@ -12,26 +12,12 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPrism_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrism.h" line="9" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrism.h" bodystart="9" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPrism_8h_1ae4d9e77abfe50304969602cc8ca54dcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API MR_Mesh * MR_makePrism</definition>
         <argsstring>(float baseLength, float leftAngle, float rightAngle, const float *height)</argsstring>
         <name>MR_makePrism</name>
@@ -58,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrism.h" line="18" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrism.h" declline="18" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrism.h" line="18" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrism.h" declline="18" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -68,24 +54,24 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="MRPrism_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//Creates<sp/>a<sp/>triangular<sp/>prism.<sp/>One<sp/>edge<sp/>of<sp/>its<sp/>base<sp/>lies<sp/>on<sp/>&apos;x&apos;<sp/>axis<sp/>and<sp/>has<sp/>&apos;baseLength&apos;<sp/>in<sp/>length.<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//&apos;leftAngle&apos;<sp/>and<sp/>&apos;rightAngle&apos;<sp/>specify<sp/>two<sp/>adjacent<sp/>angles</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>axis<sp/>of<sp/>a<sp/>prism<sp/>is<sp/>parallel<sp/>to<sp/>&apos;z&apos;<sp/>axis</highlight></codeline>
-<codeline lineno="18" refid="MRPrism_8h_1ae4d9e77abfe50304969602cc8ca54dcc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRPrism_8h_1ae4d9e77abfe50304969602cc8ca54dcc" kindref="member">MR_makePrism</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>baseLength,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>leftAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rightAngle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*height);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>axis<sp/>of<sp/>a<sp/>prism<sp/>is<sp/>parallel<sp/>to<sp/>&apos;z&apos;<sp/>axis</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRPrism_8h_1ae4d9e77abfe50304969602cc8ca54dcc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRPrism_8h_1ae4d9e77abfe50304969602cc8ca54dcc" kindref="member">MR_makePrism</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>baseLength,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>leftAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rightAngle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*height);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrism.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrism.h"/>
   </compounddef>
 </doxygen>

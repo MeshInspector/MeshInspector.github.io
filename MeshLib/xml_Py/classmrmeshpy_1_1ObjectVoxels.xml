@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectVoxels" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectVoxels</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1ObjectMeshHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectMeshHolder</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40952" bodyend="40953"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41840" bodyend="41841"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a8fe31de87fa8c9df4b6254322e107ed6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40955" bodyend="40956"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41843" bodyend="41844"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a40f06def825d6aad76caacf36c545772" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40958" bodyend="40959"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41846" bodyend="41847"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -64,7 +64,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ObjectVoxels.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -75,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40960" bodyend="40961"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41848" bodyend="41849"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a674a01d8ec7241ec85dd8040acda711b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -95,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40962" bodyend="40965"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41850" bodyend="41853"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0f2396ca6aa5443528ecc9dc38fa9461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -120,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40966" bodyend="40967"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41854" bodyend="41855"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aed7318962783f119a0f3b64b332e100f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -139,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40968" bodyend="40969"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41856" bodyend="41857"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a81a7e0cc86cefe516b274f32ecfd6abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -158,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40970" bodyend="40971"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41858" bodyend="41859"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a33891c9758158a7a075824c1dbfbe3b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -180,7 +179,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40972" bodyend="40973"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41860" bodyend="41861"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a40e4d745a52f013f7c38d1c11ead3f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -222,7 +221,7 @@ set a new background for the VdbVolume, if normalPlusGrad = true, use the maximu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40975" bodyend="40981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41863" bodyend="41869"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0f15d1a774f12aa6cde41f58e50cd012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -258,7 +257,7 @@ set a new background for the VdbVolume, if normalPlusGrad = true, use the maximu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40983" bodyend="40988"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41871" bodyend="41876"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a478fb24e3825f0bccb78d7a001269192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -292,7 +291,7 @@ set a new background for the VdbVolume, if normalPlusGrad = true, use the maximu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40990" bodyend="40994"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41878" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41878" bodyend="41882"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a1e500fdaaba366480ce116e2447f3546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -316,7 +315,7 @@ set a new background for the VdbVolume, if normalPlusGrad = true, use the maximu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40996" bodyend="40999"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41884" bodyend="41887"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aaebbdf755e414acc63f084cb8b9c2b13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
@@ -336,7 +335,7 @@ set a new background for the VdbVolume, if normalPlusGrad = true, use the maximu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41000" bodyend="41003"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41888" bodyend="41891"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1af3a43c6302da37bf07c07d781c4b2dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -362,7 +361,7 @@ by calling `prepareDataForVolumeRendering(cb)` function before calling this one
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41004" bodyend="41009"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41892" bodyend="41897"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a899ff27173bf3ada1d47460e836273b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -382,7 +381,7 @@ by calling `prepareDataForVolumeRendering(cb)` function before calling this one
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41010" bodyend="41013"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41898" bodyend="41901"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1abb1303f149ea689fe2f9960e009cf121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Box3i" kindref="compound">Box3i</ref></type>
@@ -403,7 +402,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41014" bodyend="41018"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41902" bodyend="41906"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a112bdf85eeb3c6b8e13b4ee316edac16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
@@ -425,7 +424,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41019" bodyend="41020"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41907" bodyend="41908"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aa471d990dbd0cd65d8b0b7960f53e269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -445,7 +444,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41021" bodyend="41024"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41909" bodyend="41912"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a1048607d1fdffea151db58ed963fdeb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
@@ -466,7 +465,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41025" bodyend="41026"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41913" bodyend="41914"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a29ef3ac749f25f57b99c9f5ec17b1a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -486,7 +485,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41027" bodyend="41030"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41915" bodyend="41918"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ae9e65d68da99e7d839f73b7e14e41a62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -506,7 +505,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41031" bodyend="41034"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41919" bodyend="41922"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ac2ceba763c7b2f76a0a16199f6158d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
@@ -524,7 +523,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41035" bodyend="41036"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41923" bodyend="41924"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0d306ac3073967b0d6c47ce5989b9d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref></type>
@@ -544,7 +543,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41037" bodyend="41040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41925" bodyend="41928"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0c0161279d6a5a0cb96d513007efc08e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
@@ -564,7 +563,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41041" bodyend="41044"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41929" bodyend="41932"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a8c35478e1a6fe0e2cce6bf6ffd1a7eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
@@ -584,7 +583,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41045" bodyend="41048"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41933" bodyend="41936"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a714e68deb6ca3231bf4bdeb08258db96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams" kindref="compound">ObjectVoxels.VolumeRenderingParams</ref></type>
@@ -602,7 +601,7 @@ active bounds is box in voxel coordinates, note that voxels under (0,0,0) and vo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41049" bodyend="41050"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41937" bodyend="41938"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a2bf1b2d121fe80ef846158c0f7e3a7b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
@@ -628,7 +627,7 @@ Point is local space coordinate of point in scene
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41051" bodyend="41056"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41939" bodyend="41944"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ae987a48e32bc5bb337696dc390b92aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
@@ -650,7 +649,7 @@ Point is local space coordinate of point in scene
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41057" bodyend="41058"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41945" bodyend="41946"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ad443d1c04d73ed6c7c61b408c63370a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
@@ -670,7 +669,7 @@ Point is local space coordinate of point in scene
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41059" bodyend="41062"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41947" bodyend="41950"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ab794eb87da9c38a0a25c2048c867f168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -692,7 +691,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41063" bodyend="41064"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41951" bodyend="41952"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a51cce1601560dc73a82ef96b46bc345a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -713,7 +712,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41065" bodyend="41066"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41953" bodyend="41954"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ad732d380377bfa366752ac8594fdf05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -734,7 +733,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41067" bodyend="41070"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41955" bodyend="41958"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a60af8005a3ea45eecef1613136778dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
@@ -754,7 +753,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41071" bodyend="41074"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41959" bodyend="41962"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a4660f3d648930fd2fced9a1056885793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -774,7 +773,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41075" bodyend="41078"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41963" bodyend="41966"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a32ea4c97ee96a6492966fd7893eb21a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -792,7 +791,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41079" bodyend="41080"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41967" bodyend="41968"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a3a0e2e2923e93d8d2030de3612c311c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -818,7 +817,7 @@ returns false if canceled or voxel data is empty
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41081" bodyend="41085"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41969" bodyend="41973"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ac7b4bfe6d1b1aa1851433bc0869a2f63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
@@ -847,7 +846,7 @@ returns false if canceled or voxel data is empty
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41086" bodyend="41089"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41974" bodyend="41977"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ae863dd0927e1b8b2f5401f871bd2af7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -876,7 +875,7 @@ returns false if canceled or voxel data is empty
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41091" bodyend="41094"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41979" bodyend="41982"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a737f8dd2bf46757c574cf276eab2f467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -909,7 +908,7 @@ returns false if canceled or voxel data is empty
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41096" bodyend="41099"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41984" bodyend="41987"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1adc91e90b684c0f6223e1de9a53e21652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -930,7 +929,7 @@ returns false if canceled or voxel data is empty
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41100" bodyend="41103"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41988" bodyend="41991"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a05413873faa6dc46040440dc4e249a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -952,7 +951,7 @@ returns false if canceled or voxel data is empty
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41104" bodyend="41105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41992" bodyend="41993"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aa5ad4c12a35f573b76781d382667c058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -973,7 +972,7 @@ returns false if canceled or voxel data is empty
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41106" bodyend="41109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41994" bodyend="41997"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aa0d21fe40c3500260b2c73c657d871b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1009,7 +1008,7 @@ NOTE: don&apos;t forget to call `invalidateActiveBoundsCaches` if you call this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41110" bodyend="41115"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41998" bodyend="42003"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a8e8ef94c4dc4dfb918f87e8c45d88a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1041,7 +1040,7 @@ NOTE: don&apos;t forget to call `invalidateActiveBoundsCaches` if you call this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41116" bodyend="41117"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42004" bodyend="42005"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a49fd3a53f8cacf4577f758515a7486c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1076,7 +1075,7 @@ NOTE: don&apos;t forget to call `invalidateActiveBoundsCaches` if you call this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41118" bodyend="41122"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42006" bodyend="42010"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a6f87ab49ae801c942e13e0af1afde15e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1111,7 +1110,7 @@ Returns true if iso-value was updated, false - otherwise
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41123" bodyend="41127"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42011" bodyend="42015"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ae374bd2d2956de578615389c86c9ddc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1135,7 +1134,7 @@ Returns true if iso-value was updated, false - otherwise
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41128" bodyend="41131"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42016" bodyend="42019"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1abc61affef50552d5c392d773998011ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1161,7 +1160,7 @@ nullptr means serialize in defaultSerializeVoxelsFormat()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41132" bodyend="41136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42020" bodyend="42024"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a13aec97b4f0f41ce055cdb5adc121cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1185,7 +1184,7 @@ nullptr means serialize in defaultSerializeVoxelsFormat()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41137" bodyend="41140"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42025" bodyend="42028"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aa25a73432cb63ccf01905a0cb9214437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1207,7 +1206,7 @@ nullptr means serialize in defaultSerializeVoxelsFormat()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41141" bodyend="41142"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42029" bodyend="42030"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0788224930c7bab69cc7d959f41221bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1231,7 +1230,7 @@ nullptr means serialize in defaultSerializeVoxelsFormat()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41143" bodyend="41146"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42031" bodyend="42034"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a5cfa1bacbd798378476393ac06694d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -1253,7 +1252,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41147" bodyend="41148"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42035" bodyend="42036"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ad89439ac6197bf94b97754eea706b0c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -1273,7 +1272,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41149" bodyend="41152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42037" bodyend="42040"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ab65e6996367638adce659172a1a49a27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -1292,7 +1291,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41153" bodyend="41154"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42041" bodyend="42042"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0686644f794743ea4e8a36720647c63d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
@@ -1317,7 +1316,7 @@ and returns back previous histogram of this
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41155" bodyend="41159"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42043" bodyend="42047"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ad138a3220012614e3d5d68bbb90c48d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1343,7 +1342,7 @@ rebuild iso surface if it is present
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41160" bodyend="41164"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42048" bodyend="42052"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a9ce26a587627b58473c3596c03b511f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -1368,7 +1367,7 @@ and returns back previous mesh of this
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41165" bodyend="41169"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42053" bodyend="42057"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aae9b0f22f467492f229e22e0ec33eeda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -1393,7 +1392,7 @@ and returns back previous vdb volume of this
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41170" bodyend="41174"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42058" bodyend="42062"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a55bdd62c85b168f94b4b40901027fa2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -1411,7 +1410,7 @@ and returns back previous vdb volume of this
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41175" bodyend="41176"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42063" bodyend="42064"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a1ed8c0980293cf6314cd80523849ae48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -1431,7 +1430,7 @@ and returns back previous vdb volume of this
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41177" bodyend="41180"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42065" bodyend="42068"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a216c065adb25e61c36f5ee00b3814183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -1449,14 +1448,14 @@ and returns back previous vdb volume of this
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41181" bodyend="41182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42069" bodyend="42070"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::ObjectVoxels
-Aliases:  ChangeSurfaceAction.Obj, ChangeIsoAction.Obj, ChangeGridAction.Obj, ChangeActiveBoxAction.Obj, std_shared_ptr_ChangeActiveBoxAction_Obj, ChangeDualMarchingCubesAction.Obj, std_shared_ptr_ChangVoxelSelectionAction_Obj, std_shared_ptr_ChangeSurfaceAction_Obj, std_shared_ptr_ChangeDualMarchingCubesAction_Obj, std_shared_ptr_ObjectVoxels, std_shared_ptr_ChangeIsoAction_Obj, std_shared_ptr_ChangeGridAction_Obj, ChangVoxelSelectionAction.Obj
+Aliases:  ChangeActiveBoxAction.Obj, ChangeGridAction.Obj, std_shared_ptr_ChangVoxelSelectionAction_Obj, ChangVoxelSelectionAction.Obj, std_shared_ptr_ChangeActiveBoxAction_Obj, ChangeDualMarchingCubesAction.Obj, ChangeIsoAction.Obj, ChangeSurfaceAction.Obj, std_shared_ptr_ChangeGridAction_Obj, std_shared_ptr_ObjectVoxels, std_shared_ptr_ChangeDualMarchingCubesAction_Obj, std_shared_ptr_ChangeIsoAction_Obj, std_shared_ptr_ChangeSurfaceAction_Obj
 
 This class stores information about voxels object
 </verbatim> </para>
@@ -1521,70 +1520,252 @@ This class stores information about voxels object
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40735" bodyend="41182"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41623" bodyend="42070"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a88addf3f7eac5ac0fecfa218fa66c699" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a674a01d8ec7241ec85dd8040acda711b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>activeVoxels</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a21da96a6ae7153f7c35f8a82cf8e9fe1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>actualSerializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4c9a5cdc889f952e88f15efc92859b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>addChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a628d57698bee030f4e37809eed20fdb6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>addChildBefore</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a14c3c142ce5c7a92531fcf914b1ffea2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>addTag</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a2ad7896d2c1449486f6beea09535797d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>addTexture</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a0f2396ca6aa5443528ecc9dc38fa9461" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a24d4d2c8cb947d7018b1e6bec6adf403" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>avgEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a35f5a7bbb06be9169dbe752e0b8440e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>children</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3c285511171875eaa87d26a18bd45efc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>children</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1aed7318962783f119a0f3b64b332e100f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>className</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a81a7e0cc86cefe516b274f32ecfd6abb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a32fa910c9a4cea13dfb676f13b6753ba" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>clearAncillaryTexture</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a33891c9758158a7a075824c1dbfbe3b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>cloneTree</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a40e4d745a52f013f7c38d1c11ead3f0f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>construct</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a0f15d1a774f12aa6cde41f58e50cd012" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>construct</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a478fb24e3825f0bccb78d7a001269192" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>construct</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a1e500fdaaba366480ce116e2447f3546" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aef43054cf4c656b003d29f636d92feec" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0c5dcae9192fc539bdcc889da920531c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>copyColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a7440ec67f10e7cbc3ef9013e02897b6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>copyTextureAndColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a13192fbe95a3e6fdfc978444daa1c127" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>creases</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ac14bfc84a13e614f3f323c64d59dfd99" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a567315111aee91b3dd5bfef4188b23b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>detachFromParent</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1aaebbdf755e414acc63f084cb8b9c2b13" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>dimensions</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1af3a43c6302da37bf07c07d781c4b2dbc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>enableVolumeRendering</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a899ff27173bf3ada1d47460e836273b6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>extractVoxels</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a65c7d88a08101962845bc5639c967d56" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>flatShading</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1abb1303f149ea689fe2f9960e009cf121" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getActiveBounds</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6a88666654b2ba7770c3ef5c61e8ec2a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa15db7198ca559ab009ec3463811b174" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getAncillaryTexture</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a69dbbb188f67b2de5afd10d687f190a1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getAncillaryUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab816bcaf01f6340ccb934373bda8b917" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getBordersColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab85fd9f956b8a6983157c3c1adb35d2c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getBordersColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getColoringType</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a112bdf85eeb3c6b8e13b4ee316edac16" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getCoordinateByVoxelId</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getDirtyFlags</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1aa471d990dbd0cd65d8b0b7960f53e269" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getDualMarchingCubes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1adcef66bb727f664afb3270e5ba0531ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getEdgesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab31582c85185f32cee8b9dd47ac03ae5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getEdgesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a746da9ccebb095aa5f9db5270b270680" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getEdgeWidth</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a39644596faef5a4e4e0568c965b40aa6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getFacesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a1048607d1fdffea151db58ed963fdeb0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getInfoLines</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a29ef3ac749f25f57b99c9f5ec17b1a2a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getIsoValue</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ae9e65d68da99e7d839f73b7e14e41a62" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getMaxSurfaceVertices</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0bc7bf205ae40d8b54f4d66974d15523" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getModelHash</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a72a874a6bd0f01992c0a462354b919a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getPointsColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a5fbd802793324d3bbedab33dd0b027e6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getPointsColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a009db400955d102bba43dd4e115023b1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getPointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1acceac36a0f3a7d30879ad0f6b41296e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ad36108faf37af684e51662c581aaf09f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSelectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a1059654144a71c2bdc8ef5549119dec8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSelectedEdgesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1acc5b4207e0eab0dd81630647120e2d19" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a12b3bbf47b6fb71a440613366c41f04a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSelectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6c102bfb81bceca341a52ee4360484b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSelectedFacesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a2572127748347f32ab0ba2e2b264df1b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSelectedFacesColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ac2ceba763c7b2f76a0a16199f6158d12" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSelectedVoxels</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1aa1020074c1326a825c86467a0580791d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a170e223a4aaea08a889473ecb86698b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getTexture</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a8908877533f9f49a4d49d0ae62fe8f02" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getTexturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1afe4a39dd9388514aa869b62419a143d5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getTextures</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ace44790f00af0453db7473aea2f974af" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1abe260d7deff9574e38554b3bd67fd5bc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a57fe4fe1f7e1397960b0735df502637a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a0d306ac3073967b0d6c47ce5989b9d38" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVolumeIndexer</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a0c0161279d6a5a0cb96d513007efc08e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVolumeRenderActiveVoxels</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a8c35478e1a6fe0e2cce6bf6ffd1a7eee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVolumeRenderingData</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a714e68deb6ca3231bf4bdeb08258db96" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVolumeRenderingParams</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a2bf1b2d121fe80ef846158c0f7e3a7b4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVoxelIdByCoordinate</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ae987a48e32bc5bb337696dc390b92aa2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVoxelIdByPoint</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a3ffd95e9ae64f3fa3e3f1b78ba9d2657" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getWorldTreeBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>globalVisibilityMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ad443d1c04d73ed6c7c61b408c63370a4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>grid</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af1017063423135eaa7a43c728fa9676c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>hasAncillaryTexture</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ab794eb87da9c38a0a25c2048c867f168" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>hasModel</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a51cce1601560dc73a82ef96b46bc345a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>hasVisualRepresentation</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ad732d380377bfa366752ac8594fdf05e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a60af8005a3ea45eecef1613136778dc1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>histogram</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a4660f3d648930fd2fced9a1056885793" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a8d4d1bb4eba922f60258d53a0e7d929e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a33d0fafc2423205d5a3ba75eae112655" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a5a2cb58be1a7e062e9c502295eb6ce23" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isGlobalAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isLocked</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a08c496d5f2feda4ef87a2e68664cee68" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isMeshClosed</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isSelected</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isVisible</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a32ea4c97ee96a6492966fd7893eb21a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isVolumeRenderingEnabled</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1acea2aff8d75e3b354c19d335a57864d6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae07f108a03ac58b498b0f04b2d820244" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>meshPart</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a979dfdec04a5f6bfa7c8bd36eecd7b93" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>numComponents</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6bc1c5e373cd92f5a1c8dd0b504fdd21" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>numCreaseEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae01bf8a0c21bde1d04bc3109f8280366" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>numHandles</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa79354fc8f5c9ba8e1c30e0dc3fa16e9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>numHoles</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ac226179a47dbb3f0e9ac072552cbcae4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>numSelectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6f9876472180438fcfbf7a59f61cc6e1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>numSelectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ace0eebcd3a4c4a44bfb6342004b1641e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>numUndirectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>parent</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a3a0e2e2923e93d8d2030de3612c311c2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>prepareDataForVolumeRendering</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ac7b4bfe6d1b1aa1851433bc0869a2f63" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>recalculateHistogram</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ae863dd0927e1b8b2f5401f871bd2af7e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a737f8dd2bf46757c574cf276eab2f467" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa593f6befb32f6453133a516f1c863b8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>removeAllChildren</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a50fdb1e10c8b57d176b21fd1224c1292" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>removeTag</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>renderForPicker</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>renderUi</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af9ee0a98ce259adcc5162d34d6f9808d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>resetDirty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1adc91e90b684c0f6223e1de9a53e21652" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3f27a64bfcdec74242fdf571a687c94c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>resetRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9d4920ba95eb61dd557cc7b77e8b1654" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>resetXf</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a39cb6c9d3969a7e57e2b736596ef336d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>sameModels</name></member>
+      <member refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab58b403ef79b09798136fb04c5e7a99d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>selectedArea</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a47fa588b7d374f9bbbabae7ddab092ce" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>selectEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a904a8910a54963f4fb8485e1cafc6a6d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>selectFaces</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a05413873faa6dc46040440dc4e249a67" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>selectVoxels</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1aa5ad4c12a35f573b76781d382667c058" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>serializeFormat</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1aa0d21fe40c3500260b2c73c657d871b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setActiveBounds</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2db756ea98710dbbc11ae7d00752b069" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setAncillary</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1accd60316f3661d626766678c22320284" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setAncillaryTexture</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a9ede1c6526b7fc9ccb664a1b646db0f8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setAncillaryUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa4f77e03a6e7ff2ea27a21b3e1c3bc4f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setBordersColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0b1fb67b804f5631b17d8da2271b311b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setBordersColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setColoringType</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a036c340ba2296eda17345b0a8724d3aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setCreases</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae0e7868715bbb9606cad718a72eb8bd0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setData</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a8e8ef94c4dc4dfb918f87e8c45d88a56" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae0814c2c450dc71340ad2c63febe9a71" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setDirtyFlagsFast</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a49fd3a53f8cacf4577f758515a7486c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setDualMarchingCubes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ac0a54262f9a55f334149bfbb27de3603" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setEdgesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a5f500e92d7a42fe985ee50fc1683950c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setEdgesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a722ef5a7e4faa0202500f219f7805daa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setEdgeWidth</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a92e35405b9bc97128ad58b0f1aad6ef5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setFacesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a9fbcd33ebcec842992fe69b97b11de34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setFlatShading</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setGlobalVisibility</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a6f87ab49ae801c942e13e0af1afde15e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setIsoValue</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setLocked</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ae374bd2d2956de578615389c86c9ddc3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setMaxSurfaceVertices</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aac4702d2617abf60328e511da05b9956" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setPointsColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a5ee12a0030576d035401c01210a12632" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setPointsColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a01bc162c74484a6f6cd6a3eb8a0b2d12" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setPointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a65315712584c483d3cb6c5befa96e61f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setSelectedEdgesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aaa208d9ad414b7a6290e9fafcf8d58e5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af5bb96b9b53fc73e90552809361a5e97" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setSelectedFacesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a33223601c682281675d012d4e17be367" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setSelectedFacesColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1abc61affef50552d5c392d773998011ec" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setSerializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a4101b8c2f2f2b8a7dab14b040a4bae35" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setTexturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a14e7b55554a0bb82db8f238281453f87" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setTextures</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aadc625903b402602f54d529afaf38cb4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa232c8a1604ba8e4df6c998dc938e655" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a13aec97b4f0f41ce055cdb5adc121cbf" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVolumeRenderActiveVoxels</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1aa25a73432cb63ccf01905a0cb9214437" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVolumeRenderingParams</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a0788224930c7bab69cc7d959f41221bb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVoxelPointPositioner</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setWorldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa19f9528e669d68920059fa560ef527b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aac6bdfb45902aa99fc95799b508c57f5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setXfsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a5cfa1bacbd798378476393ac06694d38" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ab39f51bc5e295bf79bf21e09e8a4374b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>shallowCloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a81fe3b89047200dec9832c065dd92ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>sortChildren</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a2177343685c78ae11840c5dff26e1954" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>StaticClassName</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a8fe31de87fa8c9df4b6254322e107ed6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a40f06def825d6aad76caacf36c545772" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aaf9980af82046f462a024730059368b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ad89439ac6197bf94b97754eea706b0c9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>surface</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a6c92cdb11df4d895c639f0e26dca1c83" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a12a90ffff0f3f0d2f6054e8e82a63679" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>tags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ad547b10f369a850aff3b60d566fb65a8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>totalArea</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ab65e6996367638adce659172a1a49a27" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a2125910f91820bce1ddd7a0f413b3d53" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateAncillaryUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0c00c682699dacfe3cef5446996c3657" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateData</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa5be24d40de65e242fa6c56cae792628" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateFacesColorMap</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a0686644f794743ea4e8a36720647c63d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateHistogram</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1ad138a3220012614e3d5d68bbb90c48d9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateHistogramAndSurface</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a9ce26a587627b58473c3596c03b511f6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateIsoSurface</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a2ce9c3820afa8bb168158108304b24dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateTexturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aff3de3e9f18709ef5116530251eb0aba" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateTextures</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a782f1f24dae769af851d7bc5ae0333ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateUVCoords</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1aae9b0f22f467492f229e22e0ec33eeda" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateVdbVolume</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a949e3a4800e457a42b7e06b7a82af8ce" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a55bdd62c85b168f94b4b40901027fa2b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>varVdbVolume</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a1ed8c0980293cf6314cd80523849ae48" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>vdbVolume</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>visibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af6e17574c4689dd7f95c8a6d7a7a2c96" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>volume</name></member>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1a216c065adb25e61c36f5ee00b3814183" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a0fe057c0f6fe9f8ee98bd8210faa983c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>worldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a157327fa8110ea13a8b12bf04748331d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05ee8acaa199b194040b1613d4038012" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

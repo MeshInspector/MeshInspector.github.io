@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewerEventQueue" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerEventQueue</compoundname>
-    <includes refid="MRViewerEventQueue_8h" local="no">MRViewerEventQueue.h</includes>
+    <includes refid="MRViewerEventQueue_8h" local="no">MRViewer/MRViewerEventQueue.h</includes>
     <innerclass refid="structMR_1_1ViewerEventQueue_1_1NamedEvent" prot="private">MR::ViewerEventQueue::NamedEvent</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga4b350e43d76bbddf25701779743f4f3c" kind="variable"><name>mutex_</name></member>
@@ -10,24 +10,24 @@
       <member refid="group__GeneralGroup_1gae29443d3ddb7a18618c8bcd645c96b03" kind="variable"><name>lastSkipable_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga0ac964ec690237b3791e95a800bfff16" kind="function"><name>emplace</name></member>
-      <member refid="group__GeneralGroup_1ga7786b393619359bbf34f212c51d10847" kind="function"><name>execute</name></member>
-      <member refid="group__GeneralGroup_1gaaacbdee8b3cf4b94fa853c60dee77504" kind="function"><name>popByName</name></member>
-      <member refid="group__GeneralGroup_1ga011b2b74f1d6d279fe0e49dd1f4edba9" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga7aa91f7b5cc7541ac0f982fce5660507" kind="function"><name>emplace</name></member>
+      <member refid="group__GeneralGroup_1ga78565f4033ddbbe13e5097b3adb33ec2" kind="function"><name>execute</name></member>
+      <member refid="group__GeneralGroup_1gad0be299bc997aa71807bac724a7849a0" kind="function"><name>popByName</name></member>
+      <member refid="group__GeneralGroup_1ga4dc042cec8aab4b4b067733ed3a819b3" kind="function"><name>empty</name></member>
     </sectiondef>
     <briefdescription>
 <para>queue to ignore multiple mouse moves in one frame </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="17" bodyend="38"/>
+    <location file="MRViewer/MRViewerEventQueue.h" line="16" column="1" bodyfile="MRViewer/MRViewerEventQueue.h" bodystart="17" bodyend="38"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga0ac964ec690237b3791e95a800bfff16" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>emplace</name></member>
-      <member refid="group__GeneralGroup_1ga011b2b74f1d6d279fe0e49dd1f4edba9" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>empty</name></member>
-      <member refid="group__GeneralGroup_1ga7786b393619359bbf34f212c51d10847" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>execute</name></member>
+      <member refid="group__GeneralGroup_1ga7aa91f7b5cc7541ac0f982fce5660507" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>emplace</name></member>
+      <member refid="group__GeneralGroup_1ga4dc042cec8aab4b4b067733ed3a819b3" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga78565f4033ddbbe13e5097b3adb33ec2" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>execute</name></member>
       <member refid="group__GeneralGroup_1gae29443d3ddb7a18618c8bcd645c96b03" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>lastSkipable_</name></member>
       <member refid="group__GeneralGroup_1ga4b350e43d76bbddf25701779743f4f3c" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>mutex_</name></member>
-      <member refid="group__GeneralGroup_1gaaacbdee8b3cf4b94fa853c60dee77504" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>popByName</name></member>
+      <member refid="group__GeneralGroup_1gad0be299bc997aa71807bac724a7849a0" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>popByName</name></member>
       <member refid="group__GeneralGroup_1gaf5c5cc04876639e516cbe4631da4f84b" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>queue_</name></member>
     </listofallmembers>
   </compounddef>

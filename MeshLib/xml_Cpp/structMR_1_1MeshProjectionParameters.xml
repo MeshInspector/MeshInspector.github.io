@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshProjectionParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshProjectionParameters</compoundname>
-    <includes refid="MRPointsToMeshProjector_8h" local="no">MRPointsToMeshProjector.h</includes>
+    <includes refid="MRPointsToMeshProjector_8h" local="no">MRMesh/MRPointsToMeshProjector.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga1c122d1dc6393cbf06a33b2b7d33ef8e" kind="variable"><name>loDistLimitSq</name></member>
       <member refid="group__GeneralGroup_1ga93e080458c496f555a43b92f40f7e547" kind="variable"><name>upDistLimitSq</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="31" bodyend="45"/>
+    <location file="MRMesh/MRPointsToMeshProjector.h" line="30" column="1" bodyfile="MRMesh/MRPointsToMeshProjector.h" bodystart="31" bodyend="45"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1c122d1dc6393cbf06a33b2b7d33ef8e" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>loDistLimitSq</name></member>
       <member refid="group__GeneralGroup_1ga758389fe44297258e47fdd1ef104916b" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>refXf</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportGL" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewportGL</compoundname>
-    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <includes refid="MRViewportGL_8h" local="no">MRViewer/MRViewportGL.h</includes>
     <innerclass refid="structMR_1_1ViewportGL_1_1BasePickResult" prot="public">MR::ViewportGL::BasePickResult</innerclass>
     <innerclass refid="structMR_1_1ViewportGL_1_1PickColor" prot="private">MR::ViewportGL::PickColor</innerclass>
     <innerclass refid="structMR_1_1ViewportGL_1_1PickParameters" prot="public">MR::ViewportGL::PickParameters</innerclass>
@@ -31,7 +31,7 @@
       <member refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kind="function"><name>ViewportGL</name></member>
       <member refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" kind="function"><name>ViewportGL</name></member>
       <member refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" kind="function"><name>operator=</name></member>
-      <member refid="group__GeneralGroup_1ga16c05e1b059689d7bc4ed8d5e6673ac0" kind="function"><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1gac9e742349c94c9364e1bc78a4a453bdb" kind="function"><name>ViewportGL</name></member>
       <member refid="group__GeneralGroup_1ga1540ae57916ae7af3244396a8443ff87" kind="function"><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga33a67bdad47aeacb17a644f0c65f53ec" kind="function"><name>~ViewportGL</name></member>
       <member refid="group__GeneralGroup_1gac2b114c03f1a2659e1e2eba7421c5aad" kind="function"><name>init</name></member>
@@ -51,7 +51,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="42" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="43" bodyend="141"/>
+    <location file="MRViewer/MRViewportGL.h" line="42" column="1" bodyfile="MRViewer/MRViewportGL.h" bodystart="43" bodyend="141"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga15363f05b327573c2bc93ddc96b46392" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_colors_vbo</name></member>
       <member refid="group__GeneralGroup_1ga29ef9c5ceb38273f6742c4e9e8b5c936" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_vao</name></member>
@@ -80,7 +80,7 @@
       <member refid="group__GeneralGroup_1ga79d22916ef4534d1503a4433e40d44c1" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>PickResults</name></member>
       <member refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
       <member refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
-      <member refid="group__GeneralGroup_1ga16c05e1b059689d7bc4ed8d5e6673ac0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1gac9e742349c94c9364e1bc78a4a453bdb" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
       <member refid="group__GeneralGroup_1ga33a67bdad47aeacb17a644f0c65f53ec" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>~ViewportGL</name></member>
     </listofallmembers>
   </compounddef>

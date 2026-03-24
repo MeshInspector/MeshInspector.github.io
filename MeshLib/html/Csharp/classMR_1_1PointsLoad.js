@@ -21,5 +21,5 @@ var classMR_1_1PointsLoad =
     [ "fromSceneE57File", "classMR_1_1PointsLoad.html#a7e527512ac9d84f26b1ef9b1ee6c611a", null ],
     [ "fromText", "classMR_1_1PointsLoad.html#a3a21b059e2dc485b242ab4e75277d202", null ],
     [ "fromText", "classMR_1_1PointsLoad.html#a73e9d49a0aa7e22d6dab505ebd37d7d7", null ],
-    [ "loadObjectFromE57", "classMR_1_1PointsLoad.html#a42970dc9afb16615ea9164dab06f97c7", null ]
+    [ "loadObjectFromE57", "classMR_1_1PointsLoad.html#a198c64c21391cc861ff7dc711ca50c9d", null ]
 ];

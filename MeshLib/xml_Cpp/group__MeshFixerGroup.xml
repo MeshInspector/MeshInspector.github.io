@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__MeshFixerGroup" kind="group">
     <compoundname>MeshFixerGroup</compoundname>
     <title>Mesh Fixer</title>
@@ -20,13 +20,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="21" column="1" bodyfile="MRMesh/MRMeshFixer.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga030e7fa6218d19042b2a5ae052055192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API int</type>
-        <definition>MRMESH_API int MR::duplicateMultiHoleVertices</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga9f1f866643e15bf1b9d9131f2d6dad0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::duplicateMultiHoleVertices</definition>
         <argsstring>(Mesh &amp;mesh)</argsstring>
         <name>duplicateMultiHoleVertices</name>
         <qualifiedname>MR::duplicateMultiHoleVertices</qualifiedname>
@@ -41,11 +41,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="18" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="18" declcolumn="16"/>
+        <location file="MRMesh/MRMeshFixer.h" line="18" column="6" declfile="MRMesh/MRMeshFixer.h" declline="18" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1gad29427e41026ca03a451eb1796987043" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; std::vector&lt; MultipleEdge &gt; &gt;</type>
-        <definition>MRMESH_API Expected&lt; std::vector&lt; MultipleEdge &gt; &gt; MR::findMultipleEdges</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga81e1fcab0f64d4bdb4ccf19d7e67bae1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; MultipleEdge &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; MultipleEdge &gt; &gt; MR::findMultipleEdges</definition>
         <argsstring>(const MeshTopology &amp;topology, ProgressCallback cb={})</argsstring>
         <name>findMultipleEdges</name>
         <qualifiedname>MR::findMultipleEdges</qualifiedname>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="22" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="22" declcolumn="22"/>
+        <location file="MRMesh/MRMeshFixer.h" line="22" column="12" declfile="MRMesh/MRMeshFixer.h" declline="22" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga1aa9c53dc2ae474fe6c0c6d90d347f3e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -82,11 +82,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="23" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="23" bodyend="23"/>
+        <location file="MRMesh/MRMeshFixer.h" line="23" column="14" bodyfile="MRMesh/MRMeshFixer.h" bodystart="23" bodyend="23"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1gaf36265bde92b52d2e7bc0142abd82206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::fixMultipleEdges</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga4b6baaa619201e7e4c135ec4200d38ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::fixMultipleEdges</definition>
         <argsstring>(Mesh &amp;mesh, const std::vector&lt; MultipleEdge &gt; &amp;multipleEdges)</argsstring>
         <name>fixMultipleEdges</name>
         <qualifiedname>MR::fixMultipleEdges</qualifiedname>
@@ -105,11 +105,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="26" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="26" declcolumn="17"/>
+        <location file="MRMesh/MRMeshFixer.h" line="26" column="7" declfile="MRMesh/MRMeshFixer.h" declline="26" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga52390270e3fbf5b7e8766374def17f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::fixMultipleEdges</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gaa6e120bc37618d508cf410a20edaa787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::fixMultipleEdges</definition>
         <argsstring>(Mesh &amp;mesh)</argsstring>
         <name>fixMultipleEdges</name>
         <qualifiedname>MR::fixMultipleEdges</qualifiedname>
@@ -124,11 +124,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="28" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="28" declcolumn="17"/>
+        <location file="MRMesh/MRMeshFixer.h" line="28" column="7" declfile="MRMesh/MRMeshFixer.h" declline="28" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga2053d608172d2309a6dfc184b3c23b54" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
-        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::findDegenerateFaces</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gafd47b9faed25bf5ffcb8a57264c890b1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FaceBitSet &gt;</type>
+        <definition>Expected&lt; FaceBitSet &gt; MR::findDegenerateFaces</definition>
         <argsstring>(const MeshPart &amp;mp, float criticalAspectRatio=FLT_MAX, ProgressCallback cb={})</argsstring>
         <name>findDegenerateFaces</name>
         <qualifiedname>MR::findDegenerateFaces</qualifiedname>
@@ -153,11 +153,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="31" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="31" declcolumn="22"/>
+        <location file="MRMesh/MRMeshFixer.h" line="31" column="12" declfile="MRMesh/MRMeshFixer.h" declline="31" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga866d4ce98ccfb2b97c17b372f139b31e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
-        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::findNotSmoothFaces</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FaceBitSet &gt;</type>
+        <definition>Expected&lt; FaceBitSet &gt; MR::findNotSmoothFaces</definition>
         <argsstring>(const MeshPart &amp;mp, float minAngle=0.3f, ProgressCallback cb={})</argsstring>
         <name>findNotSmoothFaces</name>
         <qualifiedname>MR::findNotSmoothFaces</qualifiedname>
@@ -191,11 +191,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="35" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="35" declcolumn="22"/>
+        <location file="MRMesh/MRMeshFixer.h" line="35" column="12" declfile="MRMesh/MRMeshFixer.h" declline="35" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1gae03888153d8e72318f46b2d9241d8bea" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; UndirectedEdgeBitSet &gt;</type>
-        <definition>MRMESH_API Expected&lt; UndirectedEdgeBitSet &gt; MR::findShortEdges</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; UndirectedEdgeBitSet &gt;</type>
+        <definition>Expected&lt; UndirectedEdgeBitSet &gt; MR::findShortEdges</definition>
         <argsstring>(const MeshPart &amp;mp, float criticalLength, ProgressCallback cb={})</argsstring>
         <name>findShortEdges</name>
         <qualifiedname>MR::findShortEdges</qualifiedname>
@@ -219,11 +219,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="38" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="38" declcolumn="22"/>
+        <location file="MRMesh/MRMeshFixer.h" line="38" column="12" declfile="MRMesh/MRMeshFixer.h" declline="38" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1gad11bed424b514b2e835eb9ba644dd4eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::fixMeshDegeneracies</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::fixMeshDegeneracies</definition>
         <argsstring>(Mesh &amp;mesh, const FixMeshDegeneraciesParams &amp;params)</argsstring>
         <name>fixMeshDegeneracies</name>
         <qualifiedname>MR::fixMeshDegeneracies</qualifiedname>
@@ -242,11 +242,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="73" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="73" declcolumn="21"/>
+        <location file="MRMesh/MRMeshFixer.h" line="73" column="11" declfile="MRMesh/MRMeshFixer.h" declline="73" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga248c2b6b8c9d3915cc4d7e94a2727734" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertBitSet</type>
-        <definition>MRMESH_API VertBitSet MR::findNRingVerts</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gab3e33b4f1705544b8e8c4d465f7af784" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::findNRingVerts</definition>
         <argsstring>(const MeshTopology &amp;topology, int n, const VertBitSet *region=nullptr)</argsstring>
         <name>findNRingVerts</name>
         <qualifiedname>MR::findNRingVerts</qualifiedname>
@@ -270,11 +270,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="76" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="76" declcolumn="24"/>
+        <location file="MRMesh/MRMeshFixer.h" line="76" column="14" declfile="MRMesh/MRMeshFixer.h" declline="76" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga68b96907fdec5d90f6c4d1771ae0563e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::isEdgeBetweenDoubleTris</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isEdgeBetweenDoubleTris</definition>
         <argsstring>(const MeshTopology &amp;topology, EdgeId e)</argsstring>
         <name>isEdgeBetweenDoubleTris</name>
         <qualifiedname>MR::isEdgeBetweenDoubleTris</qualifiedname>
@@ -293,11 +293,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="79" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="79" declcolumn="18"/>
+        <location file="MRMesh/MRMeshFixer.h" line="79" column="8" declfile="MRMesh/MRMeshFixer.h" declline="79" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1gabfc8ebc79bf55b2a8e8bcb36f2c884c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::eliminateDoubleTris</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga3c868d7f7706bea58f102f3218ffc524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::eliminateDoubleTris</definition>
         <argsstring>(MeshTopology &amp;topology, EdgeId e, FaceBitSet *region=nullptr)</argsstring>
         <name>eliminateDoubleTris</name>
         <qualifiedname>MR::eliminateDoubleTris</qualifiedname>
@@ -321,11 +321,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="85" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="85" declcolumn="19"/>
+        <location file="MRMesh/MRMeshFixer.h" line="85" column="9" declfile="MRMesh/MRMeshFixer.h" declline="85" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1gaf38de39619c863041d1acc307a36642a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::eliminateDoubleTrisAround</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gae137c5e3de8e28fc5ff47caee9632c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::eliminateDoubleTrisAround</definition>
         <argsstring>(MeshTopology &amp;topology, VertId v, FaceBitSet *region=nullptr)</argsstring>
         <name>eliminateDoubleTrisAround</name>
         <qualifiedname>MR::eliminateDoubleTrisAround</qualifiedname>
@@ -349,11 +349,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="89" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="89" declcolumn="17"/>
+        <location file="MRMesh/MRMeshFixer.h" line="89" column="7" declfile="MRMesh/MRMeshFixer.h" declline="89" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga4864464472d6d92da87a2501cb99db2b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::isDegree3Dest</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga7ed9b863f3586261b7732c0dba013eae" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isDegree3Dest</definition>
         <argsstring>(const MeshTopology &amp;topology, EdgeId e)</argsstring>
         <name>isDegree3Dest</name>
         <qualifiedname>MR::isDegree3Dest</qualifiedname>
@@ -372,11 +372,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="92" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="92" declcolumn="18"/>
+        <location file="MRMesh/MRMeshFixer.h" line="92" column="8" declfile="MRMesh/MRMeshFixer.h" declline="92" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1gace895a89502cb6fbf11e26b8c3e9773e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::eliminateDegree3Dest</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga1a6d31909cb9b003dd59942b58bcdfae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::eliminateDegree3Dest</definition>
         <argsstring>(MeshTopology &amp;topology, EdgeId e, FaceBitSet *region=nullptr)</argsstring>
         <name>eliminateDegree3Dest</name>
         <qualifiedname>MR::eliminateDegree3Dest</qualifiedname>
@@ -400,11 +400,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="98" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="98" declcolumn="19"/>
+        <location file="MRMesh/MRMeshFixer.h" line="98" column="9" declfile="MRMesh/MRMeshFixer.h" declline="98" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga819c36bfa5ce60675533f6e6eceeb7d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API int</type>
-        <definition>MRMESH_API int MR::eliminateDegree3Vertices</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga0092e601fb2bbe0c8035549ad3395862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::eliminateDegree3Vertices</definition>
         <argsstring>(MeshTopology &amp;topology, VertBitSet &amp;region, FaceBitSet *fs=nullptr)</argsstring>
         <name>eliminateDegree3Vertices</name>
         <qualifiedname>MR::eliminateDegree3Vertices</qualifiedname>
@@ -439,11 +439,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="103" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="103" declcolumn="16"/>
+        <location file="MRMesh/MRMeshFixer.h" line="103" column="6" declfile="MRMesh/MRMeshFixer.h" declline="103" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga9bde4ada16adc982fb6789ca9dabbc66" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::isVertexRepeatedOnHoleBd</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga79c0629831d5275b266a9c2e89184d18" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::isVertexRepeatedOnHoleBd</definition>
         <argsstring>(const MeshTopology &amp;topology, VertId v)</argsstring>
         <name>isVertexRepeatedOnHoleBd</name>
         <qualifiedname>MR::isVertexRepeatedOnHoleBd</qualifiedname>
@@ -462,11 +462,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="107" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="107" declcolumn="20"/>
+        <location file="MRMesh/MRMeshFixer.h" line="107" column="10" declfile="MRMesh/MRMeshFixer.h" declline="107" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga8e2b8d3db10183b66f463f70a7eac5b4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertBitSet</type>
-        <definition>MRMESH_API VertBitSet MR::findRepeatedVertsOnHoleBd</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga30b08f4167efdcd741cdad4aeaf5d066" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::findRepeatedVertsOnHoleBd</definition>
         <argsstring>(const MeshTopology &amp;topology)</argsstring>
         <name>findRepeatedVertsOnHoleBd</name>
         <qualifiedname>MR::findRepeatedVertsOnHoleBd</qualifiedname>
@@ -481,11 +481,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="110" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="110" declcolumn="24"/>
+        <location file="MRMesh/MRMeshFixer.h" line="110" column="14" declfile="MRMesh/MRMeshFixer.h" declline="110" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga464e6b15a1c089223ed826d849cd69cf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::findHoleComplicatingFaces</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gafd82e42a7f55fb987e177185b62155a8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::findHoleComplicatingFaces</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>findHoleComplicatingFaces</name>
         <qualifiedname>MR::findHoleComplicatingFaces</qualifiedname>
@@ -500,11 +500,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="115" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="115" declcolumn="24"/>
+        <location file="MRMesh/MRMeshFixer.h" line="115" column="14" declfile="MRMesh/MRMeshFixer.h" declline="115" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1gab288e6567def34c11ffd9a7a3ce86db3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::fixMeshCreases</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga04f842da188886fe7f430e90a6956a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::fixMeshCreases</definition>
         <argsstring>(Mesh &amp;mesh, const FixCreasesParams &amp;params={})</argsstring>
         <name>fixMeshCreases</name>
         <qualifiedname>MR::fixMeshCreases</qualifiedname>
@@ -524,11 +524,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="131" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="131" declcolumn="17"/>
+        <location file="MRMesh/MRMeshFixer.h" line="131" column="7" declfile="MRMesh/MRMeshFixer.h" declline="131" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshFixerGroup_1ga538e3992fb17dac0a5e4f140d86defef" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
-        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::findDisorientedFaces</definition>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga0cfc3535cc2f563e521b206c694169cd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FaceBitSet &gt;</type>
+        <definition>Expected&lt; FaceBitSet &gt; MR::findDisorientedFaces</definition>
         <argsstring>(const Mesh &amp;mesh, const FindDisorientationParams &amp;params={})</argsstring>
         <name>findDisorientedFaces</name>
         <qualifiedname>MR::findDisorientedFaces</qualifiedname>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="151" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="151" declcolumn="22"/>
+        <location file="MRMesh/MRMeshFixer.h" line="151" column="12" declfile="MRMesh/MRMeshFixer.h" declline="151" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VdbVolume" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VdbVolume</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid" prot="public" virt="non-virtual">mrmeshpy.VoxelsVolume_FloatGrid</basecompoundref>
@@ -11,7 +11,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VdbVolume.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1ae95bae2670e783f7a3d5a1ac57980d43">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -26,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60574" bodyend="60575"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62278" bodyend="62279"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1a2d50831d3cf06a4d41e927667176208d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -49,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60578" bodyend="60579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62282" bodyend="62283"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1a2d50831d3cf06a4d41e927667176208d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -72,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60582" bodyend="60583"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62286" bodyend="62287"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -82,7 +81,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VdbVolume.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1ae95bae2670e783f7a3d5a1ac57980d43">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -93,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60585" bodyend="60586"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62289" bodyend="62290"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1a0df82d62d240071eac26ee807cf58d24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -101,7 +99,6 @@
         <argsstring>(self, VdbVolume arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VdbVolume.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1ae95bae2670e783f7a3d5a1ac57980d43">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -118,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60588" bodyend="60591"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62292" bodyend="62295"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1ae4a7e591e424f3b40466d42b44c292f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -126,7 +123,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.VdbVolume.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Box1f_1a0bffadf42e62ae88342c3b7b8920503a">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -137,14 +133,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60592" bodyend="60593"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62296" bodyend="62297"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::VdbVolume
-Aliases:  VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.VolumeType, VoxelsVolumeAccessor_VdbVolume.VolumeType
+Aliases:  VoxelsVolumeAccessor_VdbVolume.VolumeType, VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.VolumeType
 
 represents a box in 3D space subdivided on voxels stored in T;
 and stores minimum and maximum values among all valid voxels
@@ -174,39 +170,62 @@ and stores minimum and maximum values among all valid voxels
         <link refid="classmrmeshpy_1_1VdbVolume"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="4" relation="public-inheritance">
+        <childnode refid="3" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>mrmeshpy.Box1f</label>
         <link refid="classmrmeshpy_1_1Box1f"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_max</edgelabel>
-          <edgelabel>_offsetof_min</edgelabel>
-          <edgelabel>elements</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.VoxelsVolume_FloatGrid</label>
         <link refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_data</edgelabel>
-          <edgelabel>_offsetof_dims</edgelabel>
-          <edgelabel>_offsetof_voxelSize</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60564" bodyend="60593"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62268" bodyend="62297"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1Box1f_1aaf9c369fea379d4d71dbcb5b672f862d" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a4da8c9d03287753b776ce482075ea7ff" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a4da8c9d03287753b776ce482075ea7ff" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1VdbVolume_1a15b63141b47fa6d9caebdc3a58f199ad" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1VdbVolume_1ae874d6557de145e82c93b1d63e720f41" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1VdbVolume_1a0df82d62d240071eac26ee807cf58d24" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a43ecce802ba49720b61559ecc6a17869" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1VdbVolume_1ae4a7e591e424f3b40466d42b44c292f3" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a994f4300f0c53638d8531f76f7be9244" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a15313c967df97499edbbadb83e235c9b" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a3c42ccf417ed2f07b102831587d04220" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1a428bc7b33ecfdbcd5b697bd413bf0e35" prot="protected" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>_offsetof_data</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1aa0ceda884bbbc7be54573231fc0b654a" prot="protected" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>_offsetof_dims</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a4fb31110922607febe23f737874ca584" prot="protected" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>_offsetof_max</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ad91a75eec660c7b253565bf6f3297c9b" prot="protected" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>_offsetof_min</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1a4d82c6dbce117d890de07f793d3714fb" prot="protected" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ab3aadc33827b56b0ef60368fb54fffff" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ae5435ee5140b70b44e5eda58d1f40cde" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>contains</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1abf45af7c89925d79c8f83bf56569061c" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>contains</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a04d395cd68600019621eaf126819c2a4" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>corner</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ae0c6db675a17ac63ae294da9f9529172" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>diagonal</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ace0e8a6eb95b9bea1fafaa7a57a318a5" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>elements</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a8dd9485705ead9c02c52c94f21ff2b1c" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>expanded</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ae200f1defa852f064d109c5577280b59" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>fromMinAndSize</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a18cc5926520fd76204c2767ae83e978e" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a7283df57be977f134adb481d7e8a84d4" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>getDistanceSq</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a50339c692786556b205362c1205a662a" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>getDistanceSq</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1acbc80c82a7cca07d1a679878a44e9905" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>getMaxBoxCorner</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a91f3a4176829d1a0ec3c5d95d87ebc34" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>getMinBoxCorner</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a0e7a4da4ec942d658ad86340cf2bd277" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>getProjection</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1aedde07fedefa35a43a726af4ac66fd0f" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ab298d77a0a3da9263656410741d090ee" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>include</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a82fa695cb393cbfd2e3645dd337f8028" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>include</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ae518e1e78e3223f2278726f8c55de576" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>insignificantlyExpanded</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a177addb0bf93f9513dc2e3a60628851a" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>intersect</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1ae17e147901653b2790710a41fc6f767a" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>intersection</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a5916a1673c01fbd1e5b255fdc76b98be" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1VdbVolume_1a2d50831d3cf06a4d41e927667176208d" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1VdbVolume_1a2d50831d3cf06a4d41e927667176208d" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a9a16b3e2b94d7893bfdb54428aad8df9" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1a73c3854fabf3c3ea032f5eb8db4d483e" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1Box1f_1acaa5b808db90dc058dca8284585a7161" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>volume</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -16,6 +16,7 @@ var classMR_1_1Vector__MRAffineXf3f__MRObjId =
     [ "data", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a39ab6ad8839271efd805b5ba3f3c0c94", null ],
     [ "emplaceBack", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a1a221b922c20a613de33ff377effd574", null ],
     [ "front", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a96bad5c71272615e7dbaf7cfd6bd5381", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a3d86aa1963bdd592cb7e9ecd21b92b0d", null ],
     [ "operator Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a10290ba7e53cb5616f75bda046ec04f3", null ],
     [ "popBack", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a8c416b2009c850d1b5f07f7dc373e5f7", null ],
     [ "pushBack", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a7acb19129f30eb0027ef902c16a598ec", null ],

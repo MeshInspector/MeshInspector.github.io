@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MultiwayAligningTransform" kind="class" language="C++" prot="public">
     <compoundname>MR::MultiwayAligningTransform</compoundname>
-    <includes refid="MRMultiwayAligningTransform_8h" local="no">MRMultiwayAligningTransform.h</includes>
+    <includes refid="MRMultiwayAligningTransform_8h" local="no">MRMesh/MRMultiwayAligningTransform.h</includes>
     <innerclass refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer" prot="public">MR::MultiwayAligningTransform::Stabilizer</innerclass>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1MultiwayAligningTransform_1a3784d0300e1a5c899ed579b1b93d397e" prot="private" static="no" mutable="no">
@@ -17,13 +17,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="73" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" bodystart="73" bodyend="-1"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="73" column="21" bodyfile="MRMesh/MRMultiwayAligningTransform.h" bodystart="73" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a41247022db4941f568025a641398d0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MultiwayAligningTransform::MultiwayAligningTransform</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MultiwayAligningTransform::MultiwayAligningTransform</definition>
         <argsstring>()</argsstring>
         <name>MultiwayAligningTransform</name>
         <qualifiedname>MR::MultiwayAligningTransform::MultiwayAligningTransform</qualifiedname>
@@ -33,11 +33,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="20" column="16"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="20" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a6d91b7804a0259ee9b021e2b87898f83" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MultiwayAligningTransform::MultiwayAligningTransform</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a639a8d4c70b27727f8b93431f5771fed" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MultiwayAligningTransform::MultiwayAligningTransform</definition>
         <argsstring>(int numObjs)</argsstring>
         <name>MultiwayAligningTransform</name>
         <qualifiedname>MR::MultiwayAligningTransform::MultiwayAligningTransform</qualifiedname>
@@ -52,11 +52,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="23" column="25"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="23" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1ae9a3702a5e0dc2a2a5f9665fd886be0a" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MultiwayAligningTransform::MultiwayAligningTransform</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1ac0bd869e5468592f333c6a85d89812a4" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MultiwayAligningTransform::MultiwayAligningTransform</definition>
         <argsstring>(MultiwayAligningTransform &amp;&amp;) noexcept</argsstring>
         <name>MultiwayAligningTransform</name>
         <qualifiedname>MR::MultiwayAligningTransform::MultiwayAligningTransform</qualifiedname>
@@ -69,11 +69,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="25" column="16"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="25" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1aa7eedfd31142740a16443cbea7089534" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRMESH_API <ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref> &amp;</type>
-        <definition>MRMESH_API MultiwayAligningTransform &amp; MR::MultiwayAligningTransform::operator=</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1aad5b08e7a74ec3006eaaeb2e888e26da" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref> &amp;</type>
+        <definition>MultiwayAligningTransform &amp; MR::MultiwayAligningTransform::operator=</definition>
         <argsstring>(MultiwayAligningTransform &amp;&amp;) noexcept</argsstring>
         <name>operator=</name>
         <qualifiedname>MR::MultiwayAligningTransform::operator=</qualifiedname>
@@ -86,11 +86,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="26" column="42"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="26" column="32"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a75f76046bba7a35ce1c2396c72b47aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MultiwayAligningTransform::~MultiwayAligningTransform</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1ad283e68f235e10c8e9c4343311b7acdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MultiwayAligningTransform::~MultiwayAligningTransform</definition>
         <argsstring>()</argsstring>
         <name>~MultiwayAligningTransform</name>
         <qualifiedname>MR::MultiwayAligningTransform::~MultiwayAligningTransform</qualifiedname>
@@ -100,11 +100,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="28" column="16"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="28" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1aa867c2ead76afd490b8d287b98ac0ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::MultiwayAligningTransform::reset</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a26f658626fe3c1d58d5b4bbbc294cca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayAligningTransform::reset</definition>
         <argsstring>(int numObjs)</argsstring>
         <name>reset</name>
         <qualifiedname>MR::MultiwayAligningTransform::reset</qualifiedname>
@@ -119,11 +119,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="31" column="21"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="31" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1ae6740604d1fa635862343a99d6cb5d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::MultiwayAligningTransform::add</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1ab8eb49ff6a10ab6ff8715459d389ddd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayAligningTransform::add</definition>
         <argsstring>(int objA, const Vector3d &amp;pA, int objB, const Vector3d &amp;pB, double w=1)</argsstring>
         <name>add</name>
         <qualifiedname>MR::MultiwayAligningTransform::add</qualifiedname>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="35" column="21"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="35" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1ac35d132681b885e39cbfa56ee9f11eb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -191,11 +191,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="39" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" bodystart="39" bodyend="39"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="39" column="10" bodyfile="MRMesh/MRMultiwayAligningTransform.h" bodystart="39" bodyend="39"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a3e485b9e92d58d482847c3dc90afcc8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::MultiwayAligningTransform::add</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a143920da717c5e1c0e592184293e62ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayAligningTransform::add</definition>
         <argsstring>(int objA, const Vector3d &amp;pA, int objB, const Vector3d &amp;pB, const Vector3d &amp;n, double w=1)</argsstring>
         <name>add</name>
         <qualifiedname>MR::MultiwayAligningTransform::add</qualifiedname>
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="44" column="21"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="44" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a1efd4fe910e9f4f9f64b14d2fd1929d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -271,11 +271,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="49" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" bodystart="49" bodyend="49"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="49" column="10" bodyfile="MRMesh/MRMultiwayAligningTransform.h" bodystart="49" bodyend="49"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a339777c7114ede92149acc8c703508d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::MultiwayAligningTransform::add</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1af0e61313e6d6ed7885bc216dbafbb659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayAligningTransform::add</definition>
         <argsstring>(const MultiwayAligningTransform &amp;r)</argsstring>
         <name>add</name>
         <qualifiedname>MR::MultiwayAligningTransform::add</qualifiedname>
@@ -290,11 +290,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="52" column="21"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="52" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1aff88b77e742b2e4c2aad5013dfa2c4c2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; RigidXf3d &gt;</type>
-        <definition>MRMESH_API std::vector&lt; RigidXf3d &gt; MR::MultiwayAligningTransform::solve</definition>
+      <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a3435c7509f89fa86d930d3d9a27cf514" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; RigidXf3d &gt;</type>
+        <definition>std::vector&lt; RigidXf3d &gt; MR::MultiwayAligningTransform::solve</definition>
         <argsstring>(const Stabilizer &amp;stab) const</argsstring>
         <name>solve</name>
         <qualifiedname>MR::MultiwayAligningTransform::solve</qualifiedname>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="68" column="29"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="68" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a3e5b35fce7e3307e85f2dbf172d70b17" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::vector&lt; RigidXf3d &gt;</type>
@@ -323,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="69" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" bodystart="69" bodyend="69"/>
+        <location file="MRMesh/MRMultiwayAligningTransform.h" line="69" column="18" bodyfile="MRMesh/MRMultiwayAligningTransform.h" bodystart="69" bodyend="69"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -331,22 +331,22 @@
     <detaileddescription>
 <para>This class can be used to solve the problem of multiple 3D objects alignment, by first collecting weighted links between pairs of points from different objects, and then solving for transformations minimizing weighted average of link penalties </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" bodystart="18" bodyend="74"/>
+    <location file="MRMesh/MRMultiwayAligningTransform.h" line="17" column="1" bodyfile="MRMesh/MRMultiwayAligningTransform.h" bodystart="18" bodyend="74"/>
     <listofallmembers>
-      <member refid="classMR_1_1MultiwayAligningTransform_1ae6740604d1fa635862343a99d6cb5d7e" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1ab8eb49ff6a10ab6ff8715459d389ddd4" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1ac35d132681b885e39cbfa56ee9f11eb0" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1a3e485b9e92d58d482847c3dc90afcc8d" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1a143920da717c5e1c0e592184293e62ce" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1a1efd4fe910e9f4f9f64b14d2fd1929d4" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1a339777c7114ede92149acc8c703508d0" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1af0e61313e6d6ed7885bc216dbafbb659" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1a3784d0300e1a5c899ed579b1b93d397e" prot="private" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>impl_</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1a41247022db4941f568025a641398d0b8" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1a6d91b7804a0259ee9b021e2b87898f83" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1ae9a3702a5e0dc2a2a5f9665fd886be0a" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1aa7eedfd31142740a16443cbea7089534" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>operator=</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1aa867c2ead76afd490b8d287b98ac0ca4" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>reset</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1aff88b77e742b2e4c2aad5013dfa2c4c2" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>solve</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1a639a8d4c70b27727f8b93431f5771fed" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1ac0bd869e5468592f333c6a85d89812a4" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1aad5b08e7a74ec3006eaaeb2e888e26da" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>operator=</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1a26f658626fe3c1d58d5b4bbbc294cca8" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>reset</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1a3435c7509f89fa86d930d3d9a27cf514" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>solve</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1a3e5b35fce7e3307e85f2dbf172d70b17" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>solve</name></member>
-      <member refid="classMR_1_1MultiwayAligningTransform_1a75f76046bba7a35ce1c2396c72b47aa8" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>~MultiwayAligningTransform</name></member>
+      <member refid="classMR_1_1MultiwayAligningTransform_1ad283e68f235e10c8e9c4343311b7acdf" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>~MultiwayAligningTransform</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

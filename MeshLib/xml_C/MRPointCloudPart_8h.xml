@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloudPart_8h" kind="file" language="C++">
     <compoundname>MRPointCloudPart.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,56 +15,15 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPointCloudPart_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
-        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloud</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="11" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudPart_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudPart_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref></type>
-        <definition>typedef struct MR_PointCloudPart MR_PointCloudPart</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloudPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>represents full point cloud (if region is nullptr) or some portion of point cloud (if region pointer is valid) Generated from class <computeroutput>MR::PointCloudPart</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="18" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPointCloudPart_8h_1a7b747c4d1a0d712a3a84e92228986ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
         <definition>MRC_API const MR_PointCloud * MR_PointCloudPart_Get_cloud</definition>
         <argsstring>(const MR_PointCloudPart *_this)</argsstring>
         <name>MR_PointCloudPart_Get_cloud</name>
@@ -79,10 +38,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="24" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="24" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="24" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="24" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1abbd920fdfa6290485d84824ae25a305f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
         <definition>MRC_API const MR_VertBitSet *const  * MR_PointCloudPart_Get_region</definition>
         <argsstring>(const MR_PointCloudPart *_this)</argsstring>
         <name>MR_PointCloudPart_Get_region</name>
@@ -97,10 +56,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="31" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="31" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="31" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="31" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1a3fec2cf567a5db5674fcbbd70d4aad02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointCloudPart_Set_region</definition>
         <argsstring>(MR_PointCloudPart *_this, const MR_VertBitSet *value)</argsstring>
         <name>MR_PointCloudPart_Set_region</name>
@@ -115,14 +74,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PointCloudPart</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PointCloudPart</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="38" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="38" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1a77e3618db84ac96024b0f9a9b160d634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
         <definition>MRC_API const MR_VertBitSet ** MR_PointCloudPart_GetMutable_region</definition>
         <argsstring>(MR_PointCloudPart *_this)</argsstring>
         <name>MR_PointCloudPart_GetMutable_region</name>
@@ -137,10 +96,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="45" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="45" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="45" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="45" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1a0ddab4c17652c87706b81eb689491e77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
         <definition>MRC_API MR_PointCloudPart * MR_PointCloudPart_ConstructFromAnother</definition>
         <argsstring>(const MR_PointCloudPart *other)</argsstring>
         <name>MR_PointCloudPart_ConstructFromAnother</name>
@@ -155,10 +114,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="52" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="52" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="52" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="52" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1a3c95b43fad415f609e3f50c109690420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
         <definition>MRC_API const MR_PointCloudPart * MR_PointCloudPart_OffsetPtr</definition>
         <argsstring>(const MR_PointCloudPart *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointCloudPart_OffsetPtr</name>
@@ -177,10 +136,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="56" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="56" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="56" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="56" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1aea0794f6de9137acad85e1dfe24a1334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
         <definition>MRC_API MR_PointCloudPart * MR_PointCloudPart_OffsetMutablePtr</definition>
         <argsstring>(MR_PointCloudPart *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointCloudPart_OffsetMutablePtr</name>
@@ -199,10 +158,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="60" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="60" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="60" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="60" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1a0bf03b1f4dc542332047d505e2219d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
         <definition>MRC_API MR_PointCloudPart * MR_PointCloudPart_Construct</definition>
         <argsstring>(const MR_PointCloud *c, const MR_VertBitSet *bs)</argsstring>
         <name>MR_PointCloudPart_Construct</name>
@@ -221,10 +180,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="68" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="68" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="68" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="68" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1a0c80deb0beb3d865d4002ebf28453fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointCloudPart_Destroy</definition>
         <argsstring>(const MR_PointCloudPart *_this)</argsstring>
         <name>MR_PointCloudPart_Destroy</name>
@@ -233,16 +192,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PointCloudPart</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="71" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="71" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1a72be1dc22d453965094349a02dbe6e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointCloudPart_DestroyArray</definition>
         <argsstring>(const MR_PointCloudPart *_this)</argsstring>
         <name>MR_PointCloudPart_DestroyArray</name>
@@ -251,16 +210,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PointCloudPart</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="74" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudPart_8h_1ad36b407dab8e59d60be631f4bcf5a08d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
         <definition>MRC_API MR_PointCloudPart * MR_PointCloudPart_AssignFromAnother</definition>
         <argsstring>(MR_PointCloudPart *_this, const MR_PointCloudPart *other)</argsstring>
         <name>MR_PointCloudPart_AssignFromAnother</name>
@@ -275,11 +234,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointCloudPart::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointCloudPart::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" line="83" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h" declline="83" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" line="83" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h" declline="83" declcolumn="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -289,7 +248,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -297,42 +256,42 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRPointCloudPart_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRPointCloudPart_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRPointCloudPart_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRPointCloudPart_8h_1a7b747c4d1a0d712a3a84e92228986ce1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="MRPointCloudPart_8h_1a7b747c4d1a0d712a3a84e92228986ce1" kindref="member">MR_PointCloudPart_Get_cloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="24" refid="MRPointCloudPart_8h_1a7b747c4d1a0d712a3a84e92228986ce1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="MRPointCloudPart_8h_1a7b747c4d1a0d712a3a84e92228986ce1" kindref="member">MR_PointCloudPart_Get_cloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>all<sp/>valid<sp/>points<sp/>of<sp/>point<sp/>cloud</highlight></codeline>
-<codeline lineno="31" refid="MRPointCloudPart_8h_1abbd920fdfa6290485d84824ae25a305f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudPart_8h_1abbd920fdfa6290485d84824ae25a305f" kindref="member">MR_PointCloudPart_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>all<sp/>valid<sp/>points<sp/>of<sp/>point<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRPointCloudPart_8h_1abbd920fdfa6290485d84824ae25a305f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudPart_8h_1abbd920fdfa6290485d84824ae25a305f" kindref="member">MR_PointCloudPart_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>all<sp/>valid<sp/>points<sp/>of<sp/>point<sp/>cloud</highlight></codeline>
-<codeline lineno="38" refid="MRPointCloudPart_8h_1a3fec2cf567a5db5674fcbbd70d4aad02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudPart_8h_1a3fec2cf567a5db5674fcbbd70d4aad02" kindref="member">MR_PointCloudPart_Set_region</ref>(<ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>all<sp/>valid<sp/>points<sp/>of<sp/>point<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRPointCloudPart_8h_1a3fec2cf567a5db5674fcbbd70d4aad02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudPart_8h_1a3fec2cf567a5db5674fcbbd70d4aad02" kindref="member">MR_PointCloudPart_Set_region</ref>(<ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>all<sp/>valid<sp/>points<sp/>of<sp/>point<sp/>cloud</highlight></codeline>
-<codeline lineno="45" refid="MRPointCloudPart_8h_1a77e3618db84ac96024b0f9a9b160d634" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRPointCloudPart_8h_1a77e3618db84ac96024b0f9a9b160d634" kindref="member">MR_PointCloudPart_GetMutable_region</ref>(<ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>all<sp/>valid<sp/>points<sp/>of<sp/>point<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRPointCloudPart_8h_1a77e3618db84ac96024b0f9a9b160d634" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRPointCloudPart_8h_1a77e3618db84ac96024b0f9a9b160d634" kindref="member">MR_PointCloudPart_GetMutable_region</ref>(<ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Make<sp/>this<sp/>assignable.<sp/>A<sp/>better<sp/>idea<sp/>would<sp/>be<sp/>to<sp/>rewrite<sp/>the<sp/>class<sp/>to<sp/>not<sp/>use<sp/>references,<sp/>but<sp/>doing<sp/>this<sp/>instead<sp/>preserves<sp/>API<sp/>compatibility.</highlight></codeline>
-<codeline lineno="52" refid="MRPointCloudPart_8h_1a0ddab4c17652c87706b81eb689491e77" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1a0ddab4c17652c87706b81eb689491e77" kindref="member">MR_PointCloudPart_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Make<sp/>this<sp/>assignable.<sp/>A<sp/>better<sp/>idea<sp/>would<sp/>be<sp/>to<sp/>rewrite<sp/>the<sp/>class<sp/>to<sp/>not<sp/>use<sp/>references,<sp/>but<sp/>doing<sp/>this<sp/>instead<sp/>preserves<sp/>API<sp/>compatibility.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRPointCloudPart_8h_1a0ddab4c17652c87706b81eb689491e77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1a0ddab4c17652c87706b81eb689491e77" kindref="member">MR_PointCloudPart_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRPointCloudPart_8h_1a3c95b43fad415f609e3f50c109690420" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1a3c95b43fad415f609e3f50c109690420" kindref="member">MR_PointCloudPart_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56" refid="MRPointCloudPart_8h_1a3c95b43fad415f609e3f50c109690420" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1a3c95b43fad415f609e3f50c109690420" kindref="member">MR_PointCloudPart_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRPointCloudPart_8h_1aea0794f6de9137acad85e1dfe24a1334" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1aea0794f6de9137acad85e1dfe24a1334" kindref="member">MR_PointCloudPart_OffsetMutablePtr</ref>(<ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60" refid="MRPointCloudPart_8h_1aea0794f6de9137acad85e1dfe24a1334" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1aea0794f6de9137acad85e1dfe24a1334" kindref="member">MR_PointCloudPart_OffsetMutablePtr</ref>(<ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRPointCloudPart_8h_1a0bf03b1f4dc542332047d505e2219d0a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1a0bf03b1f4dc542332047d505e2219d0a" kindref="member">MR_PointCloudPart_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*bs);</highlight></codeline>
+<codeline lineno="68" refid="MRPointCloudPart_8h_1a0bf03b1f4dc542332047d505e2219d0a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1a0bf03b1f4dc542332047d505e2219d0a" kindref="member">MR_PointCloudPart_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*bs);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRPointCloudPart_8h_1a0c80deb0beb3d865d4002ebf28453fd1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudPart_8h_1a0c80deb0beb3d865d4002ebf28453fd1" kindref="member">MR_PointCloudPart_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71" refid="MRPointCloudPart_8h_1a0c80deb0beb3d865d4002ebf28453fd1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudPart_8h_1a0c80deb0beb3d865d4002ebf28453fd1" kindref="member">MR_PointCloudPart_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRPointCloudPart_8h_1a72be1dc22d453965094349a02dbe6e53" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudPart_8h_1a72be1dc22d453965094349a02dbe6e53" kindref="member">MR_PointCloudPart_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="MRPointCloudPart_8h_1a72be1dc22d453965094349a02dbe6e53" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudPart_8h_1a72be1dc22d453965094349a02dbe6e53" kindref="member">MR_PointCloudPart_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRPointCloudPart_8h_1ad36b407dab8e59d60be631f4bcf5a08d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1ad36b407dab8e59d60be631f4bcf5a08d" kindref="member">MR_PointCloudPart_AssignFromAnother</ref>(<ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="83" refid="MRPointCloudPart_8h_1ad36b407dab8e59d60be631f4bcf5a08d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*<ref refid="MRPointCloudPart_8h_1ad36b407dab8e59d60be631f4bcf5a08d" kindref="member">MR_PointCloudPart_AssignFromAnother</ref>(<ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudPart.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointCloudPart.h"/>
   </compounddef>
 </doxygen>

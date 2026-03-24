@@ -1,15 +1,7 @@
 var MRMeshCollidePrecise_8h =
 [
-    [ "MR_AffineXf3f", "MRMeshCollidePrecise_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_CoordinateConverters", "MRMeshCollidePrecise_8h.html#a1d5f64a5e4478ee2148c84427aaaf552", null ],
     [ "MR_EdgeTri", "MRMeshCollidePrecise_8h.html#a058738f4d631f4c82398a33f0fb5f0c0", null ],
-    [ "MR_Mesh", "MRMeshCollidePrecise_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRMeshCollidePrecise_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref", "MRMeshCollidePrecise_8h.html#a5926f17bfcecf57ef54dbdaae762d53a", null ],
-    [ "MR_std_vector_MR_EdgeId", "MRMeshCollidePrecise_8h.html#aa2cb99914308eb7429fd11738cf79483", null ],
-    [ "MR_std_vector_MR_EdgeTri", "MRMeshCollidePrecise_8h.html#a3d502e2ab46b5aa656a771e8cbbb3ab9", null ],
-    [ "MR_std_vector_MR_FaceId", "MRMeshCollidePrecise_8h.html#a94dee374602a203a401f6d452bedc8c8", null ],
-    [ "MR_std_vector_MR_VarEdgeTri", "MRMeshCollidePrecise_8h.html#a1b4353d07e0d9c78080a20bc84d0ebf3", null ],
     [ "MR_VarEdgeTri", "MRMeshCollidePrecise_8h.html#a926b482f5586e0d892907eb47615352d", null ],
     [ "MR_VarEdgeTri_FlaggedTri", "MRMeshCollidePrecise_8h.html#abf6a829f32de2170f9352ebcb68bf275", null ],
     [ "MR_EdgeTri_AssignFromAnother", "MRMeshCollidePrecise_8h.html#ad4eafbf6cb111047a9635290f5d7ff20", null ],

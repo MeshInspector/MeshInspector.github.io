@@ -1,26 +1,80 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPositionVertsSmoothly_8h" kind="file" language="C++">
     <compoundname>MRPositionVertsSmoothly.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MREnums_8h" local="yes">MREnums.h</includes>
     <incdepgraph>
-      <node id="3">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>MRPositionVertsSmoothly.h</label>
-        <link refid="MRPositionVertsSmoothly_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
       </node>
       <node id="2">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRPositionVertsSmoothly.h</label>
+        <link refid="MRPositionVertsSmoothly_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1PositionVertsSmoothlyParams" prot="public">MR::PositionVertsSmoothlyParams</innerclass>
@@ -34,17 +88,17 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREnums_8h" kindref="compound">MREnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="group__GeneralGroup_1gae86354c05ad9fa894a5dd8c50099d7a9" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae86354c05ad9fa894a5dd8c50099d7a9" kindref="member">positionVertsSmoothly</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1ga0e682b83c6954583b3f9ec92e9b5dffa" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e682b83c6954583b3f9ec92e9b5dffa" kindref="member">positionVertsSmoothly</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5ac9f08cd2ef48394fa1c77a8ebdd6c8" kindref="member">EdgeWeights</ref><sp/>edgeWeights<sp/>=<sp/><ref refid="group__GeneralGroup_1gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights::Cotan</ref>,<sp/><ref refid="group__GeneralGroup_1gada281bbc8bccd66b01be1b6d2b99e3cd" kindref="member">VertexMass</ref><sp/>vmass<sp/>=<sp/><ref refid="group__GeneralGroup_1ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass::Unit</ref>,</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>fixedSharpVertices<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga2a95c920b7f5516228030dfcec13b882" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae86354c05ad9fa894a5dd8c50099d7a9" kindref="member">positionVertsSmoothly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga97e3502fe6161eb0f3b9bfa2e0400837" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e682b83c6954583b3f9ec92e9b5dffa" kindref="member">positionVertsSmoothly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5ac9f08cd2ef48394fa1c77a8ebdd6c8" kindref="member">EdgeWeights</ref><sp/>edgeWeights<sp/>=<sp/><ref refid="group__GeneralGroup_1gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights::Cotan</ref>,<sp/><ref refid="group__GeneralGroup_1gada281bbc8bccd66b01be1b6d2b99e3cd" kindref="member">VertexMass</ref><sp/>vmass<sp/>=<sp/><ref refid="group__GeneralGroup_1ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass::Unit</ref>,</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>fixedSharpVertices<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
@@ -56,20 +110,20 @@
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1ga5563df5f8c2ef1af7864e5be4bfc7a42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5563df5f8c2ef1af7864e5be4bfc7a42" kindref="member">stabilizer</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1ga69d2ed7107a7dd975887edd0da2c8847" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMetric<sp/><ref refid="group__GeneralGroup_1ga69d2ed7107a7dd975887edd0da2c8847" kindref="member">vertStabilizers</ref>;</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga69d2ed7107a7dd975887edd0da2c8847" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga036c60a88f141a437ffed0bc572fce6d" kindref="member">VertMetric</ref><sp/><ref refid="group__GeneralGroup_1ga69d2ed7107a7dd975887edd0da2c8847" kindref="member">vertStabilizers</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="group__GeneralGroup_1ga7a683cc3d1052af67b00984f50fa920d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeMetric<sp/><ref refid="group__GeneralGroup_1ga7a683cc3d1052af67b00984f50fa920d" kindref="member">edgeWeights</ref>;</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga7a683cc3d1052af67b00984f50fa920d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab7a3fa3c0bf9137f59a3a494350314d1" kindref="member">UndirectedEdgeMetric</ref><sp/><ref refid="group__GeneralGroup_1ga7a683cc3d1052af67b00984f50fa920d" kindref="member">edgeWeights</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1gaf8dd3b249e646ab92cf9d312ffac6e2e" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf8dd3b249e646ab92cf9d312ffac6e2e" kindref="member">positionVertsSmoothlySharpBd</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PositionVertsSmoothlyParams" kindref="compound">PositionVertsSmoothlyParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
-<codeline lineno="43" refid="group__GeneralGroup_1ga8d87a4678ed70cd745acfc832ec73b1c" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf8dd3b249e646ab92cf9d312ffac6e2e" kindref="member">positionVertsSmoothlySharpBd</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PositionVertsSmoothlyParams" kindref="compound">PositionVertsSmoothlyParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1gac56c678ffffb2817ff5828b4e9a195fe" refkind="member"><highlight class="normal">[[deprecated]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf8dd3b249e646ab92cf9d312ffac6e2e" kindref="member">positionVertsSmoothlySharpBd</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts<sp/>);</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga3dac19de1058f607ecdcf5a193847974" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3dac19de1058f607ecdcf5a193847974" kindref="member">positionVertsSmoothlySharpBd</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PositionVertsSmoothlyParams" kindref="compound">PositionVertsSmoothlyParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga3311d4d92a95f00493ad1ad37902ff17" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3dac19de1058f607ecdcf5a193847974" kindref="member">positionVertsSmoothlySharpBd</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PositionVertsSmoothlyParams" kindref="compound">PositionVertsSmoothlyParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga9a94cc9f980d20a4e19d93b3b199eb84" refkind="member"><highlight class="normal">[[deprecated]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3dac19de1058f607ecdcf5a193847974" kindref="member">positionVertsSmoothlySharpBd</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="structMR_1_1SpacingSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SpacingSettings" kindref="compound">SpacingSettings</ref></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="49" refid="group__GeneralGroup_1gac011fc95d61ece99cc3358e1236104d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/><ref refid="group__GeneralGroup_1gac011fc95d61ece99cc3358e1236104d9" kindref="member">region</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="group__GeneralGroup_1ga49adf144c8f1f64aafce1e6927f03dc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeMetric<sp/><ref refid="group__GeneralGroup_1ga49adf144c8f1f64aafce1e6927f03dc0" kindref="member">dist</ref>;<sp/></highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga49adf144c8f1f64aafce1e6927f03dc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab7a3fa3c0bf9137f59a3a494350314d1" kindref="member">UndirectedEdgeMetric</ref><sp/><ref refid="group__GeneralGroup_1ga49adf144c8f1f64aafce1e6927f03dc0" kindref="member">dist</ref>;<sp/></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55" refid="group__GeneralGroup_1gad568a8496f9ca1e1732124e9fa159cd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad568a8496f9ca1e1732124e9fa159cd5" kindref="member">numIters</ref><sp/>=<sp/>10;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
@@ -77,11 +131,11 @@
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="group__GeneralGroup_1ga5443622562ccec60fb967801e5c0ad46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5443622562ccec60fb967801e5c0ad46" kindref="member">maxSumNegW</ref><sp/>=<sp/>0.1f;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="group__GeneralGroup_1ga65572ad8925a4fe549d886d23dc4b2e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FacePredicate<sp/><ref refid="group__GeneralGroup_1ga65572ad8925a4fe549d886d23dc4b2e5" kindref="member">isInverted</ref>;</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1ga65572ad8925a4fe549d886d23dc4b2e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" kindref="member">FacePredicate</ref><sp/><ref refid="group__GeneralGroup_1ga65572ad8925a4fe549d886d23dc4b2e5" kindref="member">isInverted</ref>;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="group__GeneralGroup_1ga1d34390e42800882d558656d3ea89684" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1d34390e42800882d558656d3ea89684" kindref="member">positionVertsWithSpacing</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SpacingSettings" kindref="compound">SpacingSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
-<codeline lineno="69" refid="group__GeneralGroup_1ga346a48132e38e33f42c16f84435f32d0" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1d34390e42800882d558656d3ea89684" kindref="member">positionVertsWithSpacing</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SpacingSettings" kindref="compound">SpacingSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1gadb739a70f56473054c61b01ea775d324" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb739a70f56473054c61b01ea775d324" kindref="member">positionVertsWithSpacing</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SpacingSettings" kindref="compound">SpacingSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1ga2ebbb4933faafb3ef63537dc45fdd789" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb739a70f56473054c61b01ea775d324" kindref="member">positionVertsWithSpacing</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SpacingSettings" kindref="compound">SpacingSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71" refid="structMR_1_1InflateSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1InflateSettings" kindref="compound">InflateSettings</ref></highlight></codeline>
 <codeline lineno="72"><highlight class="normal">{</highlight></codeline>
@@ -91,13 +145,13 @@
 <codeline lineno="84" refid="group__GeneralGroup_1ga01eec1ee9ce09177388ba2eb6097a88a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga01eec1ee9ce09177388ba2eb6097a88a" kindref="member">gradualPressureGrowth</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="group__GeneralGroup_1ga3d881ee7943c5019e5a61768489f064e" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3d881ee7943c5019e5a61768489f064e" kindref="member">inflate</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1InflateSettings" kindref="compound">InflateSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
-<codeline lineno="91" refid="group__GeneralGroup_1gac4f6d3d03ab782b0a48a3582a8a975a6" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3d881ee7943c5019e5a61768489f064e" kindref="member">inflate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1InflateSettings" kindref="compound">InflateSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1ga32961e262e92c3438548d8b9a40b5364" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga32961e262e92c3438548d8b9a40b5364" kindref="member">inflate</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1InflateSettings" kindref="compound">InflateSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="91" refid="group__GeneralGroup_1ga9cbc6ba131ff587e64d50eade7fc99cc" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga32961e262e92c3438548d8b9a40b5364" kindref="member">inflate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1InflateSettings" kindref="compound">InflateSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="group__GeneralGroup_1ga0ff13a6ee1e4553122efbc84946a0e01" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0ff13a6ee1e4553122efbc84946a0e01" kindref="member">inflate1</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure<sp/>);</highlight></codeline>
+<codeline lineno="96" refid="group__GeneralGroup_1ga62ff69b90b83786af6489013210c7650" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62ff69b90b83786af6489013210c7650" kindref="member">inflate1</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure<sp/>);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h"/>
+    <location file="MRMesh/MRPositionVertsSmoothly.h"/>
   </compounddef>
 </doxygen>

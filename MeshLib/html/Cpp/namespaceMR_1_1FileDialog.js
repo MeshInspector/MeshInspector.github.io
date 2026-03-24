@@ -1,6 +1,6 @@
 var namespaceMR_1_1FileDialog =
 [
     [ "Parameters", "structMR_1_1FileDialog_1_1Parameters.html", "structMR_1_1FileDialog_1_1Parameters" ],
-    [ "getLastUsedDir", "group__GeneralGroup.html#ga6236a401964ba52cc8c681800b9016b6", null ],
-    [ "setLastUsedDir", "group__GeneralGroup.html#gaff1ca147e48327b0475511d0b7b84957", null ]
+    [ "getLastUsedDir", "group__GeneralGroup.html#gaa254a1389ccd0613cffbfc4a425f3dbf", null ],
+    [ "setLastUsedDir", "group__GeneralGroup.html#gac507a834f0757fc127d7222f8ffcb462", null ]
 ];

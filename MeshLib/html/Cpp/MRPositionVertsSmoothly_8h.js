@@ -1,13 +1,13 @@
 var MRPositionVertsSmoothly_8h =
 [
-    [ "inflate", "MRPositionVertsSmoothly_8h.html#gac4f6d3d03ab782b0a48a3582a8a975a6", null ],
-    [ "inflate", "MRPositionVertsSmoothly_8h.html#ga3d881ee7943c5019e5a61768489f064e", null ],
-    [ "inflate1", "MRPositionVertsSmoothly_8h.html#ga0ff13a6ee1e4553122efbc84946a0e01", null ],
-    [ "positionVertsSmoothly", "MRPositionVertsSmoothly_8h.html#ga2a95c920b7f5516228030dfcec13b882", null ],
-    [ "positionVertsSmoothly", "MRPositionVertsSmoothly_8h.html#gae86354c05ad9fa894a5dd8c50099d7a9", null ],
-    [ "positionVertsSmoothlySharpBd", "MRPositionVertsSmoothly_8h.html#ga8d87a4678ed70cd745acfc832ec73b1c", null ],
-    [ "positionVertsSmoothlySharpBd", "MRPositionVertsSmoothly_8h.html#gaf8dd3b249e646ab92cf9d312ffac6e2e", null ],
-    [ "positionVertsSmoothlySharpBd", "MRPositionVertsSmoothly_8h.html#gac56c678ffffb2817ff5828b4e9a195fe", null ],
-    [ "positionVertsWithSpacing", "MRPositionVertsSmoothly_8h.html#ga346a48132e38e33f42c16f84435f32d0", null ],
-    [ "positionVertsWithSpacing", "MRPositionVertsSmoothly_8h.html#ga1d34390e42800882d558656d3ea89684", null ]
+    [ "MR::inflate", "group__GeneralGroup.html#ga9cbc6ba131ff587e64d50eade7fc99cc", null ],
+    [ "MR::inflate", "group__GeneralGroup.html#ga32961e262e92c3438548d8b9a40b5364", null ],
+    [ "MR::inflate1", "group__GeneralGroup.html#ga62ff69b90b83786af6489013210c7650", null ],
+    [ "MR::positionVertsSmoothly", "group__GeneralGroup.html#ga97e3502fe6161eb0f3b9bfa2e0400837", null ],
+    [ "MR::positionVertsSmoothly", "group__GeneralGroup.html#ga0e682b83c6954583b3f9ec92e9b5dffa", null ],
+    [ "MR::positionVertsSmoothlySharpBd", "group__GeneralGroup.html#ga3311d4d92a95f00493ad1ad37902ff17", null ],
+    [ "MR::positionVertsSmoothlySharpBd", "group__GeneralGroup.html#ga3dac19de1058f607ecdcf5a193847974", null ],
+    [ "MR::positionVertsSmoothlySharpBd", "group__GeneralGroup.html#ga9a94cc9f980d20a4e19d93b3b199eb84", null ],
+    [ "MR::positionVertsWithSpacing", "group__GeneralGroup.html#ga2ebbb4933faafb3ef63537dc45fdd789", null ],
+    [ "MR::positionVertsWithSpacing", "group__GeneralGroup.html#gadb739a70f56473054c61b01ea775d324", null ]
 ];

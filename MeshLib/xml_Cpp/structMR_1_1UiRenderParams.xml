@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UiRenderParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::UiRenderParams</compoundname>
     <basecompoundref refid="structMR_1_1BaseRenderParams" prot="public" virt="non-virtual">MR::BaseRenderParams</basecompoundref>
-    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <includes refid="MRIRenderObject_8h" local="no">MRMesh/MRIRenderObject.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kind="typedef"><name>UiTaskList</name></member>
     </sectiondef>
@@ -45,7 +45,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="110" bodyend="115"/>
+    <location file="MRMesh/MRIRenderObject.h" line="109" column="1" bodyfile="MRMesh/MRIRenderObject.h" bodystart="110" bodyend="115"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>projMatrix</name></member>
       <member refid="group__GeneralGroup_1ga5f69c0eb3c0590c0bd49dbcdddbc0eca" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>tasks</name></member>

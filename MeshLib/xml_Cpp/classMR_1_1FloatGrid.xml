@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FloatGrid" kind="class" language="C++" prot="public">
     <compoundname>MR::FloatGrid</compoundname>
-    <includes refid="MRFloatGrid_8h" local="no">MRFloatGrid.h</includes>
+    <includes refid="MRFloatGrid_8h" local="no">MRVoxels/MRFloatGrid.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1FloatGrid_1a622f5faba96ccb3b906aaefb2f061789" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> &gt;</type>
@@ -16,13 +16,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="39" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" bodystart="39" bodyend="-1"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="39" column="21" bodyfile="MRVoxels/MRFloatGrid.h" bodystart="39" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1ad7614c2c6c361b7de54e6b4f36b10f40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API</type>
-        <definition>MRVOXELS_API MR::FloatGrid::FloatGrid</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a53d10307e884f2a1d98fbb92e86d819c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::FloatGrid::FloatGrid</definition>
         <argsstring>()</argsstring>
         <name>FloatGrid</name>
         <qualifiedname>MR::FloatGrid::FloatGrid</qualifiedname>
@@ -32,11 +32,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="23" column="18"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="23" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1acb513b32df646142474fac7a91ffd442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API</type>
-        <definition>MRVOXELS_API MR::FloatGrid::FloatGrid</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1af8d34216336615815311c279c1f5ea36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::FloatGrid::FloatGrid</definition>
         <argsstring>(std::shared_ptr&lt; OpenVdbFloatGrid &gt; ptr)</argsstring>
         <name>FloatGrid</name>
         <qualifiedname>MR::FloatGrid::FloatGrid</qualifiedname>
@@ -50,11 +50,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="24" column="18"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="24" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1a4245c1e58d5a40d85bcfe90b3dc68fd2" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVOXELS_API void</type>
-        <definition>MRVOXELS_API void MR::FloatGrid::reset</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a2fbf0ab68728e6c65eb7eba81214af57" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::FloatGrid::reset</definition>
         <argsstring>() noexcept</argsstring>
         <name>reset</name>
         <qualifiedname>MR::FloatGrid::reset</qualifiedname>
@@ -64,11 +64,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="26" column="23"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="26" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1a253b72f1e0f6df406df512ee0886b1ab" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVOXELS_API void</type>
-        <definition>MRVOXELS_API void MR::FloatGrid::swap</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a0e54c4478471106137ae921ade6531a6" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::FloatGrid::swap</definition>
         <argsstring>(FloatGrid &amp;other) noexcept</argsstring>
         <name>swap</name>
         <qualifiedname>MR::FloatGrid::swap</qualifiedname>
@@ -82,11 +82,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="27" column="23"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="27" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1aee4b8a5066709b06d3f00038f22253fe" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVOXELS_API <ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> *</type>
-        <definition>MRVOXELS_API OpenVdbFloatGrid * MR::FloatGrid::get</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a3aace27ab23b1742ad84b92fc42a4212" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> *</type>
+        <definition>OpenVdbFloatGrid * MR::FloatGrid::get</definition>
         <argsstring>() const noexcept</argsstring>
         <name>get</name>
         <qualifiedname>MR::FloatGrid::get</qualifiedname>
@@ -96,11 +96,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="30" column="35"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="30" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1aa05a3eb00a5aa39594fef0ff19773034" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVOXELS_API <ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> &amp;</type>
-        <definition>MRVOXELS_API OpenVdbFloatGrid &amp; MR::FloatGrid::operator*</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a1f104dd0b5e2dcc3b4e3afe32956f51c" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> &amp;</type>
+        <definition>OpenVdbFloatGrid &amp; MR::FloatGrid::operator*</definition>
         <argsstring>() const noexcept</argsstring>
         <name>operator*</name>
         <qualifiedname>MR::FloatGrid::operator*</qualifiedname>
@@ -110,11 +110,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="31" column="35"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="31" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1a5cad3b44aaafdb7694c854056f42f486" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVOXELS_API <ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> *</type>
-        <definition>MRVOXELS_API OpenVdbFloatGrid * MR::FloatGrid::operator-&gt;</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a055e210393ed898493cd27cafb5724aa" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> *</type>
+        <definition>OpenVdbFloatGrid * MR::FloatGrid::operator-&gt;</definition>
         <argsstring>() const noexcept</argsstring>
         <name>operator-&gt;</name>
         <qualifiedname>MR::FloatGrid::operator-&gt;</qualifiedname>
@@ -124,11 +124,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="32" column="35"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="32" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1aaa076c4d8c658769c89b78fcb7f4ec10" prot="public" static="no" const="yes" explicit="yes" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVOXELS_API</type>
-        <definition>MRVOXELS_API MR::FloatGrid::operator bool</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a73a8d78bd5974d77513cecea0cf92ed1" prot="public" static="no" const="yes" explicit="yes" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::FloatGrid::operator bool</definition>
         <argsstring>() const noexcept</argsstring>
         <name>operator bool</name>
         <qualifiedname>MR::FloatGrid::operator bool</qualifiedname>
@@ -138,11 +138,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="34" column="27"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="34" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1a48d8eeff117d61bbfdedc5db8f17ff74" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVOXELS_API std::shared_ptr&lt; <ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> &gt;</type>
-        <definition>MRVOXELS_API std::shared_ptr&lt; OpenVdbFloatGrid &gt; MR::FloatGrid::toVdb</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1ae1df5fdac1a03f7e347a9b7c48b7229d" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; OpenVdbFloatGrid &gt; MR::FloatGrid::toVdb</definition>
         <argsstring>() const noexcept</argsstring>
         <name>toVdb</name>
         <qualifiedname>MR::FloatGrid::toVdb</qualifiedname>
@@ -152,13 +152,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="36" column="34"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="36" column="22"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1ad47060aef21f627a7bb261420a4be73a" prot="public" static="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVOXELS_API <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
-        <definition>static MRVOXELS_API FloatGrid MR::FloatGrid::deepCopy</definition>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a6a578732811baea1528731daa6c889ec" prot="public" static="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition>static FloatGrid MR::FloatGrid::deepCopy</definition>
         <argsstring>(const FloatGrid &amp;other) noexcept</argsstring>
         <name>deepCopy</name>
         <qualifiedname>MR::FloatGrid::deepCopy</qualifiedname>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="28" column="35"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="28" column="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -180,19 +180,19 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" bodystart="21" bodyend="40"/>
+    <location file="MRVoxels/MRFloatGrid.h" line="20" column="1" bodyfile="MRVoxels/MRFloatGrid.h" bodystart="21" bodyend="40"/>
     <listofallmembers>
-      <member refid="classMR_1_1FloatGrid_1ad47060aef21f627a7bb261420a4be73a" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>deepCopy</name></member>
-      <member refid="classMR_1_1FloatGrid_1ad7614c2c6c361b7de54e6b4f36b10f40" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
-      <member refid="classMR_1_1FloatGrid_1acb513b32df646142474fac7a91ffd442" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
-      <member refid="classMR_1_1FloatGrid_1aee4b8a5066709b06d3f00038f22253fe" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>get</name></member>
-      <member refid="classMR_1_1FloatGrid_1aaa076c4d8c658769c89b78fcb7f4ec10" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator bool</name></member>
-      <member refid="classMR_1_1FloatGrid_1aa05a3eb00a5aa39594fef0ff19773034" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator*</name></member>
-      <member refid="classMR_1_1FloatGrid_1a5cad3b44aaafdb7694c854056f42f486" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator-&gt;</name></member>
+      <member refid="classMR_1_1FloatGrid_1a6a578732811baea1528731daa6c889ec" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>deepCopy</name></member>
+      <member refid="classMR_1_1FloatGrid_1a53d10307e884f2a1d98fbb92e86d819c" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1af8d34216336615815311c279c1f5ea36" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a3aace27ab23b1742ad84b92fc42a4212" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>get</name></member>
+      <member refid="classMR_1_1FloatGrid_1a73a8d78bd5974d77513cecea0cf92ed1" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1FloatGrid_1a1f104dd0b5e2dcc3b4e3afe32956f51c" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator*</name></member>
+      <member refid="classMR_1_1FloatGrid_1a055e210393ed898493cd27cafb5724aa" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator-&gt;</name></member>
       <member refid="classMR_1_1FloatGrid_1a622f5faba96ccb3b906aaefb2f061789" prot="private" virt="non-virtual"><scope>MR::FloatGrid</scope><name>ptr_</name></member>
-      <member refid="classMR_1_1FloatGrid_1a4245c1e58d5a40d85bcfe90b3dc68fd2" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>reset</name></member>
-      <member refid="classMR_1_1FloatGrid_1a253b72f1e0f6df406df512ee0886b1ab" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>swap</name></member>
-      <member refid="classMR_1_1FloatGrid_1a48d8eeff117d61bbfdedc5db8f17ff74" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>toVdb</name></member>
+      <member refid="classMR_1_1FloatGrid_1a2fbf0ab68728e6c65eb7eba81214af57" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>reset</name></member>
+      <member refid="classMR_1_1FloatGrid_1a0e54c4478471106137ae921ade6531a6" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>swap</name></member>
+      <member refid="classMR_1_1FloatGrid_1ae1df5fdac1a03f7e347a9b7c48b7229d" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>toVdb</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

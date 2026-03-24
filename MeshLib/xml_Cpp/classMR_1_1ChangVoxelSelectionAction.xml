@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangVoxelSelectionAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangVoxelSelectionAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeVoxelSelectionAction_8h" local="no">MRChangeVoxelSelectionAction.h</includes>
+    <includes refid="MRChangeVoxelSelectionAction_8h" local="no">MRVoxels/MRChangeVoxelSelectionAction.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__HistoryGroup_1ga2bc62e359f5e804a60171abdd7939bd7" kind="typedef"><name>Obj</name></member>
     </sectiondef>
@@ -51,7 +51,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="14" bodyend="60"/>
+    <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="13" column="1" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="14" bodyend="60"/>
     <listofallmembers>
       <member refid="group__HistoryGroup_1gaebcfdaaba426fea5c32f5ca836a7085f" prot="public" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>action</name></member>
       <member refid="group__HistoryGroup_1gacd0912663f58360180bc863ab572daf4" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>ChangVoxelSelectionAction</name></member>

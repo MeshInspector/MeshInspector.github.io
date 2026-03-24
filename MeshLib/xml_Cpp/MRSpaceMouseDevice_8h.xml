@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSpaceMouseDevice_8h" kind="file" language="C++">
     <compoundname>MRSpaceMouseDevice.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRMesh/MRVector3.h</includes>
@@ -8,15 +8,43 @@
     <includes local="no">vector</includes>
     <includes local="no">unordered_map</includes>
     <includes local="no">string</includes>
-    <includedby refid="MRSpaceMouseHandlerHidapi_8h" local="yes">MRSpaceMouseHandlerHidapi.h</includedby>
+    <includedby refid="MRSpaceMouseHandlerHidapi_8h" local="yes">MRViewer/MRSpaceMouseHandlerHidapi.h</includedby>
     <incdepgraph>
-      <node id="8">
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
       <node id="3">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>MRMesh/MRUnsigned.h</label>
@@ -35,89 +63,99 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRSpaceMouseDevice.h</label>
-        <link refid="MRSpaceMouseDevice_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
-      <node id="7">
-        <label>MRMeshFwd.h</label>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="1">
+        <label>MRViewer/MRSpaceMouseDevice.h</label>
+        <link refid="MRSpaceMouseDevice_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
       <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
         <label>algorithm</label>
       </node>
-      <node id="16">
+      <node id="11">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>bitset</label>
       </node>
-      <node id="11">
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="19">
         <label>cmath</label>
       </node>
       <node id="5">
         <label>cstddef</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>cstring</label>
       </node>
-      <node id="13">
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="21">
         <label>iosfwd</label>
       </node>
-      <node id="19">
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
         <label>string</label>
       </node>
       <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="18">
+      <node id="24">
         <label>unordered_map</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
       </node>
-      <node id="17">
+      <node id="12">
         <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRSpaceMouseDevice.h</label>
+        <label>MRViewer/MRSpaceMouseDevice.h</label>
         <link refid="MRSpaceMouseDevice_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRSpaceMouseHandlerHidapi.h</label>
+        <label>MRViewer/MRSpaceMouseHandlerHidapi.h</label>
         <link refid="MRSpaceMouseHandlerHidapi_8h"/>
       </node>
     </invincdepgraph>
@@ -145,49 +183,49 @@
 <codeline lineno="13" refid="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" kindref="member">ProductId</ref><sp/>=<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int;</highlight></codeline>
 <codeline lineno="14" refid="namespaceMR_1_1SpaceMouse_1afea9877496a4f6098c6687dbbae1ac62" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SpaceMouse_1afea9877496a4f6098c6687dbbae1ac62" kindref="member">DataPacketRaw</ref><sp/>=<sp/>std::array&lt;unsigned<sp/>char,<sp/>13&gt;;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" kindref="member">Buttons</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" kindref="member">Buttons</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">SMB_NO</ref><sp/>=<sp/>-1,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad0f4c12aa176d856d48f6b85c69a2b26" kindref="member">SMB_MENU</ref>,</highlight></codeline>
+<codeline lineno="19" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">SMB_NO</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="20" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad0f4c12aa176d856d48f6b85c69a2b26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad0f4c12aa176d856d48f6b85c69a2b26" kindref="member">SMB_MENU</ref>,</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea0c2eb0e1f4d601ef8845cb9d3265f7" kindref="member">SMB_ESC</ref>,</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea2a4a37b9d169eb4eddf18d7e07c2e4" kindref="member">SMB_ENTER</ref>,</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a36179f2fecec1b832c63860ca016b6e1" kindref="member">SMB_TAB</ref>,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191add78eb3edda7b21ae662a3af71aec8ff" kindref="member">SMB_SHIFT</ref>,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7d68c8f781e3418af969004dbd04dda9" kindref="member">SMB_CTRL</ref>,</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601" kindref="member">SMB_ALT</ref>,</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a" kindref="member">SMB_SPACE</ref>,</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a3ce86375f3fa56f1154df92dcdae7e15" kindref="member">SMB_DELETE</ref>,</highlight></codeline>
+<codeline lineno="22" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea0c2eb0e1f4d601ef8845cb9d3265f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea0c2eb0e1f4d601ef8845cb9d3265f7" kindref="member">SMB_ESC</ref>,</highlight></codeline>
+<codeline lineno="23" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea2a4a37b9d169eb4eddf18d7e07c2e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea2a4a37b9d169eb4eddf18d7e07c2e4" kindref="member">SMB_ENTER</ref>,</highlight></codeline>
+<codeline lineno="24" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a36179f2fecec1b832c63860ca016b6e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a36179f2fecec1b832c63860ca016b6e1" kindref="member">SMB_TAB</ref>,</highlight></codeline>
+<codeline lineno="25" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191add78eb3edda7b21ae662a3af71aec8ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191add78eb3edda7b21ae662a3af71aec8ff" kindref="member">SMB_SHIFT</ref>,</highlight></codeline>
+<codeline lineno="26" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7d68c8f781e3418af969004dbd04dda9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7d68c8f781e3418af969004dbd04dda9" kindref="member">SMB_CTRL</ref>,</highlight></codeline>
+<codeline lineno="27" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601" kindref="member">SMB_ALT</ref>,</highlight></codeline>
+<codeline lineno="28" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a" kindref="member">SMB_SPACE</ref>,</highlight></codeline>
+<codeline lineno="29" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a3ce86375f3fa56f1154df92dcdae7e15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a3ce86375f3fa56f1154df92dcdae7e15" kindref="member">SMB_DELETE</ref>,</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351" kindref="member">SMB_CUSTOM_1</ref>,</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd" kindref="member">SMB_CUSTOM_2</ref>,</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad5c7c7093e96c026200b27ff2ec99ff1" kindref="member">SMB_CUSTOM_3</ref>,</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a88f9dcd7f9fe8a417497034094a74268" kindref="member">SMB_CUSTOM_4</ref>,</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab" kindref="member">SMB_CUSTOM_5</ref>,</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa9418a01d04f49eac3ccadd52febdaa1" kindref="member">SMB_CUSTOM_6</ref>,</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142" kindref="member">SMB_CUSTOM_7</ref>,</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7" kindref="member">SMB_CUSTOM_8</ref>,</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1" kindref="member">SMB_CUSTOM_9</ref>,</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a28ca45022d33f2817d3af8e5d4768e7e" kindref="member">SMB_CUSTOM_10</ref>,</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ac43114d93db55ba1a84197b3b329997f" kindref="member">SMB_CUSTOM_11</ref>,</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc" kindref="member">SMB_CUSTOM_12</ref>,</highlight></codeline>
+<codeline lineno="31" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351" kindref="member">SMB_CUSTOM_1</ref>,</highlight></codeline>
+<codeline lineno="32" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd" kindref="member">SMB_CUSTOM_2</ref>,</highlight></codeline>
+<codeline lineno="33" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad5c7c7093e96c026200b27ff2ec99ff1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad5c7c7093e96c026200b27ff2ec99ff1" kindref="member">SMB_CUSTOM_3</ref>,</highlight></codeline>
+<codeline lineno="34" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a88f9dcd7f9fe8a417497034094a74268" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a88f9dcd7f9fe8a417497034094a74268" kindref="member">SMB_CUSTOM_4</ref>,</highlight></codeline>
+<codeline lineno="35" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab" kindref="member">SMB_CUSTOM_5</ref>,</highlight></codeline>
+<codeline lineno="36" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa9418a01d04f49eac3ccadd52febdaa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa9418a01d04f49eac3ccadd52febdaa1" kindref="member">SMB_CUSTOM_6</ref>,</highlight></codeline>
+<codeline lineno="37" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142" kindref="member">SMB_CUSTOM_7</ref>,</highlight></codeline>
+<codeline lineno="38" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7" kindref="member">SMB_CUSTOM_8</ref>,</highlight></codeline>
+<codeline lineno="39" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1" kindref="member">SMB_CUSTOM_9</ref>,</highlight></codeline>
+<codeline lineno="40" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a28ca45022d33f2817d3af8e5d4768e7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a28ca45022d33f2817d3af8e5d4768e7e" kindref="member">SMB_CUSTOM_10</ref>,</highlight></codeline>
+<codeline lineno="41" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ac43114d93db55ba1a84197b3b329997f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ac43114d93db55ba1a84197b3b329997f" kindref="member">SMB_CUSTOM_11</ref>,</highlight></codeline>
+<codeline lineno="42" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc" kindref="member">SMB_CUSTOM_12</ref>,</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24" kindref="member">SMB_FIT</ref>,</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad382cd00dd25988802cf31b9d2182353" kindref="member">SMB_TOP</ref>,</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95" kindref="member">SMB_RIGHT</ref>,</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a96d13265aba3c09559b2258288217869" kindref="member">SMB_FRONT</ref>,</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa6d927c437d1b2e53b99c6d35f4a6aae" kindref="member">SMB_ROLL_CW</ref>,<sp/></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc" kindref="member">SMB_LOCK_ROT</ref>,</highlight></codeline>
+<codeline lineno="44" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24" kindref="member">SMB_FIT</ref>,</highlight></codeline>
+<codeline lineno="45" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad382cd00dd25988802cf31b9d2182353" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad382cd00dd25988802cf31b9d2182353" kindref="member">SMB_TOP</ref>,</highlight></codeline>
+<codeline lineno="46" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95" kindref="member">SMB_RIGHT</ref>,</highlight></codeline>
+<codeline lineno="47" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a96d13265aba3c09559b2258288217869" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a96d13265aba3c09559b2258288217869" kindref="member">SMB_FRONT</ref>,</highlight></codeline>
+<codeline lineno="48" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa6d927c437d1b2e53b99c6d35f4a6aae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa6d927c437d1b2e53b99c6d35f4a6aae" kindref="member">SMB_ROLL_CW</ref>,<sp/></highlight></codeline>
+<codeline lineno="49" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc" kindref="member">SMB_LOCK_ROT</ref>,</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a67fe3715dd2312900f17fdaef28f483d" kindref="member">SMB_BTN_V1</ref>,</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a176c5b2ad8eb21c6d5933cabdbbd5568" kindref="member">SMB_BTN_V2</ref>,</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad38f785a7287d8ba9959a806cd03047b" kindref="member">SMB_BTN_V3</ref>,</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a74d0cc8d7c6f77b21299297bf1209a48" kindref="member">SMB_ISO1</ref>,</highlight></codeline>
+<codeline lineno="51" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a67fe3715dd2312900f17fdaef28f483d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a67fe3715dd2312900f17fdaef28f483d" kindref="member">SMB_BTN_V1</ref>,</highlight></codeline>
+<codeline lineno="52" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a176c5b2ad8eb21c6d5933cabdbbd5568" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a176c5b2ad8eb21c6d5933cabdbbd5568" kindref="member">SMB_BTN_V2</ref>,</highlight></codeline>
+<codeline lineno="53" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad38f785a7287d8ba9959a806cd03047b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad38f785a7287d8ba9959a806cd03047b" kindref="member">SMB_BTN_V3</ref>,</highlight></codeline>
+<codeline lineno="54" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a74d0cc8d7c6f77b21299297bf1209a48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a74d0cc8d7c6f77b21299297bf1209a48" kindref="member">SMB_ISO1</ref>,</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ab0e7d957448dff4b40f0f3a8bddc2325" kindref="member">SMB_BUTTON_COUNT</ref></highlight></codeline>
+<codeline lineno="56" refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ab0e7d957448dff4b40f0f3a8bddc2325" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ab0e7d957448dff4b40f0f3a8bddc2325" kindref="member">SMB_BUTTON_COUNT</ref></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="namespaceMR_1_1SpaceMouse_1af8da66a1778b1276a2273cce6aa25df1" refkind="member"><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::unordered_map&lt;VendorId,<sp/>std::vector&lt;ProductId&gt;&gt;<sp/><ref refid="namespaceMR_1_1SpaceMouse_1af8da66a1778b1276a2273cce6aa25df1" kindref="member">cVendor2Device</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="61" refid="namespaceMR_1_1SpaceMouse_1af8da66a1778b1276a2273cce6aa25df1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::unordered_map&lt;VendorId,<sp/>std::vector&lt;ProductId&gt;&gt;<sp/><ref refid="namespaceMR_1_1SpaceMouse_1af8da66a1778b1276a2273cce6aa25df1" kindref="member">cVendor2Device</ref><sp/>=<sp/>{</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" kindref="member">VendorId</ref>(<sp/>0x046d<sp/>),<sp/>{<sp/><sp/></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xc603,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xc605,<sp/><sp/><sp/><sp/></highlight></codeline>
@@ -224,7 +262,7 @@
 <codeline lineno="95" refid="structMR_1_1SpaceMouse_1_1Action_1a96ec36ec991e2a807c4173907db102f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1SpaceMouse_1_1Action_1a96ec36ec991e2a807c4173907db102f1" kindref="member">rotate</ref><sp/>=<sp/>{<sp/>0.0f,<sp/>0.0f,<sp/>0.0f<sp/>};</highlight></codeline>
 <codeline lineno="96"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="classMR_1_1SpaceMouse_1_1Device" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SpaceMouse_1_1Device" kindref="compound">Device</ref></highlight></codeline>
+<codeline lineno="99" refid="classMR_1_1SpaceMouse_1_1Device" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SpaceMouse_1_1Device" kindref="compound">Device</ref></highlight></codeline>
 <codeline lineno="100"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="103" refid="classMR_1_1SpaceMouse_1_1Device_1a67852d2b3c384bdba442c7a9823cd3f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1Device_1a67852d2b3c384bdba442c7a9823cd3f5" kindref="member">updateDevice</ref>(<sp/><ref refid="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" kindref="member">VendorId</ref><sp/>vId,<sp/><ref refid="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" kindref="member">ProductId</ref><sp/>pId<sp/>);</highlight></codeline>
@@ -263,6 +301,6 @@
 <codeline lineno="168"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="169"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h"/>
+    <location file="MRViewer/MRSpaceMouseDevice.h"/>
   </compounddef>
 </doxygen>

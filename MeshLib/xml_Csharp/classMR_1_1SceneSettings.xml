@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SceneSettings</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="158" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="158" bodyend="158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="162" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="162" bodyend="162"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -33,38 +33,38 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SceneSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SceneSettings</label>
         <link refid="classMR_1_1SceneSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SceneSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SceneSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SceneSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SceneSettings</label>
         <link refid="classMR_1_1SceneSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SceneSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SceneSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="156" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="157" bodyend="159"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="161" bodyend="163"/>
     <listofallmembers>
       <member refid="classMR_1_1SceneSettings_1aaf0e59244f773b5125062d7d7bc5293a" prot="package" virt="non-virtual"><scope>MR::SceneSettings</scope><name>SceneSettings</name></member>
     </listofallmembers>

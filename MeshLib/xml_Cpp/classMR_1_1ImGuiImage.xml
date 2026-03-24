@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ImGuiImage" kind="class" language="C++" prot="public">
     <compoundname>MR::ImGuiImage</compoundname>
     <derivedcompoundref refid="classMR_1_1MarkedVoxelSlice" prot="public" virt="non-virtual">MR::MarkedVoxelSlice</derivedcompoundref>
-    <includes refid="MRImGuiImage_8h" local="no">MRImGuiImage.h</includes>
+    <includes refid="MRImGuiImage_8h" local="no">MRViewer/MRImGuiImage.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga485930dc262707adae9bc77ca57c2640" kind="variable"><name>glTex_</name></member>
       <member refid="group__GeneralGroup_1ga715878fc4c2aecb3f8f9bf769bd6be1c" kind="variable"><name>texture_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga45fefc6f372ef7195d6871caba9cfee2" kind="function"><name>ImGuiImage</name></member>
-      <member refid="group__GeneralGroup_1ga1d77e3e4c4aee3fb4502181c14bc89a7" kind="function"><name>~ImGuiImage</name></member>
-      <member refid="group__GeneralGroup_1gaa1bd137d3093a9f7422dc445457b692f" kind="function"><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga51a7756c624cb499bfecb9df7d63de94" kind="function"><name>ImGuiImage</name></member>
+      <member refid="group__GeneralGroup_1gabb51ef797541e544e2c906ade2ec2b92" kind="function"><name>~ImGuiImage</name></member>
+      <member refid="group__GeneralGroup_1ga4bde207e5032a22bc4d62bb5f852cdfd" kind="function"><name>update</name></member>
       <member refid="group__GeneralGroup_1ga8a0fd221ff69ddb4e271b936b8c03902" kind="function"><name>getImTextureId</name></member>
       <member refid="group__GeneralGroup_1gaf7efcafad27428ae82671e4afd46058c" kind="function"><name>getId</name></member>
       <member refid="group__GeneralGroup_1gad1d16cfb70c45755afa4a6d81dcd4191" kind="function"><name>getMeshTexture</name></member>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiImage.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiImage.h" bodystart="18" bodyend="44"/>
+    <location file="MRViewer/MRImGuiImage.h" line="17" column="1" bodyfile="MRViewer/MRImGuiImage.h" bodystart="18" bodyend="44"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0db5dac585c3b0076bd39954581c9c55" prot="private" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>bind_</name></member>
       <member refid="group__GeneralGroup_1gaf7efcafad27428ae82671e4afd46058c" prot="public" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>getId</name></member>
@@ -47,10 +47,10 @@
       <member refid="group__GeneralGroup_1ga8a0fd221ff69ddb4e271b936b8c03902" prot="public" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>getImTextureId</name></member>
       <member refid="group__GeneralGroup_1gad1d16cfb70c45755afa4a6d81dcd4191" prot="public" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>getMeshTexture</name></member>
       <member refid="group__GeneralGroup_1ga485930dc262707adae9bc77ca57c2640" prot="private" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>glTex_</name></member>
-      <member refid="group__GeneralGroup_1ga45fefc6f372ef7195d6871caba9cfee2" prot="public" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>ImGuiImage</name></member>
+      <member refid="group__GeneralGroup_1ga51a7756c624cb499bfecb9df7d63de94" prot="public" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>ImGuiImage</name></member>
       <member refid="group__GeneralGroup_1ga715878fc4c2aecb3f8f9bf769bd6be1c" prot="private" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>texture_</name></member>
-      <member refid="group__GeneralGroup_1gaa1bd137d3093a9f7422dc445457b692f" prot="public" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>update</name></member>
-      <member refid="group__GeneralGroup_1ga1d77e3e4c4aee3fb4502181c14bc89a7" prot="public" virt="virtual"><scope>MR::ImGuiImage</scope><name>~ImGuiImage</name></member>
+      <member refid="group__GeneralGroup_1ga4bde207e5032a22bc4d62bb5f852cdfd" prot="public" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>update</name></member>
+      <member refid="group__GeneralGroup_1gabb51ef797541e544e2c906ade2ec2b92" prot="public" virt="virtual"><scope>MR::ImGuiImage</scope><name>~ImGuiImage</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

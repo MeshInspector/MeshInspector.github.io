@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__array__MR__BooleanResultMapper__Maps__2_8h" kind="file" language="C++">
+    <compoundname>std_array_MR_BooleanResultMapper_Maps_2.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_array_MR_BooleanResultMapper_Maps_2.h</label>
+        <link refid="std__array__MR__BooleanResultMapper__Maps__2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a7daed515863b8243208e93691c63ae5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_BooleanResultMapper_Maps_2 * MR_std_array_MR_BooleanResultMapper_Maps_2_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a9b7cd88068fa418bde2cf3beec7951c4" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="21" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="21" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a7d89ab56b4f6016b53b181017763a186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_BooleanResultMapper_Maps_2 * MR_std_array_MR_BooleanResultMapper_Maps_2_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a1778d2ac4fe6f6dcb3e0560076f5c32f" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1ad467dde64aabd727dc370c48fcce1446" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4baeb0097bb2a33496b634bcd2e2db21" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="26" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="26" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1af0c5b28671eb236027406665d22db197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_BooleanResultMapper_Maps_2 * MR_std_array_MR_BooleanResultMapper_Maps_2_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_array_MR_BooleanResultMapper_Maps_2 *other)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a9b7cd88068fa418bde2cf3beec7951c4" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="32" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="32" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1aa9c995fa21dc8a811001eeb9066e4d60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_array_MR_BooleanResultMapper_Maps_2_AssignFromAnother</definition>
+        <argsstring>(MR_std_array_MR_BooleanResultMapper_Maps_2 *_this, MR_PassBy other_pass_by, MR_std_array_MR_BooleanResultMapper_Maps_2 *other)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a9b7cd88068fa418bde2cf3beec7951c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_array_MR_BooleanResultMapper_Maps_2_Destroy</definition>
+        <argsstring>(const MR_std_array_MR_BooleanResultMapper_Maps_2 *_this)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a1778d2ac4fe6f6dcb3e0560076f5c32f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_array_MR_BooleanResultMapper_Maps_2_DestroyArray</definition>
+        <argsstring>(const MR_std_array_MR_BooleanResultMapper_Maps_2 *_this)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4baeb0097bb2a33496b634bcd2e2db21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+        <definition>MRC_API const MR_std_array_MR_BooleanResultMapper_Maps_2 * MR_std_array_MR_BooleanResultMapper_Maps_2_OffsetPtr</definition>
+        <argsstring>(const MR_std_array_MR_BooleanResultMapper_Maps_2 *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="48" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="48" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1ad467dde64aabd727dc370c48fcce1446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_BooleanResultMapper_Maps_2 * MR_std_array_MR_BooleanResultMapper_Maps_2_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_array_MR_BooleanResultMapper_Maps_2 *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="52" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="52" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a29b0e1d4c3c70e21887635abd8a37ff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref> *</type>
+        <definition>MRC_API const MR_BooleanResultMapper_Maps * MR_std_array_MR_BooleanResultMapper_Maps_2_at</definition>
+        <argsstring>(const MR_std_array_MR_BooleanResultMapper_Maps_2 *_this, size_t i)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_at</name>
+        <param>
+          <type>const <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="58" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="58" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a8fde78875682ae7e32c52cf9b7c8a691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref> *</type>
+        <definition>MRC_API MR_BooleanResultMapper_Maps * MR_std_array_MR_BooleanResultMapper_Maps_2_at_mut</definition>
+        <argsstring>(MR_std_array_MR_BooleanResultMapper_Maps_2 *_this, size_t i)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_at_mut</name>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="64" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="64" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4f1119632da3fb241899ac937f7fe507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref> *</type>
+        <definition>MRC_API const MR_BooleanResultMapper_Maps * MR_std_array_MR_BooleanResultMapper_Maps_2_data</definition>
+        <argsstring>(const MR_std_array_MR_BooleanResultMapper_Maps_2 *_this)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_data</name>
+        <param>
+          <type>const <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="69" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="69" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1aa72ad6c730a2b650bdeaa56fa614c0d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref> *</type>
+        <definition>MRC_API MR_BooleanResultMapper_Maps * MR_std_array_MR_BooleanResultMapper_Maps_2_data_mut</definition>
+        <argsstring>(MR_std_array_MR_BooleanResultMapper_Maps_2 *_this)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_data_mut</name>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="74" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="74" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a355974bdbda984f4acc4eb12abd66713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref> *</type>
+        <definition>MRC_API const MR_BooleanResultMapper_Maps * MR_std_array_MR_BooleanResultMapper_Maps_2_begin</definition>
+        <argsstring>(const MR_std_array_MR_BooleanResultMapper_Maps_2 *_this)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_begin</name>
+        <param>
+          <type>const <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="79" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="79" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a43e56e69f048b3a47ce35e15a6522037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref> *</type>
+        <definition>MRC_API MR_BooleanResultMapper_Maps * MR_std_array_MR_BooleanResultMapper_Maps_2_begin_mut</definition>
+        <argsstring>(MR_std_array_MR_BooleanResultMapper_Maps_2 *_this)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_begin_mut</name>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="84" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="84" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1ab9bf9feed5f3f48844a6f573884c31d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref> *</type>
+        <definition>MRC_API const MR_BooleanResultMapper_Maps * MR_std_array_MR_BooleanResultMapper_Maps_2_end</definition>
+        <argsstring>(const MR_std_array_MR_BooleanResultMapper_Maps_2 *_this)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_end</name>
+        <param>
+          <type>const <ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="89" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="89" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4d219bac9596d4f38e294c0615f95c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref> *</type>
+        <definition>MRC_API MR_BooleanResultMapper_Maps * MR_std_array_MR_BooleanResultMapper_Maps_2_end_mut</definition>
+        <argsstring>(MR_std_array_MR_BooleanResultMapper_Maps_2 *_this)</argsstring>
+        <name>MR_std_array_MR_BooleanResultMapper_Maps_2_end_mut</name>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" line="94" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h" declline="94" declcolumn="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBooleanOperation.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a7daed515863b8243208e93691c63ae5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a7daed515863b8243208e93691c63ae5a" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a7d89ab56b4f6016b53b181017763a186" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a7d89ab56b4f6016b53b181017763a186" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1af0c5b28671eb236027406665d22db197" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1af0c5b28671eb236027406665d22db197" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1aa9c995fa21dc8a811001eeb9066e4d60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1aa9c995fa21dc8a811001eeb9066e4d60" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_AssignFromAnother</ref>(<ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a9b7cd88068fa418bde2cf3beec7951c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a9b7cd88068fa418bde2cf3beec7951c4" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a1778d2ac4fe6f6dcb3e0560076f5c32f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a1778d2ac4fe6f6dcb3e0560076f5c32f" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4baeb0097bb2a33496b634bcd2e2db21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4baeb0097bb2a33496b634bcd2e2db21" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1ad467dde64aabd727dc370c48fcce1446" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1ad467dde64aabd727dc370c48fcce1446" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_OffsetMutablePtr</ref>(<ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a29b0e1d4c3c70e21887635abd8a37ff6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a29b0e1d4c3c70e21887635abd8a37ff6" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a8fde78875682ae7e32c52cf9b7c8a691" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a8fde78875682ae7e32c52cf9b7c8a691" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_at_mut</ref>(<ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4f1119632da3fb241899ac937f7fe507" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4f1119632da3fb241899ac937f7fe507" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1aa72ad6c730a2b650bdeaa56fa614c0d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1aa72ad6c730a2b650bdeaa56fa614c0d4" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_data_mut</ref>(<ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a355974bdbda984f4acc4eb12abd66713" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a355974bdbda984f4acc4eb12abd66713" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a43e56e69f048b3a47ce35e15a6522037" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a43e56e69f048b3a47ce35e15a6522037" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_begin_mut</ref>(<ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1ab9bf9feed5f3f48844a6f573884c31d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1ab9bf9feed5f3f48844a6f573884c31d3" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4d219bac9596d4f38e294c0615f95c12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a7d191f578301123ae97adbfd5ac96d34" kindref="member">MR_BooleanResultMapper_Maps</ref><sp/>*<ref refid="std__array__MR__BooleanResultMapper__Maps__2_8h_1a4d219bac9596d4f38e294c0615f95c12" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2_end_mut</ref>(<ref refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kindref="member">MR_std_array_MR_BooleanResultMapper_Maps_2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_BooleanResultMapper_Maps_2.h"/>
+  </compounddef>
+</doxygen>

@@ -1,18 +1,9 @@
 var MRMeshLoadObj_8h =
 [
-    [ "MR_expected_MR_LoadedObjects_std_string", "MRMeshLoadObj_8h.html#afddfdf9f07abac630b268df02dbaed95", null ],
     [ "MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string", "MRMeshLoadObj_8h.html#a4937b515a308e1ef18f05af0b9763d0f", null ],
-    [ "MR_Mesh", "MRMeshLoadObj_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshLoad_NamedMesh", "MRMeshLoadObj_8h.html#adf0e6b0e594c907f1cb8f66cfb856e3a", null ],
     [ "MR_MeshLoad_ObjLoadSettings", "MRMeshLoadObj_8h.html#acc2e8503e932c1841efb7d9eb614d088", null ],
-    [ "MR_std_function_bool_from_float", "MRMeshLoadObj_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_istream", "MRMeshLoadObj_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_optional_MR_Color", "MRMeshLoadObj_8h.html#af8e34c593afc89cf4494928ca552201f", null ],
-    [ "MR_std_string", "MRMeshLoadObj_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_TexturePerFace", "MRMeshLoadObj_8h.html#a248aef9b7513a21932ba1dfcfbd3410d", null ],
     [ "MR_Vector_std_filesystem_path_MR_TextureId", "MRMeshLoadObj_8h.html#a146ef2f7eb6f38906cc72cee72d4df7a", null ],
-    [ "MR_VertColors", "MRMeshLoadObj_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
-    [ "MR_VertCoords2", "MRMeshLoadObj_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a", null ],
     [ "MR_MeshLoad_fromSceneObjFile_3", "MRMeshLoadObj_8h.html#ac96f8c15580abc354164605e96393362", null ],
     [ "MR_MeshLoad_fromSceneObjFile_4", "MRMeshLoadObj_8h.html#ae3b78db95efe836a94cbbb1838b17a2d", null ],
     [ "MR_MeshLoad_fromSceneObjFile_5", "MRMeshLoadObj_8h.html#a76e35124931a0eef1615f3ed01a8a36f", null ],

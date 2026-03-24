@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreePolyline" kind="class" language="C++" prot="public">
     <compoundname>MR::AABBTreePolyline</compoundname>
     <basecompoundref refid="classMR_1_1AABBTreeBase" prot="public" virt="non-virtual">MR::AABBTreeBase&lt; LineTreeTraits&lt; V &gt; &gt;</basecompoundref>
-    <includes refid="MRAABBTreePolyline_8h" local="no">MRAABBTreePolyline.h</includes>
+    <includes refid="MRAABBTreePolyline_8h" local="no">MRMesh/MRAABBTreePolyline.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -22,13 +22,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" bodystart="31" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="31" column="5" bodyfile="MRMesh/MRAABBTreePolyline.h" bodystart="31" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1AABBTreePolyline_1a48ba4e2d4bac2d864f070cfe0504e6ef" prot="public" static="no" mutable="no">
-        <type>MRMESH_API <ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref>(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) <ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(</type>
-        <definition>MRMESH_API AABBTreePolyline(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) MR_REQUIRES_IF_SUPPORTED( MR::AABBTreePolyline&lt; V &gt;::AABBTreePolyline) ()=default</definition>
+      <memberdef kind="variable" id="classMR_1_1AABBTreePolyline_1a2d170e6b7ce092e5a66596af33dd0e87" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref>(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) <ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(</type>
+        <definition>AABBTreePolyline(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) MR_REQUIRES_IF_SUPPORTED( MR::AABBTreePolyline&lt; V &gt;::AABBTreePolyline) ()=default</definition>
         <argsstring>)()=default</argsstring>
         <name>AABBTreePolyline</name>
         <qualifiedname>MR::AABBTreePolyline::AABBTreePolyline</qualifiedname>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="45" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" bodystart="45" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="45" column="5" bodyfile="MRMesh/MRAABBTreePolyline.h" bodystart="45" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="54" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" bodystart="56" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="54" column="23" bodyfile="MRMesh/MRAABBTreePolyline.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1AABBTreePolyline_1ac9462890b338f7d6d0455c3137f6a48b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class</type>
@@ -75,13 +75,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="54" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" bodystart="57" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="54" column="23" bodyfile="MRMesh/MRAABBTreePolyline.h" bodystart="57" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1AABBTreePolyline_1a7bfaaa5a66978f3d97cd8451644bed9a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::AABBTreePolyline&lt; V &gt;::AABBTreePolyline</definition>
+      <memberdef kind="function" id="classMR_1_1AABBTreePolyline_1a2dbf0496d2675d8a6db1de94927b3580" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::AABBTreePolyline&lt; V &gt;::AABBTreePolyline</definition>
         <argsstring>(const typename PolylineTraits&lt; V &gt;::Polyline &amp;polyline)</argsstring>
         <name>AABBTreePolyline</name>
         <qualifiedname>MR::AABBTreePolyline::AABBTreePolyline</qualifiedname>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="40" column="25"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="40" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePolyline_1aaf1c13f7909dc226ed6e0a332e61ba4c" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="46" column="5"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="46" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePolyline_1a82f5feeca891be31840c7bba4a85cb1a" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref> &amp;</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="47" column="23"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="47" column="23"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="51" column="5"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="51" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePolyline_1ac3c8482c649a26c1285021b0cee3ddda" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref> &amp;</type>
@@ -168,7 +168,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="54" column="23"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="54" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1AABBTreePolyline_1a326618ef00c66d8d0f0916fa5011aaef" prot="private" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1ga7a0335fa16114969e7f5e031192bf45b" kindref="member">NodeVec</ref></type>
+        <definition>NodeVec MR::AABBTreeBase&lt; LineTreeTraits&lt; V &gt; &gt;::nodes_</definition>
+        <argsstring></argsstring>
+        <name>nodes_</name>
+        <qualifiedname>MR::AABBTreePolyline::nodes_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="59" column="5" bodyfile="MRMesh/MRAABBTreeBase.h" bodystart="63" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -192,16 +208,13 @@
       <node id="2">
         <label>MR::AABBTreeBase&lt; LineTreeTraits&lt; V &gt; &gt;</label>
         <link refid="classMR_1_1AABBTreeBase"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>nodes_</edgelabel>
-        </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>MR::AABBTreePolyline&lt; V &gt;</label>
         <link refid="classMR_1_1AABBTreePolyline"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="4" relation="usage">
+        <childnode refid="3" relation="usage">
           <edgelabel>AABBTreePolyline</edgelabel>
         </childnode>
       </node>
@@ -210,29 +223,25 @@
         <link refid="classMR_1_1AABBTreePolyline"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="4" relation="usage">
+        <childnode refid="3" relation="usage">
           <edgelabel>AABBTreePolyline</edgelabel>
         </childnode>
       </node>
-      <node id="3">
-        <label>MR::Vector&lt; Node, NodeId &gt;</label>
-        <link refid="classMR_1_1Vector"/>
-      </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" bodystart="30" bodyend="60"/>
+    <location file="MRMesh/MRAABBTreePolyline.h" line="29" column="1" bodyfile="MRMesh/MRAABBTreePolyline.h" bodystart="30" bodyend="60"/>
     <listofallmembers>
-      <member refid="classMR_1_1AABBTreePolyline_1a48ba4e2d4bac2d864f070cfe0504e6ef" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>AABBTreePolyline</name></member>
-      <member refid="classMR_1_1AABBTreePolyline_1a7bfaaa5a66978f3d97cd8451644bed9a" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>AABBTreePolyline</name></member>
+      <member refid="classMR_1_1AABBTreePolyline_1a2d170e6b7ce092e5a66596af33dd0e87" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>AABBTreePolyline</name></member>
+      <member refid="classMR_1_1AABBTreePolyline_1a2dbf0496d2675d8a6db1de94927b3580" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>AABBTreePolyline</name></member>
       <member refid="classMR_1_1AABBTreePolyline_1aaf1c13f7909dc226ed6e0a332e61ba4c" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>AABBTreePolyline</name></member>
       <member refid="classMR_1_1AABBTreePolyline_1a4b7146193ebb8a7f37670fa18556059f" prot="private" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>AABBTreePolyline</name></member>
       <member refid="classMR_1_1AABBTreePolyline_1aacf46e51a52a08b0514d153f640d8f5e" prot="private" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>Base</name></member>
       <member refid="group__GeneralGroup_1ga380c83540a90e46211318ad9752c2fd2" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>BoxT</name></member>
       <member refid="group__GeneralGroup_1gaac02049340231922a6b175c0900d88c9" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getBoundingBox</name></member>
-      <member refid="group__GeneralGroup_1gaa0b2c5625ad2b069c42780d685db9281" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getLeafOrder</name></member>
-      <member refid="group__GeneralGroup_1ga79ff8d3344f3800e230483376df94d1f" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getLeafOrderAndReset</name></member>
-      <member refid="group__GeneralGroup_1gae91f1e83ca6d14ef5cc8555ad401b88c" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getNodesFromLeaves</name></member>
-      <member refid="group__GeneralGroup_1gab33ab0e0416c62327e0334ee7e149f61" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getSubtreeLeaves</name></member>
-      <member refid="group__GeneralGroup_1gaaa00490fa2cf5eac02779a7f87baa86a" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getSubtrees</name></member>
+      <member refid="group__GeneralGroup_1ga66dc2af667b0dec92a27e4448ab69258" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getLeafOrder</name></member>
+      <member refid="group__GeneralGroup_1ga2c764df0b0d0265bc339eb12f5eb69b9" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="group__GeneralGroup_1ga21d2ab5d1c4af20b36617537428ebdf1" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getNodesFromLeaves</name></member>
+      <member refid="group__GeneralGroup_1gaaa9d7127e1af794b18fb161cc7c4f547" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getSubtreeLeaves</name></member>
+      <member refid="group__GeneralGroup_1ga8beb98c6522542a6df46ec28ba925be3" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>getSubtrees</name></member>
       <member refid="group__GeneralGroup_1gaeb7792254b27842c6c5e0572db29d2f2" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1gaa68c6e8f36c8a52617b624e91f11568d" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>LeafBitSet</name></member>
       <member refid="group__GeneralGroup_1ga6fd4a54abb1c4fe946e503bcb14d15c4" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>LeafBMap</name></member>
@@ -240,7 +249,7 @@
       <member refid="group__GeneralGroup_1ga8174ff3f06b05cb213378de264fdcb57" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>LeafTag</name></member>
       <member refid="group__GeneralGroup_1ga4a87e995071aa1a99752d3f3f32a72b3" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>Node</name></member>
       <member refid="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>nodes</name></member>
-      <member refid="group__GeneralGroup_1ga11f524576ba6c686729f0173615bc190" prot="protected" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>nodes_</name></member>
+      <member refid="classMR_1_1AABBTreePolyline_1a326618ef00c66d8d0f0916fa5011aaef" prot="private" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>nodes_</name></member>
       <member refid="group__GeneralGroup_1ga7a0335fa16114969e7f5e031192bf45b" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>NodeVec</name></member>
       <member refid="group__GeneralGroup_1ga444c40a8f2e0206606d5abe15c0f506f" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>numLeaves</name></member>
       <member refid="classMR_1_1AABBTreePolyline_1a82f5feeca891be31840c7bba4a85cb1a" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline</scope><name>operator=</name></member>

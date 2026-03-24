@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSignalCombiners_8h" kind="file" language="C++">
     <compoundname>MRSignalCombiners.h</compoundname>
-    <includedby refid="ImGuiMenu_8h" local="yes">ImGuiMenu.h</includedby>
-    <includedby refid="MRViewerSignals_8h" local="yes">MRViewerSignals.h</includedby>
+    <includedby refid="ImGuiMenu_8h" local="yes">MRViewer/ImGuiMenu.h</includedby>
+    <includedby refid="MRViewerSignals_8h" local="yes">MRViewer/MRViewerSignals.h</includedby>
     <invincdepgraph>
       <node id="2">
-        <label>ImGuiMenu.h</label>
+        <label>MRViewer/ImGuiMenu.h</label>
         <link refid="ImGuiMenu_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -14,21 +14,21 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRImGuiMenuListeners.h</label>
+        <label>MRViewer/MRImGuiMenuListeners.h</label>
         <link refid="MRImGuiMenuListeners_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRPlaneWidget.h</label>
+        <label>MRViewer/MRPlaneWidget.h</label>
         <link refid="MRPlaneWidget_8h"/>
       </node>
       <node id="5">
-        <label>MRRibbonMenu.h</label>
+        <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
       <node id="1">
-        <label>MRSignalCombiners.h</label>
+        <label>MRViewer/MRSignalCombiners.h</label>
         <link refid="MRSignalCombiners_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRViewerSignals.h</label>
+        <label>MRViewer/MRViewerSignals.h</label>
         <link refid="MRViewerSignals_8h"/>
       </node>
     </invincdepgraph>
@@ -53,7 +53,7 @@
 <codeline lineno="4"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="structMR_1_1StopOnTrueCombiner" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1StopOnTrueCombiner" kindref="compound">StopOnTrueCombiner</ref></highlight></codeline>
+<codeline lineno="10" refid="structMR_1_1StopOnTrueCombiner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1StopOnTrueCombiner" kindref="compound">StopOnTrueCombiner</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12" refid="group__GeneralGroup_1gae157bdf17a7f295d510dd732d523f78f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gae157bdf17a7f295d510dd732d523f78f" kindref="member">result_type</ref><sp/>=<sp/>bool;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
@@ -72,6 +72,6 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSignalCombiners.h"/>
+    <location file="MRViewer/MRSignalCombiners.h"/>
   </compounddef>
 </doxygen>

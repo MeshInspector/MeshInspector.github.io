@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TerminalVertex" kind="struct" language="C++" prot="public">
     <compoundname>MR::TerminalVertex</compoundname>
-    <includes refid="MREdgePaths_8h" local="no">MREdgePaths.h</includes>
+    <includes refid="MREdgePaths_8h" local="no">MRMesh/MREdgePaths.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gae7c419aebb40aa7937984ceba3489254" kind="variable"><name>v</name></member>
       <member refid="group__GeneralGroup_1gab851f9e73d6568c7bda22cae8c669238" kind="variable"><name>metric</name></member>
@@ -12,7 +12,7 @@
     <detaileddescription>
 <para>a vertex with associated penalty metric to designate a possible start or end of edge path </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" bodystart="51" bodyend="54"/>
+    <location file="MRMesh/MREdgePaths.h" line="50" column="1" bodyfile="MRMesh/MREdgePaths.h" bodystart="51" bodyend="54"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab851f9e73d6568c7bda22cae8c669238" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>metric</name></member>
       <member refid="group__GeneralGroup_1gae7c419aebb40aa7937984ceba3489254" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>v</name></member>

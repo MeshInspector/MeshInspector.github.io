@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshMeshCollisionStatus" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshMeshCollisionStatus</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a31372167120f856f3a2a026a2cc440e7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshMeshCollisionStatus::AInside</definition>
+        <argsstring></argsstring>
+        <name>AInside</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.AInside</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32976" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a8b8eb224c7a895d0be752960bc8243fb" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshMeshCollisionStatus::BInside</definition>
+        <argsstring></argsstring>
+        <name>BInside</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.BInside</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32977" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a0c061af88bf9f16bc99af168ec7d6b6e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshMeshCollisionStatus::BothInside</definition>
+        <argsstring></argsstring>
+        <name>BothInside</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.BothInside</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32978" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a603b9f591f85a5132193bd59d65bc645" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshMeshCollisionStatus::BothOutside</definition>
+        <argsstring></argsstring>
+        <name>BothOutside</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.BothOutside</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32979" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1ac33a81166b131d13ac58ddb0c666a72c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshMeshCollisionStatus::Colliding</definition>
+        <argsstring></argsstring>
+        <name>Colliding</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.Colliding</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32980" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1af5435df889c41decc4de5d5d3220c58e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshMeshCollisionStatus::Touching</definition>
+        <argsstring></argsstring>
+        <name>Touching</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.Touching</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32981" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a313cf251650b6e9a04c191587f27a4df" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshMeshCollisionStatus::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32982" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a06e09ebef844d004bf1e7024acef0c43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshMeshCollisionStatus.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32983" bodyend="32984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a5a732d3337be6b24a11edfea75ad4b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshMeshCollisionStatus.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32985" bodyend="32986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a9aeeb34481aa28cc9de92d7525a074b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshMeshCollisionStatus.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32987" bodyend="32988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a652fc5cf1d847ef45cb897617ba70b7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshMeshCollisionStatus.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32989" bodyend="32990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a0298ada94b754934331346cbdb4ac386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshMeshCollisionStatus.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32991" bodyend="32992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a5d23b1f33089d4d63cca1f56af20be59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshMeshCollisionStatus.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32993" bodyend="32994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1abe8e60eac6f1d96c70ff2494f8665a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshMeshCollisionStatus.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32995" bodyend="32996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a12eb40f4a9931713dcb0942b36173b32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshMeshCollisionStatus.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32997" bodyend="32998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a12af572eebfb27f747910cf94bb606e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshMeshCollisionStatus.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32999" bodyend="33000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a86be81659da33cc469b38efd51b7abfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshMeshCollisionStatus.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33001" bodyend="33002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a99f247af0129e47368b94ed96fa40879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshMeshCollisionStatus.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33004" bodyend="33005"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshCollisionStatus_1a9466f73e085176d513e5b18b96f482da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshMeshCollisionStatus.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.MeshMeshCollisionStatus.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33007" bodyend="33008"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  BothOutside
+
+  BothInside
+
+  AInside
+
+  BInside
+
+  Colliding
+
+  Touching
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32960" bodyend="33008"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a06e09ebef844d004bf1e7024acef0c43" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a5a732d3337be6b24a11edfea75ad4b44" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a9aeeb34481aa28cc9de92d7525a074b0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a652fc5cf1d847ef45cb897617ba70b7a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a0298ada94b754934331346cbdb4ac386" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a5d23b1f33089d4d63cca1f56af20be59" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a313cf251650b6e9a04c191587f27a4df" prot="private" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1abe8e60eac6f1d96c70ff2494f8665a4d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a12eb40f4a9931713dcb0942b36173b32" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a12af572eebfb27f747910cf94bb606e3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a86be81659da33cc469b38efd51b7abfb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a31372167120f856f3a2a026a2cc440e7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>AInside</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a8b8eb224c7a895d0be752960bc8243fb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>BInside</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a0c061af88bf9f16bc99af168ec7d6b6e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>BothInside</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a603b9f591f85a5132193bd59d65bc645" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>BothOutside</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1ac33a81166b131d13ac58ddb0c666a72c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>Colliding</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a99f247af0129e47368b94ed96fa40879" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1af5435df889c41decc4de5d5d3220c58e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>Touching</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshCollisionStatus_1a9466f73e085176d513e5b18b96f482da" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshCollisionStatus</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

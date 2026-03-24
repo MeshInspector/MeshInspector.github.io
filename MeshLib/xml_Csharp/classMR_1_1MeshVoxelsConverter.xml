@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshVoxelsConverter" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshVoxelsConverter</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshVoxelsConverter</basecompoundref>
@@ -32,9 +32,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" line="180" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" bodystart="180" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1MeshVoxelsConverter_1aa8835ad19dff45580edc72994de32bb6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.MeshVoxelsConverter.callBack</definition>
+      <memberdef kind="property" id="classMR_1_1MeshVoxelsConverter_1a25ae5f24eb08261bf9317e2806a5ae15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.MeshVoxelsConverter.callBack</definition>
         <argsstring></argsstring>
         <name>callBack</name>
         <qualifiedname>MR.MeshVoxelsConverter.callBack</qualifiedname>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" line="182" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" bodystart="182" bodyend="182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" line="182" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" bodystart="182" bodyend="182"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshVoxelsConverter_1a866f270f5c568787bfe6fbf387ba5172" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -161,7 +161,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshVoxelsConverter.MeshVoxelsConverter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshVoxelsConverter_1a1be27fd8c9a34397cf458660a684a06e" kindref="member">MR.MeshVoxelsConverter.MeshVoxelsConverter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -180,7 +180,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshVoxelsConverter.MeshVoxelsConverter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshVoxelsConverter_1a1be27fd8c9a34397cf458660a684a06e" kindref="member">MR.MeshVoxelsConverter.MeshVoxelsConverter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshVoxelsConverter.MeshVoxelsConverter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshVoxelsConverter_1a1be27fd8c9a34397cf458660a684a06e" kindref="member">MR.MeshVoxelsConverter.MeshVoxelsConverter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -218,7 +218,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshVoxelsConverter.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshVoxelsConverter::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -233,52 +233,52 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshVoxelsConverter</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshVoxelsConverter</label>
         <link refid="classMR_1_1MeshVoxelsConverter"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshVoxelsConverter</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshVoxelsConverter &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshVoxelsConverter</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshVoxelsConverter</label>
         <link refid="classMR_1_1MeshVoxelsConverter"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshVoxelsConverter</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshVoxelsConverter &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" line="174" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" bodystart="175" bodyend="270"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshVoxelsConverter_1aca2493a66b783f49a1dffccdd0b12dd6" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>adaptivity</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1ab7b104d6874a0dc5fe1a831be3af41f8" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>assign</name></member>
-      <member refid="classMR_1_1MeshVoxelsConverter_1aa8835ad19dff45580edc72994de32bb6" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>callBack</name></member>
+      <member refid="classMR_1_1MeshVoxelsConverter_1a25ae5f24eb08261bf9317e2806a5ae15" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>callBack</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1abb55d6c7fa31aaa6a27ce5bf0f68bef1" prot="package" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1a1be27fd8c9a34397cf458660a684a06e" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1a7270a257497f48e8c5e9a778c3cb65cf" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>

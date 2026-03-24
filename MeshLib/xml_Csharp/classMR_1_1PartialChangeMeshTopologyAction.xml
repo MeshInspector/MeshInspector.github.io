@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PartialChangeMeshTopologyAction" kind="class" language="C#" prot="public">
     <compoundname>MR::PartialChangeMeshTopologyAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PartialChangeMeshTopologyAction</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1225" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1225" bodyend="1230"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1007" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1007" bodyend="1014"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a27810d00af6a60ed11a4cf40188649c2" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1233" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1233" bodyend="1240"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1017" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1017" bodyend="1026"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1242" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1242" bodyend="1242"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a2b42096351448c8c4a5d5b0c91ff97c0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>PartialChangeMeshTopologyAction</name>
-        <qualifiedname>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1244" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1244" bodyend="1244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1028" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1028" bodyend="1028"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -99,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1249" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1249" bodyend="1255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1033" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1033" bodyend="1039"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a8043deec05fdbc02155d8663d7c5520f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -118,13 +96,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1260" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1260" bodyend="1260"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1044" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1044" bodyend="1044"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1aa5f1525eaaacd1e7203f5429326d982f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -137,18 +115,18 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1265" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1265" bodyend="1265"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1049" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1049" bodyend="1049"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a242c0344fc8754938a3720673b96b3d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1ae0f9f33aa1a1dcfadbfaddb83413fb2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</definition>
-        <argsstring>(string name, MR._ByValueShared_ObjectMesh obj, MR.Const_CmpOld _3, MR.Const_MeshTopology oldTopology)</argsstring>
+        <argsstring>(string name, MR.Std._ByValue_SharedPtr_MRObjectMesh obj, MR.Const_CmpOld _3, MR.Const_MeshTopology oldTopology)</argsstring>
         <name>PartialChangeMeshTopologyAction</name>
         <qualifiedname>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</qualifiedname>
         <param>
@@ -156,7 +134,7 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR._ByValueShared_ObjectMesh</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -168,18 +146,18 @@
           <declname>oldTopology</declname>
         </param>
         <briefdescription>
-<para>use this constructor after the object already contains new topology, and old topology is passed to remember the difference for future undoing Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>use this constructor after the object already contains new topology, and old topology is passed to remember the difference for future undoing Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1272" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1272" bodyend="1284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1056" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1056" bodyend="1068"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1ab29fe92190d1c5cf8d63be290af6b44e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1ae34fe81bbdf4060c1fdc748791c34b2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</definition>
-        <argsstring>(string name, MR._ByValueShared_ObjectMesh obj, MR.Const_SetNew _3, MR.Misc._Moved&lt; MR.MeshTopology &gt; newTopology)</argsstring>
+        <argsstring>(string name, MR.Std._ByValue_SharedPtr_MRObjectMesh obj, MR.Const_SetNew _3, MR.Misc._Moved&lt; MR.MeshTopology &gt; newTopology)</argsstring>
         <name>PartialChangeMeshTopologyAction</name>
         <qualifiedname>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</qualifiedname>
         <param>
@@ -187,7 +165,7 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR._ByValueShared_ObjectMesh</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -199,13 +177,13 @@
           <declname>newTopology</declname>
         </param>
         <briefdescription>
-<para>use this constructor to set new object&apos;s topology and remember its difference from existed topology for future undoing Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>use this constructor to set new object's topology and remember its difference from existed topology for future undoing Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1290" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1290" bodyend="1302"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1074" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1074" bodyend="1086"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a20fa5594fb46e2591d7f7747efa526a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PartialChangeMeshTopologyAction" kindref="compound">MR.PartialChangeMeshTopologyAction</ref></type>
@@ -218,13 +196,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PartialChangeMeshTopologyAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PartialChangeMeshTopologyAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1307" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1307" bodyend="1314"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1091" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1091" bodyend="1098"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a52f036c5e111b16431f57f68a69fe733" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -243,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1319" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1319" bodyend="1324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1103" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1103" bodyend="1108"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -252,60 +230,59 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PartialChangeMeshTopologyAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PartialChangeMeshTopologyAction</label>
         <link refid="classMR_1_1PartialChangeMeshTopologyAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PartialChangeMeshTopologyAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_PartialChangeMeshTopologyAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PartialChangeMeshTopologyAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PartialChangeMeshTopologyAction</label>
         <link refid="classMR_1_1PartialChangeMeshTopologyAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PartialChangeMeshTopologyAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_PartialChangeMeshTopologyAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1222" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1223" bodyend="1325"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1004" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1005" bodyend="1109"/>
     <listofallmembers>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a52f036c5e111b16431f57f68a69fe733" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>action</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a20fa5594fb46e2591d7f7747efa526a3" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>assign</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a85f64f0d953387ce91753695433a78da" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>operator MR.HistoryAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a27810d00af6a60ed11a4cf40188649c2" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>operator PartialChangeMeshTopologyAction?</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1abc7e8d5695d9564bcacfbe0d27803a6e" prot="package" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
-      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a2b42096351448c8c4a5d5b0c91ff97c0" prot="package" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a8043deec05fdbc02155d8663d7c5520f" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1aa5f1525eaaacd1e7203f5429326d982f" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
-      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a242c0344fc8754938a3720673b96b3d7" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
-      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1ab29fe92190d1c5cf8d63be290af6b44e" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1ae0f9f33aa1a1dcfadbfaddb83413fb2d" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1ae34fe81bbdf4060c1fdc748791c34b2f" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

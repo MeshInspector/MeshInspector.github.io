@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TriTriDistanceResult__double" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TriTriDistanceResult_double</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a4bc4813560c7e30a45700f80adfb94bc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriTriDistanceResult_double::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double._offsetof_a</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59019" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriTriDistanceResult__double_1ab95927d8dde0ea89f1ac2261bac5caba" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriTriDistanceResult_double::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double._offsetof_b</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59020" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a5c81c90a5b9c7c0a82e0a29190584a4f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriTriDistanceResult_double::_offsetof_distSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distSq</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double._offsetof_distSq</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59021" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriTriDistanceResult__double_1adee8c29b0f88f98befedbed95254961e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriTriDistanceResult_double::_offsetof_overlap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_overlap</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double._offsetof_overlap</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59022" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a0e891d91f632b28f8cd5de68ddde3b5a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceResult_double.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59025" bodyend="59026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a45bc6315271c7d71d58188c0483b1740" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriTriDistanceResult__double" kindref="compound">TriTriDistanceResult_double</ref></type>
+        <definition> TriTriDistanceResult_double mrmeshpy.TriTriDistanceResult_double.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59029" bodyend="59030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a45bc6315271c7d71d58188c0483b1740" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriTriDistanceResult__double" kindref="compound">TriTriDistanceResult_double</ref></type>
+        <definition> TriTriDistanceResult_double mrmeshpy.TriTriDistanceResult_double.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59033" bodyend="59034"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a7c31c992110f58551ff571b6e57eb063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceResult_double.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59036" bodyend="59037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1ab46e9f0034266c227664df5d3e4af1d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceResult_double.__init__</definition>
+        <argsstring>(self, TriTriDistanceResult_double arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriTriDistanceResult__double" kindref="compound">TriTriDistanceResult_double</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59039" bodyend="59042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1ad5ed22dc60f251d7927086020bc78240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceResult_double.__init__</definition>
+        <argsstring>(self, Vector3d a, Vector3d b, float distSq, bool overlap)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59044" bodyend="59047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a426da728451b20a128f614b782243569" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.TriTriDistanceResult_double.a</definition>
+        <argsstring>(self)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If the triangles are disjoint, these points are the closest points of
+the corresponding triangles. However, if the triangles overlap, these
+are basically a random pair of points from the triangles, not
+coincident points on the intersection of the triangles, as might
+be expected.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59049" bodyend="59056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a8b0b4f91a8ff093a123a4e715f60ef45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceResult_double.a</definition>
+        <argsstring>(self, Vector3d arg1)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59058" bodyend="59059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1afa0d303c2450787c71317008feccbece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.TriTriDistanceResult_double.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If the triangles are disjoint, these points are the closest points of
+the corresponding triangles. However, if the triangles overlap, these
+are basically a random pair of points from the triangles, not
+coincident points on the intersection of the triangles, as might
+be expected.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59061" bodyend="59068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a000b242ea3d98a2e4f50a7185098ca80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceResult_double.b</definition>
+        <argsstring>(self, Vector3d arg1)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59070" bodyend="59071"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1ab6a07ce34623c2f9693df301023c44f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriTriDistanceResult_double.distSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>distSq</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.distSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If the triangles are disjoint, it is the squared distance them
+(equal to the squared distance between a and b points).
+If the triangles overlap, it is zero.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59073" bodyend="59078"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1ae07628bd38e65ca01255179c2e61b70e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceResult_double.distSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distSq</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.distSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59080" bodyend="59081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1a651a232ff53ceb53b5ed8ff4432d8475" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriTriDistanceResult_double.overlap</definition>
+        <argsstring>(self)</argsstring>
+        <name>overlap</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.overlap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0
+if distSq == 0 and overlap == false, then the triangles just touch one another
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59083" bodyend="59087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriTriDistanceResult__double_1ae9c4258b72ce5c1a0cb8282663682e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriTriDistanceResult_double.overlap</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>overlap</name>
+        <qualifiedname>mrmeshpy.TriTriDistanceResult_double.overlap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59089" bodyend="59090"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TriTriDistanceResult&lt;double&gt;
+Aliases:  TriTriDistanceResultd
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59014" bodyend="59090"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a0e891d91f632b28f8cd5de68ddde3b5a" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a7c31c992110f58551ff571b6e57eb063" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1ab46e9f0034266c227664df5d3e4af1d4" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1ad5ed22dc60f251d7927086020bc78240" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a4bc4813560c7e30a45700f80adfb94bc" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1ab95927d8dde0ea89f1ac2261bac5caba" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a5c81c90a5b9c7c0a82e0a29190584a4f" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>_offsetof_distSq</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1adee8c29b0f88f98befedbed95254961e" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>_offsetof_overlap</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a426da728451b20a128f614b782243569" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a8b0b4f91a8ff093a123a4e715f60ef45" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1afa0d303c2450787c71317008feccbece" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a000b242ea3d98a2e4f50a7185098ca80" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1ab6a07ce34623c2f9693df301023c44f5" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1ae07628bd38e65ca01255179c2e61b70e" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a45bc6315271c7d71d58188c0483b1740" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a45bc6315271c7d71d58188c0483b1740" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1a651a232ff53ceb53b5ed8ff4432d8475" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>overlap</name></member>
+      <member refid="classmrmeshpy_1_1TriTriDistanceResult__double_1ae9c4258b72ce5c1a0cb8282663682e82" prot="public" virt="non-virtual"><scope>mrmeshpy::TriTriDistanceResult_double</scope><name>overlap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cuda_1_1Polyline2DataHolder" kind="class" language="C++" prot="public">
     <compoundname>MR::Cuda::Polyline2DataHolder</compoundname>
-    <includes refid="MRCudaPolyline_8h" local="no">MRCudaPolyline.h</includes>
+    <includes refid="MRCudaPolyline_8h" local="no">MRCuda/MRCudaPolyline.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1Cuda_1_1Polyline2DataHolder_1ac26a61acfd549f2fa1761b57317c4d1f" prot="private" static="no" mutable="no">
         <type>DynamicArray&lt; Node2 &gt;</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="34" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="34" bodyend="-1"/>
+        <location file="MRCuda/MRCudaPolyline.h" line="34" column="18" bodyfile="MRCuda/MRCudaPolyline.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Cuda_1_1Polyline2DataHolder_1a411f56fc8c163f5bf4fa9b1c44e84b1f" prot="private" static="no" mutable="no">
         <type>DynamicArray&lt; float2 &gt;</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="35" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="35" bodyend="-1"/>
+        <location file="MRCuda/MRCudaPolyline.h" line="35" column="18" bodyfile="MRCuda/MRCudaPolyline.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Cuda_1_1Polyline2DataHolder_1a51afbd7e327b408103aced7d5568e959" prot="private" static="no" mutable="no">
         <type>DynamicArray&lt; int &gt;</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="36" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="36" bodyend="-1"/>
+        <location file="MRCuda/MRCudaPolyline.h" line="36" column="18" bodyfile="MRCuda/MRCudaPolyline.h" bodystart="36" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -55,7 +55,7 @@
         <name>fromLines</name>
         <qualifiedname>MR::Cuda::Polyline2DataHolder::fromLines</qualifiedname>
         <param>
-          <type>const Polyline2 &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref> &amp;</type>
           <declname>polyline</declname>
         </param>
         <briefdescription>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="21" column="32"/>
+        <location file="MRCuda/MRCudaPolyline.h" line="21" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline2DataHolder_1a46e80c82a5444914b88cbc949a0cead9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API size_t</type>
@@ -74,7 +74,7 @@
         <name>heapBytes</name>
         <qualifiedname>MR::Cuda::Polyline2DataHolder::heapBytes</qualifiedname>
         <param>
-          <type>const Polyline2 &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref> &amp;</type>
           <declname>polyline</declname>
         </param>
         <briefdescription>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="31" column="30"/>
+        <location file="MRCuda/MRCudaPolyline.h" line="31" column="30"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="24" column="30"/>
+        <location file="MRCuda/MRCudaPolyline.h" line="24" column="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline2DataHolder_1a873e86e29f26d7240ef0f5af3a33a09b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="25" bodyend="25"/>
+        <location file="MRCuda/MRCudaPolyline.h" line="25" column="5" bodyfile="MRCuda/MRCudaPolyline.h" bodystart="25" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline2DataHolder_1a846ac998311e26ed3cd24d1ef02bfe0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API void</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="28" column="21"/>
+        <location file="MRCuda/MRCudaPolyline.h" line="28" column="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -138,7 +138,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="17" bodyend="37"/>
+    <location file="MRCuda/MRCudaPolyline.h" line="16" column="1" bodyfile="MRCuda/MRCudaPolyline.h" bodystart="17" bodyend="37"/>
     <listofallmembers>
       <member refid="classMR_1_1Cuda_1_1Polyline2DataHolder_1a1729fda1729e6bd5a1671328387fe837" prot="public" virt="non-virtual"><scope>MR::Cuda::Polyline2DataHolder</scope><name>data</name></member>
       <member refid="classMR_1_1Cuda_1_1Polyline2DataHolder_1a5ce3f1afdf8bc14fd31b7480a0ccc596" prot="public" virt="non-virtual"><scope>MR::Cuda::Polyline2DataHolder</scope><name>fromLines</name></member>

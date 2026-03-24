@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ConstBox__Matrix3i64" kind="class" language="C#" prot="public">
     <compoundname>MR::ConstBox_Matrix3i64</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR::Misc::Object&lt; ConstBox_Matrix3i64 &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.ConstBox_Matrix3i64 &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1Box__Matrix3i64" prot="public" virt="non-virtual">MR.Box_Matrix3i64</derivedcompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ConstBox__Matrix3i64_1a4335f7bdd1219e51b34464efa777bf34" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2698" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2698" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2712" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2712" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ConstBox__Matrix3i64_1aa8ae441fa792b4dd7d62cd725978312b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>ref readonly <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2700" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2700" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2714" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2714" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ConstBox__Matrix3i64_1a2cbee9b262e9ef1fb106ff930b11c0ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>ref readonly <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2702" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2702" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2716" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2716" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ConstBox__Matrix3i64_1a57c8e13cd4e93bf89f19cb3558287145" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
@@ -57,13 +57,13 @@
         <name>this[int row]</name>
         <qualifiedname>MR.ConstBox_Matrix3i64.this[int row]</qualifiedname>
         <briefdescription>
-<para>row access Generated from method <computeroutput>MR.Matrix3i64.operator[]</computeroutput>. </para>
+<para>row access Generated from method <computeroutput>MR::Matrix3i64::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2856" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2857" bodyend="2864"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2870" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2871" bodyend="2878"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2687" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2687" bodyend="2693"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2699" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2699" bodyend="2705"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2694" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2694" bodyend="2694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2706" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2706" bodyend="2706"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1ac5407069cdbf147cc243a12a4a07e1b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2707" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2707" bodyend="2707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2721" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2721" bodyend="2721"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1ab09479f07b80840e72046b28aec729a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2718" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2718" bodyend="2722"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2732" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2732" bodyend="2736"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1abed1e34fefb1922bbd9985a643fa7eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2727" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2727" bodyend="2733"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2741" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2741" bodyend="2747"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a45fa3c769251c4229b0796438011fe82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2739" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2739" bodyend="2754"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2753" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2753" bodyend="2768"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a05006a92d01dd13ea74af94836b0ad49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2870" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2870" bodyend="2875"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2884" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2884" bodyend="2889"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a2eb9f4977f7428600a87dce41e0c4f33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe long</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2881" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2881" bodyend="2886"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2895" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2895" bodyend="2900"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a09b7b01e1cb38693819f07e6ebe7dbe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe long</type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2892" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2892" bodyend="2897"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2906" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2906" bodyend="2911"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1aa07d86c5266fde52b37246b258eb131c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe double</type>
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2902" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2902" bodyend="2907"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2916" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2916" bodyend="2921"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1afe5945b9399eb87b92ec34008ca9a5a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe long</type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2913" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2913" bodyend="2918"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2927" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2927" bodyend="2932"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a44b1c26543f5eca26a4fe08b5c6f39e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2924" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2924" bodyend="2929"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2938" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2938" bodyend="2943"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a3a98631f292fb7e1acb95bd2171a7610" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -291,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3033" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3033" bodyend="3038"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3047" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3047" bodyend="3052"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a579f804aa6eb6260be4e5df63581af56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3040" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3040" bodyend="3047"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3054" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3054" bodyend="3061"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2695" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2695" bodyend="2695"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2707" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2707" bodyend="2707"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -340,13 +340,13 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Matrix3i64" kindref="compound">ConstBox_Matrix3i64</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Matrix3i64" kindref="compound">Box_Matrix3i64</ref></computeroutput> intentionally doesn&apos;t. </para>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Matrix3i64" kindref="compound">ConstBox_Matrix3i64</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Matrix3i64" kindref="compound">Box_Matrix3i64</ref></computeroutput> intentionally doesn't. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2711" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2711" bodyend="2711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2725" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2725" bodyend="2725"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1aaba8217c930fd4cc72f037add3d5c261" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -361,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2759" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2759" bodyend="2764"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2773" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2773" bodyend="2778"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1ae59b82bc642aa51826d45097668b6015" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -376,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2769" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2769" bodyend="2774"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2783" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2783" bodyend="2788"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1af59bfbfd72056c1b7df6c011b8505454" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2780" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2780" bodyend="2785"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2794" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2794" bodyend="2799"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a34e5fea2eb5cc98d3664df59ce045ce9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -422,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2791" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2791" bodyend="2796"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2805" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2805" bodyend="2810"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1ae5a34984c3ab3cb97bbd000f2dec42a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -441,7 +441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2801" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2801" bodyend="2809"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2815" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2815" bodyend="2823"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1afa8999f3becce75f8044be772300fae9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -468,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2815" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2815" bodyend="2829"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2829" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2829" bodyend="2843"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1ac84c65d90570ca516d22e28c321c32a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -495,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2836" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2836" bodyend="2850"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2850" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2850" bodyend="2864"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a21bea353bf4004858a4554fb083ae894" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -512,13 +512,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2934" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2934" bodyend="2939"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2948" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2948" bodyend="2953"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a0f04e62bfcd3a248c4a3249a89b90f6a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -540,7 +540,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2941" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2941" bodyend="2944"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2955" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2955" bodyend="2958"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a6c6e37990677544e10d0c58159ad80a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -557,13 +557,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2950" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2950" bodyend="2958"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2964" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2964" bodyend="2972"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a790dcb750439c50218f1653ecd30d2aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -580,13 +580,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator-</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2963" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2963" bodyend="2971"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2977" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2977" bodyend="2985"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a6a1c243fe188c32507dd77cceba8e523" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -603,13 +603,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2976" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2976" bodyend="2981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2990" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2990" bodyend="2995"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a2815eb8bf5c7465a068228e840dfc4f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -626,13 +626,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2986" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2986" bodyend="2991"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3000" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3000" bodyend="3005"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1ae708a59b713b5ba86dd7114c048b429a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -649,13 +649,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator/</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator/</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2996" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2996" bodyend="3001"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3010" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3010" bodyend="3015"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a0583613b366d7d1b9eef8cddb5daaab2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
@@ -672,13 +672,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>x = a * b Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>x = a * b Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3007" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3007" bodyend="3015"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3021" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3021" bodyend="3029"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Matrix3i64_1a4fe1543c5b390a5e9489e0a7d477980f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -695,13 +695,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>product of two matrices Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>product of two matrices Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3021" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3021" bodyend="3029"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3035" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3035" bodyend="3043"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -725,7 +725,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2713" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2713" bodyend="2713"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2727" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2727" bodyend="2727"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -751,13 +751,13 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Misc::Object&lt; ConstBox_Matrix3i64 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="3">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="4">
-        <label>System::IEquatable&lt; MR.ConstBox_Matrix3i64 &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -772,16 +772,16 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Misc::Object&lt; ConstBox_Matrix3i64 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="3">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="4">
-        <label>System::IEquatable&lt; MR.ConstBox_Matrix3i64 &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2676" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2677" bodyend="3048"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2688" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2689" bodyend="3062"/>
     <listofallmembers>
       <member refid="classMR_1_1ConstBox__Matrix3i64_1a05006a92d01dd13ea74af94836b0ad49" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix3i64</scope><name>col</name></member>
       <member refid="classMR_1_1ConstBox__Matrix3i64_1ac5407069cdbf147cc243a12a4a07e1b8" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix3i64</scope><name>ConstBox_Matrix3i64</name></member>

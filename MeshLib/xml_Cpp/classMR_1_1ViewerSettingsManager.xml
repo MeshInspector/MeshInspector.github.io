@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewerSettingsManager" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerSettingsManager</compoundname>
     <basecompoundref refid="classMR_1_1IViewerSettingsManager" prot="public" virt="non-virtual">MR::IViewerSettingsManager</basecompoundref>
-    <includes refid="MRViewerSettingsManager_8h" local="no">MRViewerSettingsManager.h</includes>
+    <includes refid="MRViewerSettingsManager_8h" local="no">MRViewer/MRViewerSettingsManager.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kind="enum"><name>ObjType</name></member>
     </sectiondef>
@@ -11,18 +11,18 @@
       <member refid="group__GeneralGroup_1ga90a7d78d290a3fb47d55b7241f88e075" kind="variable"><name>lastExtentions_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga73a1b054bbf40224c9f01e6aff8af7af" kind="function"><name>ViewerSettingsManager</name></member>
-      <member refid="group__GeneralGroup_1ga0dca5c0c64723897642af29dc8fef964" kind="function"><name>loadInt</name></member>
-      <member refid="group__GeneralGroup_1ga51cede7ab3c024e08577094a584e7512" kind="function"><name>saveInt</name></member>
-      <member refid="group__GeneralGroup_1ga9ca002ebe5eebbe8133cc6bce3264b1f" kind="function"><name>loadString</name></member>
-      <member refid="group__GeneralGroup_1ga29f9662501e741d7d1fc74ed9c625795" kind="function"><name>saveString</name></member>
-      <member refid="group__GeneralGroup_1ga75e0d8257f6b959f21a0572a5cad981a" kind="function"><name>loadBool</name></member>
-      <member refid="group__GeneralGroup_1ga042d3ed32be3a4c2a05955e2ff522edb" kind="function"><name>saveBool</name></member>
-      <member refid="group__GeneralGroup_1ga44434b6d527c61c052707e63cba1a32a" kind="function"><name>resetSettings</name></member>
-      <member refid="group__GeneralGroup_1gaae039b8200dd053aec8632ae57be5880" kind="function"><name>loadSettings</name></member>
-      <member refid="group__GeneralGroup_1ga770118627bfaf87c25ea5054d8accd6b" kind="function"><name>saveSettings</name></member>
-      <member refid="group__GeneralGroup_1gaec65e015620e9455787fd7da4496b654" kind="function"><name>getLastExtention</name></member>
-      <member refid="group__GeneralGroup_1gae34d29d931ee10c81966d705130f7490" kind="function"><name>setLastExtention</name></member>
+      <member refid="group__GeneralGroup_1ga849eb149986cc55b2cd516550c5bd23b" kind="function"><name>ViewerSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1ga1392491d95b8f7f5cebe20cb00d73e64" kind="function"><name>loadInt</name></member>
+      <member refid="group__GeneralGroup_1ga2bb3d3ae0a73c7c778d56670e6ec33a3" kind="function"><name>saveInt</name></member>
+      <member refid="group__GeneralGroup_1ga9584cb73ff43cb737462253c022fa70d" kind="function"><name>loadString</name></member>
+      <member refid="group__GeneralGroup_1ga40a110314a2a71d4691ccb7c5d12b71b" kind="function"><name>saveString</name></member>
+      <member refid="group__GeneralGroup_1ga7c4de0cb30e8bc3f573117ecd4374f08" kind="function"><name>loadBool</name></member>
+      <member refid="group__GeneralGroup_1gaf4053686681e4e0502750014963e5d19" kind="function"><name>saveBool</name></member>
+      <member refid="group__GeneralGroup_1gaca50a66b1ff34e35af7477250df6c2f9" kind="function"><name>resetSettings</name></member>
+      <member refid="group__GeneralGroup_1gaa81da9ffa8b311749756131d58cec964" kind="function"><name>loadSettings</name></member>
+      <member refid="group__GeneralGroup_1gab1829bbed7fabbfad745ec9ed088349a" kind="function"><name>saveSettings</name></member>
+      <member refid="group__GeneralGroup_1ga0f8fa1a40f357a19b3c9b3ddaeb151e1" kind="function"><name>getLastExtention</name></member>
+      <member refid="group__GeneralGroup_1gaf07ee03c5a1cde31ba1630a663fe83f6" kind="function"><name>setLastExtention</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -52,22 +52,22 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" bodystart="35" bodyend="63"/>
+    <location file="MRViewer/MRViewerSettingsManager.h" line="34" column="1" bodyfile="MRViewer/MRViewerSettingsManager.h" bodystart="35" bodyend="63"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gaec65e015620e9455787fd7da4496b654" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>getLastExtention</name></member>
+      <member refid="group__GeneralGroup_1ga0f8fa1a40f357a19b3c9b3ddaeb151e1" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>getLastExtention</name></member>
       <member refid="group__GeneralGroup_1ga90a7d78d290a3fb47d55b7241f88e075" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>lastExtentions_</name></member>
-      <member refid="group__GeneralGroup_1ga75e0d8257f6b959f21a0572a5cad981a" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadBool</name></member>
-      <member refid="group__GeneralGroup_1ga0dca5c0c64723897642af29dc8fef964" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadInt</name></member>
-      <member refid="group__GeneralGroup_1gaae039b8200dd053aec8632ae57be5880" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadSettings</name></member>
-      <member refid="group__GeneralGroup_1ga9ca002ebe5eebbe8133cc6bce3264b1f" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadString</name></member>
+      <member refid="group__GeneralGroup_1ga7c4de0cb30e8bc3f573117ecd4374f08" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadBool</name></member>
+      <member refid="group__GeneralGroup_1ga1392491d95b8f7f5cebe20cb00d73e64" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadInt</name></member>
+      <member refid="group__GeneralGroup_1gaa81da9ffa8b311749756131d58cec964" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadSettings</name></member>
+      <member refid="group__GeneralGroup_1ga9584cb73ff43cb737462253c022fa70d" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadString</name></member>
       <member refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>ObjType</name></member>
-      <member refid="group__GeneralGroup_1ga44434b6d527c61c052707e63cba1a32a" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>resetSettings</name></member>
-      <member refid="group__GeneralGroup_1ga042d3ed32be3a4c2a05955e2ff522edb" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveBool</name></member>
-      <member refid="group__GeneralGroup_1ga51cede7ab3c024e08577094a584e7512" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveInt</name></member>
-      <member refid="group__GeneralGroup_1ga770118627bfaf87c25ea5054d8accd6b" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveSettings</name></member>
-      <member refid="group__GeneralGroup_1ga29f9662501e741d7d1fc74ed9c625795" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveString</name></member>
-      <member refid="group__GeneralGroup_1gae34d29d931ee10c81966d705130f7490" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>setLastExtention</name></member>
-      <member refid="group__GeneralGroup_1ga73a1b054bbf40224c9f01e6aff8af7af" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>ViewerSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1gaca50a66b1ff34e35af7477250df6c2f9" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>resetSettings</name></member>
+      <member refid="group__GeneralGroup_1gaf4053686681e4e0502750014963e5d19" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveBool</name></member>
+      <member refid="group__GeneralGroup_1ga2bb3d3ae0a73c7c778d56670e6ec33a3" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveInt</name></member>
+      <member refid="group__GeneralGroup_1gab1829bbed7fabbfad745ec9ed088349a" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveSettings</name></member>
+      <member refid="group__GeneralGroup_1ga40a110314a2a71d4691ccb7c5d12b71b" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveString</name></member>
+      <member refid="group__GeneralGroup_1gaf07ee03c5a1cde31ba1630a663fe83f6" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>setLastExtention</name></member>
+      <member refid="group__GeneralGroup_1ga849eb149986cc55b2cd516550c5bd23b" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>ViewerSettingsManager</name></member>
       <member refid="group__GeneralGroup_1ga5fa6959a71ea16d2cd2ca4e276a04665" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>~IViewerSettingsManager</name></member>
     </listofallmembers>
   </compounddef>

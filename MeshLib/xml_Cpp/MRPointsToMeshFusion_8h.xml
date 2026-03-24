@@ -1,63 +1,120 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointsToMeshFusion_8h" kind="file" language="C++">
     <compoundname>MRPointsToMeshFusion.h</compoundname>
-    <includes local="yes">MRVoxelsFwd.h</includes>
+    <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRMesh/MRProgressCallback.h</includes>
+    <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <incdepgraph>
-      <node id="3">
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
         <label>MRMesh/MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MRMesh/MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRPointsToMeshFusion.h</label>
+        <label>MRVoxels/MRPointsToMeshFusion.h</label>
         <link refid="MRPointsToMeshFusion_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="5">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="6">
-        <label>MRPch/MRExpected.h</label>
-      </node>
       <node id="2">
         <label>MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="16">
+        <label>MRPch/MRExpected.h</label>
       </node>
       <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
         <label>cassert</label>
       </node>
-      <node id="10">
+      <node id="18">
         <label>cmath</label>
       </node>
-      <node id="7">
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
         <label>string</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1PointsToMeshParameters" prot="public">MR::PointsToMeshParameters</innerclass>
@@ -69,46 +126,49 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRVoxelsFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxelsFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRMesh/MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">PointsToDistanceVolumeParams;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1PointsToMeshParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref></highlight></codeline>
-<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" kindref="member">sigma</ref><sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" kindref="member">minWeight</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1PointsToMeshParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" kindref="member">sigma</ref><sp/>=<sp/>1;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" kindref="member">invSigmaModifier</ref><sp/>=<sp/>0.5f;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" kindref="member">sqrtAngleWeight</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1ga00eeb792ec36e21c8cc51989d1052210" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00eeb792ec36e21c8cc51989d1052210" kindref="member">voxelSize</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertColors<sp/>*<sp/><ref refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" kindref="member">ptColors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" kindref="member">minWeight</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" kindref="member">invSigmaModifier</ref><sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" kindref="member">sqrtAngleWeight</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga00eeb792ec36e21c8cc51989d1052210" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00eeb792ec36e21c8cc51989d1052210" kindref="member">voxelSize</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors<sp/>*<sp/><ref refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" kindref="member">vColors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertColors<sp/>*<sp/><ref refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" kindref="member">ptColors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors<sp/>*<sp/><ref refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" kindref="member">vColors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="group__GeneralGroup_1gaf3662f6cb85200f4c4cda226fbccd906" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::function&lt;Expected&lt;void&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params,<sp/>std::function&lt;<ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolumeMinMax&amp;<sp/><ref refid="group__GeneralGroup_1ga83e40508b3f05b594da19748c1da2d05" kindref="member">volume</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zOffset<sp/>)&gt;<sp/>addPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1gaf3662f6cb85200f4c4cda226fbccd906" kindref="member">createVolumeCallbackByParts</ref>;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1ga8b138263fc573979abd2164776d90cf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::function&lt;Expected&lt;SimpleVolumeMinMax&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga8b138263fc573979abd2164776d90cf1" kindref="member">createVolumeCallback</ref>;</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;Expected&lt;void&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params,<sp/>std::function&lt;<ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zOffset<sp/>)&gt;<sp/>addPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" kindref="member">createVolumeCallbackByParts</ref>;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="group__GeneralGroup_1ga822cdf3f2f86316327a0960f8057a642" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::function&lt;bool<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga822cdf3f2f86316327a0960f8057a642" kindref="member">canCreateVolume</ref>;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1gabbc1adfce73c26127f80973b21afcbf4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gabbc1adfce73c26127f80973b21afcbf4" kindref="member">pointsToMeshFusion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;Expected&lt;SimpleVolumeMinMax&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" kindref="member">createVolumeCallback</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;bool<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" kindref="member">canCreateVolume</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1ga8385dbd13a04c7841be48a4d0ad477dc" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8385dbd13a04c7841be48a4d0ad477dc" kindref="member">pointsToMeshFusion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h"/>
+    <location file="MRVoxels/MRPointsToMeshFusion.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TextureId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TextureId</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__TextureId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_TextureId</derivedcompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56430" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57727" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -27,9 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a0ab0c046bf6ad6dbb189fe19ffe6300e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a443e8b90578db518e9f6d3d7cb98f45f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a71916398c2819d7e4c361ff55a24a0fb">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -44,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56433" bodyend="56434"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57730" bodyend="57731"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1aa9f87323f36821f8d79ab297476bf5c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -52,9 +49,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a0ab0c046bf6ad6dbb189fe19ffe6300e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a443e8b90578db518e9f6d3d7cb98f45f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a71916398c2819d7e4c361ff55a24a0fb">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -69,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56437" bodyend="56438"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57734" bodyend="57735"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a3ddfdfb7f1c403666a4c14bb8c696a04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -93,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56441" bodyend="56442"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57738" bodyend="57739"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a3ddfdfb7f1c403666a4c14bb8c696a04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -117,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56445" bodyend="56446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57742" bodyend="57743"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a3ddfdfb7f1c403666a4c14bb8c696a04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -141,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56449" bodyend="56450"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57746" bodyend="57747"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a71a2b612d5765908b4f8e967c756066e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -163,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56453" bodyend="56454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57750" bodyend="57751"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -183,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56455" bodyend="56456"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57752" bodyend="57753"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1aa3896e94d3bc2fe7cc31778cc3a83526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -205,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56457" bodyend="56458"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57754" bodyend="57755"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1af8825f0770b6548db08b43ae71ad7753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -227,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56459" bodyend="56460"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57756" bodyend="57757"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a81eebf33081948515a9fbf4b9e9c8eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -235,9 +229,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a0ab0c046bf6ad6dbb189fe19ffe6300e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a443e8b90578db518e9f6d3d7cb98f45f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a71916398c2819d7e4c361ff55a24a0fb">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -248,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56462" bodyend="56463"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57759" bodyend="57760"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a0830bb676731ffc833afd3a55c2aeed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -256,9 +247,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a0ab0c046bf6ad6dbb189fe19ffe6300e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a443e8b90578db518e9f6d3d7cb98f45f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a71916398c2819d7e4c361ff55a24a0fb">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -281,7 +269,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56465" bodyend="56474"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57762" bodyend="57771"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1afee6db071562841f7f949010d6557118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -289,9 +277,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self, TextureId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a0ab0c046bf6ad6dbb189fe19ffe6300e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a443e8b90578db518e9f6d3d7cb98f45f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a71916398c2819d7e4c361ff55a24a0fb">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -308,7 +293,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56476" bodyend="56479"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57773" bodyend="57776"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1af55874b5af32f8ce8aa51b323e78d762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -326,7 +311,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56480" bodyend="56481"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57777" bodyend="57778"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1acf6480c3306dae5e984b7249edaaf771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -348,7 +333,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56482" bodyend="56483"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57779" bodyend="57780"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1adcd6228e180d3186d585ac84d2e1aaa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -370,7 +355,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56484" bodyend="56485"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57781" bodyend="57782"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a742bec2a82c0276eb50546cf48d74c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -378,7 +363,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.TextureId.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__TextureId_1a328d63e17bd041baab44ea9ada69b2ee">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -389,7 +373,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56486" bodyend="56487"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57783" bodyend="57784"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1ad021a7cd788ce697331322ec67bc2f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -407,7 +391,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56488" bodyend="56489"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57785" bodyend="57786"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a88ac2311a4f50f8e2e668b7dae5efe7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -431,7 +415,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56491" bodyend="56492"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57788" bodyend="57789"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a09f2d45885e9ecf1915b10c1408496b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -451,7 +435,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56494" bodyend="56495"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57791" bodyend="57792"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a68983179fd731eec7919f0a372a687dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -469,7 +453,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56497" bodyend="56498"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57794" bodyend="57795"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureId_1a77643e14e0520cc32ea88ba250b255ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -487,14 +471,14 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56499" bodyend="56500"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57796" bodyend="57797"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::TextureId
-Aliases:  Vector_TextureId_TextureId.const_reference, Vector_TextureId_TextureId.reference, Vector_TextureId_FaceId_reference, TypedBitSet_TextureId_IndexType, Vector_TextureId_TextureId.value_type, Vector_TextureId_FaceId_const_reference, Vector_TextureId_FaceId_value_type
+Aliases:  Vector_TextureId_TextureId.const_reference, Vector_TextureId_TextureId.reference, Vector_TextureId_FaceId_reference, TypedBitSet_TextureId_IndexType, Vector_TextureId_FaceId_const_reference, Vector_TextureId_FaceId_value_type, Vector_TextureId_TextureId.value_type
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>
@@ -511,7 +495,7 @@ stores index of some element, it is made as template class to avoid mixing faces
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56423" bodyend="56500"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57720" bodyend="57797"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TextureId_1a8925c96c548b4d0aecf1c2b21f087e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureId</scope><name>__bool__</name></member>
       <member refid="classmrmeshpy_1_1TextureId_1aa3896e94d3bc2fe7cc31778cc3a83526" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureId</scope><name>__eq__</name></member>

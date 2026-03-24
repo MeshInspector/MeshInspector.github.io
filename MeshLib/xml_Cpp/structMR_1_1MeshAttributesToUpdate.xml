@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshAttributesToUpdate" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshAttributesToUpdate</compoundname>
-    <includes refid="MRMeshAttributesToUpdate_8h" local="no">MRMeshAttributesToUpdate.h</includes>
+    <includes refid="MRMeshAttributesToUpdate_8h" local="no">MRMesh/MRMeshAttributesToUpdate.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaca8eecaf6d18987308450e4834bb50cd" kind="variable"><name>uvCoords</name></member>
       <member refid="group__GeneralGroup_1ga161c46fbd4edb96386ef840eb0fe9fc7" kind="variable"><name>colorMap</name></member>
@@ -14,7 +14,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshAttributesToUpdate.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshAttributesToUpdate.h" bodystart="13" bodyend="19"/>
+    <location file="MRMesh/MRMeshAttributesToUpdate.h" line="12" column="1" bodyfile="MRMesh/MRMeshAttributesToUpdate.h" bodystart="13" bodyend="19"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga161c46fbd4edb96386ef840eb0fe9fc7" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>colorMap</name></member>
       <member refid="group__GeneralGroup_1ga7b265a7a8c17525854733647c2bf3363" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>faceColors</name></member>

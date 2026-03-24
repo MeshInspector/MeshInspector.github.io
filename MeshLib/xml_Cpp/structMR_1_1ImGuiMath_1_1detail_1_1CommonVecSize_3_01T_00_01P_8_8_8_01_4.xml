@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</compoundname>
-    <includes refid="MRImGuiVectorOperators_8h" local="no">MRImGuiVectorOperators.h</includes>
+    <basecompoundref prot="public" virt="non-virtual">std::integral_constant&lt; int, 1 &gt;</basecompoundref>
+    <includes refid="MRImGuiVectorOperators_8h" local="no">MRViewer/MRImGuiVectorOperators.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="41" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="41" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiVectorOperators.h" line="41" column="34" bodyfile="MRViewer/MRImGuiVectorOperators.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1a85e2e1d4b3933298ab9aac2defc4892a" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -42,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="42" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="42" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiVectorOperators.h" line="42" column="34" bodyfile="MRViewer/MRImGuiVectorOperators.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1ad2f2e5e5e05868b814dc55ed13478aea" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -60,14 +61,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="43" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="43" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiVectorOperators.h" line="43" column="34" bodyfile="MRViewer/MRImGuiVectorOperators.h" bodystart="43" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="39" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="40" bodyend="47"/>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</label>
+        <link refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::integral_constant&lt; int, 1 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</label>
+        <link refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::integral_constant&lt; int, 1 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="MRViewer/MRImGuiVectorOperators.h" line="39" column="9" bodyfile="MRViewer/MRImGuiVectorOperators.h" bodystart="40" bodyend="47"/>
     <listofallmembers>
       <member refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1accca92e50668bde227d217a934a2c1ae" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</scope><name>cur</name></member>
       <member refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1a85e2e1d4b3933298ab9aac2defc4892a" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</scope><name>next</name></member>

@@ -1,15 +1,9 @@
 var MRPositionVertsSmoothly_8h =
 [
     [ "MR_InflateSettings", "MRPositionVertsSmoothly_8h.html#abdbf486d01f5292e2bdbc2f3fb70a938", null ],
-    [ "MR_Mesh", "MRPositionVertsSmoothly_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTopology", "MRPositionVertsSmoothly_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_PositionVertsSmoothlyParams", "MRPositionVertsSmoothly_8h.html#a07b41fec7fc0e4c60db351737899a104", null ],
     [ "MR_SpacingSettings", "MRPositionVertsSmoothly_8h.html#a21442c1ce5a378c8d4d3b69760b05d3a", null ],
-    [ "MR_std_function_bool_from_MR_FaceId", "MRPositionVertsSmoothly_8h.html#a63aa216938f28c268d3a921062bf6621", null ],
     [ "MR_std_function_float_from_MR_UndirectedEdgeId", "MRPositionVertsSmoothly_8h.html#acbe1cc8b68372b33dd2718a5a6c5a109", null ],
-    [ "MR_std_function_float_from_MR_VertId", "MRPositionVertsSmoothly_8h.html#ac83010bf4ae4af15d0e13d005e33fce1", null ],
-    [ "MR_VertBitSet", "MRPositionVertsSmoothly_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRPositionVertsSmoothly_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_inflate1", "MRPositionVertsSmoothly_8h.html#a49ce7f04cba8df6b4963b606cb5a5bb8", null ],
     [ "MR_inflate_3", "MRPositionVertsSmoothly_8h.html#a29767e810aa0cb57d3b79e4aefbb8d7a", null ],
     [ "MR_inflate_4", "MRPositionVertsSmoothly_8h.html#a9990b74be0eb7dc1996b5d1e34bf3590", null ],

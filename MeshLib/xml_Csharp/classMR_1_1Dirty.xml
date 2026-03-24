@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Dirty" kind="class" language="C#" prot="public">
     <compoundname>MR::Dirty</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Dirty</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="655" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="655" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="656" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="656" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="659" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="659" bodyend="663"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="660" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="660" bodyend="664"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="669" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="669" bodyend="675"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="670" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="670" bodyend="676"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Dirty_1a638c9a0eb804875fbb233118a9861750" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -70,13 +70,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Dirty.Dirty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dirty_1a0f210d9ad150a32bfbd850e6a6f5ba7f" kindref="member">MR.Dirty.Dirty</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="680" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="680" bodyend="687"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="681" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="681" bodyend="688"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Dirty_1a4e5f58d3f1b239214834e61590ef2e23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -89,13 +89,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Dirty.Dirty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dirty_1a0f210d9ad150a32bfbd850e6a6f5ba7f" kindref="member">MR.Dirty.Dirty</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="692" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="692" bodyend="692"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="693" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="693" bodyend="693"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Dirty_1aadc5f0701f10a701f5e9d10d352333b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref uint</type>
@@ -104,13 +104,13 @@
         <name>convertTo_UnsignedIntRef</name>
         <qualifiedname>MR.Dirty.convertTo_UnsignedIntRef</qualifiedname>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.Dirty.operator unsigned int &amp;</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::Dirty::operator unsigned int &amp;amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="697" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="697" bodyend="702"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="698" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="698" bodyend="703"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Dirty_1a16dc21b9f6670b7a9af6d7109268fb92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Dirty" kindref="compound">MR.Dirty</ref></type>
@@ -123,13 +123,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Dirty.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Dirty::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="707" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="707" bodyend="717"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="708" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="708" bodyend="718"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Dirty_1a41ac3d51fbb699d0751b0f3f22f7bea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Dirty" kindref="compound">MR.Dirty</ref></type>
@@ -142,13 +142,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Dirty.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Dirty::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="722" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="722" bodyend="730"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="723" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="723" bodyend="731"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -157,48 +157,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Dirty</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Dirty</label>
         <link refid="classMR_1_1Dirty"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Dirty</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Dirty &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Dirty</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Dirty</label>
         <link refid="classMR_1_1Dirty"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Dirty</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Dirty &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="653" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="654" bodyend="731"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="654" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="655" bodyend="732"/>
     <listofallmembers>
       <member refid="classMR_1_1Dirty_1a16dc21b9f6670b7a9af6d7109268fb92" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>assign</name></member>
       <member refid="classMR_1_1Dirty_1a41ac3d51fbb699d0751b0f3f22f7bea7" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>assign</name></member>

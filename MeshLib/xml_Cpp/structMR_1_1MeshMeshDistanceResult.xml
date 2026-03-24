@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshMeshDistanceResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshMeshDistanceResult</compoundname>
-    <includes refid="MRMeshMeshDistance_8h" local="no">MRMeshMeshDistance.h</includes>
+    <includes refid="MRMeshMeshDistance_8h" local="no">MRMesh/MRMeshMeshDistance.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1ac63fe46e0eee3773c56a65dacf2f15b4" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="18" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" bodystart="18" bodyend="-1"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="19" column="17" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1aeb2b4c0d5e120181eaa3a706a14f40f9" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="18" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" bodystart="18" bodyend="-1"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="19" column="19" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1a31d5db7464e13bf1f300593e515875c9" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="21" column="11" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -68,7 +68,7 @@
         <link refid="structMR_1_1PointOnFace"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" bodystart="16" bodyend="21"/>
+    <location file="MRMesh/MRMeshMeshDistance.h" line="16" column="1" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="17" bodyend="22"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshMeshDistanceResult_1ac63fe46e0eee3773c56a65dacf2f15b4" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>a</name></member>
       <member refid="structMR_1_1MeshMeshDistanceResult_1aeb2b4c0d5e120181eaa3a706a14f40f9" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>b</name></member>

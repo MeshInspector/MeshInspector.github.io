@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__optional__MR__DentalId_8h" kind="file" language="C++">
+    <compoundname>std_optional_MR_DentalId.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_optional_MR_DentalId.h</label>
+        <link refid="std__optional__MR__DentalId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" prot="public" static="no">
+        <type>struct <ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref></type>
+        <definition>typedef struct MR_DentalId MR_DentalId</definition>
+        <argsstring></argsstring>
+        <name>MR_DentalId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This class represents tooth id Generated from class <computeroutput>MR::DentalId</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="12" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" prot="public" static="no">
+        <type>struct <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref></type>
+        <definition>typedef struct MR_std_optional_MR_DentalId MR_std_optional_MR_DentalId</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_DentalId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores either a single <computeroutput>MR::DentalId</computeroutput> or nothing. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="17" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1a7d4a8b5b0b534e30d35f223682683dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_DentalId * MR_std_optional_MR_DentalId_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_optional_MR_DentalId *other)</argsstring>
+        <name>MR_std_optional_MR_DentalId_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__DentalId_8h_1a0cb575c3a7a6c498597f31f58abb4053" kindref="member">MR_std_optional_MR_DentalId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="24" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="24" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1a89493065b4df62da86b6e3b257ee44f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_DentalId * MR_std_optional_MR_DentalId_ConstructFrom</definition>
+        <argsstring>(const MR_DentalId *other)</argsstring>
+        <name>MR_std_optional_MR_DentalId_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new instance. Parameter <computeroutput>other</computeroutput> is a single object. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass a null pointer. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__DentalId_8h_1a0cb575c3a7a6c498597f31f58abb4053" kindref="member">MR_std_optional_MR_DentalId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="30" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="30" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1ad5c5c2c5a22068c84c782abeb6fc0181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_DentalId_AssignFromAnother</definition>
+        <argsstring>(MR_std_optional_MR_DentalId *_this, const MR_std_optional_MR_DentalId *other)</argsstring>
+        <name>MR_std_optional_MR_DentalId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="37" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1ad2e6f43d814a2679db17e024383630dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_DentalId_AssignFrom</definition>
+        <argsstring>(MR_std_optional_MR_DentalId *_this, const MR_DentalId *other)</argsstring>
+        <name>MR_std_optional_MR_DentalId_AssignFrom</name>
+        <param>
+          <type><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> is a single object. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass a null pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1a0cb575c3a7a6c498597f31f58abb4053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_DentalId_Destroy</definition>
+        <argsstring>(const MR_std_optional_MR_DentalId *_this)</argsstring>
+        <name>MR_std_optional_MR_DentalId_Destroy</name>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1ab6f851679734ec8da383d00d028966a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_DentalId_DestroyArray</definition>
+        <argsstring>(const MR_std_optional_MR_DentalId *_this)</argsstring>
+        <name>MR_std_optional_MR_DentalId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1adeae68d5d8e122f12c59249bba50217a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_DentalId * MR_std_optional_MR_DentalId_OffsetPtr</definition>
+        <argsstring>(const MR_std_optional_MR_DentalId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_DentalId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="53" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="53" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1a2ef1f290c904a8e51dafa9b52c43bcf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_DentalId * MR_std_optional_MR_DentalId_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_optional_MR_DentalId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_DentalId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="57" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="57" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1a8146a1e0bae9c2c45834adcc8c2d4c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_optional_MR_DentalId_has_value</definition>
+        <argsstring>(const MR_std_optional_MR_DentalId *_this)</argsstring>
+        <name>MR_std_optional_MR_DentalId_has_value</name>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores an object, as opposed to being empty. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="61" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1aec05e9b519cfd37f1174d2223e8138ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref> *</type>
+        <definition>MRC_API const MR_DentalId * MR_std_optional_MR_DentalId_value</definition>
+        <argsstring>(const MR_std_optional_MR_DentalId *_this)</argsstring>
+        <name>MR_std_optional_MR_DentalId_value</name>
+        <param>
+          <type>const <ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="66" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="66" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DentalId_8h_1a767e86332b6a2186f3165682f5e6b2d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref> *</type>
+        <definition>MRC_API MR_DentalId * MR_std_optional_MR_DentalId_value_mut</definition>
+        <argsstring>(MR_std_optional_MR_DentalId *_this)</argsstring>
+        <name>MR_std_optional_MR_DentalId_value_mut</name>
+        <param>
+          <type><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h" declline="71" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref><sp/><ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRTeethMaskToDirectionVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__optional__MR__DentalId_8h_1a7d4a8b5b0b534e30d35f223682683dbe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*<ref refid="std__optional__MR__DentalId_8h_1a7d4a8b5b0b534e30d35f223682683dbe" kindref="member">MR_std_optional_MR_DentalId_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__optional__MR__DentalId_8h_1a89493065b4df62da86b6e3b257ee44f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*<ref refid="std__optional__MR__DentalId_8h_1a89493065b4df62da86b6e3b257ee44f0" kindref="member">MR_std_optional_MR_DentalId_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="std__optional__MR__DentalId_8h_1ad5c5c2c5a22068c84c782abeb6fc0181" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1ad5c5c2c5a22068c84c782abeb6fc0181" kindref="member">MR_std_optional_MR_DentalId_AssignFromAnother</ref>(<ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__optional__MR__DentalId_8h_1ad2e6f43d814a2679db17e024383630dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1ad2e6f43d814a2679db17e024383630dd" kindref="member">MR_std_optional_MR_DentalId_AssignFrom</ref>(<ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__optional__MR__DentalId_8h_1a0cb575c3a7a6c498597f31f58abb4053" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a0cb575c3a7a6c498597f31f58abb4053" kindref="member">MR_std_optional_MR_DentalId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__optional__MR__DentalId_8h_1ab6f851679734ec8da383d00d028966a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1ab6f851679734ec8da383d00d028966a6" kindref="member">MR_std_optional_MR_DentalId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__optional__MR__DentalId_8h_1adeae68d5d8e122f12c59249bba50217a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*<ref refid="std__optional__MR__DentalId_8h_1adeae68d5d8e122f12c59249bba50217a" kindref="member">MR_std_optional_MR_DentalId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__optional__MR__DentalId_8h_1a2ef1f290c904a8e51dafa9b52c43bcf2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*<ref refid="std__optional__MR__DentalId_8h_1a2ef1f290c904a8e51dafa9b52c43bcf2" kindref="member">MR_std_optional_MR_DentalId_OffsetMutablePtr</ref>(<ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__optional__MR__DentalId_8h_1a8146a1e0bae9c2c45834adcc8c2d4c4a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a8146a1e0bae9c2c45834adcc8c2d4c4a" kindref="member">MR_std_optional_MR_DentalId_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="std__optional__MR__DentalId_8h_1aec05e9b519cfd37f1174d2223e8138ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref><sp/>*<ref refid="std__optional__MR__DentalId_8h_1aec05e9b519cfd37f1174d2223e8138ce" kindref="member">MR_std_optional_MR_DentalId_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="std__optional__MR__DentalId_8h_1a767e86332b6a2186f3165682f5e6b2d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__optional__MR__DentalId_8h_1ad7bd897125b1d83316b5e001e044804b" kindref="member">MR_DentalId</ref><sp/>*<ref refid="std__optional__MR__DentalId_8h_1a767e86332b6a2186f3165682f5e6b2d7" kindref="member">MR_std_optional_MR_DentalId_value_mut</ref>(<ref refid="std__optional__MR__DentalId_8h_1a70e90e25000fe83f068e20390c444a01" kindref="member">MR_std_optional_MR_DentalId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DentalId.h"/>
+  </compounddef>
+</doxygen>

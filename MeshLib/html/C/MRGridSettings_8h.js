@@ -1,8 +1,5 @@
 var MRGridSettings_8h =
 [
-    [ "MR_BMap_MR_FaceId_uint64_t", "MRGridSettings_8h.html#ac3b408307603e915fb9df60a6981b582", null ],
-    [ "MR_BMap_MR_UndirectedEdgeId_uint64_t", "MRGridSettings_8h.html#a8a7105d6f2c0d694d7dff11a45e316f9", null ],
-    [ "MR_BMap_MR_VertId_uint64_t", "MRGridSettings_8h.html#a7f5f03336386d65f3e0804994394713e", null ],
     [ "MR_GridSettings", "MRGridSettings_8h.html#a1fed3ff99b050e83b401a1b490fe0e58", null ],
     [ "MR_GridSettings_EdgeType", "MRGridSettings_8h.html#ae3c511aee8952cf05f248dd162b3ddb2", null ],
     [ "MR_GridSettings_TriType", "MRGridSettings_8h.html#a7a393df8efcc2bc97f02f376b197a66b", null ],

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1IntersectionPrecomputes" kind="struct" language="C++" prot="public">
     <compoundname>MR::IntersectionPrecomputes</compoundname>
-    <includes refid="MRIntersectionPrecomputes_8h" local="no">MRIntersectionPrecomputes.h</includes>
+    <includes refid="MRIntersectionPrecomputes_8h" local="no">MRMesh/MRIntersectionPrecomputes.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -28,7 +28,7 @@
 <para>stores useful precomputed values for presented direction vector</para>
 <para>allows to avoid repeatable computations during intersection finding </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="117" bodyend="149"/>
+    <location file="MRMesh/MRIntersectionPrecomputes.h" line="116" column="1" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="117" bodyend="149"/>
     <listofallmembers>
       <member refid="group__AABBTreeGroup_1ga59240ce19dcf5b27221a347b22086fcb" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>idxX</name></member>
       <member refid="group__AABBTreeGroup_1ga1e89bb11cf7c4693e1c8839963994a08" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>idxY</name></member>

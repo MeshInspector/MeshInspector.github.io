@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SharedThreadSafeOwner" kind="class" language="C++" prot="public">
     <compoundname>MR::SharedThreadSafeOwner</compoundname>
-    <includes refid="MRSharedThreadSafeOwner_8h" local="no">MRSharedThreadSafeOwner.h</includes>
+    <includes refid="MRSharedThreadSafeOwner_8h" local="no">MRMesh/MRSharedThreadSafeOwner.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="51" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" bodystart="51" bodyend="-1"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="51" column="21" bodyfile="MRMesh/MRSharedThreadSafeOwner.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1SharedThreadSafeOwner_1a2106f9fe07900596de16656227038ef8" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="structMR_1_1TbbTaskArenaAndGroup" kindref="compound">TbbTaskArenaAndGroup</ref> &gt;</type>
@@ -37,13 +37,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="54" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" bodystart="54" bodyend="-1"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="54" column="21" bodyfile="MRMesh/MRSharedThreadSafeOwner.h" bodystart="54" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a8995944307cf671d99c829868deb25e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::SharedThreadSafeOwner&lt; T &gt;::SharedThreadSafeOwner</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a7a9886970a4dc1bc65885f33c9a96be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SharedThreadSafeOwner&lt; T &gt;::SharedThreadSafeOwner</definition>
         <argsstring>()</argsstring>
         <name>SharedThreadSafeOwner</name>
         <qualifiedname>MR::SharedThreadSafeOwner::SharedThreadSafeOwner</qualifiedname>
@@ -53,11 +53,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="21" column="16"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="21" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1afa5ec1ced35153097d3d49fe215f738f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::SharedThreadSafeOwner&lt; T &gt;::SharedThreadSafeOwner</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a8b428e369fd981f327ed77ccebcd18a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SharedThreadSafeOwner&lt; T &gt;::SharedThreadSafeOwner</definition>
         <argsstring>(const SharedThreadSafeOwner &amp;)</argsstring>
         <name>SharedThreadSafeOwner</name>
         <qualifiedname>MR::SharedThreadSafeOwner::SharedThreadSafeOwner</qualifiedname>
@@ -70,11 +70,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="22" column="16"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="22" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a8b0d2894eb94fc40e39205782e2ff6c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref> &amp;</type>
-        <definition>MRMESH_API SharedThreadSafeOwner &amp; MR::SharedThreadSafeOwner&lt; T &gt;::operator=</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1afb6703f5f77fcaa4a5e4e9711b6a8da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref> &amp;</type>
+        <definition>SharedThreadSafeOwner &amp; MR::SharedThreadSafeOwner&lt; T &gt;::operator=</definition>
         <argsstring>(const SharedThreadSafeOwner &amp;)</argsstring>
         <name>operator=</name>
         <qualifiedname>MR::SharedThreadSafeOwner::operator=</qualifiedname>
@@ -87,11 +87,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="23" column="38"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="23" column="28"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1afed1ab2b9ace0edf703e8f601f0a9fb8" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::SharedThreadSafeOwner&lt; T &gt;::SharedThreadSafeOwner</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a539aba600891956dd407c17ef5590620" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::SharedThreadSafeOwner&lt; T &gt;::SharedThreadSafeOwner</definition>
         <argsstring>(SharedThreadSafeOwner &amp;&amp;b) noexcept</argsstring>
         <name>SharedThreadSafeOwner</name>
         <qualifiedname>MR::SharedThreadSafeOwner::SharedThreadSafeOwner</qualifiedname>
@@ -105,11 +105,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="24" column="16"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="24" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a88840a789e5d3fdf6d9e530e4d4b6784" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRMESH_API <ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref> &amp;</type>
-        <definition>MRMESH_API SharedThreadSafeOwner &amp; MR::SharedThreadSafeOwner&lt; T &gt;::operator=</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a6681c209342e7945e42dc74be2378488" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref> &amp;</type>
+        <definition>SharedThreadSafeOwner &amp; MR::SharedThreadSafeOwner&lt; T &gt;::operator=</definition>
         <argsstring>(SharedThreadSafeOwner &amp;&amp;b) noexcept</argsstring>
         <name>operator=</name>
         <qualifiedname>MR::SharedThreadSafeOwner::operator=</qualifiedname>
@@ -123,11 +123,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="25" column="38"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="25" column="28"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a18d730bee7fb09eda8b715038f96714a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::SharedThreadSafeOwner&lt; T &gt;::~SharedThreadSafeOwner</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a24c2d8829702144346e2e880772c0be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SharedThreadSafeOwner&lt; T &gt;::~SharedThreadSafeOwner</definition>
         <argsstring>()</argsstring>
         <name>~SharedThreadSafeOwner</name>
         <qualifiedname>MR::SharedThreadSafeOwner::~SharedThreadSafeOwner</qualifiedname>
@@ -137,11 +137,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="26" column="16"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="26" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a0e3ad4008e5871020312edfeef6a8ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::SharedThreadSafeOwner&lt; T &gt;::reset</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a59808e5b40263fceaf8962c1346ea9f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SharedThreadSafeOwner&lt; T &gt;::reset</definition>
         <argsstring>()</argsstring>
         <name>reset</name>
         <qualifiedname>MR::SharedThreadSafeOwner::reset</qualifiedname>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="29" column="21"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="29" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a0967bda588492731c2eee9efd06f85c4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const T *</type>
@@ -161,13 +161,13 @@
         <name>get</name>
         <qualifiedname>MR::SharedThreadSafeOwner::get</qualifiedname>
         <briefdescription>
-<para>returns the currently owned instance, the pointer becomes invalid after <ref refid="classMR_1_1SharedThreadSafeOwner_1a0e3ad4008e5871020312edfeef6a8ddf" kindref="member">reset()</ref> or <ref refid="classMR_1_1SharedThreadSafeOwner_1a0369c315650a9542cd2919ed23b596f5" kindref="member">update()</ref> </para>
+<para>returns the currently owned instance, the pointer becomes invalid after <ref refid="classMR_1_1SharedThreadSafeOwner_1a59808e5b40263fceaf8962c1346ea9f5" kindref="member">reset()</ref> or <ref refid="classMR_1_1SharedThreadSafeOwner_1a92dcd09e43bfc749d3bcd92c17d287dd" kindref="member">update()</ref> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="32" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" bodystart="32" bodyend="32"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="32" column="14" bodyfile="MRMesh/MRSharedThreadSafeOwner.h" bodystart="32" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a5e3f86e91882b6b1f32c3bff31d263a6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::shared_ptr&lt; const T &gt;</type>
@@ -182,11 +182,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="35" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" bodystart="35" bodyend="35"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="35" column="22" bodyfile="MRMesh/MRSharedThreadSafeOwner.h" bodystart="35" bodyend="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a4c20ad14141336cb4425292554f07689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API const T &amp;</type>
-        <definition>MRMESH_API const T &amp; MR::SharedThreadSafeOwner&lt; T &gt;::getOrCreate</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1af781cea7ad567dc1ea28536e7fe7e8c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::SharedThreadSafeOwner&lt; T &gt;::getOrCreate</definition>
         <argsstring>(const std::function&lt; T()&gt; &amp;creator)</argsstring>
         <name>getOrCreate</name>
         <qualifiedname>MR::SharedThreadSafeOwner::getOrCreate</qualifiedname>
@@ -201,11 +201,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="40" column="25"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="40" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a0369c315650a9542cd2919ed23b596f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::SharedThreadSafeOwner&lt; T &gt;::update</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a92dcd09e43bfc749d3bcd92c17d287dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SharedThreadSafeOwner&lt; T &gt;::update</definition>
         <argsstring>(const std::function&lt; void(T &amp;)&gt; &amp;updater)</argsstring>
         <name>update</name>
         <qualifiedname>MR::SharedThreadSafeOwner::update</qualifiedname>
@@ -216,15 +216,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if the object owns some T-instance, then updater function is applied to it; <ref refid="classMR_1_1SharedThreadSafeOwner_1a0967bda588492731c2eee9efd06f85c4" kindref="member">get()</ref> and <ref refid="classMR_1_1SharedThreadSafeOwner_1a5e3f86e91882b6b1f32c3bff31d263a6" kindref="member">getPtr()</ref> return nullptr for other threads during <ref refid="classMR_1_1SharedThreadSafeOwner_1a0369c315650a9542cd2919ed23b596f5" kindref="member">update()</ref> </para>
+<para>if the object owns some T-instance, then updater function is applied to it; <ref refid="classMR_1_1SharedThreadSafeOwner_1a0967bda588492731c2eee9efd06f85c4" kindref="member">get()</ref> and <ref refid="classMR_1_1SharedThreadSafeOwner_1a5e3f86e91882b6b1f32c3bff31d263a6" kindref="member">getPtr()</ref> return nullptr for other threads during <ref refid="classMR_1_1SharedThreadSafeOwner_1a92dcd09e43bfc749d3bcd92c17d287dd" kindref="member">update()</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="44" column="21"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="44" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a0733aa79162afebb9f5a3b59c218fcd6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API size_t</type>
-        <definition>MRMESH_API size_t MR::SharedThreadSafeOwner&lt; T &gt;::heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1SharedThreadSafeOwner_1a9d77419e14e40c695cbf2e791b79616f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::SharedThreadSafeOwner&lt; T &gt;::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::SharedThreadSafeOwner::heapBytes</qualifiedname>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="47" column="24"/>
+        <location file="MRMesh/MRSharedThreadSafeOwner.h" line="47" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -243,22 +243,22 @@
     <detaileddescription>
 <para>A group of these objects owns collectively one T-instance, allowing access to stored instance from parallel threads; if one object updates its T-instance, then it makes a copy of T-instance first and become the only object in new group </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharedThreadSafeOwner.h" bodystart="19" bodyend="55"/>
+    <location file="MRMesh/MRSharedThreadSafeOwner.h" line="18" column="1" bodyfile="MRMesh/MRSharedThreadSafeOwner.h" bodystart="19" bodyend="55"/>
     <listofallmembers>
       <member refid="classMR_1_1SharedThreadSafeOwner_1a2106f9fe07900596de16656227038ef8" prot="private" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>construction_</name></member>
       <member refid="classMR_1_1SharedThreadSafeOwner_1a0967bda588492731c2eee9efd06f85c4" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>get</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1a4c20ad14141336cb4425292554f07689" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>getOrCreate</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1af781cea7ad567dc1ea28536e7fe7e8c4" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>getOrCreate</name></member>
       <member refid="classMR_1_1SharedThreadSafeOwner_1a5e3f86e91882b6b1f32c3bff31d263a6" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>getPtr</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1a0733aa79162afebb9f5a3b59c218fcd6" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1a9d77419e14e40c695cbf2e791b79616f" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1SharedThreadSafeOwner_1ae8d2334dd2da39e55eef03a5ae803b26" prot="private" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>obj_</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1a8b0d2894eb94fc40e39205782e2ff6c7" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>operator=</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1a88840a789e5d3fdf6d9e530e4d4b6784" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>operator=</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1a0e3ad4008e5871020312edfeef6a8ddf" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>reset</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1a8995944307cf671d99c829868deb25e6" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>SharedThreadSafeOwner</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1afa5ec1ced35153097d3d49fe215f738f" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>SharedThreadSafeOwner</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1afed1ab2b9ace0edf703e8f601f0a9fb8" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>SharedThreadSafeOwner</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1a0369c315650a9542cd2919ed23b596f5" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>update</name></member>
-      <member refid="classMR_1_1SharedThreadSafeOwner_1a18d730bee7fb09eda8b715038f96714a" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>~SharedThreadSafeOwner</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1afb6703f5f77fcaa4a5e4e9711b6a8da3" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>operator=</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1a6681c209342e7945e42dc74be2378488" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>operator=</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1a59808e5b40263fceaf8962c1346ea9f5" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>reset</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1a7a9886970a4dc1bc65885f33c9a96be7" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>SharedThreadSafeOwner</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1a8b428e369fd981f327ed77ccebcd18a2" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>SharedThreadSafeOwner</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1a539aba600891956dd407c17ef5590620" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>SharedThreadSafeOwner</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1a92dcd09e43bfc749d3bcd92c17d287dd" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>update</name></member>
+      <member refid="classMR_1_1SharedThreadSafeOwner_1a24c2d8829702144346e2e880772c0be2" prot="public" virt="non-virtual"><scope>MR::SharedThreadSafeOwner</scope><name>~SharedThreadSafeOwner</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

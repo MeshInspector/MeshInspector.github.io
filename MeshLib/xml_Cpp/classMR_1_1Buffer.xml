@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer" kind="class" language="C++" prot="public">
     <compoundname>MR::Buffer</compoundname>
-    <includes refid="MRBuffer_8h" local="no">MRBuffer.h</includes>
+    <includes refid="MRBuffer_8h" local="no">MRMesh/MRBuffer.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
       </param>
       <param>
-        <type>typename I</type>
+        <type>typename <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
@@ -40,6 +40,12 @@
       <member refid="group__GeneralGroup_1gabfa0b936734c36dff600039214adb66f" kind="function"><name>endId</name></member>
       <member refid="group__GeneralGroup_1ga7351432c6f65b963c17560ef8054076c" kind="function"><name>heapBytes</name></member>
     </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga55e9a4cb66cd8ea3f169c01dec8a4c47" kind="friend"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1ga0e8a0d24d793d8361f36b8732241f64c" kind="friend"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1ga7b23195a6817f509adeba53011944bbc" kind="friend"><name>end</name></member>
+      <member refid="group__GeneralGroup_1gaafc760c21f8f2800875322be6ec79f12" kind="friend"><name>end</name></member>
+    </sectiondef>
     <briefdescription>
 <para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
@@ -63,9 +69,11 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="58" bodyend="119"/>
+    <location file="MRMesh/MRBuffer.h" line="57" column="1" bodyfile="MRMesh/MRBuffer.h" bodystart="58" bodyend="124"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0aae7e1ae916ef6da5cd9f342f93207c" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>backId</name></member>
+      <member refid="group__GeneralGroup_1ga55e9a4cb66cd8ea3f169c01dec8a4c47" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>begin</name></member>
+      <member refid="group__GeneralGroup_1ga0e8a0d24d793d8361f36b8732241f64c" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>begin</name></member>
       <member refid="group__GeneralGroup_1ga6fa2be8099e8b9ba78c8a4ca991103be" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>beginId</name></member>
       <member refid="group__GeneralGroup_1gad14f8729b4b1bf29927db584ffb5b052" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>Buffer</name></member>
       <member refid="group__GeneralGroup_1gafcf3d90225b34639d9eb1017164d7c18" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>Buffer</name></member>
@@ -78,6 +86,8 @@
       <member refid="group__GeneralGroup_1ga85588234942220c37b208e5c064486b3" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>data</name></member>
       <member refid="group__GeneralGroup_1gaf3dd7266985652a7f3921940ff6393d9" prot="private" virt="non-virtual"><scope>MR::Buffer</scope><name>data_</name></member>
       <member refid="group__GeneralGroup_1ga639284e16d0d26e25ac330e5e04651ca" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga7b23195a6817f509adeba53011944bbc" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>end</name></member>
+      <member refid="group__GeneralGroup_1gaafc760c21f8f2800875322be6ec79f12" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>end</name></member>
       <member refid="group__GeneralGroup_1gabfa0b936734c36dff600039214adb66f" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>endId</name></member>
       <member refid="group__GeneralGroup_1ga7351432c6f65b963c17560ef8054076c" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1gafa13cb6ef3db757db3c9c7e75957e061" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>iterator</name></member>

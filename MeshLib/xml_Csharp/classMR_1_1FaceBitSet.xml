@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceBitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceBitSet</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceBitSet</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="529" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="529" bodyend="536"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="593" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="593" bodyend="600"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="538" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="538" bodyend="538"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="602" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="602" bodyend="602"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="543" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="543" bodyend="548"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="607" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="607" bodyend="612"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1ac9d56c35af361721c32c51011bb12cb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -74,13 +74,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FaceBitSet.FaceBitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceBitSet_1aa5ba4bad2eef59cc3aa9e38baa68821e" kindref="member">MR.FaceBitSet.FaceBitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="553" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="553" bodyend="559"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="617" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="617" bodyend="623"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1ab14c58ae18659e1444575d27078dc7b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -93,13 +93,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FaceBitSet.FaceBitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceBitSet_1aa5ba4bad2eef59cc3aa9e38baa68821e" kindref="member">MR.FaceBitSet.FaceBitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="564" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="564" bodyend="564"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="628" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="628" bodyend="628"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1ae9a24e404f15440df137eada8c591b74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -112,13 +112,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FaceBitSet.FaceBitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceBitSet_1aa5ba4bad2eef59cc3aa9e38baa68821e" kindref="member">MR.FaceBitSet.FaceBitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="569" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="569" bodyend="569"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="633" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="633" bodyend="633"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1aa0b687101920c29041098f6436b741d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -136,13 +136,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>creates bitset of given size filled with given value Generated from constructor <computeroutput>MR.FaceBitSet.FaceBitSet</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput><ref refid="classMR_1_1FaceBitSet_1aa5ba4bad2eef59cc3aa9e38baa68821e" kindref="member">MR.FaceBitSet.FaceBitSet</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="576" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="576" bodyend="582"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="640" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="640" bodyend="646"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1aabd2bd6e248b578dbfa7f5825ec804ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -155,13 +155,13 @@
           <declname>src</declname>
         </param>
         <briefdescription>
-<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.FaceBitSet.FaceBitSet</computeroutput>. </underline></para>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&amp;lt;U&amp;gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1FaceBitSet_1aa5ba4bad2eef59cc3aa9e38baa68821e" kindref="member">MR.FaceBitSet.FaceBitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="588" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="588" bodyend="594"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="652" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="652" bodyend="658"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a43e5c434b3655a01ba9475267c63a3cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -174,13 +174,13 @@
           <declname>src</declname>
         </param>
         <briefdescription>
-<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.FaceBitSet.FaceBitSet</computeroutput>. </underline></para>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&amp;lt;U&amp;gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1FaceBitSet_1aa5ba4bad2eef59cc3aa9e38baa68821e" kindref="member">MR.FaceBitSet.FaceBitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="600" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="600" bodyend="606"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="664" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="664" bodyend="670"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a1794b6bca4e956cbb9946bbc97d987d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -193,13 +193,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceBitSet.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceBitSet::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="611" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="611" bodyend="618"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="675" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="675" bodyend="682"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a13d7aa29b9115d33651f622aaaa336c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="623" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="623" bodyend="628"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="687" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="687" bodyend="692"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a2bd365e359118a5a81feb8445bf23b88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="633" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="633" bodyend="638"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="697" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="697" bodyend="702"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a0abd7269092b8cac2340d0e8a4ec4ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -268,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="643" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="643" bodyend="648"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="707" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="707" bodyend="712"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a7557041198ae5eb8a38d3b9bf4447d47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="653" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="653" bodyend="658"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="717" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="717" bodyend="722"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a14cfd17360b8476810132ba3976b7764" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -306,7 +306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="663" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="663" bodyend="668"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="727" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="727" bodyend="732"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a62cbbf2fce8ce6c381f104c9535d2afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="673" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="673" bodyend="678"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="737" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="737" bodyend="742"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a24181f2ec3f28c06e626296d32c0ff74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="683" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="683" bodyend="688"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="747" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="747" bodyend="752"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a91199b3b340b5ba8b8e258708fd92b01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="693" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="693" bodyend="698"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="757" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="757" bodyend="762"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a493b0d826f0b69eba15bc71cd6b366ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -382,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="703" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="703" bodyend="708"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="767" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="767" bodyend="772"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a7ef06ee70cd85e7b1475fcdced1239f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -397,7 +397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="713" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="713" bodyend="718"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="777" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="777" bodyend="782"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1adc337e3ffd0a72949c407f596f0c2f11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -415,13 +415,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceBitSet.test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceBitSet::test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="724" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="724" bodyend="730"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="788" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="788" bodyend="794"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a272989768140abd8453061371019b96f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -434,13 +434,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceBitSet.operator&amp;=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceBitSet::operator&amp;amp;=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="735" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="735" bodyend="743"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="799" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="799" bodyend="807"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a098ccc86d32db9d3e1484ad56ea8a0a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -453,13 +453,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceBitSet.operator|=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceBitSet::operator|=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="748" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="748" bodyend="756"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="812" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="812" bodyend="820"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a8d107cc35226021f5574913a62d5085a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -472,13 +472,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceBitSet.operator^=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceBitSet::operator^=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="761" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="761" bodyend="769"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="825" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="825" bodyend="833"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1af111f3112de5c93d39762a533c65c961" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -491,13 +491,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceBitSet.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceBitSet::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="774" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="774" bodyend="782"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="838" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="838" bodyend="846"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a223a5c6384ed0a5ec9f767ccde3b33dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -520,7 +520,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="788" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="788" bodyend="793"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="852" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="852" bodyend="857"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1ae6ad983502bafbea71edaef85bc780ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="799" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="799" bodyend="805"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="863" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="863" bodyend="869"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1acfc07caffa26f306d43c4b374b7ced81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -572,7 +572,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="811" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="811" bodyend="817"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="875" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="875" bodyend="881"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a5d40b99dfdc84733f5fa7ea510e13da6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -596,7 +596,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="823" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="823" bodyend="829"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="887" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="887" bodyend="893"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1aa0ac4a8deeb31e0d920671e9143ce855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -615,7 +615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="834" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="834" bodyend="839"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="898" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="898" bodyend="903"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1ad24dcde408d6b946e90972616b786697" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -639,7 +639,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="845" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="845" bodyend="851"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="909" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="909" bodyend="915"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a1e89689e53ea522d8a6bf596d5c56970" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -654,7 +654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="856" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="856" bodyend="861"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="920" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="920" bodyend="925"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a6531c208a3310fc010e689dace7df17d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -663,13 +663,13 @@
         <name>shrinkToFit</name>
         <qualifiedname>MR.FaceBitSet.shrinkToFit</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceBitSet.shrink_to_fit</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceBitSet::shrink_to_fit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="866" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="866" bodyend="871"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="930" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="930" bodyend="935"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1aea0aa42feabf810fa25b43dc3ec0d393" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -693,7 +693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="877" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="877" bodyend="883"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="941" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="941" bodyend="947"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a0d42f8c55c7399b1705e3140f880dad3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -708,7 +708,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="889" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="889" bodyend="894"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="953" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="953" bodyend="958"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a210ec37ee507bb419c7b0d80e075d2fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -721,13 +721,13 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR.FaceBitSet.push_back</computeroutput>. </para>
+<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR::FaceBitSet::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="900" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="900" bodyend="905"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="964" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="964" bodyend="969"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1a37ddc331dd47e959f144d51b7cbab7e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -736,13 +736,13 @@
         <name>popBack</name>
         <qualifiedname>MR.FaceBitSet.popBack</qualifiedname>
         <briefdescription>
-<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR.FaceBitSet.pop_back</computeroutput>. </para>
+<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR::FaceBitSet::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="911" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="911" bodyend="916"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="975" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="975" bodyend="980"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceBitSet_1acfe6ce77522d6e3be917be3446bbaf8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -761,23 +761,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="922" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="922" bodyend="927"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="986" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="986" bodyend="991"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Vector&amp;lt;bool, I&amp;gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_FaceBitSet</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.FaceBitSet</label>
@@ -785,25 +779,30 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FaceBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FaceBitSet &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_FaceBitSet &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_FaceBitSet</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.FaceBitSet</label>
@@ -811,17 +810,28 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FaceBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FaceBitSet &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_FaceBitSet &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="526" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="527" bodyend="928"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="590" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="591" bodyend="992"/>
     <listofallmembers>
       <member refid="classMR_1_1FaceBitSet_1a1794b6bca4e956cbb9946bbc97d987d3" prot="public" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>assign</name></member>
       <member refid="classMR_1_1FaceBitSet_1ae6ad983502bafbea71edaef85bc780ad" prot="public" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>autoResizeSet</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RibbonSchema" kind="struct" language="C++" prot="public">
     <compoundname>MR::RibbonSchema</compoundname>
-    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <includes refid="MRRibbonSchema_8h" local="no">MRViewer/MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga5773b44f78b9e6a2610bf2260a1891bd" kind="variable"><name>tabsOrder</name></member>
       <member refid="group__GeneralGroup_1ga21a3586ebedfeb4b958b58b82d741fb8" kind="variable"><name>tabsMap</name></member>
@@ -13,27 +13,27 @@
       <member refid="group__GeneralGroup_1ga10236edecf0d4d4b8fe8a8cec7faee6b" kind="variable"><name>sceneButtonsList</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga0f637361de5a95f82fb2a89a6eb23351" kind="function"><name>eliminateEmptyGroups</name></member>
-      <member refid="group__GeneralGroup_1gaa723570687ac4d1ccc83d6a5305e69dd" kind="function"><name>sortTabsByPriority</name></member>
-      <member refid="group__GeneralGroup_1ga0c1f7b3946e054a392a6a4699ab6c3ec" kind="function"><name>updateCaptions</name></member>
+      <member refid="group__GeneralGroup_1ga4c4109e394ce12f782b768c821412753" kind="function"><name>eliminateEmptyGroups</name></member>
+      <member refid="group__GeneralGroup_1ga7815c9d07d493e520860da9ae9fbae28" kind="function"><name>sortTabsByPriority</name></member>
+      <member refid="group__GeneralGroup_1ga8af5edf8dcfc7e614da42890828f9e3e" kind="function"><name>updateCaptions</name></member>
     </sectiondef>
     <briefdescription>
 <para>This structure describes <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> schema of ribbon menu. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="62" bodyend="79"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="64" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="65" bodyend="82"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2001ba5c144da0024d60ad381cb6fc5b" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>defaultQuickAccessList</name></member>
-      <member refid="group__GeneralGroup_1ga0f637361de5a95f82fb2a89a6eb23351" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>eliminateEmptyGroups</name></member>
+      <member refid="group__GeneralGroup_1ga4c4109e394ce12f782b768c821412753" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>eliminateEmptyGroups</name></member>
       <member refid="group__GeneralGroup_1ga55e0334c55b2b6a85bc323a85f88ea10" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>groupsMap</name></member>
       <member refid="group__GeneralGroup_1gaff336be3c724c96b01194c689d9bdac9" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>headerQuickAccessList</name></member>
       <member refid="group__GeneralGroup_1gab33aec85ce2ca0672bc4605ba54e2fe1" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>items</name></member>
       <member refid="group__GeneralGroup_1ga10236edecf0d4d4b8fe8a8cec7faee6b" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>sceneButtonsList</name></member>
-      <member refid="group__GeneralGroup_1gaa723570687ac4d1ccc83d6a5305e69dd" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>sortTabsByPriority</name></member>
+      <member refid="group__GeneralGroup_1ga7815c9d07d493e520860da9ae9fbae28" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>sortTabsByPriority</name></member>
       <member refid="group__GeneralGroup_1ga21a3586ebedfeb4b958b58b82d741fb8" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>tabsMap</name></member>
       <member refid="group__GeneralGroup_1ga5773b44f78b9e6a2610bf2260a1891bd" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>tabsOrder</name></member>
-      <member refid="group__GeneralGroup_1ga0c1f7b3946e054a392a6a4699ab6c3ec" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>updateCaptions</name></member>
+      <member refid="group__GeneralGroup_1ga8af5edf8dcfc7e614da42890828f9e3e" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>updateCaptions</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

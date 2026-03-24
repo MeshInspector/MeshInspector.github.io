@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshEqualizeTriAreasParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshEqualizeTriAreasParams</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1MeshRelaxParams" prot="public" virt="non-virtual">mrmeshpy.MeshRelaxParams</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32214" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32373" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -27,7 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshEqualizeTriAreasParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -42,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32217" bodyend="32218"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32376" bodyend="32377"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams" kindref="compound">MeshEqualizeTriAreasParams</ref></type>
@@ -65,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32221" bodyend="32222"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32380" bodyend="32381"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams" kindref="compound">MeshEqualizeTriAreasParams</ref></type>
@@ -88,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32225" bodyend="32226"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32384" bodyend="32385"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +97,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshEqualizeTriAreasParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -109,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32228" bodyend="32229"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32387" bodyend="32388"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -117,7 +115,6 @@
         <argsstring>(self, MeshEqualizeTriAreasParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshEqualizeTriAreasParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -134,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32231" bodyend="32234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32390" bodyend="32393"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a9adb0d3a0077aa2e7e8144890529c327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155,7 +152,7 @@ technically it is done by solving the same task in the plane orthogonal to norma
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32236" bodyend="32240"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32395" bodyend="32399"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a86c82b0422af4f4e4b51c4caf1a53be6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -177,7 +174,7 @@ technically it is done by solving the same task in the plane orthogonal to norma
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32242" bodyend="32243"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32401" bodyend="32402"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -210,45 +207,49 @@ technically it is done by solving the same task in the plane orthogonal to norma
         <link refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="4" relation="usage">
-          <edgelabel>_offsetof_noShrinkage</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.MeshRelaxParams</label>
         <link refid="classmrmeshpy_1_1MeshRelaxParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
-        <childnode refid="4" relation="usage">
-          <edgelabel>_offsetof_hardSmoothTetrahedrons</edgelabel>
-          <edgelabel>_offsetof_weights</edgelabel>
-        </childnode>
       </node>
       <node id="3">
         <label>mrmeshpy.RelaxParams</label>
         <link refid="classmrmeshpy_1_1RelaxParams"/>
-        <childnode refid="4" relation="usage">
-          <edgelabel>_offsetof_force</edgelabel>
-          <edgelabel>_offsetof_iterations</edgelabel>
-          <edgelabel>_offsetof_limitNearInitial</edgelabel>
-          <edgelabel>_offsetof_maxInitialDist</edgelabel>
-          <edgelabel>_offsetof_region</edgelabel>
-        </childnode>
-      </node>
-      <node id="4">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32210" bodyend="32243"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32369" bodyend="32402"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a0abc4540e7a1dceca05532f83805798d" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>_offsetof_force</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1acf4bbafd2292b4b1f9cbcfd4165afde3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>_offsetof_hardSmoothTetrahedrons</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a4dbf7abbad7ece06d51acae2564f3f4d" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>_offsetof_iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1af24b5738eccaa7ecbc122678716b8851" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>_offsetof_limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a0b92ca2a90aaf638d65383b75a82661f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>_offsetof_maxInitialDist</name></member>
       <member refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a9da144f92dd3da28bd53f5fc487de963" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>_offsetof_noShrinkage</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a880bc11dc81254d52fa31ad35b44fa7e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1ae26f379815abc4182311a829d5475ab1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>_offsetof_weights</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a50cf8dcf97e972a6edc0d47c1ee1dd3e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>force</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a13bf0dd030baeca317670c6d33c74fe4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>force</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1a983affa5cbe5ee3c52b8a29bea7e076b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>hardSmoothTetrahedrons</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1a23eb82779d0d3407ad5688db3e277e9f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>hardSmoothTetrahedrons</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a68f885712a7a1f4522fddc1eaa0d163c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a35e06939d6f9c2868a2009ba180cdf83" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1ab6ff32ad8ff49d4f9e37b09d63a4bbee" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a78d217d8e068c4182eaf9a88db99d486" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a9a5588d458a45c4730429d7fa4e1d45e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1abbbd4e47677582624306fbf6d815071e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>maxInitialDist</name></member>
       <member refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a9adb0d3a0077aa2e7e8144890529c327" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>noShrinkage</name></member>
       <member refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a86c82b0422af4f4e4b51c4caf1a53be6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>noShrinkage</name></member>
       <member refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a3c50015019e887ebe84ccf46a5eb5526" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1ada1587f87d7047c2c5ef3bdf29526932" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1a0239cf6d7feec0e0325551a68f421b2b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>weights</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1a305b7d103879184cfc7d5654f6d82a40" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshEqualizeTriAreasParams</scope><name>weights</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

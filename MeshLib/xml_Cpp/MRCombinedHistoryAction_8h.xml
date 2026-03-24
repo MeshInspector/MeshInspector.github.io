@@ -1,52 +1,100 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCombinedHistoryAction_8h" kind="file" language="C++">
     <compoundname>MRCombinedHistoryAction.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRChangeMeshDataAction_8h" local="yes">MRChangeMeshDataAction.h</includedby>
+    <includedby refid="MRChangeMeshDataAction_8h" local="yes">MRMesh/MRChangeMeshDataAction.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
-        <label>MRCombinedHistoryAction.h</label>
+        <label>MRMesh/MRCombinedHistoryAction.h</label>
         <link refid="MRCombinedHistoryAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRHistoryAction.h</label>
         <link refid="MRHistoryAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
       </node>
       <node id="2">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>functional</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="14">
         <label>memory</label>
       </node>
-      <node id="5">
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
         <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRChangeMeshDataAction.h</label>
+        <label>MRMesh/MRChangeMeshDataAction.h</label>
         <link refid="MRChangeMeshDataAction_8h"/>
       </node>
       <node id="1">
-        <label>MRCombinedHistoryAction.h</label>
+        <label>MRMesh/MRCombinedHistoryAction.h</label>
         <link refid="MRCombinedHistoryAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -60,7 +108,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRHistoryAction_8h" kindref="compound">MRHistoryAction.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
@@ -68,26 +116,26 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1CombinedHistoryAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRMESH_CLASS<sp/><ref refid="classMR_1_1CombinedHistoryAction" kindref="compound">CombinedHistoryAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1CombinedHistoryAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" kindref="member">CombinedHistoryAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1gafca8a41417b4242303d650c7996ef7f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gafca8a41417b4242303d650c7996ef7f4" kindref="member">CombinedHistoryAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;&amp;<sp/>actions<sp/>);</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" kindref="member">CombinedHistoryAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;&amp;<sp/>actions<sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kindref="member">name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
 <codeline lineno="21"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name_;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="group__GeneralGroup_1ga8f6b646cd5256ca2f6cfdafba7db5d07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f6b646cd5256ca2f6cfdafba7db5d07" kindref="member">action</ref>(<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" kindref="member">action</ref>(<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" kindref="member">getStack</ref>()<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>actions_;<sp/>}</highlight></codeline>
 <codeline lineno="28" refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" kindref="member">getStack</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>actions_;<sp/>}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1ga25f7969b5daf7f81d5dc52abce1f5850" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga25f7969b5daf7f81d5dc52abce1f5850" kindref="member">filter</ref>(<sp/><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref><sp/>filteringCondition<sp/>);</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga6c4c522fab61f8a95e539f9b9449a6ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6c4c522fab61f8a95e539f9b9449a6ee" kindref="member">filter</ref>(<sp/><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref><sp/>filteringCondition<sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1ga24336720e6ef2e49fe759978a653cd93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga24336720e6ef2e49fe759978a653cd93" kindref="member">empty</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>actions_.empty();<sp/>};</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1gadba474c4514ebf52c64eb24ed5b104a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadba474c4514ebf52c64eb24ed5b104a1" kindref="member">heapBytes</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga83839aa6c5c2a8896645421552f26edd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga83839aa6c5c2a8896645421552f26edd" kindref="member">heapBytes</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref><sp/>actions_;</highlight></codeline>
@@ -96,6 +144,6 @@
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCombinedHistoryAction.h"/>
+    <location file="MRMesh/MRCombinedHistoryAction.h"/>
   </compounddef>
 </doxygen>

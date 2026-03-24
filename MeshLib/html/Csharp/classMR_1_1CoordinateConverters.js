@@ -6,6 +6,6 @@ var classMR_1_1CoordinateConverters =
     [ "CoordinateConverters", "classMR_1_1CoordinateConverters.html#ab7ba1d74494785018a7804e89500eaab", null ],
     [ "CoordinateConverters", "classMR_1_1CoordinateConverters.html#aa292c81be2e7d3a6e66dd2a8a641c2e2", null ],
     [ "assign", "classMR_1_1CoordinateConverters.html#a18117290599f66f19ff249b2ebdfeb4b", null ],
-    [ "toFloat", "classMR_1_1CoordinateConverters.html#ae22cd60e0868b631cfc064dfccc03c3e", null ],
-    [ "toInt", "classMR_1_1CoordinateConverters.html#af32874748b4b656cf78bc266c07cff3c", null ]
+    [ "toFloat", "classMR_1_1CoordinateConverters.html#a6f873ef5d48c124baf61313b29e986da", null ],
+    [ "toInt", "classMR_1_1CoordinateConverters.html#aa4dadd6d2e82a791a23b873ad8398a48", null ]
 ];

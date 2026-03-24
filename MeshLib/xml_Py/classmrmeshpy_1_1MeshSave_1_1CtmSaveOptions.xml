@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshSave::CtmSaveOptions</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1SaveSettings" prot="public" virt="non-virtual">mrmeshpy.SaveSettings</basecompoundref>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34255" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34530" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a4758e458b895fee81bb801ecacb886" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34256" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34531" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abda69ebfdd2e5a4da3c9534e47c152f3" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34257" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34532" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34258" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34533" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -75,7 +75,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -90,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34261" bodyend="34262"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34536" bodyend="34537"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">MeshSave.CtmSaveOptions</ref></type>
@@ -113,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34265" bodyend="34266"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34540" bodyend="34541"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">MeshSave.CtmSaveOptions</ref></type>
@@ -136,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34269" bodyend="34270"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34544" bodyend="34545"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -146,7 +145,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -157,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34272" bodyend="34273"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34547" bodyend="34548"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -165,7 +163,6 @@
         <argsstring>(self, MeshSave.CtmSaveOptions arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -182,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34275" bodyend="34278"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34550" bodyend="34553"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a956e4c8c9f97144d03dfb7fe8d9794d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -202,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34280" bodyend="34283"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34555" bodyend="34558"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1ac41bdd25af4e1bcbb5a3c6428d187f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -224,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34285" bodyend="34286"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34560" bodyend="34561"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1afcb14fcef3573ac486d9f227dcdca40f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -244,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34288" bodyend="34291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34563" bodyend="34566"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abc468dacfe71aaeedc4ed8a5e9ce928e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -266,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34293" bodyend="34294"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34568" bodyend="34569"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1af859fc36e5dced78f1909100abfbc1ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -286,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34296" bodyend="34299"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34571" bodyend="34574"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a92b755c6436f64bb14c58eddb274119e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -308,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34301" bodyend="34303"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34576" bodyend="34578"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -336,56 +333,71 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_compressionLevel</edgelabel>
-          <edgelabel>_offsetof_meshCompression</edgelabel>
-          <edgelabel>_offsetof_vertexPrecision</edgelabel>
-        </childnode>
-        <childnode refid="4" relation="usage">
           <edgelabel>meshCompression</edgelabel>
         </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>mrmeshpy.MeshSave</label>
         <link refid="classmrmeshpy_1_1MeshSave"/>
       </node>
       <node id="2">
         <label>mrmeshpy.SaveSettings</label>
         <link refid="classmrmeshpy_1_1SaveSettings"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_colors</edgelabel>
-          <edgelabel>_offsetof_lengthUnit</edgelabel>
-          <edgelabel>_offsetof_materialName</edgelabel>
-          <edgelabel>_offsetof_onlyValidPoints</edgelabel>
-          <edgelabel>_offsetof_packPrimitives</edgelabel>
-          <edgelabel>_offsetof_primitiveColors</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-          <edgelabel>_offsetof_saveTriCornerUVCoords</edgelabel>
-          <edgelabel>_offsetof_solidColor</edgelabel>
-          <edgelabel>_offsetof_texture</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34210" bodyend="34302"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34485" bodyend="34577"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae35a7ec8495ce94e1fd03b4dceac8b5f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_colors</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a20f9077d22db80d71fcdcca58842b028" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_compressionLevel</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a8689618a7bd4e0b9bcd1563ec2f220b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aa24db8f1e6975b4e80299b0395b5d277" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_materialName</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a4758e458b895fee81bb801ecacb886" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_meshCompression</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1af6382673ee79bdbd4ef8eedd3cae6ffb" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_onlyValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1abb16dd24f03313ac7488a06d561dcf85" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a9927f2981c0a4a5de094c3c16dde8189" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ad48354bde4088e2b337e62c9d86b3e1b" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a819623127578de57657b454d96613484" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aac63ae0eae5e3bea4e338ebfb82eb2c3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1acacfe86c98d114f89fd4c30ba9634ef1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ac88cf3cf5ff30969ae1804138eca04d5" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_uvMap</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abda69ebfdd2e5a4da3c9534e47c152f3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_vertexPrecision</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae8e98c842cbdd98ba61fd4f582a23e00" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a5ec9ce1fa6f90eb7f892b31b2b3ef370" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a8aa43c02d17f5a9ee0e26dce9257efbd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>colors</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a956e4c8c9f97144d03dfb7fe8d9794d6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>comment</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1ac41bdd25af4e1bcbb5a3c6428d187f18" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>comment</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1afcb14fcef3573ac486d9f227dcdca40f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>compressionLevel</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abc468dacfe71aaeedc4ed8a5e9ce928e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>compressionLevel</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1abeb98dbc79164c4ca44a5572bf87ae7c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae1c9049be74df3d1d5033225df842d1f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ab0308bab262ffed82505833c80b2e3c0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>materialName</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1af17c4b730c97288805ab8983e82d8704" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>materialName</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1aea6181b66c32763c6249f29b15bac756" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>meshCompression</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a699b99fafa9f99d7b5ac668d94846b54" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>onlyValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aa55f96bf1a4f0fbdf29abebca792cf0e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>onlyValidPoints</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a2757d2692d68494072f1f487909ffe3b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a5440f2cb435a919c342ecba70d7bcc84" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a491d341e64709efc64bfb7b06c61cb94" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ab923837c094808909182c58c0a176578" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ad2aa92a9933e1da8144093512a63814f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a1814186f22bbc6e369572926674e3f80" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1afdec538a28f221bf5f8fd37437261098" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a065faec4aa15fddb07aeab33ec88d3e1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a1c4405d19328e0f1b917e56fac7f7c8f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a6562a7051c49a9ce7d811f217eeeb77e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a60eff520b1c3959b2b96552b61ed69db" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aebb954e2bd869408a83b791b34b2196c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a33660f56044f095ceee7e8f4d5aa2f3b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>uvMap</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a81771cf4e4023c678647efcd50223e01" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>uvMap</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1af859fc36e5dced78f1909100abfbc1ad" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>vertexPrecision</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a92b755c6436f64bb14c58eddb274119e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>vertexPrecision</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a254000896cbd0bbab818dc27474361cb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a68ee31992d19548930e73b7a6d4a1aaa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

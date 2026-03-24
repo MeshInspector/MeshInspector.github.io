@@ -1,21 +1,13 @@
 var MRMeshFixer_8h =
 [
-    [ "MR_expected_MR_FaceBitSet_std_string", "MRMeshFixer_8h.html#a6aeecd4fac2aea90513510421de3f37b", null ],
     [ "MR_expected_MR_UndirectedEdgeBitSet_std_string", "MRMeshFixer_8h.html#a944af0e4dff57f7dcf5aa04b59a15478", null ],
     [ "MR_expected_std_vector_std_pair_MR_VertId_MR_VertId_std_string", "MRMeshFixer_8h.html#a285e97d219529a43a8a99858b9f3a6f0", null ],
-    [ "MR_expected_void_std_string", "MRMeshFixer_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_FaceBitSet", "MRMeshFixer_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FindDisorientationParams", "MRMeshFixer_8h.html#a8b315a4121c14a02980f9829ed157478", null ],
     [ "MR_FindDisorientationParams_RayMode", "MRMeshFixer_8h.html#ae2948643a9b4a21a180f95b23bfefd57", null ],
     [ "MR_FixCreasesParams", "MRMeshFixer_8h.html#a20e4792db8d6b25ffd07778de35cd703", null ],
     [ "MR_FixMeshDegeneraciesParams", "MRMeshFixer_8h.html#afe9246c90eb396b143e97e632c16430f", null ],
     [ "MR_FixMeshDegeneraciesParams_Mode", "MRMeshFixer_8h.html#a8df9e9efb3dd3c259d1a86c3f3a25d75", null ],
-    [ "MR_Mesh", "MRMeshFixer_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRMeshFixer_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_MeshTopology", "MRMeshFixer_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
-    [ "MR_std_function_bool_from_float", "MRMeshFixer_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId", "MRMeshFixer_8h.html#a1682e01fece3508ee71854ce279dac6c", null ],
-    [ "MR_VertBitSet", "MRMeshFixer_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_FindDisorientationParams_RayMode", "MRMeshFixer_8h.html#acde45ba5062238bd079f1e1b22732227", [
       [ "MR_FindDisorientationParams_RayMode_Positive", "MRMeshFixer_8h.html#acde45ba5062238bd079f1e1b22732227a32cadeb3cce3936fac1bb79e624bfdd9", null ],
       [ "MR_FindDisorientationParams_RayMode_Shallowest", "MRMeshFixer_8h.html#acde45ba5062238bd079f1e1b22732227acdcfed748ac00782a69e6822b837d05b", null ],

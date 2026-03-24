@@ -1,0 +1,569 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h" kind="file" language="C++">
+    <compoundname>std_shared_ptr_MR_ChangeVisualizePropertyAction.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_shared_ptr_MR_ChangeVisualizePropertyAction.h</label>
+        <link refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_ChangeVisualizePropertyAction MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>MR::ChangeVisualizePropertyAction</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="20" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a68c1adc402906d9c3963bd40b62146e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="24" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="24" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1aec1b7ea6554a63b1d9886a0114fdf52c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a20865032876543b147563e4f5e62d8f6" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a9f867225cda734a789c8e5f491d607c5" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1adff341c2bac3276355e1d5ced35f2147" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="29" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="29" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1af49b75c471253dd43eaca74b0262ce73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="35" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="35" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a6249f2824ccf41d42c0e22682432e9a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignFromAnother</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a20865032876543b147563e4f5e62d8f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DestroyArray</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1adff341c2bac3276355e1d5ced35f2147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_OffsetPtr</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="51" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="51" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a9f867225cda734a789c8e5f491d607c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="55" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="55" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a0f044107cc486b4e39344d825d55ac2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_get</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_get</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stored pointer, possibly null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="60" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="60" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ac6b8848a961fc1b51297ceb9d915c946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_has_value</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_has_value</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if non-null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a7280fb9d8c452c8567e7c88b3ff42da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_use_count</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_use_count</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a0f044107cc486b4e39344d825d55ac2a" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_get()</ref></computeroutput> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8e5580dcb8b55a387e8bc9bda9a84917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_reset</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_reset</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the pointer to null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a2180aaf229ff25ca6fbd4ee5350d1a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructFromValue</definition>
+        <argsstring>(MR_PassBy value_pass_by, MR_ChangeVisualizePropertyAction *value)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructFromValue</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a value. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="80" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="80" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a33bacd6293c5871f3205d71eddb4489f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Construct</definition>
+        <argsstring>(MR_ChangeVisualizePropertyAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Construct</name>
+        <param>
+          <type><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, taking ownership of an existing pointer. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRChangeObjectFields_8h_1a7c32fe5f9ba92a508543fd3ed55947de" kindref="member">MR_ChangeVisualizePropertyAction_Destroy()</ref></computeroutput> on it automatically. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="86" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="86" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1af88bcb2b7b556a7a4aef91c0011b7494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Assign</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this, MR_ChangeVisualizePropertyAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Assign</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRChangeObjectFields_8h_1a7c32fe5f9ba92a508543fd3ed55947de" kindref="member">MR_ChangeVisualizePropertyAction_Destroy()</ref></computeroutput> on it automatically. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="92" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a3afdb4f928437d20af9e28d2bd0e4ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructNonOwning</definition>
+        <argsstring>(MR_ChangeVisualizePropertyAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructNonOwning</name>
+        <param>
+          <type><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, storing a non-owning pointer. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="98" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="98" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a48bd049bb924a0436653bfda903f8e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignNonOwning</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this, MR_ChangeVisualizePropertyAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignNonOwning</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="104" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ae3453b494c0d96abc8b4cd2a23518af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeVisualizePropertyAction * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructAliasing</definition>
+        <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ChangeVisualizePropertyAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructAliasing</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="111" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="111" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ac998cb25f5ec58dafdc02be02a7bbc7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignAliasing</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ChangeVisualizePropertyAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignAliasing</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a2d230693d89b796a0213fbe0d4a1a5e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_void * MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConvertTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConvertTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an untyped <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> pointing to the same object as the source typed pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__void_8h_1a4058fff40b43d1e3047fc56d51306aa3" kindref="member">MR_std_shared_ptr_void_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="123" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="123" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a1562418f24a0286e4d1a678e73302368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeVisualizePropertyAction *_this, MR_std_shared_ptr_void *_target)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+          <declname>_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrites an existing <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> to point to the same object as this instance. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_target</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h" declline="128" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectFields.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a68c1adc402906d9c3963bd40b62146e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a68c1adc402906d9c3963bd40b62146e1" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1aec1b7ea6554a63b1d9886a0114fdf52c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1aec1b7ea6554a63b1d9886a0114fdf52c" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1af49b75c471253dd43eaca74b0262ce73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1af49b75c471253dd43eaca74b0262ce73" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a6249f2824ccf41d42c0e22682432e9a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a6249f2824ccf41d42c0e22682432e9a4" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8d48a1cfeb30d31eb82368a37b7b5d23" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a20865032876543b147563e4f5e62d8f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a20865032876543b147563e4f5e62d8f6" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1adff341c2bac3276355e1d5ced35f2147" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1adff341c2bac3276355e1d5ced35f2147" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a9f867225cda734a789c8e5f491d607c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a9f867225cda734a789c8e5f491d607c5" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a0f044107cc486b4e39344d825d55ac2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a0f044107cc486b4e39344d825d55ac2a" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ac6b8848a961fc1b51297ceb9d915c946" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ac6b8848a961fc1b51297ceb9d915c946" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a7280fb9d8c452c8567e7c88b3ff42da1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a7280fb9d8c452c8567e7c88b3ff42da1" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8e5580dcb8b55a387e8bc9bda9a84917" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a8e5580dcb8b55a387e8bc9bda9a84917" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_reset</ref>(<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a2180aaf229ff25ca6fbd4ee5350d1a48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a2180aaf229ff25ca6fbd4ee5350d1a48" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a33bacd6293c5871f3205d71eddb4489f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a33bacd6293c5871f3205d71eddb4489f" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Construct</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1af88bcb2b7b556a7a4aef91c0011b7494" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1af88bcb2b7b556a7a4aef91c0011b7494" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_Assign</ref>(<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a3afdb4f928437d20af9e28d2bd0e4ec4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a3afdb4f928437d20af9e28d2bd0e4ec4" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructNonOwning</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a48bd049bb924a0436653bfda903f8e6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a48bd049bb924a0436653bfda903f8e6b" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignNonOwning</ref>(<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ae3453b494c0d96abc8b4cd2a23518af6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ae3453b494c0d96abc8b4cd2a23518af6" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ac998cb25f5ec58dafdc02be02a7bbc7a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1ac998cb25f5ec58dafdc02be02a7bbc7a" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignAliasing</ref>(<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a2d230693d89b796a0213fbe0d4a1a5e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a2d230693d89b796a0213fbe0d4a1a5e5" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a1562418f24a0286e4d1a678e73302368" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a1562418f24a0286e4d1a678e73302368" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeVisualizePropertyAction_8h_1a82c670d27cc894b6087f23cfe214f862" kindref="member">MR_std_shared_ptr_MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeVisualizePropertyAction.h"/>
+  </compounddef>
+</doxygen>

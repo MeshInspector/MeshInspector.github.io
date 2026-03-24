@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectSave" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectSave</compoundname>
     <innerclass refid="classMR_1_1ObjectSave_1_1Settings" prot="public">MR::ObjectSave::Settings</innerclass>
@@ -52,7 +52,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>save a scene object to a given file if the file format is scene-capable, saves all the object&apos;s entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) Generated from function <computeroutput><ref refid="classMR_1_1ObjectSave_1ac2eff38293664a74185b3ba0781db0bb" kindref="member">MR.ObjectSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>save a scene object to a given file if the file format is scene-capable, saves all the object's entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) Generated from function <computeroutput><ref refid="classMR_1_1ObjectSave_1ac2eff38293664a74185b3ba0781db0bb" kindref="member">MR.ObjectSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -65,7 +65,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="4" bodyend="265"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" bodystart="4" bodyend="43"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjectSave_1ac2eff38293664a74185b3ba0781db0bb" prot="public" virt="non-virtual"><scope>MR::ObjectSave</scope><name>toAnySupportedFormat</name></member>
       <member refid="classMR_1_1ObjectSave_1a02ea345222c8335edd77a73314e87e68" prot="public" virt="non-virtual"><scope>MR::ObjectSave</scope><name>toAnySupportedSceneFormat</name></member>

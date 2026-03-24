@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSurroundingContour_8h" kind="file" language="C++">
     <compoundname>MRSurroundingContour.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
@@ -7,86 +7,114 @@
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes local="no">vector</includes>
     <incdepgraph>
-      <node id="8">
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="18">
+      <node id="25">
         <label>MREdgeMetric.h</label>
         <link refid="MREdgeMetric_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MREdgePaths.h</label>
-        <link refid="MREdgePaths_8h"/>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="23">
-        <label>MRExpected.h</label>
-        <link refid="MRExpected_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
+        <label>MREdgePaths.h</label>
+        <link refid="MREdgePaths_8h"/>
         <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="16">
+      <node id="28">
+        <label>MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="20">
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRSurroundingContour.h</label>
+        <label>MRMesh/MRSurroundingContour.h</label>
         <link refid="MRSurroundingContour_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -106,64 +134,71 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="24">
-        <label>MRPch/MRExpected.h</label>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="29">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="18">
         <label>algorithm</label>
       </node>
-      <node id="17">
+      <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
         <label>cassert</label>
       </node>
-      <node id="21">
+      <node id="27">
         <label>cfloat</label>
       </node>
-      <node id="11">
+      <node id="19">
         <label>cmath</label>
       </node>
       <node id="5">
         <label>cstddef</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>cstring</label>
       </node>
-      <node id="19">
+      <node id="15">
         <label>functional</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>iosfwd</label>
       </node>
-      <node id="25">
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
         <label>string</label>
       </node>
       <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
       </node>
-      <node id="22">
+      <node id="12">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -184,22 +219,22 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="group__MeshSegmentationGroup_1ga92dbf357e425dd6e8d7f76ab544250c5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;EdgeLoop&gt;</ref><sp/><ref refid="group__MeshSegmentationGroup_1ga92dbf357e425dd6e8d7f76ab544250c5" kindref="member">surroundingContour</ref>(</highlight></codeline>
+<codeline lineno="25" refid="group__MeshSegmentationGroup_1ga523c39ef67221263d3946ae1621fa9e4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;EdgeLoop&gt;</ref><sp/><ref refid="group__MeshSegmentationGroup_1ga523c39ef67221263d3946ae1621fa9e4" kindref="member">surroundingContour</ref>(</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgeId&gt;<sp/>includeEdges,</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EdgeMetric<sp/>&amp;<sp/>edgeMetric,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/>&amp;<sp/>edgeMetric,</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="group__MeshSegmentationGroup_1ga0f96f1d3fde9a79a2d6925cf6ba77f8d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;EdgeLoop&gt;</ref><sp/><ref refid="group__MeshSegmentationGroup_1ga92dbf357e425dd6e8d7f76ab544250c5" kindref="member">surroundingContour</ref>(</highlight></codeline>
+<codeline lineno="43" refid="group__MeshSegmentationGroup_1ga46d905801bbc9f1713086eceb50f7799" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;EdgeLoop&gt;</ref><sp/><ref refid="group__MeshSegmentationGroup_1ga523c39ef67221263d3946ae1621fa9e4" kindref="member">surroundingContour</ref>(</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;VertId&gt;<sp/>keyVertices,</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EdgeMetric<sp/>&amp;<sp/>edgeMetric,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/>&amp;<sp/>edgeMetric,</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir</highlight></codeline>
 <codeline lineno="48"><highlight class="normal">);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h"/>
+    <location file="MRMesh/MRSurroundingContour.h"/>
   </compounddef>
 </doxygen>

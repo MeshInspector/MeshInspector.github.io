@@ -1,9 +1,7 @@
 var MRIntersectionContour_8h =
 [
-    [ "MR_MeshTopology", "MRIntersectionContour_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_std_vector_int", "MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79", null ],
     [ "MR_std_vector_MR_EdgeTri", "MRIntersectionContour_8h.html#a3d502e2ab46b5aa656a771e8cbbb3ab9", null ],
-    [ "MR_std_vector_MR_OneMeshContour", "MRIntersectionContour_8h.html#a071da9f0f67109f51758510529ba0b5b", null ],
     [ "MR_std_vector_MR_VarEdgeTri", "MRIntersectionContour_8h.html#a1b4353d07e0d9c78080a20bc84d0ebf3", null ],
     [ "MR_std_vector_std_vector_MR_VarEdgeTri", "MRIntersectionContour_8h.html#ab48ef760c2671fd11ca83216d1b17ff8", null ],
     [ "MR_detectLoneContours", "MRIntersectionContour_8h.html#abb8db66f1ee968fe7e97385921d87447", null ],

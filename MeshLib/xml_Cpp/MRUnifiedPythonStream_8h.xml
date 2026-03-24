@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUnifiedPythonStream_8h" kind="file" language="C++">
     <compoundname>MRUnifiedPythonStream.h</compoundname>
     <includes local="yes">exports.h</includes>
     <includes local="no">sstream</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRUnifiedPythonStream.h</label>
+        <label>MRPython/MRUnifiedPythonStream.h</label>
         <link refid="MRUnifiedPythonStream_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -33,19 +33,19 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"></codeline>
-<codeline lineno="12" refid="classMR_1_1UnifiedPythonStream" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRPYTHON_CLASS<sp/><ref refid="classMR_1_1UnifiedPythonStream" kindref="compound">UnifiedPythonStream</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classMR_1_1UnifiedPythonStream" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRPYTHON_CLASS<sp/>UnifiedPythonStream</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga68a97ff9c823539594b0ebedef0ba8b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRPYTHON_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::stringstream&amp;<sp/><ref refid="group__GeneralGroup_1ga68a97ff9c823539594b0ebedef0ba8b1" kindref="member">get</ref>();</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1UnifiedPythonStream" kindref="compound">UnifiedPythonStream</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1UnifiedPythonStream" kindref="compound">~UnifiedPythonStream</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>UnifiedPythonStream()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>~UnifiedPythonStream()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>std::stringstream<sp/>ss_;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRUnifiedPythonStream.h"/>
+    <location file="MRPython/MRUnifiedPythonStream.h"/>
   </compounddef>
 </doxygen>

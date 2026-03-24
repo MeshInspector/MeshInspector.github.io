@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</compoundname>
     <sectiondef kind="public-static-func">
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33031" bodyend="33032"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33306" bodyend="33307"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a757070f13d9de3a8585703f392b910ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33034" bodyend="33037"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33309" bodyend="33312"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ae0f2ea1564dc2c1cc9740ed2666bdd8b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33039" bodyend="33040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33314" bodyend="33315"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a9bd6e0269355f0dc32187c0f9767a5ca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -94,7 +94,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33043" bodyend="33047"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33318" bodyend="33322"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a4c7d2ba0a031668e24975ad16e5839c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -116,7 +116,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33050" bodyend="33051"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33325" bodyend="33326"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -152,7 +152,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33053" bodyend="33054"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33328" bodyend="33329"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1aa0ed41594567f76540cd9b85560d4f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -176,7 +176,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33056" bodyend="33059"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33331" bodyend="33334"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a380ae038e29f3e7a6724f6172945b0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -198,7 +198,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33061" bodyend="33062"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33336" bodyend="33337"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a06a13987d12d724fc669f8778c6e423f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -222,7 +222,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33063" bodyend="33066"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33338" bodyend="33341"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1aef0be3993012a3da9f25e1247bfcfe12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -254,7 +254,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33067" bodyend="33070"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33342" bodyend="33345"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ac7139fba9c0a66484cce451d5cfaf198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -278,7 +278,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33071" bodyend="33074"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33346" bodyend="33349"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ad25f2c9646826d2534ddba71cd5da907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -310,7 +310,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33075" bodyend="33078"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33350" bodyend="33353"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ac92882451fa636bf0caf841a56532f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -330,7 +330,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33079" bodyend="33082"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33354" bodyend="33357"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a4ec494f823991623909bd94a19044fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -350,7 +350,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33083" bodyend="33086"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33358" bodyend="33361"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ae577c40d3269eadc2150834dd87641b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -374,7 +374,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33087" bodyend="33090"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33362" bodyend="33365"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a7c705efe3d88bc3f71a64d50779f2541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
@@ -392,7 +392,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33091" bodyend="33092"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33366" bodyend="33367"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a2f6c94c2bb55700026f87452752aabc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -412,7 +412,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33093" bodyend="33096"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33368" bodyend="33371"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a8348f7cd9e39e0635510b16fda83a789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -433,7 +433,7 @@ All points are in voxels volume space, unless otherwise is implied
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33098" bodyend="33102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33373" bodyend="33377"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a741c29aa1a63b5192f4c7ff99ad6435c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -455,7 +455,7 @@ All points are in voxels volume space, unless otherwise is implied
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33104" bodyend="33105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33379" bodyend="33380"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ad0b1dd40d49992e9e13e5e253abfdb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -473,7 +473,7 @@ All points are in voxels volume space, unless otherwise is implied
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33107" bodyend="33108"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33382" bodyend="33383"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a1565b495b0b9c9304e2e13d924df54cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -495,7 +495,7 @@ All points are in voxels volume space, unless otherwise is implied
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33110" bodyend="33111"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33385" bodyend="33386"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -508,7 +508,7 @@ Helper class to organize mesh and voxels volume access and build point sequences
 \\note this class is not thread-safe but accessing same volume from different instances is ok
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33022" bodyend="33111"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33297" bodyend="33386"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a6ed3bf72eb5d74df03f5a2f89eefe746" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1aa0ed41594567f76540cd9b85560d4f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>__init__</name></member>

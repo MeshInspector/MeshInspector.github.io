@@ -16,6 +16,7 @@ var classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId =
     [ "data", "classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html#a36a895723dfd8dda97f8521094135b10", null ],
     [ "emplaceBack", "classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html#ace13f1ccad64b82b43f0aa1522a5d9d3", null ],
     [ "front", "classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html#aa0690e45dcd3a78f6f9ba70598876e02", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html#a2fb539c85f3fec36d58dc0aeb34057f8", null ],
     [ "operator Vector_MRWatershedGraphBasinInfo_MRGraphVertId", "classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html#a26e5c710a78c1ed51b68e06b9593ba02", null ],
     [ "popBack", "classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html#aff46f98e40d1fab4f4c69a5dd2cfa5ed", null ],
     [ "pushBack", "classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html#a374850e14964dbeb03ed9fd464581297", null ],

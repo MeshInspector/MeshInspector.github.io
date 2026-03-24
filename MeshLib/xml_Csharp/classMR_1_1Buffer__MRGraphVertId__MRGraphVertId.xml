@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRGraphVertId_MRGraphVertId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRGraphVertId_MRGraphVertId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab268b5bc42d760d3dc1b1f8a24b24d1b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1NoDefInit__MRGraphVertId" kindref="compound">MR.NoDefInit_MRGraphVertId</ref></type>
@@ -11,13 +12,166 @@
         <name>this[MR.GraphVertId i]</name>
         <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.this[MR.GraphVertId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3453" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3454" bodyend="3464"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4881" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4882" bodyend="4892"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4f4c8cc2691507b40de6bcd8ea96fa4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1NoDefInit__MRGraphVertId" kindref="compound">MR.NoDefInit_MRGraphVertId</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.NoDefInit_MRGraphVertId &gt; MR.Buffer_MRGraphVertId_MRGraphVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4803" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4803" bodyend="4806"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a27cfd9dcdfea3fed409abc504158feab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Buffer_MRGraphVertId_MRGraphVertId</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4818" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4818" bodyend="4823"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a951cba82ef92d8364374154f6098dce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</definition>
+        <argsstring>(MR._ByValue_Buffer_MRGraphVertId_MRGraphVertId _other)</argsstring>
+        <name>Buffer_MRGraphVertId_MRGraphVertId</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRGraphVertId_MRGraphVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4828" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4828" bodyend="4834"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a1e73e4cbd9f20149f6b7d0b28b7fa1f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Buffer_MRGraphVertId_MRGraphVertId</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4839" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4839" bodyend="4844"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a2962f432bd711b425b5ca86382be1c1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId" kindref="compound">MR.Buffer_MRGraphVertId_MRGraphVertId</ref></type>
+        <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId MR.Buffer_MRGraphVertId_MRGraphVertId.assign</definition>
+        <argsstring>(MR._ByValue_Buffer_MRGraphVertId_MRGraphVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRGraphVertId_MRGraphVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4849" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4849" bodyend="4856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab2e0a7f21351da0ab3c70d7b0a3914a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MRGraphVertId_MRGraphVertId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab2e0a7f21351da0ab3c70d7b0a3914a6" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4861" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4861" bodyend="4866"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4c0f25fe97f4aa6dd24ba69d50086a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MRGraphVertId_MRGraphVertId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4c0f25fe97f4aa6dd24ba69d50086a11" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4871" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4871" bodyend="4876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a05f34ef83f74f5fc4efc70056a1ecad0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRGraphVertId" kindref="compound">NoDefInit_MRGraphVertId</ref></type>
+        <definition>unsafe new MR.? NoDefInit_MRGraphVertId MR.Buffer_MRGraphVertId_MRGraphVertId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a05f34ef83f74f5fc4efc70056a1ecad0" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4897" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4897" bodyend="4906"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab011033799d30971d6ecf27dc40bde3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Buffer_MRGraphVertId_MRGraphVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4808" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4808" bodyend="4811"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,134 +195,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3385" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3385" bodyend="3385"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a27cfd9dcdfea3fed409abc504158feab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</definition>
-        <argsstring>()</argsstring>
-        <name>Buffer_MRGraphVertId_MRGraphVertId</name>
-        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3390" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3390" bodyend="3395"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a951cba82ef92d8364374154f6098dce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</definition>
-        <argsstring>(MR._ByValue_Buffer_MRGraphVertId_MRGraphVertId _other)</argsstring>
-        <name>Buffer_MRGraphVertId_MRGraphVertId</name>
-        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MRGraphVertId_MRGraphVertId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3400" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3400" bodyend="3406"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a1e73e4cbd9f20149f6b7d0b28b7fa1f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Buffer_MRGraphVertId_MRGraphVertId</name>
-        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3411" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3411" bodyend="3416"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a2962f432bd711b425b5ca86382be1c1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId" kindref="compound">MR.Buffer_MRGraphVertId_MRGraphVertId</ref></type>
-        <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId MR.Buffer_MRGraphVertId_MRGraphVertId.assign</definition>
-        <argsstring>(MR._ByValue_Buffer_MRGraphVertId_MRGraphVertId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MRGraphVertId_MRGraphVertId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3421" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3421" bodyend="3428"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab2e0a7f21351da0ab3c70d7b0a3914a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MRGraphVertId_MRGraphVertId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3433" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3433" bodyend="3438"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4c0f25fe97f4aa6dd24ba69d50086a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MRGraphVertId_MRGraphVertId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3443" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3443" bodyend="3448"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a05f34ef83f74f5fc4efc70056a1ecad0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRGraphVertId" kindref="compound">NoDefInit_MRGraphVertId</ref></type>
-        <definition>unsafe new MR.? NoDefInit_MRGraphVertId MR.Buffer_MRGraphVertId_MRGraphVertId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3469" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3469" bodyend="3478"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4813" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4813" bodyend="4813"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+<para>std::vector&amp;lt;V&amp;gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -184,55 +215,69 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Buffer_MRGraphVertId_MRGraphVertId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Buffer_MRGraphVertId_MRGraphVertId</label>
         <link refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Buffer_MRGraphVertId_MRGraphVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Buffer_MRGraphVertId_MRGraphVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Buffer_MRGraphVertId_MRGraphVertId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Buffer_MRGraphVertId_MRGraphVertId</label>
         <link refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Buffer_MRGraphVertId_MRGraphVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Buffer_MRGraphVertId_MRGraphVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3383" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3384" bodyend="3479"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4747" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4748" bodyend="4907"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a2962f432bd711b425b5ca86382be1c1a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>assign</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a5782bf032e938ef480033d8aafea779a" prot="package" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
@@ -241,6 +286,8 @@
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a1e73e4cbd9f20149f6b7d0b28b7fa1f1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab2e0a7f21351da0ab3c70d7b0a3914a6" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>clear</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a05f34ef83f74f5fc4efc70056a1ecad0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4f4c8cc2691507b40de6bcd8ea96fa4b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab011033799d30971d6ecf27dc40bde3e" prot="private" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4c0f25fe97f4aa6dd24ba69d50086a11" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>resize</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab268b5bc42d760d3dc1b1f8a24b24d1b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
     </listofallmembers>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Box__ObjVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Box_ObjVertId</compoundname>
     <basecompoundref refid="classMR_1_1ConstBox__ObjVertId" prot="public" virt="non-virtual">MR.ConstBox_ObjVertId</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="413" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="413" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="429" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="429" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Box__ObjVertId_1a1ebd81bec0781aada59906eba456e845" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="415" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="415" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="431" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="431" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="420" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="420" bodyend="420"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="436" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="436" bodyend="436"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__ObjVertId_1a800e6fbc43a8ff59360015ea90b62d9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="427" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="427" bodyend="431"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="443" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="443" bodyend="447"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__ObjVertId_1a9abf4d3cfa62960da84cfca810295e3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="436" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="436" bodyend="436"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="452" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="452" bodyend="452"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__ObjVertId_1a744343fd95e6590d5c35fc22e5dbb116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="441" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="441" bodyend="447"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="457" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="457" bodyend="463"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="422" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="422" bodyend="422"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="438" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="438" bodyend="438"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -137,8 +137,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Box_ObjVertId</label>
+        <link refid="classMR_1_1Box__ObjVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_ObjVertId</label>
+        <label>MR.ConstBox_ObjVertId</label>
         <link refid="classMR_1_1ConstBox__ObjVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -147,25 +153,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_ObjVertId</label>
-        <link refid="classMR_1_1Box__ObjVertId"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_ObjVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.ConstBox_ObjVertId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Box_ObjVertId</label>
+        <link refid="classMR_1_1Box__ObjVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_ObjVertId</label>
+        <label>MR.ConstBox_ObjVertId</label>
         <link refid="classMR_1_1ConstBox__ObjVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -174,23 +180,17 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_ObjVertId</label>
-        <link refid="classMR_1_1Box__ObjVertId"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_ObjVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.ConstBox_ObjVertId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="406" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="407" bodyend="448"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="422" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="423" bodyend="464"/>
     <listofallmembers>
       <member refid="classMR_1_1Box__ObjVertId_1a9abf4d3cfa62960da84cfca810295e3e" prot="public" virt="non-virtual"><scope>MR::Box_ObjVertId</scope><name>Assign</name></member>
       <member refid="classMR_1_1Box__ObjVertId_1ab83804ef79850cbe3d1f04ca0b2ef0ff" prot="public" virt="non-virtual"><scope>MR::Box_ObjVertId</scope><name>Box_ObjVertId</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVDBConversions_8h" kind="file" language="C++">
     <compoundname>MRVDBConversions.h</compoundname>
-    <includes local="yes">MRVoxelsFwd.h</includes>
+    <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
     <includes refid="MRMeshPart_8h" local="yes">MRMesh/MRMeshPart.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRMesh/MRProgressCallback.h</includes>
     <includes refid="MRAffineXf3_8h" local="yes">MRMesh/MRAffineXf3.h</includes>
@@ -11,226 +11,273 @@
     <includes local="no">climits</includes>
     <includes local="no">string</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRBoolean_8h" local="yes">MRBoolean.h</includedby>
-    <includedby refid="MRPolylineToVoxels_8h" local="yes">MRPolylineToVoxels.h</includedby>
+    <includedby refid="MRBoolean_8h" local="yes">MRVoxels/MRBoolean.h</includedby>
+    <includedby refid="MRPolylineToVoxels_8h" local="yes">MRVoxels/MRPolylineToVoxels.h</includedby>
     <incdepgraph>
-      <node id="21">
+      <node id="29">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="18">
         <label>MRMesh/MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="32">
         <label>MRMesh/MRBox.h</label>
         <link refid="MRBox_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
-      <node id="15">
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="22">
+      <node id="30">
         <label>MRMesh/MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="19">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
       </node>
-      <node id="10">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="9">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMesh/MRMeshPart.h</label>
-        <link refid="MRMeshPart_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="15">
+        <label>MRMesh/MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MRVoxels/MRVDBConversions.h</label>
+        <link refid="MRVDBConversions_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="26">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRVDBConversions.h</label>
-        <link refid="MRVDBConversions_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-      </node>
-      <node id="27">
-        <label>MRMesh/MRMeshFwd.h</label>
-      </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="16">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="23">
-        <label>MRPch/MRExpected.h</label>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
-      <node id="17">
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="31">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="25">
         <label>algorithm</label>
       </node>
-      <node id="6">
-        <label>cassert</label>
-      </node>
-      <node id="29">
-        <label>climits</label>
-      </node>
-      <node id="7">
-        <label>cmath</label>
-      </node>
-      <node id="13">
-        <label>cstddef</label>
-      </node>
-      <node id="18">
-        <label>cstring</label>
-      </node>
-      <node id="19">
-        <label>iosfwd</label>
-      </node>
-      <node id="28">
-        <label>limits</label>
-      </node>
-      <node id="30">
-        <label>optional</label>
-      </node>
-      <node id="24">
-        <label>string</label>
+      <node id="9">
+        <label>array</label>
       </node>
       <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="35">
+        <label>climits</label>
+      </node>
+      <node id="17">
+        <label>cmath</label>
+      </node>
+      <node id="22">
+        <label>cstddef</label>
+      </node>
+      <node id="26">
+        <label>cstring</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="27">
+        <label>iosfwd</label>
+      </node>
+      <node id="34">
+        <label>limits</label>
+      </node>
+      <node id="36">
+        <label>optional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="23">
         <label>type_traits</label>
       </node>
-      <node id="20">
+      <node id="28">
         <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRBoolean.h</label>
+        <label>MRVoxels/MRBoolean.h</label>
         <link refid="MRBoolean_8h"/>
       </node>
       <node id="3">
-        <label>MRPolylineToVoxels.h</label>
+        <label>MRVoxels/MRPolylineToVoxels.h</label>
         <link refid="MRPolylineToVoxels_8h"/>
       </node>
       <node id="1">
-        <label>MRVDBConversions.h</label>
+        <label>MRVoxels/MRVDBConversions.h</label>
         <link refid="MRVDBConversions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -250,7 +297,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRVoxelsFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxelsFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshPart_8h" kindref="compound">MRMesh/MRMeshPart.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRMesh/MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -265,55 +312,55 @@
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1gadc86f37e5a8bb2c7c0b30dfc636d8e90" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__GeneralGroup_1gadc86f37e5a8bb2c7c0b30dfc636d8e90" kindref="member">meshToLevelSet</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga4a5a5572b6bfd680678650c3da0badcd" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__GeneralGroup_1ga4a5a5572b6bfd680678650c3da0badcd" kindref="member">meshToLevelSet</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>voxelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>surfaceOffset<sp/>=<sp/>3,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1ga3327e8bcfee1e492daeb80b3500c2ca2" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__GeneralGroup_1ga3327e8bcfee1e492daeb80b3500c2ca2" kindref="member">meshToDistanceField</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gad6792f245ad7c79f45f2e51da0703d8e" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__GeneralGroup_1gad6792f245ad7c79f45f2e51da0703d8e" kindref="member">meshToDistanceField</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>voxelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>surfaceOffset<sp/>=<sp/>3,</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="structMR_1_1MeshToVolumeParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshToVolumeParams" kindref="compound">MeshToVolumeParams</ref></highlight></codeline>
+<codeline lineno="35" refid="structMR_1_1MeshToVolumeParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshToVolumeParams" kindref="compound">MeshToVolumeParams</ref></highlight></codeline>
 <codeline lineno="36"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="38" refid="group__GeneralGroup_1ga47dacbc5ca80bd9591ffea69c43b022e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga47dacbc5ca80bd9591ffea69c43b022e" kindref="member">Type</ref></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379" kindref="member">Signed</ref>,<sp/></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" kindref="member">Unsigned</ref><sp/></highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379" kindref="member">Signed</ref>,<sp/></highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" kindref="member">Unsigned</ref><sp/></highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>type{<sp/><ref refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a" kindref="member">Type::Unsigned</ref><sp/>};</highlight></codeline>
 <codeline lineno="43" refid="group__GeneralGroup_1ga9453e71b6c68cba5c643d8c233b4e12e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9453e71b6c68cba5c643d8c233b4e12e" kindref="member">surfaceOffset</ref>{<sp/>3.0<sp/>};<sp/></highlight></codeline>
 <codeline lineno="44" refid="group__GeneralGroup_1ga51905e2ab88ac1c4d53c11ed65896ce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga51905e2ab88ac1c4d53c11ed65896ce9" kindref="member">voxelSize</ref><sp/>=<sp/>Vector3f::diagonal(<sp/>1.0f<sp/>);</highlight></codeline>
 <codeline lineno="45" refid="group__GeneralGroup_1ga160d9c2171039308aa5a181a76575967" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1ga160d9c2171039308aa5a181a76575967" kindref="member">worldXf</ref>;<sp/></highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1ga216b138081139f4900c546a416a39e0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f*<sp/><ref refid="group__GeneralGroup_1ga216b138081139f4900c546a416a39e0c" kindref="member">outXf</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
-<codeline lineno="47" refid="group__GeneralGroup_1gad2911735fdf5e6da1f6bfb93f285f6a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1gad2911735fdf5e6da1f6bfb93f285f6a8" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gad2911735fdf5e6da1f6bfb93f285f6a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1gad2911735fdf5e6da1f6bfb93f285f6a8" kindref="member">cb</ref>;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1ga72186b88a4bd5e19146aae7b0faa4bf4" refkind="member"><highlight class="normal">MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga72186b88a4bd5e19146aae7b0faa4bf4" kindref="member">evalGridMinMax</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>max<sp/>);</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga94d477279ed0c657b4d73b456a337b32" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga94d477279ed0c657b4d73b456a337b32" kindref="member">evalGridMinMax</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>max<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="group__GeneralGroup_1ga82f0fd4eb2c48241f6927dfbf70e017a" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VdbVolume&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga82f0fd4eb2c48241f6927dfbf70e017a" kindref="member">meshToDistanceVdbVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToVolumeParams" kindref="compound">MeshToVolumeParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1gaff89dc3bea151ef50a139c1718146419" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VdbVolume&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaff89dc3bea151ef50a139c1718146419" kindref="member">meshToDistanceVdbVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToVolumeParams" kindref="compound">MeshToVolumeParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="group__GeneralGroup_1ga6afaeb158838d518430fbc8b6d32b3fb" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VdbVolume&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga6afaeb158838d518430fbc8b6d32b3fb" kindref="member">meshToVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToVolumeParams" kindref="compound">MeshToVolumeParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1gab22dbe091527f028fd609ca3116d57b6" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VdbVolume&gt;</ref><sp/><ref refid="group__GeneralGroup_1gab22dbe091527f028fd609ca3116d57b6" kindref="member">meshToVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToVolumeParams" kindref="compound">MeshToVolumeParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1ga3e69c30624a2430bc2e6027320d1f6a0" refkind="member"><highlight class="normal">MRVOXELS_API<sp/>VdbVolume<sp/><ref refid="group__GeneralGroup_1ga3e69c30624a2430bc2e6027320d1f6a0" kindref="member">floatGridToVdbVolume</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>grid<sp/>);</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1ga6990fc5bf97c16d19053123be5959798" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>VdbVolume<sp/><ref refid="group__GeneralGroup_1ga6990fc5bf97c16d19053123be5959798" kindref="member">floatGridToVdbVolume</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>grid<sp/>);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="group__GeneralGroup_1ga8c3054d7ec46286f79367b0f93ffddb0" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__GeneralGroup_1ga8c3054d7ec46286f79367b0f93ffddb0" kindref="member">simpleVolumeToDenseGrid</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolume&amp;<sp/>simpleVolume,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>background<sp/>=<sp/>0.0f,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="73" refid="group__GeneralGroup_1ga4ad0e96439eebbb67a8dbd2aa0f3ca49" refkind="member"><highlight class="normal">MRVOXELS_API<sp/>VdbVolume<sp/><ref refid="group__GeneralGroup_1ga4ad0e96439eebbb67a8dbd2aa0f3ca49" kindref="member">simpleVolumeToVdbVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolumeMinMax&amp;<sp/>simpleVolume,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="71" refid="group__GeneralGroup_1gaff9290893302d164d71224a62681ffb8" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__GeneralGroup_1gaff9290893302d164d71224a62681ffb8" kindref="member">simpleVolumeToDenseGrid</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolume&amp;<sp/>simpleVolume,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>background<sp/>=<sp/>0.0f,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1ga848886a5fe4ea4919a1dd3460818a93b" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>VdbVolume<sp/><ref refid="group__GeneralGroup_1ga848886a5fe4ea4919a1dd3460818a93b" kindref="member">simpleVolumeToVdbVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref>&amp;<sp/>simpleVolume,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="group__GeneralGroup_1gac79aa48c96d4b6c3a46dde9e1234e3db" refkind="member"><highlight class="normal">MRVOXELS_API<sp/>VdbVolume<sp/><ref refid="group__GeneralGroup_1gac79aa48c96d4b6c3a46dde9e1234e3db" kindref="member">functionVolumeToVdbVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FunctionVolume&amp;<sp/>functoinVolume,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1ga429c9f6983e751443e9721e975118b55" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>VdbVolume<sp/><ref refid="group__GeneralGroup_1ga429c9f6983e751443e9721e975118b55" kindref="member">functionVolumeToVdbVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref>&amp;<sp/>functoinVolume,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>AccessorOrGr</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline lineno="86" refid="group__GeneralGroup_1gaa2303df423aaea1a91ce570293117d37" refkind="member"><highlight class="normal">MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2303df423aaea1a91ce570293117d37" kindref="member">putSimpleVolumeInDenseGrid</ref>(</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>AccessorOrGr</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="86" refid="group__GeneralGroup_1ga7c3b58d5eb16e77c1a7bf7bb0898489f" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7c3b58d5eb16e77c1a7bf7bb0898489f" kindref="member">putSimpleVolumeInDenseGrid</ref>(</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AccessorOrGrid&amp;<sp/>gridAccessor,</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>minCoord,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolume&amp;<sp/>simpleVolume,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>minCoord,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolume&amp;<sp/>simpleVolume,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="group__GeneralGroup_1ga0d8e39754438588fbde8b091279db752" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolumeMinMax&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga0d8e39754438588fbde8b091279db752" kindref="member">vdbVolumeToSimpleVolume</ref>(</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>activeBox<sp/>=<sp/>Box3i(),<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="100" refid="group__GeneralGroup_1ga7c6e921b59b28810967128b1e54c4a51" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolumeMinMax&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga7c6e921b59b28810967128b1e54c4a51" kindref="member">vdbVolumeToSimpleVolumeNorm</ref>(</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>activeBox<sp/>=<sp/>Box3i(),<sp/>std::optional&lt;MinMaxf&gt;<sp/>sourceScale<sp/>=<sp/>{},<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="107" refid="group__GeneralGroup_1ga2d250c00f768edc4ac0ae283ac571ba4" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolumeMinMaxU16&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2d250c00f768edc4ac0ae283ac571ba4" kindref="member">vdbVolumeToSimpleVolumeU16</ref>(</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>activeBox<sp/>=<sp/>Box3i(),<sp/>std::optional&lt;MinMaxf&gt;<sp/>sourceScale<sp/>=<sp/>{},<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="93" refid="group__GeneralGroup_1ga69ba52d461daeb55ccaacabb0f59f29b" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolumeMinMax&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga69ba52d461daeb55ccaacabb0f59f29b" kindref="member">vdbVolumeToSimpleVolume</ref>(</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>activeBox<sp/>=<sp/>Box3i(),<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="100" refid="group__GeneralGroup_1gabb518d223c0e2154a41ed31e9b253ef8" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolumeMinMax&gt;</ref><sp/><ref refid="group__GeneralGroup_1gabb518d223c0e2154a41ed31e9b253ef8" kindref="member">vdbVolumeToSimpleVolumeNorm</ref>(</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>activeBox<sp/>=<sp/>Box3i(),<sp/>std::optional&lt;MinMaxf&gt;<sp/>sourceScale<sp/>=<sp/>{},<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="107" refid="group__GeneralGroup_1ga1a5076b4e1308bf13953c1fa817154fe" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolumeMinMaxU16&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1a5076b4e1308bf13953c1fa817154fe" kindref="member">vdbVolumeToSimpleVolumeU16</ref>(</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>activeBox<sp/>=<sp/>Box3i(),<sp/>std::optional&lt;MinMaxf&gt;<sp/>sourceScale<sp/>=<sp/>{},<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="structMR_1_1GridToMeshSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref></highlight></codeline>
+<codeline lineno="111" refid="structMR_1_1GridToMeshSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref></highlight></codeline>
 <codeline lineno="112"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="114" refid="group__GeneralGroup_1gacee0af0c67fecb819dabf8238de050fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gacee0af0c67fecb819dabf8238de050fc" kindref="member">voxelSize</ref>;</highlight></codeline>
 <codeline lineno="116" refid="group__GeneralGroup_1gad826bf2632bc0f30ff1144fb199ad870" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad826bf2632bc0f30ff1144fb199ad870" kindref="member">isoValue</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -321,12 +368,12 @@
 <codeline lineno="120" refid="group__GeneralGroup_1gaa2ad751beafe72cd366b5c37d41f6983" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2ad751beafe72cd366b5c37d41f6983" kindref="member">maxFaces</ref><sp/>=<sp/>INT_MAX;</highlight></codeline>
 <codeline lineno="122" refid="group__GeneralGroup_1ga60ec5481dc2216c33c10205f17221fba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga60ec5481dc2216c33c10205f17221fba" kindref="member">maxVertices</ref><sp/>=<sp/>INT_MAX;</highlight></codeline>
 <codeline lineno="123" refid="group__GeneralGroup_1ga1b0ad87a91cd5605d3c6c9df23882b43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1b0ad87a91cd5605d3c6c9df23882b43" kindref="member">relaxDisorientedTriangles</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="125" refid="group__GeneralGroup_1gacda3440aa9d507ae98fc2e068e7d41fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1gacda3440aa9d507ae98fc2e068e7d41fd" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="125" refid="group__GeneralGroup_1gacda3440aa9d507ae98fc2e068e7d41fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1gacda3440aa9d507ae98fc2e068e7d41fd" kindref="member">cb</ref>;</highlight></codeline>
 <codeline lineno="126"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="group__GeneralGroup_1gad8e49582fe849014967a8baf003fd27b" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gad8e49582fe849014967a8baf003fd27b" kindref="member">gridToMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="129" refid="group__GeneralGroup_1ga20712a4b4032d882983c9d134ade6d78" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga20712a4b4032d882983c9d134ade6d78" kindref="member">gridToMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="group__GeneralGroup_1ga1ad03b5a42934e43debc76695507a680" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gad8e49582fe849014967a8baf003fd27b" kindref="member">gridToMesh</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="133" refid="group__GeneralGroup_1ga429e5d94fa25dc1813e13a703829c3a4" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga20712a4b4032d882983c9d134ade6d78" kindref="member">gridToMesh</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
 <codeline lineno="135" refid="structMR_1_1MakeSignedByWindingNumberSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MakeSignedByWindingNumberSettings" kindref="compound">MakeSignedByWindingNumberSettings</ref></highlight></codeline>
 <codeline lineno="136"><highlight class="normal">{</highlight></codeline>
@@ -338,10 +385,10 @@
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
 <codeline lineno="148" refid="group__GeneralGroup_1ga9b227c497a7784f70a4f48631fe8a1f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9b227c497a7784f70a4f48631fe8a1f4" kindref="member">windingNumberBeta</ref><sp/>=<sp/>2;</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="group__GeneralGroup_1ga3a33c885904d5b4053c358046cb72e88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1ga3a33c885904d5b4053c358046cb72e88" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="151" refid="group__GeneralGroup_1ga3a33c885904d5b4053c358046cb72e88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1ga3a33c885904d5b4053c358046cb72e88" kindref="member">progress</ref>;</highlight></codeline>
 <codeline lineno="152"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="group__GeneralGroup_1gaeb145c323941c5fd06c513bc640d05b1" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaeb145c323941c5fd06c513bc640d05b1" kindref="member">makeSignedByWindingNumber</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>refMesh,</highlight></codeline>
+<codeline lineno="155" refid="group__GeneralGroup_1ga5ff1cebb6fb035f8908029aa5fc6a672" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga5ff1cebb6fb035f8908029aa5fc6a672" kindref="member">makeSignedByWindingNumber</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>refMesh,</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MakeSignedByWindingNumberSettings" kindref="compound">MakeSignedByWindingNumberSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
 <codeline lineno="158" refid="structMR_1_1DoubleOffsetSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DoubleOffsetSettings" kindref="compound">DoubleOffsetSettings</ref></highlight></codeline>
@@ -360,13 +407,13 @@
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
 <codeline lineno="180" refid="group__GeneralGroup_1gaee042c47f37e1c7b083569430a185ce3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaee042c47f37e1c7b083569430a185ce3" kindref="member">windingNumberBeta</ref><sp/>=<sp/>2;</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="group__GeneralGroup_1ga7338b38b26ada80c399b32ba147f7ac1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1ga7338b38b26ada80c399b32ba147f7ac1" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="183" refid="group__GeneralGroup_1ga7338b38b26ada80c399b32ba147f7ac1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1ga7338b38b26ada80c399b32ba147f7ac1" kindref="member">progress</ref>;</highlight></codeline>
 <codeline lineno="184"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="group__GeneralGroup_1ga928996b8ccf0ededf4666de67cedde79" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga928996b8ccf0ededf4666de67cedde79" kindref="member">doubleOffsetVdb</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DoubleOffsetSettings" kindref="compound">DoubleOffsetSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="188" refid="group__GeneralGroup_1gada6e456e0254afe0a4e3b27340ea954e" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gada6e456e0254afe0a4e3b27340ea954e" kindref="member">doubleOffsetVdb</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DoubleOffsetSettings" kindref="compound">DoubleOffsetSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h"/>
+    <location file="MRVoxels/MRVDBConversions.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointToPlaneAligningTransform" kind="class" language="C++" prot="public">
     <compoundname>MR::PointToPlaneAligningTransform</compoundname>
-    <includes refid="MRPointToPlaneAligningTransform_8h" local="no">MRPointToPlaneAligningTransform.h</includes>
+    <includes refid="MRPointToPlaneAligningTransform_8h" local="no">MRMesh/MRPointToPlaneAligningTransform.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1PointToPlaneAligningTransform_1a71b5320ef00c8e2f0f3c8ff685954c20" prot="private" static="no" mutable="no">
         <type>Eigen::Matrix&lt; double, 7, 7 &gt;</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="64" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="64" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="64" column="19" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointToPlaneAligningTransform_1a192f5833d2b323b289ea948818c1fd2c" prot="private" static="no" mutable="no">
         <type>Eigen::Vector&lt; double, 7 &gt;</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="65" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="65" column="19" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointToPlaneAligningTransform_1a86f7d7600f44d8db5bbf6126128dcb84" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -47,13 +47,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="66" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="66" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="66" column="10" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="66" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a08230ea255db679fb12588edc3ca5f2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PointToPlaneAligningTransform::add</definition>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1aa73beee9c704c6383e28a4f2ef68f1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointToPlaneAligningTransform::add</definition>
         <argsstring>(const Vector3d &amp;p1, const Vector3d &amp;p2, const Vector3d &amp;normal2, double w=1)</argsstring>
         <name>add</name>
         <qualifiedname>MR::PointToPlaneAligningTransform::add</qualifiedname>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="23" column="21"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="23" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a1cdd6aff2ef7a9e5eecf5624b27a3f3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -113,22 +113,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="26" bodyend="26"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="26" column="10" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="26" bodyend="26"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1ad0ef5fe0bddd87ee28ec85ec049e779f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PointToPlaneAligningTransform::prepare</definition>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1aeefc37b3b3fdedb7a7cfa9c63d2e6712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointToPlaneAligningTransform::prepare</definition>
         <argsstring>()</argsstring>
         <name>prepare</name>
         <qualifiedname>MR::PointToPlaneAligningTransform::prepare</qualifiedname>
         <briefdescription>
-<para>this method must be called after <ref refid="classMR_1_1PointToPlaneAligningTransform_1a08230ea255db679fb12588edc3ca5f2e" kindref="member">add()</ref> and before constant find...()/calculate...() to make the matrix symmetric </para>
+<para>this method must be called after <ref refid="classMR_1_1PointToPlaneAligningTransform_1aa73beee9c704c6383e28a4f2ef68f1f9" kindref="member">add()</ref> and before constant find...()/calculate...() to make the matrix symmetric </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="29" column="21"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="29" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1aaab037d0039ed961116c7af28bd59347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="32" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="32" bodyend="32"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="32" column="10" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="32" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a28c394327019054e87403e25b8cda62b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="37" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="37" bodyend="37"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="37" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="37" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1af8656bfbca5608611a5f78b10ce037b2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="40" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="40" bodyend="40"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="40" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="40" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a5162299152d3a4f6ae9de54c2a1ccb58" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="43" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="43" bodyend="43"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="43" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1af0c4b1002192d03fcf79ae0df032d66e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -211,11 +211,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="46" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="46" bodyend="46"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="46" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="46" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a85d1216f9a1a5ea606fc155ed9ffcd3c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Vector3d</type>
-        <definition>MRMESH_API Vector3d MR::PointToPlaneAligningTransform::findBestTranslation</definition>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1ac063a17fa743ac58c5fbc9ad217c5198" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3d</type>
+        <definition>Vector3d MR::PointToPlaneAligningTransform::findBestTranslation</definition>
         <argsstring>(Vector3d rotAngles={}, double scale=1) const</argsstring>
         <name>findBestTranslation</name>
         <qualifiedname>MR::PointToPlaneAligningTransform::findBestTranslation</qualifiedname>
@@ -236,11 +236,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="49" column="26"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="49" column="16"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a8555475cfcfcf18d967f750232989d78" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API RigidScaleXf3d</type>
-        <definition>MRMESH_API RigidScaleXf3d MR::PointToPlaneAligningTransform::calculateAmendment</definition>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a4eb5e463d55efd8dafb0a8b5072b36b5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>RigidScaleXf3d</type>
+        <definition>RigidScaleXf3d MR::PointToPlaneAligningTransform::calculateAmendment</definition>
         <argsstring>() const</argsstring>
         <name>calculateAmendment</name>
         <qualifiedname>MR::PointToPlaneAligningTransform::calculateAmendment</qualifiedname>
@@ -251,11 +251,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="52" column="32"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="52" column="22"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1ad5685f4e41d5b6e952889366f8b118f8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API RigidScaleXf3d</type>
-        <definition>MRMESH_API RigidScaleXf3d MR::PointToPlaneAligningTransform::calculateAmendmentWithScale</definition>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a96303d3a4594c31c1b4db090f1d48043" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>RigidScaleXf3d</type>
+        <definition>RigidScaleXf3d MR::PointToPlaneAligningTransform::calculateAmendmentWithScale</definition>
         <argsstring>() const</argsstring>
         <name>calculateAmendmentWithScale</name>
         <qualifiedname>MR::PointToPlaneAligningTransform::calculateAmendmentWithScale</qualifiedname>
@@ -266,11 +266,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="55" column="32"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="55" column="22"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1ac7f842e0e3e90350579783534790080e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API RigidScaleXf3d</type>
-        <definition>MRMESH_API RigidScaleXf3d MR::PointToPlaneAligningTransform::calculateFixedAxisAmendment</definition>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a276418c74f8a429b4fced7eea84c38f6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>RigidScaleXf3d</type>
+        <definition>RigidScaleXf3d MR::PointToPlaneAligningTransform::calculateFixedAxisAmendment</definition>
         <argsstring>(const Vector3d &amp;axis) const</argsstring>
         <name>calculateFixedAxisAmendment</name>
         <qualifiedname>MR::PointToPlaneAligningTransform::calculateFixedAxisAmendment</qualifiedname>
@@ -285,11 +285,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="58" column="32"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="58" column="22"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a4d07c954a8bbd8984f99644bc4ee2764" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API RigidScaleXf3d</type>
-        <definition>MRMESH_API RigidScaleXf3d MR::PointToPlaneAligningTransform::calculateOrthogonalAxisAmendment</definition>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1adbd14cc29a38750565424a2b6f985597" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>RigidScaleXf3d</type>
+        <definition>RigidScaleXf3d MR::PointToPlaneAligningTransform::calculateOrthogonalAxisAmendment</definition>
         <argsstring>(const Vector3d &amp;ort) const</argsstring>
         <name>calculateOrthogonalAxisAmendment</name>
         <qualifiedname>MR::PointToPlaneAligningTransform::calculateOrthogonalAxisAmendment</qualifiedname>
@@ -304,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="61" column="32"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="61" column="22"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -312,21 +312,21 @@
     <detaileddescription>
 <para>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it&apos;s need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h" bodystart="20" bodyend="67"/>
+    <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="19" column="1" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="20" bodyend="67"/>
     <listofallmembers>
-      <member refid="classMR_1_1PointToPlaneAligningTransform_1a08230ea255db679fb12588edc3ca5f2e" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1aa73beee9c704c6383e28a4f2ef68f1f9" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a1cdd6aff2ef7a9e5eecf5624b27a3f3b" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
-      <member refid="classMR_1_1PointToPlaneAligningTransform_1a8555475cfcfcf18d967f750232989d78" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateAmendment</name></member>
-      <member refid="classMR_1_1PointToPlaneAligningTransform_1ad5685f4e41d5b6e952889366f8b118f8" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateAmendmentWithScale</name></member>
-      <member refid="classMR_1_1PointToPlaneAligningTransform_1ac7f842e0e3e90350579783534790080e" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateFixedAxisAmendment</name></member>
-      <member refid="classMR_1_1PointToPlaneAligningTransform_1a4d07c954a8bbd8984f99644bc4ee2764" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateOrthogonalAxisAmendment</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a4eb5e463d55efd8dafb0a8b5072b36b5" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateAmendment</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a96303d3a4594c31c1b4db090f1d48043" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateAmendmentWithScale</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a276418c74f8a429b4fced7eea84c38f6" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateFixedAxisAmendment</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1adbd14cc29a38750565424a2b6f985597" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateOrthogonalAxisAmendment</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1aaab037d0039ed961116c7af28bd59347" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>clear</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1af8656bfbca5608611a5f78b10ce037b2" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidScaleXf</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a28c394327019054e87403e25b8cda62b" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidXf</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a5162299152d3a4f6ae9de54c2a1ccb58" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidXfFixedRotationAxis</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1af0c4b1002192d03fcf79ae0df032d66e" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidXfOrthogonalRotationAxis</name></member>
-      <member refid="classMR_1_1PointToPlaneAligningTransform_1a85d1216f9a1a5ea606fc155ed9ffcd3c" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestTranslation</name></member>
-      <member refid="classMR_1_1PointToPlaneAligningTransform_1ad0ef5fe0bddd87ee28ec85ec049e779f" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>prepare</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1ac063a17fa743ac58c5fbc9ad217c5198" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestTranslation</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1aeefc37b3b3fdedb7a7cfa9c63d2e6712" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>prepare</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a71b5320ef00c8e2f0f3c8ff685954c20" prot="private" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>sumA_</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a86f7d7600f44d8db5bbf6126128dcb84" prot="private" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>sumAIsSym_</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a192f5833d2b323b289ea948818c1fd2c" prot="private" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>sumB_</name></member>

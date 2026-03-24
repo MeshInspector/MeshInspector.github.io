@@ -1,38 +1,66 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMapOrHashMap_8h" kind="file" language="C++">
     <compoundname>MRMapOrHashMap.h</compoundname>
     <includes refid="MRMacros_8h" local="yes">MRMacros.h</includes>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
     <includes local="yes">MRphmap.h</includes>
     <includes local="no">variant</includes>
-    <includedby refid="MRMapEdge_8h" local="yes">MRMapEdge.h</includedby>
-    <includedby refid="MRPartMappingAdapters_8h" local="yes">MRPartMappingAdapters.h</includedby>
+    <includedby refid="MRMapEdge_8h" local="yes">MRMesh/MRMapEdge.h</includedby>
+    <includedby refid="MRPartMappingAdapters_8h" local="yes">MRMesh/MRPartMappingAdapters.h</includedby>
     <incdepgraph>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
       <node id="2">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMapOrHashMap.h</label>
+        <label>MRMesh/MRMapOrHashMap.h</label>
         <link refid="MRMapOrHashMap_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="5">
+      <node id="14">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -42,39 +70,55 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="9">
+      <node id="16">
         <label>MRphmap.h</label>
       </node>
       <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="6">
+      <node id="15">
         <label>concepts</label>
       </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="10">
+        <label>string</label>
+      </node>
+      <node id="17">
         <label>variant</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRMapEdge.h</label>
+        <label>MRMesh/MRMapEdge.h</label>
         <link refid="MRMapEdge_8h"/>
       </node>
       <node id="1">
-        <label>MRMapOrHashMap.h</label>
+        <label>MRMesh/MRMapOrHashMap.h</label>
         <link refid="MRMapOrHashMap_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -82,7 +126,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRPartMappingAdapters.h</label>
+        <label>MRMesh/MRPartMappingAdapters.h</label>
         <link refid="MRPartMappingAdapters_8h"/>
       </node>
     </invincdepgraph>
@@ -104,40 +148,40 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="18" refid="structMR_1_1MapOrHashMap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;V, K&gt;</ref>;</highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref><sp/>=<sp/>HashMap&lt;K,<sp/>V&gt;;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;V, K&gt;</ref>;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;K, V&gt;</ref>;</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::variant&lt;Dense,<sp/>Hash&gt;<sp/><ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap</ref><sp/><ref refid="group__GeneralGroup_1ga2f5d8d5d984f6fbc7736118c4803e703" kindref="member">createMap</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>=<sp/>0<sp/>);</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap</ref><sp/><ref refid="group__GeneralGroup_1gaf367d90b270a0bb9def39834f2a0e686" kindref="member">createHashMap</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>capacity<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga2f5d8d5d984f6fbc7736118c4803e703" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap</ref><sp/><ref refid="group__GeneralGroup_1ga2f5d8d5d984f6fbc7736118c4803e703" kindref="member">createMap</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gaf367d90b270a0bb9def39834f2a0e686" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap</ref><sp/><ref refid="group__GeneralGroup_1gaf367d90b270a0bb9def39834f2a0e686" kindref="member">createHashMap</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>capacity<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga00c1a5cbe4993ea2fe7958753f256c2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00c1a5cbe4993ea2fe7958753f256c2d" kindref="member">setMap</ref>(<sp/><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref><sp/>&amp;&amp;<sp/>m<sp/><ref refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" kindref="member">MR_LIFETIME_CAPTURE_BY_NESTED</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>=<sp/>std::move(<sp/>m<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga00c1a5cbe4993ea2fe7958753f256c2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00c1a5cbe4993ea2fe7958753f256c2d" kindref="member">setMap</ref>(<sp/><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref><sp/>&amp;&amp;<sp/>m<sp/><ref refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" kindref="member">MR_LIFETIME_CAPTURE_BY_NESTED</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>=<sp/>std::move(<sp/>m<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1gaed9c7dee115bec118b5c146c71feeead" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaed9c7dee115bec118b5c146c71feeead" kindref="member">setHashMap</ref>(<sp/><ref refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref><sp/>&amp;&amp;<sp/>m<sp/><ref refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" kindref="member">MR_LIFETIME_CAPTURE_BY_NESTED</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>=<sp/>std::move(<sp/>m<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7a15020a8ce32845565aeffab264051d" kindref="member">resizeReserve</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>denseTotalSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>hashAdditionalCapacity<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga7a15020a8ce32845565aeffab264051d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7a15020a8ce32845565aeffab264051d" kindref="member">resizeReserve</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>denseTotalSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>hashAdditionalCapacity<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga581685c400655d0cf9441498a051e38a" kindref="member">pushBack</ref>(<sp/>K<sp/>key<sp/><ref refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" kindref="member">MR_LIFETIME_CAPTURE_BY_NESTED</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">),<sp/>V<sp/>val<sp/><ref refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" kindref="member">MR_LIFETIME_CAPTURE_BY_NESTED</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga581685c400655d0cf9441498a051e38a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga581685c400655d0cf9441498a051e38a" kindref="member">pushBack</ref>(<sp/>K<sp/>key<sp/><ref refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" kindref="member">MR_LIFETIME_CAPTURE_BY_NESTED</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">),<sp/>V<sp/>val<sp/><ref refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" kindref="member">MR_LIFETIME_CAPTURE_BY_NESTED</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga99f74cd2edd6dab050ffad6466cdf191" kindref="member">forEach</ref>(<sp/>F<sp/>&amp;&amp;<sp/>f<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga99f74cd2edd6dab050ffad6466cdf191" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga99f74cd2edd6dab050ffad6466cdf191" kindref="member">forEach</ref>(<sp/>F<sp/>&amp;&amp;<sp/>f<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="group__GeneralGroup_1ga60c491f3b471bedb23f0615dc24f0fc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref>*<sp/><ref refid="group__GeneralGroup_1ga60c491f3b471bedb23f0615dc24f0fc5" kindref="member">getMap</ref>()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" kindref="member">MR_LIFETIMEBOUND</ref><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_if&lt;Dense&gt;(<sp/>&amp;<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1gabfe1d6849d40b95fb756affcd2a49f49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref>*<sp/><ref refid="group__GeneralGroup_1gabfe1d6849d40b95fb756affcd2a49f49" kindref="member">getMap</ref>()<sp/>const<sp/><ref refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" kindref="member">MR_LIFETIMEBOUND</ref><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_if&lt;Dense&gt;(<sp/>&amp;<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga60c491f3b471bedb23f0615dc24f0fc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref>*<sp/><ref refid="group__GeneralGroup_1ga60c491f3b471bedb23f0615dc24f0fc5" kindref="member">getMap</ref>()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" kindref="member">MR_LIFETIMEBOUND</ref><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_if&lt;Dense&gt;(<sp/>&amp;<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1gabfe1d6849d40b95fb756affcd2a49f49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref>*<sp/><ref refid="group__GeneralGroup_1gabfe1d6849d40b95fb756affcd2a49f49" kindref="member">getMap</ref>()<sp/>const<sp/><ref refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" kindref="member">MR_LIFETIMEBOUND</ref><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_if&lt;Dense&gt;(<sp/>&amp;<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1gad24c7a779069c7e074b47d8e3d3400ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref>*<sp/><ref refid="group__GeneralGroup_1gad24c7a779069c7e074b47d8e3d3400ae" kindref="member">getHashMap</ref>()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" kindref="member">MR_LIFETIMEBOUND</ref><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_if&lt;Hash&gt;(<sp/>&amp;<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="47" refid="group__GeneralGroup_1ga0c1e6a6e4c0590ec6918e29c93d59b8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref>*<sp/><ref refid="group__GeneralGroup_1ga0c1e6a6e4c0590ec6918e29c93d59b8e" kindref="member">getHashMap</ref>()<sp/>const<sp/><ref refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" kindref="member">MR_LIFETIMEBOUND</ref><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_if&lt;Hash&gt;(<sp/>&amp;<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab6a52148cc818bc6c42e287a95ef61b8" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1gab6a52148cc818bc6c42e287a95ef61b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab6a52148cc818bc6c42e287a95ef61b8" kindref="member">clear</ref>();</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="53" refid="group__GeneralGroup_1ga2f5d8d5d984f6fbc7736118c4803e703" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap&lt;K,V&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2f5d8d5d984f6fbc7736118c4803e703" kindref="member">MapOrHashMap&lt;K,V&gt;::createMap</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>)</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap&lt;K,V&gt;</ref><sp/>res;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref>(<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref>(<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
@@ -155,27 +199,27 @@
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="72" refid="group__GeneralGroup_1ga7a15020a8ce32845565aeffab264051d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7a15020a8ce32845565aeffab264051d" kindref="member">MapOrHashMap&lt;K,V&gt;::resizeReserve</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>denseTotalSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>hashAdditionalCapacity<sp/>)</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/>overloaded{</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[denseTotalSize](<sp/><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref>&amp;<sp/>map<sp/>)<sp/>{<sp/>map.resize(<sp/>denseTotalSize<sp/>);<sp/>},</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[denseTotalSize](<sp/><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref>&amp;<sp/>map<sp/>)<sp/>{<sp/>map.resize(<sp/>denseTotalSize<sp/>);<sp/>},</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[hashAdditionalCapacity](<sp/><ref refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref>&amp;<sp/>hashMap<sp/>)<sp/>{<sp/>hashMap.reserve(<sp/>hashMap.size()<sp/>+<sp/>hashAdditionalCapacity<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var<sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/><ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="81" refid="group__GeneralGroup_1ga581685c400655d0cf9441498a051e38a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga581685c400655d0cf9441498a051e38a" kindref="member">MapOrHashMap&lt;K,V&gt;::pushBack</ref>(<sp/>K<sp/>key,<sp/>V<sp/>val<sp/>)</highlight></codeline>
 <codeline lineno="82"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/>overloaded{</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[=](<sp/><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref>&amp;<sp/>map<sp/>)<sp/>{<sp/>assert(<sp/>key<sp/>==<sp/>map.endId()<sp/>);<sp/>map.push_back(<sp/>val<sp/>);<sp/>},</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[=](<sp/><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref>&amp;<sp/>map<sp/>)<sp/>{<sp/>assert(<sp/>key<sp/>==<sp/>map.endId()<sp/>);<sp/>map.push_back(<sp/>val<sp/>);<sp/>},</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[=](<sp/><ref refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref>&amp;<sp/>hashMap<sp/>)<sp/>{<sp/>hashMap[key]<sp/>=<sp/>val;<sp/>}</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/><ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
 <codeline lineno="91" refid="group__GeneralGroup_1ga99f74cd2edd6dab050ffad6466cdf191" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga99f74cd2edd6dab050ffad6466cdf191" kindref="member">MapOrHashMap&lt;K,V&gt;::forEach</ref>(<sp/>F<sp/>&amp;&amp;<sp/>f<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="92"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/>overloaded{</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[&amp;f](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref>&amp;<sp/>map<sp/>)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[&amp;f](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref>&amp;<sp/>map<sp/>)</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>K<sp/>key(<sp/>0<sp/>);<sp/>key<sp/>&lt;<sp/>map.size();<sp/>++key<sp/>)</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>val<sp/>=<sp/>map[key]<sp/>)</highlight></codeline>
@@ -186,38 +230,38 @@
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>[<sp/>key,<sp/>val<sp/>]<sp/>:<sp/>hashMap<sp/>)</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f(<sp/>key,<sp/>val<sp/>);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var<sp/>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/><ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="109" refid="group__GeneralGroup_1gab6a52148cc818bc6c42e287a95ef61b8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab6a52148cc818bc6c42e287a95ef61b8" kindref="member">MapOrHashMap&lt;K,V&gt;::clear</ref>()</highlight></codeline>
 <codeline lineno="110"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/>overloaded{</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/><ref refid="classMR_1_1Vector" kindref="compound">Dense</ref>&amp;<sp/>map<sp/>)<sp/>{<sp/>map.clear();<sp/>},</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/><ref refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref>&amp;<sp/>map<sp/>)<sp/>{<sp/>map.clear();<sp/>},</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/><ref refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref>&amp;<sp/>hashMap<sp/>)<sp/>{<sp/>hashMap.clear();<sp/>}</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/><ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="118" refid="group__GeneralGroup_1gadb46200d5ca10864658a0b4036a25bd4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>V<sp/><ref refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kindref="member">getAt</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap&lt;K, V&gt;</ref><sp/>&amp;<sp/>m,<sp/>K<sp/>key,<sp/>V<sp/>def<sp/>=<sp/>{}<sp/>)</highlight></codeline>
 <codeline lineno="119"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/>overloaded{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/><ref refid="group__GeneralGroup_1ga80e6b953fc44378e5898ba71b21f216a" kindref="member">overloaded</ref>{</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[key,<sp/>def](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector&lt;V,<sp/>K&gt;&amp;<sp/>map<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kindref="member">getAt</ref>(<sp/>map,<sp/>key,<sp/>def<sp/>);<sp/>},</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[key,<sp/>def](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HashMap&lt;K,<sp/>V&gt;&amp;<sp/>hashMap<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kindref="member">getAt</ref>(<sp/>hashMap,<sp/>key,<sp/>def<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[key,<sp/>def](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;K, V&gt;</ref>&amp;<sp/>hashMap<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kindref="member">getAt</ref>(<sp/>hashMap,<sp/>key,<sp/>def<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>m.<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>K,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="127" refid="group__GeneralGroup_1gaec45b6c8bbf6fced181772da31bc24ec" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaec45b6c8bbf6fced181772da31bc24ec" kindref="member">setAt</ref>(<sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap&lt;K, V&gt;</ref><sp/>&amp;<sp/>m,<sp/>K<sp/>key,<sp/>V<sp/>val<sp/>)</highlight></codeline>
 <codeline lineno="128"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/>overloaded{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[key,<sp/>val](<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;V, K&gt;</ref>&amp;<sp/>map<sp/>)<sp/>{<sp/>map[key]<sp/>=<sp/>val;<sp/>},</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[key,<sp/>val](<sp/>HashMap&lt;K,<sp/>V&gt;&amp;<sp/>hashMap<sp/>)<sp/>{<sp/>hashMap[key]<sp/>=<sp/>val;<sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[key,<sp/>val](<sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;K, V&gt;</ref>&amp;<sp/>hashMap<sp/>)<sp/>{<sp/>hashMap[key]<sp/>=<sp/>val;<sp/>}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>m.<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h"/>
+    <location file="MRMesh/MRMapOrHashMap.h"/>
   </compounddef>
 </doxygen>

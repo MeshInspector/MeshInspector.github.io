@@ -1,6 +1,5 @@
 var MRSceneSettings_8h =
 [
-    [ "MR_CNCMachineSettings", "MRSceneSettings_8h.html#a325911971cee7957b63b98e5d38aedc4", null ],
     [ "MR_SceneSettings", "MRSceneSettings_8h.html#a71b8f6135364d23bd16fac524ef466a8", null ],
     [ "MR_SceneSettings_BoolType", "MRSceneSettings_8h.html#a3649382c7f0d2ead3e39ed8a9b4a751d", null ],
     [ "MR_SceneSettings_FloatType", "MRSceneSettings_8h.html#a1d4b4e5796cebc0245ab16d6398b3b1a", null ],

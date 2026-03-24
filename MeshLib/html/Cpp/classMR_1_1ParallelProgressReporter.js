@@ -1,6 +1,6 @@
 var classMR_1_1ParallelProgressReporter =
 [
-    [ "ParallelProgressReporter", "group__GeneralGroup.html#ga2c6d0ee3e32d318d2f21e81a65c786fb", null ],
-    [ "newTask", "group__GeneralGroup.html#gafb8acccd63d1068e162e165f290b3227", null ],
-    [ "operator()", "group__GeneralGroup.html#ga14f01226cb9a140ad5be9540453a8eed", null ]
+    [ "ParallelProgressReporter", "group__GeneralGroup.html#gaf1d953cc657c4b0ac3b50bbb44cdc1dd", null ],
+    [ "newTask", "group__GeneralGroup.html#ga0dbff57f458d4ac8ac5fabfe53eb685d", null ],
+    [ "operator()", "group__GeneralGroup.html#gab12804eaa7827c0475e3cac1250a662c", null ]
 ];

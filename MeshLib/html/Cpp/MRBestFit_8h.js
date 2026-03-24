@@ -1,9 +1,9 @@
 var MRBestFit_8h =
 [
     [ "MR::PlaneAccumulator", "classMR_1_1PlaneAccumulator.html", "classMR_1_1PlaneAccumulator" ],
-    [ "accumulateFaceCenters", "MRBestFit_8h.html#ga9bca49efd608d5a3ee129ae497696532", null ],
-    [ "accumulateLineCenters", "MRBestFit_8h.html#ga6ea5e287b2854466c0edc8429e4f3728", null ],
-    [ "accumulatePoints", "MRBestFit_8h.html#gae9b7d5125bd93295ef7d082687d116b4", null ],
-    [ "accumulatePoints", "MRBestFit_8h.html#gabf09681953aae673c37c9121925a3aab", null ],
-    [ "accumulateWeighedPoints", "MRBestFit_8h.html#ga141cf1a05b86ed500cac08d1205ca80a", null ]
+    [ "MR::accumulateFaceCenters", "group__BestFitGroup.html#ga431f41a10bf3a8e6da02de4aa5efa819", null ],
+    [ "MR::accumulateLineCenters", "group__BestFitGroup.html#gadd8ec98f764c742961e5743805592c41", null ],
+    [ "MR::accumulatePoints", "group__BestFitGroup.html#ga38c918865ff22c325ba1364003248481", null ],
+    [ "MR::accumulatePoints", "group__BestFitGroup.html#ga382b331863af4b9efc376e8a6b6a8f8d", null ],
+    [ "MR::accumulateWeighedPoints", "group__BestFitGroup.html#ga1949e6a0bb8f1ea9cce492d3bc6822ae", null ]
 ];

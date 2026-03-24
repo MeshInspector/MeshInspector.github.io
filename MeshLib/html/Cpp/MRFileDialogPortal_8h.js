@@ -1,5 +1,5 @@
 var MRFileDialogPortal_8h =
 [
-    [ "isPortalFileDialogSupported", "MRFileDialogPortal_8h.html#a08361a71057d58d2e2b41f69d156ae65", null ],
-    [ "runPortalFileDialog", "MRFileDialogPortal_8h.html#affb9ed3fb091119b33a12f1cda1f5fbb", null ]
+    [ "MR::detail::isPortalFileDialogSupported", "namespaceMR_1_1detail.html#a4b40e1222b8df2660b25e4942deb39fb", null ],
+    [ "MR::detail::runPortalFileDialog", "namespaceMR_1_1detail.html#a1a02e764be7c54f9177025ee42b915d0", null ]
 ];

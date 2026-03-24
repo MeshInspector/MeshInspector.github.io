@@ -1,6 +1,5 @@
 var MRMeshBooleanFacade_8h =
 [
-    [ "MR_Mesh", "MRMeshBooleanFacade_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshMeshConverter", "MRMeshBooleanFacade_8h.html#a812d28ecb2fbc0f0c4aa2985d32dc668", null ],
     [ "MR_ObjectMesh", "MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6", null ],
     [ "MR_TransformedMesh", "MRMeshBooleanFacade_8h.html#a5ad88833281e2d67e33e4b46cdc78b51", null ],

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</compoundname>
-    <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRTeethMaskToDirectionVolume.h</includes>
+    <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRVoxels/MRTeethMaskToDirectionVolume.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa8849bb4bffd6166d4ee7359da6b2c31" kind="variable"><name>volume</name></member>
       <member refid="group__GeneralGroup_1gad47933a9cf1030b769dce59bc9a3d1ab" kind="variable"><name>xf</name></member>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="83" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="84" bodyend="87"/>
+    <location file="MRVoxels/MRTeethMaskToDirectionVolume.h" line="83" column="5" bodyfile="MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="84" bodyend="87"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa8849bb4bffd6166d4ee7359da6b2c31" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</scope><name>volume</name></member>
       <member refid="group__GeneralGroup_1gad47933a9cf1030b769dce59bc9a3d1ab" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</scope><name>xf</name></member>

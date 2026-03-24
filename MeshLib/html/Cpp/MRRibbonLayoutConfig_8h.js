@@ -1,5 +1,5 @@
 var MRRibbonLayoutConfig_8h =
 [
-    [ "applyRibbonConfig", "MRRibbonLayoutConfig_8h.html#ga57613237dbb6d143b056f9f888c9ee0d", null ],
-    [ "createRibbonConfigFromJson", "MRRibbonLayoutConfig_8h.html#gad38761a3c9798cc64354bfb245cce186", null ]
+    [ "MR::applyRibbonConfig", "group__GeneralGroup.html#ga53ed527d48ac5f73d332b491e1b4af56", null ],
+    [ "MR::createRibbonConfigFromJson", "group__GeneralGroup.html#ga3930f402786f9fc077eb6b0c2e18076e", null ]
 ];

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillingSurface_1_1TPMS" kind="class" language="C#" prot="public">
     <compoundname>MR::FillingSurface::TPMS</compoundname>
     <innerclass refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" prot="public">MR::FillingSurface::TPMS::MeshParams</innerclass>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="780" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="780" bodyend="785"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="796" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="796" bodyend="801"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a4652e0397c180bb843116892a0387beb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdString</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="791" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="791" bodyend="796"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="807" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="807" bodyend="812"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a794222466a41b63aca2c74e931af0e58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="802" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="802" bodyend="807"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="818" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="818" bodyend="823"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a731681c249d030c07a4d5cf34b6c8dd1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref></type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="815" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="815" bodyend="823"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="831" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="831" bodyend="839"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a758befd38db55e30feb23cd10eac637f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="830" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="830" bodyend="841"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="846" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="846" bodyend="857"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a4c90b2e33f19a14077bb322fe7e7bcca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="848" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="848" bodyend="856"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="864" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="864" bodyend="872"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ulong</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="862" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="862" bodyend="867"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="878" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="878" bodyend="883"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a644b1fc95f32231431fc0bce4322c71b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ulong</type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="873" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="873" bodyend="881"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="889" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="889" bodyend="897"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a7610cda37cb3ea978778a79919dda21e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -287,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="889" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="889" bodyend="894"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="905" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="905" bodyend="910"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1aff112ae218c53d4945da8afcd5c73a27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="902" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="902" bodyend="907"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="918" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="918" bodyend="923"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1abd47d60ffe2b0a734f448623a89c2349" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -345,14 +345,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="913" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="913" bodyend="918"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="929" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="929" bodyend="934"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="5" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="775" bodyend="919"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="5" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="6" bodyend="486"/>
     <listofallmembers>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1a758befd38db55e30feb23cd10eac637f" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>build</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1a731681c249d030c07a4d5cf34b6c8dd1" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>buildVolume</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1QuadraticForm" kind="struct" language="C++" prot="public">
     <compoundname>MR::QuadraticForm</compoundname>
-    <includes refid="MRQuadraticForm_8h" local="no">MRQuadraticForm.h</includes>
+    <includes refid="MRQuadraticForm_8h" local="no">MRMesh/MRQuadraticForm.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -25,15 +25,15 @@
       <member refid="group__GeneralGroup_1ga6aa8242b430ea2a8b0c65ac776f01e69" kind="function"><name>addDistToLine</name></member>
     </sectiondef>
     <sectiondef kind="related">
-      <member refid="group__GeneralGroup_1ga613642585592285c402e51d9af48651a" kind="function"><name>sum</name></member>
-      <member refid="group__GeneralGroup_1gae2db52d249d73990155ac0aee19ecdf7" kind="function"><name>sumAt</name></member>
+      <member refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" kind="function"><name>sum</name></member>
+      <member refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" kind="function"><name>sumAt</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>quadratic form: f = x^T A x + c </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuadraticForm.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuadraticForm.h" bodystart="16" bodyend="36"/>
+    <location file="MRMesh/MRQuadraticForm.h" line="15" column="1" bodyfile="MRMesh/MRQuadraticForm.h" bodystart="16" bodyend="36"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaaa0e315bd432a25ff55c9f30b926ffda" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>A</name></member>
       <member refid="group__GeneralGroup_1gaa22182ab842edbfd36369edae2063b3c" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>addDistToLine</name></member>
@@ -44,8 +44,8 @@
       <member refid="group__GeneralGroup_1ga0b59f3e15f491ff0d64f1121a8b0a463" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>c</name></member>
       <member refid="group__GeneralGroup_1gab0c3bc061463b886469241c7c3b17cd2" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>eval</name></member>
       <member refid="group__GeneralGroup_1gadea6aa750372ae79cb7d305a5f939f50" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>SM</name></member>
-      <member refid="group__GeneralGroup_1ga613642585592285c402e51d9af48651a" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>sum</name></member>
-      <member refid="group__GeneralGroup_1gae2db52d249d73990155ac0aee19ecdf7" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>sumAt</name></member>
+      <member refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>sum</name></member>
+      <member refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>sumAt</name></member>
       <member refid="group__GeneralGroup_1ga040faabf3a0fafc7f0a8afadd3108d2a" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>T</name></member>
     </listofallmembers>
   </compounddef>

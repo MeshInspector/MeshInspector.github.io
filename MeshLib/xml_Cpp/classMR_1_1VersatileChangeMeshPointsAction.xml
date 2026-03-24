@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VersatileChangeMeshPointsAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::VersatileChangeMeshPointsAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRVersatileChangeMeshAction_8h" local="no">MRMesh/MRVersatileChangeMeshAction.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga19ab18acf1fd97c86d26799b9bebea97" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga5e6ea3c09102ced5adc19e37eae20faf" kind="variable"><name>stdAction_</name></member>
+      <member refid="group__GeneralGroup_1ga305d40a3eeada3be45934999228f85db" kind="variable"><name>diffAction_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaf78cf209f6f8bdfcdb888dd349a8d453" kind="function"><name>VersatileChangeMeshPointsAction</name></member>
+      <member refid="group__GeneralGroup_1ga5f623c6071c2aa6569ec91f9d7fc528a" kind="function"><name>~VersatileChangeMeshPointsAction</name></member>
+      <member refid="group__GeneralGroup_1gafd2a8bd1c053ddf0e8b9bd4fb3ca1c8a" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gabe30ba5beef4f51a05e92a86d1973381" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga9be4a97f0424919cb8780014531a5624" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaecc6fd3fe70889b21e4d1303fb50f41d" kind="function"><name>compress</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gaf4d328db22f1669370cce0b41eb6c92c" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> points only (not topology) change; It starts its life storing all points (uncompressed format), but can be switched to store only modified points (compressed format) </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::VersatileChangeMeshPointsAction</label>
+        <link refid="classMR_1_1VersatileChangeMeshPointsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::VersatileChangeMeshPointsAction</label>
+        <link refid="classMR_1_1VersatileChangeMeshPointsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRVersatileChangeMeshAction.h" line="13" column="1" bodyfile="MRMesh/MRVersatileChangeMeshAction.h" bodystart="14" bodyend="37"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gabe30ba5beef4f51a05e92a86d1973381" prot="public" virt="virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaecc6fd3fe70889b21e4d1303fb50f41d" prot="public" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>compress</name></member>
+      <member refid="group__GeneralGroup_1ga305d40a3eeada3be45934999228f85db" prot="private" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>diffAction_</name></member>
+      <member refid="group__GeneralGroup_1ga9be4a97f0424919cb8780014531a5624" prot="public" virt="virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gafd2a8bd1c053ddf0e8b9bd4fb3ca1c8a" prot="public" virt="virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga19ab18acf1fd97c86d26799b9bebea97" prot="public" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1gaf4d328db22f1669370cce0b41eb6c92c" prot="public" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1ga5e6ea3c09102ced5adc19e37eae20faf" prot="private" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>stdAction_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1gaf78cf209f6f8bdfcdb888dd349a8d453" prot="public" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>VersatileChangeMeshPointsAction</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga5f623c6071c2aa6569ec91f9d7fc528a" prot="public" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>~VersatileChangeMeshPointsAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

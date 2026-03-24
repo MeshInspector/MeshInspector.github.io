@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFunctional_8h" kind="file" language="C++">
     <compoundname>MRFunctional.h</compoundname>
     <includes local="no">functional</includes>
     <includes local="no">utility</includes>
-    <includedby refid="MRBitSetParallelFor_8h" local="yes">MRBitSetParallelFor.h</includedby>
-    <includedby refid="MRParallelFor_8h" local="yes">MRParallelFor.h</includedby>
+    <includedby refid="MRBitSetParallelFor_8h" local="yes">MRMesh/MRBitSetParallelFor.h</includedby>
+    <includedby refid="MRParallelFor_8h" local="yes">MRMesh/MRParallelFor.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>MRFunctional.h</label>
+        <label>MRMesh/MRFunctional.h</label>
         <link refid="MRFunctional_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -24,7 +24,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRBitSetParallelFor.h</label>
+        <label>MRMesh/MRBitSetParallelFor.h</label>
         <link refid="MRBitSetParallelFor_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -32,11 +32,11 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRConeApproximator.h</label>
+        <label>MRMesh/MRConeApproximator.h</label>
         <link refid="MRConeApproximator_8h"/>
       </node>
       <node id="1">
-        <label>MRFunctional.h</label>
+        <label>MRMesh/MRFunctional.h</label>
         <link refid="MRFunctional_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -44,7 +44,7 @@
         </childnode>
       </node>
       <node id="5">
-        <label>MRParallelFor.h</label>
+        <label>MRMesh/MRParallelFor.h</label>
         <link refid="MRParallelFor_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
@@ -54,19 +54,19 @@
         </childnode>
       </node>
       <node id="7">
-        <label>MRParallelMinMax.h</label>
+        <label>MRMesh/MRParallelMinMax.h</label>
         <link refid="MRParallelMinMax_8h"/>
       </node>
       <node id="3">
-        <label>MRProjectionMeshAttribute.h</label>
+        <label>MRMesh/MRProjectionMeshAttribute.h</label>
         <link refid="MRProjectionMeshAttribute_8h"/>
       </node>
       <node id="4">
-        <label>MRUnionFindParallel.h</label>
+        <label>MRMesh/MRUnionFindParallel.h</label>
         <link refid="MRUnionFindParallel_8h"/>
       </node>
       <node id="8">
-        <label>MRVoxelsVolumeCachingAccessor.h</label>
+        <label>MRVoxels/MRVoxelsVolumeCachingAccessor.h</label>
         <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
       </node>
     </invincdepgraph>
@@ -90,13 +90,13 @@
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
 <codeline lineno="15" refid="classMR_1_1FunctionRef" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>R,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
-<codeline lineno="23" refid="classMR_1_1FunctionRef_3_01R_07Args_8_8_8_08_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt;R<sp/>(<sp/>Args...<sp/>)&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>R,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1FunctionRef_3_01R_07Args_8_8_8_08_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>&lt;R<sp/>(<sp/>Args...<sp/>)&gt;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>()<sp/>noexcept<sp/>=<sp/>delete;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga746f1a6b183b4e6ff2d6b3d1617ce2f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>(<sp/>const<sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&amp;<sp/>rhs<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga746f1a6b183b4e6ff2d6b3d1617ce2f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>(<sp/>const<sp/><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>&amp;<sp/>rhs<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>template<sp/>&lt;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typename<sp/>F,</highlight></codeline>
@@ -104,7 +104,7 @@
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::is_invocable_r_v&lt;R,<sp/>F&amp;&amp;,<sp/>Args...&gt;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&gt;<sp/>*<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>&gt;</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1gaee82bc107d81e4eb00555d53a3da4381" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>(<sp/>F&amp;&amp;<sp/>f<sp/>)<sp/>noexcept</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gaee82bc107d81e4eb00555d53a3da4381" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>(<sp/>F&amp;&amp;<sp/>f<sp/>)<sp/>noexcept</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj_<sp/>=<sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>std::addressof(<sp/>f<sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>callback_<sp/>=<sp/>[]<sp/>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*obj,<sp/>Args...<sp/>args<sp/>)<sp/>-&gt;<sp/>R</highlight></codeline>
@@ -116,7 +116,7 @@
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="group__GeneralGroup_1ga05f06d3436cf85a666543f93bc516284" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&amp;<sp/>operator<sp/>=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ga05f06d3436cf85a666543f93bc516284" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>&amp;<sp/>operator<sp/>=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,</highlight></codeline>
@@ -124,7 +124,7 @@
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::is_invocable_r_v&lt;R,<sp/>F&amp;&amp;,<sp/>Args...&gt;</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&gt;*<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>&gt;</highlight></codeline>
-<codeline lineno="56" refid="group__GeneralGroup_1ga4d911f9ae8f1bfe18be5cfe46e516ee4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&amp;<sp/>operator<sp/>=(<sp/>F&amp;&amp;<sp/>f<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1ga4d911f9ae8f1bfe18be5cfe46e516ee4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>&amp;<sp/>operator<sp/>=(<sp/>F&amp;&amp;<sp/>f<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj_<sp/>=<sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>std::addressof(<sp/>f<sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>callback_<sp/>=<sp/>[]<sp/>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*obj,<sp/>Args...<sp/>args<sp/>)<sp/>-&gt;<sp/>R</highlight></codeline>
@@ -137,7 +137,7 @@
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="group__GeneralGroup_1gaa97ee917ff1e20f0094213f62d77ddac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa97ee917ff1e20f0094213f62d77ddac" kindref="member">swap</ref>(<sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1gaa97ee917ff1e20f0094213f62d77ddac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa97ee917ff1e20f0094213f62d77ddac" kindref="member">swap</ref>(<sp/><ref refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kindref="member">FunctionRef</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::swap(<sp/>obj_,<sp/>rhs.obj_<sp/>);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::swap(<sp/>callback_,<sp/>rhs.callback_<sp/>);</highlight></codeline>
@@ -159,8 +159,8 @@
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>lhs.swap(<sp/>rhs<sp/>);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFunctional.h"/>
+    <location file="MRMesh/MRFunctional.h"/>
   </compounddef>
 </doxygen>

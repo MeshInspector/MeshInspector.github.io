@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1aefb9da14d47597b21db1aa81a9f4ed83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78286" bodyend="78287"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a0252e2b97e812e1e77f51af81ad8e804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__call__</definition>
+        <argsstring>(self, PointCloud arg0, PointsToDistanceVolumeParams arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78288" bodyend="78289"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a10a4340fad8063f4a7680d4a75ea98e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78291" bodyend="78292"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a689614bfed875def5170f311d282261e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78294" bodyend="78295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a801078d9728f6cc162d9d960701f6b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self, func_bool_from_PointCloud_PointsToDistanceVolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams" kindref="compound">func_bool_from_PointCloud_PointsToDistanceVolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78297" bodyend="78298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ad36c413aca8c4d4e2cfe462affccefa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self, typing.Callable[[PointCloud, PointsToDistanceVolumeParams], bool] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[PointCloud, PointsToDistanceVolumeParams]</array>
+        </param>
+        <param>
+          <type>bool]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78300" bodyend="78301"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ae29db3fbb73f50b480e2bcbe8ec17dcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78302" bodyend="78305"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ae98fbe5bee34ada39c76916e310285ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_bool_from_PointCloud_PointsToDistanceVolumeParams.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78306" bodyend="78309"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78285" bodyend="78309"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1aefb9da14d47597b21db1aa81a9f4ed83" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a0252e2b97e812e1e77f51af81ad8e804" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a10a4340fad8063f4a7680d4a75ea98e1" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a689614bfed875def5170f311d282261e" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a801078d9728f6cc162d9d960701f6b35" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ad36c413aca8c4d4e2cfe462affccefa8" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ae29db3fbb73f50b480e2bcbe8ec17dcf" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ae98fbe5bee34ada39c76916e310285ec" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

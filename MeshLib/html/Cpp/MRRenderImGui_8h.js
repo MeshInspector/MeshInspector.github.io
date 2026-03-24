@@ -1,4 +1,4 @@
 var MRRenderImGui_8h =
 [
-    [ "renderImGui", "MRRenderImGui_8h.html#gae2283db1433881edc5977ffc68b00350", null ]
+    [ "MR::renderImGui", "group__GeneralGroup.html#ga479738b081fce8d7c6c1886a2682004c", null ]
 ];

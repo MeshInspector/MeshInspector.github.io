@@ -1,10 +1,6 @@
 var MRVoxelsApplyTransform_8h =
 [
-    [ "MR_AffineXf3f", "MRVoxelsApplyTransform_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_Box3f", "MRVoxelsApplyTransform_8h.html#a387c2b6c194640a4dfac77733cbe3880", null ],
-    [ "MR_ObjectVoxels", "MRVoxelsApplyTransform_8h.html#a4b484d976d1077ae78acdc3b6ea174c0", null ],
     [ "MR_TransformVdbVolumeResult", "MRVoxelsApplyTransform_8h.html#a76fec8471360e43daa2d73a2acea2b8a", null ],
-    [ "MR_VdbVolume", "MRVoxelsApplyTransform_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
     [ "MR_transformVdbVolume", "MRVoxelsApplyTransform_8h.html#a0be08c89a10f24509d6d7958e1de2c6a", null ],
     [ "MR_TransformVdbVolumeResult_AssignFromAnother", "MRVoxelsApplyTransform_8h.html#a8ae8e0cd1613cbc8ec600dca56ada041", null ],
     [ "MR_TransformVdbVolumeResult_ConstructFrom", "MRVoxelsApplyTransform_8h.html#ad5346068273f40028fce43bb4967346e", null ],

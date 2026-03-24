@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSceneSortByName" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonSceneSortByName</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRRibbonSceneButtons_8h" local="no">MRRibbonSceneButtons.h</includes>
+    <includes refid="MRRibbonSceneButtons_8h" local="no">MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga135199f4b1d08f9f4f4200eec9a3f404" kind="function"><name>RibbonSceneSortByName</name></member>
       <member refid="group__GeneralGroup_1ga78f3688dca9bddc169d79976c6ccfdad" kind="function"><name>isAvailable</name></member>
@@ -52,7 +52,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="14" bodyend="24"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="13" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="14" bodyend="24"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabe980ef002e4cc4677b3b8687eb1574f" prot="public" virt="virtual"><scope>MR::RibbonSceneSortByName</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonSceneSortByName</scope><name>blocking</name></member>
@@ -64,9 +64,9 @@
       <member refid="group__GeneralGroup_1ga78f3688dca9bddc169d79976c6ccfdad" prot="public" virt="virtual"><scope>MR::RibbonSceneSortByName</scope><name>isAvailable</name></member>
       <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>MR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>name</name></member>
-      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>RibbonMenuItem</name></member>
       <member refid="group__GeneralGroup_1ga135199f4b1d08f9f4f4200eec9a3f404" prot="public" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>RibbonSceneSortByName</name></member>
-      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>setDropItemsFromItemList</name></member>
       <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>setRibbonItemType</name></member>
       <member refid="group__GeneralGroup_1ga310bd7ae5a0381e57b1494e4ba53edee" prot="private" virt="non-virtual"><scope>MR::RibbonSceneSortByName</scope><name>sortObjectsRecursive_</name></member>
       <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::RibbonSceneSortByName</scope><name>type</name></member>

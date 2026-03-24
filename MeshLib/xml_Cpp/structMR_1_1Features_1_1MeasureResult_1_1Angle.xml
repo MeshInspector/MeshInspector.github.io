@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Features_1_1MeasureResult_1_1Angle" kind="struct" language="C++" prot="public">
     <compoundname>MR::Features::MeasureResult::Angle</compoundname>
     <basecompoundref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public" virt="non-virtual">MR::Features::MeasureResult::BasicPart</basecompoundref>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga104e267ea283036c060f8d2f3ad3cfc0" kind="variable"><name>pointA</name></member>
       <member refid="group__GeneralGroup_1ga625702bc7bbc1dc9e21bd6786bb901ad" kind="variable"><name>pointB</name></member>
@@ -16,7 +16,7 @@
       <member refid="group__GeneralGroup_1ga91b56f3de892d527f62012a689981635" kind="function"><name>pointFor</name></member>
       <member refid="group__GeneralGroup_1ga188d4fb553903ae07ec08a2ea1e1746d" kind="function"><name>dirFor</name></member>
       <member refid="group__GeneralGroup_1gaca66ca9ce428b369a304aca13a2cd25c" kind="function"><name>isSurfaceNormalFor</name></member>
-      <member refid="group__GeneralGroup_1ga3fe4c9665a94e2143038345808dc1586" kind="function"><name>computeAngleInRadians</name></member>
+      <member refid="group__GeneralGroup_1gac9a2544cf1b27562f0dfbba332f4bbd9" kind="function"><name>computeAngleInRadians</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -46,9 +46,9 @@
         <link refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="210" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="211" bodyend="227"/>
+    <location file="MRMesh/MRFeatures.h" line="210" column="5" bodyfile="MRMesh/MRFeatures.h" bodystart="211" bodyend="227"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga3fe4c9665a94e2143038345808dc1586" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Angle</scope><name>computeAngleInRadians</name></member>
+      <member refid="group__GeneralGroup_1gac9a2544cf1b27562f0dfbba332f4bbd9" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Angle</scope><name>computeAngleInRadians</name></member>
       <member refid="group__GeneralGroup_1ga6f5eba0221416eca918dea71f64ad70d" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Angle</scope><name>dirA</name></member>
       <member refid="group__GeneralGroup_1gae7cbce0a25261174c06274fcaffe2a0f" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Angle</scope><name>dirB</name></member>
       <member refid="group__GeneralGroup_1ga188d4fb553903ae07ec08a2ea1e1746d" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Angle</scope><name>dirFor</name></member>

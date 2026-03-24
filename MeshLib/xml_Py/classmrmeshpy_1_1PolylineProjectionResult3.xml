@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PolylineProjectionResult3" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PolylineProjectionResult3</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1PolylineProjectionResult3Arg" prot="public" virt="non-virtual">mrmeshpy.PolylineProjectionResult3Arg</derivedcompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46652" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47624" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PolylineProjectionResult3_1ae95980d7e37f9ec0290300580e6859b0" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46653" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47625" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PolylineProjectionResult3_1adf93b990a5d7c3166ccfa3699e810556" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46654" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47626" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -57,9 +57,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PolylineProjectionResult3.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a1ddd76eca1c8942c4d646125bb6e8d8b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a22055a955a5dc0d96e6a2b80fb88f070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1abb0769147b3aceab4084948807e9f1a6">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -74,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46657" bodyend="46658"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47629" bodyend="47630"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a4e28b04c6675d5d2349b6ca405470ebc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PolylineProjectionResult3" kindref="compound">PolylineProjectionResult3</ref></type>
@@ -98,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46661" bodyend="46662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47633" bodyend="47634"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a4e28b04c6675d5d2349b6ca405470ebc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PolylineProjectionResult3" kindref="compound">PolylineProjectionResult3</ref></type>
@@ -122,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46665" bodyend="46666"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47637" bodyend="47638"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -142,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46667" bodyend="46668"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47639" bodyend="47640"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a9fd145895042be66401d4512f9ec33c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -150,9 +147,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PolylineProjectionResult3.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a1ddd76eca1c8942c4d646125bb6e8d8b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a22055a955a5dc0d96e6a2b80fb88f070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1abb0769147b3aceab4084948807e9f1a6">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -163,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46670" bodyend="46671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47642" bodyend="47643"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a4979047cb3d4ed4e09102dcab774f70c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -171,9 +165,6 @@
         <argsstring>(self, PolylineProjectionResult3 arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PolylineProjectionResult3.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a1ddd76eca1c8942c4d646125bb6e8d8b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a22055a955a5dc0d96e6a2b80fb88f070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1abb0769147b3aceab4084948807e9f1a6">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -190,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46673" bodyend="46676"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47645" bodyend="47648"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1ac2997db67005679df6e8e54366505fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -198,9 +189,6 @@
         <argsstring>(self, UndirectedEdgeId line, Vector3f point, float distSq)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PolylineProjectionResult3.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a1ddd76eca1c8942c4d646125bb6e8d8b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a22055a955a5dc0d96e6a2b80fb88f070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1abb0769147b3aceab4084948807e9f1a6">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -225,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46678" bodyend="46681"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47650" bodyend="47653"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a646b3921652a8d06111a9994a072eac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -245,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46682" bodyend="46685"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47654" bodyend="47657"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a7427fa67049d5434674c53951bb3e373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -265,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46687" bodyend="46690"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47659" bodyend="47662"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a6a665778be8f20f253cb0dbf352a602c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -287,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46692" bodyend="46693"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47664" bodyend="47665"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1aa9bc252bdf5d0559444240dbab29e356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
@@ -307,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46695" bodyend="46698"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47667" bodyend="47670"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a5382f9fc669312be73198e36f26d0913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -329,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46700" bodyend="46701"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47672" bodyend="47673"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a0dc486948b8acd0868831a03f5a438f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -349,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46703" bodyend="46706"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47675" bodyend="47678"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult3_1a7f15c12f75cc176f7171a3f3b13c85c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -371,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46708" bodyend="46709"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47680" bodyend="47681"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -392,21 +380,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PolylineProjectionResult3</label>
-        <link refid="classmrmeshpy_1_1PolylineProjectionResult3"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_distSq</edgelabel>
-          <edgelabel>_offsetof_line</edgelabel>
-          <edgelabel>_offsetof_point</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46648" bodyend="46709"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47620" bodyend="47681"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1ac4af4117384f7cbf8bb0e31359eabfbb" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3</scope><name>__bool__</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1a32f61052ab24ac4070b897a53604acc8" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3</scope><name>__init__</name></member>

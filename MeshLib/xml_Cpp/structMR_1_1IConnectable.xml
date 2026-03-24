@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1IConnectable" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::IConnectable</compoundname>
     <derivedcompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="virtual">MR::ConnectionHolder</derivedcompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" kind="function"><name>~IConnectable</name></member>
       <member refid="group__GeneralGroup_1ga2212095d3996892cff578320ac2ce746" kind="function"><name>connect</name></member>
@@ -283,7 +283,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="16" bodyend="20"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="15" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="16" bodyend="20"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2212095d3996892cff578320ac2ce746" prot="public" virt="pure-virtual"><scope>MR::IConnectable</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga7e18fe37723ce6b3587e47978c25ad71" prot="public" virt="pure-virtual"><scope>MR::IConnectable</scope><name>disconnect</name></member>

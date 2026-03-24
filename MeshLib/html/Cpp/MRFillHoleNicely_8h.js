@@ -1,4 +1,5 @@
 var MRFillHoleNicely_8h =
 [
-    [ "fillHoleNicely", "MRFillHoleNicely_8h.html#ga336e1461bdc97f5a14465c6571e7f492", null ]
+    [ "MR::fillHoleNicely", "group__GeneralGroup.html#gab840077428711c450df977dffcef0380", null ],
+    [ "MR::stitchHolesNicely", "group__GeneralGroup.html#ga5b7046fd268a56376489379737381aee", null ]
 ];

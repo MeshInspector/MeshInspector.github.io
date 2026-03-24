@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1InSphere" kind="class" language="C#" prot="public">
     <compoundname>MR::InSphere</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_InSphere</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="677" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="677" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="717" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="717" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1InSphere_1a4a93401e26dcea1bc7d36ef55291c4cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -25,13 +25,12 @@
         <name>radius</name>
         <qualifiedname>MR.InSphere.radius</qualifiedname>
         <briefdescription>
-<para>excluding input point and incident triangles, distSq - squared distance to sphere&apos;s center </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="679" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="679" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="719" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="719" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1InSphere_1adf19fc6a4fe3c1e62fb2a4da33b76beb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshProjectionResult" kindref="compound">MR.MeshProjectionResult</ref></type>
@@ -40,12 +39,13 @@
         <name>oppositeTouchPoint</name>
         <qualifiedname>MR.InSphere.oppositeTouchPoint</qualifiedname>
         <briefdescription>
+<para>excluding input point and incident triangles, distSq - squared distance to sphere's center </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="682" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="682" bodyend="682"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="724" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="724" bodyend="724"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="701" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="701" bodyend="705"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="743" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="743" bodyend="747"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="711" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="711" bodyend="717"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="753" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="753" bodyend="759"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphere_1ac24c017106ab784b4df5110720267e04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="722" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="722" bodyend="729"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="764" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="764" bodyend="771"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphere_1a5a90bfe23a17815e20853a8a35251426" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -126,13 +126,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.InSphere.InSphere</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1InSphere_1a47055619d13c41add0bd1433e3c09172" kindref="member">MR.InSphere.InSphere</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="734" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="734" bodyend="741"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="776" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="776" bodyend="783"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphere_1a573cdde56a90782301d82dcd71297315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -145,13 +145,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.InSphere.InSphere</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1InSphere_1a47055619d13c41add0bd1433e3c09172" kindref="member">MR.InSphere.InSphere</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="746" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="746" bodyend="746"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="788" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="788" bodyend="788"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphere_1a1b0e57fc4a1a1d49118c993790e2fac0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1InSphere" kindref="compound">MR.InSphere</ref></type>
@@ -164,13 +164,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.InSphere.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::InSphere::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="751" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="751" bodyend="758"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="793" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="793" bodyend="800"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -179,48 +179,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_InSphere</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.InSphere</label>
         <link refid="classMR_1_1InSphere"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_InSphere</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_InSphere &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_InSphere</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.InSphere</label>
         <link refid="classMR_1_1InSphere"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_InSphere</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_InSphere &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="675" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="676" bodyend="759"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="715" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="716" bodyend="801"/>
     <listofallmembers>
       <member refid="classMR_1_1InSphere_1a1b0e57fc4a1a1d49118c993790e2fac0" prot="public" virt="non-virtual"><scope>MR::InSphere</scope><name>assign</name></member>
       <member refid="classMR_1_1InSphere_1a2fb148f40bd4fecb861d4e3c8c949b1f" prot="public" virt="non-virtual"><scope>MR::InSphere</scope><name>center</name></member>

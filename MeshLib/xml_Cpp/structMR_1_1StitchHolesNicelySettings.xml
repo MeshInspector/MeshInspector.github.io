@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1StitchHolesNicelySettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::StitchHolesNicelySettings</compoundname>
+    <includes refid="MRFillHoleNicely_8h" local="no">MRMesh/MRFillHoleNicely.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" kind="variable"><name>triangulateParams</name></member>
+      <member refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" kind="variable"><name>triangulateOnly</name></member>
+      <member refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" kind="variable"><name>subdivideSettings</name></member>
+      <member refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" kind="variable"><name>smoothCurvature</name></member>
+      <member refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" kind="variable"><name>smoothSeettings</name></member>
+      <member refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" kind="variable"><name>outAttributes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::FillHoleMetric</label>
+        <link refid="structMR_1_1FillHoleMetric"/>
+      </node>
+      <node id="6">
+        <label>MR::OutAttributesFillingSettings</label>
+        <link refid="structMR_1_1OutAttributesFillingSettings"/>
+      </node>
+      <node id="5">
+        <label>MR::SmoothFillingSettings</label>
+        <link refid="structMR_1_1SmoothFillingSettings"/>
+      </node>
+      <node id="1">
+        <label>MR::StitchHolesNicelySettings</label>
+        <link refid="structMR_1_1StitchHolesNicelySettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>triangulateParams</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>subdivideSettings</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>smoothSeettings</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>outAttributes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::StitchHolesParams</label>
+        <link refid="structMR_1_1StitchHolesParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>metric</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::SubdivideFillingSettings</label>
+        <link refid="structMR_1_1SubdivideFillingSettings"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRFillHoleNicely.h" line="87" column="1" bodyfile="MRMesh/MRFillHoleNicely.h" bodystart="88" bodyend="106"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>outAttributes</name></member>
+      <member refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>smoothCurvature</name></member>
+      <member refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>smoothSeettings</name></member>
+      <member refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>subdivideSettings</name></member>
+      <member refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>triangulateOnly</name></member>
+      <member refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>triangulateParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

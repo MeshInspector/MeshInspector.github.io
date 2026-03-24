@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight" kind="struct" language="C++" prot="public">
     <compoundname>MR::RibbonSchemaHolder::SearchResultWeight</compoundname>
-    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <includes refid="MRRibbonSchema_8h" local="no">MRViewer/MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaf3c9cd76985b22daa5dc4df743a27f18" kind="variable"><name>captionWeight</name></member>
       <member refid="group__GeneralGroup_1ga5ca5321968c0133a4d4bf0187f1b11c5" kind="variable"><name>captionOrderWeight</name></member>
@@ -14,7 +14,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="104" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="105" bodyend="110"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="107" column="5" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="108" bodyend="113"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5ca5321968c0133a4d4bf0187f1b11c5" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>captionOrderWeight</name></member>
       <member refid="group__GeneralGroup_1gaf3c9cd76985b22daa5dc4df743a27f18" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>captionWeight</name></member>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RingIterator" kind="class" language="C++" prot="public">
     <compoundname>MR::RingIterator</compoundname>
     <basecompoundref prot="public" virt="non-virtual">N</basecompoundref>
-    <includes refid="MRRingIterator_8h" local="no">MRRingIterator.h</includes>
+    <includes refid="MRRingIterator_8h" local="no">MRMesh/MRRingIterator.h</includes>
     <templateparamlist>
       <param>
         <type>typename N</type>
@@ -55,7 +55,7 @@
         <label>N</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="16" bodyend="41"/>
+    <location file="MRMesh/MRRingIterator.h" line="15" column="1" bodyfile="MRMesh/MRRingIterator.h" bodystart="16" bodyend="41"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6a1ef2de2a1f13787a3b231f9ce3b4a4" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>difference_type</name></member>
       <member refid="group__GeneralGroup_1ga6de13f447b24f9581605e81b8daee05b" prot="private" virt="non-virtual"><scope>MR::RingIterator</scope><name>edge_</name></member>

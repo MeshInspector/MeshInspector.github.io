@@ -1,9 +1,6 @@
 var MRScanHelpers_8h =
 [
-    [ "MR_SliceInfo", "MRScanHelpers_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942", null ],
     [ "MR_SliceInfoBase", "MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996", null ],
-    [ "MR_std_vector_MR_SliceInfo", "MRScanHelpers_8h.html#a771ba5022befbb504ac90050d525a465", null ],
-    [ "MR_std_vector_std_filesystem_path", "MRScanHelpers_8h.html#a4d75e004d098bc7d987ebfcf304f5454", null ],
     [ "MR_putScanFileNameInZ", "MRScanHelpers_8h.html#abb537722b31d589081be6fa2a6198f33", null ],
     [ "MR_SliceInfo_AssignFromAnother", "MRScanHelpers_8h.html#a4d4f812d4295badc4e4e36f754b7ecba", null ],
     [ "MR_SliceInfo_ConstructFromAnother", "MRScanHelpers_8h.html#a0193193aadc828e5020f4b779b27f670", null ],
@@ -19,6 +16,7 @@ var MRScanHelpers_8h =
     [ "MR_SliceInfo_GetMutable_imagePos", "MRScanHelpers_8h.html#abf9730ed2c4e90b01100cd90c652c2c3", null ],
     [ "MR_SliceInfo_GetMutable_instanceNum", "MRScanHelpers_8h.html#a53538c38bc7d412d779cd6950f2ebf73", null ],
     [ "MR_SliceInfo_GetMutable_z", "MRScanHelpers_8h.html#a6b5e6d6df99cbfb14e8a45f8ff8c5a08", null ],
+    [ "MR_SliceInfo_MutableStaticDowncastFrom_MR_SliceInfoBase", "MRScanHelpers_8h.html#ab0968ab8e196e4296b0585e8ab5801d9", null ],
     [ "MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase", "MRScanHelpers_8h.html#a8259067bf1dd1720137b2fcb28b9eff4", null ],
     [ "MR_SliceInfo_OffsetMutablePtr", "MRScanHelpers_8h.html#ac46bb91aa84b47902fbe87c2b1bc84c2", null ],
     [ "MR_SliceInfo_OffsetPtr", "MRScanHelpers_8h.html#a1ad74c302bce601ef2ea580a76d5ff50", null ],
@@ -26,6 +24,7 @@ var MRScanHelpers_8h =
     [ "MR_SliceInfo_Set_imagePos", "MRScanHelpers_8h.html#a04db92e829095c04ced1440882086f47", null ],
     [ "MR_SliceInfo_Set_instanceNum", "MRScanHelpers_8h.html#a4b593c3e0e620476b571a8424e0b5c47", null ],
     [ "MR_SliceInfo_Set_z", "MRScanHelpers_8h.html#abffce3c02c1652b8e26dbeeffed273b9", null ],
+    [ "MR_SliceInfo_StaticDowncastFrom_MR_SliceInfoBase", "MRScanHelpers_8h.html#ad73d2d7bf25b1404e6996cde187055f3", null ],
     [ "MR_SliceInfo_UpcastTo_MR_SliceInfoBase", "MRScanHelpers_8h.html#a56a6e732db4d138975b36c6bde975fea", null ],
     [ "MR_SliceInfoBase_AssignFromAnother", "MRScanHelpers_8h.html#a07cab1e1557315b4e19f081fe1795d8b", null ],
     [ "MR_SliceInfoBase_ConstructFrom", "MRScanHelpers_8h.html#aa6669ad018e8560a6fd4458ecee70d9e", null ],
@@ -40,13 +39,11 @@ var MRScanHelpers_8h =
     [ "MR_SliceInfoBase_GetMutable_fileNum", "MRScanHelpers_8h.html#a75e1dc03b116f3ce3d88036f14651cfe", null ],
     [ "MR_SliceInfoBase_GetMutable_instanceNum", "MRScanHelpers_8h.html#aec2a789aa34631c3d6a6df5b19b2e583", null ],
     [ "MR_SliceInfoBase_GetMutable_z", "MRScanHelpers_8h.html#a2eeadba49498e09de4979f74ad7c9f57", null ],
-    [ "MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo", "MRScanHelpers_8h.html#aee4a7b64f59d81e5b37193ddb5d547f4", null ],
     [ "MR_SliceInfoBase_OffsetMutablePtr", "MRScanHelpers_8h.html#ae7aeadd3b94242cae353b3d35b0df0e5", null ],
     [ "MR_SliceInfoBase_OffsetPtr", "MRScanHelpers_8h.html#a9ad825dde7dbe9ce7c411f504f0c0fcb", null ],
     [ "MR_SliceInfoBase_Set_fileNum", "MRScanHelpers_8h.html#ac0cb56ce45ec9462dbe5d7cfa506a334", null ],
     [ "MR_SliceInfoBase_Set_instanceNum", "MRScanHelpers_8h.html#a88042ad7e7a40b37c7b86c175b5fcc48", null ],
     [ "MR_SliceInfoBase_Set_z", "MRScanHelpers_8h.html#acec54aa70f2e4689c403c93760e24397", null ],
-    [ "MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo", "MRScanHelpers_8h.html#a4cf9aeb4370b0427c35439f5ab5eb0a6", null ],
     [ "MR_sortScanFilesByName", "MRScanHelpers_8h.html#a774fb9769bd3fd586496af74fe82d048", null ],
     [ "MR_sortScansByOrder", "MRScanHelpers_8h.html#a612a3a2244de5d9464e79d6e69a50b03", null ]
 ];

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectPoints" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectPoints</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectPoints</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1076" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1076" bodyend="1081"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1028" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1028" bodyend="1035"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a6d483b9ab01a49b2ed7462a95661a6ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1082" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1082" bodyend="1087"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1036" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1036" bodyend="1043"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1adf5ec83898cf1664c096d7cebbb0c999" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1088" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1088" bodyend="1093"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1044" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1044" bodyend="1051"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1aaffdf12490233d564737304028248173" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1094" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1094" bodyend="1099"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1052" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1052" bodyend="1059"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a50e428121ef278719d3133e65ca01304" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1102" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1102" bodyend="1109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1062" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1062" bodyend="1071"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a208e3b233084e6448ed3995bd9c0e56a" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1110" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1110" bodyend="1117"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1072" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1072" bodyend="1081"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a78318ee01a77d1f1cef4c3f44c588284" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1118" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1118" bodyend="1125"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1082" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1082" bodyend="1091"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -152,29 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1127" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1127" bodyend="1127"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPoints_1a040e71ef42861cf4008f67f1cc332208" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ObjectPoints.ObjectPoints</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ObjectPoints</name>
-        <qualifiedname>MR.ObjectPoints.ObjectPoints</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1129" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1129" bodyend="1129"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1093" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1093" bodyend="1093"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -191,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1134" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1134" bodyend="1139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1098" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1098" bodyend="1103"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a6f091b4fa2eeaa92bbeb7a6f0c08737d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -204,13 +182,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ObjectPoints.ObjectPoints</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectPoints_1a2b413054c12867e04d326ba8ad50549d" kindref="member">MR.ObjectPoints.ObjectPoints</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1144" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1144" bodyend="1150"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1108" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1108" bodyend="1114"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a18650d21d71e643383ceef38d5f77903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -228,13 +206,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ObjectPoints.ObjectPoints</computeroutput>. Parameter <computeroutput>saveNormals</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectPoints_1a2b413054c12867e04d326ba8ad50549d" kindref="member">MR.ObjectPoints.ObjectPoints</ref></computeroutput>. Parameter <computeroutput>saveNormals</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1156" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1156" bodyend="1163"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1120" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1120" bodyend="1127"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a56dac0dab5698dcb731b16bf7d3387e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref></type>
@@ -247,66 +225,66 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ObjectPoints.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ObjectPoints::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1168" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1168" bodyend="1178"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1132" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1132" bodyend="1142"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPoints_1aca289a6761993cb02eea8ba07560239f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Const_PointCloud</type>
-        <definition>unsafe MR.Const_PointCloud MR.ObjectPoints.varPointCloud</definition>
+      <memberdef kind="function" id="classMR_1_1ObjectPoints_1a4daaf98c8ebfd08175a25b80f7f7bfd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_MRPointCloud</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_MRPointCloud MR.ObjectPoints.varPointCloud</definition>
         <argsstring>()</argsstring>
         <name>varPointCloud</name>
         <qualifiedname>MR.ObjectPoints.varPointCloud</qualifiedname>
         <briefdescription>
-<para>returns variable point cloud, if const point cloud is needed use <computeroutput>pointCloud()</computeroutput> instead Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1aca289a6761993cb02eea8ba07560239f" kindref="member">MR.ObjectPoints.varPointCloud</ref></computeroutput>. </para>
+<para>returns variable point cloud, if const point cloud is needed use <computeroutput>pointCloud()</computeroutput> instead Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a4daaf98c8ebfd08175a25b80f7f7bfd4" kindref="member">MR.ObjectPoints.varPointCloud</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1184" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1184" bodyend="1189"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1148" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1148" bodyend="1153"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPoints_1a0a5ec4c687a672ec14c9483c737dfa96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectPoints_1af9c27d9accbeda280597034655fb66fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjectPoints.setPointCloud</definition>
-        <argsstring>(MR.Const_PointCloud pointCloud)</argsstring>
+        <argsstring>(MR.Std.Const_SharedPtr_MRPointCloud pointCloud)</argsstring>
         <name>setPointCloud</name>
         <qualifiedname>MR.ObjectPoints.setPointCloud</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type>MR.Std.Const_SharedPtr_MRPointCloud</type>
           <declname>pointCloud</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a0a5ec4c687a672ec14c9483c737dfa96" kindref="member">MR.ObjectPoints.setPointCloud</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1af9c27d9accbeda280597034655fb66fe" kindref="member">MR.ObjectPoints.setPointCloud</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1194" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1194" bodyend="1199"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1158" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1158" bodyend="1163"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPoints_1a2ff5abfa5fc187086b1ce34b9d3c2f3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectPoints_1ad3ebe0f2a207354d481eb8f7e22bb478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjectPoints.swapPointCloud</definition>
-        <argsstring>(MR.PointCloud points)</argsstring>
+        <argsstring>(MR.Std.SharedPtr_MRPointCloud points)</argsstring>
         <name>swapPointCloud</name>
         <qualifiedname>MR.ObjectPoints.swapPointCloud</qualifiedname>
         <param>
-          <type><ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
+          <type>MR.Std.SharedPtr_MRPointCloud</type>
           <declname>points</declname>
         </param>
         <briefdescription>
-<para>sets given point cloud to this, and returns back previous mesh of this; does not touch selection Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a2ff5abfa5fc187086b1ce34b9d3c2f3f" kindref="member">MR.ObjectPoints.swapPointCloud</ref></computeroutput>. </para>
+<para>sets given point cloud to this, and returns back previous mesh of this; does not touch selection Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1ad3ebe0f2a207354d481eb8f7e22bb478" kindref="member">MR.ObjectPoints.swapPointCloud</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1206" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1206" bodyend="1211"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1170" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1170" bodyend="1175"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ac86ac0249ac592420f49220ee9b211c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -325,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1216" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1216" bodyend="1221"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1180" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1180" bodyend="1185"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a57921c620f2fb8b51d5560f32e7b0036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -349,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1227" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1227" bodyend="1233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1191" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1191" bodyend="1197"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a8f04f2ab67d36810a0e49c546dbd9a1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -368,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1239" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1239" bodyend="1244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1203" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1203" bodyend="1208"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a09a7bd540e183df9258e8961d288ee59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -387,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1250" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1250" bodyend="1255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1214" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1214" bodyend="1219"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1aab0205dd7c8bf708264654bf93efcb76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -411,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1262" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1262" bodyend="1270"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1226" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1226" bodyend="1234"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a8a5dc5de99049ee5ccaf24904cc6bded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -430,7 +408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1275" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1275" bodyend="1280"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1239" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1239" bodyend="1244"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1aed4a1086a5e4359ab0f9f2711c586190" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -449,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1286" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1286" bodyend="1291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1250" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1250" bodyend="1255"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a27eb764cf848be859c685a52677cac58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -468,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1297" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1297" bodyend="1302"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1261" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1261" bodyend="1266"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a5e7e1323b3a2ea009503da07c53ccd3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -487,7 +465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1308" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1308" bodyend="1313"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1272" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1272" bodyend="1277"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ad2bdd7b531c2915704b809f44a9db6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -533,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1320" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1320" bodyend="1325"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1284" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1284" bodyend="1289"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ae16e4e9114afa36d3dec50aa20e0916f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -552,7 +530,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1331" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1331" bodyend="1336"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1295" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1295" bodyend="1300"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a06160977b0c9264edc5fcc0f8fba2397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -574,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1343" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1343" bodyend="1348"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1307" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1307" bodyend="1312"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a44f72ff978581e367df0093a58214498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -587,13 +565,13 @@
           <declname>newFormat</declname>
         </param>
         <briefdescription>
-<para>overrides file extension used to serialize point cloud inside this object: must start from &apos;.&apos;, nullptr means serialize in <ref refid="classMR_1adb979235051f16e0860065ee9ec797d0" kindref="member">defaultSerializePointsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a44f72ff978581e367df0093a58214498" kindref="member">MR.ObjectPoints.setSerializeFormat</ref></computeroutput>. </para>
+<para>overrides file extension used to serialize point cloud inside this object: must start from '.', nullptr means serialize in <ref refid="classMR_1adb979235051f16e0860065ee9ec797d0" kindref="member">defaultSerializePointsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a44f72ff978581e367df0093a58214498" kindref="member">MR.ObjectPoints.setSerializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1355" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1355" bodyend="1361"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1319" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1319" bodyend="1325"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a1e4c85c784819ebe0f49ba378f021814" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -608,7 +586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1367" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1367" bodyend="1372"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1331" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1331" bodyend="1336"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a7f921fa08151b2ea6fdae91cf5513943" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -623,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1378" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1378" bodyend="1383"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1342" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1342" bodyend="1347"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ab503d4ae1d12241b82e3942cfb17e7b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -650,7 +628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1389" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1389" bodyend="1394"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1353" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1353" bodyend="1358"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ac682b3f389c4d08d88f50ddd23e19108" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -673,7 +651,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1400" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1400" bodyend="1405"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1364" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1364" bodyend="1369"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a8cce509a3d9de40a6c685b8919c35805" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -696,7 +674,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1411" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1411" bodyend="1416"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1375" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1375" bodyend="1380"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a8a6f281f6289998940afa17df9e8bec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -715,7 +693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1422" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1422" bodyend="1427"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1386" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1386" bodyend="1391"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a481a750a34c405d76c235e53c20c964b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -739,7 +717,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1434" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1434" bodyend="1439"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1398" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1398" bodyend="1403"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a7b607d08d3c6a3b87828763e2c65ec7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -767,7 +745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1446" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1446" bodyend="1454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1410" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1410" bodyend="1418"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a3db11e9dc0ef59e1e4a4f41c5e250a41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -791,7 +769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1461" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1461" bodyend="1467"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1425" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1425" bodyend="1431"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a448614277363cfcd0a6ceced18ca6253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -810,7 +788,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1473" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1473" bodyend="1478"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1437" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1437" bodyend="1442"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a3df2b9780c7a8f9029a872bde2ed0c74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -834,7 +812,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1485" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1485" bodyend="1493"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1449" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1449" bodyend="1457"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a8ebfb8c648adb626b6f2e70f204176fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -858,7 +836,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1500" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1500" bodyend="1505"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1464" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1464" bodyend="1469"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a5e0f48869701f07cc24d3ce1cb122a5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -877,7 +855,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1511" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1511" bodyend="1516"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1475" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1475" bodyend="1480"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a611e4b5689b4c0653b156919a7853b88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -901,7 +879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1523" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1523" bodyend="1528"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1487" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1487" bodyend="1492"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a1881d0b40b3c47477890d087088fa3db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -920,7 +898,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1534" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1534" bodyend="1539"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1498" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1498" bodyend="1503"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a056730f8a12df68e83aaaa49c6a87e46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -939,7 +917,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1545" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1545" bodyend="1550"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1509" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1509" bodyend="1514"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a78d46f75a7ad7ac7b4c87f962f766719" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -958,7 +936,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1556" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1556" bodyend="1561"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1520" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1520" bodyend="1525"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a21e267ae6377a1818dace7fbe4f7de0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -977,7 +955,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1567" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1567" bodyend="1572"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1531" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1531" bodyend="1536"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a5db89a163369e231e01829cf5feb00f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -996,7 +974,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1579" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1579" bodyend="1584"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1543" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1543" bodyend="1548"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a9abd7f4b61cd4275dc0518dd5958c6fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1015,7 +993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1589" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1589" bodyend="1598"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1553" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1553" bodyend="1562"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1addf5d0e3d7944035bd22be67348865fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1039,7 +1017,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1604" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1604" bodyend="1612"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1568" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1568" bodyend="1576"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a5649a7a2348c0ad0fc57a568a3c65d12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1059,7 +1037,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1619" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1619" bodyend="1624"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1583" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1583" bodyend="1588"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ae1dec67e892d7ccdfbc28e97f4759ef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1078,7 +1056,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1630" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1630" bodyend="1635"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1594" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1594" bodyend="1599"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a08a9a2cf979b7efe8d94e13734275dd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1102,7 +1080,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1641" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1641" bodyend="1649"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1605" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1605" bodyend="1613"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a03af0085eb5c20cb561399d3f10fdf66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1126,7 +1104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1656" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1656" bodyend="1661"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1620" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1620" bodyend="1625"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a835b1de09c34427b680c685eec5878d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1145,7 +1123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1666" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1666" bodyend="1671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1630" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1630" bodyend="1635"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a5c56de4173cd19d5c88fb50e079bc501" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1164,7 +1142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1676" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1676" bodyend="1681"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1640" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1640" bodyend="1645"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ad995e078fe66021924368e85fc7efd1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1179,16 +1157,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1688" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1688" bodyend="1693"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1652" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1652" bodyend="1657"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPoints_1a2b93523a17363e361b1dab7d2d16c0b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectPoints_1abb113afee60be9135f2946ea21ac50a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.ObjectPoints.addChild</definition>
-        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObject child, bool? recognizedChild=null)</argsstring>
         <name>addChild</name>
         <qualifiedname>MR.ObjectPoints.addChild</qualifiedname>
         <param>
-          <type>MR._ByValueShared_Object</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObject</type>
           <declname>child</declname>
         </param>
         <param>
@@ -1205,7 +1183,7 @@
 <parametername>recognizedChild</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a2b93523a17363e361b1dab7d2d16c0b8" kindref="member">MR.ObjectPoints.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1abb113afee60be9135f2946ea21ac50a7" kindref="member">MR.ObjectPoints.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1213,30 +1191,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1703" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1703" bodyend="1709"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1667" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1667" bodyend="1673"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPoints_1a7ddb584686363e60270f2924cd0c9a26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectPoints_1a134607002675fe42aaf5fc96d0a306b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.ObjectPoints.addChildBefore</definition>
-        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObject newChild, MR.Std.Const_SharedPtr_MRObject existingChild)</argsstring>
         <name>addChildBefore</name>
         <qualifiedname>MR.ObjectPoints.addChildBefore</qualifiedname>
         <param>
-          <type>MR._ByValueShared_Object</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObject</type>
           <declname>newChild</declname>
         </param>
         <param>
-          <type>MR.Const_Object</type>
+          <type>MR.Std.Const_SharedPtr_MRObject</type>
           <declname>existingChild</declname>
         </param>
         <briefdescription>
-<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a7ddb584686363e60270f2924cd0c9a26" kindref="member">MR.ObjectPoints.addChildBefore</ref></computeroutput>. </para>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a134607002675fe42aaf5fc96d0a306b4" kindref="member">MR.ObjectPoints.addChildBefore</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1717" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1717" bodyend="1722"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1681" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1681" bodyend="1686"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ad444b2d6d6e221e94c2dad7f8bcd8b80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1251,7 +1229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1728" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1728" bodyend="1733"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1692" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1692" bodyend="1697"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ad0f6f606fb59a841a1a5be8878d26d7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1266,7 +1244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1739" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1739" bodyend="1744"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1703" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1703" bodyend="1708"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a2f74c208c1b6e8f58410a16571a04cd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1285,7 +1263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1750" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1750" bodyend="1755"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1714" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1714" bodyend="1719"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a3869ff103ad0ef06a0829c52288a59c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1304,7 +1282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1762" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1762" bodyend="1767"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1726" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1726" bodyend="1731"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a9d8081811515b5ae259c7fae1129ed21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1328,7 +1306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1774" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1774" bodyend="1779"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1738" bodyend="1743"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1aee5df9e57559b0529c7da59f221f3a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1347,7 +1325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1785" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1785" bodyend="1790"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1749" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1749" bodyend="1754"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a1f00172552a5a2808e061206cdd48ec7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1366,7 +1344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1798" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1798" bodyend="1803"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1762" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1762" bodyend="1767"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1a0a8ec99266cd9781d58cb8e4900d32eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1379,13 +1357,13 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a0a8ec99266cd9781d58cb8e4900d32eb" kindref="member">MR.ObjectPoints.addTag</ref></computeroutput>. </para>
+<para>adds tag to the object's tag storage additionally calls ObjectTagManager::tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a0a8ec99266cd9781d58cb8e4900d32eb" kindref="member">MR.ObjectPoints.addTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1811" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1811" bodyend="1820"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1775" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1775" bodyend="1784"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1acda7e03c16433bc22bf9a4df2b2b538e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1398,13 +1376,13 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1acda7e03c16433bc22bf9a4df2b2b538e" kindref="member">MR.ObjectPoints.removeTag</ref></computeroutput>. </para>
+<para>removes tag from the object's tag storage additionally calls ObjectTagManager::tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1acda7e03c16433bc22bf9a4df2b2b538e" kindref="member">MR.ObjectPoints.removeTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1827" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1827" bodyend="1836"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1791" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1791" bodyend="1800"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1413,51 +1391,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ObjectPoints</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ObjectPoints</label>
         <link refid="classMR_1_1ObjectPoints"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ObjectPoints</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ObjectPoints &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ObjectPoints</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ObjectPoints</label>
         <link refid="classMR_1_1ObjectPoints"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ObjectPoints</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ObjectPoints &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1073" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1074" bodyend="1837"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1025" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1026" bodyend="1801"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectPoints_1a2b93523a17363e361b1dab7d2d16c0b8" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>addChild</name></member>
-      <member refid="classMR_1_1ObjectPoints_1a7ddb584686363e60270f2924cd0c9a26" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1ObjectPoints_1abb113afee60be9135f2946ea21ac50a7" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>addChild</name></member>
+      <member refid="classMR_1_1ObjectPoints_1a134607002675fe42aaf5fc96d0a306b4" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1ObjectPoints_1a0a8ec99266cd9781d58cb8e4900d32eb" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>addTag</name></member>
       <member refid="classMR_1_1ObjectPoints_1ac86ac0249ac592420f49220ee9b211c0" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>applyScale</name></member>
       <member refid="classMR_1_1ObjectPoints_1a56dac0dab5698dcb731b16bf7d3387e3" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>assign</name></member>
@@ -1465,7 +1443,6 @@
       <member refid="classMR_1_1ObjectPoints_1ad2bdd7b531c2915704b809f44a9db6ea" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>copyColors</name></member>
       <member refid="classMR_1_1ObjectPoints_1ad995e078fe66021924368e85fc7efd1c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>detachFromParent</name></member>
       <member refid="classMR_1_1ObjectPoints_1a999c748e8868b49835bb28109f525ed4" prot="package" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
-      <member refid="classMR_1_1ObjectPoints_1a040e71ef42861cf4008f67f1cc332208" prot="package" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a2b413054c12867e04d326ba8ad50549d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a6f091b4fa2eeaa92bbeb7a6f0c08737d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a18650d21d71e643383ceef38d5f77903" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
@@ -1501,7 +1478,7 @@
       <member refid="classMR_1_1ObjectPoints_1a9abd7f4b61cd4275dc0518dd5958c6fd" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setName</name></member>
       <member refid="classMR_1_1ObjectPoints_1a5c56de4173cd19d5c88fb50e079bc501" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setParentLocked</name></member>
       <member refid="classMR_1_1ObjectPoints_1a611e4b5689b4c0653b156919a7853b88" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setPickable</name></member>
-      <member refid="classMR_1_1ObjectPoints_1a0a5ec4c687a672ec14c9483c737dfa96" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setPointCloud</name></member>
+      <member refid="classMR_1_1ObjectPoints_1af9c27d9accbeda280597034655fb66fe" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setPointCloud</name></member>
       <member refid="classMR_1_1ObjectPoints_1ae16e4e9114afa36d3dec50aa20e0916f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setPointSize</name></member>
       <member refid="classMR_1_1ObjectPoints_1aab0205dd7c8bf708264654bf93efcb76" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setSelectedVerticesColor</name></member>
       <member refid="classMR_1_1ObjectPoints_1a8a5dc5de99049ee5ccaf24904cc6bded" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setSelectedVerticesColorsForAllViewports</name></member>
@@ -1519,11 +1496,11 @@
       <member refid="classMR_1_1ObjectPoints_1ae1dec67e892d7ccdfbc28e97f4759ef1" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setXfsForAllViewports</name></member>
       <member refid="classMR_1_1ObjectPoints_1ad0f6f606fb59a841a1a5be8878d26d7c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1ObjectPoints_1a1f00172552a5a2808e061206cdd48ec7" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>swap</name></member>
-      <member refid="classMR_1_1ObjectPoints_1a2ff5abfa5fc187086b1ce34b9d3c2f3f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>swapPointCloud</name></member>
+      <member refid="classMR_1_1ObjectPoints_1ad3ebe0f2a207354d481eb8f7e22bb478" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>swapPointCloud</name></member>
       <member refid="classMR_1_1ObjectPoints_1a8cce509a3d9de40a6c685b8919c35805" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>toggleVisualizeProperty</name></member>
       <member refid="classMR_1_1ObjectPoints_1a09a7bd540e183df9258e8961d288ee59" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>updateSelectedPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a5e7e1323b3a2ea009503da07c53ccd3d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>updateVertsColorMap</name></member>
-      <member refid="classMR_1_1ObjectPoints_1aca289a6761993cb02eea8ba07560239f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>varPointCloud</name></member>
+      <member refid="classMR_1_1ObjectPoints_1a4daaf98c8ebfd08175a25b80f7f7bfd4" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>varPointCloud</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

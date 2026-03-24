@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Writer" kind="struct" language="C++" prot="public">
     <compoundname>MR::Writer</compoundname>
-    <includes refid="MRWriter_8h" local="no">MRWriter.h</includes>
+    <includes refid="MRWriter_8h" local="no">MRMesh/MRWriter.h</includes>
     <templateparamlist>
       <param>
         <type>class T</type>
@@ -20,7 +20,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWriter.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWriter.h" bodystart="12" bodyend="16"/>
+    <location file="MRMesh/MRWriter.h" line="11" column="1" bodyfile="MRMesh/MRWriter.h" bodystart="12" bodyend="16"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1ff0e2daeb475fb1edc47380d8255f59" prot="public" virt="non-virtual"><scope>MR::Writer</scope><name>obj</name></member>
       <member refid="group__GeneralGroup_1gabf4ee009f08992fff0aadc8ee8e79daa" prot="public" virt="non-virtual"><scope>MR::Writer</scope><name>Writer</name></member>

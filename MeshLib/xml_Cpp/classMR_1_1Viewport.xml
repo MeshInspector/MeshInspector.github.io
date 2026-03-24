@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Viewport" kind="class" language="C++" prot="public">
     <compoundname>MR::Viewport</compoundname>
-    <includes refid="MRViewport_8h" local="no">MRViewport.h</includes>
+    <includes refid="MRViewport_8h" local="no">MRViewer/MRViewport.h</includes>
     <innerclass refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" prot="public">MR::Viewport::LinePointImmediateRenderParams</innerclass>
     <innerclass refid="structMR_1_1Viewport_1_1Parameters" prot="public">MR::Viewport::Parameters</innerclass>
     <innerclass refid="structMR_1_1Viewport_1_1PickRenderObjectParams" prot="public">MR::Viewport::PickRenderObjectParams</innerclass>
@@ -45,116 +45,116 @@
       <member refid="group__GeneralGroup_1gaac1fee0db1d2d082b87fd3ac4ac49134" kind="variable"><name>params_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gaa6240448d9cff317ce58003ce33ff1b6" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1gaa63ad726de4f8ed054254810d1e74b3e" kind="function"><name>get</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gadc0a625e7bd0d7fecf55699b470659ac" kind="function"><name>Viewport</name></member>
-      <member refid="group__GeneralGroup_1ga1d65bf318796ffdc96002b5d70d984a7" kind="function"><name>~Viewport</name></member>
+      <member refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kind="function"><name>Viewport</name></member>
+      <member refid="group__GeneralGroup_1ga8eb0360ddc396efa4203aeee18c307fe" kind="function"><name>~Viewport</name></member>
       <member refid="group__GeneralGroup_1ga8758496f20f36201246e0f4d2eceb5c4" kind="function"><name>clone</name></member>
       <member refid="group__GeneralGroup_1gab2c9307e0042dfba8ab64f861356ad72" kind="function"><name>Viewport</name></member>
       <member refid="group__GeneralGroup_1gabe2f2d2fe99553548fc2b3f3a9f3d4b8" kind="function"><name>operator=</name></member>
-      <member refid="group__GeneralGroup_1ga46c4638cf48b92aebc19e3212ec421ec" kind="function"><name>init</name></member>
-      <member refid="group__GeneralGroup_1gaea73df9e40d43b09061ad03b015f1c3e" kind="function"><name>setAxesPos</name></member>
-      <member refid="group__GeneralGroup_1ga9af25421c857c554aaabfdc28898cd61" kind="function"><name>setAxesSize</name></member>
-      <member refid="group__GeneralGroup_1ga42b2f4de02033c7851a3b5278b630363" kind="function"><name>getAxesPosition</name></member>
-      <member refid="group__GeneralGroup_1ga16f5609993c8491d9e241e4147f8d706" kind="function"><name>getAxesSize</name></member>
+      <member refid="group__GeneralGroup_1gaee900463cf938244f0a05aa2b61b66b2" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga2c63751546309d0bbdee319b38733df0" kind="function"><name>setAxesPos</name></member>
+      <member refid="group__GeneralGroup_1ga7cdcd9c1df701794b889bdac69a123fd" kind="function"><name>setAxesSize</name></member>
+      <member refid="group__GeneralGroup_1ga1ce6532359096556ddad5e2f303f59a8" kind="function"><name>getAxesPosition</name></member>
+      <member refid="group__GeneralGroup_1gaabc1b7dad421265d2168106316112914" kind="function"><name>getAxesSize</name></member>
       <member refid="group__GeneralGroup_1gac39f390490ab32f3e82944c85978c7f6" kind="function"><name>getAxesProjectionMatrix</name></member>
-      <member refid="group__GeneralGroup_1ga0fc1e84a964766414f289905f15aa910" kind="function"><name>shut</name></member>
-      <member refid="group__GeneralGroup_1gaed7cd0744cb8952c62680f7168da3a5b" kind="function"><name>clearFramebuffers</name></member>
-      <member refid="group__GeneralGroup_1ga9bbcf7b095b6123ee7916f93d2f3ff01" kind="function"><name>recursiveDraw</name></member>
-      <member refid="group__GeneralGroup_1ga5db126693ea50ec4094b651633099a21" kind="function"><name>draw</name></member>
-      <member refid="group__GeneralGroup_1ga8124fe1c8f92cdb4eddab9dde317b96f" kind="function"><name>draw</name></member>
-      <member refid="group__GeneralGroup_1ga020bc7c22b9f6b3084db655ddb8d1b10" kind="function"><name>draw</name></member>
-      <member refid="group__GeneralGroup_1ga206a9695d926451f9f28ba92220e74a4" kind="function"><name>drawOrthoFixedPos</name></member>
-      <member refid="group__GeneralGroup_1gad5878bbade38f79c89bd155f44126fbf" kind="function"><name>drawLines</name></member>
+      <member refid="group__GeneralGroup_1ga177a67c3dd52fb1f49b8b1b67b49f181" kind="function"><name>shut</name></member>
+      <member refid="group__GeneralGroup_1ga1289923b29bf7cb5ad7941147797516b" kind="function"><name>clearFramebuffers</name></member>
+      <member refid="group__GeneralGroup_1gaa1496cb43fc603cb4054ef3934ed2d61" kind="function"><name>recursiveDraw</name></member>
+      <member refid="group__GeneralGroup_1ga9265e4d964bc521f2126bd436259e741" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga8842e3935f41f4180cd7fd51cd808884" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga76759212f620a4483861b70b0d7d0e8f" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga0ca49910fb3d31cf47aa072fd3eb769b" kind="function"><name>drawOrthoFixedPos</name></member>
+      <member refid="group__GeneralGroup_1ga9ba24a263477563b531e82832c6c0b7e" kind="function"><name>drawLines</name></member>
       <member refid="group__GeneralGroup_1ga45b3b12cb1134a17b3a1b92588aeb7b5" kind="function"><name>drawLines</name></member>
-      <member refid="group__GeneralGroup_1ga9bffa9f786d355eee89fc586de637362" kind="function"><name>drawPoints</name></member>
+      <member refid="group__GeneralGroup_1ga0d9a99f9a43fc70d342a0c3af6763f60" kind="function"><name>drawPoints</name></member>
       <member refid="group__GeneralGroup_1gad9165dc8844420f9c4824b6acc0e4038" kind="function"><name>drawPoints</name></member>
-      <member refid="group__GeneralGroup_1ga75b7ef9770b635d037f0a8730b3858f3" kind="function"><name>drawTris</name></member>
-      <member refid="group__GeneralGroup_1ga7573cf7e3dde8d3414fdc0b1c15f88bf" kind="function"><name>drawTris</name></member>
+      <member refid="group__GeneralGroup_1ga41fcad2d24840aa9e8ce135b6aaaa6ed" kind="function"><name>drawTris</name></member>
+      <member refid="group__GeneralGroup_1ga6d31b00b0ded9a5fddc8dd417a3f5f64" kind="function"><name>drawTris</name></member>
       <member refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" kind="function"><name>getBaseRenderParams</name></member>
       <member refid="group__GeneralGroup_1ga386544dc0c5351067325cad9bf32dc93" kind="function"><name>getBaseRenderParams</name></member>
       <member refid="group__GeneralGroup_1ga7026550eeb8349cd37cb7b431b06c491" kind="function"><name>getBaseRenderParamsOrthoFixedPos</name></member>
       <member refid="group__GeneralGroup_1ga62815b7bf4fde034d4d73d5a993f7985" kind="function"><name>getModelRenderParams</name></member>
       <member refid="group__GeneralGroup_1ga614eb5f34d747ddfd754aa6ec488b532" kind="function"><name>getModelRenderParamsOrthoFixedPos</name></member>
-      <member refid="group__GeneralGroup_1ga50635d7c0599207f2c763752a20836a1" kind="function"><name>getModelRenderParams</name></member>
-      <member refid="group__GeneralGroup_1ga369adff2e21395db75c910b75b18f8c7" kind="function"><name>pickRenderObject</name></member>
-      <member refid="group__GeneralGroup_1gaaf6012ade9216e280391d67facbec2af" kind="function"><name>pickRenderObject</name></member>
-      <member refid="group__GeneralGroup_1ga2a0d67f34ea510525f6e1c930f8abbd5" kind="function"><name>pickRenderObjectConst</name></member>
-      <member refid="group__GeneralGroup_1gafbd763b1cfd8fceb2d5a66dee6830e70" kind="function"><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga29b9417149264e16eeb727982e61dc64" kind="function"><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga7d514777994544be1badff5b0a39015a" kind="function"><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga0c83894a98b4264b98b4163211288854" kind="function"><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1gac0659d4a5dd0df38ac51ced37ea4b26d" kind="function"><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1gaeea675f914f282d4bb811e8e4c771bb9" kind="function"><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga190a1a73b0c964dd18d83d248e27b26f" kind="function"><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1gab849f5462b1c06bb481e6c4bc9ba751d" kind="function"><name>multiPickObjects</name></member>
-      <member refid="group__GeneralGroup_1gae8d2d1ebf05bdfac6a830fc7ccb9c76c" kind="function"><name>findObjectsInRect</name></member>
-      <member refid="group__GeneralGroup_1ga92197d0812be326f98d5480f8235b4de" kind="function"><name>findVisibleFaces</name></member>
-      <member refid="group__GeneralGroup_1ga97fad8eacc6d5437d8216e90a5dd23b2" kind="function"><name>findCameraLookingFaces</name></member>
-      <member refid="group__GeneralGroup_1ga070e1760f853d8260fec359e0ae560a6" kind="function"><name>const_pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga3fbdff73baac11261d9ca67ff15add59" kind="function"><name>const_pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1gac14fb13300d3dcf19a0baf3ae59163c6" kind="function"><name>constMultiPickObjects</name></member>
-      <member refid="group__GeneralGroup_1gab977a36a5474fc72fb2a9370f1a892aa" kind="function"><name>transformView</name></member>
+      <member refid="group__GeneralGroup_1gae972d72a13c1ad3ebdc595382cbabfa6" kind="function"><name>getModelRenderParams</name></member>
+      <member refid="group__GeneralGroup_1ga5894a46842dbcc1e2bc127fed12a825d" kind="function"><name>pickRenderObject</name></member>
+      <member refid="group__GeneralGroup_1gabab5890d3e0948adb120c240e02738e3" kind="function"><name>pickRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga23858c8cd1616c67edd3a25905ab7474" kind="function"><name>pickRenderObjectConst</name></member>
+      <member refid="group__GeneralGroup_1ga9cf7727c5bbcb7ad43c396f50b5c2f64" kind="function"><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gaa2ba948a66fac00a9334a9682c8f736a" kind="function"><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gad91d059862348453f924cf3c55d9fda5" kind="function"><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gae834b04d48f63be44d1cf132e18ec1f9" kind="function"><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1ga2b5b1092c6ce7d82200b46ee1e279813" kind="function"><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1ga001baa634d6d10c2fe5533285adc7b83" kind="function"><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gaacb0380af4e8094eec7aa7575e657f6b" kind="function"><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gabe237ae23636b5c43f1572391f1ac677" kind="function"><name>multiPickObjects</name></member>
+      <member refid="group__GeneralGroup_1gacf87d31869f2a26755a366a8754bc614" kind="function"><name>findObjectsInRect</name></member>
+      <member refid="group__GeneralGroup_1ga3e2375dec10c97b5e3cab243764e850f" kind="function"><name>findVisibleFaces</name></member>
+      <member refid="group__GeneralGroup_1ga0d754f9d4f9709be2c4a6cec2795a556" kind="function"><name>findCameraLookingFaces</name></member>
+      <member refid="group__GeneralGroup_1ga8a704aa16b57922b1af0d8079ea063b7" kind="function"><name>const_pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gae9d7864df9fec84fa9f9da4258668cb0" kind="function"><name>const_pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1ga390dbff05c3012a93d214e3ff4b0823d" kind="function"><name>constMultiPickObjects</name></member>
+      <member refid="group__GeneralGroup_1gae18ff77fe4c5cad359fcec544a753769" kind="function"><name>transformView</name></member>
       <member refid="group__GeneralGroup_1ga37332cce582bf8cc2203f972a6350a3c" kind="function"><name>getRedrawFlag</name></member>
       <member refid="group__GeneralGroup_1ga48d0af17aa1142d78dcc98ee60bcde3e" kind="function"><name>resetRedrawFlag</name></member>
-      <member refid="group__GeneralGroup_1ga511d516b1bb61ba54e2b72284b65fceb" kind="function"><name>setRotation</name></member>
-      <member refid="group__GeneralGroup_1ga6a26dcb3f94973f448562e9604478b23" kind="function"><name>getViewportRect</name></member>
-      <member refid="group__GeneralGroup_1ga3ca3512f6cd58445197edaec9da81131" kind="function"><name>getPixelSize</name></member>
-      <member refid="group__GeneralGroup_1ga484b6380515f929cdcfca16c9a30edee" kind="function"><name>getPixelSizeAtPoint</name></member>
-      <member refid="group__GeneralGroup_1gab2c0e713c7540bb9c2f53e69607bfed8" kind="function"><name>setViewportRect</name></member>
-      <member refid="group__GeneralGroup_1gac2aaf8088000285ded9ea6caa36de96c" kind="function"><name>getUnscaledViewXf</name></member>
+      <member refid="group__GeneralGroup_1gac23c05ec8355df106cc1b1d681c34152" kind="function"><name>setRotation</name></member>
+      <member refid="group__GeneralGroup_1gad9c15fc1007294f2fa8f89b1659802c1" kind="function"><name>getViewportRect</name></member>
+      <member refid="group__GeneralGroup_1ga1506ca2c2e88f6a8b03d3f0dfe531bd4" kind="function"><name>getPixelSize</name></member>
+      <member refid="group__GeneralGroup_1ga14b58b172e7568f0385fa8242b5bbe19" kind="function"><name>getPixelSizeAtPoint</name></member>
+      <member refid="group__GeneralGroup_1gafaf152c2b300a66129a8077b2445375b" kind="function"><name>setViewportRect</name></member>
+      <member refid="group__GeneralGroup_1ga0247dad5e89c7d9bd3eb5367042d6dc8" kind="function"><name>getUnscaledViewXf</name></member>
       <member refid="group__GeneralGroup_1ga62e34967fa338bdaebee75bcc2342a0b" kind="function"><name>getViewXf</name></member>
       <member refid="group__GeneralGroup_1gafb271f821a9a1ebf2cb4c87afc1f26a5" kind="function"><name>getUpDirection</name></member>
       <member refid="group__GeneralGroup_1ga199947ead6c82f9250dd00975bc55ff9" kind="function"><name>getRightDirection</name></member>
       <member refid="group__GeneralGroup_1ga8255ed3018ea3bae113c3b6c87ccbc96" kind="function"><name>getBackwardDirection</name></member>
-      <member refid="group__GeneralGroup_1ga82a8f9d0d4ea9aee8a0cd3a742059cbc" kind="function"><name>unprojectPixelRay</name></member>
-      <member refid="group__GeneralGroup_1gabf9bc36eda02472e52c41323484ca493" kind="function"><name>worldToCameraSpace</name></member>
-      <member refid="group__GeneralGroup_1ga71dda2baf413b787d9b0fb12035d3827" kind="function"><name>worldToCameraSpace</name></member>
-      <member refid="group__GeneralGroup_1ga00da2d719e774e11cc2c5b367e1caa97" kind="function"><name>projectToClipSpace</name></member>
-      <member refid="group__GeneralGroup_1gaf84b449c6ac06983b1cc77946aeb75e2" kind="function"><name>projectToClipSpace</name></member>
-      <member refid="group__GeneralGroup_1ga280af5b0f24b3003b52b66b9bdf70705" kind="function"><name>unprojectFromClipSpace</name></member>
-      <member refid="group__GeneralGroup_1ga840a18b408675ea0b3d9b662916d8969" kind="function"><name>unprojectFromClipSpace</name></member>
-      <member refid="group__GeneralGroup_1ga0767b6772d648de3599d6d6c1e828076" kind="function"><name>projectToViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga98fa71f145a3139ddd609e7a4b7dd818" kind="function"><name>projectToViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga40d0c918528a3ba76f1df78f0e6008e5" kind="function"><name>unprojectFromViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga1f1335831c811df8d399d4bf4a7dfad2" kind="function"><name>unprojectFromViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1gaf3e7b103d35676eb9d8f9dfb51126f07" kind="function"><name>clipSpaceToViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga542a6c5150303402abea783a142d1d7a" kind="function"><name>clipSpaceToViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga4fcaf26b57c2f33aa87b085f76d81f7c" kind="function"><name>viewportSpaceToClipSpace</name></member>
-      <member refid="group__GeneralGroup_1ga97fad091717d46988a64c161dc734e76" kind="function"><name>viewportSpaceToClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga5ef038bd9bf8c8911bcb10f103fcc0ec" kind="function"><name>unprojectPixelRay</name></member>
+      <member refid="group__GeneralGroup_1ga765ce80b74a5ee4546085cc49ab8d2bd" kind="function"><name>worldToCameraSpace</name></member>
+      <member refid="group__GeneralGroup_1ga32a00d53d47ac59f2fdfc49877a3626e" kind="function"><name>worldToCameraSpace</name></member>
+      <member refid="group__GeneralGroup_1ga17ecc6023d8af2a1b27d567d91676a4f" kind="function"><name>projectToClipSpace</name></member>
+      <member refid="group__GeneralGroup_1gab931f12556bf35d1195059ce15358279" kind="function"><name>projectToClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga75d232ecd80ed672d4b8f1d3da27a8b4" kind="function"><name>unprojectFromClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga04d407d9f9ed51c86003289be1e91ddf" kind="function"><name>unprojectFromClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga8fa5c567ac3ba99d55e310a6a4aa8ecc" kind="function"><name>projectToViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1ga180d6b93463c5f7697cac148d49fd97d" kind="function"><name>projectToViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1ga0c86336ca4a6c0660f4f6eaa3a1745b2" kind="function"><name>unprojectFromViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1gae8a56f2400988d9bb463d6669e20455a" kind="function"><name>unprojectFromViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1gaca4f019287a610faeb8b3c64d83ef4de" kind="function"><name>clipSpaceToViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1ga53dcf35cc7bcdd81ceebae7edc57f113" kind="function"><name>clipSpaceToViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1gab5751c4a616e2528f9ab90cc03b5605b" kind="function"><name>viewportSpaceToClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga76651da13086ba0e63b4edf2ac234ca5" kind="function"><name>viewportSpaceToClipSpace</name></member>
       <member refid="group__GeneralGroup_1gaab7a9dc1a3bb2ced85d438c2501530a4" kind="function"><name>setupView</name></member>
       <member refid="group__GeneralGroup_1ga6332bebf8263890d7c3757b5ccb4f57c" kind="function"><name>preDraw</name></member>
       <member refid="group__GeneralGroup_1gace8d34917dcc01ffe64f0bccef923f96" kind="function"><name>postDraw</name></member>
-      <member refid="group__GeneralGroup_1ga9a3a641b649270fae26cb2659d47a756" kind="function"><name>fitData</name></member>
-      <member refid="group__GeneralGroup_1ga6ac594d0dfd749cdb836fe216d2f63a9" kind="function"><name>fitBox</name></member>
-      <member refid="group__GeneralGroup_1gac7e39309c7a603790ebc1bafaa1c1d4b" kind="function"><name>preciseFitBoxToScreenBorder</name></member>
-      <member refid="group__GeneralGroup_1ga4ce56c17b29dbcb0186c4f34c414eb78" kind="function"><name>preciseFitDataToScreenBorder</name></member>
-      <member refid="group__GeneralGroup_1ga3b2eb984c0ab39709c45d27d3de876de" kind="function"><name>getRatio</name></member>
-      <member refid="group__GeneralGroup_1gace405908e14931de8db932f8a41d3b7c" kind="function"><name>allModelsInsideViewportRectangle</name></member>
-      <member refid="group__GeneralGroup_1gaa0a55f6269ae743f49c2fde95869cab4" kind="function"><name>getSceneBox</name></member>
+      <member refid="group__GeneralGroup_1gadbba32e84e0732c723c0755d72f25799" kind="function"><name>fitData</name></member>
+      <member refid="group__GeneralGroup_1ga208dafb44fb37521a23b45366e49ce9b" kind="function"><name>fitBox</name></member>
+      <member refid="group__GeneralGroup_1gaabf08c558f0cb3bad8482b8bc2bf1044" kind="function"><name>preciseFitBoxToScreenBorder</name></member>
+      <member refid="group__GeneralGroup_1ga0c9489f28aa931f689d2d0e054132ed2" kind="function"><name>preciseFitDataToScreenBorder</name></member>
+      <member refid="group__GeneralGroup_1gaf2cfaeda5778c416a29d21ff14f80e06" kind="function"><name>getRatio</name></member>
+      <member refid="group__GeneralGroup_1ga7de1b213b70aabd1ed6f41b3abf5c002" kind="function"><name>allModelsInsideViewportRectangle</name></member>
+      <member refid="group__GeneralGroup_1gaa161054d6ad945482f167defcae351e2" kind="function"><name>getSceneBox</name></member>
       <member refid="group__GeneralGroup_1ga926a8d8f0ce76178064c958cdb012a10" kind="function"><name>getParameters</name></member>
-      <member refid="group__GeneralGroup_1ga7255259d0bcd6a919bc061e1b8328f74" kind="function"><name>getCameraPoint</name></member>
-      <member refid="group__GeneralGroup_1gaf2fe6abc9e300a389c2a303f836f20d5" kind="function"><name>setCameraPoint</name></member>
-      <member refid="group__GeneralGroup_1ga7992f00d88f9468b7378bb264a6c7126" kind="function"><name>setCameraTrackballAngle</name></member>
-      <member refid="group__GeneralGroup_1ga359181a4adccaea790fc8d2ace945198" kind="function"><name>setCameraTranslation</name></member>
-      <member refid="group__GeneralGroup_1ga08e78306b6826a1e5a7cb961115406a2" kind="function"><name>setCameraViewAngle</name></member>
-      <member refid="group__GeneralGroup_1ga0a7950c085a074ebecb668d2e455d102" kind="function"><name>setCameraZoom</name></member>
-      <member refid="group__GeneralGroup_1ga56e8d58b1c72aeec336d74a6da7c2cc1" kind="function"><name>setOrthographic</name></member>
-      <member refid="group__GeneralGroup_1gadd402fe6a91aa235f98db029c80be9b9" kind="function"><name>setBackgroundColor</name></member>
-      <member refid="group__GeneralGroup_1gac46fbd652ee514d031889d120da54424" kind="function"><name>setClippingPlane</name></member>
-      <member refid="group__GeneralGroup_1ga8c34b39f70fe8da63382acdae5d87498" kind="function"><name>setLabel</name></member>
+      <member refid="group__GeneralGroup_1ga8a6fef179f0272293667540d02e5e201" kind="function"><name>getCameraPoint</name></member>
+      <member refid="group__GeneralGroup_1gadb5215d292d0b8ec5b7c9370b199ad47" kind="function"><name>setCameraPoint</name></member>
+      <member refid="group__GeneralGroup_1ga62aeb2520e267966a40f85f4d3e05972" kind="function"><name>setCameraTrackballAngle</name></member>
+      <member refid="group__GeneralGroup_1ga0f85b9ccf4f79bc5faa8cc613c40e7bd" kind="function"><name>setCameraTranslation</name></member>
+      <member refid="group__GeneralGroup_1gadba749ae20939d308d42aa0abd7ad548" kind="function"><name>setCameraViewAngle</name></member>
+      <member refid="group__GeneralGroup_1gabf89a5f2ff7df2a3184070d6fb46ba7d" kind="function"><name>setCameraZoom</name></member>
+      <member refid="group__GeneralGroup_1ga44f0fc83a678d120b15fe0cbbbffb586" kind="function"><name>setOrthographic</name></member>
+      <member refid="group__GeneralGroup_1gacee1b8365dc494c521d2b1870bec8713" kind="function"><name>setBackgroundColor</name></member>
+      <member refid="group__GeneralGroup_1gadfc8999d530b5b84dab99023d3fea24f" kind="function"><name>setClippingPlane</name></member>
+      <member refid="group__GeneralGroup_1ga352b2c1cb1d20b02b021f68b7ffac28e" kind="function"><name>setLabel</name></member>
       <member refid="group__GeneralGroup_1ga3b38a130389402efd292caab868bfd57" kind="function"><name>setSelectable</name></member>
-      <member refid="group__GeneralGroup_1ga6d103e17a81a5229a01ae2a67eb05128" kind="function"><name>showAxes</name></member>
-      <member refid="group__GeneralGroup_1ga68b36d6e25e5af04a632f74f526c4cda" kind="function"><name>showClippingPlane</name></member>
-      <member refid="group__GeneralGroup_1ga069049d89298e103d7c82e1454532734" kind="function"><name>showRotationCenter</name></member>
-      <member refid="group__GeneralGroup_1ga2da00f8d67bdd913870c371eab44dc24" kind="function"><name>showGlobalBasis</name></member>
-      <member refid="group__GeneralGroup_1gaf9e6c144fff12c1d75af0be0b6ed5650" kind="function"><name>rotationCenterMode</name></member>
-      <member refid="group__GeneralGroup_1ga538c80bc0a06c494f1865d6ad6f83d3d" kind="function"><name>setParameters</name></member>
-      <member refid="group__GeneralGroup_1ga2761afb44a51e6e0ca9e057067ac05c6" kind="function"><name>cameraLookAlong</name></member>
-      <member refid="group__GeneralGroup_1ga2ff8a41f74c4cfd9e8b28c545772b89e" kind="function"><name>cameraRotateAround</name></member>
+      <member refid="group__GeneralGroup_1gaae5ff4fd8bbb8ac44480e6b945a38dbb" kind="function"><name>showAxes</name></member>
+      <member refid="group__GeneralGroup_1ga3c246d5060a27db7067453280cdb85d5" kind="function"><name>showClippingPlane</name></member>
+      <member refid="group__GeneralGroup_1ga3b3f85b57ad12fdd5fb2b97e781ceb1a" kind="function"><name>showRotationCenter</name></member>
+      <member refid="group__GeneralGroup_1gae239dbd60a1a4f0300faca5f780517da" kind="function"><name>showGlobalBasis</name></member>
+      <member refid="group__GeneralGroup_1ga32f520027876c213e77b698e6db8d75d" kind="function"><name>rotationCenterMode</name></member>
+      <member refid="group__GeneralGroup_1ga9c2da3521710c4de2851bf46f246ec0f" kind="function"><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1ga87e8a818a341d6d5062639dc69494359" kind="function"><name>cameraLookAlong</name></member>
+      <member refid="group__GeneralGroup_1gada1ff2adbf65466eae3e774e09e360fd" kind="function"><name>cameraRotateAround</name></member>
       <member refid="group__GeneralGroup_1ga357b7f0de8d573b2e8bc9b04ed3adc56" kind="function"><name>getRotationPivot</name></member>
-      <member refid="group__GeneralGroup_1ga782d90e6f95f86f9b73e603aaca615af" kind="function"><name>resetStaticRotationPivot</name></member>
+      <member refid="group__GeneralGroup_1ga7ad75f9b39cadb35c6dac36b8dc3fa7e" kind="function"><name>resetStaticRotationPivot</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga14092744f2bcf31895a0b154117cf688" kind="function"><name>Viewport</name></member>
@@ -196,9 +196,9 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="49" bodyend="626"/>
+    <location file="MRViewer/MRViewport.h" line="48" column="1" bodyfile="MRViewer/MRViewport.h" bodystart="49" bodyend="626"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gace405908e14931de8db932f8a41d3b7c" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>allModelsInsideViewportRectangle</name></member>
+      <member refid="group__GeneralGroup_1ga7de1b213b70aabd1ed6f41b3abf5c002" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>allModelsInsideViewportRectangle</name></member>
       <member refid="group__GeneralGroup_1gad87004247f170d39fcc2b545bc31e9e4" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>axesProjMat_</name></member>
       <member refid="group__GeneralGroup_1gae9208d35a3116b84b87a83fea4639ae5" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>axesViewMat_</name></member>
       <member refid="group__GeneralGroup_1gaa5937df7735da58c53a5eba8ed422e23" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>axisPixSize_</name></member>
@@ -206,155 +206,155 @@
       <member refid="group__GeneralGroup_1gafaf9f865e82afd4ba767feac511a0c3d" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>basisAxesPos_</name></member>
       <member refid="group__GeneralGroup_1ga7df723c2c2b1ad826fc1cc76c971c1a2" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>basisAxesSize_</name></member>
       <member refid="group__GeneralGroup_1ga4e1339b8ad469b3c8cafc60dc026d30f" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>calcBox_</name></member>
-      <member refid="group__GeneralGroup_1ga2761afb44a51e6e0ca9e057067ac05c6" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>cameraLookAlong</name></member>
-      <member refid="group__GeneralGroup_1ga2ff8a41f74c4cfd9e8b28c545772b89e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>cameraRotateAround</name></member>
-      <member refid="group__GeneralGroup_1gaed7cd0744cb8952c62680f7168da3a5b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>clearFramebuffers</name></member>
-      <member refid="group__GeneralGroup_1gaf3e7b103d35676eb9d8f9dfb51126f07" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>clipSpaceToViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga542a6c5150303402abea783a142d1d7a" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>clipSpaceToViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1ga87e8a818a341d6d5062639dc69494359" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>cameraLookAlong</name></member>
+      <member refid="group__GeneralGroup_1gada1ff2adbf65466eae3e774e09e360fd" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>cameraRotateAround</name></member>
+      <member refid="group__GeneralGroup_1ga1289923b29bf7cb5ad7941147797516b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>clearFramebuffers</name></member>
+      <member refid="group__GeneralGroup_1gaca4f019287a610faeb8b3c64d83ef4de" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>clipSpaceToViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1ga53dcf35cc7bcdd81ceebae7edc57f113" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>clipSpaceToViewportSpace</name></member>
       <member refid="group__GeneralGroup_1ga8758496f20f36201246e0f4d2eceb5c4" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>clone</name></member>
-      <member refid="group__GeneralGroup_1ga070e1760f853d8260fec359e0ae560a6" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>const_pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga3fbdff73baac11261d9ca67ff15add59" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>const_pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1gac14fb13300d3dcf19a0baf3ae59163c6" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>constMultiPickObjects</name></member>
+      <member refid="group__GeneralGroup_1ga8a704aa16b57922b1af0d8079ea063b7" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>const_pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gae9d7864df9fec84fa9f9da4258668cb0" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>const_pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1ga390dbff05c3012a93d214e3ff4b0823d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>constMultiPickObjects</name></member>
       <member refid="group__GeneralGroup_1gaff0b6829c30c3538a6d2bf285e5a3a4d" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>distToSceneCenter_</name></member>
-      <member refid="group__GeneralGroup_1ga5db126693ea50ec4094b651633099a21" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>draw</name></member>
-      <member refid="group__GeneralGroup_1ga8124fe1c8f92cdb4eddab9dde317b96f" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>draw</name></member>
-      <member refid="group__GeneralGroup_1ga020bc7c22b9f6b3084db655ddb8d1b10" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga9265e4d964bc521f2126bd436259e741" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga8842e3935f41f4180cd7fd51cd808884" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga76759212f620a4483861b70b0d7d0e8f" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>draw</name></member>
       <member refid="group__GeneralGroup_1ga51e14d619f6c145c8a55b1efad34c92b" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>draw_border</name></member>
       <member refid="group__GeneralGroup_1ga7a6e6894aa783881b8b9aaed2da99e15" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>draw_clipping_plane</name></member>
       <member refid="group__GeneralGroup_1ga29841df10e07b873dc726b58d3b0f8a9" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>draw_rotation_center</name></member>
       <member refid="group__GeneralGroup_1ga21fb1a02378ef5d0a95c4159705bf941" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>drawAxesAndViewController</name></member>
       <member refid="group__GeneralGroup_1gaa266039f3efbd5ed4cb098e9451a3721" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>drawGlobalBasis</name></member>
-      <member refid="group__GeneralGroup_1gad5878bbade38f79c89bd155f44126fbf" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawLines</name></member>
+      <member refid="group__GeneralGroup_1ga9ba24a263477563b531e82832c6c0b7e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawLines</name></member>
       <member refid="group__GeneralGroup_1ga45b3b12cb1134a17b3a1b92588aeb7b5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawLines</name></member>
-      <member refid="group__GeneralGroup_1ga206a9695d926451f9f28ba92220e74a4" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawOrthoFixedPos</name></member>
-      <member refid="group__GeneralGroup_1ga9bffa9f786d355eee89fc586de637362" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawPoints</name></member>
+      <member refid="group__GeneralGroup_1ga0ca49910fb3d31cf47aa072fd3eb769b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawOrthoFixedPos</name></member>
+      <member refid="group__GeneralGroup_1ga0d9a99f9a43fc70d342a0c3af6763f60" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawPoints</name></member>
       <member refid="group__GeneralGroup_1gad9165dc8844420f9c4824b6acc0e4038" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawPoints</name></member>
-      <member refid="group__GeneralGroup_1ga75b7ef9770b635d037f0a8730b3858f3" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawTris</name></member>
-      <member refid="group__GeneralGroup_1ga7573cf7e3dde8d3414fdc0b1c15f88bf" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawTris</name></member>
-      <member refid="group__GeneralGroup_1ga97fad8eacc6d5437d8216e90a5dd23b2" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>findCameraLookingFaces</name></member>
-      <member refid="group__GeneralGroup_1gae8d2d1ebf05bdfac6a830fc7ccb9c76c" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>findObjectsInRect</name></member>
-      <member refid="group__GeneralGroup_1ga92197d0812be326f98d5480f8235b4de" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>findVisibleFaces</name></member>
-      <member refid="group__GeneralGroup_1ga6ac594d0dfd749cdb836fe216d2f63a9" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>fitBox</name></member>
+      <member refid="group__GeneralGroup_1ga41fcad2d24840aa9e8ce135b6aaaa6ed" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawTris</name></member>
+      <member refid="group__GeneralGroup_1ga6d31b00b0ded9a5fddc8dd417a3f5f64" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>drawTris</name></member>
+      <member refid="group__GeneralGroup_1ga0d754f9d4f9709be2c4a6cec2795a556" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>findCameraLookingFaces</name></member>
+      <member refid="group__GeneralGroup_1gacf87d31869f2a26755a366a8754bc614" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>findObjectsInRect</name></member>
+      <member refid="group__GeneralGroup_1ga3e2375dec10c97b5e3cab243764e850f" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>findVisibleFaces</name></member>
+      <member refid="group__GeneralGroup_1ga208dafb44fb37521a23b45366e49ce9b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>fitBox</name></member>
       <member refid="group__GeneralGroup_1gac77d7d4e41e9f6fac8540acc18f23da5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>FitBoxParams</name></member>
-      <member refid="group__GeneralGroup_1ga9a3a641b649270fae26cb2659d47a756" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>fitData</name></member>
+      <member refid="group__GeneralGroup_1gadbba32e84e0732c723c0755d72f25799" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>fitData</name></member>
       <member refid="group__GeneralGroup_1ga510e738a3af8ee63e000ddfdc7679a55" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>FitDataParams</name></member>
       <member refid="group__GeneralGroup_1ga03ac32b61f9c93a1a780e490c999ad0d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>FitMode</name></member>
-      <member refid="group__GeneralGroup_1gaa6240448d9cff317ce58003ce33ff1b6" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>get</name></member>
-      <member refid="group__GeneralGroup_1ga42b2f4de02033c7851a3b5278b630363" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getAxesPosition</name></member>
+      <member refid="group__GeneralGroup_1gaa63ad726de4f8ed054254810d1e74b3e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga1ce6532359096556ddad5e2f303f59a8" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getAxesPosition</name></member>
       <member refid="group__GeneralGroup_1gac39f390490ab32f3e82944c85978c7f6" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getAxesProjectionMatrix</name></member>
-      <member refid="group__GeneralGroup_1ga16f5609993c8491d9e241e4147f8d706" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getAxesSize</name></member>
+      <member refid="group__GeneralGroup_1gaabc1b7dad421265d2168106316112914" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getAxesSize</name></member>
       <member refid="group__GeneralGroup_1ga8255ed3018ea3bae113c3b6c87ccbc96" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getBackwardDirection</name></member>
       <member refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getBaseRenderParams</name></member>
       <member refid="group__GeneralGroup_1ga386544dc0c5351067325cad9bf32dc93" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getBaseRenderParams</name></member>
       <member refid="group__GeneralGroup_1ga7026550eeb8349cd37cb7b431b06c491" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getBaseRenderParamsOrthoFixedPos</name></member>
-      <member refid="group__GeneralGroup_1ga7255259d0bcd6a919bc061e1b8328f74" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getCameraPoint</name></member>
+      <member refid="group__GeneralGroup_1ga8a6fef179f0272293667540d02e5e201" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getCameraPoint</name></member>
       <member refid="group__GeneralGroup_1ga9d3150d5406f5294dd5a575427b76a9c" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>getFullViewportInversedMatrix</name></member>
       <member refid="group__GeneralGroup_1gaa089f0dd56ec496d0147fbbed4928cdc" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>getFullViewportMatrix</name></member>
       <member refid="group__GeneralGroup_1ga62815b7bf4fde034d4d73d5a993f7985" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getModelRenderParams</name></member>
-      <member refid="group__GeneralGroup_1ga50635d7c0599207f2c763752a20836a1" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getModelRenderParams</name></member>
+      <member refid="group__GeneralGroup_1gae972d72a13c1ad3ebdc595382cbabfa6" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getModelRenderParams</name></member>
       <member refid="group__GeneralGroup_1ga614eb5f34d747ddfd754aa6ec488b532" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getModelRenderParamsOrthoFixedPos</name></member>
       <member refid="group__GeneralGroup_1ga926a8d8f0ce76178064c958cdb012a10" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getParameters</name></member>
-      <member refid="group__GeneralGroup_1ga3ca3512f6cd58445197edaec9da81131" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getPixelSize</name></member>
-      <member refid="group__GeneralGroup_1ga484b6380515f929cdcfca16c9a30edee" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getPixelSizeAtPoint</name></member>
-      <member refid="group__GeneralGroup_1ga3b2eb984c0ab39709c45d27d3de876de" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getRatio</name></member>
+      <member refid="group__GeneralGroup_1ga1506ca2c2e88f6a8b03d3f0dfe531bd4" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getPixelSize</name></member>
+      <member refid="group__GeneralGroup_1ga14b58b172e7568f0385fa8242b5bbe19" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getPixelSizeAtPoint</name></member>
+      <member refid="group__GeneralGroup_1gaf2cfaeda5778c416a29d21ff14f80e06" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getRatio</name></member>
       <member refid="group__GeneralGroup_1ga37332cce582bf8cc2203f972a6350a3c" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getRedrawFlag</name></member>
       <member refid="group__GeneralGroup_1ga199947ead6c82f9250dd00975bc55ff9" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getRightDirection</name></member>
       <member refid="group__GeneralGroup_1ga357b7f0de8d573b2e8bc9b04ed3adc56" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getRotationPivot</name></member>
-      <member refid="group__GeneralGroup_1gaa0a55f6269ae743f49c2fde95869cab4" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getSceneBox</name></member>
-      <member refid="group__GeneralGroup_1gac2aaf8088000285ded9ea6caa36de96c" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getUnscaledViewXf</name></member>
+      <member refid="group__GeneralGroup_1gaa161054d6ad945482f167defcae351e2" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getSceneBox</name></member>
+      <member refid="group__GeneralGroup_1ga0247dad5e89c7d9bd3eb5367042d6dc8" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getUnscaledViewXf</name></member>
       <member refid="group__GeneralGroup_1gafb271f821a9a1ebf2cb4c87afc1f26a5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getUpDirection</name></member>
-      <member refid="group__GeneralGroup_1ga6a26dcb3f94973f448562e9604478b23" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getViewportRect</name></member>
+      <member refid="group__GeneralGroup_1gad9c15fc1007294f2fa8f89b1659802c1" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getViewportRect</name></member>
       <member refid="group__GeneralGroup_1ga62e34967fa338bdaebee75bcc2342a0b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>getViewXf</name></member>
       <member refid="group__GeneralGroup_1ga5c69cc0ecea32d3b6a09245825f43dfc" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>getViewXf_</name></member>
       <member refid="group__GeneralGroup_1gabf1d02d7a629c26b65e449a81752c2e4" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>getZoomFOVtoScreen_</name></member>
       <member refid="group__GeneralGroup_1gaf4af07c3784f0a14e16153397b0becde" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>id</name></member>
-      <member refid="group__GeneralGroup_1ga46c4638cf48b92aebc19e3212ec421ec" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1gaee900463cf938244f0a05aa2b61b66b2" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>init</name></member>
       <member refid="group__GeneralGroup_1gaec5406272c6cebf1c1103b6840124cee" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>initBaseAxes</name></member>
-      <member refid="group__GeneralGroup_1gab849f5462b1c06bb481e6c4bc9ba751d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>multiPickObjects</name></member>
+      <member refid="group__GeneralGroup_1gabe237ae23636b5c43f1572391f1ac677" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>multiPickObjects</name></member>
       <member refid="group__GeneralGroup_1gaccb5465f789a379345564a84fae52881" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>needRedraw_</name></member>
       <member refid="group__GeneralGroup_1ga421eebbef97d6ebe5342226f445651ee" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gabe2f2d2fe99553548fc2b3f3a9f3d4b8" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gaac1fee0db1d2d082b87fd3ac4ac49134" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>params_</name></member>
-      <member refid="group__GeneralGroup_1gafbd763b1cfd8fceb2d5a66dee6830e70" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga29b9417149264e16eeb727982e61dc64" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga7d514777994544be1badff5b0a39015a" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga0c83894a98b4264b98b4163211288854" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1gac0659d4a5dd0df38ac51ced37ea4b26d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1gaeea675f914f282d4bb811e8e4c771bb9" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga190a1a73b0c964dd18d83d248e27b26f" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
-      <member refid="group__GeneralGroup_1ga369adff2e21395db75c910b75b18f8c7" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pickRenderObject</name></member>
-      <member refid="group__GeneralGroup_1gaaf6012ade9216e280391d67facbec2af" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pickRenderObject</name></member>
-      <member refid="group__GeneralGroup_1ga2a0d67f34ea510525f6e1c930f8abbd5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pickRenderObjectConst</name></member>
+      <member refid="group__GeneralGroup_1ga9cf7727c5bbcb7ad43c396f50b5c2f64" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gaa2ba948a66fac00a9334a9682c8f736a" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gad91d059862348453f924cf3c55d9fda5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gae834b04d48f63be44d1cf132e18ec1f9" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1ga2b5b1092c6ce7d82200b46ee1e279813" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1ga001baa634d6d10c2fe5533285adc7b83" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1gaacb0380af4e8094eec7aa7575e657f6b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pick_render_object</name></member>
+      <member refid="group__GeneralGroup_1ga5894a46842dbcc1e2bc127fed12a825d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pickRenderObject</name></member>
+      <member refid="group__GeneralGroup_1gabab5890d3e0948adb120c240e02738e3" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pickRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga23858c8cd1616c67edd3a25905ab7474" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>pickRenderObjectConst</name></member>
       <member refid="group__GeneralGroup_1ga2ee75851f20f8798cdefa740b799b467" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>PickRenderObjectPredicate</name></member>
       <member refid="group__GeneralGroup_1ga1240f56239bbf49b448b75113843c5db" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>pixelXoffset_</name></member>
       <member refid="group__GeneralGroup_1ga0d4b8e846d9c34852afee75fb8c41425" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>pixelYoffset_</name></member>
       <member refid="group__GeneralGroup_1gace8d34917dcc01ffe64f0bccef923f96" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>postDraw</name></member>
-      <member refid="group__GeneralGroup_1gac7e39309c7a603790ebc1bafaa1c1d4b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>preciseFitBoxToScreenBorder</name></member>
-      <member refid="group__GeneralGroup_1ga4ce56c17b29dbcb0186c4f34c414eb78" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>preciseFitDataToScreenBorder</name></member>
+      <member refid="group__GeneralGroup_1gaabf08c558f0cb3bad8482b8bc2bf1044" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>preciseFitBoxToScreenBorder</name></member>
+      <member refid="group__GeneralGroup_1ga0c9489f28aa931f689d2d0e054132ed2" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>preciseFitDataToScreenBorder</name></member>
       <member refid="group__GeneralGroup_1ga2949211e88a94ea6d1cc010b166b25bc" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>preciseFitToScreenBorder_</name></member>
       <member refid="group__GeneralGroup_1ga6332bebf8263890d7c3757b5ccb4f57c" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>preDraw</name></member>
       <member refid="group__GeneralGroup_1ga43b025f62591587fe575b3177c611556" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>previewLinesDepthTest_</name></member>
       <member refid="group__GeneralGroup_1gab1495467070cadd7fb0116c655367092" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>previewPointsDepthTest_</name></member>
-      <member refid="group__GeneralGroup_1ga00da2d719e774e11cc2c5b367e1caa97" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>projectToClipSpace</name></member>
-      <member refid="group__GeneralGroup_1gaf84b449c6ac06983b1cc77946aeb75e2" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>projectToClipSpace</name></member>
-      <member refid="group__GeneralGroup_1ga0767b6772d648de3599d6d6c1e828076" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>projectToViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga98fa71f145a3139ddd609e7a4b7dd818" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>projectToViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1ga17ecc6023d8af2a1b27d567d91676a4f" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>projectToClipSpace</name></member>
+      <member refid="group__GeneralGroup_1gab931f12556bf35d1195059ce15358279" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>projectToClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga8fa5c567ac3ba99d55e310a6a4aa8ecc" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>projectToViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1ga180d6b93463c5f7697cac148d49fd97d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>projectToViewportSpace</name></member>
       <member refid="group__GeneralGroup_1gae0d5f0d2464722851a9cc086d9e5a7ca" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>projM_</name></member>
-      <member refid="group__GeneralGroup_1ga9bbcf7b095b6123ee7916f93d2f3ff01" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>recursiveDraw</name></member>
+      <member refid="group__GeneralGroup_1gaa1496cb43fc603cb4054ef3934ed2d61" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>recursiveDraw</name></member>
       <member refid="group__GeneralGroup_1ga48d0af17aa1142d78dcc98ee60bcde3e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>resetRedrawFlag</name></member>
-      <member refid="group__GeneralGroup_1ga782d90e6f95f86f9b73e603aaca615af" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>resetStaticRotationPivot</name></member>
+      <member refid="group__GeneralGroup_1ga7ad75f9b39cadb35c6dac36b8dc3fa7e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>resetStaticRotationPivot</name></member>
       <member refid="group__GeneralGroup_1ga83d8de5b72b7bc97a36b9ac59b49bc3d" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>rotateView_</name></member>
       <member refid="group__GeneralGroup_1ga87dd825857f8dd1e5b3f6c49f8de12a2" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>rotation_</name></member>
-      <member refid="group__GeneralGroup_1gaf9e6c144fff12c1d75af0be0b6ed5650" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>rotationCenterMode</name></member>
+      <member refid="group__GeneralGroup_1ga32f520027876c213e77b698e6db8d75d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>rotationCenterMode</name></member>
       <member refid="group__GeneralGroup_1ga37a9f52480deeaabc8ab6a0a3416a692" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>rotationPivot_</name></member>
       <member refid="group__GeneralGroup_1gaf47f1110867d6aa20825cc63811feeea" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>sceneBox_</name></member>
-      <member refid="group__GeneralGroup_1gaea73df9e40d43b09061ad03b015f1c3e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setAxesPos</name></member>
-      <member refid="group__GeneralGroup_1ga9af25421c857c554aaabfdc28898cd61" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setAxesSize</name></member>
-      <member refid="group__GeneralGroup_1gadd402fe6a91aa235f98db029c80be9b9" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setBackgroundColor</name></member>
-      <member refid="group__GeneralGroup_1gaf2fe6abc9e300a389c2a303f836f20d5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraPoint</name></member>
-      <member refid="group__GeneralGroup_1ga7992f00d88f9468b7378bb264a6c7126" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraTrackballAngle</name></member>
-      <member refid="group__GeneralGroup_1ga359181a4adccaea790fc8d2ace945198" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraTranslation</name></member>
-      <member refid="group__GeneralGroup_1ga08e78306b6826a1e5a7cb961115406a2" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraViewAngle</name></member>
-      <member refid="group__GeneralGroup_1ga0a7950c085a074ebecb668d2e455d102" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraZoom</name></member>
-      <member refid="group__GeneralGroup_1gac46fbd652ee514d031889d120da54424" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setClippingPlane</name></member>
-      <member refid="group__GeneralGroup_1ga8c34b39f70fe8da63382acdae5d87498" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setLabel</name></member>
-      <member refid="group__GeneralGroup_1ga56e8d58b1c72aeec336d74a6da7c2cc1" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setOrthographic</name></member>
-      <member refid="group__GeneralGroup_1ga538c80bc0a06c494f1865d6ad6f83d3d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setParameters</name></member>
-      <member refid="group__GeneralGroup_1ga511d516b1bb61ba54e2b72284b65fceb" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setRotation</name></member>
+      <member refid="group__GeneralGroup_1ga2c63751546309d0bbdee319b38733df0" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setAxesPos</name></member>
+      <member refid="group__GeneralGroup_1ga7cdcd9c1df701794b889bdac69a123fd" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setAxesSize</name></member>
+      <member refid="group__GeneralGroup_1gacee1b8365dc494c521d2b1870bec8713" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setBackgroundColor</name></member>
+      <member refid="group__GeneralGroup_1gadb5215d292d0b8ec5b7c9370b199ad47" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraPoint</name></member>
+      <member refid="group__GeneralGroup_1ga62aeb2520e267966a40f85f4d3e05972" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraTrackballAngle</name></member>
+      <member refid="group__GeneralGroup_1ga0f85b9ccf4f79bc5faa8cc613c40e7bd" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraTranslation</name></member>
+      <member refid="group__GeneralGroup_1gadba749ae20939d308d42aa0abd7ad548" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraViewAngle</name></member>
+      <member refid="group__GeneralGroup_1gabf89a5f2ff7df2a3184070d6fb46ba7d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setCameraZoom</name></member>
+      <member refid="group__GeneralGroup_1gadfc8999d530b5b84dab99023d3fea24f" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setClippingPlane</name></member>
+      <member refid="group__GeneralGroup_1ga352b2c1cb1d20b02b021f68b7ffac28e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setLabel</name></member>
+      <member refid="group__GeneralGroup_1ga44f0fc83a678d120b15fe0cbbbffb586" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setOrthographic</name></member>
+      <member refid="group__GeneralGroup_1ga9c2da3521710c4de2851bf46f246ec0f" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1gac23c05ec8355df106cc1b1d681c34152" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setRotation</name></member>
       <member refid="group__GeneralGroup_1gad63fbcdb80da3a44dde19aa0bc4cc3fd" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>setRotationPivot_</name></member>
       <member refid="group__GeneralGroup_1ga3b38a130389402efd292caab868bfd57" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setSelectable</name></member>
       <member refid="group__GeneralGroup_1ga27f14c68f44f2a196046224b4e7202d6" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>setupAxesViewProjMatrix_</name></member>
       <member refid="group__GeneralGroup_1ga2a763c5d3e17f9136daa50dc63e889fe" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>setupProjMatrix_</name></member>
       <member refid="group__GeneralGroup_1gaab7a9dc1a3bb2ced85d438c2501530a4" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setupView</name></member>
       <member refid="group__GeneralGroup_1gad9950729eb960a87fabb157b740ecadc" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>setupViewMatrix_</name></member>
-      <member refid="group__GeneralGroup_1gab2c0e713c7540bb9c2f53e69607bfed8" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setViewportRect</name></member>
-      <member refid="group__GeneralGroup_1ga6d103e17a81a5229a01ae2a67eb05128" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>showAxes</name></member>
-      <member refid="group__GeneralGroup_1ga68b36d6e25e5af04a632f74f526c4cda" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>showClippingPlane</name></member>
-      <member refid="group__GeneralGroup_1ga2da00f8d67bdd913870c371eab44dc24" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>showGlobalBasis</name></member>
-      <member refid="group__GeneralGroup_1ga069049d89298e103d7c82e1454532734" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>showRotationCenter</name></member>
-      <member refid="group__GeneralGroup_1ga0fc1e84a964766414f289905f15aa910" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>shut</name></member>
+      <member refid="group__GeneralGroup_1gafaf152c2b300a66129a8077b2445375b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setViewportRect</name></member>
+      <member refid="group__GeneralGroup_1gaae5ff4fd8bbb8ac44480e6b945a38dbb" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>showAxes</name></member>
+      <member refid="group__GeneralGroup_1ga3c246d5060a27db7067453280cdb85d5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>showClippingPlane</name></member>
+      <member refid="group__GeneralGroup_1gae239dbd60a1a4f0300faca5f780517da" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>showGlobalBasis</name></member>
+      <member refid="group__GeneralGroup_1ga3b3f85b57ad12fdd5fb2b97e781ceb1a" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>showRotationCenter</name></member>
+      <member refid="group__GeneralGroup_1ga177a67c3dd52fb1f49b8b1b67b49f181" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>shut</name></member>
       <member refid="group__GeneralGroup_1gaadf659704e07795210b42bc51ad442e4" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>Space</name></member>
       <member refid="group__GeneralGroup_1ga3fa678e11f116ea68fd70d45a1a44e72" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>static_point_</name></member>
       <member refid="group__GeneralGroup_1ga82cb9bef4e6f9fe08ce8b70068f3b801" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>static_viewport_point</name></member>
-      <member refid="group__GeneralGroup_1gab977a36a5474fc72fb2a9370f1a892aa" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>transformView</name></member>
-      <member refid="group__GeneralGroup_1ga280af5b0f24b3003b52b66b9bdf70705" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectFromClipSpace</name></member>
-      <member refid="group__GeneralGroup_1ga840a18b408675ea0b3d9b662916d8969" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectFromClipSpace</name></member>
-      <member refid="group__GeneralGroup_1ga40d0c918528a3ba76f1df78f0e6008e5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectFromViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga1f1335831c811df8d399d4bf4a7dfad2" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectFromViewportSpace</name></member>
-      <member refid="group__GeneralGroup_1ga82a8f9d0d4ea9aee8a0cd3a742059cbc" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectPixelRay</name></member>
+      <member refid="group__GeneralGroup_1gae18ff77fe4c5cad359fcec544a753769" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>transformView</name></member>
+      <member refid="group__GeneralGroup_1ga75d232ecd80ed672d4b8f1d3da27a8b4" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectFromClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga04d407d9f9ed51c86003289be1e91ddf" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectFromClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga0c86336ca4a6c0660f4f6eaa3a1745b2" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectFromViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1gae8a56f2400988d9bb463d6669e20455a" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectFromViewportSpace</name></member>
+      <member refid="group__GeneralGroup_1ga5ef038bd9bf8c8911bcb10f103fcc0ec" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>unprojectPixelRay</name></member>
       <member refid="group__GeneralGroup_1ga17fa53feb9cffe2aa20b7fbbad0577e8" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>updateSceneBox_</name></member>
       <member refid="group__GeneralGroup_1ga2ee7b37e8a839dfd35ff8297bc246cdb" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>viewM_</name></member>
-      <member refid="group__GeneralGroup_1gadc0a625e7bd0d7fecf55699b470659ac" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>Viewport</name></member>
+      <member refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>Viewport</name></member>
       <member refid="group__GeneralGroup_1ga14092744f2bcf31895a0b154117cf688" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>Viewport</name></member>
       <member refid="group__GeneralGroup_1gab2c9307e0042dfba8ab64f861356ad72" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>Viewport</name></member>
       <member refid="group__GeneralGroup_1ga6e2d13a1635fa1ec403b44e27f2de63c" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>viewportGL_</name></member>
       <member refid="group__GeneralGroup_1gab06c64c64775121a0bf48cb51990ae65" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>viewportRect_</name></member>
       <member refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>ViewportRectangle</name></member>
-      <member refid="group__GeneralGroup_1ga4fcaf26b57c2f33aa87b085f76d81f7c" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>viewportSpaceToClipSpace</name></member>
-      <member refid="group__GeneralGroup_1ga97fad091717d46988a64c161dc734e76" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>viewportSpaceToClipSpace</name></member>
-      <member refid="group__GeneralGroup_1gabf9bc36eda02472e52c41323484ca493" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>worldToCameraSpace</name></member>
-      <member refid="group__GeneralGroup_1ga71dda2baf413b787d9b0fb12035d3827" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>worldToCameraSpace</name></member>
-      <member refid="group__GeneralGroup_1ga1d65bf318796ffdc96002b5d70d984a7" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>~Viewport</name></member>
+      <member refid="group__GeneralGroup_1gab5751c4a616e2528f9ab90cc03b5605b" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>viewportSpaceToClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga76651da13086ba0e63b4edf2ac234ca5" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>viewportSpaceToClipSpace</name></member>
+      <member refid="group__GeneralGroup_1ga765ce80b74a5ee4546085cc49ab8d2bd" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>worldToCameraSpace</name></member>
+      <member refid="group__GeneralGroup_1ga32a00d53d47ac59f2fdfc49877a3626e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>worldToCameraSpace</name></member>
+      <member refid="group__GeneralGroup_1ga8eb0360ddc396efa4203aeee18c307fe" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>~Viewport</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

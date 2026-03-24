@@ -19,7 +19,6 @@ var MRDistanceToMeshOptions_8h =
     [ "MR_DistanceToMeshOptions_GetMutable_nullOutsideMinMax", "MRDistanceToMeshOptions_8h.html#aa5aec80df8d65f3cee318db0d66127e3", null ],
     [ "MR_DistanceToMeshOptions_GetMutable_windingNumberBeta", "MRDistanceToMeshOptions_8h.html#a8e8459eafda076beba3509b305258da1", null ],
     [ "MR_DistanceToMeshOptions_GetMutable_windingNumberThreshold", "MRDistanceToMeshOptions_8h.html#a89abf7f2603c8068961fcaa9fb1882ff", null ],
-    [ "MR_DistanceToMeshOptions_MutableStaticDowncastTo_MR_SignedDistanceToMeshOptions", "MRDistanceToMeshOptions_8h.html#a29c9a6863d3ec1e73e80d0732704ee75", null ],
     [ "MR_DistanceToMeshOptions_OffsetMutablePtr", "MRDistanceToMeshOptions_8h.html#aec2f26b4c7a4e73c8330aa1dbbb34edc", null ],
     [ "MR_DistanceToMeshOptions_OffsetPtr", "MRDistanceToMeshOptions_8h.html#a92e0adc1b58e704a919f1783cdab82fb", null ],
     [ "MR_DistanceToMeshOptions_Set_maxDistSq", "MRDistanceToMeshOptions_8h.html#aaa621dddaf0a2fb1ef9884a3e86b2017", null ],
@@ -27,7 +26,6 @@ var MRDistanceToMeshOptions_8h =
     [ "MR_DistanceToMeshOptions_Set_nullOutsideMinMax", "MRDistanceToMeshOptions_8h.html#aeea5c914eec5dfc955c57f84ce55d08c", null ],
     [ "MR_DistanceToMeshOptions_Set_windingNumberBeta", "MRDistanceToMeshOptions_8h.html#afff328baab1a7899d49a7636b171b929", null ],
     [ "MR_DistanceToMeshOptions_Set_windingNumberThreshold", "MRDistanceToMeshOptions_8h.html#af3b1ff8b1b7d6436a90f3aa6f604c329", null ],
-    [ "MR_DistanceToMeshOptions_StaticDowncastTo_MR_SignedDistanceToMeshOptions", "MRDistanceToMeshOptions_8h.html#a0ff5b95f3a0d7d1df640a986841faf10", null ],
     [ "MR_SignedDistanceToMeshOptions_AssignFromAnother", "MRDistanceToMeshOptions_8h.html#a284b42296c6e31503d536280b00d0e0c", null ],
     [ "MR_SignedDistanceToMeshOptions_ConstructFromAnother", "MRDistanceToMeshOptions_8h.html#aaa6924366a6fa2f7a72907f1005c4661", null ],
     [ "MR_SignedDistanceToMeshOptions_DefaultConstruct", "MRDistanceToMeshOptions_8h.html#a7f2f4a08c5b9cc001bdf93c37c135c28", null ],
@@ -46,6 +44,7 @@ var MRDistanceToMeshOptions_8h =
     [ "MR_SignedDistanceToMeshOptions_GetMutable_signMode", "MRDistanceToMeshOptions_8h.html#a332d7076949b13f11728fbfa7bfe5734", null ],
     [ "MR_SignedDistanceToMeshOptions_GetMutable_windingNumberBeta", "MRDistanceToMeshOptions_8h.html#af8977b4921ec34b5c5478a26bef3c02a", null ],
     [ "MR_SignedDistanceToMeshOptions_GetMutable_windingNumberThreshold", "MRDistanceToMeshOptions_8h.html#ae29a04f487f39c1fbfb17711341c5172", null ],
+    [ "MR_SignedDistanceToMeshOptions_MutableStaticDowncastFrom_MR_DistanceToMeshOptions", "MRDistanceToMeshOptions_8h.html#a3266e4045a33f10e2453d799d4a4a38b", null ],
     [ "MR_SignedDistanceToMeshOptions_MutableUpcastTo_MR_DistanceToMeshOptions", "MRDistanceToMeshOptions_8h.html#a22a261d911dd00217ff8232e453ea502", null ],
     [ "MR_SignedDistanceToMeshOptions_OffsetMutablePtr", "MRDistanceToMeshOptions_8h.html#a5da185f0ade34b001741c343497de51f", null ],
     [ "MR_SignedDistanceToMeshOptions_OffsetPtr", "MRDistanceToMeshOptions_8h.html#a67d947e7aee134fcf84ee33d4ff041f6", null ],
@@ -55,5 +54,6 @@ var MRDistanceToMeshOptions_8h =
     [ "MR_SignedDistanceToMeshOptions_Set_signMode", "MRDistanceToMeshOptions_8h.html#ad0fd65eac25784c27e4e4710d63f9f19", null ],
     [ "MR_SignedDistanceToMeshOptions_Set_windingNumberBeta", "MRDistanceToMeshOptions_8h.html#a48060a5179321d4b7b530cae9dcf72a6", null ],
     [ "MR_SignedDistanceToMeshOptions_Set_windingNumberThreshold", "MRDistanceToMeshOptions_8h.html#adce110634728f587916b3c151a8d57ed", null ],
+    [ "MR_SignedDistanceToMeshOptions_StaticDowncastFrom_MR_DistanceToMeshOptions", "MRDistanceToMeshOptions_8h.html#a8cb9e1ac50ab58a7ffb1f916a083f97b", null ],
     [ "MR_SignedDistanceToMeshOptions_UpcastTo_MR_DistanceToMeshOptions", "MRDistanceToMeshOptions_8h.html#ab24458e952212b36dcefd28a22554103", null ]
 ];

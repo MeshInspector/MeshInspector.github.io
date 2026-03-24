@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" kind="class" language="C++" prot="public">
     <compoundname>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</compoundname>
     <basecompoundref refid="classMR_1_1ISceneStateCheck" prot="public" virt="virtual">MR::ISceneStateCheck</basecompoundref>
-    <includes refid="MRSceneStateCheck_8h" local="no">MRSceneStateCheck.h</includes>
+    <basecompoundref refid="classMR_1_1ISceneStateCheck" prot="public" virt="virtual">MR::ISceneStateCheck</basecompoundref>
+    <includes refid="MRSceneStateCheck_8h" local="no">MRViewer/MRSceneStateCheck.h</includes>
     <templateparamlist>
       <param>
         <type>unsigned</type>
@@ -32,6 +33,8 @@
         <link refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -44,9 +47,11 @@
         <link refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="102" bodyend="109"/>
+    <location file="MRViewer/MRSceneStateCheck.h" line="101" column="1" bodyfile="MRViewer/MRSceneStateCheck.h" bodystart="102" bodyend="109"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8119757962c12e1b44b3b9b96c6fee98" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</scope><name>isAvailable</name></member>
       <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</scope><name>~ISceneStateCheck</name></member>

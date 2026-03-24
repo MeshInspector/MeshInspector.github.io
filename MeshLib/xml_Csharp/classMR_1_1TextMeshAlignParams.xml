@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TextMeshAlignParams" kind="class" language="C#" prot="public">
     <compoundname>MR::TextMeshAlignParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TextMeshAlignParams</basecompoundref>
@@ -11,13 +11,13 @@
         <name>startPoint</name>
         <qualifiedname>MR.TextMeshAlignParams.startPoint</qualifiedname>
         <briefdescription>
-<para>Position on mesh, where text&apos;s pivot point is mapped. </para>
+<para>Position on mesh, where text's pivot point is mapped. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="277" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="277" bodyend="277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="295" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="295" bodyend="295"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1a1eead220a80f5443cf21994b7c478dcc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
@@ -26,13 +26,13 @@
         <name>pivotPoint</name>
         <qualifiedname>MR.TextMeshAlignParams.pivotPoint</qualifiedname>
         <briefdescription>
+<para>Position of the startPoint in a text bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right. </para>
         </briefdescription>
         <detaileddescription>
-<para>Position of the startPoint in a text bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="281" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="281" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="301" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="301" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1a60fd69d1f38e07a8ff186da1377bb12c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="284" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="284" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="306" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="306" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1aaa75cbf58ddf19fa8d65a0260b39e27c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__Vector3f" kindref="compound">ConstBox_Vector3f</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="287" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="288" bodyend="297"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="311" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="312" bodyend="321"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1ab66897160740c738a250a43f2e5d627a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="300" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="300" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="326" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="326" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1af6c00bddf26e5a0925909bb3e1d9ebbd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="303" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="303" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="331" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="331" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1a30dd2e29e7a9cda8b17a7f35886db100" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="306" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="306" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="336" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="336" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1a5a14dceb177885e449fb5f75cb73af5c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="309" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="309" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="341" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="341" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1a57ee629ed194f01556b3a28fbe280107" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.String</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="312" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="312" bodyend="312"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="344" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="344" bodyend="344"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1ab613d0d40bacc2c896ce242a398f613b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="315" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="315" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="347" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="347" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1abeedfd591b4fdff444786c08eaa65d8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="320" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="320" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="352" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="352" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1a58793c54daaa126885e0cd942e6c7691" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="324" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="324" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="356" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="356" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1ac4f3dc3f912694a811e17a5d4144404c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a26510111e54c3ec0cf6367dc91c7c0f4" kindref="member">MR.AlignType</ref></type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="327" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="327" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="359" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="359" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1ae40ba6fdc734f559f4aeaeee501ac89e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Filesystem.Path</type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="330" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="330" bodyend="330"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="362" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="362" bodyend="362"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="267" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="267" bodyend="274"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="283" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="283" bodyend="290"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="363" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="363" bodyend="367"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="395" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="395" bodyend="399"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="373" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="373" bodyend="379"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="405" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="405" bodyend="411"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TextMeshAlignParams_1a1ae6db0844c52f4277819b4f6c5fa3b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -280,13 +280,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TextMeshAlignParams.TextMeshAlignParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TextMeshAlignParams_1a4ae7f2e028dd2da2d0ac030fd019ca4a" kindref="member">MR.TextMeshAlignParams.TextMeshAlignParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="384" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="384" bodyend="391"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="416" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="416" bodyend="423"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TextMeshAlignParams_1a7d369a760ea1d649c4ce62020b2909e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -299,13 +299,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TextMeshAlignParams.TextMeshAlignParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TextMeshAlignParams_1a4ae7f2e028dd2da2d0ac030fd019ca4a" kindref="member">MR.TextMeshAlignParams.TextMeshAlignParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="396" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="396" bodyend="396"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="428" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="428" bodyend="428"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TextMeshAlignParams_1acc999948f0dad5b13920ffb51eb8fd6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -318,13 +318,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TextMeshAlignParams.TextMeshAlignParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TextMeshAlignParams_1a4ae7f2e028dd2da2d0ac030fd019ca4a" kindref="member">MR.TextMeshAlignParams.TextMeshAlignParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="401" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="401" bodyend="401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="433" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="433" bodyend="433"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TextMeshAlignParams_1a9046bca00ac5aa23fc3f96b2127cd409" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TextMeshAlignParams" kindref="compound">MR.TextMeshAlignParams</ref></type>
@@ -337,13 +337,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TextMeshAlignParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TextMeshAlignParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="406" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="406" bodyend="413"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="438" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="438" bodyend="445"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -352,48 +352,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_TextMeshAlignParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TextMeshAlignParams</label>
         <link refid="classMR_1_1TextMeshAlignParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TextMeshAlignParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TextMeshAlignParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_TextMeshAlignParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TextMeshAlignParams</label>
         <link refid="classMR_1_1TextMeshAlignParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TextMeshAlignParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TextMeshAlignParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="264" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="265" bodyend="414"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="280" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="281" bodyend="446"/>
     <listofallmembers>
       <member refid="classMR_1_1TextMeshAlignParams_1ac4f3dc3f912694a811e17a5d4144404c" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>align</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1a9046bca00ac5aa23fc3f96b2127cd409" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>assign</name></member>

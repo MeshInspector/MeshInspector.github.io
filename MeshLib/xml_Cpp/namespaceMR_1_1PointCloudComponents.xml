@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1PointCloudComponents" kind="namespace" language="C++">
     <compoundname>MR::PointCloudComponents</compoundname>
     <sectiondef kind="func">
-      <member refid="group__PointCloudComponentsGroup_1gaf9095649bbc7febf7cf56b9b88cf267f" kind="function"><name>getLargeComponentsUnion</name></member>
-      <member refid="group__PointCloudComponentsGroup_1ga14df913179759fda2f2122b83b643423" kind="function"><name>getLargeComponentsUnion</name></member>
-      <member refid="group__PointCloudComponentsGroup_1ga96d04280c74669348a5a1a121f860883" kind="function"><name>getLargeComponents</name></member>
-      <member refid="group__PointCloudComponentsGroup_1gac22fef282be15fa19c019501c0b5e92b" kind="function"><name>getAllComponents</name></member>
-      <member refid="group__PointCloudComponentsGroup_1gae7a32b050223cbf6c42329521657f9a8" kind="function"><name>getUnionFindStructureVerts</name></member>
+      <member refid="group__PointCloudComponentsGroup_1ga162ae0e5c789b236060b9b335feb625c" kind="function"><name>getLargeComponentsUnion</name></member>
+      <member refid="group__PointCloudComponentsGroup_1gaa6878f82b77658a2135dbb389319639c" kind="function"><name>getLargeComponentsUnion</name></member>
+      <member refid="group__PointCloudComponentsGroup_1ga3fb225164d831bc24e3c3ab3a48516a2" kind="function"><name>getLargeComponents</name></member>
+      <member refid="group__PointCloudComponentsGroup_1ga6ade83c39e3ddd3af28280b0c0293e48" kind="function"><name>getAllComponents</name></member>
+      <member refid="group__PointCloudComponentsGroup_1ga2fd74d609a838e30b78f03e49da4737e" kind="function"><name>getUnionFindStructureVerts</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="10" column="1"/>
+    <location file="MRMesh/MRPointsComponents.h" line="10" column="1"/>
   </compounddef>
 </doxygen>

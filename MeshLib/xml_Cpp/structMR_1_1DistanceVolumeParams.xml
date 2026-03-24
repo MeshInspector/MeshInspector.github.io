@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DistanceVolumeParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::DistanceVolumeParams</compoundname>
     <derivedcompoundref refid="structMR_1_1PointsToDistanceVolumeParams" prot="public" virt="non-virtual">MR::PointsToDistanceVolumeParams</derivedcompoundref>
-    <includes refid="MRDistanceVolumeParams_8h" local="no">MRDistanceVolumeParams.h</includes>
+    <includes refid="MRDistanceVolumeParams_8h" local="no">MRVoxels/MRDistanceVolumeParams.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga57f0f5741fc414817c5c20a26970ec30" kind="variable"><name>origin</name></member>
       <member refid="group__GeneralGroup_1ga920081c5dce988d2f087b470ea72803a" kind="variable"><name>cb</name></member>
@@ -26,7 +26,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" bodystart="13" bodyend="25"/>
+    <location file="MRVoxels/MRDistanceVolumeParams.h" line="12" column="1" bodyfile="MRVoxels/MRDistanceVolumeParams.h" bodystart="13" bodyend="25"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga920081c5dce988d2f087b470ea72803a" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>cb</name></member>
       <member refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>dimensions</name></member>

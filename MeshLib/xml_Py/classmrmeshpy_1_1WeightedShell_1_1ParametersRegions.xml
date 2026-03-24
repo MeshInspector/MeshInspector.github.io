@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::WeightedShell::ParametersRegions</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase" prot="public" virt="non-virtual">mrmeshpy.WeightedShell.ParametersBase</basecompoundref>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74639" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76840" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1ac66444c7f68ca84ec3953a002f3caabf" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74640" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76841" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -43,7 +43,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a273826f1b18954eb98fec4324c3317e2">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -58,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74643" bodyend="74644"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76844" bodyend="76845"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a72dbe3c619eadeca3edb29675b9d83c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions" kindref="compound">WeightedShell.ParametersRegions</ref></type>
@@ -81,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74647" bodyend="74648"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76848" bodyend="76849"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a72dbe3c619eadeca3edb29675b9d83c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions" kindref="compound">WeightedShell.ParametersRegions</ref></type>
@@ -104,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74651" bodyend="74652"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76852" bodyend="76853"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -114,7 +113,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a273826f1b18954eb98fec4324c3317e2">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -125,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74654" bodyend="74655"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76855" bodyend="76856"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -133,7 +131,6 @@
         <argsstring>(self, WeightedShell.ParametersRegions arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a273826f1b18954eb98fec4324c3317e2">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -150,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74657" bodyend="74660"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76858" bodyend="76861"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a5b403d76cd9289dd2749c8f1dfa9a5de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -171,7 +168,7 @@ if false the distances grow to infinity in the direction of triangle&apos;s norm
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74662" bodyend="74666"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76863" bodyend="76867"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af5842ccc37940a51db21da013b27329c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -193,7 +190,7 @@ if false the distances grow to infinity in the direction of triangle&apos;s norm
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74668" bodyend="74669"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76869" bodyend="76870"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aba285fd77b5dcb6647e1e5f3c1963030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -214,7 +211,7 @@ determines the sharpness of transitions between different regions
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74671" bodyend="74675"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76872" bodyend="76876"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a4ca2fa68fd7b1b6a8c0607556c98cc84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -236,7 +233,7 @@ determines the sharpness of transitions between different regions
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74677" bodyend="74678"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76878" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76878" bodyend="76879"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a98f343b31ab6c9128353a041b2b4e940" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region" kindref="compound">std_vector_WeightedShell_ParametersRegions_Region</ref></type>
@@ -257,7 +254,7 @@ the additional offset in overlaps is set to the average of the regions
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74680" bodyend="74684"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76881" bodyend="76885"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a466ad851236f891ddb64621ac0fc2726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -279,7 +276,7 @@ the additional offset in overlaps is set to the average of the regions
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74686" bodyend="74688"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76887" bodyend="76889"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -306,40 +303,39 @@ the additional offset in overlaps is set to the average of the regions
         <link refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_interpolationDist</edgelabel>
-          <edgelabel>_offsetof_regions</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.WeightedShell.ParametersBase</label>
         <link refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_numLayers</edgelabel>
-          <edgelabel>_offsetof_offset</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-          <edgelabel>_offsetof_voxelSize</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74601" bodyend="74687"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76802" bodyend="76888"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a526c70d062f3dce55e219c72745c1fea" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>_offsetof_interpolationDist</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a255fd84d0e6a31967889b535eea1ad8b" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>_offsetof_numLayers</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a83f2ffef7c61f3640e62169c15a77583" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>_offsetof_offset</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1afad57b9bf3d7e46fc37565ccf45c8b56" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>_offsetof_progress</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1ac66444c7f68ca84ec3953a002f3caabf" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>_offsetof_regions</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a61219184ddeebc28f1a92880709176f3" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>_offsetof_voxelSize</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a5b403d76cd9289dd2749c8f1dfa9a5de" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>bidirectionalMode</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af5842ccc37940a51db21da013b27329c" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>bidirectionalMode</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aba285fd77b5dcb6647e1e5f3c1963030" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>interpolationDist</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a4ca2fa68fd7b1b6a8c0607556c98cc84" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>interpolationDist</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1aef8cfda6e20f57b0465199c2e6e295c6" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>numLayers</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a997dc8d3f1e3c94f6124bc772e111d2f" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>numLayers</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1abe571c0246244d48c6dd663878b471d4" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>offset</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1ac25aeb4ffa8984fca3466b567b93364d" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>offset</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a72dbe3c619eadeca3edb29675b9d83c0" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a72dbe3c619eadeca3edb29675b9d83c0" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1aa660ef1107b9f1ae201fe81035c5e5e2" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a9d258574c52e5f830dbfb52e54cf8b6c" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>progress</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a98f343b31ab6c9128353a041b2b4e940" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>regions</name></member>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a466ad851236f891ddb64621ac0fc2726" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>regions</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a4bbab34047ebfa5bc48eebbbf608d8b7" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a7a556f60afafc2c9d588559cdf996cd2" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

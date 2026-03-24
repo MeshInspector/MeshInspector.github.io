@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TextMeshAlignParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::TextMeshAlignParams</compoundname>
     <basecompoundref refid="structMR_1_1SymbolMeshParams" prot="public" virt="non-virtual">MR::SymbolMeshParams</basecompoundref>
-    <includes refid="MRAlignTextToMesh_8h" local="no">MRAlignTextToMesh.h</includes>
+    <includes refid="MRAlignTextToMesh_8h" local="no">MRSymbolMesh/MRAlignTextToMesh.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga2b0fa04ea63d4e6994fb1b7e4ae55ee5" kind="variable"><name>startPoint</name></member>
       <member refid="group__GeneralGroup_1gaf917f5ff67df027c6d4b028e6a1de41f" kind="variable"><name>pivotPoint</name></member>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="19" bodyend="44"/>
+    <location file="MRSymbolMesh/MRAlignTextToMesh.h" line="18" column="1" bodyfile="MRSymbolMesh/MRAlignTextToMesh.h" bodystart="19" bodyend="44"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafd1a0869903aae7b0b8c5df8492a936b" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>align</name></member>
       <member refid="group__GeneralGroup_1ga414e391a4aef8d9ffc82bdd050a469aa" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>direction</name></member>

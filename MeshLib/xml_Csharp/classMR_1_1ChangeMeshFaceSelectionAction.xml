@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshFaceSelectionAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshFaceSelectionAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshFaceSelectionAction</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="222" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="222" bodyend="227"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="160" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="160" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1a89a6db3b00d4dae08675e2afa26fadff" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="230" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="230" bodyend="237"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="170" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="170" bodyend="179"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="239" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="239" bodyend="239"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1a45c3404e044faf295927de5b24f331f2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ChangeMeshFaceSelectionAction</name>
-        <qualifiedname>MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="241" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="241" bodyend="241"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="181" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="181" bodyend="181"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -99,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1af930a33e9a72e8059440b7e0221df99e" kindref="member">MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="246" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="246" bodyend="252"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="186" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="186" bodyend="192"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1adb14d761829222bffbeddde4a7f62aa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -118,13 +96,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1af930a33e9a72e8059440b7e0221df99e" kindref="member">MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="257" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="257" bodyend="257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="197" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="197" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1a93c32afc1b43794d848d84e1ac1faed8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -137,18 +115,18 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1af930a33e9a72e8059440b7e0221df99e" kindref="member">MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="262" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="262" bodyend="262"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="202" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="202" bodyend="202"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1a114c230cdf95ada244d25b7f899bc188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1a841d36a666d101dba90f3c3a99d48dc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</definition>
-        <argsstring>(string name, MR.Const_ObjectMesh objMesh)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMesh objMesh)</argsstring>
         <name>ChangeMeshFaceSelectionAction</name>
         <qualifiedname>MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</qualifiedname>
         <param>
@@ -156,22 +134,22 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectMesh</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectMesh</type>
           <declname>objMesh</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s face selection before making any changes in it Generated from constructor <computeroutput>MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</computeroutput>. </para>
+<para>use this constructor to remember object's face selection before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1af930a33e9a72e8059440b7e0221df99e" kindref="member">MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="268" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="268" bodyend="278"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="208" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="208" bodyend="218"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1a978a54519360173be212027550750c0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1aeb0b77c4eb4a6ac232311874fb1605d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</definition>
-        <argsstring>(string name, MR.Const_ObjectMesh objMesh, MR.Misc._Moved&lt; MR.FaceBitSet &gt; newSelection)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMesh objMesh, MR.Misc._Moved&lt; MR.FaceBitSet &gt; newSelection)</argsstring>
         <name>ChangeMeshFaceSelectionAction</name>
         <qualifiedname>MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</qualifiedname>
         <param>
@@ -179,7 +157,7 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectMesh</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectMesh</type>
           <declname>objMesh</declname>
         </param>
         <param>
@@ -187,13 +165,13 @@
           <declname>newSelection</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s face selection and immediate set new value Generated from constructor <computeroutput>MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</computeroutput>. </para>
+<para>use this constructor to remember object's face selection and immediate set new value Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1af930a33e9a72e8059440b7e0221df99e" kindref="member">MR.ChangeMeshFaceSelectionAction.ChangeMeshFaceSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="284" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="284" bodyend="295"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="224" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="224" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1aae2a73a023b238172e6048c07b7250da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ChangeMeshFaceSelectionAction" kindref="compound">MR.ChangeMeshFaceSelectionAction</ref></type>
@@ -206,13 +184,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeMeshFaceSelectionAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeMeshFaceSelectionAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="300" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="300" bodyend="307"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="240" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="240" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1a1b29a5d063cd9bd2eca85cb1a201e4a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -231,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="312" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="312" bodyend="317"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="252" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="252" bodyend="257"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -240,58 +218,57 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeMeshFaceSelectionAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeMeshFaceSelectionAction</label>
         <link refid="classMR_1_1ChangeMeshFaceSelectionAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeMeshFaceSelectionAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshFaceSelectionAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeMeshFaceSelectionAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeMeshFaceSelectionAction</label>
         <link refid="classMR_1_1ChangeMeshFaceSelectionAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeMeshFaceSelectionAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshFaceSelectionAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="219" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="220" bodyend="318"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="158" bodyend="258"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a1b29a5d063cd9bd2eca85cb1a201e4a0" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1aae2a73a023b238172e6048c07b7250da" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a4786844f49626151b1ba3741d49c8974" prot="package" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
-      <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a45c3404e044faf295927de5b24f331f2" prot="package" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1af930a33e9a72e8059440b7e0221df99e" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1adb14d761829222bffbeddde4a7f62aa6" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a93c32afc1b43794d848d84e1ac1faed8" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
-      <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a114c230cdf95ada244d25b7f899bc188" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
-      <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a978a54519360173be212027550750c0a" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a841d36a666d101dba90f3c3a99d48dc7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1aeb0b77c4eb4a6ac232311874fb1605d1" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a89a6db3b00d4dae08675e2afa26fadff" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>operator ChangeMeshFaceSelectionAction?</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a96e9b670e5158212a8779c1cd77355e7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FlowAggregator" kind="class" language="C#" prot="public">
     <compoundname>MR::FlowAggregator</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FlowAggregator</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="900" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="900" bodyend="900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="922" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="922" bodyend="922"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,13 +39,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FlowAggregator.FlowAggregator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FlowAggregator_1adfae61e01263aed18ad1d37cd41a7063" kindref="member">MR.FlowAggregator.FlowAggregator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="905" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="905" bodyend="911"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="927" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="927" bodyend="933"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FlowAggregator_1a2ae07f646031807d5bd4243d5d73afa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -58,13 +58,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FlowAggregator.FlowAggregator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FlowAggregator_1adfae61e01263aed18ad1d37cd41a7063" kindref="member">MR.FlowAggregator.FlowAggregator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="916" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="916" bodyend="916"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="938" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="938" bodyend="938"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FlowAggregator_1a41a72ee7e1643869d6a1fec765310250" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -77,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FlowAggregator.FlowAggregator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FlowAggregator_1adfae61e01263aed18ad1d37cd41a7063" kindref="member">MR.FlowAggregator.FlowAggregator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="921" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="921" bodyend="921"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="943" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="943" bodyend="943"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FlowAggregator_1af317ee9b72138c83abfade38f8b93b10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -100,13 +100,13 @@
           <declname>heights</declname>
         </param>
         <briefdescription>
-<para>prepares the processing of given mesh with given height in each vertex Generated from constructor <computeroutput>MR.FlowAggregator.FlowAggregator</computeroutput>. </para>
+<para>prepares the processing of given mesh with given height in each vertex Generated from constructor <computeroutput><ref refid="classMR_1_1FlowAggregator_1adfae61e01263aed18ad1d37cd41a7063" kindref="member">MR.FlowAggregator.FlowAggregator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="927" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="927" bodyend="934"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="949" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="949" bodyend="956"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -115,48 +115,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_FlowAggregator</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FlowAggregator</label>
         <link refid="classMR_1_1FlowAggregator"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FlowAggregator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FlowAggregator &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_FlowAggregator</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FlowAggregator</label>
         <link refid="classMR_1_1FlowAggregator"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FlowAggregator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FlowAggregator &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="898" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="899" bodyend="935"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="920" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="921" bodyend="957"/>
     <listofallmembers>
       <member refid="classMR_1_1FlowAggregator_1ae488beef697ea710df141e5fa4c56d76" prot="package" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>FlowAggregator</name></member>
       <member refid="classMR_1_1FlowAggregator_1adfae61e01263aed18ad1d37cd41a7063" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>FlowAggregator</name></member>

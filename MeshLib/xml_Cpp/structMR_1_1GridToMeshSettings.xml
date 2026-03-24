@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1GridToMeshSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::GridToMeshSettings</compoundname>
-    <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
+    <includes refid="MRVDBConversions_8h" local="no">MRVoxels/MRVDBConversions.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gacee0af0c67fecb819dabf8238de050fc" kind="variable"><name>voxelSize</name></member>
       <member refid="group__GeneralGroup_1gad826bf2632bc0f30ff1144fb199ad870" kind="variable"><name>isoValue</name></member>
@@ -17,7 +17,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="112" bodyend="126"/>
+    <location file="MRVoxels/MRVDBConversions.h" line="111" column="1" bodyfile="MRVoxels/MRVDBConversions.h" bodystart="112" bodyend="126"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga36f6e01a1f97935440b97e4c1bd3bf12" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>adaptivity</name></member>
       <member refid="group__GeneralGroup_1gacda3440aa9d507ae98fc2e068e7d41fd" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>cb</name></member>

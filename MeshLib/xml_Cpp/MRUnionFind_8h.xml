@@ -1,50 +1,78 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUnionFind_8h" kind="file" language="C++">
     <compoundname>MRUnionFind.h</compoundname>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
     <includes refid="MRTimer_8h" local="yes">MRTimer.h</includes>
     <includes local="no">utility</includes>
-    <includedby refid="MRMeshComponents_8h" local="yes">MRMeshComponents.h</includedby>
-    <includedby refid="MROutlierPoints_8h" local="yes">MROutlierPoints.h</includedby>
-    <includedby refid="MRPointsComponents_8h" local="yes">MRPointsComponents.h</includedby>
-    <includedby refid="MRPolylineComponents_8h" local="yes">MRPolylineComponents.h</includedby>
-    <includedby refid="MRUnionFindParallel_8h" local="yes">MRUnionFindParallel.h</includedby>
+    <includedby refid="MRMeshComponents_8h" local="yes">MRMesh/MRMeshComponents.h</includedby>
+    <includedby refid="MROutlierPoints_8h" local="yes">MRMesh/MROutlierPoints.h</includedby>
+    <includedby refid="MRPointsComponents_8h" local="yes">MRMesh/MRPointsComponents.h</includedby>
+    <includedby refid="MRPolylineComponents_8h" local="yes">MRMesh/MRPolylineComponents.h</includedby>
+    <includedby refid="MRUnionFindParallel_8h" local="yes">MRMesh/MRUnionFindParallel.h</includedby>
     <incdepgraph>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
       <node id="3">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="5">
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="16">
         <label>MRTimer.h</label>
         <link refid="MRTimer_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRUnionFind.h</label>
+        <label>MRMesh/MRUnionFind.h</label>
         <link refid="MRUnionFind_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -54,54 +82,67 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="10">
+      <node id="17">
         <label>chrono</label>
       </node>
-      <node id="6">
+      <node id="15">
         <label>concepts</label>
       </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
       <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
         <label>string</label>
       </node>
-      <node id="12">
+      <node id="18">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRMeshComponents.h</label>
+        <label>MRMesh/MRMeshComponents.h</label>
         <link refid="MRMeshComponents_8h"/>
       </node>
       <node id="3">
-        <label>MROutlierPoints.h</label>
+        <label>MRMesh/MROutlierPoints.h</label>
         <link refid="MROutlierPoints_8h"/>
       </node>
       <node id="4">
-        <label>MRPointsComponents.h</label>
+        <label>MRMesh/MRPointsComponents.h</label>
         <link refid="MRPointsComponents_8h"/>
       </node>
       <node id="5">
-        <label>MRPolylineComponents.h</label>
+        <label>MRMesh/MRPolylineComponents.h</label>
         <link refid="MRPolylineComponents_8h"/>
       </node>
       <node id="1">
-        <label>MRUnionFind.h</label>
+        <label>MRMesh/MRUnionFind.h</label>
         <link refid="MRUnionFind_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -115,7 +156,7 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRUnionFindParallel.h</label>
+        <label>MRMesh/MRUnionFindParallel.h</label>
         <link refid="MRUnionFindParallel_8h"/>
       </node>
     </invincdepgraph>
@@ -137,7 +178,7 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>I&gt;</highlight></codeline>
-<codeline lineno="22" refid="classMR_1_1UnionFind" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind</ref></highlight></codeline>
+<codeline lineno="22" refid="classMR_1_1UnionFind" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga67ccf008e0816480dca10b19c530a7b1" kindref="member">UnionFind</ref></highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" kindref="member">SizeType</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>I::ValueType;</highlight></codeline>
@@ -146,20 +187,20 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="group__GeneralGroup_1ga661398df57a710beae6f4b7c19ac3006" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga661398df57a710beae6f4b7c19ac3006" kindref="member">UnionFind</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref><sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kindref="member">reset</ref>(<sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref><sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parents_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parents_.size();<sp/>}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kindref="member">reset</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref><sp/>)</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRTimer_8h_1adf7fc408af3ac6d6583cc0ca173120ae" kindref="member">MR_TIMER</ref>;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parents_.<ref refid="group__GeneralGroup_1ga0e593b171d655e35f554674f88083c76" kindref="member">clear</ref>();</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parents_.<ref refid="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" kindref="member">reserve</ref>(<sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref><sp/>);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>I<sp/>i{<sp/>size_t(<sp/>0<sp/>)<sp/>};<sp/>i<sp/>&lt;<sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref>;<sp/>++i<sp/>)</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parents_.<ref refid="group__GeneralGroup_1ga5ea16d2aeaa1f2e2d683aade3c67794c" kindref="member">push_back</ref>(<sp/>i<sp/>);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizes_.<ref refid="group__GeneralGroup_1ga0e593b171d655e35f554674f88083c76" kindref="member">clear</ref>();</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizes_.<ref refid="group__GeneralGroup_1ga2c8202f5b1a09ebf0bd5a5a3dc2936fd" kindref="member">resize</ref>(<sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref>,<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parents_.clear();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parents_.reserve(<sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref><sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>i{<sp/>size_t(<sp/>0<sp/>)<sp/>};<sp/>i<sp/>&lt;<sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref>;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parents_.push_back(<sp/>i<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizes_.clear();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizes_.resize(<sp/><ref refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kindref="member">size</ref>,<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::pair&lt;I,bool&gt;<sp/><ref refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kindref="member">unite</ref>(<sp/>I<sp/>first,<sp/>I<sp/>second<sp/>)</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::pair&lt;I,bool&gt;<sp/><ref refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kindref="member">unite</ref>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>first,<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>second<sp/>)</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>firstRoot<sp/>=<sp/>updateRoot_(<sp/>first<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>secondRoot<sp/>=<sp/>updateRoot_(<sp/>second<sp/>);</highlight></codeline>
@@ -179,64 +220,64 @@
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kindref="member">united</ref>(<sp/>I<sp/>first,<sp/>I<sp/>second<sp/>)</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kindref="member">united</ref>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>first,<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>second<sp/>)</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>firstRoot<sp/>=<sp/>updateRoot_(<sp/>first<sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>secondRoot<sp/>=<sp/>updateRoot_(<sp/>second<sp/>);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>firstRoot<sp/>==<sp/>secondRoot;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kindref="member">isRoot</ref>(<sp/>I<sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parents_[a]<sp/>==<sp/>a;<sp/>}</highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kindref="member">isRoot</ref>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parents_[a]<sp/>==<sp/>a;<sp/>}</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/><ref refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kindref="member">parent</ref>(<sp/>I<sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parents_[a];<sp/>}</highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/><ref refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kindref="member">parent</ref>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parents_[a];<sp/>}</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/><ref refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" kindref="member">find</ref>(<sp/>I<sp/>a<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>updateRoot_(<sp/>a<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="86" refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/><ref refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" kindref="member">find</ref>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>updateRoot_(<sp/>a<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/><ref refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" kindref="member">findUpdateRange</ref>(<sp/>I<sp/>a,<sp/>I<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>,<sp/>I<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>)</highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/><ref refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" kindref="member">findUpdateRange</ref>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a,<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/><ref refid="group__ViewportGroup_1ga9ae1fa58375f92080d1a1546f2c43660" kindref="member">begin</ref>,<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/><ref refid="group__ViewportGroup_1gab1b9c0765f511f096bad80c6f11d728d" kindref="member">end</ref><sp/>)</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>updateRootInRange_(<sp/>a,<sp/>findRootNoUpdate_(<sp/>a<sp/>),<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>,<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>updateRootInRange_(<sp/>a,<sp/>findRootNoUpdate_(<sp/>a<sp/>),<sp/><ref refid="group__ViewportGroup_1ga9ae1fa58375f92080d1a1546f2c43660" kindref="member">begin</ref>,<sp/><ref refid="group__ViewportGroup_1gab1b9c0765f511f096bad80c6f11d728d" kindref="member">end</ref><sp/>);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95" refid="group__GeneralGroup_1ga5b1ee758f69d77277361f8cbe1e0d77e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;I, I&gt;</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga5b1ee758f69d77277361f8cbe1e0d77e" kindref="member">roots</ref>()</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>I<sp/>i{<sp/>size_t(<sp/>0<sp/>)<sp/>};<sp/>i<sp/>&lt;<sp/>parents_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>();<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>i{<sp/>size_t(<sp/>0<sp/>)<sp/>};<sp/>i<sp/>&lt;<sp/>parents_.size();<sp/>++i<sp/>)</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>updateRoot_(<sp/>i,<sp/>findRootNoUpdate_(<sp/>i<sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parents_;</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103" refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;I, I&gt;</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" kindref="member">parents</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parents_;<sp/>}</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" kindref="member">SizeType</ref><sp/><ref refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kindref="member">sizeOfComp</ref>(<sp/>I<sp/>a<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sizes_[<sp/><ref refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" kindref="member">find</ref>(<sp/>a<sp/>)<sp/>];<sp/>}</highlight></codeline>
+<codeline lineno="106" refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" kindref="member">SizeType</ref><sp/><ref refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kindref="member">sizeOfComp</ref>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sizes_[<sp/><ref refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" kindref="member">find</ref>(<sp/>a<sp/>)<sp/>];<sp/>}</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/>findRootNoUpdate_(<sp/>I<sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>findRootNoUpdate_(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="111"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>I<sp/>r<sp/>=<sp/>parents_[a];</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>I<sp/>e<sp/>=<sp/>a;<sp/>e<sp/>!=<sp/>r;<sp/>r<sp/>=<sp/>parents_[e<sp/>=<sp/>r]<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>r<sp/>=<sp/>parents_[a];</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>e<sp/>=<sp/>a;<sp/>e<sp/>!=<sp/>r;<sp/>r<sp/>=<sp/>parents_[e<sp/>=<sp/>r]<sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/>updateRoot_(<sp/>I<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>I<sp/>r<sp/>)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>updateRoot_(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>r<sp/>)</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>a<sp/>!=<sp/>r<sp/>)<sp/></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>I<sp/>b<sp/>=<sp/>r;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>b<sp/>=<sp/>r;</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::swap(<sp/>parents_[a],<sp/>b<sp/>);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a<sp/>=<sp/>b;</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/>updateRoot_(<sp/>I<sp/>a<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>updateRoot_(<sp/>a,<sp/>findRootNoUpdate_(<sp/>a<sp/>)<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>updateRoot_(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>updateRoot_(<sp/>a,<sp/>findRootNoUpdate_(<sp/>a<sp/>)<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/>updateRootInRange_(<sp/>I<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>I<sp/>r,<sp/>I<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>,<sp/>I<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>updateRootInRange_(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>r,<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/><ref refid="group__ViewportGroup_1ga9ae1fa58375f92080d1a1546f2c43660" kindref="member">begin</ref>,<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/><ref refid="group__ViewportGroup_1gab1b9c0765f511f096bad80c6f11d728d" kindref="member">end</ref><sp/>)</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref><sp/>&lt;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="group__ViewportGroup_1ga9ae1fa58375f92080d1a1546f2c43660" kindref="member">begin</ref><sp/>&lt;<sp/><ref refid="group__ViewportGroup_1gab1b9c0765f511f096bad80c6f11d728d" kindref="member">end</ref><sp/>);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>a<sp/>!=<sp/>r<sp/>)</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>a<sp/>&gt;=<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref><sp/>&amp;&amp;<sp/>a<sp/>&lt;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>a<sp/>&gt;=<sp/><ref refid="group__ViewportGroup_1ga9ae1fa58375f92080d1a1546f2c43660" kindref="member">begin</ref><sp/>&amp;&amp;<sp/>a<sp/>&lt;<sp/><ref refid="group__ViewportGroup_1gab1b9c0765f511f096bad80c6f11d728d" kindref="member">end</ref><sp/>)</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>I<sp/>b<sp/>=<sp/>r;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>b<sp/>=<sp/>r;</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::swap(<sp/>parents_[a],<sp/>b<sp/>);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a<sp/>=<sp/>b;</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -251,8 +292,8 @@
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector&lt;SizeType,<sp/>I&gt;<sp/>sizes_;</highlight></codeline>
 <codeline lineno="157"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h"/>
+    <location file="MRMesh/MRUnionFind.h"/>
   </compounddef>
 </doxygen>

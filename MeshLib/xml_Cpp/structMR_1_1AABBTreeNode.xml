@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1AABBTreeNode" kind="struct" language="C++" prot="public">
     <compoundname>MR::AABBTreeNode</compoundname>
-    <includes refid="MRAABBTreeNode_8h" local="no">MRAABBTreeNode.h</includes>
+    <includes refid="MRAABBTreeNode_8h" local="no">MRMesh/MRAABBTreeNode.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="32" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="32" column="5" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structMR_1_1AABBTreeNode_1af92cbed18c9ddfbf28d0e86385fc6e01" prot="public" static="no">
         <type>typename T::BoxT</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="33" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="33" column="5" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="35" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="35" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="35" column="10" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1AABBTreeNode_1a3cbbf05afde5b58b37ff42812595cef9" prot="public" static="no" mutable="no">
         <type>NodeId</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="36" column="12" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1AABBTreeNode_1a17304ef8e7e0d4062245a747fa45840e" prot="public" static="no" mutable="no">
         <type>NodeId</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="36" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="36" column="14" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="36" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -92,13 +92,13 @@
         <name>leaf</name>
         <qualifiedname>MR::AABBTreeNode::leaf</qualifiedname>
         <briefdescription>
-<para>returns true if this is a leaf node without children nodes but with a LeafId reference </para>
+<para>returns true if this is a leaf node without children nodes but with a <ref refid="structMR_1_1AABBTreeNode_1a0286485d67d37c6d4f76d7d1f43d13d0" kindref="member">LeafId</ref> reference </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="38" bodyend="38"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="38" column="10" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1AABBTreeNode_1ad0fe7c78e4582c2e180ff4e052c83d0b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1AABBTreeNode_1a0286485d67d37c6d4f76d7d1f43d13d0" kindref="member">LeafId</ref></type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="40" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="40" bodyend="40"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="40" column="12" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="40" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1AABBTreeNode_1ac745781b04cbfa210bd5d3005b17e084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -131,14 +131,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="41" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="41" bodyend="41"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="41" column="10" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="41" bodyend="41"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="31" bodyend="42"/>
+    <location file="MRMesh/MRAABBTreeNode.h" line="30" column="1" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="31" bodyend="42"/>
     <listofallmembers>
       <member refid="structMR_1_1AABBTreeNode_1a5c90c7ee746d8e3f67062655f733dea0" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode</scope><name>box</name></member>
       <member refid="structMR_1_1AABBTreeNode_1af92cbed18c9ddfbf28d0e86385fc6e01" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode</scope><name>BoxT</name></member>

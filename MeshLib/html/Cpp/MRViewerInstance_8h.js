@@ -1,5 +1,5 @@
 var MRViewerInstance_8h =
 [
-    [ "getViewerInstance", "MRViewerInstance_8h.html#ga3e7c908172571071d6796d054d25a4f4", null ],
-    [ "incrementForceRedrawFrames", "MRViewerInstance_8h.html#ga7cd4d3f28d6da21baab77b862d8d763a", null ]
+    [ "MR::getViewerInstance", "group__GeneralGroup.html#ga8b214a239776e9c466820912e4449a2f", null ],
+    [ "MR::incrementForceRedrawFrames", "group__GeneralGroup.html#ga3f7389c1f4cd8dac80612df24b155d86", null ]
 ];

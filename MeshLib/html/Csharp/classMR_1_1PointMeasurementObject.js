@@ -2,8 +2,8 @@ var classMR_1_1PointMeasurementObject =
 [
     [ "PointMeasurementObject", "classMR_1_1PointMeasurementObject.html#a260786763c65b64a2720f10c29446dfc", null ],
     [ "PointMeasurementObject", "classMR_1_1PointMeasurementObject.html#a54fc9b516dbcbbde5f47c545e1521c84", null ],
-    [ "addChild", "classMR_1_1PointMeasurementObject.html#a4e03a12a3ead8617f8d8e965260b8d81", null ],
-    [ "addChildBefore", "classMR_1_1PointMeasurementObject.html#a022fa6be56bf5478b8cb3617016e509f", null ],
+    [ "addChild", "classMR_1_1PointMeasurementObject.html#a4c7441c1bcd7073b168cde02a2cebbd2", null ],
+    [ "addChildBefore", "classMR_1_1PointMeasurementObject.html#ac741c4ae15cee1831e77f34817d54135", null ],
     [ "addTag", "classMR_1_1PointMeasurementObject.html#a98a32353dfc0a24de617a11f613f9698", null ],
     [ "applyScale", "classMR_1_1PointMeasurementObject.html#aab97c952c7fcb2a9d82ef269f7703b98", null ],
     [ "assign", "classMR_1_1PointMeasurementObject.html#a6d02c48584132c74fd2d1513155cd42c", null ],

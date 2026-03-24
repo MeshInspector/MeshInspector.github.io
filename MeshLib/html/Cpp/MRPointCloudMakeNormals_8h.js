@@ -1,12 +1,12 @@
 var MRPointCloudMakeNormals_8h =
 [
-    [ "makeNormals", "MRPointCloudMakeNormals_8h.html#ga6d1b190105546ec214cc4ab692ece60e", null ],
-    [ "makeOrientedNormals", "MRPointCloudMakeNormals_8h.html#gab197779cd5dda18a937f178ef98ceb27", null ],
-    [ "makeOrientedNormals", "MRPointCloudMakeNormals_8h.html#ga40da78b08c082b4012d578e9b68e0c69", null ],
-    [ "makeUnorientedNormals", "MRPointCloudMakeNormals_8h.html#ga7448439cf7b5f0ec6ed3d9488bef703a", null ],
-    [ "makeUnorientedNormals", "MRPointCloudMakeNormals_8h.html#gae615385e5a3c6640f53b2afd04658838", null ],
-    [ "makeUnorientedNormals", "MRPointCloudMakeNormals_8h.html#gacc81cfcb469766869e22075807c018db", null ],
-    [ "orientNormals", "MRPointCloudMakeNormals_8h.html#gaa8f205918af032263bddf663cd5e03f0", null ],
-    [ "orientNormals", "MRPointCloudMakeNormals_8h.html#ga450ad031ccac1e86e9a4f076d1aabd3a", null ],
-    [ "orientNormals", "MRPointCloudMakeNormals_8h.html#gac088f8a5d90a98ec6f18e97caca298f2", null ]
+    [ "MR::makeNormals", "group__PointCloudGroup.html#ga15578cc0c068a55121b279b4d0b9e7cb", null ],
+    [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#ga117dbe61fc1c56b7b7ba25d6514ac35d", null ],
+    [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#gaccb668ec7a811b6c00bb5eda5f7fa8f3", null ],
+    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#gabc9d6a3d4680264055d93f5039ee962e", null ],
+    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#ga864b89267ca9c36845aa4bda529ea85e", null ],
+    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#gabbad18eed929fbd7bec2afad0b91541d", null ],
+    [ "MR::orientNormals", "group__PointCloudGroup.html#ga543bf9d494b5f9966b03ac52df938eb7", null ],
+    [ "MR::orientNormals", "group__PointCloudGroup.html#ga3040bf00fa2722f573c4ef965d0ddae6", null ],
+    [ "MR::orientNormals", "group__PointCloudGroup.html#ga4207b28452885c6d8c37052d9f9f9297", null ]
 ];

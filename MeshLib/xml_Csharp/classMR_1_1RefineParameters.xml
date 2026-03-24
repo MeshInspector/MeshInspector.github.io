@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RefineParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::RefineParameters</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_RefineParameters</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="182" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="182" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="196" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RefineParameters_1a1d10950ae7e0b481e4dd8ff62ce4a1c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -26,13 +26,13 @@
         <name>normalTolerance</name>
         <qualifiedname>MR.RefineParameters.normalTolerance</qualifiedname>
         <briefdescription>
-<para>Maximum angle between the source model&apos;s normal and the feature&apos;s normal. </para>
+<para>Maximum angle between the source model's normal and the feature's normal. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="185" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="185" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="201" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RefineParameters_1aa8b988abbfbe287b960ec914c6fe7fa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_FaceBitSet</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="188" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="189" bodyend="198"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="206" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="207" bodyend="216"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RefineParameters_1a0741c98c6b3f2710adec7f384305d88a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_VertBitSet</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="201" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="202" bodyend="211"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="221" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="222" bodyend="231"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RefineParameters_1acb842f8927db7effa85025af92d854aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -77,11 +77,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="214" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="214" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="236" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="236" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1RefineParameters_1ad2391ef1262f672b4fdc0401d1240013" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.RefineParameters.callback</definition>
+      <memberdef kind="property" id="classMR_1_1RefineParameters_1a9726deb6c5675dfb14423c937cd2d7fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.RefineParameters.callback</definition>
         <argsstring></argsstring>
         <name>callback</name>
         <qualifiedname>MR.RefineParameters.callback</qualifiedname>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="217" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="217" bodyend="217"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="241" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="241" bodyend="241"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="236" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="236" bodyend="240"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="260" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="260" bodyend="264"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="246" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="246" bodyend="252"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="270" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="270" bodyend="276"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RefineParameters_1acdb1439f4f5f467aafc68ab57ac3b073" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="257" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="257" bodyend="266"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="281" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="281" bodyend="290"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RefineParameters_1aa339ea784228e1f059eaaf663e269696" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RefineParameters.RefineParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RefineParameters_1a025cad4241887118592bf5f5b8c372da" kindref="member">MR.RefineParameters.RefineParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="271" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="271" bodyend="278"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="295" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="295" bodyend="302"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RefineParameters_1aa0934a64cd02007afc18ced8d1a1e5a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RefineParameters.RefineParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RefineParameters_1a025cad4241887118592bf5f5b8c372da" kindref="member">MR.RefineParameters.RefineParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="283" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="283" bodyend="283"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="307" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="307" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RefineParameters_1a83763ce0108f8bf15444dfbc2412cc45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -223,13 +223,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RefineParameters.RefineParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RefineParameters_1a025cad4241887118592bf5f5b8c372da" kindref="member">MR.RefineParameters.RefineParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="288" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="288" bodyend="288"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="312" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="312" bodyend="312"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RefineParameters_1a9d1d42433d6294dd61fd7b1836e2e2f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RefineParameters" kindref="compound">MR.RefineParameters</ref></type>
@@ -242,13 +242,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.RefineParameters.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RefineParameters::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="293" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="293" bodyend="300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="317" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="317" bodyend="324"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -257,51 +257,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_RefineParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.RefineParameters</label>
         <link refid="classMR_1_1RefineParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_RefineParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_RefineParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_RefineParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.RefineParameters</label>
         <link refid="classMR_1_1RefineParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_RefineParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_RefineParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="179" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="180" bodyend="301"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="191" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="192" bodyend="325"/>
     <listofallmembers>
       <member refid="classMR_1_1RefineParameters_1a9d1d42433d6294dd61fd7b1836e2e2f1" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>assign</name></member>
-      <member refid="classMR_1_1RefineParameters_1ad2391ef1262f672b4fdc0401d1240013" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>callback</name></member>
+      <member refid="classMR_1_1RefineParameters_1a9726deb6c5675dfb14423c937cd2d7fa" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>callback</name></member>
       <member refid="classMR_1_1RefineParameters_1a94153af25978f9bf365b09cb3fde4d69" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>distanceLimit</name></member>
       <member refid="classMR_1_1RefineParameters_1aa8b988abbfbe287b960ec914c6fe7fa2" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>faceRegion</name></member>
       <member refid="classMR_1_1RefineParameters_1acb842f8927db7effa85025af92d854aa" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>maxIterations</name></member>

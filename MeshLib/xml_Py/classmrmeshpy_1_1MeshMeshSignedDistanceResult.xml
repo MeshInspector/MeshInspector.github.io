@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshMeshSignedDistanceResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshMeshSignedDistanceResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32847" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a22d8ebfd8bbdce2b5bbe44b0343df105" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32848" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1af10f9a7c5612f9f28f0b40fae0451447" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -39,6 +39,21 @@
         <argsstring></argsstring>
         <name>_offsetof_signedDist</name>
         <qualifiedname>mrmeshpy.MeshMeshSignedDistanceResult._offsetof_signedDist</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a401838d42ec79d5d57145f0b2e014986" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshMeshSignedDistanceResult::_offsetof_status</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_status</name>
+        <qualifiedname>mrmeshpy.MeshMeshSignedDistanceResult._offsetof_status</qualifiedname>
         <initializer>=  32</initializer>
         <briefdescription>
         </briefdescription>
@@ -46,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32849" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33116" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -70,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32852" bodyend="32853"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33119" bodyend="33120"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1ab9621dddde77568365006889cbfbf508" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult" kindref="compound">MeshMeshSignedDistanceResult</ref></type>
@@ -92,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32856" bodyend="32857"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33123" bodyend="33124"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1ab9621dddde77568365006889cbfbf508" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult" kindref="compound">MeshMeshSignedDistanceResult</ref></type>
@@ -114,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32860" bodyend="32861"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33127" bodyend="33128"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -134,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32863" bodyend="32864"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33130" bodyend="33131"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a85e2bfc448b375442cd6b79f16c87f26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -158,12 +173,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32866" bodyend="32869"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33133" bodyend="33136"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a0b83fbd0f21afedcc97b1750861de3fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a3e1834d3f6843fb3bfb9e5c014016185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshMeshSignedDistanceResult.__init__</definition>
-        <argsstring>(self, PointOnFace a, PointOnFace b, float signedDist)</argsstring>
+        <argsstring>(self, PointOnFace a, PointOnFace b, MeshMeshCollisionStatus status, float signedDist)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshMeshSignedDistanceResult.__init__</qualifiedname>
         <param>
@@ -179,6 +194,10 @@
           <declname>b</declname>
         </param>
         <param>
+          <type><ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref></type>
+          <declname>status</declname>
+        </param>
+        <param>
           <type>float</type>
           <declname>signedDist</declname>
         </param>
@@ -190,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32871" bodyend="32874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33138" bodyend="33141"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1afb0acce3c6373aea14331a6953929c06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
@@ -210,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32876" bodyend="32879"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33143" bodyend="33146"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a1dabc2b3ac1f1f064e0157e62ca5ecb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -232,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32881" bodyend="32882"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33148" bodyend="33149"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1ad1b2772c77e7dc6951746a479db537c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
@@ -252,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32884" bodyend="32887"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33151" bodyend="33154"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1aa828bfa0d59b783d835434add2628fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -274,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32889" bodyend="32890"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33156" bodyend="33157"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1ac7aff9e9b77de3e30096666c149729d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -294,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32892" bodyend="32895"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33159" bodyend="33162"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a9ce10e4eef37099a5bf68f59bd11b73b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -316,7 +335,49 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32897" bodyend="32898"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33164" bodyend="33165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a67b23c835e1067df705514e25cc49f3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref></type>
+        <definition> MeshMeshCollisionStatus mrmeshpy.MeshMeshSignedDistanceResult.status</definition>
+        <argsstring>(self)</argsstring>
+        <name>status</name>
+        <qualifiedname>mrmeshpy.MeshMeshSignedDistanceResult.status</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>mutual status of two meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33167" bodyend="33170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a8dba26788fa69b9eaa5ccaec779e39e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshMeshSignedDistanceResult.status</definition>
+        <argsstring>(self, MeshMeshCollisionStatus arg1)</argsstring>
+        <name>status</name>
+        <qualifiedname>mrmeshpy.MeshMeshSignedDistanceResult.status</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshMeshCollisionStatus" kindref="compound">MeshMeshCollisionStatus</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33172" bodyend="33173"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -325,29 +386,16 @@
 <para><verbatim>Generated from:  MR::MeshMeshSignedDistanceResult
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MeshMeshSignedDistanceResult</label>
-        <link refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_a</edgelabel>
-          <edgelabel>_offsetof_b</edgelabel>
-          <edgelabel>_offsetof_signedDist</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32843" bodyend="32898"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33109" bodyend="33173"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a15a7e355c784613f383af9d95cf73e14" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a649ad33897512aaa6c20f12bfb0aed7f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a85e2bfc448b375442cd6b79f16c87f26" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a0b83fbd0f21afedcc97b1750861de3fd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a3e1834d3f6843fb3bfb9e5c014016185" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1adecda891b47ca214d24cbfcba20e3035" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>_offsetof_a</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a22d8ebfd8bbdce2b5bbe44b0343df105" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>_offsetof_b</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1af10f9a7c5612f9f28f0b40fae0451447" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>_offsetof_signedDist</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a401838d42ec79d5d57145f0b2e014986" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>_offsetof_status</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1afb0acce3c6373aea14331a6953929c06" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>a</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a1dabc2b3ac1f1f064e0157e62ca5ecb3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>a</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1ad1b2772c77e7dc6951746a479db537c1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>b</name></member>
@@ -356,6 +404,8 @@
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1ab9621dddde77568365006889cbfbf508" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1ac7aff9e9b77de3e30096666c149729d7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>signedDist</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a9ce10e4eef37099a5bf68f59bd11b73b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>signedDist</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a67b23c835e1067df705514e25cc49f3d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>status</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshSignedDistanceResult_1a8dba26788fa69b9eaa5ccaec779e39e1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshSignedDistanceResult</scope><name>status</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,7 +1,7 @@
 var classMR_1_1FeatureObject =
 [
-    [ "addChild", "classMR_1_1FeatureObject.html#a01cb373e11583441c2336d4c49564c09", null ],
-    [ "addChildBefore", "classMR_1_1FeatureObject.html#ade6ce70e0d7cd5f69cca21ed851856ab", null ],
+    [ "addChild", "classMR_1_1FeatureObject.html#aa09bdb7843a75bd2f436d6b270fdaf46", null ],
+    [ "addChildBefore", "classMR_1_1FeatureObject.html#a9fa224a8838c07d822cdba536274411a", null ],
     [ "addTag", "classMR_1_1FeatureObject.html#a009794c403be9bc64e428957f74b25af", null ],
     [ "applyScale", "classMR_1_1FeatureObject.html#adc42a5edc37c4cacc9b3b217d7a3dd2c", null ],
     [ "copyAllSolidColors", "classMR_1_1FeatureObject.html#a850a9dfd6eb25aac130e9ab5d43a2afa", null ],

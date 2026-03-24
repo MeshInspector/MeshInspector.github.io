@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TrimOptionalOutput" kind="class" language="C#" prot="public">
     <compoundname>MR::TrimOptionalOutput</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TrimOptionalOutput</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="504" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="505" bodyend="514"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="506" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="507" bodyend="516"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a836b2af44dd42d7ef1306117dc4eacfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdVectorMREdgeId</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="517" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="518" bodyend="527"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="519" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="520" bodyend="529"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a5258262b34c251d220341a24da233659" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="530" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="531" bodyend="540"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="532" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="533" bodyend="542"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a97872a2dea6b4a08d521a63b7d6ca245" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="543" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="544" bodyend="553"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="545" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="546" bodyend="555"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1af0920bb10e4bd005c6ab5233e2073ccc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="556" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="557" bodyend="566"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="558" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="559" bodyend="568"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a1d902491a5bfd553857cba4384e33dcc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdVectorMREdgeId</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="569" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="570" bodyend="579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="571" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="572" bodyend="581"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="583" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="583" bodyend="587"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="585" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="585" bodyend="589"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="593" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="593" bodyend="599"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="595" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="595" bodyend="601"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a4300079dc2621798f27bdbec499c853d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="604" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="604" bodyend="616"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="606" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="606" bodyend="618"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a19e694dde0aa176e2b6b48fb7ffb8300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -179,13 +179,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TrimOptionalOutput.TrimOptionalOutput</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TrimOptionalOutput_1af052ef403e0beca22eb7a5554e165d06" kindref="member">MR.TrimOptionalOutput.TrimOptionalOutput</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="621" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="621" bodyend="628"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="623" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="623" bodyend="630"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a90c47b9e4d93aec22effcc5840a8a058" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -198,13 +198,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TrimOptionalOutput.TrimOptionalOutput</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TrimOptionalOutput_1af052ef403e0beca22eb7a5554e165d06" kindref="member">MR.TrimOptionalOutput.TrimOptionalOutput</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="633" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="633" bodyend="633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="635" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="635" bodyend="635"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a4467f960e9ea495226c48319a4b7a9bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TrimOptionalOutput" kindref="compound">MR.TrimOptionalOutput</ref></type>
@@ -217,13 +217,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TrimOptionalOutput.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TrimOptionalOutput::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="638" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="638" bodyend="645"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="640" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="640" bodyend="647"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -232,48 +232,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_TrimOptionalOutput</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TrimOptionalOutput</label>
         <link refid="classMR_1_1TrimOptionalOutput"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TrimOptionalOutput</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TrimOptionalOutput &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_TrimOptionalOutput</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TrimOptionalOutput</label>
         <link refid="classMR_1_1TrimOptionalOutput"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TrimOptionalOutput</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TrimOptionalOutput &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="501" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="502" bodyend="646"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="503" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="504" bodyend="648"/>
     <listofallmembers>
       <member refid="classMR_1_1TrimOptionalOutput_1a4467f960e9ea495226c48319a4b7a9bf" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>assign</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a5258262b34c251d220341a24da233659" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>new2Old</name></member>

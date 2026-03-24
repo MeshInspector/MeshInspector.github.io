@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DirectoryIterator" kind="struct" language="C++" prot="public">
     <compoundname>MR::DirectoryIterator</compoundname>
-    <includes refid="MRDirectory_8h" local="no">MRDirectory.h</includes>
+    <includes refid="MRDirectory_8h" local="no">MRMesh/MRDirectory.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga43d198bfa65499a30571596ae9d9b943" kind="variable"><name>it</name></member>
       <member refid="group__GeneralGroup_1ga4d7767889be907087117c4ee9fd0789d" kind="variable"><name>ec</name></member>
@@ -16,7 +16,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="38" bodyend="43"/>
+    <location file="MRMesh/MRDirectory.h" line="13" column="1" bodyfile="MRMesh/MRDirectory.h" bodystart="14" bodyend="19"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4d7767889be907087117c4ee9fd0789d" prot="public" virt="non-virtual"><scope>MR::DirectoryIterator</scope><name>ec</name></member>
       <member refid="group__GeneralGroup_1ga43d198bfa65499a30571596ae9d9b943" prot="public" virt="non-virtual"><scope>MR::DirectoryIterator</scope><name>it</name></member>

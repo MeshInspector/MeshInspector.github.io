@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeInterpolatedAccessor" kind="class" language="C++" prot="public">
     <compoundname>MR::VoxelsVolumeInterpolatedAccessor</compoundname>
-    <includes refid="MRVolumeInterpolation_8h" local="no">MRVolumeInterpolation.h</includes>
+    <includes refid="MRVolumeInterpolation_8h" local="no">MRVoxels/MRVolumeInterpolation.h</includes>
     <innerclass refid="structMR_1_1VoxelsVolumeInterpolatedAccessor_1_1IndexAndPos" prot="private">MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos</innerclass>
     <templateparamlist>
       <param>
@@ -31,7 +31,7 @@
     <detaileddescription>
 <para>helper class for generalized access to voxel volume data with trilinear interpolation coordinate: 0 voxelSize | | I<mdash/>*<mdash/>I<mdash/>*<mdash/>I<mdash/> | | | value: [0] [1] [2] ... note: this class is as thread-safe as the underlying Accessor e.g. <ref refid="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4" kindref="compound">VoxelsVolumeAccessor&lt;VdbVolume&gt;</ref> is not thread-safe (but several instances on same volume is thread-safe) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" bodystart="21" bodyend="88"/>
+    <location file="MRVoxels/MRVolumeInterpolation.h" line="20" column="1" bodyfile="MRVoxels/MRVolumeInterpolation.h" bodystart="21" bodyend="88"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9c4ab57d855d2931b1f65aa6f6ef216e" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>accessor_</name></member>
       <member refid="group__GeneralGroup_1ga831f5621f04fe15b891a1d7a2dc755d6" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>get</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RenderDimensions_1_1LengthParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::RenderDimensions::LengthParams</compoundname>
-    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <includes refid="MRRenderDimensions_8h" local="no">MRViewer/MRRenderDimensions.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaaaa5d494589b8d7fa61baf65c9f34821" kind="variable"><name>common</name></member>
       <member refid="group__GeneralGroup_1ga39c3eb2e95daad75555328645c768d56" kind="variable"><name>points</name></member>
@@ -91,7 +91,6 @@
         <childnode refid="9" relation="usage">
           <edgelabel>clipByPlane_</edgelabel>
           <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
           <edgelabel>pickable_</edgelabel>
           <edgelabel>showName_</edgelabel>
         </childnode>
@@ -111,7 +110,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="155" bodyend="172"/>
+    <location file="MRViewer/MRRenderDimensions.h" line="154" column="1" bodyfile="MRViewer/MRRenderDimensions.h" bodystart="155" bodyend="172"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaaaa5d494589b8d7fa61baf65c9f34821" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthParams</scope><name>common</name></member>
       <member refid="group__GeneralGroup_1ga59af6d3622c087865305af028ee374fa" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthParams</scope><name>drawAsNegative</name></member>

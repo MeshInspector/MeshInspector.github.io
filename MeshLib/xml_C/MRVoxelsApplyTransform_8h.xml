@@ -1,17 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelsApplyTransform_8h" kind="file" language="C++">
     <compoundname>MRVoxelsApplyTransform.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
-      <node id="1">
-        <label>MRVoxelsApplyTransform.h</label>
-        <link refid="MRVoxelsApplyTransform_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -19,72 +17,33 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="1">
+        <label>MRVoxelsApplyTransform.h</label>
+        <link refid="MRVoxelsApplyTransform_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRVoxelsApplyTransform_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
-        <type>struct MR_AffineXf3f</type>
-        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
-        <argsstring></argsstring>
-        <name>MR_AffineXf3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsApplyTransform_8h_1a387c2b6c194640a4dfac77733cbe3880" prot="public" static="no">
-        <type>struct MR_Box3f</type>
-        <definition>typedef struct MR_Box3f MR_Box3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Box3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="14" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsApplyTransform_8h_1a4b484d976d1077ae78acdc3b6ea174c0" prot="public" static="no">
-        <type>struct <ref refid="MRObject_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref></type>
-        <definition>typedef struct MR_ObjectVoxels MR_ObjectVoxels</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectVoxels</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="15" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsApplyTransform_8h_1a3d8aa59058b2516d2c9b34241f2c0441" prot="public" static="no">
-        <type>struct <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref></type>
-        <definition>typedef struct MR_VdbVolume MR_VdbVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_VdbVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="16" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" prot="public" static="no">
         <type>struct <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref></type>
         <definition>typedef struct MR_TransformVdbVolumeResult MR_TransformVdbVolumeResult</definition>
@@ -93,16 +52,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::TransformVdbVolumeResult</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::TransformVdbVolumeResult</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="21" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="21" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1afa203322c311a4e0584a3b244dff990f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
         <definition>MRC_API const MR_VdbVolume * MR_TransformVdbVolumeResult_Get_volume</definition>
         <argsstring>(const MR_TransformVdbVolumeResult *_this)</argsstring>
         <name>MR_TransformVdbVolumeResult_Get_volume</name>
@@ -117,10 +76,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="27" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="27" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="27" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="27" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1af30e0354d3fd8f6006a6974655419907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TransformVdbVolumeResult_Set_volume</definition>
         <argsstring>(MR_TransformVdbVolumeResult *_this, MR_PassBy value_pass_by, MR_VdbVolume *value)</argsstring>
         <name>MR_TransformVdbVolumeResult_Set_volume</name>
@@ -129,24 +88,24 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <type><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
           <declname>value</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TransformVdbVolumeResult</computeroutput> named <computeroutput>volume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>volume</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>volume</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TransformVdbVolumeResult</computeroutput> named <computeroutput>volume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>volume</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>volume</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="33" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="33" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1aab5ba9c329f898fbc322114fc5c8b3bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
         <definition>MRC_API MR_VdbVolume * MR_TransformVdbVolumeResult_GetMutable_volume</definition>
         <argsstring>(MR_TransformVdbVolumeResult *_this)</argsstring>
         <name>MR_TransformVdbVolumeResult_GetMutable_volume</name>
@@ -161,10 +120,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="39" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="39" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="39" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="39" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a903fc970dc4ca38f21ca30b4b6476149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_TransformVdbVolumeResult_Get_boxFixed</definition>
         <argsstring>(const MR_TransformVdbVolumeResult *_this)</argsstring>
         <name>MR_TransformVdbVolumeResult_Get_boxFixed</name>
@@ -179,10 +138,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="45" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="45" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="45" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="45" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1abeab3892fe66d3a2f87fd3fc480f93e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TransformVdbVolumeResult_Set_boxFixed</definition>
         <argsstring>(MR_TransformVdbVolumeResult *_this, bool value)</argsstring>
         <name>MR_TransformVdbVolumeResult_Set_boxFixed</name>
@@ -197,14 +156,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TransformVdbVolumeResult</computeroutput> named <computeroutput>boxFixed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>boxFixed</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TransformVdbVolumeResult</computeroutput> named <computeroutput>boxFixed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>boxFixed</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="50" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="50" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a6abb656d75067290d7d20cb789743628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_TransformVdbVolumeResult_GetMutable_boxFixed</definition>
         <argsstring>(MR_TransformVdbVolumeResult *_this)</argsstring>
         <name>MR_TransformVdbVolumeResult_GetMutable_boxFixed</name>
@@ -219,10 +178,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="56" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="56" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a88a752370036222bcc8af975ba68f0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
         <definition>MRC_API MR_TransformVdbVolumeResult * MR_TransformVdbVolumeResult_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_TransformVdbVolumeResult_DefaultConstruct</name>
@@ -236,10 +195,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="60" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="60" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="60" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="60" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1aa72e7095cce0b3baacfc2dc1e491d1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
         <definition>MRC_API MR_TransformVdbVolumeResult * MR_TransformVdbVolumeResult_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_TransformVdbVolumeResult_DefaultConstructArray</name>
@@ -254,19 +213,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="65" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="65" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="65" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="65" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1ad5346068273f40028fce43bb4967346e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
         <definition>MRC_API MR_TransformVdbVolumeResult * MR_TransformVdbVolumeResult_ConstructFrom</definition>
         <argsstring>(MR_PassBy volume_pass_by, MR_VdbVolume *volume, bool boxFixed)</argsstring>
         <name>MR_TransformVdbVolumeResult_ConstructFrom</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>volume_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <type><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
           <declname>volume</declname>
         </param>
         <param>
@@ -276,14 +235,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TransformVdbVolumeResult</computeroutput> elementwise. The reference to the parameter <computeroutput>volume</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" kindref="member">MR_TransformVdbVolumeResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TransformVdbVolumeResult</computeroutput> elementwise. The reference to the parameter <computeroutput>volume</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" kindref="member">MR_TransformVdbVolumeResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="71" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="71" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="71" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="71" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a92f7050a7c9f6ffb2faa82232be3db20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
         <definition>MRC_API const MR_TransformVdbVolumeResult * MR_TransformVdbVolumeResult_OffsetPtr</definition>
         <argsstring>(const MR_TransformVdbVolumeResult *ptr, ptrdiff_t i)</argsstring>
         <name>MR_TransformVdbVolumeResult_OffsetPtr</name>
@@ -302,10 +261,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="75" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="75" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="75" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="75" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a67a619c90820a11ad5e0555ab91e98c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
         <definition>MRC_API MR_TransformVdbVolumeResult * MR_TransformVdbVolumeResult_OffsetMutablePtr</definition>
         <argsstring>(MR_TransformVdbVolumeResult *ptr, ptrdiff_t i)</argsstring>
         <name>MR_TransformVdbVolumeResult_OffsetMutablePtr</name>
@@ -324,15 +283,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="79" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="79" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="79" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="79" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1aa6632107f9646434fd995f1f4ed3cd66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
         <definition>MRC_API MR_TransformVdbVolumeResult * MR_TransformVdbVolumeResult_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_TransformVdbVolumeResult *_other)</argsstring>
         <name>MR_TransformVdbVolumeResult_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -346,10 +305,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="84" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="84" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="84" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="84" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TransformVdbVolumeResult_Destroy</definition>
         <argsstring>(const MR_TransformVdbVolumeResult *_this)</argsstring>
         <name>MR_TransformVdbVolumeResult_Destroy</name>
@@ -358,16 +317,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TransformVdbVolumeResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="87" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="87" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a02118a8c501ce6fa5e4948ba35a03a51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TransformVdbVolumeResult_DestroyArray</definition>
         <argsstring>(const MR_TransformVdbVolumeResult *_this)</argsstring>
         <name>MR_TransformVdbVolumeResult_DestroyArray</name>
@@ -376,16 +335,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TransformVdbVolumeResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="90" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="90" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a8ae8e0cd1613cbc8ec600dca56ada041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
         <definition>MRC_API MR_TransformVdbVolumeResult * MR_TransformVdbVolumeResult_AssignFromAnother</definition>
         <argsstring>(MR_TransformVdbVolumeResult *_this, MR_PassBy _other_pass_by, MR_TransformVdbVolumeResult *_other)</argsstring>
         <name>MR_TransformVdbVolumeResult_AssignFromAnother</name>
@@ -394,7 +353,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -404,19 +363,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TransformVdbVolumeResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TransformVdbVolumeResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="97" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="97" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="97" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="97" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1a0be08c89a10f24509d6d7958e1de2c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref> *</type>
         <definition>MRC_API MR_TransformVdbVolumeResult * MR_transformVdbVolume</definition>
         <argsstring>(const MR_VdbVolume *volume, const MR_AffineXf3f *xf, const bool *fixBox, const MR_Box3f *box)</argsstring>
         <name>MR_transformVdbVolume</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <type>const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
           <declname>volume</declname>
         </param>
         <param>
@@ -463,15 +422,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="111" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="111" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="111" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="111" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsApplyTransform_8h_1ac3d46ec7341a139373b124773c7510e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_voxelsApplyTransform</definition>
         <argsstring>(MR_ObjectVoxels *obj, const MR_AffineXf3f *xf, bool fixBox)</argsstring>
         <name>MR_voxelsApplyTransform</name>
         <param>
-          <type><ref refid="MRObject_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref> *</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -491,7 +450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h" declline="118" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h" declline="118" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -501,8 +460,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -511,52 +470,52 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRVoxelsApplyTransform_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRVoxelsApplyTransform_8h_1a387c2b6c194640a4dfac77733cbe3880" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRVoxelsApplyTransform_8h_1a4b484d976d1077ae78acdc3b6ea174c0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/><ref refid="MRObject_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRObjectVoxels.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRVoxelsApplyTransform_8h_1a3d8aa59058b2516d2c9b34241f2c0441" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRObjectVoxels.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRVoxelsApplyTransform_8h_1afa203322c311a4e0584a3b244dff990f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1afa203322c311a4e0584a3b244dff990f" kindref="member">MR_TransformVdbVolumeResult_Get_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27" refid="MRVoxelsApplyTransform_8h_1afa203322c311a4e0584a3b244dff990f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1afa203322c311a4e0584a3b244dff990f" kindref="member">MR_TransformVdbVolumeResult_Get_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRVoxelsApplyTransform_8h_1af30e0354d3fd8f6006a6974655419907" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1af30e0354d3fd8f6006a6974655419907" kindref="member">MR_TransformVdbVolumeResult_Set_volume</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="33" refid="MRVoxelsApplyTransform_8h_1af30e0354d3fd8f6006a6974655419907" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1af30e0354d3fd8f6006a6974655419907" kindref="member">MR_TransformVdbVolumeResult_Set_volume</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRVoxelsApplyTransform_8h_1aab5ba9c329f898fbc322114fc5c8b3bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1aab5ba9c329f898fbc322114fc5c8b3bb" kindref="member">MR_TransformVdbVolumeResult_GetMutable_volume</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="39" refid="MRVoxelsApplyTransform_8h_1aab5ba9c329f898fbc322114fc5c8b3bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1aab5ba9c329f898fbc322114fc5c8b3bb" kindref="member">MR_TransformVdbVolumeResult_GetMutable_volume</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRVoxelsApplyTransform_8h_1a903fc970dc4ca38f21ca30b4b6476149" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a903fc970dc4ca38f21ca30b4b6476149" kindref="member">MR_TransformVdbVolumeResult_Get_boxFixed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45" refid="MRVoxelsApplyTransform_8h_1a903fc970dc4ca38f21ca30b4b6476149" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a903fc970dc4ca38f21ca30b4b6476149" kindref="member">MR_TransformVdbVolumeResult_Get_boxFixed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRVoxelsApplyTransform_8h_1abeab3892fe66d3a2f87fd3fc480f93e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1abeab3892fe66d3a2f87fd3fc480f93e2" kindref="member">MR_TransformVdbVolumeResult_Set_boxFixed</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="50" refid="MRVoxelsApplyTransform_8h_1abeab3892fe66d3a2f87fd3fc480f93e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1abeab3892fe66d3a2f87fd3fc480f93e2" kindref="member">MR_TransformVdbVolumeResult_Set_boxFixed</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRVoxelsApplyTransform_8h_1a6abb656d75067290d7d20cb789743628" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a6abb656d75067290d7d20cb789743628" kindref="member">MR_TransformVdbVolumeResult_GetMutable_boxFixed</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56" refid="MRVoxelsApplyTransform_8h_1a6abb656d75067290d7d20cb789743628" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a6abb656d75067290d7d20cb789743628" kindref="member">MR_TransformVdbVolumeResult_GetMutable_boxFixed</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRVoxelsApplyTransform_8h_1a88a752370036222bcc8af975ba68f0a0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a88a752370036222bcc8af975ba68f0a0" kindref="member">MR_TransformVdbVolumeResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60" refid="MRVoxelsApplyTransform_8h_1a88a752370036222bcc8af975ba68f0a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a88a752370036222bcc8af975ba68f0a0" kindref="member">MR_TransformVdbVolumeResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRVoxelsApplyTransform_8h_1aa72e7095cce0b3baacfc2dc1e491d1d5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1aa72e7095cce0b3baacfc2dc1e491d1d5" kindref="member">MR_TransformVdbVolumeResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="65" refid="MRVoxelsApplyTransform_8h_1aa72e7095cce0b3baacfc2dc1e491d1d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1aa72e7095cce0b3baacfc2dc1e491d1d5" kindref="member">MR_TransformVdbVolumeResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRVoxelsApplyTransform_8h_1ad5346068273f40028fce43bb4967346e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1ad5346068273f40028fce43bb4967346e" kindref="member">MR_TransformVdbVolumeResult_ConstructFrom</ref>(MR_PassBy<sp/>volume_pass_by,<sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>boxFixed);</highlight></codeline>
+<codeline lineno="71" refid="MRVoxelsApplyTransform_8h_1ad5346068273f40028fce43bb4967346e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1ad5346068273f40028fce43bb4967346e" kindref="member">MR_TransformVdbVolumeResult_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>volume_pass_by,<sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>boxFixed);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRVoxelsApplyTransform_8h_1a92f7050a7c9f6ffb2faa82232be3db20" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a92f7050a7c9f6ffb2faa82232be3db20" kindref="member">MR_TransformVdbVolumeResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="75" refid="MRVoxelsApplyTransform_8h_1a92f7050a7c9f6ffb2faa82232be3db20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a92f7050a7c9f6ffb2faa82232be3db20" kindref="member">MR_TransformVdbVolumeResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRVoxelsApplyTransform_8h_1a67a619c90820a11ad5e0555ab91e98c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a67a619c90820a11ad5e0555ab91e98c4" kindref="member">MR_TransformVdbVolumeResult_OffsetMutablePtr</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="79" refid="MRVoxelsApplyTransform_8h_1a67a619c90820a11ad5e0555ab91e98c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a67a619c90820a11ad5e0555ab91e98c4" kindref="member">MR_TransformVdbVolumeResult_OffsetMutablePtr</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRVoxelsApplyTransform_8h_1aa6632107f9646434fd995f1f4ed3cd66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1aa6632107f9646434fd995f1f4ed3cd66" kindref="member">MR_TransformVdbVolumeResult_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="84" refid="MRVoxelsApplyTransform_8h_1aa6632107f9646434fd995f1f4ed3cd66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1aa6632107f9646434fd995f1f4ed3cd66" kindref="member">MR_TransformVdbVolumeResult_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" kindref="member">MR_TransformVdbVolumeResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87" refid="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" kindref="member">MR_TransformVdbVolumeResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRVoxelsApplyTransform_8h_1a02118a8c501ce6fa5e4948ba35a03a51" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a02118a8c501ce6fa5e4948ba35a03a51" kindref="member">MR_TransformVdbVolumeResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90" refid="MRVoxelsApplyTransform_8h_1a02118a8c501ce6fa5e4948ba35a03a51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a02118a8c501ce6fa5e4948ba35a03a51" kindref="member">MR_TransformVdbVolumeResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRVoxelsApplyTransform_8h_1a8ae8e0cd1613cbc8ec600dca56ada041" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a8ae8e0cd1613cbc8ec600dca56ada041" kindref="member">MR_TransformVdbVolumeResult_AssignFromAnother</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="97" refid="MRVoxelsApplyTransform_8h_1a8ae8e0cd1613cbc8ec600dca56ada041" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a8ae8e0cd1613cbc8ec600dca56ada041" kindref="member">MR_TransformVdbVolumeResult_AssignFromAnother</ref>(<ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRVoxelsApplyTransform_8h_1a0be08c89a10f24509d6d7958e1de2c6a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a0be08c89a10f24509d6d7958e1de2c6a" kindref="member">MR_transformVdbVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*fixBox,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*box);</highlight></codeline>
+<codeline lineno="111" refid="MRVoxelsApplyTransform_8h_1a0be08c89a10f24509d6d7958e1de2c6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsApplyTransform_8h_1a76fec8471360e43daa2d73a2acea2b8a" kindref="member">MR_TransformVdbVolumeResult</ref><sp/>*<ref refid="MRVoxelsApplyTransform_8h_1a0be08c89a10f24509d6d7958e1de2c6a" kindref="member">MR_transformVdbVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*fixBox,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*box);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRVoxelsApplyTransform_8h_1ac3d46ec7341a139373b124773c7510e8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1ac3d46ec7341a139373b124773c7510e8" kindref="member">MR_voxelsApplyTransform</ref>(<ref refid="MRObject_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fixBox);</highlight></codeline>
+<codeline lineno="118" refid="MRVoxelsApplyTransform_8h_1ac3d46ec7341a139373b124773c7510e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsApplyTransform_8h_1ac3d46ec7341a139373b124773c7510e8" kindref="member">MR_voxelsApplyTransform</ref>(<ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fixBox);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsApplyTransform.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsApplyTransform.h"/>
   </compounddef>
 </doxygen>

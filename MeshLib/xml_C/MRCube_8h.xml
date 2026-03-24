@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCube_8h" kind="file" language="C++">
     <compoundname>MRCube.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRCube.h</label>
@@ -12,65 +12,12 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRCube_8h_1a387c2b6c194640a4dfac77733cbe3880" prot="public" static="no">
-        <type>struct MR_Box3f</type>
-        <definition>typedef struct MR_Box3f MR_Box3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Box3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" line="9" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" bodystart="9" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCube_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" line="10" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCube_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" line="11" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCube_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" line="12" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRCube_8h_1a47d1f391b5e3f31f90083c842682f755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
         <definition>MRC_API MR_MeshTopology * MR_makeCubeTopology</definition>
         <argsstring>(void)</argsstring>
         <name>MR_makeCubeTopology</name>
@@ -84,10 +31,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" line="27" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" declline="27" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h" line="27" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h" declline="27" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRCube_8h_1afa15c5fbdece3d94ef2fe26f2d5112af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API MR_Mesh * MR_makeCube</definition>
         <argsstring>(const MR_Vector3f *size, const MR_Vector3f *base)</argsstring>
         <name>MR_makeCube</name>
@@ -106,10 +53,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" line="37" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" declline="37" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h" line="37" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h" declline="37" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRCube_8h_1a0eeafc9565007a1cccc0f3885105e75f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API MR_Mesh * MR_makeParallelepiped</definition>
         <argsstring>(const MR_Vector3f *side, const MR_Vector3f *base)</argsstring>
         <name>MR_makeParallelepiped</name>
@@ -128,10 +75,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" line="43" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" declline="43" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h" line="43" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h" declline="43" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRCube_8h_1afd0fc20844d6bfeb92d42fb286fb7e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API MR_Mesh * MR_makeBoxMesh</definition>
         <argsstring>(const MR_Box3f *box)</argsstring>
         <name>MR_makeBoxMesh</name>
@@ -146,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" line="49" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h" declline="49" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h" line="49" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h" declline="49" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -156,30 +103,30 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="MRCube_8h_1a387c2b6c194640a4dfac77733cbe3880" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRCube_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRCube_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRCube_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRCube_8h_1a47d1f391b5e3f31f90083c842682f755" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRCube_8h_1a47d1f391b5e3f31f90083c842682f755" kindref="member">MR_makeCubeTopology</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27" refid="MRCube_8h_1a47d1f391b5e3f31f90083c842682f755" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRCube_8h_1a47d1f391b5e3f31f90083c842682f755" kindref="member">MR_makeCubeTopology</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRCube_8h_1afa15c5fbdece3d94ef2fe26f2d5112af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRCube_8h_1afa15c5fbdece3d94ef2fe26f2d5112af" kindref="member">MR_makeCube</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*base);</highlight></codeline>
+<codeline lineno="37" refid="MRCube_8h_1afa15c5fbdece3d94ef2fe26f2d5112af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRCube_8h_1afa15c5fbdece3d94ef2fe26f2d5112af" kindref="member">MR_makeCube</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*base);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRCube_8h_1a0eeafc9565007a1cccc0f3885105e75f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRCube_8h_1a0eeafc9565007a1cccc0f3885105e75f" kindref="member">MR_makeParallelepiped</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*side,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*base);</highlight></codeline>
+<codeline lineno="43" refid="MRCube_8h_1a0eeafc9565007a1cccc0f3885105e75f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRCube_8h_1a0eeafc9565007a1cccc0f3885105e75f" kindref="member">MR_makeParallelepiped</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*side,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*base);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRCube_8h_1afd0fc20844d6bfeb92d42fb286fb7e26" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRCube_8h_1afd0fc20844d6bfeb92d42fb286fb7e26" kindref="member">MR_makeBoxMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*box);</highlight></codeline>
+<codeline lineno="49" refid="MRCube_8h_1afd0fc20844d6bfeb92d42fb286fb7e26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRCube_8h_1afd0fc20844d6bfeb92d42fb286fb7e26" kindref="member">MR_makeBoxMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*box);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCube.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCube.h"/>
   </compounddef>
 </doxygen>

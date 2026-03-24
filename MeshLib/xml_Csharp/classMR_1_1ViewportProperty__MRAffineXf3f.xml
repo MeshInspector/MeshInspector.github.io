@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportProperty__MRAffineXf3f" kind="class" language="C#" prot="public">
     <compoundname>MR::ViewportProperty_MRAffineXf3f</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRAffineXf3f</basecompoundref>
@@ -11,7 +11,7 @@
         <name>this[MR.ViewportId id]</name>
         <qualifiedname>MR.ViewportProperty_MRAffineXf3f.this[MR.ViewportId id]</qualifiedname>
         <briefdescription>
-<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::operator[]</computeroutput>. </para>
+<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -71,7 +71,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -90,7 +90,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>sets default property value Generated from method <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::set</computeroutput>. </para>
+<para>sets default property value Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
         <name>get</name>
         <qualifiedname>MR.ViewportProperty_MRAffineXf3f.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::get</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a05df621ad97946796f8bbd06614df7aa" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::set</computeroutput>. </para>
+<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -223,7 +223,7 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::reset</computeroutput>. </para>
+<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -238,7 +238,7 @@
         <name>reset</name>
         <qualifiedname>MR.ViewportProperty_MRAffineXf3f.reset</qualifiedname>
         <briefdescription>
-<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::reset</computeroutput>. </para>
+<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -259,7 +259,7 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -269,50 +269,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR.ViewportProperty&lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ViewportProperty_MRAffineXf3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ViewportProperty_MRAffineXf3f</label>
         <link refid="classMR_1_1ViewportProperty__MRAffineXf3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ViewportProperty_MRAffineXf3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ViewportProperty_MRAffineXf3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ViewportProperty_MRAffineXf3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ViewportProperty_MRAffineXf3f</label>
         <link refid="classMR_1_1ViewportProperty__MRAffineXf3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ViewportProperty_MRAffineXf3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ViewportProperty_MRAffineXf3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="111" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="112" bodyend="245"/>

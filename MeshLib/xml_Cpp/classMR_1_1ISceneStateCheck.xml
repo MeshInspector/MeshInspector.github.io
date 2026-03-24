@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ISceneStateCheck" kind="class" language="C++" prot="public">
     <compoundname>MR::ISceneStateCheck</compoundname>
     <derivedcompoundref refid="classMR_1_1SceneStateAtLeastCheck" prot="public" virt="virtual">MR::SceneStateAtLeastCheck&lt; 1, Object, NoModelCheck &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SceneStateAtLeastCheck" prot="public" virt="virtual">MR::SceneStateAtLeastCheck&lt; 1, Object &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" prot="public" virt="virtual">MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" prot="public" virt="virtual">MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SceneStateExactCheck" prot="public" virt="virtual">MR::SceneStateExactCheck&lt; 2, ObjectVoxels &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SceneStateExactCheck" prot="public" virt="virtual">MR::SceneStateExactCheck&lt; 1, Object, NoModelCheck &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" prot="public" virt="virtual">MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" prot="public" virt="virtual">MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="virtual">MR::RibbonMenuItem</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SceneStateAtLeastCheck" prot="public" virt="virtual">MR::SceneStateAtLeastCheck&lt; N, ObjectT, typename &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" prot="public" virt="virtual">MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</derivedcompoundref>
@@ -13,7 +17,7 @@
     <derivedcompoundref refid="classMR_1_1SceneStateExactCheck" prot="public" virt="virtual">MR::SceneStateExactCheck&lt; N, ObjectT, typename &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" prot="public" virt="virtual">MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" prot="public" virt="virtual">MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</derivedcompoundref>
-    <includes refid="MRISceneStateCheck_8h" local="no">MRISceneStateCheck.h</includes>
+    <includes refid="MRISceneStateCheck_8h" local="no">MRViewer/MRISceneStateCheck.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" kind="function"><name>~ISceneStateCheck</name></member>
       <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" kind="function"><name>isAvailable</name></member>
@@ -24,110 +28,136 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="8">
+      <node id="43">
+        <label>MR::AddCustomThemePlugin</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
         <label>MR::BinaryOperations</label>
         <link refid="classMR_1_1BinaryOperations"/>
-        <childnode refid="7" relation="public-inheritance">
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="12">
-        <label>MR::CaptureScreenshotToClipBoardMenuItem</label>
-        <link refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+      <node id="44">
+        <label>MR::CameraOrientation</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="13">
-        <label>MR::CaptureUIScreenshotMenuItem</label>
-        <link refid="classMR_1_1CaptureUIScreenshotMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MR::DrawViewportWidgetsItem</label>
-        <link refid="classMR_1_1DrawViewportWidgetsItem"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MR::FitDataMenuItem</label>
-        <link refid="classMR_1_1FitDataMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+      <node id="45">
+        <label>MR::CaptureScreenshotMenuItem</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
       </node>
       <node id="16">
-        <label>MR::FitSelectedObjectsMenuItem</label>
-        <link refid="classMR_1_1FitSelectedObjectsMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <label>MR::CaptureScreenshotToClipBoardMenuItem</label>
+        <link refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
       <node id="17">
+        <label>MR::CaptureUIScreenshotMenuItem</label>
+        <link refid="classMR_1_1CaptureUIScreenshotMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::DrawViewportWidgetsItem</label>
+        <link refid="classMR_1_1DrawViewportWidgetsItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::FitDataMenuItem</label>
+        <link refid="classMR_1_1FitDataMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MR::FitSelectedObjectsMenuItem</label>
+        <link refid="classMR_1_1FitSelectedObjectsMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
         <label>MR::FitSelectedPrimitivesMenuItem</label>
         <link refid="classMR_1_1FitSelectedPrimitivesMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
       <node id="1">
         <label>MR::ISceneStateCheck</label>
         <link refid="classMR_1_1ISceneStateCheck"/>
       </node>
-      <node id="18">
+      <node id="22">
         <label>MR::LambdaRibbonItem</label>
         <link refid="classMR_1_1LambdaRibbonItem"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="19">
-        <label>MR::MeshModifier</label>
-        <link refid="classMR_1_1MeshModifier"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="38">
-        <label>MR::MoveObjectByMouse</label>
-        <link refid="classMR_1_1MoveObjectByMouse"/>
-        <childnode refid="37" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="20">
-        <label>MR::OpenDICOMsMenuItem</label>
-        <link refid="classMR_1_1OpenDICOMsMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="21">
-        <label>MR::OpenDirectoryMenuItem</label>
-        <link refid="classMR_1_1OpenDirectoryMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="22">
-        <label>MR::OpenFilesMenuItem</label>
-        <link refid="classMR_1_1OpenFilesMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
       <node id="23">
-        <label>MR::RedoMenuItem</label>
-        <link refid="classMR_1_1RedoMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <label>MR::MeshModifier</label>
+        <link refid="classMR_1_1MeshModifier"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MR::MoveObjectByMouse</label>
+        <link refid="classMR_1_1MoveObjectByMouse"/>
+        <childnode refid="48" relation="public-inheritance">
         </childnode>
       </node>
       <node id="24">
-        <label>MR::ResetSceneMenuItem</label>
-        <link refid="classMR_1_1ResetSceneMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <label>MR::OpenDICOMsMenuItem</label>
+        <link refid="classMR_1_1OpenDICOMsMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="11">
+      <node id="25">
+        <label>MR::OpenDirectoryMenuItem</label>
+        <link refid="classMR_1_1OpenDirectoryMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MR::OpenFilesMenuItem</label>
+        <link refid="classMR_1_1OpenFilesMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>MR::OpenRawVoxelsPlugin</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MR::RedoMenuItem</label>
+        <link refid="classMR_1_1RedoMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MR::ResetSceneMenuItem</label>
+        <link refid="classMR_1_1ResetSceneMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
         <label>MR::RibbonMenuItem</label>
         <link refid="classMR_1_1RibbonMenuItem"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="25">
+      <node id="29">
         <label>MR::RibbonSceneHideAll</label>
         <link refid="classMR_1_1RibbonSceneHideAll"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -135,45 +165,45 @@
         <link refid="classMR_1_1RibbonSceneRemoveSelected"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="10">
+      <node id="12">
         <label>MR::RibbonSceneRename</label>
         <link refid="classMR_1_1RibbonSceneRename"/>
-        <childnode refid="9" relation="public-inheritance">
-        </childnode>
         <childnode refid="11" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="26">
-        <label>MR::RibbonSceneSelectAll</label>
-        <link refid="classMR_1_1RibbonSceneSelectAll"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>MR::RibbonSceneShowAll</label>
-        <link refid="classMR_1_1RibbonSceneShowAll"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="28">
-        <label>MR::RibbonSceneShowOnlyNext</label>
-        <link refid="classMR_1_1RibbonSceneShowOnlyNext"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MR::RibbonSceneShowOnlyPrev</label>
-        <link refid="classMR_1_1RibbonSceneShowOnlyPrev"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
       <node id="30">
+        <label>MR::RibbonSceneSelectAll</label>
+        <link refid="classMR_1_1RibbonSceneSelectAll"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MR::RibbonSceneShowAll</label>
+        <link refid="classMR_1_1RibbonSceneShowAll"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MR::RibbonSceneShowOnlyNext</label>
+        <link refid="classMR_1_1RibbonSceneShowOnlyNext"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MR::RibbonSceneShowOnlyPrev</label>
+        <link refid="classMR_1_1RibbonSceneShowOnlyPrev"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
         <label>MR::RibbonSceneSortByName</label>
         <link refid="classMR_1_1RibbonSceneSortByName"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
       <node id="4">
@@ -181,25 +211,25 @@
         <link refid="classMR_1_1RibbonSceneUnselectAll"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="31">
+      <node id="35">
         <label>MR::SaveObjectMenuItem</label>
         <link refid="classMR_1_1SaveObjectMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="32">
+      <node id="36">
         <label>MR::SaveSceneAsMenuItem</label>
         <link refid="classMR_1_1SaveSceneAsMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="33">
+      <node id="37">
         <label>MR::SaveSceneMenuItem</label>
         <link refid="classMR_1_1SaveSceneMenuItem"/>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="36" relation="public-inheritance">
         </childnode>
       </node>
       <node id="6">
@@ -207,10 +237,10 @@
         <link refid="classMR_1_1SaveSelectedMenuItem"/>
         <childnode refid="5" relation="public-inheritance">
         </childnode>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="43">
+      <node id="54">
         <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, typename &gt;</label>
         <link refid="classMR_1_1SceneStateAtLeastCheck"/>
         <childnode refid="1" relation="public-inheritance">
@@ -228,98 +258,124 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="44">
+      <node id="7">
         <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</label>
         <link refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
       </node>
-      <node id="45">
+      <node id="8">
         <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</label>
         <link refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
       </node>
-      <node id="46">
+      <node id="55">
         <label>MR::SceneStateExactCheck&lt; N, ObjectT, typename &gt;</label>
         <link refid="classMR_1_1SceneStateExactCheck"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="9">
+      <node id="11">
         <label>MR::SceneStateExactCheck&lt; 1, Object, NoModelCheck &gt;</label>
         <link refid="classMR_1_1SceneStateExactCheck"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="7">
+      <node id="9">
         <label>MR::SceneStateExactCheck&lt; 2, ObjectVoxels &gt;</label>
         <link refid="classMR_1_1SceneStateExactCheck"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="47">
+      <node id="13">
         <label>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</label>
         <link refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
       </node>
-      <node id="48">
+      <node id="14">
         <label>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</label>
         <link refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
       </node>
-      <node id="40">
+      <node id="51">
         <label>MR::SelectObjectByClick</label>
         <link refid="classMR_1_1SelectObjectByClick"/>
-        <childnode refid="39" relation="public-inheritance">
+        <childnode refid="50" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="34">
+      <node id="38">
         <label>MR::SetViewPresetMenuItem</label>
         <link refid="classMR_1_1SetViewPresetMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="35">
-        <label>MR::SetViewportConfigPresetMenuItem</label>
-        <link refid="classMR_1_1SetViewportConfigPresetMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="36">
-        <label>MR::StateBasePlugin</label>
-        <link refid="classMR_1_1StateBasePlugin"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
-        <link refid="classMR_1_1StateListenerPlugin"/>
-        <childnode refid="36" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="37">
-        <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
-        <link refid="classMR_1_1StateListenerPlugin"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
       <node id="39">
+        <label>MR::SetViewportConfigPresetMenuItem</label>
+        <link refid="classMR_1_1SetViewportConfigPresetMenuItem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MR::StateListenerPlugin&lt; Connectables... &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
         <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="40" relation="public-inheritance">
         </childnode>
       </node>
       <node id="42">
+        <label>MR::StateListenerPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
         <label>MR::UndoMenuItem</label>
         <link refid="classMR_1_1UndoMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MR::ViewerSettingsPlugin</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" bodystart="17" bodyend="22"/>
+    <location file="MRViewer/MRISceneStateCheck.h" line="16" column="1" bodyfile="MRViewer/MRISceneStateCheck.h" bodystart="17" bodyend="22"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::ISceneStateCheck</scope><name>isAvailable</name></member>
       <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::ISceneStateCheck</scope><name>~ISceneStateCheck</name></member>

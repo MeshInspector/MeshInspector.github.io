@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1IPointPairs" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::IPointPairs</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1ICPGroupPairs" prot="public" virt="non-virtual">mrmeshpy.ICPGroupPairs</derivedcompoundref>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23684" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23741" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -28,10 +28,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__getitem__</name>
         <qualifiedname>mrmeshpy.IPointPairs.__getitem__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1a0f29935692738a7dbefc84421aa864b1">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1a0f29935692738a7dbefc84421aa864b1">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a17297d08012326188d9a93386cfe82a7">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a17297d08012326188d9a93386cfe82a7">__getitem__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -46,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23687" bodyend="23688"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23744" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23744" bodyend="23745"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IPointPairs_1a254724433e170b395a2c3d3ec4a459cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPPairData" kindref="compound">ICPPairData</ref></type>
@@ -54,10 +50,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__getitem__</name>
         <qualifiedname>mrmeshpy.IPointPairs.__getitem__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1a0f29935692738a7dbefc84421aa864b1">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1a0f29935692738a7dbefc84421aa864b1">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a17297d08012326188d9a93386cfe82a7">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a17297d08012326188d9a93386cfe82a7">__getitem__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -72,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23691" bodyend="23692"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23748" bodyend="23749"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IPointPairs_1a80e858dbe512070af3e6cf097b068380" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1IPointPairs" kindref="compound">IPointPairs</ref></type>
@@ -98,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23694" bodyend="23695"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23751" bodyend="23752"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -108,8 +100,6 @@
         <argsstring>(self, int arg0, ICPPairData arg1)</argsstring>
         <name>__setitem__</name>
         <qualifiedname>mrmeshpy.IPointPairs.__setitem__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1aa29e0f4706a0f8316b8af00b3b94627f">__setitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a34f15f93aec5e051ab01c2eadc353c27">__setitem__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -128,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23696" bodyend="23697"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23753" bodyend="23754"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IPointPairs_1a3b5b872677f77f2a61b8217160ea20f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -148,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23698" bodyend="23699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23755" bodyend="23756"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IPointPairs_1a6638f11939566608e964f393545d8ac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -168,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23701" bodyend="23704"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23758" bodyend="23761"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IPointPairs_1aa45def76cd00ccfe7a62a9e0eeeb7eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -190,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23706" bodyend="23707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23763" bodyend="23764"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -219,19 +209,7 @@ Simple interface for pairs holder
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.IPointPairs</label>
-        <link refid="classmrmeshpy_1_1IPointPairs"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_active</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23678" bodyend="23707"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23735" bodyend="23764"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IPointPairs_1a254724433e170b395a2c3d3ec4a459cf" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointPairs</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1IPointPairs_1a254724433e170b395a2c3d3ec4a459cf" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointPairs</scope><name>__getitem__</name></member>

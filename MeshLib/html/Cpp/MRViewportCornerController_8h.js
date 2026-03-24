@@ -1,15 +1,15 @@
 var MRViewportCornerController_8h =
 [
-    [ "SideRegions", "MRViewportCornerController_8h.html#ga3b6b94f5ad3595b510d6842ee045d493", [
-      [ "CCWArrow", "MRViewportCornerController_8h.html#gga3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd", null ],
-      [ "CWArrow", "MRViewportCornerController_8h.html#gga3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518", null ]
+    [ "MR::SideRegions", "group__GeneralGroup.html#ga3b6b94f5ad3595b510d6842ee045d493", [
+      [ "MR::SideRegions::CCWArrow", "group__GeneralGroup.html#gga3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd", null ],
+      [ "MR::SideRegions::CWArrow", "group__GeneralGroup.html#gga3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518", null ]
     ] ],
-    [ "getCornerControllerHoveredTextureMap", "MRViewportCornerController_8h.html#gae5dcb820660464b7454985abd2094832", null ],
-    [ "getCornerControllerRegionByFace", "MRViewportCornerController_8h.html#ga1998b7c6048ad3f3b7bee341e9ee8fcc", null ],
-    [ "getCornerControllerTexureMap", "MRViewportCornerController_8h.html#ga7405292d0adca18807e60b0121177c00", null ],
-    [ "loadCornerControllerTextures", "MRViewportCornerController_8h.html#ga86f2a960215a75174d29a086b0e2ba7d", null ],
-    [ "makeCornerControllerMesh", "MRViewportCornerController_8h.html#ga60e39381727e51c4cad64d4e0c4f3b8f", null ],
-    [ "makeCornerControllerRotationArrowMesh", "MRViewportCornerController_8h.html#gae5e9489254b51988519548546f68914a", null ],
-    [ "makeCornerControllerUVCoords", "MRViewportCornerController_8h.html#ga739b85ed00b84c2e37b63ffd04b683b4", null ],
-    [ "updateCurrentViewByControllerRegion", "MRViewportCornerController_8h.html#gad00ee21a73a1bf4dad89a757efc127a0", null ]
+    [ "MR::getCornerControllerHoveredTextureMap", "group__GeneralGroup.html#ga55f58a4057cd5d3de1c02f21a662844d", null ],
+    [ "MR::getCornerControllerRegionByFace", "group__GeneralGroup.html#ga65895e75456ca8655c55ab91d35bac5d", null ],
+    [ "MR::getCornerControllerTexureMap", "group__GeneralGroup.html#ga5d38836d4573c6e43578576bc8175882", null ],
+    [ "MR::loadCornerControllerTextures", "group__GeneralGroup.html#ga9b048d4818b9724dbe48e12c8f9aadc7", null ],
+    [ "MR::makeCornerControllerMesh", "group__GeneralGroup.html#ga0914200c524fcf5f6c826026815e6e9c", null ],
+    [ "MR::makeCornerControllerRotationArrowMesh", "group__GeneralGroup.html#gad638575de26373816cb59fee9d0c508e", null ],
+    [ "MR::makeCornerControllerUVCoords", "group__GeneralGroup.html#gaa118cde424349c7e21ed618816a1de7f", null ],
+    [ "MR::updateCurrentViewByControllerRegion", "group__GeneralGroup.html#gac1516c648ca1edb3f56c9b5bc47f0271", null ]
 ];

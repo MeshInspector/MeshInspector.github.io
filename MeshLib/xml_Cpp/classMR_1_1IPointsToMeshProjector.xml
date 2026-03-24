@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IPointsToMeshProjector" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::IPointsToMeshProjector</compoundname>
     <derivedcompoundref refid="classMR_1_1Cuda_1_1PointsToMeshProjector" prot="public" virt="non-virtual">MR::Cuda::PointsToMeshProjector</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1PointsToMeshProjector" prot="public" virt="non-virtual">MR::PointsToMeshProjector</derivedcompoundref>
-    <includes refid="MRPointsToMeshProjector_8h" local="no">MRPointsToMeshProjector.h</includes>
+    <includes refid="MRPointsToMeshProjector_8h" local="no">MRMesh/MRPointsToMeshProjector.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gac1a1633695c8776296054f81942a84dc" kind="function"><name>~IPointsToMeshProjector</name></member>
       <member refid="group__GeneralGroup_1ga8386d444f8e600bb3fe67a31fc2c04f3" kind="function"><name>updateMeshData</name></member>
@@ -34,7 +34,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="16" bodyend="28"/>
+    <location file="MRMesh/MRPointsToMeshProjector.h" line="15" column="1" bodyfile="MRMesh/MRPointsToMeshProjector.h" bodystart="16" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaffb7ba1779ad577458ada7ad99f578ce" prot="public" virt="pure-virtual"><scope>MR::IPointsToMeshProjector</scope><name>findProjections</name></member>
       <member refid="group__GeneralGroup_1ga2743e8821707c1810ac41b5918b2613c" prot="public" virt="pure-virtual"><scope>MR::IPointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>

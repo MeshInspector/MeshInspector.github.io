@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointMeasurementObject" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointMeasurementObject</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1MeasurementObject" prot="public" virt="non-virtual">mrmeshpy.MeasurementObject</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44657" bodyend="44658"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45601" bodyend="45602"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a00896c199b1b2d96463b0c6a9a054f6c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44660" bodyend="44661"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45604" bodyend="45605"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1abfb76acc6684b6d225a64fb5189a0e82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44663" bodyend="44664"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45607" bodyend="45608"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -64,7 +64,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PointMeasurementObject.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -75,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44665" bodyend="44666"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45609" bodyend="45610"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a7b904107153f77a33559f8d5d5970c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -94,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44667" bodyend="44668"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45611" bodyend="45612"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a7e9882cb27436d06921ee4a6caf059b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -113,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44669" bodyend="44670"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45613" bodyend="45614"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1abe8c45473a7e958c91029cbbc5372868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -135,7 +134,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44671" bodyend="44672"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45615" bodyend="45616"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a745fd51a8b22a4af6a7742e0a2d3edd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -161,7 +160,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44673" bodyend="44674"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45617" bodyend="45618"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1accc37a4c85c0fe98e5b2db7f72a6f733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ObjectComparableWithReference.ComparableProperty</ref></type>
@@ -190,7 +189,7 @@ This can return null if the value is impossible to compute, e.g. for some types 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44675" bodyend="44676"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45619" bodyend="45620"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a4dadd47e638556e61c5a29b5580f8989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
@@ -211,7 +210,7 @@ This can return null if the value is impossible to compute, e.g. for some types 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44677" bodyend="44678"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45621" bodyend="45622"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aaa198fef1ec3330ca285f8f471e04854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -236,7 +235,7 @@ This can return null if the value is impossible to compute, e.g. for some types 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44679" bodyend="44680"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45623" bodyend="45624"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1abb3985d0192fe7475ce82cfb90615e44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
@@ -263,7 +262,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44681" bodyend="44682"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45625" bodyend="45626"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a4794eb47143ab4665975d4882c35e984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -288,7 +287,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44683" bodyend="44684"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45627" bodyend="45628"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a5bc6b4ec727fba31cd201bf860b728c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ObjectComparableWithReference.ComparisonTolerance</ref></type>
@@ -314,7 +313,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44685" bodyend="44686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45629" bodyend="45630"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a2c6822e4daa70b5f92f78fe935659b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -339,7 +338,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44687" bodyend="44690"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45631" bodyend="45634"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1acaa5b3e199357ccbafaf6857cef88102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -364,7 +363,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44691" bodyend="44692"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45635" bodyend="45636"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a372a1a86d9520e668ca192b95d18f6de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -387,7 +386,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44693" bodyend="44694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45637" bodyend="45638"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1af113895d049f61639116bcc55f20c18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -408,7 +407,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44695" bodyend="44698"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45639" bodyend="45642"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aaecc4576780e5dd197092de66b65eb52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -430,7 +429,7 @@ If the normal isn&apos;t specified, the Euclidean distance gets used.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44699" bodyend="44703"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45643" bodyend="45647"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aa5035b534508ad1aea7878908e596845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -462,7 +461,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44704" bodyend="44705"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45648" bodyend="45649"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a5c502ea504e393cc4ed2f1dee3b1edf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -492,7 +491,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44706" bodyend="44707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45650" bodyend="45651"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a9dea6461fa932229bf97af2325698498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -521,7 +520,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44708" bodyend="44711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45652" bodyend="45655"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a2dae317d915ed3d85f623ddd17f41525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -548,7 +547,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44712" bodyend="44713"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45656" bodyend="45657"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aaa720c51c066293abe68efa3b0d3737d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -570,7 +569,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44714" bodyend="44715"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45658" bodyend="45659"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aa3230af9f93805874bd860d59bf78c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -595,7 +594,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44716" bodyend="44717"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45660" bodyend="45661"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a09139b86ecb13053fd45bf8ca3549f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -614,7 +613,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44718" bodyend="44719"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45662" bodyend="45663"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -695,34 +694,142 @@ making new object to share resources with this object
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44652" bodyend="44719"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45596" bodyend="45663"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4c9a5cdc889f952e88f15efc92859b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>addChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a628d57698bee030f4e37809eed20fdb6" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>addChildBefore</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a14c3c142ce5c7a92531fcf914b1ffea2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>addTag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1db3f0240dda415f1f066fed72225e16" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a35f5a7bbb06be9169dbe752e0b8440e3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>children</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3c285511171875eaa87d26a18bd45efc" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>children</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a7b904107153f77a33559f8d5d5970c1e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>className</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a7e9882cb27436d06921ee4a6caf059b8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>classNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1abe8c45473a7e958c91029cbbc5372868" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>cloneTree</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a745fd51a8b22a4af6a7742e0a2d3edd8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1accc37a4c85c0fe98e5b2db7f72a6f733" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>computeComparableProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a567315111aee91b3dd5bfef4188b23b7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>detachFromParent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>findCommonAncestor</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a4dadd47e638556e61c5a29b5580f8989" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getColoringType</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1aaa198fef1ec3330ca285f8f471e04854" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getComparablePropertyName</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1abb3985d0192fe7475ce82cfb90615e44" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a4794eb47143ab4665975d4882c35e984" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a5bc6b4ec727fba31cd201bf860b728c8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getComparisonTolerence</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getInfoLines</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a2c6822e4daa70b5f92f78fe935659b04" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3eef5ed5fd88feb0b2e586d0b1c0e254" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9b36e627e752037bbe0d6cfeee96dbaf" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1aa1020074c1326a825c86467a0580791d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1acaa5b3e199357ccbafaf6857cef88102" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getWorldBox</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a372a1a86d9520e668ca192b95d18f6de" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3270abd9924fa3f784d3105824979f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a21510ca05f3888f5db9ff0aae662c9d1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a33d0fafc2423205d5a3ba75eae112655" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>isAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a5a2cb58be1a7e062e9c502295eb6ce23" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>isAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>isLocked</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>isParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>isSelected</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>name</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1af113895d049f61639116bcc55f20c18b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>numComparableProperties</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1aaecc4576780e5dd197092de66b65eb52" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="classmrmeshpy_1_1MeasurementObject_1a5c89f0f1474b346f4fdd0affef837414" prot="public" virt="non-virtual" ambiguityscope="mrmeshpy::MeasurementObject."><scope>mrmeshpy::PointMeasurementObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa593f6befb32f6453133a516f1c863b8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>removeAllChildren</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a50fdb1e10c8b57d176b21fd1224c1292" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>removeTag</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>renderForPicker</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>renderUi</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1abf55328c86b56d62b4b1654186f4f68f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>resetDirty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a69ef0caef1ec3fa51cab56ad9959bb22" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3f27a64bfcdec74242fdf571a687c94c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9d4920ba95eb61dd557cc7b77e8b1654" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>resetXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a390de01f2ab8caa5e1d044458234a6d5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>sameModels</name></member>
+      <member refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2db756ea98710dbbc11ae7d00752b069" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setAncillary</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setColoringType</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1aa90cbf90f3001d7f1981206315904ecd" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1aa5035b534508ad1aea7878908e596845" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a5c502ea504e393cc4ed2f1dee3b1edf0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a883cdf9eb84b10488087440af6534a26" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setGlobalVisibility</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a9dea6461fa932229bf97af2325698498" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setLocked</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a2dae317d915ed3d85f623ddd17f41525" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setWorldPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setWorldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa19f9528e669d68920059fa560ef527b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aac6bdfb45902aa99fc95799b508c57f5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setXfsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1aaa720c51c066293abe68efa3b0d3737d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ab39f51bc5e295bf79bf21e09e8a4374b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a81fe3b89047200dec9832c065dd92ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>sortChildren</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1ab52dac0c3e8a0c0901a35c88886e851a" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>StaticClassName</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a00896c199b1b2d96463b0c6a9a054f6c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1abfb76acc6684b6d225a64fb5189a0e82" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>StaticTypeName</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1aa3230af9f93805874bd860d59bf78c85" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a6c92cdb11df4d895c639f0e26dca1c83" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a12a90ffff0f3f0d2f6054e8e82a63679" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>tags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1PointMeasurementObject_1a09139b86ecb13053fd45bf8ca3549f33" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>visibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a0fe057c0f6fe9f8ee98bd8210faa983c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>worldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a157327fa8110ea13a8b12bf04748331d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05ee8acaa199b194040b1613d4038012" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

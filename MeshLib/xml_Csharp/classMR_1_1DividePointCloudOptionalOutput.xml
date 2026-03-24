@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DividePointCloudOptionalOutput" kind="class" language="C#" prot="public">
     <compoundname>MR::DividePointCloudOptionalOutput</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DividePointCloudOptionalOutput</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="157" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="158" bodyend="167"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="165" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="166" bodyend="175"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DividePointCloudOptionalOutput_1afb1050a24b651515a2f32d283bc6833f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1PointCloud" kindref="compound">PointCloud</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="170" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="171" bodyend="180"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="180" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="181" bodyend="190"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DividePointCloudOptionalOutput_1ad51c40c0392491551dbfc1db1bf3493a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="183" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="184" bodyend="193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="195" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="196" bodyend="205"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="197" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="197" bodyend="201"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="209" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="209" bodyend="213"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="207" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="207" bodyend="213"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="219" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="219" bodyend="225"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePointCloudOptionalOutput_1a7ef1c309216fa74f4c82232372392215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="218" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="218" bodyend="227"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="230" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="230" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePointCloudOptionalOutput_1ac44af951df5a54ced46d957ebd622f87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DividePointCloudOptionalOutput.DividePointCloudOptionalOutput</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DividePointCloudOptionalOutput_1aafd814b187f564ded2b8f586628f660d" kindref="member">MR.DividePointCloudOptionalOutput.DividePointCloudOptionalOutput</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="232" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="232" bodyend="239"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="244" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="244" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePointCloudOptionalOutput_1ac5fbb4b9ac90350e9169c56e93b9d1a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DividePointCloudOptionalOutput.DividePointCloudOptionalOutput</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DividePointCloudOptionalOutput_1aafd814b187f564ded2b8f586628f660d" kindref="member">MR.DividePointCloudOptionalOutput.DividePointCloudOptionalOutput</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="244" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="244" bodyend="244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="256" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="256" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePointCloudOptionalOutput_1ab495d19a264dec241840f19b2b775f45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DividePointCloudOptionalOutput" kindref="compound">MR.DividePointCloudOptionalOutput</ref></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DividePointCloudOptionalOutput.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DividePointCloudOptionalOutput::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="249" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="249" bodyend="256"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="261" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="261" bodyend="268"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,48 +181,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DividePointCloudOptionalOutput</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DividePointCloudOptionalOutput</label>
         <link refid="classMR_1_1DividePointCloudOptionalOutput"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DividePointCloudOptionalOutput</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DividePointCloudOptionalOutput &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DividePointCloudOptionalOutput</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DividePointCloudOptionalOutput</label>
         <link refid="classMR_1_1DividePointCloudOptionalOutput"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DividePointCloudOptionalOutput</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DividePointCloudOptionalOutput &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="154" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="155" bodyend="257"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="161" bodyend="269"/>
     <listofallmembers>
       <member refid="classMR_1_1DividePointCloudOptionalOutput_1ab495d19a264dec241840f19b2b775f45" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>assign</name></member>
       <member refid="classMR_1_1DividePointCloudOptionalOutput_1af00d6a53095904c59f1ba48c05d3e6e9" prot="package" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>DividePointCloudOptionalOutput</name></member>

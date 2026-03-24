@@ -1,12 +1,6 @@
 var MRRebuildMesh_8h =
 [
-    [ "MR_expected_MR_Mesh_std_string", "MRRebuildMesh_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_MeshPart", "MRRebuildMesh_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_RebuildMeshSettings", "MRRebuildMesh_8h.html#aa2853cd7a55a4391d2d36fb2e810eedb", null ],
-    [ "MR_std_function_bool_from_float", "MRRebuildMesh_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_function_void_from_MR_SignDetectionMode", "MRRebuildMesh_8h.html#a22d2ec9cd17ac887031de93b58b597b7", null ],
-    [ "MR_std_shared_ptr_MR_IFastWindingNumber", "MRRebuildMesh_8h.html#a264b5271a8409b6f782f8649cf34c164", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRRebuildMesh_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
     [ "MR_rebuildMesh", "MRRebuildMesh_8h.html#a21860dab1e858f0a70ebc66e20ec9c42", null ],
     [ "MR_RebuildMeshSettings_AssignFromAnother", "MRRebuildMesh_8h.html#a2a2b123ccb8744363956f0f4e59a7417", null ],
     [ "MR_RebuildMeshSettings_ConstructFrom", "MRRebuildMesh_8h.html#a07660db8814483ade015658decb7d24c", null ],

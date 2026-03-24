@@ -5,10 +5,7 @@ var MRSeparationPoint_8h =
     [ "MR_SeparationPointStorage", "MRSeparationPoint_8h.html#a5bcf2d9a78b61d58787442aa38075ffa", null ],
     [ "MR_SeparationPointStorage_Block", "MRSeparationPoint_8h.html#ac6335a684721a20e9d9b3d4afd039f60", null ],
     [ "MR_std_array_MR_VertId_3", "MRSeparationPoint_8h.html#a93a0c4d7b47d7dae609a79a31bf54018", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRSeparationPoint_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_Triangulation", "MRSeparationPoint_8h.html#a33f2cead15f3bf37534d3678feb4af22", null ],
     [ "MR_Vector_MR_VoxelId_MR_FaceId", "MRSeparationPoint_8h.html#a9692dc04329fdb84eb3ddd8d265ba089", null ],
-    [ "MR_VertCoords", "MRSeparationPoint_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_NeighborDir", "MRSeparationPoint_8h.html#a1701eebc218aef79b7c6bb1852a5144f", [
       [ "MR_NeighborDir_X", "MRSeparationPoint_8h.html#a1701eebc218aef79b7c6bb1852a5144faacf3d60d150604dc568a6e09b8322624", null ],
       [ "MR_NeighborDir_Y", "MRSeparationPoint_8h.html#a1701eebc218aef79b7c6bb1852a5144fa403abf7430a15e7ee80dddb120fad50d", null ],

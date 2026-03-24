@@ -1,75 +1,139 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHistoryStore_8h" kind="file" language="C++">
     <compoundname>MRHistoryStore.h</compoundname>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRHistoryAction_8h" local="yes">MRMesh/MRHistoryAction.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRAppendHistory_8h" local="yes">MRAppendHistory.h</includedby>
-    <includedby refid="MRMeshBoundarySelectionWidget_8h" local="yes">MRMeshBoundarySelectionWidget.h</includedby>
-    <includedby refid="MRPickPointManager_8h" local="yes">MRPickPointManager.h</includedby>
-    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRSceneControlMenuItems.h</includedby>
-    <includedby refid="MRViewer_2MRSceneControlMenuItems_8h" local="yes">MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRAppendHistory_8h" local="yes">MRViewer/MRAppendHistory.h</includedby>
+    <includedby refid="MRMeshBoundarySelectionWidget_8h" local="yes">MRViewer/MRMeshBoundarySelectionWidget.h</includedby>
+    <includedby refid="MRPickPointManager_8h" local="yes">MRViewer/MRPickPointManager.h</includedby>
+    <includedby refid="MRViewer_2MRSceneControlMenuItems_8h" local="yes">MRViewer/MRSceneControlMenuItems.h</includedby>
     <incdepgraph>
-      <node id="3">
-        <label>MRMesh/MRHistoryAction.h</label>
-        <link refid="MRHistoryAction_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
       <node id="7">
-        <label>MRMesh/MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>MRHistoryStore.h</label>
-        <link refid="MRHistoryStore_8h"/>
-        <childnode refid="2" relation="include">
+      <node id="16">
+        <label>MRMesh/MRHistoryAction.h</label>
+        <link refid="MRHistoryAction_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
+      <node id="17">
+        <label>MRMesh/MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MRViewer/MRHistoryStore.h</label>
+        <link refid="MRHistoryStore_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="8">
-        <label>boost/signals2/signal.hpp</label>
-      </node>
-      <node id="5">
-        <label>functional</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
       <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="18">
+        <label>boost/signals2/signal.hpp</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="19">
         <label>memory</label>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
         <label>string</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5">
-        <label>MRSceneControlMenuItems.h</label>
+      <node id="2">
+        <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
         <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
       </node>
-      <node id="2">
-        <label>MRAppendHistory.h</label>
+      <node id="3">
+        <label>MRViewer/MRAppendHistory.h</label>
         <link refid="MRAppendHistory_8h"/>
       </node>
       <node id="1">
-        <label>MRHistoryStore.h</label>
+        <label>MRViewer/MRHistoryStore.h</label>
         <link refid="MRHistoryStore_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -82,16 +146,16 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshBoundarySelectionWidget.h</label>
+      <node id="4">
+        <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="4">
-        <label>MRPickPointManager.h</label>
+      <node id="5">
+        <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
       <node id="6">
-        <label>MRSceneControlMenuItems.h</label>
+        <label>MRViewer/MRSceneControlMenuItems.h</label>
         <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
       </node>
     </invincdepgraph>
@@ -104,7 +168,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRHistoryAction_8h" kindref="compound">MRMesh/MRHistoryAction.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSignal_8h" kindref="compound">MRMesh/MRSignal.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -112,15 +176,15 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
-<codeline lineno="15" refid="classMR_1_1HistoryStore" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1HistoryStore" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1HistoryStore_1a79d9326f089992c7b1a6a573a2d367ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref>*<sp/><ref refid="classMR_1_1HistoryStore_1a79d9326f089992c7b1a6a573a2d367ae" kindref="member">getViewerInstance</ref>();</highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1HistoryStore_1afb751ad4669fe2d69d69abe96ca4ede0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref>*<sp/><ref refid="classMR_1_1HistoryStore_1afb751ad4669fe2d69d69abe96ca4ede0" kindref="member">getViewerInstance</ref>();</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="classMR_1_1HistoryStore_1a1d11982a306bc53b5ccaddff114cd614" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a1d11982a306bc53b5ccaddff114cd614" kindref="member">~HistoryStore</ref>();</highlight></codeline>
+<codeline lineno="22" refid="classMR_1_1HistoryStore_1afb495fde66aa8b89c80251673cb24725" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1afb495fde66aa8b89c80251673cb24725" kindref="member">~HistoryStore</ref>();</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="classMR_1_1HistoryStore_1aa0c8ea0276f02eca0f11f888ecfc39f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1aa0c8ea0276f02eca0f11f888ecfc39f4" kindref="member">appendAction</ref>(<sp/>std::shared_ptr&lt;HistoryAction&gt;<sp/>action<sp/>);</highlight></codeline>
+<codeline lineno="26" refid="classMR_1_1HistoryStore_1a36060c54f1f5175ea61611c5be4330f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a36060c54f1f5175ea61611c5be4330f3" kindref="member">appendAction</ref>(<sp/>std::shared_ptr&lt;HistoryAction&gt;<sp/>action<sp/>);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="classMR_1_1HistoryStore_1a44c0ab7153a1b5967525c1cea2fe4e67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref>*<sp/><ref refid="classMR_1_1HistoryStore_1a44c0ab7153a1b5967525c1cea2fe4e67" kindref="member">getScopeBlockPtr</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>scopedBlock_;<sp/>}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
@@ -130,43 +194,43 @@
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38" refid="classMR_1_1HistoryStore_1ae49bd57fda5c9d3b6005f942e9ee7f45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1ae49bd57fda5c9d3b6005f942e9ee7f45" kindref="member">setSavedState</ref>()<sp/>{<sp/>savedSceneIndex_<sp/>=<sp/>firstRedoIndex_;<sp/>}</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="classMR_1_1HistoryStore_1aeaca3b28f85fa63c443235a4539cfa25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1aeaca3b28f85fa63c443235a4539cfa25" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="41" refid="classMR_1_1HistoryStore_1a937c14bc43ffa66f6483e97c285385d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a937c14bc43ffa66f6483e97c285385d6" kindref="member">clear</ref>();</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="classMR_1_1HistoryStore_1a48c223a0850725e085ef49953af02cd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a48c223a0850725e085ef49953af02cd1" kindref="member">setMemoryLimit</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>limit<sp/>)<sp/>{<sp/>storageLimit_<sp/>=<sp/>limit;<sp/>}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47" refid="classMR_1_1HistoryStore_1a45b3529c2a011c9abd585452550ac145" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a45b3529c2a011c9abd585452550ac145" kindref="member">getMemoryLimit</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>storageLimit_;<sp/>}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="classMR_1_1HistoryStore_1ae5153ad77359e03f6105aa8db1293b14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1ae5153ad77359e03f6105aa8db1293b14" kindref="member">calcUsedMemory</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50" refid="classMR_1_1HistoryStore_1a516ec6dea821d2eb440a2f559338882d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a516ec6dea821d2eb440a2f559338882d" kindref="member">calcUsedMemory</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="classMR_1_1HistoryStore_1a6c72ca2143023fcef93b3e221d010c6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref>&amp;<sp/><ref refid="classMR_1_1HistoryStore_1a6c72ca2143023fcef93b3e221d010c6d" kindref="member">getHistoryStack</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>stack_;<sp/>}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56" refid="classMR_1_1HistoryStore_1a68425383420b18f6c04f4405f2e4a1f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a68425383420b18f6c04f4405f2e4a1f5" kindref="member">getStackPointer</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>firstRedoIndex_;<sp/>}</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="classMR_1_1HistoryStore_1a34a9d69ae6d37fc5a5b4155b63d3c100" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a34a9d69ae6d37fc5a5b4155b63d3c100" kindref="member">filterStack</ref>(<sp/><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref><sp/>filteringCondition,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>deepFiltering<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="59" refid="classMR_1_1HistoryStore_1aa00e5762696dd0498eb02bbb5aa7913d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1aa00e5762696dd0498eb02bbb5aa7913d" kindref="member">filterStack</ref>(<sp/><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref><sp/>filteringCondition,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>deepFiltering<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="classMR_1_1HistoryStore_1a0bce5005471a434712469838de3edcd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a0bce5005471a434712469838de3edcd7" kindref="member">undo</ref>();</highlight></codeline>
+<codeline lineno="63" refid="classMR_1_1HistoryStore_1abe14d6ec7d22f82214bf5148fdcb5c4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1abe14d6ec7d22f82214bf5148fdcb5c4f" kindref="member">undo</ref>();</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="classMR_1_1HistoryStore_1a5c5f420102ae277252e92dea8b27fa2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a5c5f420102ae277252e92dea8b27fa2f" kindref="member">redo</ref>();</highlight></codeline>
+<codeline lineno="67" refid="classMR_1_1HistoryStore_1a3a9b5815441908defc54d37b0b0c10f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a3a9b5815441908defc54d37b0b0c10f8" kindref="member">redo</ref>();</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70" refid="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" kindref="member">undoRedoInProgress</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>undoRedoInProgress_;<sp/>}</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="classMR_1_1HistoryStore_1a8f09d582234535d00d32ca5ece30c992" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::vector&lt;std::string&gt;<sp/><ref refid="classMR_1_1HistoryStore_1a8f09d582234535d00d32ca5ece30c992" kindref="member">getNActions</ref>(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>n,<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73" refid="classMR_1_1HistoryStore_1ac187b562e8b00012a4983cb5d8a23859" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::vector&lt;std::string&gt;<sp/><ref refid="classMR_1_1HistoryStore_1ac187b562e8b00012a4983cb5d8a23859" kindref="member">getNActions</ref>(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>n,<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="classMR_1_1HistoryStore_1a9a8500d0fc99954fc5387bad5fe4367e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::shared_ptr&lt;HistoryAction&gt;<sp/><ref refid="classMR_1_1HistoryStore_1a9a8500d0fc99954fc5387bad5fe4367e" kindref="member">getLastAction</ref>(<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76" refid="classMR_1_1HistoryStore_1a82401db914aac455a150f60d71415abe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::shared_ptr&lt;HistoryAction&gt;<sp/><ref refid="classMR_1_1HistoryStore_1a82401db914aac455a150f60d71415abe" kindref="member">getLastAction</ref>(<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="classMR_1_1HistoryStore_1ae95320267281820e0d4bdb60d052085e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::string<sp/><ref refid="classMR_1_1HistoryStore_1ae95320267281820e0d4bdb60d052085e" kindref="member">getLastActionName</ref>(<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79" refid="classMR_1_1HistoryStore_1ac8c2dbe1a4603881ab217ec42e4fcf24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::string<sp/><ref refid="classMR_1_1HistoryStore_1ac8c2dbe1a4603881ab217ec42e4fcf24" kindref="member">getLastActionName</ref>(<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">ChangeType</ref></highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PreAppendAction,<sp/></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostAppendAction,<sp/></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PreUndo,<sp/></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostUndo,<sp/></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PreRedo,<sp/></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostRedo,<sp/></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Clear,<sp/></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PopAction,<sp/></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Filter<sp/></highlight></codeline>
+<codeline lineno="84" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2" kindref="member">PreAppendAction</ref>,<sp/></highlight></codeline>
+<codeline lineno="85" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02" kindref="member">PostAppendAction</ref>,<sp/></highlight></codeline>
+<codeline lineno="86" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2" kindref="member">PreUndo</ref>,<sp/></highlight></codeline>
+<codeline lineno="87" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c" kindref="member">PostUndo</ref>,<sp/></highlight></codeline>
+<codeline lineno="88" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1" kindref="member">PreRedo</ref>,<sp/></highlight></codeline>
+<codeline lineno="89" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2" kindref="member">PostRedo</ref>,<sp/></highlight></codeline>
+<codeline lineno="90" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2" kindref="member">Clear</ref>,<sp/></highlight></codeline>
+<codeline lineno="91" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f" kindref="member">PopAction</ref>,<sp/></highlight></codeline>
+<codeline lineno="92" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a" kindref="member">Filter</ref><sp/></highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="94" refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" kindref="member">HistoryStoreChangedSignal</ref><sp/>=<sp/>boost::signals2::signal&lt;void(<sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref>&amp;<sp/>store,<sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">ChangeType</ref>,<sp/>std::shared_ptr&lt;HistoryAction&gt;<sp/>action<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="95" refid="classMR_1_1HistoryStore_1afcedddcbe7c972d3a5b239e53a0f17ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" kindref="member">HistoryStoreChangedSignal</ref><sp/><ref refid="classMR_1_1HistoryStore_1afcedddcbe7c972d3a5b239e53a0f17ee" kindref="member">changedSignal</ref>;</highlight></codeline>
@@ -190,6 +254,6 @@
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h"/>
+    <location file="MRViewer/MRHistoryStore.h"/>
   </compounddef>
 </doxygen>

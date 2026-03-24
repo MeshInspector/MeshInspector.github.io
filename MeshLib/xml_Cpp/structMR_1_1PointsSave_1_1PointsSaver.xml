@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointsSave_1_1PointsSaver" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointsSave::PointsSaver</compoundname>
-    <includes refid="MRIOFormatsRegistry_8h" local="no">MRIOFormatsRegistry.h</includes>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRMesh/MRIOFormatsRegistry.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PointsSave_1_1PointsSaver_1a38cf916ae7e979cab3b2565c5a8e07fd" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMR_1_1PointsSave_1a356417aed0685b9e9741744f7b357eba" kindref="member">PointsFileSaver</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="270" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="270" bodyend="270"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="270" column="21" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="270" bodyend="270"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsSave_1_1PointsSaver_1a9b76a81c6623b8ff71c897adad0e14d3" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMR_1_1PointsSave_1a1c0d45a07ed1828ee0d1190c6ca69cab" kindref="member">PointsStreamSaver</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="271" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="271" bodyend="271"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="271" column="23" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="271" bodyend="271"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="269" bodyend="272"/>
+    <location file="MRMesh/MRIOFormatsRegistry.h" line="268" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="269" bodyend="272"/>
     <listofallmembers>
       <member refid="structMR_1_1PointsSave_1_1PointsSaver_1a38cf916ae7e979cab3b2565c5a8e07fd" prot="public" virt="non-virtual"><scope>MR::PointsSave::PointsSaver</scope><name>fileSave</name></member>
       <member refid="structMR_1_1PointsSave_1_1PointsSaver_1a9b76a81c6623b8ff71c897adad0e14d3" prot="public" virt="non-virtual"><scope>MR::PointsSave::PointsSaver</scope><name>streamSave</name></member>

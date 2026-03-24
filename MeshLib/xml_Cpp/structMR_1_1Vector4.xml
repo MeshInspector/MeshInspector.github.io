@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Vector4" kind="struct" language="C++" prot="public">
     <compoundname>MR::Vector4</compoundname>
-    <includes refid="MRVector4_8h" local="no">MRVector4.h</includes>
+    <includes refid="MRVector4_8h" local="no">MRMesh/MRVector4.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -15,7 +15,6 @@
       <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
       <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
       <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
-      <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" kind="function"><name>begin</name></member>
     </sectiondef>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga458502d7f4776a6bddef3495ad567541" kind="typedef"><name>ValueType</name></member>
@@ -63,21 +62,28 @@
       <member refid="group__GeneralGroup_1gaca06a481c53bf7bef1d1f701851ce9de" kind="friend"><name>operator/=</name></member>
       <member refid="group__GeneralGroup_1ga3789873acec0961558649d59f6de2825" kind="friend"><name>operator&lt;&lt;</name></member>
       <member refid="group__GeneralGroup_1ga27e081f75b4813615258a92cc851597b" kind="friend"><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga37fcdbc6e2c737a4a6cab14ef52dd794" kind="friend"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gaa8566e057813e830215faa299cc06d01" kind="friend"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gabd29b7582168608aaab1305e0bffaab4" kind="friend"><name>end</name></member>
+      <member refid="group__GeneralGroup_1ga7608b91cd7e3aa970b7a7bfd0a9e8477" kind="friend"><name>end</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>four-dimensional vector </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector4.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector4.h" bodystart="26" bodyend="127"/>
+    <location file="MRMesh/MRVector4.h" line="25" column="1" bodyfile="MRMesh/MRVector4.h" bodystart="26" bodyend="136"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>begin</name></member>
+      <member refid="group__GeneralGroup_1ga37fcdbc6e2c737a4a6cab14ef52dd794" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gaa8566e057813e830215faa299cc06d01" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>begin</name></member>
       <member refid="group__GeneralGroup_1gaae32c22644b25c26b237f41ac439da53" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>diagonal</name></member>
       <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>distance</name></member>
       <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>distanceSq</name></member>
       <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>div</name></member>
       <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>dot</name></member>
       <member refid="group__GeneralGroup_1gad2688016c72fa4b8f105895bd2532e7c" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>elements</name></member>
+      <member refid="group__GeneralGroup_1gabd29b7582168608aaab1305e0bffaab4" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>end</name></member>
+      <member refid="group__GeneralGroup_1ga7608b91cd7e3aa970b7a7bfd0a9e8477" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>end</name></member>
       <member refid="group__GeneralGroup_1gabd30ce902168b47bc8aaee4415d19b03" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>isFinite</name></member>
       <member refid="group__GeneralGroup_1gaa635f4c17f51f760f9c4f9d0e5c56aae" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>length</name></member>
       <member refid="group__GeneralGroup_1ga2dd22ed3ae33f32c5110d16e149d10c1" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>lengthSq</name></member>

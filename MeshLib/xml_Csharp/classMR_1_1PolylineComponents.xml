@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineComponents" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineComponents</compoundname>
     <innerclass refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public">MR::PolylineComponents::LargeByLengthComponentsSettings</innerclass>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="253" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="253" bodyend="258"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="265" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="265" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1ac1bd7fa0df0c3b8ce0847388b914bc4c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="265" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="265" bodyend="270"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="277" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="277" bodyend="282"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1a2931ec5e8038519199dfc4935ae7a483" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRUndirectedEdgeBitSet</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="277" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="277" bodyend="282"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="289" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="289" bodyend="294"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1a6813394e3bf30b7a6b26b4bffdde9160" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Pair_StdVectorMRUndirectedEdgeBitSet_Int</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="291" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="291" bodyend="296"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="303" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="303" bodyend="308"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRUndirectedEdgeBitSet</type>
@@ -118,13 +118,13 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;</computeroutput>. </para>
+<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&amp;amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="302" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="302" bodyend="307"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="314" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="314" bodyend="319"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1ad37824b60abf4a0b56c1752d519a22db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRUndirectedEdgeBitSet</type>
@@ -141,13 +141,13 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;</computeroutput>. </para>
+<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="313" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="313" bodyend="318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="325" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="325" bodyend="330"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1a8927ee4c0860d653321c273dd1a94bbb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UnionFind__MRUndirectedEdgeId" kindref="compound">MR.UnionFind_MRUndirectedEdgeId</ref></type>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="324" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="324" bodyend="329"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="336" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="336" bodyend="341"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -189,13 +189,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&amp;amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;amp;gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="336" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="336" bodyend="345"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="348" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="348" bodyend="357"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1a68127128d29f574351571d70ee451b3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -218,20 +218,20 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="352" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="352" bodyend="361"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="364" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="364" bodyend="373"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="4" bodyend="362"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="4" bodyend="374"/>
     <listofallmembers>
       <member refid="classMR_1_1PolylineComponents_1a2931ec5e8038519199dfc4935ae7a483" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getAllComponents</name></member>
       <member refid="classMR_1_1PolylineComponents_1a6813394e3bf30b7a6b26b4bffdde9160" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getAllComponents</name></member>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshMetrics_8h" kind="file" language="C++">
     <compoundname>MRMeshMetrics.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="2">
@@ -14,9 +14,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -28,75 +28,34 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshMetrics_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshMetrics_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="14" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshMetrics_8h_1aa7548d3448b3b7da1ea96433fe902e9a" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></type>
-        <definition>typedef struct MR_Plane3f MR_Plane3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Plane3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="15" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshMetrics_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" prot="public" static="no">
         <type>struct <ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref></type>
         <definition>typedef struct MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</definition>
@@ -105,10 +64,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>double(MR::VertId, MR::VertId, MR::VertId)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="17" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="17" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" prot="public" static="no">
         <type>struct <ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref></type>
@@ -118,10 +78,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>double(MR::VertId, MR::VertId, MR::VertId, MR::VertId)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="18" column="82" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="18" column="82" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" prot="public" static="no">
         <type>struct <ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref></type>
@@ -131,29 +92,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>double(double, double)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="19" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshMetrics_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" prot="public" static="no">
-        <type>struct <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref></type>
-        <definition>typedef struct MR_FillHoleMetric MR_FillHoleMetric</definition>
-        <argsstring></argsstring>
-        <name>MR_FillHoleMetric</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::FillHoleMetric</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="37" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="19" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshMetrics_8h_1a4cad29150e907c7f3c126e12082bafa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref> *</type>
         <definition>MRC_API const MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId * MR_FillHoleMetric_Get_triangleMetric</definition>
         <argsstring>(const MR_FillHoleMetric *_this)</argsstring>
         <name>MR_FillHoleMetric_Get_triangleMetric</name>
@@ -168,10 +116,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="44" column="73" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="44" declcolumn="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="44" column="73" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="44" declcolumn="73"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1ac9cf9ea32ba1011c50b106a409147f27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FillHoleMetric_Set_triangleMetric</definition>
         <argsstring>(MR_FillHoleMetric *_this, MR_PassBy value_pass_by, MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId *value)</argsstring>
         <name>MR_FillHoleMetric_Set_triangleMetric</name>
@@ -180,7 +128,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -190,14 +138,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>is called for each triangle, if it is set Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>triangleMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triangleMetric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>triangleMetric</computeroutput>. </para>
+<para>is called for each triangle, if it is set Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>triangleMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triangleMetric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>triangleMetric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="51" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="51" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a0fe67e9cfbb2c6bfa7d2260baa132b48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref> *</type>
         <definition>MRC_API MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId * MR_FillHoleMetric_GetMutable_triangleMetric</definition>
         <argsstring>(MR_FillHoleMetric *_this)</argsstring>
         <name>MR_FillHoleMetric_GetMutable_triangleMetric</name>
@@ -212,10 +160,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="58" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="58" declcolumn="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="58" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="58" declcolumn="67"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1abd1eb6744b5303d9f51cd858f3fdc85e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref> *</type>
         <definition>MRC_API const MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId * MR_FillHoleMetric_Get_edgeMetric</definition>
         <argsstring>(const MR_FillHoleMetric *_this)</argsstring>
         <name>MR_FillHoleMetric_Get_edgeMetric</name>
@@ -230,10 +178,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="65" column="83" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="65" declcolumn="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="65" column="83" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="65" declcolumn="83"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1afbae1e0b178e7bbcf5d536de0dbc2b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FillHoleMetric_Set_edgeMetric</definition>
         <argsstring>(MR_FillHoleMetric *_this, MR_PassBy value_pass_by, MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId *value)</argsstring>
         <name>MR_FillHoleMetric_Set_edgeMetric</name>
@@ -242,7 +190,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -252,14 +200,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>is called for each edge, if it is set Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>edgeMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeMetric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>edgeMetric</computeroutput>. </para>
+<para>is called for each edge, if it is set Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>edgeMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeMetric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>edgeMetric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="72" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="72" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a247e78d3d1409f98e70a213295ad7369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref> *</type>
         <definition>MRC_API MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId * MR_FillHoleMetric_GetMutable_edgeMetric</definition>
         <argsstring>(MR_FillHoleMetric *_this)</argsstring>
         <name>MR_FillHoleMetric_GetMutable_edgeMetric</name>
@@ -274,10 +222,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="79" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="79" declcolumn="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="79" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="79" declcolumn="77"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1ae81990365d353dfa21b128574fcc74dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref> *</type>
         <definition>MRC_API const MR_std_function_double_from_double_double * MR_FillHoleMetric_Get_combineMetric</definition>
         <argsstring>(const MR_FillHoleMetric *_this)</argsstring>
         <name>MR_FillHoleMetric_Get_combineMetric</name>
@@ -292,10 +240,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="86" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="86" declcolumn="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="86" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="86" declcolumn="57"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1aaa2f28198abc94ed4feca25d2cb76026" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FillHoleMetric_Set_combineMetric</definition>
         <argsstring>(MR_FillHoleMetric *_this, MR_PassBy value_pass_by, MR_std_function_double_from_double_double *value)</argsstring>
         <name>MR_FillHoleMetric_Set_combineMetric</name>
@@ -304,7 +252,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -314,14 +262,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>is called to combine metrics from different candidates, if it is not set it just summarizes input Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>combineMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>combineMetric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>combineMetric</computeroutput>. </para>
+<para>is called to combine metrics from different candidates, if it is not set it just summarizes input Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>combineMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>combineMetric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>combineMetric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="93" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="93" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1aeb96f036128ae6d21ff09044374b0000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref> *</type>
         <definition>MRC_API MR_std_function_double_from_double_double * MR_FillHoleMetric_GetMutable_combineMetric</definition>
         <argsstring>(MR_FillHoleMetric *_this)</argsstring>
         <name>MR_FillHoleMetric_GetMutable_combineMetric</name>
@@ -336,10 +284,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="100" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="100" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="100" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="100" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a2bc9541c5eb7a42e9ec24b01323bd074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_FillHoleMetric_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_FillHoleMetric_DefaultConstruct</name>
@@ -353,10 +301,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="104" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="104" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="104" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="104" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a2e3eabc84e6ba7fb1b0cd7fca4af15ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_FillHoleMetric_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_FillHoleMetric_DefaultConstructArray</name>
@@ -371,15 +319,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="109" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="109" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="109" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="109" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a7186a6c24450edafe0858f814e2cac54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_FillHoleMetric_ConstructFrom</definition>
         <argsstring>(MR_PassBy triangleMetric_pass_by, MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId *triangleMetric, MR_PassBy edgeMetric_pass_by, MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId *edgeMetric, MR_PassBy combineMetric_pass_by, MR_std_function_double_from_double_double *combineMetric)</argsstring>
         <name>MR_FillHoleMetric_ConstructFrom</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>triangleMetric_pass_by</declname>
         </param>
         <param>
@@ -387,7 +335,7 @@
           <declname>triangleMetric</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>edgeMetric_pass_by</declname>
         </param>
         <param>
@@ -395,7 +343,7 @@
           <declname>edgeMetric</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>combineMetric_pass_by</declname>
         </param>
         <param>
@@ -405,14 +353,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FillHoleMetric</computeroutput> elementwise. The reference to the parameter <computeroutput>triangleMetric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeMetric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>combineMetric</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" kindref="member">MR_FillHoleMetric_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FillHoleMetric</computeroutput> elementwise. The reference to the parameter <computeroutput>triangleMetric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeMetric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>combineMetric</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" kindref="member">MR_FillHoleMetric_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="117" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="117" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="117" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="117" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a8c52693db7fce614c8f22c0ac52c6860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API const MR_FillHoleMetric * MR_FillHoleMetric_OffsetPtr</definition>
         <argsstring>(const MR_FillHoleMetric *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FillHoleMetric_OffsetPtr</name>
@@ -431,10 +379,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="121" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="121" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="121" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="121" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1ad4b9581c7b636fd68221234613ae39e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_FillHoleMetric_OffsetMutablePtr</definition>
         <argsstring>(MR_FillHoleMetric *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FillHoleMetric_OffsetMutablePtr</name>
@@ -453,15 +401,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="125" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="125" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="125" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="125" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a84c44bec98e2831e912f87be37392a9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_FillHoleMetric_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_FillHoleMetric *_other)</argsstring>
         <name>MR_FillHoleMetric_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -475,10 +423,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="130" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="130" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="130" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="130" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FillHoleMetric_Destroy</definition>
         <argsstring>(const MR_FillHoleMetric *_this)</argsstring>
         <name>MR_FillHoleMetric_Destroy</name>
@@ -487,16 +435,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FillHoleMetric</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="133" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="133" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1ac20a33ca1a42cbb5f2b96ac0fac68c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FillHoleMetric_DestroyArray</definition>
         <argsstring>(const MR_FillHoleMetric *_this)</argsstring>
         <name>MR_FillHoleMetric_DestroyArray</name>
@@ -505,16 +453,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FillHoleMetric</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="136" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="136" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a6b3959d486119a751602be97fee149df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_FillHoleMetric_AssignFromAnother</definition>
         <argsstring>(MR_FillHoleMetric *_this, MR_PassBy _other_pass_by, MR_FillHoleMetric *_other)</argsstring>
         <name>MR_FillHoleMetric_AssignFromAnother</name>
@@ -523,7 +471,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -533,14 +481,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FillHoleMetric::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FillHoleMetric::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="143" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="143" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="143" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="143" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a7b71317d0a1586b2e8f003adb2e7f078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
         <definition>MRC_API double MR_calcCombinedFillMetric</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_FaceBitSet *filledRegion, const MR_FillHoleMetric *metric)</argsstring>
         <name>MR_calcCombinedFillMetric</name>
@@ -563,10 +511,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="150" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="150" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="150" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="150" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a158c91c4a9b7800ea95b6705c2f347b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getCircumscribedMetric</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_getCircumscribedMetric</name>
@@ -581,10 +529,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="157" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="157" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="157" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="157" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1ab71c036a267af3a7e898c3c21148026c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getPlaneFillMetric</definition>
         <argsstring>(const MR_Mesh *mesh, MR_EdgeId e)</argsstring>
         <name>MR_getPlaneFillMetric</name>
@@ -603,10 +551,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="164" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="164" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="164" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="164" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1adaae815ac44bf8dce1f9aad9c4a26dcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getPlaneNormalizedFillMetric</definition>
         <argsstring>(const MR_Mesh *mesh, MR_EdgeId e)</argsstring>
         <name>MR_getPlaneNormalizedFillMetric</name>
@@ -625,10 +573,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="172" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="172" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="172" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="172" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1aefc62aea7e5a1b086fb753fbe48331f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getComplexStitchMetric</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_getComplexStitchMetric</name>
@@ -646,10 +594,10 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="182" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="182" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="182" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="182" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a5de00984b816a5b8b8de40ed707286fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getEdgeLengthFillMetric</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_getEdgeLengthFillMetric</name>
@@ -664,10 +612,10 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="188" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="188" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="188" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="188" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1af591af0c2046f584d4c811ef697e02ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getEdgeLengthStitchMetric</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_getEdgeLengthStitchMetric</name>
@@ -683,10 +631,10 @@ Simple metric minimizing edge length Generated from function <computeroutput>MR:
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="195" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="195" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="195" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="195" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a3a979abf093be13d558b0b52a9da4782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getVerticalStitchMetric</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_Vector3f *upDir)</argsstring>
         <name>MR_getVerticalStitchMetric</name>
@@ -707,10 +655,10 @@ All new faces should be parallel to given direction Generated from function <com
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="204" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="204" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="204" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="204" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a03b966e94e50d0ba90f5dafcf8257bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getVerticalStitchMetricEdgeBased</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_Vector3f *upDir)</argsstring>
         <name>MR_getVerticalStitchMetricEdgeBased</name>
@@ -731,10 +679,10 @@ All new faces should be parallel to given direction Generated from function <com
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="213" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="213" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="213" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="213" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1aa2bd61ec3e5e7cbbb3eb21e2d9261f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getComplexFillMetric</definition>
         <argsstring>(const MR_Mesh *mesh, MR_EdgeId e)</argsstring>
         <name>MR_getComplexFillMetric</name>
@@ -756,10 +704,10 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="223" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="223" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="223" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="223" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a01dafe635ce14b8635a07ee9bb631039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getParallelPlaneFillMetric</definition>
         <argsstring>(const MR_Mesh *mesh, MR_EdgeId e, const MR_Plane3f *plane)</argsstring>
         <name>MR_getParallelPlaneFillMetric</name>
@@ -782,10 +730,10 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="230" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="230" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="230" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="230" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a4056afa79de9414e524f4e5d55ab53a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getMaxDihedralAngleMetric</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_getMaxDihedralAngleMetric</name>
@@ -800,10 +748,10 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="237" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="237" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="237" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="237" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a34e8e448e50bdff6125aafa6259af546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getUniversalMetric</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_getUniversalMetric</name>
@@ -818,10 +766,10 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="249" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="249" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="249" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="249" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a6aa4fe43c494a434394c749d73d3d092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getMinTriAngleMetric</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_getMinTriAngleMetric</name>
@@ -836,10 +784,10 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="255" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="255" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="255" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="255" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshMetrics_8h_1a80e75edc0a953ff704c014233f482d81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref> *</type>
         <definition>MRC_API MR_FillHoleMetric * MR_getMinAreaMetric</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_getMinAreaMetric</name>
@@ -854,7 +802,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" line="262" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h" declline="262" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" line="262" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h" declline="262" declcolumn="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -865,8 +813,8 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -874,87 +822,87 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMeshMetrics_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRMeshMetrics_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRMeshMetrics_8h_1aa7548d3448b3b7da1ea96433fe902e9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlane3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRMeshMetrics_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlane3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_double_from_MR_VertId_MR_VertId_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_double_from_double_double.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRMeshMetrics_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRMeshMetrics_8h_1a4cad29150e907c7f3c126e12082bafa4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a4cad29150e907c7f3c126e12082bafa4" kindref="member">MR_FillHoleMetric_Get_triangleMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="MRMeshMetrics_8h_1a4cad29150e907c7f3c126e12082bafa4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a4cad29150e907c7f3c126e12082bafa4" kindref="member">MR_FillHoleMetric_Get_triangleMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRMeshMetrics_8h_1ac9cf9ea32ba1011c50b106a409147f27" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1ac9cf9ea32ba1011c50b106a409147f27" kindref="member">MR_FillHoleMetric_Set_triangleMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="51" refid="MRMeshMetrics_8h_1ac9cf9ea32ba1011c50b106a409147f27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1ac9cf9ea32ba1011c50b106a409147f27" kindref="member">MR_FillHoleMetric_Set_triangleMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRMeshMetrics_8h_1a0fe67e9cfbb2c6bfa7d2260baa132b48" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a0fe67e9cfbb2c6bfa7d2260baa132b48" kindref="member">MR_FillHoleMetric_GetMutable_triangleMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58" refid="MRMeshMetrics_8h_1a0fe67e9cfbb2c6bfa7d2260baa132b48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a0fe67e9cfbb2c6bfa7d2260baa132b48" kindref="member">MR_FillHoleMetric_GetMutable_triangleMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRMeshMetrics_8h_1abd1eb6744b5303d9f51cd858f3fdc85e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*<ref refid="MRMeshMetrics_8h_1abd1eb6744b5303d9f51cd858f3fdc85e" kindref="member">MR_FillHoleMetric_Get_edgeMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65" refid="MRMeshMetrics_8h_1abd1eb6744b5303d9f51cd858f3fdc85e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*<ref refid="MRMeshMetrics_8h_1abd1eb6744b5303d9f51cd858f3fdc85e" kindref="member">MR_FillHoleMetric_Get_edgeMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRMeshMetrics_8h_1afbae1e0b178e7bbcf5d536de0dbc2b66" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1afbae1e0b178e7bbcf5d536de0dbc2b66" kindref="member">MR_FillHoleMetric_Set_edgeMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="72" refid="MRMeshMetrics_8h_1afbae1e0b178e7bbcf5d536de0dbc2b66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1afbae1e0b178e7bbcf5d536de0dbc2b66" kindref="member">MR_FillHoleMetric_Set_edgeMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRMeshMetrics_8h_1a247e78d3d1409f98e70a213295ad7369" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a247e78d3d1409f98e70a213295ad7369" kindref="member">MR_FillHoleMetric_GetMutable_edgeMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="79" refid="MRMeshMetrics_8h_1a247e78d3d1409f98e70a213295ad7369" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a247e78d3d1409f98e70a213295ad7369" kindref="member">MR_FillHoleMetric_GetMutable_edgeMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRMeshMetrics_8h_1ae81990365d353dfa21b128574fcc74dd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/>*<ref refid="MRMeshMetrics_8h_1ae81990365d353dfa21b128574fcc74dd" kindref="member">MR_FillHoleMetric_Get_combineMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="86" refid="MRMeshMetrics_8h_1ae81990365d353dfa21b128574fcc74dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/>*<ref refid="MRMeshMetrics_8h_1ae81990365d353dfa21b128574fcc74dd" kindref="member">MR_FillHoleMetric_Get_combineMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRMeshMetrics_8h_1aaa2f28198abc94ed4feca25d2cb76026" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1aaa2f28198abc94ed4feca25d2cb76026" kindref="member">MR_FillHoleMetric_Set_combineMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="93" refid="MRMeshMetrics_8h_1aaa2f28198abc94ed4feca25d2cb76026" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1aaa2f28198abc94ed4feca25d2cb76026" kindref="member">MR_FillHoleMetric_Set_combineMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRMeshMetrics_8h_1aeb96f036128ae6d21ff09044374b0000" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/>*<ref refid="MRMeshMetrics_8h_1aeb96f036128ae6d21ff09044374b0000" kindref="member">MR_FillHoleMetric_GetMutable_combineMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100" refid="MRMeshMetrics_8h_1aeb96f036128ae6d21ff09044374b0000" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/>*<ref refid="MRMeshMetrics_8h_1aeb96f036128ae6d21ff09044374b0000" kindref="member">MR_FillHoleMetric_GetMutable_combineMetric</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRMeshMetrics_8h_1a2bc9541c5eb7a42e9ec24b01323bd074" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a2bc9541c5eb7a42e9ec24b01323bd074" kindref="member">MR_FillHoleMetric_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104" refid="MRMeshMetrics_8h_1a2bc9541c5eb7a42e9ec24b01323bd074" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a2bc9541c5eb7a42e9ec24b01323bd074" kindref="member">MR_FillHoleMetric_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRMeshMetrics_8h_1a2e3eabc84e6ba7fb1b0cd7fca4af15ec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a2e3eabc84e6ba7fb1b0cd7fca4af15ec" kindref="member">MR_FillHoleMetric_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="109" refid="MRMeshMetrics_8h_1a2e3eabc84e6ba7fb1b0cd7fca4af15ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a2e3eabc84e6ba7fb1b0cd7fca4af15ec" kindref="member">MR_FillHoleMetric_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRMeshMetrics_8h_1a7186a6c24450edafe0858f814e2cac54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a7186a6c24450edafe0858f814e2cac54" kindref="member">MR_FillHoleMetric_ConstructFrom</ref>(MR_PassBy<sp/>triangleMetric_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*triangleMetric,<sp/>MR_PassBy<sp/>edgeMetric_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*edgeMetric,<sp/>MR_PassBy<sp/>combineMetric_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/>*combineMetric);</highlight></codeline>
+<codeline lineno="117" refid="MRMeshMetrics_8h_1a7186a6c24450edafe0858f814e2cac54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a7186a6c24450edafe0858f814e2cac54" kindref="member">MR_FillHoleMetric_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>triangleMetric_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a87eeba6b560f3de5ecc94f45d2a1c544" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*triangleMetric,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>edgeMetric_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a2a7e17005e1f25c015aa2982a2d269fd" kindref="member">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</ref><sp/>*edgeMetric,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>combineMetric_pass_by,<sp/><ref refid="MRMeshMetrics_8h_1a141615b33916c2ac26def367006324c9" kindref="member">MR_std_function_double_from_double_double</ref><sp/>*combineMetric);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRMeshMetrics_8h_1a8c52693db7fce614c8f22c0ac52c6860" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a8c52693db7fce614c8f22c0ac52c6860" kindref="member">MR_FillHoleMetric_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="121" refid="MRMeshMetrics_8h_1a8c52693db7fce614c8f22c0ac52c6860" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a8c52693db7fce614c8f22c0ac52c6860" kindref="member">MR_FillHoleMetric_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRMeshMetrics_8h_1ad4b9581c7b636fd68221234613ae39e6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1ad4b9581c7b636fd68221234613ae39e6" kindref="member">MR_FillHoleMetric_OffsetMutablePtr</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="125" refid="MRMeshMetrics_8h_1ad4b9581c7b636fd68221234613ae39e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1ad4b9581c7b636fd68221234613ae39e6" kindref="member">MR_FillHoleMetric_OffsetMutablePtr</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRMeshMetrics_8h_1a84c44bec98e2831e912f87be37392a9b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a84c44bec98e2831e912f87be37392a9b" kindref="member">MR_FillHoleMetric_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="130" refid="MRMeshMetrics_8h_1a84c44bec98e2831e912f87be37392a9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a84c44bec98e2831e912f87be37392a9b" kindref="member">MR_FillHoleMetric_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" kindref="member">MR_FillHoleMetric_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133" refid="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" kindref="member">MR_FillHoleMetric_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRMeshMetrics_8h_1ac20a33ca1a42cbb5f2b96ac0fac68c21" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1ac20a33ca1a42cbb5f2b96ac0fac68c21" kindref="member">MR_FillHoleMetric_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136" refid="MRMeshMetrics_8h_1ac20a33ca1a42cbb5f2b96ac0fac68c21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1ac20a33ca1a42cbb5f2b96ac0fac68c21" kindref="member">MR_FillHoleMetric_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="MRMeshMetrics_8h_1a6b3959d486119a751602be97fee149df" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a6b3959d486119a751602be97fee149df" kindref="member">MR_FillHoleMetric_AssignFromAnother</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="143" refid="MRMeshMetrics_8h_1a6b3959d486119a751602be97fee149df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a6b3959d486119a751602be97fee149df" kindref="member">MR_FillHoleMetric_AssignFromAnother</ref>(<ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRMeshMetrics_8h_1a7b71317d0a1586b2e8f003adb2e7f078" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1a7b71317d0a1586b2e8f003adb2e7f078" kindref="member">MR_calcCombinedFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*filledRegion,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*metric);</highlight></codeline>
+<codeline lineno="150" refid="MRMeshMetrics_8h_1a7b71317d0a1586b2e8f003adb2e7f078" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRMeshMetrics_8h_1a7b71317d0a1586b2e8f003adb2e7f078" kindref="member">MR_calcCombinedFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*filledRegion,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*metric);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRMeshMetrics_8h_1a158c91c4a9b7800ea95b6705c2f347b7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a158c91c4a9b7800ea95b6705c2f347b7" kindref="member">MR_getCircumscribedMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="157" refid="MRMeshMetrics_8h_1a158c91c4a9b7800ea95b6705c2f347b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a158c91c4a9b7800ea95b6705c2f347b7" kindref="member">MR_getCircumscribedMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRMeshMetrics_8h_1ab71c036a267af3a7e898c3c21148026c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1ab71c036a267af3a7e898c3c21148026c" kindref="member">MR_getPlaneFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
+<codeline lineno="164" refid="MRMeshMetrics_8h_1ab71c036a267af3a7e898c3c21148026c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1ab71c036a267af3a7e898c3c21148026c" kindref="member">MR_getPlaneFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRMeshMetrics_8h_1adaae815ac44bf8dce1f9aad9c4a26dcd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1adaae815ac44bf8dce1f9aad9c4a26dcd" kindref="member">MR_getPlaneNormalizedFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
+<codeline lineno="172" refid="MRMeshMetrics_8h_1adaae815ac44bf8dce1f9aad9c4a26dcd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1adaae815ac44bf8dce1f9aad9c4a26dcd" kindref="member">MR_getPlaneNormalizedFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRMeshMetrics_8h_1aefc62aea7e5a1b086fb753fbe48331f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1aefc62aea7e5a1b086fb753fbe48331f3" kindref="member">MR_getComplexStitchMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="182" refid="MRMeshMetrics_8h_1aefc62aea7e5a1b086fb753fbe48331f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1aefc62aea7e5a1b086fb753fbe48331f3" kindref="member">MR_getComplexStitchMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRMeshMetrics_8h_1a5de00984b816a5b8b8de40ed707286fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a5de00984b816a5b8b8de40ed707286fd" kindref="member">MR_getEdgeLengthFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="188" refid="MRMeshMetrics_8h_1a5de00984b816a5b8b8de40ed707286fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a5de00984b816a5b8b8de40ed707286fd" kindref="member">MR_getEdgeLengthFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRMeshMetrics_8h_1af591af0c2046f584d4c811ef697e02ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1af591af0c2046f584d4c811ef697e02ac" kindref="member">MR_getEdgeLengthStitchMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="195" refid="MRMeshMetrics_8h_1af591af0c2046f584d4c811ef697e02ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1af591af0c2046f584d4c811ef697e02ac" kindref="member">MR_getEdgeLengthStitchMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRMeshMetrics_8h_1a3a979abf093be13d558b0b52a9da4782" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a3a979abf093be13d558b0b52a9da4782" kindref="member">MR_getVerticalStitchMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*upDir);</highlight></codeline>
+<codeline lineno="204" refid="MRMeshMetrics_8h_1a3a979abf093be13d558b0b52a9da4782" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a3a979abf093be13d558b0b52a9da4782" kindref="member">MR_getVerticalStitchMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*upDir);</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRMeshMetrics_8h_1a03b966e94e50d0ba90f5dafcf8257bc7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a03b966e94e50d0ba90f5dafcf8257bc7" kindref="member">MR_getVerticalStitchMetricEdgeBased</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*upDir);</highlight></codeline>
+<codeline lineno="213" refid="MRMeshMetrics_8h_1a03b966e94e50d0ba90f5dafcf8257bc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a03b966e94e50d0ba90f5dafcf8257bc7" kindref="member">MR_getVerticalStitchMetricEdgeBased</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*upDir);</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MRMeshMetrics_8h_1aa2bd61ec3e5e7cbbb3eb21e2d9261f1c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1aa2bd61ec3e5e7cbbb3eb21e2d9261f1c" kindref="member">MR_getComplexFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
+<codeline lineno="223" refid="MRMeshMetrics_8h_1aa2bd61ec3e5e7cbbb3eb21e2d9261f1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1aa2bd61ec3e5e7cbbb3eb21e2d9261f1c" kindref="member">MR_getComplexFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRMeshMetrics_8h_1a01dafe635ce14b8635a07ee9bb631039" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a01dafe635ce14b8635a07ee9bb631039" kindref="member">MR_getParallelPlaneFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane);</highlight></codeline>
+<codeline lineno="230" refid="MRMeshMetrics_8h_1a01dafe635ce14b8635a07ee9bb631039" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a01dafe635ce14b8635a07ee9bb631039" kindref="member">MR_getParallelPlaneFillMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane);</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRMeshMetrics_8h_1a4056afa79de9414e524f4e5d55ab53a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a4056afa79de9414e524f4e5d55ab53a2" kindref="member">MR_getMaxDihedralAngleMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="237" refid="MRMeshMetrics_8h_1a4056afa79de9414e524f4e5d55ab53a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a4056afa79de9414e524f4e5d55ab53a2" kindref="member">MR_getMaxDihedralAngleMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="249" refid="MRMeshMetrics_8h_1a34e8e448e50bdff6125aafa6259af546" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a34e8e448e50bdff6125aafa6259af546" kindref="member">MR_getUniversalMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="249" refid="MRMeshMetrics_8h_1a34e8e448e50bdff6125aafa6259af546" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a34e8e448e50bdff6125aafa6259af546" kindref="member">MR_getUniversalMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255" refid="MRMeshMetrics_8h_1a6aa4fe43c494a434394c749d73d3d092" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a6aa4fe43c494a434394c749d73d3d092" kindref="member">MR_getMinTriAngleMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="255" refid="MRMeshMetrics_8h_1a6aa4fe43c494a434394c749d73d3d092" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a6aa4fe43c494a434394c749d73d3d092" kindref="member">MR_getMinTriAngleMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="256"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRMeshMetrics_8h_1a80e75edc0a953ff704c014233f482d81" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a80e75edc0a953ff704c014233f482d81" kindref="member">MR_getMinAreaMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="262" refid="MRMeshMetrics_8h_1a80e75edc0a953ff704c014233f482d81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshMetrics_8h_1a80e75edc0a953ff704c014233f482d81" kindref="member">MR_getMinAreaMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="263"><highlight class="normal"></highlight></codeline>
 <codeline lineno="264"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="265"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshMetrics.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshMetrics.h"/>
   </compounddef>
 </doxygen>

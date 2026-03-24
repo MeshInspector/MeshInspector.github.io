@@ -12,8 +12,8 @@ var MRVoxelsVolume_8cs =
     [ "MR.VoxelsVolume_MRFloatGrid", "classMR_1_1VoxelsVolume__MRFloatGrid.html", "classMR_1_1VoxelsVolume__MRFloatGrid" ],
     [ "MR.VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId.html", "classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId" ],
     [ "MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", "classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId" ],
-    [ "MR.VoxelTraits_StdFunctionFloatFuncFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionFloatFuncFromConstMRVector3iRef.html", "classMR_1_1VoxelTraits__StdFunctionFloatFuncFromConstMRVector3iRef" ],
-    [ "MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef.html", "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef" ],
+    [ "MR.VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html", "classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef" ],
+    [ "MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html", "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef" ],
     [ "MR.VoxelTraits_MRVoxelBitSet", "classMR_1_1VoxelTraits__MRVoxelBitSet.html", "classMR_1_1VoxelTraits__MRVoxelBitSet" ],
     [ "MR.VoxelTraits_MRFloatGrid", "classMR_1_1VoxelTraits__MRFloatGrid.html", "classMR_1_1VoxelTraits__MRFloatGrid" ]
 ];

@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FastWindingNumber" kind="class" language="C++" prot="public">
     <compoundname>MR::FastWindingNumber</compoundname>
     <basecompoundref refid="classMR_1_1IFastWindingNumber" prot="public" virt="non-virtual">MR::IFastWindingNumber</basecompoundref>
-    <includes refid="MRFastWindingNumber_8h" local="no">MRFastWindingNumber.h</includes>
+    <includes refid="MRFastWindingNumber_8h" local="no">MRMesh/MRFastWindingNumber.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaf77abe1fbfbd40c8bd6dcaf35db1aa14" kind="variable"><name>mesh_</name></member>
       <member refid="group__GeneralGroup_1gaa47491aa7ed9a5fdef4a5324c9979280" kind="variable"><name>tree_</name></member>
       <member refid="group__GeneralGroup_1ga7be8f8dc0a1453e22e0da8a063c5662d" kind="variable"><name>dipoles_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga6af89b7c93e4591719b2ffd0eeeffd07" kind="function"><name>FastWindingNumber</name></member>
-      <member refid="group__GeneralGroup_1gaf82a0cdae2d3f0021d770000203f1c3d" kind="function"><name>calcFromVector</name></member>
-      <member refid="group__GeneralGroup_1gada34ead58fe4909d1eca8f4abd41743d" kind="function"><name>calcSelfIntersections</name></member>
-      <member refid="group__GeneralGroup_1ga186f894c032c3bdf71d61355cbe9056d" kind="function"><name>calcFromGrid</name></member>
-      <member refid="group__GeneralGroup_1ga67a65bbf1fec70506c8d72c72446d653" kind="function"><name>calcWithDistances</name></member>
-      <member refid="group__GeneralGroup_1gaca960465c3521aa3c3a87ca39dc7d94a" kind="function"><name>calcFromGridWithDistances</name></member>
+      <member refid="group__GeneralGroup_1ga90b9d5c62d0d6463de99213ab8ef902f" kind="function"><name>FastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga47037ab20d307d7d5cec6c6ccdfecb2f" kind="function"><name>calcFromVector</name></member>
+      <member refid="group__GeneralGroup_1gab4b86b9ac5cf64724d0d5a51eef5905c" kind="function"><name>calcSelfIntersections</name></member>
+      <member refid="group__GeneralGroup_1ga1dfcd2ac54d392958b88fdddedbdfbbc" kind="function"><name>calcFromGrid</name></member>
+      <member refid="group__GeneralGroup_1ga4aa071fd6b623fca1cd12ffefee231a4" kind="function"><name>calcWithDistances</name></member>
+      <member refid="group__GeneralGroup_1ga12359d96784505cbfeca781364a909e6" kind="function"><name>calcFromGridWithDistances</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gaa9edda8988faaa5628273baa36cadccd" kind="function"><name>calc_</name></member>
@@ -50,16 +50,16 @@
         <link refid="classMR_1_1IFastWindingNumber"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="58" bodyend="77"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="57" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="58" bodyend="77"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa9edda8988faaa5628273baa36cadccd" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>calc_</name></member>
-      <member refid="group__GeneralGroup_1ga186f894c032c3bdf71d61355cbe9056d" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromGrid</name></member>
-      <member refid="group__GeneralGroup_1gaca960465c3521aa3c3a87ca39dc7d94a" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
-      <member refid="group__GeneralGroup_1gaf82a0cdae2d3f0021d770000203f1c3d" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromVector</name></member>
-      <member refid="group__GeneralGroup_1gada34ead58fe4909d1eca8f4abd41743d" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcSelfIntersections</name></member>
-      <member refid="group__GeneralGroup_1ga67a65bbf1fec70506c8d72c72446d653" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>calcWithDistances</name></member>
+      <member refid="group__GeneralGroup_1ga1dfcd2ac54d392958b88fdddedbdfbbc" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromGrid</name></member>
+      <member refid="group__GeneralGroup_1ga12359d96784505cbfeca781364a909e6" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
+      <member refid="group__GeneralGroup_1ga47037ab20d307d7d5cec6c6ccdfecb2f" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromVector</name></member>
+      <member refid="group__GeneralGroup_1gab4b86b9ac5cf64724d0d5a51eef5905c" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcSelfIntersections</name></member>
+      <member refid="group__GeneralGroup_1ga4aa071fd6b623fca1cd12ffefee231a4" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>calcWithDistances</name></member>
       <member refid="group__GeneralGroup_1ga7be8f8dc0a1453e22e0da8a063c5662d" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>dipoles_</name></member>
-      <member refid="group__GeneralGroup_1ga6af89b7c93e4591719b2ffd0eeeffd07" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>FastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga90b9d5c62d0d6463de99213ab8ef902f" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>FastWindingNumber</name></member>
       <member refid="group__GeneralGroup_1gaf77abe1fbfbd40c8bd6dcaf35db1aa14" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>mesh_</name></member>
       <member refid="group__GeneralGroup_1gaa47491aa7ed9a5fdef4a5324c9979280" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>tree_</name></member>
       <member refid="group__GeneralGroup_1gaefefcab706e99f050565aa3492015547" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>~IFastWindingNumber</name></member>

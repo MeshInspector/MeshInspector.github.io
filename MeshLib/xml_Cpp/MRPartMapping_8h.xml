@@ -1,68 +1,122 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPartMapping_8h" kind="file" language="C++">
     <compoundname>MRPartMapping.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
-    <includedby refid="MRMeshTopology_8h" local="yes">MRMeshTopology.h</includedby>
-    <includedby refid="MROffset_8h" local="yes">MROffset.h</includedby>
-    <includedby refid="MRPartMappingAdapters_8h" local="yes">MRPartMappingAdapters.h</includedby>
-    <includedby refid="MRVoxelsConversionsByParts_8h" local="yes">MRVoxelsConversionsByParts.h</includedby>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includedby refid="MRMeshTopology_8h" local="yes">MRMesh/MRMeshTopology.h</includedby>
+    <includedby refid="MRPartMappingAdapters_8h" local="yes">MRMesh/MRPartMappingAdapters.h</includedby>
+    <includedby refid="MROffset_8h" local="yes">MRVoxels/MROffset.h</includedby>
+    <includedby refid="MRVoxelsConversionsByParts_8h" local="yes">MRVoxels/MRVoxelsConversionsByParts.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
       <node id="1">
-        <label>MRPartMapping.h</label>
+        <label>MRMesh/MRPartMapping.h</label>
         <link refid="MRPartMapping_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="10">
-        <label>MRCudaFastWindingNumber.h</label>
+      <node id="7">
+        <label>MRCuda/MRCudaFastWindingNumber.h</label>
         <link refid="MRCudaFastWindingNumber_8h"/>
       </node>
-      <node id="11">
-        <label>MRCudaMeshDistanceMap.h</label>
+      <node id="8">
+        <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
       </node>
-      <node id="12">
-        <label>MRCudaSolarRadiation.h</label>
+      <node id="9">
+        <label>MRCuda/MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
       </node>
-      <node id="7">
-        <label>MRAddNoise.h</label>
+      <node id="10">
+        <label>MRMesh/MRAddNoise.h</label>
         <link refid="MRAddNoise_8h"/>
       </node>
-      <node id="8">
-        <label>MRChangeMeshAction.h</label>
+      <node id="11">
+        <label>MRMesh/MRChangeMeshAction.h</label>
         <link refid="MRChangeMeshAction_8h"/>
       </node>
       <node id="3">
-        <label>MREdgeIterator.h</label>
+        <label>MRMesh/MREdgeIterator.h</label>
         <link refid="MREdgeIterator_8h"/>
       </node>
       <node id="4">
-        <label>MREdgeLengthMesh.h</label>
+        <label>MRMesh/MREdgeLengthMesh.h</label>
         <link refid="MREdgeLengthMesh_8h"/>
       </node>
-      <node id="13">
-        <label>MREdgePathsBuilder.h</label>
+      <node id="12">
+        <label>MRMesh/MREdgePathsBuilder.h</label>
         <link refid="MREdgePathsBuilder_8h"/>
       </node>
-      <node id="14">
-        <label>MREmbedTerrainStructure.h</label>
+      <node id="13">
+        <label>MRMesh/MREmbedTerrainStructure.h</label>
         <link refid="MREmbedTerrainStructure_8h"/>
       </node>
-      <node id="15">
-        <label>MRMakeSphereMesh.h</label>
+      <node id="14">
+        <label>MRMesh/MRMakeSphereMesh.h</label>
         <link refid="MRMakeSphereMesh_8h"/>
-        <childnode refid="16" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>MRMesh.h</label>
+        <label>MRMesh/MRMesh.h</label>
         <link refid="MRMesh_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -80,7 +134,7 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
@@ -111,48 +165,48 @@
         <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="17">
-        <label>MRMeshBoolean.h</label>
+      <node id="16">
+        <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
-      <node id="18">
-        <label>MRMeshBooleanFacade.h</label>
+      <node id="17">
+        <label>MRMesh/MRMeshBooleanFacade.h</label>
         <link refid="MRMeshBooleanFacade_8h"/>
       </node>
-      <node id="20">
-        <label>MRMeshBuilder.h</label>
+      <node id="18">
+        <label>MRMesh/MRMeshBuilder.h</label>
         <link refid="MRMeshBuilder_8h"/>
       </node>
-      <node id="21">
-        <label>MRMeshDecimateCallbacks.h</label>
+      <node id="19">
+        <label>MRMesh/MRMeshDecimateCallbacks.h</label>
         <link refid="MRMeshDecimateCallbacks_8h"/>
       </node>
       <node id="32">
-        <label>MRMeshDiff.h</label>
+        <label>MRMesh/MRMeshDiff.h</label>
         <link refid="MRMeshDiff_8h"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="22">
-        <label>MRMeshLoadObj.h</label>
+      <node id="20">
+        <label>MRMesh/MRMeshLoadObj.h</label>
         <link refid="MRMeshLoadObj_8h"/>
       </node>
       <node id="5">
-        <label>MRMeshMath.h</label>
+        <label>MRMesh/MRMeshMath.h</label>
         <link refid="MRMeshMath_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="23">
-        <label>MRMeshSaveObj.h</label>
+      <node id="21">
+        <label>MRMesh/MRMeshSaveObj.h</label>
         <link refid="MRMeshSaveObj_8h"/>
       </node>
-      <node id="24">
-        <label>MRMeshSubdivideCallbacks.h</label>
+      <node id="22">
+        <label>MRMesh/MRMeshSubdivideCallbacks.h</label>
         <link refid="MRMeshSubdivideCallbacks_8h"/>
       </node>
       <node id="2">
-        <label>MRMeshTopology.h</label>
+        <label>MRMesh/MRMeshTopology.h</label>
         <link refid="MRMeshTopology_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -166,83 +220,83 @@
         </childnode>
       </node>
       <node id="31">
-        <label>MRMeshTopologyDiff.h</label>
+        <label>MRMesh/MRMeshTopologyDiff.h</label>
         <link refid="MRMeshTopologyDiff_8h"/>
         <childnode refid="32" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRPartMapping.h</label>
+        <label>MRMesh/MRPartMapping.h</label>
         <link refid="MRPartMapping_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
       </node>
-      <node id="36">
-        <label>MRPartMappingAdapters.h</label>
+      <node id="34">
+        <label>MRMesh/MRPartMappingAdapters.h</label>
         <link refid="MRPartMappingAdapters_8h"/>
       </node>
-      <node id="25">
-        <label>MRPartialChangeMeshAction.h</label>
+      <node id="23">
+        <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
-      <node id="26">
-        <label>MRPointCloudTriangulation.h</label>
+      <node id="24">
+        <label>MRMesh/MRPointCloudTriangulation.h</label>
         <link refid="MRPointCloudTriangulation_8h"/>
       </node>
-      <node id="27">
-        <label>MRProjectionMeshAttribute.h</label>
+      <node id="25">
+        <label>MRMesh/MRProjectionMeshAttribute.h</label>
         <link refid="MRProjectionMeshAttribute_8h"/>
       </node>
       <node id="33">
-        <label>MRRingIterator.h</label>
+        <label>MRMesh/MRRingIterator.h</label>
         <link refid="MRRingIterator_8h"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="28">
-        <label>MRTerrainTriangulation.h</label>
+      <node id="26">
+        <label>MRMesh/MRTerrainTriangulation.h</label>
         <link refid="MRTerrainTriangulation_8h"/>
       </node>
-      <node id="16">
-        <label>MRUVSphere.h</label>
+      <node id="15">
+        <label>MRMesh/MRUVSphere.h</label>
         <link refid="MRUVSphere_8h"/>
       </node>
-      <node id="30">
-        <label>MRUniteManyMeshes.h</label>
+      <node id="27">
+        <label>MRMesh/MRUniteManyMeshes.h</label>
         <link refid="MRUniteManyMeshes_8h"/>
       </node>
-      <node id="19">
-        <label>MRMeshBoundarySelectionWidget.h</label>
+      <node id="28">
+        <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="9">
-        <label>MRChangeVoxelsAction.h</label>
+      <node id="29">
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
-      <node id="34">
-        <label>MROffset.h</label>
+      <node id="35">
+        <label>MRVoxels/MROffset.h</label>
         <link refid="MROffset_8h"/>
-        <childnode refid="35" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
       </node>
-      <node id="35">
-        <label>MRPartialOffset.h</label>
+      <node id="36">
+        <label>MRVoxels/MRPartialOffset.h</label>
         <link refid="MRPartialOffset_8h"/>
       </node>
-      <node id="29">
-        <label>MRToolPath.h</label>
+      <node id="30">
+        <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
       <node id="37">
-        <label>MRVoxelsConversionsByParts.h</label>
+        <label>MRVoxels/MRVoxelsConversionsByParts.h</label>
         <link refid="MRVoxelsConversionsByParts_8h"/>
       </node>
     </invincdepgraph>
@@ -255,27 +309,27 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1PartMapping" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref></highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1PartMapping" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceMapOrHashMap<sp/>*<sp/><ref refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" kindref="member">src2tgtFaces</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMapOrHashMap<sp/>*<sp/><ref refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" kindref="member">src2tgtVerts</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>WholeEdgeMapOrHashMap<sp/>*<sp/><ref refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" kindref="member">src2tgtEdges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga23dbcde07009ca26251020b292a2837b" kindref="member">FaceMapOrHashMap</ref><sp/>*<sp/><ref refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" kindref="member">src2tgtFaces</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga595ea07ed87137527c40e85cf045379f" kindref="member">VertMapOrHashMap</ref><sp/>*<sp/><ref refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" kindref="member">src2tgtVerts</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref><sp/>*<sp/><ref refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" kindref="member">src2tgtEdges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1gaf69dd39f60abdd4b769bb948a49a0737" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceMapOrHashMap<sp/>*<sp/><ref refid="group__GeneralGroup_1gaf69dd39f60abdd4b769bb948a49a0737" kindref="member">tgt2srcFaces</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="25" refid="group__GeneralGroup_1ga6061a5bd3cb7c34a5548ea2fd5bb23cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMapOrHashMap<sp/>*<sp/><ref refid="group__GeneralGroup_1ga6061a5bd3cb7c34a5548ea2fd5bb23cc" kindref="member">tgt2srcVerts</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>WholeEdgeMapOrHashMap<sp/>*<sp/><ref refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" kindref="member">tgt2srcEdges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gaf69dd39f60abdd4b769bb948a49a0737" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga23dbcde07009ca26251020b292a2837b" kindref="member">FaceMapOrHashMap</ref><sp/>*<sp/><ref refid="group__GeneralGroup_1gaf69dd39f60abdd4b769bb948a49a0737" kindref="member">tgt2srcFaces</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga6061a5bd3cb7c34a5548ea2fd5bb23cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga595ea07ed87137527c40e85cf045379f" kindref="member">VertMapOrHashMap</ref><sp/>*<sp/><ref refid="group__GeneralGroup_1ga6061a5bd3cb7c34a5548ea2fd5bb23cc" kindref="member">tgt2srcVerts</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref><sp/>*<sp/><ref refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" kindref="member">tgt2srcEdges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="group__GeneralGroup_1ga11973c92bf543a36396d98ec83d6ca52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga11973c92bf543a36396d98ec83d6ca52" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga400bfa8033764f32d164e4a87ecefc41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga400bfa8033764f32d164e4a87ecefc41" kindref="member">clear</ref>();</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h"/>
+    <location file="MRMesh/MRPartMapping.h"/>
   </compounddef>
 </doxygen>

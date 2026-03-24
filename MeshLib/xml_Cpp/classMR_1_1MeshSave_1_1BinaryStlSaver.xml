@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshSave_1_1BinaryStlSaver" kind="class" language="C++" prot="public">
     <compoundname>MR::MeshSave::BinaryStlSaver</compoundname>
-    <includes refid="MRMeshSave_8h" local="no">MRMeshSave.h</includes>
+    <includes refid="MRMeshSave_8h" local="no">MRMesh/MRMeshSave.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a78950026b7307ddd088d899c4324914e" prot="private" static="no" mutable="no">
         <type>std::ostream &amp;</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="65" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="65" column="19" bodyfile="MRMesh/MRMeshSave.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1ac43c0b33f1ec3a94b70d313764abc208" prot="private" static="no" mutable="no">
         <type><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="66" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="66" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="66" column="18" bodyfile="MRMesh/MRMeshSave.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5ed9b4cc5f18796174ed915bdc8d4328" prot="private" static="no" mutable="no">
         <type>std::ostream::pos_type</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="67" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="67" column="28" bodyfile="MRMesh/MRMeshSave.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a688eb121e7934afbcbcce98366452868" prot="private" static="no" mutable="no">
         <type>std::uint32_t</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="68" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="68" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="68" column="19" bodyfile="MRMesh/MRMeshSave.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5a85c100f4154a34e57bb0d6c0a37fa0" prot="private" static="no" mutable="no">
         <type>std::uint32_t</type>
@@ -78,13 +78,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="69" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="69" column="19" bodyfile="MRMesh/MRMeshSave.h" bodystart="69" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a8b13be4885e5257ed1d9da8dd8f89ade" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshSave::BinaryStlSaver::BinaryStlSaver</definition>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a859f9b2c3532df188432fec61a6a2b99" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshSave::BinaryStlSaver::BinaryStlSaver</definition>
         <argsstring>(std::ostream &amp;out, const SaveSettings &amp;settings={}, std::uint32_t expectedNumTris=0)</argsstring>
         <name>BinaryStlSaver</name>
         <qualifiedname>MR::MeshSave::BinaryStlSaver::BinaryStlSaver</qualifiedname>
@@ -109,16 +109,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="52" column="25"/>
+        <location file="MRMesh/MRMeshSave.h" line="52" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1aecf57a5dbf8536ae33209046c0311c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::MeshSave::BinaryStlSaver::writeTri</definition>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a2422df321dd6121589093b939d92a1ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshSave::BinaryStlSaver::writeTri</definition>
         <argsstring>(const Triangle3f &amp;tri)</argsstring>
         <name>writeTri</name>
         <qualifiedname>MR::MeshSave::BinaryStlSaver::writeTri</qualifiedname>
         <param>
-          <type>const Triangle3f &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref> &amp;</type>
           <declname>tri</declname>
         </param>
         <briefdescription>
@@ -128,11 +128,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="55" column="21"/>
+        <location file="MRMesh/MRMeshSave.h" line="55" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a43fa5d1112624a0d82e4f10c1f88d3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::MeshSave::BinaryStlSaver::updateHeadCounter</definition>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1acd906c16c2c822c77b7415473be8e7c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshSave::BinaryStlSaver::updateHeadCounter</definition>
         <argsstring>()</argsstring>
         <name>updateHeadCounter</name>
         <qualifiedname>MR::MeshSave::BinaryStlSaver::updateHeadCounter</qualifiedname>
@@ -143,22 +143,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="59" column="21"/>
+        <location file="MRMesh/MRMeshSave.h" line="59" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a9b84e4f2ca3d6bc68c060051d858bbb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshSave::BinaryStlSaver::~BinaryStlSaver</definition>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a20ed9bc2a6d528a67539a8c8e6b539cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshSave::BinaryStlSaver::~BinaryStlSaver</definition>
         <argsstring>()</argsstring>
         <name>~BinaryStlSaver</name>
         <qualifiedname>MR::MeshSave::BinaryStlSaver::~BinaryStlSaver</qualifiedname>
         <briefdescription>
-<para>calls <ref refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a43fa5d1112624a0d82e4f10c1f88d3ec" kindref="member">updateHeadCounter()</ref>; </para>
+<para>calls <ref refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1acd906c16c2c822c77b7415473be8e7c3" kindref="member">updateHeadCounter()</ref>; </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="62" column="16"/>
+        <location file="MRMesh/MRMeshSave.h" line="62" column="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -166,17 +166,17 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="49" bodyend="70"/>
+    <location file="MRMesh/MRMeshSave.h" line="48" column="1" bodyfile="MRMesh/MRMeshSave.h" bodystart="49" bodyend="70"/>
     <listofallmembers>
-      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a8b13be4885e5257ed1d9da8dd8f89ade" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>BinaryStlSaver</name></member>
+      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a859f9b2c3532df188432fec61a6a2b99" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>BinaryStlSaver</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a688eb121e7934afbcbcce98366452868" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>headNumTris_</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5ed9b4cc5f18796174ed915bdc8d4328" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>numTrisPos_</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a78950026b7307ddd088d899c4324914e" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>out_</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5a85c100f4154a34e57bb0d6c0a37fa0" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>savedNumTris_</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1ac43c0b33f1ec3a94b70d313764abc208" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>settings_</name></member>
-      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a43fa5d1112624a0d82e4f10c1f88d3ec" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>updateHeadCounter</name></member>
-      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1aecf57a5dbf8536ae33209046c0311c7a" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>writeTri</name></member>
-      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a9b84e4f2ca3d6bc68c060051d858bbb7" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>~BinaryStlSaver</name></member>
+      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1acd906c16c2c822c77b7415473be8e7c3" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>updateHeadCounter</name></member>
+      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a2422df321dd6121589093b939d92a1ad" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>writeTri</name></member>
+      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a20ed9bc2a6d528a67539a8c8e6b539cc" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>~BinaryStlSaver</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgePathsAStarBuilder" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgePathsAStarBuilder</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgePathsAStarBuilder</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1844" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1844" bodyend="1851"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1872" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1872" bodyend="1879"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1853" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1853" bodyend="1853"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1881" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1881" bodyend="1881"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -59,13 +59,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder_1a70a64104594575ac1321fec8d28bd596" kindref="member">MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1858" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1858" bodyend="1864"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1886" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1886" bodyend="1892"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1a35e12b00f998d07b98f1439457adaa4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -78,13 +78,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder_1a70a64104594575ac1321fec8d28bd596" kindref="member">MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1869" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1869" bodyend="1869"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1897" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1897" bodyend="1897"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1ae46f64743844b61f370c69dd2adec2f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -97,13 +97,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder_1a70a64104594575ac1321fec8d28bd596" kindref="member">MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1874" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1874" bodyend="1874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1902" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1902" bodyend="1902"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1a97fad1e875104144cbe9579600cb9c47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -124,13 +124,13 @@
           <declname>start</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder_1a70a64104594575ac1321fec8d28bd596" kindref="member">MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1879" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1879" bodyend="1885"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1907" bodyend="1913"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1abe9817a8cd11b03770747a5175bc24b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -151,32 +151,32 @@
           <declname>start</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder_1a70a64104594575ac1321fec8d28bd596" kindref="member">MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1890" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1890" bodyend="1898"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1918" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1918" bodyend="1926"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1ab2dc410d54202db65e8821b9ddd3eec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1ab7564fe763b0d5ea0aab5f19d0855efc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgePathsAStarBuilder.reset</definition>
-        <argsstring>(MR.Std.Const_Function_FloatFuncFromMREdgeId metric)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Float_From_MREdgeId metric)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.EdgePathsAStarBuilder.reset</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_FloatFuncFromMREdgeId</type>
+          <type>MR.Std.Const_Function_Float_From_MREdgeId</type>
           <declname>metric</declname>
         </param>
         <briefdescription>
-<para>clears everything without freeing memory, and sets new metric Generated from method <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder_1ab2dc410d54202db65e8821b9ddd3eec2" kindref="member">MR.EdgePathsAStarBuilder.reset</ref></computeroutput>. </para>
+<para>clears everything without freeing memory, and sets new metric Generated from method <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder_1ab7564fe763b0d5ea0aab5f19d0855efc" kindref="member">MR.EdgePathsAStarBuilder.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1904" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1904" bodyend="1909"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1932" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1932" bodyend="1937"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1aa9649a502978f100a34c2da70a794125" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1916" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1916" bodyend="1921"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1944" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1944" bodyend="1949"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1af0735d447410a3dbdba9294a0128634a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1928" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1928" bodyend="1933"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1956" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1956" bodyend="1961"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1a73af0f7972a7561d5d74e8b18bf0bcdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -233,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1940" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1940" bodyend="1945"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1968" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1968" bodyend="1973"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1af0e220e96205306e292fe51beed7f1c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</type>
@@ -248,57 +248,57 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1951" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1951" bodyend="1956"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1979" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1979" bodyend="1984"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>the class is responsible for finding shortest edge paths on a mesh in Euclidean metric using A* heuristics Generated from class <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder" kindref="compound">MR.EdgePathsAStarBuilder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.EdgePathsBuilderT&lt;<ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref>&gt;</computeroutput> This is the non-const half of the class. </para>
+<para>the class is responsible for finding shortest edge paths on a mesh in Euclidean metric using A* heuristics Generated from class <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder" kindref="compound">MR.EdgePathsAStarBuilder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref>&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_EdgePathsAStarBuilder</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.EdgePathsAStarBuilder</label>
         <link refid="classMR_1_1EdgePathsAStarBuilder"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_EdgePathsAStarBuilder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EdgePathsAStarBuilder &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_EdgePathsAStarBuilder</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.EdgePathsAStarBuilder</label>
         <link refid="classMR_1_1EdgePathsAStarBuilder"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_EdgePathsAStarBuilder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EdgePathsAStarBuilder &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1841" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1842" bodyend="1957"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1869" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1870" bodyend="1985"/>
     <listofallmembers>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1a73af0f7972a7561d5d74e8b18bf0bcdc" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>addOrgRingSteps</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1aa9649a502978f100a34c2da70a794125" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>addStart</name></member>
@@ -311,7 +311,7 @@
       <member refid="classMR_1_1EdgePathsAStarBuilder_1af0e220e96205306e292fe51beed7f1c1" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>growOneEdge</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1a1847c905babf31a4e345d8363b387ac1" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>operator MR.EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1af0735d447410a3dbdba9294a0128634a" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>reachNext</name></member>
-      <member refid="classMR_1_1EdgePathsAStarBuilder_1ab2dc410d54202db65e8821b9ddd3eec2" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>reset</name></member>
+      <member refid="classMR_1_1EdgePathsAStarBuilder_1ab7564fe763b0d5ea0aab5f19d0855efc" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>reset</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

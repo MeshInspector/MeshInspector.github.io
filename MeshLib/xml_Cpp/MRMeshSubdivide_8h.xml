@@ -1,38 +1,54 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshSubdivide_8h" kind="file" language="C++">
     <compoundname>MRMeshSubdivide.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MRConstants_8h" local="yes">MRConstants.h</includes>
     <includes local="no">cfloat</includes>
     <includes local="no">functional</includes>
     <incdepgraph>
-      <node id="10">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRMeshSubdivide.h</label>
-        <link refid="MRMeshSubdivide_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -41,39 +57,65 @@
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="1">
+        <label>MRMesh/MRMeshSubdivide.h</label>
+        <link refid="MRMeshSubdivide_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="7">
+      <node id="6">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="8">
+      <node id="16">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="4">
-        <label>cassert</label>
-      </node>
-      <node id="11">
-        <label>cfloat</label>
-      </node>
-      <node id="5">
-        <label>cmath</label>
+      <node id="7">
+        <label>array</label>
       </node>
       <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cfloat</label>
+      </node>
+      <node id="14">
+        <label>cmath</label>
+      </node>
+      <node id="11">
         <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="9">
         <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1SubdivideSettings" prot="public">MR::SubdivideSettings</innerclass>
@@ -85,7 +127,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRConstants_8h" kindref="compound">MRConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -136,20 +178,20 @@
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83" refid="structMR_1_1SubdivideSettings_1afcfc1a9eeddefe49c96b100fce1be413" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;void(EdgeId<sp/>e1,<sp/>EdgeId<sp/>e)&gt;<sp/><ref refid="structMR_1_1SubdivideSettings_1afcfc1a9eeddefe49c96b100fce1be413" kindref="member">onEdgeSplit</ref>;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" kindref="member">progressCallback</ref>;</highlight></codeline>
+<codeline lineno="86" refid="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" kindref="member">progressCallback</ref>;</highlight></codeline>
 <codeline lineno="87"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" kindref="member">subdivideMesh</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="91" refid="group__MeshSubdivideGroup_1gad5fa6e7eb325d6fac5aae27909ce7d8d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__MeshSubdivideGroup_1gad5fa6e7eb325d6fac5aae27909ce7d8d" kindref="member">subdivideMesh</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="group__MeshSubdivideGroup_1gaf0f7ef934651257fe2a70de0eb1f9b8b" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" kindref="member">subdivideMesh</ref>(<sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref><sp/>&amp;<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="96" refid="group__MeshSubdivideGroup_1gabf1a613bc25bff0bf7b492f3a1a36b1e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__MeshSubdivideGroup_1gad5fa6e7eb325d6fac5aae27909ce7d8d" kindref="member">subdivideMesh</ref>(<sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref><sp/>&amp;<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="group__MeshSubdivideGroup_1ga59a37b275037ffc76fab5916f13e6ecb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__MeshSubdivideGroup_1ga59a37b275037ffc76fab5916f13e6ecb" kindref="member">copySubdividePackMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="100" refid="group__MeshSubdivideGroup_1ga2945f01bc7025b2ea3ee5ae3fdb9d369" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__MeshSubdivideGroup_1ga2945f01bc7025b2ea3ee5ae3fdb9d369" kindref="member">copySubdividePackMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="group__MeshSubdivideGroup_1gaae0359e17d056447a25f6006c825f2f0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref><sp/><ref refid="group__MeshSubdivideGroup_1gaae0359e17d056447a25f6006c825f2f0" kindref="member">makeSubdividedObjectMeshData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref><sp/>&amp;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="103" refid="group__MeshSubdivideGroup_1gacfadb132c513471bfcdc498067ae5207" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref><sp/><ref refid="group__MeshSubdivideGroup_1gacfadb132c513471bfcdc498067ae5207" kindref="member">makeSubdividedObjectMeshData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref><sp/>&amp;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h"/>
+    <location file="MRMesh/MRMeshSubdivide.h"/>
   </compounddef>
 </doxygen>

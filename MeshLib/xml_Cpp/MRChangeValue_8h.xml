@@ -1,42 +1,48 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeValue_8h" kind="file" language="C++">
     <compoundname>MRChangeValue.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
     <includes refid="MRAffineXf3_8h" local="yes">MRAffineXf3.h</includes>
     <includes local="no">memory</includes>
     <incdepgraph>
-      <node id="20">
+      <node id="26">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="14">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangeValue.h</label>
+        <label>MRMesh/MRChangeValue.h</label>
         <link refid="MRChangeValue_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="20">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -45,94 +51,129 @@
         <link refid="MRHistoryAction_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="15">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="7">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="9">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
         <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="14">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="15">
-        <label>algorithm</label>
-      </node>
       <node id="16">
-        <label>cmath</label>
-      </node>
-      <node id="11">
-        <label>cstddef</label>
-      </node>
-      <node id="17">
-        <label>cstring</label>
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
       <node id="4">
-        <label>functional</label>
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="18">
-        <label>iosfwd</label>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="21">
-        <label>memory</label>
+        <label>algorithm</label>
       </node>
-      <node id="5">
-        <label>string</label>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="22">
+        <label>cmath</label>
+      </node>
+      <node id="18">
+        <label>cstddef</label>
+      </node>
+      <node id="23">
+        <label>cstring</label>
       </node>
       <node id="12">
-        <label>type_traits</label>
+        <label>functional</label>
+      </node>
+      <node id="24">
+        <label>iosfwd</label>
+      </node>
+      <node id="27">
+        <label>memory</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
       </node>
       <node id="19">
+        <label>type_traits</label>
+      </node>
+      <node id="25">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1ChangeValue" prot="public">MR::ChangeValue</innerclass>
@@ -151,8 +192,8 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="18" refid="classMR_1_1ChangeValue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeValue" kindref="compound">ChangeValue</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1ChangeValue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3c7d78b1f71f742ade3d4d065d0a09c1" kindref="member">ChangeValue</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1ga3c7d78b1f71f742ade3d4d065d0a09c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3c7d78b1f71f742ade3d4d065d0a09c1" kindref="member">ChangeValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga1ebe31dbc55d650d0de83ae16bfe2e52" kindref="member">name</ref>,<sp/>T*<sp/>currentValue,<sp/>T<sp/>oldValue<sp/>)<sp/>:</highlight></codeline>
@@ -186,6 +227,6 @@
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h"/>
+    <location file="MRMesh/MRChangeValue.h"/>
   </compounddef>
 </doxygen>

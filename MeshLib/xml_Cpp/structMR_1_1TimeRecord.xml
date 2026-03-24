@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TimeRecord" kind="struct" language="C++" prot="public">
     <compoundname>MR::TimeRecord</compoundname>
     <basecompoundref refid="structMR_1_1SimpleTimeRecord" prot="public" virt="non-virtual">MR::SimpleTimeRecord</basecompoundref>
     <derivedcompoundref refid="structMR_1_1ThreadRootTimeRecord" prot="public" virt="non-virtual">MR::ThreadRootTimeRecord</derivedcompoundref>
-    <includes refid="MRTimeRecord_8h" local="no">MRTimeRecord.h</includes>
+    <includes refid="MRTimeRecord_8h" local="no">MRMesh/MRTimeRecord.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1TimeRecord_1aa4ecd25889d637813c8abcc75610cf51" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1TimeRecord" kindref="compound">TimeRecord</ref> *</type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="25" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="25" bodyend="-1"/>
+        <location file="MRMesh/MRTimeRecord.h" line="25" column="16" bodyfile="MRMesh/MRTimeRecord.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TimeRecord_1aefc29a1b393cb4e47eec9c964a56b8f9" prot="public" static="no" mutable="no">
         <type>std::map&lt; std::string, <ref refid="structMR_1_1TimeRecord" kindref="compound">TimeRecord</ref> &gt;</type>
@@ -33,13 +33,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="26" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRTimeRecord.h" line="26" column="14" bodyfile="MRMesh/MRTimeRecord.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1TimeRecord_1a7fcf403676ad98c8772e03ebec6d37de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::chrono::nanoseconds</type>
-        <definition>MRMESH_API std::chrono::nanoseconds MR::TimeRecord::childTime</definition>
+      <memberdef kind="function" id="structMR_1_1TimeRecord_1aa1636ed4f889fa0058dc49ddbf33c8ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::chrono::nanoseconds</type>
+        <definition>std::chrono::nanoseconds MR::TimeRecord::childTime</definition>
         <argsstring>() const</argsstring>
         <name>childTime</name>
         <qualifiedname>MR::TimeRecord::childTime</qualifiedname>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="29" column="41"/>
+        <location file="MRMesh/MRTimeRecord.h" line="29" column="31"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1TimeRecord_1ae2011c61063c65e0a8f63688cb97f6af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::chrono::nanoseconds</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="30" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="30" bodyend="30"/>
+        <location file="MRMesh/MRTimeRecord.h" line="30" column="30" bodyfile="MRMesh/MRTimeRecord.h" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1TimeRecord_1a80d3da8e260d6c62716855a674a2bc46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="32" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="32" bodyend="32"/>
+        <location file="MRMesh/MRTimeRecord.h" line="32" column="12" bodyfile="MRMesh/MRTimeRecord.h" bodystart="32" bodyend="32"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -118,10 +118,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="24" bodyend="33"/>
+    <location file="MRMesh/MRTimeRecord.h" line="23" column="1" bodyfile="MRMesh/MRTimeRecord.h" bodystart="24" bodyend="33"/>
     <listofallmembers>
       <member refid="structMR_1_1TimeRecord_1aefc29a1b393cb4e47eec9c964a56b8f9" prot="public" virt="non-virtual"><scope>MR::TimeRecord</scope><name>children</name></member>
-      <member refid="structMR_1_1TimeRecord_1a7fcf403676ad98c8772e03ebec6d37de" prot="public" virt="non-virtual"><scope>MR::TimeRecord</scope><name>childTime</name></member>
+      <member refid="structMR_1_1TimeRecord_1aa1636ed4f889fa0058dc49ddbf33c8ff" prot="public" virt="non-virtual"><scope>MR::TimeRecord</scope><name>childTime</name></member>
       <member refid="structMR_1_1SimpleTimeRecord_1a2baac0fd5930644e7eff1dcb301703ca" prot="public" virt="non-virtual"><scope>MR::TimeRecord</scope><name>count</name></member>
       <member refid="structMR_1_1TimeRecord_1a80d3da8e260d6c62716855a674a2bc46" prot="public" virt="non-virtual"><scope>MR::TimeRecord</scope><name>mySeconds</name></member>
       <member refid="structMR_1_1TimeRecord_1ae2011c61063c65e0a8f63688cb97f6af" prot="public" virt="non-virtual"><scope>MR::TimeRecord</scope><name>myTime</name></member>

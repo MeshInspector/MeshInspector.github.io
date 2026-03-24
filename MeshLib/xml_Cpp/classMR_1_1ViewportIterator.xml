@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportIterator" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewportIterator</compoundname>
-    <includes refid="MRViewportId_8h" local="no">MRViewportId.h</includes>
+    <includes refid="MRViewportId_8h" local="no">MRMesh/MRViewportId.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMR_1_1ViewportIterator_1aa2944b435ff81f96df606712ecf33eb5" prot="public" static="no">
         <type>std::forward_iterator_tag</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="84" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="84" bodyend="-1"/>
+        <location file="MRMesh/MRViewportId.h" line="84" column="5" bodyfile="MRMesh/MRViewportId.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1ViewportIterator_1a05e6775ef16e35a0506ac59006df0e19" prot="public" static="no">
         <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="85" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="85" bodyend="-1"/>
+        <location file="MRMesh/MRViewportId.h" line="85" column="5" bodyfile="MRMesh/MRViewportId.h" bodystart="85" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="115" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="115" bodyend="115"/>
+        <location file="MRMesh/MRViewportId.h" line="115" column="16" bodyfile="MRMesh/MRViewportId.h" bodystart="115" bodyend="115"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ViewportIterator_1a8d58f460238be8da6255c4b65a7d8850" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="116" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="116" bodyend="116"/>
+        <location file="MRMesh/MRViewportId.h" line="116" column="18" bodyfile="MRMesh/MRViewportId.h" bodystart="116" bodyend="116"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="88" column="5"/>
+        <location file="MRMesh/MRViewportId.h" line="88" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportIterator_1a9f84c50cb71ba743d8ca33372fd16566" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="90" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="90" bodyend="94"/>
+        <location file="MRMesh/MRViewportId.h" line="90" column="5" bodyfile="MRMesh/MRViewportId.h" bodystart="90" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportIterator_1a1da127569258f48e6aa775d9d866b29e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1ViewportIterator" kindref="compound">ViewportIterator</ref> &amp;</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="95" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="95" bodyend="99"/>
+        <location file="MRMesh/MRViewportId.h" line="95" column="23" bodyfile="MRMesh/MRViewportId.h" bodystart="95" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportIterator_1a199f537ed2a36abfcb8259122222318a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="100" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="100" bodyend="100"/>
+        <location file="MRMesh/MRViewportId.h" line="100" column="18" bodyfile="MRMesh/MRViewportId.h" bodystart="100" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportIterator_1a6f97d3f576cf064d443b135f305f68ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="101" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="101" bodyend="101"/>
+        <location file="MRMesh/MRViewportId.h" line="101" column="16" bodyfile="MRMesh/MRViewportId.h" bodystart="101" bodyend="101"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="104" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="104" bodyend="108"/>
+        <location file="MRMesh/MRViewportId.h" line="104" column="10" bodyfile="MRMesh/MRViewportId.h" bodystart="104" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportIterator_1a504e23932e8a16d8af20d7d23aef3561" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="109" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="109" bodyend="113"/>
+        <location file="MRMesh/MRViewportId.h" line="109" column="10" bodyfile="MRMesh/MRViewportId.h" bodystart="109" bodyend="113"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -178,7 +178,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="82" bodyend="117"/>
+    <location file="MRMesh/MRViewportId.h" line="81" column="1" bodyfile="MRMesh/MRViewportId.h" bodystart="82" bodyend="117"/>
     <listofallmembers>
       <member refid="classMR_1_1ViewportIterator_1a79c671c67cfe13094bd810195906bd89" prot="private" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>findFirst_</name></member>
       <member refid="classMR_1_1ViewportIterator_1a504e23932e8a16d8af20d7d23aef3561" prot="private" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>findNext_</name></member>

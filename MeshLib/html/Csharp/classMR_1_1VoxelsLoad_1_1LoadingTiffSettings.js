@@ -6,7 +6,7 @@ var classMR_1_1VoxelsLoad_1_1LoadingTiffSettings =
     [ "LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#aa2e1369f72a29e505200df374f82568e", null ],
     [ "LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ab4b516916f9b7426cd679e11126f87a9", null ],
     [ "assign", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ac32410a7b781f846a344e5d5106fe3f7", null ],
-    [ "cb", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a8c9e2fbb60e3cb84d9162344a25fcf6a", null ],
+    [ "cb", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ab6e668acd805999854f47197c4d0f1f8", null ],
     [ "dir", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a86eb8310beeb24ca91e8dffa180cc76b", null ],
     [ "gridType", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a7becbe7a84bbab41f97873542f0f8d25", null ],
     [ "voxelSize", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a06c9bef41746d737f29a57c67d400271", null ]

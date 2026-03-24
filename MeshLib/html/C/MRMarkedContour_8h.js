@@ -1,9 +1,7 @@
 var MRMarkedContour_8h =
 [
-    [ "MR_BitSet", "MRMarkedContour_8h.html#a36d7d5a26d258211a2da5d9311a0798c", null ],
     [ "MR_MarkedContour3f", "MRMarkedContour_8h.html#a74fc20442502926fe31a680e95626571", null ],
     [ "MR_SplineSettings", "MRMarkedContour_8h.html#afd60dec28908f124f45baa30a626fdd7", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRMarkedContour_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
     [ "MR_isClosed_std_vector_MR_Vector3f", "MRMarkedContour_8h.html#a044ee5cd7f3c340f07b4fea5e773949e", null ],
     [ "MR_makeSpline_2", "MRMarkedContour_8h.html#ac0006cadbd64720c62405504180f60d1", null ],
     [ "MR_makeSpline_3_float", "MRMarkedContour_8h.html#a7f4f2f45c4757df6cb3756e6b0fce38f", null ],

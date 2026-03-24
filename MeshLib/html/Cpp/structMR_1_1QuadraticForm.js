@@ -8,8 +8,8 @@ var structMR_1_1QuadraticForm =
     [ "addDistToPlane", "group__GeneralGroup.html#gabd84de324207ec889e01f594968dd8a1", null ],
     [ "addDistToPlane", "group__GeneralGroup.html#gafacdc7d86d21e277ea2c254a90c29b61", null ],
     [ "eval", "group__GeneralGroup.html#gab0c3bc061463b886469241c7c3b17cd2", null ],
-    [ "sum", "group__GeneralGroup.html#ga613642585592285c402e51d9af48651a", null ],
-    [ "sumAt", "group__GeneralGroup.html#gae2db52d249d73990155ac0aee19ecdf7", null ],
+    [ "sum", "group__GeneralGroup.html#ga9daf64aad4fef868e611ff192efae554", null ],
+    [ "sumAt", "group__GeneralGroup.html#gaa13755aec0b01f413e7b38c41ef3c838", null ],
     [ "A", "group__GeneralGroup.html#gaaa0e315bd432a25ff55c9f30b926ffda", null ],
     [ "c", "group__GeneralGroup.html#ga0b59f3e15f491ff0d64f1121a8b0a463", null ]
 ];

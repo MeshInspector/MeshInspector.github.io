@@ -16,6 +16,7 @@ var classMR_1_1FaceScalars =
     [ "data", "classMR_1_1FaceScalars.html#a0a73cf2569c040a302191fbf29f7d68c", null ],
     [ "emplaceBack", "classMR_1_1FaceScalars.html#a3b02b8caf3c18559d6de6afa525b6d7e", null ],
     [ "front", "classMR_1_1FaceScalars.html#a907a28536445b210e50f8900de62ef70", null ],
+    [ "GetEnumerator", "classMR_1_1FaceScalars.html#ac0c0bc0c3cfa0fd6dac3e07753e4ac4d", null ],
     [ "operator FaceScalars", "classMR_1_1FaceScalars.html#a4e2e3df388b7c1901eddcb8402da84df", null ],
     [ "popBack", "classMR_1_1FaceScalars.html#abd41ba966f3ddf2a75dda3fa6c1636e0", null ],
     [ "pushBack", "classMR_1_1FaceScalars.html#a3064a343a80b5ff30f9a37bf5df00d23", null ],

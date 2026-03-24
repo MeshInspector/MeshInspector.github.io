@@ -6,7 +6,7 @@ var classMR_1_1RefineParameters =
     [ "RefineParameters", "classMR_1_1RefineParameters.html#aa0934a64cd02007afc18ced8d1a1e5a7", null ],
     [ "RefineParameters", "classMR_1_1RefineParameters.html#a83763ce0108f8bf15444dfbc2412cc45", null ],
     [ "assign", "classMR_1_1RefineParameters.html#a9d1d42433d6294dd61fd7b1836e2e2f1", null ],
-    [ "callback", "classMR_1_1RefineParameters.html#ad2391ef1262f672b4fdc0401d1240013", null ],
+    [ "callback", "classMR_1_1RefineParameters.html#a9726deb6c5675dfb14423c937cd2d7fa", null ],
     [ "distanceLimit", "classMR_1_1RefineParameters.html#a94153af25978f9bf365b09cb3fde4d69", null ],
     [ "faceRegion", "classMR_1_1RefineParameters.html#aa8b988abbfbe287b960ec914c6fe7fa2", null ],
     [ "maxIterations", "classMR_1_1RefineParameters.html#acb842f8927db7effa85025af92d854aa", null ],

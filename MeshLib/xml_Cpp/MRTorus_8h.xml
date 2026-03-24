@@ -1,17 +1,71 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTorus_8h" kind="file" language="C++">
     <compoundname>MRTorus.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
       <node id="1">
-        <label>MRTorus.h</label>
+        <label>MRMesh/MRTorus.h</label>
         <link refid="MRTorus_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -21,30 +75,30 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"></codeline>
-<codeline lineno="11" refid="group__GeneralGroup_1ga9c4abf9ec20745c55a6825637894668c" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga9c4abf9ec20745c55a6825637894668c" kindref="member">makeTorus</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="group__GeneralGroup_1ga638324ed49e28189a1c35cf398dc6a73" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga638324ed49e28189a1c35cf398dc6a73" kindref="member">makeTorus</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;*<sp/>points<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1gaa43fcb51024712003fd0d5fff1df9301" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gaa43fcb51024712003fd0d5fff1df9301" kindref="member">makeOuterHalfTorus</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga2f848bbc7834993f6bc3c5d5b1006bbf" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga2f848bbc7834993f6bc3c5d5b1006bbf" kindref="member">makeOuterHalfTorus</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;*<sp/>points<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga3ca166fd0f2975defbe09d92282f7b7c" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga3ca166fd0f2975defbe09d92282f7b7c" kindref="member">makeTorusWithUndercut</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadiusInner<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadiusOuter<sp/>=<sp/>0.2f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga99b11eed83d74e389ff6b2ecff249059" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga99b11eed83d74e389ff6b2ecff249059" kindref="member">makeTorusWithUndercut</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadiusInner<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadiusOuter<sp/>=<sp/>0.2f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;*<sp/>points<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1ga04928fbb61dfb4922c926c1e5d2dce8e" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga04928fbb61dfb4922c926c1e5d2dce8e" kindref="member">makeTorusWithSpikes</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadiusInner<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadiusOuter<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga196a0dd004b8640ecf44ab19177397b8" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga196a0dd004b8640ecf44ab19177397b8" kindref="member">makeTorusWithSpikes</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadiusInner<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadiusOuter<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;*<sp/>points<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga8c37254b9144f2abc384609f9fdcc301" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga8c37254b9144f2abc384609f9fdcc301" kindref="member">makeTorusWithComponents</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga57eb865bddfea0b83ba03d7d424a3589" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga57eb865bddfea0b83ba03d7d424a3589" kindref="member">makeTorusWithComponents</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;*<sp/>points<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga169156ebca843c757c06f9fe8cedae47" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga169156ebca843c757c06f9fe8cedae47" kindref="member">makeTorusWithSelfIntersections</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gaefe2a3413e9ffcfb9ee62b40c3eb6f90" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gaefe2a3413e9ffcfb9ee62b40c3eb6f90" kindref="member">makeTorusWithSelfIntersections</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;*<sp/>points<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTorus.h"/>
+    <location file="MRMesh/MRTorus.h"/>
   </compounddef>
 </doxygen>

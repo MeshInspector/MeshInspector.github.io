@@ -10,9 +10,9 @@ var group__MeshAlgorithmGroup =
     [ "Mesh Subdivide", "group__MeshSubdivideGroup.html", "group__MeshSubdivideGroup" ],
     [ "MR::MeshDiff", "classMR_1_1MeshDiff.html", [
       [ "MeshDiff", "group__GeneralGroup.html#ga5864778df831e322d932e266452fe232", null ],
-      [ "MeshDiff", "group__GeneralGroup.html#ga61c8061aba710ec09a8b346b784a35c0", null ],
+      [ "MeshDiff", "group__GeneralGroup.html#ga2191cca7b439b8c10322774d1d042ddb", null ],
       [ "any", "group__GeneralGroup.html#ga75b8d7d561c4183ee307a3c1f1d85ba1", null ],
-      [ "applyAndSwap", "group__GeneralGroup.html#ga65a9fe9422ed5dee5b092c31a59bd145", null ],
+      [ "applyAndSwap", "group__GeneralGroup.html#ga0ca2efbedbc4a22640ef0e348d55bfaf", null ],
       [ "heapBytes", "group__GeneralGroup.html#gafc1a1ad047dc4eb7b120e4cc9ab2c915", null ]
     ] ],
     [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", [
@@ -24,18 +24,18 @@ var group__MeshAlgorithmGroup =
     ] ],
     [ "MR::MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html", [
       [ "MeshTopologyDiff", "group__GeneralGroup.html#gaf1195b4bb18db9e8ca21e92db9139406", null ],
-      [ "MeshTopologyDiff", "group__GeneralGroup.html#ga124d70218b979697c0fa67ce32b07c56", null ],
+      [ "MeshTopologyDiff", "group__GeneralGroup.html#ga88fdf0cea84ab07c1fef729e2ae635cb", null ],
       [ "any", "group__GeneralGroup.html#gaeb15ef52dc9593c97da084a462456e23", null ],
-      [ "applyAndSwap", "group__GeneralGroup.html#gaad4c78043b91fd4835e71c4d2a281a95", null ],
-      [ "heapBytes", "group__GeneralGroup.html#ga743e293604e551a32e96aba9e63cb091", null ]
+      [ "applyAndSwap", "group__GeneralGroup.html#ga2938cffd19b314aeae8e39ef7dc4df2e", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gaa4a8e6c2de54156f11ab33a657c3c2d9", null ]
     ] ],
     [ "MR::VertCoordsDiff", "classMR_1_1VertCoordsDiff.html", [
       [ "VertCoordsDiff", "group__GeneralGroup.html#gafa80c539d783f275a194ae8f5202647e", null ],
-      [ "VertCoordsDiff", "group__GeneralGroup.html#gab6cb02c630ddd3015cb11dde6673f889", null ],
+      [ "VertCoordsDiff", "group__GeneralGroup.html#gae932dd6d8571c6f2208ddc93c251652b", null ],
       [ "any", "group__GeneralGroup.html#ga5f175f350625d742580210d6aeda32e8", null ],
-      [ "applyAndSwap", "group__GeneralGroup.html#gacd8d214b41c3bbf6d29b72f1a3d03e2b", null ],
-      [ "heapBytes", "group__GeneralGroup.html#ga91f5877a46b424d1a68ecb23025a2a27", null ]
+      [ "applyAndSwap", "group__GeneralGroup.html#ga4ef52c5b00b37c7cedb2fb8a6f31fc4b", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gac535b1f7665cf87c787eea93553218a9", null ]
     ] ],
-    [ "MR::meshToPointCloud", "group__MeshAlgorithmGroup.html#gac05a6a40f6f3f078e9ceb0870a399516", null ],
-    [ "MR::straightenBoundary", "group__MeshAlgorithmGroup.html#gabd2f9988108fabef913d835c6c1385cc", null ]
+    [ "MR::meshToPointCloud", "group__MeshAlgorithmGroup.html#gaff12e899a2fa7790b09853a93701515f", null ],
+    [ "MR::straightenBoundary", "group__MeshAlgorithmGroup.html#ga85f120484f51a420267e45c05af90e90", null ]
 ];

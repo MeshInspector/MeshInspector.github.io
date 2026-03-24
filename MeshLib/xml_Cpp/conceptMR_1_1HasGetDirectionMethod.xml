@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="conceptMR_1_1HasGetDirectionMethod" kind="concept">
     <compoundname>MR::HasGetDirectionMethod</compoundname>
-    <includes refid="MRFeatureHelpers_8h" local="no">MRFeatureHelpers.h</includes>
+    <includes refid="MRFeatureHelpers_8h" local="no">MRMesh/MRFeatureHelpers.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -19,6 +19,6 @@ concept <ref refid="conceptMR_1_1HasGetDirectionMethod" kindref="compound">MR::H
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="128" column="1"/>
+    <location file="MRMesh/MRFeatureHelpers.h" line="128" column="1"/>
   </compounddef>
 </doxygen>

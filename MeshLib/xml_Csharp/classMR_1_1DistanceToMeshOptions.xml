@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceToMeshOptions" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceToMeshOptions</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceToMeshOptions</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="153" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="153" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="165" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DistanceToMeshOptions_1a2564d0316126d2665acb3bff9c285ce0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="156" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="156" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="170" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DistanceToMeshOptions_1af4c45321804f7661c5bf87538c01d80c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -41,13 +41,13 @@
         <name>nullOutsideMinMax</name>
         <qualifiedname>MR.DistanceToMeshOptions.nullOutsideMinMax</qualifiedname>
         <briefdescription>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&amp;lt;float&amp;gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
         </briefdescription>
         <detaileddescription>
-<para>what to do if actual distance is outside [min, max) range: true - return std.nullopt for std.optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="163" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="163" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="179" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="179" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DistanceToMeshOptions_1aa63f6d6e4cefd4dc75885be4d4c244ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -56,13 +56,13 @@
         <name>windingNumberThreshold</name>
         <qualifiedname>MR.DistanceToMeshOptions.windingNumberThreshold</qualifiedname>
         <briefdescription>
+<para>only for <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
         </briefdescription>
         <detaileddescription>
-<para>only for <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="168" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="168" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="186" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DistanceToMeshOptions_1a25ae60a5350b7b96e037e1bfce91821e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -71,13 +71,13 @@
         <name>windingNumberBeta</name>
         <qualifiedname>MR.DistanceToMeshOptions.windingNumberBeta</qualifiedname>
         <briefdescription>
+<para>only for <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
         </briefdescription>
         <detaileddescription>
-<para>only for <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="172" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="172" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="192" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="192" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="176" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="176" bodyend="180"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="196" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="196" bodyend="200"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="186" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="186" bodyend="192"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="206" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="206" bodyend="212"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceToMeshOptions_1a51bc359b20d8f117af6beb0d45d0a511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="197" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="197" bodyend="203"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="217" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="217" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceToMeshOptions_1a2decd4b09c3c19075a71053d05d4fc1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceToMeshOptions.DistanceToMeshOptions</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceToMeshOptions_1a83c896dde991be5581aec91d7981a31c" kindref="member">MR.DistanceToMeshOptions.DistanceToMeshOptions</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="208" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="208" bodyend="215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="228" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="228" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceToMeshOptions_1a7378a1501653aa35366dc06b9ca8ce79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceToMeshOptions.DistanceToMeshOptions</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceToMeshOptions_1a83c896dde991be5581aec91d7981a31c" kindref="member">MR.DistanceToMeshOptions.DistanceToMeshOptions</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="220" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="220" bodyend="220"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="240" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="240" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceToMeshOptions_1a9459969d674d56605f27bfebee9a9e4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DistanceToMeshOptions" kindref="compound">MR.DistanceToMeshOptions</ref></type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DistanceToMeshOptions.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DistanceToMeshOptions::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="225" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="225" bodyend="232"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="245" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="245" bodyend="252"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -219,48 +219,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DistanceToMeshOptions</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceToMeshOptions</label>
         <link refid="classMR_1_1DistanceToMeshOptions"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceToMeshOptions</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistanceToMeshOptions &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DistanceToMeshOptions</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceToMeshOptions</label>
         <link refid="classMR_1_1DistanceToMeshOptions"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceToMeshOptions</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistanceToMeshOptions &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="150" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="151" bodyend="233"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="161" bodyend="253"/>
     <listofallmembers>
       <member refid="classMR_1_1DistanceToMeshOptions_1a9459969d674d56605f27bfebee9a9e4d" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>assign</name></member>
       <member refid="classMR_1_1DistanceToMeshOptions_1a2dc7934d558dce81455b52e445a59c12" prot="package" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>DistanceToMeshOptions</name></member>

@@ -1,13 +1,6 @@
 var MRRelaxParams_8h =
 [
-    [ "MR_MeshApproxRelaxParams", "MRRelaxParams_8h.html#a0961ed14052ec630a4f9e367afe11da3", null ],
-    [ "MR_MeshEqualizeTriAreasParams", "MRRelaxParams_8h.html#a1cb564fdc55d5745d0ef594a88b81646", null ],
-    [ "MR_MeshRelaxParams", "MRRelaxParams_8h.html#adc5d88756b2c801276a68f81a54a22dc", null ],
-    [ "MR_PointCloudApproxRelaxParams", "MRRelaxParams_8h.html#a576d261d78807ab4a67d7c0977066804", null ],
-    [ "MR_PointCloudRelaxParams", "MRRelaxParams_8h.html#a957799ae79eb3501ff98b4a3c3781bc0", null ],
     [ "MR_RelaxApproxType", "MRRelaxParams_8h.html#a263e9befdfb2ab381789404f8e2118d2", null ],
-    [ "MR_RelaxParams", "MRRelaxParams_8h.html#acbad516b8cbb2b5069857163ee94db3f", null ],
-    [ "MR_VertBitSet", "MRRelaxParams_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_RelaxApproxType", "MRRelaxParams_8h.html#a1112baea9bbd6b1cbc51256e83bd698e", [
       [ "MR_RelaxApproxType_Planar", "MRRelaxParams_8h.html#a1112baea9bbd6b1cbc51256e83bd698ea0e5c1dd8eaff3292c00303440503c71a", null ],
       [ "MR_RelaxApproxType_Quadric", "MRRelaxParams_8h.html#a1112baea9bbd6b1cbc51256e83bd698ea597bee20b1dba23ef679b01a3e00a379", null ]
@@ -28,21 +21,11 @@ var MRRelaxParams_8h =
     [ "MR_RelaxParams_GetMutable_limitNearInitial", "MRRelaxParams_8h.html#a30dba1537cc2bb61a72a24abcd6acbb0", null ],
     [ "MR_RelaxParams_GetMutable_maxInitialDist", "MRRelaxParams_8h.html#ac55bbbd1bae1d22f45122a0ff2fa6edc", null ],
     [ "MR_RelaxParams_GetMutable_region", "MRRelaxParams_8h.html#a52484e6ec5df2545e76c5d5408885fe8", null ],
-    [ "MR_RelaxParams_MutableStaticDowncastTo_MR_MeshApproxRelaxParams", "MRRelaxParams_8h.html#a06775175bfbc3163ea5b82a266ae3ad2", null ],
-    [ "MR_RelaxParams_MutableStaticDowncastTo_MR_MeshEqualizeTriAreasParams", "MRRelaxParams_8h.html#a2e705f73342893e5d62d8db4f06b9b0a", null ],
-    [ "MR_RelaxParams_MutableStaticDowncastTo_MR_MeshRelaxParams", "MRRelaxParams_8h.html#a7d5ae77b99ca4e78d2df0bb728064864", null ],
-    [ "MR_RelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams", "MRRelaxParams_8h.html#ad6d9636bd0ae01ba7bb0cd30fe1000d6", null ],
-    [ "MR_RelaxParams_MutableStaticDowncastTo_MR_PointCloudRelaxParams", "MRRelaxParams_8h.html#a0fea7300d8580f60a4ea6d5d4b99f1a8", null ],
     [ "MR_RelaxParams_OffsetMutablePtr", "MRRelaxParams_8h.html#aa1db5147a8df01cac34ac5bc1273fed9", null ],
     [ "MR_RelaxParams_OffsetPtr", "MRRelaxParams_8h.html#a3289571f730d394247ce3921121c9474", null ],
     [ "MR_RelaxParams_Set_force", "MRRelaxParams_8h.html#a4a58a8d2b7506c56070261f7b6b81217", null ],
     [ "MR_RelaxParams_Set_iterations", "MRRelaxParams_8h.html#a96e091f32783bbdc4bb48ba31ebab119", null ],
     [ "MR_RelaxParams_Set_limitNearInitial", "MRRelaxParams_8h.html#a8a33cc6b85e6e6b98c14c10ad3f8e0ac", null ],
     [ "MR_RelaxParams_Set_maxInitialDist", "MRRelaxParams_8h.html#a055e7dac1a2d14cf6899c633cd55b757", null ],
-    [ "MR_RelaxParams_Set_region", "MRRelaxParams_8h.html#a758bc619e407735c4b809cb43b201353", null ],
-    [ "MR_RelaxParams_StaticDowncastTo_MR_MeshApproxRelaxParams", "MRRelaxParams_8h.html#aafc497fa96c64c1d3e1461da0886e431", null ],
-    [ "MR_RelaxParams_StaticDowncastTo_MR_MeshEqualizeTriAreasParams", "MRRelaxParams_8h.html#a3c66f0fc2784c9418a48726da804a3e7", null ],
-    [ "MR_RelaxParams_StaticDowncastTo_MR_MeshRelaxParams", "MRRelaxParams_8h.html#acebd9e34be36ad6b63b83169ab1f915e", null ],
-    [ "MR_RelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams", "MRRelaxParams_8h.html#a7d361f29ef6199cac680b7560f87c121", null ],
-    [ "MR_RelaxParams_StaticDowncastTo_MR_PointCloudRelaxParams", "MRRelaxParams_8h.html#af6a647fd7d7b1a9e251dc1a1dc6d0c49", null ]
+    [ "MR_RelaxParams_Set_region", "MRRelaxParams_8h.html#a758bc619e407735c4b809cb43b201353", null ]
 ];

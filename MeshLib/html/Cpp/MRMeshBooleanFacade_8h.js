@@ -1,6 +1,6 @@
 var MRMeshBooleanFacade_8h =
 [
-    [ "operator*=", "MRMeshBooleanFacade_8h.html#gab3166f1ae304a5ff0106e7c88b67960e", null ],
-    [ "operator+=", "MRMeshBooleanFacade_8h.html#ga37a45fe3367e0420cb18c30593415498", null ],
-    [ "operator-=", "MRMeshBooleanFacade_8h.html#ga816a1c0aec6d5b2d8994b750a9ecfb9f", null ]
+    [ "MR::operator*=", "group__GeneralGroup.html#ga16a57fadb9a701167773311b93082e44", null ],
+    [ "MR::operator+=", "group__GeneralGroup.html#gaf8035c21c5cd5903e8910e4bf376f47b", null ],
+    [ "MR::operator-=", "group__GeneralGroup.html#ga392990ba042835928d28ef75fa89d892", null ]
 ];

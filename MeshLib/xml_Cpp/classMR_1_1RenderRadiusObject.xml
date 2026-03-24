@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderRadiusObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderRadiusObject</compoundname>
     <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
-    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRRenderMeasurementObjects.h</includes>
+    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRViewer/MRRenderMeasurementObjects.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga3e7001e966df8b712209ead08e424f15" kind="variable"><name>object_</name></member>
       <member refid="group__GeneralGroup_1gae0a131fb1ca489418c836ffa5183dc25" kind="variable"><name>task_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga1b393dc9324dbd862ab77d37032a2d71" kind="function"><name>RenderRadiusObject</name></member>
-      <member refid="group__GeneralGroup_1gaeb4f25d9cbdba5ac07a6aebb2c96751e" kind="function"><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1gaf30ded5252225214a1fb6f192895aae2" kind="function"><name>RenderRadiusObject</name></member>
+      <member refid="group__GeneralGroup_1ga02dc075d3cc7c0997d72b38ae0ddae67" kind="function"><name>renderUi</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -50,7 +50,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="40" bodyend="46"/>
+    <location file="MRViewer/MRRenderMeasurementObjects.h" line="39" column="1" bodyfile="MRViewer/MRRenderMeasurementObjects.h" bodystart="40" bodyend="46"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>forceBindAll</name></member>
       <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>glBytes</name></member>
@@ -59,8 +59,8 @@
       <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>render</name></member>
       <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>RenderObjectCombinator</name></member>
       <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>renderPicker</name></member>
-      <member refid="group__GeneralGroup_1ga1b393dc9324dbd862ab77d37032a2d71" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>RenderRadiusObject</name></member>
-      <member refid="group__GeneralGroup_1gaeb4f25d9cbdba5ac07a6aebb2c96751e" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1gaf30ded5252225214a1fb6f192895aae2" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>RenderRadiusObject</name></member>
+      <member refid="group__GeneralGroup_1ga02dc075d3cc7c0997d72b38ae0ddae67" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>renderUi</name></member>
       <member refid="group__GeneralGroup_1gae0a131fb1ca489418c836ffa5183dc25" prot="private" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>task_</name></member>
     </listofallmembers>
   </compounddef>

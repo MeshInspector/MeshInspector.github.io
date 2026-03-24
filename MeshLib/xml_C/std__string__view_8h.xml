@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__string__view_8h" kind="file" language="C++">
+    <compoundname>std_string_view.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_string_view.h</label>
+        <link refid="std__string__view_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__string__view_8h_1a7275173bc4e0b3befdb7a2aeac7764df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API MR_std_string_view * MR_std_string_view_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_string_view_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" kindref="member">MR_std_string_view_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="18" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="18" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1a656940c3e21204c40668d1d88eb42702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API MR_std_string_view * MR_std_string_view_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_string_view_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__string__view_8h_1a812fc29b7f8144adfe3ccc0f3c608c9d" kindref="member">MR_std_string_view_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__string__view_8h_1abaea24a5a30b4e0132d0daa7f72bb290" kindref="member">MR_std_string_view_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__string__view_8h_1ad89d062adce567645742a81e47dc161d" kindref="member">MR_std_string_view_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="23" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="23" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1abf2839426ec08deaf8397015ab090157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API MR_std_string_view * MR_std_string_view_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_string_view *other)</argsstring>
+        <name>MR_std_string_view_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" kindref="member">MR_std_string_view_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="30" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="30" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1a96b2cdc2350e6d5773dac08b64f8bb44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API MR_std_string_view * MR_std_string_view_ConstructFrom</definition>
+        <argsstring>(const char *other, const char *other_end)</argsstring>
+        <name>MR_std_string_view_ConstructFrom</name>
+        <param>
+          <type>const char *</type>
+          <declname>other</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>other_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new instance. Parameter <computeroutput>other</computeroutput> can not be null. If <computeroutput>other_end</computeroutput> is null, then <computeroutput>other</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" kindref="member">MR_std_string_view_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="38" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="38" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1a86d0eb7f0cd0cce102b375564f8b169c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_string_view_AssignFromAnother</definition>
+        <argsstring>(MR_std_string_view *_this, const MR_std_string_view *other)</argsstring>
+        <name>MR_std_string_view_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="45" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1a5ba142ca57a93e354c563b1e15cec108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_string_view_AssignFrom</definition>
+        <argsstring>(MR_std_string_view *_this, const char *other, const char *other_end)</argsstring>
+        <name>MR_std_string_view_AssignFrom</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>other</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>other_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. If <computeroutput>other_end</computeroutput> is null, then <computeroutput>other</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_string_view_Destroy</definition>
+        <argsstring>(const MR_std_string_view *_this)</argsstring>
+        <name>MR_std_string_view_Destroy</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="56" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1a812fc29b7f8144adfe3ccc0f3c608c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_string_view_DestroyArray</definition>
+        <argsstring>(const MR_std_string_view *_this)</argsstring>
+        <name>MR_std_string_view_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1ad89d062adce567645742a81e47dc161d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API const MR_std_string_view * MR_std_string_view_OffsetPtr</definition>
+        <argsstring>(const MR_std_string_view *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_string_view_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="63" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="63" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1abaea24a5a30b4e0132d0daa7f72bb290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API MR_std_string_view * MR_std_string_view_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_string_view *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_string_view_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="67" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="67" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1a0717cbb1a5d5fa6d4df581f41a316f63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_string_view_size</definition>
+        <argsstring>(const MR_std_string_view *_this)</argsstring>
+        <name>MR_std_string_view_size</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of characters in the string. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="71" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="71" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1a74c414889df9eb99bcbbab480ee66969" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const char *</type>
+        <definition>MRC_API const char * MR_std_string_view_data</definition>
+        <argsstring>(const MR_std_string_view *_this)</argsstring>
+        <name>MR_std_string_view_data</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the string contents, NOT necessarily null-terminated. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="76" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="76" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="std__string__view_8h_1ac1e4d4dd942f3fe8dac071339babaf24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const char *</type>
+        <definition>MRC_API const char * MR_std_string_view_data_end</definition>
+        <argsstring>(const MR_std_string_view *_this)</argsstring>
+        <name>MR_std_string_view_data_end</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the end of string. Not dereferencable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" line="81" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h" declline="81" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="std__string__view_8h_1a7275173bc4e0b3befdb7a2aeac7764df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="std__string__view_8h_1a7275173bc4e0b3befdb7a2aeac7764df" kindref="member">MR_std_string_view_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="std__string__view_8h_1a656940c3e21204c40668d1d88eb42702" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="std__string__view_8h_1a656940c3e21204c40668d1d88eb42702" kindref="member">MR_std_string_view_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__string__view_8h_1abf2839426ec08deaf8397015ab090157" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="std__string__view_8h_1abf2839426ec08deaf8397015ab090157" kindref="member">MR_std_string_view_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__string__view_8h_1a96b2cdc2350e6d5773dac08b64f8bb44" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="std__string__view_8h_1a96b2cdc2350e6d5773dac08b64f8bb44" kindref="member">MR_std_string_view_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*other,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*other_end);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="std__string__view_8h_1a86d0eb7f0cd0cce102b375564f8b169c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__string__view_8h_1a86d0eb7f0cd0cce102b375564f8b169c" kindref="member">MR_std_string_view_AssignFromAnother</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__string__view_8h_1a5ba142ca57a93e354c563b1e15cec108" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__string__view_8h_1a5ba142ca57a93e354c563b1e15cec108" kindref="member">MR_std_string_view_AssignFrom</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*other,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*other_end);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__string__view_8h_1a60263c987a5fa5a84ab719fb020cad24" kindref="member">MR_std_string_view_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__string__view_8h_1a812fc29b7f8144adfe3ccc0f3c608c9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__string__view_8h_1a812fc29b7f8144adfe3ccc0f3c608c9d" kindref="member">MR_std_string_view_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__string__view_8h_1ad89d062adce567645742a81e47dc161d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="std__string__view_8h_1ad89d062adce567645742a81e47dc161d" kindref="member">MR_std_string_view_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__string__view_8h_1abaea24a5a30b4e0132d0daa7f72bb290" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="std__string__view_8h_1abaea24a5a30b4e0132d0daa7f72bb290" kindref="member">MR_std_string_view_OffsetMutablePtr</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="std__string__view_8h_1a0717cbb1a5d5fa6d4df581f41a316f63" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__string__view_8h_1a0717cbb1a5d5fa6d4df581f41a316f63" kindref="member">MR_std_string_view_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__string__view_8h_1a74c414889df9eb99bcbbab480ee66969" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="std__string__view_8h_1a74c414889df9eb99bcbbab480ee66969" kindref="member">MR_std_string_view_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="std__string__view_8h_1ac1e4d4dd942f3fe8dac071339babaf24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="std__string__view_8h_1ac1e4d4dd942f3fe8dac071339babaf24" kindref="member">MR_std_string_view_data_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_string_view.h"/>
+  </compounddef>
+</doxygen>

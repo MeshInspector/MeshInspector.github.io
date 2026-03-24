@@ -1,78 +1,70 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshFillHole_8h" kind="file" language="C++">
     <compoundname>MRMeshFillHole.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRMeshMetrics_8h" local="yes">MRMeshMetrics.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">functional</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRFillHoleNicely_8h" local="yes">MRFillHoleNicely.h</includedby>
+    <includedby refid="MRFillHoleNicely_8h" local="yes">MRMesh/MRFillHoleNicely.h</includedby>
     <incdepgraph>
-      <node id="9">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="17">
+      <node id="24">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="1">
-        <label>MRMeshFillHole.h</label>
-        <link refid="MRMeshFillHole_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshMetrics.h</label>
-        <link refid="MRMeshMetrics_8h"/>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRMeshFillHole.h</label>
+        <link refid="MRMeshFillHole_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -82,60 +74,115 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+      </node>
+      <node id="13">
+        <label>MRMeshMetrics.h</label>
+        <link refid="MRMeshMetrics_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="10">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="11">
-        <label>algorithm</label>
-      </node>
-      <node id="18">
-        <label>cassert</label>
-      </node>
-      <node id="12">
-        <label>cmath</label>
-      </node>
-      <node id="7">
-        <label>cstddef</label>
-      </node>
-      <node id="13">
-        <label>cstring</label>
-      </node>
-      <node id="16">
-        <label>functional</label>
+      <node id="15">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
       <node id="14">
-        <label>iosfwd</label>
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="19">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="20">
+        <label>cmath</label>
+      </node>
+      <node id="16">
+        <label>cstddef</label>
+      </node>
+      <node id="21">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="22">
+        <label>iosfwd</label>
+      </node>
+      <node id="25">
         <label>memory</label>
       </node>
-      <node id="8">
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="17">
         <label>type_traits</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRFillHoleNicely.h</label>
+        <label>MRMesh/MRFillHoleNicely.h</label>
         <link refid="MRFillHoleNicely_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
       <node id="1">
-        <label>MRMeshFillHole.h</label>
+        <label>MRMesh/MRMeshFillHole.h</label>
         <link refid="MRMeshFillHole_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRMeshPatch.h</label>
+        <link refid="MRMeshPatch_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1FillHoleParams" prot="public">MR::FillHoleParams</innerclass>
@@ -151,7 +198,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshMetrics_8h" kindref="compound">MRMeshMetrics.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -160,7 +207,8 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FillHoleParams</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="structMR_1_1FillHoleParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></highlight></codeline>
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31" refid="structMR_1_1FillHoleParams_1a6ab1c2d2eb0cbb97455c747713f2371d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref><sp/><ref refid="structMR_1_1FillHoleParams_1a6ab1c2d2eb0cbb97455c747713f2371d" kindref="member">metric</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
@@ -170,9 +218,9 @@
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51" refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301" kindref="member">MultipleEdgesResolveMode</ref></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref>,</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleParams_1a2908ad53506526829bedf3831a1de80a" kindref="member">Simple</ref>,</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9" kindref="member">Strong</ref></highlight></codeline>
+<codeline lineno="53" refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref>,</highlight></codeline>
+<codeline lineno="54" refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleParams_1a2908ad53506526829bedf3831a1de80a" kindref="member">Simple</ref>,</highlight></codeline>
+<codeline lineno="55" refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9" kindref="member">Strong</ref></highlight></codeline>
 <codeline lineno="56" refid="structMR_1_1FillHoleParams_1a2908ad53506526829bedf3831a1de80a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>multipleEdgesResolveMode{<sp/><ref refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780" kindref="member">MultipleEdgesResolveMode::Simple</ref><sp/>};</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="structMR_1_1FillHoleParams_1a48c94df0c8cc044564e0e69c8f692c5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams_1a48c94df0c8cc044564e0e69c8f692c5a" kindref="member">makeDegenerateBand</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
@@ -182,78 +230,82 @@
 <codeline lineno="73" refid="structMR_1_1FillHoleParams_1a61b0c71def508e84cfa3359e34b6029e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/><ref refid="structMR_1_1FillHoleParams_1a61b0c71def508e84cfa3359e34b6029e" kindref="member">stopBeforeBadTriangulation</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">StitchHolesParams</highlight></codeline>
+<codeline lineno="83" refid="structMR_1_1StitchHolesParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref></highlight></codeline>
 <codeline lineno="84"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="89" refid="structMR_1_1StitchHolesParams_1ac806ee8caa2479cc244851eaac1e7020" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref><sp/><ref refid="structMR_1_1StitchHolesParams_1ac806ee8caa2479cc244851eaac1e7020" kindref="member">metric</ref>;</highlight></codeline>
 <codeline lineno="91" refid="structMR_1_1StitchHolesParams_1a472b65c8cadbd4c6cf5c2acbf4302f66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceBitSet*<sp/><ref refid="structMR_1_1StitchHolesParams_1a472b65c8cadbd4c6cf5c2acbf4302f66" kindref="member">outNewFaces</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="92"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" kindref="member">buildCylinderBetweenTwoHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="group__FillHoleGroup_1gaf61677f65331b42d3022a70d4b550a13" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" kindref="member">buildCylinderBetweenTwoHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="group__FillHoleGroup_1gac972786878ec37756f5a95814b657a05" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1gac972786878ec37756f5a95814b657a05" kindref="member">fillHole</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="group__FillHoleGroup_1ga826414470e5289e2dfba2496f06d98ae" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga826414470e5289e2dfba2496f06d98ae" kindref="member">fillHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;<sp/>&amp;<sp/>as,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="group__FillHoleGroup_1ga7b7b07510d4a7d74b02ef6890db04a9d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga7b7b07510d4a7d74b02ef6890db04a9d" kindref="member">isHoleBd</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EdgeLoop<sp/>&amp;<sp/>loop<sp/>);</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="structMR_1_1FillHoleItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleItem" kindref="compound">FillHoleItem</ref></highlight></codeline>
-<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="160" refid="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" kindref="member">edgeCode1</ref>,<sp/><ref refid="structMR_1_1FillHoleItem_1a56124e5a79e5cbe2b1b617d2e142aaa1" kindref="member">edgeCode2</ref>;</highlight></codeline>
-<codeline lineno="161"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="structMR_1_1HoleFillPlan" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></highlight></codeline>
-<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="166" refid="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;FillHoleItem&gt;<sp/><ref refid="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" kindref="member">items</ref>;</highlight></codeline>
-<codeline lineno="167" refid="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" kindref="member">numTris</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
-<codeline lineno="168"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="group__FillHoleGroup_1gaa3256109cd439a9801f179661c65c7e6" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref><sp/><ref refid="group__FillHoleGroup_1gaa3256109cd439a9801f179661c65c7e6" kindref="member">getHoleFillPlan</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="117" refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">stitchHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>stitchHoles(<sp/>mesh,<sp/>a,<sp/>b,<sp/>params<sp/>)&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
+<codeline lineno="119" refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kindref="member">buildCylinderBetweenTwoHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="group__FillHoleGroup_1ga1d5c1c9ce33580b95bdf4834f022ed3e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">stitchHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>stitchHoles(<sp/>mesh,<sp/>params<sp/>)&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
+<codeline lineno="124" refid="group__FillHoleGroup_1ga9de831741793790088bcc1af9358c25c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kindref="member">buildCylinderBetweenTwoHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" kindref="member">fillHole</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" kindref="member">fillHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;<sp/>&amp;<sp/>as,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="group__FillHoleGroup_1ga3e708a001bfa14982547301df2e42e83" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga3e708a001bfa14982547301df2e42e83" kindref="member">isHoleBd</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref><sp/>&amp;<sp/>loop<sp/>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="structMR_1_1FillHoleItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleItem" kindref="compound">FillHoleItem</ref></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="164" refid="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" kindref="member">edgeCode1</ref>,<sp/><ref refid="structMR_1_1FillHoleItem_1a56124e5a79e5cbe2b1b617d2e142aaa1" kindref="member">edgeCode2</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="structMR_1_1HoleFillPlan" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="170" refid="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;FillHoleItem&gt;<sp/><ref refid="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" kindref="member">items</ref>;</highlight></codeline>
+<codeline lineno="171" refid="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" kindref="member">numTris</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="group__FillHoleGroup_1ga774fddcb7bb0ac330a1e034edfd94db6" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::vector&lt;HoleFillPlan&gt;<sp/><ref refid="group__FillHoleGroup_1ga774fddcb7bb0ac330a1e034edfd94db6" kindref="member">getHoleFillPlans</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;&amp;<sp/>holeRepresentativeEdges,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="176" refid="group__FillHoleGroup_1ga907cc2793d8772f4a33613433633f419" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref><sp/><ref refid="group__FillHoleGroup_1ga907cc2793d8772f4a33613433633f419" kindref="member">getHoleFillPlan</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="group__FillHoleGroup_1ga1dbbac5f3d5dfdebbb1790578aed11d8" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref><sp/><ref refid="group__FillHoleGroup_1ga1dbbac5f3d5dfdebbb1790578aed11d8" kindref="member">getPlanarHoleFillPlan</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>e<sp/>);</highlight></codeline>
+<codeline lineno="180" refid="group__FillHoleGroup_1ga4d08e81c1e94219012fdb2a30693f11d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;HoleFillPlan&gt;<sp/><ref refid="group__FillHoleGroup_1ga4d08e81c1e94219012fdb2a30693f11d" kindref="member">getHoleFillPlans</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;&amp;<sp/>holeRepresentativeEdges,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="group__FillHoleGroup_1ga2dd8633650b066fde22814493231dc04" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::vector&lt;HoleFillPlan&gt;<sp/><ref refid="group__FillHoleGroup_1ga2dd8633650b066fde22814493231dc04" kindref="member">getPlanarHoleFillPlans</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;&amp;<sp/>holeRepresentativeEdges<sp/>);</highlight></codeline>
+<codeline lineno="184" refid="group__FillHoleGroup_1ga115c55acfde4c7d5a7829c8871546539" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref><sp/><ref refid="group__FillHoleGroup_1ga115c55acfde4c7d5a7829c8871546539" kindref="member">getPlanarHoleFillPlan</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>e<sp/>);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="group__FillHoleGroup_1gac65388f63712128d8af8e1b81054f779" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1gac65388f63712128d8af8e1b81054f779" kindref="member">executeHoleFillPlan</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a0,<sp/><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref><sp/>&amp;<sp/>plan,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="group__FillHoleGroup_1ga0241a36cc2b1016fd0cf66e9ae71f722" refkind="member"><highlight class="normal">MRMESH_API<sp/>VertId<sp/><ref refid="group__FillHoleGroup_1ga0241a36cc2b1016fd0cf66e9ae71f722" kindref="member">fillHoleTrivially</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="group__FillHoleGroup_1ga3c7779fd4cc2d941f67da4462b2d0121" refkind="member"><highlight class="normal">MRMESH_API<sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga3c7779fd4cc2d941f67da4462b2d0121" kindref="member">extendHole</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f<sp/>&amp;<sp/>plane,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219" refid="group__FillHoleGroup_1ga98bec93b947e8017b7443801e20bc79b" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::vector&lt;EdgeId&gt;<sp/><ref refid="group__FillHoleGroup_1ga98bec93b947e8017b7443801e20bc79b" kindref="member">extendAllHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f<sp/>&amp;<sp/>plane,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="188" refid="group__FillHoleGroup_1gaa4f6f304ac87174ff7ad7b84c9c8400e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;HoleFillPlan&gt;<sp/><ref refid="group__FillHoleGroup_1gaa4f6f304ac87174ff7ad7b84c9c8400e" kindref="member">getPlanarHoleFillPlans</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;&amp;<sp/>holeRepresentativeEdges<sp/>);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="group__FillHoleGroup_1ga9c0d16866c22ddd9f9a804ceaafa6def" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga9c0d16866c22ddd9f9a804ceaafa6def" kindref="member">executeHoleFillPlan</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a0,<sp/><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref><sp/>&amp;<sp/>plan,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="group__FillHoleGroup_1ga4cf35e5d941d2017efa3dbf1d9ac0c2f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="group__FillHoleGroup_1ga4cf35e5d941d2017efa3dbf1d9ac0c2f" kindref="member">fillHoleTrivially</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="group__FillHoleGroup_1ga244a805b5382fa02935a6196bbe11cba" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga244a805b5382fa02935a6196bbe11cba" kindref="member">extendHole</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/>&amp;<sp/>plane,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224" refid="group__FillHoleGroup_1ga067cc1eda81ae410fdf9299ca802738a" refkind="member"><highlight class="normal">MRMESH_API<sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga3c7779fd4cc2d941f67da4462b2d0121" kindref="member">extendHole</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>std::function&lt;Vector3f(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;)&gt;<sp/>getVertPos,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="group__FillHoleGroup_1ga7bee2d636a1f5f931ac54f6f841c07f7" refkind="member"><highlight class="normal">MRMESH_API<sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga7bee2d636a1f5f931ac54f6f841c07f7" kindref="member">buildBottom</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>Vector3f<sp/>dir,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>holeExtension,<sp/>FaceBitSet*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="group__FillHoleGroup_1ga10d97d0e9b001fe0d4915154d1945e77" refkind="member"><highlight class="normal">MRMESH_API<sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga10d97d0e9b001fe0d4915154d1945e77" kindref="member">makeDegenerateBandAroundHole</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="223" refid="group__FillHoleGroup_1gaba3046572685dab52de61c3dcf252303" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;EdgeId&gt;<sp/><ref refid="group__FillHoleGroup_1gaba3046572685dab52de61c3dcf252303" kindref="member">extendAllHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/>&amp;<sp/>plane,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="group__FillHoleGroup_1gaa350b72dbcd48b11d06c127fce0fb7fd" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga244a805b5382fa02935a6196bbe11cba" kindref="member">extendHole</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>std::function&lt;Vector3f(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;)&gt;<sp/>getVertPos,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="group__FillHoleGroup_1gad9d00d278b9f0d856d31227faa8500d5" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1gad9d00d278b9f0d856d31227faa8500d5" kindref="member">buildBottom</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>Vector3f<sp/>dir,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>holeExtension,<sp/>FaceBitSet*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="structMR_1_1MakeBridgeResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref></highlight></codeline>
-<codeline lineno="236"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="238" refid="structMR_1_1MakeBridgeResult_1a2d3386014f3867f61860546d2b63b02a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MakeBridgeResult_1a2d3386014f3867f61860546d2b63b02a" kindref="member">newFaces</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="242" refid="structMR_1_1MakeBridgeResult_1a5959fa7b09b9a888870b4492e158145f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="structMR_1_1MakeBridgeResult_1a5959fa7b09b9a888870b4492e158145f" kindref="member">na</ref>,<sp/><ref refid="structMR_1_1MakeBridgeResult_1ada00548262d69e8a5ce7f4536d752495" kindref="member">nb</ref>;</highlight></codeline>
+<codeline lineno="237" refid="group__FillHoleGroup_1ga9e749cbb6ab9c3bdac4609b89a586100" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga9e749cbb6ab9c3bdac4609b89a586100" kindref="member">makeDegenerateBandAroundHole</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="structMR_1_1MakeBridgeResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref></highlight></codeline>
+<codeline lineno="240"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="242" refid="structMR_1_1MakeBridgeResult_1a2d3386014f3867f61860546d2b63b02a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MakeBridgeResult_1a2d3386014f3867f61860546d2b63b02a" kindref="member">newFaces</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="structMR_1_1MakeBridgeResult_1a083042e18f6b7e0a27d0e66142053119" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MakeBridgeResult_1a2d3386014f3867f61860546d2b63b02a" kindref="member">newFaces</ref><sp/>&gt;<sp/>0;<sp/>}</highlight></codeline>
-<codeline lineno="246"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="246" refid="structMR_1_1MakeBridgeResult_1a5959fa7b09b9a888870b4492e158145f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="structMR_1_1MakeBridgeResult_1a5959fa7b09b9a888870b4492e158145f" kindref="member">na</ref>,<sp/><ref refid="structMR_1_1MakeBridgeResult_1ada00548262d69e8a5ce7f4536d752495" kindref="member">nb</ref>;</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251" refid="group__FillHoleGroup_1ga2d4d7960f97e0c640fa2d62c25514c2e" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref><sp/><ref refid="group__FillHoleGroup_1ga2d4d7960f97e0c640fa2d62c25514c2e" kindref="member">makeQuadBridge</ref>(<sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="group__FillHoleGroup_1gad16b63618dae72a30c787fcd1d7b8200" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref><sp/><ref refid="group__FillHoleGroup_1gad16b63618dae72a30c787fcd1d7b8200" kindref="member">makeBridge</ref>(<sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="group__FillHoleGroup_1gae081fd1e2bfcbf6522b3c28a35ebced2" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref><sp/><ref refid="group__FillHoleGroup_1gae081fd1e2bfcbf6522b3c28a35ebced2" kindref="member">makeSmoothBridge</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingStep,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267" refid="group__FillHoleGroup_1ga86668640c827d61e8ee92b7a74dc558d" refkind="member"><highlight class="normal">MRMESH_API<sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga86668640c827d61e8ee92b7a74dc558d" kindref="member">makeBridgeEdge</ref>(<sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="249" refid="structMR_1_1MakeBridgeResult_1a083042e18f6b7e0a27d0e66142053119" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MakeBridgeResult_1a2d3386014f3867f61860546d2b63b02a" kindref="member">newFaces</ref><sp/>&gt;<sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="group__FillHoleGroup_1ga4ca9c35a40fd933fbfd31883e3a1c76a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref><sp/><ref refid="group__FillHoleGroup_1ga4ca9c35a40fd933fbfd31883e3a1c76a" kindref="member">makeQuadBridge</ref>(<sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="group__FillHoleGroup_1gab3e60c9de18875e78ea96106adbacc8a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref><sp/><ref refid="group__FillHoleGroup_1gab3e60c9de18875e78ea96106adbacc8a" kindref="member">makeBridge</ref>(<sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="group__FillHoleGroup_1gaeb585e92175777d0104f7cb7bad9215f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref><sp/><ref refid="group__FillHoleGroup_1gaeb585e92175777d0104f7cb7bad9215f" kindref="member">makeSmoothBridge</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingStep,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="268"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270" refid="group__FillHoleGroup_1gad76a068dd3fae29c30797157fd646667" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1gad76a068dd3fae29c30797157fd646667" kindref="member">splitQuad</ref>(<sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>EdgeId<sp/>a,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="271" refid="group__FillHoleGroup_1ga22925ca42a37db6c68a9101867744a31" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeId<sp/><ref refid="group__FillHoleGroup_1ga22925ca42a37db6c68a9101867744a31" kindref="member">makeBridgeEdge</ref>(<sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>EdgeId<sp/>a,<sp/>EdgeId<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" kindref="member">splitQuad</ref>(<sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>EdgeId<sp/>a,<sp/>FaceBitSet<sp/>*<sp/>outNewFaces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h"/>
+    <location file="MRMesh/MRMeshFillHole.h"/>
   </compounddef>
 </doxygen>

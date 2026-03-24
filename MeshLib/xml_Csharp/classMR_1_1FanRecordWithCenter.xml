@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FanRecordWithCenter" kind="class" language="C#" prot="public">
     <compoundname>MR::FanRecordWithCenter</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FanRecordWithCenter</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="424" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="424" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="440" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="440" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FanRecordWithCenter_1a0060d9ee66ab4b06b330e1851721f0b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -26,13 +26,13 @@
         <name>border</name>
         <qualifiedname>MR.FanRecordWithCenter.border</qualifiedname>
         <briefdescription>
+<para>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent </para>
         </briefdescription>
         <detaileddescription>
-<para>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="428" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="428" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="446" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="446" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FanRecordWithCenter_1a53fdbac934efc118187f8cbe6e9030fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref uint</type>
@@ -41,13 +41,13 @@
         <name>firstNei</name>
         <qualifiedname>MR.FanRecordWithCenter.firstNei</qualifiedname>
         <briefdescription>
-<para>the position of first neigbor in LocalTriangulations.neighbours </para>
+<para>the position of first neigbor in LocalTriangulations::neighbours </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="431" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="431" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="451" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="451" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="414" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="414" bodyend="421"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="428" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="428" bodyend="435"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FanRecordWithCenter_1aadcbe96d28ba78210e21149b15ff0b7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -80,13 +80,13 @@
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. Parameter <computeroutput>c</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fn</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. Parameter <computeroutput>c</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fn</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="463" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="463" bodyend="463"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="483" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="483" bodyend="483"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FanRecordWithCenter_1a2fddb57ead725ce8ce57851f9d2e0445" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -99,13 +99,13 @@
           <declname>_1</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="497" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="497" bodyend="497"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="517" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="517" bodyend="517"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="435" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="435" bodyend="439"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="455" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="455" bodyend="459"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -155,13 +155,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. Parameter <computeroutput>c</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fn</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. Parameter <computeroutput>c</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fn</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="448" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="448" bodyend="455"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="468" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="468" bodyend="475"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FanRecordWithCenter_1a91c483e85a8be7e496b6187ff5cc6733" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -174,13 +174,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="468" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="468" bodyend="475"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="488" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="488" bodyend="495"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FanRecordWithCenter_1a9846c1314f834239fb4809b887eb2aa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -193,13 +193,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="480" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="480" bodyend="480"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="500" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="500" bodyend="500"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FanRecordWithCenter_1ad0c2c59c3ee4fa1d01cae8186067a731" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -212,13 +212,13 @@
           <declname>_1</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="485" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="485" bodyend="492"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="505" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="505" bodyend="512"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FanRecordWithCenter_1a53f8b8c1443af834d6c4a81de38d600e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FanRecordWithCenter" kindref="compound">MR.FanRecordWithCenter</ref></type>
@@ -231,13 +231,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FanRecordWithCenter.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FanRecordWithCenter::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="502" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="502" bodyend="509"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="522" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="522" bodyend="529"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -246,48 +246,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_FanRecordWithCenter</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FanRecordWithCenter</label>
         <link refid="classMR_1_1FanRecordWithCenter"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FanRecordWithCenter</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FanRecordWithCenter &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_FanRecordWithCenter</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FanRecordWithCenter</label>
         <link refid="classMR_1_1FanRecordWithCenter"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FanRecordWithCenter</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FanRecordWithCenter &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="411" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="412" bodyend="510"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="425" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="426" bodyend="530"/>
     <listofallmembers>
       <member refid="classMR_1_1FanRecordWithCenter_1a53f8b8c1443af834d6c4a81de38d600e" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>assign</name></member>
       <member refid="classMR_1_1FanRecordWithCenter_1a0060d9ee66ab4b06b330e1851721f0b0" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>border</name></member>

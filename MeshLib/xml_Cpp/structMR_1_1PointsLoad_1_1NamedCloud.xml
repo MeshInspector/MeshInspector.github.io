@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointsLoad_1_1NamedCloud" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointsLoad::NamedCloud</compoundname>
-    <includes refid="MRE57_8h" local="no">MRE57.h</includes>
+    <includes refid="MRE57_8h" local="no">MRIOExtras/MRE57.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1NamedCloud_1a77bdcb1f510b0515f87b17324c8d67aa" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="35" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="35" bodyend="-1"/>
+        <location file="MRIOExtras/MRE57.h" line="35" column="17" bodyfile="MRIOExtras/MRE57.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1NamedCloud_1a78c9aa18106b86c2d1fb9c2434889ab2" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="36" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="36" bodyend="-1"/>
+        <location file="MRIOExtras/MRE57.h" line="36" column="16" bodyfile="MRIOExtras/MRE57.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1NamedCloud_1a70e3d0a1a91b137c484075351c1bda3e" prot="public" static="no" mutable="no">
         <type>AffineXf3f</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="37" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="37" bodyend="-1"/>
+        <location file="MRIOExtras/MRE57.h" line="37" column="16" bodyfile="MRIOExtras/MRE57.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1NamedCloud_1af2d5b81d7968e83a07655bf1a5cb95b8" prot="public" static="no" mutable="no">
         <type>VertColors</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="38" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="38" bodyend="-1"/>
+        <location file="MRIOExtras/MRE57.h" line="38" column="16" bodyfile="MRIOExtras/MRE57.h" bodystart="38" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -79,7 +79,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="34" bodyend="39"/>
+    <location file="MRIOExtras/MRE57.h" line="33" column="1" bodyfile="MRIOExtras/MRE57.h" bodystart="34" bodyend="39"/>
     <listofallmembers>
       <member refid="structMR_1_1PointsLoad_1_1NamedCloud_1a78c9aa18106b86c2d1fb9c2434889ab2" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>cloud</name></member>
       <member refid="structMR_1_1PointsLoad_1_1NamedCloud_1af2d5b81d7968e83a07655bf1a5cb95b8" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>colors</name></member>

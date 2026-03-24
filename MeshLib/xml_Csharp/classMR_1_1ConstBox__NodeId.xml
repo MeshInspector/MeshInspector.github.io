@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ConstBox__NodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::ConstBox_NodeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR::Misc::Object&lt; ConstBox_NodeId &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.NodeId &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1Box__NodeId" prot="public" virt="non-virtual">MR.Box_NodeId</derivedcompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ConstBox__NodeId_1a0c3a9fdad0e14c0b53ede0c94c9e62a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3350" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3350" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3456" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3456" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3340" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3340" bodyend="3346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3446" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3446" bodyend="3452"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3347" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3347" bodyend="3347"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3453" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3453" bodyend="3453"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1aace3aeadd8c0b132cf420364d80cf93f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3355" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3355" bodyend="3355"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3461" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3461" bodyend="3461"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1ad3a90af4bf2c8fd406e1810b8d4f7777" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3366" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3366" bodyend="3370"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3472" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3472" bodyend="3476"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a00408e9eed56d644a435da0912430ccf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3375" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3375" bodyend="3381"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3481" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3481" bodyend="3487"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1aefa8db0833f1759a2fb275d62d8fdf07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3386" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3386" bodyend="3393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3492" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3492" bodyend="3499"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1aa3a881c9f52c16ebbaf41e4387f53a9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -146,7 +146,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3405" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3405" bodyend="3411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3511" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3511" bodyend="3517"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1aa1148136167a8155026334cbd9173917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_NodeId.ConstBox_NodeId</definition>
+        <argsstring>(ulong i)</argsstring>
+        <name>ConstBox_NodeId</name>
+        <qualifiedname>MR.ConstBox_NodeId.ConstBox_NodeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1NodeId_1ace3883a4b9609cc1beaaea8221bc93a2" kindref="member">MR.NodeId.NodeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3529" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3529" bodyend="3535"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a0654451debf5dd639fa6a041cb16302b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -161,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3436" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3436" bodyend="3441"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3560" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3560" bodyend="3565"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1ab5bca222fcc4fc0c949a03a6e9518e50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -174,13 +193,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NodeId.operator&lt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NodeId::operator&amp;amp;lt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3461" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3461" bodyend="3466"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3585" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3585" bodyend="3590"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a28c752786c4f1b895f7fb2995ec409d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -198,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3524" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3524" bodyend="3527"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3648" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3648" bodyend="3651"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a21e4593d5e87935a9fe20b6b9e4db325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -216,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3529" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3529" bodyend="3536"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3653" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3653" bodyend="3660"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -232,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3348" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3348" bodyend="3348"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3454" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3454" bodyend="3454"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -247,13 +266,13 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__NodeId" kindref="compound">ConstBox_NodeId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__NodeId" kindref="compound">Box_NodeId</ref></computeroutput> intentionally doesn&apos;t. </para>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__NodeId" kindref="compound">ConstBox_NodeId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__NodeId" kindref="compound">Box_NodeId</ref></computeroutput> intentionally doesn't. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3359" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3359" bodyend="3359"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3465" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3465" bodyend="3465"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a7ff7a157766bb0d467402f26ce895735" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -266,13 +285,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.NodeId.operator int</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::NodeId::operator int</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3416" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3416" bodyend="3421"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3540" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3540" bodyend="3545"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a5ae3b11c509781c13db818eac9b2cac2" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -285,13 +304,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.NodeId.operator bool</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::NodeId::operator bool</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3426" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3426" bodyend="3431"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3550" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3550" bodyend="3555"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a31208731de9cbe19cd4fd6fcffa949d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -308,13 +327,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NodeId.operator==</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NodeId::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3446" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3446" bodyend="3451"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3570" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3570" bodyend="3575"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a5564abc2b4adb7e6499b366f927d4cb0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -336,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3453" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3453" bodyend="3456"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3577" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3577" bodyend="3580"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a753b9fe53288429c557e5a7577132ace" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Box__NodeId" kindref="compound">Box_NodeId</ref></type>
@@ -349,13 +368,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NodeId.operator--</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NodeId::operator--</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3471" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3471" bodyend="3478"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3595" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3595" bodyend="3602"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a229a2f6df3631f9f892b7fcbc1bfd068" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Box__NodeId" kindref="compound">Box_NodeId</ref></type>
@@ -368,13 +387,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NodeId.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NodeId::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3483" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3483" bodyend="3490"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3607" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3607" bodyend="3614"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a61d0a81bfbc78a0cdcac440fb4095681" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -391,13 +410,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+&lt;MR.NodeTag&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+&amp;amp;lt;MR::NodeTag&amp;amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3495" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3495" bodyend="3500"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3619" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3619" bodyend="3624"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a24a6fa7305a526d6e7ef91c04695abd5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -414,13 +433,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+&lt;MR.NodeTag&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+&amp;amp;lt;MR::NodeTag&amp;amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3505" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3505" bodyend="3510"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3629" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3629" bodyend="3634"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a287974639c9947316328d8a85c3f90c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -437,13 +456,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+&lt;MR.NodeTag&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+&amp;amp;lt;MR::NodeTag&amp;amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3515" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3515" bodyend="3520"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3639" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3639" bodyend="3644"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -467,11 +486,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3361" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3361" bodyend="3361"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3467" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3467" bodyend="3467"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;</computeroutput> <computeroutput><ref refid="classMR_1_1NoInitNodeId" kindref="compound">MR.NoInitNodeId</ref></computeroutput> This is the const reference to the struct. </para>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;</computeroutput> <computeroutput><ref refid="classMR_1_1NoInitNodeId" kindref="compound">MR.NoInitNodeId</ref></computeroutput> This is the const reference to the struct. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -493,13 +512,13 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Misc::Object&lt; ConstBox_NodeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="3">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="4">
-        <label>System::IEquatable&lt; MR.NodeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -514,16 +533,16 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Misc::Object&lt; ConstBox_NodeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="3">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="4">
-        <label>System::IEquatable&lt; MR.NodeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3329" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3330" bodyend="3537"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3435" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3436" bodyend="3661"/>
     <listofallmembers>
       <member refid="classMR_1_1ConstBox__NodeId_1aace3aeadd8c0b132cf420364d80cf93f" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>ConstBox_NodeId</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1ac02cea34fd11036d222aa6177fec6e7a" prot="package" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>ConstBox_NodeId</name></member>
@@ -531,6 +550,7 @@
       <member refid="classMR_1_1ConstBox__NodeId_1a00408e9eed56d644a435da0912430ccf" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>ConstBox_NodeId</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1aefa8db0833f1759a2fb275d62d8fdf07" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>ConstBox_NodeId</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1aa3a881c9f52c16ebbaf41e4387f53a9a" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>ConstBox_NodeId</name></member>
+      <member refid="classMR_1_1ConstBox__NodeId_1aa1148136167a8155026334cbd9173917" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>ConstBox_NodeId</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1a209056bd01b1ee53f7c04980508e5a54" prot="protected" virt="virtual"><scope>MR::ConstBox_NodeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1adf2dd3a1e5997056a934c33a2bc30412" prot="public" virt="virtual"><scope>MR::ConstBox_NodeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1a28c752786c4f1b895f7fb2995ec409d1" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>Equals</name></member>

@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Locale" kind="namespace" language="C++">
+    <compoundname>MR::Locale</compoundname>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
+      <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
+      <member refid="group__GeneralGroup_1ga58d357faefc457685d44349ecf1db539" kind="function"><name>translate_noop</name></member>
+      <member refid="group__GeneralGroup_1ga08fd05e62fb11a0f42dd91e5095d72e2" kind="function"><name>translate_noop</name></member>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::Locale::translate</definition>
+        <argsstring>(const char *msg, int domainId=0)</argsstring>
+        <name>translate</name>
+        <qualifiedname>MR::Locale::translate</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>domainId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Translates a message using the active locale. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRI18n.h" line="15" column="14" declfile="MRViewer/MRI18n.h" declline="15" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a807b4f903a9a114f9115a41e14d45f61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::Locale::translate</definition>
+        <argsstring>(const char *context, const char *msg, int domainId=0)</argsstring>
+        <name>translate</name>
+        <qualifiedname>MR::Locale::translate</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>domainId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Translates a message in context using the active locale. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRI18n.h" line="18" column="14" declfile="MRViewer/MRI18n.h" declline="18" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a16cad98007443a93cf1be4f3b53bddeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::Locale::translate</definition>
+        <argsstring>(const char *single, const char *plural, Int64 n, int domainId=0)</argsstring>
+        <name>translate</name>
+        <qualifiedname>MR::Locale::translate</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>single</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>plural</declname>
+        </param>
+        <param>
+          <type><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>domainId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Translates a plural message form using the active locale. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRI18n.h" line="21" column="14" declfile="MRViewer/MRI18n.h" declline="21" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a2ef721b59151f775fafc0b7bc3e58124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::Locale::translate</definition>
+        <argsstring>(const char *context, const char *single, const char *plural, Int64 n, int domainId=0)</argsstring>
+        <name>translate</name>
+        <qualifiedname>MR::Locale::translate</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>single</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>plural</declname>
+        </param>
+        <param>
+          <type><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>domainId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Translates a plural message form in context using the active locale. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRI18n.h" line="24" column="14" declfile="MRViewer/MRI18n.h" declline="24" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::locale &amp;</type>
+        <definition>const std::locale &amp; MR::Locale::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::Locale::get</qualifiedname>
+        <briefdescription>
+<para>Returns the active locale. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="16" column="20" declfile="MRViewer/MRLocale.h" declline="16" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; MR::Locale::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <qualifiedname>MR::Locale::getName</qualifiedname>
+        <briefdescription>
+<para>Returns the active locale&apos;s name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>If the locale was set manually, this function will return its name as is, without any normalization. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="19" column="20" declfile="MRViewer/MRLocale.h" declline="19" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::locale &amp;</type>
+        <definition>const std::locale &amp; MR::Locale::set</definition>
+        <argsstring>(std::string localeName)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::Locale::set</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>localeName</declname>
+        </param>
+        <briefdescription>
+<para>Loads and sets the active locale by its name. UTF-8 is always used as an encoding. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to the new locale. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="22" column="20" declfile="MRViewer/MRLocale.h" declline="22" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a9a635779fb2e857a50dd1e60b10b6f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::signals2::connection</type>
+        <definition>boost::signals2::connection MR::Locale::onChanged</definition>
+        <argsstring>(const std::function&lt; void(const std::string &amp;)&gt; &amp;cb)</argsstring>
+        <name>onChanged</name>
+        <qualifiedname>MR::Locale::onChanged</qualifiedname>
+        <param>
+          <type>const std::function&lt; void(const std::string &amp;)&gt; &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Connects to a signal emitted every time the active locale is changed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="24" column="30" declfile="MRViewer/MRLocale.h" declline="24" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; MR::Locale::getAvailableLocales</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailableLocales</name>
+        <qualifiedname>MR::Locale::getAvailableLocales</qualifiedname>
+        <briefdescription>
+<para>Returns the list of the names of locales with available .mo files. &quot;en&quot; is always included as the default locale. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="28" column="14" declfile="MRViewer/MRLocale.h" declline="28" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Locale::addCatalogPath</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>addCatalogPath</name>
+        <qualifiedname>MR::Locale::addCatalogPath</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Adds a path to .mo files. The path is expected to have the following directory structure: &lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo The active locale is reloaded on every call. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="34" column="7" declfile="MRViewer/MRLocale.h" declline="34" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a2874347c63d49c868fb6c5e8e86fd07f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::Locale::addDomain</definition>
+        <argsstring>(const char *domainName)</argsstring>
+        <name>addDomain</name>
+        <qualifiedname>MR::Locale::addDomain</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>domainName</declname>
+        </param>
+        <briefdescription>
+<para>Adds a new domain. The active locale is reloaded on every call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This overload is meant to be used with string literals for faster lookups. </para>
+</simplesect>
+<simplesect kind="return"><para>The id of the added domain. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="39" column="6" declfile="MRViewer/MRLocale.h" declline="39" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a49e0c33a146baded505327802433fb50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::Locale::addDomain</definition>
+        <argsstring>(const std::string &amp;domainName)</argsstring>
+        <name>addDomain</name>
+        <qualifiedname>MR::Locale::addDomain</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>domainName</declname>
+        </param>
+        <briefdescription>
+<para>Adds a new domain. The active locale is reloaded on every call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The id of the added domain. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="43" column="6" declfile="MRViewer/MRLocale.h" declline="43" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a74cb3cfc68c30759be2deee569d04b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::Locale::findDomain</definition>
+        <argsstring>(const char *domainName)</argsstring>
+        <name>findDomain</name>
+        <qualifiedname>MR::Locale::findDomain</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>domainName</declname>
+        </param>
+        <briefdescription>
+<para>Find an id for the given domain that can be passed to the <computeroutput>translate</computeroutput> functions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The domain id if the domain is previously added and 0 (the default domain id) otherwise. </para>
+</simplesect>
+<simplesect kind="note"><para>This overload is meant to be used with string literals for faster lookups. <ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="48" column="6" declfile="MRViewer/MRLocale.h" declline="48" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1abd162ed1ab4e598c7719e678ec8dff2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::Locale::findDomain</definition>
+        <argsstring>(const std::string &amp;domainName)</argsstring>
+        <name>findDomain</name>
+        <qualifiedname>MR::Locale::findDomain</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>domainName</declname>
+        </param>
+        <briefdescription>
+<para>Find an id for the given domain that can be passed to the <computeroutput>translate</computeroutput> functions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The domain id if the domain is previously added and 0 (the default domain id) otherwise. <ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="52" column="6" declfile="MRViewer/MRLocale.h" declline="52" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::Locale::getDisplayName</definition>
+        <argsstring>(const std::string &amp;localeName)</argsstring>
+        <name>getDisplayName</name>
+        <qualifiedname>MR::Locale::getDisplayName</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>localeName</declname>
+        </param>
+        <briefdescription>
+<para>Returns a display name for the given locale. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><itemizedlist>
+<listitem><para>The display name explicitly set with setDisplayName;</para>
+</listitem><listitem><para>or the display name from the compiled-in list of names generated from CLDR data;</para>
+</listitem><listitem><para>or the locale name as is. <ref refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kindref="member">setDisplayName</ref> </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="60" column="14" declfile="MRViewer/MRLocale.h" declline="60" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Locale::setDisplayName</definition>
+        <argsstring>(const std::string &amp;localeName, const std::string &amp;displayName)</argsstring>
+        <name>setDisplayName</name>
+        <qualifiedname>MR::Locale::setDisplayName</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>localeName</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>displayName</declname>
+        </param>
+        <briefdescription>
+<para>Adds or updates a display name for the given locale. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="62" column="7" declfile="MRViewer/MRLocale.h" declline="62" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRMeshFwd.h" line="804" column="1"/>
+  </compounddef>
+</doxygen>

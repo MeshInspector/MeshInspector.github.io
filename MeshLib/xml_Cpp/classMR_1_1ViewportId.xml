@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportId" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewportId</compoundname>
-    <includes refid="MRViewportId_8h" local="no">MRViewportId.h</includes>
+    <includes refid="MRViewportId_8h" local="no">MRMesh/MRViewportId.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1ViewportId_1aa71e71c60f9d878f47cfdd6a56ab1ae3" prot="private" static="no" mutable="no">
         <type>unsigned</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="37" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="37" bodyend="-1"/>
+        <location file="MRMesh/MRViewportId.h" line="37" column="14" bodyfile="MRMesh/MRViewportId.h" bodystart="37" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="18" column="5"/>
+        <location file="MRMesh/MRViewportId.h" line="18" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1a15d4db4d1c4f3df25ca2e3b42584cdc5" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="19" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="19" bodyend="19"/>
+        <location file="MRMesh/MRViewportId.h" line="19" column="24" bodyfile="MRMesh/MRViewportId.h" bodystart="19" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1ab99ee2f5a26f1c0a90438a3628ddc6f2" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>unsigned</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="21" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="21" bodyend="21"/>
+        <location file="MRMesh/MRViewportId.h" line="21" column="24" bodyfile="MRMesh/MRViewportId.h" bodystart="21" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1a615a2b1d482575ceedc2ab56c18f76ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="22" bodyend="22"/>
+        <location file="MRMesh/MRViewportId.h" line="22" column="10" bodyfile="MRMesh/MRViewportId.h" bodystart="22" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1aef82f80fd86ebf4743ca7fd46e06f167" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="23" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="23" bodyend="23"/>
+        <location file="MRMesh/MRViewportId.h" line="23" column="14" bodyfile="MRMesh/MRViewportId.h" bodystart="23" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1add1d72585000960f8ebc71f8918c8fe8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="25" bodyend="25"/>
+        <location file="MRMesh/MRViewportId.h" line="25" column="10" bodyfile="MRMesh/MRViewportId.h" bodystart="25" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1a54c8612a503d30a068b86c8331bf8b6b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="26" bodyend="26"/>
+        <location file="MRMesh/MRViewportId.h" line="26" column="10" bodyfile="MRMesh/MRViewportId.h" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1a9acafb652edbb2c91792aa5fec87894f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="27" bodyend="27"/>
+        <location file="MRMesh/MRViewportId.h" line="27" column="5" bodyfile="MRMesh/MRViewportId.h" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1a06112e6b789df5eedf5f0e31a4c21217" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="29" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="29" bodyend="29"/>
+        <location file="MRMesh/MRViewportId.h" line="29" column="16" bodyfile="MRMesh/MRViewportId.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportId_1afa6504fd515c7efdf26552538d25a4a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="30" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="30" bodyend="30"/>
+        <location file="MRMesh/MRViewportId.h" line="30" column="16" bodyfile="MRMesh/MRViewportId.h" bodystart="30" bodyend="30"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -184,7 +184,7 @@
     <detaileddescription>
 <para>stores unique identifier of a viewport, which is power of two; id=0 has a special meaning of default viewport in some contexts </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="16" bodyend="38"/>
+    <location file="MRMesh/MRViewportId.h" line="15" column="1" bodyfile="MRMesh/MRViewportId.h" bodystart="16" bodyend="38"/>
     <listofallmembers>
       <member refid="classMR_1_1ViewportId_1aa71e71c60f9d878f47cfdd6a56ab1ae3" prot="private" virt="non-virtual"><scope>MR::ViewportId</scope><name>id_</name></member>
       <member refid="classMR_1_1ViewportId_1a06112e6b789df5eedf5f0e31a4c21217" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>next</name></member>

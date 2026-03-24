@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CNCMachineSettings" kind="class" language="C++" prot="public">
     <compoundname>MR::CNCMachineSettings</compoundname>
-    <includes refid="MRCNCMachineSettings_8h" local="no">MRCNCMachineSettings.h</includes>
+    <includes refid="MRCNCMachineSettings_8h" local="no">MRMesh/MRCNCMachineSettings.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kind="enum"><name>RotationAxisName</name></member>
       <member refid="group__GeneralGroup_1gac6d8378bba6ed1303ede82290d59c97d" kind="typedef"><name>RotationAxesOrder</name></member>
@@ -19,51 +19,51 @@
       <member refid="group__GeneralGroup_1ga271280ff24b28ebf15bb5513121032be" kind="function"><name>getAxesCount</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaf43358e48d8585153010284ae8573894" kind="function"><name>setRotationAxis</name></member>
-      <member refid="group__GeneralGroup_1ga9b8cd0d699837ae1b90931ef9e94812e" kind="function"><name>getRotationAxis</name></member>
-      <member refid="group__GeneralGroup_1gacc7183caf6c3269e59180f362ef83258" kind="function"><name>setRotationLimits</name></member>
-      <member refid="group__GeneralGroup_1gae955523fc216f1375b25477a94ebc629" kind="function"><name>getRotationLimits</name></member>
-      <member refid="group__GeneralGroup_1gac2d2ccfe7fd64c3498a251b0a0d33223" kind="function"><name>setRotationOrder</name></member>
+      <member refid="group__GeneralGroup_1gab0c174a2f36a533ce629dca7cf6e6eac" kind="function"><name>setRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1ga44ec4b3bf8446bb3e22d9dd5c0627e85" kind="function"><name>getRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1gabbbfa47c944c1612a9b3fbbeb424a204" kind="function"><name>setRotationLimits</name></member>
+      <member refid="group__GeneralGroup_1gae1ae1c8b922440cabdf5040ab6344c46" kind="function"><name>getRotationLimits</name></member>
+      <member refid="group__GeneralGroup_1ga9f9240fae66c1ffd476ce6f4a0ac2c78" kind="function"><name>setRotationOrder</name></member>
       <member refid="group__GeneralGroup_1gac0c13922a14bfc3a6a3a9add38676b04" kind="function"><name>getRotationOrder</name></member>
-      <member refid="group__GeneralGroup_1gae22e552af6d9f1dc0260d0da9fac1245" kind="function"><name>setFeedrateIdle</name></member>
+      <member refid="group__GeneralGroup_1ga7f8f67aa74dd08ad6e89563cdada3b2f" kind="function"><name>setFeedrateIdle</name></member>
       <member refid="group__GeneralGroup_1gaa86d3a2352dd1da528e0b0e02259cb2a" kind="function"><name>getFeedrateIdle</name></member>
       <member refid="group__GeneralGroup_1gaeec12ba988b385f03ee2ab59df0bdd18" kind="function"><name>setHomePosition</name></member>
       <member refid="group__GeneralGroup_1ga404671f36c19d091b007337e8c67f052" kind="function"><name>getHomePosition</name></member>
-      <member refid="group__GeneralGroup_1ga278d2f6aa58def219645069a531f5bcb" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga25e8983ad44914045326621d9d950b5d" kind="function"><name>operator==</name></member>
       <member refid="group__GeneralGroup_1ga0bbceb8d92b2fa4d3b6ef276385f4859" kind="function"><name>operator!=</name></member>
-      <member refid="group__GeneralGroup_1gaefee9fbee599870c51626aa983b8a978" kind="function"><name>saveToJson</name></member>
-      <member refid="group__GeneralGroup_1gaea3e8581cae26f91618ddedf27079e5b" kind="function"><name>loadFromJson</name></member>
+      <member refid="group__GeneralGroup_1ga93b72268ca2fc8327768a6650adb6ff1" kind="function"><name>saveToJson</name></member>
+      <member refid="group__GeneralGroup_1gaba12a3656ff9917b57e05ff69286af64" kind="function"><name>loadFromJson</name></member>
     </sectiondef>
     <briefdescription>
 <para>class with CNC machine emulation settings </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="19" bodyend="66"/>
+    <location file="MRMesh/MRCNCMachineSettings.h" line="18" column="1" bodyfile="MRMesh/MRCNCMachineSettings.h" bodystart="19" bodyend="66"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9c190b668695dc7442dd075e6e0b036c" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>feedrateIdle_</name></member>
       <member refid="group__GeneralGroup_1ga271280ff24b28ebf15bb5513121032be" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getAxesCount</name></member>
       <member refid="group__GeneralGroup_1gaa86d3a2352dd1da528e0b0e02259cb2a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getFeedrateIdle</name></member>
       <member refid="group__GeneralGroup_1ga404671f36c19d091b007337e8c67f052" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getHomePosition</name></member>
-      <member refid="group__GeneralGroup_1ga9b8cd0d699837ae1b90931ef9e94812e" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationAxis</name></member>
-      <member refid="group__GeneralGroup_1gae955523fc216f1375b25477a94ebc629" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationLimits</name></member>
+      <member refid="group__GeneralGroup_1ga44ec4b3bf8446bb3e22d9dd5c0627e85" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1gae1ae1c8b922440cabdf5040ab6344c46" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationLimits</name></member>
       <member refid="group__GeneralGroup_1gac0c13922a14bfc3a6a3a9add38676b04" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationOrder</name></member>
       <member refid="group__GeneralGroup_1ga72b1543f27bcfe4326e9701d9927bf27" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>homePosition_</name></member>
-      <member refid="group__GeneralGroup_1gaea3e8581cae26f91618ddedf27079e5b" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>loadFromJson</name></member>
+      <member refid="group__GeneralGroup_1gaba12a3656ff9917b57e05ff69286af64" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>loadFromJson</name></member>
       <member refid="group__GeneralGroup_1ga0bbceb8d92b2fa4d3b6ef276385f4859" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator!=</name></member>
-      <member refid="group__GeneralGroup_1ga278d2f6aa58def219645069a531f5bcb" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga25e8983ad44914045326621d9d950b5d" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator==</name></member>
       <member refid="group__GeneralGroup_1ga8dd7ea31eac50f57c23100bb0692d4c5" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationAxes_</name></member>
       <member refid="group__GeneralGroup_1gac6d8378bba6ed1303ede82290d59c97d" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationAxesOrder</name></member>
       <member refid="group__GeneralGroup_1gaf3f76fa54102c963534a06757b535c52" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationAxesOrder_</name></member>
       <member refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationAxisName</name></member>
       <member refid="group__GeneralGroup_1gaf2bd82f7a688dac76bdbfcf5f4f38ce8" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationLimits</name></member>
       <member refid="group__GeneralGroup_1ga7b83d20a9d6d6d47d5e54c574f974ba1" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationLimits_</name></member>
-      <member refid="group__GeneralGroup_1gaefee9fbee599870c51626aa983b8a978" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>saveToJson</name></member>
-      <member refid="group__GeneralGroup_1gae22e552af6d9f1dc0260d0da9fac1245" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setFeedrateIdle</name></member>
+      <member refid="group__GeneralGroup_1ga93b72268ca2fc8327768a6650adb6ff1" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>saveToJson</name></member>
+      <member refid="group__GeneralGroup_1ga7f8f67aa74dd08ad6e89563cdada3b2f" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setFeedrateIdle</name></member>
       <member refid="group__GeneralGroup_1gaeec12ba988b385f03ee2ab59df0bdd18" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setHomePosition</name></member>
-      <member refid="group__GeneralGroup_1gaf43358e48d8585153010284ae8573894" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationAxis</name></member>
-      <member refid="group__GeneralGroup_1gacc7183caf6c3269e59180f362ef83258" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationLimits</name></member>
-      <member refid="group__GeneralGroup_1gac2d2ccfe7fd64c3498a251b0a0d33223" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationOrder</name></member>
+      <member refid="group__GeneralGroup_1gab0c174a2f36a533ce629dca7cf6e6eac" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1gabbbfa47c944c1612a9b3fbbeb424a204" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationLimits</name></member>
+      <member refid="group__GeneralGroup_1ga9f9240fae66c1ffd476ce6f4a0ac2c78" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationOrder</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

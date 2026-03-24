@@ -1,0 +1,569 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__shared__ptr__MR__ChangeMeshAction_8h" kind="file" language="C++">
+    <compoundname>std_shared_ptr_MR_ChangeMeshAction.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_shared_ptr_MR_ChangeMeshAction.h</label>
+        <link refid="std__shared__ptr__MR__ChangeMeshAction_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_ChangeMeshAction MR_std_shared_ptr_MR_ChangeMeshAction</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>MR::ChangeMeshAction</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="20" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a58391cea1bb708a3c97991a9b52463f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="24" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="24" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a80142769388b6d47861091c275492d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a3a868405400ccbb1700c934fb02a7fb1" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a2084d06e6a2f72218bc06339ea0dfe73" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a533b393d53c23420e44a273f955add0f" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="29" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="29" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a21d8134d03bbcf58b60a4baf1a9bc5ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ChangeMeshAction *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="35" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="35" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1ab9798eee08218757caa6bc8e61932a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeMeshAction_AssignFromAnother</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeMeshAction *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ChangeMeshAction *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeMeshAction_Destroy</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeMeshAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_Destroy</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a3a868405400ccbb1700c934fb02a7fb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeMeshAction_DestroyArray</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeMeshAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a533b393d53c23420e44a273f955add0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_OffsetPtr</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeMeshAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="51" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="51" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a2084d06e6a2f72218bc06339ea0dfe73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeMeshAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="55" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="55" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1adb9cb6c9dfa9902098e773cfed4408e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_get</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeMeshAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_get</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stored pointer, possibly null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="60" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="60" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a0840393623df0e25affa7bf464ebba49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_shared_ptr_MR_ChangeMeshAction_has_value</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeMeshAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_has_value</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if non-null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a4c3eacf22fd91cb5d89519cf3490fa5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_std_shared_ptr_MR_ChangeMeshAction_use_count</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeMeshAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_use_count</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1adb9cb6c9dfa9902098e773cfed4408e8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_get()</ref></computeroutput> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1aa4be893dd7a29a2e48e07bb91a80f511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeMeshAction_reset</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeMeshAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_reset</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the pointer to null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a10c409f41978cf260795e5706fc3abca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_ConstructFromValue</definition>
+        <argsstring>(MR_PassBy value_pass_by, MR_ChangeMeshAction *value)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_ConstructFromValue</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a value. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="80" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="80" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1ae542db7685bfceb34e70b501c0eaf0e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_Construct</definition>
+        <argsstring>(MR_ChangeMeshAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_Construct</name>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, taking ownership of an existing pointer. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRChangeMeshAction_8h_1ab20d489a9814b4d7ed95c71ac3696041" kindref="member">MR_ChangeMeshAction_Destroy()</ref></computeroutput> on it automatically. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="86" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="86" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a71a8250698879d6c372668241063be71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeMeshAction_Assign</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeMeshAction *_this, MR_ChangeMeshAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_Assign</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRChangeMeshAction_8h_1ab20d489a9814b4d7ed95c71ac3696041" kindref="member">MR_ChangeMeshAction_Destroy()</ref></computeroutput> on it automatically. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="92" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1afaa040b4bd7643adba7f88865b5836dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_ConstructNonOwning</definition>
+        <argsstring>(MR_ChangeMeshAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_ConstructNonOwning</name>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, storing a non-owning pointer. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="98" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="98" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1aba3ca6649238ff3b894cb3ecc01ab6d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeMeshAction_AssignNonOwning</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeMeshAction *_this, MR_ChangeMeshAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_AssignNonOwning</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="104" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a450f767cf315dfa1f139dfb38ea09e9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ChangeMeshAction * MR_std_shared_ptr_MR_ChangeMeshAction_ConstructAliasing</definition>
+        <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ChangeMeshAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_ConstructAliasing</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="111" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="111" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a67890771c0db4e0c0b0b33c496facc0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeMeshAction_AssignAliasing</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ChangeMeshAction *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ChangeMeshAction *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_AssignAliasing</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1ad87fc45cee43de791871e8c23049b6a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_void * MR_std_shared_ptr_MR_ChangeMeshAction_ConvertTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeMeshAction *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_ConvertTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an untyped <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> pointing to the same object as the source typed pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__void_8h_1a4058fff40b43d1e3047fc56d51306aa3" kindref="member">MR_std_shared_ptr_void_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="123" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="123" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ChangeMeshAction_8h_1a65f3de582bfe3daf39617eaa8a16e25d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ChangeMeshAction_AssignTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ChangeMeshAction *_this, MR_std_shared_ptr_void *_target)</argsstring>
+        <name>MR_std_shared_ptr_MR_ChangeMeshAction_AssignTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+          <declname>_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrites an existing <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> to point to the same object as this instance. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_target</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h" declline="128" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a58391cea1bb708a3c97991a9b52463f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a58391cea1bb708a3c97991a9b52463f4" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a80142769388b6d47861091c275492d52" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a80142769388b6d47861091c275492d52" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a21d8134d03bbcf58b60a4baf1a9bc5ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a21d8134d03bbcf58b60a4baf1a9bc5ac" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1ab9798eee08218757caa6bc8e61932a0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1ab9798eee08218757caa6bc8e61932a0c" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a139cec9f29a6be86c63339bc4ea801cf" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a3a868405400ccbb1700c934fb02a7fb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a3a868405400ccbb1700c934fb02a7fb1" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a533b393d53c23420e44a273f955add0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a533b393d53c23420e44a273f955add0f" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a2084d06e6a2f72218bc06339ea0dfe73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a2084d06e6a2f72218bc06339ea0dfe73" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1adb9cb6c9dfa9902098e773cfed4408e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1adb9cb6c9dfa9902098e773cfed4408e8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a0840393623df0e25affa7bf464ebba49" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a0840393623df0e25affa7bf464ebba49" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a4c3eacf22fd91cb5d89519cf3490fa5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a4c3eacf22fd91cb5d89519cf3490fa5e" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1aa4be893dd7a29a2e48e07bb91a80f511" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1aa4be893dd7a29a2e48e07bb91a80f511" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_reset</ref>(<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a10c409f41978cf260795e5706fc3abca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a10c409f41978cf260795e5706fc3abca" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1ae542db7685bfceb34e70b501c0eaf0e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1ae542db7685bfceb34e70b501c0eaf0e7" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Construct</ref>(<ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a71a8250698879d6c372668241063be71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a71a8250698879d6c372668241063be71" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_Assign</ref>(<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this,<sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1afaa040b4bd7643adba7f88865b5836dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1afaa040b4bd7643adba7f88865b5836dc" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_ConstructNonOwning</ref>(<ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1aba3ca6649238ff3b894cb3ecc01ab6d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1aba3ca6649238ff3b894cb3ecc01ab6d7" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_AssignNonOwning</ref>(<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this,<sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a450f767cf315dfa1f139dfb38ea09e9c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a450f767cf315dfa1f139dfb38ea09e9c" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a67890771c0db4e0c0b0b33c496facc0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a67890771c0db4e0c0b0b33c496facc0e" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_AssignAliasing</ref>(<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1ad87fc45cee43de791871e8c23049b6a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1ad87fc45cee43de791871e8c23049b6a4" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a65f3de582bfe3daf39617eaa8a16e25d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a65f3de582bfe3daf39617eaa8a16e25d" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeMeshAction_8h_1a1caa6d0b92f111cd0ae01bcfd06c88d8" kindref="member">MR_std_shared_ptr_MR_ChangeMeshAction</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ChangeMeshAction.h"/>
+  </compounddef>
+</doxygen>

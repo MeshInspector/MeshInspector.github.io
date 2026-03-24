@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1TriangulationHelpers" kind="namespace" language="C++">
     <compoundname>MR::TriangulationHelpers</compoundname>
     <innerclass refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" prot="public">MR::TriangulationHelpers::FanOptimizerQueueElement</innerclass>
     <innerclass refid="structMR_1_1TriangulationHelpers_1_1Settings" prot="public">MR::TriangulationHelpers::Settings</innerclass>
     <innerclass refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" prot="public">MR::TriangulationHelpers::TriangulatedFanData</innerclass>
     <sectiondef kind="func">
-      <member refid="group__TriangulationHelpersGroup_1ga239d61601b826c9241ca50d59821b545" kind="function"><name>updateNeighborsRadius</name></member>
-      <member refid="group__TriangulationHelpersGroup_1ga1b730fbcddd0678ad119e9abc6d797c0" kind="function"><name>findNeighborsInBall</name></member>
-      <member refid="group__TriangulationHelpersGroup_1gaf71ad211f7cae4bc648807774f9b3758" kind="function"><name>findNumNeighbors</name></member>
-      <member refid="group__TriangulationHelpersGroup_1gae34e6824af064eefccf01c8f241bb11d" kind="function"><name>filterNeighbors</name></member>
-      <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1a7bac13257412606ce60799f214894488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::TriangulationHelpers::buildLocalTriangulation</definition>
+      <member refid="group__TriangulationHelpersGroup_1gaf72ca8f1d6497ca42e99d5884312305c" kind="function"><name>updateNeighborsRadius</name></member>
+      <member refid="group__TriangulationHelpersGroup_1gab7b3e43bb16453b2202ab3e82d052488" kind="function"><name>findNeighborsInBall</name></member>
+      <member refid="group__TriangulationHelpersGroup_1ga9f026bf1ef8ed09a14cc5012fe92d8fc" kind="function"><name>findNumNeighbors</name></member>
+      <member refid="group__TriangulationHelpersGroup_1ga8a151252bffbc3c9b6cf56c1a45292f0" kind="function"><name>filterNeighbors</name></member>
+      <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1a1d49af7a8eeeab7c3559be658f3f7abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::TriangulationHelpers::buildLocalTriangulation</definition>
         <argsstring>(const PointCloud &amp;cloud, VertId v, const Settings &amp;settings, TriangulatedFanData &amp;fanData)</argsstring>
         <name>buildLocalTriangulation</name>
         <qualifiedname>MR::TriangulationHelpers::buildLocalTriangulation</qualifiedname>
@@ -39,11 +39,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="141" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="141" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="141" column="7" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="141" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1a0e54822d80eff541695984d7a72a2ac9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; std::vector&lt; <ref refid="structMR_1_1SomeLocalTriangulations" kindref="compound">SomeLocalTriangulations</ref> &gt; &gt;</type>
-        <definition>MRMESH_API std::optional&lt; std::vector&lt; SomeLocalTriangulations &gt; &gt; MR::TriangulationHelpers::buildLocalTriangulations</definition>
+      <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1a7c0d563c2b38463627552396d1943390" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; std::vector&lt; <ref refid="structMR_1_1SomeLocalTriangulations" kindref="compound">SomeLocalTriangulations</ref> &gt; &gt;</type>
+        <definition>std::optional&lt; std::vector&lt; SomeLocalTriangulations &gt; &gt; MR::TriangulationHelpers::buildLocalTriangulations</definition>
         <argsstring>(const PointCloud &amp;cloud, const Settings &amp;settings, const ProgressCallback &amp;progress={})</argsstring>
         <name>buildLocalTriangulations</name>
         <qualifiedname>MR::TriangulationHelpers::buildLocalTriangulations</qualifiedname>
@@ -56,7 +56,7 @@
           <declname>settings</declname>
         </param>
         <param>
-          <type>const ProgressCallback &amp;</type>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
           <declname>progress</declname>
           <defval>{}</defval>
         </param>
@@ -67,11 +67,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="146" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="146" declcolumn="27"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="146" column="17" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="146" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1aaaaea439dd161b8d9bb9fa504ec2c384" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; <ref refid="structMR_1_1AllLocalTriangulations" kindref="compound">AllLocalTriangulations</ref> &gt;</type>
-        <definition>MRMESH_API std::optional&lt; AllLocalTriangulations &gt; MR::TriangulationHelpers::buildUnitedLocalTriangulations</definition>
+      <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1ab287ce821d48fe623f355150ce7ccda3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; <ref refid="structMR_1_1AllLocalTriangulations" kindref="compound">AllLocalTriangulations</ref> &gt;</type>
+        <definition>std::optional&lt; AllLocalTriangulations &gt; MR::TriangulationHelpers::buildUnitedLocalTriangulations</definition>
         <argsstring>(const PointCloud &amp;cloud, const Settings &amp;settings, const ProgressCallback &amp;progress={})</argsstring>
         <name>buildUnitedLocalTriangulations</name>
         <qualifiedname>MR::TriangulationHelpers::buildUnitedLocalTriangulations</qualifiedname>
@@ -84,7 +84,7 @@
           <declname>settings</declname>
         </param>
         <param>
-          <type>const ProgressCallback &amp;</type>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
           <declname>progress</declname>
           <defval>{}</defval>
         </param>
@@ -94,12 +94,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="150" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="150" declcolumn="27"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="150" column="17" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="150" declcolumn="17"/>
       </memberdef>
-      <member refid="group__TriangulationHelpersGroup_1gad0f4036eebdcc507b1d8314ee455eef9" kind="function"><name>isBoundaryPoint</name></member>
-      <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1a691dadc49fb6346b701545653e8e1dcf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; VertBitSet &gt;</type>
-        <definition>MRMESH_API std::optional&lt; VertBitSet &gt; MR::TriangulationHelpers::findBoundaryPoints</definition>
+      <member refid="group__TriangulationHelpersGroup_1ga379ef6cfbe1df486c3b9baf10d186c0b" kind="function"><name>isBoundaryPoint</name></member>
+      <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1a411db16d5e4c2dbe23cd32a475579e0a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; VertBitSet &gt;</type>
+        <definition>std::optional&lt; VertBitSet &gt; MR::TriangulationHelpers::findBoundaryPoints</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const Settings &amp;settings, ProgressCallback cb={})</argsstring>
         <name>findBoundaryPoints</name>
         <qualifiedname>MR::TriangulationHelpers::findBoundaryPoints</qualifiedname>
@@ -112,7 +112,7 @@
           <declname>settings</declname>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -123,13 +123,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="166" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="166" declcolumn="27"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="166" column="17" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="166" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="21" column="1"/>
+    <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="21" column="1"/>
   </compounddef>
 </doxygen>

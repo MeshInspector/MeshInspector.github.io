@@ -5,7 +5,7 @@ var classMR_1_1RectIndexer =
     [ "areNeigbors", "classMR_1_1RectIndexer.html#a95b4e703046a8706888f15f3bd4b7c3a", null ],
     [ "areNeigbors", "classMR_1_1RectIndexer.html#a581238851bf8cb545d729d3957100372", null ],
     [ "dims", "classMR_1_1RectIndexer.html#a3ad518f3ebe31196088da356bd7646cb", null ],
-    [ "getNeighbor", "classMR_1_1RectIndexer.html#ac517f36a12430a41779b1e7fd847684b", null ],
+    [ "getNeighbor", "classMR_1_1RectIndexer.html#a8b4fcc40aa58630eebf389ef808451df", null ],
     [ "getNeighbor", "classMR_1_1RectIndexer.html#a3405e1ad7d3f9cb6d72845e41f3232bc", null ],
     [ "resize", "group__DistanceMapGroup.html#ga901329f8c2956e6baeb440b154c9907f", null ],
     [ "size", "classMR_1_1RectIndexer.html#abd5035619b34370c067840c03ffb5b82", null ],

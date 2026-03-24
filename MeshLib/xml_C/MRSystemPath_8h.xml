@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSystemPath_8h" kind="file" language="C++">
     <compoundname>MRSystemPath.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +15,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stddef.h</label>
@@ -76,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" bodystart="17" bodyend="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" bodystart="17" bodyend="28"/>
       </memberdef>
       <memberdef kind="enum" id="MRSystemPath_8h_1ae7da682249d21e8d643737507877dc67" prot="public" static="no" strong="no">
         <type></type>
@@ -127,23 +128,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" bodystart="32" bodyend="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" bodystart="32" bodyend="38"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSystemPath_8h_1a006d61fd2048bba5b5622d42cbe72526" prot="public" static="no">
-        <type>struct <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref></type>
-        <definition>typedef struct MR_std_filesystem_path MR_std_filesystem_path</definition>
-        <argsstring></argsstring>
-        <name>MR_std_filesystem_path</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="11" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" prot="public" static="no">
         <type>struct <ref refid="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" kindref="member">MR_std_vector_std_array_std_filesystem_path_4</ref></type>
         <definition>typedef struct MR_std_vector_std_array_std_filesystem_path_4 MR_std_vector_std_array_std_filesystem_path_4</definition>
@@ -152,10 +140,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;std::array&lt;std::filesystem::path, 4&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="12" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="12" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSystemPath_8h_1ac81681648b9802837f3eef1c8d7d8eb8" prot="public" static="no">
         <type>enum <ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" kindref="member">MR_SystemPath_Directory</ref></type>
@@ -169,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="28" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="28" column="25"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSystemPath_8h_1a0e3bc589c9efdedfe787f732c0223675" prot="public" static="no">
         <type>enum <ref refid="MRSystemPath_8h_1ae7da682249d21e8d643737507877dc67" kindref="member">MR_SystemPath_SystemFontType</ref></type>
@@ -182,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="38" column="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="38" column="30"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" prot="public" static="no">
         <type>struct <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref></type>
@@ -192,16 +181,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>system directory path manager Generated from class <computeroutput>MR::SystemPath</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>system directory path manager Generated from class <computeroutput>MR::SystemPath</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="43" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="43" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" bodystart="43" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRSystemPath_8h_1ad19f1ec2d46eab7b759aa82b74b33957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
         <definition>MRC_API MR_SystemPath * MR_SystemPath_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_SystemPath_DefaultConstruct</name>
@@ -215,10 +204,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="47" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="47" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="47" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="47" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1a91bb14ed8d251065d44d0caa0f722517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
         <definition>MRC_API MR_SystemPath * MR_SystemPath_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_SystemPath_DefaultConstructArray</name>
@@ -233,10 +222,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="52" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="52" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="52" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="52" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1a4b4e5a433a3af5a33da96651ede6e327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
         <definition>MRC_API const MR_SystemPath * MR_SystemPath_OffsetPtr</definition>
         <argsstring>(const MR_SystemPath *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SystemPath_OffsetPtr</name>
@@ -255,10 +244,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="56" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="56" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="56" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="56" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1ac1a6a2d356619dc4610e0a75920a6494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
         <definition>MRC_API MR_SystemPath * MR_SystemPath_OffsetMutablePtr</definition>
         <argsstring>(MR_SystemPath *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SystemPath_OffsetMutablePtr</name>
@@ -277,10 +266,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="60" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="60" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="60" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="60" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1ae764450390af92c1f7d50fb25dd096f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
         <definition>MRC_API MR_SystemPath * MR_SystemPath_ConstructFromAnother</definition>
         <argsstring>(const MR_SystemPath *_other)</argsstring>
         <name>MR_SystemPath_ConstructFromAnother</name>
@@ -295,10 +284,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="66" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="66" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="66" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="66" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1ab568941a25fc88dc3fcdefc131e7878d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SystemPath_Destroy</definition>
         <argsstring>(const MR_SystemPath *_this)</argsstring>
         <name>MR_SystemPath_Destroy</name>
@@ -307,16 +296,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SystemPath</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="69" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="69" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1a230545ee11adfc4053917e9b5929c6ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SystemPath_DestroyArray</definition>
         <argsstring>(const MR_SystemPath *_this)</argsstring>
         <name>MR_SystemPath_DestroyArray</name>
@@ -325,16 +314,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SystemPath</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="72" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="72" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1abb1a96581c1a9d62f7a1b728d96a5819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref> *</type>
         <definition>MRC_API MR_SystemPath * MR_SystemPath_AssignFromAnother</definition>
         <argsstring>(MR_SystemPath *_this, const MR_SystemPath *_other)</argsstring>
         <name>MR_SystemPath_AssignFromAnother</name>
@@ -349,14 +338,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SystemPath::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SystemPath::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="80" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="80" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="80" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="80" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1a59112bb8f5929a70a65ddcc412c2993d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
         <definition>MRC_API MR_std_filesystem_path * MR_SystemPath_getDirectory</definition>
         <argsstring>(MR_SystemPath_Directory dir)</argsstring>
         <name>MR_SystemPath_getDirectory</name>
@@ -367,14 +356,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>get the directory path for specified category Generated from method <computeroutput>MR::SystemPath::getDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>get the directory path for specified category Generated from method <computeroutput>MR::SystemPath::getDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__filesystem__path_8h_1aa4f29eaf18ebc9631862ab888f723391" kindref="member">MR_std_filesystem_path_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="85" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="85" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="85" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="85" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1a819a7e67bc131d009ac4110c3ca482af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SystemPath_overrideDirectory</definition>
         <argsstring>(MR_SystemPath_Directory dir, const char *path, const char *path_end)</argsstring>
         <name>MR_SystemPath_overrideDirectory</name>
@@ -397,10 +386,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="90" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="90" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1a80aed6cf06de3032f26a2ecffe084698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
         <definition>MRC_API MR_std_filesystem_path * MR_SystemPath_getResourcesDirectory</definition>
         <argsstring>(void)</argsstring>
         <name>MR_SystemPath_getResourcesDirectory</name>
@@ -410,14 +399,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>get the resource files&apos; directory path Generated from method <computeroutput>MR::SystemPath::getResourcesDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>get the resource files&apos; directory path Generated from method <computeroutput>MR::SystemPath::getResourcesDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__filesystem__path_8h_1aa4f29eaf18ebc9631862ab888f723391" kindref="member">MR_std_filesystem_path_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="95" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="95" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="95" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="95" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1a1aa67e95157d2158ed8b0fd3ec9748ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
         <definition>MRC_API MR_std_filesystem_path * MR_SystemPath_getFontsDirectory</definition>
         <argsstring>(void)</argsstring>
         <name>MR_SystemPath_getFontsDirectory</name>
@@ -427,14 +416,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>get the font files&apos; directory path Generated from method <computeroutput>MR::SystemPath::getFontsDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>get the font files&apos; directory path Generated from method <computeroutput>MR::SystemPath::getFontsDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__filesystem__path_8h_1aa4f29eaf18ebc9631862ab888f723391" kindref="member">MR_std_filesystem_path_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="100" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="100" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="100" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="100" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1aa07f46ebd882a943d673ca9bfde9f030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
         <definition>MRC_API MR_std_filesystem_path * MR_SystemPath_getPluginsDirectory</definition>
         <argsstring>(void)</argsstring>
         <name>MR_SystemPath_getPluginsDirectory</name>
@@ -444,14 +433,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>get the plugin binaries&apos; directory path Generated from method <computeroutput>MR::SystemPath::getPluginsDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>get the plugin binaries&apos; directory path Generated from method <computeroutput>MR::SystemPath::getPluginsDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__filesystem__path_8h_1aa4f29eaf18ebc9631862ab888f723391" kindref="member">MR_std_filesystem_path_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="105" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="105" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="105" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="105" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1a3e178b7b8461a6b4681829adbd3c4dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
         <definition>MRC_API MR_std_filesystem_path * MR_SystemPath_getPythonModulesDirectory</definition>
         <argsstring>(void)</argsstring>
         <name>MR_SystemPath_getPythonModulesDirectory</name>
@@ -461,14 +450,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>get the Python modules&apos; binaries&apos; directory path Generated from method <computeroutput>MR::SystemPath::getPythonModulesDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>get the Python modules&apos; binaries&apos; directory path Generated from method <computeroutput>MR::SystemPath::getPythonModulesDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__filesystem__path_8h_1aa4f29eaf18ebc9631862ab888f723391" kindref="member">MR_std_filesystem_path_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="110" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="110" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="110" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="110" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRSystemPath_8h_1ad00767b24286c2ef7add81c74f6d403e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" kindref="member">MR_std_vector_std_array_std_filesystem_path_4</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" kindref="member">MR_std_vector_std_array_std_filesystem_path_4</ref> *</type>
         <definition>MRC_API const MR_std_vector_std_array_std_filesystem_path_4 * MR_SystemPath_getSystemFonts</definition>
         <argsstring>(void)</argsstring>
         <name>MR_SystemPath_getSystemFonts</name>
@@ -482,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" line="115" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h" declline="115" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" line="115" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h" declline="115" declcolumn="61"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -492,7 +481,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -500,11 +489,11 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRSystemPath_8h_1a006d61fd2048bba5b5622d42cbe72526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" kindref="member">MR_std_vector_std_array_std_filesystem_path_4</ref><sp/><ref refid="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" kindref="member">MR_std_vector_std_array_std_filesystem_path_4</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_array_std_filesystem_path_4.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" kindref="member">MR_SystemPath_Directory</ref></highlight></codeline>
+<codeline lineno="16" refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" kindref="member">MR_SystemPath_Directory</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8da8b9e0f9217140c7722033559155bbf3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8da8b9e0f9217140c7722033559155bbf3d" kindref="member">MR_SystemPath_Directory_Resources</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="21" refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8da74f2b27af2e90345c92a98e0a83338b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8da74f2b27af2e90345c92a98e0a83338b5" kindref="member">MR_SystemPath_Directory_Fonts</ref><sp/>=<sp/>1,</highlight></codeline>
@@ -523,42 +512,42 @@
 <codeline lineno="37" refid="MRSystemPath_8h_1ae7da682249d21e8d643737507877dc67a04f78d989aeb9dfe43722478ece160d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSystemPath_8h_1ae7da682249d21e8d643737507877dc67a04f78d989aeb9dfe43722478ece160d8" kindref="member">MR_SystemPath_SystemFontType_Count</ref><sp/>=<sp/>4,</highlight></codeline>
 <codeline lineno="38" refid="MRSystemPath_8h_1a0e3bc589c9efdedfe787f732c0223675" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSystemPath_8h_1ae7da682249d21e8d643737507877dc67" kindref="member">MR_SystemPath_SystemFontType</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref>;</highlight></codeline>
+<codeline lineno="43" refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref>;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRSystemPath_8h_1ad19f1ec2d46eab7b759aa82b74b33957" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1ad19f1ec2d46eab7b759aa82b74b33957" kindref="member">MR_SystemPath_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47" refid="MRSystemPath_8h_1ad19f1ec2d46eab7b759aa82b74b33957" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1ad19f1ec2d46eab7b759aa82b74b33957" kindref="member">MR_SystemPath_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRSystemPath_8h_1a91bb14ed8d251065d44d0caa0f722517" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1a91bb14ed8d251065d44d0caa0f722517" kindref="member">MR_SystemPath_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="52" refid="MRSystemPath_8h_1a91bb14ed8d251065d44d0caa0f722517" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1a91bb14ed8d251065d44d0caa0f722517" kindref="member">MR_SystemPath_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRSystemPath_8h_1a4b4e5a433a3af5a33da96651ede6e327" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1a4b4e5a433a3af5a33da96651ede6e327" kindref="member">MR_SystemPath_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56" refid="MRSystemPath_8h_1a4b4e5a433a3af5a33da96651ede6e327" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1a4b4e5a433a3af5a33da96651ede6e327" kindref="member">MR_SystemPath_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRSystemPath_8h_1ac1a6a2d356619dc4610e0a75920a6494" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1ac1a6a2d356619dc4610e0a75920a6494" kindref="member">MR_SystemPath_OffsetMutablePtr</ref>(<ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60" refid="MRSystemPath_8h_1ac1a6a2d356619dc4610e0a75920a6494" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1ac1a6a2d356619dc4610e0a75920a6494" kindref="member">MR_SystemPath_OffsetMutablePtr</ref>(<ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRSystemPath_8h_1ae764450390af92c1f7d50fb25dd096f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1ae764450390af92c1f7d50fb25dd096f1" kindref="member">MR_SystemPath_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="66" refid="MRSystemPath_8h_1ae764450390af92c1f7d50fb25dd096f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1ae764450390af92c1f7d50fb25dd096f1" kindref="member">MR_SystemPath_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRSystemPath_8h_1ab568941a25fc88dc3fcdefc131e7878d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1ab568941a25fc88dc3fcdefc131e7878d" kindref="member">MR_SystemPath_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69" refid="MRSystemPath_8h_1ab568941a25fc88dc3fcdefc131e7878d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1ab568941a25fc88dc3fcdefc131e7878d" kindref="member">MR_SystemPath_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRSystemPath_8h_1a230545ee11adfc4053917e9b5929c6ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1a230545ee11adfc4053917e9b5929c6ed" kindref="member">MR_SystemPath_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72" refid="MRSystemPath_8h_1a230545ee11adfc4053917e9b5929c6ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1a230545ee11adfc4053917e9b5929c6ed" kindref="member">MR_SystemPath_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRSystemPath_8h_1abb1a96581c1a9d62f7a1b728d96a5819" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1abb1a96581c1a9d62f7a1b728d96a5819" kindref="member">MR_SystemPath_AssignFromAnother</ref>(<ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="80" refid="MRSystemPath_8h_1abb1a96581c1a9d62f7a1b728d96a5819" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*<ref refid="MRSystemPath_8h_1abb1a96581c1a9d62f7a1b728d96a5819" kindref="member">MR_SystemPath_AssignFromAnother</ref>(<ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1af29de8d6ca67e0ba0959a08446baca82" kindref="member">MR_SystemPath</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRSystemPath_8h_1a59112bb8f5929a70a65ddcc412c2993d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1a59112bb8f5929a70a65ddcc412c2993d" kindref="member">MR_SystemPath_getDirectory</ref>(<ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" kindref="member">MR_SystemPath_Directory</ref><sp/>dir);</highlight></codeline>
+<codeline lineno="85" refid="MRSystemPath_8h_1a59112bb8f5929a70a65ddcc412c2993d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1a59112bb8f5929a70a65ddcc412c2993d" kindref="member">MR_SystemPath_getDirectory</ref>(<ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" kindref="member">MR_SystemPath_Directory</ref><sp/>dir);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRSystemPath_8h_1a819a7e67bc131d009ac4110c3ca482af" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1a819a7e67bc131d009ac4110c3ca482af" kindref="member">MR_SystemPath_overrideDirectory</ref>(<ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" kindref="member">MR_SystemPath_Directory</ref><sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
+<codeline lineno="90" refid="MRSystemPath_8h_1a819a7e67bc131d009ac4110c3ca482af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1a819a7e67bc131d009ac4110c3ca482af" kindref="member">MR_SystemPath_overrideDirectory</ref>(<ref refid="MRSystemPath_8h_1a70557e8d35dfa65b6cb36e9188560b8d" kindref="member">MR_SystemPath_Directory</ref><sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRSystemPath_8h_1a80aed6cf06de3032f26a2ecffe084698" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1a80aed6cf06de3032f26a2ecffe084698" kindref="member">MR_SystemPath_getResourcesDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95" refid="MRSystemPath_8h_1a80aed6cf06de3032f26a2ecffe084698" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1a80aed6cf06de3032f26a2ecffe084698" kindref="member">MR_SystemPath_getResourcesDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRSystemPath_8h_1a1aa67e95157d2158ed8b0fd3ec9748ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1a1aa67e95157d2158ed8b0fd3ec9748ba" kindref="member">MR_SystemPath_getFontsDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="100" refid="MRSystemPath_8h_1a1aa67e95157d2158ed8b0fd3ec9748ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1a1aa67e95157d2158ed8b0fd3ec9748ba" kindref="member">MR_SystemPath_getFontsDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRSystemPath_8h_1aa07f46ebd882a943d673ca9bfde9f030" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1aa07f46ebd882a943d673ca9bfde9f030" kindref="member">MR_SystemPath_getPluginsDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105" refid="MRSystemPath_8h_1aa07f46ebd882a943d673ca9bfde9f030" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1aa07f46ebd882a943d673ca9bfde9f030" kindref="member">MR_SystemPath_getPluginsDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRSystemPath_8h_1a3e178b7b8461a6b4681829adbd3c4dbe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1a3e178b7b8461a6b4681829adbd3c4dbe" kindref="member">MR_SystemPath_getPythonModulesDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110" refid="MRSystemPath_8h_1a3e178b7b8461a6b4681829adbd3c4dbe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystemPath_8h_1a3e178b7b8461a6b4681829adbd3c4dbe" kindref="member">MR_SystemPath_getPythonModulesDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MRSystemPath_8h_1ad00767b24286c2ef7add81c74f6d403e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" kindref="member">MR_std_vector_std_array_std_filesystem_path_4</ref><sp/>*<ref refid="MRSystemPath_8h_1ad00767b24286c2ef7add81c74f6d403e" kindref="member">MR_SystemPath_getSystemFonts</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115" refid="MRSystemPath_8h_1ad00767b24286c2ef7add81c74f6d403e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystemPath_8h_1a3a17e15e4b66a301f71cac93df990e0c" kindref="member">MR_std_vector_std_array_std_filesystem_path_4</ref><sp/>*<ref refid="MRSystemPath_8h_1ad00767b24286c2ef7add81c74f6d403e" kindref="member">MR_SystemPath_getSystemFonts</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystemPath.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystemPath.h"/>
   </compounddef>
 </doxygen>

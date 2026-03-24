@@ -1,151 +1,89 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointsToDistanceVolume_8h" kind="file" language="C++">
     <compoundname>MRPointsToDistanceVolume.h</compoundname>
-    <includes local="yes">MRVoxelsFwd.h</includes>
+    <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
     <includes refid="MRDistanceVolumeParams_8h" local="yes">MRDistanceVolumeParams.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
     <includes refid="MRPointCloud_8h" local="yes">MRMesh/MRPointCloud.h</includes>
-    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="yes">MRCudaPointsToDistanceVolume.h</includedby>
+    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="yes">MRCuda/MRCudaPointsToDistanceVolume.h</includedby>
     <incdepgraph>
-      <node id="26">
+      <node id="33">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-      </node>
-      <node id="33">
-        <label>MRCloudPartMapping.h</label>
-        <link refid="MRCloudPartMapping_8h"/>
-        <childnode refid="34" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRConstants.h</label>
-        <link refid="MRConstants_8h"/>
-      </node>
-      <node id="19">
-        <label>MRMesh/MRExpected.h</label>
-        <link refid="MRExpected_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="22">
-        <label>MRMesh/MRPointCloud.h</label>
-        <link refid="MRPointCloud_8h"/>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
-        <label>MRMesh/MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="24">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRCloudPartMapping.h</label>
+        <link refid="MRCloudPartMapping_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="27">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="31">
-        <label>MRSharedThreadSafeOwner.h</label>
-        <link refid="MRSharedThreadSafeOwner_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
       </node>
       <node id="4">
-        <label>MRMesh/MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -159,96 +97,202 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+      </node>
+      <node id="29">
+        <label>MRMesh/MRPointCloud.h</label>
+        <link refid="MRPointCloud_8h"/>
+        <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>MRDistanceVolumeParams.h</label>
-        <link refid="MRDistanceVolumeParams_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>MRPointsToDistanceVolume.h</label>
-        <link refid="MRPointsToDistanceVolume_8h"/>
-        <childnode refid="2" relation="include">
+      <node id="26">
+        <label>MRMesh/MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="34">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="31">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
       </node>
-      <node id="9">
-        <label>MRMeshFwd.h</label>
+      <node id="37">
+        <label>MRSharedThreadSafeOwner.h</label>
+        <link refid="MRSharedThreadSafeOwner_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
       </node>
-      <node id="11">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="17">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
-      <node id="20">
-        <label>MRPch/MRExpected.h</label>
+      <node id="30">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="15">
+        <label>MRDistanceVolumeParams.h</label>
+        <link refid="MRDistanceVolumeParams_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRVoxels/MRPointsToDistanceVolume.h</label>
+        <link refid="MRPointsToDistanceVolume_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
-      <node id="28">
-        <label>MRphmap.h</label>
-      </node>
-      <node id="12">
-        <label>algorithm</label>
-      </node>
-      <node id="18">
-        <label>cassert</label>
-      </node>
-      <node id="13">
-        <label>cmath</label>
-      </node>
-      <node id="25">
-        <label>concepts</label>
-      </node>
-      <node id="7">
-        <label>cstddef</label>
-      </node>
-      <node id="14">
-        <label>cstring</label>
-      </node>
-      <node id="29">
-        <label>functional</label>
-      </node>
-      <node id="15">
-        <label>iosfwd</label>
-      </node>
-      <node id="30">
-        <label>iterator</label>
-      </node>
-      <node id="32">
-        <label>memory</label>
-      </node>
-      <node id="21">
-        <label>string</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
       </node>
       <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="28">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="35">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="21">
+        <label>algorithm</label>
+      </node>
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="22">
+        <label>cmath</label>
+      </node>
+      <node id="32">
+        <label>concepts</label>
+      </node>
+      <node id="18">
+        <label>cstddef</label>
+      </node>
+      <node id="23">
+        <label>cstring</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="24">
+        <label>iosfwd</label>
+      </node>
+      <node id="36">
+        <label>iterator</label>
+      </node>
+      <node id="38">
+        <label>memory</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="19">
         <label>type_traits</label>
       </node>
-      <node id="16">
+      <node id="25">
         <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCudaPointsToDistanceVolume.h</label>
+        <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
       <node id="1">
-        <label>MRPointsToDistanceVolume.h</label>
+        <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -263,7 +307,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRVoxelsFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxelsFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRDistanceVolumeParams_8h" kindref="compound">MRDistanceVolumeParams.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -286,15 +330,15 @@
 <codeline lineno="33" refid="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals*<sp/><ref refid="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" kindref="member">ptNormals</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1ga4924b85972ee04b7df75da333d851117" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolume&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga4924b85972ee04b7df75da333d851117" kindref="member">pointsToDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga70392e4bbce2674ece793e6e25a120ca" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolume&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga70392e4bbce2674ece793e6e25a120ca" kindref="member">pointsToDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="group__GeneralGroup_1ga2a68dc1cf487d20d55f20f536c2dedfc" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/>FunctionVolume<sp/><ref refid="group__GeneralGroup_1ga2a68dc1cf487d20d55f20f536c2dedfc" kindref="member">pointsToDistanceFunctionVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1ga815886dfa1babcbedc85b059e1e66fec" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref><sp/><ref refid="group__GeneralGroup_1ga815886dfa1babcbedc85b059e1e66fec" kindref="member">pointsToDistanceFunctionVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1ga1746d757b12ddb4f1527a3c3b361ec4c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertColors&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1746d757b12ddb4f1527a3c3b361ec4c" kindref="member">calcAvgColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertColors<sp/>&amp;<sp/>colors,</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>tgtPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>tgtVerts,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga43c5eff589bf8b66beca99dac171b10c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertColors&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga43c5eff589bf8b66beca99dac171b10c" kindref="member">calcAvgColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertColors<sp/>&amp;<sp/>colors,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>tgtPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>tgtVerts,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h"/>
+    <location file="MRVoxels/MRPointsToDistanceVolume.h"/>
   </compounddef>
 </doxygen>

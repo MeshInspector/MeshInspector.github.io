@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PlyLoadParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::PlyLoadParams</compoundname>
-    <includes refid="MRPly_8h" local="no">MRPly.h</includes>
+    <includes refid="MRPly_8h" local="no">MRMesh/MRPly.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gab60b055cffae98b1ce1a1a4466cfe633" kind="variable"><name>tris</name></member>
       <member refid="group__GeneralGroup_1gae8303df7b41e4693e1bc02050bc121ca" kind="variable"><name>edges</name></member>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="18" bodyend="31"/>
+    <location file="MRMesh/MRPly.h" line="17" column="1" bodyfile="MRMesh/MRPly.h" bodystart="18" bodyend="31"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>callback</name></member>
       <member refid="group__GeneralGroup_1ga9ce47c459de54352d5e746497909802c" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>colors</name></member>

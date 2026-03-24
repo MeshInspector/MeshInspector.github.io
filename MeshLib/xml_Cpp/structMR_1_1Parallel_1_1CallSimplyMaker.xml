@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Parallel_1_1CallSimplyMaker" kind="struct" language="C++" prot="public">
     <compoundname>MR::Parallel::CallSimplyMaker</compoundname>
-    <includes refid="MRParallel_8h" local="no">MRParallel.h</includes>
+    <includes refid="MRParallel_8h" local="no">MRMesh/MRParallel.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga52b3271f5af4251f286977712cfaa24b" kind="function"><name>operator()</name></member>
     </sectiondef>
@@ -10,7 +10,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="21" bodyend="23"/>
+    <location file="MRMesh/MRParallel.h" line="20" column="1" bodyfile="MRMesh/MRParallel.h" bodystart="21" bodyend="23"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga52b3271f5af4251f286977712cfaa24b" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>operator()</name></member>
     </listofallmembers>

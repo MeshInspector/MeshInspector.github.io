@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MapOrHashMap" kind="struct" language="C++" prot="public">
     <compoundname>MR::MapOrHashMap</compoundname>
-    <includes refid="MRMapOrHashMap_8h" local="no">MRMapOrHashMap.h</includes>
+    <includes refid="MRMapOrHashMap_8h" local="no">MRMesh/MRMapOrHashMap.h</includes>
     <templateparamlist>
       <param>
         <type>typename K</type>
@@ -39,7 +39,7 @@
     <detaileddescription>
 <para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="19" bodyend="50"/>
+    <location file="MRMesh/MRMapOrHashMap.h" line="18" column="1" bodyfile="MRMesh/MRMapOrHashMap.h" bodystart="19" bodyend="50"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab6a52148cc818bc6c42e287a95ef61b8" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>clear</name></member>
       <member refid="group__GeneralGroup_1gaf367d90b270a0bb9def39834f2a0e686" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>createHashMap</name></member>

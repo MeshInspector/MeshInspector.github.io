@@ -4,8 +4,6 @@ var MRIdentifyVertices_8h =
     [ "MR_MeshBuilder_VertexIdentifier", "MRIdentifyVertices_8h.html#adfc57908a1555561f8f53abd4bc8f04c", null ],
     [ "MR_std_vector_std_array_MR_Vector3f_3", "MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362", null ],
     [ "MR_Triangulation", "MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22", null ],
-    [ "MR_Vector3f", "MRIdentifyVertices_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
-    [ "MR_VertCoords", "MRIdentifyVertices_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_MeshBuilder_equalVector3f_AssignFromAnother", "MRIdentifyVertices_8h.html#adca0052cd68b84c009372b031ca02ede", null ],
     [ "MR_MeshBuilder_equalVector3f_call", "MRIdentifyVertices_8h.html#a81acc9cbc2e412128eac97676f7c106c", null ],
     [ "MR_MeshBuilder_equalVector3f_ConstructFromAnother", "MRIdentifyVertices_8h.html#ad7890472dfaba96ab16a800b2eb61566", null ],

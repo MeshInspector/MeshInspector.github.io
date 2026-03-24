@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__DistanceMapSaveGroup" kind="group">
     <compoundname>DistanceMapSaveGroup</compoundname>
     <title>DistanceMap Save</title>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__DistanceMapSaveGroup_1gaa3625e43c93ee428ec0fc08bd7b00caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::DistanceMapSave::toRAW</definition>
+      <memberdef kind="function" id="group__DistanceMapSaveGroup_1gae04a156876f1b960f62d52da4fdfe0f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::DistanceMapSave::toRAW</definition>
         <argsstring>(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</argsstring>
         <name>toRAW</name>
         <qualifiedname>MR::DistanceMapSave::toRAW</qualifiedname>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" line="25" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" declline="25" declcolumn="21"/>
+        <location file="MRMesh/MRDistanceMapSave.h" line="25" column="11" declfile="MRMesh/MRDistanceMapSave.h" declline="25" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga0f15a32dee6cb3b525a2038b95956484" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; void &gt;</type>
@@ -52,11 +52,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" line="27" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" bodystart="27" bodyend="30"/>
+        <location file="MRMesh/MRDistanceMapSave.h" line="27" column="32" bodyfile="MRMesh/MRDistanceMapSave.h" bodystart="27" bodyend="30"/>
       </memberdef>
-      <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga45ebc8766748a50c7620c3b1364a16df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::DistanceMapSave::toMrDistanceMap</definition>
+      <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga080c7ebcd0f60ef2071b506a22bafee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::DistanceMapSave::toMrDistanceMap</definition>
         <argsstring>(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</argsstring>
         <name>toMrDistanceMap</name>
         <qualifiedname>MR::DistanceMapSave::toMrDistanceMap</qualifiedname>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" line="32" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" declline="32" declcolumn="21"/>
+        <location file="MRMesh/MRDistanceMapSave.h" line="32" column="11" declfile="MRMesh/MRDistanceMapSave.h" declline="32" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga81fe78ad6dc95f8cfeb80fba8665bcff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; void &gt;</type>
@@ -105,11 +105,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" line="34" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" bodystart="34" bodyend="40"/>
+        <location file="MRMesh/MRDistanceMapSave.h" line="34" column="32" bodyfile="MRMesh/MRDistanceMapSave.h" bodystart="34" bodyend="40"/>
       </memberdef>
-      <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga1ace9bedd45e8e536a87c8e707e51baf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::DistanceMapSave::toAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga7b8266939c47e72d1a75d9b94aed585d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::DistanceMapSave::toAnySupportedFormat</definition>
         <argsstring>(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</argsstring>
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR::DistanceMapSave::toAnySupportedFormat</qualifiedname>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" line="42" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" declline="42" declcolumn="21"/>
+        <location file="MRMesh/MRDistanceMapSave.h" line="42" column="11" declfile="MRMesh/MRDistanceMapSave.h" declline="42" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga5c7e3b9ad4a873129a2aa2441a6ebbde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; void &gt;</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" line="44" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" bodystart="44" bodyend="49"/>
+        <location file="MRMesh/MRDistanceMapSave.h" line="44" column="32" bodyfile="MRMesh/MRDistanceMapSave.h" bodystart="44" bodyend="49"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

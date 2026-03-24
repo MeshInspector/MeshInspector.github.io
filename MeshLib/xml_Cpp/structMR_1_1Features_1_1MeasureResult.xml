@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Features_1_1MeasureResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::Features::MeasureResult</compoundname>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <innerclass refid="structMR_1_1Features_1_1MeasureResult_1_1Angle" prot="public">MR::Features::MeasureResult::Angle</innerclass>
     <innerclass refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public">MR::Features::MeasureResult::BasicPart</innerclass>
     <innerclass refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" prot="public">MR::Features::MeasureResult::Distance</innerclass>
@@ -16,7 +16,7 @@
       <member refid="group__GeneralGroup_1gae91b71d479c6bb30a6e9b3068dd1d0c2" kind="variable"><name>intersections</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga0682477036fb2befa7ff871bab780be2" kind="function"><name>swapObjects</name></member>
+      <member refid="group__GeneralGroup_1ga5dba144ad3a9ebca8c39bd09be9674e0" kind="function"><name>swapObjects</name></member>
     </sectiondef>
     <briefdescription>
 <para>Stores the results of measuring two objects relative to one another. </para>
@@ -52,14 +52,14 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="169" bodyend="235"/>
+    <location file="MRMesh/MRFeatures.h" line="168" column="1" bodyfile="MRMesh/MRFeatures.h" bodystart="169" bodyend="235"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga598c9f6b07a702e3e849bf9b0e6ec040" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>angle</name></member>
       <member refid="group__GeneralGroup_1ga31415c50f3b3e2ee62b2778114b20ec9" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>centerDistance</name></member>
       <member refid="group__GeneralGroup_1ga618a5c8cc475ae385a15f69aa6316d10" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>distance</name></member>
       <member refid="group__GeneralGroup_1gae91b71d479c6bb30a6e9b3068dd1d0c2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>intersections</name></member>
       <member refid="group__GeneralGroup_1gab9a02bda2fc92c73a0d7d637ba562a7e" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Status</name></member>
-      <member refid="group__GeneralGroup_1ga0682477036fb2befa7ff871bab780be2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>swapObjects</name></member>
+      <member refid="group__GeneralGroup_1ga5dba144ad3a9ebca8c39bd09be9674e0" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>swapObjects</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,18 +1,10 @@
 var MRPointCloudTriangulationHelpers_8h =
 [
-    [ "MR_FewSmallest_MR_PointsProjectionResult", "MRPointCloudTriangulationHelpers_8h.html#a66e1ce13e2d4b3d10a8605b9d6b685d3", null ],
-    [ "MR_PointCloud", "MRPointCloudTriangulationHelpers_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_std_function_bool_from_float", "MRPointCloudTriangulationHelpers_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_optional_MR_AllLocalTriangulations", "MRPointCloudTriangulationHelpers_8h.html#a07206f863a7930f17413a0d2e2ad518a", null ],
-    [ "MR_std_optional_MR_VertBitSet", "MRPointCloudTriangulationHelpers_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc", null ],
     [ "MR_std_optional_std_vector_MR_SomeLocalTriangulations", "MRPointCloudTriangulationHelpers_8h.html#a13d4bef8bfa67d12df7bafa84331b149", null ],
-    [ "MR_std_vector_MR_VertId", "MRPointCloudTriangulationHelpers_8h.html#a954949e1753f6a2063d09e91b23d252d", null ],
     [ "MR_std_vector_std_pair_double_int", "MRPointCloudTriangulationHelpers_8h.html#a2865cb60e932f33ee6cc62480e9ea63c", null ],
     [ "MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#acdc88e216df432e56c790679814a8275", null ],
     [ "MR_TriangulationHelpers_Settings", "MRPointCloudTriangulationHelpers_8h.html#aeb1317cea6682674bb53634c2d619ca8", null ],
     [ "MR_TriangulationHelpers_TriangulatedFanData", "MRPointCloudTriangulationHelpers_8h.html#a969098fb61bc9c575f0a2ca401ba3f7a", null ],
-    [ "MR_VertBitSet", "MRPointCloudTriangulationHelpers_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRPointCloudTriangulationHelpers_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_equal_MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#a2efad8161ecb37280f8a44b6196cf123", null ],
     [ "MR_less_MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#a4c5e442997aa9a26c2ca804d16d76692", null ],
     [ "MR_TriangulationHelpers_buildLocalTriangulation", "MRPointCloudTriangulationHelpers_8h.html#a1533c4d715eb7a2db299c8fa49e53a36", null ],

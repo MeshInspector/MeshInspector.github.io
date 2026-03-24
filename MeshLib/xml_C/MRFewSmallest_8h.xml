@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFewSmallest_8h" kind="file" language="C++">
     <compoundname>MRFewSmallest.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,22 +14,33 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -41,10 +52,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::PointsProjectionResult</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="13" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="13" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" prot="public" static="no">
         <type>struct <ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref></type>
@@ -54,10 +66,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::PointsProjectionResult&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="14" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="14" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" prot="public" static="no">
         <type>struct <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref></type>
@@ -67,16 +80,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the class stores some number of smallest elements from a larger number of candidates Generated from class <computeroutput>MR::FewSmallest&lt;MR::PointsProjectionResult&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>the class stores some number of smallest elements from a larger number of candidates Generated from class <computeroutput>MR::FewSmallest&lt;MR::PointsProjectionResult&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="20" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="20" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRFewSmallest_8h_1ae036cd2df3872cadcc2e43c4b85cd0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API MR_FewSmallest_MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_DefaultConstruct</name>
@@ -90,10 +103,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="24" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="24" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="24" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="24" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1ad8134a824aac805d4dc3e93ced150c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API MR_FewSmallest_MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_DefaultConstructArray</name>
@@ -108,10 +121,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="29" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="29" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="29" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="29" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a95bd9dd66538269cde1d5f810f30a4b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API const MR_FewSmallest_MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_OffsetPtr</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_OffsetPtr</name>
@@ -130,10 +143,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="33" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="33" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="33" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="33" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a6b52eb7fec5b9f483ad647a27de949f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API MR_FewSmallest_MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_OffsetMutablePtr</definition>
         <argsstring>(MR_FewSmallest_MR_PointsProjectionResult *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_OffsetMutablePtr</name>
@@ -152,15 +165,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="37" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="37" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="37" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="37" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a410d6f28978e344ebdfd57b6e40d8396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API MR_FewSmallest_MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_FewSmallest_MR_PointsProjectionResult *_other)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -174,15 +187,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="42" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="42" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="42" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="42" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a20368c5675e80371000fe70453263f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API MR_FewSmallest_MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_Construct</definition>
         <argsstring>(MR_uint64_t maxElms)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_Construct</name>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>maxElms</declname>
         </param>
         <briefdescription>
@@ -192,10 +205,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="48" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="48" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="48" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="48" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a64e6dbc76741999947b1f15ff15b5a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FewSmallest_MR_PointsProjectionResult_Destroy</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_Destroy</name>
@@ -204,16 +217,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FewSmallest_MR_PointsProjectionResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="51" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="51" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a90bafa7c51e99772d34441e935ede67f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FewSmallest_MR_PointsProjectionResult_DestroyArray</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_DestroyArray</name>
@@ -222,16 +235,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FewSmallest_MR_PointsProjectionResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="54" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="54" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a389b30b24539ee50fa39fd814d67d04e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API MR_FewSmallest_MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_AssignFromAnother</definition>
         <argsstring>(MR_FewSmallest_MR_PointsProjectionResult *_this, MR_PassBy _other_pass_by, MR_FewSmallest_MR_PointsProjectionResult *_other)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_AssignFromAnother</name>
@@ -240,7 +253,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -250,14 +263,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FewSmallest&lt;MR::PointsProjectionResult&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FewSmallest&lt;MR::PointsProjectionResult&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="61" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="61" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="61" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="61" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a26fce73778c6d77c74b7d2db4526a1f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FewSmallest_MR_PointsProjectionResult_reset</definition>
         <argsstring>(MR_FewSmallest_MR_PointsProjectionResult *_this, MR_uint64_t maxElms)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_reset</name>
@@ -266,7 +279,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>maxElms</declname>
         </param>
         <briefdescription>
@@ -276,10 +289,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="66" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="66" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a303da88a3e690fb9b71b3c8f284ae305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_FewSmallest_MR_PointsProjectionResult_maxElms</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_maxElms</name>
@@ -294,10 +307,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="71" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="71" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a9cc5bea4fa2f75e4ee666b8ef617664f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_FewSmallest_MR_PointsProjectionResult_empty</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_empty</name>
@@ -312,10 +325,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="76" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="76" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a93617b3b9189b6d679a8153fd74d01c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_FewSmallest_MR_PointsProjectionResult_size</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_size</name>
@@ -330,10 +343,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="81" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="81" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a611144f1aea7e4b377e668765b8629dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_FewSmallest_MR_PointsProjectionResult_full</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_full</name>
@@ -348,10 +361,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="86" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="86" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a5d48ff237cc7e51fddaf5ee0cec5f96b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API const MR_std_vector_MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_get</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_get</name>
@@ -366,10 +379,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="92" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="92" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="92" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="92" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1adce9bc65019cecd680f8e759b9ab3af7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API const MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_top</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_top</name>
@@ -384,10 +397,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="98" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="98" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="98" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="98" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a836bc7013f35c80a50a88e9d39d9d2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref> *</type>
         <definition>MRC_API const MR_PointsProjectionResult * MR_FewSmallest_MR_PointsProjectionResult_topOr</definition>
         <argsstring>(const MR_FewSmallest_MR_PointsProjectionResult *_this, const MR_PointsProjectionResult *emptyRes)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_topOr</name>
@@ -406,10 +419,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="105" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="105" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="105" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="105" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1a5e17dcf68b0b24221b3706ffce8016c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FewSmallest_MR_PointsProjectionResult_push</definition>
         <argsstring>(MR_FewSmallest_MR_PointsProjectionResult *_this, const MR_PointsProjectionResult *t)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_push</name>
@@ -428,10 +441,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="111" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="111" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFewSmallest_8h_1ae8e03535230da6354673f1026174e87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FewSmallest_MR_PointsProjectionResult_clear</definition>
         <argsstring>(MR_FewSmallest_MR_PointsProjectionResult *_this)</argsstring>
         <name>MR_FewSmallest_MR_PointsProjectionResult_clear</name>
@@ -446,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h" declline="116" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h" declline="116" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -456,8 +469,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -470,50 +483,50 @@
 <codeline lineno="14" refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_PointsProjectionResult.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRFewSmallest_8h_1ae036cd2df3872cadcc2e43c4b85cd0be" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1ae036cd2df3872cadcc2e43c4b85cd0be" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24" refid="MRFewSmallest_8h_1ae036cd2df3872cadcc2e43c4b85cd0be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1ae036cd2df3872cadcc2e43c4b85cd0be" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRFewSmallest_8h_1ad8134a824aac805d4dc3e93ced150c62" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1ad8134a824aac805d4dc3e93ced150c62" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29" refid="MRFewSmallest_8h_1ad8134a824aac805d4dc3e93ced150c62" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1ad8134a824aac805d4dc3e93ced150c62" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRFewSmallest_8h_1a95bd9dd66538269cde1d5f810f30a4b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a95bd9dd66538269cde1d5f810f30a4b6" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="33" refid="MRFewSmallest_8h_1a95bd9dd66538269cde1d5f810f30a4b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a95bd9dd66538269cde1d5f810f30a4b6" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRFewSmallest_8h_1a6b52eb7fec5b9f483ad647a27de949f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a6b52eb7fec5b9f483ad647a27de949f6" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_OffsetMutablePtr</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="37" refid="MRFewSmallest_8h_1a6b52eb7fec5b9f483ad647a27de949f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a6b52eb7fec5b9f483ad647a27de949f6" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_OffsetMutablePtr</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRFewSmallest_8h_1a410d6f28978e344ebdfd57b6e40d8396" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a410d6f28978e344ebdfd57b6e40d8396" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="42" refid="MRFewSmallest_8h_1a410d6f28978e344ebdfd57b6e40d8396" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a410d6f28978e344ebdfd57b6e40d8396" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRFewSmallest_8h_1a20368c5675e80371000fe70453263f33" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a20368c5675e80371000fe70453263f33" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_Construct</ref>(MR_uint64_t<sp/>maxElms);</highlight></codeline>
+<codeline lineno="48" refid="MRFewSmallest_8h_1a20368c5675e80371000fe70453263f33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a20368c5675e80371000fe70453263f33" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_Construct</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>maxElms);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRFewSmallest_8h_1a64e6dbc76741999947b1f15ff15b5a32" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a64e6dbc76741999947b1f15ff15b5a32" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51" refid="MRFewSmallest_8h_1a64e6dbc76741999947b1f15ff15b5a32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a64e6dbc76741999947b1f15ff15b5a32" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRFewSmallest_8h_1a90bafa7c51e99772d34441e935ede67f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a90bafa7c51e99772d34441e935ede67f" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54" refid="MRFewSmallest_8h_1a90bafa7c51e99772d34441e935ede67f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a90bafa7c51e99772d34441e935ede67f" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRFewSmallest_8h_1a389b30b24539ee50fa39fd814d67d04e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a389b30b24539ee50fa39fd814d67d04e" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_AssignFromAnother</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="61" refid="MRFewSmallest_8h_1a389b30b24539ee50fa39fd814d67d04e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a389b30b24539ee50fa39fd814d67d04e" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_AssignFromAnother</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRFewSmallest_8h_1a26fce73778c6d77c74b7d2db4526a1f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a26fce73778c6d77c74b7d2db4526a1f7" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_reset</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>maxElms);</highlight></codeline>
+<codeline lineno="66" refid="MRFewSmallest_8h_1a26fce73778c6d77c74b7d2db4526a1f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a26fce73778c6d77c74b7d2db4526a1f7" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_reset</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>maxElms);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRFewSmallest_8h_1a303da88a3e690fb9b71b3c8f284ae305" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFewSmallest_8h_1a303da88a3e690fb9b71b3c8f284ae305" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_maxElms</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71" refid="MRFewSmallest_8h_1a303da88a3e690fb9b71b3c8f284ae305" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRFewSmallest_8h_1a303da88a3e690fb9b71b3c8f284ae305" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_maxElms</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRFewSmallest_8h_1a9cc5bea4fa2f75e4ee666b8ef617664f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a9cc5bea4fa2f75e4ee666b8ef617664f" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76" refid="MRFewSmallest_8h_1a9cc5bea4fa2f75e4ee666b8ef617664f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a9cc5bea4fa2f75e4ee666b8ef617664f" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRFewSmallest_8h_1a93617b3b9189b6d679a8153fd74d01c2" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFewSmallest_8h_1a93617b3b9189b6d679a8153fd74d01c2" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81" refid="MRFewSmallest_8h_1a93617b3b9189b6d679a8153fd74d01c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRFewSmallest_8h_1a93617b3b9189b6d679a8153fd74d01c2" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRFewSmallest_8h_1a611144f1aea7e4b377e668765b8629dd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a611144f1aea7e4b377e668765b8629dd" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_full</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="86" refid="MRFewSmallest_8h_1a611144f1aea7e4b377e668765b8629dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a611144f1aea7e4b377e668765b8629dd" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_full</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRFewSmallest_8h_1a5d48ff237cc7e51fddaf5ee0cec5f96b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a5d48ff237cc7e51fddaf5ee0cec5f96b" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92" refid="MRFewSmallest_8h_1a5d48ff237cc7e51fddaf5ee0cec5f96b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a5d48ff237cc7e51fddaf5ee0cec5f96b" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRFewSmallest_8h_1adce9bc65019cecd680f8e759b9ab3af7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1adce9bc65019cecd680f8e759b9ab3af7" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_top</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98" refid="MRFewSmallest_8h_1adce9bc65019cecd680f8e759b9ab3af7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1adce9bc65019cecd680f8e759b9ab3af7" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_top</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRFewSmallest_8h_1a836bc7013f35c80a50a88e9d39d9d2bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a836bc7013f35c80a50a88e9d39d9d2bf" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_topOr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref><sp/>*emptyRes);</highlight></codeline>
+<codeline lineno="105" refid="MRFewSmallest_8h_1a836bc7013f35c80a50a88e9d39d9d2bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1a836bc7013f35c80a50a88e9d39d9d2bf" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_topOr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref><sp/>*emptyRes);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRFewSmallest_8h_1a5e17dcf68b0b24221b3706ffce8016c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a5e17dcf68b0b24221b3706ffce8016c4" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_push</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="111" refid="MRFewSmallest_8h_1a5e17dcf68b0b24221b3706ffce8016c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a5e17dcf68b0b24221b3706ffce8016c4" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_push</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1a8be9fb6875dbbb243e21057bb4eff5a7" kindref="member">MR_PointsProjectionResult</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRFewSmallest_8h_1ae8e03535230da6354673f1026174e87e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1ae8e03535230da6354673f1026174e87e" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_clear</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116" refid="MRFewSmallest_8h_1ae8e03535230da6354673f1026174e87e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFewSmallest_8h_1ae8e03535230da6354673f1026174e87e" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_clear</ref>(<ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFewSmallest.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFewSmallest.h"/>
   </compounddef>
 </doxygen>

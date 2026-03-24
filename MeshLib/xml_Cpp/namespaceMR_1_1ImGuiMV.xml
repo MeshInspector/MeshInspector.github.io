@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1ImGuiMV" kind="namespace" language="C++">
     <compoundname>MR::ImGuiMV</compoundname>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a401a3af08bc863852e960b53d86d7d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ImGuiMV::SetNextWindowPosMainViewport</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a52ab9dbc6c779ff4c7b8dca408f8de06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ImGuiMV::SetNextWindowPosMainViewport</definition>
         <argsstring>(const ImVec2 &amp;pos, ImGuiCond cond=0, const ImVec2 &amp;pivot=ImVec2(0, 0))</argsstring>
         <name>SetNextWindowPosMainViewport</name>
         <qualifiedname>MR::ImGuiMV::SetNextWindowPosMainViewport</qualifiedname>
@@ -30,11 +30,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="12" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" declline="12" declcolumn="19"/>
+        <location file="MRViewer/MRImGuiMultiViewport.h" line="12" column="7" declfile="MRViewer/MRImGuiMultiViewport.h" declline="12" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a04c62fed31317527b9224987a8db8a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API ImVec2</type>
-        <definition>MRVIEWER_API ImVec2 MR::ImGuiMV::GetLocalMousePos</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a5ea1a941122a7e9c9ceca44ffc79fada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMV::GetLocalMousePos</definition>
         <argsstring>()</argsstring>
         <name>GetLocalMousePos</name>
         <qualifiedname>MR::ImGuiMV::GetLocalMousePos</qualifiedname>
@@ -45,11 +45,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="15" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" declline="15" declcolumn="21"/>
+        <location file="MRViewer/MRImGuiMultiViewport.h" line="15" column="9" declfile="MRViewer/MRImGuiMultiViewport.h" declline="15" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1ad31ae44c5b30fd718d2ad406d1bd4413" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API ImVec2</type>
-        <definition>MRVIEWER_API ImVec2 MR::ImGuiMV::GetMainViewportShift</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a464e08d5846c86602aed1e51df3620c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMV::GetMainViewportShift</definition>
         <argsstring>()</argsstring>
         <name>GetMainViewportShift</name>
         <qualifiedname>MR::ImGuiMV::GetMainViewportShift</qualifiedname>
@@ -60,11 +60,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="18" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" declline="18" declcolumn="21"/>
+        <location file="MRViewer/MRImGuiMultiViewport.h" line="18" column="9" declfile="MRViewer/MRImGuiMultiViewport.h" declline="18" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1ac1ea446578b10ff52597a11b5c1d6c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API ImVec2</type>
-        <definition>MRVIEWER_API ImVec2 MR::ImGuiMV::Screen2WindowSpaceImVec2</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a25c1731b42aaa9848d5fd54a996c4caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMV::Screen2WindowSpaceImVec2</definition>
         <argsstring>(const ImVec2 &amp;point)</argsstring>
         <name>Screen2WindowSpaceImVec2</name>
         <qualifiedname>MR::ImGuiMV::Screen2WindowSpaceImVec2</qualifiedname>
@@ -79,16 +79,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="21" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" declline="21" declcolumn="21"/>
+        <location file="MRViewer/MRImGuiMultiViewport.h" line="21" column="9" declfile="MRViewer/MRImGuiMultiViewport.h" declline="21" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1ab8622fb9dd653781e10cf6afd6642aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API Contour2f</type>
-        <definition>MRVIEWER_API Contour2f MR::ImGuiMV::Screen2WindowSpaceContour2f</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a686d401cae6028ca53aa9f6e664daca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref></type>
+        <definition>Contour2f MR::ImGuiMV::Screen2WindowSpaceContour2f</definition>
         <argsstring>(const Contour2f &amp;points)</argsstring>
         <name>Screen2WindowSpaceContour2f</name>
         <qualifiedname>MR::ImGuiMV::Screen2WindowSpaceContour2f</qualifiedname>
         <param>
-          <type>const Contour2f &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref> &amp;</type>
           <declname>points</declname>
         </param>
         <briefdescription>
@@ -97,11 +97,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="22" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" declline="22" declcolumn="24"/>
+        <location file="MRViewer/MRImGuiMultiViewport.h" line="22" column="12" declfile="MRViewer/MRImGuiMultiViewport.h" declline="22" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a6644c5f0be375e56445b0670ad398f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API ImVec2</type>
-        <definition>MRVIEWER_API ImVec2 MR::ImGuiMV::Window2ScreenSpaceImVec2</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a83483c6c798515d1196d5d30e064aef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMV::Window2ScreenSpaceImVec2</definition>
         <argsstring>(const ImVec2 &amp;point)</argsstring>
         <name>Window2ScreenSpaceImVec2</name>
         <qualifiedname>MR::ImGuiMV::Window2ScreenSpaceImVec2</qualifiedname>
@@ -116,11 +116,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="24" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" declline="24" declcolumn="21"/>
+        <location file="MRViewer/MRImGuiMultiViewport.h" line="24" column="9" declfile="MRViewer/MRImGuiMultiViewport.h" declline="24" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1ac3d745327d6cc0c9764180940364a5e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API Vector2f</type>
-        <definition>MRVIEWER_API Vector2f MR::ImGuiMV::Window2ScreenSpaceVector2f</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1a4bfc293b58aa7eb9c7e7308496660a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::ImGuiMV::Window2ScreenSpaceVector2f</definition>
         <argsstring>(const Vector2f &amp;point)</argsstring>
         <name>Window2ScreenSpaceVector2f</name>
         <qualifiedname>MR::ImGuiMV::Window2ScreenSpaceVector2f</qualifiedname>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="25" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" declline="25" declcolumn="23"/>
+        <location file="MRViewer/MRImGuiMultiViewport.h" line="25" column="11" declfile="MRViewer/MRImGuiMultiViewport.h" declline="25" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -142,6 +142,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="8" column="1"/>
+    <location file="MRViewer/MRImGuiMultiViewport.h" line="8" column="1"/>
   </compounddef>
 </doxygen>

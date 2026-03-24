@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__Float__MRVoxelId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_Float_MRVoxelId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_Float_MRVoxelId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__Float__MRVoxelId_1addbde71e525c401e756e42e91557755c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_Float</type>
@@ -11,13 +12,13 @@
         <name>vec</name>
         <qualifiedname>MR.Vector_Float_MRVoxelId.vec</qualifiedname>
         <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41774" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41774" bodyend="41774"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51544" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51544" bodyend="51544"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Vector__Float__MRVoxelId_1a280fefbfa77ca63a7bc44497a55bfdb7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref float</type>
@@ -26,13 +27,520 @@
         <name>this[MR.VoxelId i]</name>
         <qualifiedname>MR.Vector_Float_MRVoxelId.this[MR.VoxelId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41931" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41932" bodyend="41939"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51701" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51702" bodyend="51709"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1aea97a3c9fb6849fd176e684baa14f097" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; MR.Misc.Ref&lt; float &gt; &gt;</type>
+        <definition>new IEnumerator&lt; MR.Misc.Ref&lt; float &gt; &gt; MR.Vector_Float_MRVoxelId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51531" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51531" bodyend="51534"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1aaca9f920603fedb3702b872451a82a87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_Float_MRVoxelId</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51573" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51573" bodyend="51579"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a8fdd408a8908d71738e3013cb80b63be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
+        <argsstring>(MR._ByValue_Vector_Float_MRVoxelId _other)</argsstring>
+        <name>Vector_Float_MRVoxelId</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_Float_MRVoxelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51584" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51584" bodyend="51591"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1ab0993c4f76fd608c9f14a157722e424f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
+        <argsstring>(Const_Vector_Float_MRVoxelId _other)</argsstring>
+        <name>Vector_Float_MRVoxelId</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
+        <param>
+          <type>Const_Vector_Float_MRVoxelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51596" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51596" bodyend="51596"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1ab15dc8721e69e43a91480c5140207ff1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
+        <argsstring>(Vector_Float_MRVoxelId _other)</argsstring>
+        <name>Vector_Float_MRVoxelId</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__Float__MRVoxelId" kindref="compound">Vector_Float_MRVoxelId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51601" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51601" bodyend="51601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1ad17abe0f5f0c43c2b083ef93949a020c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_Float_MRVoxelId</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51607" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51607" bodyend="51613"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a383876c3e7df8c0af3febbcf00e035d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
+        <argsstring>(ulong size, float val)</argsstring>
+        <name>Vector_Float_MRVoxelId</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51619" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51619" bodyend="51625"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a96c2527af195f81ef1ce9819c2528379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <name>Vector_Float_MRVoxelId</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51631" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51631" bodyend="51638"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1ad3311ce93d4bbbede79a86ba8d72d5e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__Float__MRVoxelId" kindref="compound">MR.Vector_Float_MRVoxelId</ref></type>
+        <definition>unsafe MR.Vector_Float_MRVoxelId MR.Vector_Float_MRVoxelId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_Float_MRVoxelId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_Float_MRVoxelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51649" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51649" bodyend="51656"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a97d301d0075a766dca2c96e390781c39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a97d301d0075a766dca2c96e390781c39" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51661" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51661" bodyend="51666"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a3ca039ccc4667886e60725b9d653c560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a3ca039ccc4667886e60725b9d653c560" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51671" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51671" bodyend="51676"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1af87a8431b4fc234834ff93d2e62c9130" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.resize</definition>
+        <argsstring>(ulong newSize, float t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a3ca039ccc4667886e60725b9d653c560" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51681" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51681" bodyend="51686"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a2882ba7585cd8d432b6d85de53733bb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a2882ba7585cd8d432b6d85de53733bb1" kindref="member">reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51691" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51691" bodyend="51696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a53e53ba1a93a23643be25fbb6bd8cdc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a53e53ba1a93a23643be25fbb6bd8cdc3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51715" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51715" bodyend="51720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a3589e9167c56515f406f0be6011232ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, float value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a53e53ba1a93a23643be25fbb6bd8cdc3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51726" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51726" bodyend="51731"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a0a1b4b34ebbc7644c441befe3366e7d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.autoResizeSet</definition>
+        <argsstring>(MR.VoxelId pos, ulong len, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a0a1b4b34ebbc7644c441befe3366e7d0" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51738" bodyend="51743"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a7a9e3765e12d6fe47fb95c940bffe1de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.autoResizeSet</definition>
+        <argsstring>(MR.VoxelId i, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a0a1b4b34ebbc7644c441befe3366e7d0" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51749" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51749" bodyend="51754"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1abdda104c1efe4ab7bb9f8aa7a5d2391b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref float</type>
+        <definition>unsafe ref float MR.Vector_Float_MRVoxelId.autoResizeAt</definition>
+        <argsstring>(MR.VoxelId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1abdda104c1efe4ab7bb9f8aa7a5d2391b" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51760" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51760" bodyend="51765"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1acfa299659fd7da8bb90cc2cc4b27a3d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.pushBack</definition>
+        <argsstring>(float t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.pushBack</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51770" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51770" bodyend="51775"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a9943afd95ca56026df2d4db967707ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, float t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51780" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51780" bodyend="51785"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1acf7ffa4d04f29c66968c0d2ceca9c382" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51790" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51790" bodyend="51795"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a8386f6a6be2765886b9ef6963ed19265" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref float</type>
+        <definition>unsafe ref float MR.Vector_Float_MRVoxelId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51800" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51800" bodyend="51805"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a70a7b566a991d9f28d9299eb110330ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.Vector_Float_MRVoxelId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a70a7b566a991d9f28d9299eb110330ef" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51810" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51810" bodyend="51815"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a0971aeb6602c00813582bbdcd89bdb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.Vector_Float_MRVoxelId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a0971aeb6602c00813582bbdcd89bdb01" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51820" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51820" bodyend="51825"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1adfe122cab5061cb9a94dd1eabead1f44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; float &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; float &gt; MR.Vector_Float_MRVoxelId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1adfe122cab5061cb9a94dd1eabead1f44" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51830" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51830" bodyend="51836"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a33df06541321dadee9f053a29811abef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Float_MRVoxelId.swap</definition>
+        <argsstring>(MR.Vector_Float_MRVoxelId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__Float__MRVoxelId" kindref="compound">MR.Vector_Float_MRVoxelId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Float__MRVoxelId_1a33df06541321dadee9f053a29811abef" kindref="member">swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51841" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51841" bodyend="51846"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a7d27c853bd54ec4d5dde0602a6b1618e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_Float_MRVoxelId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_Float_MRVoxelId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51536" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51536" bodyend="51539"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,484 +564,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41793" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41793" bodyend="41797"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1aaca9f920603fedb3702b872451a82a87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
-        <argsstring>()</argsstring>
-        <name>Vector_Float_MRVoxelId</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41803" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41803" bodyend="41809"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a8fdd408a8908d71738e3013cb80b63be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
-        <argsstring>(MR._ByValue_Vector_Float_MRVoxelId _other)</argsstring>
-        <name>Vector_Float_MRVoxelId</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_Float_MRVoxelId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41814" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41814" bodyend="41821"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1ab0993c4f76fd608c9f14a157722e424f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
-        <argsstring>(Const_Vector_Float_MRVoxelId _other)</argsstring>
-        <name>Vector_Float_MRVoxelId</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
-        <param>
-          <type>Const_Vector_Float_MRVoxelId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41826" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41826" bodyend="41826"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1ab15dc8721e69e43a91480c5140207ff1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
-        <argsstring>(Vector_Float_MRVoxelId _other)</argsstring>
-        <name>Vector_Float_MRVoxelId</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__Float__MRVoxelId" kindref="compound">Vector_Float_MRVoxelId</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41831" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41831" bodyend="41831"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1ad17abe0f5f0c43c2b083ef93949a020c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Vector_Float_MRVoxelId</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41837" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41837" bodyend="41843"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a383876c3e7df8c0af3febbcf00e035d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
-        <argsstring>(ulong size, float val)</argsstring>
-        <name>Vector_Float_MRVoxelId</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41849" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41849" bodyend="41855"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a96c2527af195f81ef1ce9819c2528379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
-        <name>Vector_Float_MRVoxelId</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.Vector_Float_MRVoxelId</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41861" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41861" bodyend="41868"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1ad3311ce93d4bbbede79a86ba8d72d5e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Vector__Float__MRVoxelId" kindref="compound">MR.Vector_Float_MRVoxelId</ref></type>
-        <definition>unsafe MR.Vector_Float_MRVoxelId MR.Vector_Float_MRVoxelId.assign</definition>
-        <argsstring>(MR._ByValue_Vector_Float_MRVoxelId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_Float_MRVoxelId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41879" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41879" bodyend="41886"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a97d301d0075a766dca2c96e390781c39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41891" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41891" bodyend="41896"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a3ca039ccc4667886e60725b9d653c560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41901" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41901" bodyend="41906"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1af87a8431b4fc234834ff93d2e62c9130" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.resize</definition>
-        <argsstring>(ulong newSize, float t)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41911" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41911" bodyend="41916"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a2882ba7585cd8d432b6d85de53733bb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.reserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>capacity</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::reserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41921" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41921" bodyend="41926"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a53e53ba1a93a23643be25fbb6bd8cdc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41945" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41945" bodyend="41950"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a3589e9167c56515f406f0be6011232ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, float value)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41956" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41956" bodyend="41961"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a0a1b4b34ebbc7644c441befe3366e7d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.autoResizeSet</definition>
-        <argsstring>(MR.VoxelId pos, ulong len, float val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>ulong</type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41968" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41968" bodyend="41973"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a7a9e3765e12d6fe47fb95c940bffe1de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.autoResizeSet</definition>
-        <argsstring>(MR.VoxelId i, float val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41979" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41979" bodyend="41984"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1abdda104c1efe4ab7bb9f8aa7a5d2391b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ref float</type>
-        <definition>unsafe ref float MR.Vector_Float_MRVoxelId.autoResizeAt</definition>
-        <argsstring>(MR.VoxelId i)</argsstring>
-        <name>autoResizeAt</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.autoResizeAt</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::autoResizeAt</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41990" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41990" bodyend="41995"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1acfa299659fd7da8bb90cc2cc4b27a3d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.pushBack</definition>
-        <argsstring>(float t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.pushBack</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42000" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42000" bodyend="42005"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a9943afd95ca56026df2d4db967707ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.pushBack</definition>
-        <argsstring>(MR.Misc._MoveRef _move_t, float t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Misc._MoveRef</type>
-          <declname>_move_t</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42010" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42010" bodyend="42015"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1acf7ffa4d04f29c66968c0d2ceca9c382" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.popBack</definition>
-        <argsstring>()</argsstring>
-        <name>popBack</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.popBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::pop_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42020" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42020" bodyend="42025"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a8386f6a6be2765886b9ef6963ed19265" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ref float</type>
-        <definition>unsafe ref float MR.Vector_Float_MRVoxelId.emplaceBack</definition>
-        <argsstring>()</argsstring>
-        <name>emplaceBack</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.emplaceBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42030" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42030" bodyend="42035"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a70a7b566a991d9f28d9299eb110330ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new ref float</type>
-        <definition>unsafe new ref float MR.Vector_Float_MRVoxelId.front</definition>
-        <argsstring>()</argsstring>
-        <name>front</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.front</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::front</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42040" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42040" bodyend="42045"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a0971aeb6602c00813582bbdcd89bdb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new ref float</type>
-        <definition>unsafe new ref float MR.Vector_Float_MRVoxelId.back</definition>
-        <argsstring>()</argsstring>
-        <name>back</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.back</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42050" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42050" bodyend="42055"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1adfe122cab5061cb9a94dd1eabead1f44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.Misc.? Ref&lt; float &gt;</type>
-        <definition>unsafe new MR.Misc.? Ref&lt; float &gt; MR.Vector_Float_MRVoxelId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42060" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42060" bodyend="42066"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Float__MRVoxelId_1a33df06541321dadee9f053a29811abef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_Float_MRVoxelId.swap</definition>
-        <argsstring>(MR.Vector_Float_MRVoxelId b)</argsstring>
-        <name>swap</name>
-        <qualifiedname>MR.Vector_Float_MRVoxelId.swap</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__Float__MRVoxelId" kindref="compound">MR.Vector_Float_MRVoxelId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::swap</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42071" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42071" bodyend="42076"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51563" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51563" bodyend="51567"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -548,17 +579,17 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41874" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41874" bodyend="41874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51644" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51644" bodyend="51644"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -574,65 +605,79 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Vector_Float_MRVoxelId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_Float_MRVoxelId</label>
         <link refid="classMR_1_1Vector__Float__MRVoxelId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_Float_MRVoxelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_Float_MRVoxelId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Vector_Float_MRVoxelId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Vector_Float_MRVoxelId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_Float_MRVoxelId</label>
         <link refid="classMR_1_1Vector__Float__MRVoxelId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_Float_MRVoxelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_Float_MRVoxelId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Vector_Float_MRVoxelId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41771" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41772" bodyend="42077"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51475" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51476" bodyend="51847"/>
     <listofallmembers>
       <member refid="classMR_1_1Vector__Float__MRVoxelId_1ad3311ce93d4bbbede79a86ba8d72d5e7" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__Float__MRVoxelId_1abdda104c1efe4ab7bb9f8aa7a5d2391b" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>autoResizeAt</name></member>
@@ -643,6 +688,8 @@
       <member refid="classMR_1_1Vector__Float__MRVoxelId_1adfe122cab5061cb9a94dd1eabead1f44" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>data</name></member>
       <member refid="classMR_1_1Vector__Float__MRVoxelId_1a8386f6a6be2765886b9ef6963ed19265" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1Vector__Float__MRVoxelId_1a70a7b566a991d9f28d9299eb110330ef" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__Float__MRVoxelId_1aea97a3c9fb6849fd176e684baa14f097" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__Float__MRVoxelId_1a7d27c853bd54ec4d5dde0602a6b1618e" prot="private" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__Float__MRVoxelId_1a22236c5cca1cd4fa8c46c5ba53c47686" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>operator Vector_Float_MRVoxelId</name></member>
       <member refid="classMR_1_1Vector__Float__MRVoxelId_1acf7ffa4d04f29c66968c0d2ceca9c382" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__Float__MRVoxelId_1acfa299659fd7da8bb90cc2cc4b27a3d6" prot="public" virt="non-virtual"><scope>MR::Vector_Float_MRVoxelId</scope><name>pushBack</name></member>

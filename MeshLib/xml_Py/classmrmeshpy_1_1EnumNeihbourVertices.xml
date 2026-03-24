@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1EnumNeihbourVertices" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::EnumNeihbourVertices</compoundname>
     <sectiondef kind="public-static-func">
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16256" bodyend="16257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16391" bodyend="16392"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a3341a6273bc916cb50622bf5c1dccd90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EnumNeihbourVertices" kindref="compound">EnumNeihbourVertices</ref></type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16260" bodyend="16261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16395" bodyend="16396"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a3341a6273bc916cb50622bf5c1dccd90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EnumNeihbourVertices" kindref="compound">EnumNeihbourVertices</ref></type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16264" bodyend="16265"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16399" bodyend="16400"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16267" bodyend="16268"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16402" bodyend="16403"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a57012db765760454218afad71ea9a3ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16270" bodyend="16273"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16405" bodyend="16408"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a434a1f1052855e94c64a64250086c142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -144,7 +144,7 @@ and continuing to all immediate neighbours in depth-first order until the predic
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16275" bodyend="16279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16410" bodyend="16414"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a1ae65412d10653a8db8b2f4e3b8f738a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -174,7 +174,37 @@ and continuing to all immediate neighbours in depth-first order until the predic
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16281" bodyend="16282"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16416" bodyend="16417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a10f902539316cf13aaa29e9f0312b070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourVertices.run</definition>
+        <argsstring>(self, MeshTopology topology, std_vector_MeshTriPoint start, func_bool_from_Id_VertTag pred)</argsstring>
+        <name>run</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourVertices.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshTriPoint" kindref="compound">std_vector_MeshTriPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__VertTag" kindref="compound">func_bool_from_Id_VertTag</ref></type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16419" bodyend="16420"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -183,7 +213,7 @@ and continuing to all immediate neighbours in depth-first order until the predic
 <para><verbatim>Generated from:  MR::EnumNeihbourVertices
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16250" bodyend="16282"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16385" bodyend="16420"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1ab87b07f60bed08bc205424bfb9091f53" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1aa296267d23abf3231d716d259ef05869" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>__init__</name></member>
@@ -192,6 +222,7 @@ and continuing to all immediate neighbours in depth-first order until the predic
       <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a3341a6273bc916cb50622bf5c1dccd90" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a434a1f1052855e94c64a64250086c142" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>run</name></member>
       <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a1ae65412d10653a8db8b2f4e3b8f738a" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a10f902539316cf13aaa29e9f0312b070" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>run</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

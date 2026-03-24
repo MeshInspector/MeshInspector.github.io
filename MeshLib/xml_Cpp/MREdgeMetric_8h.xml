@@ -1,36 +1,84 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MREdgeMetric_8h" kind="file" language="C++">
     <compoundname>MREdgeMetric.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">functional</includes>
-    <includedby refid="MREdgePaths_8h" local="yes">MREdgePaths.h</includedby>
-    <includedby refid="MRTunnelDetector_8h" local="yes">MRTunnelDetector.h</includedby>
+    <includedby refid="MREdgePaths_8h" local="yes">MRMesh/MREdgePaths.h</includedby>
+    <includedby refid="MRTunnelDetector_8h" local="yes">MRMesh/MRTunnelDetector.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
-        <label>MREdgeMetric.h</label>
+        <label>MRMesh/MREdgeMetric.h</label>
         <link refid="MREdgeMetric_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
       <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="4">
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
         <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MREdgeMetric.h</label>
+        <label>MRMesh/MREdgeMetric.h</label>
         <link refid="MREdgeMetric_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -38,7 +86,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MREdgePaths.h</label>
+        <label>MRMesh/MREdgePaths.h</label>
         <link refid="MREdgePaths_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -48,19 +96,19 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MREdgePathsBuilder.h</label>
+        <label>MRMesh/MREdgePathsBuilder.h</label>
         <link refid="MREdgePathsBuilder_8h"/>
       </node>
       <node id="4">
-        <label>MRFillContourByGraphCut.h</label>
+        <label>MRMesh/MRFillContourByGraphCut.h</label>
         <link refid="MRFillContourByGraphCut_8h"/>
       </node>
       <node id="5">
-        <label>MRSurroundingContour.h</label>
+        <label>MRMesh/MRSurroundingContour.h</label>
         <link refid="MRSurroundingContour_8h"/>
       </node>
       <node id="6">
-        <label>MRTunnelDetector.h</label>
+        <label>MRMesh/MRTunnelDetector.h</label>
         <link refid="MRTunnelDetector_8h"/>
       </node>
     </invincdepgraph>
@@ -72,7 +120,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -80,29 +128,29 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"></codeline>
-<codeline lineno="17" refid="group__SurfacePathGroup_1gadd9e6c77ae3fdf22797b82342a1ee1f3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1gadd9e6c77ae3fdf22797b82342a1ee1f3" kindref="member">identityMetric</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="group__SurfacePathGroup_1ga35d5a8577df4b958e7725f2b2406c9c1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1ga35d5a8577df4b958e7725f2b2406c9c1" kindref="member">identityMetric</ref>();</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="group__SurfacePathGroup_1gab0c6bfd4f01e28a6c034a2195143e410" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1gab0c6bfd4f01e28a6c034a2195143e410" kindref="member">edgeLengthMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
-<codeline lineno="22" refid="group__SurfacePathGroup_1gad2fc71f60ff8cacbc0318077e2e28051" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1gab0c6bfd4f01e28a6c034a2195143e410" kindref="member">edgeLengthMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points<sp/>);</highlight></codeline>
+<codeline lineno="21" refid="group__SurfacePathGroup_1gaf83c9126c3fe5eb80121ed4fb5bbdcbf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1gaf83c9126c3fe5eb80121ed4fb5bbdcbf" kindref="member">edgeLengthMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
+<codeline lineno="22" refid="group__SurfacePathGroup_1ga1359bd15f1fd1d1702be9174dbd1f91e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1gaf83c9126c3fe5eb80121ed4fb5bbdcbf" kindref="member">edgeLengthMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points<sp/>);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__SurfacePathGroup_1gae4866fbd4ec0921d6eed211cbef0e8aa" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1gae4866fbd4ec0921d6eed211cbef0e8aa" kindref="member">discreteAbsMeanCurvatureMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
-<codeline lineno="28" refid="group__SurfacePathGroup_1gac27bbe944fd04f789f1c1f0ad8455271" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1gae4866fbd4ec0921d6eed211cbef0e8aa" kindref="member">discreteAbsMeanCurvatureMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__SurfacePathGroup_1ga832a0b8b0a098d4124e935c859a5649f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1ga832a0b8b0a098d4124e935c859a5649f" kindref="member">discreteAbsMeanCurvatureMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__SurfacePathGroup_1ga8f974309d2b6a5eb49d1c1d30ba97135" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1ga832a0b8b0a098d4124e935c859a5649f" kindref="member">discreteAbsMeanCurvatureMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__SurfacePathGroup_1ga8e15c502056407a36c6d495799f0aa7d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1ga8e15c502056407a36c6d495799f0aa7d" kindref="member">discreteMinusAbsMeanCurvatureMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
-<codeline lineno="34" refid="group__SurfacePathGroup_1gaa47002070e90f43a82f54ead62a1746f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1ga8e15c502056407a36c6d495799f0aa7d" kindref="member">discreteMinusAbsMeanCurvatureMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__SurfacePathGroup_1gae15f3e648c515cf6d02ec75c41495027" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1gae15f3e648c515cf6d02ec75c41495027" kindref="member">discreteMinusAbsMeanCurvatureMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
+<codeline lineno="34" refid="group__SurfacePathGroup_1gae6fc4363ac2ee20b54f4f7f52d8a296c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1gae15f3e648c515cf6d02ec75c41495027" kindref="member">discreteMinusAbsMeanCurvatureMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points<sp/>);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="group__SurfacePathGroup_1ga215f966d7ad4e48210e0de178cb43a06" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1ga215f966d7ad4e48210e0de178cb43a06" kindref="member">edgeCurvMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinFactor<sp/>=<sp/>2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinForBoundary<sp/>=<sp/>0<sp/>);</highlight></codeline>
-<codeline lineno="41" refid="group__SurfacePathGroup_1ga003755490808d2d716aa0de3c8f733b5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1ga215f966d7ad4e48210e0de178cb43a06" kindref="member">edgeCurvMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinFactor<sp/>=<sp/>2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinForBoundary<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="40" refid="group__SurfacePathGroup_1ga1ece8d5a89783d3e595cca38da33738a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1ga1ece8d5a89783d3e595cca38da33738a" kindref="member">edgeCurvMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinFactor<sp/>=<sp/>2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinForBoundary<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="41" refid="group__SurfacePathGroup_1ga4d28c28ac45bd44a6f3711fd55891011" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1ga1ece8d5a89783d3e595cca38da33738a" kindref="member">edgeCurvMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinFactor<sp/>=<sp/>2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinForBoundary<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="group__SurfacePathGroup_1gad21f6edd94bf386e087fa44863421357" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1gad21f6edd94bf386e087fa44863421357" kindref="member">edgeAbsCurvMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinFactor<sp/>=<sp/>2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinForBoundary<sp/>=<sp/>0<sp/>);</highlight></codeline>
-<codeline lineno="48" refid="group__SurfacePathGroup_1ga7bcb3a4cdb884f47b198536773f19d73" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1gad21f6edd94bf386e087fa44863421357" kindref="member">edgeAbsCurvMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinFactor<sp/>=<sp/>2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinForBoundary<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="47" refid="group__SurfacePathGroup_1ga713795832c35e26e930a0e509d3e3439" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1ga713795832c35e26e930a0e509d3e3439" kindref="member">edgeAbsCurvMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinFactor<sp/>=<sp/>2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinForBoundary<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="48" refid="group__SurfacePathGroup_1ga83d18b35a657e690d099626020c05e78" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1ga713795832c35e26e930a0e509d3e3439" kindref="member">edgeAbsCurvMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinFactor<sp/>=<sp/>2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleSinForBoundary<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="group__SurfacePathGroup_1ga04e5ae2dd9a34149d37b4c31364b4b68" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeMetric<sp/><ref refid="group__SurfacePathGroup_1ga04e5ae2dd9a34149d37b4c31364b4b68" kindref="member">edgeTableSymMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EdgeMetric<sp/>&amp;<sp/>metric<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__SurfacePathGroup_1ga4e42be093ad0a3c2093cbfe41a7fc8e4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/><ref refid="group__SurfacePathGroup_1ga4e42be093ad0a3c2093cbfe41a7fc8e4" kindref="member">edgeTableSymMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/>&amp;<sp/>metric<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h"/>
+    <location file="MRMesh/MREdgeMetric.h"/>
   </compounddef>
 </doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Id" kind="class" language="C++" prot="public">
     <compoundname>MR::Id</compoundname>
     <derivedcompoundref refid="classMR_1_1NoInitId" prot="public" virt="non-virtual">MR::NoInitId&lt; T &gt;</derivedcompoundref>
-    <includes refid="MRId_8h" local="no">MRId.h</includes>
+    <includes refid="MRId_8h" local="no">MRMesh/MRId.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="19" bodyend="75"/>
+    <location file="MRMesh/MRId.h" line="18" column="1" bodyfile="MRMesh/MRId.h" bodystart="19" bodyend="75"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaba62ab281df54c9782b7668d99d28d1e" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>get</name></member>
       <member refid="group__GeneralGroup_1gab0e4ef6dbed8084af5b947ea4f8152e4" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>

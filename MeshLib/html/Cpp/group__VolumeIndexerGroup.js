@@ -16,7 +16,7 @@ var group__VolumeIndexerGroup =
       [ "getNeighbor", "group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075", null ],
       [ "getNeighbor", "group__VoxelGroup.html#gafe8987c6754acf0b39a5d12c2a7d0da9", null ],
       [ "getNeighbor", "group__VoxelGroup.html#ga70480624af713d6c33abe8a12d5fa6ef", null ],
-      [ "hasNeighbour", "group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf", null ],
+      [ "hasNeighbour", "group__VoxelGroup.html#ga568040796ed83557b8128ba94a11852e", null ],
       [ "isBdVoxel", "group__VoxelGroup.html#ga6e3749e3a300fa4eda0a5dc1eb875a4a", null ],
       [ "isInDims", "group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35", null ],
       [ "size", "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985", null ],
@@ -40,8 +40,8 @@ var group__VolumeIndexerGroup =
       [ "MR::OutEdge::MinusX", "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454", null ],
       [ "MR::OutEdge::Count", "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MR::expandVoxelsMask", "group__VolumeIndexerGroup.html#ga2b294cbfdf1d13f5bb7babef620b361a", null ],
+    [ "MR::expandVoxelsMask", "group__VolumeIndexerGroup.html#gaf4165e1b4387ead4958e16c2ffebdf4b", null ],
     [ "MR::opposite", "group__VolumeIndexerGroup.html#ga4e89cddf49bc51a6caa983ba3b84c461", null ],
-    [ "MR::shrinkVoxelsMask", "group__VolumeIndexerGroup.html#gaae181e34db4d5ebb6f2cc68194b69c18", null ],
+    [ "MR::shrinkVoxelsMask", "group__VolumeIndexerGroup.html#ga051634fee494f975b01af37644de2b2a", null ],
     [ "MR::neiPosDelta", "group__VolumeIndexerGroup.html#ga91147207103fdc2c344ad18106a8599a", null ]
 ];

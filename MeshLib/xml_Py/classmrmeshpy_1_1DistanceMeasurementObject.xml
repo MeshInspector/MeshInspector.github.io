@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DistanceMeasurementObject" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DistanceMeasurementObject</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1MeasurementObject" prot="public" virt="non-virtual">mrmeshpy.MeasurementObject</basecompoundref>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13919" bodyend="13920"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13980" bodyend="13981"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1ae1f11bb1ce10bd062961e68c8c3d6333" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13922" bodyend="13923"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13983" bodyend="13984"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a29962347137e68f689c4aa48ad119716" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13925" bodyend="13926"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13986" bodyend="13987"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -65,7 +65,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceMeasurementObject.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -78,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13927" bodyend="13930"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13988" bodyend="13991"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1afbc5a5cee57fe29a38e4539dbc2e09ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -97,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13931" bodyend="13932"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13992" bodyend="13993"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a340518798b1921d0d1e8b6f9de553317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -116,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13933" bodyend="13934"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13994" bodyend="13995"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1af34f9bc6a9200561e8f68cddd725835c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -138,7 +137,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13935" bodyend="13936"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13996" bodyend="13997"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a6dcb181c1b89d289851ba83a78f1dfe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ObjectComparableWithReference.ComparableProperty</ref></type>
@@ -167,7 +166,7 @@ This can return null if the value is impossible to compute, e.g. for some types 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13937" bodyend="13938"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13998" bodyend="13999"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1accbd47e4d43f7c83b6660407e216f061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -188,7 +187,7 @@ In `euclidean`, this is `getWorldDelta().length() * (isNegative() ? -1 : 1)`.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13939" bodyend="13943"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14000" bodyend="14004"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1aa27b089776bfb619ffe43a2d4b29bf9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -213,7 +212,7 @@ In `euclidean`, this is `getWorldDelta().length() * (isNegative() ? -1 : 1)`.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13944" bodyend="13945"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14005" bodyend="14006"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a7802e66455289eb9f0258cdb18bb8039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
@@ -240,7 +239,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13946" bodyend="13947"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14007" bodyend="14008"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a1327fdbedceb2c96d8c4cbb5be4f2925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -265,7 +264,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13948" bodyend="13949"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14009" bodyend="14010"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a698d30c159b75c3192fed20d3e4fdc62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ObjectComparableWithReference.ComparisonTolerance</ref></type>
@@ -291,7 +290,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13950" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13950" bodyend="13951"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14011" bodyend="14012"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a02333d4317f884603c7eb05bab21e80d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode" kindref="compound">DistanceMeasurementObject.DistanceMode</ref></type>
@@ -311,7 +310,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13952" bodyend="13955"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14013" bodyend="14016"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a50b672a65be7b7e345e75ffb1f89d17f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
@@ -332,7 +331,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13956" bodyend="13957"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14017" bodyend="14018"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1ae04a1b9cf99cf41c9145d2c7006cad87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -350,7 +349,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13958" bodyend="13959"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14019" bodyend="14020"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a59cc6ff75ebe24a45113b6de17679312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -370,7 +369,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13960" bodyend="13963"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14021" bodyend="14024"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a56f7120998dc20890df731271b7b1405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -390,7 +389,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13964" bodyend="13967"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14025" bodyend="14028"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a946348d9050b39011fffa472a6c4ecc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -410,7 +409,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13968" bodyend="13971"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14029" bodyend="14032"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1ab4cfb2bf513ea1893a635ebfabaacc35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -430,7 +429,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13972" bodyend="13975"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14033" bodyend="14036"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a08bd5d81a4d473278c1cffd7e76618a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -451,7 +450,7 @@ If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can sti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13976" bodyend="13979"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14037" bodyend="14040"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1af034d54d534bcfd0694b15b66400c4d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -483,7 +482,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13980" bodyend="13981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14041" bodyend="14042"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a4696ad9952209bb08485ca20b6ec7568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -513,7 +512,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13982" bodyend="13983"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14043" bodyend="14044"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1ad17b9ad47ea8b4208ea9f9303a446954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -535,7 +534,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13984" bodyend="13985"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14045" bodyend="14046"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a662df43d62cfe20a9ed7a47c3c599fc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -557,7 +556,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13986" bodyend="13987"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14047" bodyend="14048"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a2ea4955c8532d586ad5646123feeb42b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -581,7 +580,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13988" bodyend="13991"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14049" bodyend="14052"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1ac3e4adee0916e03c475fb2bd9e583a4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -605,7 +604,7 @@ Only a certain variant type is legal to pass, depending on the derived class and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13992" bodyend="13995"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14053" bodyend="14056"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1aefe7826eefa884545ec3a25e85279711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -627,7 +626,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13996" bodyend="13997"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14057" bodyend="14058"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DistanceMeasurementObject_1a140ed40e13487ae65c40a9ac0d45bd2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -646,7 +645,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13998" bodyend="13999"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14059" bodyend="14060"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -729,37 +728,149 @@ Represents a distance measurement.
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13860" bodyend="13999"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13921" bodyend="14060"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1ad39016caf2db5099aa1f469a6d3c3c39" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4c9a5cdc889f952e88f15efc92859b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>addChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a628d57698bee030f4e37809eed20fdb6" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>addChildBefore</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a14c3c142ce5c7a92531fcf914b1ffea2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>addTag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1db3f0240dda415f1f066fed72225e16" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a35f5a7bbb06be9169dbe752e0b8440e3" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>children</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3c285511171875eaa87d26a18bd45efc" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>children</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1afbc5a5cee57fe29a38e4539dbc2e09ae" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>className</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a340518798b1921d0d1e8b6f9de553317" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>classNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1af34f9bc6a9200561e8f68cddd725835c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>cloneTree</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a9a693f13fd7c752a7daed86225899a5f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a6dcb181c1b89d289851ba83a78f1dfe8" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>computeComparableProperty</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1accbd47e4d43f7c83b6660407e216f061" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>computeDistance</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a567315111aee91b3dd5bfef4188b23b7" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>detachFromParent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a99a68c12bda4b4c07f5ba725b2b2af59" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getColoringType</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1aa27b089776bfb619ffe43a2d4b29bf9b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getComparablePropertyName</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a7802e66455289eb9f0258cdb18bb8039" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a1327fdbedceb2c96d8c4cbb5be4f2925" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a698d30c159b75c3192fed20d3e4fdc62" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getComparisonTolerence</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getDirtyFlags</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a02333d4317f884603c7eb05bab21e80d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getDistanceMode</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a50b672a65be7b7e345e75ffb1f89d17f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getInfoLines</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1ae04a1b9cf99cf41c9145d2c7006cad87" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getLocalDelta</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a59cc6ff75ebe24a45113b6de17679312" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3eef5ed5fd88feb0b2e586d0b1c0e254" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9b36e627e752037bbe0d6cfeee96dbaf" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1aa1020074c1326a825c86467a0580791d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a936f4ea388564c3dc033b5abb39993f4" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getWorldBox</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a56f7120998dc20890df731271b7b1405" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getWorldDelta</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a946348d9050b39011fffa472a6c4ecc0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3270abd9924fa3f784d3105824979f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a21510ca05f3888f5db9ff0aae662c9d1" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a33d0fafc2423205d5a3ba75eae112655" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a5a2cb58be1a7e062e9c502295eb6ce23" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isLocked</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1ab4cfb2bf513ea1893a635ebfabaacc35" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isNegative</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isSelected</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>name</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a08bd5d81a4d473278c1cffd7e76618a3" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>numComparableProperties</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a0095fef2bf196a155da6270e100367c1" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="classmrmeshpy_1_1MeasurementObject_1a5c89f0f1474b346f4fdd0affef837414" prot="public" virt="non-virtual" ambiguityscope="mrmeshpy::MeasurementObject."><scope>mrmeshpy::DistanceMeasurementObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa593f6befb32f6453133a516f1c863b8" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>removeAllChildren</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a50fdb1e10c8b57d176b21fd1224c1292" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>removeTag</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>renderForPicker</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>renderUi</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1abf55328c86b56d62b4b1654186f4f68f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>resetDirty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a69ef0caef1ec3fa51cab56ad9959bb22" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3f27a64bfcdec74242fdf571a687c94c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9d4920ba95eb61dd557cc7b77e8b1654" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>resetXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a390de01f2ab8caa5e1d044458234a6d5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>sameModels</name></member>
+      <member refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2db756ea98710dbbc11ae7d00752b069" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setAncillary</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setColoringType</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1aa90cbf90f3001d7f1981206315904ecd" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1af034d54d534bcfd0694b15b66400c4d9" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a4696ad9952209bb08485ca20b6ec7568" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a883cdf9eb84b10488087440af6534a26" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setDirtyFlags</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1ad17b9ad47ea8b4208ea9f9303a446954" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setDistanceMode</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setGlobalVisibility</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a662df43d62cfe20a9ed7a47c3c599fc0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setIsNegative</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a2ea4955c8532d586ad5646123feeb42b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setLocalDelta</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1ac3e4adee0916e03c475fb2bd9e583a4b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setLocked</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setWorldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa19f9528e669d68920059fa560ef527b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aac6bdfb45902aa99fc95799b508c57f5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>setXfsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1aefe7826eefa884545ec3a25e85279711" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ab39f51bc5e295bf79bf21e09e8a4374b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a81fe3b89047200dec9832c065dd92ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>sortChildren</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1ae7d1b64121617317ad460874680fbffb" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>StaticClassName</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1ae1f11bb1ce10bd062961e68c8c3d6333" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a29962347137e68f689c4aa48ad119716" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af397dd03ebfb70c972d3c4b39e52fc51" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a6c92cdb11df4d895c639f0e26dca1c83" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a12a90ffff0f3f0d2f6054e8e82a63679" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>tags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1a140ed40e13487ae65c40a9ac0d45bd2c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>visibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a0fe057c0f6fe9f8ee98bd8210faa983c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>worldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a157327fa8110ea13a8b12bf04748331d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05ee8acaa199b194040b1613d4038012" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,18 +1,8 @@
 var MRCloseVertices_8h =
 [
-    [ "MR_AABBTreePoints", "MRCloseVertices_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a", null ],
-    [ "MR_EdgeBitSet", "MRCloseVertices_8h.html#a0ab67259585b94fe4f3e06c70ba102f3", null ],
-    [ "MR_Mesh", "MRCloseVertices_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId", "MRCloseVertices_8h.html#ab75e1f6cb82a9cc94c4465f6f148d60c", null ],
-    [ "MR_PointCloud", "MRCloseVertices_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_std_function_bool_from_float", "MRCloseVertices_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_optional_MR_VertBitSet", "MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc", null ],
     [ "MR_std_optional_MR_VertMap", "MRCloseVertices_8h.html#a950c6af30a4d04d866522904c982ff6a", null ],
     [ "MR_std_vector_std_pair_MR_EdgeId_MR_EdgeId", "MRCloseVertices_8h.html#a61dc50112ea50608a3d05c44789162fb", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRCloseVertices_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_VertBitSet", "MRCloseVertices_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRCloseVertices_8h.html#a249fd9254c0c3395567807936ad32641", null ],
-    [ "MR_VertMap", "MRCloseVertices_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
     [ "MR_findCloseVertices_1", "MRCloseVertices_8h.html#a77cfa3a51d0f1aadebec721f93c99e19", null ],
     [ "MR_findCloseVertices_3_MR_Mesh", "MRCloseVertices_8h.html#a44f9771f7917d713c77afea279feed06", null ],
     [ "MR_findCloseVertices_3_MR_PointCloud", "MRCloseVertices_8h.html#afeea3056274f3e8565c1b44e5bfb473b", null ],

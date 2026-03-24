@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::ObjectVoxels::VolumeRenderingParams</compoundname>
-    <includes refid="MRObjectVoxels_8h" local="no">MRObjectVoxels.h</includes>
+    <includes refid="MRObjectVoxels_8h" local="no">MRVoxels/MRObjectVoxels.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga0b40e31d1a019aab3cc599a4440216cf" kind="enum"><name>ShadingType</name></member>
       <member refid="group__GeneralGroup_1gac2eccd63ca988ff87e0d09c1729effd5" kind="enum"><name>LutType</name></member>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="157" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="158" bodyend="193"/>
+    <location file="MRVoxels/MRObjectVoxels.h" line="157" column="5" bodyfile="MRVoxels/MRObjectVoxels.h" bodystart="158" bodyend="193"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3020a0b0e97313d239308d5d16c7f9f3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>alphaLimit</name></member>
       <member refid="group__GeneralGroup_1gafeb3f512bbe9f60f21c71753b179adc2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>AlphaType</name></member>

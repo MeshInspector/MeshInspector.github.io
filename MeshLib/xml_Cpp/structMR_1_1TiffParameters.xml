@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TiffParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::TiffParameters</compoundname>
     <basecompoundref refid="structMR_1_1BaseTiffParameters" prot="public" virt="non-virtual">MR::BaseTiffParameters</basecompoundref>
-    <includes refid="MRTiffIO_8h" local="no">MRTiffIO.h</includes>
+    <includes refid="MRTiffIO_8h" local="no">MRMesh/MRTiffIO.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaf83e01315d14765d77386039af6d8687" kind="variable"><name>tiled</name></member>
       <member refid="group__GeneralGroup_1ga0f390427adc09ea9947004b14be21cf0" kind="variable"><name>tileSize</name></member>
@@ -41,7 +41,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="44" bodyend="53"/>
+    <location file="MRMesh/MRTiffIO.h" line="43" column="1" bodyfile="MRMesh/MRTiffIO.h" bodystart="44" bodyend="53"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>bytesPerSample</name></member>
       <member refid="group__GeneralGroup_1gad64f46697aae94f7b2569134b2cbd954" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>depth</name></member>

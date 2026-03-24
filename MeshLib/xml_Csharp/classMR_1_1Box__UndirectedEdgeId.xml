@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Box__UndirectedEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Box_UndirectedEdgeId</compoundname>
     <basecompoundref refid="classMR_1_1ConstBox__UndirectedEdgeId" prot="public" virt="non-virtual">MR.ConstBox_UndirectedEdgeId</basecompoundref>
@@ -171,7 +171,7 @@
         <name>decr</name>
         <qualifiedname>MR.Box_UndirectedEdgeId.decr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator--</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeId::operator--</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -186,7 +186,7 @@
         <name>incr</name>
         <qualifiedname>MR.Box_UndirectedEdgeId.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeId::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -205,7 +205,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeId::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -224,7 +224,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeId::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -258,13 +258,19 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;</computeroutput> This is the non-const reference to the struct. </para>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;</computeroutput> This is the non-const reference to the struct. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Box_UndirectedEdgeId</label>
+        <link refid="classMR_1_1Box__UndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_UndirectedEdgeId</label>
+        <label>MR.ConstBox_UndirectedEdgeId</label>
         <link refid="classMR_1_1ConstBox__UndirectedEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -273,25 +279,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_UndirectedEdgeId</label>
-        <link refid="classMR_1_1Box__UndirectedEdgeId"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_UndirectedEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.UndirectedEdgeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Box_UndirectedEdgeId</label>
+        <link refid="classMR_1_1Box__UndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_UndirectedEdgeId</label>
+        <label>MR.ConstBox_UndirectedEdgeId</label>
         <link refid="classMR_1_1ConstBox__UndirectedEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -300,20 +306,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_UndirectedEdgeId</label>
-        <link refid="classMR_1_1Box__UndirectedEdgeId"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_UndirectedEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.UndirectedEdgeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="217" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="218" bodyend="355"/>

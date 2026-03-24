@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ColorMapAggregator" kind="class" language="C++" prot="public">
     <compoundname>MR::ColorMapAggregator</compoundname>
-    <includes refid="MRColorMapAggregator_8h" local="no">MRColorMapAggregator.h</includes>
+    <includes refid="MRColorMapAggregator_8h" local="no">MRMesh/MRColorMapAggregator.h</includes>
     <innerclass refid="structMR_1_1ColorMapAggregator_1_1PartialColorMap" prot="public">MR::ColorMapAggregator::PartialColorMap</innerclass>
     <templateparamlist>
       <param>
@@ -23,16 +23,16 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga9f26415001a0635aeb73a8ff7e00b20c" kind="function"><name>ColorMapAggregator</name></member>
-      <member refid="group__GeneralGroup_1ga27373b3b50c97ce0d7c2737e61012ffa" kind="function"><name>setDefaultColor</name></member>
-      <member refid="group__GeneralGroup_1ga69399c15f5244a65b67dbe5be5754a50" kind="function"><name>pushBack</name></member>
-      <member refid="group__GeneralGroup_1gab824efbaafb7860d9d22e8166bb84a80" kind="function"><name>insert</name></member>
-      <member refid="group__GeneralGroup_1gac67f25c8d9133cd6915063fa8e301fd6" kind="function"><name>replace</name></member>
-      <member refid="group__GeneralGroup_1gaf72490cd5097c80ebcf4fe9e28821f15" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga74373769376cffc67f3e967b161af622" kind="function"><name>setDefaultColor</name></member>
+      <member refid="group__GeneralGroup_1ga8f3e38beab3ce0130ac1ff461ca4fa4c" kind="function"><name>pushBack</name></member>
+      <member refid="group__GeneralGroup_1ga6413d5fcc6d1767e6d5e7d06cc4ac241" kind="function"><name>insert</name></member>
+      <member refid="group__GeneralGroup_1gaef6501b5bda99cf7a4c657b6fcf137c5" kind="function"><name>replace</name></member>
+      <member refid="group__GeneralGroup_1ga1032e35fb6655c21714f2b61b829255b" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga5270d3355b43941e705178f4105a9042" kind="function"><name>getColorMapNumber</name></member>
       <member refid="group__GeneralGroup_1ga46af3a558e1ec5eb32d783b972ad8198" kind="function"><name>getPartialColorMap</name></member>
-      <member refid="group__GeneralGroup_1ga78eb8e8142767bcf110f70d3ff23e194" kind="function"><name>erase</name></member>
-      <member refid="group__GeneralGroup_1ga8013c954cb0c8e15e862f18edd0b01c0" kind="function"><name>setMode</name></member>
-      <member refid="group__GeneralGroup_1ga9770717c450d8512e0357f181a6b0b34" kind="function"><name>aggregate</name></member>
+      <member refid="group__GeneralGroup_1ga4cf392b89699079cf533125b3b4a74c7" kind="function"><name>erase</name></member>
+      <member refid="group__GeneralGroup_1gaf034e9423edfe65ba19254ba1ded0b8d" kind="function"><name>setMode</name></member>
+      <member refid="group__GeneralGroup_1ga266bfe77b1216a794ea433184f88e16f" kind="function"><name>aggregate</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gaf4817efa182fd76952562869353747a8" kind="function"><name>checkInputData_</name></member>
@@ -43,9 +43,9 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" bodystart="20" bodyend="82"/>
+    <location file="MRMesh/MRColorMapAggregator.h" line="19" column="1" bodyfile="MRMesh/MRColorMapAggregator.h" bodystart="20" bodyend="82"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga9770717c450d8512e0357f181a6b0b34" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>aggregate</name></member>
+      <member refid="group__GeneralGroup_1ga266bfe77b1216a794ea433184f88e16f" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>aggregate</name></member>
       <member refid="group__GeneralGroup_1ga18c589433019c0ec280c7c759efaa21e" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>aggregatedColorMap_</name></member>
       <member refid="group__GeneralGroup_1gab256b40e5b8b82eac72187cf3cc0712a" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>AggregateMode</name></member>
       <member refid="group__GeneralGroup_1gaf4817efa182fd76952562869353747a8" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>checkInputData_</name></member>
@@ -54,17 +54,17 @@
       <member refid="group__GeneralGroup_1ga037dff95913b0308fd83e10f9e4682d1" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>dataSet_</name></member>
       <member refid="group__GeneralGroup_1ga07f41e7176267a0eec20f240d0ab836a" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>defaultColor_</name></member>
       <member refid="group__GeneralGroup_1ga29857a8d38bc30a22d092fdc3c8632df" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>ElementBitSet</name></member>
-      <member refid="group__GeneralGroup_1ga78eb8e8142767bcf110f70d3ff23e194" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>erase</name></member>
+      <member refid="group__GeneralGroup_1ga4cf392b89699079cf533125b3b4a74c7" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>erase</name></member>
       <member refid="group__GeneralGroup_1ga5270d3355b43941e705178f4105a9042" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>getColorMapNumber</name></member>
       <member refid="group__GeneralGroup_1ga46af3a558e1ec5eb32d783b972ad8198" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>getPartialColorMap</name></member>
-      <member refid="group__GeneralGroup_1gab824efbaafb7860d9d22e8166bb84a80" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>insert</name></member>
+      <member refid="group__GeneralGroup_1ga6413d5fcc6d1767e6d5e7d06cc4ac241" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>insert</name></member>
       <member refid="group__GeneralGroup_1gaa0e6e4ad6165a08d0cd0208baf255ad8" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>mode_</name></member>
       <member refid="group__GeneralGroup_1ga3a4699a45fada7c83688471fd784e369" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>needUpdate_</name></member>
-      <member refid="group__GeneralGroup_1ga69399c15f5244a65b67dbe5be5754a50" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>pushBack</name></member>
-      <member refid="group__GeneralGroup_1gac67f25c8d9133cd6915063fa8e301fd6" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>replace</name></member>
-      <member refid="group__GeneralGroup_1gaf72490cd5097c80ebcf4fe9e28821f15" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>reset</name></member>
-      <member refid="group__GeneralGroup_1ga27373b3b50c97ce0d7c2737e61012ffa" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>setDefaultColor</name></member>
-      <member refid="group__GeneralGroup_1ga8013c954cb0c8e15e862f18edd0b01c0" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>setMode</name></member>
+      <member refid="group__GeneralGroup_1ga8f3e38beab3ce0130ac1ff461ca4fa4c" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>pushBack</name></member>
+      <member refid="group__GeneralGroup_1gaef6501b5bda99cf7a4c657b6fcf137c5" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>replace</name></member>
+      <member refid="group__GeneralGroup_1ga1032e35fb6655c21714f2b61b829255b" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga74373769376cffc67f3e967b161af622" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>setDefaultColor</name></member>
+      <member refid="group__GeneralGroup_1gaf034e9423edfe65ba19254ba1ded0b8d" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>setMode</name></member>
       <member refid="group__GeneralGroup_1ga8f6e52c359bc6bafb4860f15faadf048" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>updateAggregated_</name></member>
     </listofallmembers>
   </compounddef>

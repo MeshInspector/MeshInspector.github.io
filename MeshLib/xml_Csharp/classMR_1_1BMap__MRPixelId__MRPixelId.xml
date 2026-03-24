@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BMap__MRPixelId__MRPixelId" kind="class" language="C#" prot="public">
     <compoundname>MR::BMap_MRPixelId_MRPixelId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_BMap_MRPixelId_MRPixelId</basecompoundref>
@@ -11,13 +11,12 @@
         <name>b</name>
         <qualifiedname>MR.BMap_MRPixelId_MRPixelId.b</qualifiedname>
         <briefdescription>
-<para>target size, all values inside b must be less than this value </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8965" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8965" bodyend="8965"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11509" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11509" bodyend="11509"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BMap__MRPixelId__MRPixelId_1a7eb924e37cdfd748419946c9ccc84a05" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -26,12 +25,13 @@
         <name>tsize</name>
         <qualifiedname>MR.BMap_MRPixelId_MRPixelId.tsize</qualifiedname>
         <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8968" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8968" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11514" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11514" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8987" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8987" bodyend="8991"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11533" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11533" bodyend="11537"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8997" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8997" bodyend="9003"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11543" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11543" bodyend="11549"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRPixelId__MRPixelId_1acdaab16756fa5338ff0be5fed18a35b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -89,13 +89,13 @@
           <declname>tsize</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9008" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9008" bodyend="9015"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11554" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11554" bodyend="11561"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRPixelId__MRPixelId_1af9857e5c908b070e8b57872381b1f2fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -108,13 +108,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;::BMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::BMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9020" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9020" bodyend="9027"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11566" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11566" bodyend="11573"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRPixelId__MRPixelId_1a8e70127bfc2c9e86a4a31bdb92f20010" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BMap__MRPixelId__MRPixelId" kindref="compound">MR.BMap_MRPixelId_MRPixelId</ref></type>
@@ -127,63 +127,63 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9032" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9032" bodyend="9039"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11578" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11578" bodyend="11585"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>flat map: I -&amp;gt; T Generated from class <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_BMap_MRPixelId_MRPixelId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.BMap_MRPixelId_MRPixelId</label>
         <link refid="classMR_1_1BMap__MRPixelId__MRPixelId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BMap_MRPixelId_MRPixelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BMap_MRPixelId_MRPixelId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_BMap_MRPixelId_MRPixelId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.BMap_MRPixelId_MRPixelId</label>
         <link refid="classMR_1_1BMap__MRPixelId__MRPixelId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BMap_MRPixelId_MRPixelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BMap_MRPixelId_MRPixelId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8963" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8964" bodyend="9040"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11507" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11508" bodyend="11586"/>
     <listofallmembers>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1a8e70127bfc2c9e86a4a31bdb92f20010" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1a2a0fac056cfb06abedf7e8a1964488d0" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>b</name></member>

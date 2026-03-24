@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DividePolylineParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::DividePolylineParameters</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DividePolylineParameters</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1ad091c7a60513b137393a67ea6bb559ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeIdFloat</type>
-        <definition>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeIdFloat MR.DividePolylineParameters.onEdgeSplitCallback</definition>
+      <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1a12afa22269422258f4b690beba8c6a7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId_Float</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId_Float MR.DividePolylineParameters.onEdgeSplitCallback</definition>
         <argsstring></argsstring>
         <name>onEdgeSplitCallback</name>
         <qualifiedname>MR.DividePolylineParameters.onEdgeSplitCallback</qualifiedname>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="230" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="230" bodyend="230"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="246" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="246" bodyend="246"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1a8c0fcacdc82112bbce7d87bcf5bae6cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -26,13 +26,13 @@
         <name>closeLineAfterCut</name>
         <qualifiedname>MR.DividePolylineParameters.closeLineAfterCut</qualifiedname>
         <briefdescription>
+<para>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) </para>
         </briefdescription>
         <detaileddescription>
-<para>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="234" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="234" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="252" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="252" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1a6e531ff164c033fee6ee21c5dda20b1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="237" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="238" bodyend="247"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="257" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="258" bodyend="267"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1af8d6aabd28d4ac72da174657bda5339d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="250" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="251" bodyend="260"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="272" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="273" bodyend="282"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1abb29ee9bf97b682a80486a3bdf9333cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Polyline3" kindref="compound">Polyline3</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="263" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="264" bodyend="273"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="287" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="288" bodyend="297"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1a588a9c550243db191d4663cac648f02e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="276" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="277" bodyend="286"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="302" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="303" bodyend="312"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1a165b5cbfd774ff6a084364123701461b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="289" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="290" bodyend="299"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="317" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="318" bodyend="327"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="318" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="318" bodyend="322"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="346" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="346" bodyend="350"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="328" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="328" bodyend="334"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="356" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="356" bodyend="362"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePolylineParameters_1a27a3d4ed74897a3d7942e8f523419168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="339" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="339" bodyend="351"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="367" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="367" bodyend="379"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePolylineParameters_1a5fd241ed2a6757408f815d61801e2632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DividePolylineParameters.DividePolylineParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DividePolylineParameters_1ab44b6e201bfdb383a3089f76203686ad" kindref="member">MR.DividePolylineParameters.DividePolylineParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="356" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="356" bodyend="363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="384" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="384" bodyend="391"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePolylineParameters_1afd882db9690be2342a9012610e0c8d66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -223,13 +223,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DividePolylineParameters.DividePolylineParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DividePolylineParameters_1ab44b6e201bfdb383a3089f76203686ad" kindref="member">MR.DividePolylineParameters.DividePolylineParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="368" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="368" bodyend="368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="396" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="396" bodyend="396"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePolylineParameters_1a5f17813313cea9c7b88668e613686358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -242,13 +242,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DividePolylineParameters.DividePolylineParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DividePolylineParameters_1ab44b6e201bfdb383a3089f76203686ad" kindref="member">MR.DividePolylineParameters.DividePolylineParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="373" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="373" bodyend="373"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="401" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="401" bodyend="401"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DividePolylineParameters_1a9c321e33ef433879597cfb61d262561a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DividePolylineParameters" kindref="compound">MR.DividePolylineParameters</ref></type>
@@ -261,13 +261,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DividePolylineParameters.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DividePolylineParameters::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="378" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="378" bodyend="385"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="406" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="406" bodyend="413"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -276,48 +276,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DividePolylineParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DividePolylineParameters</label>
         <link refid="classMR_1_1DividePolylineParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DividePolylineParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DividePolylineParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DividePolylineParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DividePolylineParameters</label>
         <link refid="classMR_1_1DividePolylineParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DividePolylineParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DividePolylineParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="227" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="228" bodyend="386"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="241" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="242" bodyend="414"/>
     <listofallmembers>
       <member refid="classMR_1_1DividePolylineParameters_1a9c321e33ef433879597cfb61d262561a" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a8c0fcacdc82112bbce7d87bcf5bae6cc" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>closeLineAfterCut</name></member>
@@ -327,7 +327,7 @@
       <member refid="classMR_1_1DividePolylineParameters_1a5fd241ed2a6757408f815d61801e2632" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1afd882db9690be2342a9012610e0c8d66" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a5f17813313cea9c7b88668e613686358" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
-      <member refid="classMR_1_1DividePolylineParameters_1ad091c7a60513b137393a67ea6bb559ad" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="classMR_1_1DividePolylineParameters_1a12afa22269422258f4b690beba8c6a7c" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a165b5cbfd774ff6a084364123701461b" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherOutEmap</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a588a9c550243db191d4663cac648f02e" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherOutVmap</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1abb29ee9bf97b682a80486a3bdf9333cd" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherPart</name></member>

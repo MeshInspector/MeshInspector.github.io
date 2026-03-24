@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kind="class" language="C#" prot="public">
     <compoundname>MR::PlanarTriangulation::IntersectionInfo</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.PlanarTriangulation.Const_IntersectionInfo</basecompoundref>
@@ -11,13 +11,13 @@
         <name>lOrg</name>
         <qualifiedname>MR.PlanarTriangulation.IntersectionInfo.lOrg</qualifiedname>
         <briefdescription>
+<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices </para>
         </briefdescription>
         <detaileddescription>
-<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="178" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="178" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="188" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="188" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a323edb44c5ce0af8523199cda72aecfb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -26,13 +26,13 @@
         <name>lDest</name>
         <qualifiedname>MR.PlanarTriangulation.IntersectionInfo.lDest</qualifiedname>
         <briefdescription>
+<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices </para>
         </briefdescription>
         <detaileddescription>
-<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="182" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="182" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="194" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="194" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a2834c337200307d84820526b9d630e83" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="185" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="185" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="199" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="199" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a18ee4f34334f3021a750a5931e9ef9df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="188" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="188" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="204" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="204" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1ae74018468179255878caf1109599cc60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="193" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="193" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="209" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="209" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1ad37704a7370fed8dee8f2dd344c71bec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="197" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="197" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="213" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="213" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="201" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="201" bodyend="205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="217" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="217" bodyend="221"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="211" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="211" bodyend="217"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="227" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="227" bodyend="233"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a5eca930a109436372b28aff694f24e63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="222" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="222" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="238" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="238" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a1b4295b83947ce66acb52d8f4ebfddcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -183,13 +183,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PlanarTriangulation.IntersectionInfo.IntersectionInfo</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a6e55b3847d5caf14e724517856d9ea5a" kindref="member">MR.PlanarTriangulation.IntersectionInfo.IntersectionInfo</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="233" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="233" bodyend="240"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="249" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="249" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a41a053a6d8d0d8e87b56829b1c6ed8a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -202,13 +202,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PlanarTriangulation.IntersectionInfo.IntersectionInfo</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a6e55b3847d5caf14e724517856d9ea5a" kindref="member">MR.PlanarTriangulation.IntersectionInfo.IntersectionInfo</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="245" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="245" bodyend="245"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="261" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="261" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a8445aefc1e7845b562530f5a7b748419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">MR.PlanarTriangulation.IntersectionInfo</ref></type>
@@ -221,13 +221,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PlanarTriangulation.IntersectionInfo.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PlanarTriangulation::IntersectionInfo::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="250" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="250" bodyend="257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="266" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="266" bodyend="273"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -236,13 +236,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_IntersectionInfo</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PlanarTriangulation.IntersectionInfo</label>
         <link refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo"/>
@@ -250,20 +243,20 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IntersectionInfo &gt;</label>
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.PlanarTriangulation.Const_IntersectionInfo</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_IntersectionInfo</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PlanarTriangulation.IntersectionInfo</label>
         <link refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo"/>
@@ -271,13 +264,20 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IntersectionInfo &gt;</label>
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.PlanarTriangulation.Const_IntersectionInfo</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="174" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="175" bodyend="258"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="182" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="183" bodyend="274"/>
     <listofallmembers>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a8445aefc1e7845b562530f5a7b748419" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>assign</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a2a010f08462c84e2cc74472f90d2f80a" prot="package" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>IntersectionInfo</name></member>

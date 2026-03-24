@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Features" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Features</compoundname>
     <innerclass refid="classmrmeshpy_1_1Features_1_1MeasureResult" prot="public">mrmeshpy::Features::MeasureResult</innerclass>
@@ -31,7 +31,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18865" bodyend="18870"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19003" bodyend="19008"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1ad97fd9c9cf882c635f3dec2f07387a94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult" kindref="compound">Features.MeasureResult</ref></type>
@@ -55,7 +55,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18872" bodyend="18875"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19010" bodyend="19013"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a996d5fcb08328cd94dc6d9de4052472d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -75,7 +75,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18877" bodyend="18880"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19015" bodyend="19018"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a254b592f45566e24d546a95fd349e4c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -103,7 +103,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18882" bodyend="18885"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19020" bodyend="19023"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a01c138695163c7ebbb156b1ef8be4902" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -131,7 +131,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18887" bodyend="18890"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19025" bodyend="19028"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1aa4a6658f898277dedc11d754a8a873c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -159,7 +159,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18892" bodyend="18895"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19030" bodyend="19033"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a14df8ee3b04eb7793598b826daa070da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
@@ -179,7 +179,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18897" bodyend="18900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19035" bodyend="19038"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a7d77a3762fe75d35d712d52fdd1c9370" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
@@ -199,7 +199,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18902" bodyend="18905"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19040" bodyend="19043"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1aa4e170873bdc144b93f70130a34cf000" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FeatureObject" kindref="compound">FeatureObject</ref></type>
@@ -224,7 +224,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18907" bodyend="18911"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19045" bodyend="19049"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1ab088810a3855b28bf72ad4385b8f51f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
@@ -244,7 +244,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18914" bodyend="18917"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19052" bodyend="19055"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a73d6d106123915dace61e2db9ec484df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
@@ -262,7 +262,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18920" bodyend="18921"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19058" bodyend="19059"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1abaa6c2dca134a19f48fa2023d48b0877" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -280,7 +280,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18924" bodyend="18925"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19062" bodyend="19063"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a9934caa65ce1a6d934390136ffd1da77" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -298,7 +298,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18928" bodyend="18929"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19066" bodyend="19067"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a96987b088a132365f936a5c64758f708" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -316,7 +316,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18932" bodyend="18933"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19070" bodyend="19071"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a84468c2c6772c768e86797e9b6d2596a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -334,7 +334,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18936" bodyend="18937"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19074" bodyend="19075"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1aac503a731bf8fbf839b66c52d8306395" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -354,7 +354,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18939" bodyend="18942"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19077" bodyend="19080"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1acf9a442deb2f29886a91bad01573e058" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
@@ -379,7 +379,7 @@ Non-uniform scaling and skewing are not supported.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18945" bodyend="18949"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19083" bodyend="19087"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a13dd9e368957364477612d24d2fccc82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
@@ -401,7 +401,7 @@ Non-uniform scaling and skewing are not supported.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18952" bodyend="18953"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19090" bodyend="19091"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1abfb88b70e348bca8e75b19074d676ece" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -423,7 +423,7 @@ Non-uniform scaling and skewing are not supported.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18956" bodyend="18957"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19094" bodyend="19095"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a2de1e615a059d78336bc70ee9fe3aa31" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
@@ -445,7 +445,7 @@ Non-uniform scaling and skewing are not supported.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18960" bodyend="18961"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19098" bodyend="19099"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -454,7 +454,7 @@ Non-uniform scaling and skewing are not supported.
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18051" bodyend="18961"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18189" bodyend="19099"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Features_1acb6f65c8fd48131aec4e26f7c7d5d162" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>forEachSubfeature</name></member>
       <member refid="classmrmeshpy_1_1Features_1ad97fd9c9cf882c635f3dec2f07387a94" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>measure</name></member>

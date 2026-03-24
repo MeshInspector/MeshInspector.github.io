@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SetBitIteratorT__MRTextureBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::SetBitIteratorT_MRTextureBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRTextureBitSet</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a1893aeeef4018701792b20ba30cf997d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SetBitIteratorT_MRTextureBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15940" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15940" bodyend="15940"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1afbcb9adcdd5f4f079c8c9c20f77eb6bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>SetBitIteratorT_MRTextureBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15945" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15945" bodyend="15950"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a85d2f00c52c7161b32e586e6292ff2f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRTextureBitSet _other)</argsstring>
+        <name>SetBitIteratorT_MRTextureBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_SetBitIteratorT_MRTextureBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15955" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15955" bodyend="15961"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1ae33f5cffec3a1330969d8c09f364fe0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</definition>
+        <argsstring>(SetBitIteratorT_MRTextureBitSet _other)</argsstring>
+        <name>SetBitIteratorT_MRTextureBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SetBitIteratorT__MRTextureBitSet" kindref="compound">SetBitIteratorT_MRTextureBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15966" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15966" bodyend="15966"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a5ce826657016624ec97485f762430ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</definition>
+        <argsstring>(MR.Const_TextureBitSet bitset)</argsstring>
+        <name>SetBitIteratorT_MRTextureBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_TextureBitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15972" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15972" bodyend="15978"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a7ac0eda91d4cc1fc98caa87999c5ff49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SetBitIteratorT__MRTextureBitSet" kindref="compound">MR.SetBitIteratorT_MRTextureBitSet</ref></type>
+        <definition>unsafe MR.SetBitIteratorT_MRTextureBitSet MR.SetBitIteratorT_MRTextureBitSet.assign</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRTextureBitSet _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SetBitIteratorT_MRTextureBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15989" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15989" bodyend="15996"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a290a931fdf8045e883bcd77ff57baa79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.SetBitIteratorT_MRTextureBitSet.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16001" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16001" bodyend="16006"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1ad60a2142b923e6309ca53c84d55b104a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.SetBitIteratorT_MRTextureBitSet.operator SetBitIteratorT_MRTextureBitSet</definition>
+        <argsstring>(MR.Const_TextureBitSet bitset)</argsstring>
+        <name>operator SetBitIteratorT_MRTextureBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.operator SetBitIteratorT_MRTextureBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_TextureBitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15984" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15984" bodyend="15984"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.SetBitIteratorT_MRTextureBitSet</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRTextureBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SetBitIteratorT_MRTextureBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.SetBitIteratorT_MRTextureBitSet</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRTextureBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SetBitIteratorT_MRTextureBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15938" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15939" bodyend="16007"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a7ac0eda91d4cc1fc98caa87999c5ff49" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a290a931fdf8045e883bcd77ff57baa79" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>incr</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1ad60a2142b923e6309ca53c84d55b104a" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>operator SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a1893aeeef4018701792b20ba30cf997d" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1afbcb9adcdd5f4f079c8c9c20f77eb6bb" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a85d2f00c52c7161b32e586e6292ff2f8" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1ae33f5cffec3a1330969d8c09f364fe0e" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a5ce826657016624ec97485f762430ec8" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>SetBitIteratorT_MRTextureBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

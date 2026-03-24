@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FixCreasesParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::FixCreasesParams</compoundname>
-    <includes refid="MRMeshFixer_8h" local="no">MRMeshFixer.h</includes>
+    <includes refid="MRMeshFixer_8h" local="no">MRMesh/MRMeshFixer.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1FixCreasesParams_1a6921929310773c0b26398debbe0ee1f7" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="121" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="121" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="121" column="11" bodyfile="MRMesh/MRMeshFixer.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixCreasesParams_1a279d3fb54a0fb0946a220b96b62e06cc" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="124" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="124" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="124" column="11" bodyfile="MRMesh/MRMeshFixer.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixCreasesParams_1a3c47008ac5a83366788b6b52976b5e4c" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="127" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="127" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="127" column="9" bodyfile="MRMesh/MRMeshFixer.h" bodystart="127" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -58,7 +58,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="119" bodyend="128"/>
+    <location file="MRMesh/MRMeshFixer.h" line="118" column="1" bodyfile="MRMesh/MRMeshFixer.h" bodystart="119" bodyend="128"/>
     <listofallmembers>
       <member refid="structMR_1_1FixCreasesParams_1a6921929310773c0b26398debbe0ee1f7" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>creaseAngle</name></member>
       <member refid="structMR_1_1FixCreasesParams_1a279d3fb54a0fb0946a220b96b62e06cc" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>criticalTriAspectRatio</name></member>

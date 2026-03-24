@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshPoint" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshPoint</compoundname>
-    <includes refid="MRMeshThickness_8h" local="no">MRMeshThickness.h</includes>
+    <includes refid="MRMeshThickness_8h" local="no">MRMesh/MRMeshThickness.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaada8def241781f58cfc3cfe595c86622" kind="variable"><name>triPoint</name></member>
       <member refid="group__GeneralGroup_1ga3a24b45014eebfd444ca4f0e15a72c3d" kind="variable"><name>pt</name></member>
@@ -10,7 +10,7 @@
       <member refid="group__GeneralGroup_1gab79fe5ae069fdadbd3770bdfe85a1109" kind="variable"><name>notIncidentFaces</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga33ee706b3bfff045b2ba04b21a5c7f5a" kind="function"><name>set</name></member>
+      <member refid="group__GeneralGroup_1ga4f68b00de0e936bca0ded2f66858d59e" kind="function"><name>set</name></member>
     </sectiondef>
     <briefdescription>
 <para>describes the point of measurement on mesh </para>
@@ -30,12 +30,12 @@
         <link refid="structMR_1_1MeshTriPoint"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="21" bodyend="28"/>
+    <location file="MRMesh/MRMeshThickness.h" line="20" column="1" bodyfile="MRMesh/MRMeshThickness.h" bodystart="21" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae6a8983e822178897c427087d4f65a28" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>inDir</name></member>
       <member refid="group__GeneralGroup_1gab79fe5ae069fdadbd3770bdfe85a1109" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>notIncidentFaces</name></member>
       <member refid="group__GeneralGroup_1ga3a24b45014eebfd444ca4f0e15a72c3d" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>pt</name></member>
-      <member refid="group__GeneralGroup_1ga33ee706b3bfff045b2ba04b21a5c7f5a" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>set</name></member>
+      <member refid="group__GeneralGroup_1ga4f68b00de0e936bca0ded2f66858d59e" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>set</name></member>
       <member refid="group__GeneralGroup_1gaada8def241781f58cfc3cfe595c86622" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>triPoint</name></member>
     </listofallmembers>
   </compounddef>

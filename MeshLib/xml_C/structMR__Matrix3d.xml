@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR__Matrix3d" kind="struct" language="C++" prot="public">
     <compoundname>MR_Matrix3d</compoundname>
     <includes refid="MRMatrix3_8h" local="no">MRMatrix3.h</includes>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="84" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="84" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="84" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__Matrix3d_1a52cf785d471d25757aba184954bd60e3" prot="public" static="no" mutable="no">
         <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="85" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="85" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="85" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__Matrix3d_1afc26a63b1a595ea7b8c66275f11e6b4e" prot="public" static="no" mutable="no">
         <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="86" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="86" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="86" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" bodystart="86" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -68,7 +68,7 @@
         <link refid="structMR__Vector3d"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="82" bodyend="87"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" bodystart="82" bodyend="87"/>
     <listofallmembers>
       <member refid="structMR__Matrix3d_1a48f867cbf16307cd450e080f3bee7a50" prot="public" virt="non-virtual"><scope>MR_Matrix3d</scope><name>x</name></member>
       <member refid="structMR__Matrix3d_1a52cf785d471d25757aba184954bd60e3" prot="public" virt="non-virtual"><scope>MR_Matrix3d</scope><name>y</name></member>

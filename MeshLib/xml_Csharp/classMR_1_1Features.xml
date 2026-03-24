@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features" kind="class" language="C#" prot="public">
     <compoundname>MR::Features</compoundname>
     <innerclass refid="classMR_1_1Features_1_1MeasureResult" prot="public">MR::Features::MeasureResult</innerclass>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3114" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3114" bodyend="3122"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3152" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3152" bodyend="3160"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1ae0c4b0a33a2306988bed3afd7b6e6530" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref></type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3127" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3127" bodyend="3132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3165" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3165" bodyend="3170"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a031e403055c1ed84cd1cc88f501c75b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3137" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3137" bodyend="3142"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3175" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3175" bodyend="3180"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1ae6f2b52cd268f6acb93756796a552e52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref></type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3147" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3147" bodyend="3152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3185" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3185" bodyend="3190"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1ac06224376bb2a03c01c7c45829eec78b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref></type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3157" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3157" bodyend="3162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3195" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3195" bodyend="3200"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a2fbfe92bf6603af591b19b72be9057dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref></type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3167" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3167" bodyend="3172"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3205" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3205" bodyend="3210"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a4052b56ecd91dea859d335f13ebadf71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref></type>
@@ -140,13 +140,13 @@
           <declname>rad</declname>
         </param>
         <briefdescription>
-<para><computeroutput>normal</computeroutput> doesn&apos;t need to be normalized. Generated from function <computeroutput><ref refid="classMR_1_1Features_1a4052b56ecd91dea859d335f13ebadf71" kindref="member">MR.Features.primitiveCircle</ref></computeroutput>. </para>
+<para><computeroutput>normal</computeroutput> doesn't need to be normalized. Generated from function <computeroutput><ref refid="classMR_1_1Features_1a4052b56ecd91dea859d335f13ebadf71" kindref="member">MR.Features.primitiveCircle</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3178" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3178" bodyend="3189"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3216" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3216" bodyend="3227"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a8dc3040ce1b6ac32579dd81134683d7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref></type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3195" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3195" bodyend="3206"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3233" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3233" bodyend="3244"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a179386bd1ff72d51a5e218035f9a1fd8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref></type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3212" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3212" bodyend="3223"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3250" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3250" bodyend="3261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a4548b09b86b70da76215165ced7db3ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3229" column="121" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3229" bodyend="3234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3267" column="121" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3267" bodyend="3272"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a5eb72cbbc9a7bab12776295b90f9cf54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane</type>
@@ -238,11 +238,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3240" column="121" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3240" bodyend="3245"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3278" column="121" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3278" bodyend="3283"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1a802430d1abc8b74d1c9ac02b7456f45f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></type>
-        <definition>static unsafe MR.FeatureObject MR.Features.primitiveToObject</definition>
+      <memberdef kind="function" id="classMR_1_1Features_1a1c5f932dd15cda81055c653726a8f370" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRFeatureObject</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRFeatureObject MR.Features.primitiveToObject</definition>
         <argsstring>(MR.Std.Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane primitive, float infiniteExtent)</argsstring>
         <name>primitiveToObject</name>
         <qualifiedname>MR.Features.primitiveToObject</qualifiedname>
@@ -255,13 +255,13 @@
           <declname>infiniteExtent</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1Features_1a802430d1abc8b74d1c9ac02b7456f45f" kindref="member">MR.Features.primitiveToObject</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Features_1a1c5f932dd15cda81055c653726a8f370" kindref="member">MR.Features.primitiveToObject</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3252" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3252" bodyend="3257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3290" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3290" bodyend="3295"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a0080c8c5bd50fbbc8f2865e9863a2fba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Sphere3f" kindref="compound">MR.Sphere3f</ref></type>
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3264" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3264" bodyend="3272"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3302" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3302" bodyend="3310"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a82bd295d19eef434bd4348f0a29248fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref></type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3277" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3277" bodyend="3285"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3315" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3315" bodyend="3323"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1ad485a26ea75e0dc5aba063db4babcc70" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref></type>
@@ -330,7 +330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3290" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3290" bodyend="3298"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3328" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3328" bodyend="3336"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1ab7e61a76b45f2db207fe10587a85cef6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane</type>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3303" column="112" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3303" bodyend="3311"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3341" column="112" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3341" bodyend="3349"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a1098f41c952afd1d5d0663fbe434e3fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.StringView</type>
@@ -372,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3317" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3317" bodyend="3322"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3355" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3355" bodyend="3360"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a249f3499e27b8268016045230e4f09b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.String</type>
@@ -391,7 +391,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3328" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3328" bodyend="3333"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3366" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3366" bodyend="3371"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1a211bf0f45c7a84b3e46c4d04a7e6a1c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1MeasureResult" kindref="compound">MR.Features.MeasureResult</ref></type>
@@ -414,12 +414,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3339" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3339" bodyend="3344"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3377" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3377" bodyend="3382"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1a1be92964efbd1d5655265f0386f2e126" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Features_1a4f86b37b2a79448751afbe14d08aafe9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.Features.forEachSubfeature</definition>
-        <argsstring>(MR.Std.Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane feature, MR.Std.Const_Function_VoidFuncFromConstMRFeaturesSubfeatureInfoRef func)</argsstring>
+        <argsstring>(MR.Std.Const_Variant_MRSphere3f_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesPlane feature, MR.Std.Const_Function_Void_From_ConstMRFeaturesSubfeatureInfoRef func)</argsstring>
         <name>forEachSubfeature</name>
         <qualifiedname>MR.Features.forEachSubfeature</qualifiedname>
         <param>
@@ -427,26 +427,26 @@
           <declname>feature</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_VoidFuncFromConstMRFeaturesSubfeatureInfoRef</type>
+          <type>MR.Std.Const_Function_Void_From_ConstMRFeaturesSubfeatureInfoRef</type>
           <declname>func</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1Features_1a1be92964efbd1d5655265f0386f2e126" kindref="member">MR.Features.forEachSubfeature</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Features_1a4f86b37b2a79448751afbe14d08aafe9" kindref="member">MR.Features.forEachSubfeature</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" line="295" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="295" bodyend="300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" line="297" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="297" bodyend="302"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="4" bodyend="301"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="4" bodyend="3383"/>
     <listofallmembers>
-      <member refid="classMR_1_1Features_1a1be92964efbd1d5655265f0386f2e126" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>forEachSubfeature</name></member>
+      <member refid="classMR_1_1Features_1a4f86b37b2a79448751afbe14d08aafe9" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>forEachSubfeature</name></member>
       <member refid="classMR_1_1Features_1a211bf0f45c7a84b3e46c4d04a7e6a1c5" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>measure</name></member>
       <member refid="classMR_1_1Features_1a249f3499e27b8268016045230e4f09b8" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>name</name></member>
       <member refid="classMR_1_1Features_1a4052b56ecd91dea859d335f13ebadf71" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>primitiveCircle</name></member>
@@ -454,7 +454,7 @@
       <member refid="classMR_1_1Features_1a8dc3040ce1b6ac32579dd81134683d7d" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>primitiveCylinder</name></member>
       <member refid="classMR_1_1Features_1a4548b09b86b70da76215165ced7db3ec" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>primitiveFromObject</name></member>
       <member refid="classMR_1_1Features_1a5eb72cbbc9a7bab12776295b90f9cf54" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>primitiveFromObjectWithWorldXf</name></member>
-      <member refid="classMR_1_1Features_1a802430d1abc8b74d1c9ac02b7456f45f" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>primitiveToObject</name></member>
+      <member refid="classMR_1_1Features_1a1c5f932dd15cda81055c653726a8f370" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>primitiveToObject</name></member>
       <member refid="classMR_1_1Features_1a67ea8f5df4957a7e21b4b5a7379a2c30" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>toPrimitive</name></member>
       <member refid="classMR_1_1Features_1ae0c4b0a33a2306988bed3afd7b6e6530" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>toPrimitive</name></member>
       <member refid="classMR_1_1Features_1a031e403055c1ed84cd1cc88f501c75b3" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>toPrimitive</name></member>

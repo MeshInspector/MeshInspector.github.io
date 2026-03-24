@@ -1,12 +1,12 @@
 var MRExpandShrink_8h =
 [
-    [ "expand", "MRExpandShrink_8h.html#gab4490c42061cf2506fdb325f9d281f68", null ],
-    [ "expand", "MRExpandShrink_8h.html#ga2d87795b56c83f35a83349cc59d42982", null ],
-    [ "expand", "MRExpandShrink_8h.html#gad2e283ffde3e68d5a41e0a832bb41060", null ],
-    [ "expand", "MRExpandShrink_8h.html#ga9e6ed568f45f7d64f6bda4895ecc3fad", null ],
-    [ "expandFaces", "MRExpandShrink_8h.html#ga89f76419473d96d06c32d80ddb69147c", null ],
-    [ "getBoundaryFaces", "MRExpandShrink_8h.html#gae10a86deae3557a2d54360cfdb691313", null ],
-    [ "shrink", "MRExpandShrink_8h.html#ga2193258ddab048b2b194a3ccb5a9f450", null ],
-    [ "shrink", "MRExpandShrink_8h.html#gaa946ebaaa62a242f328d53fab37011d0", null ],
-    [ "shrinkFaces", "MRExpandShrink_8h.html#gae45bc0307c08b61de1db862894b9affd", null ]
+    [ "MR::expand", "group__GeneralGroup.html#ga0aa76473eb16c1962035c1d6561a08da", null ],
+    [ "MR::expand", "group__GeneralGroup.html#ga2073d173115bc6c1e1b246b9b362ca49", null ],
+    [ "MR::expand", "group__GeneralGroup.html#ga38da58a83ca505962b3a3cfec032624c", null ],
+    [ "MR::expand", "group__GeneralGroup.html#gaaf00d5af302065493352d558616aed40", null ],
+    [ "MR::expandFaces", "group__GeneralGroup.html#ga2af7c5e3014a6aba3c0f81311e0f802d", null ],
+    [ "MR::getBoundaryFaces", "group__GeneralGroup.html#ga7ac9f72415af14442abb77b79c689de8", null ],
+    [ "MR::shrink", "group__GeneralGroup.html#gadb4ce44ee3a1a11bd2fa7d47454adfcf", null ],
+    [ "MR::shrink", "group__GeneralGroup.html#gae01fc08e0a882c54a192fd0bbd202921", null ],
+    [ "MR::shrinkFaces", "group__GeneralGroup.html#gad2b952522c64b1fc82d97cd7ebdba3c7", null ]
 ];

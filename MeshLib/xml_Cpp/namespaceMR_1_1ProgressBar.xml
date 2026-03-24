@@ -1,38 +1,38 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1ProgressBar" kind="namespace" language="C++">
     <compoundname>MR::ProgressBar</compoundname>
     <sectiondef kind="typedef">
       <member refid="group__GeneralGroup_1ga096de280a40715b2c4db2b4ccfeb821d" kind="typedef"><name>TaskWithMainThreadPostProcessing</name></member>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1gaa25a776012fb8df34ee05b32461a2157" kind="function"><name>setup</name></member>
-      <member refid="group__GeneralGroup_1ga3b821f82af9dc3569878e8352c4c333c" kind="function"><name>onFrameEnd</name></member>
-      <member refid="group__GeneralGroup_1gad694eb3ebaed27434a4adc6f85c929e6" kind="function"><name>order</name></member>
-      <member refid="group__GeneralGroup_1ga7d0e6075106a9a6b38e64db60695d5e7" kind="function"><name>orderWithMainThreadPostProcessing</name></member>
-      <member refid="group__GeneralGroup_1ga839e7d4663be090de8691580d7227c12" kind="function"><name>orderWithManualFinish</name></member>
-      <member refid="group__GeneralGroup_1ga17865bb846061f43e17a0ad267ca598a" kind="function"><name>isCanceled</name></member>
-      <member refid="group__GeneralGroup_1gabd6ace0900add6a59ee1539dffc5d961" kind="function"><name>isFinished</name></member>
-      <member refid="group__GeneralGroup_1ga2128baeb61b280fe1a9fce7857599070" kind="function"><name>getProgress</name></member>
-      <member refid="group__GeneralGroup_1ga5e2f2d57df60a5d91c509ce0f4a65d4d" kind="function"><name>getLastOperationTime</name></member>
-      <member refid="group__GeneralGroup_1gab66618d001f8cbce3e0a07b2b4dde0af" kind="function"><name>getLastOperationTitle</name></member>
-      <member refid="group__GeneralGroup_1gaa2bbcde88ff779122f16150fa6de08eb" kind="function"><name>nextTask</name></member>
-      <member refid="group__GeneralGroup_1ga01e2c488a5c5dea28c7203cfbfbfd0f1" kind="function"><name>nextTask</name></member>
-      <member refid="group__GeneralGroup_1gae692760ee83b399be6653c81468172ea" kind="function"><name>setTaskCount</name></member>
-      <member refid="group__GeneralGroup_1ga08670326b3d5427ad65c0583c83ff4ee" kind="function"><name>forceSetTaskName</name></member>
-      <member refid="group__GeneralGroup_1gaa2b9b5f5b7a526d0721702a144530d7f" kind="function"><name>resetTaskName</name></member>
-      <member refid="group__GeneralGroup_1gaf847e27a1f34b2b07a29272ef2fb9e88" kind="function"><name>finish</name></member>
-      <member refid="group__GeneralGroup_1ga88739d4c0d7055aa89a69172041cb925" kind="function"><name>isOrdered</name></member>
-      <member refid="group__GeneralGroup_1ga1abb6f1a99317df23eca0b7dab5ca9d4" kind="function"><name>setProgress</name></member>
-      <member refid="group__GeneralGroup_1ga2682696e53c15a5fbb804436938b94ef" kind="function"><name>callBackSetProgress</name></member>
-      <member refid="group__GeneralGroup_1ga481e32fa95706159e765a2da757f57c0" kind="function"><name>simpleCallBackSetProgress</name></member>
-      <member refid="group__GeneralGroup_1gae694b1e02bb163d667aaca266f472606" kind="function"><name>printTimingTree</name></member>
+      <member refid="group__GeneralGroup_1ga5186ca7deffe05b352f5ce76760bd999" kind="function"><name>setup</name></member>
+      <member refid="group__GeneralGroup_1gaf0e9eec73f02a06a7d4ed2853f75a41c" kind="function"><name>onFrameEnd</name></member>
+      <member refid="group__GeneralGroup_1ga0c353bb9426d6936512a39b4b69fd0bc" kind="function"><name>order</name></member>
+      <member refid="group__GeneralGroup_1gabc41f4ce7ec06c152aee9b10df068278" kind="function"><name>orderWithMainThreadPostProcessing</name></member>
+      <member refid="group__GeneralGroup_1ga55d51874f9ce196ad5b985f88917ae22" kind="function"><name>orderWithManualFinish</name></member>
+      <member refid="group__GeneralGroup_1ga8d9a935714b1d261a95ada1ece3baf5a" kind="function"><name>isCanceled</name></member>
+      <member refid="group__GeneralGroup_1gaa0d4b2b85fa7685f6d9f5e4abcc2f74d" kind="function"><name>isFinished</name></member>
+      <member refid="group__GeneralGroup_1ga6b16a13bd2a7679cdfcf59465f1a802d" kind="function"><name>getProgress</name></member>
+      <member refid="group__GeneralGroup_1ga9e33806c583bef387721668da6199506" kind="function"><name>getLastOperationTime</name></member>
+      <member refid="group__GeneralGroup_1gad03a770ce733bea4960b63fa72572183" kind="function"><name>getLastOperationTitle</name></member>
+      <member refid="group__GeneralGroup_1ga6cbec5212b62c7866fe27975ffebc839" kind="function"><name>nextTask</name></member>
+      <member refid="group__GeneralGroup_1gabed6ad5f0a122b8e9a1ebeb1c9604c5b" kind="function"><name>nextTask</name></member>
+      <member refid="group__GeneralGroup_1gade04240ad8738aaaa546963751589438" kind="function"><name>setTaskCount</name></member>
+      <member refid="group__GeneralGroup_1ga458a52ffd881cc275f59c810026ce8e5" kind="function"><name>forceSetTaskName</name></member>
+      <member refid="group__GeneralGroup_1ga3bd2a911219ea819d7d1efb962e5ecdc" kind="function"><name>resetTaskName</name></member>
+      <member refid="group__GeneralGroup_1ga81fdbdde61709508ade72ce70085436d" kind="function"><name>finish</name></member>
+      <member refid="group__GeneralGroup_1ga032dab5630db09f5505fec6a84b16dcf" kind="function"><name>isOrdered</name></member>
+      <member refid="group__GeneralGroup_1ga7690f1438a78e4425cf267703a4417af" kind="function"><name>setProgress</name></member>
+      <member refid="group__GeneralGroup_1gab11bc5dfefdb4e93bd73731421566acf" kind="function"><name>callBackSetProgress</name></member>
+      <member refid="group__GeneralGroup_1gae0dfc3a5d6c1229334b6a4cb1b0e9d76" kind="function"><name>simpleCallBackSetProgress</name></member>
+      <member refid="group__GeneralGroup_1ga70ad4ef298be59d96e5d1def879b9e93" kind="function"><name>printTimingTree</name></member>
     </sectiondef>
     <briefdescription>
 <para>Utilities to show application progress bar for long operations. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="14" column="1"/>
+    <location file="MRViewer/MRProgressBar.h" line="14" column="1"/>
   </compounddef>
 </doxygen>

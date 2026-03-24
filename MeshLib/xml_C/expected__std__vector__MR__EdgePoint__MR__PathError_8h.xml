@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="expected__std__vector__MR__EdgePoint__MR__PathError_8h" kind="file" language="C++">
+    <compoundname>expected_std_vector_MR_EdgePoint_MR_PathError.h</compoundname>
+    <includes refid="MRSurfacePath_8h" local="no">MRCMesh/MRSurfacePath.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRSurfacePath.h</label>
+        <link refid="MRSurfacePath_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>expected_std_vector_MR_EdgePoint_MR_PathError.h</label>
+        <link refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a0dd9313e6a56b8a88b67f4d73aed5303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_EdgePoint_MR_PathError * MR_expected_std_vector_MR_EdgePoint_MR_PathError_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a85d0636d07f1586d4cd097ac19be27c5" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="23" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="23" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1aae2d68becefe6afdc1c0275b4087cfc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_EdgePoint_MR_PathError * MR_expected_std_vector_MR_EdgePoint_MR_PathError_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a127937ba69dcebe74a0cdd79d27116a8" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a06f8a7ec40af28ad6edd062632acdac7" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a22da74287cdcba2eeb55b88000d77cf4" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="28" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="28" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1ad105509d9bc905caef9763cb116ece9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_EdgePoint_MR_PathError * MR_expected_std_vector_MR_EdgePoint_MR_PathError_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_expected_std_vector_MR_EdgePoint_MR_PathError *other)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a85d0636d07f1586d4cd097ac19be27c5" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="34" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="34" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a62998c1e2040692193fa65cc98548a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_std_vector_MR_EdgePoint_MR_PathError_AssignFromAnother</definition>
+        <argsstring>(MR_expected_std_vector_MR_EdgePoint_MR_PathError *_this, MR_PassBy other_pass_by, MR_expected_std_vector_MR_EdgePoint_MR_PathError *other)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="40" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a85d0636d07f1586d4cd097ac19be27c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy</definition>
+        <argsstring>(const MR_expected_std_vector_MR_EdgePoint_MR_PathError *_this)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a127937ba69dcebe74a0cdd79d27116a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_std_vector_MR_EdgePoint_MR_PathError_DestroyArray</definition>
+        <argsstring>(const MR_expected_std_vector_MR_EdgePoint_MR_PathError *_this)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a22da74287cdcba2eeb55b88000d77cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+        <definition>MRC_API const MR_expected_std_vector_MR_EdgePoint_MR_PathError * MR_expected_std_vector_MR_EdgePoint_MR_PathError_OffsetPtr</definition>
+        <argsstring>(const MR_expected_std_vector_MR_EdgePoint_MR_PathError *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="50" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="50" declcolumn="64"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a06f8a7ec40af28ad6edd062632acdac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_EdgePoint_MR_PathError * MR_expected_std_vector_MR_EdgePoint_MR_PathError_OffsetMutablePtr</definition>
+        <argsstring>(MR_expected_std_vector_MR_EdgePoint_MR_PathError *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="54" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="54" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a015b5882db15a73ecc33550f49c62fae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_expected_std_vector_MR_EdgePoint_MR_PathError_success</definition>
+        <argsstring>(const MR_expected_std_vector_MR_EdgePoint_MR_PathError *_this)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_success</name>
+        <param>
+          <type>const <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance represents success, or false if it represents an error. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="58" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1ab23c44d795b94cedc99a8562bf41f913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_EdgePoint * MR_expected_std_vector_MR_EdgePoint_MR_PathError_value</definition>
+        <argsstring>(const MR_expected_std_vector_MR_EdgePoint_MR_PathError *_this)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_value</name>
+        <param>
+          <type>const <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents success, returns the stored <computeroutput>std::vector&lt;MR::EdgePoint&gt;</computeroutput>. Otherwise null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="63" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="63" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a3e141daaa0f9ba29544b0d6ea9f18e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSurfacePath_8h_1a8bfed38b4b059ca6a135597d4cc8c7db" kindref="member">MR_PathError</ref> *</type>
+        <definition>MRC_API const MR_PathError * MR_expected_std_vector_MR_EdgePoint_MR_PathError_error</definition>
+        <argsstring>(const MR_expected_std_vector_MR_EdgePoint_MR_PathError *_this)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_error</name>
+        <param>
+          <type>const <ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents an error, returns the stored <computeroutput>MR::PathError</computeroutput>. Otherwise null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="68" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="68" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a60fb4d120b29a49a6b509245fd19be1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePoint * MR_expected_std_vector_MR_EdgePoint_MR_PathError_value_mut</definition>
+        <argsstring>(MR_expected_std_vector_MR_EdgePoint_MR_PathError *_this)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_value_mut</name>
+        <param>
+          <type><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents success, returns the stored <computeroutput>std::vector&lt;MR::EdgePoint&gt;</computeroutput>. Otherwise null. This version returns a mutable pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="73" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="73" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a3704882e6a357da383f99848f7270469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfacePath_8h_1a8bfed38b4b059ca6a135597d4cc8c7db" kindref="member">MR_PathError</ref> *</type>
+        <definition>MRC_API MR_PathError * MR_expected_std_vector_MR_EdgePoint_MR_PathError_error_mut</definition>
+        <argsstring>(MR_expected_std_vector_MR_EdgePoint_MR_PathError *_this)</argsstring>
+        <name>MR_expected_std_vector_MR_EdgePoint_MR_PathError_error_mut</name>
+        <param>
+          <type><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents an error, returns the stored <computeroutput>MR::PathError</computeroutput>. Otherwise null. This version returns a mutable pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" line="78" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h" declline="78" declcolumn="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRSurfacePath_8h" kindref="compound">MRCMesh/MRSurfacePath.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a0dd9313e6a56b8a88b67f4d73aed5303" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a0dd9313e6a56b8a88b67f4d73aed5303" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1aae2d68becefe6afdc1c0275b4087cfc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1aae2d68becefe6afdc1c0275b4087cfc7" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1ad105509d9bc905caef9763cb116ece9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1ad105509d9bc905caef9763cb116ece9b" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a62998c1e2040692193fa65cc98548a49" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a62998c1e2040692193fa65cc98548a49" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_AssignFromAnother</ref>(<ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a85d0636d07f1586d4cd097ac19be27c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a85d0636d07f1586d4cd097ac19be27c5" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a127937ba69dcebe74a0cdd79d27116a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a127937ba69dcebe74a0cdd79d27116a8" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a22da74287cdcba2eeb55b88000d77cf4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a22da74287cdcba2eeb55b88000d77cf4" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a06f8a7ec40af28ad6edd062632acdac7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a06f8a7ec40af28ad6edd062632acdac7" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_OffsetMutablePtr</ref>(<ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a015b5882db15a73ecc33550f49c62fae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a015b5882db15a73ecc33550f49c62fae" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_success</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1ab23c44d795b94cedc99a8562bf41f913" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1ab23c44d795b94cedc99a8562bf41f913" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a3e141daaa0f9ba29544b0d6ea9f18e2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a8bfed38b4b059ca6a135597d4cc8c7db" kindref="member">MR_PathError</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a3e141daaa0f9ba29544b0d6ea9f18e2b" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a60fb4d120b29a49a6b509245fd19be1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a60fb4d120b29a49a6b509245fd19be1b" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_value_mut</ref>(<ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a3704882e6a357da383f99848f7270469" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfacePath_8h_1a8bfed38b4b059ca6a135597d4cc8c7db" kindref="member">MR_PathError</ref><sp/>*<ref refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h_1a3704882e6a357da383f99848f7270469" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError_error_mut</ref>(<ref refid="MRSurfacePath_8h_1afca0563c952d60b725c586d6e43a81cb" kindref="member">MR_expected_std_vector_MR_EdgePoint_MR_PathError</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_MR_EdgePoint_MR_PathError.h"/>
+  </compounddef>
+</doxygen>

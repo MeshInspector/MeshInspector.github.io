@@ -97,7 +97,7 @@ var group__HistoryGroup =
       [ "obj", "classMR_1_1ChangeMeshDataAction.html#a302de90b9b9c06b36225e604a21caee4", null ]
     ] ],
     [ "MR::PartialChangeMeshDataAction", "classMR_1_1PartialChangeMeshDataAction.html", [
-      [ "PartialChangeMeshDataAction", "classMR_1_1PartialChangeMeshDataAction.html#a599df9d6ebfab0e276d415c75438e2de", null ],
+      [ "PartialChangeMeshDataAction", "classMR_1_1PartialChangeMeshDataAction.html#a7f842135d75af79f1af51fe884284b07", null ],
       [ "action", "classMR_1_1PartialChangeMeshDataAction.html#a846fb0d5a0466f922b3fd7fca3c1b516", null ],
       [ "heapBytes", "classMR_1_1PartialChangeMeshDataAction.html#a0506227ed109f9b28b74220235172ddc", null ],
       [ "name", "classMR_1_1PartialChangeMeshDataAction.html#a86738a241e4ba1a61752fd26623c61e3", null ]
@@ -218,9 +218,9 @@ var group__HistoryGroup =
         [ "AddObject", "group__GeneralGroup.html#ggae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846", null ],
         [ "RemoveObject", "group__GeneralGroup.html#ggae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9", null ]
       ] ],
-      [ "ChangeSceneAction", "group__GeneralGroup.html#ga1de30bd403835a03cc79234ac5f31280", null ],
-      [ "action", "group__GeneralGroup.html#gabe4134fb5816e6ed341b5b84526fe6c0", null ],
-      [ "heapBytes", "group__GeneralGroup.html#gafc8063a119e30688b93c3e6d04cb77d2", null ],
+      [ "ChangeSceneAction", "group__GeneralGroup.html#gafccce466eee661557631829d7cbaed74", null ],
+      [ "action", "group__GeneralGroup.html#gaac2707f097c02bce4c13152df7635d54", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gacb3a8954c544741766f9e671680be129", null ],
       [ "name", "group__GeneralGroup.html#gad1dec660d1132592b4ea2eb4ad53dda0", null ]
     ] ],
     [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", [
@@ -287,13 +287,13 @@ var group__HistoryGroup =
       [ "obj", "group__GeneralGroup.html#ga7ca462bf6ff993310a54857dc66ba1ff", null ]
     ] ],
     [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", [
-      [ "CombinedHistoryAction", "group__GeneralGroup.html#gafca8a41417b4242303d650c7996ef7f4", null ],
-      [ "action", "group__GeneralGroup.html#ga8f6b646cd5256ca2f6cfdafba7db5d07", null ],
+      [ "CombinedHistoryAction", "group__GeneralGroup.html#ga5fb7a5b843198f03b6ba5100833f5b9f", null ],
+      [ "action", "group__GeneralGroup.html#gad5c4af46eaf9e4c6e88d77f5f7cdf5e6", null ],
       [ "empty", "group__GeneralGroup.html#ga24336720e6ef2e49fe759978a653cd93", null ],
-      [ "filter", "group__GeneralGroup.html#ga25f7969b5daf7f81d5dc52abce1f5850", null ],
+      [ "filter", "group__GeneralGroup.html#ga6c4c522fab61f8a95e539f9b9449a6ee", null ],
       [ "getStack", "group__GeneralGroup.html#gaa47d5898040fc2ee2c67bf0ffee6176c", null ],
       [ "getStack", "group__GeneralGroup.html#ga304820a24e74e6c61b31a203e017bc48", null ],
-      [ "heapBytes", "group__GeneralGroup.html#gadba474c4514ebf52c64eb24ed5b104a1", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga83839aa6c5c2a8896645421552f26edd", null ],
       [ "name", "group__GeneralGroup.html#ga59961c77016991a1c41b6f0c34545ee6", null ]
     ] ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
@@ -342,24 +342,24 @@ var group__HistoryGroup =
         [ "PopAction", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f", null ],
         [ "Filter", "classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a", null ]
       ] ],
-      [ "~HistoryStore", "classMR_1_1HistoryStore.html#a1d11982a306bc53b5ccaddff114cd614", null ],
-      [ "appendAction", "classMR_1_1HistoryStore.html#aa0c8ea0276f02eca0f11f888ecfc39f4", null ],
-      [ "calcUsedMemory", "classMR_1_1HistoryStore.html#ae5153ad77359e03f6105aa8db1293b14", null ],
-      [ "clear", "classMR_1_1HistoryStore.html#aeaca3b28f85fa63c443235a4539cfa25", null ],
-      [ "filterStack", "classMR_1_1HistoryStore.html#a34a9d69ae6d37fc5a5b4155b63d3c100", null ],
+      [ "~HistoryStore", "classMR_1_1HistoryStore.html#afb495fde66aa8b89c80251673cb24725", null ],
+      [ "appendAction", "classMR_1_1HistoryStore.html#a36060c54f1f5175ea61611c5be4330f3", null ],
+      [ "calcUsedMemory", "classMR_1_1HistoryStore.html#a516ec6dea821d2eb440a2f559338882d", null ],
+      [ "clear", "classMR_1_1HistoryStore.html#a937c14bc43ffa66f6483e97c285385d6", null ],
+      [ "filterStack", "classMR_1_1HistoryStore.html#aa00e5762696dd0498eb02bbb5aa7913d", null ],
       [ "getHistoryStack", "classMR_1_1HistoryStore.html#a6c72ca2143023fcef93b3e221d010c6d", null ],
-      [ "getLastAction", "classMR_1_1HistoryStore.html#a9a8500d0fc99954fc5387bad5fe4367e", null ],
-      [ "getLastActionName", "classMR_1_1HistoryStore.html#ae95320267281820e0d4bdb60d052085e", null ],
+      [ "getLastAction", "classMR_1_1HistoryStore.html#a82401db914aac455a150f60d71415abe", null ],
+      [ "getLastActionName", "classMR_1_1HistoryStore.html#ac8c2dbe1a4603881ab217ec42e4fcf24", null ],
       [ "getMemoryLimit", "classMR_1_1HistoryStore.html#a45b3529c2a011c9abd585452550ac145", null ],
-      [ "getNActions", "classMR_1_1HistoryStore.html#a8f09d582234535d00d32ca5ece30c992", null ],
+      [ "getNActions", "classMR_1_1HistoryStore.html#ac187b562e8b00012a4983cb5d8a23859", null ],
       [ "getScopeBlockPtr", "classMR_1_1HistoryStore.html#a44c0ab7153a1b5967525c1cea2fe4e67", null ],
       [ "getStackPointer", "classMR_1_1HistoryStore.html#a68425383420b18f6c04f4405f2e4a1f5", null ],
       [ "isSceneModified", "classMR_1_1HistoryStore.html#af2142010702571f062becfaf361b015c", null ],
-      [ "redo", "classMR_1_1HistoryStore.html#a5c5f420102ae277252e92dea8b27fa2f", null ],
+      [ "redo", "classMR_1_1HistoryStore.html#a3a9b5815441908defc54d37b0b0c10f8", null ],
       [ "setMemoryLimit", "classMR_1_1HistoryStore.html#a48c223a0850725e085ef49953af02cd1", null ],
       [ "setSavedState", "classMR_1_1HistoryStore.html#ae49bd57fda5c9d3b6005f942e9ee7f45", null ],
       [ "setScopeBlockPtr", "classMR_1_1HistoryStore.html#afd26beea23b71e238921b37d2baa32ad", null ],
-      [ "undo", "classMR_1_1HistoryStore.html#a0bce5005471a434712469838de3edcd7", null ],
+      [ "undo", "classMR_1_1HistoryStore.html#abe14d6ec7d22f82214bf5148fdcb5c4f", null ],
       [ "undoRedoInProgress", "classMR_1_1HistoryStore.html#a759c9c7fe846fe0738cf8846bfb0cbad", null ],
       [ "changedSignal", "classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee", null ]
     ] ],

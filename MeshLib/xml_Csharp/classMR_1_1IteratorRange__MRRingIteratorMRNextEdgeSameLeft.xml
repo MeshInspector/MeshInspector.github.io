@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameLeft" kind="class" language="C#" prot="public">
     <compoundname>MR::IteratorRange_MRRingIteratorMRNextEdgeSameLeft</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft</basecompoundref>
@@ -69,7 +69,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;&gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&amp;amp;gt;&amp;amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,7 +88,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;&gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&amp;amp;gt;&amp;amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -111,7 +111,7 @@
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;&gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&amp;amp;gt;&amp;amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IteratorRange&amp;amp;lt;MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,22 +140,13 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&amp;amp;lt;MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="5">
-        <label>IEnumerable&lt; MR.EdgeId &gt;</label>
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.IteratorRange_MRRingIteratorMRNextEdgeSameLeft</label>
@@ -163,25 +154,25 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="5">
-        <label>IEnumerable&lt; MR.EdgeId &gt;</label>
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.IteratorRange_MRRingIteratorMRNextEdgeSameLeft</label>
@@ -189,11 +180,20 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="431" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="432" bodyend="509"/>

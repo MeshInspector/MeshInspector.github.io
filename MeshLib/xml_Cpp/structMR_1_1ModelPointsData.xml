@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ModelPointsData" kind="struct" language="C++" prot="public">
     <compoundname>MR::ModelPointsData</compoundname>
-    <includes refid="MRGridSampling_8h" local="no">MRGridSampling.h</includes>
+    <includes refid="MRGridSampling_8h" local="no">MRMesh/MRGridSampling.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga68f2dced6aad70a6ad6e70cc610e1dd0" kind="variable"><name>points</name></member>
       <member refid="group__GeneralGroup_1ga28af87bed47360152c4d30cff182595b" kind="variable"><name>validPoints</name></member>
@@ -14,7 +14,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSampling.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSampling.h" bodystart="31" bodyend="40"/>
+    <location file="MRMesh/MRGridSampling.h" line="30" column="1" bodyfile="MRMesh/MRGridSampling.h" bodystart="31" bodyend="40"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab1ca6825ddb7fe9e1937c74d1bed6625" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>fakeObjId</name></member>
       <member refid="group__GeneralGroup_1ga68f2dced6aad70a6ad6e70cc610e1dd0" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>points</name></member>

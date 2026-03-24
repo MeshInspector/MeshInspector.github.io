@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ShortcutManager_1_1ShortcutCommand" kind="struct" language="C++" prot="public">
     <compoundname>MR::ShortcutManager::ShortcutCommand</compoundname>
-    <includes refid="MRShortcutManager_8h" local="no">MRShortcutManager.h</includes>
+    <includes refid="MRShortcutManager_8h" local="no">MRViewer/MRShortcutManager.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gac999d8643aea2ec7e9ddc3a4adc4daf6" kind="variable"><name>category</name></member>
       <member refid="group__GeneralGroup_1ga78c61f7a4744f14f5475cca9a4610115" kind="variable"><name>name</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="54" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="55" bodyend="60"/>
+    <location file="MRViewer/MRShortcutManager.h" line="54" column="5" bodyfile="MRViewer/MRShortcutManager.h" bodystart="55" bodyend="60"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga74e7c30555d8435657c7465809b44a6a" prot="public" virt="non-virtual"><scope>MR::ShortcutManager::ShortcutCommand</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac999d8643aea2ec7e9ddc3a4adc4daf6" prot="public" virt="non-virtual"><scope>MR::ShortcutManager::ShortcutCommand</scope><name>category</name></member>

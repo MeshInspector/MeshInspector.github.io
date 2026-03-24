@@ -10,6 +10,6 @@ var classMR_1_1FindOverhangsSettings =
     [ "hops", "classMR_1_1FindOverhangsSettings.html#af8d9bd5d2b40e20c1e1b0db3e40cc7b1", null ],
     [ "layerHeight", "classMR_1_1FindOverhangsSettings.html#a1a866ba24f0327bb984c53fb8c78611f", null ],
     [ "maxOverhangDistance", "classMR_1_1FindOverhangsSettings.html#aa59a13d235fa5ab20d2bc64563534ea6", null ],
-    [ "progressCb", "classMR_1_1FindOverhangsSettings.html#a683197eda04fd727ec902df147c6410b", null ],
+    [ "progressCb", "classMR_1_1FindOverhangsSettings.html#a200b08baffa29e74765bb179c2369e17", null ],
     [ "xf", "classMR_1_1FindOverhangsSettings.html#a261030e974afdf4719be9ca9a1bae8e8", null ]
 ];

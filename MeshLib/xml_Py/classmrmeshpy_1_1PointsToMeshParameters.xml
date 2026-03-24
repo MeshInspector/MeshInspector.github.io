@@ -1,8 +1,53 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointsToMeshParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointsToMeshParameters</compoundname>
     <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a7e8bcbbcc47cd03247421a9719e449a0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_canCreateVolume</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_canCreateVolume</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_canCreateVolume</qualifiedname>
+        <initializer>=  136</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a4bf2462a8b31e8b68b3d26b5303e7d36" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_createVolumeCallback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_createVolumeCallback</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_createVolumeCallback</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46678" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a5e41dd032ba22a52930dc3286f7d1de2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_createVolumeCallbackByParts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_createVolumeCallbackByParts</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_createVolumeCallbackByParts</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46679" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a9bc0ebb538d7df19a9900905e346ad47" prot="protected" static="yes" mutable="no">
         <type>typing</type>
         <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_invSigmaModifier</definition>
@@ -16,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45733" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46680" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a6fb1ec885e7f0c17df1f687cba2b09ca" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -31,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45734" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46681" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1adccffbe49ec55cc30fdf48403863da71" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -46,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45735" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46682" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a4e3456c19053dab1b24fa7d6657f3731" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -61,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45736" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46683" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1afa5e78ae8246a62fbf30bd3c281c8184" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -76,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45737" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46684" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1aabf6fb858211bf748ddf3844b1bccd82" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -91,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45738" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46685" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a686af4ee1802e0d16fb86bdfbe8e1e4b" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -106,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45739" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46686" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1ac7d0df4351049db96b881f65b88eadb3" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -121,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45740" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46687" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -145,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45743" bodyend="45744"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46690" bodyend="46691"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a194d2da85c6d7a620b49a880f8679a22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref></type>
@@ -167,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45747" bodyend="45748"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46694" bodyend="46695"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a194d2da85c6d7a620b49a880f8679a22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref></type>
@@ -189,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45751" bodyend="45752"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46698" bodyend="46699"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -209,7 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45754" bodyend="45755"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46701" bodyend="46702"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1abefb38c66f6ee20b7d74200caddd32d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -233,12 +278,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45757" bodyend="45760"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46704" bodyend="46707"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1aa2afb530e6d028d914906fd4d0a19bee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a1d4aea8f398b0b7cc3538a07a63254c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.PointsToMeshParameters.__init__</definition>
-        <argsstring>(self, float sigma, float minWeight, float invSigmaModifier, bool sqrtAngleWeight, float voxelSize, VertColors ptColors, VertColors vColors, func_bool_from_float progress)</argsstring>
+        <argsstring>(self, float sigma, float minWeight, float invSigmaModifier, bool sqrtAngleWeight, float voxelSize, VertColors ptColors, VertColors vColors, func_bool_from_float progress, func_tl_expected_void_std_string_from_PointCloud_PointsToDistanceVolumeParams_std_function_tl_expected_void_std_string_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_const_int_int createVolumeCallbackByParts, func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams createVolumeCallback, func_bool_from_PointCloud_PointsToDistanceVolumeParams canCreateVolume)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PointsToMeshParameters.__init__</qualifiedname>
         <param>
@@ -277,6 +322,18 @@
           <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
           <declname>progress</declname>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501" kindref="compound">func_tl_expected_void_std_string_from_PointCloud_PointsToDistanceVolumeParams_std_function_tl_expected_void_std_string_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_const_int_int</ref></type>
+          <declname>createVolumeCallbackByParts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639" kindref="compound">func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</ref></type>
+          <declname>createVolumeCallback</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams" kindref="compound">func_bool_from_PointCloud_PointsToDistanceVolumeParams</ref></type>
+          <declname>canCreateVolume</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -285,7 +342,134 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45762" bodyend="45765"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46709" bodyend="46712"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a6a7fd70f1b0e56774116c552b5fc1b12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams" kindref="compound">func_bool_from_PointCloud_PointsToDistanceVolumeParams</ref></type>
+        <definition> func_bool_from_PointCloud_PointsToDistanceVolumeParams mrmeshpy.PointsToMeshParameters.canCreateVolume</definition>
+        <argsstring>(self)</argsstring>
+        <name>canCreateVolume</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.canCreateVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Callback for checking whether it&apos;s possible to use the volume creation function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46714" bodyend="46717"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a18708b5ff25ff9285711e25943370779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.canCreateVolume</definition>
+        <argsstring>(self, func_bool_from_PointCloud_PointsToDistanceVolumeParams arg1)</argsstring>
+        <name>canCreateVolume</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.canCreateVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams" kindref="compound">func_bool_from_PointCloud_PointsToDistanceVolumeParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46719" bodyend="46720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a445a7d8a97b552d653c8002ca5313df4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639" kindref="compound">func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</ref></type>
+        <definition> func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams mrmeshpy.PointsToMeshParameters.createVolumeCallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>createVolumeCallback</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.createVolumeCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46722" bodyend="46725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1ad5c1a8acdc47b09ac0c92b6ccfce463a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.createVolumeCallback</definition>
+        <argsstring>(self, func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams arg1)</argsstring>
+        <name>createVolumeCallback</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.createVolumeCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639" kindref="compound">func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46727" bodyend="46728"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a864584ab867b6b7963c88321d6df86f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501" kindref="compound">func_tl_expected_void_std_string_from_PointCloud_PointsToDistanceVolumeParams_std_function_tl_expected_void_std_string_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_const_int_int</ref></type>
+        <definition> func_tl_expected_void_std_string_from_PointCloud_PointsToDistanceVolumeParams_std_function_tl_expected_void_std_string_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_const_int_int mrmeshpy.PointsToMeshParameters.createVolumeCallbackByParts</definition>
+        <argsstring>(self)</argsstring>
+        <name>createVolumeCallbackByParts</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.createVolumeCallbackByParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Callback for volume creation by parts. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function
+This callback takes precedence over createVolumeCallback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46730" bodyend="46734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a66848a68f008e1aca4b0f32a3c5a16bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.createVolumeCallbackByParts</definition>
+        <argsstring>(self, func_tl_expected_void_std_string_from_PointCloud_PointsToDistanceVolumeParams_std_function_tl_expected_void_std_string_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_const_int_int arg1)</argsstring>
+        <name>createVolumeCallbackByParts</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.createVolumeCallbackByParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501" kindref="compound">func_tl_expected_void_std_string_from_PointCloud_PointsToDistanceVolumeParams_std_function_tl_expected_void_std_string_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_const_int_int</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46736" bodyend="46737"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a6248b0fa8dc90a8237c27b6d0bed1535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -306,7 +490,7 @@ values: (0;inf)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45767" bodyend="45771"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46739" bodyend="46743"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a7a60f59480d25421817868ca0313bd48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -328,7 +512,7 @@ values: (0;inf)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45773" bodyend="45774"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46745" bodyend="46746"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1aed14ef4130d1188cb31d2c2fd103b0d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -348,7 +532,7 @@ values: (0;inf)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45776" bodyend="45779"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46748" bodyend="46751"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1ad7bfdc0ea43fd7af3fce90b7927a31ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -370,7 +554,7 @@ values: (0;inf)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45781" bodyend="45782"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46753" bodyend="46754"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1af62032a5650ece11b6e5caec73ebc931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
@@ -390,7 +574,7 @@ values: (0;inf)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45784" bodyend="45787"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46756" bodyend="46759"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1af4bc95eb4e477741fad621fa48d2c211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -412,7 +596,7 @@ values: (0;inf)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45789" bodyend="45790"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46761" bodyend="46762"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1ac577765f6f059a8f6063ed55fda7655f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
@@ -432,7 +616,7 @@ values: (0;inf)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45792" bodyend="45795"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46764" bodyend="46767"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a519b18c35214589756f21a50559eb21e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -454,7 +638,7 @@ values: (0;inf)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45797" bodyend="45798"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46769" bodyend="46770"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a0c13ded96d73eb82a6b4e05b1b5e3746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -475,7 +659,7 @@ the maximal influence distance is 3*sigma; beyond that distance the influence is
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45800" bodyend="45804"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46772" bodyend="46776"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a64be4241fa90a4b92be85e7824f19521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -497,7 +681,7 @@ the maximal influence distance is 3*sigma; beyond that distance the influence is
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45806" bodyend="45807"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46778" bodyend="46779"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1af26a9a57c2c4437d59d17d909f963910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -518,7 +702,7 @@ if enabled - increasing as dot product^(0.5) (with respect to its sign)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45809" bodyend="45813"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46781" bodyend="46785"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1ab5b3d7aebdc648fc1426557b64ec454d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -540,7 +724,7 @@ if enabled - increasing as dot product^(0.5) (with respect to its sign)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45815" bodyend="45816"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46787" bodyend="46788"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a94397601d0a17461593aa86a44b693af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
@@ -560,7 +744,7 @@ if enabled - increasing as dot product^(0.5) (with respect to its sign)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45818" bodyend="45821"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46790" bodyend="46793"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a0613b95e78f37f47258e1afcf697fb45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -582,7 +766,7 @@ if enabled - increasing as dot product^(0.5) (with respect to its sign)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45823" bodyend="45824"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46795" bodyend="46796"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1aaaad0c4d8e268e5eec9d20a26d911514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -603,7 +787,7 @@ The user is responsible for setting some positive value here
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45826" bodyend="45830"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46798" bodyend="46802"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1abb067a143a69e555be0b1b721d16ea9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -625,7 +809,7 @@ The user is responsible for setting some positive value here
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45832" bodyend="45833"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46804" bodyend="46805"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -634,31 +818,15 @@ The user is responsible for setting some positive value here
 <para><verbatim>Generated from:  MR::PointsToMeshParameters
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PointsToMeshParameters</label>
-        <link refid="classmrmeshpy_1_1PointsToMeshParameters"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_invSigmaModifier</edgelabel>
-          <edgelabel>_offsetof_minWeight</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-          <edgelabel>_offsetof_ptColors</edgelabel>
-          <edgelabel>_offsetof_sigma</edgelabel>
-          <edgelabel>_offsetof_sqrtAngleWeight</edgelabel>
-          <edgelabel>_offsetof_vColors</edgelabel>
-          <edgelabel>_offsetof_voxelSize</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45729" bodyend="45833"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46673" bodyend="46805"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1aa0b4f1e75dc3bdba4798a5246251d6dc" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ac8719faad46d177c5c0b8cca1af6531e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1abefb38c66f6ee20b7d74200caddd32d0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1aa2afb530e6d028d914906fd4d0a19bee" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a1d4aea8f398b0b7cc3538a07a63254c1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a7e8bcbbcc47cd03247421a9719e449a0" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_canCreateVolume</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a4bf2462a8b31e8b68b3d26b5303e7d36" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_createVolumeCallback</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a5e41dd032ba22a52930dc3286f7d1de2" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_createVolumeCallbackByParts</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a9bc0ebb538d7df19a9900905e346ad47" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_invSigmaModifier</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a6fb1ec885e7f0c17df1f687cba2b09ca" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_minWeight</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1adccffbe49ec55cc30fdf48403863da71" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_progress</name></member>
@@ -667,6 +835,12 @@ The user is responsible for setting some positive value here
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1aabf6fb858211bf748ddf3844b1bccd82" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_sqrtAngleWeight</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a686af4ee1802e0d16fb86bdfbe8e1e4b" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_vColors</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ac7d0df4351049db96b881f65b88eadb3" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a6a7fd70f1b0e56774116c552b5fc1b12" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>canCreateVolume</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a18708b5ff25ff9285711e25943370779" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>canCreateVolume</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a445a7d8a97b552d653c8002ca5313df4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>createVolumeCallback</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ad5c1a8acdc47b09ac0c92b6ccfce463a" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>createVolumeCallback</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a864584ab867b6b7963c88321d6df86f2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>createVolumeCallbackByParts</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a66848a68f008e1aca4b0f32a3c5a16bd" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>createVolumeCallbackByParts</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a6248b0fa8dc90a8237c27b6d0bed1535" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>invSigmaModifier</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a7a60f59480d25421817868ca0313bd48" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>invSigmaModifier</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshParameters_1aed14ef4130d1188cb31d2c2fd103b0d8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>minWeight</name></member>

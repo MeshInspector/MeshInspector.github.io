@@ -1,9 +1,5 @@
 var MRPartMapping_8h =
 [
-    [ "MR_MapOrHashMap_MR_FaceId_MR_FaceId", "MRPartMapping_8h.html#ac3f1b433f2be3aac9d0560c02e8c18ff", null ],
-    [ "MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId", "MRPartMapping_8h.html#ae760fe9ce6adc57f4029ea7cdd2a8006", null ],
-    [ "MR_MapOrHashMap_MR_VertId_MR_VertId", "MRPartMapping_8h.html#acd6bd095c22453249b40b705a980d74c", null ],
-    [ "MR_PartMapping", "MRPartMapping_8h.html#ac262f87c0239d73aafc464289f6eb02e", null ],
     [ "MR_PartMapping_AssignFromAnother", "MRPartMapping_8h.html#a7cdc739ad8ecd75acc27f2438f169b98", null ],
     [ "MR_PartMapping_clear", "MRPartMapping_8h.html#a983810b0a363dd13ede3ce5a1a61acfb", null ],
     [ "MR_PartMapping_ConstructFrom", "MRPartMapping_8h.html#ac2df721db5c90475502651136362afc2", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeTextureAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeTextureAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeTextureAction</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="967" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="967" bodyend="972"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="749" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="749" bodyend="756"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1afd5d3378fd36c29f4d895069124faaf1" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="975" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="975" bodyend="982"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="759" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="759" bodyend="768"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="984" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="984" bodyend="984"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1a143533f4a06ea41a3b1f35c68eebacbb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ChangeTextureAction.ChangeTextureAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ChangeTextureAction</name>
-        <qualifiedname>MR.ChangeTextureAction.ChangeTextureAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="986" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="986" bodyend="986"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="770" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="770" bodyend="770"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -99,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeTextureAction.ChangeTextureAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeTextureAction_1a599fadaa33df41a2ee6b0f9e6b1155ba" kindref="member">MR.ChangeTextureAction.ChangeTextureAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="991" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="991" bodyend="997"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="775" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="775" bodyend="781"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1a0e290867d218258db14f38221136a7b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -118,13 +96,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeTextureAction.ChangeTextureAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeTextureAction_1a599fadaa33df41a2ee6b0f9e6b1155ba" kindref="member">MR.ChangeTextureAction.ChangeTextureAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="1002" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="1002" bodyend="1002"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="786" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="786" bodyend="786"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1a3114ee4bcddafde38606aa3dd94eb6ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -137,18 +115,18 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeTextureAction.ChangeTextureAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeTextureAction_1a599fadaa33df41a2ee6b0f9e6b1155ba" kindref="member">MR.ChangeTextureAction.ChangeTextureAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="1007" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="1007" bodyend="1007"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="791" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="791" bodyend="791"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1ab76415f665557ec89016f2a9e4529892" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1a2b6fd40e60d4ae3faa04bc732a96caf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeTextureAction.ChangeTextureAction</definition>
-        <argsstring>(string name, MR.Const_ObjectMeshHolder obj)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMeshHolder obj)</argsstring>
         <name>ChangeTextureAction</name>
         <qualifiedname>MR.ChangeTextureAction.ChangeTextureAction</qualifiedname>
         <param>
@@ -156,22 +134,22 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectMeshHolder</type>
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s textures before making any changes in them Generated from constructor <computeroutput>MR.ChangeTextureAction.ChangeTextureAction</computeroutput>. </para>
+<para>use this constructor to remember object's textures before making any changes in them Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeTextureAction_1a599fadaa33df41a2ee6b0f9e6b1155ba" kindref="member">MR.ChangeTextureAction.ChangeTextureAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="1013" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="1013" bodyend="1023"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="797" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="797" bodyend="807"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1a7ccb8400afe8d62f0d0c956b10b2d172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1a96c5401aa6804c4e3fbfe8ab02b914f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeTextureAction.ChangeTextureAction</definition>
-        <argsstring>(string name, MR.Const_ObjectMeshHolder obj, MR.Misc._Moved&lt; MR.Vector_MRMeshTexture_MRTextureId &gt; newTextures)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMeshHolder obj, MR.Misc._Moved&lt; MR.Vector_MRMeshTexture_MRTextureId &gt; newTextures)</argsstring>
         <name>ChangeTextureAction</name>
         <qualifiedname>MR.ChangeTextureAction.ChangeTextureAction</qualifiedname>
         <param>
@@ -179,7 +157,7 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectMeshHolder</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -187,13 +165,13 @@
           <declname>newTextures</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s textures and immediate set new value Generated from constructor <computeroutput>MR.ChangeTextureAction.ChangeTextureAction</computeroutput>. </para>
+<para>use this constructor to remember object's textures and immediate set new value Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeTextureAction_1a599fadaa33df41a2ee6b0f9e6b1155ba" kindref="member">MR.ChangeTextureAction.ChangeTextureAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="1029" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="1029" bodyend="1040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="813" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="813" bodyend="824"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1a9e3b1448167963f74ef5d13c2a8c06a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ChangeTextureAction" kindref="compound">MR.ChangeTextureAction</ref></type>
@@ -206,13 +184,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeTextureAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeTextureAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="1045" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="1045" bodyend="1052"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="829" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="829" bodyend="836"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeTextureAction_1affdfa1421d10ad05ced49aef622e82dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -231,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="1057" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="1057" bodyend="1062"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="841" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="841" bodyend="846"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -240,58 +218,57 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeTextureAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeTextureAction</label>
         <link refid="classMR_1_1ChangeTextureAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeTextureAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeTextureAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeTextureAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeTextureAction</label>
         <link refid="classMR_1_1ChangeTextureAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeTextureAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeTextureAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="964" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="965" bodyend="1063"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="746" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="747" bodyend="847"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeTextureAction_1affdfa1421d10ad05ced49aef622e82dd" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangeTextureAction_1a9e3b1448167963f74ef5d13c2a8c06a0" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeTextureAction_1a13ef037edc8511958634120ec7be7e79" prot="package" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
-      <member refid="classMR_1_1ChangeTextureAction_1a143533f4a06ea41a3b1f35c68eebacbb" prot="package" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
       <member refid="classMR_1_1ChangeTextureAction_1a599fadaa33df41a2ee6b0f9e6b1155ba" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
       <member refid="classMR_1_1ChangeTextureAction_1a0e290867d218258db14f38221136a7b4" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
       <member refid="classMR_1_1ChangeTextureAction_1a3114ee4bcddafde38606aa3dd94eb6ed" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
-      <member refid="classMR_1_1ChangeTextureAction_1ab76415f665557ec89016f2a9e4529892" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
-      <member refid="classMR_1_1ChangeTextureAction_1a7ccb8400afe8d62f0d0c956b10b2d172" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
+      <member refid="classMR_1_1ChangeTextureAction_1a2b6fd40e60d4ae3faa04bc732a96caf5" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
+      <member refid="classMR_1_1ChangeTextureAction_1a96c5401aa6804c4e3fbfe8ab02b914f2" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>ChangeTextureAction</name></member>
       <member refid="classMR_1_1ChangeTextureAction_1afd5d3378fd36c29f4d895069124faaf1" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>operator ChangeTextureAction?</name></member>
       <member refid="classMR_1_1ChangeTextureAction_1ad780b3e495089440bee7ca92ce90ad6c" prot="public" virt="non-virtual"><scope>MR::ChangeTextureAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>

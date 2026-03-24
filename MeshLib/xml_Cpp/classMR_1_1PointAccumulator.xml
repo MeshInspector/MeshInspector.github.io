@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointAccumulator" kind="class" language="C++" prot="public">
     <compoundname>MR::PointAccumulator</compoundname>
-    <includes refid="MRBestFit_8h" local="no">MRBestFit.h</includes>
+    <includes refid="MRBestFit_8h" local="no">MRMesh/MRBestFit.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1PointAccumulator_1abfaa29e4f3b87720650d4ee0fc302d77" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="51" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="51" bodyend="-1"/>
+        <location file="MRMesh/MRBestFit.h" line="51" column="12" bodyfile="MRMesh/MRBestFit.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointAccumulator_1a286e72e2fbf178260955338124fb3416" prot="private" static="no" mutable="no">
         <type>Vector3d</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="52" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="52" bodyend="-1"/>
+        <location file="MRMesh/MRBestFit.h" line="52" column="14" bodyfile="MRMesh/MRBestFit.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointAccumulator_1acd62ec0beec83c80c15a8d238fcdb86c" prot="private" static="no" mutable="no">
         <type>SymMatrix3d</type>
@@ -45,13 +45,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="53" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="53" bodyend="-1"/>
+        <location file="MRMesh/MRBestFit.h" line="53" column="17" bodyfile="MRMesh/MRBestFit.h" bodystart="53" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1af304abbd279d3d26bfdfc095bf7f3eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PointAccumulator::addPoint</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a2f5614b00ab9f0a3e993de5c7762aed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointAccumulator::addPoint</definition>
         <argsstring>(const Vector3d &amp;pt)</argsstring>
         <name>addPoint</name>
         <qualifiedname>MR::PointAccumulator::addPoint</qualifiedname>
@@ -65,11 +65,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="22" column="21"/>
+        <location file="MRMesh/MRBestFit.h" line="22" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a13bcaab870ceaab70ec6b3b7d4470185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PointAccumulator::addPoint</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1abc82278b6dd69adc4db77b65f21cb83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointAccumulator::addPoint</definition>
         <argsstring>(const Vector3d &amp;pt, double weight)</argsstring>
         <name>addPoint</name>
         <qualifiedname>MR::PointAccumulator::addPoint</qualifiedname>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="23" column="21"/>
+        <location file="MRMesh/MRBestFit.h" line="23" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointAccumulator_1a629602337391d01befbec1b5ee3fa00c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="24" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="24" bodyend="24"/>
+        <location file="MRMesh/MRBestFit.h" line="24" column="10" bodyfile="MRMesh/MRBestFit.h" bodystart="24" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointAccumulator_1a33e732c4dbfd1cb17c360cbc838f461c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -127,11 +127,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="25" bodyend="25"/>
+        <location file="MRMesh/MRBestFit.h" line="25" column="10" bodyfile="MRMesh/MRBestFit.h" bodystart="25" bodyend="25"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a2101603a476d7949c907898b3513fc27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Plane3d</type>
-        <definition>MRMESH_API Plane3d MR::PointAccumulator::getBestPlane</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1afbfb79b9d6992c61be84d923573de937" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Plane3d</type>
+        <definition>Plane3d MR::PointAccumulator::getBestPlane</definition>
         <argsstring>() const</argsstring>
         <name>getBestPlane</name>
         <qualifiedname>MR::PointAccumulator::getBestPlane</qualifiedname>
@@ -142,10 +142,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="28" column="24"/>
+        <location file="MRMesh/MRBestFit.h" line="28" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointAccumulator_1abee9287110bb3322c9323fa6a5898906" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>Plane3f</type>
+        <type><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref></type>
         <definition>Plane3f MR::PointAccumulator::getBestPlanef</definition>
         <argsstring>() const</argsstring>
         <name>getBestPlanef</name>
@@ -156,11 +156,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="29" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="29" bodyend="29"/>
+        <location file="MRMesh/MRBestFit.h" line="29" column="13" bodyfile="MRMesh/MRBestFit.h" bodystart="29" bodyend="29"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a15a8cf1a4ee07c5e665631a49d310b88" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Line3d</type>
-        <definition>MRMESH_API Line3d MR::PointAccumulator::getBestLine</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a9b02d2de72ea2ff4e66cff4c8f79c86c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Line3d</type>
+        <definition>Line3d MR::PointAccumulator::getBestLine</definition>
         <argsstring>() const</argsstring>
         <name>getBestLine</name>
         <qualifiedname>MR::PointAccumulator::getBestLine</qualifiedname>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="31" column="23"/>
+        <location file="MRMesh/MRBestFit.h" line="31" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointAccumulator_1aedf74106b093871a3f5f643ddebeee7f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Line3f</type>
@@ -185,11 +185,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="32" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="32" bodyend="32"/>
+        <location file="MRMesh/MRBestFit.h" line="32" column="12" bodyfile="MRMesh/MRBestFit.h" bodystart="32" bodyend="32"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a9a8db7a86d2e4229d2ff0992aedf7b0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::PointAccumulator::getCenteredCovarianceEigen</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1aad17a38d5f453335fb9084a5ef19acc7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::PointAccumulator::getCenteredCovarianceEigen</definition>
         <argsstring>(Vector3d &amp;centroid, Matrix3d &amp;eigenvectors, Vector3d &amp;eigenvalues) const</argsstring>
         <name>getCenteredCovarianceEigen</name>
         <qualifiedname>MR::PointAccumulator::getCenteredCovarianceEigen</qualifiedname>
@@ -212,11 +212,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="35" column="21"/>
+        <location file="MRMesh/MRBestFit.h" line="35" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1af42457c6f466fbc3a6b45fbae732a846" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::PointAccumulator::getCenteredCovarianceEigen</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1abde5585425cd0f74dd93a2a1cfb67169" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::PointAccumulator::getCenteredCovarianceEigen</definition>
         <argsstring>(Vector3f &amp;centroid, Matrix3f &amp;eigenvectors, Vector3f &amp;eigenvalues) const</argsstring>
         <name>getCenteredCovarianceEigen</name>
         <qualifiedname>MR::PointAccumulator::getCenteredCovarianceEigen</qualifiedname>
@@ -238,11 +238,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="36" column="21"/>
+        <location file="MRMesh/MRBestFit.h" line="36" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1aac25c8343c28176214d2be06601fe2fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API AffineXf3d</type>
-        <definition>MRMESH_API AffineXf3d MR::PointAccumulator::getBasicXf</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a76f014e7c1b047ba9484d985a82af311" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>AffineXf3d</type>
+        <definition>AffineXf3d MR::PointAccumulator::getBasicXf</definition>
         <argsstring>() const</argsstring>
         <name>getBasicXf</name>
         <qualifiedname>MR::PointAccumulator::getBasicXf</qualifiedname>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="40" column="27"/>
+        <location file="MRMesh/MRBestFit.h" line="40" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointAccumulator_1a3bbfe3a2dafb965a1e58b1ebede9744f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3f</type>
@@ -267,11 +267,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="41" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="41" bodyend="41"/>
+        <location file="MRMesh/MRBestFit.h" line="41" column="16" bodyfile="MRMesh/MRBestFit.h" bodystart="41" bodyend="41"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a76177fec5a1a4e3d0af890a84f1df551" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::array&lt; AffineXf3d, 4 &gt;</type>
-        <definition>MRMESH_API std::array&lt; AffineXf3d, 4 &gt; MR::PointAccumulator::get4BasicXfs</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1ae7e14ea378a05b402a29ac117a0fde6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; AffineXf3d, 4 &gt;</type>
+        <definition>std::array&lt; AffineXf3d, 4 &gt; MR::PointAccumulator::get4BasicXfs</definition>
         <argsstring>() const</argsstring>
         <name>get4BasicXfs</name>
         <qualifiedname>MR::PointAccumulator::get4BasicXfs</qualifiedname>
@@ -282,11 +282,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="45" column="27"/>
+        <location file="MRMesh/MRBestFit.h" line="45" column="17"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointAccumulator_1aed6620e82b0ba20e993f8230d9f2e383" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::array&lt; AffineXf3f, 4 &gt;</type>
-        <definition>MRMESH_API std::array&lt; AffineXf3f, 4 &gt; MR::PointAccumulator::get4BasicXfs3f</definition>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a1796a9a708940c023b28e492508dbc64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; AffineXf3f, 4 &gt;</type>
+        <definition>std::array&lt; AffineXf3f, 4 &gt; MR::PointAccumulator::get4BasicXfs3f</definition>
         <argsstring>() const</argsstring>
         <name>get4BasicXfs3f</name>
         <qualifiedname>MR::PointAccumulator::get4BasicXfs3f</qualifiedname>
@@ -296,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="46" column="27"/>
+        <location file="MRMesh/MRBestFit.h" line="46" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointAccumulator_1a7514ac6107ebe4077c548746882a7d2d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="48" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="48" bodyend="48"/>
+        <location file="MRMesh/MRBestFit.h" line="48" column="10" bodyfile="MRMesh/MRBestFit.h" bodystart="48" bodyend="48"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -318,22 +318,22 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="20" bodyend="54"/>
+    <location file="MRMesh/MRBestFit.h" line="19" column="1" bodyfile="MRMesh/MRBestFit.h" bodystart="20" bodyend="54"/>
     <listofallmembers>
-      <member refid="classMR_1_1PointAccumulator_1af304abbd279d3d26bfdfc095bf7f3eeb" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
-      <member refid="classMR_1_1PointAccumulator_1a13bcaab870ceaab70ec6b3b7d4470185" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a2f5614b00ab9f0a3e993de5c7762aed4" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1PointAccumulator_1abc82278b6dd69adc4db77b65f21cb83b" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
       <member refid="classMR_1_1PointAccumulator_1a629602337391d01befbec1b5ee3fa00c" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
       <member refid="classMR_1_1PointAccumulator_1a33e732c4dbfd1cb17c360cbc838f461c" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
-      <member refid="classMR_1_1PointAccumulator_1a76177fec5a1a4e3d0af890a84f1df551" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>get4BasicXfs</name></member>
-      <member refid="classMR_1_1PointAccumulator_1aed6620e82b0ba20e993f8230d9f2e383" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>get4BasicXfs3f</name></member>
-      <member refid="classMR_1_1PointAccumulator_1aac25c8343c28176214d2be06601fe2fd" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBasicXf</name></member>
+      <member refid="classMR_1_1PointAccumulator_1ae7e14ea378a05b402a29ac117a0fde6a" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>get4BasicXfs</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a1796a9a708940c023b28e492508dbc64" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>get4BasicXfs3f</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a76f014e7c1b047ba9484d985a82af311" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBasicXf</name></member>
       <member refid="classMR_1_1PointAccumulator_1a3bbfe3a2dafb965a1e58b1ebede9744f" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBasicXf3f</name></member>
-      <member refid="classMR_1_1PointAccumulator_1a15a8cf1a4ee07c5e665631a49d310b88" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBestLine</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a9b02d2de72ea2ff4e66cff4c8f79c86c" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBestLine</name></member>
       <member refid="classMR_1_1PointAccumulator_1aedf74106b093871a3f5f643ddebeee7f" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBestLinef</name></member>
-      <member refid="classMR_1_1PointAccumulator_1a2101603a476d7949c907898b3513fc27" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBestPlane</name></member>
+      <member refid="classMR_1_1PointAccumulator_1afbfb79b9d6992c61be84d923573de937" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBestPlane</name></member>
       <member refid="classMR_1_1PointAccumulator_1abee9287110bb3322c9323fa6a5898906" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getBestPlanef</name></member>
-      <member refid="classMR_1_1PointAccumulator_1a9a8db7a86d2e4229d2ff0992aedf7b0f" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getCenteredCovarianceEigen</name></member>
-      <member refid="classMR_1_1PointAccumulator_1af42457c6f466fbc3a6b45fbae732a846" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getCenteredCovarianceEigen</name></member>
+      <member refid="classMR_1_1PointAccumulator_1aad17a38d5f453335fb9084a5ef19acc7" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getCenteredCovarianceEigen</name></member>
+      <member refid="classMR_1_1PointAccumulator_1abde5585425cd0f74dd93a2a1cfb67169" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>getCenteredCovarianceEigen</name></member>
       <member refid="classMR_1_1PointAccumulator_1a286e72e2fbf178260955338124fb3416" prot="private" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>momentum1_</name></member>
       <member refid="classMR_1_1PointAccumulator_1acd62ec0beec83c80c15a8d238fcdb86c" prot="private" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>momentum2_</name></member>
       <member refid="classMR_1_1PointAccumulator_1abfaa29e4f3b87720650d4ee0fc302d77" prot="private" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>sumWeight_</name></member>

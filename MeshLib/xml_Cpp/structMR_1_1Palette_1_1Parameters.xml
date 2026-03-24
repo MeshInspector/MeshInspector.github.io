@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Palette_1_1Parameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::Palette::Parameters</compoundname>
-    <includes refid="MRPalette_8h" local="no">MRPalette.h</includes>
+    <includes refid="MRPalette_8h" local="no">MRViewer/MRPalette.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga9a1c14b8de7d2c34b832c70062d489b9" kind="variable"><name>ranges</name></member>
       <member refid="group__GeneralGroup_1ga10918a054375c316bd8e2fcb0685a726" kind="variable"><name>baseColors</name></member>
@@ -14,7 +14,20 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="150" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="151" bodyend="156"/>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Box&lt; T &gt;&lt; float &gt;</label>
+        <link refid="structMR_1_1Box"/>
+      </node>
+      <node id="1">
+        <label>MR::Palette::Parameters</label>
+        <link refid="structMR_1_1Palette_1_1Parameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>legendLimits</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRViewer/MRPalette.h" line="150" column="5" bodyfile="MRViewer/MRPalette.h" bodystart="151" bodyend="156"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga10918a054375c316bd8e2fcb0685a726" prot="public" virt="non-virtual"><scope>MR::Palette::Parameters</scope><name>baseColors</name></member>
       <member refid="group__GeneralGroup_1ga25a6807ebee10dcb03a9e00733288113" prot="public" virt="non-virtual"><scope>MR::Palette::Parameters</scope><name>discretization</name></member>

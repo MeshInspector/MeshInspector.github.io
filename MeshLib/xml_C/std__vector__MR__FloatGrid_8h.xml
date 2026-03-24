@@ -1,0 +1,1659 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__FloatGrid_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_FloatGrid.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_FloatGrid.h</label>
+        <link refid="std__vector__MR__FloatGrid_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_FloatGrid_const_iterator MR_std_vector_MR_FloatGrid_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="22" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_FloatGrid_iterator MR_std_vector_MR_FloatGrid_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="26" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a38320581e8c54e758c7da5f8d5a5248f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid * MR_std_vector_MR_FloatGrid_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a5afb11d6ca45e11fb4ec1ee1f8426813" kindref="member">MR_std_vector_MR_FloatGrid_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="30" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="30" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a62e6f1cd124bc382faa04d34b28a209f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid * MR_std_vector_MR_FloatGrid_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a139e8c13c6e49d7a3e8df97f438e8d17" kindref="member">MR_std_vector_MR_FloatGrid_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a45279809326443a1904833f5a615ea9f" kindref="member">MR_std_vector_MR_FloatGrid_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a2b06fcfb0016e7093618dd16e98eeca3" kindref="member">MR_std_vector_MR_FloatGrid_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="35" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="35" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1aa10c1583b9d3936751721b26f2e20f83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid * MR_std_vector_MR_FloatGrid_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_FloatGrid *other)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a5afb11d6ca45e11fb4ec1ee1f8426813" kindref="member">MR_std_vector_MR_FloatGrid_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="41" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="41" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1aafb73799e0c8c7cd9488bdecadedb0cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, MR_PassBy other_pass_by, MR_std_vector_MR_FloatGrid *other)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_AssignFromAnother</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a5afb11d6ca45e11fb4ec1ee1f8426813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_Destroy</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a139e8c13c6e49d7a3e8df97f438e8d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_DestroyArray</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a2b06fcfb0016e7093618dd16e98eeca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FloatGrid * MR_std_vector_MR_FloatGrid_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="57" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="57" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a45279809326443a1904833f5a615ea9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid * MR_std_vector_MR_FloatGrid_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="61" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="61" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a6b9c5f2e92c4730be057a658be94cfd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_FloatGrid_size</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_size</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a896dd3fefc47d1fa4c60391a01154887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FloatGrid_empty</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_empty</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a5dab74b1afbb9b4502d3de62c8b79b4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_resize</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_resize</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a28c88bd85a64afc4e15e6bf27cce39cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, size_t new_size, const MR_FloatGrid *value)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_resize_with_default_value</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a81d5a004680fcc43fb9a8697e2639388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_clear</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_clear</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a53f6258a67bc3fedf45c9795df9b92c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_FloatGrid_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_capacity</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a128d1fc41b3886154e2a86e72752c3b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_reserve</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_reserve</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1aeced427be89a8e679b52161b31ef55d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_shrink_to_fit</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1ae061defbfed709a7f7a15addceb5faff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <definition>MRC_API const MR_FloatGrid * MR_std_vector_MR_FloatGrid_at</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_at</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="101" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="101" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a3e63f78c10f162fef557a825b2218e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <definition>MRC_API MR_FloatGrid * MR_std_vector_MR_FloatGrid_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_at_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="107" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="107" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a613af6c91f1efc3a6b0e082dd3c0f046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <definition>MRC_API const MR_FloatGrid * MR_std_vector_MR_FloatGrid_front</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_front</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="112" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="112" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a6c0e1d5a7a7132f77e670159da7c1b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <definition>MRC_API MR_FloatGrid * MR_std_vector_MR_FloatGrid_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_front_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="117" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="117" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a13af04378a929eabecc8650c17b0d863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <definition>MRC_API const MR_FloatGrid * MR_std_vector_MR_FloatGrid_back</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_back</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="122" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="122" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a5664e1f7c93129ffbbc57816210d59be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <definition>MRC_API MR_FloatGrid * MR_std_vector_MR_FloatGrid_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_back_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="127" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="127" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a19c0e9714157b44c63aa3e7a1bd188a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_push_back</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, MR_PassBy new_elem_pass_by, MR_FloatGrid *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_push_back</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a0acdba9249345dd091437b40968b986a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_pop_back</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a3bb7aa5744d6d39aefd1860853f8e2a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_insert</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, size_t position, MR_PassBy new_elem_pass_by, MR_FloatGrid *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_insert</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="141" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a04fb933cef47162870bc4b708b944b6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_erase</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_erase</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="145" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a8c3f95ad34f000b4a554fc4789f05b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_iterator *position, MR_PassBy new_elem_pass_by, MR_FloatGrid *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="151" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a04b2e47ec854876d94b47794ec814cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a695798b8dc2da79ce256e25e72235f51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_const_iterator *position, MR_PassBy new_elem_pass_by, MR_FloatGrid *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_insert_at_iter</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a5adbfb8da7daaa3d26732ffafa2b65ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_erase_at_iter</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a977342c2029b44d187628b6c150f464f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_const_iterator * MR_std_vector_MR_FloatGrid_begin</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_begin</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a5c94fe6e09744feeea8d5c2c67a34164" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="173" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="173" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a3b857c76c24add8faf7fd3a0177c763a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FloatGrid_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_is_begin</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a61ff9c93136c777712f47e3cc5d280a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_iterator * MR_std_vector_MR_FloatGrid_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_begin_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ac01fdb583badfb853b31dd5fea9ec5fa" kindref="member">MR_std_vector_MR_FloatGrid_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="184" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="184" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a02ab4e01f59431db811496c4b8f97d7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FloatGrid_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1afb2cce27dc38549fe5ae04e917fe1eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_const_iterator * MR_std_vector_MR_FloatGrid_end</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_end</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a5c94fe6e09744feeea8d5c2c67a34164" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="195" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="195" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a736747dc2f4518ca22bafef2230967ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FloatGrid_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_is_end</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1aebfc6129c07379d1216f3c0cf911e568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_iterator * MR_std_vector_MR_FloatGrid_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_end_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ac01fdb583badfb853b31dd5fea9ec5fa" kindref="member">MR_std_vector_MR_FloatGrid_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="206" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="206" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a0b4049162836aa776f86528a8bb296de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FloatGrid_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_is_end_mut</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a370b3ad5a26d805d11891ca03bee63c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_FloatGrid_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_to_index</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="216" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a978a9d74213cc32f52a8f46e32c9c0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_FloatGrid_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid *_this, const MR_std_vector_MR_FloatGrid_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_to_index_mut</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a936efd73754902a1fbe236a55e5063aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_const_iterator * MR_std_vector_MR_FloatGrid_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a5c94fe6e09744feeea8d5c2c67a34164" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="225" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="225" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a77310915fe4c4d9031df7d0eec7fcc4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_const_iterator * MR_std_vector_MR_FloatGrid_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ab08c56ecc5ece43715af7c81c968bb67" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ab9f25c782398a759f665865855b992d3" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ad7f0ae3d26dec9b1ce40dd2a2efe890f" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="230" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="230" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a5ceebf30d967e14adda93822e8e89905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_const_iterator * MR_std_vector_MR_FloatGrid_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a5c94fe6e09744feeea8d5c2c67a34164" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="237" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="237" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1adf05a5633b5d11cc292bfa96bdddba42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_const_iterator *_this, const MR_std_vector_MR_FloatGrid_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a5c94fe6e09744feeea8d5c2c67a34164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1ab08c56ecc5ece43715af7c81c968bb67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="250" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1ad7f0ae3d26dec9b1ce40dd2a2efe890f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FloatGrid_const_iterator * MR_std_vector_MR_FloatGrid_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="254" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="254" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1ab9f25c782398a759f665865855b992d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_const_iterator * MR_std_vector_MR_FloatGrid_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="258" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="258" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1afd1abb6dc2698022af1f73740a37f655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_const_iterator * MR_std_vector_MR_FloatGrid_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a5c94fe6e09744feeea8d5c2c67a34164" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="263" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="263" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1aff4488a6ee18fe3d135d145a026eb984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_iterator * MR_std_vector_MR_FloatGrid_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ac01fdb583badfb853b31dd5fea9ec5fa" kindref="member">MR_std_vector_MR_FloatGrid_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="267" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="267" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a848aa9927f0649b8444a3f2a72c7ad98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_iterator * MR_std_vector_MR_FloatGrid_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a011da6945bb192052531cce8717a4295" kindref="member">MR_std_vector_MR_FloatGrid_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1accc15ca0ae5f57820b3e7af2e5c0f18b" kindref="member">MR_std_vector_MR_FloatGrid_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1a16e53e8fbd4999006bc34388fcb0b9bf" kindref="member">MR_std_vector_MR_FloatGrid_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="272" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="272" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a205acd2968ce92b90b779654f5ced005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_iterator * MR_std_vector_MR_FloatGrid_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ac01fdb583badfb853b31dd5fea9ec5fa" kindref="member">MR_std_vector_MR_FloatGrid_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="279" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="279" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a674579c291a6929a5de2571100870460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_iterator *_this, const MR_std_vector_MR_FloatGrid_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1ac01fdb583badfb853b31dd5fea9ec5fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a011da6945bb192052531cce8717a4295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a16e53e8fbd4999006bc34388fcb0b9bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FloatGrid_iterator * MR_std_vector_MR_FloatGrid_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="296" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="296" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1accc15ca0ae5f57820b3e7af2e5c0f18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FloatGrid_iterator * MR_std_vector_MR_FloatGrid_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="300" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="300" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1ac31580d59f70355aea51f8b4ed4677e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <definition>MRC_API const MR_FloatGrid * MR_std_vector_MR_FloatGrid_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="306" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="306" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a38cd4a9df32ab2299c05f2188bdc793b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="310" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1ab1e63f9cb83234b2f44c5a527750b7b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a6526fe81554eeda58e7fa0405ab1d211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a7bb3df4f2217ae4f89d4ce59d01e124c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_FloatGrid_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_const_iterator *a, const MR_std_vector_MR_FloatGrid_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_FloatGrid_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="323" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="323" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a91f09731b75a6af1abeabeda242bc30c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_FloatGrid_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_const_iterator *a, const MR_std_vector_MR_FloatGrid_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_FloatGrid_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1aa65bd81141cfa0bf23cea98e0b8ca2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+        <definition>MRC_API MR_FloatGrid * MR_std_vector_MR_FloatGrid_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="334" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="334" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1aa870398f54bda751d7d4bc69c65451d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a294550c5ac845c9eb514343ed11b2ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1ab4275c78939e68079223220cef4538e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FloatGrid_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_FloatGrid_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_FloatGrid_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a7fe6d31eb41dc5efdab502d176ffe58d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_FloatGrid_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_iterator *a, const MR_std_vector_MR_FloatGrid_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_FloatGrid_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FloatGrid_8h_1a1fd910da1c7c3e35b57535beec28d2f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_FloatGrid_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FloatGrid_iterator *a, const MR_std_vector_MR_FloatGrid_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_FloatGrid_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h" declline="356" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRFloatGrid.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__FloatGrid_8h_1a38320581e8c54e758c7da5f8d5a5248f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a38320581e8c54e758c7da5f8d5a5248f" kindref="member">MR_std_vector_MR_FloatGrid_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__FloatGrid_8h_1a62e6f1cd124bc382faa04d34b28a209f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a62e6f1cd124bc382faa04d34b28a209f" kindref="member">MR_std_vector_MR_FloatGrid_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__FloatGrid_8h_1aa10c1583b9d3936751721b26f2e20f83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1aa10c1583b9d3936751721b26f2e20f83" kindref="member">MR_std_vector_MR_FloatGrid_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__FloatGrid_8h_1aafb73799e0c8c7cd9488bdecadedb0cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1aafb73799e0c8c7cd9488bdecadedb0cf" kindref="member">MR_std_vector_MR_FloatGrid_AssignFromAnother</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__FloatGrid_8h_1a5afb11d6ca45e11fb4ec1ee1f8426813" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a5afb11d6ca45e11fb4ec1ee1f8426813" kindref="member">MR_std_vector_MR_FloatGrid_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__FloatGrid_8h_1a139e8c13c6e49d7a3e8df97f438e8d17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a139e8c13c6e49d7a3e8df97f438e8d17" kindref="member">MR_std_vector_MR_FloatGrid_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__FloatGrid_8h_1a2b06fcfb0016e7093618dd16e98eeca3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a2b06fcfb0016e7093618dd16e98eeca3" kindref="member">MR_std_vector_MR_FloatGrid_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__FloatGrid_8h_1a45279809326443a1904833f5a615ea9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a45279809326443a1904833f5a615ea9f" kindref="member">MR_std_vector_MR_FloatGrid_OffsetMutablePtr</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__FloatGrid_8h_1a6b9c5f2e92c4730be057a658be94cfd5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a6b9c5f2e92c4730be057a658be94cfd5" kindref="member">MR_std_vector_MR_FloatGrid_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__FloatGrid_8h_1a896dd3fefc47d1fa4c60391a01154887" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a896dd3fefc47d1fa4c60391a01154887" kindref="member">MR_std_vector_MR_FloatGrid_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__FloatGrid_8h_1a5dab74b1afbb9b4502d3de62c8b79b4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a5dab74b1afbb9b4502d3de62c8b79b4b" kindref="member">MR_std_vector_MR_FloatGrid_resize</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__FloatGrid_8h_1a28c88bd85a64afc4e15e6bf27cce39cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a28c88bd85a64afc4e15e6bf27cce39cd" kindref="member">MR_std_vector_MR_FloatGrid_resize_with_default_value</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__FloatGrid_8h_1a81d5a004680fcc43fb9a8697e2639388" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a81d5a004680fcc43fb9a8697e2639388" kindref="member">MR_std_vector_MR_FloatGrid_clear</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__FloatGrid_8h_1a53f6258a67bc3fedf45c9795df9b92c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a53f6258a67bc3fedf45c9795df9b92c9" kindref="member">MR_std_vector_MR_FloatGrid_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__FloatGrid_8h_1a128d1fc41b3886154e2a86e72752c3b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a128d1fc41b3886154e2a86e72752c3b9" kindref="member">MR_std_vector_MR_FloatGrid_reserve</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__FloatGrid_8h_1aeced427be89a8e679b52161b31ef55d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1aeced427be89a8e679b52161b31ef55d1" kindref="member">MR_std_vector_MR_FloatGrid_shrink_to_fit</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__FloatGrid_8h_1ae061defbfed709a7f7a15addceb5faff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1ae061defbfed709a7f7a15addceb5faff" kindref="member">MR_std_vector_MR_FloatGrid_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__FloatGrid_8h_1a3e63f78c10f162fef557a825b2218e67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a3e63f78c10f162fef557a825b2218e67" kindref="member">MR_std_vector_MR_FloatGrid_at_mut</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__FloatGrid_8h_1a613af6c91f1efc3a6b0e082dd3c0f046" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a613af6c91f1efc3a6b0e082dd3c0f046" kindref="member">MR_std_vector_MR_FloatGrid_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__FloatGrid_8h_1a6c0e1d5a7a7132f77e670159da7c1b6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a6c0e1d5a7a7132f77e670159da7c1b6c" kindref="member">MR_std_vector_MR_FloatGrid_front_mut</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__FloatGrid_8h_1a13af04378a929eabecc8650c17b0d863" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a13af04378a929eabecc8650c17b0d863" kindref="member">MR_std_vector_MR_FloatGrid_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__FloatGrid_8h_1a5664e1f7c93129ffbbc57816210d59be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a5664e1f7c93129ffbbc57816210d59be" kindref="member">MR_std_vector_MR_FloatGrid_back_mut</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="std__vector__MR__FloatGrid_8h_1a19c0e9714157b44c63aa3e7a1bd188a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a19c0e9714157b44c63aa3e7a1bd188a6" kindref="member">MR_std_vector_MR_FloatGrid_push_back</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="std__vector__MR__FloatGrid_8h_1a0acdba9249345dd091437b40968b986a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a0acdba9249345dd091437b40968b986a" kindref="member">MR_std_vector_MR_FloatGrid_pop_back</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="std__vector__MR__FloatGrid_8h_1a3bb7aa5744d6d39aefd1860853f8e2a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a3bb7aa5744d6d39aefd1860853f8e2a3" kindref="member">MR_std_vector_MR_FloatGrid_insert</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="std__vector__MR__FloatGrid_8h_1a04fb933cef47162870bc4b708b944b6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a04fb933cef47162870bc4b708b944b6b" kindref="member">MR_std_vector_MR_FloatGrid_erase</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="std__vector__MR__FloatGrid_8h_1a8c3f95ad34f000b4a554fc4789f05b6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a8c3f95ad34f000b4a554fc4789f05b6a" kindref="member">MR_std_vector_MR_FloatGrid_insert_at_mutable_iter</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="std__vector__MR__FloatGrid_8h_1a04b2e47ec854876d94b47794ec814cdc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a04b2e47ec854876d94b47794ec814cdc" kindref="member">MR_std_vector_MR_FloatGrid_erase_at_mutable_iter</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__FloatGrid_8h_1a695798b8dc2da79ce256e25e72235f51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a695798b8dc2da79ce256e25e72235f51" kindref="member">MR_std_vector_MR_FloatGrid_insert_at_iter</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="std__vector__MR__FloatGrid_8h_1a5adbfb8da7daaa3d26732ffafa2b65ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a5adbfb8da7daaa3d26732ffafa2b65ed" kindref="member">MR_std_vector_MR_FloatGrid_erase_at_iter</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__FloatGrid_8h_1a977342c2029b44d187628b6c150f464f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a977342c2029b44d187628b6c150f464f" kindref="member">MR_std_vector_MR_FloatGrid_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__MR__FloatGrid_8h_1a3b857c76c24add8faf7fd3a0177c763a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a3b857c76c24add8faf7fd3a0177c763a" kindref="member">MR_std_vector_MR_FloatGrid_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__FloatGrid_8h_1a61ff9c93136c777712f47e3cc5d280a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a61ff9c93136c777712f47e3cc5d280a0" kindref="member">MR_std_vector_MR_FloatGrid_begin_mut</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__MR__FloatGrid_8h_1a02ab4e01f59431db811496c4b8f97d7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a02ab4e01f59431db811496c4b8f97d7c" kindref="member">MR_std_vector_MR_FloatGrid_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__FloatGrid_8h_1afb2cce27dc38549fe5ae04e917fe1eb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1afb2cce27dc38549fe5ae04e917fe1eb7" kindref="member">MR_std_vector_MR_FloatGrid_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__MR__FloatGrid_8h_1a736747dc2f4518ca22bafef2230967ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a736747dc2f4518ca22bafef2230967ae" kindref="member">MR_std_vector_MR_FloatGrid_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__FloatGrid_8h_1aebfc6129c07379d1216f3c0cf911e568" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1aebfc6129c07379d1216f3c0cf911e568" kindref="member">MR_std_vector_MR_FloatGrid_end_mut</ref>(<ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__MR__FloatGrid_8h_1a0b4049162836aa776f86528a8bb296de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a0b4049162836aa776f86528a8bb296de" kindref="member">MR_std_vector_MR_FloatGrid_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__vector__MR__FloatGrid_8h_1a370b3ad5a26d805d11891ca03bee63c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FloatGrid_8h_1a370b3ad5a26d805d11891ca03bee63c8" kindref="member">MR_std_vector_MR_FloatGrid_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__vector__MR__FloatGrid_8h_1a978a9d74213cc32f52a8f46e32c9c0b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FloatGrid_8h_1a978a9d74213cc32f52a8f46e32c9c0b8" kindref="member">MR_std_vector_MR_FloatGrid_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__FloatGrid__std__string_8h_1ac0bc2de450d70837158c8c5780d4801c" kindref="member">MR_std_vector_MR_FloatGrid</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__FloatGrid_8h_1a936efd73754902a1fbe236a55e5063aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a936efd73754902a1fbe236a55e5063aa" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="std__vector__MR__FloatGrid_8h_1a77310915fe4c4d9031df7d0eec7fcc4a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a77310915fe4c4d9031df7d0eec7fcc4a" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__vector__MR__FloatGrid_8h_1a5ceebf30d967e14adda93822e8e89905" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a5ceebf30d967e14adda93822e8e89905" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="std__vector__MR__FloatGrid_8h_1adf05a5633b5d11cc292bfa96bdddba42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1adf05a5633b5d11cc292bfa96bdddba42" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__FloatGrid_8h_1a5c94fe6e09744feeea8d5c2c67a34164" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a5c94fe6e09744feeea8d5c2c67a34164" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="std__vector__MR__FloatGrid_8h_1ab08c56ecc5ece43715af7c81c968bb67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ab08c56ecc5ece43715af7c81c968bb67" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__FloatGrid_8h_1ad7f0ae3d26dec9b1ce40dd2a2efe890f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1ad7f0ae3d26dec9b1ce40dd2a2efe890f" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__FloatGrid_8h_1ab9f25c782398a759f665865855b992d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1ab9f25c782398a759f665865855b992d3" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="std__vector__MR__FloatGrid_8h_1afd1abb6dc2698022af1f73740a37f655" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1afd1abb6dc2698022af1f73740a37f655" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__FloatGrid_8h_1aff4488a6ee18fe3d135d145a026eb984" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1aff4488a6ee18fe3d135d145a026eb984" kindref="member">MR_std_vector_MR_FloatGrid_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="std__vector__MR__FloatGrid_8h_1a848aa9927f0649b8444a3f2a72c7ad98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a848aa9927f0649b8444a3f2a72c7ad98" kindref="member">MR_std_vector_MR_FloatGrid_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="std__vector__MR__FloatGrid_8h_1a205acd2968ce92b90b779654f5ced005" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a205acd2968ce92b90b779654f5ced005" kindref="member">MR_std_vector_MR_FloatGrid_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="std__vector__MR__FloatGrid_8h_1a674579c291a6929a5de2571100870460" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a674579c291a6929a5de2571100870460" kindref="member">MR_std_vector_MR_FloatGrid_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__FloatGrid_8h_1ac01fdb583badfb853b31dd5fea9ec5fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ac01fdb583badfb853b31dd5fea9ec5fa" kindref="member">MR_std_vector_MR_FloatGrid_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="std__vector__MR__FloatGrid_8h_1a011da6945bb192052531cce8717a4295" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a011da6945bb192052531cce8717a4295" kindref="member">MR_std_vector_MR_FloatGrid_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__FloatGrid_8h_1a16e53e8fbd4999006bc34388fcb0b9bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1a16e53e8fbd4999006bc34388fcb0b9bf" kindref="member">MR_std_vector_MR_FloatGrid_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__FloatGrid_8h_1accc15ca0ae5f57820b3e7af2e5c0f18b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1accc15ca0ae5f57820b3e7af2e5c0f18b" kindref="member">MR_std_vector_MR_FloatGrid_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__FloatGrid_8h_1ac31580d59f70355aea51f8b4ed4677e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1ac31580d59f70355aea51f8b4ed4677e6" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__FloatGrid_8h_1a38cd4a9df32ab2299c05f2188bdc793b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a38cd4a9df32ab2299c05f2188bdc793b" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_incr</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__FloatGrid_8h_1ab1e63f9cb83234b2f44c5a527750b7b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ab1e63f9cb83234b2f44c5a527750b7b6" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_decr</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__FloatGrid_8h_1a6526fe81554eeda58e7fa0405ab1d211" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a6526fe81554eeda58e7fa0405ab1d211" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__FloatGrid_8h_1a7bb3df4f2217ae4f89d4ce59d01e124c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FloatGrid_8h_1a7bb3df4f2217ae4f89d4ce59d01e124c" kindref="member">MR_sub_MR_std_vector_MR_FloatGrid_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="std__vector__MR__FloatGrid_8h_1a91f09731b75a6af1abeabeda242bc30c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a91f09731b75a6af1abeabeda242bc30c" kindref="member">MR_equal_MR_std_vector_MR_FloatGrid_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a807251543089434a5b8705061577a601" kindref="member">MR_std_vector_MR_FloatGrid_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__MR__FloatGrid_8h_1aa65bd81141cfa0bf23cea98e0b8ca2ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="std__vector__MR__FloatGrid_8h_1aa65bd81141cfa0bf23cea98e0b8ca2ba" kindref="member">MR_std_vector_MR_FloatGrid_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__FloatGrid_8h_1aa870398f54bda751d7d4bc69c65451d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1aa870398f54bda751d7d4bc69c65451d1" kindref="member">MR_std_vector_MR_FloatGrid_iterator_incr</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__FloatGrid_8h_1a294550c5ac845c9eb514343ed11b2ae5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a294550c5ac845c9eb514343ed11b2ae5" kindref="member">MR_std_vector_MR_FloatGrid_iterator_decr</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__FloatGrid_8h_1ab4275c78939e68079223220cef4538e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ab4275c78939e68079223220cef4538e9" kindref="member">MR_std_vector_MR_FloatGrid_iterator_add_assign</ref>(<ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__FloatGrid_8h_1a7fe6d31eb41dc5efdab502d176ffe58d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FloatGrid_8h_1a7fe6d31eb41dc5efdab502d176ffe58d" kindref="member">MR_sub_MR_std_vector_MR_FloatGrid_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="std__vector__MR__FloatGrid_8h_1a1fd910da1c7c3e35b57535beec28d2f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1a1fd910da1c7c3e35b57535beec28d2f8" kindref="member">MR_equal_MR_std_vector_MR_FloatGrid_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FloatGrid_8h_1ae681140c3b690f51f07a57bc67120467" kindref="member">MR_std_vector_MR_FloatGrid_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FloatGrid.h"/>
+  </compounddef>
+</doxygen>

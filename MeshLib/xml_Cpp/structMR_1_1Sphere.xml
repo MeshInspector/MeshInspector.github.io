@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Sphere" kind="struct" language="C++" prot="public">
     <compoundname>MR::Sphere</compoundname>
-    <includes refid="MRSphere_8h" local="no">MRSphere.h</includes>
+    <includes refid="MRSphere_8h" local="no">MRMesh/MRSphere.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -30,7 +30,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSphere.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSphere.h" bodystart="14" bodyend="39"/>
+    <location file="MRMesh/MRSphere.h" line="13" column="1" bodyfile="MRMesh/MRSphere.h" bodystart="14" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>center</name></member>
       <member refid="group__GeneralGroup_1ga3bcdf3d7bbfda09b3708d12b755ac6f0" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>distance</name></member>

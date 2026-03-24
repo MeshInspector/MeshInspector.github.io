@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1IPointPairs" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::IPointPairs</compoundname>
     <derivedcompoundref refid="structMR_1_1ICPGroupPairs" prot="public" virt="non-virtual">MR::ICPGroupPairs</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1PointPairs" prot="public" virt="non-virtual">MR::PointPairs</derivedcompoundref>
-    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <includes refid="MRICP_8h" local="no">MRMesh/MRICP.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" kind="variable"><name>active</name></member>
     </sectiondef>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="63" bodyend="76"/>
+    <location file="MRMesh/MRICP.h" line="62" column="1" bodyfile="MRMesh/MRICP.h" bodystart="63" bodyend="76"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>active</name></member>
       <member refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>IPointPairs</name></member>

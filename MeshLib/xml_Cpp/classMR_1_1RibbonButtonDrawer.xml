@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonButtonDrawer" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonButtonDrawer</compoundname>
-    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRRibbonButtonDrawer.h</includes>
+    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRViewer/MRRibbonButtonDrawer.h</includes>
     <innerclass refid="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth" prot="public">MR::RibbonButtonDrawer::ButtonItemWidth</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga23c5f0f08b0b93d907d363936c36f368" kind="enum"><name>TextureType</name></member>
@@ -18,23 +18,23 @@
       <member refid="group__GeneralGroup_1ga47851245ca6b04cd1316e0d92176cb02" kind="variable"><name>textures_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gaaf522f84deade12174104cfd9ab2c384" kind="function"><name>InitGradientTexture</name></member>
-      <member refid="group__GeneralGroup_1ga83dd3384388f9328b4a90cf1a166a111" kind="function"><name>GetTexture</name></member>
-      <member refid="group__GeneralGroup_1ga9b54da453af494ce3c80120f8463f0ef" kind="function"><name>CustomCollapsingHeader</name></member>
+      <member refid="group__GeneralGroup_1ga3b70cd289b34772626e771400f8631a0" kind="function"><name>InitGradientTexture</name></member>
+      <member refid="group__GeneralGroup_1ga0b7ed1a7555f0959c8725a3e60a03155" kind="function"><name>GetTexture</name></member>
+      <member refid="group__GeneralGroup_1ga5b4295b0fc51e4c88cd77286de65e4af" kind="function"><name>CustomCollapsingHeader</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga954e453eee79988e5bc9e09da649f469" kind="function"><name>GradientCheckboxItem</name></member>
-      <member refid="group__GeneralGroup_1ga873e857624709ee46ec0487169fd1e87" kind="function"><name>calcItemWidth</name></member>
-      <member refid="group__GeneralGroup_1ga88e9dab920cc65df3ceeb3332d6508e3" kind="function"><name>drawButtonItem</name></member>
-      <member refid="group__GeneralGroup_1ga32b4290ad470a7d955b0f93bce2918bb" kind="function"><name>drawCustomButtonItem</name></member>
-      <member refid="group__GeneralGroup_1gad76d42588ec2c9279d8695185fcd1f61" kind="function"><name>drawButtonIcon</name></member>
-      <member refid="group__GeneralGroup_1ga7dcb89a2ff2cb713fa0e6636eaca71af" kind="function"><name>drawTabArrowButton</name></member>
-      <member refid="group__GeneralGroup_1ga176f5a0226543fa3cfcb61d2a040de9b" kind="function"><name>setMonochrome</name></member>
+      <member refid="group__GeneralGroup_1gabc3b5fe7447b5da5d0afaf42d383124d" kind="function"><name>GradientCheckboxItem</name></member>
+      <member refid="group__GeneralGroup_1ga6750d8cecd56385adb652cf0a2d1452e" kind="function"><name>calcItemWidth</name></member>
+      <member refid="group__GeneralGroup_1ga3a83a73c121256b4b48237ac6814eb3f" kind="function"><name>drawButtonItem</name></member>
+      <member refid="group__GeneralGroup_1ga69c05c2b2e2b7ed8a6ea5e108d4133f5" kind="function"><name>drawCustomButtonItem</name></member>
+      <member refid="group__GeneralGroup_1gaf2138a66e8eaceaa70f7eff66214d0f8" kind="function"><name>drawButtonIcon</name></member>
+      <member refid="group__GeneralGroup_1ga7aa36035f57082f58db1b5dc0dec8de3" kind="function"><name>drawTabArrowButton</name></member>
+      <member refid="group__GeneralGroup_1ga3f3ee9a023e395253ee1df5bc2147a2f" kind="function"><name>setMonochrome</name></member>
       <member refid="group__GeneralGroup_1ga746679f0d740ce76f1180b8e1c572570" kind="function"><name>setOnPressAction</name></member>
       <member refid="group__GeneralGroup_1ga5b4dc1d1236d8173cf3d4d5d54a2ef77" kind="function"><name>setGetterRequirements</name></member>
       <member refid="group__GeneralGroup_1ga9e8e2cf8f70aa2833fcb03ec85ca1dc5" kind="function"><name>setMenu</name></member>
       <member refid="group__GeneralGroup_1ga787e77ac1e137bc2009adcb16e36b721" kind="function"><name>setShortcutManager</name></member>
-      <member refid="group__GeneralGroup_1gaa5a084b37f1b48fd5dc902412372f975" kind="function"><name>pushRibbonButtonColors</name></member>
+      <member refid="group__GeneralGroup_1ga3c7186bc50ce6a3ea4636650286912f5" kind="function"><name>pushRibbonButtonColors</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga59ccb7c0dff73185bf2695900e4cac42" kind="function"><name>drawButtonDropItem_</name></member>
@@ -46,28 +46,28 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="52" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="53" bodyend="123"/>
+    <location file="MRViewer/MRRibbonButtonDrawer.h" line="52" column="1" bodyfile="MRViewer/MRRibbonButtonDrawer.h" bodystart="53" bodyend="123"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga873e857624709ee46ec0487169fd1e87" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>calcItemWidth</name></member>
-      <member refid="group__GeneralGroup_1ga9b54da453af494ce3c80120f8463f0ef" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>CustomCollapsingHeader</name></member>
+      <member refid="group__GeneralGroup_1ga6750d8cecd56385adb652cf0a2d1452e" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>calcItemWidth</name></member>
+      <member refid="group__GeneralGroup_1ga5b4295b0fc51e4c88cd77286de65e4af" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>CustomCollapsingHeader</name></member>
       <member refid="group__GeneralGroup_1ga59ccb7c0dff73185bf2695900e4cac42" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawButtonDropItem_</name></member>
-      <member refid="group__GeneralGroup_1gad76d42588ec2c9279d8695185fcd1f61" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawButtonIcon</name></member>
-      <member refid="group__GeneralGroup_1ga88e9dab920cc65df3ceeb3332d6508e3" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawButtonItem</name></member>
-      <member refid="group__GeneralGroup_1ga32b4290ad470a7d955b0f93bce2918bb" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawCustomButtonItem</name></member>
+      <member refid="group__GeneralGroup_1gaf2138a66e8eaceaa70f7eff66214d0f8" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawButtonIcon</name></member>
+      <member refid="group__GeneralGroup_1ga3a83a73c121256b4b48237ac6814eb3f" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawButtonItem</name></member>
+      <member refid="group__GeneralGroup_1ga69c05c2b2e2b7ed8a6ea5e108d4133f5" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawCustomButtonItem</name></member>
       <member refid="group__GeneralGroup_1ga7b2b912583e0651ff2a2bb6276645a6a" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawDropList_</name></member>
-      <member refid="group__GeneralGroup_1ga7dcb89a2ff2cb713fa0e6636eaca71af" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawTabArrowButton</name></member>
+      <member refid="group__GeneralGroup_1ga7aa36035f57082f58db1b5dc0dec8de3" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawTabArrowButton</name></member>
       <member refid="group__GeneralGroup_1ga6194bfda0e440073099f62ff9d9f0076" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawTooltip_</name></member>
       <member refid="group__GeneralGroup_1ga4d3a3b3e0ebfb43275b9c79f5d46cc60" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>getRequirements_</name></member>
-      <member refid="group__GeneralGroup_1ga83dd3384388f9328b4a90cf1a166a111" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>GetTexture</name></member>
-      <member refid="group__GeneralGroup_1ga954e453eee79988e5bc9e09da649f469" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>GradientCheckboxItem</name></member>
-      <member refid="group__GeneralGroup_1gaaf522f84deade12174104cfd9ab2c384" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>InitGradientTexture</name></member>
+      <member refid="group__GeneralGroup_1ga0b7ed1a7555f0959c8725a3e60a03155" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>GetTexture</name></member>
+      <member refid="group__GeneralGroup_1gabc3b5fe7447b5da5d0afaf42d383124d" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>GradientCheckboxItem</name></member>
+      <member refid="group__GeneralGroup_1ga3b70cd289b34772626e771400f8631a0" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>InitGradientTexture</name></member>
       <member refid="group__GeneralGroup_1ga42e8a7903e874e627485a0f5dc950c55" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>menu_</name></member>
       <member refid="group__GeneralGroup_1ga225f4a55ebe82ad9ee05b916eb319db0" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>monochrome_</name></member>
       <member refid="group__GeneralGroup_1ga99bf04f39837fad31c2955207e492e2e" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>onPressAction_</name></member>
-      <member refid="group__GeneralGroup_1gaa5a084b37f1b48fd5dc902412372f975" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>pushRibbonButtonColors</name></member>
+      <member refid="group__GeneralGroup_1ga3c7186bc50ce6a3ea4636650286912f5" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>pushRibbonButtonColors</name></member>
       <member refid="group__GeneralGroup_1ga5b4dc1d1236d8173cf3d4d5d54a2ef77" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setGetterRequirements</name></member>
       <member refid="group__GeneralGroup_1ga9e8e2cf8f70aa2833fcb03ec85ca1dc5" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setMenu</name></member>
-      <member refid="group__GeneralGroup_1ga176f5a0226543fa3cfcb61d2a040de9b" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setMonochrome</name></member>
+      <member refid="group__GeneralGroup_1ga3f3ee9a023e395253ee1df5bc2147a2f" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setMonochrome</name></member>
       <member refid="group__GeneralGroup_1ga746679f0d740ce76f1180b8e1c572570" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setOnPressAction</name></member>
       <member refid="group__GeneralGroup_1ga787e77ac1e137bc2009adcb16e36b721" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setShortcutManager</name></member>
       <member refid="group__GeneralGroup_1gac25c03a90f16685ab2fb8922bfeaaec4" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>shortcutManager_</name></member>

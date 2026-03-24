@@ -1,9 +1,5 @@
 var MRLinesSave_8h =
 [
-    [ "MR_expected_void_std_string", "MRLinesSave_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_Polyline3", "MRLinesSave_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
-    [ "MR_SaveSettings", "MRLinesSave_8h.html#a66434f88501a5c24a45cf39f9dbcadbb", null ],
-    [ "MR_std_ostream", "MRLinesSave_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_LinesSave_toAnySupportedFormat_3", "MRLinesSave_8h.html#ad8b4656fd367b7e9b7d7d6d8f51a2578", null ],
     [ "MR_LinesSave_toAnySupportedFormat_4", "MRLinesSave_8h.html#afbf970e2ea88c6f90f1444632421f8bd", null ],
     [ "MR_LinesSave_toDxf_std_filesystem_path", "MRLinesSave_8h.html#a4d5f8742abe9ca30f83f2cf020098742", null ],

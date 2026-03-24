@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Nesting_1_1TetrisDensifyParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Nesting::TetrisDensifyParams</compoundname>
+    <includes refid="MRTetrisNesting_8h" local="no">MRVoxels/MRTetrisNesting.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gabe169f4acb2c0d3499f4789ad4d63e6b" kind="variable"><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1ga558380f5544f18c8eef21feef0149630" kind="variable"><name>options</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Nesting::NestingBaseParams</label>
+        <link refid="structMR_1_1Nesting_1_1NestingBaseParams"/>
+      </node>
+      <node id="3">
+        <label>MR::Nesting::TetrisDensifyOptions</label>
+        <link refid="structMR_1_1Nesting_1_1TetrisDensifyOptions"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>nestVoxelsCache</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::Nesting::TetrisDensifyParams</label>
+        <link refid="structMR_1_1Nesting_1_1TetrisDensifyParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseParams</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>options</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::Vector&lt; ObjId, VoxelId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRVoxels/MRTetrisNesting.h" line="34" column="1" bodyfile="MRVoxels/MRTetrisNesting.h" bodystart="35" bodyend="38"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gabe169f4acb2c0d3499f4789ad4d63e6b" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1ga558380f5544f18c8eef21feef0149630" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

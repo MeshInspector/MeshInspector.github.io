@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OffsetContoursParams" kind="class" language="C#" prot="public">
     <compoundname>MR::OffsetContoursParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetContoursParams</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="736" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="736" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="750" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="750" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1OffsetContoursParams_1a17aa8f96cde6ce24d84aad8451a786ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref MR.OffsetContoursParams.EndType</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="738" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="738" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="752" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="752" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1OffsetContoursParams_1a5fff2634a44584848ec97c55716ef0a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref MR.OffsetContoursParams.CornerType</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="740" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="740" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="754" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="754" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1OffsetContoursParams_1a38a689d9c2ac255e15a43fd24f244c73" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="743" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="743" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="757" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="757" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1OffsetContoursParams_1a4e749d1c78614f583cd9aefacd7122c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="746" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="746" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="760" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="760" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1OffsetContoursParams_1ab471275ec374e91c82463c88815adb0b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdVectorMROffsetContoursOrigins</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="749" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="750" bodyend="759"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="765" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="766" bodyend="775"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="763" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="763" bodyend="767"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="779" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="779" bodyend="783"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="773" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="773" bodyend="779"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="789" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="789" bodyend="795"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursParams_1a7a4fe1599b6c9190d1a2384e70e52a4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="784" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="784" bodyend="791"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="800" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="800" bodyend="807"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursParams_1ab069a1f3d745512ff360e9249fb6eeb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -180,13 +180,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OffsetContoursParams.OffsetContoursParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContoursParams_1aef1df7bd12f90f809774a64c38931c22" kindref="member">MR.OffsetContoursParams.OffsetContoursParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="796" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="796" bodyend="803"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="812" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="812" bodyend="819"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursParams_1a5d5f52754225de20df8364a8909ac992" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -199,13 +199,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OffsetContoursParams.OffsetContoursParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContoursParams_1aef1df7bd12f90f809774a64c38931c22" kindref="member">MR.OffsetContoursParams.OffsetContoursParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="808" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="808" bodyend="808"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="824" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="824" bodyend="824"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursParams_1a806fafefc98866b036e51e2074bb3f2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1OffsetContoursParams" kindref="compound">MR.OffsetContoursParams</ref></type>
@@ -218,13 +218,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.OffsetContoursParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::OffsetContoursParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="813" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="813" bodyend="820"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="829" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="829" bodyend="836"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -233,48 +233,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_OffsetContoursParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OffsetContoursParams</label>
         <link refid="classMR_1_1OffsetContoursParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OffsetContoursParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_OffsetContoursParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_OffsetContoursParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OffsetContoursParams</label>
         <link refid="classMR_1_1OffsetContoursParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OffsetContoursParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_OffsetContoursParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="734" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="735" bodyend="821"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="748" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="749" bodyend="837"/>
     <listofallmembers>
       <member refid="classMR_1_1OffsetContoursParams_1a806fafefc98866b036e51e2074bb3f2e" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>assign</name></member>
       <member refid="classMR_1_1OffsetContoursParams_1a5fff2634a44584848ec97c55716ef0a4" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>cornerType</name></member>

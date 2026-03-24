@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Src2TgtMaps" kind="class" language="C++" prot="public">
     <compoundname>MR::Src2TgtMaps</compoundname>
-    <includes refid="MRPartMappingAdapters_8h" local="no">MRPartMappingAdapters.h</includes>
+    <includes refid="MRPartMappingAdapters_8h" local="no">MRMesh/MRPartMappingAdapters.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga328c9dfde21ace812b2e59d1fc87a926" kind="variable"><name>outFmap_</name></member>
       <member refid="group__GeneralGroup_1gaac6a476fb0bb8c2d10790b7b001cb339" kind="variable"><name>outVmap_</name></member>
@@ -13,8 +13,8 @@
       <member refid="group__GeneralGroup_1ga199f4b544fc545070faa3a5234cdf80f" kind="variable"><name>src2tgtEdges_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga8c21977780c1e2b5edad83656984e28e" kind="function"><name>Src2TgtMaps</name></member>
-      <member refid="group__GeneralGroup_1ga88278ec852d61abb0ae5c42168d73175" kind="function"><name>~Src2TgtMaps</name></member>
+      <member refid="group__GeneralGroup_1ga5f0185e4c04090deee9b661477a19867" kind="function"><name>Src2TgtMaps</name></member>
+      <member refid="group__GeneralGroup_1gae2b31503400978781e6bffcecd9959ba" kind="function"><name>~Src2TgtMaps</name></member>
       <member refid="group__GeneralGroup_1gabeb0d23b26b0870de6d5b09538295e27" kind="function"><name>operator const PartMapping &amp;</name></member>
       <member refid="group__GeneralGroup_1ga1408fe5390b44910ee7b305971ff1943" kind="function"><name>getPartMapping</name></member>
     </sectiondef>
@@ -23,7 +23,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="14" bodyend="30"/>
+    <location file="MRMesh/MRPartMappingAdapters.h" line="13" column="1" bodyfile="MRMesh/MRPartMappingAdapters.h" bodystart="14" bodyend="30"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1408fe5390b44910ee7b305971ff1943" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>getPartMapping</name></member>
       <member refid="group__GeneralGroup_1ga15fb51c53ce53b8d8d8ad47293349cf9" prot="private" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>map_</name></member>
@@ -33,9 +33,9 @@
       <member refid="group__GeneralGroup_1gaac6a476fb0bb8c2d10790b7b001cb339" prot="private" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>outVmap_</name></member>
       <member refid="group__GeneralGroup_1ga199f4b544fc545070faa3a5234cdf80f" prot="private" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>src2tgtEdges_</name></member>
       <member refid="group__GeneralGroup_1ga42afc49220ab7931633b0ca59d7552ff" prot="private" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>src2tgtFaces_</name></member>
-      <member refid="group__GeneralGroup_1ga8c21977780c1e2b5edad83656984e28e" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>Src2TgtMaps</name></member>
+      <member refid="group__GeneralGroup_1ga5f0185e4c04090deee9b661477a19867" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>Src2TgtMaps</name></member>
       <member refid="group__GeneralGroup_1ga930e83b4abfdaf3a49370f365e32f23d" prot="private" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>src2tgtVerts_</name></member>
-      <member refid="group__GeneralGroup_1ga88278ec852d61abb0ae5c42168d73175" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>~Src2TgtMaps</name></member>
+      <member refid="group__GeneralGroup_1gae2b31503400978781e6bffcecd9959ba" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>~Src2TgtMaps</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_6afa1a38044d7bf79492c684c039cbe0" kind="dir">
+    <compoundname>MRVoxels</compoundname>
+    <innerfile refid="MRVoxels_2config_8h">config.h</innerfile>
+    <innerfile refid="MRBoolean_8h">MRBoolean.h</innerfile>
+    <innerfile refid="MRCalcDims_8h">MRCalcDims.h</innerfile>
+    <innerfile refid="MRChangeVoxelsAction_8h">MRChangeVoxelsAction.h</innerfile>
+    <innerfile refid="MRChangeVoxelSelectionAction_8h">MRChangeVoxelSelectionAction.h</innerfile>
+    <innerfile refid="MRComputeVolume_8h">MRComputeVolume.h</innerfile>
+    <innerfile refid="MRDicom_8h">MRDicom.h</innerfile>
+    <innerfile refid="MRDistanceVolumeParams_8h">MRDistanceVolumeParams.h</innerfile>
+    <innerfile refid="MRFillingSurface_8h">MRFillingSurface.h</innerfile>
+    <innerfile refid="MRFixUndercuts_8h">MRFixUndercuts.h</innerfile>
+    <innerfile refid="MRFloatGrid_8h">MRFloatGrid.h</innerfile>
+    <innerfile refid="MRFloatGridComponents_8h">MRFloatGridComponents.h</innerfile>
+    <innerfile refid="MRMarchingCubes_8h">MRMarchingCubes.h</innerfile>
+    <innerfile refid="MRMeshToDistanceVolume_8h">MRMeshToDistanceVolume.h</innerfile>
+    <innerfile refid="MRMoveMeshToVoxelMaxDeriv_8h">MRMoveMeshToVoxelMaxDeriv.h</innerfile>
+    <innerfile refid="MRObjectVoxels_8h">MRObjectVoxels.h</innerfile>
+    <innerfile refid="MROffset_8h">MROffset.h</innerfile>
+    <innerfile refid="MROpenVDB_8h">MROpenVDB.h</innerfile>
+    <innerfile refid="MROpenVDBHelper_8h">MROpenVDBHelper.h</innerfile>
+    <innerfile refid="MRPartialOffset_8h">MRPartialOffset.h</innerfile>
+    <innerfile refid="MRPointsToDistanceVolume_8h">MRPointsToDistanceVolume.h</innerfile>
+    <innerfile refid="MRPointsToMeshFusion_8h">MRPointsToMeshFusion.h</innerfile>
+    <innerfile refid="MRPolylineToVoxels_8h">MRPolylineToVoxels.h</innerfile>
+    <innerfile refid="MRRebuildMesh_8h">MRRebuildMesh.h</innerfile>
+    <innerfile refid="MRScalarConvert_8h">MRScalarConvert.h</innerfile>
+    <innerfile refid="MRScanHelpers_8h">MRScanHelpers.h</innerfile>
+    <innerfile refid="MRSequentialNester_8h">MRSequentialNester.h</innerfile>
+    <innerfile refid="MRSweptVolume_8h">MRSweptVolume.h</innerfile>
+    <innerfile refid="MRTeethMaskToDirectionVolume_8h">MRTeethMaskToDirectionVolume.h</innerfile>
+    <innerfile refid="MRTetrisNesting_8h">MRTetrisNesting.h</innerfile>
+    <innerfile refid="MRToolPath_8h">MRToolPath.h</innerfile>
+    <innerfile refid="MRVDBConversions_8h">MRVDBConversions.h</innerfile>
+    <innerfile refid="MRVDBFloatGrid_8h">MRVDBFloatGrid.h</innerfile>
+    <innerfile refid="MRVDBProgressInterrupter_8h">MRVDBProgressInterrupter.h</innerfile>
+    <innerfile refid="MRVolumeInterpolation_8h">MRVolumeInterpolation.h</innerfile>
+    <innerfile refid="MRVolumeSegment_8h">MRVolumeSegment.h</innerfile>
+    <innerfile refid="MRVoxelFilter_8h">MRVoxelFilter.h</innerfile>
+    <innerfile refid="MRVoxelGraphCut_8h">MRVoxelGraphCut.h</innerfile>
+    <innerfile refid="MRVoxelPath_8h">MRVoxelPath.h</innerfile>
+    <innerfile refid="MRVoxelsApplyTransform_8h">MRVoxelsApplyTransform.h</innerfile>
+    <innerfile refid="MRVoxelsConversionsByParts_8h">MRVoxelsConversionsByParts.h</innerfile>
+    <innerfile refid="MRVoxelsFwd_8h">MRVoxelsFwd.h</innerfile>
+    <innerfile refid="MRVoxelsLoad_8h">MRVoxelsLoad.h</innerfile>
+    <innerfile refid="MRVoxelsSave_8h">MRVoxelsSave.h</innerfile>
+    <innerfile refid="MRVoxelsVolume_8h">MRVoxelsVolume.h</innerfile>
+    <innerfile refid="MRVoxelsVolumeAccess_8h">MRVoxelsVolumeAccess.h</innerfile>
+    <innerfile refid="MRVoxelsVolumeCachingAccessor_8h">MRVoxelsVolumeCachingAccessor.h</innerfile>
+    <innerfile refid="MRWeightedPointsShell_8h">MRWeightedPointsShell.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRVoxels/"/>
+  </compounddef>
+</doxygen>

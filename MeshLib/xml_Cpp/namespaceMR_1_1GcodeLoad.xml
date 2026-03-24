@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1GcodeLoad" kind="namespace" language="C++">
     <compoundname>MR::GcodeLoad</compoundname>
     <sectiondef kind="var">
-      <member refid="group__GcodeLoadGroup_1ga35effe39ccae6c9f42a114a9dac9bf44" kind="variable"><name>Filters</name></member>
+      <member refid="group__GcodeLoadGroup_1gabd47706c7b97898cac1416f8753223c7" kind="variable"><name>Filters</name></member>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GcodeLoadGroup_1ga3fb5b21ae941b7ddf2b03fe3cd86d6d9" kind="function"><name>fromGcode</name></member>
-      <member refid="group__GcodeLoadGroup_1ga189701bf2d6aeb45f33edd76af737827" kind="function"><name>fromGcode</name></member>
-      <member refid="group__GcodeLoadGroup_1ga735fe0c1addb07566dd89260cdaff6c0" kind="function"><name>fromAnySupportedFormat</name></member>
-      <member refid="group__GcodeLoadGroup_1ga8be6edc15f79ed3847e61a3704ad234d" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__GcodeLoadGroup_1ga33c573d15dbf5dad94ba542de086310f" kind="function"><name>fromGcode</name></member>
+      <member refid="group__GcodeLoadGroup_1ga9ec4ed07fd9eba700d2b29e209c94a59" kind="function"><name>fromGcode</name></member>
+      <member refid="group__GcodeLoadGroup_1ga5329836b1c029f6aa077f54ac9f320db" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__GcodeLoadGroup_1ga47150c131e109dbf32854c7178a81219" kind="function"><name>fromAnySupportedFormat</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeLoad.h" line="13" column="1"/>
+    <location file="MRMesh/MRGcodeLoad.h" line="13" column="1"/>
   </compounddef>
 </doxygen>

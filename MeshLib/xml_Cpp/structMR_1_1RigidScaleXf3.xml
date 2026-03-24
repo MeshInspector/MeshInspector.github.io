@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RigidScaleXf3" kind="struct" language="C++" prot="public">
     <compoundname>MR::RigidScaleXf3</compoundname>
-    <includes refid="MRRigidScaleXf3_8h" local="no">MRRigidScaleXf3.h</includes>
+    <includes refid="MRRigidScaleXf3_8h" local="no">MRMesh/MRRigidScaleXf3.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -29,7 +29,7 @@
     <detaileddescription>
 <para>rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b, where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="15" bodyend="34"/>
+    <location file="MRMesh/MRRigidScaleXf3.h" line="14" column="1" bodyfile="MRMesh/MRRigidScaleXf3.h" bodystart="15" bodyend="34"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac7250fbdfd02baf9936e263ed527779e" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1gaab41cf4d5be1d1a224a24a5b484e3a1d" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>b</name></member>

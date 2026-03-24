@@ -1,15 +1,55 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCylinder3_8h" kind="file" language="C++">
     <compoundname>MRCylinder3.h</compoundname>
-    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes refid="MRLine_8h" local="yes">MRLine.h</includes>
-    <includedby refid="MRFeatures_8h" local="yes">MRFeatures.h</includedby>
+    <includedby refid="MRFeatures_8h" local="yes">MRMesh/MRFeatures.h</includedby>
     <incdepgraph>
-      <node id="4">
+      <node id="14">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRCylinder3.h</label>
+        <link refid="MRCylinder3_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRLine.h</label>
+        <link refid="MRLine_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -17,61 +57,68 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-      </node>
-      <node id="1">
-        <label>MRCylinder3.h</label>
-        <link refid="MRCylinder3_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRLine.h</label>
-        <link refid="MRLine_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="2">
-        <label>MRMesh/MRMeshFwd.h</label>
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>MRMeshFwd.h</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="15">
         <label>iosfwd</label>
       </node>
-      <node id="8">
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
         <label>type_traits</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRCylinder3.h</label>
+        <label>MRMesh/MRCylinder3.h</label>
         <link refid="MRCylinder3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRFeatures.h</label>
+        <label>MRMesh/MRFeatures.h</label>
         <link refid="MRFeatures_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRSubfeatures.h</label>
+        <label>MRMesh/MRSubfeatures.h</label>
         <link refid="MRSubfeatures_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRVisualSubfeatures.h</label>
+        <label>MRViewer/MRVisualSubfeatures.h</label>
         <link refid="MRVisualSubfeatures_8h"/>
       </node>
     </invincdepgraph>
@@ -84,14 +131,14 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRLine_8h" kindref="compound">MRLine.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"></codeline>
-<codeline lineno="13"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1Cylinder3" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1Cylinder3" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2724ae87e66c30b14b9c64852d404fb4" kindref="member">Cylinder3</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga2724ae87e66c30b14b9c64852d404fb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2724ae87e66c30b14b9c64852d404fb4" kindref="member">Cylinder3</ref>()</highlight></codeline>
@@ -103,7 +150,7 @@
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1badba33dd4c2e2d83af7d18fdb2e605" kindref="member">radius</ref>(<sp/>inRadius<sp/>),</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga49761af205e8affe422e2ff23a49935b" kindref="member">length</ref>(<sp/>inLength<sp/>)</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1ga3b378f8ca92a85ffc3053dcf19cddfa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3b378f8ca92a85ffc3053dcf19cddfa1" kindref="member">Cylinder3</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3&lt;T&gt;&amp;<sp/>inAxis,<sp/>T<sp/>inRadius,<sp/>T<sp/>inLength<sp/>)</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga3b378f8ca92a85ffc3053dcf19cddfa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3b378f8ca92a85ffc3053dcf19cddfa1" kindref="member">Cylinder3</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3&lt;T&gt;</ref>&amp;<sp/>inAxis,<sp/>T<sp/>inRadius,<sp/>T<sp/>inLength<sp/>)</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" kindref="member">mainAxis</ref>(<sp/>inAxis<sp/>),</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1badba33dd4c2e2d83af7d18fdb2e605" kindref="member">radius</ref>(<sp/>inRadius<sp/>),</highlight></codeline>
@@ -130,13 +177,13 @@
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" kindref="member">mainAxis</ref>.d;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Line3&lt;T&gt;<sp/><ref refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" kindref="member">mainAxis</ref>;</highlight></codeline>
+<codeline lineno="53" refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" kindref="member">mainAxis</ref>;</highlight></codeline>
 <codeline lineno="54" refid="group__GeneralGroup_1ga1badba33dd4c2e2d83af7d18fdb2e605" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><ref refid="group__GeneralGroup_1ga1badba33dd4c2e2d83af7d18fdb2e605" kindref="member">radius</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="55" refid="group__GeneralGroup_1ga49761af205e8affe422e2ff23a49935b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><ref refid="group__GeneralGroup_1ga49761af205e8affe422e2ff23a49935b" kindref="member">length</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h"/>
+    <location file="MRMesh/MRCylinder3.h"/>
   </compounddef>
 </doxygen>

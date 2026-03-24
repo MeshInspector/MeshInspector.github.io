@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TrimWithPlaneParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::TrimWithPlaneParams</compoundname>
-    <includes refid="MRMeshTrimWithPlane_8h" local="no">MRMeshTrimWithPlane.h</includes>
+    <includes refid="MRMeshTrimWithPlane_8h" local="no">MRMesh/MRMeshTrimWithPlane.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gac31ec54e79c7c73e956dd8f91eb4e37c" kind="variable"><name>plane</name></member>
       <member refid="group__GeneralGroup_1ga21fbd4b8bfa38a079a62c8911d914b35" kind="variable"><name>eps</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="48" bodyend="55"/>
+    <location file="MRMesh/MRMeshTrimWithPlane.h" line="47" column="1" bodyfile="MRMesh/MRMeshTrimWithPlane.h" bodystart="48" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga21fbd4b8bfa38a079a62c8911d914b35" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>eps</name></member>
       <member refid="group__GeneralGroup_1gaad3ace62ca2c0713d844f88dc24df14c" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>onEdgeSplitCallback</name></member>

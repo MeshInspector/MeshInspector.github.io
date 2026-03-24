@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1IteratorRange" kind="struct" language="C++" prot="public">
     <compoundname>MR::IteratorRange</compoundname>
-    <includes refid="MRIteratorRange_8h" local="no">MRIteratorRange.h</includes>
+    <includes refid="MRIteratorRange_8h" local="no">MRMesh/MRIteratorRange.h</includes>
     <templateparamlist>
       <param>
-        <type>typename I</type>
+        <type>typename <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1IteratorRange_1a6dc3025499872ade8eaf5f1768b10aa3" prot="public" static="no" mutable="no">
-        <type>I</type>
+        <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
         <definition>I MR::IteratorRange&lt; I &gt;::begin_</definition>
         <argsstring></argsstring>
         <name>begin_</name>
@@ -21,10 +21,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" line="14" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" bodystart="14" bodyend="-1"/>
+        <location file="MRMesh/MRIteratorRange.h" line="14" column="7" bodyfile="MRMesh/MRIteratorRange.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IteratorRange_1af62765e0ec5f90f3aaafe5a6fd50938a" prot="public" static="no" mutable="no">
-        <type>I</type>
+        <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
         <definition>I MR::IteratorRange&lt; I &gt;::end_</definition>
         <argsstring></argsstring>
         <name>end_</name>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" line="14" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" bodystart="14" bodyend="-1"/>
+        <location file="MRMesh/MRIteratorRange.h" line="14" column="14" bodyfile="MRMesh/MRIteratorRange.h" bodystart="14" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -46,11 +46,11 @@
         <name>IteratorRange</name>
         <qualifiedname>MR::IteratorRange::IteratorRange</qualifiedname>
         <param>
-          <type>I</type>
+          <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
           <declname>begin</declname>
         </param>
         <param>
-          <type>I</type>
+          <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
           <declname>end</declname>
         </param>
         <briefdescription>
@@ -59,18 +59,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" bodystart="15" bodyend="15"/>
+        <location file="MRMesh/MRIteratorRange.h" line="15" column="5" bodyfile="MRMesh/MRIteratorRange.h" bodystart="15" bodyend="15"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
       <memberdef kind="friend" id="structMR_1_1IteratorRange_1a2cbe8082c7fec924d06a467c19260390" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>I</type>
+        <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
         <definition>I begin</definition>
         <argsstring>(const IteratorRange&lt; I &gt; &amp;range)</argsstring>
         <name>begin</name>
         <qualifiedname>MR::IteratorRange::begin</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange</ref>&lt; I &gt; &amp;</type>
+          <type>const <ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange</ref>&lt; <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref> &gt; &amp;</type>
           <declname>range</declname>
         </param>
         <briefdescription>
@@ -79,16 +79,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" line="17" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" bodystart="17" bodyend="17"/>
+        <location file="MRMesh/MRIteratorRange.h" line="17" column="15" bodyfile="MRMesh/MRIteratorRange.h" bodystart="17" bodyend="17"/>
       </memberdef>
       <memberdef kind="friend" id="structMR_1_1IteratorRange_1ae2c10b110d46799c0579751f41c9fcd5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>I</type>
+        <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
         <definition>I end</definition>
         <argsstring>(const IteratorRange&lt; I &gt; &amp;range)</argsstring>
         <name>end</name>
         <qualifiedname>MR::IteratorRange::end</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange</ref>&lt; I &gt; &amp;</type>
+          <type>const <ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange</ref>&lt; <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref> &gt; &amp;</type>
           <declname>range</declname>
         </param>
         <briefdescription>
@@ -97,14 +97,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" line="18" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" bodystart="18" bodyend="18"/>
+        <location file="MRMesh/MRIteratorRange.h" line="18" column="15" bodyfile="MRMesh/MRIteratorRange.h" bodystart="18" bodyend="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h" bodystart="13" bodyend="19"/>
+    <location file="MRMesh/MRIteratorRange.h" line="12" column="1" bodyfile="MRMesh/MRIteratorRange.h" bodystart="13" bodyend="19"/>
     <listofallmembers>
       <member refid="structMR_1_1IteratorRange_1a2cbe8082c7fec924d06a467c19260390" prot="public" virt="non-virtual"><scope>MR::IteratorRange</scope><name>begin</name></member>
       <member refid="structMR_1_1IteratorRange_1a6dc3025499872ade8eaf5f1768b10aa3" prot="public" virt="non-virtual"><scope>MR::IteratorRange</scope><name>begin_</name></member>

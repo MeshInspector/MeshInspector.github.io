@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__HistoryGroup" kind="group">
     <compoundname>HistoryGroup</compoundname>
     <title>History group</title>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="16" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="16" column="5" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="16" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="17" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="17" bodyend="-1"/>
+        <location file="MRMesh/MRPartialChangeMeshAction.h" line="17" column="25" bodyfile="MRMesh/MRPartialChangeMeshAction.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__HistoryGroup_1ga66d1f6caeb3fa983f8d823d501d10cc3" prot="public" static="no" constexpr="yes" mutable="no">
         <type>SetNew</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="21" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MRPartialChangeMeshAction.h" line="21" column="25" bodyfile="MRMesh/MRPartialChangeMeshAction.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__HistoryGroup_1ga0cc628db3ee48e266c212223bb7e7c22" prot="private" static="no" mutable="no">
         <type>std::vector&lt; std::pair&lt; ViewportId, Viewport::Parameters &gt; &gt;</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="52" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="52" bodyend="-1"/>
+        <location file="MRViewer/MRViewportParametersAction.h" line="52" column="17" bodyfile="MRViewer/MRViewportParametersAction.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__HistoryGroup_1gac68687f06583aae672d38f0ba7b6c11a" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="54" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="54" bodyend="-1"/>
+        <location file="MRViewer/MRViewportParametersAction.h" line="54" column="17" bodyfile="MRViewer/MRViewportParametersAction.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__HistoryGroup_1gae1b709f99f76a6e3464071cb56642a42" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="57" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="57" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="57" column="17" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__HistoryGroup_1ga46098df8eaeeaa4a63b6718a366f6af4" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; Obj &gt;</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="58" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="58" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="58" column="21" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__HistoryGroup_1ga93a11f9143eeb19f2d1692094b89117c" prot="private" static="no" mutable="no">
         <type>VoxelBitSet</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="59" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="59" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="59" column="17" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="59" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="20" bodyend="26"/>
+        <location file="MRViewer/MRViewportParametersAction.h" line="20" column="5" bodyfile="MRViewer/MRViewportParametersAction.h" bodystart="20" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="28" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="28" bodyend="31"/>
+        <location file="MRViewer/MRViewportParametersAction.h" line="28" column="25" bodyfile="MRViewer/MRViewportParametersAction.h" bodystart="28" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1gab0a69b615a514d76010260695c2116e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -229,7 +229,7 @@
         <inbodydescription>
 <para>Assume user does not change viewports number</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="33" bodyend="44"/>
+        <location file="MRViewer/MRViewportParametersAction.h" line="33" column="18" bodyfile="MRViewer/MRViewportParametersAction.h" bodystart="33" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1gabe2857cfb3a48ee763a3a83857c55423" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="46" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="46" bodyend="49"/>
+        <location file="MRViewer/MRViewportParametersAction.h" line="46" column="21" bodyfile="MRViewer/MRViewportParametersAction.h" bodystart="46" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1gacd0912663f58360180bc863ab572daf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -268,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="19" bodyend="26"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="19" column="5" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="19" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1ga4613d2480c87b60c6d32385f80849bbe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="28" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="28" bodyend="31"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="28" column="25" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="28" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1gaebcfdaaba426fea5c32f5ca836a7085f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -303,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="33" bodyend="40"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="33" column="18" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="33" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1ga639784e559a258dafd067f1e374d0ae2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VoxelBitSet &amp;</type>
@@ -317,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="42" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="42" bodyend="45"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="42" column="23" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="42" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1ga54f4bbe409819b2a781e9d559f22298e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="48" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="48" bodyend="49"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="48" column="17" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="48" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="group__HistoryGroup_1ga970e3207174343bffc6f631586e4f59d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -351,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="51" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="51" bodyend="54"/>
+        <location file="MRVoxels/MRChangeVoxelSelectionAction.h" line="51" column="21" bodyfile="MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="51" bodyend="54"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

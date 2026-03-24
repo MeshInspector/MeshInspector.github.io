@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshPointAndDistance" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshPointAndDistance</compoundname>
-    <includes refid="MRClosestWeightedPoint_8h" local="no">MRClosestWeightedPoint.h</includes>
+    <includes refid="MRClosestWeightedPoint_8h" local="no">MRMesh/MRClosestWeightedPoint.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga9b47aa3f3db622af71c97138bff74b58" kind="variable"><name>loc</name></member>
       <member refid="group__GeneralGroup_1ga1a758547372340f32380f76222e7c0b0" kind="variable"><name>mtp</name></member>
@@ -34,7 +34,7 @@
         <link refid="structMR_1_1MeshTriPoint"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="28" bodyend="75"/>
+    <location file="MRMesh/MRClosestWeightedPoint.h" line="27" column="1" bodyfile="MRMesh/MRClosestWeightedPoint.h" bodystart="28" bodyend="75"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac102c7f872739c407d7b1cd4e2d6ac1c" prot="public" virt="non-virtual"><scope>MR::MeshPointAndDistance</scope><name>bidirDist</name></member>
       <member refid="group__GeneralGroup_1ga85df864c952f06e84cd510cdebc36a74" prot="public" virt="non-virtual"><scope>MR::MeshPointAndDistance</scope><name>bidirectionalOrOutside</name></member>

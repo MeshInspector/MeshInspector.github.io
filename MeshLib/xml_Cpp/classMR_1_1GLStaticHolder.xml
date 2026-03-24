@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GLStaticHolder" kind="class" language="C++" prot="public">
     <compoundname>MR::GLStaticHolder</compoundname>
-    <includes refid="MRGLStaticHolder_8h" local="no">MRGLStaticHolder.h</includes>
+    <includes refid="MRGLStaticHolder_8h" local="no">MRViewer/MRGLStaticHolder.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kind="enum"><name>ShaderType</name></member>
       <member refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" kind="typedef"><name>GLuint</name></member>
@@ -13,13 +13,13 @@
       <member refid="group__GeneralGroup_1gac14012c90288a98d81e3bf908bbcf6cc" kind="variable"><name>glBuffer_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gaec292ddb5c9a8585fba9bf8b4d89cca9" kind="function"><name>getShaderId</name></member>
-      <member refid="group__GeneralGroup_1ga22ecad2e2dfaf820899303c6ce330839" kind="function"><name>freeShader</name></member>
-      <member refid="group__GeneralGroup_1gada665fd573c08a25baa0a66d6e69a9f8" kind="function"><name>freeAllShaders</name></member>
-      <member refid="group__GeneralGroup_1ga26b1c1199ef9d8f3647524ab6b8099e6" kind="function"><name>getStaticGLBuffer</name></member>
-      <member refid="group__GeneralGroup_1ga4e8e7478e107aae5a007b483056dfc9e" kind="function"><name>getTransparentPointsShader</name></member>
-      <member refid="group__GeneralGroup_1gad5f78ee78fae0710ed36199e5cc5d387" kind="function"><name>getTransparentLinesShader</name></member>
-      <member refid="group__GeneralGroup_1ga1a384521c17e759cfdf6662d29194aa9" kind="function"><name>getTransparentMeshShader</name></member>
+      <member refid="group__GeneralGroup_1ga0f57f5da2c3f4e0c838d34fa298ef741" kind="function"><name>getShaderId</name></member>
+      <member refid="group__GeneralGroup_1ga9a2999730b88c2298591cbe03b24b67e" kind="function"><name>freeShader</name></member>
+      <member refid="group__GeneralGroup_1ga173930702e90c1c9ca96624d81d0da2d" kind="function"><name>freeAllShaders</name></member>
+      <member refid="group__GeneralGroup_1ga0611bde5450343c3b3ed351833f6f2f0" kind="function"><name>getStaticGLBuffer</name></member>
+      <member refid="group__GeneralGroup_1ga962af224d68de5b6cf44d80a042d6df3" kind="function"><name>getTransparentPointsShader</name></member>
+      <member refid="group__GeneralGroup_1gaf4ec6ef8a1462bc38c732094040a8219" kind="function"><name>getTransparentLinesShader</name></member>
+      <member refid="group__GeneralGroup_1gabde56ffc0b0e9fe64479eaa79a8b3f60" kind="function"><name>getTransparentMeshShader</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga1f71f9736d6f534cf810cee09c7d3321" kind="function"><name>GLStaticHolder</name></member>
@@ -34,7 +34,7 @@
     <detaileddescription>
 <para>This class holds all shaders that are used in the program creates shader on access if it is needed holds shared memory buffer for loading to GPU </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLStaticHolder.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLStaticHolder.h" bodystart="15" bodyend="90"/>
+    <location file="MRViewer/MRGLStaticHolder.h" line="14" column="1" bodyfile="MRViewer/MRGLStaticHolder.h" bodystart="15" bodyend="90"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AdditionalLines</name></member>
       <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AdditionalPoints</name></member>
@@ -50,13 +50,13 @@
       <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748abf2aed4198169c421ff15bc1bd5aa64a" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>DepthPeelLines</name></member>
       <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a1e35ffa9624e0286d760cbbf53161738" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>DepthPeelMesh</name></member>
       <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a2c4ef45ab8a73e1fafde1de6f40ac3d2" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>DepthPeelPoints</name></member>
-      <member refid="group__GeneralGroup_1gada665fd573c08a25baa0a66d6e69a9f8" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>freeAllShaders</name></member>
-      <member refid="group__GeneralGroup_1ga22ecad2e2dfaf820899303c6ce330839" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>freeShader</name></member>
-      <member refid="group__GeneralGroup_1gaec292ddb5c9a8585fba9bf8b4d89cca9" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getShaderId</name></member>
-      <member refid="group__GeneralGroup_1ga26b1c1199ef9d8f3647524ab6b8099e6" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getStaticGLBuffer</name></member>
-      <member refid="group__GeneralGroup_1gad5f78ee78fae0710ed36199e5cc5d387" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentLinesShader</name></member>
-      <member refid="group__GeneralGroup_1ga1a384521c17e759cfdf6662d29194aa9" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentMeshShader</name></member>
-      <member refid="group__GeneralGroup_1ga4e8e7478e107aae5a007b483056dfc9e" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentPointsShader</name></member>
+      <member refid="group__GeneralGroup_1ga173930702e90c1c9ca96624d81d0da2d" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>freeAllShaders</name></member>
+      <member refid="group__GeneralGroup_1ga9a2999730b88c2298591cbe03b24b67e" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>freeShader</name></member>
+      <member refid="group__GeneralGroup_1ga0f57f5da2c3f4e0c838d34fa298ef741" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getShaderId</name></member>
+      <member refid="group__GeneralGroup_1ga0611bde5450343c3b3ed351833f6f2f0" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getStaticGLBuffer</name></member>
+      <member refid="group__GeneralGroup_1gaf4ec6ef8a1462bc38c732094040a8219" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentLinesShader</name></member>
+      <member refid="group__GeneralGroup_1gabde56ffc0b0e9fe64479eaa79a8b3f60" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentMeshShader</name></member>
+      <member refid="group__GeneralGroup_1ga962af224d68de5b6cf44d80a042d6df3" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentPointsShader</name></member>
       <member refid="group__GeneralGroup_1gac14012c90288a98d81e3bf908bbcf6cc" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>glBuffer_</name></member>
       <member refid="group__GeneralGroup_1ga1f71f9736d6f534cf810cee09c7d3321" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>GLStaticHolder</name></member>
       <member refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>GLuint</name></member>

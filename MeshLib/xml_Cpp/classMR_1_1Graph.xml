@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Graph" kind="class" language="C++" prot="public">
     <compoundname>MR::Graph</compoundname>
-    <includes refid="MRGraph_8h" local="no">MRGraph.h</includes>
+    <includes refid="MRGraph_8h" local="no">MRMesh/MRGraph.h</includes>
     <innerclass refid="structMR_1_1Graph_1_1EndVertices" prot="public">MR::Graph::EndVertices</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kind="typedef"><name>VertId</name></member>
@@ -20,7 +20,7 @@
       <member refid="group__GeneralGroup_1gafc6e669b11365ec3aa8af178cb853bec" kind="variable"><name>endsPerEdge_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga01fe9290eb0140ff0193c6ce4a3ea5b8" kind="function"><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga59a709d25b047768d7e7ce781f08cda1" kind="function"><name>construct</name></member>
       <member refid="group__GeneralGroup_1gac31feb99fa40a7a7fee0c9806f676b11" kind="function"><name>vertSize</name></member>
       <member refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" kind="function"><name>validVerts</name></member>
       <member refid="group__GeneralGroup_1ga46ac2204a29916d4c70d8902b0a21868" kind="function"><name>valid</name></member>
@@ -29,29 +29,29 @@
       <member refid="group__GeneralGroup_1ga5091e905ddd17f80fb7c3996ce095e58" kind="function"><name>valid</name></member>
       <member refid="group__GeneralGroup_1ga39fd49331c460c5a968a62a2140d2990" kind="function"><name>neighbours</name></member>
       <member refid="group__GeneralGroup_1ga0c37e0844926fa87642bc735718dd643" kind="function"><name>ends</name></member>
-      <member refid="group__GeneralGroup_1ga5de54676ec0131e5355d47e44f31019d" kind="function"><name>findEdge</name></member>
+      <member refid="group__GeneralGroup_1ga273cded12b630876938d2dde74193619" kind="function"><name>findEdge</name></member>
       <member refid="group__GeneralGroup_1gac3097672a81dda206c80984a7fdb0806" kind="function"><name>areNeighbors</name></member>
-      <member refid="group__GeneralGroup_1ga2dab2ce76e4259ff2c5d66ec4c68c98a" kind="function"><name>merge</name></member>
-      <member refid="group__GeneralGroup_1ga6c46ebc56429665872ef490d8d8674ce" kind="function"><name>checkValidity</name></member>
+      <member refid="group__GeneralGroup_1gaa99d400cb1ebbbc1ce019109ef916833" kind="function"><name>merge</name></member>
+      <member refid="group__GeneralGroup_1gab26fbb915c93b782e599cf1a768fab63" kind="function"><name>checkValidity</name></member>
     </sectiondef>
     <briefdescription>
 <para>mathematical graph consisting from vertices and undirected edges </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="17" bodyend="97"/>
+    <location file="MRMesh/MRGraph.h" line="16" column="1" bodyfile="MRMesh/MRGraph.h" bodystart="17" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac3097672a81dda206c80984a7fdb0806" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>areNeighbors</name></member>
-      <member refid="group__GeneralGroup_1ga6c46ebc56429665872ef490d8d8674ce" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>checkValidity</name></member>
-      <member refid="group__GeneralGroup_1ga01fe9290eb0140ff0193c6ce4a3ea5b8" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
+      <member refid="group__GeneralGroup_1gab26fbb915c93b782e599cf1a768fab63" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>checkValidity</name></member>
+      <member refid="group__GeneralGroup_1ga59a709d25b047768d7e7ce781f08cda1" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
       <member refid="group__GeneralGroup_1ga8479c33a6ee26f007a35cab71ba0f2b5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EdgeBitSet</name></member>
       <member refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EdgeId</name></member>
       <member refid="group__GeneralGroup_1ga0c5f4eae690cb57f429c9656db0e2dad" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>edgeSize</name></member>
       <member refid="group__GeneralGroup_1ga0c37e0844926fa87642bc735718dd643" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>ends</name></member>
       <member refid="group__GeneralGroup_1ga429f57208104bd4a3efcceeaa5ba4dce" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EndsPerEdge</name></member>
       <member refid="group__GeneralGroup_1gafc6e669b11365ec3aa8af178cb853bec" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>endsPerEdge_</name></member>
-      <member refid="group__GeneralGroup_1ga5de54676ec0131e5355d47e44f31019d" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>findEdge</name></member>
-      <member refid="group__GeneralGroup_1ga2dab2ce76e4259ff2c5d66ec4c68c98a" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>merge</name></member>
+      <member refid="group__GeneralGroup_1ga273cded12b630876938d2dde74193619" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>findEdge</name></member>
+      <member refid="group__GeneralGroup_1gaa99d400cb1ebbbc1ce019109ef916833" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>merge</name></member>
       <member refid="group__GeneralGroup_1ga77cba04748e7954c18b2aebc282f0d74" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Neighbours</name></member>
       <member refid="group__GeneralGroup_1ga39fd49331c460c5a968a62a2140d2990" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>neighbours</name></member>
       <member refid="group__GeneralGroup_1ga0f0a516aa03bd6f100040d2696d0c808" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>NeighboursPerVertex</name></member>

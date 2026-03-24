@@ -1,7 +1,5 @@
 var MRStringConvert_8h =
 [
-    [ "MR_std_string", "MRStringConvert_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_std_vector_std_filesystem_path", "MRStringConvert_8h.html#a4d75e004d098bc7d987ebfcf304f5454", null ],
     [ "MR_bytesString", "MRStringConvert_8h.html#ad8c2bf57225428d63eefbf15ce09b020", null ],
     [ "MR_commonFilesName", "MRStringConvert_8h.html#a8a71cc1e444dbd286b2b92bb685b771a", null ],
     [ "MR_getCancelMessage", "MRStringConvert_8h.html#ad7ae26dc73115bc6f2571acf8f260784", null ],

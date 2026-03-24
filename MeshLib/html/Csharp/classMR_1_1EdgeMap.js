@@ -16,6 +16,7 @@ var classMR_1_1EdgeMap =
     [ "data", "classMR_1_1EdgeMap.html#a317d971f85610c821fc7153cdfb8d1ec", null ],
     [ "emplaceBack", "classMR_1_1EdgeMap.html#a4a4986c02ca1a21096c51dcca5b4137b", null ],
     [ "front", "classMR_1_1EdgeMap.html#aaae381e7413f67f2317ba13e782a5819", null ],
+    [ "GetEnumerator", "classMR_1_1EdgeMap.html#a2196fd9587fb1013ec0e429aa2d660b8", null ],
     [ "operator EdgeMap", "classMR_1_1EdgeMap.html#af37cf6449ccd0abe992d2906171fec23", null ],
     [ "popBack", "classMR_1_1EdgeMap.html#af12ecb46144f0e2674524a37ab78a926", null ],
     [ "pushBack", "classMR_1_1EdgeMap.html#add45b756a3e3cbef9a43586e488b8b90", null ],

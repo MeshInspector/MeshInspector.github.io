@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PolylineMaker" kind="struct" language="C++" prot="public">
     <compoundname>MR::PolylineMaker</compoundname>
-    <includes refid="MRPolylineTopology_8h" local="no">MRPolylineTopology.h</includes>
+    <includes refid="MRPolylineTopology_8h" local="no">MRMesh/MRPolylineTopology.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kind="variable"><name>topology</name></member>
     </sectiondef>
@@ -35,7 +35,7 @@
         <link refid="classMR_1_1PolylineTopology"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="344" bodyend="384"/>
+    <location file="MRMesh/MRPolylineTopology.h" line="343" column="1" bodyfile="MRMesh/MRPolylineTopology.h" bodystart="344" bodyend="384"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6b10efd85c33f60e8896d7ce1971364f" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>close</name></member>
       <member refid="group__GeneralGroup_1gaf40f932e2b6c35a118333ea82cae91ea" prot="private" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>e0_</name></member>

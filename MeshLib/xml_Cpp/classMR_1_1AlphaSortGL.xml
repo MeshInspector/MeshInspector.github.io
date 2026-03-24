@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AlphaSortGL" kind="class" language="C++" prot="public">
     <compoundname>MR::AlphaSortGL</compoundname>
-    <includes refid="MRAlphaSortGL_8h" local="no">MRAlphaSortGL.h</includes>
+    <includes refid="MRAlphaSortGL_8h" local="no">MRViewer/MRAlphaSortGL.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga29e1a40f8ddae233dc49511e5daa9200" kind="typedef"><name>GLuint</name></member>
     </sectiondef>
@@ -29,7 +29,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="10" bodyend="39"/>
+    <location file="MRViewer/MRAlphaSortGL.h" line="9" column="1" bodyfile="MRViewer/MRAlphaSortGL.h" bodystart="10" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa3555625f912cb6a3c62641f8cdb5653" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>clearTransparencyTextures</name></member>
       <member refid="group__GeneralGroup_1ga8ce534a2e3836fdcf88ee61badbb7eac" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>drawTransparencyTextureToScreen</name></member>

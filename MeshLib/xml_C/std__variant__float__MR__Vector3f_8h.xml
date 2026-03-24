@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__variant__float__MR__Vector3f_8h" kind="file" language="C++">
+    <compoundname>std_variant_float_MR_Vector3f.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_variant_float_MR_Vector3f.h</label>
+        <link refid="std__variant__float__MR__Vector3f_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a2fce567eaaa7984c312a59b27f187d83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_variant_float_MR_Vector3f * MR_std_variant_float_MR_Vector3f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__float__MR__Vector3f_8h_1aab7c37c435fabc560d32877b6cc1c4a4" kindref="member">MR_std_variant_float_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="19" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="19" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1adc2174bbb04e001e7899078c1bd5c946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_variant_float_MR_Vector3f * MR_std_variant_float_MR_Vector3f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__variant__float__MR__Vector3f_8h_1ad13fa2d5e6890d48ae0bf3475d5abe63" kindref="member">MR_std_variant_float_MR_Vector3f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__variant__float__MR__Vector3f_8h_1a0fce499b2ea876b3894aca0f064ddb35" kindref="member">MR_std_variant_float_MR_Vector3f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__variant__float__MR__Vector3f_8h_1ae2f880d918f463a5147f73b7e4ce2d60" kindref="member">MR_std_variant_float_MR_Vector3f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="24" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="24" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a9b35d03f6088d686899bcff1656c8855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_variant_float_MR_Vector3f * MR_std_variant_float_MR_Vector3f_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_variant_float_MR_Vector3f *other)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__float__MR__Vector3f_8h_1aab7c37c435fabc560d32877b6cc1c4a4" kindref="member">MR_std_variant_float_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="31" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="31" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a6dd5e2523a4eef57329b56aa8f4c10f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_float_MR_Vector3f_AssignFromAnother</definition>
+        <argsstring>(MR_std_variant_float_MR_Vector3f *_this, const MR_std_variant_float_MR_Vector3f *other)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1aab7c37c435fabc560d32877b6cc1c4a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_float_MR_Vector3f_Destroy</definition>
+        <argsstring>(const MR_std_variant_float_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1ad13fa2d5e6890d48ae0bf3475d5abe63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_float_MR_Vector3f_DestroyArray</definition>
+        <argsstring>(const MR_std_variant_float_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1ae2f880d918f463a5147f73b7e4ce2d60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_std_variant_float_MR_Vector3f * MR_std_variant_float_MR_Vector3f_OffsetPtr</definition>
+        <argsstring>(const MR_std_variant_float_MR_Vector3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="48" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="48" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a0fce499b2ea876b3894aca0f064ddb35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_variant_float_MR_Vector3f * MR_std_variant_float_MR_Vector3f_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_variant_float_MR_Vector3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="52" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="52" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a8657d13f7148833a12806c724a6f7fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_variant_float_MR_Vector3f_index</definition>
+        <argsstring>(const MR_std_variant_float_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_index</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the index of the stored element type. In rare cases may return -1 if this variant is &quot;valueless by exception&quot;. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="56" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="56" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a50d1ca205e0c795dedc3827dfcdc644a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_variant_float_MR_Vector3f * MR_std_variant_float_MR_Vector3f_ConstructAs_float</definition>
+        <argsstring>(float value)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_ConstructAs_float</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 0, of type <computeroutput>float</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__float__MR__Vector3f_8h_1aab7c37c435fabc560d32877b6cc1c4a4" kindref="member">MR_std_variant_float_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="61" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="61" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a399bfe755d64025451285e50b240e6c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_variant_float_MR_Vector3f * MR_std_variant_float_MR_Vector3f_ConstructAs_MR_Vector3f</definition>
+        <argsstring>(MR_Vector3f value)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_ConstructAs_MR_Vector3f</name>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 1, of type <computeroutput>MR::Vector3f</computeroutput>. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__float__MR__Vector3f_8h_1aab7c37c435fabc560d32877b6cc1c4a4" kindref="member">MR_std_variant_float_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="67" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="67" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a3580555980b3a165330d8299be189a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_float_MR_Vector3f_AssignAs_float</definition>
+        <argsstring>(MR_std_variant_float_MR_Vector3f *_this, float value)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_AssignAs_float</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 0, of type <computeroutput>float</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="72" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a5f4daa6106650cd9a226d40dff3f416d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_float_MR_Vector3f_AssignAs_MR_Vector3f</definition>
+        <argsstring>(MR_std_variant_float_MR_Vector3f *_this, MR_Vector3f value)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_AssignAs_MR_Vector3f</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 1, of type <computeroutput>MR::Vector3f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a65cdccb566e552962fa8a605a4060265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_std_variant_float_MR_Vector3f_get_float</definition>
+        <argsstring>(const MR_std_variant_float_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_get_float</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>float</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="83" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="83" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a68506f74e2ba6095f10ac0baa876ce49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_std_variant_float_MR_Vector3f_get_float_mut</definition>
+        <argsstring>(MR_std_variant_float_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_get_float_mut</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>float</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="88" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="88" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1a9e6b3b218b46215aeba7081dd9d66cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_std_variant_float_MR_Vector3f_get_MR_Vector3f</definition>
+        <argsstring>(const MR_std_variant_float_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_get_MR_Vector3f</name>
+        <param>
+          <type>const <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>MR::Vector3f</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="93" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="93" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__float__MR__Vector3f_8h_1afcd579f540e9af842b57c7a8d8b62cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_std_variant_float_MR_Vector3f_get_MR_Vector3f_mut</definition>
+        <argsstring>(MR_std_variant_float_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_variant_float_MR_Vector3f_get_MR_Vector3f_mut</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>MR::Vector3f</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" line="98" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h" declline="98" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="std__variant__float__MR__Vector3f_8h_1a2fce567eaaa7984c312a59b27f187d83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1a2fce567eaaa7984c312a59b27f187d83" kindref="member">MR_std_variant_float_MR_Vector3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__variant__float__MR__Vector3f_8h_1adc2174bbb04e001e7899078c1bd5c946" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1adc2174bbb04e001e7899078c1bd5c946" kindref="member">MR_std_variant_float_MR_Vector3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="std__variant__float__MR__Vector3f_8h_1a9b35d03f6088d686899bcff1656c8855" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1a9b35d03f6088d686899bcff1656c8855" kindref="member">MR_std_variant_float_MR_Vector3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__variant__float__MR__Vector3f_8h_1a6dd5e2523a4eef57329b56aa8f4c10f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__float__MR__Vector3f_8h_1a6dd5e2523a4eef57329b56aa8f4c10f6" kindref="member">MR_std_variant_float_MR_Vector3f_AssignFromAnother</ref>(<ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__variant__float__MR__Vector3f_8h_1aab7c37c435fabc560d32877b6cc1c4a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__float__MR__Vector3f_8h_1aab7c37c435fabc560d32877b6cc1c4a4" kindref="member">MR_std_variant_float_MR_Vector3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__variant__float__MR__Vector3f_8h_1ad13fa2d5e6890d48ae0bf3475d5abe63" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__float__MR__Vector3f_8h_1ad13fa2d5e6890d48ae0bf3475d5abe63" kindref="member">MR_std_variant_float_MR_Vector3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__variant__float__MR__Vector3f_8h_1ae2f880d918f463a5147f73b7e4ce2d60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1ae2f880d918f463a5147f73b7e4ce2d60" kindref="member">MR_std_variant_float_MR_Vector3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__variant__float__MR__Vector3f_8h_1a0fce499b2ea876b3894aca0f064ddb35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1a0fce499b2ea876b3894aca0f064ddb35" kindref="member">MR_std_variant_float_MR_Vector3f_OffsetMutablePtr</ref>(<ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="std__variant__float__MR__Vector3f_8h_1a8657d13f7148833a12806c724a6f7fe4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__variant__float__MR__Vector3f_8h_1a8657d13f7148833a12806c724a6f7fe4" kindref="member">MR_std_variant_float_MR_Vector3f_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__variant__float__MR__Vector3f_8h_1a50d1ca205e0c795dedc3827dfcdc644a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1a50d1ca205e0c795dedc3827dfcdc644a" kindref="member">MR_std_variant_float_MR_Vector3f_ConstructAs_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__variant__float__MR__Vector3f_8h_1a399bfe755d64025451285e50b240e6c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1a399bfe755d64025451285e50b240e6c4" kindref="member">MR_std_variant_float_MR_Vector3f_ConstructAs_MR_Vector3f</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__variant__float__MR__Vector3f_8h_1a3580555980b3a165330d8299be189a03" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__float__MR__Vector3f_8h_1a3580555980b3a165330d8299be189a03" kindref="member">MR_std_variant_float_MR_Vector3f_AssignAs_float</ref>(<ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__variant__float__MR__Vector3f_8h_1a5f4daa6106650cd9a226d40dff3f416d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__float__MR__Vector3f_8h_1a5f4daa6106650cd9a226d40dff3f416d" kindref="member">MR_std_variant_float_MR_Vector3f_AssignAs_MR_Vector3f</ref>(<ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__variant__float__MR__Vector3f_8h_1a65cdccb566e552962fa8a605a4060265" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1a65cdccb566e552962fa8a605a4060265" kindref="member">MR_std_variant_float_MR_Vector3f_get_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="std__variant__float__MR__Vector3f_8h_1a68506f74e2ba6095f10ac0baa876ce49" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1a68506f74e2ba6095f10ac0baa876ce49" kindref="member">MR_std_variant_float_MR_Vector3f_get_float_mut</ref>(<ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="std__variant__float__MR__Vector3f_8h_1a9e6b3b218b46215aeba7081dd9d66cdf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1a9e6b3b218b46215aeba7081dd9d66cdf" kindref="member">MR_std_variant_float_MR_Vector3f_get_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__variant__float__MR__Vector3f_8h_1afcd579f540e9af842b57c7a8d8b62cf9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="std__variant__float__MR__Vector3f_8h_1afcd579f540e9af842b57c7a8d8b62cf9" kindref="member">MR_std_variant_float_MR_Vector3f_get_MR_Vector3f_mut</ref>(<ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_float_MR_Vector3f.h"/>
+  </compounddef>
+</doxygen>

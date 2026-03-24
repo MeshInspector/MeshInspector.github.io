@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectVoxels" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectVoxels</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectVoxels</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1953" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1953" bodyend="1958"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1901" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1901" bodyend="1908"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a7aacdadc87c97cd327afce32e7f70d4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1959" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1959" bodyend="1964"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1909" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1909" bodyend="1916"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a94283b7979dd21ddef59aa765d04a780" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1965" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1965" bodyend="1970"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1917" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1917" bodyend="1924"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aa7e56143065a81873b971c1ad739a32c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1971" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1971" bodyend="1976"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1925" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1925" bodyend="1932"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a29dc260e42b59297c39ee016416e3153" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1979" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1979" bodyend="1986"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1935" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1935" bodyend="1944"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a04e32467f447495cfc3cec1d66c1a53c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1987" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1987" bodyend="1994"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1945" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1945" bodyend="1954"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a5fa72d338a7eec1b512d2e10292b5504" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1995" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1995" bodyend="2002"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1955" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1955" bodyend="1964"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -152,29 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2004" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2004" bodyend="2004"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a7c7583c36dabeb5da3ab1a6a18aa23a2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ObjectVoxels.ObjectVoxels</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ObjectVoxels</name>
-        <qualifiedname>MR.ObjectVoxels.ObjectVoxels</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2006" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2006" bodyend="2006"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1966" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1966" bodyend="1966"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -191,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2011" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2011" bodyend="2016"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1971" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1971" bodyend="1976"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a07dd6e48bc647186fd900dbb21c76e00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -204,13 +182,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ObjectVoxels.ObjectVoxels</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aaffde9073b1525816d720b3b6eac47ca" kindref="member">MR.ObjectVoxels.ObjectVoxels</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2021" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2021" bodyend="2027"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1981" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1981" bodyend="1987"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a7d7ba1490d733ab1c422364744826086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref></type>
@@ -223,13 +201,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ObjectVoxels.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ObjectVoxels::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2032" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2032" bodyend="2042"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1992" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1992" bodyend="2002"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a13e160ed71d95f8d98dbbe266004a355" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -248,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2047" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2047" bodyend="2052"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2007" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2007" bodyend="2012"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a2bbb4b410c9830b2a52346c1d73a504d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
@@ -263,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2057" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2057" bodyend="2062"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2017" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2017" bodyend="2022"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -315,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2074" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2074" bodyend="2080"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2034" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2034" bodyend="2040"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a8ede9abe426bc91d70f35385bbe613bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -354,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2090" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2090" bodyend="2096"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2050" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2050" bodyend="2056"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a432cb2f602b4ce1e2e5f74f20eb60a3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -392,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2104" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2104" bodyend="2112"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2064" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2064" bodyend="2072"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a2d03a7d3b51d428ff08fa88c1ae48ba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -411,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2118" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2118" bodyend="2123"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2078" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2078" bodyend="2083"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -431,7 +409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2131" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2131" bodyend="2136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2091" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2091" bodyend="2096"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aaf9a032157efafec4dcf89e0f8efcc30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -460,26 +438,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2145" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2145" bodyend="2154"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2105" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2105" bodyend="2114"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3672167203089e0e9130009669bfafc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
-        <definition>unsafe MR.Mesh MR.ObjectVoxels.updateIsoSurface</definition>
-        <argsstring>(MR._ByValueShared_Mesh mesh)</argsstring>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a5daf637080131e23cdc6e000f1f1642d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRMesh</type>
+        <definition>unsafe MR.Std.SharedPtr_MRMesh MR.ObjectVoxels.updateIsoSurface</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRMesh mesh)</argsstring>
         <name>updateIsoSurface</name>
         <qualifiedname>MR.ObjectVoxels.updateIsoSurface</qualifiedname>
         <param>
-          <type>MR._ByValueShared_Mesh</type>
+          <type>MR.Std._ByValue_SharedPtr_MRMesh</type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>Sets external surface mesh for this object and returns back previous mesh of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3672167203089e0e9130009669bfafc8" kindref="member">MR.ObjectVoxels.updateIsoSurface</ref></computeroutput>. </para>
+<para>Sets external surface mesh for this object and returns back previous mesh of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a5daf637080131e23cdc6e000f1f1642d" kindref="member">MR.ObjectVoxels.updateIsoSurface</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2161" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2161" bodyend="2166"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2121" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2121" bodyend="2126"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a74ad8d0d142b91680e4dd5d74124a293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
@@ -498,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2173" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2173" bodyend="2178"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2133" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2133" bodyend="2138"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a523887b6548d75c307b30cea16a53afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Histogram" kindref="compound">MR.Histogram</ref></type>
@@ -517,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2185" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2185" bodyend="2190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2145" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2145" bodyend="2150"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0cec88291cd7bbccbf094c2e1313a6e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -556,7 +534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2199" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2199" bodyend="2205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2159" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2159" bodyend="2165"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac995d8f7d863649da26f69e6525f6296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -575,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2211" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2211" bodyend="2216"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2171" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2171" bodyend="2176"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -598,13 +576,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Sets active bounds for some simplifications (max excluded) active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty NOTE: don&apos;t forget to call <computeroutput>invalidateActiveBoundsCaches</computeroutput> if you call this function from progress bar thread Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" kindref="member">MR.ObjectVoxels.setActiveBounds</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Sets active bounds for some simplifications (max excluded) active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty NOTE: don't forget to call <computeroutput>invalidateActiveBoundsCaches</computeroutput> if you call this function from progress bar thread Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" kindref="member">MR.ObjectVoxels.setActiveBounds</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2226" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2226" bodyend="2235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2186" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2186" bodyend="2195"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a1f19f2df8cc3c036103b8200569053ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -619,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2241" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2241" bodyend="2246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2201" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2201" bodyend="2206"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a39b3ed431e1187aaf40908330a936c7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -638,7 +616,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2251" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2251" bodyend="2256"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2211" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2211" bodyend="2216"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac24e41d9f665448d7977a773932f36f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -657,7 +635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2262" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2262" bodyend="2267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2222" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2222" bodyend="2227"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a69651423cd342bf1b0bd7c394c0fae70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -676,7 +654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2275" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2275" bodyend="2280"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2235" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2235" bodyend="2240"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aceca829fc191d565de8981dd3da80036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -695,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2285" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2285" bodyend="2290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2245" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2245" bodyend="2250"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a9c30dbd5a90c724c1a9b104b4297dd92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -714,7 +692,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2296" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2296" bodyend="2301"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2256" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2256" bodyend="2261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ab8ca35f2f513042ac78c7560340df81c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -738,7 +716,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2307" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2307" bodyend="2313"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2267" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2267" bodyend="2273"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -751,13 +729,13 @@
           <declname>newFormat</declname>
         </param>
         <briefdescription>
-<para>overrides file extension used to serialize voxels inside this object: must start from &apos;.&apos;, nullptr means serialize in <ref refid="classMR_1a20ce6dc9e83f0b6c131eaf3c17a512da" kindref="member">defaultSerializeVoxelsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" kindref="member">MR.ObjectVoxels.setSerializeFormat</ref></computeroutput>. </para>
+<para>overrides file extension used to serialize voxels inside this object: must start from '.', nullptr means serialize in <ref refid="classMR_1a20ce6dc9e83f0b6c131eaf3c17a512da" kindref="member">defaultSerializeVoxelsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" kindref="member">MR.ObjectVoxels.setSerializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2320" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2320" bodyend="2326"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2280" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2280" bodyend="2286"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae61b9ad30ebad708e1da65eca94f33ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -772,7 +750,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2332" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2332" bodyend="2337"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2292" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2292" bodyend="2297"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac32ead35108a81fb27835011e87aa120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -791,7 +769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2345" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2345" bodyend="2350"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2305" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2305" bodyend="2310"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3b509b88c08e225192ccb158929e3024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -810,7 +788,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2356" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2356" bodyend="2361"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2316" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2316" bodyend="2321"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ab5a47ddcf157ad1b85e01f3777915d20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -829,7 +807,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2366" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2366" bodyend="2371"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2326" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2326" bodyend="2331"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aec0180bfbe70e0151adbb047a8d82b61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -853,7 +831,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2378" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2378" bodyend="2386"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2338" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2338" bodyend="2346"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae0f5652cee6e98e704d4bab0f2b949fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -872,7 +850,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2391" bodyend="2396"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2351" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2351" bodyend="2356"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a78aaa9e33b6cc0e3813891abba16e568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -896,7 +874,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2403" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2403" bodyend="2411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2363" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2363" bodyend="2371"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aa4a251ebbc07e1ac62fe389439e2c785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -915,7 +893,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2416" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2416" bodyend="2421"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2376" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2376" bodyend="2381"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1af2a50ddce711b977999b66394b7f7f0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -934,7 +912,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2426" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2426" bodyend="2431"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2386" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2386" bodyend="2391"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a099422db020209fffd63f32648fbf489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -953,7 +931,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2436" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2436" bodyend="2441"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2396" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2396" bodyend="2401"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae96292afa96d303f2f532c9bb7e65622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -972,7 +950,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2446" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2446" bodyend="2451"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2406" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2406" bodyend="2411"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ad8264c34986482ee1459b29211c8da20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -991,7 +969,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2456" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2456" bodyend="2461"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2416" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2416" bodyend="2421"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abdffc516a5cc8605bc75a2549680d544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1010,7 +988,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2467" bodyend="2472"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2427" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2427" bodyend="2432"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a43f7761e12c8d7a428e14356de77aac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1029,7 +1007,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2477" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2477" bodyend="2482"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2437" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2437" bodyend="2442"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3d3a6e71c4bd867a3362ae7fccc72bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1048,7 +1026,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2488" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2488" bodyend="2493"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2448" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2448" bodyend="2453"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae32511d490f54444a7d38e4e4a8408e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1067,7 +1045,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2499" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2499" bodyend="2504"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2459" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2459" bodyend="2464"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a2538d3726615879122d5cf7136c88102" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1086,7 +1064,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2510" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2510" bodyend="2515"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2470" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2470" bodyend="2475"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a50e56f1f49e082b93a5631a1eae041eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1105,7 +1083,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2521" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2521" bodyend="2526"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2481" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2481" bodyend="2486"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abae5239a38f1d110b89c27800d7bd525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1124,7 +1102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2532" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2532" bodyend="2537"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2492" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2492" bodyend="2497"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae52512d8d5f2c163cba84632994eb0ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1143,7 +1121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2542" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2542" bodyend="2547"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2502" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2502" bodyend="2507"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a4e12ee42228f2186aefe99fc9998edf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1162,7 +1140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2552" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2552" bodyend="2557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2512" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2512" bodyend="2517"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a4ff3f999e6ea27f1faf51eb024283006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1181,7 +1159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2562" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2562" bodyend="2567"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2522" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2522" bodyend="2527"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1adf8bfc1fa52ab8cd140cf94ab6186056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1200,7 +1178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2572" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2572" bodyend="2577"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2532" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2532" bodyend="2537"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a50bfebe6148c0efaa7d9a4ab4ce398b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1224,7 +1202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2583" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2583" bodyend="2591"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2543" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2543" bodyend="2551"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abc704627b5fd96183aea9a61ef51c732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1248,7 +1226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2597" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2597" bodyend="2605"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2557" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2557" bodyend="2565"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a022ecb7e995892b60d3fd4fafeff60be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1272,7 +1250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2611" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2611" bodyend="2619"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2571" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2571" bodyend="2579"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ad26747878c315ea7a716779a2baf5fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1291,7 +1269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2624" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2624" bodyend="2629"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2584" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2584" bodyend="2589"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a25d0cb6d4caf17ff5381a1bc742259d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1310,7 +1288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2634" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2634" bodyend="2639"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2594" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2594" bodyend="2599"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3c5195897c54dd28f298e91fc7e35e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1329,7 +1307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2646" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2646" bodyend="2651"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2606" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2606" bodyend="2611"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abd1b03136e67cd244c359393e6439c20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1348,7 +1326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2656" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2656" bodyend="2661"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2616" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2616" bodyend="2621"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0f5a2003f87d55b7ab2d5dad9085dd07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1367,7 +1345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2666" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2666" bodyend="2671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2626" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2626" bodyend="2631"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a823b828c56d4e6c6ac9454eb6ff97c34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1386,7 +1364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2676" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2676" bodyend="2681"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2636" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2636" bodyend="2641"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac11a41431b8da1282d7cc871f20e248a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1405,7 +1383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2686" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2686" bodyend="2691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2646" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2646" bodyend="2651"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ada93b7af26b76187488a18c73ab75e57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1451,7 +1429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2698" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2698" bodyend="2703"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2658" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2658" bodyend="2663"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a9598c1ff7708b5e5e56e0a418ba3d7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1497,7 +1475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2710" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2710" bodyend="2715"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2670" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2670" bodyend="2675"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aaeffa471dabd2e5970abccba45133ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1516,7 +1494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2720" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2720" bodyend="2725"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2680" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2680" bodyend="2685"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a70d74f2d772948cdc9c23d0014dcfef3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1535,7 +1513,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2730" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2730" bodyend="2735"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2690" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2690" bodyend="2695"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0a0d0b6bfc42bd0015e8291381034abe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1554,7 +1532,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2740" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2740" bodyend="2745"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2700" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2700" bodyend="2705"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a4fd43601ab313a7d1e487b6e193459d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1569,7 +1547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2750" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2750" bodyend="2755"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2710" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2710" bodyend="2715"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1afddf11116477cc018edceb7140ac57d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1584,7 +1562,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2761" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2761" bodyend="2766"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2721" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2721" bodyend="2726"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a6208254e55362da4f4651c19c92bb9b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1611,7 +1589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2772" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2772" bodyend="2777"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2732" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2732" bodyend="2737"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a89c150d0fab3afd1a4d670a3da097ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1634,7 +1612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2783" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2783" bodyend="2788"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2743" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2743" bodyend="2748"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a223cbad1bbc7117a8cf23a4c01951e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1657,7 +1635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2794" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2794" bodyend="2799"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2754" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2754" bodyend="2759"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0ae554c8b7aa3eebf18de52e3051bbbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1676,7 +1654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2805" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2805" bodyend="2810"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2765" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2765" bodyend="2770"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a5301487737def832e4f44919e3afc584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1700,7 +1678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2817" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2817" bodyend="2822"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2777" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2777" bodyend="2782"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aa3c216019ecaf6421a57c0b7e24c1c1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1728,7 +1706,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2829" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2829" bodyend="2837"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2789" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2789" bodyend="2797"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a6dee6dde816c2625310fce3a0047d0b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1752,7 +1730,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2844" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2844" bodyend="2850"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2804" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2804" bodyend="2810"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a23dc04602cc8d1e1f957cebfdf70e1f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1771,7 +1749,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2856" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2856" bodyend="2861"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2816" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2816" bodyend="2821"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a652a66d1babe10aa4339d4408318d303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1795,7 +1773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2868" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2868" bodyend="2876"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2828" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2828" bodyend="2836"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0a8fef194fd3d2a518dbb18b51ce9d9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1819,7 +1797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2883" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2883" bodyend="2888"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2843" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2843" bodyend="2848"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a9c873dde4e686986bb9adeda5769a801" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1838,7 +1816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2894" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2894" bodyend="2899"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2854" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2854" bodyend="2859"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aa80855eff28beb98abf76a5bfc7bf2c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1862,7 +1840,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2906" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2906" bodyend="2911"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2866" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2866" bodyend="2871"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a33010f1b60af0f4d374b315c2d48a4e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1881,7 +1859,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2917" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2917" bodyend="2922"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2877" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2877" bodyend="2882"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a35de1d089b1b064ebfc7b1fa6a45e321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1900,7 +1878,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2928" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2928" bodyend="2933"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2888" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2888" bodyend="2893"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a376d8c0abb86e5b3f7b2a4cee1a1e469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1919,7 +1897,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2939" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2939" bodyend="2944"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2899" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2899" bodyend="2904"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a88d40fae4d1e6d5cf795c08d5d7d7cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1938,7 +1916,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2950" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2950" bodyend="2955"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2910" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2910" bodyend="2915"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a1b273ea0ad484619657e5f5761d46f07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1957,7 +1935,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2962" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2962" bodyend="2967"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2922" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2922" bodyend="2927"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a99c0d498f63fb293a8492f42596f1760" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1976,7 +1954,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2972" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2972" bodyend="2981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2932" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2932" bodyend="2941"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a30497797a77587b6df745ceea11ab625" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2000,7 +1978,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2987" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2987" bodyend="2995"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2947" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2947" bodyend="2955"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a255c2a0f107fabe493b338a76c3c2078" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2020,7 +1998,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3002" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3002" bodyend="3007"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2962" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2962" bodyend="2967"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a9a4b4b3ac79c82fdce42d3994a9898ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2039,7 +2017,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3013" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3013" bodyend="3018"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2973" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2973" bodyend="2978"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a4792e8aa7d89ed99718199c8707afea9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2063,7 +2041,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3024" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3024" bodyend="3032"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2984" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2984" bodyend="2992"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ab7a3af94f6bfeff877b6a4794c246e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2087,7 +2065,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3039" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3039" bodyend="3044"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2999" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2999" bodyend="3004"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a59944cb8de8c874094e23173b9e169da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2106,7 +2084,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3049" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3049" bodyend="3054"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3009" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3009" bodyend="3014"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3b87fba2fc9b9ae696fc9c1f8dbe198e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2125,7 +2103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3059" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3059" bodyend="3064"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3019" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3019" bodyend="3024"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a69e74434e82e352a54715acd0c61b027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -2140,16 +2118,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3071" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3071" bodyend="3076"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3031" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3031" bodyend="3036"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a5b02e07fb2ece1c406c45437d4f0ee91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abcb2d95788af1df583cdac3eec690569" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.ObjectVoxels.addChild</definition>
-        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObject child, bool? recognizedChild=null)</argsstring>
         <name>addChild</name>
         <qualifiedname>MR.ObjectVoxels.addChild</qualifiedname>
         <param>
-          <type>MR._ByValueShared_Object</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObject</type>
           <declname>child</declname>
         </param>
         <param>
@@ -2166,7 +2144,7 @@
 <parametername>recognizedChild</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a5b02e07fb2ece1c406c45437d4f0ee91" kindref="member">MR.ObjectVoxels.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1abcb2d95788af1df583cdac3eec690569" kindref="member">MR.ObjectVoxels.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2174,30 +2152,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3086" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3086" bodyend="3092"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3046" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3046" bodyend="3052"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a93ee13ab550208620fa6269afc890b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a7b12ab07e8286c0919bd713e2c41a8c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.ObjectVoxels.addChildBefore</definition>
-        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObject newChild, MR.Std.Const_SharedPtr_MRObject existingChild)</argsstring>
         <name>addChildBefore</name>
         <qualifiedname>MR.ObjectVoxels.addChildBefore</qualifiedname>
         <param>
-          <type>MR._ByValueShared_Object</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObject</type>
           <declname>newChild</declname>
         </param>
         <param>
-          <type>MR.Const_Object</type>
+          <type>MR.Std.Const_SharedPtr_MRObject</type>
           <declname>existingChild</declname>
         </param>
         <briefdescription>
-<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a93ee13ab550208620fa6269afc890b86" kindref="member">MR.ObjectVoxels.addChildBefore</ref></computeroutput>. </para>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a7b12ab07e8286c0919bd713e2c41a8c3" kindref="member">MR.ObjectVoxels.addChildBefore</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3100" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3100" bodyend="3105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3060" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3060" bodyend="3065"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aeaafa8c8ea2f27134d71700dc0dd00f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2212,7 +2190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3111" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3111" bodyend="3116"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3071" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3071" bodyend="3076"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a6e850d28f74138091f772ae34ce6bdec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2227,7 +2205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3122" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3122" bodyend="3127"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3082" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3082" bodyend="3087"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ad3f241f6c10faa181f332e2f632d7696" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -2246,7 +2224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3133" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3133" bodyend="3138"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3093" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3093" bodyend="3098"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a00ae5c8b25dec05562a32aff4805b73e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2265,7 +2243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3145" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3145" bodyend="3150"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3105" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3105" bodyend="3110"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a816b545f7de0f30577db39f9d506d0ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2289,7 +2267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3157" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3157" bodyend="3162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3117" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3117" bodyend="3122"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac8d4967fe5f6298cd85dccca5442bd78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2308,7 +2286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3168" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3168" bodyend="3173"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3128" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3128" bodyend="3133"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac7cb23fc3cc0ea9956ad694f5bb322db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -2327,7 +2305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3181" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3181" bodyend="3186"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3141" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3141" bodyend="3146"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ab091d9c6e0e632c52151d0a6456467b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -2340,13 +2318,13 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ab091d9c6e0e632c52151d0a6456467b1" kindref="member">MR.ObjectVoxels.addTag</ref></computeroutput>. </para>
+<para>adds tag to the object's tag storage additionally calls ObjectTagManager::tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ab091d9c6e0e632c52151d0a6456467b1" kindref="member">MR.ObjectVoxels.addTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3194" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3194" bodyend="3203"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3154" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3154" bodyend="3163"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3d12765d367de3e10827e420696e6bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -2359,13 +2337,13 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3d12765d367de3e10827e420696e6bc5" kindref="member">MR.ObjectVoxels.removeTag</ref></computeroutput>. </para>
+<para>removes tag from the object's tag storage additionally calls ObjectTagManager::tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3d12765d367de3e10827e420696e6bc5" kindref="member">MR.ObjectVoxels.removeTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3210" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3210" bodyend="3219"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3170" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3170" bodyend="3179"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2374,51 +2352,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ObjectVoxels</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ObjectVoxels</label>
         <link refid="classMR_1_1ObjectVoxels"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ObjectVoxels</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ObjectVoxels &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ObjectVoxels</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ObjectVoxels</label>
         <link refid="classMR_1_1ObjectVoxels"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ObjectVoxels</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ObjectVoxels &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1950" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1951" bodyend="3220"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1898" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1899" bodyend="3180"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectVoxels_1a5b02e07fb2ece1c406c45437d4f0ee91" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChild</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1a93ee13ab550208620fa6269afc890b86" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1abcb2d95788af1df583cdac3eec690569" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChild</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a7b12ab07e8286c0919bd713e2c41a8c3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ab091d9c6e0e632c52151d0a6456467b1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addTag</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a0f5a2003f87d55b7ab2d5dad9085dd07" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addTexture</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a13e160ed71d95f8d98dbbe266004a355" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>applyScale</name></member>
@@ -2436,7 +2414,6 @@
       <member refid="classMR_1_1ObjectVoxels_1a1f19f2df8cc3c036103b8200569053ff" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a3b509b88c08e225192ccb158929e3024" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a3cce1e5d39401d2cc9daf313d18ed2c5" prot="package" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1a7c7583c36dabeb5da3ab1a6a18aa23a2" prot="package" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1aaffde9073b1525816d720b3b6eac47ca" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a07dd6e48bc647186fd900dbb21c76e00" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a7aacdadc87c97cd327afce32e7f70d4e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.Object</name></member>
@@ -2521,7 +2498,7 @@
       <member refid="classMR_1_1ObjectVoxels_1a4e12ee42228f2186aefe99fc9998edf3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateFacesColorMap</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a523887b6548d75c307b30cea16a53afa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogram</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogramAndSurface</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1a3672167203089e0e9130009669bfafc8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateIsoSurface</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a5daf637080131e23cdc6e000f1f1642d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateIsoSurface</name></member>
       <member refid="classMR_1_1ObjectVoxels_1abd1b03136e67cd244c359393e6439c20" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateTexturePerFace</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a25d0cb6d4caf17ff5381a1bc742259d0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateTextures</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ac11a41431b8da1282d7cc871f20e248a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateUVCoords</name></member>

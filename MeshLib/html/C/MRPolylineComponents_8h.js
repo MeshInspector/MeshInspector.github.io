@@ -1,13 +1,7 @@
 var MRPolylineComponents_8h =
 [
-    [ "MR_Polyline2", "MRPolylineComponents_8h.html#ac19d267fe4a2399b21a578c74213dfd2", null ],
-    [ "MR_Polyline3", "MRPolylineComponents_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
     [ "MR_PolylineComponents_LargeByLengthComponentsSettings", "MRPolylineComponents_8h.html#a7c59f260ca6dedef065bad88209f364b", null ],
-    [ "MR_PolylineTopology", "MRPolylineComponents_8h.html#a02d1fe1568aa3e29e692594602ba76bd", null ],
     [ "MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int", "MRPolylineComponents_8h.html#ae4a70f65018c3942c21f0c66710e54d7", null ],
-    [ "MR_std_vector_MR_UndirectedEdgeBitSet", "MRPolylineComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRPolylineComponents_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_UnionFind_MR_UndirectedEdgeId", "MRPolylineComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d", null ],
     [ "MR_PolylineComponents_getAllComponents_1", "MRPolylineComponents_8h.html#a593b6767c2a25b151672012fccdbd3ac", null ],
     [ "MR_PolylineComponents_getAllComponents_2", "MRPolylineComponents_8h.html#a6beb5d289540e14f999a5b29b17844b9", null ],
     [ "MR_PolylineComponents_getComponent", "MRPolylineComponents_8h.html#a71c65b3d8a9877f368a5b8e0ffd954b1", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1AABBTree" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::AABBTree</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f" prot="public" virt="non-virtual">mrmeshpy.AABBTreeBase_AABBTreeTraits_FaceTag_Box3f</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTree.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1acde11bb09859c922ee7a065da1d06747">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -29,7 +28,6 @@
         <argsstring>(self, MeshPart mp)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTree.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1acde11bb09859c922ee7a065da1d06747">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -114,9 +112,29 @@ bounding volume hierarchy
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6" bodyend="26"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a53d6bbe90c9939f33d3b31dbd5f7bb88" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a62aa4a237234ee6e4240611c4d4b20f7" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>BoxT</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1af474e7aa575461debc92925add9a2002" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a267bb32c343cad4671760c34b65f612c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getLeafOrder</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1ab4f141289055b2f8d319eac96402196d" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1ad2fd07ba48880bd913a997e085e606fa" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a1b0def4ef602895455a96ae8465a962b" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a29604405428072f1487077b740126c1f" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getSubtrees</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a9fbb5ad9d4d0c5f503595ee37379ae87" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1aaf25fc72ed8f58faf120e2557cedd85e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>LeafBitSet</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a62a55ce99f89db00252a725fe9c0e6f8" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>LeafBMap</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a19dfe4e96ad24ba519efe25107ba8146" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>LeafId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1ae67bff45a59bc7f895a3c616744c2375" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>Node</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1aa91e174c6f4171282a1b365c1e1d44fd" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>nodes</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a45e69eacc1e5ca3137ca4a1265f0242e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>NodeVec</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1aa5a6a55ecaef8c797f01247e51d6b425" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>numLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1ac555a1e3faf9c53d21f9b12c8cd79f8c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1ac555a1e3faf9c53d21f9b12c8cd79f8c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1AABBTree_1acc7553c31cfedc725404a6b4739aef0e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>refit</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1ab925d1b58c24fb6518107da6c4886994" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>rootNodeId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1abddda85ceb749dc2ba7ef843330048f1" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>Traits</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

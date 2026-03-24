@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneRoot" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneRoot</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SceneRoot</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1103" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1103" bodyend="1103"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1029" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1029" bodyend="1029"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,13 +39,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SceneRoot.SceneRoot</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SceneRoot_1ab38d00140222cf6a4d49342bf98c6042" kindref="member">MR.SceneRoot.SceneRoot</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1108" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1108" bodyend="1114"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1034" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1034" bodyend="1040"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneRoot_1a870c404c0ad94e3187cad8f920c51963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -58,13 +58,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SceneRoot.SceneRoot</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SceneRoot_1ab38d00140222cf6a4d49342bf98c6042" kindref="member">MR.SceneRoot.SceneRoot</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1119" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1119" bodyend="1119"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1045" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1045" bodyend="1045"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneRoot_1a3ca512dc61c78464938704b0feeed7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -77,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SceneRoot.SceneRoot</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SceneRoot_1ab38d00140222cf6a4d49342bf98c6042" kindref="member">MR.SceneRoot.SceneRoot</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1124" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1124" bodyend="1124"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1050" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1050" bodyend="1050"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneRoot_1a326d047e0fe513b13c65a34a94051962" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SceneRoot" kindref="compound">MR.SceneRoot</ref></type>
@@ -96,13 +96,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SceneRoot.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SceneRoot::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1129" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1129" bodyend="1136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1055" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1055" bodyend="1062"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -111,48 +111,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SceneRoot</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SceneRoot</label>
         <link refid="classMR_1_1SceneRoot"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SceneRoot</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SceneRoot &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SceneRoot</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SceneRoot</label>
         <link refid="classMR_1_1SceneRoot"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SceneRoot</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SceneRoot &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1101" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1102" bodyend="1137"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1027" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1028" bodyend="1063"/>
     <listofallmembers>
       <member refid="classMR_1_1SceneRoot_1a326d047e0fe513b13c65a34a94051962" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>assign</name></member>
       <member refid="classMR_1_1SceneRoot_1aad6131284cfc9665be8c4c7147b8de4c" prot="package" virt="non-virtual"><scope>MR::SceneRoot</scope><name>SceneRoot</name></member>

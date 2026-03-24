@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshMeshSignedDistanceResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshMeshSignedDistanceResult</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshMeshSignedDistanceResult</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="364" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="364" bodyend="364"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="406" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="406" bodyend="406"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshMeshSignedDistanceResult_1acc4007475fc7333ebb102fc7994128d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></type>
@@ -32,7 +32,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="367" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="367" bodyend="367"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="411" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="411" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshMeshSignedDistanceResult_1aa56137be4f7cd124dff810f3f96f7d01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39" kindref="member">MR.MeshMeshCollisionStatus</ref></type>
+        <definition>new unsafe ref MR.MeshMeshCollisionStatus MR.MeshMeshSignedDistanceResult.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MR.MeshMeshSignedDistanceResult.status</qualifiedname>
+        <briefdescription>
+<para>mutual status of two meshes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="416" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="416" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshMeshSignedDistanceResult_1a68365c09a13ab4f28a9999397a5e577e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -47,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="370" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="370" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="421" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="421" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="396" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="396" bodyend="400"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="447" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="447" bodyend="451"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,12 +103,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="406" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="406" bodyend="412"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="457" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="457" bodyend="463"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshMeshSignedDistanceResult_1a5bbd24fbfbb8e73b8fc3d4bed6b2da19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshMeshSignedDistanceResult_1a54996868ad7c7ac38e63b21057a5eb72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshMeshSignedDistanceResult.MeshMeshSignedDistanceResult</definition>
-        <argsstring>(MR.Const_PointOnFace a, MR.Const_PointOnFace b, float signedDist)</argsstring>
+        <argsstring>(MR.Const_PointOnFace a, MR.Const_PointOnFace b, MR.MeshMeshCollisionStatus status, float signedDist)</argsstring>
         <name>MeshMeshSignedDistanceResult</name>
         <qualifiedname>MR.MeshMeshSignedDistanceResult.MeshMeshSignedDistanceResult</qualifiedname>
         <param>
@@ -103,6 +118,10 @@
         <param>
           <type>MR.Const_PointOnFace</type>
           <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39" kindref="member">MR.MeshMeshCollisionStatus</ref></type>
+          <declname>status</declname>
         </param>
         <param>
           <type>float</type>
@@ -115,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="417" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="417" bodyend="425"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="468" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="468" bodyend="476"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshMeshSignedDistanceResult_1a1fd38ab2fdaaa466e855987056373ee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshMeshSignedDistanceResult.MeshMeshSignedDistanceResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshMeshSignedDistanceResult_1ae0289f3e7fed258e813ddd931298d42a" kindref="member">MR.MeshMeshSignedDistanceResult.MeshMeshSignedDistanceResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="430" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="430" bodyend="437"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="481" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="481" bodyend="488"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshMeshSignedDistanceResult_1acc7303e43d88f00e5e7635efdf69ea56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshMeshSignedDistanceResult.MeshMeshSignedDistanceResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshMeshSignedDistanceResult_1ae0289f3e7fed258e813ddd931298d42a" kindref="member">MR.MeshMeshSignedDistanceResult.MeshMeshSignedDistanceResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="442" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="442" bodyend="442"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="493" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="493" bodyend="493"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshMeshSignedDistanceResult_1a47ea2bb46009b834e6865fdf6d273702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshMeshSignedDistanceResult" kindref="compound">MR.MeshMeshSignedDistanceResult</ref></type>
@@ -166,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshMeshSignedDistanceResult.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshMeshSignedDistanceResult::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="447" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="447" bodyend="454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="498" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="498" bodyend="505"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,58 +200,59 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshMeshSignedDistanceResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshMeshSignedDistanceResult</label>
         <link refid="classMR_1_1MeshMeshSignedDistanceResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshMeshSignedDistanceResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshMeshSignedDistanceResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshMeshSignedDistanceResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshMeshSignedDistanceResult</label>
         <link refid="classMR_1_1MeshMeshSignedDistanceResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshMeshSignedDistanceResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshMeshSignedDistanceResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="361" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="362" bodyend="455"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="401" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="402" bodyend="506"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshMeshSignedDistanceResult_1aa5664deb655e09cc7f6f60b3e2c682e6" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>a</name></member>
       <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a47ea2bb46009b834e6865fdf6d273702" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshMeshSignedDistanceResult_1acc4007475fc7333ebb102fc7994128d3" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>b</name></member>
       <member refid="classMR_1_1MeshMeshSignedDistanceResult_1aaa6948d549b95d3a8265643e0fd6ce80" prot="package" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>MeshMeshSignedDistanceResult</name></member>
       <member refid="classMR_1_1MeshMeshSignedDistanceResult_1ae0289f3e7fed258e813ddd931298d42a" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>MeshMeshSignedDistanceResult</name></member>
-      <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a5bbd24fbfbb8e73b8fc3d4bed6b2da19" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>MeshMeshSignedDistanceResult</name></member>
+      <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a54996868ad7c7ac38e63b21057a5eb72" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>MeshMeshSignedDistanceResult</name></member>
       <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a1fd38ab2fdaaa466e855987056373ee4" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>MeshMeshSignedDistanceResult</name></member>
       <member refid="classMR_1_1MeshMeshSignedDistanceResult_1acc7303e43d88f00e5e7635efdf69ea56" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>MeshMeshSignedDistanceResult</name></member>
       <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a68365c09a13ab4f28a9999397a5e577e" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>signedDist</name></member>
+      <member refid="classMR_1_1MeshMeshSignedDistanceResult_1aa56137be4f7cd124dff810f3f96f7d01" prot="public" virt="non-virtual"><scope>MR::MeshMeshSignedDistanceResult</scope><name>status</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SliceInfo" kind="struct" language="C++" prot="public">
     <compoundname>MR::SliceInfo</compoundname>
     <basecompoundref refid="structMR_1_1SliceInfoBase" prot="public" virt="non-virtual">MR::SliceInfoBase</basecompoundref>
-    <includes refid="MRScanHelpers_8h" local="no">MRScanHelpers.h</includes>
+    <includes refid="MRScanHelpers_8h" local="no">MRVoxels/MRScanHelpers.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga44785160df691c40ebdf392f66282315" kind="variable"><name>imagePos</name></member>
     </sectiondef>
@@ -38,7 +38,7 @@
         <link refid="structMR_1_1SliceInfoBase"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" bodystart="34" bodyend="37"/>
+    <location file="MRVoxels/MRScanHelpers.h" line="33" column="1" bodyfile="MRVoxels/MRScanHelpers.h" bodystart="34" bodyend="37"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0f4b29a9c38aac83de066f74ddc95c4d" prot="public" virt="non-virtual"><scope>MR::SliceInfo</scope><name>fileNum</name></member>
       <member refid="group__GeneralGroup_1ga44785160df691c40ebdf392f66282315" prot="public" virt="non-virtual"><scope>MR::SliceInfo</scope><name>imagePos</name></member>

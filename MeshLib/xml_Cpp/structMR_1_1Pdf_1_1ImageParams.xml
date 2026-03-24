@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Pdf_1_1ImageParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::Pdf::ImageParams</compoundname>
-    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <includes refid="MRPdf_8h" local="no">MRIOExtras/MRPdf.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gac62f55dffb41437f678f5417604d361f" kind="enum"><name>UniformScale</name></member>
       <member refid="group__GeneralGroup_1gaccc7bf1ce246f1fbd6e61ebc148608da" kind="enum"><name>AlignmentVertical</name></member>
@@ -19,7 +19,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="129" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="130" bodyend="152"/>
+    <location file="MRIOExtras/MRPdf.h" line="129" column="5" bodyfile="MRIOExtras/MRPdf.h" bodystart="130" bodyend="152"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga843c1626b5d850e2a8fef83bc77b097e" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>alignmentHorizontal</name></member>
       <member refid="group__GeneralGroup_1gaccc7bf1ce246f1fbd6e61ebc148608da" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>AlignmentVertical</name></member>

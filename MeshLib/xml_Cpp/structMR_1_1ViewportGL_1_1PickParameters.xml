@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ViewportGL_1_1PickParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::ViewportGL::PickParameters</compoundname>
-    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <includes refid="MRViewportGL_8h" local="no">MRViewer/MRViewportGL.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaf8be4f6f84e2199df5ed9bc57686ccb8" kind="variable"><name>renderVector</name></member>
       <member refid="group__GeneralGroup_1ga518b85161ebde2615c4805c8d6edb010" kind="variable"><name>baseRenderParams</name></member>
@@ -33,7 +33,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="72" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="73" bodyend="77"/>
+    <location file="MRViewer/MRViewportGL.h" line="72" column="5" bodyfile="MRViewer/MRViewportGL.h" bodystart="73" bodyend="77"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga518b85161ebde2615c4805c8d6edb010" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickParameters</scope><name>baseRenderParams</name></member>
       <member refid="group__GeneralGroup_1gaff5495af1f46be635d2ffa5c0da47d24" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickParameters</scope><name>clippingPlane</name></member>

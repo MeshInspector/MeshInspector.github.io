@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UndirectedEdgeUndirectedEdge" kind="struct" language="C++" prot="public">
     <compoundname>MR::UndirectedEdgeUndirectedEdge</compoundname>
-    <includes refid="MRFaceFace_8h" local="no">MRFaceFace.h</includes>
+    <includes refid="MRFaceFace_8h" local="no">MRMesh/MRFaceFace.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1UndirectedEdgeUndirectedEdge_1aaf55dde37dfa59f981e1bc41ee3ac74a" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeId</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="25" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="25" bodyend="-1"/>
+        <location file="MRMesh/MRFaceFace.h" line="25" column="22" bodyfile="MRMesh/MRFaceFace.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1UndirectedEdgeUndirectedEdge_1a535f1290920a2d84945d8cc8989397c6" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeId</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="26" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRFaceFace.h" line="26" column="22" bodyfile="MRMesh/MRFaceFace.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="27" bodyend="27"/>
+        <location file="MRMesh/MRFaceFace.h" line="27" column="5" bodyfile="MRMesh/MRFaceFace.h" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1UndirectedEdgeUndirectedEdge_1afc38d24da2e811fd6d7ae9a05045b2d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="28" bodyend="28"/>
+        <location file="MRMesh/MRFaceFace.h" line="28" column="5" bodyfile="MRMesh/MRFaceFace.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1UndirectedEdgeUndirectedEdge_1a86370e0ca44ce18760320f63faac8aa1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>auto</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="29" column="5"/>
+        <location file="MRMesh/MRFaceFace.h" line="29" column="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -94,7 +94,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="24" bodyend="30"/>
+    <location file="MRMesh/MRFaceFace.h" line="23" column="1" bodyfile="MRMesh/MRFaceFace.h" bodystart="24" bodyend="30"/>
     <listofallmembers>
       <member refid="structMR_1_1UndirectedEdgeUndirectedEdge_1aaf55dde37dfa59f981e1bc41ee3ac74a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>aUndirEdge</name></member>
       <member refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a535f1290920a2d84945d8cc8989397c6" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>bUndirEdge</name></member>

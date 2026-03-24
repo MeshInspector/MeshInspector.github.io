@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMapSaveSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceMapSaveSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceMapSaveSettings</basecompoundref>
@@ -17,11 +17,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1870" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1871" bodyend="1880"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1954" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1955" bodyend="1964"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DistanceMapSaveSettings_1aac7a79a4c9c7dc392e7a7da80b3f2379" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.DistanceMapSaveSettings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1DistanceMapSaveSettings_1aaa652e2fde7657ccbbfd0430d9aae423" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.DistanceMapSaveSettings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.DistanceMapSaveSettings.progress</qualifiedname>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1883" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1883" bodyend="1883"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1969" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1969" bodyend="1969"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1902" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1902" bodyend="1906"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1988" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1988" bodyend="1992"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1912" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1912" bodyend="1918"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1998" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1998" bodyend="2004"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapSaveSettings_1a2c2015d2958818e4fbbb13d56e13013e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1923" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1923" bodyend="1931"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="2009" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="2009" bodyend="2017"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapSaveSettings_1a7cd2881005d6a5361cc257aafb7eb152" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -109,13 +109,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceMapSaveSettings.DistanceMapSaveSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapSaveSettings_1ac7ba069e335f2dea6644a77d5df2c0ca" kindref="member">MR.DistanceMapSaveSettings.DistanceMapSaveSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1936" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1936" bodyend="1943"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="2022" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="2022" bodyend="2029"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapSaveSettings_1acafedddb8b7587777078c61fcda72583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceMapSaveSettings.DistanceMapSaveSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapSaveSettings_1ac7ba069e335f2dea6644a77d5df2c0ca" kindref="member">MR.DistanceMapSaveSettings.DistanceMapSaveSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1948" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1948" bodyend="1948"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="2034" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="2034" bodyend="2034"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapSaveSettings_1a2f4f9fdb8967a93301a279f1c3e70bf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceMapSaveSettings.DistanceMapSaveSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMapSaveSettings_1ac7ba069e335f2dea6644a77d5df2c0ca" kindref="member">MR.DistanceMapSaveSettings.DistanceMapSaveSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1953" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1953" bodyend="1953"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="2039" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="2039" bodyend="2039"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapSaveSettings_1a7fc380a1bb5b0bb90bcf30e9a81c4dcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DistanceMapSaveSettings" kindref="compound">MR.DistanceMapSaveSettings</ref></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DistanceMapSaveSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DistanceMapSaveSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1958" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1958" bodyend="1965"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="2044" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="2044" bodyend="2051"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,48 +181,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DistanceMapSaveSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceMapSaveSettings</label>
         <link refid="classMR_1_1DistanceMapSaveSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceMapSaveSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistanceMapSaveSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DistanceMapSaveSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceMapSaveSettings</label>
         <link refid="classMR_1_1DistanceMapSaveSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceMapSaveSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistanceMapSaveSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1867" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1868" bodyend="1966"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1949" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1950" bodyend="2052"/>
     <listofallmembers>
       <member refid="classMR_1_1DistanceMapSaveSettings_1a7fc380a1bb5b0bb90bcf30e9a81c4dcc" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1af9e7ad64d06a8df4fd9854300cd4b5e0" prot="package" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
@@ -231,7 +231,7 @@
       <member refid="classMR_1_1DistanceMapSaveSettings_1a7cd2881005d6a5361cc257aafb7eb152" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1acafedddb8b7587777078c61fcda72583" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1a2f4f9fdb8967a93301a279f1c3e70bf1" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
-      <member refid="classMR_1_1DistanceMapSaveSettings_1aac7a79a4c9c7dc392e7a7da80b3f2379" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1DistanceMapSaveSettings_1aaa652e2fde7657ccbbfd0430d9aae423" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>progress</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1a66e2579c66d13bbf394a0d66a8cc5ecb" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>

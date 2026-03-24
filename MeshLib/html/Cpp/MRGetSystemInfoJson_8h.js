@@ -1,4 +1,4 @@
 var MRGetSystemInfoJson_8h =
 [
-    [ "GetSystemInfoJson", "MRGetSystemInfoJson_8h.html#gace8b49286f2496a8e43901176b83780b", null ]
+    [ "MR::GetSystemInfoJson", "group__GeneralGroup.html#ga8b1ad752d0922386c2dbc94bc2059653", null ]
 ];

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRIsNaN_8h" kind="file" language="C++">
     <compoundname>MRIsNaN.h</compoundname>
     <includes local="no">bit</includes>
     <includes local="no">limits</includes>
-    <includedby refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxelsVolumeAccess.h</includedby>
+    <includedby refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxels/MRVoxelsVolumeAccess.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>MRIsNaN.h</label>
+        <label>MRMesh/MRIsNaN.h</label>
         <link refid="MRIsNaN_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -23,23 +23,23 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRIsNaN.h</label>
+        <label>MRMesh/MRIsNaN.h</label>
         <link refid="MRIsNaN_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRMoveMeshToVoxelMaxDeriv.h</label>
+        <label>MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</label>
         <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
       </node>
       <node id="4">
-        <label>MRVolumeInterpolation.h</label>
+        <label>MRVoxels/MRVolumeInterpolation.h</label>
         <link refid="MRVolumeInterpolation_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRVoxelsVolumeAccess.h</label>
+        <label>MRVoxels/MRVoxelsVolumeAccess.h</label>
         <link refid="MRVoxelsVolumeAccess_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
       <node id="5">
-        <label>MRVoxelsVolumeCachingAccessor.h</label>
+        <label>MRVoxels/MRVoxelsVolumeCachingAccessor.h</label>
         <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
       </node>
     </invincdepgraph>
@@ -77,7 +77,7 @@
 <codeline lineno="18" refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kindref="member">cQuietNanBits</ref><sp/>=<sp/>std::bit_cast&lt;<sp/>int<sp/>&gt;(<sp/><ref refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kindref="member">cQuietNan</ref><sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1gad4d2c738603108b1182410a19fbe7b5a" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad4d2c738603108b1182410a19fbe7b5a" kindref="member">isNanFast</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f<sp/>)</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gad4d2c738603108b1182410a19fbe7b5a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad4d2c738603108b1182410a19fbe7b5a" kindref="member">isNanFast</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f<sp/>)</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(<sp/>__GNUC__<sp/>)<sp/>&amp;&amp;<sp/>__GNUC__<sp/>&lt;<sp/>11</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::isnan(<sp/>f<sp/>);</highlight></codeline>
@@ -86,8 +86,8 @@
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIsNaN.h"/>
+    <location file="MRMesh/MRIsNaN.h"/>
   </compounddef>
 </doxygen>

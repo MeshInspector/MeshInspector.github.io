@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewerSetup" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerSetup</compoundname>
-    <includes refid="MRSetupViewer_8h" local="no">MRSetupViewer.h</includes>
+    <includes refid="MRSetupViewer_8h" local="no">MRViewer/MRSetupViewer.h</includes>
     <innerclass refid="structMR_1_1ViewerSetup_1_1LoadedModule" prot="private">MR::ViewerSetup::LoadedModule</innerclass>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga01b6a5ca99cb834e86dbb5494153de45" kind="variable"><name>setupCustomLogSink</name></member>
@@ -16,30 +16,30 @@
       <member refid="group__GeneralGroup_1ga312d51f93256540b9109340e93cd279d" kind="function"><name>ViewerSetup</name></member>
       <member refid="group__GeneralGroup_1ga5de2e94012eb083d14c9b918420a2c9e" kind="function"><name>ViewerSetup</name></member>
       <member refid="group__GeneralGroup_1ga91f189592dac535dae6d91f80c911e1f" kind="function"><name>~ViewerSetup</name></member>
-      <member refid="group__GeneralGroup_1ga68075c17440a99ede74249da2ff6ecd9" kind="function"><name>setupBasePlugins</name></member>
+      <member refid="group__GeneralGroup_1ga2ee9a09ee077eec46a7ad935be02b503" kind="function"><name>setupBasePlugins</name></member>
       <member refid="group__GeneralGroup_1ga66bb762d87286ae7b094f6a59bb96aec" kind="function"><name>setupCommonModifiers</name></member>
       <member refid="group__GeneralGroup_1ga04abb25fb543f1b7f29d33eed34bdb81" kind="function"><name>setupCommonPlugins</name></member>
-      <member refid="group__GeneralGroup_1ga0d93aa8d3e8ee23b874c8c2f6e4a0eca" kind="function"><name>setupSettingsManager</name></member>
-      <member refid="group__GeneralGroup_1ga918f69117bd46f408fda277cad5fde2d" kind="function"><name>setupConfiguration</name></member>
-      <member refid="group__GeneralGroup_1ga189d84a7bbccaaa4f0936339d4e30b5e" kind="function"><name>setupExtendedLibraries</name></member>
-      <member refid="group__GeneralGroup_1gac2596418ab8194fb9b1818ef2f1f5b31" kind="function"><name>unloadExtendedLibraries</name></member>
+      <member refid="group__GeneralGroup_1ga0266ab3528d133e67c46d515595d499d" kind="function"><name>setupSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1ga401738f95d6edbb1474a51c84ddb63f1" kind="function"><name>setupConfiguration</name></member>
+      <member refid="group__GeneralGroup_1ga7af550b06bca5828017818c0fd0f41ce" kind="function"><name>setupExtendedLibraries</name></member>
+      <member refid="group__GeneralGroup_1ga2c129133dc78a903ad58f466bb4bd591" kind="function"><name>unloadExtendedLibraries</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="16" bodyend="68"/>
+    <location file="MRViewer/MRSetupViewer.h" line="15" column="1" bodyfile="MRViewer/MRSetupViewer.h" bodystart="16" bodyend="68"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga55a87ace998e6a56bc8a6af6be6cf1a7" prot="private" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>loadedModules_</name></member>
-      <member refid="group__GeneralGroup_1ga68075c17440a99ede74249da2ff6ecd9" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupBasePlugins</name></member>
+      <member refid="group__GeneralGroup_1ga2ee9a09ee077eec46a7ad935be02b503" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupBasePlugins</name></member>
       <member refid="group__GeneralGroup_1ga66bb762d87286ae7b094f6a59bb96aec" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupCommonModifiers</name></member>
       <member refid="group__GeneralGroup_1ga04abb25fb543f1b7f29d33eed34bdb81" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupCommonPlugins</name></member>
-      <member refid="group__GeneralGroup_1ga918f69117bd46f408fda277cad5fde2d" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupConfiguration</name></member>
+      <member refid="group__GeneralGroup_1ga401738f95d6edbb1474a51c84ddb63f1" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupConfiguration</name></member>
       <member refid="group__GeneralGroup_1ga01b6a5ca99cb834e86dbb5494153de45" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>setupCustomLogSink</name></member>
-      <member refid="group__GeneralGroup_1ga189d84a7bbccaaa4f0936339d4e30b5e" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupExtendedLibraries</name></member>
-      <member refid="group__GeneralGroup_1ga0d93aa8d3e8ee23b874c8c2f6e4a0eca" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1ga7af550b06bca5828017818c0fd0f41ce" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupExtendedLibraries</name></member>
+      <member refid="group__GeneralGroup_1ga0266ab3528d133e67c46d515595d499d" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupSettingsManager</name></member>
       <member refid="group__GeneralGroup_1ga7895602798d8ec93e4374882cc9c89c4" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>shutdownCustomLogSink</name></member>
-      <member refid="group__GeneralGroup_1gac2596418ab8194fb9b1818ef2f1f5b31" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>unloadExtendedLibraries</name></member>
+      <member refid="group__GeneralGroup_1ga2c129133dc78a903ad58f466bb4bd591" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>unloadExtendedLibraries</name></member>
       <member refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>ViewerSetup</name></member>
       <member refid="group__GeneralGroup_1ga312d51f93256540b9109340e93cd279d" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>ViewerSetup</name></member>
       <member refid="group__GeneralGroup_1ga5de2e94012eb083d14c9b918420a2c9e" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>ViewerSetup</name></member>

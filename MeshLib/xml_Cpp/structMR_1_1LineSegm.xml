@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1LineSegm" kind="struct" language="C++" prot="public">
     <compoundname>MR::LineSegm</compoundname>
-    <includes refid="MRLineSegm_8h" local="no">MRLineSegm.h</includes>
+    <includes refid="MRLineSegm_8h" local="no">MRMesh/MRLineSegm.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -29,7 +29,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="15" bodyend="31"/>
+    <location file="MRMesh/MRLineSegm.h" line="14" column="1" bodyfile="MRMesh/MRLineSegm.h" bodystart="15" bodyend="31"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1gafcb4423f5becc13fff968c531455f4e8" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>b</name></member>

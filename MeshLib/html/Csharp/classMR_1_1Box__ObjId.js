@@ -5,6 +5,7 @@ var classMR_1_1Box__ObjId =
     [ "Box_ObjId", "classMR_1_1Box__ObjId.html#a414093d4f98c0dd421b0209f5a3bd48f", null ],
     [ "Box_ObjId", "classMR_1_1Box__ObjId.html#af04a63d1ea6753ca274d949b6ee8b947", null ],
     [ "Box_ObjId", "classMR_1_1Box__ObjId.html#a719d13074341a548c86571b48614eb00", null ],
+    [ "Box_ObjId", "classMR_1_1Box__ObjId.html#a5b2c3fb143e7adcbf7f18642a9d51ee4", null ],
     [ "addAssign", "classMR_1_1Box__ObjId.html#a29b9377d89ff1b1bfe8896f075012fd8", null ],
     [ "Assign", "classMR_1_1Box__ObjId.html#a69d0e9a6cf41af9234c3d0f88a280d18", null ],
     [ "decr", "classMR_1_1Box__ObjId.html#a16e14cb3ab8762edebef842eaa2c9267", null ],

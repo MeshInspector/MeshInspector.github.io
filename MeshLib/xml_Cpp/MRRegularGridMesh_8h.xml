@@ -1,73 +1,49 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRegularGridMesh_8h" kind="file" language="C++">
     <compoundname>MRRegularGridMesh.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes local="no">functional</includes>
     <incdepgraph>
-      <node id="8">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="17">
+      <node id="24">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="15">
-        <label>MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRRegularGridMesh.h</label>
-        <link refid="MRRegularGridMesh_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -79,49 +55,111 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="23">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRRegularGridMesh.h</label>
+        <link refid="MRRegularGridMesh_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="18">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="10">
-        <label>algorithm</label>
-      </node>
-      <node id="16">
-        <label>cassert</label>
-      </node>
-      <node id="11">
-        <label>cmath</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>cstddef</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="12">
-        <label>cstring</label>
+      <node id="25">
+        <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="20">
-        <label>functional</label>
-      </node>
-      <node id="13">
-        <label>iosfwd</label>
-      </node>
-      <node id="19">
-        <label>string</label>
+      <node id="18">
+        <label>algorithm</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="21">
+        <label>iosfwd</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -132,7 +170,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -142,20 +180,20 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" kindref="member">RegularGridLatticeValidator</ref><sp/>=<sp/>std::function&lt;bool(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" kindref="member">RegularGridLatticePositioner</ref><sp/>=<sp/>std::function&lt;Vector3f(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" kindref="member">RegularGridMeshFaceValidator</ref><sp/>=</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" kindref="member">RegularGridLatticeValidator</ref><sp/>=<sp/>std::function&lt;bool(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" kindref="member">RegularGridLatticePositioner</ref><sp/>=<sp/>std::function&lt;Vector3f(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" kindref="member">RegularGridMeshFaceValidator</ref><sp/>=</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::function&lt;bool(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y2<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1ga30be8e08775b25a5be92f136b2e4c1c3" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga30be8e08775b25a5be92f136b2e4c1c3" kindref="member">makeRegularGridMesh</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">height</ref>,</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" kindref="member">makeRegularGridMesh</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">height</ref>,</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" kindref="member">RegularGridLatticeValidator</ref>&amp;<sp/>validator,</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" kindref="member">RegularGridLatticePositioner</ref>&amp;<sp/>positioner,</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" kindref="member">RegularGridMeshFaceValidator</ref>&amp;<sp/>faceValidator<sp/>=<sp/>{},</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1gad9b59c053cfd08edb266ee3b8aa08ded" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga30be8e08775b25a5be92f136b2e4c1c3" kindref="member">makeRegularGridMesh</ref>(<sp/>VertCoords<sp/>pc,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gaae27e6fa67b4e0d5a59574d504d53a61" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" kindref="member">makeRegularGridMesh</ref>(<sp/>VertCoords<sp/>pc,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularGridMesh.h"/>
+    <location file="MRMesh/MRRegularGridMesh.h"/>
   </compounddef>
 </doxygen>

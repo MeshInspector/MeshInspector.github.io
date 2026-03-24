@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MakeBridgeResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MakeBridgeResult</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MakeBridgeResult</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1303" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1303" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1337" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1337" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MakeBridgeResult_1a7ca2fa06da18ab30a58b7d33f19bcc33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -26,13 +26,13 @@
         <name>na</name>
         <qualifiedname>MR.MakeBridgeResult.na</qualifiedname>
         <briefdescription>
+<para>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) </para>
         </briefdescription>
         <detaileddescription>
-<para>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1307" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1307" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1343" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1343" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MakeBridgeResult_1a590ce224edcb5c603b2ecb89602da461" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -41,13 +41,13 @@
         <name>nb</name>
         <qualifiedname>MR.MakeBridgeResult.nb</qualifiedname>
         <briefdescription>
+<para>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) </para>
         </briefdescription>
         <detaileddescription>
-<para>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1311" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1311" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1349" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1349" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1315" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1315" bodyend="1319"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1353" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1353" bodyend="1357"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1325" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1325" bodyend="1331"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1363" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1363" bodyend="1369"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MakeBridgeResult_1a5f594da16b372034261faae119b7d983" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1336" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1336" bodyend="1342"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1374" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1374" bodyend="1380"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MakeBridgeResult_1a05566b5bd04d96d0c5d68d5e172cea5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MakeBridgeResult.MakeBridgeResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MakeBridgeResult_1ad12fab67f8b0eee7cd08814876cee084" kindref="member">MR.MakeBridgeResult.MakeBridgeResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1347" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1347" bodyend="1354"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1385" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1385" bodyend="1392"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MakeBridgeResult_1a25d2101b0e95d42513b5d060e6e97702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MakeBridgeResult.MakeBridgeResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MakeBridgeResult_1ad12fab67f8b0eee7cd08814876cee084" kindref="member">MR.MakeBridgeResult.MakeBridgeResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1359" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1359" bodyend="1359"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1397" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1397" bodyend="1397"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MakeBridgeResult_1a9861549bf0510775a5face7c13e05893" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MakeBridgeResult" kindref="compound">MR.MakeBridgeResult</ref></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MakeBridgeResult.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MakeBridgeResult::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1364" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1364" bodyend="1371"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1402" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1402" bodyend="1409"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,48 +181,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MakeBridgeResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MakeBridgeResult</label>
         <link refid="classMR_1_1MakeBridgeResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MakeBridgeResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MakeBridgeResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MakeBridgeResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MakeBridgeResult</label>
         <link refid="classMR_1_1MakeBridgeResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MakeBridgeResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MakeBridgeResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1300" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1301" bodyend="1372"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1332" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1333" bodyend="1410"/>
     <listofallmembers>
       <member refid="classMR_1_1MakeBridgeResult_1a9861549bf0510775a5face7c13e05893" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>assign</name></member>
       <member refid="classMR_1_1MakeBridgeResult_1a6ba94b8aa04f6f3358b6cc315aa567ee" prot="package" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>MakeBridgeResult</name></member>

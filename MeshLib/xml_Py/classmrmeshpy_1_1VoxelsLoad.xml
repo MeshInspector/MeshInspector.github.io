@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VoxelsLoad" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VoxelsLoad</compoundname>
     <innerclass refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus" prot="public">mrmeshpy::VoxelsLoad::DicomStatus</innerclass>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73566" bodyend="73569"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75767" bodyend="75770"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a20d17c6e1d9e335e602b4a6873190d79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__filesystem__path" kindref="compound">std_vector_std_filesystem_path</ref></type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73571" bodyend="73574"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75772" bodyend="75775"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ab7cbafabb9b0502060f8171e5e12d859" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters" kindref="compound">VoxelsLoad.RawParameters</ref></type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73576" bodyend="73581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75777" bodyend="75782"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a26c0fbfe3f9ad30fd2cb3e8cb0368226" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid" kindref="compound">std_vector_VoxelsVolumeMinMax_FloatGrid</ref></type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73583" bodyend="73586"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75784" bodyend="75787"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a0e9e549b8230f0ad53a1703d96dc4008" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73589" bodyend="73592"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75790" bodyend="75793"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a2b7ae1ac3589ee79b1be1086e9a4e095" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73595" bodyend="73598"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75796" bodyend="75799"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ab1b0fcbab4e8b0fe8394684afd36f3ca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73601" bodyend="73604"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75802" bodyend="75805"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73607" bodyend="73610"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75808" bodyend="75811"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a8c129066ec57b924bbd7e1ecd49f9634" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -234,7 +234,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73613" bodyend="73617"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75814" bodyend="75818"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a239472762712a6d742940866d9c12df3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid" kindref="compound">std_vector_VoxelsVolumeMinMax_FloatGrid</ref></type>
@@ -259,7 +259,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73619" bodyend="73622"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75820" bodyend="75823"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
@@ -288,7 +288,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73625" bodyend="73628"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75826" bodyend="75829"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ad11add7a57292c1b92e17c3a5edee463" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
@@ -313,7 +313,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73631" bodyend="73634"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75832" bodyend="75835"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a57fd0589d500ff33af21c13e7c80aa6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
@@ -343,7 +343,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73637" bodyend="73641"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75838" bodyend="75842"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1aef7c5474aed881dbc6dacfa6699ef46b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__FloatGrid" kindref="compound">std_vector_FloatGrid</ref></type>
@@ -368,7 +368,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73643" bodyend="73646"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75844" bodyend="75847"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a51aaf65530c90d93f4bb7705693b1863" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__FloatGrid" kindref="compound">std_vector_FloatGrid</ref></type>
@@ -391,7 +391,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73649" bodyend="73650"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75850" bodyend="75851"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a3618ee759024b36d809dc82c13df6962" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__FloatGrid" kindref="compound">std_vector_FloatGrid</ref></type>
@@ -414,7 +414,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73653" bodyend="73654"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75854" bodyend="75855"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a839312978bf514c2c6e45dd9061b8020" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus" kindref="compound">VoxelsLoad.DicomStatus</ref></type>
@@ -446,7 +446,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73656" bodyend="73661"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75857" bodyend="75862"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a68e9383b38ee5e8ed1eb0753ce2d3ef3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -466,7 +466,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73663" bodyend="73666"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75864" bodyend="75867"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a8e10cf9ca79ac5d84692efa002f80b2e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume" kindref="compound">VoxelsLoad.DicomVolume</ref></type>
@@ -491,7 +491,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73668" bodyend="73671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75869" bodyend="75872"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1aa299ec06b7e8010e6ab34d7439184b44" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kindref="compound">VoxelsLoad.DicomVolumeAsVdb</ref></type>
@@ -516,7 +516,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73673" bodyend="73676"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75874" bodyend="75877"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1aa26d16ee9734393ead08a4f8d62e1301" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume" kindref="compound">VoxelsLoad.DicomVolume</ref></type>
@@ -545,7 +545,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73678" bodyend="73681"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75879" bodyend="75882"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1aabba5bb15c9c454da8a4d5f1bf28188c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kindref="compound">VoxelsLoad.DicomVolumeAsVdb</ref></type>
@@ -574,7 +574,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73683" bodyend="73686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75884" bodyend="75887"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a2043806b904d21685bee977d3755d22f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad" kindref="compound">std_vector_tl_expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string</ref></type>
@@ -603,7 +603,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73688" bodyend="73691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75889" bodyend="75892"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ae4167bf8c7e678bb39aaa939c1cc3326" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string" kindref="compound">std_vector_tl_expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_FloatGrid_std_string</ref></type>
@@ -632,7 +632,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73693" bodyend="73696"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75894" bodyend="75897"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ab660a4c3a4a4553d99365b4053b4b5c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string" kindref="compound">std_vector_tl_expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_FloatGrid_std_string</ref></type>
@@ -662,7 +662,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73698" bodyend="73701"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75899" bodyend="75902"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a58d2fe49221905c90b8728f9a6ab247a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -682,7 +682,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73703" bodyend="73706"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75904" bodyend="75907"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1aec2f331f785552d4d985f02e7484d81f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1LoadedObjects" kindref="compound">LoadedObjects</ref></type>
@@ -707,7 +707,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73708" bodyend="73711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75909" bodyend="75912"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -716,7 +716,7 @@ important on Windows: in stream must be open in binary mode
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73286" bodyend="73711"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75487" bodyend="75912"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a69efed3f38ce0f4014532dc5e1fad178" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>createObjectVoxels</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a20d17c6e1d9e335e602b4a6873190d79" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>findDicomFoldersRecursively</name></member>

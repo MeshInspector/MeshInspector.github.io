@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BooleanResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BooleanResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -519,21 +519,6 @@
 This structure store result mesh of MR::boolean or some error info
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BooleanResult</label>
-        <link refid="classmrmeshpy_1_1BooleanResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_errorString</edgelabel>
-          <edgelabel>_offsetof_mesh</edgelabel>
-          <edgelabel>_offsetof_meshABadContourFaces</edgelabel>
-          <edgelabel>_offsetof_meshBBadContourFaces</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3646" bodyend="3735"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BooleanResult_1af2a8da279bb805029f23fc5b3808e293" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__bool__</name></member>

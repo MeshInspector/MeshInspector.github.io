@@ -1,84 +1,46 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGLStaticHolder_8h" kind="file" language="C++">
     <compoundname>MRGLStaticHolder.h</compoundname>
     <includes refid="MRRenderHelpers_8h" local="yes">MRRenderHelpers.h</includes>
     <includes refid="MRLog_8h" local="yes">MRMesh/MRLog.h</includes>
     <includes local="no">array</includes>
-    <includedby refid="MRRenderLinesObject_8h" local="yes">MRRenderLinesObject.h</includedby>
-    <includedby refid="MRRenderMeshObject_8h" local="yes">MRRenderMeshObject.h</includedby>
-    <includedby refid="MRRenderPointsObject_8h" local="yes">MRRenderPointsObject.h</includedby>
+    <includedby refid="MRRenderLinesObject_8h" local="yes">MRViewer/MRRenderLinesObject.h</includedby>
+    <includedby refid="MRRenderMeshObject_8h" local="yes">MRViewer/MRRenderMeshObject.h</includedby>
+    <includedby refid="MRRenderPointsObject_8h" local="yes">MRViewer/MRRenderPointsObject.h</includedby>
     <incdepgraph>
-      <node id="5">
+      <node id="15">
         <label>MRMesh/MRBuffer.h</label>
         <link refid="MRBuffer_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
-        <label>MRMesh/MRLog.h</label>
-        <link refid="MRLog_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="7">
-        <label>MRNoDefInit.h</label>
-        <link refid="MRNoDefInit_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRMesh/MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
@@ -86,21 +48,91 @@
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+      </node>
+      <node id="29">
+        <label>MRMesh/MRLog.h</label>
+        <link refid="MRLog_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRNoDefInit.h</label>
+        <link refid="MRNoDefInit_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRGLStaticHolder.h</label>
+        <label>MRViewer/MRGLStaticHolder.h</label>
         <link refid="MRGLStaticHolder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -110,63 +142,69 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>MRMesh/MRMeshFwd.h</label>
       </node>
       <node id="8">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="18">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="19">
+      <node id="25">
         <label>algorithm</label>
       </node>
-      <node id="25">
+      <node id="9">
         <label>array</label>
       </node>
-      <node id="10">
+      <node id="14">
         <label>cassert</label>
       </node>
-      <node id="20">
+      <node id="26">
         <label>cmath</label>
       </node>
-      <node id="14">
+      <node id="21">
         <label>concepts</label>
       </node>
-      <node id="11">
+      <node id="18">
         <label>cstddef</label>
       </node>
-      <node id="21">
+      <node id="27">
         <label>cstring</label>
       </node>
       <node id="3">
         <label>exports.h</label>
       </node>
-      <node id="24">
+      <node id="30">
         <label>filesystem</label>
       </node>
-      <node id="22">
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="28">
         <label>iosfwd</label>
       </node>
-      <node id="15">
+      <node id="22">
         <label>memory</label>
       </node>
       <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="19">
         <label>type_traits</label>
       </node>
-      <node id="13">
+      <node id="20">
         <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRGLStaticHolder.h</label>
+        <label>MRViewer/MRGLStaticHolder.h</label>
         <link refid="MRGLStaticHolder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -176,23 +214,23 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="2">
-        <label>MRRenderLinesObject.h</label>
+        <label>MRViewer/MRRenderLinesObject.h</label>
         <link refid="MRRenderLinesObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRRenderMeshObject.h</label>
+        <label>MRViewer/MRRenderMeshObject.h</label>
         <link refid="MRRenderMeshObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRRenderPointsObject.h</label>
+        <label>MRViewer/MRRenderPointsObject.h</label>
         <link refid="MRRenderPointsObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -212,8 +250,8 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"></codeline>
-<codeline lineno="14" refid="classMR_1_1GLStaticHolder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1GLStaticHolder" kindref="compound">GLStaticHolder</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1GLStaticHolder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/>GLStaticHolder</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" kindref="member">GLuint</ref>;</highlight></codeline>
@@ -251,32 +289,32 @@
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676" kindref="member">Volume</ref>,</highlight></codeline>
 <codeline lineno="51" refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce" kindref="member">VolumePicker</ref>,</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
-<codeline lineno="53" refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="group__GeneralGroup_1gaec292ddb5c9a8585fba9bf8b4d89cca9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" kindref="member">GLuint</ref><sp/><ref refid="group__GeneralGroup_1gaec292ddb5c9a8585fba9bf8b4d89cca9" kindref="member">getShaderId</ref>(<sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1ga0f57f5da2c3f4e0c838d34fa298ef741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" kindref="member">GLuint</ref><sp/><ref refid="group__GeneralGroup_1ga0f57f5da2c3f4e0c838d34fa298ef741" kindref="member">getShaderId</ref>(<sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1ga22ecad2e2dfaf820899303c6ce330839" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga22ecad2e2dfaf820899303c6ce330839" kindref="member">freeShader</ref>(<sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1ga9a2999730b88c2298591cbe03b24b67e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9a2999730b88c2298591cbe03b24b67e" kindref="member">freeShader</ref>(<sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="group__GeneralGroup_1gada665fd573c08a25baa0a66d6e69a9f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gada665fd573c08a25baa0a66d6e69a9f8" kindref="member">freeAllShaders</ref>();</highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1ga173930702e90c1c9ca96624d81d0da2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga173930702e90c1c9ca96624d81d0da2d" kindref="member">freeAllShaders</ref>();</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1ga26b1c1199ef9d8f3647524ab6b8099e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderObjectBuffer" kindref="compound">RenderObjectBuffer</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga26b1c1199ef9d8f3647524ab6b8099e6" kindref="member">getStaticGLBuffer</ref>();</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1ga0611bde5450343c3b3ed351833f6f2f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderObjectBuffer" kindref="compound">RenderObjectBuffer</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga0611bde5450343c3b3ed351833f6f2f0" kindref="member">getStaticGLBuffer</ref>();</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="group__GeneralGroup_1ga4e8e7478e107aae5a007b483056dfc9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="group__GeneralGroup_1ga4e8e7478e107aae5a007b483056dfc9e" kindref="member">getTransparentPointsShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1ga962af224d68de5b6cf44d80a042d6df3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="group__GeneralGroup_1ga962af224d68de5b6cf44d80a042d6df3" kindref="member">getTransparentPointsShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="group__GeneralGroup_1gad5f78ee78fae0710ed36199e5cc5d387" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="group__GeneralGroup_1gad5f78ee78fae0710ed36199e5cc5d387" kindref="member">getTransparentLinesShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="71" refid="group__GeneralGroup_1gaf4ec6ef8a1462bc38c732094040a8219" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="group__GeneralGroup_1gaf4ec6ef8a1462bc38c732094040a8219" kindref="member">getTransparentLinesShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="group__GeneralGroup_1ga1a384521c17e759cfdf6662d29194aa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="group__GeneralGroup_1ga1a384521c17e759cfdf6662d29194aa9" kindref="member">getTransparentMeshShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="74" refid="group__GeneralGroup_1gabde56ffc0b0e9fe64479eaa79a8b3f60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="group__GeneralGroup_1gabde56ffc0b0e9fe64479eaa79a8b3f60" kindref="member">getTransparentMeshShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder" kindref="compound">GLStaticHolder</ref>();</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder" kindref="compound">~GLStaticHolder</ref>();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>GLStaticHolder();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>~GLStaticHolder();</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder" kindref="compound">GLStaticHolder</ref>&amp;<sp/>instance_();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>GLStaticHolder&amp;<sp/>instance_();</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>createShader_(<sp/><ref refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" kindref="member">GLuint</ref>,<sp/>size_t(<sp/>Count<sp/>)&gt;<sp/>shadersIds_;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" kindref="member">GLuint</ref>,<sp/>size_t(<sp/><ref refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3" kindref="member">Count</ref><sp/>)&gt;<sp/>shadersIds_;</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;spdlog::logger&gt;<sp/>logger_;</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
@@ -284,6 +322,6 @@
 <codeline lineno="90"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLStaticHolder.h"/>
+    <location file="MRViewer/MRGLStaticHolder.h"/>
   </compounddef>
 </doxygen>

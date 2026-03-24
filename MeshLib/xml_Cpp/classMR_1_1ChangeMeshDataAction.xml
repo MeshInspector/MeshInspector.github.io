@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshDataAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeMeshDataAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeMeshDataAction_8h" local="no">MRChangeMeshDataAction.h</includes>
+    <includes refid="MRChangeMeshDataAction_8h" local="no">MRMesh/MRChangeMeshDataAction.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMR_1_1ChangeMeshDataAction_1a5490c7ecfcf05757e523c10772447c18" prot="public" static="no">
         <type><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="16" bodyend="-1"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="16" column="5" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="16" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="72" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="72" bodyend="-1"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="72" column="21" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangeMeshDataAction_1a942fdbeaf6e24fa5287b8e9ff79823dc" prot="private" static="no" mutable="no">
         <type><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="73" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="73" bodyend="-1"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="73" column="20" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangeMeshDataAction_1ad4c26755621e1183ec0498030c6f40f7" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="75" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="75" bodyend="-1"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="75" column="17" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="75" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="19" bodyend="29"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="19" column="5" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="19" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1adde79f1c602a61f0a33b7b9a02c6200f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="32" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="32" bodyend="41"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="32" column="5" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="32" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a17a6297c30967ea93e6bfc131ae8911c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="43" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="43" bodyend="46"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="43" column="25" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="43" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a13d40bda09d4c09c6c66cccc88b61361" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="48" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="48" bodyend="54"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="48" column="18" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="48" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a6fa4f260bd2f49a20d68064d7238e9d9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="62" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="62" bodyend="65"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="62" column="21" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="62" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a302de90b9b9c06b36225e604a21caee4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt; &amp;</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="67" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="67" bodyend="67"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="67" column="27" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="67" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a90653c68c71f52aaaa7dd151584b5fc0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> &amp;</type>
@@ -196,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="69" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="69" bodyend="69"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="69" column="26" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="69" bodyend="69"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="56" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="56" bodyend="60"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="56" column="17" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="56" bodyend="60"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -248,7 +248,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="14" bodyend="76"/>
+    <location file="MRMesh/MRChangeMeshDataAction.h" line="13" column="1" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="14" bodyend="76"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeMeshDataAction_1a13d40bda09d4c09c6c66cccc88b61361" prot="public" virt="virtual"><scope>MR::ChangeMeshDataAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1a802c34ae621a5ebc85ae77caef5d7112" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>

@@ -1,15 +1,7 @@
 var MRFreeFormDeformer_8h =
 [
-    [ "MR_AffineXf3f", "MRFreeFormDeformer_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_Box3d", "MRFreeFormDeformer_8h.html#a6cf9a7d704c7c9de33ec858bf8a54856", null ],
-    [ "MR_Box3f", "MRFreeFormDeformer_8h.html#a387c2b6c194640a4dfac77733cbe3880", null ],
     [ "MR_FreeFormBestFit", "MRFreeFormDeformer_8h.html#a5c88398ba3d1cfa5f2c61556c5e0316e", null ],
     [ "MR_FreeFormDeformer", "MRFreeFormDeformer_8h.html#a1273be31bdf185e5805957f56e83c49c", null ],
-    [ "MR_Mesh", "MRFreeFormDeformer_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRFreeFormDeformer_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_Vector3d", "MRFreeFormDeformer_8h.html#aa6b35c703a4572c3ccc120ee82723a66", null ],
-    [ "MR_VertBitSet", "MRFreeFormDeformer_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRFreeFormDeformer_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_findBestFreeformDeformation", "MRFreeFormDeformer_8h.html#ae405dcd2bc3c73c8880d8bee79e07c0d", null ],
     [ "MR_FreeFormBestFit_addOther", "MRFreeFormDeformer_8h.html#ab3c93a34efa46136dafe293ba790ef72", null ],
     [ "MR_FreeFormBestFit_addPair_MR_Vector3d", "MRFreeFormDeformer_8h.html#a4d002de271c2c94c6289b302f3da5870", null ],

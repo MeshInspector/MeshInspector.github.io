@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFastWindingNumber_8h" kind="file" language="C++">
     <compoundname>MRFastWindingNumber.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -16,7 +16,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -26,90 +26,36 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
-        <type>struct MR_AffineXf3f</type>
-        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
-        <argsstring></argsstring>
-        <name>MR_AffineXf3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref></type>
-        <definition>typedef struct MR_DistanceToMeshOptions MR_DistanceToMeshOptions</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceToMeshOptions</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRFastWindingNumber_8h_1ad55ca9af0874ffb89877bad65ae2859d" prot="public" static="no">
         <type>struct MR_Vector3i</type>
         <definition>typedef struct MR_Vector3i MR_Vector3i</definition>
@@ -121,33 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="19" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="20" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" prot="public" static="no">
         <type>struct <ref refid="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" kindref="member">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</ref></type>
@@ -157,36 +77,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>expected&lt;void, std::string&gt;(std::vector&lt;float&gt; &amp;&amp;, const MR::Vector3i &amp;, int)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="21" column="114" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="22" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFastWindingNumber_8h_1aba323e6d596956f5a589a525c6f6adbc" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref></type>
-        <definition>typedef struct MR_std_vector_float MR_std_vector_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="23" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="21" column="114" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" prot="public" static="no">
         <type>struct <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref></type>
@@ -196,11 +91,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Abstract class for fast approximate computation of generalized winding number for a mesh (using its AABB tree) Generated from class <computeroutput>MR::IFastWindingNumber</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::FastWindingNumber</computeroutput> </para>
+<para>Abstract class for fast approximate computation of generalized winding number for a mesh (using its AABB tree) Generated from class <computeroutput>MR::IFastWindingNumber</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::Cuda::FastWindingNumber</computeroutput> <computeroutput>MR::FastWindingNumber</computeroutput> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="31" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="32" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" prot="public" static="no">
         <type>struct <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref></type>
@@ -210,11 +105,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note, this used to be <computeroutput>[[nodiscard]]</computeroutput>, but GCC 12 doesn&apos;t understand both <computeroutput>[[...]]</computeroutput> and <computeroutput>__attribute__(...)</computeroutput> on the same class. A possible fix is to change <computeroutput>MRMESH_CLASS</computeroutput> globally to <computeroutput>[[__gnu__::__visibility__(&quot;default&quot;)]]</computeroutput>. Generated from class <computeroutput>MR::FastWindingNumber</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::IFastWindingNumber</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note, this used to be <computeroutput>[[nodiscard]]</computeroutput>, but GCC 12 doesn&apos;t understand both <computeroutput>[[...]]</computeroutput> and <computeroutput>__attribute__(...)</computeroutput> on the same class. A possible fix is to change <computeroutput>MRMESH_CLASS</computeroutput> globally to <computeroutput>[[__gnu__::__visibility__(&quot;default&quot;)]]</computeroutput>. Generated from class <computeroutput>MR::FastWindingNumber</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::IFastWindingNumber</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="41" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="42" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" prot="public" static="no">
         <type>struct <ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref></type>
@@ -224,16 +119,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Abstract class that complements IFastWindingNumber with chunked processing variants of its methods Generated from class <computeroutput>MR::IFastWindingNumberByParts</computeroutput>. </para>
+<para>Abstract class that complements IFastWindingNumber with chunked processing variants of its methods Generated from class <computeroutput>MR::IFastWindingNumberByParts</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::Cuda::FastWindingNumber</computeroutput> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="45" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="49" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" bodystart="49" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a322d13df5b08430a3fc15930d678441d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IFastWindingNumber_Destroy</definition>
         <argsstring>(const MR_IFastWindingNumber *_this)</argsstring>
         <name>MR_IFastWindingNumber_Destroy</name>
@@ -242,16 +137,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_IFastWindingNumber</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="48" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="52" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a1bb2ee4a1305f6a9a6edea6fdf4c2811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IFastWindingNumber_DestroyArray</definition>
         <argsstring>(const MR_IFastWindingNumber *_this)</argsstring>
         <name>MR_IFastWindingNumber_DestroyArray</name>
@@ -260,16 +155,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_IFastWindingNumber</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="51" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="55" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a75294547bb7e93fa779e984ff0a70185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_IFastWindingNumber_calcFromVector</definition>
         <argsstring>(MR_IFastWindingNumber *_this, MR_std_vector_float *res, const MR_std_vector_MR_Vector3f *points, float beta, const MR_FaceId *skipFace, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_IFastWindingNumber_calcFromVector</name>
@@ -334,14 +229,14 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput>MR::IFastWindingNumber::calcFromVector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>skipFace</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+Generated from method <computeroutput>MR::IFastWindingNumber::calcFromVector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>skipFace</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="68" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="68" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="72" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="72" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1aa861e35280a10d45b949172033552f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_IFastWindingNumber_calcSelfIntersections</definition>
         <argsstring>(MR_IFastWindingNumber *_this, MR_FaceBitSet *res, float beta, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_IFastWindingNumber_calcSelfIntersections</name>
@@ -382,14 +277,14 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromVector</co
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput>MR::IFastWindingNumber::calcSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+Generated from method <computeroutput>MR::IFastWindingNumber::calcSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="81" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="81" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="85" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="85" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a2e6da17b120538838d836b8dfbe76cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_IFastWindingNumber_calcFromGrid</definition>
         <argsstring>(MR_IFastWindingNumber *_this, MR_std_vector_float *res, const MR_Vector3i *dims, const MR_AffineXf3f *gridToMeshXf, float beta, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_IFastWindingNumber_calcFromGrid</name>
@@ -454,14 +349,14 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcSelfIntersecti
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGrid</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGrid</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="98" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="98" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="102" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="102" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1aad6c8ee515f610825e262c8ed060dcf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_IFastWindingNumber_calcFromGridWithDistances</definition>
         <argsstring>(MR_IFastWindingNumber *_this, MR_std_vector_float *res, const MR_Vector3i *dims, const MR_AffineXf3f *gridToMeshXf, const MR_DistanceToMeshOptions *options, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_IFastWindingNumber_calcFromGridWithDistances</name>
@@ -510,14 +405,14 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGrid</comp
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDistances</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDistances</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="114" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="114" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="118" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="118" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a1dcdd81df97df3a75be2b1735380b89f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
         <definition>MRC_API const MR_IFastWindingNumber * MR_IFastWindingNumber_OffsetPtr</definition>
         <argsstring>(const MR_IFastWindingNumber *ptr, ptrdiff_t i)</argsstring>
         <name>MR_IFastWindingNumber_OffsetPtr</name>
@@ -536,10 +431,10 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="118" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="118" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="122" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="122" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1aebbb61c4e61536e9cbb5afc67c5abcb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
         <definition>MRC_API MR_IFastWindingNumber * MR_IFastWindingNumber_OffsetMutablePtr</definition>
         <argsstring>(MR_IFastWindingNumber *ptr, ptrdiff_t i)</argsstring>
         <name>MR_IFastWindingNumber_OffsetMutablePtr</name>
@@ -558,123 +453,15 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="122" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="122" declcolumn="31"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFastWindingNumber_8h_1a5496649a5597f55a4034f332fdb56b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
-        <definition>MRC_API const MR_FastWindingNumber * MR_IFastWindingNumber_StaticDowncastTo_MR_FastWindingNumber</definition>
-        <argsstring>(const MR_IFastWindingNumber *object)</argsstring>
-        <name>MR_IFastWindingNumber_StaticDowncastTo_MR_FastWindingNumber</name>
-        <param>
-          <type>const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="128" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="128" declcolumn="36"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFastWindingNumber_8h_1a96c8524aea28c1d88007031815cfe161" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
-        <definition>MRC_API MR_FastWindingNumber * MR_IFastWindingNumber_MutableStaticDowncastTo_MR_FastWindingNumber</definition>
-        <argsstring>(MR_IFastWindingNumber *object)</argsstring>
-        <name>MR_IFastWindingNumber_MutableStaticDowncastTo_MR_FastWindingNumber</name>
-        <param>
-          <type><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="133" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="133" declcolumn="30"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFastWindingNumber_8h_1a9fa2d186b51f459b0b3b97edccbf5db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
-        <definition>MRC_API const MR_FastWindingNumber * MR_IFastWindingNumber_DynamicDowncastTo_MR_FastWindingNumber</definition>
-        <argsstring>(const MR_IFastWindingNumber *object)</argsstring>
-        <name>MR_IFastWindingNumber_DynamicDowncastTo_MR_FastWindingNumber</name>
-        <param>
-          <type>const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="139" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="139" declcolumn="36"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFastWindingNumber_8h_1a0c3e3aa4006f096ec85e6c66d6f22d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
-        <definition>MRC_API MR_FastWindingNumber * MR_IFastWindingNumber_MutableDynamicDowncastTo_MR_FastWindingNumber</definition>
-        <argsstring>(MR_IFastWindingNumber *object)</argsstring>
-        <name>MR_IFastWindingNumber_MutableDynamicDowncastTo_MR_FastWindingNumber</name>
-        <param>
-          <type><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="144" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="144" declcolumn="30"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFastWindingNumber_8h_1a74289e3492b7cf4f13521aa328e0c0d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
-        <definition>MRC_API const MR_FastWindingNumber * MR_IFastWindingNumber_DynamicDowncastToOrFail_MR_FastWindingNumber</definition>
-        <argsstring>(const MR_IFastWindingNumber *object)</argsstring>
-        <name>MR_IFastWindingNumber_DynamicDowncastToOrFail_MR_FastWindingNumber</name>
-        <param>
-          <type>const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="152" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="152" declcolumn="36"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFastWindingNumber_8h_1a3926c1edcc4bbae5388922e26356c1b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
-        <definition>MRC_API MR_FastWindingNumber * MR_IFastWindingNumber_MutableDynamicDowncastToOrFail_MR_FastWindingNumber</definition>
-        <argsstring>(MR_IFastWindingNumber *object)</argsstring>
-        <name>MR_IFastWindingNumber_MutableDynamicDowncastToOrFail_MR_FastWindingNumber</name>
-        <param>
-          <type><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="159" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="159" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="126" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="126" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1aa5afbb9fc55c737ec677c494ca3de804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
         <definition>MRC_API MR_FastWindingNumber * MR_FastWindingNumber_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_FastWindingNumber *_other)</argsstring>
         <name>MR_FastWindingNumber_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -688,10 +475,10 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="164" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="164" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="131" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="131" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a28a04e1eb20bfb8ad828d71401d64c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
         <definition>MRC_API const MR_FastWindingNumber * MR_FastWindingNumber_OffsetPtr</definition>
         <argsstring>(const MR_FastWindingNumber *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FastWindingNumber_OffsetPtr</name>
@@ -710,10 +497,10 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="168" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="168" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="135" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="135" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a1c8ad615f1fc4b91c1a0cab25180b08d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
         <definition>MRC_API MR_FastWindingNumber * MR_FastWindingNumber_OffsetMutablePtr</definition>
         <argsstring>(MR_FastWindingNumber *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FastWindingNumber_OffsetMutablePtr</name>
@@ -732,10 +519,10 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="172" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="172" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="139" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="139" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a15cf5f1d375ffe1024d1893a46b6035a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
         <definition>MRC_API const MR_IFastWindingNumber * MR_FastWindingNumber_UpcastTo_MR_IFastWindingNumber</definition>
         <argsstring>(const MR_FastWindingNumber *object)</argsstring>
         <name>MR_FastWindingNumber_UpcastTo_MR_IFastWindingNumber</name>
@@ -750,10 +537,10 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="177" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="177" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="144" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="144" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1adeacec83dd31885ab175e8888dab6b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
         <definition>MRC_API MR_IFastWindingNumber * MR_FastWindingNumber_MutableUpcastTo_MR_IFastWindingNumber</definition>
         <argsstring>(MR_FastWindingNumber *object)</argsstring>
         <name>MR_FastWindingNumber_MutableUpcastTo_MR_IFastWindingNumber</name>
@@ -768,10 +555,118 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="181" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="181" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="148" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="148" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFastWindingNumber_8h_1abd8ca58378670506502ec7667fc11e1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <definition>MRC_API const MR_FastWindingNumber * MR_FastWindingNumber_StaticDowncastFrom_MR_IFastWindingNumber</definition>
+        <argsstring>(const MR_IFastWindingNumber *object)</argsstring>
+        <name>MR_FastWindingNumber_StaticDowncastFrom_MR_IFastWindingNumber</name>
+        <param>
+          <type>const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="154" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="154" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFastWindingNumber_8h_1ad56363306ab32217526e1f209b5b9795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <definition>MRC_API MR_FastWindingNumber * MR_FastWindingNumber_MutableStaticDowncastFrom_MR_IFastWindingNumber</definition>
+        <argsstring>(MR_IFastWindingNumber *object)</argsstring>
+        <name>MR_FastWindingNumber_MutableStaticDowncastFrom_MR_IFastWindingNumber</name>
+        <param>
+          <type><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="159" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="159" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFastWindingNumber_8h_1ad71131f7a7fa80ea7cf85b91a7bb1631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <definition>MRC_API const MR_FastWindingNumber * MR_FastWindingNumber_DynamicDowncastFrom_MR_IFastWindingNumber</definition>
+        <argsstring>(const MR_IFastWindingNumber *object)</argsstring>
+        <name>MR_FastWindingNumber_DynamicDowncastFrom_MR_IFastWindingNumber</name>
+        <param>
+          <type>const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="165" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="165" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFastWindingNumber_8h_1a06b29d00a84c2ef9e94bf6b946c449b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <definition>MRC_API MR_FastWindingNumber * MR_FastWindingNumber_MutableDynamicDowncastFrom_MR_IFastWindingNumber</definition>
+        <argsstring>(MR_IFastWindingNumber *object)</argsstring>
+        <name>MR_FastWindingNumber_MutableDynamicDowncastFrom_MR_IFastWindingNumber</name>
+        <param>
+          <type><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="170" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="170" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFastWindingNumber_8h_1a53e8eaf05f8c3bf2ad41e62744da84fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <definition>MRC_API const MR_FastWindingNumber * MR_FastWindingNumber_DynamicDowncastFromOrFail_MR_IFastWindingNumber</definition>
+        <argsstring>(const MR_IFastWindingNumber *object)</argsstring>
+        <name>MR_FastWindingNumber_DynamicDowncastFromOrFail_MR_IFastWindingNumber</name>
+        <param>
+          <type>const <ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="178" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="178" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFastWindingNumber_8h_1ae81da21668c429ed70b00f61c54f3478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <definition>MRC_API MR_FastWindingNumber * MR_FastWindingNumber_MutableDynamicDowncastFromOrFail_MR_IFastWindingNumber</definition>
+        <argsstring>(MR_IFastWindingNumber *object)</argsstring>
+        <name>MR_FastWindingNumber_MutableDynamicDowncastFromOrFail_MR_IFastWindingNumber</name>
+        <param>
+          <type><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IFastWindingNumber</computeroutput> to a derived class <computeroutput>MR::FastWindingNumber</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="185" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="185" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a6896c571b5d12b3b732809f89b5edaed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref> *</type>
         <definition>MRC_API MR_FastWindingNumber * MR_FastWindingNumber_Construct</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_FastWindingNumber_Construct</name>
@@ -786,10 +681,10 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="189" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="189" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="193" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="193" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a4ed73a6e32b0d3f9ba2a529941acdaec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FastWindingNumber_Destroy</definition>
         <argsstring>(const MR_FastWindingNumber *_this)</argsstring>
         <name>MR_FastWindingNumber_Destroy</name>
@@ -798,16 +693,16 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FastWindingNumber</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="192" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="192" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="196" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1abd3f86fb96ff821250d4c7b4f93b9e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FastWindingNumber_DestroyArray</definition>
         <argsstring>(const MR_FastWindingNumber *_this)</argsstring>
         <name>MR_FastWindingNumber_DestroyArray</name>
@@ -816,16 +711,16 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FastWindingNumber</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="195" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="195" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="199" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="199" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a61eb744ba58b1618ab1012b574d36b79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_FastWindingNumber_calcFromVector</definition>
         <argsstring>(MR_FastWindingNumber *_this, MR_std_vector_float *res, const MR_std_vector_MR_Vector3f *points, float beta, MR_FaceId skipFace, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_FastWindingNumber_calcFromVector</name>
@@ -856,14 +751,14 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FastWindingNumber::calcFromVector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::FastWindingNumber::calcFromVector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="204" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="204" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="208" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="208" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a015b1a08b1f77029cbffd8fa9aa5afce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_FastWindingNumber_calcSelfIntersections</definition>
         <argsstring>(MR_FastWindingNumber *_this, MR_FaceBitSet *res, float beta, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_FastWindingNumber_calcSelfIntersections</name>
@@ -886,14 +781,14 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FastWindingNumber::calcSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::FastWindingNumber::calcSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="211" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="211" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="215" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="215" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1ab1afb7f1e7f85c14b17b899412b68ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_FastWindingNumber_calcFromGrid</definition>
         <argsstring>(MR_FastWindingNumber *_this, MR_std_vector_float *res, const MR_Vector3i *dims, const MR_AffineXf3f *gridToMeshXf, float beta, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_FastWindingNumber_calcFromGrid</name>
@@ -924,14 +819,14 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FastWindingNumber::calcFromGrid</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::FastWindingNumber::calcFromGrid</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="220" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="220" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="224" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="224" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1aaf090686d80589fec4c0d492db83c395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_FastWindingNumber_calcWithDistances</definition>
         <argsstring>(MR_FastWindingNumber *_this, const MR_Vector3f *p, const MR_DistanceToMeshOptions *options)</argsstring>
         <name>MR_FastWindingNumber_calcWithDistances</name>
@@ -954,10 +849,10 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="226" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="226" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="230" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="230" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1ae536f6040cfe17fd09999620ece0f78e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_FastWindingNumber_calcFromGridWithDistances</definition>
         <argsstring>(MR_FastWindingNumber *_this, MR_std_vector_float *res, const MR_Vector3i *dims, const MR_AffineXf3f *gridToMeshXf, const MR_DistanceToMeshOptions *options, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_FastWindingNumber_calcFromGridWithDistances</name>
@@ -988,14 +883,14 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FastWindingNumber::calcFromGridWithDistances</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::FastWindingNumber::calcFromGridWithDistances</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>res</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="236" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="236" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="240" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="240" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1acf55d5610d0ebbab030284642e91d3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IFastWindingNumberByParts_Destroy</definition>
         <argsstring>(const MR_IFastWindingNumberByParts *_this)</argsstring>
         <name>MR_IFastWindingNumberByParts_Destroy</name>
@@ -1004,16 +899,16 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_IFastWindingNumberByParts</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="239" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="239" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="243" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="243" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a23925a6a04920c7096c5ac34af77ed77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IFastWindingNumberByParts_DestroyArray</definition>
         <argsstring>(const MR_IFastWindingNumberByParts *_this)</argsstring>
         <name>MR_IFastWindingNumberByParts_DestroyArray</name>
@@ -1022,16 +917,16 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_IFastWindingNumberByParts</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="242" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="242" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="246" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a89a25e82cb8664418549ebeabd8af299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_IFastWindingNumberByParts_calcFromGridByParts</definition>
         <argsstring>(MR_IFastWindingNumberByParts *_this, MR_PassBy resFunc_pass_by, MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int *resFunc, const MR_Vector3i *dims, const MR_AffineXf3f *gridToMeshXf, float beta, int layerOverlap, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_IFastWindingNumberByParts_calcFromGridByParts</name>
@@ -1040,7 +935,7 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>resFunc_pass_by</declname>
         </param>
         <param>
@@ -1112,14 +1007,14 @@ Generated from method <computeroutput>MR::IFastWindingNumber::calcFromGridWithDi
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGridByParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGridByParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="258" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="258" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="262" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="262" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1a6701c8b7031eb38f667e06315413507a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</definition>
         <argsstring>(MR_IFastWindingNumberByParts *_this, MR_PassBy resFunc_pass_by, MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int *resFunc, const MR_Vector3i *dims, const MR_AffineXf3f *gridToMeshXf, const MR_DistanceToMeshOptions *options, int layerOverlap, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</name>
@@ -1128,7 +1023,7 @@ Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGri
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>resFunc_pass_by</declname>
         </param>
         <param>
@@ -1192,14 +1087,14 @@ Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGri
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGridWithDistancesByParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGridWithDistancesByParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>gridToMeshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="275" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="275" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="279" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="279" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1acd001cd6ff85e66ac410fd888cd9c0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref> *</type>
         <definition>MRC_API const MR_IFastWindingNumberByParts * MR_IFastWindingNumberByParts_OffsetPtr</definition>
         <argsstring>(const MR_IFastWindingNumberByParts *ptr, ptrdiff_t i)</argsstring>
         <name>MR_IFastWindingNumberByParts_OffsetPtr</name>
@@ -1218,10 +1113,10 @@ Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGri
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="279" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="279" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="283" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="283" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRFastWindingNumber_8h_1ace99b1178792ffcf3f5e22b95cc454e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref> *</type>
         <definition>MRC_API MR_IFastWindingNumberByParts * MR_IFastWindingNumberByParts_OffsetMutablePtr</definition>
         <argsstring>(MR_IFastWindingNumberByParts *ptr, ptrdiff_t i)</argsstring>
         <name>MR_IFastWindingNumberByParts_OffsetMutablePtr</name>
@@ -1240,7 +1135,7 @@ Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGri
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" line="283" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h" declline="283" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" line="287" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h" declline="287" declcolumn="38"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1251,8 +1146,8 @@ Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGri
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -1260,96 +1155,96 @@ Generated from method <computeroutput>MR::IFastWindingNumberByParts::calcFromGri
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRFastWindingNumber_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRFastWindingNumber_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRFastWindingNumber_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRFastWindingNumber_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRFastWindingNumber_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRFastWindingNumber_8h_1ad55ca9af0874ffb89877bad65ae2859d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRFastWindingNumber_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRFastWindingNumber_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" kindref="member">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</ref><sp/><ref refid="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" kindref="member">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref__42b9.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRFastWindingNumber_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRFastWindingNumber_8h_1aba323e6d596956f5a589a525c6f6adbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref>;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref>;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref>;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRFastWindingNumber_8h_1a322d13df5b08430a3fc15930d678441d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a322d13df5b08430a3fc15930d678441d" kindref="member">MR_IFastWindingNumber_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRFastWindingNumber_8h_1a1bb2ee4a1305f6a9a6edea6fdf4c2811" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a1bb2ee4a1305f6a9a6edea6fdf4c2811" kindref="member">MR_IFastWindingNumber_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRFastWindingNumber_8h_1a75294547bb7e93fa779e984ff0a70185" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a75294547bb7e93fa779e984ff0a70185" kindref="member">MR_IFastWindingNumber_calcFromVector</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*skipFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRFastWindingNumber_8h_1aa861e35280a10d45b949172033552f56" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1aa861e35280a10d45b949172033552f56" kindref="member">MR_IFastWindingNumber_calcSelfIntersections</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*res,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRFastWindingNumber_8h_1a2e6da17b120538838d836b8dfbe76cbb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a2e6da17b120538838d836b8dfbe76cbb" kindref="member">MR_IFastWindingNumber_calcFromGrid</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRFastWindingNumber_8h_1aad6c8ee515f610825e262c8ed060dcf5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1aad6c8ee515f610825e262c8ed060dcf5" kindref="member">MR_IFastWindingNumber_calcFromGridWithDistances</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*options,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRFastWindingNumber_8h_1a1dcdd81df97df3a75be2b1735380b89f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a1dcdd81df97df3a75be2b1735380b89f" kindref="member">MR_IFastWindingNumber_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="32" refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRFastWindingNumber_8h_1a322d13df5b08430a3fc15930d678441d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a322d13df5b08430a3fc15930d678441d" kindref="member">MR_IFastWindingNumber_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRFastWindingNumber_8h_1a1bb2ee4a1305f6a9a6edea6fdf4c2811" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a1bb2ee4a1305f6a9a6edea6fdf4c2811" kindref="member">MR_IFastWindingNumber_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRFastWindingNumber_8h_1a75294547bb7e93fa779e984ff0a70185" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a75294547bb7e93fa779e984ff0a70185" kindref="member">MR_IFastWindingNumber_calcFromVector</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*skipFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRFastWindingNumber_8h_1aa861e35280a10d45b949172033552f56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1aa861e35280a10d45b949172033552f56" kindref="member">MR_IFastWindingNumber_calcSelfIntersections</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*res,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRFastWindingNumber_8h_1a2e6da17b120538838d836b8dfbe76cbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a2e6da17b120538838d836b8dfbe76cbb" kindref="member">MR_IFastWindingNumber_calcFromGrid</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRFastWindingNumber_8h_1aad6c8ee515f610825e262c8ed060dcf5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1aad6c8ee515f610825e262c8ed060dcf5" kindref="member">MR_IFastWindingNumber_calcFromGridWithDistances</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*options,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRFastWindingNumber_8h_1aebbb61c4e61536e9cbb5afc67c5abcb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1aebbb61c4e61536e9cbb5afc67c5abcb5" kindref="member">MR_IFastWindingNumber_OffsetMutablePtr</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="122" refid="MRFastWindingNumber_8h_1a1dcdd81df97df3a75be2b1735380b89f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a1dcdd81df97df3a75be2b1735380b89f" kindref="member">MR_IFastWindingNumber_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRFastWindingNumber_8h_1a5496649a5597f55a4034f332fdb56b2b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a5496649a5597f55a4034f332fdb56b2b" kindref="member">MR_IFastWindingNumber_StaticDowncastTo_MR_FastWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRFastWindingNumber_8h_1a96c8524aea28c1d88007031815cfe161" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a96c8524aea28c1d88007031815cfe161" kindref="member">MR_IFastWindingNumber_MutableStaticDowncastTo_MR_FastWindingNumber</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRFastWindingNumber_8h_1a9fa2d186b51f459b0b3b97edccbf5db5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a9fa2d186b51f459b0b3b97edccbf5db5" kindref="member">MR_IFastWindingNumber_DynamicDowncastTo_MR_FastWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126" refid="MRFastWindingNumber_8h_1aebbb61c4e61536e9cbb5afc67c5abcb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1aebbb61c4e61536e9cbb5afc67c5abcb5" kindref="member">MR_IFastWindingNumber_OffsetMutablePtr</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRFastWindingNumber_8h_1aa5afbb9fc55c737ec677c494ca3de804" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1aa5afbb9fc55c737ec677c494ca3de804" kindref="member">MR_FastWindingNumber_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRFastWindingNumber_8h_1a28a04e1eb20bfb8ad828d71401d64c32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a28a04e1eb20bfb8ad828d71401d64c32" kindref="member">MR_FastWindingNumber_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRFastWindingNumber_8h_1a1c8ad615f1fc4b91c1a0cab25180b08d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a1c8ad615f1fc4b91c1a0cab25180b08d" kindref="member">MR_FastWindingNumber_OffsetMutablePtr</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRFastWindingNumber_8h_1a0c3e3aa4006f096ec85e6c66d6f22d6d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a0c3e3aa4006f096ec85e6c66d6f22d6d" kindref="member">MR_IFastWindingNumber_MutableDynamicDowncastTo_MR_FastWindingNumber</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144" refid="MRFastWindingNumber_8h_1a15cf5f1d375ffe1024d1893a46b6035a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a15cf5f1d375ffe1024d1893a46b6035a" kindref="member">MR_FastWindingNumber_UpcastTo_MR_IFastWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRFastWindingNumber_8h_1a74289e3492b7cf4f13521aa328e0c0d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a74289e3492b7cf4f13521aa328e0c0d8" kindref="member">MR_IFastWindingNumber_DynamicDowncastToOrFail_MR_FastWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRFastWindingNumber_8h_1a3926c1edcc4bbae5388922e26356c1b8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a3926c1edcc4bbae5388922e26356c1b8" kindref="member">MR_IFastWindingNumber_MutableDynamicDowncastToOrFail_MR_FastWindingNumber</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148" refid="MRFastWindingNumber_8h_1adeacec83dd31885ab175e8888dab6b4c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1adeacec83dd31885ab175e8888dab6b4c" kindref="member">MR_FastWindingNumber_MutableUpcastTo_MR_IFastWindingNumber</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRFastWindingNumber_8h_1abd8ca58378670506502ec7667fc11e1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1abd8ca58378670506502ec7667fc11e1e" kindref="member">MR_FastWindingNumber_StaticDowncastFrom_MR_IFastWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRFastWindingNumber_8h_1ad56363306ab32217526e1f209b5b9795" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ad56363306ab32217526e1f209b5b9795" kindref="member">MR_FastWindingNumber_MutableStaticDowncastFrom_MR_IFastWindingNumber</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRFastWindingNumber_8h_1aa5afbb9fc55c737ec677c494ca3de804" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1aa5afbb9fc55c737ec677c494ca3de804" kindref="member">MR_FastWindingNumber_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRFastWindingNumber_8h_1a28a04e1eb20bfb8ad828d71401d64c32" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a28a04e1eb20bfb8ad828d71401d64c32" kindref="member">MR_FastWindingNumber_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRFastWindingNumber_8h_1a1c8ad615f1fc4b91c1a0cab25180b08d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a1c8ad615f1fc4b91c1a0cab25180b08d" kindref="member">MR_FastWindingNumber_OffsetMutablePtr</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRFastWindingNumber_8h_1a15cf5f1d375ffe1024d1893a46b6035a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a15cf5f1d375ffe1024d1893a46b6035a" kindref="member">MR_FastWindingNumber_UpcastTo_MR_IFastWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="MRFastWindingNumber_8h_1adeacec83dd31885ab175e8888dab6b4c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1adeacec83dd31885ab175e8888dab6b4c" kindref="member">MR_FastWindingNumber_MutableUpcastTo_MR_IFastWindingNumber</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="MRFastWindingNumber_8h_1a6896c571b5d12b3b732809f89b5edaed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a6896c571b5d12b3b732809f89b5edaed" kindref="member">MR_FastWindingNumber_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRFastWindingNumber_8h_1a4ed73a6e32b0d3f9ba2a529941acdaec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a4ed73a6e32b0d3f9ba2a529941acdaec" kindref="member">MR_FastWindingNumber_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRFastWindingNumber_8h_1abd3f86fb96ff821250d4c7b4f93b9e7d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1abd3f86fb96ff821250d4c7b4f93b9e7d" kindref="member">MR_FastWindingNumber_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight><highlight class="comment">//<sp/>see<sp/>methods&apos;<sp/>descriptions<sp/>in<sp/>IFastWindingNumber</highlight></codeline>
-<codeline lineno="204" refid="MRFastWindingNumber_8h_1a61eb744ba58b1618ab1012b574d36b79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a61eb744ba58b1618ab1012b574d36b79" kindref="member">MR_FastWindingNumber_calcFromVector</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>skipFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRFastWindingNumber_8h_1a015b1a08b1f77029cbffd8fa9aa5afce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a015b1a08b1f77029cbffd8fa9aa5afce" kindref="member">MR_FastWindingNumber_calcSelfIntersections</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*res,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRFastWindingNumber_8h_1ab1afb7f1e7f85c14b17b899412b68ac0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ab1afb7f1e7f85c14b17b899412b68ac0" kindref="member">MR_FastWindingNumber_calcFromGrid</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRFastWindingNumber_8h_1aaf090686d80589fec4c0d492db83c395" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1aaf090686d80589fec4c0d492db83c395" kindref="member">MR_FastWindingNumber_calcWithDistances</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*options);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="MRFastWindingNumber_8h_1ae536f6040cfe17fd09999620ece0f78e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ae536f6040cfe17fd09999620ece0f78e" kindref="member">MR_FastWindingNumber_calcFromGridWithDistances</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*options,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="239" refid="MRFastWindingNumber_8h_1acf55d5610d0ebbab030284642e91d3be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1acf55d5610d0ebbab030284642e91d3be" kindref="member">MR_IFastWindingNumberByParts_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"></highlight></codeline>
-<codeline lineno="242" refid="MRFastWindingNumber_8h_1a23925a6a04920c7096c5ac34af77ed77" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a23925a6a04920c7096c5ac34af77ed77" kindref="member">MR_IFastWindingNumberByParts_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="258" refid="MRFastWindingNumber_8h_1a89a25e82cb8664418549ebeabd8af299" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a89a25e82cb8664418549ebeabd8af299" kindref="member">MR_IFastWindingNumberByParts_calcFromGridByParts</ref>(<ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*_this,<sp/>MR_PassBy<sp/>resFunc_pass_by,<sp/><ref refid="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" kindref="member">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</ref><sp/>*resFunc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="275" refid="MRFastWindingNumber_8h_1a6701c8b7031eb38f667e06315413507a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a6701c8b7031eb38f667e06315413507a" kindref="member">MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</ref>(<ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*_this,<sp/>MR_PassBy<sp/>resFunc_pass_by,<sp/><ref refid="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" kindref="member">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</ref><sp/>*resFunc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*options,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="276"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRFastWindingNumber_8h_1acd001cd6ff85e66ac410fd888cd9c0e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1acd001cd6ff85e66ac410fd888cd9c0e5" kindref="member">MR_IFastWindingNumberByParts_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="165" refid="MRFastWindingNumber_8h_1ad71131f7a7fa80ea7cf85b91a7bb1631" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ad71131f7a7fa80ea7cf85b91a7bb1631" kindref="member">MR_FastWindingNumber_DynamicDowncastFrom_MR_IFastWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRFastWindingNumber_8h_1a06b29d00a84c2ef9e94bf6b946c449b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a06b29d00a84c2ef9e94bf6b946c449b7" kindref="member">MR_FastWindingNumber_MutableDynamicDowncastFrom_MR_IFastWindingNumber</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRFastWindingNumber_8h_1a53e8eaf05f8c3bf2ad41e62744da84fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a53e8eaf05f8c3bf2ad41e62744da84fb" kindref="member">MR_FastWindingNumber_DynamicDowncastFromOrFail_MR_IFastWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRFastWindingNumber_8h_1ae81da21668c429ed70b00f61c54f3478" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ae81da21668c429ed70b00f61c54f3478" kindref="member">MR_FastWindingNumber_MutableDynamicDowncastFromOrFail_MR_IFastWindingNumber</ref>(<ref refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kindref="member">MR_IFastWindingNumber</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRFastWindingNumber_8h_1a6896c571b5d12b3b732809f89b5edaed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a6896c571b5d12b3b732809f89b5edaed" kindref="member">MR_FastWindingNumber_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRFastWindingNumber_8h_1a4ed73a6e32b0d3f9ba2a529941acdaec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a4ed73a6e32b0d3f9ba2a529941acdaec" kindref="member">MR_FastWindingNumber_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRFastWindingNumber_8h_1abd3f86fb96ff821250d4c7b4f93b9e7d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1abd3f86fb96ff821250d4c7b4f93b9e7d" kindref="member">MR_FastWindingNumber_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="comment">//<sp/>see<sp/>methods&apos;<sp/>descriptions<sp/>in<sp/>IFastWindingNumber</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRFastWindingNumber_8h_1a61eb744ba58b1618ab1012b574d36b79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a61eb744ba58b1618ab1012b574d36b79" kindref="member">MR_FastWindingNumber_calcFromVector</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>skipFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRFastWindingNumber_8h_1a015b1a08b1f77029cbffd8fa9aa5afce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a015b1a08b1f77029cbffd8fa9aa5afce" kindref="member">MR_FastWindingNumber_calcSelfIntersections</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*res,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRFastWindingNumber_8h_1ab1afb7f1e7f85c14b17b899412b68ac0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ab1afb7f1e7f85c14b17b899412b68ac0" kindref="member">MR_FastWindingNumber_calcFromGrid</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRFastWindingNumber_8h_1aaf090686d80589fec4c0d492db83c395" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1aaf090686d80589fec4c0d492db83c395" kindref="member">MR_FastWindingNumber_calcWithDistances</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*options);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRFastWindingNumber_8h_1ae536f6040cfe17fd09999620ece0f78e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ae536f6040cfe17fd09999620ece0f78e" kindref="member">MR_FastWindingNumber_calcFromGridWithDistances</ref>(<ref refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kindref="member">MR_FastWindingNumber</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*options,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="MRFastWindingNumber_8h_1acf55d5610d0ebbab030284642e91d3be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1acf55d5610d0ebbab030284642e91d3be" kindref="member">MR_IFastWindingNumberByParts_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRFastWindingNumber_8h_1a23925a6a04920c7096c5ac34af77ed77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1a23925a6a04920c7096c5ac34af77ed77" kindref="member">MR_IFastWindingNumberByParts_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRFastWindingNumber_8h_1a89a25e82cb8664418549ebeabd8af299" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a89a25e82cb8664418549ebeabd8af299" kindref="member">MR_IFastWindingNumberByParts_calcFromGridByParts</ref>(<ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>resFunc_pass_by,<sp/><ref refid="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" kindref="member">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</ref><sp/>*resFunc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRFastWindingNumber_8h_1a6701c8b7031eb38f667e06315413507a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1a6701c8b7031eb38f667e06315413507a" kindref="member">MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</ref>(<ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>resFunc_pass_by,<sp/><ref refid="MRFastWindingNumber_8h_1a3d2775edc5a0f80cf104f495be573436" kindref="member">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</ref><sp/>*resFunc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*gridToMeshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*options,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283" refid="MRFastWindingNumber_8h_1ace99b1178792ffcf3f5e22b95cc454e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ace99b1178792ffcf3f5e22b95cc454e4" kindref="member">MR_IFastWindingNumberByParts_OffsetMutablePtr</ref>(<ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="283" refid="MRFastWindingNumber_8h_1acd001cd6ff85e66ac410fd888cd9c0e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1acd001cd6ff85e66ac410fd888cd9c0e5" kindref="member">MR_IFastWindingNumberByParts_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"></highlight></codeline>
-<codeline lineno="285"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="286"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="287"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="287" refid="MRFastWindingNumber_8h_1ace99b1178792ffcf3f5e22b95cc454e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*<ref refid="MRFastWindingNumber_8h_1ace99b1178792ffcf3f5e22b95cc454e4" kindref="member">MR_IFastWindingNumberByParts_OffsetMutablePtr</ref>(<ref refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kindref="member">MR_IFastWindingNumberByParts</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFastWindingNumber.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFastWindingNumber.h"/>
   </compounddef>
 </doxygen>

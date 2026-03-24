@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DentalId" kind="class" language="C++" prot="public">
     <compoundname>MR::DentalId</compoundname>
-    <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRTeethMaskToDirectionVolume.h</includes>
+    <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRVoxels/MRTeethMaskToDirectionVolume.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga824063478b07672552eeea4742813096" kind="variable"><name>fdi_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <member refid="group__GeneralGroup_1gac7bbd13981e37cfd5f67ff65e8974d12" kind="function"><name>fromFDI</name></member>
-      <member refid="group__GeneralGroup_1ga2440c61bc1fa2c93aa20ddbbe050279c" kind="function"><name>fromFDI</name></member>
+      <member refid="group__GeneralGroup_1ga71dc5ee7ce3d06a131cf51d06c622387" kind="function"><name>fromFDI</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gac1858ebe9d631ac97732981502ccc423" kind="function"><name>fdi</name></member>
+      <member refid="group__GeneralGroup_1gad07f8d74aa4b88b05ff7a3d140d28d3c" kind="function"><name>fdi</name></member>
       <member refid="group__GeneralGroup_1ga413835c53825417d3814e4320110741f" kind="function"><name>operator&lt;=&gt;</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -22,13 +22,13 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="21" bodyend="48"/>
+    <location file="MRVoxels/MRTeethMaskToDirectionVolume.h" line="20" column="1" bodyfile="MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="21" bodyend="48"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6398dcf481fb63fc203bd40a50a9edee" prot="private" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
-      <member refid="group__GeneralGroup_1gac1858ebe9d631ac97732981502ccc423" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fdi</name></member>
+      <member refid="group__GeneralGroup_1gad07f8d74aa4b88b05ff7a3d140d28d3c" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fdi</name></member>
       <member refid="group__GeneralGroup_1ga824063478b07672552eeea4742813096" prot="private" virt="non-virtual"><scope>MR::DentalId</scope><name>fdi_</name></member>
       <member refid="group__GeneralGroup_1gac7bbd13981e37cfd5f67ff65e8974d12" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fromFDI</name></member>
-      <member refid="group__GeneralGroup_1ga2440c61bc1fa2c93aa20ddbbe050279c" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fromFDI</name></member>
+      <member refid="group__GeneralGroup_1ga71dc5ee7ce3d06a131cf51d06c622387" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fromFDI</name></member>
       <member refid="group__GeneralGroup_1ga413835c53825417d3814e4320110741f" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>operator&lt;=&gt;</name></member>
     </listofallmembers>
   </compounddef>

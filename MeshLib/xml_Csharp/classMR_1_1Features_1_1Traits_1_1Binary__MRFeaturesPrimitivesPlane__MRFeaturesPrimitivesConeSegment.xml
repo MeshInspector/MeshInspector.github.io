@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2890" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2890" bodyend="2890"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2928" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2928" bodyend="2928"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2895" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2895" bodyend="2900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2933" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2933" bodyend="2938"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a8a6e8193620e3b2b70c17afec83c762b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,13 +54,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&gt;::Binary</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;amp;gt;::Binary</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2905" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2905" bodyend="2911"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2943" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2943" bodyend="2949"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a9649661f8a3c48c21fd17c0574fbd4f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,13 +73,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&gt;::Binary</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;amp;gt;::Binary</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2916" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2916" bodyend="2916"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2954" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2954" bodyend="2954"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1add946893708c86625603900e790c748e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" kindref="compound">MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</ref></type>
@@ -92,63 +92,63 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2921" column="112" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2921" bodyend="2928"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2959" column="112" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2959" bodyend="2966"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.Features.Traits.Binary&lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</label>
         <link refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</label>
         <link refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2888" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2889" bodyend="2929"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2926" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2927" bodyend="2967"/>
     <listofallmembers>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1add946893708c86625603900e790c748e" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a2010c669370a54b68838e8588f8bc9dd" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name></member>

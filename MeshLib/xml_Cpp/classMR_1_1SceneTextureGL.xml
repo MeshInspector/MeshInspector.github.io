@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneTextureGL" kind="class" language="C++" prot="public">
     <compoundname>MR::SceneTextureGL</compoundname>
-    <includes refid="MRSceneTextureGL_8h" local="no">MRSceneTextureGL.h</includes>
+    <includes refid="MRSceneTextureGL_8h" local="no">MRViewer/MRSceneTextureGL.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga88afc12b62f09fe49e1b2ee38e75d398" kind="variable"><name>fd_</name></member>
       <member refid="group__GeneralGroup_1gaa8ce07dded0be50374ce3906aebccb92" kind="variable"><name>qt_</name></member>
@@ -21,7 +21,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" bodystart="11" bodyend="33"/>
+    <location file="MRViewer/MRSceneTextureGL.h" line="10" column="1" bodyfile="MRViewer/MRSceneTextureGL.h" bodystart="11" bodyend="33"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf29aa94c5d0f28fabf5baa5aeefd075e" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>bind</name></member>
       <member refid="group__GeneralGroup_1ga81ce2688f5c1199861bcbd627db71b78" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>copyTexture</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Matrix4__UnsignedChar" kind="class" language="C#" prot="public">
     <compoundname>MR::Matrix4_UnsignedChar</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Matrix4_UnsignedChar</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6705" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6705" bodyend="6705"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6739" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6739" bodyend="6739"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Matrix4__UnsignedChar_1a96100fc0468499b5482ba26dd7cc8707" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6707" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6707" bodyend="6707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6741" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6741" bodyend="6741"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Matrix4__UnsignedChar_1a8e80b425c5b220610e46ecbe987d93fc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6709" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6709" bodyend="6709"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6743" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6743" bodyend="6743"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Matrix4__UnsignedChar_1a62ef5f76655730efda49c0ab8d5518bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6711" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6711" bodyend="6711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6745" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6745" bodyend="6745"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Matrix4__UnsignedChar_1a7b4d42113ce3aeefdf5ebe938b94b2b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
@@ -68,13 +68,13 @@
         <name>this[int row]</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.this[int row]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix4&lt;unsigned char&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6841" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6842" bodyend="6849"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6875" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6876" bodyend="6883"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6751" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6751" bodyend="6755"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6785" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6785" bodyend="6789"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6761" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6761" bodyend="6767"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6795" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6795" bodyend="6801"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1aae3886aa14a9963ccf149e55cf8c3385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Matrix4&lt;unsigned char&gt;::Matrix4</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;::Matrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6772" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6772" bodyend="6779"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6806" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6806" bodyend="6813"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1a1c33af58725d0882f14c4d048bf8cf2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Matrix4&lt;unsigned char&gt;::Matrix4</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;::Matrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6784" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6784" bodyend="6784"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6818" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6818" bodyend="6818"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1a7dd9db425e2f3854fcc7227c8adef470" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -178,13 +178,13 @@
           <declname>w</declname>
         </param>
         <briefdescription>
-<para>initializes matrix from 4 row-vectors Generated from constructor <computeroutput>MR.Matrix4&lt;unsigned char&gt;::Matrix4</computeroutput>. </para>
+<para>initializes matrix from 4 row-vectors Generated from constructor <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;::Matrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6790" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6790" bodyend="6800"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6824" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6824" bodyend="6834"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1acfc0ae987818f071fbcf3072b3c85495" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -201,13 +201,13 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>construct from rotation matrix and translation vector Generated from constructor <computeroutput>MR.Matrix4&lt;unsigned char&gt;::Matrix4</computeroutput>. </para>
+<para>construct from rotation matrix and translation vector Generated from constructor <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;::Matrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6806" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6806" bodyend="6814"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6840" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6840" bodyend="6848"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1ab2f17004cab5413dfdf33433786b3d02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Matrix4__UnsignedChar" kindref="compound">MR.Matrix4_UnsignedChar</ref></type>
@@ -220,13 +220,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix4&lt;unsigned char&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6819" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6819" bodyend="6826"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6853" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6853" bodyend="6860"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1a23e46983372ed5980506017b8da4901b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref byte</type>
@@ -243,13 +243,13 @@
           <declname>col</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix4&lt;unsigned char&gt;::operator()</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6831" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6831" bodyend="6836"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6865" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6865" bodyend="6870"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1ad5aa739a120f8c8c075d32c1379a7097" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -262,13 +262,13 @@
           <declname>rot</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix4&lt;unsigned char&gt;::setRotation</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;<ref refid="classMR_1_1Matrix4__UnsignedChar_1ad5aa739a120f8c8c075d32c1379a7097" kindref="member">setRotation</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6854" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6854" bodyend="6859"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6888" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6888" bodyend="6893"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1ac76d8e70444b508ad30d50bcc24b0d17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -281,13 +281,13 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix4&lt;unsigned char&gt;::setTranslation</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;<ref refid="classMR_1_1Matrix4__UnsignedChar_1ac76d8e70444b508ad30d50bcc24b0d17" kindref="member">setTranslation</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6864" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6864" bodyend="6869"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6898" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6898" bodyend="6903"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1a08e8d3a92cfb84cdac0bb729e9723b96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.Misc.? Ref&lt; byte &gt;</type>
@@ -296,13 +296,13 @@
         <name>data</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix4&lt;unsigned char&gt;::data</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;<ref refid="classMR_1_1Matrix4__UnsignedChar_1a08e8d3a92cfb84cdac0bb729e9723b96" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6874" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6874" bodyend="6880"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6908" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6908" bodyend="6914"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1ad781f2515915d6b971cff2b0c1e651c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Matrix4__UnsignedChar" kindref="compound">MR.Matrix4_UnsignedChar</ref></type>
@@ -315,13 +315,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6885" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6885" bodyend="6890"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6919" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6919" bodyend="6924"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1ae9c4b003ad8bc8069ca68046e2cf7e8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Matrix4__UnsignedChar" kindref="compound">MR.Matrix4_UnsignedChar</ref></type>
@@ -334,13 +334,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6895" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6895" bodyend="6900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6929" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6929" bodyend="6934"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1a942f8e222ec4103cda3596c1fc8e5017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Matrix4__UnsignedChar" kindref="compound">MR.Matrix4_UnsignedChar</ref></type>
@@ -353,13 +353,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6905" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6905" bodyend="6910"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6939" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6939" bodyend="6944"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix4__UnsignedChar_1a627ae959e5e1cacb4e346b5af880d807" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Matrix4__UnsignedChar" kindref="compound">MR.Matrix4_UnsignedChar</ref></type>
@@ -372,23 +372,29 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator/=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator/=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6915" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6915" bodyend="6920"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6949" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6949" bodyend="6954"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>arbitrary 4x4 matrix Generated from class <computeroutput>MR.Matrix4&lt;unsigned char&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>arbitrary 4x4 matrix Generated from class <computeroutput>MR::Matrix4&amp;amp;lt;unsigned char&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Matrix4_UnsignedChar</label>
+        <link refid="classMR_1_1Matrix4__UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Matrix4_UnsignedChar</label>
+        <label>MR.Const_Matrix4_UnsignedChar</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -396,25 +402,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Matrix4_UnsignedChar</label>
-        <link refid="classMR_1_1Matrix4__UnsignedChar"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Matrix4_UnsignedChar &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Matrix4_UnsignedChar &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Matrix4_UnsignedChar</label>
+        <link refid="classMR_1_1Matrix4__UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Matrix4_UnsignedChar</label>
+        <label>MR.Const_Matrix4_UnsignedChar</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -422,23 +428,17 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Matrix4_UnsignedChar</label>
-        <link refid="classMR_1_1Matrix4__UnsignedChar"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Matrix4_UnsignedChar &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Matrix4_UnsignedChar &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6702" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6703" bodyend="6921"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="6734" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="6735" bodyend="6955"/>
     <listofallmembers>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1ad781f2515915d6b971cff2b0c1e651c6" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>addAssign</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1ab2f17004cab5413dfdf33433786b3d02" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>assign</name></member>

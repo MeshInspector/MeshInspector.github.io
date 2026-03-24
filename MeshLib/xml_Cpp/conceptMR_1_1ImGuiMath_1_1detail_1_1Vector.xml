@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="conceptMR_1_1ImGuiMath_1_1detail_1_1Vector" kind="concept">
     <compoundname>MR::ImGuiMath::detail::Vector</compoundname>
-    <includes refid="MRImGuiVectorOperators_8h" local="no">MRImGuiVectorOperators.h</includes>
+    <includes refid="MRImGuiVectorOperators_8h" local="no">MRViewer/MRImGuiVectorOperators.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -14,6 +14,6 @@ concept <ref refid="conceptMR_1_1ImGuiMath_1_1detail_1_1Vector" kindref="compoun
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="17" column="9"/>
+    <location file="MRViewer/MRImGuiVectorOperators.h" line="17" column="9"/>
   </compounddef>
 </doxygen>

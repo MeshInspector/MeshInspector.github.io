@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1GraphEdgeId" kind="struct" language="C#" prot="public">
     <compoundname>MR::GraphEdgeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.GraphEdgeId &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1GraphEdgeId_1adc4d7899b8db40a3b03c63ff90c086e8" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6197" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6197" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6551" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6551" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6202" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6556" column="32"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1ac7db20c378d23963412dc363109d32eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -50,13 +50,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.GraphEdgeId.operator int</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::GraphEdgeId::operator int</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6249" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6249" bodyend="6254"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6620" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6620" bodyend="6625"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1ac627df82936be0f8e24af3b33b8b4b6a" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,13 +69,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.GraphEdgeId.operator bool</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::GraphEdgeId::operator bool</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6259" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6259" bodyend="6264"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6630" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6630" bodyend="6635"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1a1498cf4aeab1e33c2cea18014241db5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -92,13 +92,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.GraphEdgeId.operator==</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::GraphEdgeId::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6295" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6295" bodyend="6300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6666" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6666" bodyend="6671"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1a1e7eb2d4d63758a3633edea4589e053f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6302" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6302" bodyend="6305"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6673" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6673" bodyend="6676"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6207" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6207" bodyend="6207"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6561" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6561" bodyend="6561"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1af9d64ca1143af98a465b8d2e27e64063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6212" bodyend="6217"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6566" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6566" bodyend="6571"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1a0b1e148ba6bef0fff9a0ca7c3425eb0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6222" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6222" bodyend="6227"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6576" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6576" bodyend="6581"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1ad0eff940ad2e80c49d9d3df6971ab8e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -194,7 +194,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6239" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6239" bodyend="6244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6593" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6593" bodyend="6598"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1GraphEdgeId_1ade444a96081611c7269e82f1da3b1876" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GraphEdgeId.GraphEdgeId</definition>
+        <argsstring>(ulong i)</argsstring>
+        <name>GraphEdgeId</name>
+        <qualifiedname>MR.GraphEdgeId.GraphEdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1GraphEdgeId_1afb9381cee6c89f4228504e89a69bf2cf" kindref="member">MR.GraphEdgeId.GraphEdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6610" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6610" bodyend="6615"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1af76a0fc3ccfb9dce4e5f0d81bb08999a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe bool</type>
@@ -209,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6269" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6269" bodyend="6277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6640" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6640" bodyend="6648"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1acaf3bda9bef7c06a76959bc03fd14c47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref int</type>
@@ -224,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6282" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6282" bodyend="6290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6653" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6653" bodyend="6661"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1aaf74d58cdd2c33a22fa5adb4e8b0f067" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe bool</type>
@@ -237,13 +256,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.GraphEdgeId.operator&lt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::GraphEdgeId::operator&amp;amp;lt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6310" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6310" bodyend="6318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6681" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6681" bodyend="6689"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1a96f0abd89962eada9c89ab2baf42f6b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -252,13 +271,13 @@
         <name>decr</name>
         <qualifiedname>MR.GraphEdgeId.decr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.GraphEdgeId.operator--</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::GraphEdgeId::operator--</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6323" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6323" bodyend="6331"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6694" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6694" bodyend="6702"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1af65658804b34d65a1b7aed6224939aef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -271,13 +290,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.GraphEdgeId.operator--</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::GraphEdgeId::operator--</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6336" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6336" bodyend="6343"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6707" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6707" bodyend="6714"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1aa74d12c9c1a1e9377381d6db39284dc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -286,13 +305,13 @@
         <name>incr</name>
         <qualifiedname>MR.GraphEdgeId.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.GraphEdgeId.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::GraphEdgeId::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6348" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6348" bodyend="6356"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6719" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6719" bodyend="6727"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1aa334e32d3cb6fbc2cdc1a825456cc99b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -305,13 +324,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.GraphEdgeId.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::GraphEdgeId::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6361" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6361" bodyend="6368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6732" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6732" bodyend="6739"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1a9adb459913692b156c9875a98aa3be31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
@@ -324,13 +343,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.GraphEdgeId.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::GraphEdgeId::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6373" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6373" bodyend="6381"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6744" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6744" bodyend="6752"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1a0e623ecc8783505efd46f9ccb9d8268e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
@@ -343,13 +362,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.GraphEdgeId.operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::GraphEdgeId::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6386" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6386" bodyend="6394"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6757" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6757" bodyend="6765"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1a16f7eb5273128da4de108c9efde19898" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -367,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6398" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6398" bodyend="6401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6769" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6769" bodyend="6772"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphEdgeId_1a9ea6d02349526efe70cd712c0856aa80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -385,11 +404,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6403" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6403" bodyend="6410"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6774" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6774" bodyend="6781"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;</computeroutput> This is the by-value version of the struct. </para>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;</computeroutput> This is the by-value version of the struct. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -401,7 +420,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.GraphEdgeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -412,10 +431,10 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.GraphEdgeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6194" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6195" bodyend="6411"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="6548" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="6549" bodyend="6782"/>
     <listofallmembers>
       <member refid="structMR_1_1GraphEdgeId_1a0e623ecc8783505efd46f9ccb9d8268e" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>addAssign</name></member>
       <member refid="structMR_1_1GraphEdgeId_1a96f0abd89962eada9c89ab2baf42f6b2" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>decr</name></member>
@@ -427,6 +446,7 @@
       <member refid="structMR_1_1GraphEdgeId_1af9d64ca1143af98a465b8d2e27e64063" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>GraphEdgeId</name></member>
       <member refid="structMR_1_1GraphEdgeId_1a0b1e148ba6bef0fff9a0ca7c3425eb0f" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>GraphEdgeId</name></member>
       <member refid="structMR_1_1GraphEdgeId_1ad0eff940ad2e80c49d9d3df6971ab8e1" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>GraphEdgeId</name></member>
+      <member refid="structMR_1_1GraphEdgeId_1ade444a96081611c7269e82f1da3b1876" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>GraphEdgeId</name></member>
       <member refid="structMR_1_1GraphEdgeId_1adc4d7899b8db40a3b03c63ff90c086e8" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>id</name></member>
       <member refid="structMR_1_1GraphEdgeId_1aa74d12c9c1a1e9377381d6db39284dc6" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>incr</name></member>
       <member refid="structMR_1_1GraphEdgeId_1aa334e32d3cb6fbc2cdc1a825456cc99b" prot="public" virt="non-virtual"><scope>MR::GraphEdgeId</scope><name>incr</name></member>

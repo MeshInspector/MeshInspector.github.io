@@ -1,4 +1,4 @@
 var MRRebuildMesh_8h =
 [
-    [ "rebuildMesh", "MRRebuildMesh_8h.html#gae3f5900ab5832382ad11410977098452", null ]
+    [ "MR::rebuildMesh", "group__GeneralGroup.html#gaa920641fd86dd739a1409ad679445384", null ]
 ];

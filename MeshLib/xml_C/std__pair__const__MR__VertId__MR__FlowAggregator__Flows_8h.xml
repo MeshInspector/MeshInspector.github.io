@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h" kind="file" language="C++">
+    <compoundname>std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h</label>
+        <link refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a80e4f0fe35e5b31e04719219ce32c7b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ae97d8fc066c0cb7009c8be534e9fec0b" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="22" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="22" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a14dd48d39560b4db8c59c33394ef3fc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1af8225a9c38b4cf1d98572441d95733c8" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a2ff9e304670e8d0c3489c8955bdfdc9f" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1abc3d888bf96d96f7e1e674507a8d6910" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="27" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="27" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ac1c49c70dcf3ca04a26c6b03a9592f92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows *other)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ae97d8fc066c0cb7009c8be534e9fec0b" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="33" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="33" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ae97d8fc066c0cb7009c8be534e9fec0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Destroy</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Destroy</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="36" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1af8225a9c38b4cf1d98572441d95733c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DestroyArray</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="39" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="39" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1abc3d888bf96d96f7e1e674507a8d6910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+        <definition>MRC_API const MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="43" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="43" declcolumn="67"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a2ff9e304670e8d0c3489c8955bdfdc9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="47" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="47" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a3da4b53cb8d998fbc2aa8f8784a2c1fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Construct</definition>
+        <argsstring>(MR_VertId first, MR_PassBy second_pass_by, MR_FlowAggregator_Flows *second)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Construct</name>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>second_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref> *</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>second</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ae97d8fc066c0cb7009c8be534e9fec0b" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="54" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="54" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1aa0a80405eec47a0c977cf84e52a98d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <definition>MRC_API const MR_VertId * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_first</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_first</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="60" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="60" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1abed0c00a1ac00f08a85dc7179f89ddf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref> *</type>
+        <definition>MRC_API const MR_FlowAggregator_Flows * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_second</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_second</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="66" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="66" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a1b8971d047d75e520bcc7680758af429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref> *</type>
+        <definition>MRC_API MR_FlowAggregator_Flows * MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_second_mut</definition>
+        <argsstring>(MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_second_mut</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" line="72" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h" declline="72" declcolumn="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref><sp/><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAggregateFlow.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a80e4f0fe35e5b31e04719219ce32c7b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a80e4f0fe35e5b31e04719219ce32c7b0" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a14dd48d39560b4db8c59c33394ef3fc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a14dd48d39560b4db8c59c33394ef3fc7" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ac1c49c70dcf3ca04a26c6b03a9592f92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ac1c49c70dcf3ca04a26c6b03a9592f92" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ae97d8fc066c0cb7009c8be534e9fec0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1ae97d8fc066c0cb7009c8be534e9fec0b" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1af8225a9c38b4cf1d98572441d95733c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1af8225a9c38b4cf1d98572441d95733c8" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1abc3d888bf96d96f7e1e674507a8d6910" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1abc3d888bf96d96f7e1e674507a8d6910" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a2ff9e304670e8d0c3489c8955bdfdc9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a2ff9e304670e8d0c3489c8955bdfdc9f" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_OffsetMutablePtr</ref>(<ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a3da4b53cb8d998fbc2aa8f8784a2c1fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a3da4b53cb8d998fbc2aa8f8784a2c1fa" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_Construct</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>first,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>second_pass_by,<sp/><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref><sp/>*second);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1aa0a80405eec47a0c977cf84e52a98d37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1aa0a80405eec47a0c977cf84e52a98d37" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1abed0c00a1ac00f08a85dc7179f89ddf6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1abed0c00a1ac00f08a85dc7179f89ddf6" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a1b8971d047d75e520bcc7680758af429" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h_1a1b8971d047d75e520bcc7680758af429" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows_second_mut</ref>(<ref refid="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h_1a24cf6e2b51e1e18e6c5e9a7dd9b117e5" kindref="member">MR_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h"/>
+  </compounddef>
+</doxygen>

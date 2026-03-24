@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Laplacian_1_1Attractor" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Laplacian::Attractor</compoundname>
+    <includes refid="MRLaplacian_8h" local="no">MRMesh/MRLaplacian.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga568001a06cd6d0a77fc7e87e9cebdc9a" kind="variable"><name>p</name></member>
+      <member refid="group__GeneralGroup_1ga9e19c8e2f07fda8228b4b66df9b6832b" kind="variable"><name>target</name></member>
+      <member refid="group__GeneralGroup_1ga38939421f38fc6c59008300357e654f4" kind="variable"><name>weight</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>attracts the given point inside some mesh&apos;s triangle to the given target with the given weight </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Laplacian::Attractor</label>
+        <link refid="structMR_1_1Laplacian_1_1Attractor"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshTriPoint</label>
+        <link refid="structMR_1_1MeshTriPoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRLaplacian.h" line="83" column="5" bodyfile="MRMesh/MRLaplacian.h" bodystart="84" bodyend="92"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga568001a06cd6d0a77fc7e87e9cebdc9a" prot="public" virt="non-virtual"><scope>MR::Laplacian::Attractor</scope><name>p</name></member>
+      <member refid="group__GeneralGroup_1ga9e19c8e2f07fda8228b4b66df9b6832b" prot="public" virt="non-virtual"><scope>MR::Laplacian::Attractor</scope><name>target</name></member>
+      <member refid="group__GeneralGroup_1ga38939421f38fc6c59008300357e654f4" prot="public" virt="non-virtual"><scope>MR::Laplacian::Attractor</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

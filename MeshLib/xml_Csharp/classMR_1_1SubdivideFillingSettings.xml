@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SubdivideFillingSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::SubdivideFillingSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SubdivideFillingSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1adaec9be12a253b1a260be3022f3ac435" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>new unsafe MR.? UndirectedEdgeBitSet MR.SubdivideFillingSettings.notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR.SubdivideFillingSettings.notFlippable</qualifiedname>
+        <briefdescription>
+<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="182" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="183" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1add6104ebc126a14aa4516b0906a8d432" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SubdivideFillingSettings.maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>MR.SubdivideFillingSettings.maxEdgeLen</qualifiedname>
+        <briefdescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="197" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1ad938bd807028981dfa116d8d3b0ee0d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.SubdivideFillingSettings.maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>MR.SubdivideFillingSettings.maxEdgeSplits</qualifiedname>
+        <briefdescription>
+<para>Maximum number of edge splits allowed during subdivision. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="202" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1ac8d79015901dd1d039820ca164d564c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SubdivideFillingSettings.maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR.SubdivideFillingSettings.maxAngleChangeAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="207" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1ac37da172f330f3e052931eb23839af5c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_MREdgeId</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_MREdgeId MR.SubdivideFillingSettings.beforeEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>beforeEdgeSplit</name>
+        <qualifiedname>MR.SubdivideFillingSettings.beforeEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="212" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="212" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1a48d0d24b185f64c0b4195ecaa9c1f240" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId MR.SubdivideFillingSettings.onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>MR.SubdivideFillingSettings.onEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&amp;gt;e), but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="217" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="217" bodyend="217"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1a535699b88de7b3f9d2f5ea0f5c94be19" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SubdivideFillingSettings.SubdivideFillingSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SubdivideFillingSettings</name>
+        <qualifiedname>MR.SubdivideFillingSettings.SubdivideFillingSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="243" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="243" bodyend="247"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1af69827c382127e3347680100dd6bbf5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SubdivideFillingSettings.SubdivideFillingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>SubdivideFillingSettings</name>
+        <qualifiedname>MR.SubdivideFillingSettings.SubdivideFillingSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="253" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="253" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1ae9d9d58deaa9658956b648bc91fc5e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SubdivideFillingSettings.SubdivideFillingSettings</definition>
+        <argsstring>(MR.UndirectedEdgeBitSet? notFlippable, float maxEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, MR.Std._ByValue_Function_BoolFuncFromMREdgeId beforeEdgeSplit, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeSplit)</argsstring>
+        <name>SubdivideFillingSettings</name>
+        <qualifiedname>MR.SubdivideFillingSettings.SubdivideFillingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxEdgeSplits</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChangeAfterFlip</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromMREdgeId</type>
+          <declname>beforeEdgeSplit</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <declname>onEdgeSplit</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SubdivideFillingSettings" kindref="compound">MR.SubdivideFillingSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="264" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="264" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1a1beb1c0ae651ebc3d9e9da2490f79f3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SubdivideFillingSettings.SubdivideFillingSettings</definition>
+        <argsstring>(MR._ByValue_SubdivideFillingSettings _other)</argsstring>
+        <name>SubdivideFillingSettings</name>
+        <qualifiedname>MR.SubdivideFillingSettings.SubdivideFillingSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_SubdivideFillingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SubdivideFillingSettings_1af69827c382127e3347680100dd6bbf5a" kindref="member">MR.SubdivideFillingSettings.SubdivideFillingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="278" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="278" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1a8d8c0bba6de94b70c2086943b4d89c23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SubdivideFillingSettings.SubdivideFillingSettings</definition>
+        <argsstring>(Const_SubdivideFillingSettings _other)</argsstring>
+        <name>SubdivideFillingSettings</name>
+        <qualifiedname>MR.SubdivideFillingSettings.SubdivideFillingSettings</qualifiedname>
+        <param>
+          <type>Const_SubdivideFillingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SubdivideFillingSettings_1af69827c382127e3347680100dd6bbf5a" kindref="member">MR.SubdivideFillingSettings.SubdivideFillingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="290" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="290" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1a2b8514466cdae97290aa4222f649347d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SubdivideFillingSettings.SubdivideFillingSettings</definition>
+        <argsstring>(SubdivideFillingSettings _other)</argsstring>
+        <name>SubdivideFillingSettings</name>
+        <qualifiedname>MR.SubdivideFillingSettings.SubdivideFillingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SubdivideFillingSettings_1af69827c382127e3347680100dd6bbf5a" kindref="member">MR.SubdivideFillingSettings.SubdivideFillingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="295" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="295" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1ad2e65b46e2f116a7860cdf379b727728" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SubdivideFillingSettings" kindref="compound">MR.SubdivideFillingSettings</ref></type>
+        <definition>unsafe MR.SubdivideFillingSettings MR.SubdivideFillingSettings.assign</definition>
+        <argsstring>(MR._ByValue_SubdivideFillingSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SubdivideFillingSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_SubdivideFillingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SubdivideFillingSettings::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="300" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="300" bodyend="307"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1SubdivideFillingSettings" kindref="compound">MR.SubdivideFillingSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.SubdivideFillingSettings</label>
+        <link refid="classMR_1_1SubdivideFillingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SubdivideFillingSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.SubdivideFillingSettings</label>
+        <link refid="classMR_1_1SubdivideFillingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SubdivideFillingSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="177" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="178" bodyend="308"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SubdivideFillingSettings_1ad2e65b46e2f116a7860cdf379b727728" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1ac37da172f330f3e052931eb23839af5c" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1ac8d79015901dd1d039820ca164d564c9" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1add6104ebc126a14aa4516b0906a8d432" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1ad938bd807028981dfa116d8d3b0ee0d1" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1adaec9be12a253b1a260be3022f3ac435" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>notFlippable</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1a48d0d24b185f64c0b4195ecaa9c1f240" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1a535699b88de7b3f9d2f5ea0f5c94be19" prot="package" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1af69827c382127e3347680100dd6bbf5a" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1ae9d9d58deaa9658956b648bc91fc5e2a" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1a1beb1c0ae651ebc3d9e9da2490f79f3a" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1a8d8c0bba6de94b70c2086943b4d89c23" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1a2b8514466cdae97290aa4222f649347d" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

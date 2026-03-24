@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__function__void__from__MR__Mesh__ref__float__float_8h" kind="file" language="C++">
+    <compoundname>std_function_void_from_MR_Mesh_ref_float_float.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_function_void_from_MR_Mesh_ref_float_float.h</label>
+        <link refid="std__function__void__from__MR__Mesh__ref__float__float_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" prot="public" static="no">
+        <type>struct <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref></type>
+        <definition>typedef struct MR_std_function_void_from_MR_Mesh_ref_float_float MR_std_function_void_from_MR_Mesh_ref_float_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores a functor of type: <computeroutput>void(MR::Mesh &amp;, float, float)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="18" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a4fc7e9174085ceeb94b93e618a1a9349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref_float_float * MR_std_function_void_from_MR_Mesh_ref_float_float_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a08765b5a38ee6c4f952cbee4b41ce308" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="22" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="22" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1adef30b873dd5ed2dd793aa08a0cdb4da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref_float_float * MR_std_function_void_from_MR_Mesh_ref_float_float_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a322b8d203acf224be97a49832dd20ec6" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a6622419069902d48e8a268e7e6826285" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a340fd787c9cb2262bde6a9c1a6db13f3" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="27" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="27" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a56eec1fe386322780e69254c9f201e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref_float_float * MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_function_void_from_MR_Mesh_ref_float_float *other)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a08765b5a38ee6c4f952cbee4b41ce308" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="33" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="33" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1acc1fba83e5bfdb56e2840138473f4f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_void_from_MR_Mesh_ref_float_float_AssignFromAnother</definition>
+        <argsstring>(MR_std_function_void_from_MR_Mesh_ref_float_float *_this, MR_PassBy other_pass_by, MR_std_function_void_from_MR_Mesh_ref_float_float *other)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="39" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="39" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a08765b5a38ee6c4f952cbee4b41ce308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_void_from_MR_Mesh_ref_float_float_Destroy</definition>
+        <argsstring>(const MR_std_function_void_from_MR_Mesh_ref_float_float *_this)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_Destroy</name>
+        <param>
+          <type>const <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="42" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="42" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a322b8d203acf224be97a49832dd20ec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_void_from_MR_Mesh_ref_float_float_DestroyArray</definition>
+        <argsstring>(const MR_std_function_void_from_MR_Mesh_ref_float_float *_this)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="45" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a340fd787c9cb2262bde6a9c1a6db13f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_void_from_MR_Mesh_ref_float_float * MR_std_function_void_from_MR_Mesh_ref_float_float_OffsetPtr</definition>
+        <argsstring>(const MR_std_function_void_from_MR_Mesh_ref_float_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="49" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="49" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a6622419069902d48e8a268e7e6826285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref_float_float * MR_std_function_void_from_MR_Mesh_ref_float_float_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_function_void_from_MR_Mesh_ref_float_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="53" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="53" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1aac1818a21c0a5aaeb260053b638fbce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_function_void_from_MR_Mesh_ref_float_float_has_value</definition>
+        <argsstring>(const MR_std_function_void_from_MR_Mesh_ref_float_float *_this)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_has_value</name>
+        <param>
+          <type>const <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores a callable, as opposed to being null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1adf68d8889b8362a4f668d0fc47052b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_void_from_MR_Mesh_ref_float_float_reset</definition>
+        <argsstring>(MR_std_function_void_from_MR_Mesh_ref_float_float *_this)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_reset</name>
+        <param>
+          <type><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the stored callable, making this instance null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="61" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1fcbea4879288357b95214fd7af6fb57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_void_from_MR_Mesh_ref_float_float_call</definition>
+        <argsstring>(const MR_std_function_void_from_MR_Mesh_ref_float_float *_this, MR_Mesh *_1, float _2, float _3)</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_call</name>
+        <param>
+          <type>const <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls the stored callable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="66" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1b219df6e8f50e041b04abde8c58da31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref_float_float * MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructStateless</definition>
+        <argsstring>(void(*func)(MR_Mesh *_1, float _2, float _3))</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructStateless</name>
+        <param>
+          <type>void(*)(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *_1, float _2, float _3)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a stateless function. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a08765b5a38ee6c4f952cbee4b41ce308" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="71" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="71" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1a37ff7197bb7f17612184c583003837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_void_from_MR_Mesh_ref_float_float_Assign</definition>
+        <argsstring>(MR_std_function_void_from_MR_Mesh_ref_float_float *_this, void(*func)(MR_Mesh *_1, float _2, float _3))</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_Assign</name>
+        <param>
+          <type><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>void(*)(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *_1, float _2, float _3)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a stateless function. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="76" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1ad3d4e62ac3574b776801f94b6ba42c3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref_float_float * MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructEx</definition>
+        <argsstring>(void(*func)(MR_Mesh *_1, float _2, float _3, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructEx</name>
+        <param>
+          <type>void(*)(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *_1, float _2, float _3, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a function with additional state. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a08765b5a38ee6c4f952cbee4b41ce308" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="108" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="108" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__void__from__MR__Mesh__ref__float__float_8h_1adb95bd532fff4afb891995352aeb1ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_void_from_MR_Mesh_ref_float_float_AssignEx</definition>
+        <argsstring>(MR_std_function_void_from_MR_Mesh_ref_float_float *_this, void(*func)(MR_Mesh *_1, float _2, float _3, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float_AssignEx</name>
+        <param>
+          <type><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>void(*)(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *_1, float _2, float _3, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a function with additional state. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h" declline="140" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a4fc7e9174085ceeb94b93e618a1a9349" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a4fc7e9174085ceeb94b93e618a1a9349" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1adef30b873dd5ed2dd793aa08a0cdb4da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1adef30b873dd5ed2dd793aa08a0cdb4da" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a56eec1fe386322780e69254c9f201e4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a56eec1fe386322780e69254c9f201e4b" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1acc1fba83e5bfdb56e2840138473f4f1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1acc1fba83e5bfdb56e2840138473f4f1c" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_AssignFromAnother</ref>(<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a08765b5a38ee6c4f952cbee4b41ce308" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a08765b5a38ee6c4f952cbee4b41ce308" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a322b8d203acf224be97a49832dd20ec6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a322b8d203acf224be97a49832dd20ec6" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a340fd787c9cb2262bde6a9c1a6db13f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a340fd787c9cb2262bde6a9c1a6db13f3" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a6622419069902d48e8a268e7e6826285" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a6622419069902d48e8a268e7e6826285" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_OffsetMutablePtr</ref>(<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1aac1818a21c0a5aaeb260053b638fbce3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1aac1818a21c0a5aaeb260053b638fbce3" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1adf68d8889b8362a4f668d0fc47052b5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1adf68d8889b8362a4f668d0fc47052b5f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_reset</ref>(<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1fcbea4879288357b95214fd7af6fb57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1fcbea4879288357b95214fd7af6fb57" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_3);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1b219df6e8f50e041b04abde8c58da31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1b219df6e8f50e041b04abde8c58da31" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructStateless</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*func)(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_3));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1a37ff7197bb7f17612184c583003837" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1a1a37ff7197bb7f17612184c583003837" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_Assign</ref>(<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*func)(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_3));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ad3d4e62ac3574b776801f94b6ba42c3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ad3d4e62ac3574b776801f94b6ba42c3c" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_ConstructEx</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*func)(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_3,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1adb95bd532fff4afb891995352aeb1ce1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1adb95bd532fff4afb891995352aeb1ce1" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float_AssignEx</ref>(<ref refid="std__function__void__from__MR__Mesh__ref__float__float_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*func)(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_3,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h"/>
+  </compounddef>
+</doxygen>

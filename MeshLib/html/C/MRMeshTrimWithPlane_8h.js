@@ -1,14 +1,8 @@
 var MRMeshTrimWithPlane_8h =
 [
-    [ "MR_FaceBitSet", "MRMeshTrimWithPlane_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_Mesh", "MRMeshTrimWithPlane_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId", "MRMeshTrimWithPlane_8h.html#a03edab687b909f8423dba338e60cd1e9", null ],
-    [ "MR_Plane3f", "MRMeshTrimWithPlane_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
     [ "MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float", "MRMeshTrimWithPlane_8h.html#a617f57058bc560d18faf7e059ea0f4e3", null ],
-    [ "MR_std_vector_std_vector_MR_EdgeId", "MRMeshTrimWithPlane_8h.html#ab5de264b6065dbf84f6b3fa0f6530592", null ],
     [ "MR_TrimOptionalOutput", "MRMeshTrimWithPlane_8h.html#a1a86575fe63cab3cf6d93f75b5a712f6", null ],
     [ "MR_TrimWithPlaneParams", "MRMeshTrimWithPlane_8h.html#a84025085d53bf26e235ab44149192c09", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRMeshTrimWithPlane_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
     [ "MR_subdivideWithPlane_5", "MRMeshTrimWithPlane_8h.html#a24aaad99dc640d68ee04128d73c27c80", null ],
     [ "MR_TrimOptionalOutput_AssignFromAnother", "MRMeshTrimWithPlane_8h.html#a32b9a7acc861f3aae7912358c64a4f99", null ],
     [ "MR_TrimOptionalOutput_ConstructFrom", "MRMeshTrimWithPlane_8h.html#a0e4af1b91f38d907066c7cbebebea035", null ],

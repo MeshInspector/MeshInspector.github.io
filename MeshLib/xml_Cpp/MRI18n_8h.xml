@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRI18n_8h" kind="file" language="C++">
+    <compoundname>MRI18n.h</compoundname>
+    <includes refid="MRViewer_2config_8h" local="yes">config.h</includes>
+    <includes local="yes">exports.h</includes>
+    <includes refid="MRMeshFwd_8h" local="no">MRMesh/MRMeshFwd.h</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MRViewer/MRI18n.h</label>
+        <link refid="MRI18n_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="3">
+        <label>exports.h</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1Locale">MR::Locale</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRI18n_8h_1adc6632164911ac0de8387a9b13de000e" prot="public" static="no">
+        <name>_tr</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ ).c_str()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRI18n.h" line="29" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" prot="public" static="no">
+        <name>f_tr</name>
+        <param><defname>...</defname></param>
+        <initializer>fmt::runtime( <ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ ) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRI18n.h" line="30" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewer_2config_8h" kindref="compound">config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRVIEWER_NO_LOCALE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Locale" kindref="compound">MR::Locale</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domainId<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="namespaceMR_1_1Locale_1a807b4f903a9a114f9115a41e14d45f61" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domainId<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="namespaceMR_1_1Locale_1a16cad98007443a93cf1be4f3b53bddeb" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domainId<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespaceMR_1_1Locale_1a2ef721b59151f775fafc0b7bc3e58124" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domainId<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRI18n_8h_1adc6632164911ac0de8387a9b13de000e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>).c_str()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="MRViewer/MRI18n.h"/>
+  </compounddef>
+</doxygen>

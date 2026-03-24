@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Nesting" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Nesting</compoundname>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1BoxNestingCorner" prot="public">mrmeshpy::Nesting::BoxNestingCorner</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1BoxNestingOptions" prot="public">mrmeshpy::Nesting::BoxNestingOptions</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1BoxNestingParams" prot="public">mrmeshpy::Nesting::BoxNestingParams</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority" prot="public">mrmeshpy::Nesting::IBoxNestingPriority</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1MeshXf" prot="public">mrmeshpy::Nesting::MeshXf</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams" prot="public">mrmeshpy::Nesting::Nesting3mfParams</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1NestingBaseParams" prot="public">mrmeshpy::Nesting::NestingBaseParams</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1NestingResult" prot="public">mrmeshpy::Nesting::NestingResult</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1SequentialNester" prot="public">mrmeshpy::Nesting::SequentialNester</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions" prot="public">mrmeshpy::Nesting::TetrisDensifyOptions</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams" prot="public">mrmeshpy::Nesting::TetrisDensifyParams</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1a0b6d8fc48473b54febaa93c2980e2a54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId" kindref="compound">Vector_Nesting_NestingResult_ObjId</ref></type>
+        <definition> Vector_Nesting_NestingResult_ObjId mrmeshpy.Nesting.boxNesting</definition>
+        <argsstring>(Vector_Nesting_MeshXf_ObjId meshes, Nesting.BoxNestingParams params)</argsstring>
+        <name>boxNesting</name>
+        <qualifiedname>mrmeshpy.Nesting.boxNesting</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId" kindref="compound">Vector_Nesting_MeshXf_ObjId</ref></type>
+          <declname>meshes</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1BoxNestingParams" kindref="compound">Nesting.BoxNestingParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds best positions of input meshes to fit the nest (checks them by contacting box corners)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37700" bodyend="37703"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1a165ebd6062bbb3ac9ff0d9133e200802" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.exportNesting3mf</definition>
+        <argsstring>(os.PathLike|str|bytes path, Nesting.Nesting3mfParams params)</argsstring>
+        <name>exportNesting3mf</name>
+        <qualifiedname>mrmeshpy.Nesting.exportNesting3mf</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams" kindref="compound">Nesting.Nesting3mfParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>exports slicestack 3mf file based on placed meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37705" bodyend="37708"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1a847f4bd9c4b8b096635b395c33bfbabd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.fillNestingSocketCorneres</definition>
+        <argsstring>(std_vector_Box_Vector3_float nestedBoxes, std_vector_Nesting_BoxNestingCorner outCorners, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>fillNestingSocketCorneres</name>
+        <qualifiedname>mrmeshpy.Nesting.fillNestingSocketCorneres</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Box__Vector3__float" kindref="compound">std_vector_Box_Vector3_float</ref></type>
+          <declname>nestedBoxes</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner" kindref="compound">std_vector_Nesting_BoxNestingCorner</ref></type>
+          <declname>outCorners</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>fills `outCorners` based on `nestedBoxes` corners \\n
+also adding corners in intersections of `nestedBoxes`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37710" bodyend="37714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1a07757b2691234297a3d44fbd06bb5eae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority" kindref="compound">Nesting.IBoxNestingPriority</ref></type>
+        <definition> Nesting.IBoxNestingPriority mrmeshpy.Nesting.getNeighborigDensityPriorityMetric</definition>
+        <argsstring>(Box3f nest, float neighborhood)</argsstring>
+        <name>getNeighborigDensityPriorityMetric</name>
+        <qualifiedname>mrmeshpy.Nesting.getNeighborigDensityPriorityMetric</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+          <declname>nest</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>neighborhood</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>priority metric that maximizes density of placement in local neighborhood
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37716" bodyend="37719"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1ae669e3b51a7968cf4c9926af887b4caf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority" kindref="compound">Nesting.IBoxNestingPriority</ref></type>
+        <definition> Nesting.IBoxNestingPriority mrmeshpy.Nesting.getNestPostionMinPriorityMetric</definition>
+        <argsstring>(Box3f nest)</argsstring>
+        <name>getNestPostionMinPriorityMetric</name>
+        <qualifiedname>mrmeshpy.Nesting.getNestPostionMinPriorityMetric</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+          <declname>nest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>priority metric that minimizes position of new object by Z-&gt;Y-&gt;X coordinate in nest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37721" bodyend="37724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1a04607846bcdf91c6a585ee5f7f61e846" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId" kindref="compound">Vector_AffineXf3f_ObjId</ref></type>
+        <definition> Vector_AffineXf3f_ObjId mrmeshpy.Nesting.tetrisNestingDensify</definition>
+        <argsstring>(Vector_Nesting_MeshXf_ObjId meshes, Nesting.TetrisDensifyParams params)</argsstring>
+        <name>tetrisNestingDensify</name>
+        <qualifiedname>mrmeshpy.Nesting.tetrisNestingDensify</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId" kindref="compound">Vector_Nesting_MeshXf_ObjId</ref></type>
+          <declname>meshes</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">Nesting.TetrisDensifyParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>make nested meshes more compact by representing them via voxels and pushing to nest zero
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37726" bodyend="37729"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37099" bodyend="37729"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Nesting_1a0b6d8fc48473b54febaa93c2980e2a54" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting</scope><name>boxNesting</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1a165ebd6062bbb3ac9ff0d9133e200802" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting</scope><name>exportNesting3mf</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1a847f4bd9c4b8b096635b395c33bfbabd" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting</scope><name>fillNestingSocketCorneres</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1a07757b2691234297a3d44fbd06bb5eae" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting</scope><name>getNeighborigDensityPriorityMetric</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1ae669e3b51a7968cf4c9926af887b4caf" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting</scope><name>getNestPostionMinPriorityMetric</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1a04607846bcdf91c6a585ee5f7f61e846" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting</scope><name>tetrisNestingDensify</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

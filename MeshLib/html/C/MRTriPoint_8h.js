@@ -1,12 +1,6 @@
 var MRTriPoint_8h =
 [
-    [ "MR_NoInit", "MRTriPoint_8h.html#a14f0f26a43ddb92c3fa3c2192008224c", null ],
-    [ "MR_std_istream", "MRTriPoint_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_ostream", "MRTriPoint_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_TriPointd", "MRTriPoint_8h.html#a17289bf57bcb0037619be07245ff0c78", null ],
-    [ "MR_TriPointf", "MRTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c", null ],
-    [ "MR_Vector3d", "MRTriPoint_8h.html#aa6b35c703a4572c3ccc120ee82723a66", null ],
-    [ "MR_Vector3f", "MRTriPoint_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_equal_MR_TriPointd", "MRTriPoint_8h.html#a1ea5e8a7ea858db42b9f376b7d49637e", null ],
     [ "MR_equal_MR_TriPointf", "MRTriPoint_8h.html#aa08f569c94b6abcd4a7c79204adef811", null ],
     [ "MR_input_MR_TriPointd", "MRTriPoint_8h.html#a943a6780bdf04e469bb34da549383455", null ],

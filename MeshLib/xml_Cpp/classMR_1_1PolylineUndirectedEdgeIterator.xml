@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineUndirectedEdgeIterator" kind="class" language="C++" prot="public">
     <compoundname>MR::PolylineUndirectedEdgeIterator</compoundname>
-    <includes refid="MRPolylineEdgeIterator_8h" local="no">MRPolylineEdgeIterator.h</includes>
+    <includes refid="MRPolylineEdgeIterator_8h" local="no">MRMesh/MRPolylineEdgeIterator.h</includes>
     <sectiondef kind="user-defined">
       <member refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" kind="function"><name>operator==</name></member>
     </sectiondef>
@@ -25,7 +25,7 @@
     <detaileddescription>
 <para>The iterator to find all not-lone undirected edges in the polyline topology </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineEdgeIterator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineEdgeIterator.h" bodystart="16" bodyend="54"/>
+    <location file="MRMesh/MRPolylineEdgeIterator.h" line="15" column="1" bodyfile="MRMesh/MRPolylineEdgeIterator.h" bodystart="16" bodyend="54"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga06f0dc6b4e0019df7b067454d0b40150" prot="private" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>edge_</name></member>
       <member refid="group__GeneralGroup_1gab5a25215895e3294bb18f87556136edc" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>iterator_category</name></member>

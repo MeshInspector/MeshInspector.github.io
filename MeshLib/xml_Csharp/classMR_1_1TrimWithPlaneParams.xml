@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TrimWithPlaneParams" kind="class" language="C#" prot="public">
     <compoundname>MR::TrimWithPlaneParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TrimWithPlaneParams</basecompoundref>
@@ -32,9 +32,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="130" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="130" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1TrimWithPlaneParams_1a7c9ae9b50387cae2a8f2df53230bf971" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeIdFloat</type>
-        <definition>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeIdFloat MR.TrimWithPlaneParams.onEdgeSplitCallback</definition>
+      <memberdef kind="property" id="classMR_1_1TrimWithPlaneParams_1a7ac90570b8a426859f26bb45f25d3ed0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId_Float</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId_Float MR.TrimWithPlaneParams.onEdgeSplitCallback</definition>
         <argsstring></argsstring>
         <name>onEdgeSplitCallback</name>
         <qualifiedname>MR.TrimWithPlaneParams.onEdgeSplitCallback</qualifiedname>
@@ -125,7 +125,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TrimWithPlaneParams.TrimWithPlaneParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TrimWithPlaneParams_1a83c436b07cf5583bb54ac607faa5cd93" kindref="member">MR.TrimWithPlaneParams.TrimWithPlaneParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -144,7 +144,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TrimWithPlaneParams.TrimWithPlaneParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TrimWithPlaneParams_1a83c436b07cf5583bb54ac607faa5cd93" kindref="member">MR.TrimWithPlaneParams.TrimWithPlaneParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,7 +163,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TrimWithPlaneParams.TrimWithPlaneParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TrimWithPlaneParams_1a83c436b07cf5583bb54ac607faa5cd93" kindref="member">MR.TrimWithPlaneParams.TrimWithPlaneParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -182,7 +182,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TrimWithPlaneParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TrimWithPlaneParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -197,52 +197,52 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_TrimWithPlaneParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TrimWithPlaneParams</label>
         <link refid="classMR_1_1TrimWithPlaneParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TrimWithPlaneParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TrimWithPlaneParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_TrimWithPlaneParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TrimWithPlaneParams</label>
         <link refid="classMR_1_1TrimWithPlaneParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TrimWithPlaneParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TrimWithPlaneParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="124" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="125" bodyend="223"/>
     <listofallmembers>
       <member refid="classMR_1_1TrimWithPlaneParams_1a15226809745221df4286466804cf1936" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>assign</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1a99d8d589dbba19c3e1b11ff130b9af30" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>eps</name></member>
-      <member refid="classMR_1_1TrimWithPlaneParams_1a7c9ae9b50387cae2a8f2df53230bf971" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a7ac90570b8a426859f26bb45f25d3ed0" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>onEdgeSplitCallback</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1ac6bda8d02678708d5cf85f108e53f742" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>plane</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1a5090c34a8eebcf82030fe6746403dfa3" prot="package" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1a83c436b07cf5583bb54ac607faa5cd93" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>

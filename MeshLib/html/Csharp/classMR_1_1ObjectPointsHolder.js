@@ -2,8 +2,8 @@ var classMR_1_1ObjectPointsHolder =
 [
     [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html#aa7c91e1c549fbf5c9837ffb03272f6d5", null ],
     [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html#ae046ab67aa359f65a36a705cd20d18de", null ],
-    [ "addChild", "classMR_1_1ObjectPointsHolder.html#ae2b208936c399aa8d804425bf998aef3", null ],
-    [ "addChildBefore", "classMR_1_1ObjectPointsHolder.html#ab30b3b88844f66ebaa8ba4691ad287c5", null ],
+    [ "addChild", "classMR_1_1ObjectPointsHolder.html#adb30a066484904370b74aa1bddd19d18", null ],
+    [ "addChildBefore", "classMR_1_1ObjectPointsHolder.html#acf03e9d71455f3f38cb0148e54d565b8", null ],
     [ "addTag", "classMR_1_1ObjectPointsHolder.html#ad10d552d13c2bd2ca371ed14c2fcd5d2", null ],
     [ "applyScale", "classMR_1_1ObjectPointsHolder.html#a020549937de7904cbdba95b63fb17a11", null ],
     [ "assign", "classMR_1_1ObjectPointsHolder.html#ac38b2d99f99d4a28a0b456374bfe55bd", null ],

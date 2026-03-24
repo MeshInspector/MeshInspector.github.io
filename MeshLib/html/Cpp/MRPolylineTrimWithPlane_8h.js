@@ -1,8 +1,8 @@
 var MRPolylineTrimWithPlane_8h =
 [
-    [ "dividePolylineWithPlane", "MRPolylineTrimWithPlane_8h.html#gabc661ceabc1f1532ecd5bd107a8e869a", null ],
-    [ "extractSectionsFromPolyline", "MRPolylineTrimWithPlane_8h.html#gad412e17ccd41a72db846230e5b0aace9", null ],
-    [ "subdividePolylineWithPlane", "MRPolylineTrimWithPlane_8h.html#gabf00b2d15f5e002e4f56f0e6a5c6d996", null ],
-    [ "subdivideWithPlane", "MRPolylineTrimWithPlane_8h.html#gaf65a30e41e9b0e1bb95d4fcf5e87a4e2", null ],
-    [ "trimWithPlane", "MRPolylineTrimWithPlane_8h.html#gaa175288fa2fb892330efe3669b9bd578", null ]
+    [ "MR::dividePolylineWithPlane", "group__GeneralGroup.html#ga806f98c603f2ea2809ee156f92accb65", null ],
+    [ "MR::extractSectionsFromPolyline", "group__GeneralGroup.html#ga4f730f6268082e2df6be66361f08a79a", null ],
+    [ "MR::subdividePolylineWithPlane", "group__GeneralGroup.html#gab3ca818ec0fc66be87093884adb00c7c", null ],
+    [ "MR::subdivideWithPlane", "group__GeneralGroup.html#ga567160da97e42583ca4ebf047a3f345f", null ],
+    [ "MR::trimWithPlane", "group__GeneralGroup.html#gaf89b1475080f66872e6f39a76810daf6", null ]
 ];

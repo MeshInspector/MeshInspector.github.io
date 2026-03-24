@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SegmPoint" kind="struct" language="C++" prot="public">
     <compoundname>MR::SegmPoint</compoundname>
-    <includes refid="MRSegmPoint_8h" local="no">MRSegmPoint.h</includes>
+    <includes refid="MRSegmPoint_8h" local="no">MRMesh/MRSegmPoint.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -30,7 +30,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="17" bodyend="49"/>
+    <location file="MRMesh/MRSegmPoint.h" line="16" column="1" bodyfile="MRMesh/MRSegmPoint.h" bodystart="17" bodyend="49"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5473b25338c8b8b27c9d38f2b6bb8f89" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1ga1cd8a648f7ab27b5d40ff1c7b036ba2e" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>eps</name></member>

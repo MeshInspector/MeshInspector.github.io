@@ -1,23 +1,9 @@
 var MRSurfacePath_8h =
 [
     [ "MR_ComputeSteepestDescentPathSettings", "MRSurfacePath_8h.html#a4893b0a050ddeb69f3eb2b02732046ab", null ],
-    [ "MR_EdgePoint", "MRSurfacePath_8h.html#a50185006f78fd01ef7f1316a047afa45", null ],
     [ "MR_expected_std_vector_MR_EdgePoint_MR_PathError", "MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb", null ],
     [ "MR_ExtremeEdgeType", "MRSurfacePath_8h.html#a49a1c9b4a176fa839d04df7eb7230530", null ],
-    [ "MR_GeodesicPath", "MRSurfacePath_8h.html#ac1634d1d822123ef12012bc7bf0bfa90", null ],
-    [ "MR_Mesh", "MRSurfacePath_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRSurfacePath_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_MeshTriPoint", "MRSurfacePath_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
     [ "MR_PathError", "MRSurfacePath_8h.html#a9e609d8886a9bc5c71190843254bacd5", null ],
-    [ "MR_phmap_flat_hash_map_MR_VertId_MR_VertId", "MRSurfacePath_8h.html#a4b90f49d08ad220afcccf3e064a60cdd", null ],
-    [ "MR_std_string", "MRSurfacePath_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_std_vector_MR_EdgePoint", "MRSurfacePath_8h.html#a9138e3f58ce2b39215044d2e368587ae", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRSurfacePath_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_std_vector_std_vector_MR_EdgePoint", "MRSurfacePath_8h.html#a9eda717f5871eea7d095bcf2f34a7a98", null ],
-    [ "MR_std_vector_std_vector_MR_Vector3f", "MRSurfacePath_8h.html#a79b88ecd897f6c27c8428cecc4a91f30", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRSurfacePath_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_VertBitSet", "MRSurfacePath_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertScalars", "MRSurfacePath_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4", null ],
     [ "MR_ExtremeEdgeType", "MRSurfacePath_8h.html#a5482c592eb1808b0577688ffe5ebcb76", [
       [ "MR_ExtremeEdgeType_Ridge", "MRSurfacePath_8h.html#a5482c592eb1808b0577688ffe5ebcb76acec741a8ab5021accd7a8cbc20e052b4", null ],
       [ "MR_ExtremeEdgeType_Gorge", "MRSurfacePath_8h.html#a5482c592eb1808b0577688ffe5ebcb76a15cd4c836bff03f19f6f62c39e0f3193", null ]

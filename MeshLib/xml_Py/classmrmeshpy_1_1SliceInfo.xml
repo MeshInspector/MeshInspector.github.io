@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SliceInfo" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SliceInfo</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1SliceInfoBase" prot="public" virt="non-virtual">mrmeshpy.SliceInfoBase</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52674" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53749" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -27,7 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SliceInfo.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1SliceInfoBase_1a336f884a47af9603207c2b0b8d60b0d6">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -42,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52677" bodyend="52678"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53752" bodyend="53753"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a68709d81e4b3a911815d2bc53b1030de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SliceInfo" kindref="compound">SliceInfo</ref></type>
@@ -65,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52681" bodyend="52682"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53756" bodyend="53757"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a68709d81e4b3a911815d2bc53b1030de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SliceInfo" kindref="compound">SliceInfo</ref></type>
@@ -88,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52685" bodyend="52686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53760" bodyend="53761"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +97,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SliceInfo.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1SliceInfoBase_1a336f884a47af9603207c2b0b8d60b0d6">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -109,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52688" bodyend="52689"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53763" bodyend="53764"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a2ce306c50570d3237ce0943266838645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -117,7 +115,6 @@
         <argsstring>(self, SliceInfo arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SliceInfo.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1SliceInfoBase_1a336f884a47af9603207c2b0b8d60b0d6">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -134,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52691" bodyend="52694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53766" bodyend="53769"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a61d1647f4cb3411328fc43febbae2405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
@@ -154,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52696" bodyend="52699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53771" bodyend="53774"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a32c5b34206eb31dea38865906a30d309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -176,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52701" bodyend="52702"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53776" bodyend="53777"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -207,33 +204,31 @@ these fields will be ignored in sorting
         <link refid="classmrmeshpy_1_1SliceInfo"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_imagePos</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.SliceInfoBase</label>
         <link refid="classmrmeshpy_1_1SliceInfoBase"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_fileNum</edgelabel>
-          <edgelabel>_offsetof_instanceNum</edgelabel>
-          <edgelabel>_offsetof_z</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52666" bodyend="52702"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53741" bodyend="53777"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SliceInfo_1a60713979c28d90dcf8935b1685eb0793" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SliceInfo_1a121b8ea578c4bbba0a4638cbabfcec50" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SliceInfo_1a2ce306c50570d3237ce0943266838645" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1aae431376627960470be8d4e2c3636356" prot="protected" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>_offsetof_fileNum</name></member>
       <member refid="classmrmeshpy_1_1SliceInfo_1a5b06affedcb4eab5e7e7cfc591bdbe66" prot="protected" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>_offsetof_imagePos</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1a598f330f1b73b0a3a5906c7c51b64914" prot="protected" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>_offsetof_instanceNum</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1a784a4f9b530c40aa364d851aca9b1618" prot="protected" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>_offsetof_z</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1ac713d6b45191b08a820452b3a16fe6a4" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>fileNum</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1a6a1d7206c6bf50e5a0b3e095a176b5fe" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>fileNum</name></member>
       <member refid="classmrmeshpy_1_1SliceInfo_1a61d1647f4cb3411328fc43febbae2405" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>imagePos</name></member>
       <member refid="classmrmeshpy_1_1SliceInfo_1a32c5b34206eb31dea38865906a30d309" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>imagePos</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1a0b5d54c5e214c4b4808bcdb53585e9f6" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>instanceNum</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1afef7ede9d8ea845ec1343cb3904ddb99" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>instanceNum</name></member>
       <member refid="classmrmeshpy_1_1SliceInfo_1a68709d81e4b3a911815d2bc53b1030de" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1SliceInfo_1a68709d81e4b3a911815d2bc53b1030de" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1a58acd2a99f05107e7dd7344cc5970b55" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>z</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfoBase_1aae73d9f95b62ec75b2e9b382f2498bd5" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>z</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4" kind="struct" language="C++" prot="public">
     <compoundname>MR::Features::Traits::Unary&lt; Primitives::Sphere &gt;</compoundname>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <templateparamlist>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga79f0e6f0a85464a7427e82777f24552d" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gac3398c413a494d4436a8d6f176e5313e" kind="function"><name>name</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="247" bodyend="249"/>
+    <location file="MRMesh/MRFeatures.h" line="246" column="1" bodyfile="MRMesh/MRFeatures.h" bodystart="247" bodyend="249"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga79f0e6f0a85464a7427e82777f24552d" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary&lt; Primitives::Sphere &gt;</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gac3398c413a494d4436a8d6f176e5313e" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary&lt; Primitives::Sphere &gt;</scope><name>name</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

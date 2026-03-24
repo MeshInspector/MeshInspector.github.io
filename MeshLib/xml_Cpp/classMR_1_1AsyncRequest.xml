@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AsyncRequest" kind="class" language="C++" prot="public">
     <compoundname>MR::AsyncRequest</compoundname>
-    <includes refid="MRAsyncTimer_8h" local="no">MRAsyncTimer.h</includes>
+    <includes refid="MRAsyncTimer_8h" local="no">MRViewer/MRAsyncTimer.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga32c8eaba0bbda7c291e8231db38a41e1" kind="typedef"><name>Command</name></member>
     </sectiondef>
@@ -13,11 +13,11 @@
       <member refid="group__GeneralGroup_1ga88fac8def7193775f5156d79588ef527" kind="variable"><name>command_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga32e13a84f6e2ea8aeeba1f2deb566a3d" kind="function"><name>AsyncRequest</name></member>
-      <member refid="group__GeneralGroup_1ga3801cd6efcd7bb32ee149dd407b78ba6" kind="function"><name>~AsyncRequest</name></member>
-      <member refid="group__GeneralGroup_1ga0a3e35b953012f9acba6d6a9a50232fc" kind="function"><name>request</name></member>
-      <member refid="group__GeneralGroup_1ga01cefc0b2c39108d1ed5dce811d40664" kind="function"><name>requestIfNotSet</name></member>
-      <member refid="group__GeneralGroup_1ga0c97ae941f212dde5a8326dbe28ee679" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga7862a58ebcba6735beccab9ecb24e282" kind="function"><name>AsyncRequest</name></member>
+      <member refid="group__GeneralGroup_1gafbf919809d09c97af6992171998a988c" kind="function"><name>~AsyncRequest</name></member>
+      <member refid="group__GeneralGroup_1gab6b0836467d06beeafbda15045a1b13e" kind="function"><name>request</name></member>
+      <member refid="group__GeneralGroup_1ga85ece1cc5b9eb90afb3dcd6659737fc7" kind="function"><name>requestIfNotSet</name></member>
+      <member refid="group__GeneralGroup_1gaa46954e1ccf8e1c7d6699e34aceb182a" kind="function"><name>reset</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gaa4ee4111a285fa44ca49e776aa1a7c68" kind="function"><name>loadCommand_</name></member>
@@ -28,20 +28,20 @@
     <detaileddescription>
 <para>Complete given command in given time may know only one command at a time terminate listener in destructor </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="56" bodyend="82"/>
+    <location file="MRViewer/MRAsyncTimer.h" line="55" column="1" bodyfile="MRViewer/MRAsyncTimer.h" bodystart="56" bodyend="82"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga32e13a84f6e2ea8aeeba1f2deb566a3d" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>AsyncRequest</name></member>
+      <member refid="group__GeneralGroup_1ga7862a58ebcba6735beccab9ecb24e282" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>AsyncRequest</name></member>
       <member refid="group__GeneralGroup_1ga4edff717cd6372fadb42b0cfdeb0f356" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>cmdMutex_</name></member>
       <member refid="group__GeneralGroup_1ga32c8eaba0bbda7c291e8231db38a41e1" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>Command</name></member>
       <member refid="group__GeneralGroup_1ga88fac8def7193775f5156d79588ef527" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>command_</name></member>
       <member refid="group__GeneralGroup_1ga4db965f455f079c0eca66001c00b8909" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>listenerThread_</name></member>
       <member refid="group__GeneralGroup_1gaa4ee4111a285fa44ca49e776aa1a7c68" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>loadCommand_</name></member>
-      <member refid="group__GeneralGroup_1ga0a3e35b953012f9acba6d6a9a50232fc" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>request</name></member>
-      <member refid="group__GeneralGroup_1ga01cefc0b2c39108d1ed5dce811d40664" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>requestIfNotSet</name></member>
-      <member refid="group__GeneralGroup_1ga0c97ae941f212dde5a8326dbe28ee679" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gab6b0836467d06beeafbda15045a1b13e" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>request</name></member>
+      <member refid="group__GeneralGroup_1ga85ece1cc5b9eb90afb3dcd6659737fc7" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>requestIfNotSet</name></member>
+      <member refid="group__GeneralGroup_1gaa46954e1ccf8e1c7d6699e34aceb182a" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga6c0eb00abc2352bb3d52309aa6d4a99a" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>storeCommand_</name></member>
       <member refid="group__GeneralGroup_1gadb936a4ab023dde0ceadfad2da31769b" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>timer_</name></member>
-      <member refid="group__GeneralGroup_1ga3801cd6efcd7bb32ee149dd407b78ba6" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>~AsyncRequest</name></member>
+      <member refid="group__GeneralGroup_1gafbf919809d09c97af6992171998a988c" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>~AsyncRequest</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

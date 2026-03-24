@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MakeBridgeResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::MakeBridgeResult</compoundname>
-    <includes refid="MRMeshFillHole_8h" local="no">MRMeshFillHole.h</includes>
+    <includes refid="MRMeshFillHole_8h" local="no">MRMesh/MRMeshFillHole.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MakeBridgeResult_1a2d3386014f3867f61860546d2b63b02a" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="238" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="238" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="242" column="9" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="242" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MakeBridgeResult_1a5959fa7b09b9a888870b4492e158145f" prot="public" static="no" mutable="no">
         <type>EdgeId</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="242" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="242" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="246" column="12" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="246" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MakeBridgeResult_1ada00548262d69e8a5ce7f4536d752495" prot="public" static="no" mutable="no">
         <type>EdgeId</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="242" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="242" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="246" column="15" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="246" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -64,14 +64,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="245" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="245" bodyend="245"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="249" column="14" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="249" bodyend="249"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="236" bodyend="246"/>
+    <location file="MRMesh/MRMeshFillHole.h" line="239" column="1" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="240" bodyend="250"/>
     <listofallmembers>
       <member refid="structMR_1_1MakeBridgeResult_1a5959fa7b09b9a888870b4492e158145f" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>na</name></member>
       <member refid="structMR_1_1MakeBridgeResult_1ada00548262d69e8a5ce7f4536d752495" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>nb</name></member>

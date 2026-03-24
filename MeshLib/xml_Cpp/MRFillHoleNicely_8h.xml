@@ -1,91 +1,86 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFillHoleNicely_8h" kind="file" language="C++">
     <compoundname>MRFillHoleNicely.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRMeshFillHole_8h" local="yes">MRMeshFillHole.h</includes>
     <includes refid="MREnums_8h" local="yes">MREnums.h</includes>
+    <includedby refid="MRMeshPatch_8h" local="yes">MRMesh/MRMeshPatch.h</includedby>
     <incdepgraph>
-      <node id="10">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="21">
+      <node id="27">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRFillHoleNicely.h</label>
+        <label>MRMesh/MRFillHoleNicely.h</label>
         <link refid="MRFillHoleNicely_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="25">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRMacros.h</label>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRMeshFillHole.h</label>
         <link refid="MRMeshFillHole_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMeshMetrics.h</label>
-        <link refid="MRMeshMetrics_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="2" relation="include">
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -93,53 +88,116 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+      </node>
+      <node id="14">
+        <label>MRMeshMetrics.h</label>
+        <link refid="MRMeshMetrics_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="21">
+        <label>cmath</label>
+      </node>
+      <node id="17">
+        <label>cstddef</label>
+      </node>
+      <node id="22">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="23">
+        <label>iosfwd</label>
+      </node>
+      <node id="26">
+        <label>memory</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="18">
+        <label>type_traits</label>
+      </node>
+      <node id="24">
+        <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRMesh/MRFillHoleNicely.h</label>
+        <link refid="MRFillHoleNicely_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRMeshFwd.h</label>
+        <label>MRMesh/MRMeshPatch.h</label>
+        <link refid="MRMeshPatch_8h"/>
       </node>
-      <node id="11">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="12">
-        <label>algorithm</label>
-      </node>
-      <node id="19">
-        <label>cassert</label>
-      </node>
-      <node id="13">
-        <label>cmath</label>
-      </node>
-      <node id="8">
-        <label>cstddef</label>
-      </node>
-      <node id="14">
-        <label>cstring</label>
-      </node>
-      <node id="17">
-        <label>functional</label>
-      </node>
-      <node id="15">
-        <label>iosfwd</label>
-      </node>
-      <node id="20">
-        <label>memory</label>
-      </node>
-      <node id="9">
-        <label>type_traits</label>
-      </node>
-      <node id="16">
-        <label>utility</label>
-      </node>
-    </incdepgraph>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1SubdivideFillingSettings" prot="public">MR::SubdivideFillingSettings</innerclass>
+    <innerclass refid="structMR_1_1SmoothFillingSettings" prot="public">MR::SmoothFillingSettings</innerclass>
+    <innerclass refid="structMR_1_1OutAttributesFillingSettings" prot="public">MR::OutAttributesFillingSettings</innerclass>
     <innerclass refid="structMR_1_1FillHoleNicelySettings" prot="public">MR::FillHoleNicelySettings</innerclass>
+    <innerclass refid="structMR_1_1StitchHolesNicelySettings" prot="public">MR::StitchHolesNicelySettings</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -148,7 +206,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFillHole_8h" kindref="compound">MRMeshFillHole.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREnums_8h" kindref="compound">MREnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -156,45 +214,80 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1FillHoleNicelySettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1SubdivideFillingSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga2ead937ed1df084dc6a43160e17df2c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref><sp/><ref refid="group__GeneralGroup_1ga2ead937ed1df084dc6a43160e17df2c2" kindref="member">triangulateParams</ref>;</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga873defafe8bd5f0ef51bd6d0c3f92f2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet*<sp/><ref refid="group__GeneralGroup_1ga873defafe8bd5f0ef51bd6d0c3f92f2d" kindref="member">notFlippable</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" kindref="member">triangulateOnly</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga82b0b627885b0136d5cbb0bd093cf88b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga82b0b627885b0136d5cbb0bd093cf88b" kindref="member">maxEdgeLen</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1ga95c1f4256940d339c8ee702d270fff49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet*<sp/><ref refid="group__GeneralGroup_1ga95c1f4256940d339c8ee702d270fff49" kindref="member">notFlippable</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga2ece732a88200eaaef2beab96f222561" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2ece732a88200eaaef2beab96f222561" kindref="member">maxEdgeSplits</ref><sp/>=<sp/>1000;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="group__GeneralGroup_1gadebcc27b0bdbb4fa55baa8eae16a0dfb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadebcc27b0bdbb4fa55baa8eae16a0dfb" kindref="member">maxEdgeLen</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1gadf8a3a24d258da848836a556b3b42e34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadf8a3a24d258da848836a556b3b42e34" kindref="member">maxAngleChangeAfterFlip</ref><sp/>=<sp/>30<sp/>*<sp/>PI_F<sp/>/<sp/>180.0f;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga6dab8822d5eac719a15e99f44c4a3407" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dab8822d5eac719a15e99f44c4a3407" kindref="member">maxEdgeSplits</ref><sp/>=<sp/>1000;</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga72c374e0d427e8beca46de3aa27d29f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;bool(<sp/>EdgeId<sp/>e<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga72c374e0d427e8beca46de3aa27d29f8" kindref="member">beforeEdgeSplit</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga0e811b431fee7fca37d8a2ea46bf916c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e811b431fee7fca37d8a2ea46bf916c" kindref="member">maxAngleChangeAfterFlip</ref><sp/>=<sp/>30<sp/>*<sp/>PI_F<sp/>/<sp/>180.0f;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" kindref="member">smoothCurvature</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1gaba46fa5a5269e9ffb23176c985a2c2b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaba46fa5a5269e9ffb23176c985a2c2b7" kindref="member">naturalSmooth</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gab76bf4f3cec5f2fb4787f4635f3dd684" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;void(<sp/>EdgeId<sp/>e1,<sp/>EdgeId<sp/>e<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1gab76bf4f3cec5f2fb4787f4635f3dd684" kindref="member">onEdgeSplit</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1SmoothFillingSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga41d283fb6e36ac60be019b2f195c14e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga41d283fb6e36ac60be019b2f195c14e0" kindref="member">naturalSmooth</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="group__GeneralGroup_1ga6d0f88d49fd92560346c908c5b5a6559" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;bool(<sp/>EdgeId<sp/>e<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga6d0f88d49fd92560346c908c5b5a6559" kindref="member">beforeEdgeSplit</ref>;</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1ga34a7a4b9c69f0c826cb30f38a9e10250" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5ac9f08cd2ef48394fa1c77a8ebdd6c8" kindref="member">EdgeWeights</ref><sp/><ref refid="group__GeneralGroup_1ga34a7a4b9c69f0c826cb30f38a9e10250" kindref="member">edgeWeights</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights::Cotan</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="group__GeneralGroup_1ga29116e24393106e531f26abb886019b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;void(<sp/>EdgeId<sp/>e1,<sp/>EdgeId<sp/>e<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga29116e24393106e531f26abb886019b2" kindref="member">onEdgeSplit</ref>;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="group__GeneralGroup_1ga033b24c89dfe82d1d7ebadc8b24f1a79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5ac9f08cd2ef48394fa1c77a8ebdd6c8" kindref="member">EdgeWeights</ref><sp/><ref refid="group__GeneralGroup_1ga033b24c89dfe82d1d7ebadc8b24f1a79" kindref="member">edgeWeights</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights::Cotan</ref>;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="group__GeneralGroup_1gaa1d0f57cc8f6d2bb9413ae1e315e3ce6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gada281bbc8bccd66b01be1b6d2b99e3cd" kindref="member">VertexMass</ref><sp/><ref refid="group__GeneralGroup_1gaa1d0f57cc8f6d2bb9413ae1e315e3ce6" kindref="member">vmass</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass::Unit</ref>;</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga527a7a95f06fcee7ca081ed3dbec23b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gada281bbc8bccd66b01be1b6d2b99e3cd" kindref="member">VertexMass</ref><sp/><ref refid="group__GeneralGroup_1ga527a7a95f06fcee7ca081ed3dbec23b6" kindref="member">vmass</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass::Unit</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structMR_1_1OutAttributesFillingSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga43ab66a6ec91938ea9940c028b84a54d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertUVCoords*<sp/><ref refid="group__GeneralGroup_1ga43ab66a6ec91938ea9940c028b84a54d" kindref="member">uvCoords</ref><sp/>=<sp/>{};</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="group__GeneralGroup_1ga8e1fac34058b267d696714994b158ce2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertUVCoords<sp/>*<sp/><ref refid="group__GeneralGroup_1ga8e1fac34058b267d696714994b158ce2" kindref="member">uvCoords</ref><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga0c7070bcd2bfeb1cb0388665bffb45c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors*<sp/><ref refid="group__GeneralGroup_1ga0c7070bcd2bfeb1cb0388665bffb45c3" kindref="member">colorMap</ref><sp/>=<sp/>{};</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="group__GeneralGroup_1gaf9530ece1e8bd0354145a59d4d603bf9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors<sp/>*<sp/><ref refid="group__GeneralGroup_1gaf9530ece1e8bd0354145a59d4d603bf9" kindref="member">colorMap</ref><sp/>=<sp/>{};</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="group__GeneralGroup_1ga4e373a3a06bd7f738fc35e108b3fdfa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceColors<sp/>*<sp/><ref refid="group__GeneralGroup_1ga4e373a3a06bd7f738fc35e108b3fdfa0" kindref="member">faceColors</ref><sp/>=<sp/>{};</highlight></codeline>
-<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1ga336e1461bdc97f5a14465c6571e7f492" refkind="member"><highlight class="normal">MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga336e1461bdc97f5a14465c6571e7f492" kindref="member">fillHoleNicely</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>holeEdge,<sp/></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1gab26b30e3f2b4b1f0e34313b53319e286" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceColors*<sp/><ref refid="group__GeneralGroup_1gab26b30e3f2b4b1f0e34313b53319e286" kindref="member">faceColors</ref><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="structMR_1_1FillHoleNicelySettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61" refid="group__GeneralGroup_1ga2ead937ed1df084dc6a43160e17df2c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref><sp/><ref refid="group__GeneralGroup_1ga2ead937ed1df084dc6a43160e17df2c2" kindref="member">triangulateParams</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" kindref="member">triangulateOnly</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1ga7b05b181968c758ebe172bd27457185b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1ga7b05b181968c758ebe172bd27457185b" kindref="member">subdivideSettings</ref>;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" kindref="member">smoothCurvature</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1gacefa7bb069740dbb24ec548f52178ecf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1gacefa7bb069740dbb24ec548f52178ecf" kindref="member">smoothSeettings</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="group__GeneralGroup_1gae228d6f67e070cb9c4323dd57a421c73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1gae228d6f67e070cb9c4323dd57a421c73" kindref="member">outAttributes</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1gab840077428711c450df977dffcef0380" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gab840077428711c450df977dffcef0380" kindref="member">fillHoleNicely</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>holeEdge,<sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="structMR_1_1StitchHolesNicelySettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1StitchHolesNicelySettings" kindref="compound">StitchHolesNicelySettings</ref></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref><sp/><ref refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" kindref="member">triangulateParams</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" kindref="member">triangulateOnly</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" kindref="member">subdivideSettings</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" kindref="member">smoothCurvature</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" kindref="member">smoothSeettings</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" kindref="member">outAttributes</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="group__GeneralGroup_1ga5b7046fd268a56376489379737381aee" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga5b7046fd268a56376489379737381aee" kindref="member">stitchHolesNicely</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>hole0Edge,<sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>hole1Edge,<sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1StitchHolesNicelySettings" kindref="compound">StitchHolesNicelySettings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h"/>
+    <location file="MRMesh/MRFillHoleNicely.h"/>
   </compounddef>
 </doxygen>

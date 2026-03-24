@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::PlanarTriangulation::BaseOutlineParameters</compoundname>
-    <includes refid="MR2DContoursTriangulation_8h" local="no">MR2DContoursTriangulation.h</includes>
+    <includes refid="MR2DContoursTriangulation_8h" local="no">MRMesh/MR2DContoursTriangulation.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga6f9aeb8021200fb928ae34fe6ab4c932" kind="variable"><name>allowMerge</name></member>
       <member refid="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" kind="variable"><name>innerType</name></member>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="61" bodyend="64"/>
+    <location file="MRMesh/MR2DContoursTriangulation.h" line="60" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="61" bodyend="64"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6f9aeb8021200fb928ae34fe6ab4c932" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::BaseOutlineParameters</scope><name>allowMerge</name></member>
       <member refid="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::BaseOutlineParameters</scope><name>innerType</name></member>

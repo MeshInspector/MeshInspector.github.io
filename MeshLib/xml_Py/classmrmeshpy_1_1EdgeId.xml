@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1EdgeId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::EdgeId</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__EdgeId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_EdgeId</derivedcompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14748" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14883" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -27,9 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -44,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14751" bodyend="14752"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14886" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14886" bodyend="14887"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a1d8eb82d0526d8bf9f6056db33b34efe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -52,9 +49,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -69,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14755" bodyend="14756"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14890" bodyend="14891"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1ad05b8de169c80e41bb08fc41574bc2c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -93,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14759" bodyend="14760"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14894" bodyend="14895"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1ad05b8de169c80e41bb08fc41574bc2c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -117,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14763" bodyend="14764"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14898" bodyend="14899"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1ad05b8de169c80e41bb08fc41574bc2c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -141,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14767" bodyend="14768"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14902" bodyend="14903"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a5d1523298932c1ff93c021186784ca1a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -163,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14771" bodyend="14772"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14906" bodyend="14907"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -187,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14774" bodyend="14775"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14909" bodyend="14910"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a3c97305dd757c69ea42c32fa1bf479b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -209,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14777" bodyend="14778"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14912" bodyend="14913"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a3c97305dd757c69ea42c32fa1bf479b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -231,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14780" bodyend="14781"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14915" bodyend="14916"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1aa2dd012420403e1c93adbdddc99c6918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -249,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14782" bodyend="14783"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14917" bodyend="14918"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a4f64d9d74a3fa06604f2e06930e650c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -271,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14784" bodyend="14785"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14919" bodyend="14920"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1ad5a60ffdc6b52544e1d3cd4583844670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -293,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14786" bodyend="14787"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14921" bodyend="14922"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a1e1e1ea61994c3d74ce8cb5c84a567a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -301,9 +295,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -314,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14789" bodyend="14790"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14924" bodyend="14925"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1ad160a6613a8303b72a312e098da48b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -322,9 +313,6 @@
         <argsstring>(self, UndirectedEdgeId u)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -339,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14792" bodyend="14793"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14927" bodyend="14928"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a485049720234b56a5de136c049116cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -347,9 +335,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -364,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14795" bodyend="14796"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14930" bodyend="14931"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a485049720234b56a5de136c049116cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -372,9 +357,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -389,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14798" bodyend="14799"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14933" bodyend="14934"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a485049720234b56a5de136c049116cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -397,9 +379,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -414,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14801" bodyend="14802"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14936" bodyend="14937"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a3780e698f9dc136813dd0e2ccac14cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -422,9 +401,6 @@
         <argsstring>(self, EdgeId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -441,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14804" bodyend="14807"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14939" bodyend="14942"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a3e11ad12cc822cc236ce11bec24942d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -459,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14808" bodyend="14809"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14943" bodyend="14944"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a9616ba66c28c039e77729cdcc9895f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -481,7 +457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14810" bodyend="14811"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14945" bodyend="14946"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a0ae53d1201935a5791b17cf33d085993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -503,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14812" bodyend="14813"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14947" bodyend="14948"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1aab59afad0d09e4a5738863555c3f2f93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -511,7 +487,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.EdgeId.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a86f2b2dd93062a20d160ad32be317f64">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -522,7 +497,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14814" bodyend="14815"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14949" bodyend="14950"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1aa094077356b9def818f721e4e404f05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -542,7 +517,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14816" bodyend="14819"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14951" bodyend="14954"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a957e8280804b9f6067d4fedadf3410ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -560,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14820" bodyend="14821"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14955" bodyend="14956"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a25bb177117db4cedf6398f7d41285f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -578,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14822" bodyend="14823"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14957" bodyend="14958"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1ac6e7512de9bb321d63f50de9c855b2d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -602,7 +577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14825" bodyend="14826"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14960" bodyend="14961"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1ae9634f40099eb3381ced21e5fede8087" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -622,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14828" bodyend="14829"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14963" bodyend="14964"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a88b42ecb87f2c21fd58f5c8f37d853ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -640,7 +615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14831" bodyend="14832"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14966" bodyend="14967"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a67f5c85aa2f37509925ded5c3da9cd80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -660,7 +635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14833" bodyend="14836"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14968" bodyend="14971"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1a0899c9904176510da75f07c984762cc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
@@ -680,7 +655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14837" bodyend="14840"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14972" bodyend="14975"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgeId_1aa56d8f72d2e1ba3cf7d7b6542e0c3e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -698,14 +673,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14841" bodyend="14842"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14976" bodyend="14977"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::EdgeId
-Aliases:  Vector_Id_EdgeTag_VertId_const_reference, Vector_Id_EdgeTag_Id_EdgeTag_const_reference, Vector_Id_EdgeTag_UndirectedEdgeId_const_reference, Vector_Id_EdgeTag_UndirectedEdgeId_reference, std_vector_Id_EdgeTag_value_type, Vector_Id_EdgeTag_UndirectedEdgeId_value_type, Id_EdgeTag, Vector_Id_EdgeTag_Id_EdgeTag_reference, Vector_Id_EdgeTag_Id_EdgeTag_value_type, Vector_Id_EdgeTag_FaceId_reference, Id_EdgeTag, Vector_Id_EdgeTag_VertId_value_type, Id_EdgeTag, RingIterator_NextEdgeSameLeft.value_type, RingIterator_NextEdgeSameOrigin.value_type, Vector_Id_EdgeTag_VertId_reference, Id_EdgeTag, TypedBitSet_Id_EdgeTag_IndexType, Vector_Id_EdgeTag_FaceId_const_reference, Vector_Id_EdgeTag_FaceId_value_type, std_vector_Id_EdgeTag_reference, std_vector_Id_EdgeTag_const_reference
+Aliases:  std_vector_Id_EdgeTag_const_reference, Vector_Id_EdgeTag_VertId_const_reference, Vector_Id_EdgeTag_UndirectedEdgeId_const_reference, Vector_Id_EdgeTag_FaceId_const_reference, Vector_Id_EdgeTag_Id_EdgeTag_value_type, Id_EdgeTag, Vector_Id_EdgeTag_Id_EdgeTag_const_reference, Id_EdgeTag, Vector_Id_EdgeTag_VertId_value_type, std_vector_Id_EdgeTag_value_type, Vector_Id_EdgeTag_UndirectedEdgeId_value_type, Vector_Id_EdgeTag_FaceId_reference, Vector_Id_EdgeTag_VertId_reference, Id_EdgeTag, RingIterator_NextEdgeSameOrigin.value_type, Id_EdgeTag, RingIterator_NextEdgeSameLeft.value_type, Vector_Id_EdgeTag_Id_EdgeTag_reference, std_vector_Id_EdgeTag_reference, Vector_Id_EdgeTag_UndirectedEdgeId_reference, TypedBitSet_Id_EdgeTag_IndexType, Vector_Id_EdgeTag_FaceId_value_type
 
 Those are full specializations in `MRId.h`, so `MR_CANONICAL_TYPEDEFS` doesn&apos;t work on them.
 Have to add this too.
@@ -723,7 +698,7 @@ Have to add this too.
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14740" bodyend="14842"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14875" bodyend="14977"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1EdgeId_1a3c97305dd757c69ea42c32fa1bf479b6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeId</scope><name>__add__</name></member>
       <member refid="classmrmeshpy_1_1EdgeId_1a3c97305dd757c69ea42c32fa1bf479b6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeId</scope><name>__add__</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RibbonMenuSearch_1_1Parameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::RibbonMenuSearch::Parameters</compoundname>
-    <includes refid="MRRibbonMenuSearch_8h" local="no">MRRibbonMenuSearch.h</includes>
+    <includes refid="MRRibbonMenuSearch_8h" local="no">MRViewer/MRRibbonMenuSearch.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gafb17b1a5e87e3e47d6e9df9cca75739a" kind="variable"><name>btnDrawer</name></member>
       <member refid="group__GeneralGroup_1ga557d5533b7a71b39965276427e9ce475" kind="variable"><name>fontManager</name></member>
@@ -32,7 +32,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="28" bodyend="32"/>
+    <location file="MRViewer/MRRibbonMenuSearch.h" line="27" column="5" bodyfile="MRViewer/MRRibbonMenuSearch.h" bodystart="28" bodyend="32"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafb17b1a5e87e3e47d6e9df9cca75739a" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch::Parameters</scope><name>btnDrawer</name></member>
       <member refid="group__GeneralGroup_1gaf9d5d5e38c27a6973c6e92a74e412d6e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch::Parameters</scope><name>changeTabFunc</name></member>

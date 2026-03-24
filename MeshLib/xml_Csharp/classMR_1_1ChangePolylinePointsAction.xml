@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangePolylinePointsAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangePolylinePointsAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangePolylinePointsAction</basecompoundref>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="572" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="572" bodyend="577"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="432" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="432" bodyend="439"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1a058ff8630a457c84f319694838985ae6" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="580" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="580" bodyend="587"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="442" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="442" bodyend="451"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="589" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="589" bodyend="589"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1aa9893cfe4720a22a0a723b93b97a5b5e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ChangePolylinePointsAction.ChangePolylinePointsAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ChangePolylinePointsAction</name>
-        <qualifiedname>MR.ChangePolylinePointsAction.ChangePolylinePointsAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="591" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="591" bodyend="591"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="453" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="453" bodyend="453"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -99,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangePolylinePointsAction.ChangePolylinePointsAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePolylinePointsAction_1a5962de762f36f785b428e2ff48a8c4b7" kindref="member">MR.ChangePolylinePointsAction.ChangePolylinePointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="596" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="596" bodyend="602"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="458" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="458" bodyend="464"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1ade6d73dbb8cbe99f25a3771cf1018374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -118,13 +96,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangePolylinePointsAction.ChangePolylinePointsAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePolylinePointsAction_1a5962de762f36f785b428e2ff48a8c4b7" kindref="member">MR.ChangePolylinePointsAction.ChangePolylinePointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="607" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="607" bodyend="607"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="469" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="469" bodyend="469"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1ab6a73882f83cde6b0e0ba918ad62127c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -137,18 +115,18 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangePolylinePointsAction.ChangePolylinePointsAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePolylinePointsAction_1a5962de762f36f785b428e2ff48a8c4b7" kindref="member">MR.ChangePolylinePointsAction.ChangePolylinePointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="612" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="612" bodyend="612"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="474" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="474" bodyend="474"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1aee038ce52a0d541c465d01e50ddb899b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1aed3d495bef2af410ca4fabf168c464cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangePolylinePointsAction.ChangePolylinePointsAction</definition>
-        <argsstring>(string name, MR.Const_ObjectLines obj)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectLines obj)</argsstring>
         <name>ChangePolylinePointsAction</name>
         <qualifiedname>MR.ChangePolylinePointsAction.ChangePolylinePointsAction</qualifiedname>
         <param>
@@ -156,17 +134,17 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectLines</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectLines</type>
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s lines points before making any changes in it Generated from constructor <computeroutput>MR.ChangePolylinePointsAction.ChangePolylinePointsAction</computeroutput>. </para>
+<para>use this constructor to remember object's lines points before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePolylinePointsAction_1a5962de762f36f785b428e2ff48a8c4b7" kindref="member">MR.ChangePolylinePointsAction.ChangePolylinePointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="618" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="618" bodyend="628"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="480" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="480" bodyend="490"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1aa45539cbca541218cebbf29d9b7a1a63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ChangePolylinePointsAction" kindref="compound">MR.ChangePolylinePointsAction</ref></type>
@@ -179,13 +157,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangePolylinePointsAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangePolylinePointsAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="633" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="633" bodyend="640"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="495" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="495" bodyend="502"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1a4f7d7e5b62810fd511e9e1d32ceb1200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -204,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="645" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="645" bodyend="650"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="507" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="507" bodyend="512"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -213,57 +191,56 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangePolylinePointsAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangePolylinePointsAction</label>
         <link refid="classMR_1_1ChangePolylinePointsAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangePolylinePointsAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangePolylinePointsAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangePolylinePointsAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangePolylinePointsAction</label>
         <link refid="classMR_1_1ChangePolylinePointsAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangePolylinePointsAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangePolylinePointsAction &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="569" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="570" bodyend="651"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="429" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="430" bodyend="513"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a4f7d7e5b62810fd511e9e1d32ceb1200" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1aa45539cbca541218cebbf29d9b7a1a63" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1ac463c5b099913a55f5683f5fb64d8c2c" prot="package" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
-      <member refid="classMR_1_1ChangePolylinePointsAction_1aa9893cfe4720a22a0a723b93b97a5b5e" prot="package" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a5962de762f36f785b428e2ff48a8c4b7" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1ade6d73dbb8cbe99f25a3771cf1018374" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1ab6a73882f83cde6b0e0ba918ad62127c" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
-      <member refid="classMR_1_1ChangePolylinePointsAction_1aee038ce52a0d541c465d01e50ddb899b" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
+      <member refid="classMR_1_1ChangePolylinePointsAction_1aed3d495bef2af410ca4fabf168c464cd" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a058ff8630a457c84f319694838985ae6" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>operator ChangePolylinePointsAction?</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a4b4211106146431c15e6d5ae6499f533" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>

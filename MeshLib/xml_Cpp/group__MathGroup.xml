@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__MathGroup" kind="group">
     <compoundname>MathGroup</compoundname>
     <title>Math group</title>
@@ -29,9 +29,9 @@
     <innergroup refid="group__TupleBindingsGroup">Tuple Bindings</innergroup>
     <innergroup refid="group__VectorGroup">Vector</innergroup>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__GeneralGroup_1gaf33aff000dfb310f8d4e2b79698c3373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::orient3d</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orient3d</definition>
         <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</argsstring>
         <name>orient3d</name>
         <qualifiedname>MR::orient3d</qualifiedname>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="19" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" declline="19" declcolumn="17"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="19" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="19" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="25" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="25" bodyend="28"/>
+        <location file="MRMesh/MRToFromEigen.h" line="25" column="17" bodyfile="MRMesh/MRToFromEigen.h" bodystart="25" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="31" bodyend="34"/>
+        <location file="MRMesh/MRToFromEigen.h" line="31" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="31" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga57c0e085976ff3667bcc12e402216d6e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="37" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="37" bodyend="43"/>
+        <location file="MRMesh/MRToFromEigen.h" line="37" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="37" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga8888d3eb79b0414fbc4855426d85cf9c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="46" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="46" bodyend="52"/>
+        <location file="MRMesh/MRToFromEigen.h" line="46" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="46" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga49129aa06221938faa98e6295f0d790b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="55" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="55" bodyend="61"/>
+        <location file="MRMesh/MRToFromEigen.h" line="55" column="17" bodyfile="MRMesh/MRToFromEigen.h" bodystart="55" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga2723ebec7d989320e407d70f0e8c00d4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="64" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="64" bodyend="67"/>
+        <location file="MRMesh/MRToFromEigen.h" line="64" column="17" bodyfile="MRMesh/MRToFromEigen.h" bodystart="64" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga73ee1ad324c6bb082a748395b3802916" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="70" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="70" bodyend="73"/>
+        <location file="MRMesh/MRToFromEigen.h" line="70" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="70" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga20b5ff1415d774bc26055b5734f9b306" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="76" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="76" bodyend="83"/>
+        <location file="MRMesh/MRToFromEigen.h" line="76" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="76" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gabd50a577d1934b0c0a0aca008de7d541" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="86" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="86" bodyend="93"/>
+        <location file="MRMesh/MRToFromEigen.h" line="86" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="86" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4374661114398aca454e07dc09a7036c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -286,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="96" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="96" bodyend="103"/>
+        <location file="MRMesh/MRToFromEigen.h" line="96" column="17" bodyfile="MRMesh/MRToFromEigen.h" bodystart="96" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gad38e7e445e2b0faa925e3df9c0ee75a6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="106" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="106" bodyend="114"/>
+        <location file="MRMesh/MRToFromEigen.h" line="106" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="106" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4d999217b3e42b5726808b25c5c988cc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="117" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="117" bodyend="125"/>
+        <location file="MRMesh/MRToFromEigen.h" line="117" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="117" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga3a19f42616def07ddf8bbf9e7dfff991" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="128" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="128" bodyend="136"/>
+        <location file="MRMesh/MRToFromEigen.h" line="128" column="17" bodyfile="MRMesh/MRToFromEigen.h" bodystart="128" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gad9b8ea723d950187f862ce89900a7534" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -378,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="139" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="139" bodyend="142"/>
+        <location file="MRMesh/MRToFromEigen.h" line="139" column="17" bodyfile="MRMesh/MRToFromEigen.h" bodystart="139" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gab555a6f9afad6842444fcec85d56aded" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -401,7 +401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="145" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="145" bodyend="148"/>
+        <location file="MRMesh/MRToFromEigen.h" line="145" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="145" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaacaca15888bdddf50a5db746c7955ca7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -428,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="151" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="151" bodyend="154"/>
+        <location file="MRMesh/MRToFromEigen.h" line="151" column="23" bodyfile="MRMesh/MRToFromEigen.h" bodystart="151" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga628c148ec917a4f0bf1398a814476dde" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="157" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="157" bodyend="160"/>
+        <location file="MRMesh/MRToFromEigen.h" line="157" column="20" bodyfile="MRMesh/MRToFromEigen.h" bodystart="157" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gad703c1d9a93f5cf4e177808cbfef4deb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -474,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="163" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="163" bodyend="166"/>
+        <location file="MRMesh/MRToFromEigen.h" line="163" column="27" bodyfile="MRMesh/MRToFromEigen.h" bodystart="163" bodyend="166"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -512,7 +512,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf3.h" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf3.h" bodystart="21" bodyend="31"/>
+        <location file="MRMesh/MRAffineXf3.h" line="21" column="11" bodyfile="MRMesh/MRAffineXf3.h" bodystart="21" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -554,7 +554,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" line="19" column="5" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" declline="19" declcolumn="5"/>
+        <location file="MRMesh/MRComputeBoundingBox.h" line="19" column="5" declfile="MRMesh/MRComputeBoundingBox.h" declline="19" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga560ffd3d317d3bb18df9db6aae8c2d02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -588,7 +588,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" line="26" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" bodystart="26" bodyend="29"/>
+        <location file="MRMesh/MRComputeBoundingBox.h" line="26" column="12" bodyfile="MRMesh/MRComputeBoundingBox.h" bodystart="26" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gac591d793fa5ee868f8255a94350e1aef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -621,11 +621,11 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" bodystart="36" bodyend="39"/>
+        <location file="MRMesh/MRComputeBoundingBox.h" line="36" column="12" bodyfile="MRMesh/MRComputeBoundingBox.h" bodystart="36" bodyend="39"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1gaf420bd1285dda4239d2ac0fac2eff1f9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API AffineXf3d</type>
-        <definition>MRMESH_API AffineXf3d MR::makeRigidXf</definition>
+      <memberdef kind="function" id="group__MathGroup_1ga9a3e0f5e3441afd311bdaca50e3edf16" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>AffineXf3d</type>
+        <definition>AffineXf3d MR::makeRigidXf</definition>
         <argsstring>(const MeshPart &amp;mp, const AffineXf3d &amp;meshXf)</argsstring>
         <name>makeRigidXf</name>
         <qualifiedname>MR::makeRigidXf</qualifiedname>
@@ -644,7 +644,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h" line="14" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h" declline="14" declcolumn="24"/>
+        <location file="MRMesh/MRMakeRigidXf.h" line="14" column="14" declfile="MRMesh/MRMakeRigidXf.h" declline="14" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga97b0c226492f4561c1a2c13831433bed" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -676,7 +676,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="21" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="21" bodyend="36"/>
+        <location file="MRMesh/MRTriMath.h" line="21" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="21" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaba44f8d705d9bc1b98f635bdabe488ae" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -708,7 +708,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="41" bodyend="44"/>
+        <location file="MRMesh/MRTriMath.h" line="41" column="11" bodyfile="MRMesh/MRTriMath.h" bodystart="41" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaf5af7058ce54bba6fc77a344d28b9826" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -740,7 +740,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="95" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="95" bodyend="104"/>
+        <location file="MRMesh/MRTriMath.h" line="95" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="95" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga2fbcc5b76ec7e12da86bc99895ac6fc9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -772,7 +772,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="115" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="115" bodyend="126"/>
+        <location file="MRMesh/MRTriMath.h" line="115" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="115" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga92b796fca017138671758654b2838d56" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -804,7 +804,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="257" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="257" bodyend="261"/>
+        <location file="MRMesh/MRTriMath.h" line="257" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="257" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaa45975718eae0ae8c5500147ee8c27d1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -832,7 +832,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="269" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="269" bodyend="272"/>
+        <location file="MRMesh/MRTriMath.h" line="269" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="269" bodyend="272"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga84b1b2dc1c73856fecb9b8617c174b04" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -864,7 +864,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="281" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="281" bodyend="286"/>
+        <location file="MRMesh/MRTriMath.h" line="281" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="281" bodyend="286"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

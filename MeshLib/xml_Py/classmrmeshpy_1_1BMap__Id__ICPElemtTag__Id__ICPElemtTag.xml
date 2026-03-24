@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -123,19 +123,6 @@ Aliases:  BMap_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag_I
 flat map: I -&gt; T
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag</label>
-        <link refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_b</edgelabel>
-          <edgelabel>_offsetof_tsize</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1962" bodyend="1983"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1a0d2f20348b136a871f84544fd187a8e6" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>__init__</name></member>

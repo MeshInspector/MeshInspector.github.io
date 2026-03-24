@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MetricToAStarPenalty" kind="class" language="C#" prot="public">
     <compoundname>MR::MetricToAStarPenalty</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MetricToAStarPenalty</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1569" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1570" bodyend="1579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1597" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1598" bodyend="1607"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MetricToAStarPenalty_1a12dd03698156e39ad014bbf7098ff0a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1581" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1581" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1609" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1609" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1585" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1585" bodyend="1589"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1613" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1613" bodyend="1617"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1595" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1595" bodyend="1601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1623" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1623" bodyend="1629"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MetricToAStarPenalty_1ae4202eee3295d05f0a24456879473567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1606" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1606" bodyend="1613"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1634" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1634" bodyend="1641"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MetricToAStarPenalty_1a09f96427c600308b875dec994060ae19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -107,13 +107,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MetricToAStarPenalty.MetricToAStarPenalty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MetricToAStarPenalty_1af3ba5376cee8adf2478cca78a3dff7c3" kindref="member">MR.MetricToAStarPenalty.MetricToAStarPenalty</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1618" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1618" bodyend="1625"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1646" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1646" bodyend="1653"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MetricToAStarPenalty_1a2a9fd2fe373e5d2b6f9c1c41293d361b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -126,13 +126,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MetricToAStarPenalty.MetricToAStarPenalty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MetricToAStarPenalty_1af3ba5376cee8adf2478cca78a3dff7c3" kindref="member">MR.MetricToAStarPenalty.MetricToAStarPenalty</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1630" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1630" bodyend="1630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1658" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1658" bodyend="1658"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MetricToAStarPenalty_1aeb354313a616b6d16b23c7b409051852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref></type>
@@ -145,13 +145,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MetricToAStarPenalty.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MetricToAStarPenalty::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1635" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1635" bodyend="1642"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1663" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1663" bodyend="1670"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -160,48 +160,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MetricToAStarPenalty</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MetricToAStarPenalty</label>
         <link refid="classMR_1_1MetricToAStarPenalty"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MetricToAStarPenalty</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MetricToAStarPenalty &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MetricToAStarPenalty</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MetricToAStarPenalty</label>
         <link refid="classMR_1_1MetricToAStarPenalty"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MetricToAStarPenalty</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MetricToAStarPenalty &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1567" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1568" bodyend="1643"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1595" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1596" bodyend="1671"/>
     <listofallmembers>
       <member refid="classMR_1_1MetricToAStarPenalty_1aeb354313a616b6d16b23c7b409051852" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>assign</name></member>
       <member refid="classMR_1_1MetricToAStarPenalty_1acdce4664f80e953b04dcfb7fe07f5b77" prot="package" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>MetricToAStarPenalty</name></member>

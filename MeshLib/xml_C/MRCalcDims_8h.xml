@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCalcDims_8h" kind="file" language="C++">
     <compoundname>MRCalcDims.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="2">
@@ -13,10 +13,24 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="1">
         <label>MRCalcDims.h</label>
@@ -25,36 +39,20 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
-      <node id="4">
-        <label>MRCMisc/exports.h</label>
-      </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRCalcDims_8h_1a387c2b6c194640a4dfac77733cbe3880" prot="public" static="no">
-        <type>struct MR_Box3f</type>
-        <definition>typedef struct MR_Box3f MR_Box3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Box3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="12" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" prot="public" static="no">
         <type>struct <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref></type>
         <definition>typedef struct MR_OriginAndDimensions MR_OriginAndDimensions</definition>
@@ -63,16 +61,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>shift of zero voxel in 3D space and dimensions of voxel-grid Generated from class <computeroutput>MR::OriginAndDimensions</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>shift of zero voxel in 3D space and dimensions of voxel-grid Generated from class <computeroutput>MR::OriginAndDimensions</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="18" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="18" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRCalcDims_8h_1a9ac52695486df911891f37e24de63882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_Vector3f * MR_OriginAndDimensions_Get_origin</definition>
         <argsstring>(const MR_OriginAndDimensions *_this)</argsstring>
         <name>MR_OriginAndDimensions_Get_origin</name>
@@ -87,10 +85,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="24" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="24" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="24" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="24" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a1e77c6edc3314a21d68e56a22d1a0a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_OriginAndDimensions_Set_origin</definition>
         <argsstring>(MR_OriginAndDimensions *_this, MR_Vector3f value)</argsstring>
         <name>MR_OriginAndDimensions_Set_origin</name>
@@ -105,14 +103,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OriginAndDimensions</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>origin</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OriginAndDimensions</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>origin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="30" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="30" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="30" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="30" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1ae1489bac82ba9503807c2967ccb91691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_Vector3f * MR_OriginAndDimensions_GetMutable_origin</definition>
         <argsstring>(MR_OriginAndDimensions *_this)</argsstring>
         <name>MR_OriginAndDimensions_GetMutable_origin</name>
@@ -127,10 +125,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="36" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="36" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="36" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="36" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1ace14cc254831f0e0dac96b2eb1633a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
         <definition>MRC_API const MR_Vector3i * MR_OriginAndDimensions_Get_dimensions</definition>
         <argsstring>(const MR_OriginAndDimensions *_this)</argsstring>
         <name>MR_OriginAndDimensions_Get_dimensions</name>
@@ -145,10 +143,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="42" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="42" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="42" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="42" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a1e723df67c7ccfb1962b5a5fc2f08ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_OriginAndDimensions_Set_dimensions</definition>
         <argsstring>(MR_OriginAndDimensions *_this, MR_Vector3i value)</argsstring>
         <name>MR_OriginAndDimensions_Set_dimensions</name>
@@ -163,14 +161,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OriginAndDimensions</computeroutput> named <computeroutput>dimensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dimensions</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dimensions</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OriginAndDimensions</computeroutput> named <computeroutput>dimensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dimensions</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dimensions</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="48" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="48" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a3392c6aaeffc429d405cb00622d6ef2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
         <definition>MRC_API MR_Vector3i * MR_OriginAndDimensions_GetMutable_dimensions</definition>
         <argsstring>(MR_OriginAndDimensions *_this)</argsstring>
         <name>MR_OriginAndDimensions_GetMutable_dimensions</name>
@@ -185,10 +183,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="54" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="54" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="54" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="54" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a4300c5e7249f62d5d8915b46f46a5f3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
         <definition>MRC_API MR_OriginAndDimensions * MR_OriginAndDimensions_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_OriginAndDimensions_DefaultConstruct</name>
@@ -202,10 +200,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="58" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="58" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="58" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="58" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1aaae021bf99455058e33475e69764aced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
         <definition>MRC_API MR_OriginAndDimensions * MR_OriginAndDimensions_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_OriginAndDimensions_DefaultConstructArray</name>
@@ -220,10 +218,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="63" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="63" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="63" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="63" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1aee36b069aafa8a79e592147c6b452961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
         <definition>MRC_API MR_OriginAndDimensions * MR_OriginAndDimensions_ConstructFrom</definition>
         <argsstring>(MR_Vector3f origin, MR_Vector3i dimensions)</argsstring>
         <name>MR_OriginAndDimensions_ConstructFrom</name>
@@ -238,14 +236,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OriginAndDimensions</computeroutput> elementwise. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dimensions</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" kindref="member">MR_OriginAndDimensions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OriginAndDimensions</computeroutput> elementwise. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dimensions</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" kindref="member">MR_OriginAndDimensions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="70" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="70" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="70" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="70" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1acbee5e98ac953a954f39df48f0233c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
         <definition>MRC_API const MR_OriginAndDimensions * MR_OriginAndDimensions_OffsetPtr</definition>
         <argsstring>(const MR_OriginAndDimensions *ptr, ptrdiff_t i)</argsstring>
         <name>MR_OriginAndDimensions_OffsetPtr</name>
@@ -264,10 +262,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="74" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="74" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="74" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="74" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a963e49a4fb67b38f43ad99152b5a2a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
         <definition>MRC_API MR_OriginAndDimensions * MR_OriginAndDimensions_OffsetMutablePtr</definition>
         <argsstring>(MR_OriginAndDimensions *ptr, ptrdiff_t i)</argsstring>
         <name>MR_OriginAndDimensions_OffsetMutablePtr</name>
@@ -286,10 +284,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="78" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="78" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="78" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="78" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a54050e92940cb8ccb5bf0138b11b722c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
         <definition>MRC_API MR_OriginAndDimensions * MR_OriginAndDimensions_ConstructFromAnother</definition>
         <argsstring>(const MR_OriginAndDimensions *_other)</argsstring>
         <name>MR_OriginAndDimensions_ConstructFromAnother</name>
@@ -304,10 +302,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="84" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="84" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="84" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="84" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_OriginAndDimensions_Destroy</definition>
         <argsstring>(const MR_OriginAndDimensions *_this)</argsstring>
         <name>MR_OriginAndDimensions_Destroy</name>
@@ -316,16 +314,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_OriginAndDimensions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="87" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="87" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a08a11ea126f1e8c74e02a1e4b4eddd29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_OriginAndDimensions_DestroyArray</definition>
         <argsstring>(const MR_OriginAndDimensions *_this)</argsstring>
         <name>MR_OriginAndDimensions_DestroyArray</name>
@@ -334,16 +332,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_OriginAndDimensions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="90" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="90" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1a7dec7b34321479c5e07779bc06e47aae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
         <definition>MRC_API MR_OriginAndDimensions * MR_OriginAndDimensions_AssignFromAnother</definition>
         <argsstring>(MR_OriginAndDimensions *_this, const MR_OriginAndDimensions *_other)</argsstring>
         <name>MR_OriginAndDimensions_AssignFromAnother</name>
@@ -358,14 +356,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OriginAndDimensions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OriginAndDimensions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="98" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="98" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="98" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="98" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRCalcDims_8h_1aa4d5583d94fe2c01b128ea60e5ec6484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref> *</type>
         <definition>MRC_API MR_OriginAndDimensions * MR_calcOriginAndDimensions</definition>
         <argsstring>(const MR_Box3f *box, float voxelSize)</argsstring>
         <name>MR_calcOriginAndDimensions</name>
@@ -384,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="104" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" declline="104" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" line="104" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h" declline="104" declcolumn="32"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -395,7 +393,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -403,47 +401,47 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRCalcDims_8h_1a387c2b6c194640a4dfac77733cbe3880" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref>;</highlight></codeline>
+<codeline lineno="18" refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRCalcDims_8h_1a9ac52695486df911891f37e24de63882" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCalcDims_8h_1a9ac52695486df911891f37e24de63882" kindref="member">MR_OriginAndDimensions_Get_origin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="24" refid="MRCalcDims_8h_1a9ac52695486df911891f37e24de63882" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCalcDims_8h_1a9ac52695486df911891f37e24de63882" kindref="member">MR_OriginAndDimensions_Get_origin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRCalcDims_8h_1a1e77c6edc3314a21d68e56a22d1a0a96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a1e77c6edc3314a21d68e56a22d1a0a96" kindref="member">MR_OriginAndDimensions_Set_origin</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="30" refid="MRCalcDims_8h_1a1e77c6edc3314a21d68e56a22d1a0a96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a1e77c6edc3314a21d68e56a22d1a0a96" kindref="member">MR_OriginAndDimensions_Set_origin</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRCalcDims_8h_1ae1489bac82ba9503807c2967ccb91691" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCalcDims_8h_1ae1489bac82ba9503807c2967ccb91691" kindref="member">MR_OriginAndDimensions_GetMutable_origin</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36" refid="MRCalcDims_8h_1ae1489bac82ba9503807c2967ccb91691" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCalcDims_8h_1ae1489bac82ba9503807c2967ccb91691" kindref="member">MR_OriginAndDimensions_GetMutable_origin</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRCalcDims_8h_1ace14cc254831f0e0dac96b2eb1633a98" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRCalcDims_8h_1ace14cc254831f0e0dac96b2eb1633a98" kindref="member">MR_OriginAndDimensions_Get_dimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42" refid="MRCalcDims_8h_1ace14cc254831f0e0dac96b2eb1633a98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRCalcDims_8h_1ace14cc254831f0e0dac96b2eb1633a98" kindref="member">MR_OriginAndDimensions_Get_dimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRCalcDims_8h_1a1e723df67c7ccfb1962b5a5fc2f08ab3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a1e723df67c7ccfb1962b5a5fc2f08ab3" kindref="member">MR_OriginAndDimensions_Set_dimensions</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="48" refid="MRCalcDims_8h_1a1e723df67c7ccfb1962b5a5fc2f08ab3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a1e723df67c7ccfb1962b5a5fc2f08ab3" kindref="member">MR_OriginAndDimensions_Set_dimensions</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRCalcDims_8h_1a3392c6aaeffc429d405cb00622d6ef2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRCalcDims_8h_1a3392c6aaeffc429d405cb00622d6ef2a" kindref="member">MR_OriginAndDimensions_GetMutable_dimensions</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54" refid="MRCalcDims_8h_1a3392c6aaeffc429d405cb00622d6ef2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRCalcDims_8h_1a3392c6aaeffc429d405cb00622d6ef2a" kindref="member">MR_OriginAndDimensions_GetMutable_dimensions</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRCalcDims_8h_1a4300c5e7249f62d5d8915b46f46a5f3d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1a4300c5e7249f62d5d8915b46f46a5f3d" kindref="member">MR_OriginAndDimensions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58" refid="MRCalcDims_8h_1a4300c5e7249f62d5d8915b46f46a5f3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1a4300c5e7249f62d5d8915b46f46a5f3d" kindref="member">MR_OriginAndDimensions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRCalcDims_8h_1aaae021bf99455058e33475e69764aced" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1aaae021bf99455058e33475e69764aced" kindref="member">MR_OriginAndDimensions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="63" refid="MRCalcDims_8h_1aaae021bf99455058e33475e69764aced" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1aaae021bf99455058e33475e69764aced" kindref="member">MR_OriginAndDimensions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRCalcDims_8h_1aee36b069aafa8a79e592147c6b452961" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1aee36b069aafa8a79e592147c6b452961" kindref="member">MR_OriginAndDimensions_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>origin,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>dimensions);</highlight></codeline>
+<codeline lineno="70" refid="MRCalcDims_8h_1aee36b069aafa8a79e592147c6b452961" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1aee36b069aafa8a79e592147c6b452961" kindref="member">MR_OriginAndDimensions_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>origin,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>dimensions);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRCalcDims_8h_1acbee5e98ac953a954f39df48f0233c2f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1acbee5e98ac953a954f39df48f0233c2f" kindref="member">MR_OriginAndDimensions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="74" refid="MRCalcDims_8h_1acbee5e98ac953a954f39df48f0233c2f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1acbee5e98ac953a954f39df48f0233c2f" kindref="member">MR_OriginAndDimensions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRCalcDims_8h_1a963e49a4fb67b38f43ad99152b5a2a16" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1a963e49a4fb67b38f43ad99152b5a2a16" kindref="member">MR_OriginAndDimensions_OffsetMutablePtr</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="78" refid="MRCalcDims_8h_1a963e49a4fb67b38f43ad99152b5a2a16" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1a963e49a4fb67b38f43ad99152b5a2a16" kindref="member">MR_OriginAndDimensions_OffsetMutablePtr</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRCalcDims_8h_1a54050e92940cb8ccb5bf0138b11b722c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1a54050e92940cb8ccb5bf0138b11b722c" kindref="member">MR_OriginAndDimensions_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="84" refid="MRCalcDims_8h_1a54050e92940cb8ccb5bf0138b11b722c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1a54050e92940cb8ccb5bf0138b11b722c" kindref="member">MR_OriginAndDimensions_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" kindref="member">MR_OriginAndDimensions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87" refid="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" kindref="member">MR_OriginAndDimensions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRCalcDims_8h_1a08a11ea126f1e8c74e02a1e4b4eddd29" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a08a11ea126f1e8c74e02a1e4b4eddd29" kindref="member">MR_OriginAndDimensions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90" refid="MRCalcDims_8h_1a08a11ea126f1e8c74e02a1e4b4eddd29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a08a11ea126f1e8c74e02a1e4b4eddd29" kindref="member">MR_OriginAndDimensions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRCalcDims_8h_1a7dec7b34321479c5e07779bc06e47aae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1a7dec7b34321479c5e07779bc06e47aae" kindref="member">MR_OriginAndDimensions_AssignFromAnother</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="98" refid="MRCalcDims_8h_1a7dec7b34321479c5e07779bc06e47aae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1a7dec7b34321479c5e07779bc06e47aae" kindref="member">MR_OriginAndDimensions_AssignFromAnother</ref>(<ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRCalcDims_8h_1aa4d5583d94fe2c01b128ea60e5ec6484" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1aa4d5583d94fe2c01b128ea60e5ec6484" kindref="member">MR_calcOriginAndDimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*box,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize);</highlight></codeline>
+<codeline lineno="104" refid="MRCalcDims_8h_1aa4d5583d94fe2c01b128ea60e5ec6484" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*<ref refid="MRCalcDims_8h_1aa4d5583d94fe2c01b128ea60e5ec6484" kindref="member">MR_calcOriginAndDimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*box,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRCalcDims.h"/>
   </compounddef>
 </doxygen>

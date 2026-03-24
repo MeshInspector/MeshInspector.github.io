@@ -1,6 +1,6 @@
 var MRObjectPoints_8h =
 [
-    [ "cloneRegion", "MRObjectPoints_8h.html#ga86837deb8b4177b9b719b1faf4d2d0e8", null ],
-    [ "merge", "MRObjectPoints_8h.html#ga0bc9f97aed9da24cf8d3c368ec4ffd0b", null ],
-    [ "pack", "MRObjectPoints_8h.html#gac3547f635ac7e47bf1cb714faf3cc1cb", null ]
+    [ "MR::cloneRegion", "group__GeneralGroup.html#ga6f0b5ec441ae5f56756368f8fcc0f26e", null ],
+    [ "MR::merge", "group__GeneralGroup.html#ga7abd868ad7390058bd08ff4a1a97f58e", null ],
+    [ "MR::pack", "group__GeneralGroup.html#ga14aba576e5451b9dfd9541bffe7470ef", null ]
 ];

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineTraits__MRVector3f" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineTraits_MRVector3f</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineTraits_MRVector3f</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="858" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="858" bodyend="858"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="862" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="862" bodyend="862"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="863" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="863" bodyend="868"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="867" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="867" bodyend="872"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector3f_1ab657f50c97158921ddd612d4c1993204" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,13 +54,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PolylineTraits&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;::PolylineTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::PolylineTraits&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;::PolylineTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="873" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="873" bodyend="879"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="877" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="877" bodyend="883"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector3f_1a856b624fc1c880798887fac8fa7638b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,13 +73,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PolylineTraits&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;::PolylineTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::PolylineTraits&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;::PolylineTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="884" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="884" bodyend="884"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="888" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="888" bodyend="888"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector3f_1a52fbb1322fe17948bdd9f2e920f8c245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PolylineTraits__MRVector3f" kindref="compound">MR.PolylineTraits_MRVector3f</ref></type>
@@ -92,63 +92,63 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PolylineTraits&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PolylineTraits&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="889" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="889" bodyend="896"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="893" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="893" bodyend="900"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.PolylineTraits&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::PolylineTraits&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PolylineTraits_MRVector3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PolylineTraits_MRVector3f</label>
         <link refid="classMR_1_1PolylineTraits__MRVector3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PolylineTraits_MRVector3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PolylineTraits_MRVector3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PolylineTraits_MRVector3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PolylineTraits_MRVector3f</label>
         <link refid="classMR_1_1PolylineTraits__MRVector3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PolylineTraits_MRVector3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PolylineTraits_MRVector3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="856" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="857" bodyend="897"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="860" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="861" bodyend="901"/>
     <listofallmembers>
       <member refid="classMR_1_1PolylineTraits__MRVector3f_1a52fbb1322fe17948bdd9f2e920f8c245" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector3f</scope><name>assign</name></member>
       <member refid="classMR_1_1PolylineTraits__MRVector3f_1a9a750bab3d33610889144df80aab43d9" prot="package" virt="non-virtual"><scope>MR::PolylineTraits_MRVector3f</scope><name>PolylineTraits_MRVector3f</name></member>

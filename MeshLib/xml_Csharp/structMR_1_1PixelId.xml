@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PixelId" kind="struct" language="C#" prot="public">
     <compoundname>MR::PixelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.PixelId &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PixelId_1af0aa30b9ef65c0f81f738ca982f37da2" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2408" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2408" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2444" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2444" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2413" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2449" column="32"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1af53ce02741648bb491666d49bbbce538" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -50,13 +50,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.PixelId.operator int</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::PixelId::operator int</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2460" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2460" bodyend="2465"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2513" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2513" bodyend="2518"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1ae1b6fd5706afbc01b4d327264d6f00b0" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,13 +69,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.PixelId.operator bool</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::PixelId::operator bool</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2470" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2470" bodyend="2475"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2523" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2523" bodyend="2528"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1ab285ac9f7d192e052e0e742d425882ef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -92,13 +92,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator==</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2506" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2506" bodyend="2511"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2559" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2559" bodyend="2564"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1a8af04599c369d309d494961b5b7c6504" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2513" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2513" bodyend="2516"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2566" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2566" bodyend="2569"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2418" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2418" bodyend="2418"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2454" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2454" bodyend="2454"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1a9a44e0edef213635145bf1878a0f0237" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2423" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2423" bodyend="2428"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2459" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2459" bodyend="2464"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1a99e46aff3bb5239fed8a7250d2f6b74d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2433" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2433" bodyend="2438"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2469" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2469" bodyend="2474"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1afff224ca2f8eb5ccc176f3f2616cc3dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -194,7 +194,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2450" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2450" bodyend="2455"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2486" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2486" bodyend="2491"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PixelId_1a09de478d13ea9d936ec10c45ab65d3b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PixelId.PixelId</definition>
+        <argsstring>(ulong i)</argsstring>
+        <name>PixelId</name>
+        <qualifiedname>MR.PixelId.PixelId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1PixelId_1a05c597e9fe83f0eb67683f1ec85bb566" kindref="member">MR.PixelId.PixelId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2503" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2503" bodyend="2508"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1ac893455a03b18ac680ec5e6b3ac6d1f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe bool</type>
@@ -209,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2480" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2480" bodyend="2488"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2533" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2533" bodyend="2541"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1a5e697e50283ff17ff606416bfbaa7c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref int</type>
@@ -224,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2493" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2493" bodyend="2501"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2546" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2546" bodyend="2554"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1ab3025873ac78dbdbacab3b75e2e10d70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe bool</type>
@@ -237,13 +256,13 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator&lt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator&amp;amp;lt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2521" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2521" bodyend="2529"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2574" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2574" bodyend="2582"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1ad1dd4c514dc3406bdf46f7a9943f4fd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -252,13 +271,13 @@
         <name>decr</name>
         <qualifiedname>MR.PixelId.decr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator--</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator--</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2534" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2534" bodyend="2542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2587" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2587" bodyend="2595"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1aa4de7d93f40811ebe264021ed33f5a2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1PixelId" kindref="compound">PixelId</ref></type>
@@ -271,13 +290,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator--</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator--</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2547" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2547" bodyend="2554"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2600" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2600" bodyend="2607"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1aab49726076788bb23f8b2c5807c9a727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -286,13 +305,13 @@
         <name>incr</name>
         <qualifiedname>MR.PixelId.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2559" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2559" bodyend="2567"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2612" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2612" bodyend="2620"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1a60ea3507089cf72d1716c49a6074d6dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1PixelId" kindref="compound">PixelId</ref></type>
@@ -305,13 +324,13 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2572" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2572" bodyend="2579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2625" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2625" bodyend="2632"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1afdfa9cbf84cfe77563107f004bc4ec52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
@@ -324,13 +343,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2584" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2584" bodyend="2592"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2637" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2637" bodyend="2645"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1ad220c7f5d77c933f05362b074a49b822" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
@@ -343,13 +362,13 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2597" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2597" bodyend="2605"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2650" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2650" bodyend="2658"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1a8b0fb7cb8b45381478ac7928ad147ae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -367,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2609" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2609" bodyend="2612"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2662" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2662" bodyend="2665"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PixelId_1a265d611ef02c709ae2edd06f42bc0ac6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -385,11 +404,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2614" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2614" bodyend="2621"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2667" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2667" bodyend="2674"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;</computeroutput> This is the by-value version of the struct. </para>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;</computeroutput> This is the by-value version of the struct. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -401,7 +420,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.PixelId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -412,10 +431,10 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.PixelId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2405" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2406" bodyend="2622"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2441" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2442" bodyend="2675"/>
     <listofallmembers>
       <member refid="structMR_1_1PixelId_1ad220c7f5d77c933f05362b074a49b822" prot="public" virt="non-virtual"><scope>MR::PixelId</scope><name>addAssign</name></member>
       <member refid="structMR_1_1PixelId_1ad1dd4c514dc3406bdf46f7a9943f4fd1" prot="public" virt="non-virtual"><scope>MR::PixelId</scope><name>decr</name></member>
@@ -436,6 +455,7 @@
       <member refid="structMR_1_1PixelId_1a9a44e0edef213635145bf1878a0f0237" prot="public" virt="non-virtual"><scope>MR::PixelId</scope><name>PixelId</name></member>
       <member refid="structMR_1_1PixelId_1a99e46aff3bb5239fed8a7250d2f6b74d" prot="public" virt="non-virtual"><scope>MR::PixelId</scope><name>PixelId</name></member>
       <member refid="structMR_1_1PixelId_1afff224ca2f8eb5ccc176f3f2616cc3dd" prot="public" virt="non-virtual"><scope>MR::PixelId</scope><name>PixelId</name></member>
+      <member refid="structMR_1_1PixelId_1a09de478d13ea9d936ec10c45ab65d3b8" prot="public" virt="non-virtual"><scope>MR::PixelId</scope><name>PixelId</name></member>
       <member refid="structMR_1_1PixelId_1afdfa9cbf84cfe77563107f004bc4ec52" prot="public" virt="non-virtual"><scope>MR::PixelId</scope><name>subAssign</name></member>
       <member refid="structMR_1_1PixelId_1ac893455a03b18ac680ec5e6b3ac6d1f1" prot="public" virt="non-virtual"><scope>MR::PixelId</scope><name>valid</name></member>
     </listofallmembers>

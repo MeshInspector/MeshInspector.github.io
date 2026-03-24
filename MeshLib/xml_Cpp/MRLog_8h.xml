@@ -1,83 +1,134 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRLog_8h" kind="file" language="C++">
     <compoundname>MRLog.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">filesystem</includes>
-    <includedby refid="MRConfig_8h" local="yes">MRConfig.h</includedby>
-    <includedby refid="MRGLStaticHolder_8h" local="yes">MRGLStaticHolder.h</includedby>
-    <includedby refid="MRTimeRecord_8h" local="yes">MRTimeRecord.h</includedby>
+    <includedby refid="MRConfig_8h" local="yes">MRMesh/MRConfig.h</includedby>
+    <includedby refid="MRTimeRecord_8h" local="yes">MRMesh/MRTimeRecord.h</includedby>
+    <includedby refid="MRGLStaticHolder_8h" local="yes">MRViewer/MRGLStaticHolder.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
-        <label>MRLog.h</label>
+        <label>MRMesh/MRLog.h</label>
         <link refid="MRLog_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
       </node>
       <node id="2">
         <label>MRMeshFwd.h</label>
-      </node>
-      <node id="3">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="4">
-        <label>filesystem</label>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="2">
-        <label>MRConfig.h</label>
-        <link refid="MRConfig_8h"/>
-      </node>
-      <node id="1">
-        <label>MRLog.h</label>
-        <link refid="MRLog_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MRTimeRecord.h</label>
-        <link refid="MRTimeRecord_8h"/>
-      </node>
-      <node id="3">
-        <label>MRGLStaticHolder.h</label>
-        <link refid="MRGLStaticHolder_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="5">
-        <label>MRRenderFeatureObjects.h</label>
-        <link refid="MRRenderFeatureObjects_8h"/>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="13">
+        <label>filesystem</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRMesh/MRConfig.h</label>
+        <link refid="MRConfig_8h"/>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRLog.h</label>
+        <link refid="MRLog_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRTimeRecord.h</label>
+        <link refid="MRTimeRecord_8h"/>
       </node>
       <node id="4">
-        <label>MRRenderLinesObject.h</label>
-        <link refid="MRRenderLinesObject_8h"/>
+        <label>MRViewer/MRGLStaticHolder.h</label>
+        <link refid="MRGLStaticHolder_8h"/>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>MRRenderMeshObject.h</label>
-        <link refid="MRRenderMeshObject_8h"/>
-        <childnode refid="5" relation="include">
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
+        <link refid="MRRenderFeatureObjects_8h"/>
+      </node>
+      <node id="5">
+        <label>MRViewer/MRRenderLinesObject.h</label>
+        <link refid="MRRenderLinesObject_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>MRRenderPointsObject.h</label>
+        <label>MRViewer/MRRenderMeshObject.h</label>
+        <link refid="MRRenderMeshObject_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRViewer/MRRenderPointsObject.h</label>
         <link refid="MRRenderPointsObject_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -92,7 +143,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -100,35 +151,35 @@
 <codeline lineno="8" refid="namespacespdlog" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacespdlog" kindref="compound">spdlog</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">logger;</highlight></codeline>
-<codeline lineno="11" refid="namespacespdlog_1_1sinks" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">sinks<sp/>{<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">sink;<sp/>}</highlight></codeline>
+<codeline lineno="11" refid="namespacespdlog_1_1sinks" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacespdlog_1_1sinks" kindref="compound">sinks</ref><sp/>{<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">sink;<sp/>}</highlight></codeline>
 <codeline lineno="12" refid="namespacespdlog_1ace143432a1dd3e3ddde8949f014f90da" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacespdlog_1ace143432a1dd3e3ddde8949f014f90da" kindref="member">sink_ptr</ref><sp/>=<sp/>std::shared_ptr&lt;sinks::sink&gt;;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"></codeline>
-<codeline lineno="22" refid="classMR_1_1Logger" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="classMR_1_1Logger" kindref="compound">Logger</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classMR_1_1Logger" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>Logger</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="25" refid="classMR_1_1Logger_1aac7549309d09f2c9a41818a18c1b0e50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Logger" kindref="compound">Logger</ref>&amp;<sp/><ref refid="classMR_1_1Logger_1aac7549309d09f2c9a41818a18c1b0e50" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="25" refid="classMR_1_1Logger_1a17cd4b1f33ef615f3f1dedeef3c963bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Logger&amp;<sp/><ref refid="classMR_1_1Logger_1a17cd4b1f33ef615f3f1dedeef3c963bc" kindref="member">instance</ref>();</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classMR_1_1Logger_1ac5d54247fea49f7312322217b9c8620b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;spdlog::logger&gt;&amp;<sp/><ref refid="classMR_1_1Logger_1ac5d54247fea49f7312322217b9c8620b" kindref="member">getSpdLogger</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1Logger_1afc826203d2b566cca300cf6126fcab39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;spdlog::logger&gt;&amp;<sp/><ref refid="classMR_1_1Logger_1afc826203d2b566cca300cf6126fcab39" kindref="member">getSpdLogger</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="classMR_1_1Logger_1aedaebeb791f1300a121668a8a525ecb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>std::string<sp/><ref refid="classMR_1_1Logger_1aedaebeb791f1300a121668a8a525ecb1" kindref="member">getDefaultPattern</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31" refid="classMR_1_1Logger_1af08e378d79a4ca1b7572bd761f7f15d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="classMR_1_1Logger_1af08e378d79a4ca1b7572bd761f7f15d1" kindref="member">getDefaultPattern</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="classMR_1_1Logger_1a07fd961518f48457c8f593cb84b583cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Logger_1a07fd961518f48457c8f593cb84b583cc" kindref="member">addSink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacespdlog_1ace143432a1dd3e3ddde8949f014f90da" kindref="member">spdlog::sink_ptr</ref>&amp;<sp/>sink<sp/>);</highlight></codeline>
-<codeline lineno="35" refid="classMR_1_1Logger_1a49397b1c0308f3639e914775ba6d0b38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Logger_1a49397b1c0308f3639e914775ba6d0b38" kindref="member">removeSink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacespdlog_1ace143432a1dd3e3ddde8949f014f90da" kindref="member">spdlog::sink_ptr</ref>&amp;<sp/>sink<sp/>);</highlight></codeline>
+<codeline lineno="34" refid="classMR_1_1Logger_1a9c8d798758ac7d84eb9c0bfd015326d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Logger_1a9c8d798758ac7d84eb9c0bfd015326d6" kindref="member">addSink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacespdlog_1ace143432a1dd3e3ddde8949f014f90da" kindref="member">spdlog::sink_ptr</ref>&amp;<sp/>sink<sp/>);</highlight></codeline>
+<codeline lineno="35" refid="classMR_1_1Logger_1a42dd267d9ad357b129d3e00b6f8397df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Logger_1a42dd267d9ad357b129d3e00b6f8397df" kindref="member">removeSink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacespdlog_1ace143432a1dd3e3ddde8949f014f90da" kindref="member">spdlog::sink_ptr</ref>&amp;<sp/>sink<sp/>);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="classMR_1_1Logger_1a36009f2c90bd53d2e844e3c72c21e554" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>std::filesystem::path<sp/><ref refid="classMR_1_1Logger_1a36009f2c90bd53d2e844e3c72c21e554" kindref="member">getLogFileName</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38" refid="classMR_1_1Logger_1a9981418112111e8ea23d788875a239fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::filesystem::path<sp/><ref refid="classMR_1_1Logger_1a9981418112111e8ea23d788875a239fe" kindref="member">getLogFileName</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Logger" kindref="compound">Logger</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>Logger();</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;spdlog::logger&gt;<sp/>logger_;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h"/>
+    <location file="MRMesh/MRLog.h"/>
   </compounddef>
 </doxygen>

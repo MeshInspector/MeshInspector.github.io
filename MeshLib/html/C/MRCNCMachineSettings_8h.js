@@ -4,7 +4,6 @@ var MRCNCMachineSettings_8h =
     [ "MR_CNCMachineSettings_RotationAxisName", "MRCNCMachineSettings_8h.html#aaad98f4791940b48d73de8c12400fec6", null ],
     [ "MR_std_optional_MR_Vector2f", "MRCNCMachineSettings_8h.html#af7ea855ac419f239c2499023478617a4", null ],
     [ "MR_std_vector_MR_CNCMachineSettings_RotationAxisName", "MRCNCMachineSettings_8h.html#a39222f7cde24558ae20257c7486241e8", null ],
-    [ "MR_Vector3f", "MRCNCMachineSettings_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_CNCMachineSettings_RotationAxisName", "MRCNCMachineSettings_8h.html#acba24652264852e5e5822638cbe3cfd3", [
       [ "MR_CNCMachineSettings_RotationAxisName_A", "MRCNCMachineSettings_8h.html#acba24652264852e5e5822638cbe3cfd3ab823c8f1458d69230e1f2c1f25def03d", null ],
       [ "MR_CNCMachineSettings_RotationAxisName_B", "MRCNCMachineSettings_8h.html#acba24652264852e5e5822638cbe3cfd3a21307c6b0f43cce9307388df9e95db5c", null ],

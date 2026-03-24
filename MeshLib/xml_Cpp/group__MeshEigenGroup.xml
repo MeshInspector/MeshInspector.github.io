@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__MeshEigenGroup" kind="group">
     <compoundname>MeshEigenGroup</compoundname>
     <title>Mesh Eigen</title>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshEigenGroup_1gac52a3e7c7c62d91ce00317455b37f75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE MRMESH_API MeshTopology</type>
-        <definition>MR_BIND_IGNORE MRMESH_API MeshTopology MR::topologyFromEigen</definition>
+      <memberdef kind="function" id="group__MeshEigenGroup_1ga0267bb7a55efaf30da7c464d5610ee99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE MeshTopology</type>
+        <definition>MR_BIND_IGNORE MeshTopology MR::topologyFromEigen</definition>
         <argsstring>(const Eigen::MatrixXi &amp;F)</argsstring>
         <name>topologyFromEigen</name>
         <qualifiedname>MR::topologyFromEigen</qualifiedname>
@@ -21,11 +21,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="15" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="15" declcolumn="40"/>
+        <location file="MRMesh/MRMeshEigen.h" line="15" column="30" declfile="MRMesh/MRMeshEigen.h" declline="15" declcolumn="30"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshEigenGroup_1ga542e18e6f7d00b4661a728248b89f2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE MRMESH_API Mesh</type>
-        <definition>MR_BIND_IGNORE MRMESH_API Mesh MR::meshFromEigen</definition>
+      <memberdef kind="function" id="group__MeshEigenGroup_1gac8c5bb3011d7c265fbfe5bfc5f03406b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE Mesh</type>
+        <definition>MR_BIND_IGNORE Mesh MR::meshFromEigen</definition>
         <argsstring>(const Eigen::MatrixXd &amp;V, const Eigen::MatrixXi &amp;F)</argsstring>
         <name>meshFromEigen</name>
         <qualifiedname>MR::meshFromEigen</qualifiedname>
@@ -44,11 +44,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="18" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="18" declcolumn="32"/>
+        <location file="MRMesh/MRMeshEigen.h" line="18" column="22" declfile="MRMesh/MRMeshEigen.h" declline="18" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshEigenGroup_1gab318ba4dd28be5fa3500d2d01ca4f92c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE MRMESH_API void</type>
-        <definition>MR_BIND_IGNORE MRMESH_API void MR::pointsFromEigen</definition>
+      <memberdef kind="function" id="group__MeshEigenGroup_1ga8ce10cacd00a0f5129c854078fc950d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::pointsFromEigen</definition>
         <argsstring>(const Eigen::MatrixXd &amp;V, const VertBitSet &amp;selection, VertCoords &amp;points)</argsstring>
         <name>pointsFromEigen</name>
         <qualifiedname>MR::pointsFromEigen</qualifiedname>
@@ -71,11 +71,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="21" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="21" declcolumn="32"/>
+        <location file="MRMesh/MRMeshEigen.h" line="21" column="22" declfile="MRMesh/MRMeshEigen.h" declline="21" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshEigenGroup_1gabf8a680de7d5fbe8bf99057015853153" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE MRMESH_API void</type>
-        <definition>MR_BIND_IGNORE MRMESH_API void MR::topologyToEigen</definition>
+      <memberdef kind="function" id="group__MeshEigenGroup_1gaedf452a3921d36f5597817800bd3b55d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::topologyToEigen</definition>
         <argsstring>(const MeshTopology &amp;topology, Eigen::MatrixXi &amp;F)</argsstring>
         <name>topologyToEigen</name>
         <qualifiedname>MR::topologyToEigen</qualifiedname>
@@ -94,11 +94,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="24" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="24" declcolumn="32"/>
+        <location file="MRMesh/MRMeshEigen.h" line="24" column="22" declfile="MRMesh/MRMeshEigen.h" declline="24" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshEigenGroup_1gab3cf8a8259f3c725b9f74817803c8ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE MRMESH_API void</type>
-        <definition>MR_BIND_IGNORE MRMESH_API void MR::meshToEigen</definition>
+      <memberdef kind="function" id="group__MeshEigenGroup_1ga24bf8eab6bf0c1eed0bb93ca8668237d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::meshToEigen</definition>
         <argsstring>(const Mesh &amp;mesh, Eigen::MatrixXd &amp;V, Eigen::MatrixXi &amp;F)</argsstring>
         <name>meshToEigen</name>
         <qualifiedname>MR::meshToEigen</qualifiedname>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="27" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="27" declcolumn="32"/>
+        <location file="MRMesh/MRMeshEigen.h" line="27" column="22" declfile="MRMesh/MRMeshEigen.h" declline="27" declcolumn="22"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

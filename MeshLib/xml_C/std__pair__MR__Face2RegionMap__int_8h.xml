@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__MR__Face2RegionMap__int_8h" kind="file" language="C++">
+    <compoundname>std_pair_MR_Face2RegionMap_int.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_MR_Face2RegionMap_int.h</label>
+        <link refid="std__pair__MR__Face2RegionMap__int_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1ae5d06c4d1574b899e23bcebcd3c5639d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Face2RegionMap_int * MR_std_pair_MR_Face2RegionMap_int_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Face2RegionMap__int_8h_1a9c4fab025a51f5cc82486312b7d40177" kindref="member">MR_std_pair_MR_Face2RegionMap_int_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="21" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="21" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a6347924b9063bd42dbbda6cb26e089ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Face2RegionMap_int * MR_std_pair_MR_Face2RegionMap_int_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__MR__Face2RegionMap__int_8h_1afd71f67e72ad405a9b0679130d7e0308" kindref="member">MR_std_pair_MR_Face2RegionMap_int_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__MR__Face2RegionMap__int_8h_1a6a4bce4238d66e7fe8cbfe10b7429e57" kindref="member">MR_std_pair_MR_Face2RegionMap_int_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__MR__Face2RegionMap__int_8h_1a73db744fb4783feee8210ab866ea3329" kindref="member">MR_std_pair_MR_Face2RegionMap_int_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="26" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="26" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a675a9b3efc3aee23a3f8cdda6818e4ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Face2RegionMap_int * MR_std_pair_MR_Face2RegionMap_int_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_pair_MR_Face2RegionMap_int *other)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Face2RegionMap__int_8h_1a9c4fab025a51f5cc82486312b7d40177" kindref="member">MR_std_pair_MR_Face2RegionMap_int_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="32" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="32" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a85c6cd763f60bfa5fe0aa7fa8e5103dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Face2RegionMap_int_AssignFromAnother</definition>
+        <argsstring>(MR_std_pair_MR_Face2RegionMap_int *_this, MR_PassBy other_pass_by, MR_std_pair_MR_Face2RegionMap_int *other)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a9c4fab025a51f5cc82486312b7d40177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Face2RegionMap_int_Destroy</definition>
+        <argsstring>(const MR_std_pair_MR_Face2RegionMap_int *_this)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1afd71f67e72ad405a9b0679130d7e0308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Face2RegionMap_int_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_MR_Face2RegionMap_int *_this)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a73db744fb4783feee8210ab866ea3329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+        <definition>MRC_API const MR_std_pair_MR_Face2RegionMap_int * MR_std_pair_MR_Face2RegionMap_int_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_MR_Face2RegionMap_int *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="48" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="48" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a6a4bce4238d66e7fe8cbfe10b7429e57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Face2RegionMap_int * MR_std_pair_MR_Face2RegionMap_int_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_MR_Face2RegionMap_int *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="52" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="52" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a6ac9759ce93358c948b8965092b36f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Face2RegionMap_int * MR_std_pair_MR_Face2RegionMap_int_Construct</definition>
+        <argsstring>(MR_PassBy first_pass_by, MR_Face2RegionMap *first, int second)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_Construct</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>first_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref> *</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Face2RegionMap__int_8h_1a9c4fab025a51f5cc82486312b7d40177" kindref="member">MR_std_pair_MR_Face2RegionMap_int_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="58" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="58" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a2bb51528ced8b66b49a661da2bfd0660" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref> *</type>
+        <definition>MRC_API const MR_Face2RegionMap * MR_std_pair_MR_Face2RegionMap_int_first</definition>
+        <argsstring>(const MR_std_pair_MR_Face2RegionMap_int *_this)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_first</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="64" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="64" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a17bf3ce369f19c2ecdb4632c5cb698bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref> *</type>
+        <definition>MRC_API MR_Face2RegionMap * MR_std_pair_MR_Face2RegionMap_int_first_mut</definition>
+        <argsstring>(MR_std_pair_MR_Face2RegionMap_int *_this)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_first_mut</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="70" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="70" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1ae10b612af508a4d5562fb29d438dcdb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_std_pair_MR_Face2RegionMap_int_second</definition>
+        <argsstring>(const MR_std_pair_MR_Face2RegionMap_int *_this)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_second</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="76" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="76" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Face2RegionMap__int_8h_1a6d4f9d74197d7e80f24ab012505962be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
+        <definition>MRC_API int * MR_std_pair_MR_Face2RegionMap_int_second_mut</definition>
+        <argsstring>(MR_std_pair_MR_Face2RegionMap_int *_this)</argsstring>
+        <name>MR_std_pair_MR_Face2RegionMap_int_second_mut</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" line="82" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h" declline="82" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="std__pair__MR__Face2RegionMap__int_8h_1ae5d06c4d1574b899e23bcebcd3c5639d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1ae5d06c4d1574b899e23bcebcd3c5639d" kindref="member">MR_std_pair_MR_Face2RegionMap_int_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__pair__MR__Face2RegionMap__int_8h_1a6347924b9063bd42dbbda6cb26e089ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1a6347924b9063bd42dbbda6cb26e089ac" kindref="member">MR_std_pair_MR_Face2RegionMap_int_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="std__pair__MR__Face2RegionMap__int_8h_1a675a9b3efc3aee23a3f8cdda6818e4ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1a675a9b3efc3aee23a3f8cdda6818e4ee" kindref="member">MR_std_pair_MR_Face2RegionMap_int_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__pair__MR__Face2RegionMap__int_8h_1a85c6cd763f60bfa5fe0aa7fa8e5103dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Face2RegionMap__int_8h_1a85c6cd763f60bfa5fe0aa7fa8e5103dd" kindref="member">MR_std_pair_MR_Face2RegionMap_int_AssignFromAnother</ref>(<ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__pair__MR__Face2RegionMap__int_8h_1a9c4fab025a51f5cc82486312b7d40177" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Face2RegionMap__int_8h_1a9c4fab025a51f5cc82486312b7d40177" kindref="member">MR_std_pair_MR_Face2RegionMap_int_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__pair__MR__Face2RegionMap__int_8h_1afd71f67e72ad405a9b0679130d7e0308" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Face2RegionMap__int_8h_1afd71f67e72ad405a9b0679130d7e0308" kindref="member">MR_std_pair_MR_Face2RegionMap_int_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__pair__MR__Face2RegionMap__int_8h_1a73db744fb4783feee8210ab866ea3329" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1a73db744fb4783feee8210ab866ea3329" kindref="member">MR_std_pair_MR_Face2RegionMap_int_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__pair__MR__Face2RegionMap__int_8h_1a6a4bce4238d66e7fe8cbfe10b7429e57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1a6a4bce4238d66e7fe8cbfe10b7429e57" kindref="member">MR_std_pair_MR_Face2RegionMap_int_OffsetMutablePtr</ref>(<ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="std__pair__MR__Face2RegionMap__int_8h_1a6ac9759ce93358c948b8965092b36f52" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1a6ac9759ce93358c948b8965092b36f52" kindref="member">MR_std_pair_MR_Face2RegionMap_int_Construct</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>first_pass_by,<sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*first,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>second);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__pair__MR__Face2RegionMap__int_8h_1a2bb51528ced8b66b49a661da2bfd0660" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1a2bb51528ced8b66b49a661da2bfd0660" kindref="member">MR_std_pair_MR_Face2RegionMap_int_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__pair__MR__Face2RegionMap__int_8h_1a17bf3ce369f19c2ecdb4632c5cb698bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1a17bf3ce369f19c2ecdb4632c5cb698bc" kindref="member">MR_std_pair_MR_Face2RegionMap_int_first_mut</ref>(<ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__pair__MR__Face2RegionMap__int_8h_1ae10b612af508a4d5562fb29d438dcdb3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1ae10b612af508a4d5562fb29d438dcdb3" kindref="member">MR_std_pair_MR_Face2RegionMap_int_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="std__pair__MR__Face2RegionMap__int_8h_1a6d4f9d74197d7e80f24ab012505962be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="std__pair__MR__Face2RegionMap__int_8h_1a6d4f9d74197d7e80f24ab012505962be" kindref="member">MR_std_pair_MR_Face2RegionMap_int_second_mut</ref>(<ref refid="MRMeshComponents_8h_1a58650ad196b479b752e724520664c772" kindref="member">MR_std_pair_MR_Face2RegionMap_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Face2RegionMap_int.h"/>
+  </compounddef>
+</doxygen>

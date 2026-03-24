@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Pdf_1_1TextParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::Pdf::TextParams</compoundname>
-    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <includes refid="MRPdf_8h" local="no">MRIOExtras/MRPdf.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gae37577c1d2cc7fb3e4455bb283a8e4b1" kind="variable"><name>fontName</name></member>
       <member refid="group__GeneralGroup_1ga1aadfe2a66b4a923bc30460ceb9619c7" kind="variable"><name>fontSize</name></member>
@@ -28,7 +28,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="88" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="89" bodyend="97"/>
+    <location file="MRIOExtras/MRPdf.h" line="88" column="5" bodyfile="MRIOExtras/MRPdf.h" bodystart="89" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadfd5808f6da074893b078d1ad9e386e5" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>alignment</name></member>
       <member refid="group__GeneralGroup_1ga4af1de87818d3fbdfa3bbc486b6291ec" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>colorText</name></member>

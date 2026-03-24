@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SegmentSegmentIntersectResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::SegmentSegmentIntersectResult</compoundname>
-    <includes refid="MRPrecisePredicates2_8h" local="no">MRPrecisePredicates2.h</includes>
+    <includes refid="MRPrecisePredicates2_8h" local="no">MRMesh/MRPrecisePredicates2.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gad55a194e9fc76257f3bb95f35d4495c5" kind="variable"><name>doIntersect</name></member>
       <member refid="group__GeneralGroup_1gad789dc6d1f5c42fae9b48164fcf8e824" kind="variable"><name>cIsLeftFromAB</name></member>
@@ -14,7 +14,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" line="65" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" bodystart="66" bodyend="71"/>
+    <location file="MRMesh/MRPrecisePredicates2.h" line="65" column="1" bodyfile="MRMesh/MRPrecisePredicates2.h" bodystart="66" bodyend="71"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad789dc6d1f5c42fae9b48164fcf8e824" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>cIsLeftFromAB</name></member>
       <member refid="group__GeneralGroup_1gad55a194e9fc76257f3bb95f35d4495c5" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>doIntersect</name></member>

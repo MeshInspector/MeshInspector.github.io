@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshTexture" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshTexture</compoundname>
     <basecompoundref refid="structMR_1_1Image" prot="public" virt="non-virtual">MR::Image</basecompoundref>
-    <includes refid="MRMeshTexture_8h" local="no">MRMeshTexture.h</includes>
+    <includes refid="MRMeshTexture_8h" local="no">MRMesh/MRMeshTexture.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshTexture_1a624eb3f0792caeac64bd958de43405ba" prot="public" static="no" mutable="no">
         <type><ref refid="group__GeneralGroup_1ga6b6dd7eadc1056fc5ffd8af1810d925a" kindref="member">FilterType</ref></type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTexture.h" line="14" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTexture.h" bodystart="14" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTexture.h" line="14" column="16" bodyfile="MRMesh/MRMeshTexture.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshTexture_1ab1d9b311e280516bb81e8749bfb440bc" prot="public" static="no" mutable="no">
         <type><ref refid="group__GeneralGroup_1ga0e519d6a7c053c5d86dac33ecd0fa00c" kindref="member">WrapType</ref></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTexture.h" line="15" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTexture.h" bodystart="15" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTexture.h" line="15" column="14" bodyfile="MRMesh/MRMeshTexture.h" bodystart="15" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -64,7 +64,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTexture.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTexture.h" bodystart="13" bodyend="16"/>
+    <location file="MRMesh/MRMeshTexture.h" line="12" column="1" bodyfile="MRMesh/MRMeshTexture.h" bodystart="13" bodyend="16"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshTexture_1a624eb3f0792caeac64bd958de43405ba" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>filter</name></member>
       <member refid="group__GeneralGroup_1gaed3087256e14a389e2e32449eb1233d1" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>heapBytes</name></member>
@@ -73,8 +73,8 @@
       <member refid="group__GeneralGroup_1gac507525682328e3e5fec0b85c131c224" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>pixels</name></member>
       <member refid="group__GeneralGroup_1ga39fed2172fc354aeec92cae5942b7151" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>resolution</name></member>
       <member refid="group__GeneralGroup_1gaf6176f7d0a558084bda1ff8e2f3f6237" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>sample</name></member>
-      <member refid="group__GeneralGroup_1ga14c773bc8dd766e49107c4d5c44c41d8" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>sampleBilinear</name></member>
-      <member refid="group__GeneralGroup_1ga872aae100ad383474afd5c9c8468b3d5" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>sampleDiscrete</name></member>
+      <member refid="group__GeneralGroup_1ga61aafc98effb8b85541f02ac00261308" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>sampleBilinear</name></member>
+      <member refid="group__GeneralGroup_1gad83d5b5ea3120019001615b0a50525d0" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>sampleDiscrete</name></member>
       <member refid="structMR_1_1MeshTexture_1ab1d9b311e280516bb81e8749bfb440bc" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>wrap</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UpLimitCheck" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UpLimitCheck</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UpLimitCheck_1a438f78a909f6025a4834cbc94ddae821" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UpLimitCheck::Greater</definition>
+        <argsstring></argsstring>
+        <name>Greater</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.Greater</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1UpLimitCheck" kindref="compound">UpLimitCheck</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UpLimitCheck_1a9780a490aeb1c49c91bfaa4e40cf0697" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UpLimitCheck::GreaterOrEqual</definition>
+        <argsstring></argsstring>
+        <name>GreaterOrEqual</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.GreaterOrEqual</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1UpLimitCheck" kindref="compound">UpLimitCheck</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UpLimitCheck_1a8cb389adc3da1e673edaeb9f54863a59" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UpLimitCheck::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1UpLimitCheck" kindref="compound">UpLimitCheck</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62117" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1aa0d357cb9d508570ea2c3db4afb241ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UpLimitCheck.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62118" bodyend="62119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a997e0a1629332ca669624bbb486412ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UpLimitCheck.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62120" bodyend="62121"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a1cea446b00758ab8490b34f338b11d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UpLimitCheck.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62122" bodyend="62123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a113ffe489053fc5c3cfb42dac7da24da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UpLimitCheck.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62124" bodyend="62125"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1af3c25f4fbaf3f65136df984ab1a31159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UpLimitCheck.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62126" bodyend="62127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a677c0ccbe5c5c403d2e8f6a4eaa626d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UpLimitCheck.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62128" bodyend="62129"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a09bb06d81e18db9bee3ea2aee60c81da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UpLimitCheck.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62130" bodyend="62131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a5791c4a0682f06acd52a25251ceb2605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.UpLimitCheck.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62132" bodyend="62133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a07510000a9fe77de51cd1bb1770a9b5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UpLimitCheck.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62134" bodyend="62135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a9763edb2609d07a3af19a3e632cd3fc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.UpLimitCheck.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62136" bodyend="62137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a8028db76aefcac501f1e94367f23daaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.UpLimitCheck.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62139" bodyend="62140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UpLimitCheck_1a84cafe19af99972415bf31eb3f474b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UpLimitCheck.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.UpLimitCheck.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62142" bodyend="62143"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  GreaterOrEqual : findTriTriDistance exits earlier if (distSqLowerBound &gt;= upDistLimitSq)
+
+  Greater : findTriTriDistance exits earlier if (distSqLowerBound &gt;  upDistLimitSq)
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62107" bodyend="62143"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1aa0d357cb9d508570ea2c3db4afb241ab" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a997e0a1629332ca669624bbb486412ae" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a1cea446b00758ab8490b34f338b11d88" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a113ffe489053fc5c3cfb42dac7da24da" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1af3c25f4fbaf3f65136df984ab1a31159" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a677c0ccbe5c5c403d2e8f6a4eaa626d5" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a8cb389adc3da1e673edaeb9f54863a59" prot="private" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a09bb06d81e18db9bee3ea2aee60c81da" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a5791c4a0682f06acd52a25251ceb2605" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a07510000a9fe77de51cd1bb1770a9b5a" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a9763edb2609d07a3af19a3e632cd3fc2" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a438f78a909f6025a4834cbc94ddae821" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>Greater</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a9780a490aeb1c49c91bfaa4e40cf0697" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>GreaterOrEqual</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a8028db76aefcac501f1e94367f23daaf" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1UpLimitCheck_1a84cafe19af99972415bf31eb3f474b29" prot="public" virt="non-virtual"><scope>mrmeshpy::UpLimitCheck</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

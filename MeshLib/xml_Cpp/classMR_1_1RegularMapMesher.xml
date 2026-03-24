@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RegularMapMesher" kind="class" language="C++" prot="public">
     <compoundname>MR::RegularMapMesher</compoundname>
-    <includes refid="MRRegularMapMesher_8h" local="no">MRRegularMapMesher.h</includes>
+    <includes refid="MRRegularMapMesher_8h" local="no">MRMesh/MRRegularMapMesher.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga54914fd0242fd42930528e26b7a6fedf" kind="variable"><name>width_</name></member>
       <member refid="group__GeneralGroup_1ga9a512580b60da2b33192642a48b296d9" kind="variable"><name>height_</name></member>
@@ -11,11 +11,11 @@
       <member refid="group__GeneralGroup_1gac6d435dc8c78fa901aba36f11c3c3ae1" kind="variable"><name>distances_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga9ed2cde9e77dce74ecb24b16eb4db785" kind="function"><name>setSurfacePC</name></member>
-      <member refid="group__GeneralGroup_1ga8556a43fd905bbb2cba1cb5bb5743739" kind="function"><name>setDirectionsPC</name></member>
-      <member refid="group__GeneralGroup_1ga351acfb608cafb88929a69ba41f63bfa" kind="function"><name>loadDistances</name></member>
-      <member refid="group__GeneralGroup_1ga48f6cd19965602a3fb9f4669c22e3c14" kind="function"><name>setDistances</name></member>
-      <member refid="group__GeneralGroup_1gacdde192d67f89fe363a158f3ee13f499" kind="function"><name>createMesh</name></member>
+      <member refid="group__GeneralGroup_1gacd2901166038dd400decaf6d3dac1bb9" kind="function"><name>setSurfacePC</name></member>
+      <member refid="group__GeneralGroup_1gaf3e23f288c06834c95edf95925fc8e35" kind="function"><name>setDirectionsPC</name></member>
+      <member refid="group__GeneralGroup_1gaceea861bdffc1eaadeb3a98214b45b7d" kind="function"><name>loadDistances</name></member>
+      <member refid="group__GeneralGroup_1ga90ece5219c787eed6781187069122d11" kind="function"><name>setDistances</name></member>
+      <member refid="group__GeneralGroup_1gace045c9be309ae5b5092a0a8c7473a5b" kind="function"><name>createMesh</name></member>
     </sectiondef>
     <briefdescription>
 <para>Class for making mesh from regular distance map. </para>
@@ -23,16 +23,16 @@
     <detaileddescription>
 <para>distance for each lattice of map is defined as point on ray from surface point cloud to direction point cloud, with length equal to 1/distance from distances file (if distance in file == 0 ray had no point) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" bodystart="23" bodyend="44"/>
+    <location file="MRMesh/MRRegularMapMesher.h" line="22" column="1" bodyfile="MRMesh/MRRegularMapMesher.h" bodystart="23" bodyend="44"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gacdde192d67f89fe363a158f3ee13f499" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>createMesh</name></member>
+      <member refid="group__GeneralGroup_1gace045c9be309ae5b5092a0a8c7473a5b" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>createMesh</name></member>
       <member refid="group__GeneralGroup_1ga9837f3cd7818ae497b7376d45f09e866" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>directionsPC_</name></member>
       <member refid="group__GeneralGroup_1gac6d435dc8c78fa901aba36f11c3c3ae1" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>distances_</name></member>
       <member refid="group__GeneralGroup_1ga9a512580b60da2b33192642a48b296d9" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>height_</name></member>
-      <member refid="group__GeneralGroup_1ga351acfb608cafb88929a69ba41f63bfa" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>loadDistances</name></member>
-      <member refid="group__GeneralGroup_1ga8556a43fd905bbb2cba1cb5bb5743739" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDirectionsPC</name></member>
-      <member refid="group__GeneralGroup_1ga48f6cd19965602a3fb9f4669c22e3c14" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDistances</name></member>
-      <member refid="group__GeneralGroup_1ga9ed2cde9e77dce74ecb24b16eb4db785" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setSurfacePC</name></member>
+      <member refid="group__GeneralGroup_1gaceea861bdffc1eaadeb3a98214b45b7d" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>loadDistances</name></member>
+      <member refid="group__GeneralGroup_1gaf3e23f288c06834c95edf95925fc8e35" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDirectionsPC</name></member>
+      <member refid="group__GeneralGroup_1ga90ece5219c787eed6781187069122d11" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDistances</name></member>
+      <member refid="group__GeneralGroup_1gacd2901166038dd400decaf6d3dac1bb9" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setSurfacePC</name></member>
       <member refid="group__GeneralGroup_1gad1095ab10deb9ae39deafb777408d0d0" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>surfacePC_</name></member>
       <member refid="group__GeneralGroup_1ga54914fd0242fd42930528e26b7a6fedf" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>width_</name></member>
     </listofallmembers>

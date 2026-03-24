@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PickPointManager_1_1ConnectionHolder" kind="struct" language="C++" prot="private">
     <compoundname>MR::PickPointManager::ConnectionHolder</compoundname>
     <sectiondef kind="public-attrib">
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="216" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="217" bodyend="220"/>
+    <location file="MRViewer/MRPickPointManager.h" line="216" column="5" bodyfile="MRViewer/MRPickPointManager.h" bodystart="217" bodyend="220"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3a8d9ea3e08f8b49801f1611d4ef25d2" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ConnectionHolder</scope><name>onMeshChanged</name></member>
       <member refid="group__GeneralGroup_1ga22c0325308831c188403d0937c0d7574" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ConnectionHolder</scope><name>onPointsChanged</name></member>

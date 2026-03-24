@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::ViewportProperty_MRXfBasedCacheMRBox3f</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f</basecompoundref>
@@ -11,13 +11,13 @@
         <name>this[MR.ViewportId id]</name>
         <qualifiedname>MR.ViewportProperty_MRXfBasedCacheMRBox3f.this[MR.ViewportId id]</qualifiedname>
         <briefdescription>
-<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::operator[]</computeroutput>. </para>
+<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1115" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1116" bodyend="1123"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1121" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1122" bodyend="1129"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1029" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1029" bodyend="1029"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1035" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1035" bodyend="1035"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1034" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1034" bodyend="1039"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1040" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1040" bodyend="1045"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1aa179cb5e70e3ea80c9789e5d1b2fd1e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -71,13 +71,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1044" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1044" bodyend="1050"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1050" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1050" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a7eba594cbd57f3bc6c17b21456c46c32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -90,13 +90,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1055" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1055" bodyend="1055"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1061" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1061" bodyend="1061"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a539b1b647f2a1d2252c74aa1ba02d230" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -109,13 +109,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1060" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1060" bodyend="1060"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1066" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1066" bodyend="1066"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1abe0d7d0e8e8ccdc83502ec546dc7b092" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1065" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1065" bodyend="1071"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1071" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1071" bodyend="1077"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ae1ca5d42881fee185c2b3f1353e53b88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f" kindref="compound">MR.ViewportProperty_MRXfBasedCacheMRBox3f</ref></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1081" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1081" bodyend="1088"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1087" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1087" bodyend="1094"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a153da2825373208f87fe44d33942f126" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -166,13 +166,13 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>sets default property value Generated from method <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::set</computeroutput>. </para>
+<para>sets default property value Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a153da2825373208f87fe44d33942f126" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1094" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1094" bodyend="1099"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1100" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1100" bodyend="1105"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a843c46d92f3945ff5131c835e261d288" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new <ref refid="classMR_1_1XfBasedCache__MRBox3f" kindref="compound">MR.XfBasedCache_MRBox3f</ref></type>
@@ -181,13 +181,13 @@
         <name>get</name>
         <qualifiedname>MR.ViewportProperty_MRXfBasedCacheMRBox3f.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::get</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a843c46d92f3945ff5131c835e261d288" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1104" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1104" bodyend="1109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1110" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1110" bodyend="1115"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1aa1f47fb658f39b2ce232b099f4ce1284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -204,13 +204,13 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::set</computeroutput>. </para>
+<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a153da2825373208f87fe44d33942f126" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1129" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1129" bodyend="1134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1135" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1135" bodyend="1140"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ad141bd7b64520deebcf49bc29936840e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -223,13 +223,13 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::reset</computeroutput>. </para>
+<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ad141bd7b64520deebcf49bc29936840e" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1141" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1141" bodyend="1146"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1147" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1147" bodyend="1152"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ad006f1331e7bcfce6aa20d53cb3ef534" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -238,13 +238,13 @@
         <name>reset</name>
         <qualifiedname>MR.ViewportProperty_MRXfBasedCacheMRBox3f.reset</qualifiedname>
         <briefdescription>
-<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::reset</computeroutput>. </para>
+<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ad141bd7b64520deebcf49bc29936840e" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1153" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1153" bodyend="1158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1159" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1159" bodyend="1164"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -259,63 +259,63 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1076" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1076" bodyend="1076"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1082" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1082" bodyend="1082"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR.ViewportProperty&lt;MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ViewportProperty_MRXfBasedCacheMRBox3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ViewportProperty_MRXfBasedCacheMRBox3f</label>
         <link refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ViewportProperty_MRXfBasedCacheMRBox3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ViewportProperty_MRXfBasedCacheMRBox3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ViewportProperty_MRXfBasedCacheMRBox3f</label>
         <link refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ViewportProperty_MRXfBasedCacheMRBox3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1027" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1028" bodyend="1159"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1033" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1034" bodyend="1165"/>
     <listofallmembers>
       <member refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ae1ca5d42881fee185c2b3f1353e53b88" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>assign</name></member>
       <member refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a843c46d92f3945ff5131c835e261d288" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>get</name></member>

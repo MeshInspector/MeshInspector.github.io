@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ITransformControls_1_1ChangeCenterAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ITransformControls::ChangeCenterAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
+    <includes refid="MRObjectTransformWidget_8h" local="no">MRViewer/MRObjectTransformWidget.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga11a04d5d3816fae8706b3ce313c1ad38" kind="variable"><name>controls_</name></member>
       <member refid="group__GeneralGroup_1ga860edc3de0be8f7a088fb847d998bf00" kind="variable"><name>center_</name></member>
@@ -44,7 +44,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="89" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="90" bodyend="111"/>
+    <location file="MRViewer/MRObjectTransformWidget.h" line="89" column="5" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="90" bodyend="111"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabf5a84325d8fc0c434b810083942d5d2" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga860edc3de0be8f7a088fb847d998bf00" prot="private" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>center_</name></member>

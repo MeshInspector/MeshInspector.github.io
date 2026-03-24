@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__ICPGroupPair_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_ICPGroupPair.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_ICPGroupPair.h</label>
+        <link refid="std__vector__MR__ICPGroupPair_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_ICPGroupPair_const_iterator MR_std_vector_MR_ICPGroupPair_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="22" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_ICPGroupPair_iterator MR_std_vector_MR_ICPGroupPair_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="26" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a20e436564f65b92e63032428c7d82922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a474f420998d49b0cf1e4439d85204dcb" kindref="member">MR_std_vector_MR_ICPGroupPair_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="30" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="30" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a1d53d429bbb8f2295069b86adb83d776" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1aa4b3ed626876b236b935ee7c24fc651c" kindref="member">MR_std_vector_MR_ICPGroupPair_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1ac78a51c2aa93196adf4b6f4f75146f0e" kindref="member">MR_std_vector_MR_ICPGroupPair_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a5e4271d0dd1003fef462e456e594d093" kindref="member">MR_std_vector_MR_ICPGroupPair_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="35" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="35" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a829779c282d0b48fd8257b103463e29e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_ICPGroupPair *other)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a474f420998d49b0cf1e4439d85204dcb" kindref="member">MR_std_vector_MR_ICPGroupPair_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="41" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="41" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ac29252d2cf2caaeb3ed16dad22dded54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, MR_PassBy other_pass_by, MR_std_vector_MR_ICPGroupPair *other)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a474f420998d49b0cf1e4439d85204dcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1aa4b3ed626876b236b935ee7c24fc651c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a5e4271d0dd1003fef462e456e594d093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="57" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="57" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ac78a51c2aa93196adf4b6f4f75146f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="61" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="61" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ac0c8c3e52238ba665ac750db55b990ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_ICPGroupPair_size</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_size</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1acc748e9bfcd36625f5595ce9869561dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ICPGroupPair_empty</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_empty</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1afdc8dcd5042c104da91223d1a0d7e02d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_resize</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_resize</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1aa4d3db1baa433d40d3e7508a94ecb056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, size_t new_size, const MR_ICPGroupPair *value)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1acbf555cfb4e0317cf11dc0e9efc0155f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_clear</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_clear</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a8034226a0944fb7d253d73512be2fb74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_ICPGroupPair_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_capacity</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1abe9bb6c61e390ee89458f1f7706ffe26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_reserve</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_reserve</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a3f7d62b113af3bef37ea8ab77af35edf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a08e083293858457631816590d728cfff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API const MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_at</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_at</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="101" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="101" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1af4d363d2bd284e6a5a2954f426d65ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_at_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="107" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="107" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a9c210504f0a9152f8a96710c98b60d0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API const MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_front</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_front</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="112" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="112" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ae86ba8364d28ebe3d2f6d16cdd48f482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_front_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="117" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="117" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a622c071931ec09fbd428e0e3047b16f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API const MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_back</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_back</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="122" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="122" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a9436ac67b31a69798d0331f9b2775542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_back_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="127" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="127" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a8609a5a4bec8cee3b8f2299c800fc13d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_push_back</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, const MR_ICPGroupPair *new_elem)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_push_back</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a5596e0a1f3bf4c37ae425b1d54b4a5e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_pop_back</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a378e5b83952b37fc351d87d7ca22dcef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_insert</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, size_t position, const MR_ICPGroupPair *new_elem)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_insert</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a8295695d62f46fa71041464b92ded174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_erase</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_erase</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1accd5b96498b9a21aeb2618066b37dc64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_iterator *position, const MR_ICPGroupPair *new_elem)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ad81d5dadff845f312f247ccd9bb062e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a518edbfda613831cfcab47b834055650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_const_iterator *position, const MR_ICPGroupPair *new_elem)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1acf22f7150c271c321096b56e98ec44a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a03b49d58c5bee8e0152064af57675e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_const_iterator * MR_std_vector_MR_ICPGroupPair_begin</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_begin</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1aef6893f653094e9b6cafdb350213f093" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="177" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="177" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a96864d11222ab86601bcbd7bfc18b8a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ICPGroupPair_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_is_begin</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ae60301a1dfd66099ab3f3ac4de3c69c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_iterator * MR_std_vector_MR_ICPGroupPair_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_begin_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a3e49518d59db1c40d7d5e369a74da815" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="188" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="188" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a6b6b89150c51caa7afb769fd2c8149be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ICPGroupPair_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ae809b630bbb9a642a6114b6bd110a6a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_const_iterator * MR_std_vector_MR_ICPGroupPair_end</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_end</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1aef6893f653094e9b6cafdb350213f093" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="199" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="199" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ae040cec26ec292d19106246a63d48fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ICPGroupPair_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_is_end</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ab95fc56933be7656260ba97773d8d209" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_iterator * MR_std_vector_MR_ICPGroupPair_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_end_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a3e49518d59db1c40d7d5e369a74da815" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="210" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="210" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a0b20dddeea63ec53152cb31ec10fd6ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ICPGroupPair_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a84668ef9e55e7b0dee7dc1bcd0ad7be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_ICPGroupPair_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_to_index</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ad57e969976c392445e059f4bd63bd939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_ICPGroupPair_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair *_this, const MR_std_vector_MR_ICPGroupPair_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a7216857c129da4e69a8098f137a9bd23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_const_iterator * MR_std_vector_MR_ICPGroupPair_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1aef6893f653094e9b6cafdb350213f093" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="229" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="229" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a274da6feec8e160d0b955fcb2b88f78f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_const_iterator * MR_std_vector_MR_ICPGroupPair_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a74f2330a6d6e1e28765bdf1f0d60d4fc" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1acda946c65f061f6aceba7fcc192a7ec5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1afa986cf94c98a9ceca4de0ab328c2e9d" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="234" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="234" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a90d13cfe9f6d67497ba480b3bdb0d796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_const_iterator * MR_std_vector_MR_ICPGroupPair_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1aef6893f653094e9b6cafdb350213f093" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="241" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="241" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a34533b46e8eed96126cd9b1ffd293769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_const_iterator *_this, const MR_std_vector_MR_ICPGroupPair_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1aef6893f653094e9b6cafdb350213f093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a74f2330a6d6e1e28765bdf1f0d60d4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1afa986cf94c98a9ceca4de0ab328c2e9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_ICPGroupPair_const_iterator * MR_std_vector_MR_ICPGroupPair_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="258" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="258" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1acda946c65f061f6aceba7fcc192a7ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_const_iterator * MR_std_vector_MR_ICPGroupPair_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="262" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="262" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a31af11d6f57bccdb635574f2dc7df24d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_const_iterator * MR_std_vector_MR_ICPGroupPair_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1aef6893f653094e9b6cafdb350213f093" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="267" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="267" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ae190a23855926294ee3e6196113ab445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_iterator * MR_std_vector_MR_ICPGroupPair_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a3e49518d59db1c40d7d5e369a74da815" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="271" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="271" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a8625fc2e1513159a926a22aaff871a07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_iterator * MR_std_vector_MR_ICPGroupPair_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a43b76a1f3f72913a39707c4b18e4e920" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a76bd3f3830b583f123a289782d2be74f" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a63b8cce1c920cdbab76dc6db2daf3131" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="276" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="276" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a48b751241b0668aeaf69f4e00f27a6a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_iterator * MR_std_vector_MR_ICPGroupPair_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1a3e49518d59db1c40d7d5e369a74da815" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="283" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="283" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a702b6c3d9d633d492902719a745bd505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_iterator *_this, const MR_std_vector_MR_ICPGroupPair_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a3e49518d59db1c40d7d5e369a74da815" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a43b76a1f3f72913a39707c4b18e4e920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a63b8cce1c920cdbab76dc6db2daf3131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_ICPGroupPair_iterator * MR_std_vector_MR_ICPGroupPair_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="300" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="300" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a76bd3f3830b583f123a289782d2be74f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ICPGroupPair_iterator * MR_std_vector_MR_ICPGroupPair_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="304" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="304" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a31fb34273e0aef538f057e5d84da703f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API const MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="310" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="310" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a9f438eec2906bfbf8607e31375531688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1af465d289af49bdb0dd83ee30583054b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1ae06141987e4956b9c8e2987b29c792d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a4d740cc54b8ff03ec2b4ac323ec9d847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_ICPGroupPair_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_const_iterator *a, const MR_std_vector_MR_ICPGroupPair_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_ICPGroupPair_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1af4f42d786f0f69b3bc6a4eb8715cddcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_ICPGroupPair_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_const_iterator *a, const MR_std_vector_MR_ICPGroupPair_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_ICPGroupPair_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a951ffc8a0ab6befdf38c71ea2aed3fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref> *</type>
+        <definition>MRC_API MR_ICPGroupPair * MR_std_vector_MR_ICPGroupPair_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="338" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="338" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a2dadcbbf35d0c1bef5deda3dcb8e6790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a14c9738142f17bef399313e89126b776" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a9785ade7920b77fb5059af18b8c67022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ICPGroupPair_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_ICPGroupPair_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_ICPGroupPair_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1aac662d952b5d4454ab419a3a5324cf2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_ICPGroupPair_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_iterator *a, const MR_std_vector_MR_ICPGroupPair_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_ICPGroupPair_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ICPGroupPair_8h_1a5bce604f30bb545b55d845a1a7019727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_ICPGroupPair_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_ICPGroupPair_iterator *a, const MR_std_vector_MR_ICPGroupPair_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_ICPGroupPair_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMultiwayICP.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__ICPGroupPair_8h_1a20e436564f65b92e63032428c7d82922" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a20e436564f65b92e63032428c7d82922" kindref="member">MR_std_vector_MR_ICPGroupPair_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__ICPGroupPair_8h_1a1d53d429bbb8f2295069b86adb83d776" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a1d53d429bbb8f2295069b86adb83d776" kindref="member">MR_std_vector_MR_ICPGroupPair_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__ICPGroupPair_8h_1a829779c282d0b48fd8257b103463e29e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a829779c282d0b48fd8257b103463e29e" kindref="member">MR_std_vector_MR_ICPGroupPair_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__ICPGroupPair_8h_1ac29252d2cf2caaeb3ed16dad22dded54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ac29252d2cf2caaeb3ed16dad22dded54" kindref="member">MR_std_vector_MR_ICPGroupPair_AssignFromAnother</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__ICPGroupPair_8h_1a474f420998d49b0cf1e4439d85204dcb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a474f420998d49b0cf1e4439d85204dcb" kindref="member">MR_std_vector_MR_ICPGroupPair_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__ICPGroupPair_8h_1aa4b3ed626876b236b935ee7c24fc651c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1aa4b3ed626876b236b935ee7c24fc651c" kindref="member">MR_std_vector_MR_ICPGroupPair_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__ICPGroupPair_8h_1a5e4271d0dd1003fef462e456e594d093" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a5e4271d0dd1003fef462e456e594d093" kindref="member">MR_std_vector_MR_ICPGroupPair_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__ICPGroupPair_8h_1ac78a51c2aa93196adf4b6f4f75146f0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1ac78a51c2aa93196adf4b6f4f75146f0e" kindref="member">MR_std_vector_MR_ICPGroupPair_OffsetMutablePtr</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__ICPGroupPair_8h_1ac0c8c3e52238ba665ac750db55b990ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ac0c8c3e52238ba665ac750db55b990ef" kindref="member">MR_std_vector_MR_ICPGroupPair_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__ICPGroupPair_8h_1acc748e9bfcd36625f5595ce9869561dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1acc748e9bfcd36625f5595ce9869561dd" kindref="member">MR_std_vector_MR_ICPGroupPair_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__ICPGroupPair_8h_1afdc8dcd5042c104da91223d1a0d7e02d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1afdc8dcd5042c104da91223d1a0d7e02d" kindref="member">MR_std_vector_MR_ICPGroupPair_resize</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__ICPGroupPair_8h_1aa4d3db1baa433d40d3e7508a94ecb056" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1aa4d3db1baa433d40d3e7508a94ecb056" kindref="member">MR_std_vector_MR_ICPGroupPair_resize_with_default_value</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__ICPGroupPair_8h_1acbf555cfb4e0317cf11dc0e9efc0155f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1acbf555cfb4e0317cf11dc0e9efc0155f" kindref="member">MR_std_vector_MR_ICPGroupPair_clear</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__ICPGroupPair_8h_1a8034226a0944fb7d253d73512be2fb74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a8034226a0944fb7d253d73512be2fb74" kindref="member">MR_std_vector_MR_ICPGroupPair_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__ICPGroupPair_8h_1abe9bb6c61e390ee89458f1f7706ffe26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1abe9bb6c61e390ee89458f1f7706ffe26" kindref="member">MR_std_vector_MR_ICPGroupPair_reserve</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__ICPGroupPair_8h_1a3f7d62b113af3bef37ea8ab77af35edf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a3f7d62b113af3bef37ea8ab77af35edf" kindref="member">MR_std_vector_MR_ICPGroupPair_shrink_to_fit</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__ICPGroupPair_8h_1a08e083293858457631816590d728cfff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a08e083293858457631816590d728cfff" kindref="member">MR_std_vector_MR_ICPGroupPair_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__ICPGroupPair_8h_1af4d363d2bd284e6a5a2954f426d65ef7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1af4d363d2bd284e6a5a2954f426d65ef7" kindref="member">MR_std_vector_MR_ICPGroupPair_at_mut</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__ICPGroupPair_8h_1a9c210504f0a9152f8a96710c98b60d0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a9c210504f0a9152f8a96710c98b60d0e" kindref="member">MR_std_vector_MR_ICPGroupPair_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__ICPGroupPair_8h_1ae86ba8364d28ebe3d2f6d16cdd48f482" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1ae86ba8364d28ebe3d2f6d16cdd48f482" kindref="member">MR_std_vector_MR_ICPGroupPair_front_mut</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__ICPGroupPair_8h_1a622c071931ec09fbd428e0e3047b16f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a622c071931ec09fbd428e0e3047b16f5" kindref="member">MR_std_vector_MR_ICPGroupPair_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__ICPGroupPair_8h_1a9436ac67b31a69798d0331f9b2775542" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a9436ac67b31a69798d0331f9b2775542" kindref="member">MR_std_vector_MR_ICPGroupPair_back_mut</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__ICPGroupPair_8h_1a8609a5a4bec8cee3b8f2299c800fc13d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a8609a5a4bec8cee3b8f2299c800fc13d" kindref="member">MR_std_vector_MR_ICPGroupPair_push_back</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__ICPGroupPair_8h_1a5596e0a1f3bf4c37ae425b1d54b4a5e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a5596e0a1f3bf4c37ae425b1d54b4a5e1" kindref="member">MR_std_vector_MR_ICPGroupPair_pop_back</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__ICPGroupPair_8h_1a378e5b83952b37fc351d87d7ca22dcef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a378e5b83952b37fc351d87d7ca22dcef" kindref="member">MR_std_vector_MR_ICPGroupPair_insert</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__ICPGroupPair_8h_1a8295695d62f46fa71041464b92ded174" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a8295695d62f46fa71041464b92ded174" kindref="member">MR_std_vector_MR_ICPGroupPair_erase</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__ICPGroupPair_8h_1accd5b96498b9a21aeb2618066b37dc64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1accd5b96498b9a21aeb2618066b37dc64" kindref="member">MR_std_vector_MR_ICPGroupPair_insert_at_mutable_iter</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__ICPGroupPair_8h_1ad81d5dadff845f312f247ccd9bb062e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ad81d5dadff845f312f247ccd9bb062e8" kindref="member">MR_std_vector_MR_ICPGroupPair_erase_at_mutable_iter</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__ICPGroupPair_8h_1a518edbfda613831cfcab47b834055650" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a518edbfda613831cfcab47b834055650" kindref="member">MR_std_vector_MR_ICPGroupPair_insert_at_iter</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__ICPGroupPair_8h_1acf22f7150c271c321096b56e98ec44a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1acf22f7150c271c321096b56e98ec44a9" kindref="member">MR_std_vector_MR_ICPGroupPair_erase_at_iter</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__ICPGroupPair_8h_1a03b49d58c5bee8e0152064af57675e92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a03b49d58c5bee8e0152064af57675e92" kindref="member">MR_std_vector_MR_ICPGroupPair_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__ICPGroupPair_8h_1a96864d11222ab86601bcbd7bfc18b8a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a96864d11222ab86601bcbd7bfc18b8a8" kindref="member">MR_std_vector_MR_ICPGroupPair_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__ICPGroupPair_8h_1ae60301a1dfd66099ab3f3ac4de3c69c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1ae60301a1dfd66099ab3f3ac4de3c69c9" kindref="member">MR_std_vector_MR_ICPGroupPair_begin_mut</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__ICPGroupPair_8h_1a6b6b89150c51caa7afb769fd2c8149be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a6b6b89150c51caa7afb769fd2c8149be" kindref="member">MR_std_vector_MR_ICPGroupPair_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__ICPGroupPair_8h_1ae809b630bbb9a642a6114b6bd110a6a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1ae809b630bbb9a642a6114b6bd110a6a5" kindref="member">MR_std_vector_MR_ICPGroupPair_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__ICPGroupPair_8h_1ae040cec26ec292d19106246a63d48fe7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ae040cec26ec292d19106246a63d48fe7" kindref="member">MR_std_vector_MR_ICPGroupPair_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__ICPGroupPair_8h_1ab95fc56933be7656260ba97773d8d209" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1ab95fc56933be7656260ba97773d8d209" kindref="member">MR_std_vector_MR_ICPGroupPair_end_mut</ref>(<ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__ICPGroupPair_8h_1a0b20dddeea63ec53152cb31ec10fd6ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a0b20dddeea63ec53152cb31ec10fd6ee" kindref="member">MR_std_vector_MR_ICPGroupPair_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__ICPGroupPair_8h_1a84668ef9e55e7b0dee7dc1bcd0ad7be4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a84668ef9e55e7b0dee7dc1bcd0ad7be4" kindref="member">MR_std_vector_MR_ICPGroupPair_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__ICPGroupPair_8h_1ad57e969976c392445e059f4bd63bd939" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ad57e969976c392445e059f4bd63bd939" kindref="member">MR_std_vector_MR_ICPGroupPair_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__ICPGroupPair_8h_1a7216857c129da4e69a8098f137a9bd23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a7216857c129da4e69a8098f137a9bd23" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__ICPGroupPair_8h_1a274da6feec8e160d0b955fcb2b88f78f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a274da6feec8e160d0b955fcb2b88f78f" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__ICPGroupPair_8h_1a90d13cfe9f6d67497ba480b3bdb0d796" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a90d13cfe9f6d67497ba480b3bdb0d796" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__ICPGroupPair_8h_1a34533b46e8eed96126cd9b1ffd293769" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a34533b46e8eed96126cd9b1ffd293769" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__ICPGroupPair_8h_1aef6893f653094e9b6cafdb350213f093" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1aef6893f653094e9b6cafdb350213f093" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__ICPGroupPair_8h_1a74f2330a6d6e1e28765bdf1f0d60d4fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a74f2330a6d6e1e28765bdf1f0d60d4fc" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__ICPGroupPair_8h_1afa986cf94c98a9ceca4de0ab328c2e9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1afa986cf94c98a9ceca4de0ab328c2e9d" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__ICPGroupPair_8h_1acda946c65f061f6aceba7fcc192a7ec5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1acda946c65f061f6aceba7fcc192a7ec5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__ICPGroupPair_8h_1a31af11d6f57bccdb635574f2dc7df24d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a31af11d6f57bccdb635574f2dc7df24d" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__ICPGroupPair_8h_1ae190a23855926294ee3e6196113ab445" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1ae190a23855926294ee3e6196113ab445" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__ICPGroupPair_8h_1a8625fc2e1513159a926a22aaff871a07" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a8625fc2e1513159a926a22aaff871a07" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__ICPGroupPair_8h_1a48b751241b0668aeaf69f4e00f27a6a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a48b751241b0668aeaf69f4e00f27a6a1" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__ICPGroupPair_8h_1a702b6c3d9d633d492902719a745bd505" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a702b6c3d9d633d492902719a745bd505" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__ICPGroupPair_8h_1a3e49518d59db1c40d7d5e369a74da815" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a3e49518d59db1c40d7d5e369a74da815" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__ICPGroupPair_8h_1a43b76a1f3f72913a39707c4b18e4e920" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a43b76a1f3f72913a39707c4b18e4e920" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__ICPGroupPair_8h_1a63b8cce1c920cdbab76dc6db2daf3131" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a63b8cce1c920cdbab76dc6db2daf3131" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__ICPGroupPair_8h_1a76bd3f3830b583f123a289782d2be74f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a76bd3f3830b583f123a289782d2be74f" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__ICPGroupPair_8h_1a31fb34273e0aef538f057e5d84da703f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a31fb34273e0aef538f057e5d84da703f" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__ICPGroupPair_8h_1a9f438eec2906bfbf8607e31375531688" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a9f438eec2906bfbf8607e31375531688" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_incr</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__ICPGroupPair_8h_1af465d289af49bdb0dd83ee30583054b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1af465d289af49bdb0dd83ee30583054b1" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_decr</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__ICPGroupPair_8h_1ae06141987e4956b9c8e2987b29c792d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ae06141987e4956b9c8e2987b29c792d6" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__ICPGroupPair_8h_1a4d740cc54b8ff03ec2b4ac323ec9d847" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a4d740cc54b8ff03ec2b4ac323ec9d847" kindref="member">MR_sub_MR_std_vector_MR_ICPGroupPair_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__ICPGroupPair_8h_1af4f42d786f0f69b3bc6a4eb8715cddcb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1af4f42d786f0f69b3bc6a4eb8715cddcb" kindref="member">MR_equal_MR_std_vector_MR_ICPGroupPair_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1adb10fb3933d05dba949b5318006faaf5" kindref="member">MR_std_vector_MR_ICPGroupPair_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__ICPGroupPair_8h_1a951ffc8a0ab6befdf38c71ea2aed3fc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*<ref refid="std__vector__MR__ICPGroupPair_8h_1a951ffc8a0ab6befdf38c71ea2aed3fc9" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__ICPGroupPair_8h_1a2dadcbbf35d0c1bef5deda3dcb8e6790" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a2dadcbbf35d0c1bef5deda3dcb8e6790" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_incr</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__ICPGroupPair_8h_1a14c9738142f17bef399313e89126b776" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a14c9738142f17bef399313e89126b776" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_decr</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__ICPGroupPair_8h_1a9785ade7920b77fb5059af18b8c67022" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a9785ade7920b77fb5059af18b8c67022" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator_add_assign</ref>(<ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__ICPGroupPair_8h_1aac662d952b5d4454ab419a3a5324cf2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1aac662d952b5d4454ab419a3a5324cf2d" kindref="member">MR_sub_MR_std_vector_MR_ICPGroupPair_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__ICPGroupPair_8h_1a5bce604f30bb545b55d845a1a7019727" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1a5bce604f30bb545b55d845a1a7019727" kindref="member">MR_equal_MR_std_vector_MR_ICPGroupPair_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ICPGroupPair_8h_1ab2079da79a679f9688961490e10faa0e" kindref="member">MR_std_vector_MR_ICPGroupPair_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ICPGroupPair.h"/>
+  </compounddef>
+</doxygen>

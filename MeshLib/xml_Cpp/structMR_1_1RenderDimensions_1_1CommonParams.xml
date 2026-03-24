@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RenderDimensions_1_1CommonParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::RenderDimensions::CommonParams</compoundname>
-    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <includes refid="MRRenderDimensions_8h" local="no">MRViewer/MRRenderDimensions.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga24e53f6e56b159ccb14495ab5e06145f" kind="variable"><name>objectToSelect</name></member>
       <member refid="group__GeneralGroup_1gaa609dc0e9f68c9ca781df34a9acbe475" kind="variable"><name>objectName</name></member>
@@ -80,7 +80,6 @@
         <childnode refid="8" relation="usage">
           <edgelabel>clipByPlane_</edgelabel>
           <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
           <edgelabel>pickable_</edgelabel>
           <edgelabel>showName_</edgelabel>
         </childnode>
@@ -100,7 +99,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="29" bodyend="36"/>
+    <location file="MRViewer/MRRenderDimensions.h" line="28" column="1" bodyfile="MRViewer/MRRenderDimensions.h" bodystart="29" bodyend="36"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa609dc0e9f68c9ca781df34a9acbe475" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::CommonParams</scope><name>objectName</name></member>
       <member refid="group__GeneralGroup_1ga24e53f6e56b159ccb14495ab5e06145f" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::CommonParams</scope><name>objectToSelect</name></member>

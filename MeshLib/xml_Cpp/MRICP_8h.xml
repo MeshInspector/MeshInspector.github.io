@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRICP_8h" kind="file" language="C++">
     <compoundname>MRICP.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
@@ -11,54 +11,60 @@
     <includes refid="MRAffineXf_8h" local="yes">MRAffineXf.h</includes>
     <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
     <includes local="no">cfloat</includes>
-    <includedby refid="MRMultiwayICP_8h" local="yes">MRMultiwayICP.h</includedby>
+    <includedby refid="MRMultiwayICP_8h" local="yes">MRMesh/MRMultiwayICP.h</includedby>
     <incdepgraph>
-      <node id="21">
+      <node id="29">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="17">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="34">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
         <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="8">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
       <node id="1">
-        <label>MRICP.h</label>
+        <label>MRMesh/MRICP.h</label>
         <link refid="MRICP_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -66,53 +72,75 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRICPEnums.h</label>
         <link refid="MRICPEnums_8h"/>
       </node>
-      <node id="22">
+      <node id="30">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="18">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="9">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -120,11 +148,77 @@
         <link refid="MRMeshOrPoints_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRPointCloudPart.h</label>
+        <link refid="MRPointCloudPart_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
@@ -134,136 +228,83 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>MRMeshPart.h</label>
-        <link refid="MRMeshPart_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>MRPointCloudPart.h</label>
-        <link refid="MRPointCloudPart_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="31">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="30">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMeshFwd.h</label>
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="2">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="29">
+      <node id="35">
         <label>MRphmap.h</label>
       </node>
-      <node id="16">
+      <node id="24">
         <label>algorithm</label>
       </node>
-      <node id="23">
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="15">
         <label>cassert</label>
       </node>
-      <node id="24">
+      <node id="31">
         <label>cfloat</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>cmath</label>
       </node>
-      <node id="32">
+      <node id="38">
         <label>concepts</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>cstddef</label>
       </node>
-      <node id="18">
+      <node id="26">
         <label>cstring</label>
       </node>
-      <node id="25">
+      <node id="14">
         <label>functional</label>
       </node>
-      <node id="19">
+      <node id="27">
         <label>iosfwd</label>
       </node>
-      <node id="33">
+      <node id="39">
         <label>iterator</label>
       </node>
-      <node id="26">
+      <node id="32">
         <label>optional</label>
       </node>
-      <node id="14">
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="22">
         <label>type_traits</label>
       </node>
-      <node id="20">
+      <node id="28">
         <label>utility</label>
       </node>
-      <node id="27">
+      <node id="33">
         <label>variant</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRICP.h</label>
+        <label>MRMesh/MRICP.h</label>
         <link refid="MRICP_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRMultiwayICP.h</label>
+        <label>MRMesh/MRMultiwayICP.h</label>
         <link refid="MRMultiwayICP_8h"/>
       </node>
     </invincdepgraph>
@@ -313,7 +354,7 @@
 <codeline lineno="39" refid="group__GeneralGroup_1ga0769d0c92668ab4c85a05584e5a73b24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0769d0c92668ab4c85a05584e5a73b24" kindref="member">operator == </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="structMR_1_1PointPair" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref></highlight></codeline>
+<codeline lineno="43" refid="structMR_1_1PointPair" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref></highlight></codeline>
 <codeline lineno="44"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1ga0be978719b10258123e31ffe3413c532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga0be978719b10258123e31ffe3413c532" kindref="member">srcVertId</ref>;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
@@ -326,14 +367,14 @@
 <codeline lineno="58" refid="group__GeneralGroup_1ga5f761c6549a8d74c43a943993e9f7426" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5f761c6549a8d74c43a943993e9f7426" kindref="member">operator == </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="59"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="structMR_1_1IPointPairs" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref></highlight></codeline>
+<codeline lineno="62" refid="structMR_1_1IPointPairs" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref></highlight></codeline>
 <codeline lineno="63"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="65" refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="66" refid="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" kindref="member">IPointPairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="67" refid="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="68" refid="group__GeneralGroup_1ga995abf137ecf1f8e0771844779cc9405" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga995abf137ecf1f8e0771844779cc9405" kindref="member">IPointPairs</ref>(<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="69" refid="group__GeneralGroup_1gab45a73b14fac3dc080a3e99e4070de26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>operator=(<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="70" refid="group__GeneralGroup_1gae584abe0ef15be5d6f3fc244f176751b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>~<ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>()<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" kindref="member">IPointPairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1ga995abf137ecf1f8e0771844779cc9405" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga995abf137ecf1f8e0771844779cc9405" kindref="member">IPointPairs</ref>(<sp/><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1gab45a73b14fac3dc080a3e99e4070de26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>&amp;<sp/>operator=(<sp/><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1gae584abe0ef15be5d6f3fc244f176751b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>~<ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>()<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72" refid="group__GeneralGroup_1ga3dd0343a154cad09f33735a106dcc64b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>const<sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/>operator[](<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>)<sp/>const<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="73" refid="group__GeneralGroup_1gafcac114c6d43447ea0cae96eb9270de8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/>operator[](<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>)<sp/>=<sp/>0;</highlight></codeline>
@@ -341,126 +382,126 @@
 <codeline lineno="75" refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref><sp/><ref refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" kindref="member">active</ref>;<sp/></highlight></codeline>
 <codeline lineno="76"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="structMR_1_1PointPairs" refkind="compound"><highlight class="normal">struct<sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>:<sp/>public<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref></highlight></codeline>
+<codeline lineno="78" refid="structMR_1_1PointPairs" refkind="compound"><highlight class="normal"><ref refid="group__GeneralGroup_1ga14a2b0f304716de7247bc521bb0f4b8b" kindref="member">struct</ref><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>:<sp/>public<sp/><ref refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref></highlight></codeline>
 <codeline lineno="79"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="80" refid="group__GeneralGroup_1gab99f3e132fe375fd87cd27dafb991537" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gab99f3e132fe375fd87cd27dafb991537" kindref="member">operator[]</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vec[idx];<sp/>}</highlight></codeline>
-<codeline lineno="81" refid="group__GeneralGroup_1gaf0bfe85ad789f3bba2ddfb104733e314" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaf0bfe85ad789f3bba2ddfb104733e314" kindref="member">operator[]</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx<sp/>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vec[idx];<sp/>}</highlight></codeline>
-<codeline lineno="82" refid="group__GeneralGroup_1ga57a171fbd5024682750b723475ed0c7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga57a171fbd5024682750b723475ed0c7b" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vec.size();<sp/>}</highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1gab99f3e132fe375fd87cd27dafb991537" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gab99f3e132fe375fd87cd27dafb991537" kindref="member">operator[]</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa5242248a93789d989a923092a5d7592" kindref="member">vec</ref>[idx];<sp/>}</highlight></codeline>
+<codeline lineno="81" refid="group__GeneralGroup_1gaf0bfe85ad789f3bba2ddfb104733e314" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaf0bfe85ad789f3bba2ddfb104733e314" kindref="member">operator[]</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx<sp/>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa5242248a93789d989a923092a5d7592" kindref="member">vec</ref>[idx];<sp/>}</highlight></codeline>
+<codeline lineno="82" refid="group__GeneralGroup_1ga57a171fbd5024682750b723475ed0c7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga57a171fbd5024682750b723475ed0c7b" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa5242248a93789d989a923092a5d7592" kindref="member">vec</ref>.size();<sp/>}</highlight></codeline>
 <codeline lineno="83" refid="group__GeneralGroup_1gaa5242248a93789d989a923092a5d7592" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;PointPair&gt;<sp/><ref refid="group__GeneralGroup_1gaa5242248a93789d989a923092a5d7592" kindref="member">vec</ref>;<sp/></highlight></codeline>
 <codeline lineno="84"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87" refid="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" kindref="member">getNumSamples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pairs.<ref refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" kindref="member">active</ref>.<ref refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" kindref="member">size</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="group__GeneralGroup_1ga5f3e72229b19af1e43886673711093af" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5f3e72229b19af1e43886673711093af" kindref="member">getNumActivePairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>);</highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" kindref="member">getNumActivePairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92" refid="structMR_1_1NumSum" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref></highlight></codeline>
 <codeline lineno="93"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="94" refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="95" refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="94" refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" kindref="member">num</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="95" refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" kindref="member">sum</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97" refid="group__GeneralGroup_1ga0fe6b707b49d42eb921bab61a351f02f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a57c6b7abb0d440f81d2e0e563f66c947" kindref="member">operator + </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/>&amp;<sp/>b<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>a.<ref refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" kindref="member">num</ref><sp/>+<sp/>b.<ref refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" kindref="member">num</ref>,<sp/>a.<ref refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" kindref="member">sum</ref><sp/>+<sp/>b.<ref refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" kindref="member">sum</ref><sp/>};<sp/>}</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>num<sp/>&lt;=<sp/>0<sp/>)<sp/>?<sp/>FLT_MAX<sp/>:<sp/>(float)std::sqrt(<sp/>sum<sp/>/<sp/>num<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="99" refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" kindref="member">num</ref><sp/>&lt;=<sp/>0<sp/>)<sp/>?<sp/>FLT_MAX<sp/>:<sp/>(float)std::sqrt(<sp/><ref refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" kindref="member">sum</ref><sp/>/<sp/><ref refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" kindref="member">num</ref><sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="100"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="group__GeneralGroup_1ga06aeabf6e11d59cffd728866af776927" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/><ref refid="group__GeneralGroup_1ga06aeabf6e11d59cffd728866af776927" kindref="member">getSumSqDistToPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/>std::optional&lt;double&gt;<sp/>inaccuracy<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="104" refid="group__GeneralGroup_1ga2390825211c2304048bd52145af1b176" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/><ref refid="group__GeneralGroup_1ga2390825211c2304048bd52145af1b176" kindref="member">getSumSqDistToPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/>std::optional&lt;double&gt;<sp/>inaccuracy<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="group__GeneralGroup_1ga35d3b6b2ab98a2f5c105722dca3a23dd" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/><ref refid="group__GeneralGroup_1ga35d3b6b2ab98a2f5c105722dca3a23dd" kindref="member">getSumSqDistToPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/>std::optional&lt;double&gt;<sp/>inaccuracy<sp/>=<sp/>{});</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1gacb20afcbbb9d7555d6abbdc5e3b50a7e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/><ref refid="group__GeneralGroup_1gacb20afcbbb9d7555d6abbdc5e3b50a7e" kindref="member">getSumSqDistToPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/>std::optional&lt;double&gt;<sp/>inaccuracy<sp/>=<sp/>{});</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="group__GeneralGroup_1ga8fac39607138c4e9d594cffbdf5f28d7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8fac39607138c4e9d594cffbdf5f28d7" kindref="member">getMeanSqDistToPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga06aeabf6e11d59cffd728866af776927" kindref="member">getSumSqDistToPoint</ref>(<sp/>pairs<sp/>).<ref refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1ga8fac39607138c4e9d594cffbdf5f28d7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8fac39607138c4e9d594cffbdf5f28d7" kindref="member">getMeanSqDistToPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2390825211c2304048bd52145af1b176" kindref="member">getSumSqDistToPoint</ref>(<sp/>pairs<sp/>).<ref refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="group__GeneralGroup_1ga2f004671404b2a06e56c484d5e5a3e40" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2f004671404b2a06e56c484d5e5a3e40" kindref="member">getMeanSqDistToPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga35d3b6b2ab98a2f5c105722dca3a23dd" kindref="member">getSumSqDistToPlane</ref>(<sp/>pairs<sp/>).<ref refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="114" refid="group__GeneralGroup_1ga2f004671404b2a06e56c484d5e5a3e40" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2f004671404b2a06e56c484d5e5a3e40" kindref="member">getMeanSqDistToPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacb20afcbbb9d7555d6abbdc5e3b50a7e" kindref="member">getSumSqDistToPlane</ref>(<sp/>pairs<sp/>).<ref refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="group__GeneralGroup_1ga6fa1b58fb6b78b02b4707c3338def0c1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga6fa1b58fb6b78b02b4707c3338def0c1" kindref="member">getICPStatusInfo</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterations,<sp/><ref refid="group__GeneralGroup_1gac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref><sp/>exitType<sp/>);</highlight></codeline>
+<codeline lineno="117" refid="group__GeneralGroup_1ga906c4c943a7359b75228e06b81ce6e11" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga906c4c943a7359b75228e06b81ce6e11" kindref="member">getICPStatusInfo</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterations,<sp/><ref refid="group__GeneralGroup_1gac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref><sp/>exitType<sp/>);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="group__GeneralGroup_1ga3c1276014561af6523a99bd293dd9940" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>AffineXf3d<sp/><ref refid="group__GeneralGroup_1ga3c1276014561af6523a99bd293dd9940" kindref="member">getAligningXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">PointToPlaneAligningTransform</ref><sp/>&amp;<sp/>p2pl,</highlight></codeline>
+<codeline lineno="120" refid="group__GeneralGroup_1gab9437f710e465bc98981efae3890aee0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3d<sp/><ref refid="group__GeneralGroup_1gab9437f710e465bc98981efae3890aee0" kindref="member">getAligningXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">PointToPlaneAligningTransform</ref><sp/>&amp;<sp/>p2pl,</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2f8db848fea33b9619ade1fc1ac08677" kindref="member">ICPMode</ref><sp/>mode,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleLimit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaleLimit,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>fixedRotationAxis<sp/>);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="structMR_1_1ICPProperties" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref></highlight></codeline>
+<codeline lineno="124" refid="structMR_1_1ICPProperties" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref></highlight></codeline>
 <codeline lineno="125"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="127" refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadc079b022ca7581fe4f508ab8f6a80ec" kindref="member">ICPMethod</ref><sp/>method<sp/>=<sp/>ICPMethod::PointToPlane;</highlight></codeline>
+<codeline lineno="127" refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadc079b022ca7581fe4f508ab8f6a80ec" kindref="member">ICPMethod</ref><sp/><ref refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" kindref="member">method</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed" kindref="member">ICPMethod::PointToPlane</ref>;</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p2plAngleLimit<sp/>=<sp/>PI_F<sp/>/<sp/>6.0f;<sp/></highlight></codeline>
+<codeline lineno="131" refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" kindref="member">p2plAngleLimit</ref><sp/>=<sp/>PI_F<sp/>/<sp/>6.0f;<sp/></highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p2plScaleLimit<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="135" refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" kindref="member">p2plScaleLimit</ref><sp/>=<sp/>2;</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold<sp/>=<sp/>0.7f;<sp/></highlight></codeline>
+<codeline lineno="140" refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" kindref="member">cosThreshold</ref><sp/>=<sp/>0.7f;<sp/></highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq<sp/>=<sp/>1.f;<sp/></highlight></codeline>
+<codeline lineno="145" refid="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" kindref="member">distThresholdSq</ref><sp/>=<sp/>1.f;<sp/></highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>farDistFactor<sp/>=<sp/>3.f;<sp/></highlight></codeline>
+<codeline lineno="151" refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" kindref="member">farDistFactor</ref><sp/>=<sp/>3.f;<sp/></highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="group__GeneralGroup_1ga77f672ea419da2fb458fb981c25d5be2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2f8db848fea33b9619ade1fc1ac08677" kindref="member">ICPMode</ref><sp/>icpMode<sp/>=<sp/>ICPMode::AnyRigidXf;</highlight></codeline>
+<codeline lineno="155" refid="group__GeneralGroup_1ga77f672ea419da2fb458fb981c25d5be2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2f8db848fea33b9619ade1fc1ac08677" kindref="member">ICPMode</ref><sp/><ref refid="group__GeneralGroup_1ga77f672ea419da2fb458fb981c25d5be2" kindref="member">icpMode</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gga2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef" kindref="member">ICPMode::AnyRigidXf</ref>;</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
 <codeline lineno="158" refid="group__GeneralGroup_1ga1fe34b378f38697c828575c8204e7b57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga1fe34b378f38697c828575c8204e7b57" kindref="member">fixedRotationAxis</ref>;</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="group__GeneralGroup_1ga4b5daff61d36ce0e211995eee0f2507f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterLimit<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="162" refid="group__GeneralGroup_1ga4b5daff61d36ce0e211995eee0f2507f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4b5daff61d36ce0e211995eee0f2507f" kindref="member">iterLimit</ref><sp/>=<sp/>10;</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>badIterStopCount<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="166" refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" kindref="member">badIterStopCount</ref><sp/>=<sp/>3;</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>exitVal<sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="170" refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" kindref="member">exitVal</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="174" refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" kindref="member">mutualClosest</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="175"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="group__GeneralGroup_1gaecd7603141fb9c3b9658281cdd4e2ca9" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaecd7603141fb9c3b9658281cdd4e2ca9" kindref="member">deactivateFarPairs</ref>(<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq<sp/>);</highlight></codeline>
+<codeline lineno="178" refid="group__GeneralGroup_1ga9381989fd9c2bfbded47dacbf86d0aee" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9381989fd9c2bfbded47dacbf86d0aee" kindref="member">deactivateFarPairs</ref>(<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq<sp/>);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="group__GeneralGroup_1gae1720596759ae985fe19f03af8b48c36" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae1720596759ae985fe19f03af8b48c36" kindref="member">updatePointPairs</ref>(<sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref>&amp;<sp/>pairs,</highlight></codeline>
+<codeline lineno="181" refid="group__GeneralGroup_1ga5118cd3270687b64806c02e6c6c68a2b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5118cd3270687b64806c02e6c6c68a2b" kindref="member">updatePointPairs</ref>(<sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref>&amp;<sp/>pairs,</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>tgt,</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest<sp/>);</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="classMR_1_1ICP" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">[[nodiscard]]<sp/><ref refid="classMR_1_1ICP" kindref="compound">ICP</ref></highlight></codeline>
+<codeline lineno="188" refid="classMR_1_1ICP" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kindref="member">ICP</ref></highlight></codeline>
 <codeline lineno="189"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="198" refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>refXf,</highlight></codeline>
 <codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fltSamples<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>refSamples<sp/>=<sp/>{}<sp/>)<sp/>:<sp/>ICP(<sp/>{<sp/>flt,<sp/>fltXf<sp/>},<sp/>{<sp/>ref,<sp/>refXf<sp/>},<sp/>fltSamples,<sp/>refSamples<sp/>)<sp/>{}</highlight></codeline>
-<codeline lineno="200" refid="group__GeneralGroup_1gaca4490fa0871ec586b8cdb403a73cba7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaca4490fa0871ec586b8cdb403a73cba7" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fltSamples<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>refSamples<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="200" refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fltSamples<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>refSamples<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="group__GeneralGroup_1gaeeebad873ae2a9669d93fc0063a7d823" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeebad873ae2a9669d93fc0063a7d823" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>refXf,</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>)<sp/>:<sp/><ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>(<sp/>{<sp/>flt,<sp/>fltXf<sp/>},<sp/>{<sp/>ref,<sp/>refXf<sp/>},<sp/>samplingVoxelSize<sp/>)<sp/>{}</highlight></codeline>
-<codeline lineno="210" refid="group__GeneralGroup_1gae577ff855840dbf373087da916d01fc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gae577ff855840dbf373087da916d01fc5" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
+<codeline lineno="208" refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>refXf,</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kindref="member">ICP</ref>(<sp/>{<sp/>flt,<sp/>fltXf<sp/>},<sp/>{<sp/>ref,<sp/>refXf<sp/>},<sp/>samplingVoxelSize<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="210" refid="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
 <codeline lineno="213" refid="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" kindref="member">setParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref>&amp;<sp/>prop)<sp/>{<sp/>prop_<sp/>=<sp/>prop;<sp/>}</highlight></codeline>
-<codeline lineno="214" refid="group__GeneralGroup_1ga24aedd24a0e67bee11231cdf423fafcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga24aedd24a0e67bee11231cdf423fafcc" kindref="member">setCosineLimit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cos);</highlight></codeline>
-<codeline lineno="215" refid="group__GeneralGroup_1gaf226a6c2f4724b14d1427eac21236263" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf226a6c2f4724b14d1427eac21236263" kindref="member">setDistanceLimit</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dist<sp/>);</highlight></codeline>
-<codeline lineno="216" refid="group__GeneralGroup_1ga82d109dc700457986de7a786d6000429" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga82d109dc700457986de7a786d6000429" kindref="member">setBadIterCount</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter<sp/>);</highlight></codeline>
-<codeline lineno="217" refid="group__GeneralGroup_1gaf7075821af276952c330c5171ffc772c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf7075821af276952c330c5171ffc772c" kindref="member">setFarDistFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>factor);</highlight></codeline>
+<codeline lineno="214" refid="group__GeneralGroup_1ga529477c3f55443aaefc9c0feedd0a100" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga529477c3f55443aaefc9c0feedd0a100" kindref="member">setCosineLimit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cos);</highlight></codeline>
+<codeline lineno="215" refid="group__GeneralGroup_1gad23d220ed5d22716a483aba0bdb8fb98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad23d220ed5d22716a483aba0bdb8fb98" kindref="member">setDistanceLimit</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dist<sp/>);</highlight></codeline>
+<codeline lineno="216" refid="group__GeneralGroup_1ga88482e98d2aeaf3ce210222c82b564c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga88482e98d2aeaf3ce210222c82b564c4" kindref="member">setBadIterCount</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter<sp/>);</highlight></codeline>
+<codeline lineno="217" refid="group__GeneralGroup_1ga6fcc01ef678556ea9ba8a4afdb839374" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6fcc01ef678556ea9ba8a4afdb839374" kindref="member">setFarDistFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ggaa2579613f677dcb6e5d4112ae3f95f4ca742f32c65ffd18b766fa307f8de2d47d" kindref="member">factor</ref>);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="group__GeneralGroup_1ga4f146d207e9738307404735d50df2c02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4f146d207e9738307404735d50df2c02" kindref="member">setFltSamples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fltSamples<sp/>);</highlight></codeline>
-<codeline lineno="221" refid="group__GeneralGroup_1ga7306dd698567c8bfa4b7c01a5eb5881f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7306dd698567c8bfa4b7c01a5eb5881f" kindref="member">sampleFltPoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
+<codeline lineno="220" refid="group__GeneralGroup_1gaa6195ab12431f72e5d49e783f2411c81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa6195ab12431f72e5d49e783f2411c81" kindref="member">setFltSamples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fltSamples<sp/>);</highlight></codeline>
+<codeline lineno="221" refid="group__GeneralGroup_1ga7f572bc2fdfab2f29e537e947494d549" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7f572bc2fdfab2f29e537e947494d549" kindref="member">sampleFltPoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224" refid="group__GeneralGroup_1ga71d2c3ad12814f1fc80c984f56f97ab5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga71d2c3ad12814f1fc80c984f56f97ab5" kindref="member">setRefSamples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>refSamples<sp/>);</highlight></codeline>
-<codeline lineno="225" refid="group__GeneralGroup_1ga46b29e7fe70c13a2bc3b83971e92b564" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga46b29e7fe70c13a2bc3b83971e92b564" kindref="member">sampleRefPoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
+<codeline lineno="224" refid="group__GeneralGroup_1ga033946f0665c58cf3f65b7bdd9732679" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga033946f0665c58cf3f65b7bdd9732679" kindref="member">setRefSamples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>refSamples<sp/>);</highlight></codeline>
+<codeline lineno="225" refid="group__GeneralGroup_1gae55a8bd90c0c0c8c817a58f4d10bdc97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae55a8bd90c0c0c8c817a58f4d10bdc97" kindref="member">sampleRefPoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="group__GeneralGroup_1ga56cde0df43df6f53274400daea013890" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga56cde0df43df6f53274400daea013890" kindref="member">samplePoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>)<sp/>{<sp/>sampleFltPoints(<sp/>samplingVoxelSize<sp/>);<sp/>sampleRefPoints(<sp/>samplingVoxelSize<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="228" refid="group__GeneralGroup_1ga56cde0df43df6f53274400daea013890" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga56cde0df43df6f53274400daea013890" kindref="member">samplePoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga7f572bc2fdfab2f29e537e947494d549" kindref="member">sampleFltPoints</ref>(<sp/>samplingVoxelSize<sp/>);<sp/><ref refid="group__GeneralGroup_1gae55a8bd90c0c0c8c817a58f4d10bdc97" kindref="member">sampleRefPoints</ref>(<sp/>samplingVoxelSize<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" kindref="member">recomputeBitSet</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fltSamplingVoxelSize<sp/>)<sp/>{<sp/>sampleFltPoints(<sp/>fltSamplingVoxelSize<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="230" refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" kindref="member">recomputeBitSet</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fltSamplingVoxelSize<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga7f572bc2fdfab2f29e537e947494d549" kindref="member">sampleFltPoints</ref>(<sp/>fltSamplingVoxelSize<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="group__GeneralGroup_1gab88edcca6724a83490260b5136044e36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab88edcca6724a83490260b5136044e36" kindref="member">setXfs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>refXf<sp/>);</highlight></codeline>
+<codeline lineno="233" refid="group__GeneralGroup_1gac6e52fe345c88a831ba23619cd352e47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac6e52fe345c88a831ba23619cd352e47" kindref="member">setXfs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>refXf<sp/>);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="group__GeneralGroup_1ga648f51132c41c3a5914156ba001be0b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga648f51132c41c3a5914156ba001be0b0" kindref="member">setFloatXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf<sp/>);</highlight></codeline>
+<codeline lineno="236" refid="group__GeneralGroup_1ga5202fb23e45467915bb51d0923b9caaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5202fb23e45467915bb51d0923b9caaf" kindref="member">setFloatXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf<sp/>);</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="group__GeneralGroup_1gaf17a6cc396cbd9fef3d4f6b0d57646be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1gaf17a6cc396cbd9fef3d4f6b0d57646be" kindref="member">autoSelectFloatXf</ref>();</highlight></codeline>
+<codeline lineno="241" refid="group__GeneralGroup_1gae6979d6159d128afbd42cd9efe9774ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1gae6979d6159d128afbd42cd9efe9774ae" kindref="member">autoSelectFloatXf</ref>();</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="group__GeneralGroup_1gab1c8fb3d4bbd3f143c7af4c10fd3cefa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab1c8fb3d4bbd3f143c7af4c10fd3cefa" kindref="member">updatePointPairs</ref>();</highlight></codeline>
+<codeline lineno="244" refid="group__GeneralGroup_1gafd50cf7357b6599704f31b3c1dcde7ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd50cf7357b6599704f31b3c1dcde7ad" kindref="member">updatePointPairs</ref>();</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
 <codeline lineno="246" refid="group__GeneralGroup_1ga3b44361c18aeb9ceab9d26c86c5939ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga3b44361c18aeb9ceab9d26c86c5939ef" kindref="member">getParams</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>prop_;<sp/>}</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="group__GeneralGroup_1gae72751da7183b696497da8a66bf7e256" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gae72751da7183b696497da8a66bf7e256" kindref="member">getStatusInfo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="248" refid="group__GeneralGroup_1ga4ae3f70fc9c4fc7ffbcdb0f43eae2421" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga4ae3f70fc9c4fc7ffbcdb0f43eae2421" kindref="member">getStatusInfo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight></codeline>
 <codeline lineno="251" refid="group__GeneralGroup_1ga13f3b74f82ce6db64eeb57d6a5c043e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga13f3b74f82ce6db64eeb57d6a5c043e5" kindref="member">getNumSamples</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" kindref="member">MR::getNumSamples</ref>(<sp/>flt2refPairs_<sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" kindref="member">MR::getNumSamples</ref>(<sp/>ref2fltPairs_<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="group__GeneralGroup_1ga65b7b6725dccffc2b4ed1ff739c1b43c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga65b7b6725dccffc2b4ed1ff739c1b43c" kindref="member">getNumActivePairs</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5f3e72229b19af1e43886673711093af" kindref="member">MR::getNumActivePairs</ref>(<sp/>flt2refPairs_<sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga5f3e72229b19af1e43886673711093af" kindref="member">MR::getNumActivePairs</ref>(<sp/>ref2fltPairs_<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="254" refid="group__GeneralGroup_1ga65b7b6725dccffc2b4ed1ff739c1b43c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga65b7b6725dccffc2b4ed1ff739c1b43c" kindref="member">getNumActivePairs</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" kindref="member">MR::getNumActivePairs</ref>(<sp/>flt2refPairs_<sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" kindref="member">MR::getNumActivePairs</ref>(<sp/>ref2fltPairs_<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="257" refid="group__GeneralGroup_1gae230860d711e0bc5b25d98ee5d0e9e41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae230860d711e0bc5b25d98ee5d0e9e41" kindref="member">getMeanSqDistToPoint</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="257" refid="group__GeneralGroup_1gadd96602ef2f4214943001ed7d428f400" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadd96602ef2f4214943001ed7d428f400" kindref="member">getMeanSqDistToPoint</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="260" refid="group__GeneralGroup_1gad235353480650c74fddf9b25b125ca02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad235353480650c74fddf9b25b125ca02" kindref="member">getMeanSqDistToPlane</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="260" refid="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" kindref="member">getMeanSqDistToPlane</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="261"><highlight class="normal"></highlight></codeline>
 <codeline lineno="263" refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" kindref="member">getFlt2RefPairs</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>flt2refPairs_;<sp/>}</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"></highlight></codeline>
 <codeline lineno="266" refid="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" kindref="member">getRef2FltPairs</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ref2fltPairs_;<sp/>}</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270" refid="group__GeneralGroup_1ga3f40555a05bfe2e6e231d81811b6baa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1ga3f40555a05bfe2e6e231d81811b6baa7" kindref="member">calculateTransformation</ref>();</highlight></codeline>
+<codeline lineno="270" refid="group__GeneralGroup_1gaf4d26a79ea3d3839ee76658eda157b6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1gaf4d26a79ea3d3839ee76658eda157b6f" kindref="member">calculateTransformation</ref>();</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"></highlight></codeline>
 <codeline lineno="272"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref><sp/>flt_;</highlight></codeline>
@@ -471,7 +512,7 @@
 <codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>flt2refPairs_;</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>ref2fltPairs_;</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref><sp/>resultType_{<sp/>ICPExitType::NotStarted<sp/>};</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref><sp/>resultType_{<sp/><ref refid="group__GeneralGroup_1ggac977096020e15e4b699043b2c550bf83afa7be7845bc42b3491d9d0377958be94" kindref="member">ICPExitType::NotStarted</ref><sp/>};</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
 <codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>deactivatefarDistPairs_();</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
@@ -479,14 +520,14 @@
 <codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2ptIter_();</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2plIter_();</highlight></codeline>
 <codeline lineno="289"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcGen_(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>(<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>::*dist)()<sp/>const,<sp/>bool<sp/>(<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>::*iter)()<sp/>);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcGen_(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>(<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>::*dist)()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>(<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>::*iter)()<sp/>);</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcP2Pt_();</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcP2Pl_();</highlight></codeline>
 <codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcCombined_();</highlight></codeline>
 <codeline lineno="294"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="296"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="296"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h"/>
+    <location file="MRMesh/MRICP.h"/>
   </compounddef>
 </doxygen>

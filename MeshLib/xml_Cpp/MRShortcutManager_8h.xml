@@ -1,42 +1,36 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRShortcutManager_8h" kind="file" language="C++">
     <compoundname>MRShortcutManager.h</compoundname>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes local="yes">MRMesh/MRphmap.h</includes>
     <includes refid="MRViewerEventsListener_8h" local="yes">MRViewer/MRViewerEventsListener.h</includes>
     <includes local="no">string</includes>
     <includes local="no">functional</includes>
     <includes local="no">optional</includes>
     <incdepgraph>
-      <node id="11">
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="6">
-        <label>MRMacros.h</label>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="18">
-        <label>MRMesh/MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
       <node id="5">
-        <label>MRMesh/MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -50,90 +44,150 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
+      </node>
+      <node id="28">
+        <label>MRMesh/MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>MRShortcutManager.h</label>
-        <link refid="MRShortcutManager_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRViewer/MRViewerEventsListener.h</label>
-        <link refid="MRViewerEventsListener_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
+      <node id="19">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
         <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMesh/MRphmap.h</label>
+      <node id="18">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
       </node>
-      <node id="10">
-        <label>MRMeshFwd.h</label>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="12">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="1">
+        <label>MRViewer/MRShortcutManager.h</label>
+        <link refid="MRShortcutManager_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRViewer/MRViewerEventsListener.h</label>
+        <link refid="MRViewerEventsListener_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="13">
-        <label>algorithm</label>
-      </node>
-      <node id="19">
-        <label>boost/signals2/signal.hpp</label>
-      </node>
-      <node id="14">
-        <label>cmath</label>
-      </node>
-      <node id="8">
-        <label>cstddef</label>
-      </node>
-      <node id="15">
-        <label>cstring</label>
-      </node>
-      <node id="20">
-        <label>filesystem</label>
-      </node>
-      <node id="23">
-        <label>functional</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
       <node id="16">
-        <label>iosfwd</label>
-      </node>
-      <node id="24">
-        <label>optional</label>
-      </node>
-      <node id="22">
-        <label>string</label>
+        <label>MRMesh/MRphmap.h</label>
       </node>
       <node id="9">
-        <label>type_traits</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="17">
-        <label>utility</label>
+      <node id="23">
+        <label>algorithm</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="29">
+        <label>boost/signals2/signal.hpp</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="24">
+        <label>cmath</label>
+      </node>
+      <node id="20">
+        <label>cstddef</label>
+      </node>
+      <node id="25">
+        <label>cstring</label>
+      </node>
+      <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="30">
+        <label>filesystem</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="26">
+        <label>iosfwd</label>
+      </node>
+      <node id="31">
+        <label>optional</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
       </node>
       <node id="21">
+        <label>type_traits</label>
+      </node>
+      <node id="27">
+        <label>utility</label>
+      </node>
+      <node id="11">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -147,7 +201,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRphmap.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerEventsListener_8h" kindref="compound">MRViewer/MRViewerEventsListener.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -175,68 +229,68 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">ShortcutCategory</ref><sp/>:<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875" kindref="member">Info</ref>,</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35" kindref="member">Edit</ref>,</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005" kindref="member">View</ref>,</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba9ead0d38e06ec253ca0ecbf6ea56e59b" kindref="member">Scene</ref>,</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bac8308b1eba7ba926a61b8fd802194386" kindref="member">Objects</ref>,</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de" kindref="member">Selection</ref>,</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875" kindref="member">Info</ref>,</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35" kindref="member">Edit</ref>,</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005" kindref="member">View</ref>,</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba9ead0d38e06ec253ca0ecbf6ea56e59b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba9ead0d38e06ec253ca0ecbf6ea56e59b" kindref="member">Scene</ref>,</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bac8308b1eba7ba926a61b8fd802194386" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bac8308b1eba7ba926a61b8fd802194386" kindref="member">Objects</ref>,</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de" kindref="member">Selection</ref>,</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="39"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="classMR_1_1ShortcutManager" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ShortcutManager" kindref="compound">ShortcutManager</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiListener" kindref="compound">MultiListener</ref>&lt;KeyDownListener,<sp/>KeyRepeatListener&gt;</highlight></codeline>
+<codeline lineno="46" refid="classMR_1_1ShortcutManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ShortcutManager" kindref="compound">ShortcutManager</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiListener" kindref="compound">MultiListener</ref>&lt;KeyDownListener,<sp/>KeyRepeatListener&gt;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="49" refid="group__GeneralGroup_1gac5d35f9b0ea4c909a2e0e182b46ca18b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac5d35f9b0ea4c909a2e0e182b46ca18b" kindref="member">~ShortcutManager</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref><sp/>=<sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">MR::ShortcutKey</ref>;</highlight></codeline>
-<codeline lineno="52" refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">Category</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">MR::ShortcutCategory</ref>;</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref><sp/>=<sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">MR::ShortcutKey</ref>;</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" kindref="member">Category</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">MR::ShortcutCategory</ref>;</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54" refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" kindref="compound">ShortcutCommand</ref></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="56" refid="group__GeneralGroup_1gac999d8643aea2ec7e9ddc3a4adc4daf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">Category</ref><sp/><ref refid="group__GeneralGroup_1gac999d8643aea2ec7e9ddc3a4adc4daf6" kindref="member">category</ref>;</highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1gac999d8643aea2ec7e9ddc3a4adc4daf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" kindref="member">Category</ref><sp/><ref refid="group__GeneralGroup_1gac999d8643aea2ec7e9ddc3a4adc4daf6" kindref="member">category</ref>;</highlight></codeline>
 <codeline lineno="57" refid="group__GeneralGroup_1ga78c61f7a4744f14f5475cca9a4610115" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga78c61f7a4744f14f5475cca9a4610115" kindref="member">name</ref>;<sp/></highlight></codeline>
 <codeline lineno="58" refid="group__GeneralGroup_1ga74e7c30555d8435657c7465809b44a6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::function&lt;void()&gt;<sp/><ref refid="group__GeneralGroup_1ga74e7c30555d8435657c7465809b44a6a" kindref="member">action</ref>;</highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1gacf2e272c865f0181e677f9a0cce89ec5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>repeatable<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1gacf2e272c865f0181e677f9a0cce89ec5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacf2e272c865f0181e677f9a0cce89ec5" kindref="member">repeatable</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>categoryNames[6]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Info&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Edit&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;View&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Scene&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Objects&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Selection<sp/>&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" kindref="member">categoryNames</ref>[6]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Info&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Edit&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;View&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Scene&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Objects&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Selection<sp/>&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="group__GeneralGroup_1ga70996e2b27f24841fb75376870328103" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga70996e2b27f24841fb75376870328103" kindref="member">setShortcut</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" kindref="compound">ShortcutCommand</ref>&amp;<sp/>command<sp/>);</highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1ga38ea827ed2f7a6e11bc9d820df2f3467" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga38ea827ed2f7a6e11bc9d820df2f3467" kindref="member">setShortcut</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" kindref="compound">ShortcutCommand</ref>&amp;<sp/>command<sp/>);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69" refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" kindref="member">ShortcutList</ref><sp/>=<sp/>std::vector&lt;std::tuple&lt;ShortcutKey,<sp/>Category,<sp/>std::string&gt;&gt;;</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="group__GeneralGroup_1ga0d5470fbe42101af3a425b0108338a10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" kindref="member">ShortcutList</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga0d5470fbe42101af3a425b0108338a10" kindref="member">getShortcutList</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1ga1b3fadc0be7a95ea871c730b0038d2df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" kindref="member">ShortcutList</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga1b3fadc0be7a95ea871c730b0038d2df" kindref="member">getShortcutList</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75" refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" kindref="member">Reason</ref><sp/></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyDown,<sp/><sp/></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyRepeat<sp/></highlight></codeline>
+<codeline lineno="77" refid="group__GeneralGroup_1gga1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354" kindref="member">KeyDown</ref>,<sp/><sp/></highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1gga1a85baae28af51cf7825c2099b693c1ba4a18f6017ff7015424784e907c933572" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1a85baae28af51cf7825c2099b693c1ba4a18f6017ff7015424784e907c933572" kindref="member">KeyRepeat</ref><sp/></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="82" refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" kindref="member">isEnabled</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>enabled_;<sp/>}</highlight></codeline>
-<codeline lineno="83" refid="group__GeneralGroup_1ga5e5ccda452d5473a8328af4b7003e4f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e5ccda452d5473a8328af4b7003e4f3" kindref="member">enable</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>)<sp/>{<sp/>enabled_<sp/>=<sp/>on;<sp/>}</highlight></codeline>
+<codeline lineno="82" refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" kindref="member">isEnabled</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" kindref="member">enabled_</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1ga5e5ccda452d5473a8328af4b7003e4f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e5ccda452d5473a8328af4b7003e4f3" kindref="member">enable</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" kindref="member">enabled_</ref><sp/>=<sp/>on;<sp/>}</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="group__GeneralGroup_1ga4342c4301200e65be8eb010636b8db8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4342c4301200e65be8eb010636b8db8e" kindref="member">processShortcut</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref>&amp;<sp/>key,<sp/><ref refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" kindref="member">Reason</ref><sp/>=<sp/>Reason::KeyDown<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86" refid="group__GeneralGroup_1ga6cab93cfde2e7e912bd72003bae3d3e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6cab93cfde2e7e912bd72003bae3d3e2" kindref="member">processShortcut</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref>&amp;<sp/>key,<sp/><ref refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" kindref="member">Reason</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gga1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354" kindref="member">Reason::KeyDown</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="group__GeneralGroup_1ga3492565e858a0451f1ef647ad5d40b68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3492565e858a0451f1ef647ad5d40b68" kindref="member">onKeyDown_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifier<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="89" refid="group__GeneralGroup_1gaeff727b4670aa9fcca089a4f082b30e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeff727b4670aa9fcca089a4f082b30e1" kindref="member">onKeyRepeat_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifier<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88" refid="group__GeneralGroup_1ga959eba5366b2a67059bd1ee8ff2d3b62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga959eba5366b2a67059bd1ee8ff2d3b62" kindref="member">onKeyDown_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifier<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1gaa663126efdb053e8d1d576bf2a2458c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa663126efdb053e8d1d576bf2a2458c2" kindref="member">onKeyRepeat_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifier<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="group__GeneralGroup_1ga258c8543c76df8430c01cd6511f365be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga258c8543c76df8430c01cd6511f365be" kindref="member">getModifierString</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mod<sp/>);</highlight></codeline>
-<codeline lineno="94" refid="group__GeneralGroup_1ga289b280e2a0b231a0820aa8d2fc2a4b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga289b280e2a0b231a0820aa8d2fc2a4b3" kindref="member">getKeyString</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>);</highlight></codeline>
-<codeline lineno="96" refid="group__GeneralGroup_1gad8411027e895d06475915a2acf0951ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gad8411027e895d06475915a2acf0951ce" kindref="member">getKeyFullString</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>respectKey<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92" refid="group__GeneralGroup_1ga15b57b50512b2769b584863ef3b21cb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga15b57b50512b2769b584863ef3b21cb0" kindref="member">getModifierString</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mod<sp/>);</highlight></codeline>
+<codeline lineno="94" refid="group__GeneralGroup_1ga2d13f2ae4409cb7a885172ab0edb7f9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga2d13f2ae4409cb7a885172ab0edb7f9a" kindref="member">getKeyString</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>);</highlight></codeline>
+<codeline lineno="96" refid="group__GeneralGroup_1ga9215f4392ec0aaaf49c8df15042552e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga9215f4392ec0aaaf49c8df15042552e0" kindref="member">getKeyFullString</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>respectKey<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="group__GeneralGroup_1gadf200a338401cd7994a122ba61bfce47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::optional&lt;ShortcutKey&gt;<sp/><ref refid="group__GeneralGroup_1gadf200a338401cd7994a122ba61bfce47" kindref="member">findShortcutByName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99" refid="group__GeneralGroup_1ga174c714d2e8c7d0d831b3561f5e8b427" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::optional&lt;ShortcutKey&gt;<sp/><ref refid="group__GeneralGroup_1ga174c714d2e8c7d0d831b3561f5e8b427" kindref="member">findShortcutByName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="group__GeneralGroup_1ga608ab9e3afbb9351ea419a3ae0215ab2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga608ab9e3afbb9351ea419a3ae0215ab2" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1ga229a8e7249d6d753b590d2c3de6d043e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga229a8e7249d6d753b590d2c3de6d043e" kindref="member">clear</ref>();</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="106" refid="group__GeneralGroup_1gaca6db17670dc5d2ff94f61f7f4c759b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaca6db17670dc5d2ff94f61f7f4c759b9" kindref="member">mapKeyFromKeyAndMod</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>respectKeyboard<sp/>);</highlight></codeline>
-<codeline lineno="108" refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref><sp/><ref refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" kindref="member">kayAndModFromMapKey</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mapKey<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>mapKey<sp/>&gt;&gt;<sp/>6,<sp/>mapKey<sp/>%<sp/>(<sp/>1<sp/>&lt;&lt;<sp/>6<sp/>)<sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="106" refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" kindref="member">mapKeyFromKeyAndMod</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>respectKeyboard<sp/>);</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref><sp/><ref refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" kindref="member">kayAndModFromMapKey</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mapKey<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>mapKey<sp/>&gt;&gt;<sp/>6,<sp/>mapKey<sp/>%<sp/>(<sp/>1<sp/>&lt;&lt;<sp/>6<sp/>)<sp/>};<sp/>}</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" kindref="member">ShourtcutsMap</ref><sp/>=<sp/>HashMap&lt;int,<sp/>ShortcutCommand&gt;;</highlight></codeline>
-<codeline lineno="111" refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" kindref="member">ShourtcutsBackMap</ref><sp/>=<sp/>HashMap&lt;std::string,<sp/>int&gt;;</highlight></codeline>
+<codeline lineno="110" refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" kindref="member">ShourtcutsMap</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;int, ShortcutCommand&gt;</ref>;</highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" kindref="member">ShourtcutsBackMap</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;std::string, int&gt;</ref>;</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enabled_{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="113" refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" kindref="member">enabled_</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115" refid="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" kindref="member">ShourtcutsMap</ref><sp/><ref refid="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" kindref="member">map_</ref>;</highlight></codeline>
 <codeline lineno="116" refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" kindref="member">ShourtcutsBackMap</ref><sp/><ref refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" kindref="member">backMap_</ref>;</highlight></codeline>
@@ -246,6 +300,6 @@
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h"/>
+    <location file="MRViewer/MRShortcutManager.h"/>
   </compounddef>
 </doxygen>

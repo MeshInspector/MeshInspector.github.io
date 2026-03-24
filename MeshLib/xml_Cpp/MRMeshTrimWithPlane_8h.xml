@@ -1,101 +1,145 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshTrimWithPlane_8h" kind="file" language="C++">
     <compoundname>MRMeshTrimWithPlane.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRPlane3_8h" local="yes">MRPlane3.h</includes>
     <includes local="no">functional</includes>
     <incdepgraph>
-      <node id="10">
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
       <node id="6">
-        <label>MRMacros.h</label>
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="1">
-        <label>MRMeshTrimWithPlane.h</label>
-        <link refid="MRMeshTrimWithPlane_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRPlane3.h</label>
-        <link refid="MRPlane3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRMeshTrimWithPlane.h</label>
+        <link refid="MRMeshTrimWithPlane_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRPlane3.h</label>
+        <link refid="MRPlane3_8h"/>
         <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="2">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="11">
+      <node id="19">
         <label>algorithm</label>
       </node>
+      <node id="7">
+        <label>array</label>
+      </node>
       <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="20">
         <label>cmath</label>
       </node>
-      <node id="8">
+      <node id="16">
         <label>cstddef</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>cstring</label>
       </node>
-      <node id="16">
+      <node id="11">
         <label>functional</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>iosfwd</label>
       </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="9">
+        <label>string</label>
+      </node>
+      <node id="17">
         <label>type_traits</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1TrimWithPlaneParams" prot="public">MR::TrimWithPlaneParams</innerclass>
@@ -109,42 +153,42 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPlane3_8h" kindref="compound">MRPlane3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga7600509b91ab7f6d7ed6fa1b8c7844a2" refkind="member"><highlight class="normal">MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga7600509b91ab7f6d7ed6fa1b8c7844a2" kindref="member">subdivideWithPlane</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f<sp/>&amp;<sp/>plane,<sp/>FaceHashMap<sp/>*<sp/>new2Old<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps<sp/>=<sp/>0,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/>onEdgeSplitCallback<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gabc65201be45a805494282264894b6016" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gabc65201be45a805494282264894b6016" kindref="member">subdivideWithPlane</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/>&amp;<sp/>plane,<sp/><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref><sp/>*<sp/>new2Old<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps<sp/>=<sp/>0,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/>onEdgeSplitCallback<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1ga3ea0f910b65df6205e389a249e8896ed" refkind="member"><highlight class="normal">[[deprecated]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3ea0f910b65df6205e389a249e8896ed" kindref="member">trimWithPlane</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f<sp/>&amp;<sp/>plane,</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet<sp/>*<sp/>outCutEdges<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>FaceHashMap<sp/>*<sp/>new2Old<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps<sp/>=<sp/>0,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/>EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/>onEdgeSplitCallback<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga0cd2c0e780fffc6aab36455960a67cf5" refkind="member"><highlight class="normal">[[deprecated]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0cd2c0e780fffc6aab36455960a67cf5" kindref="member">trimWithPlane</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/>&amp;<sp/>plane,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet<sp/>*<sp/>outCutEdges<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref><sp/>*<sp/>new2Old<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps<sp/>=<sp/>0,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/>EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/>onEdgeSplitCallback<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="group__GeneralGroup_1ga06a9e7be68ad887a646d864de1f94b03" refkind="member"><highlight class="normal">[[deprecated]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3ea0f910b65df6205e389a249e8896ed" kindref="member">trimWithPlane</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f<sp/>&amp;<sp/>plane,</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgeLoop&gt;<sp/>*<sp/>outCutContours,<sp/>FaceHashMap<sp/>*<sp/>new2Old<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps<sp/>=<sp/>0,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/>EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/>onEdgeSplitCallback<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1gae63869faad2d41ee91898e9a1dd37b64" refkind="member"><highlight class="normal">[[deprecated]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0cd2c0e780fffc6aab36455960a67cf5" kindref="member">trimWithPlane</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/>&amp;<sp/>plane,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgeLoop&gt;<sp/>*<sp/>outCutContours,<sp/><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref><sp/>*<sp/>new2Old<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps<sp/>=<sp/>0,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/>EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/>onEdgeSplitCallback<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="structMR_1_1TrimWithPlaneParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TrimWithPlaneParams" kindref="compound">TrimWithPlaneParams</ref></highlight></codeline>
+<codeline lineno="47" refid="structMR_1_1TrimWithPlaneParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TrimWithPlaneParams" kindref="compound">TrimWithPlaneParams</ref></highlight></codeline>
 <codeline lineno="48"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1gac31ec54e79c7c73e956dd8f91eb4e37c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Plane3f<sp/><ref refid="group__GeneralGroup_1gac31ec54e79c7c73e956dd8f91eb4e37c" kindref="member">plane</ref>;</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1gac31ec54e79c7c73e956dd8f91eb4e37c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/><ref refid="group__GeneralGroup_1gac31ec54e79c7c73e956dd8f91eb4e37c" kindref="member">plane</ref>;</highlight></codeline>
 <codeline lineno="52" refid="group__GeneralGroup_1ga21fbd4b8bfa38a079a62c8911d914b35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga21fbd4b8bfa38a079a62c8911d914b35" kindref="member">eps</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="54" refid="group__GeneralGroup_1gaad3ace62ca2c0713d844f88dc24df14c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;void(<sp/>EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1gaad3ace62ca2c0713d844f88dc24df14c" kindref="member">onEdgeSplitCallback</ref>;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="structMR_1_1TrimOptionalOutput" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TrimOptionalOutput" kindref="compound">TrimOptionalOutput</ref></highlight></codeline>
+<codeline lineno="58" refid="structMR_1_1TrimOptionalOutput" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TrimOptionalOutput" kindref="compound">TrimOptionalOutput</ref></highlight></codeline>
 <codeline lineno="59"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="61" refid="group__GeneralGroup_1gab2764c07e0136d9d3309b44b8bf8eca7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet*<sp/><ref refid="group__GeneralGroup_1gab2764c07e0136d9d3309b44b8bf8eca7" kindref="member">outCutEdges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="63" refid="group__GeneralGroup_1gad716fbc89b71f32103375687ec684177" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgeLoop&gt;*<sp/><ref refid="group__GeneralGroup_1gad716fbc89b71f32103375687ec684177" kindref="member">outCutContours</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1ga95f7939b3615030e5bcc1dd29d3552c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceHashMap*<sp/><ref refid="group__GeneralGroup_1ga95f7939b3615030e5bcc1dd29d3552c1" kindref="member">new2Old</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1ga95f7939b3615030e5bcc1dd29d3552c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref>*<sp/><ref refid="group__GeneralGroup_1ga95f7939b3615030e5bcc1dd29d3552c1" kindref="member">new2Old</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="67" refid="group__GeneralGroup_1ga913d446d93ee465bae6bc24cdfcb9287" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>*<sp/><ref refid="group__GeneralGroup_1ga913d446d93ee465bae6bc24cdfcb9287" kindref="member">otherPart</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="69" refid="group__GeneralGroup_1gab4ca89a01b605f3076a298047ecc240b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceHashMap*<sp/><ref refid="group__GeneralGroup_1gab4ca89a01b605f3076a298047ecc240b" kindref="member">otherNew2Old</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1gab4ca89a01b605f3076a298047ecc240b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref>*<sp/><ref refid="group__GeneralGroup_1gab4ca89a01b605f3076a298047ecc240b" kindref="member">otherNew2Old</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="71" refid="group__GeneralGroup_1ga9601138c046f6c418c5ba8bb4036d9ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgeLoop&gt;*<sp/><ref refid="group__GeneralGroup_1ga9601138c046f6c418c5ba8bb4036d9ef" kindref="member">otherOutCutContours</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="72"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="group__GeneralGroup_1ga8adf5f7ec5a447160198b2612ddb0b11" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3ea0f910b65df6205e389a249e8896ed" kindref="member">trimWithPlane</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TrimWithPlaneParams" kindref="compound">TrimWithPlaneParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TrimOptionalOutput" kindref="compound">TrimOptionalOutput</ref>&amp;<sp/>optOut<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="81" refid="group__GeneralGroup_1gab018b6d685c56efa2193ac95a1104abb" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0cd2c0e780fffc6aab36455960a67cf5" kindref="member">trimWithPlane</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TrimWithPlaneParams" kindref="compound">TrimWithPlaneParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TrimOptionalOutput" kindref="compound">TrimOptionalOutput</ref>&amp;<sp/>optOut<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h"/>
+    <location file="MRMesh/MRMeshTrimWithPlane.h"/>
   </compounddef>
 </doxygen>

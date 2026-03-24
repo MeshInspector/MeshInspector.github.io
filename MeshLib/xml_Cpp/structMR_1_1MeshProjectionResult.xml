@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshProjectionResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshProjectionResult</compoundname>
-    <includes refid="MRMeshProject_8h" local="no">MRMeshProject.h</includes>
+    <includes refid="MRMeshProject_8h" local="no">MRMesh/MRMeshProject.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshProjectionResult_1ad1465eeb2296933daf2de86872a2ba28" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="20" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRMeshProject.h" line="20" column="17" bodyfile="MRMesh/MRMeshProject.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshProjectionResult_1ab598491c26bf32f15bbd10cbb2bfb7a1" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="23" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="23" bodyend="-1"/>
+        <location file="MRMesh/MRMeshProject.h" line="23" column="18" bodyfile="MRMesh/MRMeshProject.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshProjectionResult_1a685a3370c122d23e376f36b0ebb9fa29" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="26" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRMeshProject.h" line="26" column="11" bodyfile="MRMesh/MRMeshProject.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="29" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="29" bodyend="29"/>
+        <location file="MRMesh/MRMeshProject.h" line="29" column="11" bodyfile="MRMesh/MRMeshProject.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshProjectionResult_1a460580792489509aafec2325c8b07a2e" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="30" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="30" bodyend="30"/>
+        <location file="MRMesh/MRMeshProject.h" line="30" column="15" bodyfile="MRMesh/MRMeshProject.h" bodystart="30" bodyend="30"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -106,7 +106,7 @@
         <link refid="structMR_1_1PointOnFace"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="18" bodyend="31"/>
+    <location file="MRMesh/MRMeshProject.h" line="17" column="1" bodyfile="MRMesh/MRMeshProject.h" bodystart="18" bodyend="31"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshProjectionResult_1a685a3370c122d23e376f36b0ebb9fa29" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>distSq</name></member>
       <member refid="structMR_1_1MeshProjectionResult_1ab598491c26bf32f15bbd10cbb2bfb7a1" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>mtp</name></member>

@@ -1,136 +1,183 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMultiwayAligningTransform_8h" kind="file" language="C++">
     <compoundname>MRMultiwayAligningTransform.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRRigidXf3_8h" local="yes">MRRigidXf3.h</includes>
     <includes local="no">memory</includes>
     <incdepgraph>
-      <node id="18">
+      <node id="26">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRAffineXf3.h</label>
-        <link refid="MRAffineXf3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MRConstants.h</label>
-        <link refid="MRConstants_8h"/>
-      </node>
-      <node id="6">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="5">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRMultiwayAligningTransform.h</label>
-        <link refid="MRMultiwayAligningTransform_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="19">
-        <label>MRQuaternion.h</label>
-        <link refid="MRQuaternion_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRRigidXf3.h</label>
-        <link refid="MRRigidXf3_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="9" relation="include">
+      <node id="14">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="15">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="2" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRMultiwayAligningTransform.h</label>
+        <link refid="MRMultiwayAligningTransform_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRQuaternion.h</label>
+        <link refid="MRQuaternion_8h"/>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+      </node>
+      <node id="13">
+        <label>MRRigidXf3.h</label>
+        <link refid="MRRigidXf3_8h"/>
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="12">
+      <node id="6">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>algorithm</label>
       </node>
-      <node id="14">
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="22">
         <label>cmath</label>
       </node>
-      <node id="9">
+      <node id="18">
         <label>cstddef</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>cstring</label>
       </node>
-      <node id="16">
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="24">
         <label>iosfwd</label>
       </node>
-      <node id="20">
+      <node id="28">
         <label>memory</label>
       </node>
       <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="19">
         <label>type_traits</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1MultiwayAligningTransform" prot="public">MR::MultiwayAligningTransform</innerclass>
@@ -143,37 +190,37 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRRigidXf3_8h" kindref="compound">MRRigidXf3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
-<codeline lineno="17" refid="classMR_1_1MultiwayAligningTransform" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1MultiwayAligningTransform" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1MultiwayAligningTransform_1a41247022db4941f568025a641398d0b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a41247022db4941f568025a641398d0b8" kindref="member">MultiwayAligningTransform</ref>();</highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>();</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="classMR_1_1MultiwayAligningTransform_1a6d91b7804a0259ee9b021e2b87898f83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a6d91b7804a0259ee9b021e2b87898f83" kindref="member">MultiwayAligningTransform</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1MultiwayAligningTransform_1a639a8d4c70b27727f8b93431f5771fed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a639a8d4c70b27727f8b93431f5771fed" kindref="member">MultiwayAligningTransform</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="classMR_1_1MultiwayAligningTransform_1ae9a3702a5e0dc2a2a5f9665fd886be0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ae9a3702a5e0dc2a2a5f9665fd886be0a" kindref="member">MultiwayAligningTransform</ref>(<sp/><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
-<codeline lineno="26" refid="classMR_1_1MultiwayAligningTransform_1aa7eedfd31142740a16443cbea7089534" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref>&amp;<sp/>operator=(<sp/><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
+<codeline lineno="25" refid="classMR_1_1MultiwayAligningTransform_1ac0bd869e5468592f333c6a85d89812a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ac0bd869e5468592f333c6a85d89812a4" kindref="member">MultiwayAligningTransform</ref>(<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
+<codeline lineno="26" refid="classMR_1_1MultiwayAligningTransform_1aad5b08e7a74ec3006eaaeb2e888e26da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>&amp;<sp/>operator=(<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classMR_1_1MultiwayAligningTransform_1a75f76046bba7a35ce1c2396c72b47aa8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>~<ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref>();</highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1MultiwayAligningTransform_1ad283e68f235e10c8e9c4343311b7acdf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>~<ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>();</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="classMR_1_1MultiwayAligningTransform_1aa867c2ead76afd490b8d287b98ac0ca4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1aa867c2ead76afd490b8d287b98ac0ca4" kindref="member">reset</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs<sp/>);</highlight></codeline>
+<codeline lineno="31" refid="classMR_1_1MultiwayAligningTransform_1a26f658626fe3c1d58d5b4bbbc294cca8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a26f658626fe3c1d58d5b4bbbc294cca8" kindref="member">reset</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="classMR_1_1MultiwayAligningTransform_1ae6740604d1fa635862343a99d6cb5d7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ae6740604d1fa635862343a99d6cb5d7e" kindref="member">add</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/>const<sp/>Vector3d&amp;<sp/>pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/>const<sp/>Vector3d&amp;<sp/>pB,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="35" refid="classMR_1_1MultiwayAligningTransform_1ab8eb49ff6a10ab6ff8715459d389ddd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ab8eb49ff6a10ab6ff8715459d389ddd4" kindref="member">add</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/>const<sp/>Vector3d&amp;<sp/>pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/>const<sp/>Vector3d&amp;<sp/>pB,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="classMR_1_1MultiwayAligningTransform_1ac35d132681b885e39cbfa56ee9f11eb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ae6740604d1fa635862343a99d6cb5d7e" kindref="member">add</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/>const<sp/>Vector3f&amp;<sp/>pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/>const<sp/>Vector3f&amp;<sp/>pB,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>)<sp/>{<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ac35d132681b885e39cbfa56ee9f11eb0" kindref="member">add</ref>(<sp/>objA,<sp/>Vector3d(<sp/>pA<sp/>),<sp/>objB,<sp/>Vector3d(<sp/>pB<sp/>),<sp/>w<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="39" refid="classMR_1_1MultiwayAligningTransform_1ac35d132681b885e39cbfa56ee9f11eb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ab8eb49ff6a10ab6ff8715459d389ddd4" kindref="member">add</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/>const<sp/>Vector3f&amp;<sp/>pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/>const<sp/>Vector3f&amp;<sp/>pB,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>)<sp/>{<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ac35d132681b885e39cbfa56ee9f11eb0" kindref="member">add</ref>(<sp/>objA,<sp/>Vector3d(<sp/>pA<sp/>),<sp/>objB,<sp/>Vector3d(<sp/>pB<sp/>),<sp/>w<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="classMR_1_1MultiwayAligningTransform_1a3e485b9e92d58d482847c3dc90afcc8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a3e485b9e92d58d482847c3dc90afcc8d" kindref="member">add</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>n,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="44" refid="classMR_1_1MultiwayAligningTransform_1a143920da717c5e1c0e592184293e62ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a143920da717c5e1c0e592184293e62ce" kindref="member">add</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>n,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="classMR_1_1MultiwayAligningTransform_1a1efd4fe910e9f4f9f64b14d2fd1929d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a1efd4fe910e9f4f9f64b14d2fd1929d4" kindref="member">add</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>n,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>)<sp/>{<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a1efd4fe910e9f4f9f64b14d2fd1929d4" kindref="member">add</ref>(<sp/>objA,<sp/>Vector3d(<sp/>pA<sp/>),<sp/>objB,<sp/>Vector3d(<sp/>pB<sp/>),<sp/>Vector3d(<sp/>n<sp/>),<sp/>w<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="classMR_1_1MultiwayAligningTransform_1a339777c7114ede92149acc8c703508d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a339777c7114ede92149acc8c703508d0" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref><sp/>&amp;<sp/>r<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="classMR_1_1MultiwayAligningTransform_1af0e61313e6d6ed7885bc216dbafbb659" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1af0e61313e6d6ed7885bc216dbafbb659" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref><sp/>&amp;<sp/>r<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56" refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer" kindref="compound">Stabilizer</ref></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -182,7 +229,7 @@
 <codeline lineno="62" refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer_1a7145307fcfb6ab1a4ad9426e6d2ac36b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer_1a7145307fcfb6ab1a4ad9426e6d2ac36b" kindref="member">shift</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="classMR_1_1MultiwayAligningTransform_1aff88b77e742b2e4c2aad5013dfa2c4c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;RigidXf3d&gt;<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1aff88b77e742b2e4c2aad5013dfa2c4c2" kindref="member">solve</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer" kindref="compound">Stabilizer</ref><sp/>&amp;<sp/>stab<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68" refid="classMR_1_1MultiwayAligningTransform_1a3435c7509f89fa86d930d3d9a27cf514" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;RigidXf3d&gt;<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a3435c7509f89fa86d930d3d9a27cf514" kindref="member">solve</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer" kindref="compound">Stabilizer</ref><sp/>&amp;<sp/>stab<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="69" refid="classMR_1_1MultiwayAligningTransform_1a3e5b35fce7e3307e85f2dbf172d70b17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>std::vector&lt;RigidXf3d&gt;<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a3e5b35fce7e3307e85f2dbf172d70b17" kindref="member">solve</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a3e5b35fce7e3307e85f2dbf172d70b17" kindref="member">solve</ref>(<sp/>{}<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
@@ -191,8 +238,8 @@
 <codeline lineno="74"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h"/>
+    <location file="MRMesh/MRMultiwayAligningTransform.h"/>
   </compounddef>
 </doxygen>

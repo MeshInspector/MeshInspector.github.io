@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TypedFlatTree" kind="struct" language="C++" prot="public">
     <compoundname>MR::TypedFlatTree</compoundname>
-    <includes refid="MRSceneOperations_8h" local="no">MRSceneOperations.h</includes>
+    <includes refid="MRSceneOperations_8h" local="no">MRViewer/MRSceneOperations.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa04d404e0e698980823e763537ad5250" kind="variable"><name>root</name></member>
       <member refid="group__GeneralGroup_1ga3d41bfc0c348f8d528cde43bb62dbcde" kind="variable"><name>objsMesh</name></member>
@@ -10,16 +10,16 @@
       <member refid="group__GeneralGroup_1ga72ce9a6cb00c38cf9a3993cc95fafcb7" kind="variable"><name>objsPoints</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga72a800cc7ca525f730e4a076654b3ee5" kind="function"><name>fromFlatTree</name></member>
+      <member refid="group__GeneralGroup_1ga28b1d1a4fc0bc2811d060a22d79a48b9" kind="function"><name>fromFlatTree</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>flat representation of an object tree with objects being grouped by their types to keep the class reasonably simple and useful, only mesh, polyline, and point cloud objects are grouped </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneOperations.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneOperations.h" bodystart="22" bodyend="29"/>
+    <location file="MRViewer/MRSceneOperations.h" line="21" column="1" bodyfile="MRViewer/MRSceneOperations.h" bodystart="22" bodyend="29"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga72a800cc7ca525f730e4a076654b3ee5" prot="public" virt="non-virtual"><scope>MR::TypedFlatTree</scope><name>fromFlatTree</name></member>
+      <member refid="group__GeneralGroup_1ga28b1d1a4fc0bc2811d060a22d79a48b9" prot="public" virt="non-virtual"><scope>MR::TypedFlatTree</scope><name>fromFlatTree</name></member>
       <member refid="group__GeneralGroup_1ga89b95d5039c668eeeb449947b20cbaec" prot="public" virt="non-virtual"><scope>MR::TypedFlatTree</scope><name>objsLines</name></member>
       <member refid="group__GeneralGroup_1ga3d41bfc0c348f8d528cde43bb62dbcde" prot="public" virt="non-virtual"><scope>MR::TypedFlatTree</scope><name>objsMesh</name></member>
       <member refid="group__GeneralGroup_1ga72ce9a6cb00c38cf9a3993cc95fafcb7" prot="public" virt="non-virtual"><scope>MR::TypedFlatTree</scope><name>objsPoints</name></member>

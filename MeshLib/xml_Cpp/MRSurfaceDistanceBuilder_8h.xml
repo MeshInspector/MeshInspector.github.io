@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSurfaceDistanceBuilder_8h" kind="file" language="C++">
     <compoundname>MRSurfaceDistanceBuilder.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
@@ -9,7 +9,13 @@
     <includes local="no">optional</includes>
     <includes local="no">queue</includes>
     <incdepgraph>
-      <node id="15">
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -18,134 +24,172 @@
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="10">
+      <node id="18">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRSurfaceDistanceBuilder.h</label>
-        <link refid="MRSurfaceDistanceBuilder_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+      </node>
+      <node id="1">
+        <label>MRMesh/MRSurfaceDistanceBuilder.h</label>
+        <link refid="MRSurfaceDistanceBuilder_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="12">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="16">
-        <label>algorithm</label>
-      </node>
-      <node id="5">
-        <label>cassert</label>
-      </node>
-      <node id="20">
-        <label>cfloat</label>
+      <node id="21">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
       </node>
       <node id="17">
-        <label>cmath</label>
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="11">
-        <label>concepts</label>
+      <node id="20">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
-      <node id="6">
-        <label>cstddef</label>
-      </node>
-      <node id="18">
-        <label>cstring</label>
-      </node>
-      <node id="19">
-        <label>iosfwd</label>
-      </node>
-      <node id="21">
-        <label>optional</label>
-      </node>
-      <node id="22">
-        <label>queue</label>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
-        <label>type_traits</label>
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="23">
+        <label>algorithm</label>
       </node>
       <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="27">
+        <label>cfloat</label>
+      </node>
+      <node id="24">
+        <label>cmath</label>
+      </node>
+      <node id="19">
+        <label>concepts</label>
+      </node>
+      <node id="14">
+        <label>cstddef</label>
+      </node>
+      <node id="25">
+        <label>cstring</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="26">
+        <label>iosfwd</label>
+      </node>
+      <node id="28">
+        <label>optional</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="29">
+        <label>queue</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="16">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1VertDistance" prot="public">MR::VertDistance</innerclass>
@@ -169,7 +213,7 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1VertDistance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VertDistance" kindref="compound">VertDistance</ref></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1VertDistance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VertDistance_1ae19ef1f7b79abb8e541d35f8cb12a614" kindref="member">VertDistance</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20" refid="structMR_1_1VertDistance_1ab32da452523a0d3cd61407d73b038145" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1VertDistance_1ab32da452523a0d3cd61407d73b038145" kindref="member">vert</ref>;</highlight></codeline>
 <codeline lineno="22" refid="structMR_1_1VertDistance_1a6a8273bff57db797404893811ae3f24a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VertDistance_1a6a8273bff57db797404893811ae3f24a" kindref="member">distance</ref><sp/>=<sp/>FLT_MAX;</highlight></codeline>
@@ -178,24 +222,24 @@
 <codeline lineno="25" refid="structMR_1_1VertDistance_1a7e288480095c91d543447305bb312076" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VertDistance_1a7e288480095c91d543447305bb312076" kindref="member">VertDistance</ref>(<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>d<sp/>)<sp/>:<sp/><ref refid="structMR_1_1VertDistance_1ab32da452523a0d3cd61407d73b038145" kindref="member">vert</ref>(<sp/>v<sp/>),<sp/><ref refid="structMR_1_1VertDistance_1a6a8273bff57db797404893811ae3f24a" kindref="member">distance</ref>(<sp/>d<sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="group__SurfaceDistanceBuilder_1ga6116f007cc43a35299cac2d382c9ba9e" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__SurfaceDistanceBuilder_1ga6116f007cc43a35299cac2d382c9ba9e" kindref="member">operator &lt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VertDistance" kindref="compound">VertDistance</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VertDistance" kindref="compound">VertDistance</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="29" refid="group__SurfaceDistanceBuilder_1ga6116f007cc43a35299cac2d382c9ba9e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__SurfaceDistanceBuilder_1ga6116f007cc43a35299cac2d382c9ba9e" kindref="member">operator &lt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VertDistance" kindref="compound">VertDistance</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VertDistance" kindref="compound">VertDistance</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a.<ref refid="structMR_1_1VertDistance_1a6a8273bff57db797404893811ae3f24a" kindref="member">distance</ref><sp/>&gt;<sp/>b.<ref refid="structMR_1_1VertDistance_1a6a8273bff57db797404893811ae3f24a" kindref="member">distance</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="classMR_1_1SurfaceDistanceBuilder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SurfaceDistanceBuilder" kindref="compound">SurfaceDistanceBuilder</ref></highlight></codeline>
+<codeline lineno="35" refid="classMR_1_1SurfaceDistanceBuilder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SurfaceDistanceBuilder_1ad953af191b66e04789699c3707a47b18" kindref="member">SurfaceDistanceBuilder</ref></highlight></codeline>
 <codeline lineno="36"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="38" refid="classMR_1_1SurfaceDistanceBuilder_1af3d50b55a0c2af75bdba0d4eb7dc2e34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1af3d50b55a0c2af75bdba0d4eb7dc2e34" kindref="member">SurfaceDistanceBuilder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>region<sp/>);</highlight></codeline>
+<codeline lineno="38" refid="classMR_1_1SurfaceDistanceBuilder_1ad953af191b66e04789699c3707a47b18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1ad953af191b66e04789699c3707a47b18" kindref="member">SurfaceDistanceBuilder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>region<sp/>);</highlight></codeline>
 <codeline lineno="39" refid="classMR_1_1SurfaceDistanceBuilder_1ae5aba85dbb1efdefdea87c31c4c4a624" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1ae5aba85dbb1efdefdea87c31c4c4a624" kindref="member">SurfaceDistanceBuilder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>region<sp/>)<sp/>:</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder" kindref="compound">SurfaceDistanceBuilder</ref>(<sp/>mesh,<sp/>region)<sp/>{<sp/>target_<sp/>=<sp/>target;<sp/>}</highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1SurfaceDistanceBuilder_1a1e5bc477a09b77b99e2ad82ac95adc91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1a1e5bc477a09b77b99e2ad82ac95adc91" kindref="member">addStartRegion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>startDistance<sp/>);</highlight></codeline>
-<codeline lineno="44" refid="classMR_1_1SurfaceDistanceBuilder_1a370f90033c096568d58a18d399102064" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1a370f90033c096568d58a18d399102064" kindref="member">addStartVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HashMap&lt;VertId,<sp/>float&gt;&amp;<sp/>startVertices<sp/>);</highlight></codeline>
-<codeline lineno="46" refid="classMR_1_1SurfaceDistanceBuilder_1a35fe09c0ed56d9b10178d9099cef9204" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1a35fe09c0ed56d9b10178d9099cef9204" kindref="member">addStart</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1ad953af191b66e04789699c3707a47b18" kindref="member">SurfaceDistanceBuilder</ref>(<sp/>mesh,<sp/>region)<sp/>{<sp/>target_<sp/>=<sp/>target;<sp/>}</highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1SurfaceDistanceBuilder_1a2d6c34cebbd8117d07b73bd3a514627d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1a2d6c34cebbd8117d07b73bd3a514627d" kindref="member">addStartRegion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>startDistance<sp/>);</highlight></codeline>
+<codeline lineno="44" refid="classMR_1_1SurfaceDistanceBuilder_1ac6c258764fe276b1cf23bbba8bffe0a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1ac6c258764fe276b1cf23bbba8bffe0a2" kindref="member">addStartVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, float&gt;</ref>&amp;<sp/>startVertices<sp/>);</highlight></codeline>
+<codeline lineno="46" refid="classMR_1_1SurfaceDistanceBuilder_1a5189e1622e0103bd98faa67445fbbf74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1a5189e1622e0103bd98faa67445fbbf74" kindref="member">addStart</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start<sp/>);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="classMR_1_1SurfaceDistanceBuilder_1a9b1547c200aedacf976a12ff582e729a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1a9b1547c200aedacf976a12ff582e729a" kindref="member">setMaxVertUpdates</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v<sp/>);</highlight></codeline>
+<codeline lineno="50" refid="classMR_1_1SurfaceDistanceBuilder_1ab233bff0428403e114f95605d8e1004b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1ab233bff0428403e114f95605d8e1004b" kindref="member">setMaxVertUpdates</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v<sp/>);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="classMR_1_1SurfaceDistanceBuilder_1a2c536dc87c144291b79132239fe4d967" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>VertId<sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1a2c536dc87c144291b79132239fe4d967" kindref="member">growOne</ref>();</highlight></codeline>
+<codeline lineno="53" refid="classMR_1_1SurfaceDistanceBuilder_1a43aa321544fea1e2253d32f3f10b6a39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1a43aa321544fea1e2253d32f3f10b6a39" kindref="member">growOne</ref>();</highlight></codeline>
 <codeline lineno="55" refid="classMR_1_1SurfaceDistanceBuilder_1aa5c104e6de91cb67a4df448454913a0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertScalars<sp/><ref refid="classMR_1_1SurfaceDistanceBuilder_1aa5c104e6de91cb67a4df448454913a0d" kindref="member">takeDistanceMap</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::move(<sp/>vertDistanceMap_<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
@@ -218,8 +262,8 @@
 <codeline lineno="82"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h"/>
+    <location file="MRMesh/MRSurfaceDistanceBuilder.h"/>
   </compounddef>
 </doxygen>

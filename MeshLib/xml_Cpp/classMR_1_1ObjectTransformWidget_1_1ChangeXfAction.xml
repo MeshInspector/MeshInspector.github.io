@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectTransformWidget::ChangeXfAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
+    <includes refid="MRObjectTransformWidget_8h" local="no">MRViewer/MRObjectTransformWidget.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga1f50f1aa24fe351311c136f66012e72f" kind="variable"><name>widget_</name></member>
       <member refid="group__GeneralGroup_1gae7092fc1c0f2a0ff0607a0633b4f2f67" kind="variable"><name>xf_</name></member>
@@ -45,7 +45,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="291" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="292" bodyend="331"/>
+    <location file="MRViewer/MRObjectTransformWidget.h" line="291" column="5" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="292" bodyend="331"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9af38d8c2827041c970c5eec9eb10e05" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga68b04cdedc80d6154aa103f169f308be" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>ChangeXfAction</name></member>

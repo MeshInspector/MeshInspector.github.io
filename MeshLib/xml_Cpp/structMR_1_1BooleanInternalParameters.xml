@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BooleanInternalParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::BooleanInternalParameters</compoundname>
-    <includes refid="MRBooleanOperation_8h" local="no">MRBooleanOperation.h</includes>
+    <includes refid="MRBooleanOperation_8h" local="no">MRMesh/MRBooleanOperation.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1BooleanInternalParameters_1a2733395f91f3ed00b0e61ccae13ce37d" prot="public" static="no" mutable="no">
         <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="104" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" bodystart="104" bodyend="104"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="105" column="16" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanInternalParameters_1a9564c4edb40ecc90fa59bfc7a9342bc5" prot="public" static="no" mutable="no">
         <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
@@ -34,10 +34,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="106" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" bodystart="106" bodyend="106"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="107" column="16" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; EdgeLoop &gt; *</type>
+        <type>std::vector&lt; <ref refid="group__GeneralGroup_1ga099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> &gt; *</type>
         <definition>std::vector&lt;EdgeLoop&gt;* MR::BooleanInternalParameters::optionalOutCut</definition>
         <argsstring></argsstring>
         <name>optionalOutCut</name>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="108" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" bodystart="108" bodyend="108"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="109" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="109" bodyend="109"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -79,7 +79,7 @@
         <link refid="classMR_1_1MeshTopology"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" bodystart="102" bodyend="109"/>
+    <location file="MRMesh/MRBooleanOperation.h" line="102" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="103" bodyend="110"/>
     <listofallmembers>
       <member refid="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>optionalOutCut</name></member>
       <member refid="structMR_1_1BooleanInternalParameters_1a2733395f91f3ed00b0e61ccae13ce37d" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>originalMeshA</name></member>

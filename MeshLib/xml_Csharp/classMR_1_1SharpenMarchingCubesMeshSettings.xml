@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SharpenMarchingCubesMeshSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SharpenMarchingCubesMeshSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SharpenMarchingCubesMeshSettings</basecompoundref>
@@ -11,13 +11,13 @@
         <name>minNewVertDev</name>
         <qualifiedname>MR.SharpenMarchingCubesMeshSettings.minNewVertDev</qualifiedname>
         <briefdescription>
+<para>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) </para>
         </briefdescription>
         <detaileddescription>
-<para>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="178" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="178" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="194" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="194" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SharpenMarchingCubesMeshSettings_1ad0648650b83a3ff84202b68d5ce33075" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -26,13 +26,13 @@
         <name>maxNewRank2VertDev</name>
         <qualifiedname>MR.SharpenMarchingCubesMeshSettings.maxNewRank2VertDev</qualifiedname>
         <briefdescription>
+<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) </para>
         </briefdescription>
         <detaileddescription>
-<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="182" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="182" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="200" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SharpenMarchingCubesMeshSettings_1ade80eace0be2085eb67b36177b7aac5f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -41,13 +41,13 @@
         <name>maxNewRank3VertDev</name>
         <qualifiedname>MR.SharpenMarchingCubesMeshSettings.maxNewRank3VertDev</qualifiedname>
         <briefdescription>
+<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) </para>
         </briefdescription>
         <detaileddescription>
-<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="186" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="186" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="206" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="206" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SharpenMarchingCubesMeshSettings_1ad941b6f913307e14cc6a6e87508cad6b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="189" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="189" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="211" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="211" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SharpenMarchingCubesMeshSettings_1a6651aa9240abb2ac3287f60f53800ef7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -71,13 +71,13 @@
         <name>maxOldVertPosCorrection</name>
         <qualifiedname>MR.SharpenMarchingCubesMeshSettings.maxOldVertPosCorrection</qualifiedname>
         <briefdescription>
+<para>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) </para>
         </briefdescription>
         <detaileddescription>
-<para>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="194" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="194" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="218" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="218" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SharpenMarchingCubesMeshSettings_1a9566e2a0b45eaf74c2a51a44284f576a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,13 +86,13 @@
         <name>posSelIters</name>
         <qualifiedname>MR.SharpenMarchingCubesMeshSettings.posSelIters</qualifiedname>
         <briefdescription>
+<para>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 </para>
         </briefdescription>
         <detaileddescription>
-<para>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="198" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="198" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="224" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="224" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SharpenMarchingCubesMeshSettings_1ab47a9a20f983abd29a761117d01f6042" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="201" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="202" bodyend="211"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="229" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="230" bodyend="239"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="215" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="215" bodyend="219"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="243" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="243" bodyend="247"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="225" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="225" bodyend="231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="253" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="253" bodyend="259"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SharpenMarchingCubesMeshSettings_1ad007227568f01fad1d3f74a47390b266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="236" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="236" bodyend="243"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="264" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="264" bodyend="271"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SharpenMarchingCubesMeshSettings_1a9a763de52c4cbaa55a0bb7d53a9868a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SharpenMarchingCubesMeshSettings.SharpenMarchingCubesMeshSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a1d73637190bc52b7d862e87fea42b2ff" kindref="member">MR.SharpenMarchingCubesMeshSettings.SharpenMarchingCubesMeshSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="248" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="248" bodyend="255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="276" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="276" bodyend="283"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SharpenMarchingCubesMeshSettings_1a706ae8f9463ab0e4cbec41635ff407c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -223,13 +223,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SharpenMarchingCubesMeshSettings.SharpenMarchingCubesMeshSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a1d73637190bc52b7d862e87fea42b2ff" kindref="member">MR.SharpenMarchingCubesMeshSettings.SharpenMarchingCubesMeshSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="260" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="260" bodyend="260"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="288" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="288" bodyend="288"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SharpenMarchingCubesMeshSettings_1ae21893fe81182ee2c37e4cff786036d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SharpenMarchingCubesMeshSettings" kindref="compound">MR.SharpenMarchingCubesMeshSettings</ref></type>
@@ -242,13 +242,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SharpenMarchingCubesMeshSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SharpenMarchingCubesMeshSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="265" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="265" bodyend="272"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="293" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="293" bodyend="300"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -257,48 +257,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SharpenMarchingCubesMeshSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SharpenMarchingCubesMeshSettings</label>
         <link refid="classMR_1_1SharpenMarchingCubesMeshSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SharpenMarchingCubesMeshSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SharpenMarchingCubesMeshSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SharpenMarchingCubesMeshSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SharpenMarchingCubesMeshSettings</label>
         <link refid="classMR_1_1SharpenMarchingCubesMeshSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SharpenMarchingCubesMeshSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SharpenMarchingCubesMeshSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="174" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="175" bodyend="273"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="188" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="189" bodyend="301"/>
     <listofallmembers>
       <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ae21893fe81182ee2c37e4cff786036d6" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ad0648650b83a3ff84202b68d5ce33075" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>maxNewRank2VertDev</name></member>

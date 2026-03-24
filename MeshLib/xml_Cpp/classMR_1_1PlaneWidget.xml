@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PlaneWidget" kind="class" language="C++" prot="public">
     <compoundname>MR::PlaneWidget</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; DragStartListener, DragListener, DragEndListener, NameTagClickListener &gt;</basecompoundref>
-    <includes refid="MRPlaneWidget_8h" local="no">MRPlaneWidget.h</includes>
+    <includes refid="MRPlaneWidget_8h" local="no">MRViewer/MRPlaneWidget.h</includes>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga808fc2486084ef99fc09fa592b022201" kind="typedef"><name>OnPlaneUpdateCallback</name></member>
     </sectiondef>
@@ -23,29 +23,29 @@
       <member refid="group__GeneralGroup_1gaf20e1ee1a60210b2bdf04b190c0eca17" kind="variable"><name>importPlaneMode_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga2d610de7f459407dbb91a6bab7e7e3ba" kind="function"><name>updatePlane</name></member>
-      <member refid="group__GeneralGroup_1ga8ae56fec0c4c5e422a127b1db23a053d" kind="function"><name>updateBox</name></member>
-      <member refid="group__GeneralGroup_1ga5af9b5613a5158a835792759b5058f58" kind="function"><name>definePlane</name></member>
-      <member refid="group__GeneralGroup_1gab430c40e09189d949fa9195c31787702" kind="function"><name>undefinePlane</name></member>
-      <member refid="group__GeneralGroup_1gadf199dcf2c914f0c5584c3703355e7ae" kind="function"><name>setLocalMode</name></member>
+      <member refid="group__GeneralGroup_1ga5d8b28cf0b38aeac19eefe4813b7df31" kind="function"><name>updatePlane</name></member>
+      <member refid="group__GeneralGroup_1gaabd4a4dae6bd541eabfc1d46a09ea764" kind="function"><name>updateBox</name></member>
+      <member refid="group__GeneralGroup_1ga9b457e8f370aa64a11f49854dab6f1dd" kind="function"><name>definePlane</name></member>
+      <member refid="group__GeneralGroup_1ga33499c2e0a1776e6ef530d80c4f3b5aa" kind="function"><name>undefinePlane</name></member>
+      <member refid="group__GeneralGroup_1gafcda64a5c143ee8e9f23d382c3f92152" kind="function"><name>setLocalMode</name></member>
       <member refid="group__GeneralGroup_1ga834649aad5bbd6ae1247ffa8a4afecce" kind="function"><name>isInLocalMode</name></member>
       <member refid="group__GeneralGroup_1ga5e5888ffe0449bd3506d380684a6d9d2" kind="function"><name>setLocalShift</name></member>
       <member refid="group__GeneralGroup_1ga5cf8968515531c2adac47a2f1b342235" kind="function"><name>getLocalShift</name></member>
-      <member refid="group__GeneralGroup_1ga02b1ad4d4554be85b3e272be50cd7095" kind="function"><name>getPlane</name></member>
-      <member refid="group__GeneralGroup_1ga5a56b6913aee0effc91844e49f42275c" kind="function"><name>getPlaneObject</name></member>
-      <member refid="group__GeneralGroup_1ga443d496fd75a4f4f959365ea6c167d31" kind="function"><name>setOnPlaneUpdateCallback</name></member>
-      <member refid="group__GeneralGroup_1gade4245fe1a8605fb5f9b563ea03d5f71" kind="function"><name>box</name></member>
-      <member refid="group__GeneralGroup_1gadf904937d1dcfe1bd338c31cd4e45a2d" kind="function"><name>importPlaneMode</name></member>
-      <member refid="group__GeneralGroup_1ga1734d155421e7bea066ad89085f451af" kind="function"><name>setImportPlaneMode</name></member>
+      <member refid="group__GeneralGroup_1ga486a215230f35b4470db487511857f27" kind="function"><name>getPlane</name></member>
+      <member refid="group__GeneralGroup_1gaae05b0bf67d808b7769a0f1299868e20" kind="function"><name>getPlaneObject</name></member>
+      <member refid="group__GeneralGroup_1gaed1510b846cf86b118021a9f8342af14" kind="function"><name>setOnPlaneUpdateCallback</name></member>
+      <member refid="group__GeneralGroup_1ga7db31502e3cd0969c0aca88d8f4ee9f2" kind="function"><name>box</name></member>
+      <member refid="group__GeneralGroup_1ga6252673e45af377fac8d8a6a9c3ff1d4" kind="function"><name>importPlaneMode</name></member>
+      <member refid="group__GeneralGroup_1ga6c32825610c4ff686cfc0e6e4b30ec04" kind="function"><name>setImportPlaneMode</name></member>
       <member refid="group__GeneralGroup_1ga7d294182208228c5d470252b4f032dc7" kind="function"><name>getShowPlaneByDefault</name></member>
       <member refid="group__GeneralGroup_1ga9b0b77f99abe5bd98ad35232c69bf7a2" kind="function"><name>setShowPlaneByDefault</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <member refid="group__GeneralGroup_1gaf803bcc1470654a3096cff902785e674" kind="function"><name>updateWidget_</name></member>
-      <member refid="group__GeneralGroup_1ga71a9f957dee054a977da32d9d8ce3a54" kind="function"><name>onDragStart_</name></member>
-      <member refid="group__GeneralGroup_1gab37848a3ef1873f7bd5261dd1ebff903" kind="function"><name>onDragEnd_</name></member>
-      <member refid="group__GeneralGroup_1gad5bfb5d6896355986ec04f4d1796ea1d" kind="function"><name>onDrag_</name></member>
-      <member refid="group__GeneralGroup_1gabdbc000ec6a879fcece4d20461359e9b" kind="function"><name>onNameTagClicked_</name></member>
+      <member refid="group__GeneralGroup_1ga755b8de46496511f10aaf113c14d97af" kind="function"><name>updateWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga7a5e1af0ff9e67ce8c428c0a8a36908c" kind="function"><name>onDragStart_</name></member>
+      <member refid="group__GeneralGroup_1ga49bf1fff9a9e2f7fa1ecceb0fdd7f869" kind="function"><name>onDragEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga30a388d55d4352979c3ba8c89c0c4d29" kind="function"><name>onDrag_</name></member>
+      <member refid="group__GeneralGroup_1ga22b8cbab0aed01f472533a248c99f833" kind="function"><name>onNameTagClicked_</name></member>
       <member refid="group__GeneralGroup_1gaebd676d4f8d286ab391d4ae484340ae6" kind="function"><name>importPlaneObj_</name></member>
     </sectiondef>
     <briefdescription>
@@ -87,46 +87,46 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="17" bodyend="87"/>
+    <location file="MRViewer/MRPlaneWidget.h" line="16" column="1" bodyfile="MRViewer/MRPlaneWidget.h" bodystart="17" bodyend="87"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gade4245fe1a8605fb5f9b563ea03d5f71" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box</name></member>
+      <member refid="group__GeneralGroup_1ga7db31502e3cd0969c0aca88d8f4ee9f2" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box</name></member>
       <member refid="group__GeneralGroup_1ga47c53444dd395fdf2f575f9e8401f086" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box_</name></member>
       <member refid="group__GeneralGroup_1ga3061368c9a6788e8285a2f011375151e" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>cameraUp3Old_</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>connect</name></member>
-      <member refid="group__GeneralGroup_1ga5af9b5613a5158a835792759b5058f58" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>definePlane</name></member>
+      <member refid="group__GeneralGroup_1ga9b457e8f370aa64a11f49854dab6f1dd" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>definePlane</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1ga68c5a70f2f359f4edd631394e4f965e5" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>endMousePos_</name></member>
       <member refid="group__GeneralGroup_1ga5cf8968515531c2adac47a2f1b342235" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getLocalShift</name></member>
-      <member refid="group__GeneralGroup_1ga02b1ad4d4554be85b3e272be50cd7095" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getPlane</name></member>
-      <member refid="group__GeneralGroup_1ga5a56b6913aee0effc91844e49f42275c" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getPlaneObject</name></member>
+      <member refid="group__GeneralGroup_1ga486a215230f35b4470db487511857f27" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getPlane</name></member>
+      <member refid="group__GeneralGroup_1gaae05b0bf67d808b7769a0f1299868e20" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getPlaneObject</name></member>
       <member refid="group__GeneralGroup_1ga7d294182208228c5d470252b4f032dc7" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getShowPlaneByDefault</name></member>
-      <member refid="group__GeneralGroup_1gadf904937d1dcfe1bd338c31cd4e45a2d" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneMode</name></member>
+      <member refid="group__GeneralGroup_1ga6252673e45af377fac8d8a6a9c3ff1d4" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneMode</name></member>
       <member refid="group__GeneralGroup_1gaf20e1ee1a60210b2bdf04b190c0eca17" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneMode_</name></member>
       <member refid="group__GeneralGroup_1gaebd676d4f8d286ab391d4ae484340ae6" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneObj_</name></member>
       <member refid="group__GeneralGroup_1ga834649aad5bbd6ae1247ffa8a4afecce" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>isInLocalMode</name></member>
       <member refid="group__GeneralGroup_1ga9bd3c20090efa8e43b22664f5198ef9f" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>line_</name></member>
       <member refid="group__GeneralGroup_1gaea051c3e515d4c3ef552b09812ef565b" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>localMode_</name></member>
       <member refid="group__GeneralGroup_1gaaee0b2ebc04899471edba0763a99f522" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>localShift_</name></member>
-      <member refid="group__GeneralGroup_1gad5bfb5d6896355986ec04f4d1796ea1d" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDrag_</name></member>
-      <member refid="group__GeneralGroup_1gab37848a3ef1873f7bd5261dd1ebff903" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDragEnd_</name></member>
-      <member refid="group__GeneralGroup_1ga71a9f957dee054a977da32d9d8ce3a54" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDragStart_</name></member>
-      <member refid="group__GeneralGroup_1gabdbc000ec6a879fcece4d20461359e9b" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onNameTagClicked_</name></member>
+      <member refid="group__GeneralGroup_1ga30a388d55d4352979c3ba8c89c0c4d29" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDrag_</name></member>
+      <member refid="group__GeneralGroup_1ga49bf1fff9a9e2f7fa1ecceb0fdd7f869" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDragEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga7a5e1af0ff9e67ce8c428c0a8a36908c" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDragStart_</name></member>
+      <member refid="group__GeneralGroup_1ga22b8cbab0aed01f472533a248c99f833" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onNameTagClicked_</name></member>
       <member refid="group__GeneralGroup_1ga76171a391a74524d3fd701a469582c47" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>onPlaneUpdate_</name></member>
       <member refid="group__GeneralGroup_1ga808fc2486084ef99fc09fa592b022201" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>OnPlaneUpdateCallback</name></member>
       <member refid="group__GeneralGroup_1gadacdedc8b32fcdeaed363760f8ed1e69" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>plane_</name></member>
       <member refid="group__GeneralGroup_1ga3ad5dbdc8d671aa280623b50ed73f79d" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>planeObj_</name></member>
       <member refid="group__GeneralGroup_1ga33ea46d91807f6c6e2e51b37e411cf3d" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>pressed_</name></member>
-      <member refid="group__GeneralGroup_1ga1734d155421e7bea066ad89085f451af" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setImportPlaneMode</name></member>
-      <member refid="group__GeneralGroup_1gadf199dcf2c914f0c5584c3703355e7ae" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setLocalMode</name></member>
+      <member refid="group__GeneralGroup_1ga6c32825610c4ff686cfc0e6e4b30ec04" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setImportPlaneMode</name></member>
+      <member refid="group__GeneralGroup_1gafcda64a5c143ee8e9f23d382c3f92152" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setLocalMode</name></member>
       <member refid="group__GeneralGroup_1ga5e5888ffe0449bd3506d380684a6d9d2" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setLocalShift</name></member>
-      <member refid="group__GeneralGroup_1ga443d496fd75a4f4f959365ea6c167d31" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setOnPlaneUpdateCallback</name></member>
+      <member refid="group__GeneralGroup_1gaed1510b846cf86b118021a9f8342af14" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setOnPlaneUpdateCallback</name></member>
       <member refid="group__GeneralGroup_1ga9b0b77f99abe5bd98ad35232c69bf7a2" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setShowPlaneByDefault</name></member>
       <member refid="group__GeneralGroup_1gaceabbf2d5b1711b3e838c84b9666b7d3" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>showPlaneByDefault_</name></member>
       <member refid="group__GeneralGroup_1gaa3a1a43f19e5815a5e784e4acba5eb61" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>startMousePos_</name></member>
-      <member refid="group__GeneralGroup_1gab430c40e09189d949fa9195c31787702" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>undefinePlane</name></member>
-      <member refid="group__GeneralGroup_1ga8ae56fec0c4c5e422a127b1db23a053d" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updateBox</name></member>
-      <member refid="group__GeneralGroup_1ga2d610de7f459407dbb91a6bab7e7e3ba" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updatePlane</name></member>
-      <member refid="group__GeneralGroup_1gaf803bcc1470654a3096cff902785e674" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updateWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga33499c2e0a1776e6ef530d80c4f3b5aa" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>undefinePlane</name></member>
+      <member refid="group__GeneralGroup_1gaabd4a4dae6bd541eabfc1d46a09ea764" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updateBox</name></member>
+      <member refid="group__GeneralGroup_1ga5d8b28cf0b38aeac19eefe4813b7df31" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updatePlane</name></member>
+      <member refid="group__GeneralGroup_1ga755b8de46496511f10aaf113c14d97af" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updateWidget_</name></member>
       <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>~MultiListener</name></member>
     </listofallmembers>
   </compounddef>

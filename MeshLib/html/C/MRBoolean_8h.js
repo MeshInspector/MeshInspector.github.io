@@ -1,12 +1,6 @@
 var MRBoolean_8h =
 [
-    [ "MR_AffineXf3f", "MRBoolean_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_FloatGrid", "MRBoolean_8h.html#abc899d5a6475d6b9c15b9ccd231431b3", null ],
-    [ "MR_Mesh", "MRBoolean_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRBoolean_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_MeshVoxelsConverter", "MRBoolean_8h.html#a88599c70457e9aa5dda46470c5cb6be2", null ],
-    [ "MR_ObjectMesh", "MRBoolean_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6", null ],
-    [ "MR_std_function_bool_from_float", "MRBoolean_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_MeshVoxelsConverter_AssignFromAnother", "MRBoolean_8h.html#af45e966e87e54a7c62fe83298811abcd", null ],
     [ "MR_MeshVoxelsConverter_call_1_MR_FloatGrid", "MRBoolean_8h.html#adf3c1664b118bdc2de7dbfd285b5398f", null ],
     [ "MR_MeshVoxelsConverter_call_1_MR_ObjectMesh", "MRBoolean_8h.html#a8750336d0d1f2a8bb15b46e2b712247e", null ],

@@ -3,8 +3,6 @@ var MRSubfeatures_8h =
     [ "MR_Features_SubfeatureInfo", "MRSubfeatures_8h.html#abbce51d2b9b28650fdfd552bbc750edc", null ],
     [ "MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref", "MRSubfeatures_8h.html#a13fa94dc41b14e131eda184bdd244ccd", null ],
     [ "MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref", "MRSubfeatures_8h.html#a5b997b3fae3627207d8658a94d327410", null ],
-    [ "MR_std_string_view", "MRSubfeatures_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37", null ],
-    [ "MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "MRSubfeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d", null ],
     [ "MR_Features_forEachSubfeature", "MRSubfeatures_8h.html#a08564bb17c2e1d44e5c271f0b686f3c2", null ],
     [ "MR_Features_SubfeatureInfo_AssignFromAnother", "MRSubfeatures_8h.html#ad56703f12befb17b3ce0184bd07e7a5b", null ],
     [ "MR_Features_SubfeatureInfo_ConstructFrom", "MRSubfeatures_8h.html#a01055044fba586776566623d2a752db9", null ],

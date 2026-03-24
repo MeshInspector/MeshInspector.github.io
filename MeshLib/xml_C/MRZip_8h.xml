@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRZip_8h" kind="file" language="C++">
     <compoundname>MRZip.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRZip.h</label>
@@ -12,71 +13,49 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRZip_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
+      <memberdef kind="typedef" id="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" prot="public" static="no">
+        <type>struct <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref></type>
+        <definition>typedef struct MR_CompressZipSettings MR_CompressZipSettings</definition>
         <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
+        <name>MR_CompressZipSettings</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::CompressZipSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" line="10" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRZip_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" line="11" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRZip_8h_1aef22a11476e76208a3f9a5cf2eba4c98" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref></type>
-        <definition>typedef struct MR_std_istream MR_std_istream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_istream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" line="12" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRZip_8h_1a4d75e004d098bc7d987ebfcf304f5454" prot="public" static="no">
-        <type>struct <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref></type>
-        <definition>typedef struct MR_std_vector_std_filesystem_path MR_std_vector_std_filesystem_path</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_filesystem_path</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" line="13" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="21" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRZip_8h_1a287e899f349a0d8b543d3495d83af82d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_decompressZip_std_filesystem_path</definition>
         <argsstring>(const char *zipFile, const char *zipFile_end, const char *targetFolder, const char *targetFolder_end, const char *password)</argsstring>
         <name>MR_decompressZip_std_filesystem_path</name>
@@ -109,7 +88,7 @@
 <parametername>password</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if password is given then it will be used to decipher encrypted archive Generated from function <computeroutput>MR::decompressZip</computeroutput>. Parameter <computeroutput>zipFile</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>targetFolder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>password</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>if password is given then it will be used to decipher encrypted archive Generated from function <computeroutput>MR::decompressZip</computeroutput>. Parameter <computeroutput>zipFile</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>targetFolder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>password</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -117,10 +96,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" line="25" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" declline="25" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="32" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="32" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRZip_8h_1a0c984fbdd972f56a6921355059ff8cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_decompressZip_std_istream</definition>
         <argsstring>(MR_std_istream *zipStream, const char *targetFolder, const char *targetFolder_end, const char *password)</argsstring>
         <name>MR_decompressZip_std_istream</name>
@@ -149,7 +128,7 @@
 <parametername>password</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if password is given then it will be used to decipher encrypted archive Generated from function <computeroutput>MR::decompressZip</computeroutput>. Parameter <computeroutput>zipStream</computeroutput> can not be null. It is a single object. Parameter <computeroutput>targetFolder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>password</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>if password is given then it will be used to decipher encrypted archive Generated from function <computeroutput>MR::decompressZip</computeroutput>. Parameter <computeroutput>zipStream</computeroutput> can not be null. It is a single object. Parameter <computeroutput>targetFolder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>password</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -157,13 +136,497 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" line="36" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" declline="36" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="43" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="43" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRZip_8h_1ab2a3825dceed82f1a419413b127a9dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
-        <definition>MRC_API MR_expected_void_std_string * MR_compressZip</definition>
+      <memberdef kind="function" id="MRZip_8h_1ab634dec98ee334f747ee0d6be624ec00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+        <definition>MRC_API const MR_std_vector_std_filesystem_path * MR_CompressZipSettings_Get_excludeFiles</definition>
+        <argsstring>(const MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_Get_excludeFiles</name>
+        <param>
+          <type>const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>files that should not be included to result zip Returns a pointer to a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>excludeFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="50" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="50" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1acd393381f09389ea5dac0d3fb1d37026" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CompressZipSettings_Set_excludeFiles</definition>
+        <argsstring>(MR_CompressZipSettings *_this, MR_PassBy value_pass_by, MR_std_vector_std_filesystem_path *value)</argsstring>
+        <name>MR_CompressZipSettings_Set_excludeFiles</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>files that should not be included to result zip Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>excludeFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>excludeFiles</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>excludeFiles</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a621446082d8a1e3d7d842e30a3c92ac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_filesystem_path * MR_CompressZipSettings_GetMutable_excludeFiles</definition>
+        <argsstring>(MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_GetMutable_excludeFiles</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>files that should not be included to result zip Returns a mutable pointer to a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>excludeFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="64" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="64" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a3a2e9d3b9d40fdc80806ccd557fc4ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_CompressZipSettings_Get_compressionLevel</definition>
+        <argsstring>(const MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_Get_compressionLevel</name>
+        <param>
+          <type>const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Returns a pointer to a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="72" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="72" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a43dd53490b67a748a5bf3739ca865409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CompressZipSettings_Set_compressionLevel</definition>
+        <argsstring>(MR_CompressZipSettings *_this, int value)</argsstring>
+        <name>MR_CompressZipSettings_Set_compressionLevel</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>compressionLevel</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="79" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a8a7c469519a41a741d745ccfa479942b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
+        <definition>MRC_API int * MR_CompressZipSettings_GetMutable_compressionLevel</definition>
+        <argsstring>(MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_GetMutable_compressionLevel</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Returns a mutable pointer to a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="87" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="87" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1aaae5e2c4a6fc95b2c96ef4c92637a905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_CompressZipSettings_Get_password</definition>
+        <argsstring>(const MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_Get_password</name>
+        <param>
+          <type>const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if password is given then the archive will be encrypted Returns a pointer to a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>password</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="94" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="94" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a22a5414079fa3668a21747c732c81f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CompressZipSettings_Set_password</definition>
+        <argsstring>(MR_CompressZipSettings *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_CompressZipSettings_Set_password</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if password is given then the archive will be encrypted Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>password</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>password</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>password</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="103" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a58b2c00c7d8cdf2b15d34d0689cb530f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_CompressZipSettings_GetMutable_password</definition>
+        <argsstring>(MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_GetMutable_password</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if password is given then the archive will be encrypted Returns a mutable pointer to a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>password</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="110" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="110" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a7154cbe1846b053c0860984eeffa2c3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_CompressZipSettings_Get_cb</definition>
+        <argsstring>(const MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_Get_cb</name>
+        <param>
+          <type>const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>an option to get progress notifications and cancel the operation Returns a pointer to a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="117" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="117" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a5a0774b40005cc6cfc17302425733cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CompressZipSettings_Set_cb</definition>
+        <argsstring>(MR_CompressZipSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_CompressZipSettings_Set_cb</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>an option to get progress notifications and cancel the operation Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="124" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1aa1cd57182cded7849db43417b93093cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_CompressZipSettings_GetMutable_cb</definition>
+        <argsstring>(MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_GetMutable_cb</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>an option to get progress notifications and cancel the operation Returns a mutable pointer to a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="131" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="131" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1af9c48fe4ca43233c43497dc95067c160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+        <definition>MRC_API MR_CompressZipSettings * MR_CompressZipSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CompressZipSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZip_8h_1af3c94002994afc43214c235f15c5b24e" kindref="member">MR_CompressZipSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="135" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="135" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a38b3cf6acc7f888931f58ec5c8199a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+        <definition>MRC_API MR_CompressZipSettings * MR_CompressZipSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CompressZipSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRZip_8h_1a86254f2e29b45e09fdf760f1ee54d39a" kindref="member">MR_CompressZipSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRZip_8h_1a6c987ca2f6a077f6639ccc5428c82477" kindref="member">MR_CompressZipSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRZip_8h_1a9c0f7bc3bca0ead9b2c12a40b16e988a" kindref="member">MR_CompressZipSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="140" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="140" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a274327929cc64bdf32afff535599b111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+        <definition>MRC_API MR_CompressZipSettings * MR_CompressZipSettings_ConstructFrom</definition>
+        <argsstring>(MR_PassBy excludeFiles_pass_by, MR_std_vector_std_filesystem_path *excludeFiles, int compressionLevel, const char *password, const char *password_end, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_CompressZipSettings_ConstructFrom</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>excludeFiles_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>excludeFiles</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>compressionLevel</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>password_end</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::CompressZipSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>excludeFiles</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>password</computeroutput> can not be null. If <computeroutput>password_end</computeroutput> is null, then <computeroutput>password</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>password</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZip_8h_1af3c94002994afc43214c235f15c5b24e" kindref="member">MR_CompressZipSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="150" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="150" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a9c0f7bc3bca0ead9b2c12a40b16e988a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+        <definition>MRC_API const MR_CompressZipSettings * MR_CompressZipSettings_OffsetPtr</definition>
+        <argsstring>(const MR_CompressZipSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CompressZipSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="154" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="154" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a6c987ca2f6a077f6639ccc5428c82477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+        <definition>MRC_API MR_CompressZipSettings * MR_CompressZipSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_CompressZipSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CompressZipSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="158" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="158" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a7047194bdfa5cf6672bf1ad67f393f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+        <definition>MRC_API MR_CompressZipSettings * MR_CompressZipSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_CompressZipSettings *_other)</argsstring>
+        <name>MR_CompressZipSettings_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CompressZipSettings::CompressZipSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZip_8h_1af3c94002994afc43214c235f15c5b24e" kindref="member">MR_CompressZipSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="163" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="163" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1af3c94002994afc43214c235f15c5b24e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CompressZipSettings_Destroy</definition>
+        <argsstring>(const MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a86254f2e29b45e09fdf760f1ee54d39a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CompressZipSettings_DestroyArray</definition>
+        <argsstring>(const MR_CompressZipSettings *_this)</argsstring>
+        <name>MR_CompressZipSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="169" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a3b8eb81adaddd9afde120990c5754279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+        <definition>MRC_API MR_CompressZipSettings * MR_CompressZipSettings_AssignFromAnother</definition>
+        <argsstring>(MR_CompressZipSettings *_this, MR_PassBy _other_pass_by, MR_CompressZipSettings *_other)</argsstring>
+        <name>MR_CompressZipSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CompressZipSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="176" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="176" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a5045633b82f41332aed7d40016937a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_compressZip_3</definition>
+        <argsstring>(const char *zipFile, const char *zipFile_end, const char *sourceFolder, const char *sourceFolder_end, const MR_CompressZipSettings *settings)</argsstring>
+        <name>MR_compressZip_3</name>
+        <param>
+          <type>const char *</type>
+          <declname>zipFile</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>zipFile_end</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sourceFolder</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sourceFolder_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>compresses given folder in given zip-file </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::compressZip</computeroutput>. Parameter <computeroutput>zipFile</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>sourceFolder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="187" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="187" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZip_8h_1a5688a8cc397c9c76e182888070bef1b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_compressZip_5</definition>
         <argsstring>(const char *zipFile, const char *zipFile_end, const char *sourceFolder, const char *sourceFolder_end, const MR_std_vector_std_filesystem_path *excludeFiles, const char *password, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
-        <name>MR_compressZip</name>
+        <name>MR_compressZip_5</name>
         <param>
           <type>const char *</type>
           <declname>zipFile</declname>
@@ -189,7 +652,7 @@
           <declname>password</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>cb_pass_by</declname>
         </param>
         <param>
@@ -221,7 +684,7 @@
 <parametername>cb</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>an option to get progress notifications and cancel the operation Generated from function <computeroutput>MR::compressZip</computeroutput>. Parameter <computeroutput>zipFile</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>sourceFolder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>excludeFiles</computeroutput> is a single object. Parameter <computeroutput>excludeFiles</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>password</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>an option to get progress notifications and cancel the operation Generated from function <computeroutput>MR::compressZip</computeroutput>. Parameter <computeroutput>zipFile</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>sourceFolder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>excludeFiles</computeroutput> can not be null. It is a single object. Parameter <computeroutput>password</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -229,7 +692,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" line="52" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h" declline="52" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" line="203" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h" declline="203" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -239,29 +702,79 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRZip_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRZip_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRZip_8h_1aef22a11476e76208a3f9a5cf2eba4c98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRZip_8h_1a4d75e004d098bc7d987ebfcf304f5454" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRZip_8h_1a287e899f349a0d8b543d3495d83af82d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZip_8h_1a287e899f349a0d8b543d3495d83af82d" kindref="member">MR_decompressZip_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*targetFolder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*targetFolder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*password);</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRZip_8h_1a0c984fbdd972f56a6921355059ff8cf7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZip_8h_1a0c984fbdd972f56a6921355059ff8cf7" kindref="member">MR_decompressZip_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*zipStream,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*targetFolder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*targetFolder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*password);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRZip_8h_1ab2a3825dceed82f1a419413b127a9dfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZip_8h_1ab2a3825dceed82f1a419413b127a9dfc" kindref="member">MR_compressZip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sourceFolder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sourceFolder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*excludeFiles,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*password,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRZip_8h_1a287e899f349a0d8b543d3495d83af82d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZip_8h_1a287e899f349a0d8b543d3495d83af82d" kindref="member">MR_decompressZip_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*targetFolder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*targetFolder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*password);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRZip_8h_1a0c984fbdd972f56a6921355059ff8cf7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZip_8h_1a0c984fbdd972f56a6921355059ff8cf7" kindref="member">MR_decompressZip_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*zipStream,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*targetFolder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*targetFolder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*password);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRZip_8h_1ab634dec98ee334f747ee0d6be624ec00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*<ref refid="MRZip_8h_1ab634dec98ee334f747ee0d6be624ec00" kindref="member">MR_CompressZipSettings_Get_excludeFiles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRZip_8h_1acd393381f09389ea5dac0d3fb1d37026" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1acd393381f09389ea5dac0d3fb1d37026" kindref="member">MR_CompressZipSettings_Set_excludeFiles</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRZip_8h_1a621446082d8a1e3d7d842e30a3c92ac4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*<ref refid="MRZip_8h_1a621446082d8a1e3d7d842e30a3c92ac4" kindref="member">MR_CompressZipSettings_GetMutable_excludeFiles</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRZip_8h_1a3a2e9d3b9d40fdc80806ccd557fc4ada" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZip_8h_1a3a2e9d3b9d40fdc80806ccd557fc4ada" kindref="member">MR_CompressZipSettings_Get_compressionLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRZip_8h_1a43dd53490b67a748a5bf3739ca865409" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a43dd53490b67a748a5bf3739ca865409" kindref="member">MR_CompressZipSettings_Set_compressionLevel</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRZip_8h_1a8a7c469519a41a741d745ccfa479942b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZip_8h_1a8a7c469519a41a741d745ccfa479942b" kindref="member">MR_CompressZipSettings_GetMutable_compressionLevel</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRZip_8h_1aaae5e2c4a6fc95b2c96ef4c92637a905" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRZip_8h_1aaae5e2c4a6fc95b2c96ef4c92637a905" kindref="member">MR_CompressZipSettings_Get_password</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRZip_8h_1a22a5414079fa3668a21747c732c81f3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a22a5414079fa3668a21747c732c81f3a" kindref="member">MR_CompressZipSettings_Set_password</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRZip_8h_1a58b2c00c7d8cdf2b15d34d0689cb530f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRZip_8h_1a58b2c00c7d8cdf2b15d34d0689cb530f" kindref="member">MR_CompressZipSettings_GetMutable_password</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRZip_8h_1a7154cbe1846b053c0860984eeffa2c3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRZip_8h_1a7154cbe1846b053c0860984eeffa2c3f" kindref="member">MR_CompressZipSettings_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRZip_8h_1a5a0774b40005cc6cfc17302425733cdf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a5a0774b40005cc6cfc17302425733cdf" kindref="member">MR_CompressZipSettings_Set_cb</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRZip_8h_1aa1cd57182cded7849db43417b93093cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRZip_8h_1aa1cd57182cded7849db43417b93093cd" kindref="member">MR_CompressZipSettings_GetMutable_cb</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRZip_8h_1af9c48fe4ca43233c43497dc95067c160" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*<ref refid="MRZip_8h_1af9c48fe4ca43233c43497dc95067c160" kindref="member">MR_CompressZipSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRZip_8h_1a38b3cf6acc7f888931f58ec5c8199a89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*<ref refid="MRZip_8h_1a38b3cf6acc7f888931f58ec5c8199a89" kindref="member">MR_CompressZipSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRZip_8h_1a274327929cc64bdf32afff535599b111" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*<ref refid="MRZip_8h_1a274327929cc64bdf32afff535599b111" kindref="member">MR_CompressZipSettings_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>excludeFiles_pass_by,<sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*excludeFiles,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>compressionLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*password,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*password_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRZip_8h_1a9c0f7bc3bca0ead9b2c12a40b16e988a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*<ref refid="MRZip_8h_1a9c0f7bc3bca0ead9b2c12a40b16e988a" kindref="member">MR_CompressZipSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRZip_8h_1a6c987ca2f6a077f6639ccc5428c82477" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*<ref refid="MRZip_8h_1a6c987ca2f6a077f6639ccc5428c82477" kindref="member">MR_CompressZipSettings_OffsetMutablePtr</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRZip_8h_1a7047194bdfa5cf6672bf1ad67f393f4e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*<ref refid="MRZip_8h_1a7047194bdfa5cf6672bf1ad67f393f4e" kindref="member">MR_CompressZipSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRZip_8h_1af3c94002994afc43214c235f15c5b24e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1af3c94002994afc43214c235f15c5b24e" kindref="member">MR_CompressZipSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRZip_8h_1a86254f2e29b45e09fdf760f1ee54d39a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a86254f2e29b45e09fdf760f1ee54d39a" kindref="member">MR_CompressZipSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRZip_8h_1a3b8eb81adaddd9afde120990c5754279" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*<ref refid="MRZip_8h_1a3b8eb81adaddd9afde120990c5754279" kindref="member">MR_CompressZipSettings_AssignFromAnother</ref>(<ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRZip_8h_1a5045633b82f41332aed7d40016937a43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZip_8h_1a5045633b82f41332aed7d40016937a43" kindref="member">MR_compressZip_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sourceFolder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sourceFolder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZip_8h_1a4e379930f9afb434d2504341fdfcd26b" kindref="member">MR_CompressZipSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><ref refid="common_8h_1a8c3610f371eccf54a150a4e60a5f5878" kindref="member">MRC_DEPRECATED_REASON</ref>(</highlight><highlight class="stringliteral">&quot;Use<sp/>compressZip(<sp/>zipFile,<sp/>sourceFolder,<sp/>settings<sp/>)&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="203" refid="MRZip_8h_1a5688a8cc397c9c76e182888070bef1b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZip_8h_1a5688a8cc397c9c76e182888070bef1b5" kindref="member">MR_compressZip_5</ref>(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*zipFile_end,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sourceFolder,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sourceFolder_end,<sp/>const<sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*excludeFiles,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*password,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRZip.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZip.h"/>
   </compounddef>
 </doxygen>

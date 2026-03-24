@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ModelPointsData" kind="class" language="C#" prot="public">
     <compoundname>MR::ModelPointsData</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ModelPointsData</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="169" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="170" bodyend="179"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="179" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="180" bodyend="189"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ModelPointsData_1a0b2d08f58747a4a789d3cb74d541f2b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_VertBitSet</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="182" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="183" bodyend="192"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="194" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="195" bodyend="204"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ModelPointsData_1a9f08f5a6ac01eb2006ee07792442f179" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="195" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="196" bodyend="205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="209" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="210" bodyend="219"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ModelPointsData_1aed4e1bda4a7af3fe24db2dc3778f1452" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="208" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="208" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="224" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="224" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="212" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="212" bodyend="216"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="228" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="228" bodyend="232"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="222" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="222" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="238" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="238" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ModelPointsData_1a94486295cf1cd4e8616409fefc803559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="233" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="233" bodyend="242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="249" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="249" bodyend="258"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ModelPointsData_1a5f3d2f43248b229d1f68897e77c448d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ModelPointsData.ModelPointsData</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ModelPointsData_1ada514182d1b922c21330857fe4d52179" kindref="member">MR.ModelPointsData.ModelPointsData</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="247" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="247" bodyend="254"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="263" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="263" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ModelPointsData_1aa9ce9e5058bcc3f92e17b9a2263491fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ModelPointsData.ModelPointsData</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ModelPointsData_1ada514182d1b922c21330857fe4d52179" kindref="member">MR.ModelPointsData.ModelPointsData</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="259" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="259" bodyend="259"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="275" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="275" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ModelPointsData_1af9577c1d980b9a1be4e39b25a4933a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref></type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ModelPointsData.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ModelPointsData::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="264" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="264" bodyend="271"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="280" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="280" bodyend="287"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -200,48 +200,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ModelPointsData</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ModelPointsData</label>
         <link refid="classMR_1_1ModelPointsData"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ModelPointsData</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ModelPointsData &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ModelPointsData</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ModelPointsData</label>
         <link refid="classMR_1_1ModelPointsData"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ModelPointsData</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ModelPointsData &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="166" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="167" bodyend="272"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="174" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="175" bodyend="288"/>
     <listofallmembers>
       <member refid="classMR_1_1ModelPointsData_1af9577c1d980b9a1be4e39b25a4933a11" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>assign</name></member>
       <member refid="classMR_1_1ModelPointsData_1aed4e1bda4a7af3fe24db2dc3778f1452" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>fakeObjId</name></member>

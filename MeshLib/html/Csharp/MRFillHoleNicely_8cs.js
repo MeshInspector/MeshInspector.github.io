@@ -1,5 +1,7 @@
 var MRFillHoleNicely_8cs =
 [
     [ "MR", "classMR.html", "classMR" ],
-    [ "MR.FillHoleNicelySettings", "classMR_1_1FillHoleNicelySettings.html", "classMR_1_1FillHoleNicelySettings" ]
+    [ "MR.SubdivideFillingSettings", "classMR_1_1SubdivideFillingSettings.html", "classMR_1_1SubdivideFillingSettings" ],
+    [ "MR.SmoothFillingSettings", "classMR_1_1SmoothFillingSettings.html", "classMR_1_1SmoothFillingSettings" ],
+    [ "MR.OutAttributesFillingSettings", "classMR_1_1OutAttributesFillingSettings.html", "classMR_1_1OutAttributesFillingSettings" ]
 ];

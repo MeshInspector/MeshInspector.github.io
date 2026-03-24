@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h" kind="file" language="C++">
+    <compoundname>std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h</label>
+        <link refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" prot="public" static="no">
+        <type>struct <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref></type>
+        <definition>typedef struct MR_FixUndercuts_FindParams MR_FixUndercuts_FindParams</definition>
+        <argsstring></argsstring>
+        <name>MR_FixUndercuts_FindParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parameters that is used to find undercuts Generated from class <computeroutput>MR::FixUndercuts::FindParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="14" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" prot="public" static="no">
+        <type>struct <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref></type>
+        <definition>typedef struct MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores a functor of type: <computeroutput>double(const MR::FaceBitSet &amp;, const MR::FixUndercuts::FindParams &amp;)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="19" column="103" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ac2029668d6fa8a0d6f419428a5649461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref * MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a08088c26121ba78c8a0abe855d349959" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="23" column="98" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="23" declcolumn="98"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ab0a352a792eceb5ba9fd6909ce6f6d3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref * MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a413586cd77f7ad311a9395b9a596bfba" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1aaa3f2fd2a0fb06e87be5060ff555910a" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a6f2f4c6c8d7d2b2178aa002f7f82f3b2" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="28" column="98" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="28" declcolumn="98"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1af2b6a7311494f1629e0885507c579da9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref * MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *other)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a08088c26121ba78c8a0abe855d349959" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="34" column="98" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="34" declcolumn="98"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1aa9163f6030f35126a785f6cc949d421a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_AssignFromAnother</definition>
+        <argsstring>(MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *_this, MR_PassBy other_pass_by, MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *other)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="40" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a08088c26121ba78c8a0abe855d349959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Destroy</definition>
+        <argsstring>(const MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *_this)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Destroy</name>
+        <param>
+          <type>const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a413586cd77f7ad311a9395b9a596bfba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DestroyArray</definition>
+        <argsstring>(const MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *_this)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a6f2f4c6c8d7d2b2178aa002f7f82f3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+        <definition>MRC_API const MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref * MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_OffsetPtr</definition>
+        <argsstring>(const MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="50" column="104" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="50" declcolumn="104"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1aaa3f2fd2a0fb06e87be5060ff555910a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref * MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="54" column="98" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="54" declcolumn="98"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ad14bb2f72305b8bdb15855ea6a630454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_has_value</definition>
+        <argsstring>(const MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *_this)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_has_value</name>
+        <param>
+          <type>const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores a callable, as opposed to being null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="58" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a5c591d26c27b6e8851977bb8a68d9ea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_reset</definition>
+        <argsstring>(MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *_this)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_reset</name>
+        <param>
+          <type><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the stored callable, making this instance null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="62" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="62" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a8cbaffcad1754c43ee6ba977b438baa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
+        <definition>MRC_API double MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_call</definition>
+        <argsstring>(const MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *_this, const MR_FaceBitSet *_1, const MR_FixUndercuts_FindParams *_2)</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_call</name>
+        <param>
+          <type>const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref> *</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls the stored callable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_2</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="68" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="68" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a3d76e18ac71e6b506e62a04547c66457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref * MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructStateless</definition>
+        <argsstring>(double(*func)(const MR_FaceBitSet *_1, const MR_FixUndercuts_FindParams *_2))</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructStateless</name>
+        <param>
+          <type>double(*)(const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *_1, const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref> *_2)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a stateless function. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a08088c26121ba78c8a0abe855d349959" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="74" column="98" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="74" declcolumn="98"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a90c66dd661ddf755efa235fdcc3e7fcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Assign</definition>
+        <argsstring>(MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *_this, double(*func)(const MR_FaceBitSet *_1, const MR_FixUndercuts_FindParams *_2))</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Assign</name>
+        <param>
+          <type><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double(*)(const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *_1, const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref> *_2)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a stateless function. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1abed926c0a761971d67a23eda4f94d977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref * MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructEx</definition>
+        <argsstring>(double(*func)(const MR_FaceBitSet *_1, const MR_FixUndercuts_FindParams *_2, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructEx</name>
+        <param>
+          <type>double(*)(const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *_1, const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref> *_2, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a function with additional state. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a08088c26121ba78c8a0abe855d349959" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="113" column="98" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="113" declcolumn="98"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a0b99eae21e400120b7e6a5218259f2c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_AssignEx</definition>
+        <argsstring>(MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref *_this, double(*func)(const MR_FaceBitSet *_1, const MR_FixUndercuts_FindParams *_2, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_AssignEx</name>
+        <param>
+          <type><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double(*)(const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *_1, const <ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref> *_2, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a function with additional state. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h" declline="146" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRFixUndercuts.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ac2029668d6fa8a0d6f419428a5649461" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ac2029668d6fa8a0d6f419428a5649461" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ab0a352a792eceb5ba9fd6909ce6f6d3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ab0a352a792eceb5ba9fd6909ce6f6d3f" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1af2b6a7311494f1629e0885507c579da9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1af2b6a7311494f1629e0885507c579da9" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1aa9163f6030f35126a785f6cc949d421a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1aa9163f6030f35126a785f6cc949d421a" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_AssignFromAnother</ref>(<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a08088c26121ba78c8a0abe855d349959" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a08088c26121ba78c8a0abe855d349959" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a413586cd77f7ad311a9395b9a596bfba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a413586cd77f7ad311a9395b9a596bfba" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a6f2f4c6c8d7d2b2178aa002f7f82f3b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a6f2f4c6c8d7d2b2178aa002f7f82f3b2" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1aaa3f2fd2a0fb06e87be5060ff555910a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1aaa3f2fd2a0fb06e87be5060ff555910a" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_OffsetMutablePtr</ref>(<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ad14bb2f72305b8bdb15855ea6a630454" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1ad14bb2f72305b8bdb15855ea6a630454" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a5c591d26c27b6e8851977bb8a68d9ea0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a5c591d26c27b6e8851977bb8a68d9ea0" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_reset</ref>(<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a8cbaffcad1754c43ee6ba977b438baa8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a8cbaffcad1754c43ee6ba977b438baa8" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref><sp/>*_2);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a3d76e18ac71e6b506e62a04547c66457" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a3d76e18ac71e6b506e62a04547c66457" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructStateless</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref><sp/>*_2));</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a90c66dd661ddf755efa235fdcc3e7fcc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a90c66dd661ddf755efa235fdcc3e7fcc" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_Assign</ref>(<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref><sp/>*_2));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1abed926c0a761971d67a23eda4f94d977" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1abed926c0a761971d67a23eda4f94d977" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_ConstructEx</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref><sp/>*_2,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a0b99eae21e400120b7e6a5218259f2c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a0b99eae21e400120b7e6a5218259f2c2" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref_AssignEx</ref>(<ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a309655ba4963e00d4431b0beee705484" kindref="member">MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_1a810a4790494a58167c183db7961dd0e1" kindref="member">MR_FixUndercuts_FindParams</ref><sp/>*_2,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h"/>
+  </compounddef>
+</doxygen>

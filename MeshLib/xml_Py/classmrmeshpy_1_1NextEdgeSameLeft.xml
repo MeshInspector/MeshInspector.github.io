@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NextEdgeSameLeft" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NextEdgeSameLeft</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft" prot="public" virt="non-virtual">mrmeshpy.RingIterator_NextEdgeSameLeft</derivedcompoundref>
@@ -10,9 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NextEdgeSameLeft.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a0246611578600bb04a4e870ce2defe1a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1abbb22a2822cdf7a570181583195b2861">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1ac71797176508f6b96e6454c8aa9d283e">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -27,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36880" bodyend="36881"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37788" bodyend="37789"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1a284d7a40f0132dafc293a76e79afab85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1NextEdgeSameLeft" kindref="compound">NextEdgeSameLeft</ref></type>
@@ -52,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36884" bodyend="36885"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37792" bodyend="37793"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1a284d7a40f0132dafc293a76e79afab85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1NextEdgeSameLeft" kindref="compound">NextEdgeSameLeft</ref></type>
@@ -77,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36888" bodyend="36889"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37796" bodyend="37797"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -87,9 +84,6 @@
         <argsstring>(self, MeshTopology topology)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NextEdgeSameLeft.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a0246611578600bb04a4e870ce2defe1a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1abbb22a2822cdf7a570181583195b2861">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1ac71797176508f6b96e6454c8aa9d283e">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -104,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36891" bodyend="36892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37799" bodyend="37800"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1ada15bc9558ca75457060b7ab05c00dc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -112,9 +106,6 @@
         <argsstring>(self, NextEdgeSameLeft arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NextEdgeSameLeft.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a0246611578600bb04a4e870ce2defe1a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1abbb22a2822cdf7a570181583195b2861">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1ac71797176508f6b96e6454c8aa9d283e">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -131,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36894" bodyend="36897"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37802" bodyend="37805"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1afe69a1c41ec494f67a3934c7c7135707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -153,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36898" bodyend="36899"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37806" bodyend="37807"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -174,7 +165,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36874" bodyend="36899"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37782" bodyend="37807"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1NextEdgeSameLeft_1a8d0e7e8516b9e4dc42e405d0a703a43c" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameLeft</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NextEdgeSameLeft_1a4a4fb9ea9be3541a9e50b29057efa53a" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameLeft</scope><name>__init__</name></member>

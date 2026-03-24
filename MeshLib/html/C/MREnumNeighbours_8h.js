@@ -2,13 +2,9 @@ var MREnumNeighbours_8h =
 [
     [ "MR_EnumNeihbourFaces", "MREnumNeighbours_8h.html#a91d12dec5a5e125bf17302298a3f5ff5", null ],
     [ "MR_EnumNeihbourVertices", "MREnumNeighbours_8h.html#a8d2e13be2795d8b8139792311bdc8359", null ],
-    [ "MR_Mesh", "MREnumNeighbours_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTopology", "MREnumNeighbours_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_PointOnFace", "MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a", null ],
     [ "MR_std_function_bool_from_MR_FaceId", "MREnumNeighbours_8h.html#a63aa216938f28c268d3a921062bf6621", null ],
     [ "MR_std_function_bool_from_MR_VertId", "MREnumNeighbours_8h.html#a64d1658b7258dab72096c88486c6c84a", null ],
-    [ "MR_VertBitSet", "MREnumNeighbours_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertScalars", "MREnumNeighbours_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4", null ],
     [ "MR_computeSpaceDistances", "MREnumNeighbours_8h.html#a86fd3b32e8d63136c38bab31aa4e306d", null ],
     [ "MR_EnumNeihbourFaces_AssignFromAnother", "MREnumNeighbours_8h.html#a48d4837b1cb3d19ed511f510ac455c08", null ],
     [ "MR_EnumNeihbourFaces_ConstructFromAnother", "MREnumNeighbours_8h.html#a14466d8c92dd68170a0b6ca7b9d674ff", null ],
@@ -29,5 +25,6 @@ var MREnumNeighbours_8h =
     [ "MR_EnumNeihbourVertices_OffsetPtr", "MREnumNeighbours_8h.html#a41a697213ddb76345ad16c6c3c21c159", null ],
     [ "MR_EnumNeihbourVertices_run_MR_VertBitSet", "MREnumNeighbours_8h.html#acc7f56c338325844f0869204ce59633d", null ],
     [ "MR_EnumNeihbourVertices_run_MR_VertId", "MREnumNeighbours_8h.html#a595327ba7d9c729e0a73fe7dca6d04b9", null ],
+    [ "MR_EnumNeihbourVertices_run_std_vector_MR_MeshTriPoint", "MREnumNeighbours_8h.html#a91dbb87699928f0d570d6d59b4c2861c", null ],
     [ "MR_findNeighborVerts", "MREnumNeighbours_8h.html#ac3359574e2038c5863952d6d0588fa3f", null ]
 ];

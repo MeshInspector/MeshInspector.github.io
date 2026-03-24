@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1SubfeatureInfo" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::SubfeatureInfo</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Features.Const_SubfeatureInfo</basecompoundref>
@@ -32,9 +32,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" line="136" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="136" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Features_1_1SubfeatureInfo_1a7c8e99103ca7c27a54df3af46a56509c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneFuncFromConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef</type>
-        <definition>new unsafe MR.Std.Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneFuncFromConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef MR.Features.SubfeatureInfo.create</definition>
+      <memberdef kind="property" id="classMR_1_1Features_1_1SubfeatureInfo_1a453a8f0f99d2f24d5c64a562be626556" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane_From_ConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef</type>
+        <definition>new unsafe MR.Std.Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane_From_ConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef MR.Features.SubfeatureInfo.create</definition>
         <argsstring></argsstring>
         <name>create</name>
         <qualifiedname>MR.Features.SubfeatureInfo.create</qualifiedname>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" line="140" column="214" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="140" bodyend="140"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" line="140" column="212" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="140" bodyend="140"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -125,7 +125,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.SubfeatureInfo.SubfeatureInfo</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Features_1_1SubfeatureInfo_1ad833d153aeb65c2dc8c9db5e7c004b7c" kindref="member">MR.Features.SubfeatureInfo.SubfeatureInfo</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -144,7 +144,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.SubfeatureInfo.SubfeatureInfo</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Features_1_1SubfeatureInfo_1ad833d153aeb65c2dc8c9db5e7c004b7c" kindref="member">MR.Features.SubfeatureInfo.SubfeatureInfo</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,7 +163,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.SubfeatureInfo.SubfeatureInfo</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Features_1_1SubfeatureInfo_1ad833d153aeb65c2dc8c9db5e7c004b7c" kindref="member">MR.Features.SubfeatureInfo.SubfeatureInfo</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -182,7 +182,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Features.SubfeatureInfo.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Features::SubfeatureInfo::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -197,51 +197,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SubfeatureInfo</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Features.SubfeatureInfo</label>
         <link refid="classMR_1_1Features_1_1SubfeatureInfo"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Features.Const_SubfeatureInfo</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SubfeatureInfo &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SubfeatureInfo</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Features.SubfeatureInfo</label>
         <link refid="classMR_1_1Features_1_1SubfeatureInfo"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Features.Const_SubfeatureInfo</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SubfeatureInfo &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" line="130" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="131" bodyend="233"/>
     <listofallmembers>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1af6bec536f0468082e34df145001d0424" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>assign</name></member>
-      <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a7c8e99103ca7c27a54df3af46a56509c" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>create</name></member>
+      <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a453a8f0f99d2f24d5c64a562be626556" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>create</name></member>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a2c1286115d395c8902bb18de5dd491d8" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>isInfinite</name></member>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1ad7e64904888a46e50cd5658ddd230371" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>name</name></member>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a4521c5576b1e496811925883327fda38" prot="package" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>SubfeatureInfo</name></member>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR__Vector2i64" kind="struct" language="C++" prot="public">
     <compoundname>MR_Vector2i64</compoundname>
     <includes refid="MRVector2_8h" local="no">MRVector2.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR__Vector2i64_1aa5ae35877cb2c767e3210e940a565575" prot="public" static="no" mutable="no">
-        <type>MR_int64_t</type>
+        <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
         <definition>MR_int64_t MR_Vector2i64::x</definition>
         <argsstring></argsstring>
         <name>x</name>
@@ -16,10 +16,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector2.h" line="30" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector2.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="30" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__Vector2i64_1aab89e7a427850ca83964481e6df1a45f" prot="public" static="no" mutable="no">
-        <type>MR_int64_t</type>
+        <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
         <definition>MR_int64_t MR_Vector2i64::y</definition>
         <argsstring></argsstring>
         <name>y</name>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector2.h" line="31" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector2.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="31" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" bodystart="31" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -38,7 +38,7 @@
     <detaileddescription>
 <para>two-dimensional vector Generated from class <computeroutput>MR::Vector2i64</computeroutput>. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector2.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector2.h" bodystart="29" bodyend="32"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" bodystart="29" bodyend="32"/>
     <listofallmembers>
       <member refid="structMR__Vector2i64_1aa5ae35877cb2c767e3210e940a565575" prot="public" virt="non-virtual"><scope>MR_Vector2i64</scope><name>x</name></member>
       <member refid="structMR__Vector2i64_1aab89e7a427850ca83964481e6df1a45f" prot="public" virt="non-virtual"><scope>MR_Vector2i64</scope><name>y</name></member>

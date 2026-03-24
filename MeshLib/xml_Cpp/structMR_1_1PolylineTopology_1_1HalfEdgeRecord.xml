@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PolylineTopology_1_1HalfEdgeRecord" kind="struct" language="C++" prot="private">
     <compoundname>MR::PolylineTopology::HalfEdgeRecord</compoundname>
     <sectiondef kind="public-attrib">
@@ -16,7 +16,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="214" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="215" bodyend="225"/>
+    <location file="MRMesh/MRPolylineTopology.h" line="214" column="5" bodyfile="MRMesh/MRPolylineTopology.h" bodystart="215" bodyend="225"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafa0f07a20d1c7be61d394cfe05af0d19" prot="public" virt="non-virtual"><scope>MR::PolylineTopology::HalfEdgeRecord</scope><name>HalfEdgeRecord</name></member>
       <member refid="group__GeneralGroup_1gad486c946604c41af89e8d9bf4ae0f231" prot="public" virt="non-virtual"><scope>MR::PolylineTopology::HalfEdgeRecord</scope><name>HalfEdgeRecord</name></member>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGTest_8h" kind="file" language="C++">
     <compoundname>MRGTest.h</compoundname>
     <includes refid="MRMesh_2config_8h" local="yes">config.h</includes>
     <includes local="no">gtest/gtest.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRGTest.h</label>
+        <label>MRMesh/MRGTest.h</label>
         <link refid="MRGTest_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -78,6 +78,6 @@
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGTest.h"/>
+    <location file="MRMesh/MRGTest.h"/>
   </compounddef>
 </doxygen>

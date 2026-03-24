@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR__AffineXf2f" kind="struct" language="C++" prot="public">
     <compoundname>MR_AffineXf2f</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRAffineXf.h</includes>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" line="24" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAffineXf.h" line="24" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAffineXf.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__AffineXf2f_1a3cfd4b41ae73512694193b79ea04cd9c" prot="public" static="no" mutable="no">
         <type><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" line="25" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAffineXf.h" line="25" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAffineXf.h" bodystart="25" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -62,7 +62,7 @@
         <link refid="structMR__Vector2f"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" bodystart="23" bodyend="26"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAffineXf.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAffineXf.h" bodystart="23" bodyend="26"/>
     <listofallmembers>
       <member refid="structMR__AffineXf2f_1ab0c21f127fe9753e2dd5547cbe7d2fdd" prot="public" virt="non-virtual"><scope>MR_AffineXf2f</scope><name>A</name></member>
       <member refid="structMR__AffineXf2f_1a3cfd4b41ae73512694193b79ea04cd9c" prot="public" virt="non-virtual"><scope>MR_AffineXf2f</scope><name>b</name></member>

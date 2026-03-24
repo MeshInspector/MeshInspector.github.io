@@ -6,7 +6,7 @@ var classMR_1_1FixMeshDegeneraciesParams =
     [ "FixMeshDegeneraciesParams", "classMR_1_1FixMeshDegeneraciesParams.html#aed491e9ef17151bea847c24357ad295b", null ],
     [ "FixMeshDegeneraciesParams", "classMR_1_1FixMeshDegeneraciesParams.html#a3d7bb50a9f36d671b303d52ef31423a7", null ],
     [ "assign", "classMR_1_1FixMeshDegeneraciesParams.html#afd7292ca48775e0ab94233157bde5f54", null ],
-    [ "cb", "classMR_1_1FixMeshDegeneraciesParams.html#a3a8a36e73c45235a0b3a3ba085d57472", null ],
+    [ "cb", "classMR_1_1FixMeshDegeneraciesParams.html#a9b4f190d07dd759f7eaa047c7520aad5", null ],
     [ "criticalTriAspectRatio", "classMR_1_1FixMeshDegeneraciesParams.html#ae34824faf9d7160cc8698775f5060672", null ],
     [ "maxAngleChange", "classMR_1_1FixMeshDegeneraciesParams.html#a99d770ee3259c6f1bc5ba163f3910971", null ],
     [ "maxDeviation", "classMR_1_1FixMeshDegeneraciesParams.html#a1f1577cb302417791ffc5946db7b6bf6", null ],

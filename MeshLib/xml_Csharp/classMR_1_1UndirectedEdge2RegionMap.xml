@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UndirectedEdge2RegionMap" kind="class" language="C#" prot="public">
     <compoundname>MR::UndirectedEdge2RegionMap</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirectedEdge2RegionMap</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1UndirectedEdge2RegionMap_1a989c021424abf70930ed22388ce4d128" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRRegionId</type>
@@ -11,13 +12,13 @@
         <name>vec</name>
         <qualifiedname>MR.UndirectedEdge2RegionMap.vec</qualifiedname>
         <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7208" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7208" bodyend="7208"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8686" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8686" bodyend="8686"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1UndirectedEdge2RegionMap_1a9616141b9f09a9c169b97b23f2ac8dfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
@@ -26,40 +27,30 @@
         <name>this[MR.UndirectedEdgeId i]</name>
         <qualifiedname>MR.UndirectedEdge2RegionMap.this[MR.UndirectedEdgeId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdge2RegionMap.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdge2RegionMap::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7382" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7383" bodyend="7390"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8860" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8861" bodyend="8868"/>
       </memberdef>
     </sectiondef>
-    <sectiondef kind="package-func">
-      <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1ad75cecc92c7e33af4a096df6266cd1f1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</definition>
-        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
-        <name>UndirectedEdge2RegionMap</name>
-        <qualifiedname>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1afedd48e78f0a6c3bd1c91a609677e3bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; MR.Misc.Ref&lt; <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> &gt; &gt;</type>
+        <definition>new IEnumerator&lt; MR.Misc.Ref&lt; MR.RegionId &gt; &gt; MR.UndirectedEdge2RegionMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.UndirectedEdge2RegionMap.GetEnumerator</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7227" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7227" bodyend="7231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8673" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8673" bodyend="8676"/>
       </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</definition>
@@ -73,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7237" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7237" bodyend="7243"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8715" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8715" bodyend="8721"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1acb3b0656684da5f0dfb87b857683d191" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -86,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7248" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7248" bodyend="7255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8726" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8726" bodyend="8733"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a7a79cfa9e38a7d01d6b517aa8b92f70b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -105,13 +96,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7260" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7260" bodyend="7260"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8738" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8738" bodyend="8738"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a7e8aa4e5827d11886ceb14dfb83821e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -124,13 +115,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7265" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7265" bodyend="7265"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8743" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8743" bodyend="8743"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a83ba17572efcddb65f0993585af4a940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -143,13 +134,13 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7271" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7271" bodyend="7277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8749" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8749" bodyend="8755"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a3ac4748966b25f005748b4ef528cc2f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -166,13 +157,13 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7283" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7283" bodyend="7292"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8761" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8761" bodyend="8770"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a0cb85311f016255483b9e0d20fe0577b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -185,13 +176,13 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</computeroutput>. </para>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7298" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7298" bodyend="7305"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8776" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8776" bodyend="8783"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a5eb1d0b7b4c61b4feff29ce4f3b34ac0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdge2RegionMap" kindref="compound">MR.UndirectedEdge2RegionMap</ref></type>
@@ -204,13 +195,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdge2RegionMap.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdge2RegionMap::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7316" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7316" bodyend="7323"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8794" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8794" bodyend="8801"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a979f47567ff4030ea0e533e0c6bae088" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -225,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7328" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7328" bodyend="7333"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8806" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8806" bodyend="8811"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1aa31bdb162c239f7fcf941fcda08707eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -244,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7338" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7338" bodyend="7343"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8816" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8816" bodyend="8821"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a1d0d9fac7340fb50e74e50b0628532bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -267,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7348" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7348" bodyend="7356"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8826" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8826" bodyend="8834"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1add6ba1f6d9e51ed110aa1c4c7ef3ae51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -286,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7362" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7362" bodyend="7367"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8840" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8840" bodyend="8845"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a9195a9656a78e1727bbe317bff0889b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -305,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7372" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7372" bodyend="7377"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8850" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8850" bodyend="8855"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a5e664032bd9e6e3fccb4a6e49e1a91c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -324,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7396" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7396" bodyend="7401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8874" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8874" bodyend="8879"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a53d22a3844deca2fc8ac3505791ed5f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -347,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7407" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7407" bodyend="7415"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8885" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8885" bodyend="8893"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1af64dd15738346850fbdea16f7a01aed2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -374,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7422" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7422" bodyend="7427"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8900" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8900" bodyend="8905"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a6e74fb0c40c39ba38e3c40ef510e6693" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -397,7 +388,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7433" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7433" bodyend="7438"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8911" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8911" bodyend="8916"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a635332e048b8177debc41a23c23c60f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
@@ -416,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7444" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7444" bodyend="7449"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8922" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8922" bodyend="8927"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a07ede41cf6460396fa3b7ad6e89295d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -429,13 +420,13 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdge2RegionMap.push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdge2RegionMap::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7454" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7454" bodyend="7462"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8932" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8932" bodyend="8940"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a598da3d3e64acea95a207e46e0e99baa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -452,13 +443,13 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdge2RegionMap.push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdge2RegionMap::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7467" bodyend="7475"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8945" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8945" bodyend="8953"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a326b34c5edc4b296d08b7cb04fec9a92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -467,13 +458,13 @@
         <name>popBack</name>
         <qualifiedname>MR.UndirectedEdge2RegionMap.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdge2RegionMap.pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdge2RegionMap::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7480" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7480" bodyend="7485"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8958" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8958" bodyend="8963"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1ad50f5b8418121b4085c4c14fc41c21dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
@@ -482,13 +473,13 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.UndirectedEdge2RegionMap.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirectedEdge2RegionMap.emplace_back&lt;&gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdge2RegionMap::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7490" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7490" bodyend="7495"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8968" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8968" bodyend="8973"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a00f5e0a4f435cdd9e369d846fc5ae758" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
@@ -503,7 +494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7500" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7500" bodyend="7505"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8978" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8978" bodyend="8983"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1aed0e4e1b034d3c97c26dc406e6fcc3e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
@@ -518,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7510" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7510" bodyend="7515"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8988" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8988" bodyend="8993"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a7172d4d3a3eb22a1c8713991c7870920" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.Misc.? Ref&lt; <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> &gt;</type>
@@ -533,7 +524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7520" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7520" bodyend="7526"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8998" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8998" bodyend="9004"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a754114d5347ea14cd76a3b6172beb91d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -552,7 +543,47 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7531" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7531" bodyend="7536"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9009" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9009" bodyend="9014"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1a1f7643e66933fe86cdf7cd512192542e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.UndirectedEdge2RegionMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.UndirectedEdge2RegionMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8678" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8678" bodyend="8681"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdge2RegionMap_1ad75cecc92c7e33af4a096df6266cd1f1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UndirectedEdge2RegionMap</name>
+        <qualifiedname>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8705" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8705" bodyend="8709"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -567,17 +598,17 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</computeroutput>. </para>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7311" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7311" bodyend="7311"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8789" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8789" bodyend="8789"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -600,58 +631,72 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_UndirectedEdge2RegionMap</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.UndirectedEdge2RegionMap</label>
         <link refid="classMR_1_1UndirectedEdge2RegionMap"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_UndirectedEdge2RegionMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UndirectedEdge2RegionMap &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_UndirectedEdge2RegionMap &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_UndirectedEdge2RegionMap</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.UndirectedEdge2RegionMap</label>
         <link refid="classMR_1_1UndirectedEdge2RegionMap"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_UndirectedEdge2RegionMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UndirectedEdge2RegionMap &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_UndirectedEdge2RegionMap &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7205" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7206" bodyend="7537"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8617" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8618" bodyend="9015"/>
     <listofallmembers>
       <member refid="classMR_1_1UndirectedEdge2RegionMap_1a5eb1d0b7b4c61b4feff29ce4f3b34ac0" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>assign</name></member>
       <member refid="classMR_1_1UndirectedEdge2RegionMap_1a635332e048b8177debc41a23c23c60f7" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>autoResizeAt</name></member>
@@ -662,6 +707,8 @@
       <member refid="classMR_1_1UndirectedEdge2RegionMap_1a7172d4d3a3eb22a1c8713991c7870920" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>data</name></member>
       <member refid="classMR_1_1UndirectedEdge2RegionMap_1ad50f5b8418121b4085c4c14fc41c21dc" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1UndirectedEdge2RegionMap_1a00f5e0a4f435cdd9e369d846fc5ae758" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>front</name></member>
+      <member refid="classMR_1_1UndirectedEdge2RegionMap_1afedd48e78f0a6c3bd1c91a609677e3bf" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1UndirectedEdge2RegionMap_1a1f7643e66933fe86cdf7cd512192542e" prot="private" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1UndirectedEdge2RegionMap_1a2d254f8550100a11476b0c8ab7bc569d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>operator UndirectedEdge2RegionMap</name></member>
       <member refid="classMR_1_1UndirectedEdge2RegionMap_1a326b34c5edc4b296d08b7cb04fec9a92" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>popBack</name></member>
       <member refid="classMR_1_1UndirectedEdge2RegionMap_1a07ede41cf6460396fa3b7ad6e89295d1" prot="public" virt="non-virtual"><scope>MR::UndirectedEdge2RegionMap</scope><name>pushBack</name></member>

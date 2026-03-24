@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshLoad</compoundname>
     <innerclass refid="classMR_1_1MeshLoad_1_1NamedMesh" prot="public">MR::MeshLoad::NamedMesh</innerclass>
     <innerclass refid="classMR_1_1MeshLoad_1_1ObjLoadSettings" prot="public">MR::MeshLoad::ObjLoadSettings</innerclass>
+    <innerclass refid="classMR_1_1MeshLoad_1_1StepLoadSettings" prot="public">MR::MeshLoad::StepLoadSettings</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a6b19df3e63cd1c399ed8d9e896023526" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1200" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1200" bodyend="1212"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1322" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1322" bodyend="1334"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a1f448c12bb73983175543b2797dfb671" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -51,12 +52,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1218" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1218" bodyend="1226"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1340" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1340" bodyend="1348"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a2f06bd9cb4c12425c13c8ac6ad106f89" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.MeshLoad.fromStep</definition>
-        <argsstring>(string path, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <argsstring>(string path, MR.Const_MeshLoadSettings? settings=null, MR.MeshLoad.Const_StepLoadSettings? stepSettings=null)</argsstring>
         <name>fromStep</name>
         <qualifiedname>MR.MeshLoad.fromStep</qualifiedname>
         <param>
@@ -68,19 +69,24 @@
           <declname>settings</declname>
           <defval>null</defval>
         </param>
+        <param>
+          <type>MR.MeshLoad.Const_StepLoadSettings?</type>
+          <declname>stepSettings</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>load mesh data from STEP file using OpenCASCADE Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" kindref="member">MR.MeshLoad.fromStep</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>load mesh data from STEP file using OpenCASCADE Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a2f06bd9cb4c12425c13c8ac6ad106f89" kindref="member">MR.MeshLoad.fromStep</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>stepSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="10" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="10" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="243" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="243" bodyend="255"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1a857aebb8c9357976e1212d4ff2311251" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1aef32d952c0dcf02c08a933599c4bc520" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.MeshLoad.fromStep</definition>
-        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null, MR.MeshLoad.Const_StepLoadSettings? stepSettings=null)</argsstring>
         <name>fromStep</name>
         <qualifiedname>MR.MeshLoad.fromStep</qualifiedname>
         <param>
@@ -92,19 +98,24 @@
           <declname>settings</declname>
           <defval>null</defval>
         </param>
+        <param>
+          <type>MR.MeshLoad.Const_StepLoadSettings?</type>
+          <declname>stepSettings</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" kindref="member">MR.MeshLoad.fromStep</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a2f06bd9cb4c12425c13c8ac6ad106f89" kindref="member">MR.MeshLoad.fromStep</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>stepSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="28" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="28" bodyend="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="262" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="262" bodyend="270"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1ab07dafbcd59da06933f670040fe97f52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
-        <definition>static unsafe MR.Object MR.MeshLoad.fromSceneStepFile</definition>
-        <argsstring>(string path, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1af4ca0496d6d194235d5f2dcf8dc14c13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRObject MR.MeshLoad.fromSceneStepFile</definition>
+        <argsstring>(string path, MR.Const_MeshLoadSettings? settings=null, MR.MeshLoad.Const_StepLoadSettings? stepSettings=null)</argsstring>
         <name>fromSceneStepFile</name>
         <qualifiedname>MR.MeshLoad.fromSceneStepFile</qualifiedname>
         <param>
@@ -116,19 +127,24 @@
           <declname>settings</declname>
           <defval>null</defval>
         </param>
+        <param>
+          <type>MR.MeshLoad.Const_StepLoadSettings?</type>
+          <declname>stepSettings</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>load scene from STEP file using OpenCASCADE Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1ab07dafbcd59da06933f670040fe97f52" kindref="member">MR.MeshLoad.fromSceneStepFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>load scene from STEP file using OpenCASCADE Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1af4ca0496d6d194235d5f2dcf8dc14c13" kindref="member">MR.MeshLoad.fromSceneStepFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>stepSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="43" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="43" bodyend="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="278" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="278" bodyend="290"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1a77442ada02ce71b9cf1be7946ab8263b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
-        <definition>static unsafe MR.Object MR.MeshLoad.fromSceneStepFile</definition>
-        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a488fbbec801cdec5cb6d3c7841d9ad7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRObject MR.MeshLoad.fromSceneStepFile</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null, MR.MeshLoad.Const_StepLoadSettings? stepSettings=null)</argsstring>
         <name>fromSceneStepFile</name>
         <qualifiedname>MR.MeshLoad.fromSceneStepFile</qualifiedname>
         <param>
@@ -140,14 +156,19 @@
           <declname>settings</declname>
           <defval>null</defval>
         </param>
+        <param>
+          <type>MR.MeshLoad.Const_StepLoadSettings?</type>
+          <declname>stepSettings</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1ab07dafbcd59da06933f670040fe97f52" kindref="member">MR.MeshLoad.fromSceneStepFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1af4ca0496d6d194235d5f2dcf8dc14c13" kindref="member">MR.MeshLoad.fromSceneStepFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>stepSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="61" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="61" bodyend="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="297" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="297" bodyend="305"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1aa4848ac2baf83ab68b7e476127ceb15b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -611,7 +632,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="688" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="688" bodyend="700"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="720" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="720" bodyend="732"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a46772cac2cfbb813f60b6bd519043139" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRMeshLoadNamedMesh</type>
@@ -653,7 +674,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="709" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="709" bodyend="721"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="741" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="741" bodyend="753"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1adf4be732a02d57b2f8639c941f78fefd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRMeshLoadNamedMesh</type>
@@ -699,12 +720,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="729" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="729" bodyend="742"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="761" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="761" bodyend="774"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1a32f84956340084a360951274b67db47e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a94f74d007f6d508219aa326f25488c61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1LoadedObjects" kindref="compound">MR.LoadedObjects</ref></type>
         <definition>static unsafe MR.LoadedObjects MR.MeshLoad.loadObjectFromObj</definition>
-        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>loadObjectFromObj</name>
         <qualifiedname>MR.MeshLoad.loadObjectFromObj</qualifiedname>
         <param>
@@ -712,25 +733,25 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>reads all objects from .OBJ file Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a32f84956340084a360951274b67db47e" kindref="member">MR.MeshLoad.loadObjectFromObj</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>reads all objects from .OBJ file Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a94f74d007f6d508219aa326f25488c61" kindref="member">MR.MeshLoad.loadObjectFromObj</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="749" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="749" bodyend="761"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="781" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="781" bodyend="793"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1193" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="4" bodyend="762"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1315" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1316" bodyend="1349"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshLoad_1a09653ec5e1a7cc0cfc4f8106ecc4c933" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromAnyStl</name></member>
       <member refid="classMR_1_1MeshLoad_1aa08b3cb60ecad8b7f08b7ec9a00e6a6d" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromAnyStl</name></member>
@@ -755,11 +776,11 @@
       <member refid="classMR_1_1MeshLoad_1a09b8e0d196618f33c39af99989ecdd83" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classMR_1_1MeshLoad_1a46772cac2cfbb813f60b6bd519043139" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classMR_1_1MeshLoad_1adf4be732a02d57b2f8639c941f78fefd" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
-      <member refid="classMR_1_1MeshLoad_1ab07dafbcd59da06933f670040fe97f52" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneStepFile</name></member>
-      <member refid="classMR_1_1MeshLoad_1a77442ada02ce71b9cf1be7946ab8263b" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneStepFile</name></member>
-      <member refid="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromStep</name></member>
-      <member refid="classMR_1_1MeshLoad_1a857aebb8c9357976e1212d4ff2311251" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromStep</name></member>
-      <member refid="classMR_1_1MeshLoad_1a32f84956340084a360951274b67db47e" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>loadObjectFromObj</name></member>
+      <member refid="classMR_1_1MeshLoad_1af4ca0496d6d194235d5f2dcf8dc14c13" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneStepFile</name></member>
+      <member refid="classMR_1_1MeshLoad_1a488fbbec801cdec5cb6d3c7841d9ad7b" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneStepFile</name></member>
+      <member refid="classMR_1_1MeshLoad_1a2f06bd9cb4c12425c13c8ac6ad106f89" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromStep</name></member>
+      <member refid="classMR_1_1MeshLoad_1aef32d952c0dcf02c08a933599c4bc520" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromStep</name></member>
+      <member refid="classMR_1_1MeshLoad_1a94f74d007f6d508219aa326f25488c61" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>loadObjectFromObj</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

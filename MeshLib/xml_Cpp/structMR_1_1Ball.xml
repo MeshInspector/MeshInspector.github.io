@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Ball" kind="struct" language="C++" prot="public">
     <compoundname>MR::Ball</compoundname>
-    <includes refid="MRBall_8h" local="no">MRBall.h</includes>
+    <includes refid="MRBall_8h" local="no">MRMesh/MRBall.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -28,7 +28,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBall.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBall.h" bodystart="15" bodyend="28"/>
+    <location file="MRMesh/MRBall.h" line="14" column="1" bodyfile="MRMesh/MRBall.h" bodystart="15" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac2c803f24782033284e75272d9eab0dd" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>center</name></member>
       <member refid="group__GeneralGroup_1ga12631fc540b821bfa957ea4f9f2e57e8" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>elements</name></member>

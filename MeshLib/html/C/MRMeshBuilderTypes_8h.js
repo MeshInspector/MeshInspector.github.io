@@ -1,7 +1,5 @@
 var MRMeshBuilderTypes_8h =
 [
-    [ "MR_FaceBitSet", "MRMeshBuilderTypes_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_MeshBuilder_BuildSettings", "MRMeshBuilderTypes_8h.html#ad64e870545f55932379857e2c2d7eafb", null ],
     [ "MR_MeshBuilder_Triangle", "MRMeshBuilderTypes_8h.html#a549aa7bc469854fba9bf46cfa9e3f468", null ],
     [ "MR_MeshBuilder_VertSpan", "MRMeshBuilderTypes_8h.html#ab9551b9a8e23e47d28f61bc00b226409", null ],
     [ "MR_equal_MR_MeshBuilder_Triangle", "MRMeshBuilderTypes_8h.html#a9bd6baeb09eacd882668e5a3019a0256", null ],

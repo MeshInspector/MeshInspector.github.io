@@ -1,23 +1,23 @@
 var MRDicom_8h =
 [
-    [ "DicomStatusEnum", "MRDicom_8h.html#ga4877b5ea79a241234ef88b527edc08e6", [
-      [ "Ok", "MRDicom_8h.html#gga4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115", null ],
-      [ "Invalid", "MRDicom_8h.html#gga4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b", null ],
-      [ "Unsupported", "MRDicom_8h.html#gga4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f", null ]
+    [ "MR::VoxelsLoad::DicomStatusEnum", "group__GeneralGroup.html#ga4877b5ea79a241234ef88b527edc08e6", [
+      [ "MR::VoxelsLoad::DicomStatusEnum::Ok", "group__GeneralGroup.html#gga4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115", null ],
+      [ "MR::VoxelsLoad::DicomStatusEnum::Invalid", "group__GeneralGroup.html#gga4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "MR::VoxelsLoad::DicomStatusEnum::Unsupported", "group__GeneralGroup.html#gga4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f", null ]
     ] ],
-    [ "createObjectVoxels", "MRDicom_8h.html#ga4461fa0856c7f24094e4b923f7ddd75f", null ],
-    [ "findDicomFoldersRecursively", "MRDicom_8h.html#ga57c362015058e67cdc805cce6bfec0b8", null ],
-    [ "isDicomFile", "MRDicom_8h.html#gad6fd3c989bc83e4e99389def8fa8931b", null ],
-    [ "isDicomFolder", "MRDicom_8h.html#gadbcdf154c89bce3f54684092bcc3f76e", null ],
-    [ "loadDicomFile", "MRDicom_8h.html#ga97daff0d663d2d21303f92b32c475f1d", null ],
-    [ "loadDicomFileAsVdb", "MRDicom_8h.html#ga9edb1f3f1374143d0d7b53bc7afefeb6", null ],
-    [ "loadDicomFolder", "MRDicom_8h.html#gab74657867c56c855737e8a2dbc5eb1b1", null ],
-    [ "loadDicomFolderAsVdb", "MRDicom_8h.html#ga502a6fc0f3621c800b6569b6e56e99fa", null ],
-    [ "loadDicomsFolder", "MRDicom_8h.html#ga80f9d3c0df6c7033f2ea958de6f8a1d1", null ],
-    [ "loadDicomsFolderAsVdb", "MRDicom_8h.html#gadf1cf75d42be383bb66a5e1f952b2cd1", null ],
-    [ "loadDicomsFolderTreeAsVdb", "MRDicom_8h.html#gad79032cc6ef1a0e389097a70c1000de3", null ],
-    [ "makeObjectVoxelsFromDicomFolder", "MRDicom_8h.html#ga279a152a57f0cd1d7f680c48cc341687", null ],
-    [ "toDicom", "MRDicom_8h.html#ga8b7a3d30f9b81594b08a8a90828dd8e6", null ],
-    [ "toDicom", "MRDicom_8h.html#ga06de9ebb71a997d3eec5251dc2a1c1e8", null ],
-    [ "toDicom", "MRDicom_8h.html#ga0f83445b39c9bf24c4f50d6fe1f4cfe8", null ]
+    [ "MR::VoxelsLoad::createObjectVoxels", "group__GeneralGroup.html#gafddc114cf5c8b41f89071599179b2567", null ],
+    [ "MR::VoxelsLoad::findDicomFoldersRecursively", "group__GeneralGroup.html#gaa4b88892db60bc9b8396dc446524f02e", null ],
+    [ "MR::VoxelsLoad::isDicomFile", "group__GeneralGroup.html#ga0f1af9eb86c05b6bbe445ea06537f9c6", null ],
+    [ "MR::VoxelsLoad::isDicomFolder", "group__GeneralGroup.html#ga3e3bcf93e752e0956ce4cfaa733f0856", null ],
+    [ "MR::VoxelsLoad::loadDicomFile", "group__GeneralGroup.html#gaf00dc87c4fbf129db0fea5f72c93706c", null ],
+    [ "MR::VoxelsLoad::loadDicomFileAsVdb", "group__GeneralGroup.html#gaeb82527ec2bc3defcd4403b2010ff7b5", null ],
+    [ "MR::VoxelsLoad::loadDicomFolder", "group__GeneralGroup.html#gaea69b664460303b9ecea304ac436ecb6", null ],
+    [ "MR::VoxelsLoad::loadDicomFolderAsVdb", "group__GeneralGroup.html#ga82e838641100127292270224b8d68cc0", null ],
+    [ "MR::VoxelsLoad::loadDicomsFolder", "group__GeneralGroup.html#ga508397486e680c7dbfe36422254927f7", null ],
+    [ "MR::VoxelsLoad::loadDicomsFolderAsVdb", "group__GeneralGroup.html#ga5c1ca19afdda2f1e3872b21e96382a1c", null ],
+    [ "MR::VoxelsLoad::loadDicomsFolderTreeAsVdb", "group__GeneralGroup.html#ga3cce80232dfeab3ad6d3b2ca76c5d680", null ],
+    [ "MR::VoxelsLoad::makeObjectVoxelsFromDicomFolder", "group__GeneralGroup.html#gaad1f792247d40e8bff19146ed05c9acf", null ],
+    [ "MR::VoxelsSave::toDicom", "group__GeneralGroup.html#gaeaddd51312fec04fbd52fe20b7f6ad50", null ],
+    [ "MR::VoxelsSave::toDicom", "group__GeneralGroup.html#gaf30d811aab2278471ec56ad8a7204a87", null ],
+    [ "MR::VoxelsSave::toDicom", "group__GeneralGroup.html#ga63205d8fe6f992628c37a17d75f90eb8", null ]
 ];

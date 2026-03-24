@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCudaMeshDistanceMap_8h" kind="file" language="C++">
+    <compoundname>MRCudaMeshDistanceMap.h</compoundname>
+    <includes refid="uda_2include_2MRCCuda_2exports_8h" local="no">MRCCuda/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>MRCudaMeshDistanceMap.h</label>
+        <link refid="MRCudaMeshDistanceMap_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCCuda/exports.h</label>
+        <link refid="uda_2include_2MRCCuda_2exports_8h"/>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRCudaMeshDistanceMap_8h_1aa9dd662e7996818e2ea8b44516892b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_MR_DistanceMap_std_string * MR_Cuda_computeDistanceMap</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_MeshToDistanceMapParams *params, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb, MR_std_vector_MR_MeshTriPoint *outSamples)</argsstring>
+        <name>MR_Cuda_computeDistanceMap</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>outSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable Generated from function <computeroutput>MR::Cuda::computeDistanceMap</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>outSamples</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__DistanceMap__std__string_8h_1a0a335b47ce20d18bf52ab4847d97e275" kindref="member">MR_expected_MR_DistanceMap_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaMeshDistanceMap.h" line="27" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaMeshDistanceMap.h" declline="27" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaMeshDistanceMap_8h_1aba404c6cfae58977b2281598414c1a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_computeDistanceMapHeapBytes</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_MeshToDistanceMapParams *params, const bool *needOutSamples)</argsstring>
+        <name>MR_Cuda_computeDistanceMapHeapBytes</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const bool *</type>
+          <declname>needOutSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes memory consumption of computeDistanceMap function Generated from function <computeroutput>MR::Cuda::computeDistanceMapHeapBytes</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Parameter <computeroutput>needOutSamples</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaMeshDistanceMap.h" line="34" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaMeshDistanceMap.h" declline="34" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="uda_2include_2MRCCuda_2exports_8h" kindref="compound">MRCCuda/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref><sp/><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMapParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref><sp/><ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_DistanceMap_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRCudaMeshDistanceMap_8h_1aa9dd662e7996818e2ea8b44516892b41" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref><sp/>*<ref refid="MRCudaMeshDistanceMap_8h_1aa9dd662e7996818e2ea8b44516892b41" kindref="member">MR_Cuda_computeDistanceMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref><sp/>*params,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*outSamples);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRCudaMeshDistanceMap_8h_1aba404c6cfae58977b2281598414c1a16" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaMeshDistanceMap_8h_1aba404c6cfae58977b2281598414c1a16" kindref="member">MR_Cuda_computeDistanceMapHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*needOutSamples);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaMeshDistanceMap.h"/>
+  </compounddef>
+</doxygen>

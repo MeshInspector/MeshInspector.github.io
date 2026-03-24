@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UiRenderManager" kind="class" language="C#" prot="public">
     <compoundname>MR::UiRenderManager</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_UiRenderManager</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1527" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1527" bodyend="1527"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1431" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1431" bodyend="1431"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1532" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1532" bodyend="1537"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1436" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1436" bodyend="1441"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1ad9bed7ddb2465983085a24bca3f4732a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,13 +54,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UiRenderManager.UiRenderManager</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UiRenderManager_1ae0b88ce3c6ee04ee0eb27560ad0da8a0" kindref="member">MR.UiRenderManager.UiRenderManager</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1542" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1542" bodyend="1548"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1446" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1446" bodyend="1452"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1a27071fd392f5b50c23f213920f541d4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,13 +73,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UiRenderManager.UiRenderManager</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UiRenderManager_1ae0b88ce3c6ee04ee0eb27560ad0da8a0" kindref="member">MR.UiRenderManager.UiRenderManager</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1553" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1553" bodyend="1553"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1457" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1457" bodyend="1457"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1a1950cb2e8b76cd2f258d768d5fa5ae75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -92,13 +92,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UiRenderManager.UiRenderManager</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UiRenderManager_1ae0b88ce3c6ee04ee0eb27560ad0da8a0" kindref="member">MR.UiRenderManager.UiRenderManager</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1558" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1558" bodyend="1558"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1462" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1462" bodyend="1462"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1a0cdd389be09e58c5d5068a1e2fbfb54c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UiRenderManager" kindref="compound">MR.UiRenderManager</ref></type>
@@ -111,13 +111,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UiRenderManager.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UiRenderManager::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1563" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1563" bodyend="1570"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1467" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1467" bodyend="1474"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1a7afb07d5a7227a2937f8d64ad35fb75d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1576" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1576" bodyend="1581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1480" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1480" bodyend="1485"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1a76bec50407215c004e3216a60eb1a81c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1587" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1587" bodyend="1592"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1491" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1491" bodyend="1496"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1a3ba30e9cda56de739f8c57674fa50d3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.BasicUiRenderTask.BackwardPassParams</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1599" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1599" bodyend="1604"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1503" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1503" bodyend="1508"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1a5cbfbea4de891528083bc996df0549dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1610" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1610" bodyend="1615"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1514" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1514" bodyend="1519"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -210,48 +210,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_UiRenderManager</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UiRenderManager</label>
         <link refid="classMR_1_1UiRenderManager"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UiRenderManager</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UiRenderManager &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_UiRenderManager</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UiRenderManager</label>
         <link refid="classMR_1_1UiRenderManager"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UiRenderManager</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UiRenderManager &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1525" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1526" bodyend="1616"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1429" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1430" bodyend="1520"/>
     <listofallmembers>
       <member refid="classMR_1_1UiRenderManager_1a0cdd389be09e58c5d5068a1e2fbfb54c" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>assign</name></member>
       <member refid="classMR_1_1UiRenderManager_1a3ba30e9cda56de739f8c57674fa50d3e" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>beginBackwardPass</name></member>

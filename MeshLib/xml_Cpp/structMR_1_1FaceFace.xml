@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FaceFace" kind="struct" language="C++" prot="public">
     <compoundname>MR::FaceFace</compoundname>
-    <includes refid="MRFaceFace_8h" local="no">MRFaceFace.h</includes>
+    <includes refid="MRFaceFace_8h" local="no">MRMesh/MRFaceFace.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1FaceFace_1aec8e3edd8159870a77814db603ba8c5d" prot="public" static="no" mutable="no">
         <type>FaceId</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="15" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="15" bodyend="-1"/>
+        <location file="MRMesh/MRFaceFace.h" line="15" column="12" bodyfile="MRMesh/MRFaceFace.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FaceFace_1aee3dbbcbddd14dd0707a78411581d0fc" prot="public" static="no" mutable="no">
         <type>FaceId</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="16" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="16" bodyend="-1"/>
+        <location file="MRMesh/MRFaceFace.h" line="16" column="12" bodyfile="MRMesh/MRFaceFace.h" bodystart="16" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="17" bodyend="17"/>
+        <location file="MRMesh/MRFaceFace.h" line="17" column="5" bodyfile="MRMesh/MRFaceFace.h" bodystart="17" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1FaceFace_1a8e856ba4f380bb43a7a4efe0f1dc02bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="18" bodyend="18"/>
+        <location file="MRMesh/MRFaceFace.h" line="18" column="5" bodyfile="MRMesh/MRFaceFace.h" bodystart="18" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1FaceFace_1a8c0ae6c21ae275e2d6d66235d4aa4a3f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>auto</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="19" column="5"/>
+        <location file="MRMesh/MRFaceFace.h" line="19" column="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -94,7 +94,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h" bodystart="14" bodyend="20"/>
+    <location file="MRMesh/MRFaceFace.h" line="13" column="1" bodyfile="MRMesh/MRFaceFace.h" bodystart="14" bodyend="20"/>
     <listofallmembers>
       <member refid="structMR_1_1FaceFace_1aec8e3edd8159870a77814db603ba8c5d" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>aFace</name></member>
       <member refid="structMR_1_1FaceFace_1aee3dbbcbddd14dd0707a78411581d0fc" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>bFace</name></member>

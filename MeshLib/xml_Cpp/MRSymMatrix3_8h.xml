@@ -1,17 +1,23 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSymMatrix3_8h" kind="file" language="C++">
     <compoundname>MRSymMatrix3.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes refid="MRMatrix3_8h" local="yes">MRMatrix3.h</includes>
     <includes refid="MRConstants_8h" local="yes">MRConstants.h</includes>
     <includes local="no">limits</includes>
-    <includedby refid="MRBestFit_8h" local="yes">MRBestFit.h</includedby>
-    <includedby refid="MRBestFitParabola_8h" local="yes">MRBestFitParabola.h</includedby>
-    <includedby refid="MRQuadraticForm_8h" local="yes">MRQuadraticForm.h</includedby>
-    <includedby refid="MRToFromEigen_8h" local="yes">MRToFromEigen.h</includedby>
+    <includedby refid="MRBestFit_8h" local="yes">MRMesh/MRBestFit.h</includedby>
+    <includedby refid="MRBestFitParabola_8h" local="yes">MRMesh/MRBestFitParabola.h</includedby>
+    <includedby refid="MRQuadraticForm_8h" local="yes">MRMesh/MRQuadraticForm.h</includedby>
+    <includedby refid="MRToFromEigen_8h" local="yes">MRMesh/MRToFromEigen.h</includedby>
     <incdepgraph>
-      <node id="8">
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -19,28 +25,50 @@
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="15">
+      <node id="23">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="1">
-        <label>MRSymMatrix3.h</label>
-        <link refid="MRSymMatrix3_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRSymMatrix3.h</label>
+        <link refid="MRSymMatrix3_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -60,79 +88,98 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
         <label>algorithm</label>
       </node>
       <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="19">
         <label>cmath</label>
       </node>
       <node id="5">
         <label>cstddef</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>cstring</label>
       </node>
-      <node id="13">
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="21">
         <label>iosfwd</label>
       </node>
-      <node id="16">
+      <node id="24">
         <label>limits</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
       </node>
       <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRBestFit.h</label>
+        <label>MRMesh/MRBestFit.h</label>
         <link refid="MRBestFit_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRBestFitParabola.h</label>
+        <label>MRMesh/MRBestFitParabola.h</label>
         <link refid="MRBestFitParabola_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="8">
-        <label>MRConeApproximator.h</label>
+        <label>MRMesh/MRConeApproximator.h</label>
         <link refid="MRConeApproximator_8h"/>
       </node>
       <node id="3">
-        <label>MRDenseBox.h</label>
+        <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
       </node>
       <node id="6">
-        <label>MRQuadraticForm.h</label>
+        <label>MRMesh/MRQuadraticForm.h</label>
         <link refid="MRQuadraticForm_8h"/>
       </node>
       <node id="1">
-        <label>MRSymMatrix3.h</label>
+        <label>MRMesh/MRSymMatrix3.h</label>
         <link refid="MRSymMatrix3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -144,13 +191,13 @@
         </childnode>
       </node>
       <node id="7">
-        <label>MRToFromEigen.h</label>
+        <label>MRMesh/MRToFromEigen.h</label>
         <link refid="MRToFromEigen_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRMoveMeshToVoxelMaxDeriv.h</label>
+        <label>MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</label>
         <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
       </node>
     </invincdepgraph>
@@ -172,8 +219,8 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1SymMatrix3" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1SymMatrix3" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga49b04ca33ea170c1047b150bbc712509" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga49b04ca33ea170c1047b150bbc712509" kindref="member">ValueType</ref><sp/>=<sp/>T;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
@@ -181,22 +228,22 @@
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref>()<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga7c6db10e1c1818cbcf3083e960afab31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>template<sp/>&lt;typename<sp/>U&gt;<sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_same_v&lt;T,<sp/>U&gt;<sp/>)</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/>explicit<sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref>(<sp/>const<sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref>&lt;U&gt;<sp/>&amp;<sp/>m<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>)<sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga7c6db10e1c1818cbcf3083e960afab31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>template<sp/>&lt;typename<sp/>U&gt;<sp/><ref refid="group__GeneralGroup_1ga7c6db10e1c1818cbcf3083e960afab31" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_same_v&lt;T,<sp/>U&gt;<sp/>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/>explicit<sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref>(<sp/>const<sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref>&lt;U&gt;<sp/>&amp;<sp/>m<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>(<sp/>T(<sp/>m.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>)<sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga01e5aad44da8c62ba4d2044075380fdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref><sp/><ref refid="group__GeneralGroup_1ga01e5aad44da8c62ba4d2044075380fdb" kindref="member">identity</ref>()<sp/>noexcept<sp/>{<sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref><sp/>res;<sp/>res.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>=<sp/>res.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>=<sp/>res.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>=<sp/>1;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;<sp/>}</highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1gad9dcf1d38df199d9b286299f52b8ea18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref><sp/><ref refid="group__GeneralGroup_1gad9dcf1d38df199d9b286299f52b8ea18" kindref="member">diagonal</ref>(<sp/>T<sp/>diagVal<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref><sp/>res;<sp/>res.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>=<sp/>res.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>=<sp/>res.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>=<sp/>diagVal;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;<sp/>}</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga01e5aad44da8c62ba4d2044075380fdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref><sp/><ref refid="group__GeneralGroup_1ga01e5aad44da8c62ba4d2044075380fdb" kindref="member">identity</ref>()<sp/>noexcept<sp/>{<sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref><sp/>res;<sp/>res.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>=<sp/>res.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>=<sp/>res.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>=<sp/>1;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;<sp/>}</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1gad9dcf1d38df199d9b286299f52b8ea18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref><sp/><ref refid="group__GeneralGroup_1gad9dcf1d38df199d9b286299f52b8ea18" kindref="member">diagonal</ref>(<sp/>T<sp/>diagVal<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref><sp/>res;<sp/>res.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>=<sp/>res.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>=<sp/>res.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>=<sp/>diagVal;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;<sp/>}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="group__GeneralGroup_1gab0c7c7d05d0592ff42fd599103bd5143" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>T<sp/><ref refid="group__GeneralGroup_1gab0c7c7d05d0592ff42fd599103bd5143" kindref="member">trace</ref>()<sp/>const<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>+<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>+<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="37" refid="group__GeneralGroup_1ga8d70252193181da8d5d1a8cd1393d59d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>T<sp/><ref refid="group__GeneralGroup_1ga8d70252193181da8d5d1a8cd1393d59d" kindref="member">normSq</ref>()<sp/>const<sp/>noexcept;</highlight></codeline>
 <codeline lineno="39" refid="group__GeneralGroup_1ga2e918619ba379fad0f391438ef143b82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/>T<sp/><ref refid="group__GeneralGroup_1ga2e918619ba379fad0f391438ef143b82" kindref="member">det</ref>()<sp/>const<sp/>noexcept;</highlight></codeline>
-<codeline lineno="41" refid="group__GeneralGroup_1gae429d9d10243a2e9b7e1446ed7235c36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref>&lt;T&gt;<sp/><ref refid="group__GeneralGroup_1gae429d9d10243a2e9b7e1446ed7235c36" kindref="member">inverse</ref>()<sp/>const<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae429d9d10243a2e9b7e1446ed7235c36" kindref="member">inverse</ref>(<sp/><ref refid="group__GeneralGroup_1ga2e918619ba379fad0f391438ef143b82" kindref="member">det</ref>()<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="43" refid="group__GeneralGroup_1gaac8fe52f2316a4d0bc9fe09739a230ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaac8fe52f2316a4d0bc9fe09739a230ef" kindref="member">inverse</ref>(<sp/>T<sp/><ref refid="group__GeneralGroup_1ga2e918619ba379fad0f391438ef143b82" kindref="member">det</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1gae429d9d10243a2e9b7e1446ed7235c36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref>&lt;T&gt;<sp/><ref refid="group__GeneralGroup_1gae429d9d10243a2e9b7e1446ed7235c36" kindref="member">inverse</ref>()<sp/>const<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae429d9d10243a2e9b7e1446ed7235c36" kindref="member">inverse</ref>(<sp/><ref refid="group__GeneralGroup_1ga2e918619ba379fad0f391438ef143b82" kindref="member">det</ref>()<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1gaac8fe52f2316a4d0bc9fe09739a230ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaac8fe52f2316a4d0bc9fe09739a230ef" kindref="member">inverse</ref>(<sp/>T<sp/><ref refid="group__GeneralGroup_1ga2e918619ba379fad0f391438ef143b82" kindref="member">det</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1ga7ea2ac738a97ccd6c1480da40d655c52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga7ea2ac738a97ccd6c1480da40d655c52" kindref="member">operator +=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>b<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref>;<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>;<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>;<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref>;<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>;<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="46" refid="group__GeneralGroup_1gabbcd8728baa9b50327af2ffcb090bc0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gabbcd8728baa9b50327af2ffcb090bc0a" kindref="member">operator -=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>b<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref>;<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>;<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>;<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref>;<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>;<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="47" refid="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" kindref="member">operator *=</ref>(<sp/>T<sp/>b<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>*=<sp/>b;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="48" refid="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" kindref="member">operator /=</ref>(<sp/>T<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga7ea2ac738a97ccd6c1480da40d655c52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga7ea2ac738a97ccd6c1480da40d655c52" kindref="member">operator +=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>b<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref>;<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>;<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>;<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref>;<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>;<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>+=<sp/>b.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1gabbcd8728baa9b50327af2ffcb090bc0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gabbcd8728baa9b50327af2ffcb090bc0a" kindref="member">operator -=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>b<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref>;<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>;<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>;<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref>;<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>;<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>-=<sp/>b.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" kindref="member">operator *=</ref>(<sp/>T<sp/>b<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>*=<sp/>b;<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>*=<sp/>b;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" kindref="member">operator /=</ref>(<sp/>T<sp/>b<sp/>)</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/>std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>/=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>/=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>/=<sp/>b;<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>/=<sp/>b;<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>/=<sp/>b;<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>/=<sp/>b;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
@@ -204,28 +251,28 @@
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>*=<sp/>(<sp/>1<sp/>/<sp/>b<sp/>);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>eigens(<sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/>*<sp/>eigenvectors<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/>const<sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt;T&gt;<sp/>eigenvector(<sp/>T<sp/>eigenvalue<sp/>)<sp/>const<sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>eigens(<sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/>*<sp/>eigenvectors<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/>const<sp/><ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt;T&gt;<sp/>eigenvector(<sp/>T<sp/>eigenvalue<sp/>)<sp/>const<sp/><ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref>&lt;T&gt;<sp/>pseudoinverse(<sp/>T<sp/>tol<sp/>=<sp/>std::numeric_limits&lt;T&gt;::epsilon(),<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>rank<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">,<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt;T&gt;<sp/>*<sp/>space<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal"><sp/>)<sp/>const<sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref>&lt;T&gt;<sp/>pseudoinverse(<sp/>T<sp/>tol<sp/>=<sp/>std::numeric_limits&lt;T&gt;::epsilon(),<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>rank<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">,<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt;T&gt;<sp/>*<sp/>space<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal"><sp/>)<sp/>const<sp/><ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal">template<sp/>&lt;typename<sp/>T&gt;</highlight></codeline>
-<codeline lineno="76" refid="group__GeneralGroup_1gafc689ce07450f684b99051e555894ee7" refkind="member"><highlight class="normal">inline<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt;T&gt;<sp/>operator<sp/>*(<sp/>const<sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref>&lt;T&gt;<sp/>&amp;<sp/>a,<sp/>const<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt;T&gt;<sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="76" refid="group__GeneralGroup_1gafc689ce07450f684b99051e555894ee7" refkind="member"><highlight class="normal">inline<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt;T&gt;<sp/>operator<sp/>*(<sp/>const<sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3</ref>&lt;T&gt;<sp/>&amp;<sp/>a,<sp/>const<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt;T&gt;<sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a.xx<sp/>*<sp/>b.<ref refid="group__GeneralGroup_1ga3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref><sp/>+<sp/>a.xy<sp/>*<sp/>b.y<sp/>+<sp/>a.xz<sp/>*<sp/>b.z,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a.xx<sp/>*<sp/>b.x<sp/>+<sp/>a.xy<sp/>*<sp/>b.y<sp/>+<sp/>a.xz<sp/>*<sp/>b.z,</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a.xy<sp/>*<sp/>b.x<sp/>+<sp/>a.yy<sp/>*<sp/>b.y<sp/>+<sp/>a.yz<sp/>*<sp/>b.z,</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a.xz<sp/>*<sp/>b.x<sp/>+<sp/>a.yz<sp/>*<sp/>b.y<sp/>+<sp/>a.zz<sp/>*<sp/>b.z</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="84"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="88" refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" kindref="member">outerSquare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>a<sp/>)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="88" refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" kindref="member">outerSquare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>a<sp/>)</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>res;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/>res;</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>=<sp/>a.<ref refid="group__GeneralGroup_1ga3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref><sp/>*<sp/>a.<ref refid="group__GeneralGroup_1ga3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref>;</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>=<sp/>a.<ref refid="group__GeneralGroup_1ga3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref><sp/>*<sp/>a.<ref refid="group__GeneralGroup_1ga4cbb29e67931176028f57f29b2bd6953" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>=<sp/>a.<ref refid="group__GeneralGroup_1ga3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref><sp/>*<sp/>a.<ref refid="group__GeneralGroup_1gae596ea6de55c00124d84150eadecd455" kindref="member">z</ref>;</highlight></codeline>
@@ -235,11 +282,11 @@
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="102" refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" kindref="member">outerSquare</ref>(<sp/>T<sp/>k,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>a<sp/>)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" kindref="member">outerSquare</ref>(<sp/>T<sp/>k,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>a<sp/>)</highlight></codeline>
 <codeline lineno="103"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ka<sp/>=<sp/>k<sp/>*<sp/>a;</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>res;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/>res;</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>=<sp/>ka.x<sp/>*<sp/>a.<ref refid="group__GeneralGroup_1ga3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref>;</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>=<sp/>ka.x<sp/>*<sp/>a.<ref refid="group__GeneralGroup_1ga4cbb29e67931176028f57f29b2bd6953" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>=<sp/>ka.x<sp/>*<sp/>a.<ref refid="group__GeneralGroup_1gae596ea6de55c00124d84150eadecd455" kindref="member">z</ref>;</highlight></codeline>
@@ -249,10 +296,10 @@
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
 <codeline lineno="113"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="119" refid="group__GeneralGroup_1ga58d4310ad87b99b94d1bea2f1059484b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga58d4310ad87b99b94d1bea2f1059484b" kindref="member">crossSquare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>a<sp/>)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="119" refid="group__GeneralGroup_1ga58d4310ad87b99b94d1bea2f1059484b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga58d4310ad87b99b94d1bea2f1059484b" kindref="member">crossSquare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>a<sp/>)</highlight></codeline>
 <codeline lineno="120"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>res<sp/>=<sp/><ref refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" kindref="member">outerSquare</ref>(<sp/>a<sp/>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/>res<sp/>=<sp/><ref refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" kindref="member">outerSquare</ref>(<sp/>a<sp/>);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>d<sp/>=<sp/>a.<ref refid="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" kindref="member">lengthSq</ref>();</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>-=<sp/>d;</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>-=<sp/>d;</highlight></codeline>
@@ -261,7 +308,7 @@
 <codeline lineno="127"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga300a438da6440ee7d2e92933bcfa6018" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>=<sp/>b.<ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>=<sp/>b.<ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>=<sp/>b.<ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>=<sp/>b.<ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>=<sp/>b.<ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>=<sp/>b.<ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
@@ -300,8 +347,8 @@
 <codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>T<sp/><ref refid="group__GeneralGroup_1ga8d70252193181da8d5d1a8cd1393d59d" kindref="member">SymMatrix3&lt;T&gt;::normSq</ref>()<sp/>const<sp/>noexcept</highlight></codeline>
 <codeline lineno="168"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqr(<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>)<sp/>+<sp/>sqr(<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>)<sp/>+<sp/>sqr(<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>)<sp/>+</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2<sp/>*<sp/>(<sp/>sqr(<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>)<sp/>+<sp/>sqr(<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>)<sp/>+<sp/>sqr(<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" kindref="member">sqr</ref>(<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" kindref="member">sqr</ref>(<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" kindref="member">sqr</ref>(<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>)<sp/>+</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2<sp/>*<sp/>(<sp/><ref refid="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" kindref="member">sqr</ref>(<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref><sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" kindref="member">sqr</ref>(<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" kindref="member">sqr</ref>(<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
@@ -320,18 +367,18 @@
 <codeline lineno="186"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal">Vector3&lt;T&gt;<sp/>SymMatrix3&lt;T&gt;::eigens(<sp/>Matrix3&lt;T&gt;<sp/>*<sp/>eigenvectors<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;::eigens</ref>(<sp/><ref refid="group__GeneralGroup_1ga9e4c2c0a4a07b11d0955d871b8125201" kindref="member">Matrix3&lt;T&gt;</ref><sp/>*<sp/>eigenvectors<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="190"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>q<sp/>=<sp/><ref refid="group__GeneralGroup_1gab0c7c7d05d0592ff42fd599103bd5143" kindref="member">trace</ref>()<sp/>/<sp/>3;</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>B<sp/>=<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>-<sp/><ref refid="group__GeneralGroup_1gad9dcf1d38df199d9b286299f52b8ea18" kindref="member">diagonal</ref>(<sp/>q<sp/>);</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p2<sp/>=<sp/>B.normSq();</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p<sp/>=<sp/>std::sqrt(<sp/>p2<sp/>/<sp/>6<sp/>);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3&lt;T&gt;<sp/>eig;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/>eig;</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>p<sp/>&lt;=<sp/>std::abs(<sp/>q<sp/>)<sp/>*<sp/>std::numeric_limits&lt;T&gt;::epsilon()<sp/>)</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eig<sp/>=<sp/>{<sp/>q,<sp/>q,<sp/>q<sp/>};</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>eigenvectors<sp/>)</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*eigenvectors<sp/>=<sp/>Matrix3&lt;T&gt;{};</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*eigenvectors<sp/>=<sp/><ref refid="group__GeneralGroup_1ga9e4c2c0a4a07b11d0955d871b8125201" kindref="member">Matrix3&lt;T&gt;</ref>{};</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>eig;</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>B.det()<sp/>/<sp/>(<sp/>2<sp/>*<sp/>p<sp/>*<sp/>p<sp/>*<sp/>p<sp/>);</highlight></codeline>
@@ -368,21 +415,21 @@
 <codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>eigenvector(<sp/>eig[0]<sp/>).normalized();</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>z<sp/>=<sp/>eigenvector(<sp/>eig[2]<sp/>).normalized();</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>cross(<sp/>z,<sp/>x<sp/>);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>y<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>z,<sp/>x<sp/>);</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*eigenvectors<sp/>=<sp/><ref refid="group__GeneralGroup_1gade0ff1f694a9e9b749005a2e81332928" kindref="member">Matrix3&lt;T&gt;::fromRows</ref>(<sp/>x,<sp/>y,<sp/>z<sp/>);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>eig;</highlight></codeline>
 <codeline lineno="247"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="250"><highlight class="normal">Vector3&lt;T&gt;<sp/>SymMatrix3&lt;T&gt;::eigenvector(<sp/>T<sp/>eigenvalue<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;::eigenvector</ref>(<sp/>T<sp/>eigenvalue<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="251"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3&lt;T&gt;<sp/>row0(<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>-<sp/>eigenvalue,<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>,<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>);</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3&lt;T&gt;<sp/>row1(<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>,<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>-<sp/>eigenvalue,<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3&lt;T&gt;<sp/>row2(<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>,<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>,<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>-<sp/>eigenvalue<sp/>);</highlight></codeline>
-<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3&lt;T&gt;<sp/>crs01<sp/>=<sp/>cross(<sp/>row0,<sp/>row1<sp/>);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3&lt;T&gt;<sp/>crs12<sp/>=<sp/>cross(<sp/>row1,<sp/>row2<sp/>);</highlight></codeline>
-<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3&lt;T&gt;<sp/>crs20<sp/>=<sp/>cross(<sp/>row2,<sp/>row0<sp/>);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/>row0(<sp/><ref refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref><sp/>-<sp/>eigenvalue,<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>,<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref><sp/>);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/>row1(<sp/><ref refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>,<sp/><ref refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref><sp/>-<sp/>eigenvalue,<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref><sp/>);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/>row2(<sp/><ref refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>,<sp/><ref refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>,<sp/><ref refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref><sp/>-<sp/>eigenvalue<sp/>);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/>crs01<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>row0,<sp/>row1<sp/>);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/>crs12<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>row1,<sp/>row2<sp/>);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/>crs20<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>row2,<sp/>row0<sp/>);</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>lsq01<sp/>=<sp/>crs01.lengthSq();</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>lsq12<sp/>=<sp/>crs12.lengthSq();</highlight></codeline>
 <codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>lsq20<sp/>=<sp/>crs20.lengthSq();</highlight></codeline>
@@ -397,10 +444,10 @@
 <codeline lineno="270"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"></highlight></codeline>
 <codeline lineno="272"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="273"><highlight class="normal"><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/>SymMatrix3&lt;T&gt;::pseudoinverse(<sp/>T<sp/>tol,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>rank,<sp/>Vector3&lt;T&gt;<sp/>*<sp/>space<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>)</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;::pseudoinverse</ref>(<sp/>T<sp/>tol,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>rank,<sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref><sp/>*<sp/>space<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="274"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kindref="member">SymMatrix3&lt;T&gt;</ref><sp/>res;</highlight></codeline>
-<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>Matrix3&lt;T&gt;<sp/>eigenvectors;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9e4c2c0a4a07b11d0955d871b8125201" kindref="member">Matrix3&lt;T&gt;</ref><sp/>eigenvectors;</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>eigenvalues<sp/>=<sp/>eigens(<sp/>&amp;eigenvectors<sp/>);</highlight></codeline>
 <codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>threshold<sp/>=<sp/>std::max(<sp/>std::abs(<sp/>eigenvalues[0]<sp/>),<sp/>std::abs(<sp/>eigenvalues[2]<sp/>)<sp/>)<sp/>*<sp/>tol;</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>myRank<sp/>=<sp/>0;</highlight></codeline>
@@ -415,9 +462,9 @@
 <codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>myRank<sp/>==<sp/>1<sp/>)</highlight></codeline>
 <codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*space<sp/>=<sp/>eigenvectors[i];</highlight></codeline>
 <codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>myRank<sp/>==<sp/>2<sp/>)</highlight></codeline>
-<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*space<sp/>=<sp/>cross(<sp/>*space,<sp/>eigenvectors[i]<sp/>);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*space<sp/>=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>*space,<sp/>eigenvectors[i]<sp/>);</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*space<sp/>=<sp/>Vector3&lt;T&gt;{};</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*space<sp/>=<sp/><ref refid="group__GeneralGroup_1gac878ba63f3f91f5ab032a38cd3a2c206" kindref="member">Vector3&lt;T&gt;</ref>{};</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>rank<sp/>)</highlight></codeline>
@@ -426,8 +473,8 @@
 <codeline lineno="299"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="300"><highlight class="normal"></highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="303"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix3.h"/>
+    <location file="MRMesh/MRSymMatrix3.h"/>
   </compounddef>
 </doxygen>

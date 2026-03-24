@@ -1,5 +1,5 @@
 var MRProgressReadWrite_8h =
 [
-    [ "readByBlocks", "MRProgressReadWrite_8h.html#ga43da20cc5f0077147d57b1af6226aa53", null ],
-    [ "writeByBlocks", "MRProgressReadWrite_8h.html#ga60a133e9f349b9183017b2b4abaf1b9b", null ]
+    [ "MR::readByBlocks", "group__GeneralGroup.html#ga5cabd0f1003a68746d60971e62984436", null ],
+    [ "MR::writeByBlocks", "group__GeneralGroup.html#ga1b9eb998df6d8a79c617e0230fdc6790", null ]
 ];

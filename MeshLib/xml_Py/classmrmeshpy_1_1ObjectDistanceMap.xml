@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectDistanceMap" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectDistanceMap</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1ObjectMeshHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectMeshHolder</basecompoundref>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39485" bodyend="39486"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40393" bodyend="40394"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a847569f216190c0c99a695f4736afbf8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39488" bodyend="39489"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40396" bodyend="40397"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1aac2e75a4101f6351238ae41469ad13b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39491" bodyend="39492"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40399" bodyend="40400"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -63,7 +63,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ObjectDistanceMap.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -74,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39493" bodyend="39494"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40401" bodyend="40402"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a23e7e645c58a1aca7809974369b1a84a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -99,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39495" bodyend="39496"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40403" bodyend="40404"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a34bbc4995ca2e7a029ce01df0773d583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -124,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39497" bodyend="39500"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40405" bodyend="40408"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a881200f79aca79b5fc872c334cdd718a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -143,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39501" bodyend="39502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40409" bodyend="40410"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a94f10096cd09a952f110f1123bc93cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -162,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39503" bodyend="39504"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40411" bodyend="40412"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a1d7c1b9a3a166fde6b983b93affb6942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -184,7 +183,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39505" bodyend="39506"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40413" bodyend="40414"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1aedec7420f9a9f47c77c54b30849ad46c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
@@ -202,7 +201,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39507" bodyend="39508"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40415" bodyend="40416"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1ae17141b84d021a55a3bb7b5fb3526cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
@@ -220,7 +219,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39509" bodyend="39510"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40417" bodyend="40418"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1ad443c02a67a280e87d39c752899cc75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
@@ -241,7 +240,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39511" bodyend="39512"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40419" bodyend="40420"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a0672d0c1744aaaac7b221309c053fa43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -261,7 +260,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39513" bodyend="39516"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40421" bodyend="40424"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1afc192403311c5dbba7c8d47f5f070259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -283,7 +282,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39517" bodyend="39518"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40425" bodyend="40426"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a4547e044933fcba7f42179b0d72505e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -304,7 +303,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39519" bodyend="39522"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40427" bodyend="40430"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a4e76507a680cbb5fae987188a2ad43b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -325,7 +324,7 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39523" bodyend="39526"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40431" bodyend="40434"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1aa78bc3f595345d38d39c99d3ea968cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -366,7 +365,7 @@ and after finishing in the rendering stream, call the function updateMesh
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39527" bodyend="39533"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40435" bodyend="40441"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a270bf3bb4e1d5ebe595bc72c4b192aa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -388,7 +387,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39534" bodyend="39535"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40442" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40442" bodyend="40443"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a728f9c3b70bcc06c8995b5e7208958bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -407,7 +406,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39536" bodyend="39537"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40444" bodyend="40445"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a9e1e2eab4b34336646077a31fb904bb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -431,7 +430,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39538" bodyend="39541"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40446" bodyend="40449"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -502,28 +501,214 @@ This class stores information about distance map object
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39478" bodyend="39541"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40386" bodyend="40449"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1aa11c35477076924c1d3101a45d78019c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a21da96a6ae7153f7c35f8a82cf8e9fe1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>actualSerializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4c9a5cdc889f952e88f15efc92859b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>addChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a628d57698bee030f4e37809eed20fdb6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>addChildBefore</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a14c3c142ce5c7a92531fcf914b1ffea2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>addTag</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a2ad7896d2c1449486f6beea09535797d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>addTexture</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a23e7e645c58a1aca7809974369b1a84a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a24d4d2c8cb947d7018b1e6bec6adf403" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>avgEdgeLen</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a34bbc4995ca2e7a029ce01df0773d583" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>calculateMesh</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a35f5a7bbb06be9169dbe752e0b8440e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>children</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3c285511171875eaa87d26a18bd45efc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>children</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a881200f79aca79b5fc872c334cdd718a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>className</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a94f10096cd09a952f110f1123bc93cc9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a32fa910c9a4cea13dfb676f13b6753ba" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>clearAncillaryTexture</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a1d7c1b9a3a166fde6b983b93affb6942" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>cloneTree</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aef43054cf4c656b003d29f636d92feec" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0c5dcae9192fc539bdcc889da920531c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>copyColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a7440ec67f10e7cbc3ef9013e02897b6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>copyTextureAndColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a13192fbe95a3e6fdfc978444daa1c127" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>creases</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ac14bfc84a13e614f3f323c64d59dfd99" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a567315111aee91b3dd5bfef4188b23b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>detachFromParent</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1aedec7420f9a9f47c77c54b30849ad46c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>extractDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a65c7d88a08101962845bc5639c967d56" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>flatShading</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6a88666654b2ba7770c3ef5c61e8ec2a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa15db7198ca559ab009ec3463811b174" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getAncillaryTexture</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a69dbbb188f67b2de5afd10d687f190a1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getAncillaryUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab816bcaf01f6340ccb934373bda8b917" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getBordersColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab85fd9f956b8a6983157c3c1adb35d2c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getBordersColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getColoringType</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getDirtyFlags</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1ae17141b84d021a55a3bb7b5fb3526cb2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1adcef66bb727f664afb3270e5ba0531ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getEdgesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab31582c85185f32cee8b9dd47ac03ae5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getEdgesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a746da9ccebb095aa5f9db5270b270680" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getEdgeWidth</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a39644596faef5a4e4e0568c965b40aa6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getFacesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1ad443c02a67a280e87d39c752899cc75d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0bc7bf205ae40d8b54f4d66974d15523" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getModelHash</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a72a874a6bd0f01992c0a462354b919a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getPointsColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a5fbd802793324d3bbedab33dd0b027e6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getPointsColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a009db400955d102bba43dd4e115023b1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getPointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1acceac36a0f3a7d30879ad0f6b41296e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ad36108faf37af684e51662c581aaf09f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getSelectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a1059654144a71c2bdc8ef5549119dec8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getSelectedEdgesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1acc5b4207e0eab0dd81630647120e2d19" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a12b3bbf47b6fb71a440613366c41f04a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getSelectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6c102bfb81bceca341a52ee4360484b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getSelectedFacesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a2572127748347f32ab0ba2e2b264df1b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getSelectedFacesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1aa1020074c1326a825c86467a0580791d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a170e223a4aaea08a889473ecb86698b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getTexture</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a8908877533f9f49a4d49d0ae62fe8f02" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getTexturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1afe4a39dd9388514aa869b62419a143d5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getTextures</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a0672d0c1744aaaac7b221309c053fa43" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getToWorldParameters</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ace44790f00af0453db7473aea2f974af" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1abe260d7deff9574e38554b3bd67fd5bc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a57fe4fe1f7e1397960b0735df502637a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a3ffd95e9ae64f3fa3e3f1b78ba9d2657" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getWorldTreeBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>globalVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af1017063423135eaa7a43c728fa9676c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>hasAncillaryTexture</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1afc192403311c5dbba7c8d47f5f070259" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab27fdb98b5878ebabf7300b8f2affb45" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>hasVisualRepresentation</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a4547e044933fcba7f42179b0d72505e5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a8d4d1bb4eba922f60258d53a0e7d929e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a33d0fafc2423205d5a3ba75eae112655" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a5a2cb58be1a7e062e9c502295eb6ce23" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isGlobalAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isLocked</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a08c496d5f2feda4ef87a2e68664cee68" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isMeshClosed</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isSelected</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1acea2aff8d75e3b354c19d335a57864d6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae07f108a03ac58b498b0f04b2d820244" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>meshPart</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a979dfdec04a5f6bfa7c8bd36eecd7b93" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>numComponents</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6bc1c5e373cd92f5a1c8dd0b504fdd21" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>numCreaseEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae01bf8a0c21bde1d04bc3109f8280366" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>numHandles</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa79354fc8f5c9ba8e1c30e0dc3fa16e9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>numHoles</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ac226179a47dbb3f0e9ac072552cbcae4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>numSelectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6f9876472180438fcfbf7a59f61cc6e1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>numSelectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ace0eebcd3a4c4a44bfb6342004b1641e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>numUndirectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa593f6befb32f6453133a516f1c863b8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>removeAllChildren</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a50fdb1e10c8b57d176b21fd1224c1292" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>removeTag</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>renderForPicker</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>renderUi</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af9ee0a98ce259adcc5162d34d6f9808d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>resetDirty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a4e76507a680cbb5fae987188a2ad43b4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3f27a64bfcdec74242fdf571a687c94c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>resetRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9d4920ba95eb61dd557cc7b77e8b1654" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>resetXf</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a39cb6c9d3969a7e57e2b736596ef336d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>sameModels</name></member>
+      <member refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ab58b403ef79b09798136fb04c5e7a99d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>selectedArea</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a47fa588b7d374f9bbbabae7ddab092ce" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>selectEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a904a8910a54963f4fb8485e1cafc6a6d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>selectFaces</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ad3fabcee6943ae65a1e80d88ecb26dc0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>serializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2db756ea98710dbbc11ae7d00752b069" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setAncillary</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1accd60316f3661d626766678c22320284" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setAncillaryTexture</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a9ede1c6526b7fc9ccb664a1b646db0f8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setAncillaryUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa4f77e03a6e7ff2ea27a21b3e1c3bc4f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setBordersColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0b1fb67b804f5631b17d8da2271b311b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setBordersColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setColoringType</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a036c340ba2296eda17345b0a8724d3aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setCreases</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae0e7868715bbb9606cad718a72eb8bd0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setData</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a90370e23c214c82c98540543e9c6f38d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae0814c2c450dc71340ad2c63febe9a71" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setDirtyFlagsFast</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1aa78bc3f595345d38d39c99d3ea968cd4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ac0a54262f9a55f334149bfbb27de3603" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setEdgesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a5f500e92d7a42fe985ee50fc1683950c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setEdgesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a722ef5a7e4faa0202500f219f7805daa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setEdgeWidth</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a92e35405b9bc97128ad58b0f1aad6ef5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setFacesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a9fbcd33ebcec842992fe69b97b11de34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setFlatShading</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setGlobalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setLocked</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aac4702d2617abf60328e511da05b9956" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setPointsColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a5ee12a0030576d035401c01210a12632" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setPointsColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a01bc162c74484a6f6cd6a3eb8a0b2d12" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setPointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a65315712584c483d3cb6c5befa96e61f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setSelectedEdgesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aaa208d9ad414b7a6290e9fafcf8d58e5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af5bb96b9b53fc73e90552809361a5e97" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setSelectedFacesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a33223601c682281675d012d4e17be367" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setSelectedFacesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a8659d3ca6569f9ba35b2da7aa09a744a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setSerializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a4101b8c2f2f2b8a7dab14b040a4bae35" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setTexturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a14e7b55554a0bb82db8f238281453f87" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setTextures</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aadc625903b402602f54d529afaf38cb4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa232c8a1604ba8e4df6c998dc938e655" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setWorldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa19f9528e669d68920059fa560ef527b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aac6bdfb45902aa99fc95799b508c57f5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setXfsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a270bf3bb4e1d5ebe595bc72c4b192aa3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ab39f51bc5e295bf79bf21e09e8a4374b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>shallowCloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a81fe3b89047200dec9832c065dd92ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>sortChildren</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a7eb9657fa3a50c124c95f2cd27fead99" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>StaticClassName</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a847569f216190c0c99a695f4736afbf8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1aac2e75a4101f6351238ae41469ad13b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aaf9980af82046f462a024730059368b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a6c92cdb11df4d895c639f0e26dca1c83" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a12a90ffff0f3f0d2f6054e8e82a63679" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>tags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ad547b10f369a850aff3b60d566fb65a8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>totalArea</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a728f9c3b70bcc06c8995b5e7208958bb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a2125910f91820bce1ddd7a0f413b3d53" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateAncillaryUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0c00c682699dacfe3cef5446996c3657" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateData</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa5be24d40de65e242fa6c56cae792628" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateFacesColorMap</name></member>
       <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a9e1e2eab4b34336646077a31fb904bb2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateMesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a2ce9c3820afa8bb168158108304b24dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateTexturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aff3de3e9f18709ef5116530251eb0aba" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateTextures</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a782f1f24dae769af851d7bc5ae0333ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a949e3a4800e457a42b7e06b7a82af8ce" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>visibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af6e17574c4689dd7f95c8a6d7a7a2c96" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>volume</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a0fe057c0f6fe9f8ee98bd8210faa983c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>worldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a157327fa8110ea13a8b12bf04748331d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05ee8acaa199b194040b1613d4038012" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

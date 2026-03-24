@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1GlTexture_1_1Settings" kind="struct" language="C++" prot="public">
     <compoundname>MR::GlTexture::Settings</compoundname>
-    <includes refid="MRGLTexture_8h" local="no">MRGLTexture.h</includes>
+    <includes refid="MRGLTexture_8h" local="no">MRViewer/MRGLTexture.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gafac6caf438f2fe584e2e968364cfbd8a" kind="variable"><name>resolution</name></member>
       <member refid="group__GeneralGroup_1ga3b834f386d4f814d5f03b43e229d4adb" kind="variable"><name>internalFormat</name></member>
@@ -18,7 +18,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="50" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="51" bodyend="67"/>
+    <location file="MRViewer/MRGLTexture.h" line="50" column="5" bodyfile="MRViewer/MRGLTexture.h" bodystart="51" bodyend="67"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga877a27fbb560e4c2b894f410f8d07eaf" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>filter</name></member>
       <member refid="group__GeneralGroup_1ga43504dbf4a7fab179ae9e99940385273" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>format</name></member>

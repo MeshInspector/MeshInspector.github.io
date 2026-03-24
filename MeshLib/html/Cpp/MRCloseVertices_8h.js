@@ -1,18 +1,18 @@
 var MRCloseVertices_8h =
 [
-    [ "findCloseVertices", "MRCloseVertices_8h.html#gaaafe75350688f71f77b0eddcf5a4f119", null ],
-    [ "findCloseVertices", "MRCloseVertices_8h.html#ga411bcccf305636fae1a39f5b16bef62d", null ],
-    [ "findCloseVertices", "MRCloseVertices_8h.html#gace6312ad613bc3339936cb5239430429", null ],
-    [ "findCloseVertices", "MRCloseVertices_8h.html#ga558ce068671d82609735a13471159683", null ],
-    [ "findSmallestCloseVertices", "MRCloseVertices_8h.html#ga02de87b02beba8a1ce3c03e425646045", null ],
-    [ "findSmallestCloseVertices", "MRCloseVertices_8h.html#ga89fc2fa34c591add37820e2a281513f8", null ],
-    [ "findSmallestCloseVertices", "MRCloseVertices_8h.html#ga92bdbda4e88b4bc55b26f1a36c85c85f", null ],
-    [ "findSmallestCloseVerticesUsingTree", "MRCloseVertices_8h.html#gadb5835a53edf43e46279c04a2ad4949b", null ],
-    [ "findTwinEdgePairs", "MRCloseVertices_8h.html#ga9d9b0e044fbac51cc63aca13ec9855d3", null ],
-    [ "findTwinEdges", "MRCloseVertices_8h.html#ga5c0bcac69775a441149a72b11c50859c", null ],
-    [ "findTwinEdges", "MRCloseVertices_8h.html#ga304ac48536f95f12c4f141319c4cd12f", null ],
-    [ "findTwinUndirectedEdgeHashMap", "MRCloseVertices_8h.html#ga6caaf25861d9a4702d6b7381072e6830", null ],
-    [ "findTwinUndirectedEdgeHashMap", "MRCloseVertices_8h.html#ga78de4ed5f0b59ba440f8c5a4ba100bd1", null ],
-    [ "findTwinUndirectedEdges", "MRCloseVertices_8h.html#gaa44e343ad4cf83164ad4771ea9e880b3", null ],
-    [ "findTwinUndirectedEdges", "MRCloseVertices_8h.html#ga21baf87f437b852b1e607b1dfa6319f2", null ]
+    [ "MR::findCloseVertices", "group__GeneralGroup.html#ga1762c793c3fc20c5621e471fbc321ec1", null ],
+    [ "MR::findCloseVertices", "group__GeneralGroup.html#ga9d8fa0786d96722342e7f4b06172c02b", null ],
+    [ "MR::findCloseVertices", "group__GeneralGroup.html#gabc59467351b65ab81702651c1442632c", null ],
+    [ "MR::findCloseVertices", "group__GeneralGroup.html#ga74ace7e6efa72b185564d653e800cfad", null ],
+    [ "MR::findSmallestCloseVertices", "group__GeneralGroup.html#gaaacf621951d6c1d514d9c5166e522471", null ],
+    [ "MR::findSmallestCloseVertices", "group__GeneralGroup.html#gabc86854b54977711c3782b7f1a1a033f", null ],
+    [ "MR::findSmallestCloseVertices", "group__GeneralGroup.html#ga0aa35814287f1d7f21a6ac0dd9dc7b50", null ],
+    [ "MR::findSmallestCloseVerticesUsingTree", "group__GeneralGroup.html#ga09fd6490cdc79109a61c6e6583bd3aa9", null ],
+    [ "MR::findTwinEdgePairs", "group__GeneralGroup.html#gad6fbfaa55add0cfefe87b27dfd6c9427", null ],
+    [ "MR::findTwinEdges", "group__GeneralGroup.html#gaa3c6e2ebbe054249a9169f7c85a99528", null ],
+    [ "MR::findTwinEdges", "group__GeneralGroup.html#gad5db1de53913184f447e3f8a25350ae3", null ],
+    [ "MR::findTwinUndirectedEdgeHashMap", "group__GeneralGroup.html#ga2edc903da41e3d5e30b6c021b8b13a08", null ],
+    [ "MR::findTwinUndirectedEdgeHashMap", "group__GeneralGroup.html#ga68c8c9caa070992eb8b7ac550d12cae9", null ],
+    [ "MR::findTwinUndirectedEdges", "group__GeneralGroup.html#ga6ea77d16b7c8f5f36880e82fe07ccb89", null ],
+    [ "MR::findTwinUndirectedEdges", "group__GeneralGroup.html#ga8ccdf8d51db1a5dc91a13ef13d29e30c", null ]
 ];

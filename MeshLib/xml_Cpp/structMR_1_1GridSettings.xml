@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1GridSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::GridSettings</compoundname>
-    <includes refid="MRGridSettings_8h" local="no">MRGridSettings.h</includes>
+    <includes refid="MRGridSettings_8h" local="no">MRMesh/MRGridSettings.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga46d7f5e53476c23ef05251179f3e15f0" kind="enum"><name>EdgeType</name></member>
       <member refid="group__GeneralGroup_1gaf447c539472e1a0723a984179f282685" kind="enum"><name>TriType</name></member>
@@ -66,7 +66,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="14" bodyend="45"/>
+    <location file="MRMesh/MRGridSettings.h" line="13" column="1" bodyfile="MRMesh/MRGridSettings.h" bodystart="14" bodyend="45"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga079676e2ac1f95a1b11ecb8b7f0042aa" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>dim</name></member>
       <member refid="group__GeneralGroup_1ga46d7f5e53476c23ef05251179f3e15f0" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>EdgeType</name></member>

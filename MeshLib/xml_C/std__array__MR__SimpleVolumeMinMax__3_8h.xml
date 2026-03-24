@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__array__MR__SimpleVolumeMinMax__3_8h" kind="file" language="C++">
+    <compoundname>std_array_MR_SimpleVolumeMinMax_3.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_array_MR_SimpleVolumeMinMax_3.h</label>
+        <link refid="std__array__MR__SimpleVolumeMinMax__3_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1ae893f73025a24449d9891282cca06a3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_SimpleVolumeMinMax_3 * MR_std_array_MR_SimpleVolumeMinMax_3_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a9fb237af2cc98ec076badbb5ee66ee65" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="21" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="21" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a3a13c263406eac8e2e60cc0760bf3cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_SimpleVolumeMinMax_3 * MR_std_array_MR_SimpleVolumeMinMax_3_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a147ae9e374cab9ef338fccfe87f848c4" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1aa9b2f4381e65dc6b4cbff8fa7d4338a4" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a9dda37e6a9a8f2f73ea299112bae35b5" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="26" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="26" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a67e103f71444bff5029963dd9f01e284" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_SimpleVolumeMinMax_3 * MR_std_array_MR_SimpleVolumeMinMax_3_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_array_MR_SimpleVolumeMinMax_3 *other)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a9fb237af2cc98ec076badbb5ee66ee65" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="32" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="32" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a6e8ea759286472f1342993934f4cacba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_array_MR_SimpleVolumeMinMax_3_AssignFromAnother</definition>
+        <argsstring>(MR_std_array_MR_SimpleVolumeMinMax_3 *_this, MR_PassBy other_pass_by, MR_std_array_MR_SimpleVolumeMinMax_3 *other)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_AssignFromAnother</name>
+        <param>
+          <type><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a9fb237af2cc98ec076badbb5ee66ee65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_array_MR_SimpleVolumeMinMax_3_Destroy</definition>
+        <argsstring>(const MR_std_array_MR_SimpleVolumeMinMax_3 *_this)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_Destroy</name>
+        <param>
+          <type>const <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a147ae9e374cab9ef338fccfe87f848c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_array_MR_SimpleVolumeMinMax_3_DestroyArray</definition>
+        <argsstring>(const MR_std_array_MR_SimpleVolumeMinMax_3 *_this)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_DestroyArray</name>
+        <param>
+          <type>const <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a9dda37e6a9a8f2f73ea299112bae35b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+        <definition>MRC_API const MR_std_array_MR_SimpleVolumeMinMax_3 * MR_std_array_MR_SimpleVolumeMinMax_3_OffsetPtr</definition>
+        <argsstring>(const MR_std_array_MR_SimpleVolumeMinMax_3 *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="48" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="48" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1aa9b2f4381e65dc6b4cbff8fa7d4338a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_SimpleVolumeMinMax_3 * MR_std_array_MR_SimpleVolumeMinMax_3_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_array_MR_SimpleVolumeMinMax_3 *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="52" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="52" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a3a38241e1a1236f1e15691724be67262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
+        <definition>MRC_API const MR_SimpleVolumeMinMax * MR_std_array_MR_SimpleVolumeMinMax_3_at</definition>
+        <argsstring>(const MR_std_array_MR_SimpleVolumeMinMax_3 *_this, size_t i)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_at</name>
+        <param>
+          <type>const <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="58" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="58" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a40357c3bf2ed01f345645215282b7b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
+        <definition>MRC_API MR_SimpleVolumeMinMax * MR_std_array_MR_SimpleVolumeMinMax_3_at_mut</definition>
+        <argsstring>(MR_std_array_MR_SimpleVolumeMinMax_3 *_this, size_t i)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_at_mut</name>
+        <param>
+          <type><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="64" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="64" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1ac561e465716ac5431242883ed2c0e7aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
+        <definition>MRC_API const MR_SimpleVolumeMinMax * MR_std_array_MR_SimpleVolumeMinMax_3_data</definition>
+        <argsstring>(const MR_std_array_MR_SimpleVolumeMinMax_3 *_this)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_data</name>
+        <param>
+          <type>const <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="69" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="69" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a2b38ad6c4916ef5b1ed9dccdf2ee90d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
+        <definition>MRC_API MR_SimpleVolumeMinMax * MR_std_array_MR_SimpleVolumeMinMax_3_data_mut</definition>
+        <argsstring>(MR_std_array_MR_SimpleVolumeMinMax_3 *_this)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_data_mut</name>
+        <param>
+          <type><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="74" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="74" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a08f0056e0c04911e150d639cbb2e9be9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
+        <definition>MRC_API const MR_SimpleVolumeMinMax * MR_std_array_MR_SimpleVolumeMinMax_3_begin</definition>
+        <argsstring>(const MR_std_array_MR_SimpleVolumeMinMax_3 *_this)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_begin</name>
+        <param>
+          <type>const <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="79" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="79" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1acf25cc618bc670dc0ede24d9aaefa8bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
+        <definition>MRC_API MR_SimpleVolumeMinMax * MR_std_array_MR_SimpleVolumeMinMax_3_begin_mut</definition>
+        <argsstring>(MR_std_array_MR_SimpleVolumeMinMax_3 *_this)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_begin_mut</name>
+        <param>
+          <type><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="84" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="84" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1aa00e8db3f1afd6b1d97e744e148a4a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
+        <definition>MRC_API const MR_SimpleVolumeMinMax * MR_std_array_MR_SimpleVolumeMinMax_3_end</definition>
+        <argsstring>(const MR_std_array_MR_SimpleVolumeMinMax_3 *_this)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_end</name>
+        <param>
+          <type>const <ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="89" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="89" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__array__MR__SimpleVolumeMinMax__3_8h_1a648c1f74b1c3f5b73fa4140de79b362c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
+        <definition>MRC_API MR_SimpleVolumeMinMax * MR_std_array_MR_SimpleVolumeMinMax_3_end_mut</definition>
+        <argsstring>(MR_std_array_MR_SimpleVolumeMinMax_3 *_this)</argsstring>
+        <name>MR_std_array_MR_SimpleVolumeMinMax_3_end_mut</name>
+        <param>
+          <type><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" line="94" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h" declline="94" declcolumn="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1ae893f73025a24449d9891282cca06a3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1ae893f73025a24449d9891282cca06a3f" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a3a13c263406eac8e2e60cc0760bf3cad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a3a13c263406eac8e2e60cc0760bf3cad" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a67e103f71444bff5029963dd9f01e284" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a67e103f71444bff5029963dd9f01e284" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a6e8ea759286472f1342993934f4cacba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a6e8ea759286472f1342993934f4cacba" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_AssignFromAnother</ref>(<ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a9fb237af2cc98ec076badbb5ee66ee65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a9fb237af2cc98ec076badbb5ee66ee65" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a147ae9e374cab9ef338fccfe87f848c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a147ae9e374cab9ef338fccfe87f848c4" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a9dda37e6a9a8f2f73ea299112bae35b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a9dda37e6a9a8f2f73ea299112bae35b5" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1aa9b2f4381e65dc6b4cbff8fa7d4338a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1aa9b2f4381e65dc6b4cbff8fa7d4338a4" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_OffsetMutablePtr</ref>(<ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a3a38241e1a1236f1e15691724be67262" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a3a38241e1a1236f1e15691724be67262" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a40357c3bf2ed01f345645215282b7b01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a40357c3bf2ed01f345645215282b7b01" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_at_mut</ref>(<ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1ac561e465716ac5431242883ed2c0e7aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1ac561e465716ac5431242883ed2c0e7aa" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a2b38ad6c4916ef5b1ed9dccdf2ee90d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a2b38ad6c4916ef5b1ed9dccdf2ee90d2" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_data_mut</ref>(<ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a08f0056e0c04911e150d639cbb2e9be9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a08f0056e0c04911e150d639cbb2e9be9" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1acf25cc618bc670dc0ede24d9aaefa8bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1acf25cc618bc670dc0ede24d9aaefa8bc" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_begin_mut</ref>(<ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1aa00e8db3f1afd6b1d97e744e148a4a91" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1aa00e8db3f1afd6b1d97e744e148a4a91" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a648c1f74b1c3f5b73fa4140de79b362c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="std__array__MR__SimpleVolumeMinMax__3_8h_1a648c1f74b1c3f5b73fa4140de79b362c" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3_end_mut</ref>(<ref refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_SimpleVolumeMinMax_3.h"/>
+  </compounddef>
+</doxygen>

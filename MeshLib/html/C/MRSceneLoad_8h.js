@@ -2,12 +2,9 @@ var MRSceneLoad_8h =
 [
     [ "MR_SceneLoad_Result", "MRSceneLoad_8h.html#aab1ebac5dd3413e876e62058be50fe65", null ],
     [ "MR_SceneLoad_Settings", "MRSceneLoad_8h.html#a07fc08c9a273afe8b79994ebec42a3cf", null ],
-    [ "MR_std_function_bool_from_float", "MRSceneLoad_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref", "MRSceneLoad_8h.html#ae05b92327ebef6e2adc7c5fec441d62b", null ],
     [ "MR_std_function_void_from_MR_SceneLoad_Result", "MRSceneLoad_8h.html#a074bbbf3c4014236aec15e19ecc44531", null ],
-    [ "MR_std_optional_MR_LengthUnit", "MRSceneLoad_8h.html#abfa36f7cf27ce4b9864dde0b998a0c96", null ],
     [ "MR_std_shared_ptr_MR_SceneRootObject", "MRSceneLoad_8h.html#a455fb1e45d1e455a5436d36279622bb2", null ],
-    [ "MR_std_string", "MRSceneLoad_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_std_vector_std_filesystem_path", "MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454", null ],
     [ "MR_SceneLoad_asyncFromAnySupportedFormat", "MRSceneLoad_8h.html#a4cb5cb37b1b62f59b54b21087d353b9c", null ],
     [ "MR_SceneLoad_fromAnySupportedFormat", "MRSceneLoad_8h.html#a0c09b40b038909b783e554e7ef97790a", null ],

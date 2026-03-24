@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PostDrawListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::PostDrawListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gad257fd42a294be0f29daa5eb4ad27cbd" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga6d4baebc484718242dcb7de8e2d75b24" kind="function"><name>~PostDrawListener</name></member>
-      <member refid="group__GeneralGroup_1ga236ae2c20bdef3b1c5b902d133b72c70" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga1e3fe180b8df6147f37ab7e9b0bb5607" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1ga05affc1a2bebb67a6d5111e3a324a96b" kind="function"><name>postDraw_</name></member>
@@ -52,9 +52,9 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="189" bodyend="195"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="188" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="189" bodyend="195"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga236ae2c20bdef3b1c5b902d133b72c70" prot="public" virt="virtual"><scope>MR::PostDrawListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga1e3fe180b8df6147f37ab7e9b0bb5607" prot="public" virt="virtual"><scope>MR::PostDrawListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::PostDrawListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::PostDrawListener</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1gad257fd42a294be0f29daa5eb4ad27cbd" prot="public" virt="non-virtual"><scope>MR::PostDrawListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>

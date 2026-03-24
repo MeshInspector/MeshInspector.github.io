@@ -1,13 +1,184 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__VoxelsLoadGroup" kind="group">
     <compoundname>VoxelsLoadGroup</compoundname>
     <title>Voxels Load</title>
     <innerclass refid="structMR_1_1VoxelsLoad_1_1RawParameters" prot="public">MR::VoxelsLoad::RawParameters</innerclass>
+    <innerclass refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" prot="public">MR::VoxelsLoad::LoadingTiffSettings</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GridType</name>
+        <qualifiedname>MR::VoxelsLoad::GridType</qualifiedname>
+        <enumvalue id="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7" prot="public">
+          <name>DenseGrid</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>consider values less than iso as outer area </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e" prot="public">
+          <name>LevelSet</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>consider values less than iso as inner area </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Determines iso-surface orientation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="84" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="85" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__VoxelsLoadGroup_1gac95950f875729ac15c011d99d4624d96" prot="public" static="no">
+        <type>Expected&lt; std::vector&lt; VdbVolume &gt; &gt;(*)(const std::filesystem::path &amp;, const ProgressCallback &amp;)</type>
+        <definition>using MR::VoxelsLoad::VoxelsLoader =  Expected&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const ProgressCallback&amp; )</definition>
+        <argsstring></argsstring>
+        <name>VoxelsLoader</name>
+        <qualifiedname>MR::VoxelsLoad::VoxelsLoader</qualifiedname>
+        <briefdescription>
+<para>MRVOXELS_NO_TIFF. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="105" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1gab1db96ec60477ec788bfe5aeb3596da2" prot="public" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::VoxelsLoad::RawParameters::dimensions</definition>
+        <argsstring></argsstring>
+        <name>dimensions</name>
+        <qualifiedname>MR::VoxelsLoad::RawParameters::dimensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="24" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1gafd3e66a2e50b601320d9254e884691dd" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::VoxelsLoad::RawParameters::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::VoxelsLoad::RawParameters::voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="25" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga5d28afdbdf8874a171bdaa3da9a77db7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::VoxelsLoad::RawParameters::gridLevelSet</definition>
+        <argsstring></argsstring>
+        <name>gridLevelSet</name>
+        <qualifiedname>MR::VoxelsLoad::RawParameters::gridLevelSet</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="26" column="10" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga69214b3d1697f4864e145aa2b9802cea" prot="public" static="no" mutable="no">
+        <type>ScalarType</type>
+        <definition>ScalarType MR::VoxelsLoad::RawParameters::scalarType</definition>
+        <argsstring></argsstring>
+        <name>scalarType</name>
+        <qualifiedname>MR::VoxelsLoad::RawParameters::scalarType</qualifiedname>
+        <initializer>{ ScalarType::Float32 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="27" column="16" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1gaafca990d1d688a3f2f9ce8ba0a67a3c5" prot="public" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::VoxelsLoad::LoadingTiffSettings::dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="95" column="27" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga39c8477a2a590bcaef5179d861b7f1de" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::VoxelsLoad::LoadingTiffSettings::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::voxelSize</qualifiedname>
+        <initializer>= { 1.0f, 1.0f, 1.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="96" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga162c946b965977a5048ed85b3b7d1293" prot="public" static="no" mutable="no">
+        <type>GridType</type>
+        <definition>GridType MR::VoxelsLoad::LoadingTiffSettings::gridType</definition>
+        <argsstring></argsstring>
+        <name>gridType</name>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::gridType</qualifiedname>
+        <initializer>= GridType::DenseGrid</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="97" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1gad7f6150701181ada771a2322643a89dd" prot="public" static="no" mutable="no">
+        <type>ProgressCallback</type>
+        <definition>ProgressCallback MR::VoxelsLoad::LoadingTiffSettings::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::cb</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="98" column="22" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1gad3e3783e957919006d682b65886541bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga8ce6022f00f55c40a634b016f91a3b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VdbVolume &gt;</type>
+        <definition>Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
         <argsstring>(const std::filesystem::path &amp;file, const RawParameters &amp;params, const ProgressCallback &amp;cb={})</argsstring>
         <name>fromRaw</name>
         <qualifiedname>MR::VoxelsLoad::fromRaw</qualifiedname>
@@ -31,11 +202,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="30" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="30" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="30" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="30" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga603131e52dfc2ce8aa33d3a0d0028878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gab0a9073a8190607740aa7a4e108a70ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VdbVolume &gt;</type>
+        <definition>Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
         <argsstring>(std::istream &amp;in, const RawParameters &amp;params, const ProgressCallback &amp;cb={})</argsstring>
         <name>fromRaw</name>
         <qualifiedname>MR::VoxelsLoad::fromRaw</qualifiedname>
@@ -59,11 +230,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="34" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="34" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="34" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="34" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga8d1d5e8fd4d557ab5cb0501f801e09c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; FloatGrid &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gab8b39ae86f2bd1e780c542ceebadc56d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FloatGrid &gt;</type>
+        <definition>Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
         <argsstring>(const std::filesystem::path &amp;file, const RawParameters &amp;params, const ProgressCallback &amp;cb={})</argsstring>
         <name>gridFromRaw</name>
         <qualifiedname>MR::VoxelsLoad::gridFromRaw</qualifiedname>
@@ -87,11 +258,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="38" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="38" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="38" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="38" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga7f875c47121fc2d63dc69e1376825a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; FloatGrid &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga433ccf3ee64b6d83ded8726d9bccd584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FloatGrid &gt;</type>
+        <definition>Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
         <argsstring>(std::istream &amp;in, const RawParameters &amp;params, const ProgressCallback &amp;cb={})</argsstring>
         <name>gridFromRaw</name>
         <qualifiedname>MR::VoxelsLoad::gridFromRaw</qualifiedname>
@@ -115,11 +286,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="43" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="43" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="43" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="43" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga36e0b89b1624754a51c853b7254c9223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; RawParameters &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; RawParameters &gt; MR::VoxelsLoad::findRawParameters</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gab02ac1c58396a89e54c4b384dd5142ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; RawParameters &gt;</type>
+        <definition>Expected&lt; RawParameters &gt; MR::VoxelsLoad::findRawParameters</definition>
         <argsstring>(std::filesystem::path &amp;file)</argsstring>
         <name>findRawParameters</name>
         <qualifiedname>MR::VoxelsLoad::findRawParameters</qualifiedname>
@@ -143,11 +314,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="49" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="49" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="49" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="49" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1gaa5b34db6cedd5a6c229f738a4b953212" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gae42a24cac2267bb02933d82f3153182a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VdbVolume &gt;</type>
+        <definition>Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>fromRaw</name>
         <qualifiedname>MR::VoxelsLoad::fromRaw</qualifiedname>
@@ -167,11 +338,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="52" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="52" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="52" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="52" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1gaff744634fa4916b622b9c213b3a37243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; FloatGrid &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga91731f11539ea11d1c4bd2dfbc25b2b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FloatGrid &gt;</type>
+        <definition>Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>gridFromRaw</name>
         <qualifiedname>MR::VoxelsLoad::gridFromRaw</qualifiedname>
@@ -191,11 +362,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="56" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="56" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="56" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="56" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1gae5828d9a431d4b30b9d90a66a7fa0e9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; std::vector&lt; VdbVolume &gt; &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; std::vector&lt; VdbVolume &gt; &gt; MR::VoxelsLoad::fromVdb</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga7b175c416a672c40b25a2ec4bab31047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; VdbVolume &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; VdbVolume &gt; &gt; MR::VoxelsLoad::fromVdb</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>fromVdb</name>
         <qualifiedname>MR::VoxelsLoad::fromVdb</qualifiedname>
@@ -215,11 +386,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="60" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="60" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="60" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="60" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga292cb0932a07bdafb7ba56453be65262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromVdb</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga45ad7e33491adf48887a084a760ce0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromVdb</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>gridsFromVdb</name>
         <qualifiedname>MR::VoxelsLoad::gridsFromVdb</qualifiedname>
@@ -238,11 +409,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="63" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="63" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="63" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="63" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga17380baf5a009298d3c817ed07b4b43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromVdb</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga255028947dcc30bbf215b5da697a7e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromVdb</definition>
         <argsstring>(std::istream &amp;in, const ProgressCallback &amp;cb={})</argsstring>
         <name>gridsFromVdb</name>
         <qualifiedname>MR::VoxelsLoad::gridsFromVdb</qualifiedname>
@@ -261,11 +432,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="65" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="65" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="65" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="65" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga3a4b1b8a761fbb02df49c120adf8a866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromGav</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gac56550c38609cdf38fcf34f3740e8f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VdbVolume &gt;</type>
+        <definition>Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromGav</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>fromGav</name>
         <qualifiedname>MR::VoxelsLoad::fromGav</qualifiedname>
@@ -285,11 +456,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="70" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="70" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="70" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="70" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1gab4eb40aeebde5d9880345caadb3a0ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromGav</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga6e416ae7982ee1812f92be62d196d48d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VdbVolume &gt;</type>
+        <definition>Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromGav</definition>
         <argsstring>(std::istream &amp;in, const ProgressCallback &amp;cb={})</argsstring>
         <name>fromGav</name>
         <qualifiedname>MR::VoxelsLoad::fromGav</qualifiedname>
@@ -309,11 +480,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="72" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="72" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="72" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="72" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga9c5c70dae47d427c0b4441b8b1df6b17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gad303045560cb427689099a6b7fd25789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromAnySupportedFormat</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>gridsFromAnySupportedFormat</name>
         <qualifiedname>MR::VoxelsLoad::gridsFromAnySupportedFormat</qualifiedname>
@@ -333,11 +504,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="76" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="76" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="76" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="76" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga112e15838444077291559cd2320baedb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Expected&lt; std::vector&lt; VdbVolume &gt; &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; std::vector&lt; VdbVolume &gt; &gt; MR::VoxelsLoad::fromAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga1679273711f98deaa8bb82cf59834512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; VdbVolume &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; VdbVolume &gt; &gt; MR::VoxelsLoad::fromAnySupportedFormat</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>fromAnySupportedFormat</name>
         <qualifiedname>MR::VoxelsLoad::fromAnySupportedFormat</qualifiedname>
@@ -357,7 +528,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="80" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="80" declcolumn="23"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="80" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="80" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gaa3493438ee99f77d8e1ae26c176c0453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VdbVolume &gt;</type>
+        <definition>Expected&lt; VdbVolume &gt; MR::VoxelsLoad::loadTiffDir</definition>
+        <argsstring>(const LoadingTiffSettings &amp;settings)</argsstring>
+        <name>loadTiffDir</name>
+        <qualifiedname>MR::VoxelsLoad::loadTiffDir</qualifiedname>
+        <param>
+          <type>const LoadingTiffSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Load voxels from a set of TIFF files. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="101" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="101" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

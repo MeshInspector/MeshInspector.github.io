@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1HistoryAction" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::HistoryAction</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1ChangVoxelSelectionAction" prot="public" virt="non-virtual">mrmeshpy.ChangVoxelSelectionAction</derivedcompoundref>
@@ -47,6 +47,7 @@
     <derivedcompoundref refid="classmrmeshpy_1_1PartialChangeMeshDataAction" prot="public" virt="non-virtual">mrmeshpy.PartialChangeMeshDataAction</derivedcompoundref>
     <derivedcompoundref refid="classmrmeshpy_1_1PartialChangeMeshPointsAction" prot="public" virt="non-virtual">mrmeshpy.PartialChangeMeshPointsAction</derivedcompoundref>
     <derivedcompoundref refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction" prot="public" virt="non-virtual">mrmeshpy.PartialChangeMeshTopologyAction</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction" prot="public" virt="non-virtual">mrmeshpy.VersatileChangeMeshPointsAction</derivedcompoundref>
     <innerclass refid="classmrmeshpy_1_1HistoryAction_1_1Type" prot="public">mrmeshpy::HistoryAction::Type</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -157,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22884" bodyend="22885"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22941" bodyend="22942"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -212,6 +213,7 @@
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a96a9c87af286f280df260484be753562">action</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshPointsAction_1ab2af275f0bae3f91a9c44e5bda514e92">action</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a03611df60e306bfee439e1a599ad5b74">action</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1afa6b1acd832a65a255b788333794629e">action</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -228,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22886" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22886" bodyend="22889"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22943" bodyend="22946"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -281,6 +283,7 @@
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a7cc32cb545443063b619a3745d3f1457">heapBytes</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshPointsAction_1a08e812dd11f4f67f1e7a492eeb6d3b97">heapBytes</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a5ca8f2dc6b797886452a9cf2aa18efd7">heapBytes</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1adccae973b664ae2bf9c81a167969a4dc">heapBytes</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -293,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22890" bodyend="22893"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22947" bodyend="22950"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -346,6 +349,7 @@
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a6922013aca4dd8eeb7f162ea00e40829">name</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshPointsAction_1ae32cd6cc0f2fde9760c71e45ddfd0ef9">name</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a3e846d4d4cd0540d260d8c5577dee9ab">name</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1abfe1b14bb1956027f118479435698966">name</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -356,7 +360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22894" bodyend="22895"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22951" bodyend="22952"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -642,8 +646,14 @@ Abstract class for history actions
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="47">
+        <label>mrmeshpy.VersatileChangeMeshPointsAction</label>
+        <link refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22840" bodyend="22895"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22897" bodyend="22952"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction</scope><name>action</name></member>
       <member refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction</scope><name>heapBytes</name></member>

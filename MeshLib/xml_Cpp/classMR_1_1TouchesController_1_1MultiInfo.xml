@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TouchesController_1_1MultiInfo" kind="class" language="C++" prot="private">
     <compoundname>MR::TouchesController::MultiInfo</compoundname>
     <sectiondef kind="public-type">
@@ -20,7 +20,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="52" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="53" bodyend="68"/>
+    <location file="MRViewer/MRTouchesController.h" line="52" column="5" bodyfile="MRViewer/MRTouchesController.h" bodystart="53" bodyend="68"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad95ec3590677f5afd0f6674057b203a7" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>Finger</name></member>
       <member refid="group__GeneralGroup_1ga1b9c7af06580db35681b3d42eb3c8901" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getFingerById</name></member>

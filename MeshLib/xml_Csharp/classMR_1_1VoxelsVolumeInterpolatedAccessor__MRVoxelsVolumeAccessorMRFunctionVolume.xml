@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</basecompoundref>
@@ -43,7 +43,7 @@
           <declname>accessor</declname>
         </param>
         <briefdescription>
-<para>create an accessor instance that stores references to volume and its accessor the volume should not modified while it is accessed by this class Generated from constructor <computeroutput>MR.VoxelsVolumeInterpolatedAccessor&lt;MR.VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&gt;&gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
+<para>create an accessor instance that stores references to volume and its accessor the volume should not modified while it is accessed by this class Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;&amp;amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -66,7 +66,7 @@
           <declname>accessor</declname>
         </param>
         <briefdescription>
-<para>a copying-like constructor with explicitly provided accessor Generated from constructor <computeroutput>MR.VoxelsVolumeInterpolatedAccessor&lt;MR.VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&gt;&gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
+<para>a copying-like constructor with explicitly provided accessor Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;&amp;amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -76,50 +76,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>helper class for generalized access to voxel volume data with trilinear interpolation coordinate: 0 voxelSize | | I<mdash/>*<mdash/>I<mdash/>*<mdash/>I<mdash/> | | | value: [0] [1] [2] ... note: this class is as thread-safe as the underlying Accessor e.g. VoxelsVolumeAccessor&lt;VdbVolume&gt; is not thread-safe (but several instances on same volume is thread-safe) Generated from class <computeroutput>MR.VoxelsVolumeInterpolatedAccessor&lt;MR.VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>helper class for generalized access to voxel volume data with trilinear interpolation coordinate: 0 voxelSize | | I<mdash/>*<mdash/>I<mdash/>*<mdash/>I<mdash/> | | | value: [0] [1] [2] ... note: this class is as thread-safe as the underlying Accessor e.g. VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>&amp;gt; is not thread-safe (but several instances on same volume is thread-safe) Generated from class <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</label>
         <link refid="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</label>
         <link refid="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="393" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="394" bodyend="423"/>

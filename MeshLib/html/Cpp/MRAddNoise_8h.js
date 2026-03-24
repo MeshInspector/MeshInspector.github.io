@@ -1,5 +1,5 @@
 var MRAddNoise_8h =
 [
-    [ "addNoise", "MRAddNoise_8h.html#gaa39ca70940bf3fdb0fc23f48f8d54101", null ],
-    [ "addNoise", "MRAddNoise_8h.html#gac87c8628100309ba212e32c882cb85e0", null ]
+    [ "MR::addNoise", "group__GeneralGroup.html#gacd4364d821d22b26a1ca1f4b1b3a7d00", null ],
+    [ "MR::addNoise", "group__GeneralGroup.html#ga338195e16e71101c8dc2efe46c3d558a", null ]
 ];

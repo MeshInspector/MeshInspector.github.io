@@ -1,6 +1,6 @@
 var MROrder_8h =
 [
-    [ "getEdgeOrdering", "MROrder_8h.html#ga92ff5703efae9bb282ac16c6d9876e01", null ],
-    [ "getOptimalFaceOrdering", "MROrder_8h.html#ga30f8a681dc92effd39120ba76d84daa5", null ],
-    [ "getVertexOrdering", "MROrder_8h.html#gaaf96c4ae6f54b13630e2800975f7b4c7", null ]
+    [ "MR::getEdgeOrdering", "group__GeneralGroup.html#ga349bf2ff50da76fb348ce2014d9900d8", null ],
+    [ "MR::getOptimalFaceOrdering", "group__GeneralGroup.html#ga23e34559729eb030740a98ba96839023", null ],
+    [ "MR::getVertexOrdering", "group__GeneralGroup.html#ga064094d50cec191ddf9c9d7087b880ae", null ]
 ];

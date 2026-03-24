@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PositionVertsSmoothlyParams" kind="class" language="C#" prot="public">
     <compoundname>MR::PositionVertsSmoothlyParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PositionVertsSmoothlyParams</basecompoundref>
@@ -11,13 +11,13 @@
         <name>region</name>
         <qualifiedname>MR.PositionVertsSmoothlyParams.region</qualifiedname>
         <briefdescription>
+<para>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &amp;gt; 0 </para>
         </briefdescription>
         <detaileddescription>
-<para>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="173" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="174" bodyend="183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="185" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="186" bodyend="195"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PositionVertsSmoothlyParams_1a012d8cfc94f382b942081b3970b0b5cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_VertCoords</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="186" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="187" bodyend="196"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="200" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="201" bodyend="210"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PositionVertsSmoothlyParams_1aca58e5956789b910df19df0b594d510a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -47,11 +47,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="199" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="199" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="215" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="215" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1PositionVertsSmoothlyParams_1a49933e15171260a292fd6809559d70fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_FloatFuncFromMRVertId</type>
-        <definition>new unsafe MR.Std.Function_FloatFuncFromMRVertId MR.PositionVertsSmoothlyParams.vertStabilizers</definition>
+      <memberdef kind="property" id="classMR_1_1PositionVertsSmoothlyParams_1a5328cb95ebc89d7cc19c37bc2ef99424" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Float_From_MRVertId</type>
+        <definition>new unsafe MR.Std.Function_Float_From_MRVertId MR.PositionVertsSmoothlyParams.vertStabilizers</definition>
         <argsstring></argsstring>
         <name>vertStabilizers</name>
         <qualifiedname>MR.PositionVertsSmoothlyParams.vertStabilizers</qualifiedname>
@@ -62,11 +62,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="202" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="202" bodyend="202"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="220" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="220" bodyend="220"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1PositionVertsSmoothlyParams_1a666ae59729a2dedde6f2b9aab091e8f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_FloatFuncFromMRUndirectedEdgeId</type>
-        <definition>new unsafe MR.Std.Function_FloatFuncFromMRUndirectedEdgeId MR.PositionVertsSmoothlyParams.edgeWeights</definition>
+      <memberdef kind="property" id="classMR_1_1PositionVertsSmoothlyParams_1afc58b8fcc01b785976e635a0f6b578c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Float_From_MRUndirectedEdgeId</type>
+        <definition>new unsafe MR.Std.Function_Float_From_MRUndirectedEdgeId MR.PositionVertsSmoothlyParams.edgeWeights</definition>
         <argsstring></argsstring>
         <name>edgeWeights</name>
         <qualifiedname>MR.PositionVertsSmoothlyParams.edgeWeights</qualifiedname>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="205" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="205" bodyend="205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="225" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="225" bodyend="225"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="231" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="231" bodyend="235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="251" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="251" bodyend="255"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="241" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="241" bodyend="247"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="261" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="261" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PositionVertsSmoothlyParams_1ab576d0b7aced2845f7acf6bde48a01bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="252" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="252" bodyend="262"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="272" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="272" bodyend="282"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PositionVertsSmoothlyParams_1a0ab443d9ad1c058d4d3cc3d81a18d294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PositionVertsSmoothlyParams_1a9eb281de4ec9a415a1c706cbb38549b9" kindref="member">MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="267" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="267" bodyend="274"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="287" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="287" bodyend="294"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PositionVertsSmoothlyParams_1ad0c5b73d80850ef6937e90bea62d6656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PositionVertsSmoothlyParams_1a9eb281de4ec9a415a1c706cbb38549b9" kindref="member">MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="279" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="279" bodyend="279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="299" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="299" bodyend="299"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PositionVertsSmoothlyParams_1ade85b258bd77f31c55d75d448bfc0145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PositionVertsSmoothlyParams_1a9eb281de4ec9a415a1c706cbb38549b9" kindref="member">MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="284" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="284" bodyend="284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="304" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="304" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PositionVertsSmoothlyParams_1a543c96f1332089058abaf07978109066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PositionVertsSmoothlyParams" kindref="compound">MR.PositionVertsSmoothlyParams</ref></type>
@@ -223,13 +223,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PositionVertsSmoothlyParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PositionVertsSmoothlyParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="289" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="289" bodyend="296"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="309" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="309" bodyend="316"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -238,51 +238,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PositionVertsSmoothlyParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PositionVertsSmoothlyParams</label>
         <link refid="classMR_1_1PositionVertsSmoothlyParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PositionVertsSmoothlyParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PositionVertsSmoothlyParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PositionVertsSmoothlyParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PositionVertsSmoothlyParams</label>
         <link refid="classMR_1_1PositionVertsSmoothlyParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PositionVertsSmoothlyParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PositionVertsSmoothlyParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="169" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="170" bodyend="297"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="179" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="180" bodyend="317"/>
     <listofallmembers>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1a543c96f1332089058abaf07978109066" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>assign</name></member>
-      <member refid="classMR_1_1PositionVertsSmoothlyParams_1a666ae59729a2dedde6f2b9aab091e8f5" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>edgeWeights</name></member>
+      <member refid="classMR_1_1PositionVertsSmoothlyParams_1afc58b8fcc01b785976e635a0f6b578c0" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>edgeWeights</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1aa0ecb126c66507e33033927a6c4c6cd0" prot="package" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1a9eb281de4ec9a415a1c706cbb38549b9" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1ab576d0b7aced2845f7acf6bde48a01bb" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
@@ -292,7 +292,7 @@
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1aa930c5cf73dc2eef162868fbdf33c1d0" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>region</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1aca58e5956789b910df19df0b594d510a" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>stabilizer</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1a012d8cfc94f382b942081b3970b0b5cf" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>vertShifts</name></member>
-      <member refid="classMR_1_1PositionVertsSmoothlyParams_1a49933e15171260a292fd6809559d70fe" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>vertStabilizers</name></member>
+      <member refid="classMR_1_1PositionVertsSmoothlyParams_1a5328cb95ebc89d7cc19c37bc2ef99424" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>vertStabilizers</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

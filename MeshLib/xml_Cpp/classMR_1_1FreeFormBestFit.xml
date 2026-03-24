@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FreeFormBestFit" kind="class" language="C++" prot="public">
     <compoundname>MR::FreeFormBestFit</compoundname>
-    <includes refid="MRFreeFormDeformer_8h" local="no">MRFreeFormDeformer.h</includes>
+    <includes refid="MRFreeFormDeformer_8h" local="no">MRMesh/MRFreeFormDeformer.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga8fe1592c31aa91938b8b6d27413b9d12" kind="variable"><name>box_</name></member>
       <member refid="group__GeneralGroup_1ga30c8326a9b19da3efec6be32f4c5a5fa" kind="variable"><name>resolution_</name></member>
@@ -18,13 +18,13 @@
       <member refid="group__GeneralGroup_1gad8b84691b2fb21f55408efdae1227f44" kind="variable"><name>stabilizer_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gab4da354aabbcd433f8e592efba7472a7" kind="function"><name>FreeFormBestFit</name></member>
-      <member refid="group__GeneralGroup_1ga11e739e1974c8b474fb6f111f59b9cb8" kind="function"><name>addPair</name></member>
+      <member refid="group__GeneralGroup_1ga5710d8090432098f5a13940a6904d5b5" kind="function"><name>FreeFormBestFit</name></member>
+      <member refid="group__GeneralGroup_1ga6815b644f737674d9bbb9a07956f50e6" kind="function"><name>addPair</name></member>
       <member refid="group__GeneralGroup_1ga5e0c21c2de7ea212b991b59d105e79bd" kind="function"><name>addPair</name></member>
-      <member refid="group__GeneralGroup_1ga92fb64c83b3d706c39e60b22c99bdfd1" kind="function"><name>addOther</name></member>
+      <member refid="group__GeneralGroup_1ga2fc1ccc14384faa1050bccc388646018" kind="function"><name>addOther</name></member>
       <member refid="group__GeneralGroup_1ga7da32b588679f5a44bb7394b8906ed3c" kind="function"><name>setStabilizer</name></member>
       <member refid="group__GeneralGroup_1ga74da50410f7eed1cfc466b2a63ba919d" kind="function"><name>getStabilizer</name></member>
-      <member refid="group__GeneralGroup_1ga8ba45d03a34b8ab81b1d6ecbc6893453" kind="function"><name>findBestDeformationReferenceGrid</name></member>
+      <member refid="group__GeneralGroup_1gaf1133ce4ddb7d0dde40e11f2bf975bb8" kind="function"><name>findBestDeformationReferenceGrid</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga966ec12838011d8891d2ccd03354d44c" kind="function"><name>stabilize_</name></member>
@@ -34,16 +34,16 @@
     <detaileddescription>
 <para>Class to accumulate source and target points for free form alignment Calculates best Free Form transform to fit given source-&gt;target deformation origin ref grid as box corners ( resolution parameter specifies how to divide box ) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h" bodystart="56" bodyend="93"/>
+    <location file="MRMesh/MRFreeFormDeformer.h" line="55" column="1" bodyfile="MRMesh/MRFreeFormDeformer.h" bodystart="56" bodyend="93"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3ad349267b23584e4ae70fef20401b78" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>accumA_</name></member>
       <member refid="group__GeneralGroup_1gaf5e802137c3b7213a907e03f4e1eafc9" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>accumB_</name></member>
-      <member refid="group__GeneralGroup_1ga92fb64c83b3d706c39e60b22c99bdfd1" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addOther</name></member>
-      <member refid="group__GeneralGroup_1ga11e739e1974c8b474fb6f111f59b9cb8" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addPair</name></member>
+      <member refid="group__GeneralGroup_1ga2fc1ccc14384faa1050bccc388646018" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addOther</name></member>
+      <member refid="group__GeneralGroup_1ga6815b644f737674d9bbb9a07956f50e6" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addPair</name></member>
       <member refid="group__GeneralGroup_1ga5e0c21c2de7ea212b991b59d105e79bd" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addPair</name></member>
       <member refid="group__GeneralGroup_1ga8fe1592c31aa91938b8b6d27413b9d12" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>box_</name></member>
-      <member refid="group__GeneralGroup_1ga8ba45d03a34b8ab81b1d6ecbc6893453" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>findBestDeformationReferenceGrid</name></member>
-      <member refid="group__GeneralGroup_1gab4da354aabbcd433f8e592efba7472a7" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>FreeFormBestFit</name></member>
+      <member refid="group__GeneralGroup_1gaf1133ce4ddb7d0dde40e11f2bf975bb8" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>findBestDeformationReferenceGrid</name></member>
+      <member refid="group__GeneralGroup_1ga5710d8090432098f5a13940a6904d5b5" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>FreeFormBestFit</name></member>
       <member refid="group__GeneralGroup_1ga74da50410f7eed1cfc466b2a63ba919d" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>getStabilizer</name></member>
       <member refid="group__GeneralGroup_1gaa4f1e30fd09c5a29060634281e3441a1" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>pascalLineX_</name></member>
       <member refid="group__GeneralGroup_1ga1f389ae479825dd8ce5be82337e16a92" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>pascalLineY_</name></member>

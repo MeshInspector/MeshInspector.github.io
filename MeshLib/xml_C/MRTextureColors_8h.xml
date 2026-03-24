@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTextureColors_8h" kind="file" language="C++">
     <compoundname>MRTextureColors.h</compoundname>
     <includes refid="MRColor_8h" local="no">MRCMesh/MRColor.h</includes>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="2">
         <label>MRCMesh/MRColor.h</label>
@@ -13,21 +13,21 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRCMesh/MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -35,7 +35,7 @@
         <link refid="MRTextureColors_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -47,9 +47,9 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -61,103 +61,36 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="6">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="9">
         <label>stdbool.h</label>
       </node>
-      <node id="8">
+      <node id="7">
         <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRTextureColors_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="11" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTextureColors_8h_1ac5c5abdc9ba8adb6f8e522246978c790" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref></type>
-        <definition>typedef struct MR_MeshTexture MR_MeshTexture</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTexture</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="12" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTextureColors_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="13" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTextureColors_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" prot="public" static="no">
-        <type>struct <ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref></type>
-        <definition>typedef struct MR_TriCornerUVCoords MR_TriCornerUVCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_TriCornerUVCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="14" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTextureColors_8h_1a20dc7d636220f61a60c7ae92b8caa768" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref></type>
-        <definition>typedef struct MR_VertColors MR_VertColors</definition>
-        <argsstring></argsstring>
-        <name>MR_VertColors</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTextureColors_8h_1af7ea855ac419f239c2499023478617a4" prot="public" static="no">
-        <type>struct <ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_optional_MR_Vector2f MR_std_optional_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="16" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" prot="public" static="no">
         <type>struct <ref refid="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" kindref="member">MR_std_optional_MR_VertCoords2</ref></type>
         <definition>typedef struct MR_std_optional_MR_VertCoords2 MR_std_optional_MR_VertCoords2</definition>
@@ -166,15 +99,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a single <computeroutput>MR::VertCoords2</computeroutput> or nothing. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="17" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" line="17" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" bodystart="17" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRTextureColors_8h_1abc512275e849159d9048205cc588d478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_Vector2f * MR_findVertexUV</definition>
         <argsstring>(const MR_MeshTopology *topology, MR_VertId v, const MR_TriCornerUVCoords *triCornerUvCoords)</argsstring>
         <name>MR_findVertexUV</name>
@@ -193,14 +127,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns UV-coordinates at the given vertex if they are the same in all surrounding triangles; otherwise returns std::nullopt Generated from function <computeroutput>MR::findVertexUV</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>triCornerUvCoords</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>returns UV-coordinates at the given vertex if they are the same in all surrounding triangles; otherwise returns std::nullopt Generated from function <computeroutput>MR::findVertexUV</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>triCornerUvCoords</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__Vector2f_8h_1aa91a903785a5927b2c5b937179dde768" kindref="member">MR_std_optional_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="26" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" declline="26" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" line="26" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" declline="26" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRTextureColors_8h_1a152918f2f8fe1a498a3fbc67fc63a70e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" kindref="member">MR_std_optional_MR_VertCoords2</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" kindref="member">MR_std_optional_MR_VertCoords2</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_VertCoords2 * MR_findVertexUVs</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_TriCornerUVCoords *triCornerUvCoords)</argsstring>
         <name>MR_findVertexUVs</name>
@@ -215,14 +149,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if all mesh vertices have unique UV-coordinates in all triangles, then returns them; otherwise returns std::nullopt Generated from function <computeroutput>MR::findVertexUVs</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>triCornerUvCoords</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertCoords2_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>if all mesh vertices have unique UV-coordinates in all triangles, then returns them; otherwise returns std::nullopt Generated from function <computeroutput>MR::findVertexUVs</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>triCornerUvCoords</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__VertCoords2_8h_1aee8a4b904142512a6bb550335f0a57d5" kindref="member">MR_std_optional_MR_VertCoords2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="34" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" declline="34" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" line="34" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" declline="34" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRTextureColors_8h_1a00767f6c99c6759d0b97eaa0bc0d3ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
         <definition>MRC_API MR_Color MR_sampleVertexColor</definition>
         <argsstring>(const MR_Mesh *mesh, MR_VertId v, const MR_MeshTexture *tex, const MR_TriCornerUVCoords *triCornerUvCoords)</argsstring>
         <name>MR_sampleVertexColor</name>
@@ -249,10 +183,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="42" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" declline="42" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" line="42" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" declline="42" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRTextureColors_8h_1a4d7940b3800fd11a3949d0344d8b79df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
         <definition>MRC_API MR_VertColors * MR_sampleVertexColors</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_MeshTexture *tex, const MR_TriCornerUVCoords *triCornerUvCoords)</argsstring>
         <name>MR_sampleVertexColors</name>
@@ -275,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" line="51" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h" declline="51" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" line="51" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h" declline="51" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -287,33 +221,33 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRColor_8h" kindref="compound">MRCMesh/MRColor.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRTextureColors_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRTextureColors_8h_1ac5c5abdc9ba8adb6f8e522246978c790" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTexture.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRTextureColors_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRTextureColors_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRTextureColors_8h_1a20dc7d636220f61a60c7ae92b8caa768" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRTextureColors_8h_1af7ea855ac419f239c2499023478617a4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTexture.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" kindref="member">MR_std_optional_MR_VertCoords2</ref><sp/><ref refid="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" kindref="member">MR_std_optional_MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertCoords2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRTextureColors_8h_1abc512275e849159d9048205cc588d478" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/>*<ref refid="MRTextureColors_8h_1abc512275e849159d9048205cc588d478" kindref="member">MR_findVertexUV</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords);</highlight></codeline>
+<codeline lineno="26" refid="MRTextureColors_8h_1abc512275e849159d9048205cc588d478" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/>*<ref refid="MRTextureColors_8h_1abc512275e849159d9048205cc588d478" kindref="member">MR_findVertexUV</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRTextureColors_8h_1a152918f2f8fe1a498a3fbc67fc63a70e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" kindref="member">MR_std_optional_MR_VertCoords2</ref><sp/>*<ref refid="MRTextureColors_8h_1a152918f2f8fe1a498a3fbc67fc63a70e" kindref="member">MR_findVertexUVs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords);</highlight></codeline>
+<codeline lineno="34" refid="MRTextureColors_8h_1a152918f2f8fe1a498a3fbc67fc63a70e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTextureColors_8h_1a86bc6bacc5b9a02b30f19262754520e5" kindref="member">MR_std_optional_MR_VertCoords2</ref><sp/>*<ref refid="MRTextureColors_8h_1a152918f2f8fe1a498a3fbc67fc63a70e" kindref="member">MR_findVertexUVs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRTextureColors_8h_1a00767f6c99c6759d0b97eaa0bc0d3ac0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRTextureColors_8h_1a00767f6c99c6759d0b97eaa0bc0d3ac0" kindref="member">MR_sampleVertexColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*tex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords);</highlight></codeline>
+<codeline lineno="42" refid="MRTextureColors_8h_1a00767f6c99c6759d0b97eaa0bc0d3ac0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRTextureColors_8h_1a00767f6c99c6759d0b97eaa0bc0d3ac0" kindref="member">MR_sampleVertexColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*tex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRTextureColors_8h_1a4d7940b3800fd11a3949d0344d8b79df" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRTextureColors_8h_1a4d7940b3800fd11a3949d0344d8b79df" kindref="member">MR_sampleVertexColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*tex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords);</highlight></codeline>
+<codeline lineno="51" refid="MRTextureColors_8h_1a4d7940b3800fd11a3949d0344d8b79df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRTextureColors_8h_1a4d7940b3800fd11a3949d0344d8b79df" kindref="member">MR_sampleVertexColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*tex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTextureColors.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTextureColors.h"/>
   </compounddef>
 </doxygen>

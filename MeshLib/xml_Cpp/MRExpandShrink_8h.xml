@@ -1,17 +1,71 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRExpandShrink_8h" kind="file" language="C++">
     <compoundname>MRExpandShrink.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
-        <label>MRExpandShrink.h</label>
+        <label>MRMesh/MRExpandShrink.h</label>
         <link refid="MRExpandShrink_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
       <node id="2">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -22,29 +76,29 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="group__GeneralGroup_1gab4490c42061cf2506fdb325f9d281f68" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab4490c42061cf2506fdb325f9d281f68" kindref="member">expand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>FaceBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>=<sp/>1<sp/>);</highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1ga2d87795b56c83f35a83349cc59d42982" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gab4490c42061cf2506fdb325f9d281f68" kindref="member">expand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>FaceId<sp/>f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>);</highlight></codeline>
+<codeline lineno="12" refid="group__GeneralGroup_1ga0aa76473eb16c1962035c1d6561a08da" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0aa76473eb16c1962035c1d6561a08da" kindref="member">expand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>FaceBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga2073d173115bc6c1e1b246b9b362ca49" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga0aa76473eb16c1962035c1d6561a08da" kindref="member">expand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>FaceId<sp/>f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1gad2e283ffde3e68d5a41e0a832bb41060" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab4490c42061cf2506fdb325f9d281f68" kindref="member">expand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>=<sp/>1<sp/>);</highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1ga9e6ed568f45f7d64f6bda4895ecc3fad" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1gab4490c42061cf2506fdb325f9d281f68" kindref="member">expand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>);</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga38da58a83ca505962b3a3cfec032624c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0aa76473eb16c1962035c1d6561a08da" kindref="member">expand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gaaf00d5af302065493352d558616aed40" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1ga0aa76473eb16c1962035c1d6561a08da" kindref="member">expand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1ga2193258ddab048b2b194a3ccb5a9f450" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2193258ddab048b2b194a3ccb5a9f450" kindref="member">shrink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>FaceBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>=<sp/>1<sp/>);</highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1gaa946ebaaa62a242f328d53fab37011d0" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2193258ddab048b2b194a3ccb5a9f450" kindref="member">shrink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gadb4ce44ee3a1a11bd2fa7d47454adfcf" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb4ce44ee3a1a11bd2fa7d47454adfcf" kindref="member">shrink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>FaceBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gae01fc08e0a882c54a192fd0bbd202921" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb4ce44ee3a1a11bd2fa7d47454adfcf" kindref="member">shrink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hops<sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga89f76419473d96d06c32d80ddb69147c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga89f76419473d96d06c32d80ddb69147c" kindref="member">expandFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>stopEdges<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga2af7c5e3014a6aba3c0f81311e0f802d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga2af7c5e3014a6aba3c0f81311e0f802d" kindref="member">expandFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>stopEdges<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1gae45bc0307c08b61de1db862894b9affd" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gae45bc0307c08b61de1db862894b9affd" kindref="member">shrinkFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>stopEdges<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1gad2b952522c64b1fc82d97cd7ebdba3c7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gad2b952522c64b1fc82d97cd7ebdba3c7" kindref="member">shrinkFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>stopEdges<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1gae10a86deae3557a2d54360cfdb691313" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gae10a86deae3557a2d54360cfdb691313" kindref="member">getBoundaryFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>&amp;<sp/>region<sp/>);</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga7ac9f72415af14442abb77b79c689de8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga7ac9f72415af14442abb77b79c689de8" kindref="member">getBoundaryFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>&amp;<sp/>region<sp/>);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRExpandShrink.h"/>
+    <location file="MRMesh/MRExpandShrink.h"/>
   </compounddef>
 </doxygen>

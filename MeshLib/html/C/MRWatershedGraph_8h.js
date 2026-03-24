@@ -1,17 +1,7 @@
 var MRWatershedGraph_8h =
 [
-    [ "MR_FaceBitSet", "MRWatershedGraph_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_Graph", "MRWatershedGraph_8h.html#a5e638837d22d1028b724cc8f267c2762", null ],
-    [ "MR_Mesh", "MRWatershedGraph_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_std_pair_MR_GraphEdgeId_float", "MRWatershedGraph_8h.html#ab889caeae0badb9df54c8b243b1f9597", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint", "MRWatershedGraph_8h.html#ab0e1be5d2b2761870a9995877c9657d8", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRWatershedGraph_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_Vector_int_MR_FaceId", "MRWatershedGraph_8h.html#a4cecbe6d6abe0a304f00ea1990538db2", null ],
-    [ "MR_Vector_MR_FaceBitSet_MR_GraphVertId", "MRWatershedGraph_8h.html#a4e5a7cc8670588a2b2921a48cd85beee", null ],
-    [ "MR_Vector_MR_GraphVertId_MR_GraphVertId", "MRWatershedGraph_8h.html#aadf36a7d4ab7b262835d20da5403b847", null ],
-    [ "MR_WatershedGraph", "MRWatershedGraph_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9", null ],
-    [ "MR_WatershedGraph_BasinInfo", "MRWatershedGraph_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b", null ],
-    [ "MR_WatershedGraph_BdInfo", "MRWatershedGraph_8h.html#a569667c95a4e9d4d3a69fbf443462ec5", null ],
     [ "MR_WatershedGraph_OverflowPoint", "MRWatershedGraph_8h.html#a6368bf1bcb754ee217cd351a43ff6be8", null ],
     [ "MR_WatershedGraph_basinInfo", "MRWatershedGraph_8h.html#ad710d2c180aeaf62c081c4593a0699b5", null ],
     [ "MR_WatershedGraph_BasinInfo_amountTillOverflow", "MRWatershedGraph_8h.html#ade620a14c8323754d633270add957ed8", null ],

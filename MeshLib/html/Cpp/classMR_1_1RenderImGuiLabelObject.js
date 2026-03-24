@@ -1,5 +1,5 @@
 var classMR_1_1RenderImGuiLabelObject =
 [
-    [ "RenderImGuiLabelObject", "group__GeneralGroup.html#gae326eec4f1bdc617e0de76f6f4331dd9", null ],
-    [ "renderUi", "group__GeneralGroup.html#ga10bda644e5bf5d339048fc403685a021", null ]
+    [ "RenderImGuiLabelObject", "group__GeneralGroup.html#gaed99e4c0eca4b3a977f748eaca3561bf", null ],
+    [ "renderUi", "group__GeneralGroup.html#ga2baf7b0a7bea97ad022960a0f0e329fb", null ]
 ];

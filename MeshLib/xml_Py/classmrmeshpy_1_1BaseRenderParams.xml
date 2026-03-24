@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BaseRenderParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BaseRenderParams</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1ModelBaseRenderParams" prot="public" virt="non-virtual">mrmeshpy.ModelBaseRenderParams</derivedcompoundref>
@@ -73,12 +73,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BaseRenderParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -103,12 +97,6 @@
         <argsstring>(self, BaseRenderParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BaseRenderParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -133,12 +121,6 @@
         <argsstring>(self, Matrix4f viewMatrix, Matrix4f projMatrix, ViewportId viewportId, Vector4i viewport)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BaseRenderParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -322,21 +304,6 @@ Common rendering parameters for meshes and UI.
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BaseRenderParams</label>
-        <link refid="classmrmeshpy_1_1BaseRenderParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_projMatrix</edgelabel>
-          <edgelabel>_offsetof_viewMatrix</edgelabel>
-          <edgelabel>_offsetof_viewport</edgelabel>
-          <edgelabel>_offsetof_viewportId</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2502" bodyend="2547"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>__init__</name></member>

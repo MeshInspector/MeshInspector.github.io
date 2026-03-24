@@ -1,11 +1,6 @@
 var MRMeshSave_8h =
 [
-    [ "MR_expected_void_std_string", "MRMeshSave_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_Mesh", "MRMeshSave_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshSave_BinaryStlSaver", "MRMeshSave_8h.html#a15841922e4341270dd5c39f1d222792c", null ],
-    [ "MR_SaveSettings", "MRMeshSave_8h.html#a66434f88501a5c24a45cf39f9dbcadbb", null ],
-    [ "MR_std_array_MR_Vector3f_3", "MRMeshSave_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e", null ],
-    [ "MR_std_ostream", "MRMeshSave_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_MeshSave_BinaryStlSaver_Construct", "MRMeshSave_8h.html#a520f35414aca91f0d5c0f5a0d9fe636c", null ],
     [ "MR_MeshSave_BinaryStlSaver_ConstructFromAnother", "MRMeshSave_8h.html#adbebbb700722002f08383ef5d9502b30", null ],
     [ "MR_MeshSave_BinaryStlSaver_Destroy", "MRMeshSave_8h.html#ac10d9861eec17ae2dbf6392debb8dde9", null ],

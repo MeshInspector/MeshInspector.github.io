@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation" kind="struct" language="C++" prot="private">
     <compoundname>MR::SceneObjectsListDrawer::ScrollPositionPreservation</compoundname>
     <sectiondef kind="public-attrib">
@@ -11,7 +11,7 @@
     <detaileddescription>
 <para>Drag objects servant data struct to handle changed scene window size scroll </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="143" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="144" bodyend="147"/>
+    <location file="MRViewer/MRSceneObjectsListDrawer.h" line="143" column="5" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="144" bodyend="147"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaef48e5d11739e2460d49ae418a9b07ad" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::ScrollPositionPreservation</scope><name>absLinePosRatio</name></member>
       <member refid="group__GeneralGroup_1gabbf3505abf910c44d4b8d50aaae3fb11" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::ScrollPositionPreservation</scope><name>relativeMousePos</name></member>

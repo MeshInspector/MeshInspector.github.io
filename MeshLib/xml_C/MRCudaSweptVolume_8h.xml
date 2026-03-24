@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCudaSweptVolume_8h" kind="file" language="C++">
+    <compoundname>MRCudaSweptVolume.h</compoundname>
+    <includes refid="uda_2include_2MRCCuda_2exports_8h" local="no">MRCCuda/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRCudaSweptVolume.h</label>
+        <link refid="MRCudaSweptVolume_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCCuda/exports.h</label>
+        <link refid="uda_2include_2MRCCuda_2exports_8h"/>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" prot="public" static="no">
+        <type>struct <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref></type>
+        <definition>typedef struct MR_Cuda_ComputeToolDistance MR_Cuda_ComputeToolDistance</definition>
+        <argsstring></argsstring>
+        <name>MR_Cuda_ComputeToolDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CUDA implementation of tool distance computation Generated from class <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::IComputeToolDistance</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="28" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a7617e5ebceeef016729107fafa5557a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCudaSweptVolume_8h_1a6230b3a6c708fc69ee65290369594dd5" kindref="member">MR_Cuda_ComputeToolDistance_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="32" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="32" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a893e2634c18195bc83bd8dd56e08543f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRCudaSweptVolume_8h_1a0a6f74cc3a54ce802bdb8359eec930d4" kindref="member">MR_Cuda_ComputeToolDistance_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRCudaSweptVolume_8h_1ad7d5a0f8872f434a2f80ade5c3d838cf" kindref="member">MR_Cuda_ComputeToolDistance_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRCudaSweptVolume_8h_1ac04001d5bd35713f047fe066bda531f2" kindref="member">MR_Cuda_ComputeToolDistance_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="37" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="37" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1ac04001d5bd35713f047fe066bda531f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_OffsetPtr</definition>
+        <argsstring>(const MR_Cuda_ComputeToolDistance *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="41" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="41" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1ad7d5a0f8872f434a2f80ade5c3d838cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_OffsetMutablePtr</definition>
+        <argsstring>(MR_Cuda_ComputeToolDistance *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="45" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="45" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a305010286143f77ad7cce31ae7d41755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API const MR_IComputeToolDistance * MR_Cuda_ComputeToolDistance_UpcastTo_MR_IComputeToolDistance</definition>
+        <argsstring>(const MR_Cuda_ComputeToolDistance *object)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_UpcastTo_MR_IComputeToolDistance</name>
+        <param>
+          <type>const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput> to its base class <computeroutput>MR::IComputeToolDistance</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="50" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="50" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1ab22d9b8456b9918030dadd6e8f622b90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API MR_IComputeToolDistance * MR_Cuda_ComputeToolDistance_MutableUpcastTo_MR_IComputeToolDistance</definition>
+        <argsstring>(MR_Cuda_ComputeToolDistance *object)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_MutableUpcastTo_MR_IComputeToolDistance</name>
+        <param>
+          <type><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput> to its base class <computeroutput>MR::IComputeToolDistance</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="54" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="54" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a66b7c0663f1270b96ce012c653593a6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_StaticDowncastFrom_MR_IComputeToolDistance</definition>
+        <argsstring>(const MR_IComputeToolDistance *object)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_StaticDowncastFrom_MR_IComputeToolDistance</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputeToolDistance</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="60" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="60" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1ab2476252b067d129dde28fe66c5c2795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_MutableStaticDowncastFrom_MR_IComputeToolDistance</definition>
+        <argsstring>(MR_IComputeToolDistance *object)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_MutableStaticDowncastFrom_MR_IComputeToolDistance</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputeToolDistance</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="65" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="65" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1ad0d4f26c7aa4071867268fc80359978d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_DynamicDowncastFrom_MR_IComputeToolDistance</definition>
+        <argsstring>(const MR_IComputeToolDistance *object)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_DynamicDowncastFrom_MR_IComputeToolDistance</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputeToolDistance</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="71" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="71" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a96fac121acc8aeddc8310f0b8e2d9ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_MutableDynamicDowncastFrom_MR_IComputeToolDistance</definition>
+        <argsstring>(MR_IComputeToolDistance *object)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_MutableDynamicDowncastFrom_MR_IComputeToolDistance</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputeToolDistance</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="76" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="76" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a3df1cc6567bc895dd5e2765ae6999838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_DynamicDowncastFromOrFail_MR_IComputeToolDistance</definition>
+        <argsstring>(const MR_IComputeToolDistance *object)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_DynamicDowncastFromOrFail_MR_IComputeToolDistance</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputeToolDistance</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="84" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="84" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a5e564e3baff8c247e14300aeffacb927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputeToolDistance * MR_Cuda_ComputeToolDistance_MutableDynamicDowncastFromOrFail_MR_IComputeToolDistance</definition>
+        <argsstring>(MR_IComputeToolDistance *object)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_MutableDynamicDowncastFromOrFail_MR_IComputeToolDistance</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputeToolDistance</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputeToolDistance</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="91" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="91" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a6230b3a6c708fc69ee65290369594dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_ComputeToolDistance_Destroy</definition>
+        <argsstring>(const MR_Cuda_ComputeToolDistance *_this)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_Destroy</name>
+        <param>
+          <type>const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="94" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="94" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a0a6f74cc3a54ce802bdb8359eec930d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_ComputeToolDistance_DestroyArray</definition>
+        <argsstring>(const MR_Cuda_ComputeToolDistance *_this)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="97" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="97" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1a0b86b94cf6bc9ca1daf26627a42481d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Vector3i__std__string_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_MR_Vector3i_std_string * MR_Cuda_ComputeToolDistance_prepare_MR_EndMillTool</definition>
+        <argsstring>(MR_Cuda_ComputeToolDistance *_this, const MR_Vector3i *dims, const MR_Polyline3 *toolpath, const MR_EndMillTool *toolSpec)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_prepare_MR_EndMillTool</name>
+        <param>
+          <type><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>toolSpec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::ComputeToolDistance::prepare</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>toolpath</computeroutput> can not be null. It is a single object. Parameter <computeroutput>toolSpec</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Vector3i__std__string_8h_1a152373613a48552a6e8890eb3bf9c170" kindref="member">MR_expected_MR_Vector3i_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="105" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="105" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1ae01828c1d96293cd0b6d21af05eb02c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Vector3i__std__string_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_MR_Vector3i_std_string * MR_Cuda_ComputeToolDistance_prepare_MR_Polyline2</definition>
+        <argsstring>(MR_Cuda_ComputeToolDistance *_this, const MR_Vector3i *dims, const MR_Polyline3 *toolpath, const MR_Polyline2 *toolProfile)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_prepare_MR_Polyline2</name>
+        <param>
+          <type><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref> *</type>
+          <declname>toolProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::ComputeToolDistance::prepare</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>toolpath</computeroutput> can not be null. It is a single object. Parameter <computeroutput>toolProfile</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Vector3i__std__string_8h_1a152373613a48552a6e8890eb3bf9c170" kindref="member">MR_expected_MR_Vector3i_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="113" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="113" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaSweptVolume_8h_1ae666def08ec348c5db58a099496a41c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_void_std_string * MR_Cuda_ComputeToolDistance_computeToolDistance</definition>
+        <argsstring>(const MR_Cuda_ComputeToolDistance *_this, MR_std_vector_float *output, const MR_Vector3i *dims, float voxelSize, const MR_Vector3f *origin, float padding)</argsstring>
+        <name>MR_Cuda_ComputeToolDistance_computeToolDistance</name>
+        <param>
+          <type>const <ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::ComputeToolDistance::computeToolDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>output</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>origin</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" line="121" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h" declline="121" declcolumn="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="uda_2include_2MRCCuda_2exports_8h" kindref="compound">MRCCuda/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREndMill.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRSweptVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__Vector3i__std__string_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref><sp/><ref refid="expected__MR__Vector3i__std__string_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Vector3i_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRCudaSweptVolume_8h_1a7617e5ebceeef016729107fafa5557a4" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1a7617e5ebceeef016729107fafa5557a4" kindref="member">MR_Cuda_ComputeToolDistance_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRCudaSweptVolume_8h_1a893e2634c18195bc83bd8dd56e08543f" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1a893e2634c18195bc83bd8dd56e08543f" kindref="member">MR_Cuda_ComputeToolDistance_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRCudaSweptVolume_8h_1ac04001d5bd35713f047fe066bda531f2" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1ac04001d5bd35713f047fe066bda531f2" kindref="member">MR_Cuda_ComputeToolDistance_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRCudaSweptVolume_8h_1ad7d5a0f8872f434a2f80ade5c3d838cf" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1ad7d5a0f8872f434a2f80ade5c3d838cf" kindref="member">MR_Cuda_ComputeToolDistance_OffsetMutablePtr</ref>(<ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRCudaSweptVolume_8h_1a305010286143f77ad7cce31ae7d41755" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1a305010286143f77ad7cce31ae7d41755" kindref="member">MR_Cuda_ComputeToolDistance_UpcastTo_MR_IComputeToolDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRCudaSweptVolume_8h_1ab22d9b8456b9918030dadd6e8f622b90" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1ab22d9b8456b9918030dadd6e8f622b90" kindref="member">MR_Cuda_ComputeToolDistance_MutableUpcastTo_MR_IComputeToolDistance</ref>(<ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRCudaSweptVolume_8h_1a66b7c0663f1270b96ce012c653593a6d" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1a66b7c0663f1270b96ce012c653593a6d" kindref="member">MR_Cuda_ComputeToolDistance_StaticDowncastFrom_MR_IComputeToolDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRCudaSweptVolume_8h_1ab2476252b067d129dde28fe66c5c2795" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1ab2476252b067d129dde28fe66c5c2795" kindref="member">MR_Cuda_ComputeToolDistance_MutableStaticDowncastFrom_MR_IComputeToolDistance</ref>(<ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRCudaSweptVolume_8h_1ad0d4f26c7aa4071867268fc80359978d" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1ad0d4f26c7aa4071867268fc80359978d" kindref="member">MR_Cuda_ComputeToolDistance_DynamicDowncastFrom_MR_IComputeToolDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRCudaSweptVolume_8h_1a96fac121acc8aeddc8310f0b8e2d9ac3" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1a96fac121acc8aeddc8310f0b8e2d9ac3" kindref="member">MR_Cuda_ComputeToolDistance_MutableDynamicDowncastFrom_MR_IComputeToolDistance</ref>(<ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRCudaSweptVolume_8h_1a3df1cc6567bc895dd5e2765ae6999838" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1a3df1cc6567bc895dd5e2765ae6999838" kindref="member">MR_Cuda_ComputeToolDistance_DynamicDowncastFromOrFail_MR_IComputeToolDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRCudaSweptVolume_8h_1a5e564e3baff8c247e14300aeffacb927" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1a5e564e3baff8c247e14300aeffacb927" kindref="member">MR_Cuda_ComputeToolDistance_MutableDynamicDowncastFromOrFail_MR_IComputeToolDistance</ref>(<ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRCudaSweptVolume_8h_1a6230b3a6c708fc69ee65290369594dd5" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1a6230b3a6c708fc69ee65290369594dd5" kindref="member">MR_Cuda_ComputeToolDistance_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRCudaSweptVolume_8h_1a0a6f74cc3a54ce802bdb8359eec930d4" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1a0a6f74cc3a54ce802bdb8359eec930d4" kindref="member">MR_Cuda_ComputeToolDistance_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRCudaSweptVolume_8h_1a0b86b94cf6bc9ca1daf26627a42481d4" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Vector3i__std__string_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1a0b86b94cf6bc9ca1daf26627a42481d4" kindref="member">MR_Cuda_ComputeToolDistance_prepare_MR_EndMillTool</ref>(<ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*toolSpec);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRCudaSweptVolume_8h_1ae01828c1d96293cd0b6d21af05eb02c6" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Vector3i__std__string_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1ae01828c1d96293cd0b6d21af05eb02c6" kindref="member">MR_Cuda_ComputeToolDistance_prepare_MR_Polyline2</ref>(<ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*toolProfile);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRCudaSweptVolume_8h_1ae666def08ec348c5db58a099496a41c4" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCudaSweptVolume_8h_1ae666def08ec348c5db58a099496a41c4" kindref="member">MR_Cuda_ComputeToolDistance_computeToolDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaSweptVolume_8h_1af43f022acf425284b603e852e10ec22f" kindref="member">MR_Cuda_ComputeToolDistance</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*origin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>padding);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaSweptVolume.h"/>
+  </compounddef>
+</doxygen>

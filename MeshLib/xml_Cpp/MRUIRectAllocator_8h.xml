@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUIRectAllocator_8h" kind="file" language="C++">
     <compoundname>MRUIRectAllocator.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -9,24 +9,24 @@
     <includes refid="MRViewportId_8h" local="yes">MRMesh/MRViewportId.h</includes>
     <includes refid="MRImGui_8h" local="yes">MRImGui.h</includes>
     <incdepgraph>
-      <node id="19">
+      <node id="27">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -36,22 +36,28 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -59,104 +65,62 @@
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="7">
+      <node id="16">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
-      <node id="9">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
+      <node id="5">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-      </node>
-      <node id="25">
-        <label>MRMesh/MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+      </node>
+      <node id="18">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+      </node>
+      <node id="31">
+        <label>MRMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-      </node>
-      <node id="20">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="26">
-        <label>MRMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-      </node>
-      <node id="27">
-        <label>MRImGui.h</label>
-        <link refid="MRImGui_8h"/>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRUIRectAllocator.h</label>
-        <link refid="MRUIRectAllocator_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
@@ -164,56 +128,133 @@
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+      </node>
+      <node id="17">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="21">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="28">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="24">
+      <node id="32">
+        <label>MRMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="33">
+        <label>MRImGui.h</label>
+        <link refid="MRImGui_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRViewer/MRUIRectAllocator.h</label>
+        <link refid="MRUIRectAllocator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
         <label>MRMesh/MRphmap.h</label>
       </node>
-      <node id="5">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="13">
+      <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="28">
+      <node id="34">
         <label>MRPch/MRSuppressWarning.h</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>algorithm</label>
       </node>
-      <node id="22">
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
         <label>cassert</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>cmath</label>
       </node>
-      <node id="10">
+      <node id="19">
         <label>cstddef</label>
       </node>
-      <node id="16">
+      <node id="24">
         <label>cstring</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="29">
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="35">
         <label>imgui.h</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>iosfwd</label>
       </node>
-      <node id="23">
+      <node id="29">
         <label>limits</label>
       </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="11">
+        <label>string</label>
+      </node>
+      <node id="20">
         <label>type_traits</label>
       </node>
-      <node id="18">
+      <node id="26">
         <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1UI_1_1RectAllocator" prot="public">MR::UI::RectAllocator</innerclass>
@@ -242,10 +283,10 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1UI" kindref="compound">MR::UI</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="classMR_1_1UI_1_1RectAllocator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1RectAllocator" kindref="compound">RectAllocator</ref></highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1UI_1_1RectAllocator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" kindref="member">RectAllocator</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="21" refid="classMR_1_1UI_1_1RectAllocator_1a82d78572d266d3a2f29eadf99dd00f9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a82d78572d266d3a2f29eadf99dd00f9e" kindref="member">RectAllocator</ref>();</highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" kindref="member">RectAllocator</ref>();</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult" kindref="compound">FindFreeRectResult</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -256,7 +297,7 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="classMR_1_1UI_1_1RectAllocator_1a0c0e4459ae9255dde41c3c2e216999a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1RectAllocator_1a0c0e4459ae9255dde41c3c2e216999a3" kindref="member">FindPotentiallyOverlappingRects</ref><sp/>=<sp/>std::function&lt;void(<sp/>Box2f<sp/>target,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/>Box2f<sp/>box<sp/>)&gt;<sp/>overlaps<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="classMR_1_1UI_1_1RectAllocator_1ae453c167334b49a2d08f4bffa76c0fe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult" kindref="compound">FindFreeRectResult</ref><sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1ae453c167334b49a2d08f4bffa76c0fe2" kindref="member">findFreeRect</ref>(</highlight></codeline>
+<codeline lineno="36" refid="classMR_1_1UI_1_1RectAllocator_1a32b67d79c518828ebf2d8d14047c42f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult" kindref="compound">FindFreeRectResult</ref><sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a32b67d79c518828ebf2d8d14047c42f2" kindref="member">findFreeRect</ref>(</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Box2f<sp/>preferredRect,</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Box2f<sp/>preferredBounds,</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a0c0e4459ae9255dde41c3c2e216999a3" kindref="member">FindPotentiallyOverlappingRects</ref><sp/>findOverlaps,</highlight></codeline>
@@ -280,16 +321,16 @@
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;CoordsToVisit&gt;<sp/>coordsToVisitHeap;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="classMR_1_1UI_1_1WindowRectAllocator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1RectAllocator" kindref="compound">RectAllocator</ref></highlight></codeline>
+<codeline lineno="68" refid="classMR_1_1UI_1_1WindowRectAllocator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" kindref="member">RectAllocator</ref></highlight></codeline>
 <codeline lineno="69"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="76" refid="classMR_1_1UI_1_1WindowRectAllocator_1a38bb8cbe2433b411b130857219fc3be4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1WindowRectAllocator_1a38bb8cbe2433b411b130857219fc3be4" kindref="member">setFreeNextWindowPos</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>expectedWindowName,<sp/>ImVec2<sp/>defaultPos,<sp/>ImGuiCond<sp/>cond<sp/>=<sp/>ImGuiCond_Appearing,<sp/>ImVec2<sp/>pivot<sp/>=<sp/>ImVec2()<sp/>);</highlight></codeline>
+<codeline lineno="76" refid="classMR_1_1UI_1_1WindowRectAllocator_1a30854e8a41e196b32c663aeb21aaabeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1WindowRectAllocator_1a30854e8a41e196b32c663aeb21aaabeb" kindref="member">setFreeNextWindowPos</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>expectedWindowName,<sp/>ImVec2<sp/>defaultPos,<sp/>ImGuiCond<sp/>cond<sp/>=<sp/>ImGuiCond_Appearing,<sp/>ImVec2<sp/>pivot<sp/>=<sp/>ImVec2()<sp/>);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="classMR_1_1UI_1_1WindowRectAllocator_1ae4aa3ae308165ceab5cad3ae36dd1131" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1WindowRectAllocator_1ae4aa3ae308165ceab5cad3ae36dd1131" kindref="member">invalidateClosedWindows</ref>();</highlight></codeline>
+<codeline lineno="79" refid="classMR_1_1UI_1_1WindowRectAllocator_1a387aa4a942a5b79b27cceb0c9ec07112" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1WindowRectAllocator_1a387aa4a942a5b79b27cceb0c9ec07112" kindref="member">invalidateClosedWindows</ref>();</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>AllocationState</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref>,<sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>None,<sp/></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Requested,<sp/></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaitAppearing,<sp/></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Set<sp/></highlight></codeline>
@@ -301,12 +342,12 @@
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>phmap::flat_hash_map&lt;std::string,<sp/>WindowEntry&gt;<sp/>windows_;</highlight></codeline>
 <codeline lineno="94"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="95" refid="namespaceMR_1_1UI_1a5caf1537f165f3557d3f718bfb47a032" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref>&amp;<sp/><ref refid="namespaceMR_1_1UI_1a5caf1537f165f3557d3f718bfb47a032" kindref="member">getDefaultWindowRectAllocator</ref>();</highlight></codeline>
+<codeline lineno="95" refid="namespaceMR_1_1UI_1a1b2da483d87fc6d65243ab1e365a1a89" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref>&amp;<sp/><ref refid="namespaceMR_1_1UI_1a1b2da483d87fc6d65243ab1e365a1a89" kindref="member">getDefaultWindowRectAllocator</ref>();</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="classMR_1_1UI_1_1LabelRectAllocator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1RectAllocator" kindref="compound">RectAllocator</ref></highlight></codeline>
+<codeline lineno="98" refid="classMR_1_1UI_1_1LabelRectAllocator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" kindref="member">RectAllocator</ref></highlight></codeline>
 <codeline lineno="99"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="105" refid="classMR_1_1UI_1_1LabelRectAllocator_1a3b90eb278b5e53756c88dc2464876ed0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ImVec2<sp/><ref refid="classMR_1_1UI_1_1LabelRectAllocator_1a3b90eb278b5e53756c88dc2464876ed0" kindref="member">createRect</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId,<sp/>std::string<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>ImVec2<sp/>pos,<sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forceExactPosition<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="105" refid="classMR_1_1UI_1_1LabelRectAllocator_1a7d54e243affc2287072f55466195684d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ImVec2<sp/><ref refid="classMR_1_1UI_1_1LabelRectAllocator_1a7d54e243affc2287072f55466195684d" kindref="member">createRect</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId,<sp/>std::string<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>ImVec2<sp/>pos,<sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forceExactPosition<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lastFrameCount_<sp/>=<sp/>-1;</highlight></codeline>
@@ -318,10 +359,10 @@
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;phmap::flat_hash_map&lt;std::string,<sp/>Entry&gt;&gt;<sp/>entries_;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="118" refid="namespaceMR_1_1UI_1a8782e9cded23844b3ae2138d6287b99c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref>&amp;<sp/><ref refid="namespaceMR_1_1UI_1a8782e9cded23844b3ae2138d6287b99c" kindref="member">getDefaultLabelRectAllocator</ref>();</highlight></codeline>
+<codeline lineno="118" refid="namespaceMR_1_1UI_1a152d0b2c8b5f2ed42476ab4ffeccdb44" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref>&amp;<sp/><ref refid="namespaceMR_1_1UI_1a152d0b2c8b5f2ed42476ab4ffeccdb44" kindref="member">getDefaultLabelRectAllocator</ref>();</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h"/>
+    <location file="MRViewer/MRUIRectAllocator.h"/>
   </compounddef>
 </doxygen>

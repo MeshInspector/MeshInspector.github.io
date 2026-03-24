@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSerializer_8h" kind="file" language="C++">
     <compoundname>MRSerializer.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes refid="MRVector4_8h" local="yes">MRVector4.h</includes>
@@ -13,90 +13,152 @@
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes local="no">filesystem</includes>
-    <includedby refid="MRConfig_8h" local="yes">MRConfig.h</includedby>
+    <includedby refid="MRConfig_8h" local="yes">MRMesh/MRConfig.h</includedby>
     <incdepgraph>
-      <node id="18">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
         <label>MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MRConstants.h</label>
-        <link refid="MRConstants_8h"/>
-      </node>
-      <node id="27">
-        <label>MRExpected.h</label>
-        <link refid="MRExpected_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="20">
-        <label>MRIOFilters.h</label>
-        <link refid="MRIOFilters_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
         <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
+      <node id="23">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="32">
+        <label>MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRIOFilters.h</label>
+        <link refid="MRIOFilters_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="17">
+      <node id="25">
         <label>MRMatrix2.h</label>
         <link refid="MRMatrix2_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="27">
         <label>MRPlane3.h</label>
         <link refid="MRPlane3_8h"/>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="31">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRSerializer.h</label>
+        <label>MRMesh/MRSerializer.h</label>
         <link refid="MRSerializer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
@@ -106,139 +168,115 @@
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
+      <node id="22">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="8">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="28">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="9">
-        <label>algorithm</label>
-      </node>
-      <node id="26">
-        <label>cassert</label>
-      </node>
-      <node id="10">
-        <label>cmath</label>
-      </node>
-      <node id="21">
-        <label>compare</label>
-      </node>
-      <node id="6">
-        <label>cstddef</label>
-      </node>
-      <node id="11">
-        <label>cstring</label>
-      </node>
-      <node id="29">
-        <label>filesystem</label>
-      </node>
-      <node id="12">
-        <label>iosfwd</label>
-      </node>
-      <node id="22">
-        <label>optional</label>
-      </node>
-      <node id="23">
-        <label>string</label>
-      </node>
-      <node id="7">
-        <label>type_traits</label>
-      </node>
-      <node id="13">
-        <label>utility</label>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
       <node id="24">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="33">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="29">
+        <label>compare</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="19">
+        <label>cstring</label>
+      </node>
+      <node id="34">
+        <label>filesystem</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="20">
+        <label>iosfwd</label>
+      </node>
+      <node id="30">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="21">
+        <label>utility</label>
+      </node>
+      <node id="8">
         <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRConfig.h</label>
+        <label>MRMesh/MRConfig.h</label>
         <link refid="MRConfig_8h"/>
       </node>
       <node id="1">
-        <label>MRSerializer.h</label>
+        <label>MRMesh/MRSerializer.h</label>
         <link refid="MRSerializer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -252,7 +290,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector4_8h" kindref="compound">MRVector4.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -273,68 +311,68 @@
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__SerializerGroup_1ga6495aafc6ad7f28a253874643bee186d" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::string&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga6495aafc6ad7f28a253874643bee186d" kindref="member">serializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="28" refid="group__SerializerGroup_1ga19fbe08d1728b0525ece1dd237171b25" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga6495aafc6ad7f28a253874643bee186d" kindref="member">serializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>std::ostream&amp;<sp/>out<sp/>);<sp/></highlight></codeline>
-<codeline lineno="29" refid="group__SerializerGroup_1ga01b3a61fecaa74928fd26611f6a44cd7" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga6495aafc6ad7f28a253874643bee186d" kindref="member">serializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__SerializerGroup_1ga1edcbab8181af7aca7d614a91965677c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::string&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga1edcbab8181af7aca7d614a91965677c" kindref="member">serializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__SerializerGroup_1gacbf16137ea3050956402665855f5b92f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga1edcbab8181af7aca7d614a91965677c" kindref="member">serializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>std::ostream&amp;<sp/>out<sp/>);<sp/></highlight></codeline>
+<codeline lineno="29" refid="group__SerializerGroup_1ga50539cfe8f960607feeace50210a0a16" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga1edcbab8181af7aca7d614a91965677c" kindref="member">serializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__SerializerGroup_1ga4cabdbc3ab0e26dfe5f3f9541c696fc7" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga4cabdbc3ab0e26dfe5f3f9541c696fc7" kindref="member">deserializeJsonValue</ref>(<sp/>std::istream&amp;<sp/>in<sp/>);<sp/></highlight></codeline>
-<codeline lineno="32" refid="group__SerializerGroup_1ga2b3ef277fc9e90e456d7c0948a95f721" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga4cabdbc3ab0e26dfe5f3f9541c696fc7" kindref="member">deserializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
-<codeline lineno="33" refid="group__SerializerGroup_1ga84a27be875063a2ab0d174fa1f9e7771" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga4cabdbc3ab0e26dfe5f3f9541c696fc7" kindref="member">deserializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>str<sp/>);</highlight></codeline>
-<codeline lineno="34" refid="group__SerializerGroup_1ga790b6ef6dd31f1a82bf42d810c4c1f44" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga4cabdbc3ab0e26dfe5f3f9541c696fc7" kindref="member">deserializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="31" refid="group__SerializerGroup_1ga52fbd929743c9f6680d751a89b341ae0" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga52fbd929743c9f6680d751a89b341ae0" kindref="member">deserializeJsonValue</ref>(<sp/>std::istream&amp;<sp/>in<sp/>);<sp/></highlight></codeline>
+<codeline lineno="32" refid="group__SerializerGroup_1gac0f762bfae301303b158a3660b2c22c7" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga52fbd929743c9f6680d751a89b341ae0" kindref="member">deserializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__SerializerGroup_1gab0555cef63a98507ff6399f24d2fdf3e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga52fbd929743c9f6680d751a89b341ae0" kindref="member">deserializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>str<sp/>);</highlight></codeline>
+<codeline lineno="34" refid="group__SerializerGroup_1ga35f9a96437bbef69b8ce40feb17eedd4" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga52fbd929743c9f6680d751a89b341ae0" kindref="member">deserializeJsonValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__SerializerGroup_1gab5e07b1a572a894ec06e8bb8113827e6" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1gab5e07b1a572a894ec06e8bb8113827e6" kindref="member">serializeMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*<sp/>selection<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="39" refid="group__SerializerGroup_1ga90211e09abe3bf9ca2a52975a6595b7d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga90211e09abe3bf9ca2a52975a6595b7d" kindref="member">serializeMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*<sp/>selection<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>serializeFormat<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;.mrmesh&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="group__SerializerGroup_1gae2d000bf1be360d4156e421121308d90" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="44" refid="group__SerializerGroup_1ga2991c05216d6e89d4d73f2eb053cd283" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="45" refid="group__SerializerGroup_1ga73da1f89ff79644868f29b66a89aa3ef" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="46" refid="group__SerializerGroup_1ga01084ea4b91576f192aeb68017e8e45e" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="47" refid="group__SerializerGroup_1ga2460b57ac19911dbba07d61927a47ece" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector4f&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="48" refid="group__SerializerGroup_1ga27c3983bb6c56873da1fcfa8ce4044d8" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>box,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="49" refid="group__SerializerGroup_1gacfc4f79eba7c0c8751bd4206a1604603" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/>box,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="50" refid="group__SerializerGroup_1ga6beb18d5f22f706bd29b9b4b1d2d1cad" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>col,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="51" refid="group__SerializerGroup_1ga337dbc4391f7f93340ae0d57d9992358" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix2f&amp;<sp/>matrix,<sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipIdentity<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="52" refid="group__SerializerGroup_1gadbd20d4ea1f7a2145ec9cea92d0c6d21" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>matrix,<sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipIdentity<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="53" refid="group__SerializerGroup_1gaaeef0bd02442f441b66c7decaabd2047" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf2f&amp;<sp/>xf,<sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipIdentity<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="54" refid="group__SerializerGroup_1ga810f72ff4bfd3f308bf159660074e79c" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipIdentity<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="55" refid="group__SerializerGroup_1ga0247abbacd8ebd7c2abec7d6095cd659" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref>&amp;<sp/>bitset,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="56" refid="group__SerializerGroup_1ga180759b8329e6976e4084837bf87bdb2" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="57" refid="group__SerializerGroup_1gabf5d52bb9f6c77c69a8e8897c42fce28" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f&amp;<sp/>plane,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="58" refid="group__SerializerGroup_1ga828f3a1487f57601504c8818f38d0f9e" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TriPointf&amp;<sp/>tp,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="59" refid="group__SerializerGroup_1gacd39b6a2edca023ff58233e8a5938a10" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>&amp;<sp/>texture,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="60" refid="group__SerializerGroup_1ga79f82dccdb83d2653639d4bc89f77507" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;TextureId&gt;&amp;<sp/>texturePerFace,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="61" refid="group__SerializerGroup_1ga79617de343668de49d25a0ec996110e4" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;UVCoord&gt;&amp;<sp/>uvCoords,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="62" refid="group__SerializerGroup_1gae2b8279a340f17425a3c6d8e8feb98ec" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Color&gt;&amp;<sp/>colors,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="65" refid="group__SerializerGroup_1ga332fb7d3339d515c107f05a5f3e4d251" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>mtp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="66" refid="group__SerializerGroup_1ga5a10f75cc5e4d7e14e17a21e9e8ddb0f" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62cbf37180f317f1f9be285d1df921fe" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>pf,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="43" refid="group__SerializerGroup_1ga8dc6cbf6c97048a17fbaa0e1bba41a9e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="44" refid="group__SerializerGroup_1ga1c5d353ea01e4b63754235c1a6cc967f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="45" refid="group__SerializerGroup_1gaff43d6038d63bac26080d08d71953dd3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="46" refid="group__SerializerGroup_1gacbdc25612bacee827ee57b24ba6d5b9b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="47" refid="group__SerializerGroup_1gaa5564af068b62ce39b20ca1dc9721502" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector4f&amp;<sp/>vec,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="48" refid="group__SerializerGroup_1ga4c43041da49b3a3c7547c3f12ffb0ab2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>box,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="49" refid="group__SerializerGroup_1gaf8ddb2e7af9d1892c88c8f2968dcf241" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/>box,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="50" refid="group__SerializerGroup_1ga61650eec3ea9916ef9f1cca65bebcac2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>col,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="51" refid="group__SerializerGroup_1ga5b8b008fce1c25189b4b785ce0ac40ef" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix2f&amp;<sp/>matrix,<sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipIdentity<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__SerializerGroup_1ga2d8b88c5d70ea2136870c6293b08273b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>matrix,<sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipIdentity<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="53" refid="group__SerializerGroup_1ga1f6407e1b88df7f3eac9f06c8a777f2e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab9a91b42c9f6b54ae6f4729f9ce46769" kindref="member">AffineXf2f</ref>&amp;<sp/>xf,<sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipIdentity<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="54" refid="group__SerializerGroup_1ga895ec9f1543120b7620e5431d7ad37a6" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/>Json::Value&amp;<sp/>root,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipIdentity<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="55" refid="group__SerializerGroup_1ga38e49cd494076dbfbb8f0fcf554cde77" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref>&amp;<sp/>bitset,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="56" refid="group__SerializerGroup_1ga935f23c36d049851e4088417e5ec6d32" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="57" refid="group__SerializerGroup_1gaef36006b3524b7d2effad692fbd9728b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="58" refid="group__SerializerGroup_1ga3bcfe86c04773129c34989b811223a77" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kindref="member">TriPointf</ref>&amp;<sp/>tp,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="59" refid="group__SerializerGroup_1gafeec2f7391ebaf4299dc8a436c8fe671" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>&amp;<sp/>texture,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="60" refid="group__SerializerGroup_1gaac45b1027e674d8551a641dbdac3dc6b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;TextureId&gt;&amp;<sp/>texturePerFace,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="61" refid="group__SerializerGroup_1gada4bd5e5115bf99fd53b165aa4d5d2cb" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;UVCoord&gt;&amp;<sp/>uvCoords,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="62" refid="group__SerializerGroup_1ga088ca803854aa288993f4398ac0d329d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Color&gt;&amp;<sp/>colors,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="65" refid="group__SerializerGroup_1ga5a6b037a77f54ee1959070a26821d442" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>mtp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="66" refid="group__SerializerGroup_1gad7c57d19dac8fe5222101baac7ae164c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kindref="member">serializeToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>pf,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="group__SerializerGroup_1ga890eacf2c6391cbf6dbb98c6bbb0fa28" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__SerializerGroup_1ga890eacf2c6391cbf6dbb98c6bbb0fa28" kindref="member">serializeViaVerticesToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet&amp;<sp/>edges,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="71" refid="group__SerializerGroup_1gab74247c70d34bac9da9d1e8c421b0703" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__SerializerGroup_1gab74247c70d34bac9da9d1e8c421b0703" kindref="member">deserializeViaVerticesFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>UndirectedEdgeBitSet&amp;<sp/>edges,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology<sp/>);</highlight></codeline>
+<codeline lineno="70" refid="group__SerializerGroup_1ga1c20f47d5cb885a2af93ba685c25aebb" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__SerializerGroup_1ga1c20f47d5cb885a2af93ba685c25aebb" kindref="member">serializeViaVerticesToJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet&amp;<sp/>edges,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="71" refid="group__SerializerGroup_1ga0cb60ec747bba72d5988e66da53bdb86" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__SerializerGroup_1ga0cb60ec747bba72d5988e66da53bdb86" kindref="member">deserializeViaVerticesFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>UndirectedEdgeBitSet&amp;<sp/>edges,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology<sp/>);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="group__SerializerGroup_1ga61a7230e0fffb1f10c81a359762186d2" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector2i&amp;<sp/>vec<sp/>);</highlight></codeline>
-<codeline lineno="75" refid="group__SerializerGroup_1ga008566c571e968e28ac38c4317a9fbbe" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector2f&amp;<sp/>vec<sp/>);</highlight></codeline>
-<codeline lineno="76" refid="group__SerializerGroup_1ga07c35f4efe0f243d11910aee401766ef" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector3i&amp;<sp/>vec<sp/>);</highlight></codeline>
-<codeline lineno="77" refid="group__SerializerGroup_1gaa945fd69c2b9a828d6f34e7bc34b9df3" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector3f&amp;<sp/>vec<sp/>);</highlight></codeline>
-<codeline lineno="78" refid="group__SerializerGroup_1ga1155079bf2d53ebd19e08f2223fee2a8" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector4f&amp;<sp/>vec<sp/>);</highlight></codeline>
-<codeline lineno="79" refid="group__SerializerGroup_1gab49dd82250557d820cf52d7cd3a59464" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>col<sp/>);</highlight></codeline>
-<codeline lineno="80" refid="group__SerializerGroup_1ga8ba498d211b2a813befa63f55a7446cd" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Matrix2f&amp;<sp/>matrix<sp/>);</highlight></codeline>
-<codeline lineno="81" refid="group__SerializerGroup_1gaeb2e68137af1a456b80b6a8574c03e6e" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Matrix3f&amp;<sp/>matrix<sp/>);</highlight></codeline>
-<codeline lineno="82" refid="group__SerializerGroup_1ga9f65600bd6b7fb223ab125f81c96ae25" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>AffineXf2f&amp;<sp/>xf<sp/>);</highlight></codeline>
-<codeline lineno="83" refid="group__SerializerGroup_1gaa6c9fafbe5675e06061b897d2e92f138" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>AffineXf3f&amp;<sp/>xf<sp/>);</highlight></codeline>
-<codeline lineno="84" refid="group__SerializerGroup_1ga4c0c62354556511936a0e90a2d4c586e" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref>&amp;<sp/>bitset<sp/>);</highlight></codeline>
-<codeline lineno="85" refid="group__SerializerGroup_1ga5e2004fef2b124e7462276bcee514d6b" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>VertColors*<sp/>colors<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="86" refid="group__SerializerGroup_1gabb27cc540be81d459806f905ad7f574a" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Plane3f&amp;<sp/>plane<sp/>);</highlight></codeline>
-<codeline lineno="87" refid="group__SerializerGroup_1ga72e078f3acb1fe95234144b3f7d2aced" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>TriPointf&amp;<sp/>tp<sp/>);</highlight></codeline>
-<codeline lineno="88" refid="group__SerializerGroup_1gacfed47f3a67cfbbaaab3df0125cc6c52" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>&amp;<sp/>texture<sp/>);</highlight></codeline>
-<codeline lineno="89" refid="group__SerializerGroup_1gafab977958cb409b72f7584d9f6602a3e" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>std::vector&lt;TextureId&gt;&amp;<sp/>texturePerFace<sp/>);</highlight></codeline>
-<codeline lineno="90" refid="group__SerializerGroup_1ga88cac564b83aea9e1d7a37332fa81d50" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>std::vector&lt;UVCoord&gt;&amp;<sp/>uvCoords<sp/>);</highlight></codeline>
-<codeline lineno="91" refid="group__SerializerGroup_1gaad585756b5bd8e2e9e6994cfc8f5b0fb" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>std::vector&lt;Color&gt;&amp;<sp/>colors<sp/>);</highlight></codeline>
-<codeline lineno="94" refid="group__SerializerGroup_1ga844db290f408a9fa59211a2239689ada" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>mtp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology<sp/>);</highlight></codeline>
-<codeline lineno="95" refid="group__SerializerGroup_1gabb77b8518b98c3dde34206e1c8bbc5fc" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd0255930f486d88a3adb40805670ded" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>pf<sp/>);</highlight></codeline>
+<codeline lineno="74" refid="group__SerializerGroup_1gab38fd79e2d110978e8ce8d11feeb7a7e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector2i&amp;<sp/>vec<sp/>);</highlight></codeline>
+<codeline lineno="75" refid="group__SerializerGroup_1gab1f4c9b5e66057a0f8d67c686883aba9" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector2f&amp;<sp/>vec<sp/>);</highlight></codeline>
+<codeline lineno="76" refid="group__SerializerGroup_1ga8fec83e42dbf1eafa88e248f04084ec3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector3i&amp;<sp/>vec<sp/>);</highlight></codeline>
+<codeline lineno="77" refid="group__SerializerGroup_1ga572d20520171401a50e9f6a678d9f6f7" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector3f&amp;<sp/>vec<sp/>);</highlight></codeline>
+<codeline lineno="78" refid="group__SerializerGroup_1ga8fa1e442b24962ea35467b9f00ebc3c3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Vector4f&amp;<sp/>vec<sp/>);</highlight></codeline>
+<codeline lineno="79" refid="group__SerializerGroup_1ga2198fc24f7029799a5fad3c9daa3ae08" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>col<sp/>);</highlight></codeline>
+<codeline lineno="80" refid="group__SerializerGroup_1ga6fffe2a90f2afa8d4f973c135ed1547b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Matrix2f&amp;<sp/>matrix<sp/>);</highlight></codeline>
+<codeline lineno="81" refid="group__SerializerGroup_1ga76dc132b753197429af6f195ba75dc98" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>Matrix3f&amp;<sp/>matrix<sp/>);</highlight></codeline>
+<codeline lineno="82" refid="group__SerializerGroup_1ga0976e55e1f829c8d93c9fa0b7385b554" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="group__GeneralGroup_1gab9a91b42c9f6b54ae6f4729f9ce46769" kindref="member">AffineXf2f</ref>&amp;<sp/>xf<sp/>);</highlight></codeline>
+<codeline lineno="83" refid="group__SerializerGroup_1ga9e46a04df527f41269ef366a4fcffce2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>AffineXf3f&amp;<sp/>xf<sp/>);</highlight></codeline>
+<codeline lineno="84" refid="group__SerializerGroup_1gae512f586c88dd70e81f31e416bef9d77" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref>&amp;<sp/>bitset<sp/>);</highlight></codeline>
+<codeline lineno="85" refid="group__SerializerGroup_1ga71738630f5412b9a1fa5cf71086d6857" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>VertColors*<sp/>colors<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="86" refid="group__SerializerGroup_1ga0554aaf11fa5c4fa1b0a2c12a280c591" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane<sp/>);</highlight></codeline>
+<codeline lineno="87" refid="group__SerializerGroup_1ga8d6612abbb91e8b262b81c9a74b7a81c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kindref="member">TriPointf</ref>&amp;<sp/>tp<sp/>);</highlight></codeline>
+<codeline lineno="88" refid="group__SerializerGroup_1ga249e465132da4ac77fb5762b4e701b82" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>&amp;<sp/>texture<sp/>);</highlight></codeline>
+<codeline lineno="89" refid="group__SerializerGroup_1gae55b9b60dc8f4cea8ff85077859cf946" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>std::vector&lt;TextureId&gt;&amp;<sp/>texturePerFace<sp/>);</highlight></codeline>
+<codeline lineno="90" refid="group__SerializerGroup_1ga4d71b08da8839c41442fe12956b60a16" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>std::vector&lt;UVCoord&gt;&amp;<sp/>uvCoords<sp/>);</highlight></codeline>
+<codeline lineno="91" refid="group__SerializerGroup_1gad92c41be92ee48e63f5e3ca1e833e468" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/>std::vector&lt;Color&gt;&amp;<sp/>colors<sp/>);</highlight></codeline>
+<codeline lineno="94" refid="group__SerializerGroup_1ga6e48c72925ab23bc42bff1d4bc389bf5" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>mtp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology<sp/>);</highlight></codeline>
+<codeline lineno="95" refid="group__SerializerGroup_1ga2d2bfffd8ea520a7eb58c0c7132868a5" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>pf<sp/>);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h"/>
+    <location file="MRMesh/MRSerializer.h"/>
   </compounddef>
 </doxygen>

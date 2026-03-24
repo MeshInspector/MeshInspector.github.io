@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeta_8h" kind="file" language="C++">
     <compoundname>MRMeta.h</compoundname>
     <includes local="no">memory</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRMeta.h</label>
+        <label>MRMesh/MRMeta.h</label>
         <link refid="MRMeta_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -45,6 +45,6 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeta.h"/>
+    <location file="MRMesh/MRMeta.h"/>
   </compounddef>
 </doxygen>

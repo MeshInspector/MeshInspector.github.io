@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage" kind="struct" language="C++" prot="public">
     <compoundname>MR::RenderWrapObject::detail::SubobjectStorage</compoundname>
     <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectType &gt;, RenderObjectType &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; ObjectType, RenderObjectType &gt;</derivedcompoundref>
-    <includes refid="MRRenderWrapObject_8h" local="no">MRRenderWrapObject.h</includes>
+    <includes refid="MRRenderWrapObject_8h" local="no">MRViewer/MRRenderWrapObject.h</includes>
     <templateparamlist>
       <param>
         <type>typename ObjectType</type>
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="15" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="15" bodyend="-1"/>
+        <location file="MRViewer/MRRenderWrapObject.h" line="15" column="20" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="15" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -36,6 +36,54 @@
         <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectType, RenderObjectType &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectLines, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectMesh, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectPoints, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; false &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::RenderFeatures::RenderPlaneNormalComponent</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent"/>
+        <childnode refid="10" relation="public-inheritance">
         </childnode>
       </node>
       <node id="4">
@@ -67,7 +115,7 @@
         <label>ObjectType</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="14" bodyend="16"/>
+    <location file="MRViewer/MRRenderWrapObject.h" line="13" column="5" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="14" bodyend="16"/>
     <listofallmembers>
       <member refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" virt="non-virtual"><scope>MR::RenderWrapObject::detail::SubobjectStorage</scope><name>subobject</name></member>
     </listofallmembers>

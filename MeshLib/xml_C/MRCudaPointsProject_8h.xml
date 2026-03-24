@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCudaPointsProject_8h" kind="file" language="C++">
+    <compoundname>MRCudaPointsProject.h</compoundname>
+    <includes refid="uda_2include_2MRCCuda_2exports_8h" local="no">MRCCuda/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>MRCudaPointsProject.h</label>
+        <link refid="MRCudaPointsProject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCCuda/exports.h</label>
+        <link refid="uda_2include_2MRCCuda_2exports_8h"/>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" prot="public" static="no">
+        <type>struct <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref></type>
+        <definition>typedef struct MR_Cuda_PointsProjector MR_Cuda_PointsProjector</definition>
+        <argsstring></argsstring>
+        <name>MR_Cuda_PointsProjector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CUDA-backed implementation of IPointsProjector Generated from class <computeroutput>MR::Cuda::PointsProjector</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::IPointsProjector</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="27" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1ae7e204d63c71610157bf32d18da38a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cuda_PointsProjector_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCudaPointsProject_8h_1ae2176804e369314dd1fcc8df563975f7" kindref="member">MR_Cuda_PointsProjector_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="31" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="31" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a4c4c22a8c79a3e9d5d3761cd3d891811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Cuda_PointsProjector_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRCudaPointsProject_8h_1a5e61848edbef91d747743beb8a5db53e" kindref="member">MR_Cuda_PointsProjector_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRCudaPointsProject_8h_1aa3f91a4bb8f1d1dce3e9ed7560085faf" kindref="member">MR_Cuda_PointsProjector_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRCudaPointsProject_8h_1ab21bc7bf2cf9e189ec74bd1a1e0c38d6" kindref="member">MR_Cuda_PointsProjector_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="36" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="36" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1ab21bc7bf2cf9e189ec74bd1a1e0c38d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_OffsetPtr</definition>
+        <argsstring>(const MR_Cuda_PointsProjector *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cuda_PointsProjector_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="40" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="40" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1aa3f91a4bb8f1d1dce3e9ed7560085faf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_OffsetMutablePtr</definition>
+        <argsstring>(MR_Cuda_PointsProjector *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cuda_PointsProjector_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="44" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="44" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a20426db03de1ff1a59fc64687d86ffd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API const MR_IPointsProjector * MR_Cuda_PointsProjector_UpcastTo_MR_IPointsProjector</definition>
+        <argsstring>(const MR_Cuda_PointsProjector *object)</argsstring>
+        <name>MR_Cuda_PointsProjector_UpcastTo_MR_IPointsProjector</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Cuda::PointsProjector</computeroutput> to its base class <computeroutput>MR::IPointsProjector</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="49" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="49" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1acc4105d832f2060058beedeb185482aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_IPointsProjector * MR_Cuda_PointsProjector_MutableUpcastTo_MR_IPointsProjector</definition>
+        <argsstring>(MR_Cuda_PointsProjector *object)</argsstring>
+        <name>MR_Cuda_PointsProjector_MutableUpcastTo_MR_IPointsProjector</name>
+        <param>
+          <type><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Cuda::PointsProjector</computeroutput> to its base class <computeroutput>MR::IPointsProjector</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="53" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="53" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a95b0dc68ad19e7e63f64dc14e9296689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_StaticDowncastFrom_MR_IPointsProjector</definition>
+        <argsstring>(const MR_IPointsProjector *object)</argsstring>
+        <name>MR_Cuda_PointsProjector_StaticDowncastFrom_MR_IPointsProjector</name>
+        <param>
+          <type>const <ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsProjector</computeroutput> to a derived class <computeroutput>MR::Cuda::PointsProjector</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="59" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="59" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a01ab7b89cad12bf91a441958a156101e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_MutableStaticDowncastFrom_MR_IPointsProjector</definition>
+        <argsstring>(MR_IPointsProjector *object)</argsstring>
+        <name>MR_Cuda_PointsProjector_MutableStaticDowncastFrom_MR_IPointsProjector</name>
+        <param>
+          <type><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsProjector</computeroutput> to a derived class <computeroutput>MR::Cuda::PointsProjector</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="64" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="64" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a16cff74b324d4ced73566887969487cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_DynamicDowncastFrom_MR_IPointsProjector</definition>
+        <argsstring>(const MR_IPointsProjector *object)</argsstring>
+        <name>MR_Cuda_PointsProjector_DynamicDowncastFrom_MR_IPointsProjector</name>
+        <param>
+          <type>const <ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsProjector</computeroutput> to a derived class <computeroutput>MR::Cuda::PointsProjector</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="70" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="70" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1af7df40972c67b7d3909856a42fdbb19a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_MutableDynamicDowncastFrom_MR_IPointsProjector</definition>
+        <argsstring>(MR_IPointsProjector *object)</argsstring>
+        <name>MR_Cuda_PointsProjector_MutableDynamicDowncastFrom_MR_IPointsProjector</name>
+        <param>
+          <type><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsProjector</computeroutput> to a derived class <computeroutput>MR::Cuda::PointsProjector</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="75" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="75" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1af049c8cf4f35da9f710582d1dd880e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_DynamicDowncastFromOrFail_MR_IPointsProjector</definition>
+        <argsstring>(const MR_IPointsProjector *object)</argsstring>
+        <name>MR_Cuda_PointsProjector_DynamicDowncastFromOrFail_MR_IPointsProjector</name>
+        <param>
+          <type>const <ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsProjector</computeroutput> to a derived class <computeroutput>MR::Cuda::PointsProjector</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="83" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="83" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a2db7ca3d8766ec9fb6d38e574d5831c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_MutableDynamicDowncastFromOrFail_MR_IPointsProjector</definition>
+        <argsstring>(MR_IPointsProjector *object)</argsstring>
+        <name>MR_Cuda_PointsProjector_MutableDynamicDowncastFromOrFail_MR_IPointsProjector</name>
+        <param>
+          <type><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsProjector</computeroutput> to a derived class <computeroutput>MR::Cuda::PointsProjector</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="90" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="90" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a74ac56b563e898f1616b1f4859228d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Cuda_PointsProjector *_other)</argsstring>
+        <name>MR_Cuda_PointsProjector_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Cuda::PointsProjector::PointsProjector</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCudaPointsProject_8h_1ae2176804e369314dd1fcc8df563975f7" kindref="member">MR_Cuda_PointsProjector_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="95" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="95" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1ae2176804e369314dd1fcc8df563975f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_PointsProjector_Destroy</definition>
+        <argsstring>(const MR_Cuda_PointsProjector *_this)</argsstring>
+        <name>MR_Cuda_PointsProjector_Destroy</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="98" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="98" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a5e61848edbef91d747743beb8a5db53e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_PointsProjector_DestroyArray</definition>
+        <argsstring>(const MR_Cuda_PointsProjector *_this)</argsstring>
+        <name>MR_Cuda_PointsProjector_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="101" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="101" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1ae0f8fb242af0fd8dd457e51a129f4967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsProjector * MR_Cuda_PointsProjector_AssignFromAnother</definition>
+        <argsstring>(MR_Cuda_PointsProjector *_this, MR_PassBy _other_pass_by, MR_Cuda_PointsProjector *_other)</argsstring>
+        <name>MR_Cuda_PointsProjector_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::PointsProjector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="108" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="108" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1ac8cbc1843cadfbe887280ccacafb149d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_void_std_string * MR_Cuda_PointsProjector_setPointCloud</definition>
+        <argsstring>(MR_Cuda_PointsProjector *_this, const MR_PointCloud *pointCloud)</argsstring>
+        <name>MR_Cuda_PointsProjector_setPointCloud</name>
+        <param>
+          <type><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets the reference point cloud Generated from method <computeroutput>MR::Cuda::PointsProjector::setPointCloud</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="115" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="115" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1ad8936e5b16d5343f0d45c5d71e4f9f50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_void_std_string * MR_Cuda_PointsProjector_findProjections</definition>
+        <argsstring>(const MR_Cuda_PointsProjector *_this, MR_std_vector_MR_PointsProjectionResult *results, const MR_std_vector_MR_Vector3f *points, const MR_FindProjectionOnPointsSettings *settings)</argsstring>
+        <name>MR_Cuda_PointsProjector_findProjections</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref> *</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointsProject_8h_1a92b99767ad50161176d6aeb9c7349616" kindref="member">MR_FindProjectionOnPointsSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes the closest points on point cloud to given points Generated from method <computeroutput>MR::Cuda::PointsProjector::findProjections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>results</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="124" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="124" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a826e3687f46b27bc90ad965cbc7cde58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_PointsProjector_projectionsHeapBytes</definition>
+        <argsstring>(const MR_Cuda_PointsProjector *_this, MR_uint64_t numProjections)</argsstring>
+        <name>MR_Cuda_PointsProjector_projectionsHeapBytes</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns amount of additional memory needed to compute projections Generated from method <computeroutput>MR::Cuda::PointsProjector::projectionsHeapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="129" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="129" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1a580ee1e77eea192f95e70b37acf776ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__std__vector__MR__PointsProjectionResult__std__string_8h_1a9cf5611316fa55171bb75b49425fa5cc" kindref="member">MR_expected_std_vector_MR_PointsProjectionResult_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_std_vector_MR_PointsProjectionResult_std_string * MR_Cuda_findProjectionOnPoints</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, const MR_std_vector_MR_Vector3f *points, const MR_FindProjectionOnPointsSettings *settings)</argsstring>
+        <name>MR_Cuda_findProjectionOnPoints</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointsProject_8h_1a92b99767ad50161176d6aeb9c7349616" kindref="member">MR_FindProjectionOnPointsSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes the closest points on point cloud to given points Generated from function <computeroutput>MR::Cuda::findProjectionOnPoints</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__PointsProjectionResult__std__string_8h_1ac17ccbdfb459b3d038d7e078dbf45f6f" kindref="member">MR_expected_std_vector_MR_PointsProjectionResult_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="138" column="74" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="138" declcolumn="74"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsProject_8h_1acc0c3dd42b847235fc28fd9210c2f40b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_findProjectionOnPointsHeapBytes</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, MR_uint64_t pointsCount)</argsstring>
+        <name>MR_Cuda_findProjectionOnPointsHeapBytes</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>pointsCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the minimal amount of free GPU memory required for MR::Cuda::findProjectionOnPoints Generated from function <computeroutput>MR::Cuda::findProjectionOnPointsHeapBytes</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" line="143" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h" declline="143" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="uda_2include_2MRCCuda_2exports_8h" kindref="compound">MRCCuda/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsProject_8h_1a92b99767ad50161176d6aeb9c7349616" kindref="member">MR_FindProjectionOnPointsSettings</ref><sp/><ref refid="MRPointsProject_8h_1a92b99767ad50161176d6aeb9c7349616" kindref="member">MR_FindProjectionOnPointsSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointsProject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointsProject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__std__vector__MR__PointsProjectionResult__std__string_8h_1a9cf5611316fa55171bb75b49425fa5cc" kindref="member">MR_expected_std_vector_MR_PointsProjectionResult_std_string</ref><sp/><ref refid="expected__std__vector__MR__PointsProjectionResult__std__string_8h_1a9cf5611316fa55171bb75b49425fa5cc" kindref="member">MR_expected_std_vector_MR_PointsProjectionResult_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_PointsProjectionResult_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_PointsProjectionResult.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRCudaPointsProject_8h_1ae7e204d63c71610157bf32d18da38a32" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1ae7e204d63c71610157bf32d18da38a32" kindref="member">MR_Cuda_PointsProjector_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRCudaPointsProject_8h_1a4c4c22a8c79a3e9d5d3761cd3d891811" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1a4c4c22a8c79a3e9d5d3761cd3d891811" kindref="member">MR_Cuda_PointsProjector_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRCudaPointsProject_8h_1ab21bc7bf2cf9e189ec74bd1a1e0c38d6" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1ab21bc7bf2cf9e189ec74bd1a1e0c38d6" kindref="member">MR_Cuda_PointsProjector_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRCudaPointsProject_8h_1aa3f91a4bb8f1d1dce3e9ed7560085faf" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1aa3f91a4bb8f1d1dce3e9ed7560085faf" kindref="member">MR_Cuda_PointsProjector_OffsetMutablePtr</ref>(<ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRCudaPointsProject_8h_1a20426db03de1ff1a59fc64687d86ffd0" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1a20426db03de1ff1a59fc64687d86ffd0" kindref="member">MR_Cuda_PointsProjector_UpcastTo_MR_IPointsProjector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRCudaPointsProject_8h_1acc4105d832f2060058beedeb185482aa" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1acc4105d832f2060058beedeb185482aa" kindref="member">MR_Cuda_PointsProjector_MutableUpcastTo_MR_IPointsProjector</ref>(<ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRCudaPointsProject_8h_1a95b0dc68ad19e7e63f64dc14e9296689" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1a95b0dc68ad19e7e63f64dc14e9296689" kindref="member">MR_Cuda_PointsProjector_StaticDowncastFrom_MR_IPointsProjector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRCudaPointsProject_8h_1a01ab7b89cad12bf91a441958a156101e" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1a01ab7b89cad12bf91a441958a156101e" kindref="member">MR_Cuda_PointsProjector_MutableStaticDowncastFrom_MR_IPointsProjector</ref>(<ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRCudaPointsProject_8h_1a16cff74b324d4ced73566887969487cd" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1a16cff74b324d4ced73566887969487cd" kindref="member">MR_Cuda_PointsProjector_DynamicDowncastFrom_MR_IPointsProjector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRCudaPointsProject_8h_1af7df40972c67b7d3909856a42fdbb19a" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1af7df40972c67b7d3909856a42fdbb19a" kindref="member">MR_Cuda_PointsProjector_MutableDynamicDowncastFrom_MR_IPointsProjector</ref>(<ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRCudaPointsProject_8h_1af049c8cf4f35da9f710582d1dd880e59" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1af049c8cf4f35da9f710582d1dd880e59" kindref="member">MR_Cuda_PointsProjector_DynamicDowncastFromOrFail_MR_IPointsProjector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRCudaPointsProject_8h_1a2db7ca3d8766ec9fb6d38e574d5831c6" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1a2db7ca3d8766ec9fb6d38e574d5831c6" kindref="member">MR_Cuda_PointsProjector_MutableDynamicDowncastFromOrFail_MR_IPointsProjector</ref>(<ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRCudaPointsProject_8h_1a74ac56b563e898f1616b1f4859228d1b" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1a74ac56b563e898f1616b1f4859228d1b" kindref="member">MR_Cuda_PointsProjector_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRCudaPointsProject_8h_1ae2176804e369314dd1fcc8df563975f7" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1ae2176804e369314dd1fcc8df563975f7" kindref="member">MR_Cuda_PointsProjector_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRCudaPointsProject_8h_1a5e61848edbef91d747743beb8a5db53e" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1a5e61848edbef91d747743beb8a5db53e" kindref="member">MR_Cuda_PointsProjector_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRCudaPointsProject_8h_1ae0f8fb242af0fd8dd457e51a129f4967" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1ae0f8fb242af0fd8dd457e51a129f4967" kindref="member">MR_Cuda_PointsProjector_AssignFromAnother</ref>(<ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRCudaPointsProject_8h_1ac8cbc1843cadfbe887280ccacafb149d" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1ac8cbc1843cadfbe887280ccacafb149d" kindref="member">MR_Cuda_PointsProjector_setPointCloud</ref>(<ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRCudaPointsProject_8h_1ad8936e5b16d5343f0d45c5d71e4f9f50" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1ad8936e5b16d5343f0d45c5d71e4f9f50" kindref="member">MR_Cuda_PointsProjector_findProjections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*_this,<sp/><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref><sp/>*results,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a92b99767ad50161176d6aeb9c7349616" kindref="member">MR_FindProjectionOnPointsSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRCudaPointsProject_8h_1a826e3687f46b27bc90ad965cbc7cde58" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaPointsProject_8h_1a826e3687f46b27bc90ad965cbc7cde58" kindref="member">MR_Cuda_PointsProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsProject_8h_1aa6be39484021a592da130bf2c5aa1b0d" kindref="member">MR_Cuda_PointsProjector</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>numProjections);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRCudaPointsProject_8h_1a580ee1e77eea192f95e70b37acf776ae" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__std__vector__MR__PointsProjectionResult__std__string_8h_1a9cf5611316fa55171bb75b49425fa5cc" kindref="member">MR_expected_std_vector_MR_PointsProjectionResult_std_string</ref><sp/>*<ref refid="MRCudaPointsProject_8h_1a580ee1e77eea192f95e70b37acf776ae" kindref="member">MR_Cuda_findProjectionOnPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a92b99767ad50161176d6aeb9c7349616" kindref="member">MR_FindProjectionOnPointsSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRCudaPointsProject_8h_1acc0c3dd42b847235fc28fd9210c2f40b" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaPointsProject_8h_1acc0c3dd42b847235fc28fd9210c2f40b" kindref="member">MR_Cuda_findProjectionOnPointsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>pointsCount);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsProject.h"/>
+  </compounddef>
+</doxygen>

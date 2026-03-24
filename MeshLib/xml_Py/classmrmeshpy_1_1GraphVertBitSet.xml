@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1GraphVertBitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::GraphVertBitSet</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -25,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22241" bodyend="22242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22298" bodyend="22299"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ae460b47f27471d1147024b6ef524c91a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -42,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22244" bodyend="22247"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22301" bodyend="22304"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ae2fcdc87f5b2e061a1cb0cb49be5cf44" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -65,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22250" bodyend="22251"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22307" bodyend="22308"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ae2fcdc87f5b2e061a1cb0cb49be5cf44" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -88,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22254" bodyend="22255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22311" bodyend="22312"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +97,6 @@
         <argsstring>(self, GraphVertBitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -113,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22256" bodyend="22257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22313" bodyend="22314"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a284dcd5ddaa7cafa8779d5141c7c3d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -121,7 +119,6 @@
         <argsstring>(self, GraphVertBitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -136,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22258" bodyend="22259"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22315" bodyend="22316"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a6f6ac87cd94c97add7f004320ced8092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -144,7 +141,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -155,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22261" bodyend="22262"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22318" bodyend="22319"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a48c434d0d27828aae0112220c618858d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -163,7 +159,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -185,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22264" bodyend="22267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22321" bodyend="22324"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -193,7 +188,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -210,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22269" bodyend="22272"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22326" bodyend="22329"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -218,7 +212,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -235,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22274" bodyend="22277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22331" bodyend="22334"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ac08d5ba4fdcb5f6c291aa492cab5529d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -243,7 +236,6 @@
         <argsstring>(self, GraphVertBitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -260,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22279" bodyend="22282"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22336" bodyend="22339"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ae5be9f989aad8f10f1428f5d0acd1819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -268,7 +260,6 @@
         <argsstring>(self, GraphVertBitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -283,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22283" bodyend="22284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22340" bodyend="22341"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a77cd1d78dee2c916b16768b9424ddaa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -291,7 +282,6 @@
         <argsstring>(self, GraphVertBitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -306,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22285" bodyend="22286"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22342" bodyend="22343"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ab441e659e190c7636523fb9bd1e9447e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref>]</type>
@@ -314,7 +304,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -325,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22287" bodyend="22288"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22344" bodyend="22345"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a20ea96ad1ae77d86fd2f8856eace9be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -333,7 +322,6 @@
         <argsstring>(self, GraphVertBitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -348,7 +336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22289" bodyend="22290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22346" bodyend="22347"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ade311a053d6f0c1ad73804cf2b3457b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -356,7 +344,6 @@
         <argsstring>(self, GraphVertBitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -371,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22291" bodyend="22292"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22348" bodyend="22349"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a6b9fb75f61fbd7df29a36b5b39f60953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -379,7 +366,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -390,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22293" bodyend="22294"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22350" bodyend="22351"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a7f141be9b58552f19936c74d79e518eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -398,7 +384,6 @@
         <argsstring>(self, GraphVertBitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -413,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22295" bodyend="22296"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22352" bodyend="22353"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1af7997f27ec53915b99b7ec6e08d400d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -421,7 +406,6 @@
         <argsstring>(self, GraphVertBitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -436,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22297" bodyend="22298"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22354" bodyend="22355"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a19282e51a096b4b8d402fac992e573f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -470,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22300" bodyend="22301"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22357" bodyend="22358"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a22ce6dd468011768390f3eb2469827ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -500,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22303" bodyend="22304"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22360" bodyend="22361"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1af0643ad3506269f2793f17dcf3f5ce40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -530,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22305" bodyend="22306"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22362" bodyend="22363"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ac0d747ef2b15e0f063dc4acacd2bb7e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -551,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22307" bodyend="22310"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22364" bodyend="22367"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ab5584447ddcf4bb79d15300b8e67b2bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -570,7 +554,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22311" bodyend="22312"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22368" bodyend="22369"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1aaba7f817f9b3677517c9c0625303782d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -591,7 +575,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22313" bodyend="22314"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22370" bodyend="22371"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a099ed91453d7776ce12ab92894ff25e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -612,7 +596,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22315" bodyend="22316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22372" bodyend="22373"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a7a92107f11a2b0e7b0d12974f9fb53c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -633,7 +617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22317" bodyend="22318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22374" bodyend="22375"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a948ddf1da0df67feab78d7f8ff784ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -654,7 +638,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22319" bodyend="22320"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22376" bodyend="22377"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1abcdb32afecad1a99cc336bffd68cb22c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -679,7 +663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22321" bodyend="22322"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22378" bodyend="22379"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a8195abf86c018c447975e234129e57f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -704,7 +688,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22323" bodyend="22324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22380" bodyend="22381"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a9026177a05f676bd1789ce3d8fe6b6ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -731,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22326" bodyend="22327"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22383" bodyend="22384"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a8d67d4ecf7086b4645ec9c6e05f55e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -754,7 +738,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22329" bodyend="22330"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22386" bodyend="22387"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ac2b89910dc691cb54fb45b582ecb4479" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -773,7 +757,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22332" bodyend="22333"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22389" bodyend="22390"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a5c3871a65d3da2b2920dc499923feb05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -795,7 +779,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22335" bodyend="22336"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22392" bodyend="22393"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a4cd0201dc8bf0c7acc6ce82cd68c0e9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -817,7 +801,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22338" bodyend="22339"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22395" bodyend="22396"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a2b9e2020a6f03f2e284324617d88e160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -839,7 +823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22341" bodyend="22342"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22398" bodyend="22399"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a523acc86619193559facb6e47e4b6103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -865,7 +849,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22344" bodyend="22345"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22401" bodyend="22402"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ad6738bcc739ff6ee6933396beb9bf99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -891,7 +875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22347" bodyend="22348"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22404" bodyend="22405"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a08791cac9afc384e0ccbeb2e15d14c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -916,7 +900,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22349" bodyend="22352"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22406" bodyend="22409"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a2c7deb1da06e051622b50ddcc392a3a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -941,7 +925,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22353" bodyend="22356"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22410" bodyend="22413"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ac14c371028f639bedc6ba2f4692d6f2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -966,7 +950,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22357" bodyend="22360"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22414" bodyend="22417"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a73747a9e534d9c0f54cb55eb5656c7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -993,7 +977,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22362" bodyend="22363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22419" bodyend="22420"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a87353d12c29bc814ad785607be2377b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -1016,7 +1000,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22365" bodyend="22366"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22422" bodyend="22423"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a1d237f734362530906bb32b8dadd5424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -1035,7 +1019,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22368" bodyend="22369"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22425" bodyend="22426"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a4fa1e9e24be8819e449abb30bd6c05ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -1066,7 +1050,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22371" bodyend="22372"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22428" bodyend="22429"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a632ee7e810e76e2277d901eacea556be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -1093,7 +1077,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22374" bodyend="22375"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22431" bodyend="22432"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ae66cc02f3be4d83d75072f8c210903d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -1116,7 +1100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22377" bodyend="22378"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22434" bodyend="22435"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1aeacbaef5df83d17070ba4f99e455d0b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -1135,7 +1119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22380" bodyend="22381"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22437" bodyend="22438"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a0d218d12ec07113916303f586d037319" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
@@ -1164,7 +1148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22382" bodyend="22385"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22439" bodyend="22442"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a57ce07e345661f02ec922dcb31dff438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1189,7 +1173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22386" bodyend="22387"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22443" bodyend="22444"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a33225a4fb38b271a5d5c9e888846af99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1217,7 +1201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22388" bodyend="22389"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22445" bodyend="22446"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1252,18 +1236,12 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22231" bodyend="22389"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22288" bodyend="22446"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a0ed597f34b83f6bca59b46a178908099" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a284dcd5ddaa7cafa8779d5141c7c3d01" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__iand__</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ae1474c2d1fec63dbc745f21c825353ce" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a6f6ac87cd94c97add7f004320ced8092" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__init__</name></member>
@@ -1277,13 +1255,23 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a20ea96ad1ae77d86fd2f8856eace9be1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ade311a053d6f0c1ad73804cf2b3457b4" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a6b9fb75f61fbd7df29a36b5b39f60953" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a7f141be9b58552f19936c74d79e518eb" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1af7997f27ec53915b99b7ec6e08d400d2" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a19282e51a096b4b8d402fac992e573f8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a22ce6dd468011768390f3eb2469827ee" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1af0643ad3506269f2793f17dcf3f5ce40" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ac0d747ef2b15e0f063dc4acacd2bb7e8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ae460b47f27471d1147024b6ef524c91a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ab5584447ddcf4bb79d15300b8e67b2bb" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1aaba7f817f9b3677517c9c0625303782d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a099ed91453d7776ce12ab92894ff25e1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>find_first_not_set</name></member>
@@ -1294,26 +1282,41 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a9026177a05f676bd1789ce3d8fe6b6ac" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a8d67d4ecf7086b4645ec9c6e05f55e61" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ac2b89910dc691cb54fb45b582ecb4479" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a5c3871a65d3da2b2920dc499923feb05" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a4cd0201dc8bf0c7acc6ce82cd68c0e9d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a2b9e2020a6f03f2e284324617d88e160" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a523acc86619193559facb6e47e4b6103" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ad6738bcc739ff6ee6933396beb9bf99f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a08791cac9afc384e0ccbeb2e15d14c9d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a2c7deb1da06e051622b50ddcc392a3a9" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ac14c371028f639bedc6ba2f4692d6f2b" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ae2fcdc87f5b2e061a1cb0cb49be5cf44" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ae2fcdc87f5b2e061a1cb0cb49be5cf44" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a73747a9e534d9c0f54cb55eb5656c7bf" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a87353d12c29bc814ad785607be2377b3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a1d237f734362530906bb32b8dadd5424" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a4fa1e9e24be8819e449abb30bd6c05ac" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a632ee7e810e76e2277d901eacea556be" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ae66cc02f3be4d83d75072f8c210903d1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1aeacbaef5df83d17070ba4f99e455d0b6" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a0d218d12ec07113916303f586d037319" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a57ce07e345661f02ec922dcb31dff438" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a33225a4fb38b271a5d5c9e888846af99" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1IntersectionPrecomputes2" kind="struct" language="C++" prot="public">
     <compoundname>MR::IntersectionPrecomputes2</compoundname>
-    <includes refid="MRIntersectionPrecomputes2_8h" local="no">MRIntersectionPrecomputes2.h</includes>
+    <includes refid="MRIntersectionPrecomputes2_8h" local="no">MRMesh/MRIntersectionPrecomputes2.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="37" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="37" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="37" column="13" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a97745f96da021de236ed1d33cc89c73f" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="40" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="40" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="40" column="9" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a4570f366fea168e1a0346c51fe5108c8" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="41" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="41" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="41" column="9" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a802abc712cfba3867b04a4f8a9ba4f60" prot="public" static="no" mutable="no">
         <type>Vector2i</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="44" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="44" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="44" column="14" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a5f59c134b3ba556dea499973669c2f5f" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="47" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="47" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="47" column="7" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a48da57b1568b50155d61042128d457de" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="47" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="47" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="47" column="10" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="47" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="48" column="5"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="48" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1IntersectionPrecomputes2_1a5f4ae33fcf963d2ccab283fcadff212b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="49" bodyend="61"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="49" column="5" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="49" bodyend="61"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -140,7 +140,7 @@
 <para>stores useful precomputed values for presented direction vector</para>
 <para>allows to avoid repeatable computations during intersection finding </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="35" bodyend="62"/>
+    <location file="MRMesh/MRIntersectionPrecomputes2.h" line="34" column="1" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="35" bodyend="62"/>
     <listofallmembers>
       <member refid="structMR_1_1IntersectionPrecomputes2_1a4570f366fea168e1a0346c51fe5108c8" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>idxX</name></member>
       <member refid="structMR_1_1IntersectionPrecomputes2_1a8dc8336a41d3f8aa6342f55f92aaba1b" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>IntersectionPrecomputes2</name></member>

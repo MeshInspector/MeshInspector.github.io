@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BooleanResultMapper::Maps</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -33,21 +33,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3792" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a4694cce4bd6bbb4ef3cb45dca45478ce" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.BooleanResultMapper.Maps::_offsetof_identity</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_identity</name>
-        <qualifiedname>mrmeshpy.BooleanResultMapper.Maps._offsetof_identity</qualifiedname>
-        <initializer>=  96</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3793" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a0f4f1987a03a93833d32a8af028b8bab" prot="protected" static="yes" mutable="no">
         <type>typing</type>
         <definition>typing mrmeshpy.BooleanResultMapper.Maps::_offsetof_old2newEdges</definition>
@@ -61,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3794" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3793" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a8b89dd3207dd0e36ae1e2e25e81e7293" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -76,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3795" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3794" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -100,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3798" bodyend="3799"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3797" bodyend="3798"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a2570982fe5af3be651e2da69e277ea17" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps" kindref="compound">BooleanResultMapper.Maps</ref></type>
@@ -122,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3802" bodyend="3803"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3801" bodyend="3802"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a2570982fe5af3be651e2da69e277ea17" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps" kindref="compound">BooleanResultMapper.Maps</ref></type>
@@ -144,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3806" bodyend="3807"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3805" bodyend="3806"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -164,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3809" bodyend="3810"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3808" bodyend="3809"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1af785e798c45895cede42752f15f5d04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -188,12 +173,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3812" bodyend="3815"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3811" bodyend="3814"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a39824a99b3246954b6e526c7f30a8433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a168924463c19c9655986fa5a53e426ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.BooleanResultMapper.Maps.__init__</definition>
-        <argsstring>(self, FaceMap cut2origin, FaceMap cut2newFaces, WholeEdgeMap old2newEdges, VertMap old2newVerts, bool identity)</argsstring>
+        <argsstring>(self, FaceMap cut2origin, FaceMap cut2newFaces, WholeEdgeMap old2newEdges, VertMap old2newVerts)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BooleanResultMapper.Maps.__init__</qualifiedname>
         <param>
@@ -216,10 +201,6 @@
           <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
           <declname>old2newVerts</declname>
         </param>
-        <param>
-          <type>bool</type>
-          <declname>identity</declname>
-        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -228,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3817" bodyend="3820"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3816" bodyend="3819"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a8dc56ac5f14faf5bfa130bbeddacead0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
@@ -248,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3822" bodyend="3825"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3821" bodyend="3824"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1afbf333f9c6944fa94af0bbb4c1c44bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -270,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3827" bodyend="3828"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3826" bodyend="3827"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a8d368a64881c237e9fcad5827a5cb1f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
@@ -291,7 +272,7 @@ this map is not 1-1, but N-1
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3830" bodyend="3834"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3829" bodyend="3833"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a5d2dacb9a629be0b87e5c8da2675c056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -313,49 +294,7 @@ this map is not 1-1, but N-1
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3836" bodyend="3837"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a7edef6d3412bee06ea4390d8d49667e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.BooleanResultMapper.Maps.identity</definition>
-        <argsstring>(self)</argsstring>
-        <name>identity</name>
-        <qualifiedname>mrmeshpy.BooleanResultMapper.Maps.identity</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>old topology indexes are valid if true
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3839" bodyend="3842"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1ac19a9889986d2cc67bba7c5a660c4a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.BooleanResultMapper.Maps.identity</definition>
-        <argsstring>(self, bool arg1)</argsstring>
-        <name>identity</name>
-        <qualifiedname>mrmeshpy.BooleanResultMapper.Maps.identity</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3844" bodyend="3845"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3835" bodyend="3836"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a6a863a2e5d3058bc90cfd38ddd6aa39f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
@@ -375,7 +314,7 @@ this map is not 1-1, but N-1
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3847" bodyend="3850"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3838" bodyend="3841"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1ab50eaa11b4d343e1c328f997d80aaae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -397,7 +336,7 @@ this map is not 1-1, but N-1
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3852" bodyend="3853"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3843" bodyend="3844"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a0219733c7304eb3229e6262e57917bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
@@ -417,7 +356,7 @@ this map is not 1-1, but N-1
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3855" bodyend="3858"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3846" bodyend="3849"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a21e093aa3d9378fcc1d69243b851400a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -439,7 +378,7 @@ this map is not 1-1, but N-1
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3860" bodyend="3862"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3851" bodyend="3853"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -448,39 +387,20 @@ this map is not 1-1, but N-1
 <para><verbatim>Generated from:  MR::BooleanResultMapper::Maps
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BooleanResultMapper.Maps</label>
-        <link refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cut2newFaces</edgelabel>
-          <edgelabel>_offsetof_cut2origin</edgelabel>
-          <edgelabel>_offsetof_identity</edgelabel>
-          <edgelabel>_offsetof_old2newEdges</edgelabel>
-          <edgelabel>_offsetof_old2newVerts</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3787" bodyend="3861"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3787" bodyend="3852"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a1618d957b29ac6b57f801f1e7bcff1e5" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a4d97bc7c057ef4e75febf73e875fb43f" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1af785e798c45895cede42752f15f5d04c" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a39824a99b3246954b6e526c7f30a8433" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a168924463c19c9655986fa5a53e426ba" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a22e65a808223251d7ce3aa2abd8807a9" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>_offsetof_cut2newFaces</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1af3532acd6dd4b3a5c0dcf33c7b5ff28a" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>_offsetof_cut2origin</name></member>
-      <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a4694cce4bd6bbb4ef3cb45dca45478ce" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>_offsetof_identity</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a0f4f1987a03a93833d32a8af028b8bab" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>_offsetof_old2newEdges</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a8b89dd3207dd0e36ae1e2e25e81e7293" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>_offsetof_old2newVerts</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a8dc56ac5f14faf5bfa130bbeddacead0" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>cut2newFaces</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1afbf333f9c6944fa94af0bbb4c1c44bf7" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>cut2newFaces</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a8d368a64881c237e9fcad5827a5cb1f2" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>cut2origin</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a5d2dacb9a629be0b87e5c8da2675c056" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>cut2origin</name></member>
-      <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a7edef6d3412bee06ea4390d8d49667e6" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>identity</name></member>
-      <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1ac19a9889986d2cc67bba7c5a660c4a69" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>identity</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a6a863a2e5d3058bc90cfd38ddd6aa39f" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>old2newEdges</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1ab50eaa11b4d343e1c328f997d80aaae3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>old2newEdges</name></member>
       <member refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps_1a0219733c7304eb3229e6262e57917bb5" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper::Maps</scope><name>old2newVerts</name></member>

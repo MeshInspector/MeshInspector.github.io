@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MultiMeshIntersectionResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MultiMeshIntersectionResult</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1MeshIntersectionResult" prot="public" virt="non-virtual">mrmeshpy.MeshIntersectionResult</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36317" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36594" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -27,7 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MultiMeshIntersectionResult.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1MeshIntersectionResult_1a4ff2c59b787d805ad44788528bd8f2a3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -42,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36320" bodyend="36321"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36597" bodyend="36598"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MultiMeshIntersectionResult_1ac996a1f924dc7ffe1fc2e95422e68a3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MultiMeshIntersectionResult" kindref="compound">MultiMeshIntersectionResult</ref></type>
@@ -65,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36324" bodyend="36325"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36601" bodyend="36602"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MultiMeshIntersectionResult_1ac996a1f924dc7ffe1fc2e95422e68a3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MultiMeshIntersectionResult" kindref="compound">MultiMeshIntersectionResult</ref></type>
@@ -88,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36328" bodyend="36329"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36605" bodyend="36606"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +97,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MultiMeshIntersectionResult.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1MeshIntersectionResult_1a4ff2c59b787d805ad44788528bd8f2a3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -109,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36331" bodyend="36332"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36608" bodyend="36609"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MultiMeshIntersectionResult_1a28e675643e761f771e20f47a6754f99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -117,7 +115,6 @@
         <argsstring>(self, MultiMeshIntersectionResult arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MultiMeshIntersectionResult.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1MeshIntersectionResult_1a4ff2c59b787d805ad44788528bd8f2a3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -134,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36334" bodyend="36337"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36611" bodyend="36614"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MultiMeshIntersectionResult_1ac074438cac0961932f374e0f2859d9b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -154,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36339" bodyend="36342"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36616" bodyend="36619"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MultiMeshIntersectionResult_1afa1446bc624edce788fca7ddadcf081f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -176,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36344" bodyend="36345"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36621" bodyend="36622"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -203,33 +200,32 @@
         <link refid="classmrmeshpy_1_1MultiMeshIntersectionResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_mesh</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.MeshIntersectionResult</label>
         <link refid="classmrmeshpy_1_1MeshIntersectionResult"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_distanceAlongLine</edgelabel>
-          <edgelabel>_offsetof_mtp</edgelabel>
-          <edgelabel>_offsetof_proj</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36313" bodyend="36345"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36590" bodyend="36622"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1af3936e4194aae65935397c3a618edf70" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>__bool__</name></member>
       <member refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a0247a54301edb3e141ea382dd9dd6c2b" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a89c6f76f313c119720c13712d2cf7e45" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a28e675643e761f771e20f47a6754f99f" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1a5d2f367c2b89e5705d50292e9a821467" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>_offsetof_distanceAlongLine</name></member>
       <member refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a81fad84548efe051e07a7749c54a4e7f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1a906297f6b2bd3f058e76d1ee439edc94" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>_offsetof_mtp</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1ab17ae385a35bb56340fff257eabd2156" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>_offsetof_proj</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1aaa1362d44ecaa8bc05dd891fe1f247ac" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>distanceAlongLine</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1af85a8f9143a1e2ceb06375675c478030" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>distanceAlongLine</name></member>
       <member refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1ac074438cac0961932f374e0f2859d9b4" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>mesh</name></member>
       <member refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1afa1446bc624edce788fca7ddadcf081f" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1aab887a864c34bb0615beb70031f4e53a" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>mtp</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1acfcd5b04f8be2f5d8f338997e5b547f5" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>mtp</name></member>
       <member refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1ac996a1f924dc7ffe1fc2e95422e68a3a" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1ac996a1f924dc7ffe1fc2e95422e68a3a" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1af6189619709f93662ee5e853c49e43c4" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>proj</name></member>
+      <member refid="classmrmeshpy_1_1MeshIntersectionResult_1aa0bce6664cf9819a32afacec3dc4445b" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiMeshIntersectionResult</scope><name>proj</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IntrinsicDeloneSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::IntrinsicDeloneSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_IntrinsicDeloneSettings</basecompoundref>
@@ -11,13 +11,13 @@
         <name>threshold</name>
         <qualifiedname>MR.IntrinsicDeloneSettings.threshold</qualifiedname>
         <briefdescription>
+<para>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &amp;gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions </para>
         </briefdescription>
         <detaileddescription>
-<para>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="510" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="510" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="550" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="550" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IntrinsicDeloneSettings_1aaead0958e70cc50a06e4397e45e0053c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_FaceBitSet</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="513" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="514" bodyend="523"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="555" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="556" bodyend="565"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IntrinsicDeloneSettings_1a82a9a8e7e6e1f107af6dd2d461f82594" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_UndirectedEdgeBitSet</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="526" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="527" bodyend="536"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="570" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="571" bodyend="580"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IntrinsicDeloneSettings_1a09208d21d7e5e0ef57b0beb7dce16361" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_VertBitSet</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="539" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="540" bodyend="549"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="585" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="586" bodyend="595"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="553" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="553" bodyend="557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="599" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="599" bodyend="603"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="563" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="563" bodyend="569"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="609" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="609" bodyend="615"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IntrinsicDeloneSettings_1ac46a434cc82b6b329c4b5dc70f3d3958" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="574" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="574" bodyend="583"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="620" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="620" bodyend="629"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IntrinsicDeloneSettings_1a60cc5fdd6e52023b9623498af0a26837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IntrinsicDeloneSettings.IntrinsicDeloneSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1IntrinsicDeloneSettings_1a951573c17b684ec83d88ad5d360623e9" kindref="member">MR.IntrinsicDeloneSettings.IntrinsicDeloneSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="588" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="588" bodyend="595"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="634" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="634" bodyend="641"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IntrinsicDeloneSettings_1a75296456ca58d6c73cdecf8980f046b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IntrinsicDeloneSettings.IntrinsicDeloneSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1IntrinsicDeloneSettings_1a951573c17b684ec83d88ad5d360623e9" kindref="member">MR.IntrinsicDeloneSettings.IntrinsicDeloneSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="600" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="600" bodyend="600"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="646" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="646" bodyend="646"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IntrinsicDeloneSettings_1ae444a57599fe0e7e70517fd653413397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1IntrinsicDeloneSettings" kindref="compound">MR.IntrinsicDeloneSettings</ref></type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.IntrinsicDeloneSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IntrinsicDeloneSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="605" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="605" bodyend="612"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="651" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="651" bodyend="658"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -200,48 +200,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_IntrinsicDeloneSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.IntrinsicDeloneSettings</label>
         <link refid="classMR_1_1IntrinsicDeloneSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_IntrinsicDeloneSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IntrinsicDeloneSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_IntrinsicDeloneSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.IntrinsicDeloneSettings</label>
         <link refid="classMR_1_1IntrinsicDeloneSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_IntrinsicDeloneSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IntrinsicDeloneSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="506" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="507" bodyend="613"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="544" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="545" bodyend="659"/>
     <listofallmembers>
       <member refid="classMR_1_1IntrinsicDeloneSettings_1ae444a57599fe0e7e70517fd653413397" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1IntrinsicDeloneSettings_1a0aa04771e709a08f4a145c4bef0b332d" prot="package" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>IntrinsicDeloneSettings</name></member>

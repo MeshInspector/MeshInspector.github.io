@@ -1,6 +1,6 @@
 var structMR_1_1TimeRecord =
 [
-    [ "childTime", "structMR_1_1TimeRecord.html#a7fcf403676ad98c8772e03ebec6d37de", null ],
+    [ "childTime", "structMR_1_1TimeRecord.html#aa1636ed4f889fa0058dc49ddbf33c8ff", null ],
     [ "mySeconds", "structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46", null ],
     [ "myTime", "structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af", null ],
     [ "children", "structMR_1_1TimeRecord.html#aefc29a1b393cb4e47eec9c964a56b8f9", null ],

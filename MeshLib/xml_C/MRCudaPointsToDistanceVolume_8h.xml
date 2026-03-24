@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCudaPointsToDistanceVolume_8h" kind="file" language="C++">
+    <compoundname>MRCudaPointsToDistanceVolume.h</compoundname>
+    <includes refid="uda_2include_2MRCCuda_2exports_8h" local="no">MRCCuda/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>MRCudaPointsToDistanceVolume.h</label>
+        <link refid="MRCudaPointsToDistanceVolume_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCCuda/exports.h</label>
+        <link refid="uda_2include_2MRCCuda_2exports_8h"/>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a8dd43868b0a34e486dea9114846ebe67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_MR_SimpleVolumeMinMax_std_string * MR_Cuda_pointsToDistanceVolume</definition>
+        <argsstring>(const MR_PointCloud *cloud, const MR_PointsToDistanceVolumeParams *params)</argsstring>
+        <name>MR_Cuda_pointsToDistanceVolume</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes SimpleVolume filled with signed distances to points with normals Generated from function <computeroutput>MR::Cuda::pointsToDistanceVolume</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aed32b4b4779f6d2e187f5273b07949d2" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="22" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="22" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a047a4121c1c28932a79870ec6ffad9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_void_std_string * MR_Cuda_pointsToDistanceVolumeByParts</definition>
+        <argsstring>(const MR_PointCloud *cloud, const MR_PointsToDistanceVolumeParams *params, MR_PassBy addPart_pass_by, MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int *addPart, int layerOverlap)</argsstring>
+        <name>MR_Cuda_pointsToDistanceVolumeByParts</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>addPart_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref> *</type>
+          <declname>addPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes SimpleVolume filled with signed distances to points with normals populate the volume by parts to the given callback Generated from function <computeroutput>MR::Cuda::pointsToDistanceVolumeByParts</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="30" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="30" declcolumn="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="uda_2include_2MRCCuda_2exports_8h" kindref="compound">MRCCuda/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRPointsToDistanceVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolumeMinMax_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref><sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRCudaPointsToDistanceVolume_8h_1a8dd43868b0a34e486dea9114846ebe67" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a8dd43868b0a34e486dea9114846ebe67" kindref="member">MR_Cuda_pointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRCudaPointsToDistanceVolume_8h_1a047a4121c1c28932a79870ec6ffad9ff" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a047a4121c1c28932a79870ec6ffad9ff" kindref="member">MR_Cuda_pointsToDistanceVolumeByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>addPart_pass_by,<sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref><sp/>*addPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h"/>
+  </compounddef>
+</doxygen>

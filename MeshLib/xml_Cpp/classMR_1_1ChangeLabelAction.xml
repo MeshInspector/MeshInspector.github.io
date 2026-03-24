@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeLabelAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeLabelAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeLabelAction_8h" local="no">MRChangeLabelAction.h</includes>
+    <includes refid="MRChangeLabelAction_8h" local="no">MRSymbolMesh/MRChangeLabelAction.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gade696594ef0460a576d12fa40786e07f" kind="variable"><name>obj_</name></member>
       <member refid="group__GeneralGroup_1gaeeb92dd69cba4af2a95a119081f4b2fc" kind="variable"><name>label_</name></member>
@@ -44,7 +44,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="17" bodyend="55"/>
+    <location file="MRSymbolMesh/MRChangeLabelAction.h" line="16" column="1" bodyfile="MRSymbolMesh/MRChangeLabelAction.h" bodystart="17" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab1fc1b5e85ebdd6e6737c7e8301d6239" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga7913a22564fb04f5f8ab563053d59753" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>actionName_</name></member>

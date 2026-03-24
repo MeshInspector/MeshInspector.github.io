@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ContoursMeshAlignParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ContoursMeshAlignParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ContoursMeshAlignParams</basecompoundref>
@@ -11,13 +11,13 @@
         <name>meshPoint</name>
         <qualifiedname>MR.ContoursMeshAlignParams.meshPoint</qualifiedname>
         <briefdescription>
-<para>Point coordinate on mesh, represent position of contours box &apos;pivotPoint&apos; on mesh. </para>
+<para>Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="166" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="166" bodyend="166"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="180" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="180" bodyend="180"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ContoursMeshAlignParams_1af59dceb3e5380bf41a96a39ea5bb75b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
@@ -26,13 +26,13 @@
         <name>pivotPoint</name>
         <qualifiedname>MR.ContoursMeshAlignParams.pivotPoint</qualifiedname>
         <briefdescription>
+<para>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right. </para>
         </briefdescription>
         <detaileddescription>
-<para>Relative position of &apos;meshPoint&apos; in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="170" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="170" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="186" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ContoursMeshAlignParams_1a5cf002e9b78560c6028e0f90fa44d935" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="173" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="173" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="191" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="191" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ContoursMeshAlignParams_1a25e6a3882e53dda749b1f14441581f55" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__Vector3f" kindref="compound">ConstBox_Vector3f</ref></type>
@@ -56,13 +56,13 @@
         <name>zDirection</name>
         <qualifiedname>MR.ContoursMeshAlignParams.zDirection</qualifiedname>
         <briefdescription>
+<para>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint'. </para>
         </briefdescription>
         <detaileddescription>
-<para>Represents contours normal in mesh space if nullptr - use mesh normal at &apos;meshPoint&apos; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="177" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="178" bodyend="187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="197" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="198" bodyend="207"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ContoursMeshAlignParams_1a24937b42a98be7d74cb2fa3fafce3148" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="190" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="190" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="212" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="212" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ContoursMeshAlignParams_1a654238bf7eb0b6c9060c2cfa798fd7bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -86,13 +86,13 @@
         <name>maximumShift</name>
         <qualifiedname>MR.ContoursMeshAlignParams.maximumShift</qualifiedname>
         <briefdescription>
-<para>Maximum allowed shift along &apos;zDirection&apos; for alignment. </para>
+<para>Maximum allowed shift along 'zDirection' for alignment. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="193" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="193" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="217" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="217" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="212" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="212" bodyend="216"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="236" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="236" bodyend="240"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="222" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="222" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="246" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="246" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ContoursMeshAlignParams_1a3e67b180ef6143f34b71d1249ffd743b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="233" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="233" bodyend="241"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="257" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="257" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ContoursMeshAlignParams_1a3d664b081dde771f72b6ac5f2b69e2d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ContoursMeshAlignParams.ContoursMeshAlignParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ContoursMeshAlignParams_1aaf6a324a450e161d8e063ed203c7617b" kindref="member">MR.ContoursMeshAlignParams.ContoursMeshAlignParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="246" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="246" bodyend="253"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="270" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="270" bodyend="277"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ContoursMeshAlignParams_1a9ce6efa3bd388352bfe93abb6af47fc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ContoursMeshAlignParams.ContoursMeshAlignParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ContoursMeshAlignParams_1aaf6a324a450e161d8e063ed203c7617b" kindref="member">MR.ContoursMeshAlignParams.ContoursMeshAlignParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="258" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="258" bodyend="258"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="282" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="282" bodyend="282"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ContoursMeshAlignParams_1aac7ac659dd9317a3e58012ff75881774" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ContoursMeshAlignParams" kindref="compound">MR.ContoursMeshAlignParams</ref></type>
@@ -223,13 +223,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ContoursMeshAlignParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ContoursMeshAlignParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="263" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="263" bodyend="270"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="287" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="287" bodyend="294"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -238,48 +238,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ContoursMeshAlignParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ContoursMeshAlignParams</label>
         <link refid="classMR_1_1ContoursMeshAlignParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ContoursMeshAlignParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ContoursMeshAlignParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ContoursMeshAlignParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ContoursMeshAlignParams</label>
         <link refid="classMR_1_1ContoursMeshAlignParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ContoursMeshAlignParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ContoursMeshAlignParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="163" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="164" bodyend="271"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="175" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="176" bodyend="295"/>
     <listofallmembers>
       <member refid="classMR_1_1ContoursMeshAlignParams_1aac7ac659dd9317a3e58012ff75881774" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>assign</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1a3e39bf78bbc19abe417227b276357cd9" prot="package" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>ContoursMeshAlignParams</name></member>

@@ -1,13 +1,7 @@
 var MRFeatureRefine_8h =
 [
     [ "MR_expected_MR_AffineXf3f_std_string", "MRFeatureRefine_8h.html#a3cbb89d785ab27152bda514d59009cb5", null ],
-    [ "MR_FaceBitSet", "MRFeatureRefine_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_FeatureObject", "MRFeatureRefine_8h.html#aff93746de8efe15fd5fa764838b71e9b", null ],
-    [ "MR_Mesh", "MRFeatureRefine_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_PointCloud", "MRFeatureRefine_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
     [ "MR_RefineParameters", "MRFeatureRefine_8h.html#af3fe4ceb634b24b88e2c790c4365dcd7", null ],
-    [ "MR_std_function_bool_from_float", "MRFeatureRefine_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_VertBitSet", "MRFeatureRefine_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_refineFeatureObject_MR_Mesh", "MRFeatureRefine_8h.html#adb7c24cf33dac98bc007e009f7960cd5", null ],
     [ "MR_refineFeatureObject_MR_PointCloud", "MRFeatureRefine_8h.html#a17e841a1235c0700ac619c44c9f01e0b", null ],
     [ "MR_RefineParameters_AssignFromAnother", "MRFeatureRefine_8h.html#ab29f29d8e796872bbdcecc199aa4db2d", null ],

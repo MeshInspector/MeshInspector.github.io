@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a993d0a4ba267b1a6c75761a74051d1a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRMeshBuilderVertSpan</type>
@@ -11,13 +12,13 @@
         <name>vec</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.vec</qualifiedname>
         <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18902" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18902" bodyend="18902"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22666" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22666" bodyend="22666"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a6c74baaccb67bdd5dd2deb77e5f7684c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
@@ -26,13 +27,516 @@
         <name>this[MR.FaceId i]</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.this[MR.FaceId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19060" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19061" bodyend="19071"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22824" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22825" bodyend="22835"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7fed29fa4458d475921febb0bda62d8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.MeshBuilder.VertSpan &gt; MR.Vector_MRMeshBuilderVertSpan_MRFaceId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22653" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22653" bodyend="22656"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a54c8796269d00f373bf1eb60802203d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22695" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22695" bodyend="22701"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a834b0cc5bc4f78b043ec32f4a29edec4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshBuilderVertSpan_MRFaceId _other)</argsstring>
+        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshBuilderVertSpan_MRFaceId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22706" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22706" bodyend="22713"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a63ba296dc963a2f7b5e8dcff03731870" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
+        <argsstring>(Const_Vector_MRMeshBuilderVertSpan_MRFaceId _other)</argsstring>
+        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
+        <param>
+          <type>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22718" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22718" bodyend="22718"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a2cfe2966ff1c48cb3224be0deb4d0486" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
+        <argsstring>(Vector_MRMeshBuilderVertSpan_MRFaceId _other)</argsstring>
+        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22723" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22723" bodyend="22723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a71822301690682d89ad96072c61ab9db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22729" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22729" bodyend="22735"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ad75df08c605d69c983ee64684dc141d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
+        <argsstring>(ulong size, MR.MeshBuilder.Const_VertSpan val)</argsstring>
+        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22741" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22741" bodyend="22748"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a8e867ca68df9708e0c3785c8b03e30b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRMeshBuilderVertSpan &gt; vec)</argsstring>
+        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRMeshBuilderVertSpan &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22754" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22754" bodyend="22761"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1af0ab3b5469342cfc26cf8bb23b03285d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">MR.Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
+        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId MR.Vector_MRMeshBuilderVertSpan_MRFaceId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshBuilderVertSpan_MRFaceId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshBuilderVertSpan_MRFaceId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22772" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22772" bodyend="22779"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aebde8c50190cd8e45c88df3f116bbb84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aebde8c50190cd8e45c88df3f116bbb84" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22784" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22784" bodyend="22789"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a52e55380b19c5f6ebb917d2ad491032b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a52e55380b19c5f6ebb917d2ad491032b" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22794" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22794" bodyend="22799"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afc5045a0ed39f0677da54bd0d6e52207" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resize</definition>
+        <argsstring>(ulong newSize, MR.MeshBuilder.Const_VertSpan t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a52e55380b19c5f6ebb917d2ad491032b" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22804" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22804" bodyend="22809"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aff40f1c16fd1d6e16040a9c0fc3d2540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aff40f1c16fd1d6e16040a9c0fc3d2540" kindref="member">reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22814" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22814" bodyend="22819"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22841" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22841" bodyend="22846"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ace3d3757b2d6d48817c5b25789e46e4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, MR.MeshBuilder.Const_VertSpan value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22852" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22852" bodyend="22857"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeSet</definition>
+        <argsstring>(MR.FaceId pos, ulong len, MR.MeshBuilder.Const_VertSpan val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22864" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22864" bodyend="22869"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a85336a7a205669eaaba83c4d38fd54a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeSet</definition>
+        <argsstring>(MR.FaceId i, MR.MeshBuilder.Const_VertSpan val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22875" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22875" bodyend="22880"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa4c3e985c50a01ceddae5621d4530f12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
+        <definition>unsafe MR.MeshBuilder.VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeAt</definition>
+        <argsstring>(MR.FaceId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa4c3e985c50a01ceddae5621d4530f12" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22886" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22886" bodyend="22891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a98a263daa34170e19efe9b764ef4ba06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</definition>
+        <argsstring>(MR.MeshBuilder.Const_VertSpan t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</qualifiedname>
+        <param>
+          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22896" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22896" bodyend="22902"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a2349ab126350b77ff2c236c602c658d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.MeshBuilder.VertSpan &gt; t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22907" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22907" bodyend="22913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a50b321703f2381029d927ae09fe4a7f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22918" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22918" bodyend="22923"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9d011bd0819613e0a608390851f74ff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
+        <definition>unsafe MR.MeshBuilder.VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22928" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22928" bodyend="22933"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1f896306b4fdc63b8e9d106a0a0ac168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
+        <definition>unsafe new MR.MeshBuilder.VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1f896306b4fdc63b8e9d106a0a0ac168" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22938" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22938" bodyend="22946"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afcf20a47ddf2c4f0d52c36fc415c7967" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
+        <definition>unsafe new MR.MeshBuilder.VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afcf20a47ddf2c4f0d52c36fc415c7967" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22951" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22951" bodyend="22959"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7f93d0289fc2c4feb40dd4298fd6549e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.MeshBuilder.? VertSpan</type>
+        <definition>unsafe new MR.MeshBuilder.? VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7f93d0289fc2c4feb40dd4298fd6549e" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22964" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22964" bodyend="22973"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9accf5d42bf0fd664e75c495084f2377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.swap</definition>
+        <argsstring>(MR.Vector_MRMeshBuilderVertSpan_MRFaceId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">MR.Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9accf5d42bf0fd664e75c495084f2377" kindref="member">swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22978" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22978" bodyend="22983"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1d9d8f38ae64fe8a607e104ed7f9945a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_MRMeshBuilderVertSpan_MRFaceId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22658" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22658" bodyend="22661"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,480 +560,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18921" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18921" bodyend="18925"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a54c8796269d00f373bf1eb60802203d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
-        <argsstring>()</argsstring>
-        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18931" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18931" bodyend="18937"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a834b0cc5bc4f78b043ec32f4a29edec4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
-        <argsstring>(MR._ByValue_Vector_MRMeshBuilderVertSpan_MRFaceId _other)</argsstring>
-        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_MRMeshBuilderVertSpan_MRFaceId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18942" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18942" bodyend="18949"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a63ba296dc963a2f7b5e8dcff03731870" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
-        <argsstring>(Const_Vector_MRMeshBuilderVertSpan_MRFaceId _other)</argsstring>
-        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
-        <param>
-          <type>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18954" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18954" bodyend="18954"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a2cfe2966ff1c48cb3224be0deb4d0486" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
-        <argsstring>(Vector_MRMeshBuilderVertSpan_MRFaceId _other)</argsstring>
-        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18959" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18959" bodyend="18959"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a71822301690682d89ad96072c61ab9db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18965" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18965" bodyend="18971"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ad75df08c605d69c983ee64684dc141d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
-        <argsstring>(ulong size, MR.MeshBuilder.Const_VertSpan val)</argsstring>
-        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18977" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18977" bodyend="18984"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a8e867ca68df9708e0c3785c8b03e30b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRMeshBuilderVertSpan &gt; vec)</argsstring>
-        <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRMeshBuilderVertSpan &gt;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18990" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18990" bodyend="18997"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1af0ab3b5469342cfc26cf8bb23b03285d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">MR.Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
-        <definition>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId MR.Vector_MRMeshBuilderVertSpan_MRFaceId.assign</definition>
-        <argsstring>(MR._ByValue_Vector_MRMeshBuilderVertSpan_MRFaceId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_MRMeshBuilderVertSpan_MRFaceId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19008" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19008" bodyend="19015"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aebde8c50190cd8e45c88df3f116bbb84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19020" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19020" bodyend="19025"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a52e55380b19c5f6ebb917d2ad491032b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19030" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19030" bodyend="19035"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afc5045a0ed39f0677da54bd0d6e52207" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resize</definition>
-        <argsstring>(ulong newSize, MR.MeshBuilder.Const_VertSpan t)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19040" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19040" bodyend="19045"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aff40f1c16fd1d6e16040a9c0fc3d2540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.reserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>capacity</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::reserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19050" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19050" bodyend="19055"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19077" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19077" bodyend="19082"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ace3d3757b2d6d48817c5b25789e46e4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, MR.MeshBuilder.Const_VertSpan value)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19088" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19088" bodyend="19093"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeSet</definition>
-        <argsstring>(MR.FaceId pos, ulong len, MR.MeshBuilder.Const_VertSpan val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>ulong</type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19100" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19100" bodyend="19105"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a85336a7a205669eaaba83c4d38fd54a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeSet</definition>
-        <argsstring>(MR.FaceId i, MR.MeshBuilder.Const_VertSpan val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19111" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19111" bodyend="19116"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa4c3e985c50a01ceddae5621d4530f12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
-        <definition>unsafe MR.MeshBuilder.VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeAt</definition>
-        <argsstring>(MR.FaceId i)</argsstring>
-        <name>autoResizeAt</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.autoResizeAt</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::autoResizeAt</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19122" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19122" bodyend="19127"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a98a263daa34170e19efe9b764ef4ba06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</definition>
-        <argsstring>(MR.MeshBuilder.Const_VertSpan t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</qualifiedname>
-        <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19132" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19132" bodyend="19138"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a2349ab126350b77ff2c236c602c658d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.MeshBuilder.VertSpan &gt; t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref> &gt;</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19143" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19143" bodyend="19149"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a50b321703f2381029d927ae09fe4a7f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.popBack</definition>
-        <argsstring>()</argsstring>
-        <name>popBack</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.popBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::pop_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19154" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19154" bodyend="19159"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9d011bd0819613e0a608390851f74ff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
-        <definition>unsafe MR.MeshBuilder.VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.emplaceBack</definition>
-        <argsstring>()</argsstring>
-        <name>emplaceBack</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.emplaceBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19164" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19164" bodyend="19169"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1f896306b4fdc63b8e9d106a0a0ac168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
-        <definition>unsafe new MR.MeshBuilder.VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.front</definition>
-        <argsstring>()</argsstring>
-        <name>front</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.front</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::front</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19174" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19174" bodyend="19182"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afcf20a47ddf2c4f0d52c36fc415c7967" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new <ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></type>
-        <definition>unsafe new MR.MeshBuilder.VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.back</definition>
-        <argsstring>()</argsstring>
-        <name>back</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.back</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19187" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19187" bodyend="19195"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7f93d0289fc2c4feb40dd4298fd6549e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.MeshBuilder.? VertSpan</type>
-        <definition>unsafe new MR.MeshBuilder.? VertSpan MR.Vector_MRMeshBuilderVertSpan_MRFaceId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19200" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19200" bodyend="19209"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9accf5d42bf0fd664e75c495084f2377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshBuilderVertSpan_MRFaceId.swap</definition>
-        <argsstring>(MR.Vector_MRMeshBuilderVertSpan_MRFaceId b)</argsstring>
-        <name>swap</name>
-        <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.swap</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">MR.Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::swap</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19214" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19214" bodyend="19219"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22685" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22685" bodyend="22689"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -544,17 +575,17 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19003" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19003" bodyend="19003"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22767" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22767" bodyend="22767"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -570,55 +601,69 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_MRMeshBuilderVertSpan_MRFaceId</label>
         <link refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRMeshBuilderVertSpan_MRFaceId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_MRMeshBuilderVertSpan_MRFaceId</label>
         <link refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRMeshBuilderVertSpan_MRFaceId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18899" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18900" bodyend="19220"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22597" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22598" bodyend="22984"/>
     <listofallmembers>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1af0ab3b5469342cfc26cf8bb23b03285d" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa4c3e985c50a01ceddae5621d4530f12" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>autoResizeAt</name></member>
@@ -629,6 +674,8 @@
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7f93d0289fc2c4feb40dd4298fd6549e" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>data</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9d011bd0819613e0a608390851f74ff5" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1f896306b4fdc63b8e9d106a0a0ac168" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7fed29fa4458d475921febb0bda62d8b" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1d9d8f38ae64fe8a607e104ed7f9945a" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a6377ff3b40a578b368bdb8a83b467292" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>operator Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a50b321703f2381029d927ae09fe4a7f3" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a98a263daa34170e19efe9b764ef4ba06" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>pushBack</name></member>

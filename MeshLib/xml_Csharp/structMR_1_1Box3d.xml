@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Box3d" kind="struct" language="C#" prot="public">
     <compoundname>MR::Box3d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.Box3d &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1Box3d_1a3568374ed8527fda921f3740f55b94bf" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -41,7 +41,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.Box3d.this[int e]</qualifiedname>
         <briefdescription>
-<para>min/max access by 0/1 index Generated from method <computeroutput>MR.Box3d.operator[]</computeroutput>. </para>
+<para>min/max access by 0/1 index Generated from method <computeroutput>MR::Box3d::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -104,7 +104,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box3d_1a0e929ef5b53970eafa0d50b3aa5d54e0" kindref="member">MR.Box3d.getMinBoxCorner</ref></computeroutput>. </para>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box3d_1a0e929ef5b53970eafa0d50b3aa5d54e0" kindref="member">MR.Box3d.getMinBoxCorner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -123,7 +123,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box3d_1ab183179b0cabd232639fe04548bde3dd" kindref="member">MR.Box3d.getMaxBoxCorner</ref></computeroutput>. </para>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box3d_1ab183179b0cabd232639fe04548bde3dd" kindref="member">MR.Box3d.getMaxBoxCorner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,7 +146,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box3d.operator==</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box3d::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -265,7 +265,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box3d.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box3d::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -314,7 +314,7 @@
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min&apos;s coordinate, 1 element in (c) means take max&apos;s coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box3d_1a5f736aaa7d6e75cf7b83132b8b84ae97" kindref="member">MR.Box3d.corner</ref></computeroutput>. </para>
+<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min's coordinate, 1 element in (c) means take max's coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box3d_1a5f736aaa7d6e75cf7b83132b8b84ae97" kindref="member">MR.Box3d.corner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -660,7 +660,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.Box3d &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -679,7 +679,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.Box3d &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12271" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12272" bodyend="12742"/>

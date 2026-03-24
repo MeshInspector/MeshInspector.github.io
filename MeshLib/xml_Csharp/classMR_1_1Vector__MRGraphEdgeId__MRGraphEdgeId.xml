@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1af844c03433d03250fce9c43c11e70ca1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRGraphEdgeId</type>
@@ -11,13 +12,13 @@
         <name>vec</name>
         <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.vec</qualifiedname>
         <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27124" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27124" bodyend="27124"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="33984" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="33984" bodyend="33984"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a90de1db03abaab916bede4d8ed8ee3d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
@@ -26,13 +27,539 @@
         <name>this[MR.GraphEdgeId i]</name>
         <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.this[MR.GraphEdgeId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27298" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27299" bodyend="27306"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34158" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34159" bodyend="34166"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a4b2e0371de81436bc203a09a3776f5e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; MR.Misc.Ref&lt; <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref> &gt; &gt;</type>
+        <definition>new IEnumerator&lt; MR.Misc.Ref&lt; MR.GraphEdgeId &gt; &gt; MR.Vector_MRGraphEdgeId_MRGraphEdgeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="33971" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="33971" bodyend="33974"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a5537b1aab60ec830ac29e534a1cd4e1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34013" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34013" bodyend="34019"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1afe9a8983d1e10b0f3697f3cf83a94851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
+        <argsstring>(MR._ByValue_Vector_MRGraphEdgeId_MRGraphEdgeId _other)</argsstring>
+        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRGraphEdgeId_MRGraphEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34024" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34024" bodyend="34031"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a614f6a6d2e2d96bc89ffe72b06acb720" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
+        <argsstring>(Const_Vector_MRGraphEdgeId_MRGraphEdgeId _other)</argsstring>
+        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34036" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34036" bodyend="34036"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1abef585f6fa1053c9531e2cc0fb563e38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
+        <argsstring>(Vector_MRGraphEdgeId_MRGraphEdgeId _other)</argsstring>
+        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34041" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34041" bodyend="34041"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a72b28adb0af9c002ecd2166397f4d07b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34047" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34047" bodyend="34053"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1af9851dc94ec16ad621e6e778bb082858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
+        <argsstring>(ulong size, in MR.GraphEdgeId val)</argsstring>
+        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34059" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34059" bodyend="34068"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a73796c2ce4037a71cb8af7875ffb98f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt; vec)</argsstring>
+        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34074" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34074" bodyend="34081"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a36bd2d951531accad37f4f49130c9761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
+        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_MRGraphEdgeId_MRGraphEdgeId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRGraphEdgeId_MRGraphEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34092" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34092" bodyend="34099"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a38635080ae33d2ff282bf72a570333da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a38635080ae33d2ff282bf72a570333da" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34104" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34104" bodyend="34109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a2a98e790c407369a7b6065573f897389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a2a98e790c407369a7b6065573f897389" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34114" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34114" bodyend="34119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a28d89dbedae1f8afd3309e1e03844035" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resize</definition>
+        <argsstring>(ulong newSize, in MR.GraphEdgeId t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a2a98e790c407369a7b6065573f897389" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34124" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34124" bodyend="34132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1acf138083d36400efd7fd9a96025d675e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeNoInit</definition>
+        <argsstring>(ulong targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeNoInit</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1acf138083d36400efd7fd9a96025d675e" kindref="member">resizeNoInit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34138" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34138" bodyend="34143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a7e2a24e23c4957ef0460193127e5a168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a7e2a24e23c4957ef0460193127e5a168" kindref="member">reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34148" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34148" bodyend="34153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aec95de9f181c3cf81b4b532e532edcac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aec95de9f181c3cf81b4b532e532edcac" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34172" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34172" bodyend="34177"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a0dad1eeb7f257faab92f2a2dafb5f05b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, in MR.GraphEdgeId value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aec95de9f181c3cf81b4b532e532edcac" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34183" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34183" bodyend="34191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6be7ae851307b488de70aea15ac2c082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeSet</definition>
+        <argsstring>(MR.GraphEdgeId pos, ulong len, MR.GraphEdgeId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6be7ae851307b488de70aea15ac2c082" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34198" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34198" bodyend="34203"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a42343dbe78bd06e49ccaa686e8122a73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeSet</definition>
+        <argsstring>(MR.GraphEdgeId i, MR.GraphEdgeId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6be7ae851307b488de70aea15ac2c082" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34209" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34209" bodyend="34214"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aaf2e1a9ffbed2e6a37239ed5ee0f63e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe ref MR.GraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeAt</definition>
+        <argsstring>(MR.GraphEdgeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aaf2e1a9ffbed2e6a37239ed5ee0f63e9" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34220" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34220" bodyend="34225"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6279de622bddf525739a7302e236dcea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.pushBack</definition>
+        <argsstring>(in MR.GraphEdgeId t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.pushBack</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34230" bodyend="34238"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a28b76ee1ba6b2db07ab75677540e59d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, in MR.GraphEdgeId t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34243" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34243" bodyend="34251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a80836698a98ffba0d7b6e64172fabaec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34256" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34256" bodyend="34261"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a21d5a9be908bf3a28d4711674b788f4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe ref MR.GraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34266" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34266" bodyend="34271"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a51ddf1233f8ebe58bf44983d12293c5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe new ref MR.GraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a51ddf1233f8ebe58bf44983d12293c5c" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34276" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34276" bodyend="34281"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a0b389cfff556088c0fa440e21a7af985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe new ref MR.GraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a0b389cfff556088c0fa440e21a7af985" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34286" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34286" bodyend="34291"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a300e5966132f78da13a52490741d0184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref> &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; MR.GraphEdgeId &gt; MR.Vector_MRGraphEdgeId_MRGraphEdgeId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a300e5966132f78da13a52490741d0184" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34296" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34296" bodyend="34302"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a8105352dab376215574c500c94004591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.swap</definition>
+        <argsstring>(MR.Vector_MRGraphEdgeId_MRGraphEdgeId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a8105352dab376215574c500c94004591" kindref="member">swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34307" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34307" bodyend="34312"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aaa3dc8cdfed2d0565650475e6da33d6d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_MRGraphEdgeId_MRGraphEdgeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="33976" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="33976" bodyend="33979"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,503 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27143" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27143" bodyend="27147"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a5537b1aab60ec830ac29e534a1cd4e1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>()</argsstring>
-        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27153" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27153" bodyend="27159"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1afe9a8983d1e10b0f3697f3cf83a94851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(MR._ByValue_Vector_MRGraphEdgeId_MRGraphEdgeId _other)</argsstring>
-        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_MRGraphEdgeId_MRGraphEdgeId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27164" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27164" bodyend="27171"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a614f6a6d2e2d96bc89ffe72b06acb720" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(Const_Vector_MRGraphEdgeId_MRGraphEdgeId _other)</argsstring>
-        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
-        <param>
-          <type>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27176" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27176" bodyend="27176"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1abef585f6fa1053c9531e2cc0fb563e38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(Vector_MRGraphEdgeId_MRGraphEdgeId _other)</argsstring>
-        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27181" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27181" bodyend="27181"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a72b28adb0af9c002ecd2166397f4d07b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27187" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27187" bodyend="27193"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1af9851dc94ec16ad621e6e778bb082858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(ulong size, in MR.GraphEdgeId val)</argsstring>
-        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27199" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27199" bodyend="27208"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a73796c2ce4037a71cb8af7875ffb98f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt; vec)</argsstring>
-        <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27214" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27214" bodyend="27221"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a36bd2d951531accad37f4f49130c9761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
-        <definition>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.assign</definition>
-        <argsstring>(MR._ByValue_Vector_MRGraphEdgeId_MRGraphEdgeId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_MRGraphEdgeId_MRGraphEdgeId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27232" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27232" bodyend="27239"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a38635080ae33d2ff282bf72a570333da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27244" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27244" bodyend="27249"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a2a98e790c407369a7b6065573f897389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27254" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27254" bodyend="27259"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a28d89dbedae1f8afd3309e1e03844035" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resize</definition>
-        <argsstring>(ulong newSize, in MR.GraphEdgeId t)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27264" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27264" bodyend="27272"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1acf138083d36400efd7fd9a96025d675e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeNoInit</definition>
-        <argsstring>(ulong targetSize)</argsstring>
-        <name>resizeNoInit</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeNoInit</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>targetSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::resizeNoInit</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27278" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27278" bodyend="27283"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a7e2a24e23c4957ef0460193127e5a168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.reserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>capacity</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::reserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27288" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27288" bodyend="27293"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aec95de9f181c3cf81b4b532e532edcac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27312" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27312" bodyend="27317"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a0dad1eeb7f257faab92f2a2dafb5f05b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, in MR.GraphEdgeId value)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27323" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27323" bodyend="27331"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6be7ae851307b488de70aea15ac2c082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeSet</definition>
-        <argsstring>(MR.GraphEdgeId pos, ulong len, MR.GraphEdgeId val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>ulong</type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27338" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27338" bodyend="27343"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a42343dbe78bd06e49ccaa686e8122a73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeSet</definition>
-        <argsstring>(MR.GraphEdgeId i, MR.GraphEdgeId val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27349" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27349" bodyend="27354"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aaf2e1a9ffbed2e6a37239ed5ee0f63e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-        <definition>unsafe ref MR.GraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeAt</definition>
-        <argsstring>(MR.GraphEdgeId i)</argsstring>
-        <name>autoResizeAt</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.autoResizeAt</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::autoResizeAt</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27360" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27360" bodyend="27365"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6279de622bddf525739a7302e236dcea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.pushBack</definition>
-        <argsstring>(in MR.GraphEdgeId t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.pushBack</qualifiedname>
-        <param>
-          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27370" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27370" bodyend="27378"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a28b76ee1ba6b2db07ab75677540e59d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.pushBack</definition>
-        <argsstring>(MR.Misc._MoveRef _move_t, in MR.GraphEdgeId t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Misc._MoveRef</type>
-          <declname>_move_t</declname>
-        </param>
-        <param>
-          <type>in <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27383" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27383" bodyend="27391"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a80836698a98ffba0d7b6e64172fabaec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.popBack</definition>
-        <argsstring>()</argsstring>
-        <name>popBack</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.popBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::pop_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27396" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27396" bodyend="27401"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a21d5a9be908bf3a28d4711674b788f4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-        <definition>unsafe ref MR.GraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.emplaceBack</definition>
-        <argsstring>()</argsstring>
-        <name>emplaceBack</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.emplaceBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27406" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27406" bodyend="27411"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a51ddf1233f8ebe58bf44983d12293c5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-        <definition>unsafe new ref MR.GraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.front</definition>
-        <argsstring>()</argsstring>
-        <name>front</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.front</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::front</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27416" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27416" bodyend="27421"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a0b389cfff556088c0fa440e21a7af985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
-        <definition>unsafe new ref MR.GraphEdgeId MR.Vector_MRGraphEdgeId_MRGraphEdgeId.back</definition>
-        <argsstring>()</argsstring>
-        <name>back</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.back</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27426" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27426" bodyend="27431"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a300e5966132f78da13a52490741d0184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.Misc.? Ref&lt; <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref> &gt;</type>
-        <definition>unsafe new MR.Misc.? Ref&lt; MR.GraphEdgeId &gt; MR.Vector_MRGraphEdgeId_MRGraphEdgeId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27436" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27436" bodyend="27442"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a8105352dab376215574c500c94004591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRGraphEdgeId_MRGraphEdgeId.swap</definition>
-        <argsstring>(MR.Vector_MRGraphEdgeId_MRGraphEdgeId b)</argsstring>
-        <name>swap</name>
-        <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.swap</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::swap</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27447" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27447" bodyend="27452"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34003" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34003" bodyend="34007"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -567,17 +598,17 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27227" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27227" bodyend="27227"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34087" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="34087" bodyend="34087"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -593,65 +624,79 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_MRGraphEdgeId_MRGraphEdgeId</label>
         <link refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRGraphEdgeId_MRGraphEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
+      <node id="6">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_MRGraphEdgeId_MRGraphEdgeId</label>
         <link refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRGraphEdgeId_MRGraphEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27121" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27122" bodyend="27453"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="33915" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="33916" bodyend="34313"/>
     <listofallmembers>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a36bd2d951531accad37f4f49130c9761" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aaf2e1a9ffbed2e6a37239ed5ee0f63e9" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>autoResizeAt</name></member>
@@ -662,6 +707,8 @@
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a300e5966132f78da13a52490741d0184" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>data</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a21d5a9be908bf3a28d4711674b788f4f" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a51ddf1233f8ebe58bf44983d12293c5c" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a4b2e0371de81436bc203a09a3776f5e4" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aaa3dc8cdfed2d0565650475e6da33d6d" prot="private" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aceac198f5188597bb0252ed12c8fe3e4" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a80836698a98ffba0d7b6e64172fabaec" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6279de622bddf525739a7302e236dcea" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>pushBack</name></member>

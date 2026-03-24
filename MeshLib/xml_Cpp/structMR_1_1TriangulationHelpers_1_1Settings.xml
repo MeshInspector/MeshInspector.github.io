@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TriangulationHelpers_1_1Settings" kind="struct" language="C++" prot="public">
     <compoundname>MR::TriangulationHelpers::Settings</compoundname>
-    <includes refid="MRPointCloudTriangulationHelpers_8h" local="no">MRPointCloudTriangulationHelpers.h</includes>
+    <includes refid="MRPointCloudTriangulationHelpers_8h" local="no">MRMesh/MRPointCloudTriangulationHelpers.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1aeadcc460fdb58725f5fd22d6457ea9b2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="107" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="107" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="107" column="11" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a45558230d0bcbdc7e5d3da4e7f7b3ab7" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="111" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="111" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="111" column="9" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1adaecbf29331f6b90ae2a11acaa0c153a" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="114" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="114" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="114" column="11" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a341b31c3cef2ea814252e40a6dfbc8aa" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="117" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="117" column="11" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1adfa09c4f869d92627a0ca88966af3bef" prot="public" static="no" mutable="no">
         <type>const VertNormals *</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="121" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="121" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="121" column="23" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a86643849d573e87b6dd3e459323b97a3" prot="public" static="no" mutable="no">
         <type>const VertBitSet *</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="122" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="122" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="122" column="22" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a49d74151d155a2c96be9eb811e05757d" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="125" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="125" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="125" column="10" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a04d78b046a3cb5a0456ca15052617648" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="128" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="128" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="128" column="9" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a6f5bf92c6fb3063c2d70ea917ba4a458" prot="public" static="no" mutable="no">
         <type>std::vector&lt; VertId &gt; *</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="131" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="131" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="131" column="18" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1ad5edcde965a734c44ce7cb176b8784c2" prot="public" static="no" mutable="no">
         <type>float *</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="134" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="134" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="134" column="12" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a97127b609f58b4ac11085781558f55f6" prot="public" static="no" mutable="no">
         <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> *</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="137" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="137" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="137" column="23" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="137" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -197,7 +197,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="104" bodyend="138"/>
+    <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="103" column="1" bodyfile="MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="104" bodyend="138"/>
     <listofallmembers>
       <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1ad5edcde965a734c44ce7cb176b8784c2" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>actualRadius</name></member>
       <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1a6f5bf92c6fb3063c2d70ea917ba4a458" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>allNeighbors</name></member>

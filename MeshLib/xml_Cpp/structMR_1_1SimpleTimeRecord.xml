@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SimpleTimeRecord" kind="struct" language="C++" prot="public">
     <compoundname>MR::SimpleTimeRecord</compoundname>
     <derivedcompoundref refid="structMR_1_1TimeRecord" prot="public" virt="non-virtual">MR::TimeRecord</derivedcompoundref>
-    <includes refid="MRTimeRecord_8h" local="no">MRTimeRecord.h</includes>
+    <includes refid="MRTimeRecord_8h" local="no">MRMesh/MRTimeRecord.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1SimpleTimeRecord_1a2baac0fd5930644e7eff1dcb301703ca" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="18" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="18" bodyend="-1"/>
+        <location file="MRMesh/MRTimeRecord.h" line="18" column="9" bodyfile="MRMesh/MRTimeRecord.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SimpleTimeRecord_1a783bd5b3455191ffcbf6c59363d9e81e" prot="public" static="no" mutable="no">
         <type>std::chrono::nanoseconds</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="19" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="19" bodyend="19"/>
+        <location file="MRMesh/MRTimeRecord.h" line="19" column="30" bodyfile="MRMesh/MRTimeRecord.h" bodystart="19" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="20" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="20" bodyend="20"/>
+        <location file="MRMesh/MRTimeRecord.h" line="20" column="12" bodyfile="MRMesh/MRTimeRecord.h" bodystart="20" bodyend="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -74,7 +74,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="17" bodyend="21"/>
+    <location file="MRMesh/MRTimeRecord.h" line="16" column="1" bodyfile="MRMesh/MRTimeRecord.h" bodystart="17" bodyend="21"/>
     <listofallmembers>
       <member refid="structMR_1_1SimpleTimeRecord_1a2baac0fd5930644e7eff1dcb301703ca" prot="public" virt="non-virtual"><scope>MR::SimpleTimeRecord</scope><name>count</name></member>
       <member refid="structMR_1_1SimpleTimeRecord_1a5bc2244721bb50d4a1d54c4d3cedd459" prot="public" virt="non-virtual"><scope>MR::SimpleTimeRecord</scope><name>seconds</name></member>

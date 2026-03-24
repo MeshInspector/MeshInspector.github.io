@@ -16,6 +16,7 @@ var classMR_1_1Vector__Double__MRRegionId =
     [ "data", "classMR_1_1Vector__Double__MRRegionId.html#a735e1d9c78cc9a431296cf2dace5dae6", null ],
     [ "emplaceBack", "classMR_1_1Vector__Double__MRRegionId.html#ae18769bab6a7d2b9dcdf8f3df39bbd16", null ],
     [ "front", "classMR_1_1Vector__Double__MRRegionId.html#a205172a0bf422958f5483205f9ad7139", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__Double__MRRegionId.html#ab5b4b48d945bd2aeef36c5dacf9bece1", null ],
     [ "operator Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html#ae4dbfd558f074cfd2d57753c567ea200", null ],
     [ "popBack", "classMR_1_1Vector__Double__MRRegionId.html#a2bdf8464b7c10f8e421a067d8c63a4fb", null ],
     [ "pushBack", "classMR_1_1Vector__Double__MRRegionId.html#aa32d9a0ae8f34822ba06cf37c5acfe21", null ],

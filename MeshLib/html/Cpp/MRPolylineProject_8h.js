@@ -1,17 +1,17 @@
 var MRPolylineProject_8h =
 [
-    [ "FoundEdgeCallback", "MRPolylineProject_8h.html#gac2b944209dd41b786a30b1d537639470", null ],
-    [ "FoundEdgeCallback2", "MRPolylineProject_8h.html#ga5e0d9af4be57927671a26f2c4588a515", null ],
-    [ "FoundEdgeCallback3", "MRPolylineProject_8h.html#ga865abfe228b7d60d582d2c6ce24ffb19", null ],
-    [ "findEdgesInBall", "MRPolylineProject_8h.html#ga5ce436376c8036ec99459d3ccea88788", null ],
-    [ "findEdgesInBall", "MRPolylineProject_8h.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
-    [ "findMaxProjectionOnPolyline", "MRPolylineProject_8h.html#ga491ccc452b2d068da6ce82aaebcd5372", null ],
-    [ "findMeshEdgesInBall", "MRPolylineProject_8h.html#ga50911249a881bd7365929503c138d8fa", null ],
-    [ "findProjectionOnMeshEdges", "MRPolylineProject_8h.html#gaccdf7712b3c2bc175e4b09aae138aa40", null ],
-    [ "findProjectionOnMeshEdges", "MRPolylineProject_8h.html#ga64c37b9a7a04aa567390955a50891b57", null ],
-    [ "findProjectionOnPolyline", "MRPolylineProject_8h.html#gaa484a0628a7ac3858cd590589687141c", null ],
-    [ "findProjectionOnPolyline", "MRPolylineProject_8h.html#ga5e71a300face382a26ba8596d9b19820", null ],
-    [ "findProjectionOnPolyline2", "MRPolylineProject_8h.html#ga7f7211a85409018fd8ee71495646faa3", null ],
-    [ "findProjectionOnPolyline2WithOffset", "MRPolylineProject_8h.html#gaf2ef419d4414bb6d0efa0c918b21bddf", null ],
-    [ "findProjectionOnPolylineWithOffset", "MRPolylineProject_8h.html#ga834d7e50b54b1b8c511990fc9d14c09c", null ]
+    [ "MR::FoundEdgeCallback", "group__AABBTreeGroup.html#gac2b944209dd41b786a30b1d537639470", null ],
+    [ "MR::FoundEdgeCallback2", "group__AABBTreeGroup.html#ga5e0d9af4be57927671a26f2c4588a515", null ],
+    [ "MR::FoundEdgeCallback3", "group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19", null ],
+    [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#gab36006e6e34e3bfb5c1eae34c7ca7a8d", null ],
+    [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga85e20053ebbe6ca6df0716626e180145", null ],
+    [ "MR::findMaxProjectionOnPolyline", "group__AABBTreeGroup.html#ga58d35b756f586caa1fd15e099ab23327", null ],
+    [ "MR::findMeshEdgesInBall", "group__AABBTreeGroup.html#ga9b1841d067ce666f118cf38820ca25d4", null ],
+    [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga03e6a1eb9021cda27a103e38c550532c", null ],
+    [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga1b96837dfe7b08b0a261c94d6814b536", null ],
+    [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#gaad1ea3c4b0b1e1d4489d7d978a3845a6", null ],
+    [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#gad42cb6f30357f5db855c37c42aa1c2e9", null ],
+    [ "MR::findProjectionOnPolyline2", "group__AABBTreeGroup.html#ga0995927769e13d426cdc839b9333a348", null ],
+    [ "MR::findProjectionOnPolyline2WithOffset", "group__AABBTreeGroup.html#ga41ef8f174984a0c0419f64ef57fcc591", null ],
+    [ "MR::findProjectionOnPolylineWithOffset", "group__AABBTreeGroup.html#ga268bf7fb66d170d64002a9b38623237a", null ]
 ];

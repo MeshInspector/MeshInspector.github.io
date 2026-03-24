@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoadedObjectT__MRObjectMesh" kind="class" language="C#" prot="public">
     <compoundname>MR::LoadedObjectT_MRObjectMesh</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectMesh</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1LoadedObjectT__MRObjectMesh_1a9438f7569e3f997d3b74f47e57c2d7d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe <ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref></type>
-        <definition>new unsafe MR.ObjectMesh MR.LoadedObjectT_MRObjectMesh.obj</definition>
+      <memberdef kind="property" id="classMR_1_1LoadedObjectT__MRObjectMesh_1a6ef985a3bb8fc43452c7f06e4f57ef8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.SharedPtr_MRObjectMesh</type>
+        <definition>new unsafe MR.Std.SharedPtr_MRObjectMesh MR.LoadedObjectT_MRObjectMesh.obj</definition>
         <argsstring></argsstring>
         <name>obj</name>
         <qualifiedname>MR.LoadedObjectT_MRObjectMesh.obj</qualifiedname>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="418" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="418" bodyend="418"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="426" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="426" bodyend="426"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1LoadedObjectT__MRObjectMesh_1abfd91c28d061db11545f66d2ade4b746" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.String</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="421" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="421" bodyend="421"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="429" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="429" bodyend="429"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1LoadedObjectT__MRObjectMesh_1ae2e9a04a5335d0a3575025edc2321407" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Optional_MRLengthUnit</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="424" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="424" bodyend="424"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="434" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="434" bodyend="434"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="457" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="457" bodyend="461"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="467" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="467" bodyend="471"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -86,16 +86,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="467" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="467" bodyend="473"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="477" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="477" bodyend="483"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1LoadedObjectT__MRObjectMesh_1ac1ea67042ed92316bb7b7edec9f83cf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1LoadedObjectT__MRObjectMesh_1a7525fb9a275434fd552093aa4790c453" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.LoadedObjectT_MRObjectMesh.LoadedObjectT_MRObjectMesh</definition>
-        <argsstring>(MR._ByValueShared_ObjectMesh obj, string warnings, MR.LengthUnit? lengthUnit)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectMesh obj, string warnings, MR.LengthUnit? lengthUnit)</argsstring>
         <name>LoadedObjectT_MRObjectMesh</name>
         <qualifiedname>MR.LoadedObjectT_MRObjectMesh.LoadedObjectT_MRObjectMesh</qualifiedname>
         <param>
-          <type>MR._ByValueShared_ObjectMesh</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -107,13 +107,13 @@
           <declname>lengthUnit</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="478" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="478" bodyend="490"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="488" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="488" bodyend="500"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1LoadedObjectT__MRObjectMesh_1a372ca1dfa6dee77cf497cf30615e3844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -126,13 +126,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;::<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="495" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="495" bodyend="502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="505" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="505" bodyend="512"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1LoadedObjectT__MRObjectMesh_1a026eec53733237200c3769fe6ae059a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -145,13 +145,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;::<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="507" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="507" bodyend="507"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="517" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="517" bodyend="517"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1LoadedObjectT__MRObjectMesh_1a1a24d07e989582710a5cf121e381b4dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -164,13 +164,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;::<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="512" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="512" bodyend="512"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="522" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="522" bodyend="522"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1LoadedObjectT__MRObjectMesh_1a79a63e17844a2576a8641d020aab4dca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1LoadedObjectT__MRObjectMesh" kindref="compound">MR.LoadedObjectT_MRObjectMesh</ref></type>
@@ -183,73 +183,73 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="517" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="517" bodyend="524"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="527" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="527" bodyend="534"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>result of loading (e.g. from a file) as one object (with possible subobjects) Generated from class <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>result of loading (e.g. from a file) as one object (with possible subobjects) Generated from class <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_LoadedObjectT_MRObjectMesh</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.LoadedObjectT_MRObjectMesh</label>
         <link refid="classMR_1_1LoadedObjectT__MRObjectMesh"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_LoadedObjectT_MRObjectMesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_LoadedObjectT_MRObjectMesh &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_LoadedObjectT_MRObjectMesh</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.LoadedObjectT_MRObjectMesh</label>
         <link refid="classMR_1_1LoadedObjectT__MRObjectMesh"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_LoadedObjectT_MRObjectMesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_LoadedObjectT_MRObjectMesh &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="416" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="417" bodyend="525"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="424" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="425" bodyend="535"/>
     <listofallmembers>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a79a63e17844a2576a8641d020aab4dca" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>assign</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1ae2e9a04a5335d0a3575025edc2321407" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>lengthUnit</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1afde06c347b8da646588068244ec843a7" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a52445be4e9e7cd01376898f59570255d" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>
-      <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1ac1ea67042ed92316bb7b7edec9f83cf7" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>
+      <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a7525fb9a275434fd552093aa4790c453" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a372ca1dfa6dee77cf497cf30615e3844" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a026eec53733237200c3769fe6ae059a3" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a1a24d07e989582710a5cf121e381b4dc" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>
-      <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a9438f7569e3f997d3b74f47e57c2d7d5" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>obj</name></member>
+      <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a6ef985a3bb8fc43452c7f06e4f57ef8f" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>obj</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1abfd91c28d061db11545f66d2ade4b746" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>warnings</name></member>
     </listofallmembers>
   </compounddef>

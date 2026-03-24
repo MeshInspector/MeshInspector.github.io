@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IFastWindingNumber" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::IFastWindingNumber</compoundname>
     <derivedcompoundref refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public" virt="non-virtual">MR::Cuda::FastWindingNumber</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1FastWindingNumber" prot="public" virt="non-virtual">MR::FastWindingNumber</derivedcompoundref>
-    <includes refid="MRFastWindingNumber_8h" local="no">MRFastWindingNumber.h</includes>
+    <includes refid="MRFastWindingNumber_8h" local="no">MRMesh/MRFastWindingNumber.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaefefcab706e99f050565aa3492015547" kind="function"><name>~IFastWindingNumber</name></member>
       <member refid="group__GeneralGroup_1ga44bf69fbb5b7c37e5a0ff132a6137581" kind="function"><name>calcFromVector</name></member>
@@ -35,7 +35,7 @@
         <link refid="classMR_1_1IFastWindingNumber"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="15" bodyend="51"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="14" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="15" bodyend="51"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga368a1a0534476d08756358a07bcce617" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGrid</name></member>
       <member refid="group__GeneralGroup_1gaeb59990afd6d9382244508e9e250972d" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGridWithDistances</name></member>

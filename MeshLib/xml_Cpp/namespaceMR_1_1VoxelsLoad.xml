@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1VoxelsLoad" kind="namespace" language="C++">
     <compoundname>MR::VoxelsLoad</compoundname>
     <innerclass refid="structMR_1_1VoxelsLoad_1_1DicomStatus" prot="public">MR::VoxelsLoad::DicomStatus</innerclass>
@@ -8,106 +8,49 @@
     <innerclass refid="structMR_1_1VoxelsLoad_1_1RawParameters" prot="public">MR::VoxelsLoad::RawParameters</innerclass>
     <sectiondef kind="enum">
       <member refid="group__GeneralGroup_1ga4877b5ea79a241234ef88b527edc08e6" kind="enum"><name>DicomStatusEnum</name></member>
-      <memberdef kind="enum" id="namespaceMR_1_1VoxelsLoad_1a5a3e4b96e9ddb9678f554fe8a8d56a19" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>GridType</name>
-        <qualifiedname>MR::VoxelsLoad::GridType</qualifiedname>
-        <enumvalue id="namespaceMR_1_1VoxelsLoad_1a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7" prot="public">
-          <name>DenseGrid</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-<para>consider values less than iso as outer area </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMR_1_1VoxelsLoad_1a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e" prot="public">
-          <name>LevelSet</name>
-          <initializer>= 1</initializer>
-          <briefdescription>
-<para>consider values less than iso as inner area </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Determines iso-surface orientation. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="86" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="87" bodyend="92"/>
-      </memberdef>
+      <member refid="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" kind="enum"><name>GridType</name></member>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceMR_1_1VoxelsLoad_1ac95950f875729ac15c011d99d4624d96" prot="public" static="no">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; VdbVolume &gt; &gt;(*)(const std::filesystem::path &amp;, const ProgressCallback &amp;)</type>
-        <definition>using MR::VoxelsLoad::VoxelsLoader =  Expected&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const ProgressCallback&amp; )</definition>
-        <argsstring></argsstring>
-        <name>VoxelsLoader</name>
-        <qualifiedname>MR::VoxelsLoad::VoxelsLoader</qualifiedname>
-        <briefdescription>
-<para>MRVOXELS_NO_TIFF. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="107" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__VoxelsLoadGroup_1gac95950f875729ac15c011d99d4624d96" kind="typedef"><name>VoxelsLoader</name></member>
+    </sectiondef>
+    <sectiondef kind="var">
+      <member refid="group__GeneralGroup_1ga4e5fc90a09aac4ba09fdfb6db09083cf" kind="variable"><name>struct</name></member>
+      <member refid="group__GeneralGroup_1ga4e75c919102a2c36c220423f73a3fbf6" kind="variable"><name>DicomVolumeT</name></member>
+      <member refid="group__GeneralGroup_1ga78572299be99c8ae0544e2063f483452" kind="variable"><name>DicomVolume</name></member>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1gad6fd3c989bc83e4e99389def8fa8931b" kind="function"><name>isDicomFile</name></member>
-      <member refid="group__GeneralGroup_1gadbcdf154c89bce3f54684092bcc3f76e" kind="function"><name>isDicomFolder</name></member>
-      <member refid="group__GeneralGroup_1ga57c362015058e67cdc805cce6bfec0b8" kind="function"><name>findDicomFoldersRecursively</name></member>
-      <member refid="group__GeneralGroup_1ga97daff0d663d2d21303f92b32c475f1d" kind="function"><name>loadDicomFile</name></member>
-      <member refid="group__GeneralGroup_1ga9edb1f3f1374143d0d7b53bc7afefeb6" kind="function"><name>loadDicomFileAsVdb</name></member>
-      <member refid="group__GeneralGroup_1gab74657867c56c855737e8a2dbc5eb1b1" kind="function"><name>loadDicomFolder</name></member>
-      <member refid="group__GeneralGroup_1ga502a6fc0f3621c800b6569b6e56e99fa" kind="function"><name>loadDicomFolderAsVdb</name></member>
-      <member refid="group__GeneralGroup_1ga80f9d3c0df6c7033f2ea958de6f8a1d1" kind="function"><name>loadDicomsFolder</name></member>
-      <member refid="group__GeneralGroup_1gadf1cf75d42be383bb66a5e1f952b2cd1" kind="function"><name>loadDicomsFolderAsVdb</name></member>
-      <member refid="group__GeneralGroup_1gad79032cc6ef1a0e389097a70c1000de3" kind="function"><name>loadDicomsFolderTreeAsVdb</name></member>
-      <member refid="group__GeneralGroup_1ga4461fa0856c7f24094e4b923f7ddd75f" kind="function"><name>createObjectVoxels</name></member>
-      <member refid="group__GeneralGroup_1ga279a152a57f0cd1d7f680c48cc341687" kind="function"><name>makeObjectVoxelsFromDicomFolder</name></member>
-      <member refid="group__VoxelsLoadGroup_1gad3e3783e957919006d682b65886541bb" kind="function"><name>fromRaw</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga603131e52dfc2ce8aa33d3a0d0028878" kind="function"><name>fromRaw</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga8d1d5e8fd4d557ab5cb0501f801e09c2" kind="function"><name>gridFromRaw</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga7f875c47121fc2d63dc69e1376825a4f" kind="function"><name>gridFromRaw</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga36e0b89b1624754a51c853b7254c9223" kind="function"><name>findRawParameters</name></member>
-      <member refid="group__VoxelsLoadGroup_1gaa5b34db6cedd5a6c229f738a4b953212" kind="function"><name>fromRaw</name></member>
-      <member refid="group__VoxelsLoadGroup_1gaff744634fa4916b622b9c213b3a37243" kind="function"><name>gridFromRaw</name></member>
-      <member refid="group__VoxelsLoadGroup_1gae5828d9a431d4b30b9d90a66a7fa0e9d" kind="function"><name>fromVdb</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga292cb0932a07bdafb7ba56453be65262" kind="function"><name>gridsFromVdb</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga17380baf5a009298d3c817ed07b4b43f" kind="function"><name>gridsFromVdb</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga3a4b1b8a761fbb02df49c120adf8a866" kind="function"><name>fromGav</name></member>
-      <member refid="group__VoxelsLoadGroup_1gab4eb40aeebde5d9880345caadb3a0ae7" kind="function"><name>fromGav</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga9c5c70dae47d427c0b4441b8b1df6b17" kind="function"><name>gridsFromAnySupportedFormat</name></member>
-      <member refid="group__VoxelsLoadGroup_1ga112e15838444077291559cd2320baedb" kind="function"><name>fromAnySupportedFormat</name></member>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a44442bb9fb78ce9c9668e928460258b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; VdbVolume &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::loadTiffDir</definition>
-        <argsstring>(const LoadingTiffSettings &amp;settings)</argsstring>
-        <name>loadTiffDir</name>
-        <qualifiedname>MR::VoxelsLoad::loadTiffDir</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" kindref="compound">LoadingTiffSettings</ref> &amp;</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-<para>Load voxels from a set of TIFF files. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="103" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="103" declcolumn="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0f1af9eb86c05b6bbe445ea06537f9c6" kind="function"><name>isDicomFile</name></member>
+      <member refid="group__GeneralGroup_1ga3e3bcf93e752e0956ce4cfaa733f0856" kind="function"><name>isDicomFolder</name></member>
+      <member refid="group__GeneralGroup_1gaa4b88892db60bc9b8396dc446524f02e" kind="function"><name>findDicomFoldersRecursively</name></member>
+      <member refid="group__GeneralGroup_1gaf00dc87c4fbf129db0fea5f72c93706c" kind="function"><name>loadDicomFile</name></member>
+      <member refid="group__GeneralGroup_1gaeb82527ec2bc3defcd4403b2010ff7b5" kind="function"><name>loadDicomFileAsVdb</name></member>
+      <member refid="group__GeneralGroup_1gaea69b664460303b9ecea304ac436ecb6" kind="function"><name>loadDicomFolder</name></member>
+      <member refid="group__GeneralGroup_1ga82e838641100127292270224b8d68cc0" kind="function"><name>loadDicomFolderAsVdb</name></member>
+      <member refid="group__GeneralGroup_1ga508397486e680c7dbfe36422254927f7" kind="function"><name>loadDicomsFolder</name></member>
+      <member refid="group__GeneralGroup_1ga5c1ca19afdda2f1e3872b21e96382a1c" kind="function"><name>loadDicomsFolderAsVdb</name></member>
+      <member refid="group__GeneralGroup_1ga3cce80232dfeab3ad6d3b2ca76c5d680" kind="function"><name>loadDicomsFolderTreeAsVdb</name></member>
+      <member refid="group__GeneralGroup_1gafddc114cf5c8b41f89071599179b2567" kind="function"><name>createObjectVoxels</name></member>
+      <member refid="group__GeneralGroup_1gaad1f792247d40e8bff19146ed05c9acf" kind="function"><name>makeObjectVoxelsFromDicomFolder</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga8ce6022f00f55c40a634b016f91a3b31" kind="function"><name>fromRaw</name></member>
+      <member refid="group__VoxelsLoadGroup_1gab0a9073a8190607740aa7a4e108a70ea" kind="function"><name>fromRaw</name></member>
+      <member refid="group__VoxelsLoadGroup_1gab8b39ae86f2bd1e780c542ceebadc56d" kind="function"><name>gridFromRaw</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga433ccf3ee64b6d83ded8726d9bccd584" kind="function"><name>gridFromRaw</name></member>
+      <member refid="group__VoxelsLoadGroup_1gab02ac1c58396a89e54c4b384dd5142ea" kind="function"><name>findRawParameters</name></member>
+      <member refid="group__VoxelsLoadGroup_1gae42a24cac2267bb02933d82f3153182a" kind="function"><name>fromRaw</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga91731f11539ea11d1c4bd2dfbc25b2b1" kind="function"><name>gridFromRaw</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga7b175c416a672c40b25a2ec4bab31047" kind="function"><name>fromVdb</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga45ad7e33491adf48887a084a760ce0dd" kind="function"><name>gridsFromVdb</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga255028947dcc30bbf215b5da697a7e96" kind="function"><name>gridsFromVdb</name></member>
+      <member refid="group__VoxelsLoadGroup_1gac56550c38609cdf38fcf34f3740e8f82" kind="function"><name>fromGav</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga6e416ae7982ee1812f92be62d196d48d" kind="function"><name>fromGav</name></member>
+      <member refid="group__VoxelsLoadGroup_1gad303045560cb427689099a6b7fd25789" kind="function"><name>gridsFromAnySupportedFormat</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga1679273711f98deaa8bb82cf59834512" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__VoxelsLoadGroup_1gaa3493438ee99f77d8e1ae26c176c0453" kind="function"><name>loadTiffDir</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="20" column="1"/>
+    <location file="MRVoxels/MRDicom.h" line="20" column="1"/>
   </compounddef>
 </doxygen>

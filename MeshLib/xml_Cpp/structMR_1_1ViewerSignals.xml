@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ViewerSignals" kind="struct" language="C++" prot="public">
     <compoundname>MR::ViewerSignals</compoundname>
-    <includes refid="MRViewerSignals_8h" local="no">MRViewerSignals.h</includes>
+    <includes refid="MRViewerSignals_8h" local="no">MRViewer/MRViewerSignals.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga1eda89f251264fcd4a837e688fdd8f85" kind="typedef"><name>SignalStopHandler</name></member>
       <member refid="group__GeneralGroup_1ga3206deabe6f49f8a3acf059b7130a0fb" kind="typedef"><name>MouseUpDownSignal</name></member>
@@ -78,7 +78,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="13" bodyend="96"/>
+    <location file="MRViewer/MRViewerSignals.h" line="12" column="1" bodyfile="MRViewer/MRViewerSignals.h" bodystart="13" bodyend="96"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa74e56ac086d42bf0be931fc3dfb3800" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>CharPressedSignal</name></member>
       <member refid="group__GeneralGroup_1gae4816cd353f0490019b33704a50e5e91" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>charPressedSignal</name></member>

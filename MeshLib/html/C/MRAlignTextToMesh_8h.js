@@ -1,14 +1,6 @@
 var MRAlignTextToMesh_8h =
 [
     [ "MR_BendTextAlongCurveParams", "MRAlignTextToMesh_8h.html#a62175768dc7465c4a8a71dfd89aa229c", null ],
-    [ "MR_CurveFunc", "MRAlignTextToMesh_8h.html#ab736d01b412677bf61e955b279bb05c2", null ],
-    [ "MR_expected_MR_Mesh_std_string", "MRAlignTextToMesh_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_Mesh", "MRAlignTextToMesh_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTriPoint", "MRAlignTextToMesh_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
-    [ "MR_std_filesystem_path", "MRAlignTextToMesh_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
-    [ "MR_std_string", "MRAlignTextToMesh_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_std_vector_MR_CurvePoint", "MRAlignTextToMesh_8h.html#a5fb03e93707418a937ebb703f9a455e3", null ],
-    [ "MR_std_vector_MR_EdgePoint", "MRAlignTextToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae", null ],
     [ "MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59", null ],
     [ "MR_TextMeshAlignParams", "MRAlignTextToMesh_8h.html#a248de3625afa5f345225a9c64501932b", null ],
     [ "MR_alignTextToMesh", "MRAlignTextToMesh_8h.html#a1af1febfdb6d97f18732c58a1b49a6a5", null ],
@@ -47,8 +39,8 @@ var MRAlignTextToMesh_8h =
     [ "MR_BendTextAlongCurveParams_Set_stretch", "MRAlignTextToMesh_8h.html#a506ad7514a5f44ba659c3b883a20786d", null ],
     [ "MR_BendTextAlongCurveParams_Set_surfaceOffset", "MRAlignTextToMesh_8h.html#a2a6ba373e6b4e7332da7b7e9e0d14685", null ],
     [ "MR_BendTextAlongCurveParams_Set_symbolMesh", "MRAlignTextToMesh_8h.html#a77f72d4072d12326358e646e0a9d8650", null ],
-    [ "MR_bendTextAlongSurfacePath_3", "MRAlignTextToMesh_8h.html#ad59040bd5cd021c24712fa99065a595d", null ],
-    [ "MR_bendTextAlongSurfacePath_5", "MRAlignTextToMesh_8h.html#ab8e991c27cf2df644bd4b3406bc74b65", null ],
+    [ "MR_bendTextAlongSurfacePath_MR_GeodesicPath", "MRAlignTextToMesh_8h.html#a2e8f8e33ed09662dfe34ca60ba6ffd6c", null ],
+    [ "MR_bendTextAlongSurfacePath_std_vector_MR_EdgePoint", "MRAlignTextToMesh_8h.html#a79571b54fbd39e3bf280ad9e944d064a", null ],
     [ "MR_TextMeshAlignParams_AssignFromAnother", "MRAlignTextToMesh_8h.html#a358d1e694325e1a5e43fb58b43f83bd0", null ],
     [ "MR_TextMeshAlignParams_ConstructFromAnother", "MRAlignTextToMesh_8h.html#a1304e963f7291efd9e6ea8d53c1c9734", null ],
     [ "MR_TextMeshAlignParams_DefaultConstruct", "MRAlignTextToMesh_8h.html#ae5f772bb344e913cdb39561d119db16a", null ],
@@ -84,6 +76,7 @@ var MRAlignTextToMesh_8h =
     [ "MR_TextMeshAlignParams_GetMutable_text", "MRAlignTextToMesh_8h.html#afc6586f0cb2065d443dd3e298409d34a", null ],
     [ "MR_TextMeshAlignParams_GetMutable_textMaximumMovement", "MRAlignTextToMesh_8h.html#a3d0881fdad1a96cf47dfd661094d6b93", null ],
     [ "MR_TextMeshAlignParams_GetMutable_textNormal", "MRAlignTextToMesh_8h.html#a67ff89392b8f1217ad8660a3d8aedbbb", null ],
+    [ "MR_TextMeshAlignParams_MutableStaticDowncastFrom_MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#a16f98e502f9479b9863c61a7e6274e25", null ],
     [ "MR_TextMeshAlignParams_MutableUpcastTo_MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#a17633359a6e2a6ccfa599f4bc0768309", null ],
     [ "MR_TextMeshAlignParams_OffsetMutablePtr", "MRAlignTextToMesh_8h.html#a9ea24d3f2bc849adb5316167c2d48615", null ],
     [ "MR_TextMeshAlignParams_OffsetPtr", "MRAlignTextToMesh_8h.html#af2738ba6fad3b18983c9ead604da21a9", null ],
@@ -101,5 +94,6 @@ var MRAlignTextToMesh_8h =
     [ "MR_TextMeshAlignParams_Set_text", "MRAlignTextToMesh_8h.html#aa8d68bcec093134f07e4f8e04c479448", null ],
     [ "MR_TextMeshAlignParams_Set_textMaximumMovement", "MRAlignTextToMesh_8h.html#ad575a4c054cb67440890b09d4a3304ea", null ],
     [ "MR_TextMeshAlignParams_Set_textNormal", "MRAlignTextToMesh_8h.html#a70258d263a69bc145eb34261ba3a0316", null ],
+    [ "MR_TextMeshAlignParams_StaticDowncastFrom_MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#a829c2213ca865f518afcdacfb32f6bbc", null ],
     [ "MR_TextMeshAlignParams_UpcastTo_MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#afac8a0ef9b2cba5574364d5d5e53b892", null ]
 ];

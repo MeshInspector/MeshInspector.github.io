@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ProjectAttributeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ProjectAttributeParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ProjectAttributeParams</basecompoundref>
@@ -18,9 +18,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="114" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="114" bodyend="114"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1ProjectAttributeParams_1a42fe2d84844f85dafd2e64cc05ae56b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.ProjectAttributeParams.progressCb</definition>
+      <memberdef kind="property" id="classMR_1_1ProjectAttributeParams_1a0f66c279cc9e9b41055a785a7ea01f68" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.ProjectAttributeParams.progressCb</definition>
         <argsstring></argsstring>
         <name>progressCb</name>
         <qualifiedname>MR.ProjectAttributeParams.progressCb</qualifiedname>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="116" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="116" bodyend="116"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="116" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="116" bodyend="116"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -107,7 +107,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ProjectAttributeParams.ProjectAttributeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" kindref="member">MR.ProjectAttributeParams.ProjectAttributeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ProjectAttributeParams.ProjectAttributeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" kindref="member">MR.ProjectAttributeParams.ProjectAttributeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -145,7 +145,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ProjectAttributeParams.ProjectAttributeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" kindref="member">MR.ProjectAttributeParams.ProjectAttributeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,7 +164,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ProjectAttributeParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ProjectAttributeParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -179,51 +179,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ProjectAttributeParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ProjectAttributeParams</label>
         <link refid="classMR_1_1ProjectAttributeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ProjectAttributeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ProjectAttributeParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ProjectAttributeParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ProjectAttributeParams</label>
         <link refid="classMR_1_1ProjectAttributeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ProjectAttributeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ProjectAttributeParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="112" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="113" bodyend="206"/>
     <listofallmembers>
       <member refid="classMR_1_1ProjectAttributeParams_1a7d8d513236da5749aeb778a9f09b33c0" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>assign</name></member>
-      <member refid="classMR_1_1ProjectAttributeParams_1a42fe2d84844f85dafd2e64cc05ae56b8" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>progressCb</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1a0f66c279cc9e9b41055a785a7ea01f68" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>progressCb</name></member>
       <member refid="classMR_1_1ProjectAttributeParams_1a4dd9869847118e2a58071a0d42c15d24" prot="package" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
       <member refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
       <member refid="classMR_1_1ProjectAttributeParams_1a87931817869fb0b1d17efdc0a1410b28" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>

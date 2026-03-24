@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1XfBasedCache__MRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::XfBasedCache_MRBox3f</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_XfBasedCache_MRBox3f</basecompoundref>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;::XfBasedCache</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;::XfBasedCache</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;::XfBasedCache</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;::XfBasedCache</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>sets new transformation and the object Generated from method <computeroutput>MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;::set</computeroutput>. </para>
+<para>sets new transformation and the object Generated from method <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;<ref refid="classMR_1_1XfBasedCache__MRBox3f_1a1587cbafac478bdfe7ff2b0cd8451189" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
         <name>reset</name>
         <qualifiedname>MR.XfBasedCache_MRBox3f.reset</qualifiedname>
         <briefdescription>
-<para>clears stored object Generated from method <computeroutput>MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;::reset</computeroutput>. </para>
+<para>clears stored object Generated from method <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;<ref refid="classMR_1_1XfBasedCache__MRBox3f_1a7ea027bc30a34dbcce72ea438b34de28" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,50 +140,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>optional T-object container, which stores a transformation as well for which the object is valid Generated from class <computeroutput>MR.XfBasedCache&lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>optional T-object container, which stores a transformation as well for which the object is valid Generated from class <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_XfBasedCache_MRBox3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.XfBasedCache_MRBox3f</label>
         <link refid="classMR_1_1XfBasedCache__MRBox3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_XfBasedCache_MRBox3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_XfBasedCache_MRBox3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_XfBasedCache_MRBox3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.XfBasedCache_MRBox3f</label>
         <link refid="classMR_1_1XfBasedCache__MRBox3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_XfBasedCache_MRBox3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_XfBasedCache_MRBox3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="74" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="75" bodyend="140"/>

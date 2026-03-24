@@ -1,7 +1,7 @@
 var MRMeshShader_8h =
 [
-    [ "getMeshFragmentShader", "MRMeshShader_8h.html#ga2b81893b02fa429ab4e07214a0f2f056", null ],
-    [ "getMeshFragmentShaderArgumetsBlock", "MRMeshShader_8h.html#gadf0c9f368d580d753d6be5949cb9aeb5", null ],
-    [ "getMeshFragmentShaderColoringBlock", "MRMeshShader_8h.html#ga983223b5a1d14a48822c74d9b77cbd96", null ],
-    [ "getMeshVerticesShader", "MRMeshShader_8h.html#ga1ef70778faa5587efd51d899e5e425e1", null ]
+    [ "MR::getMeshFragmentShader", "group__GeneralGroup.html#ga453e0ab2d0aa5b3ca3a51bb87086761f", null ],
+    [ "MR::getMeshFragmentShaderArgumetsBlock", "group__GeneralGroup.html#gabb7612a6b46687b1a08ffe80aeca641a", null ],
+    [ "MR::getMeshFragmentShaderColoringBlock", "group__GeneralGroup.html#gab290dd3e9fa97c3f11d1b72981966efe", null ],
+    [ "MR::getMeshVerticesShader", "group__GeneralGroup.html#ga58b5db17906c4933f686cc9d1476a155", null ]
 ];

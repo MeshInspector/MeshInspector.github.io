@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFillContours2D_8h" kind="file" language="C++">
     <compoundname>MRFillContours2D.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="2">
         <label>MRCMesh/MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -40,23 +40,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -66,16 +66,26 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="10">
+      <node id="11">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -83,102 +93,23 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="6">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="9">
         <label>stdbool.h</label>
       </node>
-      <node id="8">
+      <node id="7">
         <label>stddef.h</label>
       </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRFillContours2D_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="10" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFillContours2D_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref></type>
-        <definition>typedef struct MR_ObjectMeshData MR_ObjectMeshData</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectMeshData</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="11" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFillContours2D_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="12" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFillContours2D_8h_1aa2cb99914308eb7429fd11738cf79483" prot="public" static="no">
-        <type>struct <ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_EdgeId MR_std_vector_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="13" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFillContours2D_8h_1ab5de264b6065dbf84f6b3fa0f6530592" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_EdgeId MR_std_vector_std_vector_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="14" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFillContours2D_8h_1a79b88ecd897f6c27c8428cecc4a91f30" prot="public" static="no">
-        <type>struct <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_Vector3f MR_std_vector_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="15" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRFillContours2D_8h_1a858df18b99bad479b69025cb19a7ae98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_fillContours2D</definition>
         <argsstring>(MR_Mesh *mesh, const MR_std_vector_MR_EdgeId *holeRepresentativeEdges)</argsstring>
         <name>MR_fillContours2D</name>
@@ -211,16 +142,16 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>Expected with has_value()=true if holes filled, otherwise - string error Generated from function <computeroutput>MR::fillContours2D</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>holeRepresentativeEdges</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<simplesect kind="return"><para>Expected with has_value()=true if holes filled, otherwise - string error Generated from function <computeroutput>MR::fillContours2D</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>holeRepresentativeEdges</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="30" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" declline="30" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h" line="30" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h" declline="30" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFillContours2D_8h_1af5aca5ec89044050bdb484a296ea0e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
         <definition>MRC_API MR_AffineXf3f MR_getXfFromOxyPlane_1</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3f *contours)</argsstring>
         <name>MR_getXfFromOxyPlane_1</name>
@@ -235,10 +166,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="37" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" declline="37" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h" line="37" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h" declline="37" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRFillContours2D_8h_1a09b338703c75be097b80aba92c43f358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
         <definition>MRC_API MR_AffineXf3f MR_getXfFromOxyPlane_2</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_std_vector_std_vector_MR_EdgeId *paths)</argsstring>
         <name>MR_getXfFromOxyPlane_2</name>
@@ -257,10 +188,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="42" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" declline="42" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h" line="42" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h" declline="42" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRFillContours2D_8h_1a37718075d8c6358dc186b8298e6c6d1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_fillPlanarHole</definition>
         <argsstring>(MR_ObjectMeshData *data, MR_std_vector_std_vector_MR_EdgeId *holeContours)</argsstring>
         <name>MR_fillPlanarHole</name>
@@ -275,11 +206,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>given an ObjectMeshData and the contours of a planar hole in it, fills the hole using fillContours2D function and updates all per-element attributes; if some contours were not closed on input, then it closes them by adding a bridge edge in each Generated from function <computeroutput>MR::fillPlanarHole</computeroutput>. Parameter <computeroutput>data</computeroutput> can not be null. It is a single object. Parameter <computeroutput>holeContours</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>given an ObjectMeshData and the contours of a planar hole in it, fills the hole using fillContours2D function and updates all per-element attributes; if some contours were not closed on input, then it closes them by adding a bridge edge in each Generated from function <computeroutput>MR::fillPlanarHole</computeroutput>. Parameter <computeroutput>data</computeroutput> can not be null. It is a single object. Parameter <computeroutput>holeContours</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" line="51" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h" declline="51" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h" line="51" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h" declline="51" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -290,32 +221,32 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRFillContours2D_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRFillContours2D_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshData.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRFillContours2D_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRFillContours2D_8h_1aa2cb99914308eb7429fd11738cf79483" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRFillContours2D_8h_1ab5de264b6065dbf84f6b3fa0f6530592" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRFillContours2D_8h_1a79b88ecd897f6c27c8428cecc4a91f30" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshData.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRFillContours2D_8h_1a858df18b99bad479b69025cb19a7ae98" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFillContours2D_8h_1a858df18b99bad479b69025cb19a7ae98" kindref="member">MR_fillContours2D</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*holeRepresentativeEdges);</highlight></codeline>
+<codeline lineno="30" refid="MRFillContours2D_8h_1a858df18b99bad479b69025cb19a7ae98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFillContours2D_8h_1a858df18b99bad479b69025cb19a7ae98" kindref="member">MR_fillContours2D</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*holeRepresentativeEdges);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRFillContours2D_8h_1af5aca5ec89044050bdb484a296ea0e37" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRFillContours2D_8h_1af5aca5ec89044050bdb484a296ea0e37" kindref="member">MR_getXfFromOxyPlane_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*contours);</highlight></codeline>
+<codeline lineno="37" refid="MRFillContours2D_8h_1af5aca5ec89044050bdb484a296ea0e37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRFillContours2D_8h_1af5aca5ec89044050bdb484a296ea0e37" kindref="member">MR_getXfFromOxyPlane_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*contours);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRFillContours2D_8h_1a09b338703c75be097b80aba92c43f358" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRFillContours2D_8h_1a09b338703c75be097b80aba92c43f358" kindref="member">MR_getXfFromOxyPlane_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*paths);</highlight></codeline>
+<codeline lineno="42" refid="MRFillContours2D_8h_1a09b338703c75be097b80aba92c43f358" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRFillContours2D_8h_1a09b338703c75be097b80aba92c43f358" kindref="member">MR_getXfFromOxyPlane_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*paths);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRFillContours2D_8h_1a37718075d8c6358dc186b8298e6c6d1e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFillContours2D_8h_1a37718075d8c6358dc186b8298e6c6d1e" kindref="member">MR_fillPlanarHole</ref>(<ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*data,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*holeContours);</highlight></codeline>
+<codeline lineno="51" refid="MRFillContours2D_8h_1a37718075d8c6358dc186b8298e6c6d1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFillContours2D_8h_1a37718075d8c6358dc186b8298e6c6d1e" kindref="member">MR_fillPlanarHole</ref>(<ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*data,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*holeContours);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillContours2D.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFillContours2D.h"/>
   </compounddef>
 </doxygen>

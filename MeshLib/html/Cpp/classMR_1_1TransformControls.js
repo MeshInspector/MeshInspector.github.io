@@ -1,16 +1,16 @@
 var classMR_1_1TransformControls =
 [
-    [ "~TransformControls", "group__GeneralGroup.html#ga6e2a9b27f44bb930e9a41be1f8fd7a06", null ],
+    [ "~TransformControls", "group__GeneralGroup.html#ga23a9c4ebc9d70b27959f4692445d6956", null ],
     [ "getRadius", "group__GeneralGroup.html#ga40e18d7c493840cc01d3164d427a66bb", null ],
     [ "getVisualParams", "group__GeneralGroup.html#ga83e142fd9ad486f5f722ccb590064a7b", null ],
     [ "getWidth", "group__GeneralGroup.html#gae1893daa3862766a61b29d129d73db45", null ],
-    [ "init", "group__GeneralGroup.html#ga07676f9267cb76aea3e3ae26ca04494c", null ],
-    [ "setRadius", "group__GeneralGroup.html#ga1810cd6d6011cc4ce0cb10bc2aa2519b", null ],
-    [ "setSizeType", "group__GeneralGroup.html#gab96ec3ff92c62092535e1ea90a28e90b", null ],
-    [ "setVisualParams", "group__GeneralGroup.html#ga3a7df5875b5301404b9e5d70f327b3ae", null ],
-    [ "setWidth", "group__GeneralGroup.html#gaaf863f472ade960e2930c519a9576d1c", null ],
-    [ "update", "group__GeneralGroup.html#gaa465cae8f8f64791763879ce0edb9f5b", null ],
-    [ "updateRotation", "group__GeneralGroup.html#gae75c88d7e57fc69be5c277b6d055b7aa", null ],
-    [ "updateSizeInPixel", "group__GeneralGroup.html#ga9d26f5b660354ee7807cd3201bdc05a2", null ],
-    [ "updateTranslation", "group__GeneralGroup.html#gab01fb623bf0489a958d77ceeb3b27ff7", null ]
+    [ "init", "group__GeneralGroup.html#ga0245fd8074446a03f3fa0ab2f5198561", null ],
+    [ "setRadius", "group__GeneralGroup.html#gae0dd247a8f4ffcd47035742b211315c2", null ],
+    [ "setSizeType", "group__GeneralGroup.html#gafc08fc4ed87e77b70b7a0881ef7be0c6", null ],
+    [ "setVisualParams", "group__GeneralGroup.html#gab02273ceef7209cd43865b6a9324f7e7", null ],
+    [ "setWidth", "group__GeneralGroup.html#ga1327ff529f099eb80ad8ebe88f2b81a3", null ],
+    [ "update", "group__GeneralGroup.html#ga5a255364f622ee6544e002c543061611", null ],
+    [ "updateRotation", "group__GeneralGroup.html#gaba270ef68dc54c5fe9b1092c53b974cd", null ],
+    [ "updateSizeInPixel", "group__GeneralGroup.html#ga86a41765e2cded4cd582e0bba0ac7b3a", null ],
+    [ "updateTranslation", "group__GeneralGroup.html#ga653a8318e61a32bd43194d37bc22087d", null ]
 ];

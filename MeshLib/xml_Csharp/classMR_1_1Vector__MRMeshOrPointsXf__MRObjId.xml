@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRMeshOrPointsXf_MRObjId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRMeshOrPointsXf_MRObjId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1af419e68986c3b4232e30093697f00812" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRMeshOrPointsXf</type>
@@ -11,13 +12,13 @@
         <name>vec</name>
         <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.vec</qualifiedname>
         <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31091" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31091" bodyend="31091"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38755" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38755" bodyend="38755"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aea96b99fb7515898efcad9e587ec386a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref></type>
@@ -26,13 +27,425 @@
         <name>this[MR.ObjId i]</name>
         <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.this[MR.ObjId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31227" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31228" bodyend="31238"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38891" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38892" bodyend="38902"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a761037d75091d0e277880ca8b90fd1e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.MeshOrPointsXf &gt; MR.Vector_MRMeshOrPointsXf_MRObjId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38742" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38742" bodyend="38745"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aa291835c48b5b697cb424d70a52648e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38784" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38784" bodyend="38790"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a464334316f34c55da6fada4912b82dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId _other)</argsstring>
+        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38795" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38795" bodyend="38802"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a51e7f5e465c981fd368e29f3b62f401e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
+        <argsstring>(Const_Vector_MRMeshOrPointsXf_MRObjId _other)</argsstring>
+        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
+        <param>
+          <type>Const_Vector_MRMeshOrPointsXf_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38807" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38807" bodyend="38807"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1acfcd8be84e57d9359d9c4cef39437fbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
+        <argsstring>(Vector_MRMeshOrPointsXf_MRObjId _other)</argsstring>
+        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" kindref="compound">Vector_MRMeshOrPointsXf_MRObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38812" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38812" bodyend="38812"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aa80c65a1d78c4538d2bf2b1b1008069f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
+        <argsstring>(ulong size, MR.Const_MeshOrPointsXf val)</argsstring>
+        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38818" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38818" bodyend="38825"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a91fd740279b714bc71b027c7282a4a08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRMeshOrPointsXf &gt; vec)</argsstring>
+        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRMeshOrPointsXf &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38831" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38831" bodyend="38838"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a8aa677c5ed72864b247c66487a51488b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" kindref="compound">MR.Vector_MRMeshOrPointsXf_MRObjId</ref></type>
+        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId MR.Vector_MRMeshOrPointsXf_MRObjId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38849" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38849" bodyend="38856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1af682e0ef0c029c72faaca708bcdd700b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1af682e0ef0c029c72faaca708bcdd700b" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38861" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38861" bodyend="38866"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a356dbb7d18cb0099bcb2d1fd770eed2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.resize</definition>
+        <argsstring>(ulong newSize, MR.Const_MeshOrPointsXf t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a356dbb7d18cb0099bcb2d1fd770eed2f" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38871" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38871" bodyend="38876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a87ab14dae57fa6afacc03a23ecd784de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a87ab14dae57fa6afacc03a23ecd784de" kindref="member">reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38881" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38881" bodyend="38886"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a7c02cce233279b149a6d47c6ea9b68f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, MR.Const_MeshOrPointsXf value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a7c02cce233279b149a6d47c6ea9b68f6" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38908" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38908" bodyend="38913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aeff60cdc769a7105768cf3f02206ec91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.autoResizeSet</definition>
+        <argsstring>(MR.ObjId pos, ulong len, MR.Const_MeshOrPointsXf val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aeff60cdc769a7105768cf3f02206ec91" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38920" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38920" bodyend="38925"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aaa9ea48b58c56ca5dfb31b7d6878aed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.autoResizeSet</definition>
+        <argsstring>(MR.ObjId i, MR.Const_MeshOrPointsXf val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aeff60cdc769a7105768cf3f02206ec91" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38931" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38931" bodyend="38936"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a9b245744cc41e08671d400d5f692573e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.pushBack</definition>
+        <argsstring>(MR.Const_MeshOrPointsXf t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38941" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38941" bodyend="38947"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a6e2bbcdde00019724074e71be20cce66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.pushBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.MeshOrPointsXf &gt; t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38952" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38952" bodyend="38958"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a66cd80f77db6d85abfca3f366822ee87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38963" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38963" bodyend="38968"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a868573e4e9276e654985d0fcbc2f9fe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref></type>
+        <definition>unsafe new MR.MeshOrPointsXf MR.Vector_MRMeshOrPointsXf_MRObjId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a868573e4e9276e654985d0fcbc2f9fe0" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38973" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38973" bodyend="38981"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a4a1d7bb5702214c4ec70a31b8d731382" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref></type>
+        <definition>unsafe new MR.MeshOrPointsXf MR.Vector_MRMeshOrPointsXf_MRObjId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a4a1d7bb5702214c4ec70a31b8d731382" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38986" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38986" bodyend="38994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1afaf2379923789981ac2e0a8901e46567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+        <definition>unsafe new MR.? MeshOrPointsXf MR.Vector_MRMeshOrPointsXf_MRObjId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1afaf2379923789981ac2e0a8901e46567" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38999" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38999" bodyend="39008"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a29b9c8a2b8662d7906af00e9b4575741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.swap</definition>
+        <argsstring>(MR.Vector_MRMeshOrPointsXf_MRObjId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" kindref="compound">MR.Vector_MRMeshOrPointsXf_MRObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a29b9c8a2b8662d7906af00e9b4575741" kindref="member">swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="39013" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="39013" bodyend="39018"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a746409d654e454fe08ab4179a5914e98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_MRMeshOrPointsXf_MRObjId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38747" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38747" bodyend="38750"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,389 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31110" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31110" bodyend="31114"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aa291835c48b5b697cb424d70a52648e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
-        <argsstring>()</argsstring>
-        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31120" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31120" bodyend="31126"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a464334316f34c55da6fada4912b82dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
-        <argsstring>(MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId _other)</argsstring>
-        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31131" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31131" bodyend="31138"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a51e7f5e465c981fd368e29f3b62f401e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
-        <argsstring>(Const_Vector_MRMeshOrPointsXf_MRObjId _other)</argsstring>
-        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
-        <param>
-          <type>Const_Vector_MRMeshOrPointsXf_MRObjId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31143" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31143" bodyend="31143"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1acfcd8be84e57d9359d9c4cef39437fbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
-        <argsstring>(Vector_MRMeshOrPointsXf_MRObjId _other)</argsstring>
-        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" kindref="compound">Vector_MRMeshOrPointsXf_MRObjId</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31148" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31148" bodyend="31148"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aa80c65a1d78c4538d2bf2b1b1008069f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
-        <argsstring>(ulong size, MR.Const_MeshOrPointsXf val)</argsstring>
-        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31154" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31154" bodyend="31161"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a91fd740279b714bc71b027c7282a4a08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRMeshOrPointsXf &gt; vec)</argsstring>
-        <name>Vector_MRMeshOrPointsXf_MRObjId</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.Vector_MRMeshOrPointsXf_MRObjId</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRMeshOrPointsXf &gt;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31167" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31167" bodyend="31174"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a8aa677c5ed72864b247c66487a51488b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" kindref="compound">MR.Vector_MRMeshOrPointsXf_MRObjId</ref></type>
-        <definition>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId MR.Vector_MRMeshOrPointsXf_MRObjId.assign</definition>
-        <argsstring>(MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31185" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31185" bodyend="31192"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1af682e0ef0c029c72faaca708bcdd700b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31197" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31197" bodyend="31202"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a356dbb7d18cb0099bcb2d1fd770eed2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.resize</definition>
-        <argsstring>(ulong newSize, MR.Const_MeshOrPointsXf t)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31207" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31207" bodyend="31212"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a87ab14dae57fa6afacc03a23ecd784de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.reserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>capacity</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::reserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31217" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31217" bodyend="31222"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a7c02cce233279b149a6d47c6ea9b68f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, MR.Const_MeshOrPointsXf value)</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.resizeWithReserve</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31244" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31244" bodyend="31249"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aeff60cdc769a7105768cf3f02206ec91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.autoResizeSet</definition>
-        <argsstring>(MR.ObjId pos, ulong len, MR.Const_MeshOrPointsXf val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>ulong</type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31256" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31256" bodyend="31261"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aaa9ea48b58c56ca5dfb31b7d6878aed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.autoResizeSet</definition>
-        <argsstring>(MR.ObjId i, MR.Const_MeshOrPointsXf val)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::autoResizeSet</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31267" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31267" bodyend="31272"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a9b245744cc41e08671d400d5f692573e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.pushBack</definition>
-        <argsstring>(MR.Const_MeshOrPointsXf t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Const_MeshOrPointsXf</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31277" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31277" bodyend="31283"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a6e2bbcdde00019724074e71be20cce66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.pushBack</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.MeshOrPointsXf &gt; t)</argsstring>
-        <name>pushBack</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.pushBack</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref> &gt;</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::push_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31288" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31288" bodyend="31294"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a66cd80f77db6d85abfca3f366822ee87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.popBack</definition>
-        <argsstring>()</argsstring>
-        <name>popBack</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.popBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::pop_back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31299" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31299" bodyend="31304"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a868573e4e9276e654985d0fcbc2f9fe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref></type>
-        <definition>unsafe new MR.MeshOrPointsXf MR.Vector_MRMeshOrPointsXf_MRObjId.front</definition>
-        <argsstring>()</argsstring>
-        <name>front</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.front</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::front</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31309" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31309" bodyend="31317"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a4a1d7bb5702214c4ec70a31b8d731382" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref></type>
-        <definition>unsafe new MR.MeshOrPointsXf MR.Vector_MRMeshOrPointsXf_MRObjId.back</definition>
-        <argsstring>()</argsstring>
-        <name>back</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.back</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::back</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31322" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31322" bodyend="31330"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1afaf2379923789981ac2e0a8901e46567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.? <ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
-        <definition>unsafe new MR.? MeshOrPointsXf MR.Vector_MRMeshOrPointsXf_MRObjId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31335" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31335" bodyend="31344"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a29b9c8a2b8662d7906af00e9b4575741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Vector_MRMeshOrPointsXf_MRObjId.swap</definition>
-        <argsstring>(MR.Vector_MRMeshOrPointsXf_MRObjId b)</argsstring>
-        <name>swap</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.swap</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" kindref="compound">MR.Vector_MRMeshOrPointsXf_MRObjId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::swap</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31349" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31349" bodyend="31354"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38774" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38774" bodyend="38778"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -453,17 +484,17 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31180" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31180" bodyend="31180"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38844" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38844" bodyend="38844"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -479,55 +510,69 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshOrPointsXf" kindref="compound">MR.MeshOrPointsXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Vector_MRMeshOrPointsXf_MRObjId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_MRMeshOrPointsXf_MRObjId</label>
         <link refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRMeshOrPointsXf_MRObjId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRMeshOrPointsXf_MRObjId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Vector_MRMeshOrPointsXf_MRObjId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Vector_MRMeshOrPointsXf_MRObjId</label>
         <link refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRMeshOrPointsXf_MRObjId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRMeshOrPointsXf_MRObjId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31088" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31089" bodyend="31355"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38686" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38687" bodyend="39019"/>
     <listofallmembers>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a8aa677c5ed72864b247c66487a51488b" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aeff60cdc769a7105768cf3f02206ec91" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>autoResizeSet</name></member>
@@ -536,6 +581,8 @@
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1af682e0ef0c029c72faaca708bcdd700b" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>clear</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1afaf2379923789981ac2e0a8901e46567" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>data</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a868573e4e9276e654985d0fcbc2f9fe0" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a761037d75091d0e277880ca8b90fd1e1" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a746409d654e454fe08ab4179a5914e98" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a998cb7cfaa06cc4efbf99902f75ce9a1" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>operator Vector_MRMeshOrPointsXf_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a66cd80f77db6d85abfca3f366822ee87" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a9b245744cc41e08671d400d5f692573e" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>pushBack</name></member>

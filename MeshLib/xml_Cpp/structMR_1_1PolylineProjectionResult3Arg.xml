@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PolylineProjectionResult3Arg" kind="struct" language="C++" prot="public">
     <compoundname>MR::PolylineProjectionResult3Arg</compoundname>
     <basecompoundref prot="public" virt="non-virtual">PolylineProjectionResult3</basecompoundref>
-    <includes refid="MRPolylineProject_8h" local="no">MRPolylineProject.h</includes>
+    <includes refid="MRPolylineProject_8h" local="no">MRMesh/MRPolylineProject.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PolylineProjectionResult3Arg_1a2cf18e52c58f017c162f7f60ad2c514e" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="50" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="50" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineProject.h" line="50" column="12" bodyfile="MRMesh/MRPolylineProject.h" bodystart="50" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -46,7 +46,7 @@
         <label>PolylineProjectionResult3</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="49" bodyend="51"/>
+    <location file="MRMesh/MRPolylineProject.h" line="48" column="1" bodyfile="MRMesh/MRPolylineProject.h" bodystart="49" bodyend="51"/>
     <listofallmembers>
       <member refid="structMR_1_1PolylineProjectionResult3Arg_1a2cf18e52c58f017c162f7f60ad2c514e" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3Arg</scope><name>pointId</name></member>
     </listofallmembers>

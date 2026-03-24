@@ -1,8 +1,5 @@
 var MRLinesLoadSettings_8h =
 [
-    [ "MR_LinesLoadSettings", "MRLinesLoadSettings_8h.html#af6111911cb00c2c2881d290dd9eef469", null ],
-    [ "MR_std_function_bool_from_float", "MRLinesLoadSettings_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_VertColors", "MRLinesLoadSettings_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
     [ "MR_LinesLoadSettings_AssignFromAnother", "MRLinesLoadSettings_8h.html#a0979feca09242d7a0f85249858111e06", null ],
     [ "MR_LinesLoadSettings_ConstructFrom", "MRLinesLoadSettings_8h.html#a0cd0cb43d3e28c6bbd066de95c89c4e5", null ],
     [ "MR_LinesLoadSettings_ConstructFromAnother", "MRLinesLoadSettings_8h.html#a50412fec6a6b564fce6064800529c3a2", null ],

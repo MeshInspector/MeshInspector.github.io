@@ -1,84 +1,152 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRStatePluginUpdate_8h" kind="file" language="C++">
     <compoundname>MRStatePluginUpdate.h</compoundname>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes local="yes">exports.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRBinaryOperationsPlugin_8h" local="yes">MRBinaryOperationsPlugin.h</includedby>
-    <includedby refid="MRStatePlugin_8h" local="yes">MRStatePlugin.h</includedby>
+    <includedby refid="MRBinaryOperationsPlugin_8h" local="yes">MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</includedby>
+    <includedby refid="MRStatePlugin_8h" local="yes">MRViewer/MRStatePlugin.h</includedby>
     <incdepgraph>
-      <node id="4">
-        <label>MRMesh/MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="5" relation="include">
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
       <node id="1">
-        <label>MRStatePluginUpdate.h</label>
+        <label>MRViewer/MRStatePluginUpdate.h</label>
         <link refid="MRStatePluginUpdate_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRViewerFwd.h</label>
-      </node>
-      <node id="5">
-        <label>boost/signals2/signal.hpp</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
       <node id="3">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>boost/signals2/signal.hpp</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="4">
         <label>exports.h</label>
       </node>
-      <node id="6">
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="18">
         <label>memory</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5">
-        <label>MRCameraOrientationPlugin.h</label>
+      <node id="4">
+        <label>MRCommonPlugins/Basic/MRCameraOrientationPlugin.h</label>
         <link refid="MRCameraOrientationPlugin_8h"/>
       </node>
-      <node id="8">
-        <label>MRMoveObjectByMouse.h</label>
+      <node id="5">
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
-      <node id="10">
-        <label>MRSelectObjectByClick.h</label>
+      <node id="6">
+        <label>MRCommonPlugins/Selectors/MRSelectObjectByClick.h</label>
         <link refid="MRSelectObjectByClick_8h"/>
       </node>
-      <node id="4">
-        <label>MRAddCustomTheme.h</label>
+      <node id="7">
+        <label>MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h</label>
         <link refid="MRAddCustomTheme_8h"/>
       </node>
-      <node id="6">
-        <label>MRIOFilesMenuItems.h</label>
+      <node id="8">
+        <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
       <node id="2">
-        <label>MRBinaryOperationsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="9">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
-      <node id="7">
-        <label>MRMeshModifier.h</label>
+      <node id="10">
+        <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
       <node id="3">
-        <label>MRStatePlugin.h</label>
+        <label>MRViewer/MRStatePlugin.h</label>
         <link refid="MRStatePlugin_8h"/>
         <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -88,6 +156,8 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
@@ -96,7 +166,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRStatePluginUpdate.h</label>
+        <label>MRViewer/MRStatePluginUpdate.h</label>
         <link refid="MRStatePluginUpdate_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -104,7 +174,7 @@
         </childnode>
       </node>
       <node id="11">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -122,7 +192,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSignal_8h" kindref="compound">MRMesh/MRSignal.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -131,7 +201,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1IPluginUpdate" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1IPluginUpdate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" kindref="member">~IPluginUpdate</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -142,64 +212,64 @@
 <codeline lineno="26" refid="group__GeneralGroup_1gab6e6e3dcf2ab382434fd967480164324" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab6e6e3dcf2ab382434fd967480164324" kindref="member">shouldClose_</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="classMR_1_1PluginCloseOnSelectedObjectRemove" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginCloseOnSelectedObjectRemove" kindref="compound">PluginCloseOnSelectedObjectRemove</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
+<codeline lineno="31" refid="classMR_1_1PluginCloseOnSelectedObjectRemove" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginCloseOnSelectedObjectRemove" kindref="compound">PluginCloseOnSelectedObjectRemove</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1ga4be1eca9d7909ac4a5cbe2b48ceee2f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4be1eca9d7909ac4a5cbe2b48ceee2f2" kindref="member">onPluginEnable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1ga3692cfee7d26f636f2487f01cfa6afc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3692cfee7d26f636f2487f01cfa6afc8" kindref="member">onPluginDisable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga174d0cc22e4a0b69220109e026efaf7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga174d0cc22e4a0b69220109e026efaf7f" kindref="member">shouldClose_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gaa62f51f7319943c7184b9c948adfbe59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa62f51f7319943c7184b9c948adfbe59" kindref="member">onPluginEnable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1gaa560ad539172d4468ab4c11bda0cfa1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa560ad539172d4468ab4c11bda0cfa1f" kindref="member">onPluginDisable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga10c8ea6c503388d2719e921b1ec1c9e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga10c8ea6c503388d2719e921b1ec1c9e2" kindref="member">shouldClose_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;MR::Object&gt;&gt;<sp/>selectedObjs_;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="classMR_1_1PluginCloseOnChangeMesh" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginCloseOnChangeMesh" kindref="compound">PluginCloseOnChangeMesh</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
+<codeline lineno="43" refid="classMR_1_1PluginCloseOnChangeMesh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginCloseOnChangeMesh" kindref="compound">PluginCloseOnChangeMesh</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
 <codeline lineno="44"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="47" refid="group__GeneralGroup_1ga5790fe8a480493d40913adc3812e1127" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5790fe8a480493d40913adc3812e1127" kindref="member">reactOnFaceSelectionChanges_</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gaf7fc2e2aad9875cf8e3d1746f8b3b056" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf7fc2e2aad9875cf8e3d1746f8b3b056" kindref="member">reactOnFaceSelectionChanges_</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="group__GeneralGroup_1ga2e05f59d67c502229f3a2a2e919886fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2e05f59d67c502229f3a2a2e919886fc" kindref="member">onPluginEnable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1gaf521c98fca4b1537e06ebf161605954d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf521c98fca4b1537e06ebf161605954d" kindref="member">onPluginDisable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1ga8a6dc440df682b00feb1b9fd10eab31a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8a6dc440df682b00feb1b9fd10eab31a" kindref="member">shouldClose_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="53" refid="group__GeneralGroup_1ga7b94773fd2366584812415d8cc83b4c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>meshChanged_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga0fa059dd4caff86460127a8c6f7e9918" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0fa059dd4caff86460127a8c6f7e9918" kindref="member">onPluginEnable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga116e218acf4861f76d791208feba92ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga116e218acf4861f76d791208feba92ad" kindref="member">onPluginDisable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga387a5cfc8facfc6ad0741fa49cddcfe7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga387a5cfc8facfc6ad0741fa49cddcfe7" kindref="member">shouldClose_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53" refid="group__GeneralGroup_1ga7b94773fd2366584812415d8cc83b4c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7b94773fd2366584812415d8cc83b4c1" kindref="member">meshChanged_</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;boost::signals2::scoped_connection&gt;<sp/>meshChangedConnections_;</highlight></codeline>
 <codeline lineno="57"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="classMR_1_1PluginUpdateOnChangeMeshPart" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginUpdateOnChangeMeshPart" kindref="compound">PluginUpdateOnChangeMeshPart</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
+<codeline lineno="62" refid="classMR_1_1PluginUpdateOnChangeMeshPart" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginUpdateOnChangeMeshPart" kindref="compound">PluginUpdateOnChangeMeshPart</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
 <codeline lineno="63"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="65" refid="group__GeneralGroup_1ga8966c139b8539e3583cf02308b060484" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga8966c139b8539e3583cf02308b060484" kindref="member">UpdateFunc</ref><sp/>=<sp/>std::function&lt;void()&gt;;</highlight></codeline>
 <codeline lineno="67" refid="group__GeneralGroup_1gaf80c0adcc1ca6dfd7b24e4d98aed5dcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf80c0adcc1ca6dfd7b24e4d98aed5dcc" kindref="member">setUpdateFunc</ref>(<sp/><ref refid="group__GeneralGroup_1ga8966c139b8539e3583cf02308b060484" kindref="member">UpdateFunc</ref><sp/>func<sp/>)<sp/>{<sp/>func_<sp/>=<sp/>func;<sp/>}</highlight></codeline>
-<codeline lineno="68" refid="group__GeneralGroup_1gab8919af457390e1c709327e3828a8c6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab8919af457390e1c709327e3828a8c6b" kindref="member">preDrawUpdate</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1gaeecca4157ae98471f423c89291353435" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeecca4157ae98471f423c89291353435" kindref="member">preDrawUpdate</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="71" refid="group__GeneralGroup_1ga9767c4ad35864bc85b2f759c2aad5888" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9767c4ad35864bc85b2f759c2aad5888" kindref="member">onPluginEnable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="73" refid="group__GeneralGroup_1ga5c3907d5d352c381ea77f8c3081e136d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5c3907d5d352c381ea77f8c3081e136d" kindref="member">onPluginDisable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71" refid="group__GeneralGroup_1gaa218ef42832643cdd6508125fa222af2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa218ef42832643cdd6508125fa222af2" kindref="member">onPluginEnable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1gaae19bc2cf74c66051f722392d3aa8eb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaae19bc2cf74c66051f722392d3aa8eb9" kindref="member">onPluginDisable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dirty_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>UpdateFunc<sp/>func_;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;boost::signals2::scoped_connection&gt;<sp/>connections_;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="classMR_1_1PluginCloseOnChangePointCloud" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginCloseOnChangePointCloud" kindref="compound">PluginCloseOnChangePointCloud</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
+<codeline lineno="82" refid="classMR_1_1PluginCloseOnChangePointCloud" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginCloseOnChangePointCloud" kindref="compound">PluginCloseOnChangePointCloud</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
 <codeline lineno="83"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="85" refid="group__GeneralGroup_1ga3569c689e004637d73b414f0440e0046" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3569c689e004637d73b414f0440e0046" kindref="member">onPluginEnable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="86" refid="group__GeneralGroup_1gae215a7b0b1f5259e0bc87855f0b2e740" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae215a7b0b1f5259e0bc87855f0b2e740" kindref="member">onPluginDisable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="87" refid="group__GeneralGroup_1gacc66fd5a6484e6733be7dd12f9e13e4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacc66fd5a6484e6733be7dd12f9e13e4f" kindref="member">shouldClose_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="89" refid="group__GeneralGroup_1gad910ff2766e17a565cfa33cb6eefc831" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>pointCloudChanged_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="85" refid="group__GeneralGroup_1ga3ffafb74745ba3e093fb69b3ee5aef54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3ffafb74745ba3e093fb69b3ee5aef54" kindref="member">onPluginEnable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86" refid="group__GeneralGroup_1ga833135808c13e43e91ba944e93f158a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga833135808c13e43e91ba944e93f158a5" kindref="member">onPluginDisable_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87" refid="group__GeneralGroup_1ga2dbd9e0194fe4b254d6819b4f4104c16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2dbd9e0194fe4b254d6819b4f4104c16" kindref="member">shouldClose_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1gad910ff2766e17a565cfa33cb6eefc831" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad910ff2766e17a565cfa33cb6eefc831" kindref="member">pointCloudChanged_</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;boost::signals2::scoped_connection&gt;<sp/>pointCloudChangedConnections_;</highlight></codeline>
 <codeline lineno="93"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="classMR_1_1PluginCloseOnEscPressed" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginCloseOnEscPressed" kindref="compound">PluginCloseOnEscPressed</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
+<codeline lineno="96" refid="classMR_1_1PluginCloseOnEscPressed" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PluginCloseOnEscPressed" kindref="compound">PluginCloseOnEscPressed</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPluginUpdate" kindref="compound">IPluginUpdate</ref></highlight></codeline>
 <codeline lineno="97"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="99" refid="group__GeneralGroup_1ga1cbeb11bd052199cb41ec5ae88ea4971" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1cbeb11bd052199cb41ec5ae88ea4971" kindref="member">shouldClose_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99" refid="group__GeneralGroup_1ga162622cec5b9fcec6bb19e61fc129f3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga162622cec5b9fcec6bb19e61fc129f3e" kindref="member">shouldClose_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="100"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Updates&gt;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Updates&gt;</highlight></codeline>
 <codeline lineno="105" refid="classMR_1_1PluginUpdateOr" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PluginUpdateOr" kindref="compound">PluginUpdateOr</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Updates...</highlight></codeline>
 <codeline lineno="106"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
@@ -225,6 +295,6 @@
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
 <codeline lineno="129"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h"/>
+    <location file="MRViewer/MRStatePluginUpdate.h"/>
   </compounddef>
 </doxygen>

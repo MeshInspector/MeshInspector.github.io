@@ -1,6 +1,5 @@
 var MRSystemPath_8h =
 [
-    [ "MR_std_filesystem_path", "MRSystemPath_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
     [ "MR_std_vector_std_array_std_filesystem_path_4", "MRSystemPath_8h.html#a3a17e15e4b66a301f71cac93df990e0c", null ],
     [ "MR_SystemPath", "MRSystemPath_8h.html#af29de8d6ca67e0ba0959a08446baca82", null ],
     [ "MR_SystemPath_Directory", "MRSystemPath_8h.html#ac81681648b9802837f3eef1c8d7d8eb8", null ],

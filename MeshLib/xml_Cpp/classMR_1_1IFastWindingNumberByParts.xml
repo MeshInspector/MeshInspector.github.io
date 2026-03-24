@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IFastWindingNumberByParts" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::IFastWindingNumberByParts</compoundname>
     <derivedcompoundref refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public" virt="non-virtual">MR::Cuda::FastWindingNumber</derivedcompoundref>
-    <includes refid="MRFastWindingNumber_8h" local="no">MRFastWindingNumber.h</includes>
+    <includes refid="MRFastWindingNumber_8h" local="no">MRMesh/MRFastWindingNumber.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" kind="typedef"><name>GridByPartsFunc</name></member>
     </sectiondef>
@@ -29,7 +29,7 @@
         <link refid="classMR_1_1IFastWindingNumberByParts"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="80" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="81" bodyend="112"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="80" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="81" bodyend="112"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3cd5d444973254e7b31ab81917f07329" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
       <member refid="group__GeneralGroup_1ga91d50343ae8805a878c0dac2b8ff0802" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>

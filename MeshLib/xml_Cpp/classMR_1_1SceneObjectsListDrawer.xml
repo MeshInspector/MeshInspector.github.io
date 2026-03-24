@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneObjectsListDrawer" kind="class" language="C++" prot="public">
     <compoundname>MR::SceneObjectsListDrawer</compoundname>
     <derivedcompoundref refid="classMR_1_1RibbonSceneObjectsListDrawer" prot="public" virt="non-virtual">MR::RibbonSceneObjectsListDrawer</derivedcompoundref>
-    <includes refid="MRSceneObjectsListDrawer_8h" local="no">MRSceneObjectsListDrawer.h</includes>
+    <includes refid="MRSceneObjectsListDrawer_8h" local="no">MRViewer/MRSceneObjectsListDrawer.h</includes>
     <innerclass refid="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData" prot="private">MR::SceneObjectsListDrawer::MoveAndScrollData</innerclass>
     <innerclass refid="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation" prot="private">MR::SceneObjectsListDrawer::ScrollPositionPreservation</innerclass>
     <sectiondef kind="protected-type">
@@ -28,40 +28,40 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaffefc47d2b779b451bc3f420ddfdbdf8" kind="function"><name>~SceneObjectsListDrawer</name></member>
-      <member refid="group__GeneralGroup_1ga5d3291f07fa1302e0ac7966824be977d" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga3d227339c7308cbe6b17b82bede4dc9d" kind="function"><name>draw</name></member>
       <member refid="group__GeneralGroup_1ga87100a0f8079f7712cae2c150a6a9ed9" kind="function"><name>setShowNewSelectedObjects</name></member>
       <member refid="group__GeneralGroup_1gaaa3af2c0a1a9e4b9486f42a71e2e82d5" kind="function"><name>getShowNewSelectedObjects</name></member>
       <member refid="group__GeneralGroup_1gac4822189625ca4c18a2b7c51a696c27e" kind="function"><name>setDeselectNewHiddenObjects</name></member>
       <member refid="group__GeneralGroup_1ga928e8a018e952ef2b817ba4027203972" kind="function"><name>getDeselectNewHiddenObjects</name></member>
-      <member refid="group__GeneralGroup_1ga9626d7f29fef80a19bfa08d0389643f4" kind="function"><name>changeSelection</name></member>
-      <member refid="group__GeneralGroup_1gaf36935c34390d23a46d4c38f182071c9" kind="function"><name>changeVisible</name></member>
-      <member refid="group__GeneralGroup_1ga062dbdb186840f7e320957f6b752acfc" kind="function"><name>selectAllObjects</name></member>
-      <member refid="group__GeneralGroup_1ga5e3149bb263fd382fd8bf09589dfb149" kind="function"><name>setLeavesVisibility</name></member>
-      <member refid="group__GeneralGroup_1ga49c5d2ad202cdc4507aed66f508d481a" kind="function"><name>setObjectTreeState</name></member>
-      <member refid="group__GeneralGroup_1ga10d5b6c1dddb9bfea4d91b3c4e88dbe0" kind="function"><name>expandObjectTreeAndScroll</name></member>
-      <member refid="group__GeneralGroup_1ga10c80ec2e0551fe4c73122703e48897e" kind="function"><name>allowSceneReorder</name></member>
-      <member refid="group__GeneralGroup_1ga254275bf99d516202a8d34801d18c971" kind="function"><name>setNextFrameFixScroll</name></member>
+      <member refid="group__GeneralGroup_1ga2811dc65af1b9861a17e94ccb17ab9ff" kind="function"><name>changeSelection</name></member>
+      <member refid="group__GeneralGroup_1gaa560a972c56ad0d267fae3065613e834" kind="function"><name>changeVisible</name></member>
+      <member refid="group__GeneralGroup_1ga9438f33e1f5dde70da88b1a61d832ac3" kind="function"><name>selectAllObjects</name></member>
+      <member refid="group__GeneralGroup_1ga160aa4ff3b71b928c4698592058c522e" kind="function"><name>setLeavesVisibility</name></member>
+      <member refid="group__GeneralGroup_1ga13d961a22753a08bcf92f9601fe0f5d2" kind="function"><name>setObjectTreeState</name></member>
+      <member refid="group__GeneralGroup_1gaa0df0e36dc182f424db88b3b6b512252" kind="function"><name>expandObjectTreeAndScroll</name></member>
+      <member refid="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" kind="function"><name>allowSceneReorder</name></member>
+      <member refid="group__GeneralGroup_1ga2ef9e21dc6abd9863447c81ea60442fc" kind="function"><name>setNextFrameFixScroll</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <member refid="group__GeneralGroup_1gaed66b9726e14eb7c5c105c7d088198f4" kind="function"><name>drawCustomObjectPrefixInScene_</name></member>
-      <member refid="group__GeneralGroup_1ga2e703a641c0ffc898d9aa4e864ab912a" kind="function"><name>drawSceneContextMenu_</name></member>
-      <member refid="group__GeneralGroup_1ga098e7d25adfb62e62c71451173a29712" kind="function"><name>drawCustomTreeObjectProperties_</name></member>
-      <member refid="group__GeneralGroup_1ga9dc17f3920d20e78cb1eda269c41baa9" kind="function"><name>collapsingHeader_</name></member>
-      <member refid="group__GeneralGroup_1ga4f267cedf9004a7e433f5c5c04665172" kind="function"><name>objectLineStrId_</name></member>
-      <member refid="group__GeneralGroup_1gafdc17907e38df715b38ddbf7dbcfd9f4" kind="function"><name>drawObject_</name></member>
-      <member refid="group__GeneralGroup_1ga7d2bd6811f26a83ed152c93732753238" kind="function"><name>drawSkippedObject_</name></member>
-      <member refid="group__GeneralGroup_1gacbb4687a61ce7fd76be1f3ecb29e49df" kind="function"><name>drawObjectCollapsingHeader_</name></member>
-      <member refid="group__GeneralGroup_1ga9384ea577cd19059753bd1e4a31df82c" kind="function"><name>processItemClick_</name></member>
-      <member refid="group__GeneralGroup_1ga79c0a6de81ce6010a62df31b12a203c7" kind="function"><name>makeDragDropSource_</name></member>
-      <member refid="group__GeneralGroup_1gaa5292b03654cd84d532c634791242da7" kind="function"><name>needDragDropTarget_</name></member>
-      <member refid="group__GeneralGroup_1gab6fb0dc306afc3a0c5f97c7b17389d22" kind="function"><name>makeDragDropTarget_</name></member>
-      <member refid="group__GeneralGroup_1gae4b604976357cb2d74fa5396c448061d" kind="function"><name>drawObjectVisibilityCheckbox_</name></member>
+      <member refid="group__GeneralGroup_1ga3a39bc8bafb8bd84897729f531668a07" kind="function"><name>drawCustomObjectPrefixInScene_</name></member>
+      <member refid="group__GeneralGroup_1gaa58840367fe8403f849034a505b66a2b" kind="function"><name>drawSceneContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1gafd696bf615f9798542dd47452479139e" kind="function"><name>drawCustomTreeObjectProperties_</name></member>
+      <member refid="group__GeneralGroup_1gaf513731334115b0f7e6b6dd4eba06375" kind="function"><name>collapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1gae92bca1def2f90b666c4e0d9e4bb01d5" kind="function"><name>objectLineStrId_</name></member>
+      <member refid="group__GeneralGroup_1gac7cac88af55e173aeb0c55db22de8537" kind="function"><name>drawObject_</name></member>
+      <member refid="group__GeneralGroup_1gac83507788674f6fdc300388afebb3304" kind="function"><name>drawSkippedObject_</name></member>
+      <member refid="group__GeneralGroup_1ga809ccc1275d19dfcc5bfc3cadba293b1" kind="function"><name>drawObjectCollapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1ga74e5357e26632ac0982586feae564127" kind="function"><name>processItemClick_</name></member>
+      <member refid="group__GeneralGroup_1ga8aec8ee6ac0266249b98403d81359111" kind="function"><name>makeDragDropSource_</name></member>
+      <member refid="group__GeneralGroup_1ga6b32550029f40adcc37e0d55b6cd3a1b" kind="function"><name>needDragDropTarget_</name></member>
+      <member refid="group__GeneralGroup_1ga4dad108f861cd4c0c6a865c6ea12b6c5" kind="function"><name>makeDragDropTarget_</name></member>
+      <member refid="group__GeneralGroup_1ga79c979b84fc273be259ddba84ad09b5a" kind="function"><name>drawObjectVisibilityCheckbox_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gaa63339981a28d0554c97a965142626c2" kind="function"><name>drawObjectsList_</name></member>
       <member refid="group__GeneralGroup_1ga53956dc4e37d0ddf2727ae5fc9aed2e5" kind="function"><name>getDrawDropTargetHeight_</name></member>
       <member refid="group__GeneralGroup_1ga99cca3921f92be5097701848cabe923a" kind="function"><name>reorderSceneIfNeeded_</name></member>
-      <member refid="group__GeneralGroup_1ga46bd09f84672de7543015958733773e1" kind="function"><name>updateSceneWindowScrollIfNeeded_</name></member>
+      <member refid="group__GeneralGroup_1ga9ed66c5b5c043bdbfc1b1562cf5f1cfb" kind="function"><name>updateSceneWindowScrollIfNeeded_</name></member>
       <member refid="group__GeneralGroup_1gab91f94e8ae1fdc4ef130921e7b59b0a7" kind="function"><name>getPreSelection_</name></member>
       <member refid="group__GeneralGroup_1ga9850a78cb338110886f83ec3be592af6" kind="function"><name>updateSelection_</name></member>
     </sectiondef>
@@ -82,52 +82,52 @@
         <link refid="classMR_1_1SceneObjectsListDrawer"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="19" bodyend="157"/>
+    <location file="MRViewer/MRSceneObjectsListDrawer.h" line="18" column="1" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="19" bodyend="157"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga10c80ec2e0551fe4c73122703e48897e" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder</name></member>
+      <member refid="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder</name></member>
       <member refid="group__GeneralGroup_1gadd1a30cdd75755b51664d031778458f9" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder_</name></member>
-      <member refid="group__GeneralGroup_1ga9626d7f29fef80a19bfa08d0389643f4" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>changeSelection</name></member>
-      <member refid="group__GeneralGroup_1gaf36935c34390d23a46d4c38f182071c9" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>changeVisible</name></member>
+      <member refid="group__GeneralGroup_1ga2811dc65af1b9861a17e94ccb17ab9ff" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>changeSelection</name></member>
+      <member refid="group__GeneralGroup_1gaa560a972c56ad0d267fae3065613e834" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>changeVisible</name></member>
       <member refid="group__GeneralGroup_1ga8a60d352593fe44cc3cfcd83f0490498" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>clickTrigger_</name></member>
-      <member refid="group__GeneralGroup_1ga9dc17f3920d20e78cb1eda269c41baa9" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>collapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1gaf513731334115b0f7e6b6dd4eba06375" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>collapsingHeader_</name></member>
       <member refid="group__GeneralGroup_1gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>deselectNewHiddenObjects_</name></member>
       <member refid="group__GeneralGroup_1ga462460aacf6b87ba3500be6d2305892e" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>downLastSelected_</name></member>
       <member refid="group__GeneralGroup_1ga1ae5202f89849a3745f8753c984a2ecf" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>dragModeTrigger_</name></member>
       <member refid="group__GeneralGroup_1ga65e801481ef6fc98205d59d1fa5e79b0" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>dragObjectsMode_</name></member>
-      <member refid="group__GeneralGroup_1ga5d3291f07fa1302e0ac7966824be977d" prot="public" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>draw</name></member>
-      <member refid="group__GeneralGroup_1gaed66b9726e14eb7c5c105c7d088198f4" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawCustomObjectPrefixInScene_</name></member>
-      <member refid="group__GeneralGroup_1ga098e7d25adfb62e62c71451173a29712" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawCustomTreeObjectProperties_</name></member>
-      <member refid="group__GeneralGroup_1gafdc17907e38df715b38ddbf7dbcfd9f4" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObject_</name></member>
-      <member refid="group__GeneralGroup_1gacbb4687a61ce7fd76be1f3ecb29e49df" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObjectCollapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1ga3d227339c7308cbe6b17b82bede4dc9d" prot="public" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga3a39bc8bafb8bd84897729f531668a07" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawCustomObjectPrefixInScene_</name></member>
+      <member refid="group__GeneralGroup_1gafd696bf615f9798542dd47452479139e" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawCustomTreeObjectProperties_</name></member>
+      <member refid="group__GeneralGroup_1gac7cac88af55e173aeb0c55db22de8537" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObject_</name></member>
+      <member refid="group__GeneralGroup_1ga809ccc1275d19dfcc5bfc3cadba293b1" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObjectCollapsingHeader_</name></member>
       <member refid="group__GeneralGroup_1gaa63339981a28d0554c97a965142626c2" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObjectsList_</name></member>
-      <member refid="group__GeneralGroup_1gae4b604976357cb2d74fa5396c448061d" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObjectVisibilityCheckbox_</name></member>
-      <member refid="group__GeneralGroup_1ga2e703a641c0ffc898d9aa4e864ab912a" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawSceneContextMenu_</name></member>
-      <member refid="group__GeneralGroup_1ga7d2bd6811f26a83ed152c93732753238" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawSkippedObject_</name></member>
-      <member refid="group__GeneralGroup_1ga10d5b6c1dddb9bfea4d91b3c4e88dbe0" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>expandObjectTreeAndScroll</name></member>
+      <member refid="group__GeneralGroup_1ga79c979b84fc273be259ddba84ad09b5a" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObjectVisibilityCheckbox_</name></member>
+      <member refid="group__GeneralGroup_1gaa58840367fe8403f849034a505b66a2b" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawSceneContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1gac83507788674f6fdc300388afebb3304" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawSkippedObject_</name></member>
+      <member refid="group__GeneralGroup_1gaa0df0e36dc182f424db88b3b6b512252" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>expandObjectTreeAndScroll</name></member>
       <member refid="group__GeneralGroup_1gac24b4b269239dd2b3da9c9d21ab89b53" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>framesTillFixScroll_</name></member>
       <member refid="group__GeneralGroup_1ga928e8a018e952ef2b817ba4027203972" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>getDeselectNewHiddenObjects</name></member>
       <member refid="group__GeneralGroup_1ga53956dc4e37d0ddf2727ae5fc9aed2e5" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>getDrawDropTargetHeight_</name></member>
       <member refid="group__GeneralGroup_1gab91f94e8ae1fdc4ef130921e7b59b0a7" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>getPreSelection_</name></member>
       <member refid="group__GeneralGroup_1gaaa3af2c0a1a9e4b9486f42a71e2e82d5" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>getShowNewSelectedObjects</name></member>
       <member refid="group__GeneralGroup_1gadef3ad4d7054ccf6e99aba195fc29cf8" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>ImGuiTreeNodeFlags</name></member>
-      <member refid="group__GeneralGroup_1ga79c0a6de81ce6010a62df31b12a203c7" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>makeDragDropSource_</name></member>
-      <member refid="group__GeneralGroup_1gab6fb0dc306afc3a0c5f97c7b17389d22" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>makeDragDropTarget_</name></member>
-      <member refid="group__GeneralGroup_1gaa5292b03654cd84d532c634791242da7" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>needDragDropTarget_</name></member>
+      <member refid="group__GeneralGroup_1ga8aec8ee6ac0266249b98403d81359111" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>makeDragDropSource_</name></member>
+      <member refid="group__GeneralGroup_1ga4dad108f861cd4c0c6a865c6ea12b6c5" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>makeDragDropTarget_</name></member>
+      <member refid="group__GeneralGroup_1ga6b32550029f40adcc37e0d55b6cd3a1b" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>needDragDropTarget_</name></member>
       <member refid="group__GeneralGroup_1ga93aad96cf435af094f474899bc80c660" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>nextVisible_</name></member>
-      <member refid="group__GeneralGroup_1ga4f267cedf9004a7e433f5c5c04665172" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>objectLineStrId_</name></member>
+      <member refid="group__GeneralGroup_1gae92bca1def2f90b666c4e0d9e4bb01d5" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>objectLineStrId_</name></member>
       <member refid="group__GeneralGroup_1ga0afb65f705666663924638196be9f85a" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>prevScrollInfo_</name></member>
-      <member refid="group__GeneralGroup_1ga9384ea577cd19059753bd1e4a31df82c" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>processItemClick_</name></member>
+      <member refid="group__GeneralGroup_1ga74e5357e26632ac0982586feae564127" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>processItemClick_</name></member>
       <member refid="group__GeneralGroup_1ga99cca3921f92be5097701848cabe923a" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>reorderSceneIfNeeded_</name></member>
       <member refid="group__GeneralGroup_1ga35cdb8be56900573df3387f4538a787b" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>sceneOpenCommands_</name></member>
       <member refid="group__GeneralGroup_1ga6b506e2a4af03f568dcad5b76ccd21be" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>sceneReorderCommand_</name></member>
-      <member refid="group__GeneralGroup_1ga062dbdb186840f7e320957f6b752acfc" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>selectAllObjects</name></member>
+      <member refid="group__GeneralGroup_1ga9438f33e1f5dde70da88b1a61d832ac3" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>selectAllObjects</name></member>
       <member refid="group__GeneralGroup_1gac4822189625ca4c18a2b7c51a696c27e" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setDeselectNewHiddenObjects</name></member>
-      <member refid="group__GeneralGroup_1ga5e3149bb263fd382fd8bf09589dfb149" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setLeavesVisibility</name></member>
-      <member refid="group__GeneralGroup_1ga254275bf99d516202a8d34801d18c971" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setNextFrameFixScroll</name></member>
-      <member refid="group__GeneralGroup_1ga49c5d2ad202cdc4507aed66f508d481a" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setObjectTreeState</name></member>
+      <member refid="group__GeneralGroup_1ga160aa4ff3b71b928c4698592058c522e" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setLeavesVisibility</name></member>
+      <member refid="group__GeneralGroup_1ga2ef9e21dc6abd9863447c81ea60442fc" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setNextFrameFixScroll</name></member>
+      <member refid="group__GeneralGroup_1ga13d961a22753a08bcf92f9601fe0f5d2" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setObjectTreeState</name></member>
       <member refid="group__GeneralGroup_1ga87100a0f8079f7712cae2c150a6a9ed9" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setShowNewSelectedObjects</name></member>
       <member refid="group__GeneralGroup_1gacead207f8ba93a8da9b77fd9d23770fc" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>showNewSelectedObjects_</name></member>
-      <member refid="group__GeneralGroup_1ga46bd09f84672de7543015958733773e1" prot="private" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>updateSceneWindowScrollIfNeeded_</name></member>
+      <member refid="group__GeneralGroup_1ga9ed66c5b5c043bdbfc1b1562cf5f1cfb" prot="private" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>updateSceneWindowScrollIfNeeded_</name></member>
       <member refid="group__GeneralGroup_1ga9850a78cb338110886f83ec3be592af6" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>updateSelection_</name></member>
       <member refid="group__GeneralGroup_1ga8ed6e5199964885fbd4d42c0691c91a3" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>upFirstSelected_</name></member>
       <member refid="group__GeneralGroup_1gaffefc47d2b779b451bc3f420ddfdbdf8" prot="public" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>~SceneObjectsListDrawer</name></member>

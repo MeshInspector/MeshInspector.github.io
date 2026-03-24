@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaPointsProject_8h" kind="file" language="C++">
     <compoundname>MRCudaPointsProject.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -7,13 +7,19 @@
     <includes refid="MRPointsProject_8h" local="yes">MRMesh/MRPointsProject.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaPointsProject.h</label>
+        <label>MRCuda/MRCudaPointsProject.h</label>
         <link refid="MRCudaPointsProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -21,17 +27,43 @@
         <link refid="MRExpected_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-      </node>
-      <node id="9">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -44,59 +76,68 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="15">
+      <node id="21">
         <label>MRPointCloudPart.h</label>
         <link refid="MRPointCloudPart_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="16">
         <label>MRMesh/MRPointsProject.h</label>
         <link refid="MRPointsProject_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
       </node>
       <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="11">
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
         <label>cassert</label>
       </node>
-      <node id="16">
+      <node id="22">
         <label>cfloat</label>
       </node>
-      <node id="12">
+      <node id="18">
         <label>cstddef</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="7">
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
         <label>string</label>
       </node>
-      <node id="13">
+      <node id="19">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="20">
         <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1Cuda_1_1PointsProjector" prot="public">MR::Cuda::PointsProjector</innerclass>
@@ -117,9 +158,9 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">MR::Cuda</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" refkind="member"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref>;</highlight></codeline>
+<codeline lineno="12" refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref>;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1Cuda_1_1PointsProjector" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1Cuda_1_1PointsProjector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" kindref="member">setPointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
@@ -138,8 +179,8 @@
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="namespaceMR_1_1Cuda_1ab6752d5a8d11db60ba3b3c7cd333658d" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Cuda_1ab6752d5a8d11db60ba3b3c7cd333658d" kindref="member">findProjectionOnPointsHeapBytes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>pointsCount<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h"/>
+    <location file="MRCuda/MRCudaPointsProject.h"/>
   </compounddef>
 </doxygen>

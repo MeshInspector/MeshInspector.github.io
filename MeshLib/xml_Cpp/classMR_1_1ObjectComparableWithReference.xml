@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectComparableWithReference" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::ObjectComparableWithReference</compoundname>
     <derivedcompoundref refid="classMR_1_1DistanceMeasurementObject" prot="public" virt="non-virtual">MR::DistanceMeasurementObject</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1PointMeasurementObject" prot="public" virt="non-virtual">MR::PointMeasurementObject</derivedcompoundref>
-    <includes refid="MRObjectComparableWithReference_8h" local="no">MRObjectComparableWithReference.h</includes>
+    <includes refid="MRObjectComparableWithReference_8h" local="no">MRMesh/MRObjectComparableWithReference.h</includes>
     <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" prot="public">MR::ObjectComparableWithReference::ComparableProperty</innerclass>
     <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" prot="public">MR::ObjectComparableWithReference::ComparisonReferenceValue</innerclass>
     <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" prot="public">MR::ObjectComparableWithReference::ComparisonTolerance</innerclass>
@@ -50,7 +50,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="17" bodyend="115"/>
+    <location file="MRMesh/MRObjectComparableWithReference.h" line="16" column="1" bodyfile="MRMesh/MRObjectComparableWithReference.h" bodystart="17" bodyend="115"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac27662b0d2266f41b4dfab6844dba1e4" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
       <member refid="group__GeneralGroup_1ga329df4e0165f775043393c15f51db899" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>computeComparableProperty</name></member>

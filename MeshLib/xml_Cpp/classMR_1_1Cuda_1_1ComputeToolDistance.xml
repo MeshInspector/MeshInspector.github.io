@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cuda_1_1ComputeToolDistance" kind="class" language="C++" prot="public">
     <compoundname>MR::Cuda::ComputeToolDistance</compoundname>
     <basecompoundref refid="classMR_1_1IComputeToolDistance" prot="public" virt="non-virtual">MR::IComputeToolDistance</basecompoundref>
-    <includes refid="MRCudaSweptVolume_8h" local="no">MRCudaSweptVolume.h</includes>
+    <includes refid="MRCudaSweptVolume_8h" local="no">MRCuda/MRCudaSweptVolume.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1Cuda_1_1ComputeToolDistance_1aada0c9f7e263cf312d5e2bca08e9b8bb" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; Impl &gt;</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="32" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" bodystart="32" bodyend="-1"/>
+        <location file="MRCuda/MRCudaSweptVolume.h" line="32" column="21" bodyfile="MRCuda/MRCudaSweptVolume.h" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="19" column="16"/>
+        <location file="MRCuda/MRCudaSweptVolume.h" line="19" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1af0cb2449c5ed63b9ae8c4eb2d605647d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="20" column="16"/>
+        <location file="MRCuda/MRCudaSweptVolume.h" line="20" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1afcc3f132d5643509fe55e57845968424" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Vector3i &gt;</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="22" column="25"/>
+        <location file="MRCuda/MRCudaSweptVolume.h" line="22" column="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1a09b54489f5a1017c30273a0bede20f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Vector3i &gt;</type>
@@ -95,7 +95,7 @@
           <declname>toolpath</declname>
         </param>
         <param>
-          <type>const Polyline2 &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref> &amp;</type>
           <declname>toolProfile</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="24" column="25"/>
+        <location file="MRCuda/MRCudaSweptVolume.h" line="24" column="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1a3d1d6250e0a612ff2a778c0b7b00dead" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="27" column="25"/>
+        <location file="MRCuda/MRCudaSweptVolume.h" line="27" column="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -175,7 +175,7 @@
         <link refid="classMR_1_1IComputeToolDistance"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" bodystart="17" bodyend="33"/>
+    <location file="MRCuda/MRCudaSweptVolume.h" line="16" column="1" bodyfile="MRCuda/MRCudaSweptVolume.h" bodystart="17" bodyend="33"/>
     <listofallmembers>
       <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1af6ff220d789ac2f9c41960ab99a6517f" prot="public" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>ComputeToolDistance</name></member>
       <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a3d1d6250e0a612ff2a778c0b7b00dead" prot="public" virt="virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>computeToolDistance</name></member>

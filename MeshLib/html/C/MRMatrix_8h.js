@@ -1,9 +1,5 @@
 var MRMatrix_8h =
 [
-    [ "MR_Matrix_float", "MRMatrix_8h.html#a7cdde60e20392324b624c6508b359f95", null ],
-    [ "MR_RectIndexer", "MRMatrix_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b", null ],
-    [ "MR_std_vector_float", "MRMatrix_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
-    [ "MR_Vector2i", "MRMatrix_8h.html#ac9edad53c37cc631c9de4431e0ca2907", null ],
     [ "MR_Matrix_float_AssignFromAnother", "MRMatrix_8h.html#a184d491ab3628c761c50f49ce9205588", null ],
     [ "MR_Matrix_float_call_1", "MRMatrix_8h.html#ad441e718bf0cdd4118ef48c5996f0992", null ],
     [ "MR_Matrix_float_call_2", "MRMatrix_8h.html#a904d35309812f99cc202fe2bcd87a764", null ],
@@ -22,11 +18,13 @@ var MRMatrix_8h =
     [ "MR_Matrix_float_getColsNum", "MRMatrix_8h.html#a19e3df0937d990599501401069720a54", null ],
     [ "MR_Matrix_float_getRowsNum", "MRMatrix_8h.html#a7b474c4703e0afba1a11607fe0246abc", null ],
     [ "MR_Matrix_float_getSubMatrix", "MRMatrix_8h.html#a182a3cd573e782f165d1cecaed41ec2a", null ],
+    [ "MR_Matrix_float_MutableStaticDowncastFrom_MR_RectIndexer", "MRMatrix_8h.html#ab51e3a62216b64366defad144334e2bb", null ],
     [ "MR_Matrix_float_MutableUpcastTo_MR_RectIndexer", "MRMatrix_8h.html#a96fa619f15a039db6d1d0d0882517aef", null ],
     [ "MR_Matrix_float_OffsetMutablePtr", "MRMatrix_8h.html#a26a83a7f2392b0e67d00ea1d5a9a85dc", null ],
     [ "MR_Matrix_float_OffsetPtr", "MRMatrix_8h.html#a8c2252f20834d5a3cc645c5310add98b", null ],
     [ "MR_Matrix_float_resize", "MRMatrix_8h.html#a563662c80b153e57a9892c87ec7d160c", null ],
     [ "MR_Matrix_float_size", "MRMatrix_8h.html#a27a4269017620e37d9c1b3d2014d225b", null ],
+    [ "MR_Matrix_float_StaticDowncastFrom_MR_RectIndexer", "MRMatrix_8h.html#a5bc10e75b3922c84ce39e3a1b3fc6d91", null ],
     [ "MR_Matrix_float_toIndex", "MRMatrix_8h.html#a5ba007eb272d7693b3d0a0c2f9ba79b4", null ],
     [ "MR_Matrix_float_toPixelId", "MRMatrix_8h.html#a4c935b1e86fb57f894b5d82576012033", null ],
     [ "MR_Matrix_float_transposed", "MRMatrix_8h.html#a4c2ba8ef0e3a678815b68d0579500caa", null ],

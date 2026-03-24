@@ -2,8 +2,8 @@ var classMR_1_1DistanceMeasurementObject =
 [
     [ "DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html#a75f25217afc63ecee063f1c2c089048c", null ],
     [ "DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html#a62fa9f57a0517f70aa6d08a316914e17", null ],
-    [ "addChild", "classMR_1_1DistanceMeasurementObject.html#a397888f0576516b03936d5ead9811732", null ],
-    [ "addChildBefore", "classMR_1_1DistanceMeasurementObject.html#acf2c1ef42209424f6633a908b34886e4", null ],
+    [ "addChild", "classMR_1_1DistanceMeasurementObject.html#a3a07a63af25b292bb3cbb3a49d2d7d55", null ],
+    [ "addChildBefore", "classMR_1_1DistanceMeasurementObject.html#a15a98abbbfc1f3b9c19136f7a92a3fad", null ],
     [ "addTag", "classMR_1_1DistanceMeasurementObject.html#a11ca9ecae99c66f894f3b6d396f4174a", null ],
     [ "applyScale", "classMR_1_1DistanceMeasurementObject.html#ae20aab0d36828545f0306b2e131c0b31", null ],
     [ "assign", "classMR_1_1DistanceMeasurementObject.html#a7ab32c868a5111df007c954de9db6c11", null ],

@@ -1,6 +1,5 @@
 var MRFeatureHelpers_8h =
 [
-    [ "MR_FeatureObject", "MRFeatureHelpers_8h.html#aff93746de8efe15fd5fa764838b71e9b", null ],
     [ "MR_FeaturesObjectKind", "MRFeatureHelpers_8h.html#a1e0d5e4897988cd7170e5e9cf9cf2926", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Circle", "MRFeatureHelpers_8h.html#aaf74f8eef6a303d13d3aff8d9f27b8fc", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Cone", "MRFeatureHelpers_8h.html#afea6d10419fc916c21bc300359482759", null ],
@@ -9,9 +8,6 @@ var MRFeatureHelpers_8h =
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Plane", "MRFeatureHelpers_8h.html#adbf5f420d56f78b8b59d39bf3de9cdaf", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Point", "MRFeatureHelpers_8h.html#a09787c2631c274290f1a5332058588bf", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere", "MRFeatureHelpers_8h.html#aaf9d1dab160c3e38eed55424ebec2578", null ],
-    [ "MR_std_optional_MR_Vector3f", "MRFeatureHelpers_8h.html#a5c7e91d11b038315c0503df15b512997", null ],
-    [ "MR_std_shared_ptr_MR_VisualObject", "MRFeatureHelpers_8h.html#aa4b9828f4113d20d85483568f977c8ff", null ],
-    [ "MR_std_string_view", "MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37", null ],
     [ "MR_std_unordered_set_std_string", "MRFeatureHelpers_8h.html#aaa57d1ba166411d1c6f286286739d905", null ],
     [ "MR_FeaturesObjectKind", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fe", [
       [ "MR_FeaturesObjectKind_Point", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fea0db356fbdb019e20a09be9170816bf35", null ],

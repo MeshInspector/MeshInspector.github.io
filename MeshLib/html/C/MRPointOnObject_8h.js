@@ -1,10 +1,7 @@
 var MRPointOnObject_8h =
 [
-    [ "MR_PointOnFace", "MRPointOnObject_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a", null ],
     [ "MR_PointOnObject", "MRPointOnObject_8h.html#a6e440f317d204eb51394a0dcbb51f1dc", null ],
-    [ "MR_std_optional_MR_Vector3f", "MRPointOnObject_8h.html#a5c7e91d11b038315c0503df15b512997", null ],
     [ "MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId", "MRPointOnObject_8h.html#a360760a7fe4afc9590f0b7400169a743", null ],
-    [ "MR_VisualObject", "MRPointOnObject_8h.html#a36f3696eda81d7005927ebc5fdf17e14", null ],
     [ "MR_getPickedPointNormal", "MRPointOnObject_8h.html#a49ac754391ab0a89f37ac243489e25c9", null ],
     [ "MR_getPickedPointPosition", "MRPointOnObject_8h.html#a049566992ac40cc0576ffce972513a49", null ],
     [ "MR_PointOnObject_AssignFromAnother", "MRPointOnObject_8h.html#a3f681f4921a5dee7601d42afe558db25", null ],

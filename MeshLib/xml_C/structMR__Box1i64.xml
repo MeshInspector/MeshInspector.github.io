@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR__Box1i64" kind="struct" language="C++" prot="public">
     <compoundname>MR_Box1i64</compoundname>
     <includes refid="MRBox_8h" local="no">MRBox.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR__Box1i64_1a1fd2c60b4fc22a32c89cf4a20825f136" prot="public" static="no" mutable="no">
-        <type>MR_int64_t</type>
+        <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
         <definition>MR_int64_t MR_Box1i64::min</definition>
         <argsstring></argsstring>
         <name>min</name>
@@ -16,10 +16,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="35" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="32" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__Box1i64_1a23289a009de592db25bfc2e186151262" prot="public" static="no" mutable="no">
-        <type>MR_int64_t</type>
+        <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
         <definition>MR_int64_t MR_Box1i64::max</definition>
         <argsstring></argsstring>
         <name>max</name>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="36" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="33" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -38,7 +38,7 @@
     <detaileddescription>
 <para>Box given by its min- and max- corners Generated from class <computeroutput>MR::Box1i64</computeroutput>. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="34" bodyend="37"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" bodystart="31" bodyend="34"/>
     <listofallmembers>
       <member refid="structMR__Box1i64_1a23289a009de592db25bfc2e186151262" prot="public" virt="non-virtual"><scope>MR_Box1i64</scope><name>max</name></member>
       <member refid="structMR__Box1i64_1a1fd2c60b4fc22a32c89cf4a20825f136" prot="public" virt="non-virtual"><scope>MR_Box1i64</scope><name>min</name></member>

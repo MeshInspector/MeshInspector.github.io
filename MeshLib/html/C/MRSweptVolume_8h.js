@@ -1,18 +1,7 @@
 var MRSweptVolume_8h =
 [
     [ "MR_ComputeSweptVolumeParameters", "MRSweptVolume_8h.html#ae366d65098a22096322a7b20b18485a3", null ],
-    [ "MR_EndMillTool", "MRSweptVolume_8h.html#afb9772e287e6b9050531d23886e426c0", null ],
-    [ "MR_expected_MR_Mesh_std_string", "MRSweptVolume_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_expected_MR_Vector3i_std_string", "MRSweptVolume_8h.html#afd3cfb5cb6fb29f4132e291d2f5ec78a", null ],
-    [ "MR_expected_void_std_string", "MRSweptVolume_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
     [ "MR_IComputeToolDistance", "MRSweptVolume_8h.html#aff42432999e160e7f7f45b5f2160caf7", null ],
-    [ "MR_MeshPart", "MRSweptVolume_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_Polyline2", "MRSweptVolume_8h.html#ac19d267fe4a2399b21a578c74213dfd2", null ],
-    [ "MR_Polyline3", "MRSweptVolume_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
-    [ "MR_std_function_bool_from_float", "MRSweptVolume_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_vector_float", "MRSweptVolume_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
-    [ "MR_Vector3f", "MRSweptVolume_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
-    [ "MR_Vector3i", "MRSweptVolume_8h.html#ad55ca9af0874ffb89877bad65ae2859d", null ],
     [ "MR_computeGridBox", "MRSweptVolume_8h.html#acdee4ff61b6249ad7ae236fc9d671330", null ],
     [ "MR_ComputeSweptVolumeParameters_ConstructFrom", "MRSweptVolume_8h.html#aebcf76f489edd3b91dd86660da2e23df", null ],
     [ "MR_ComputeSweptVolumeParameters_ConstructFromAnother", "MRSweptVolume_8h.html#a0fedff5b1524275c33a8e16ba97c4689", null ],

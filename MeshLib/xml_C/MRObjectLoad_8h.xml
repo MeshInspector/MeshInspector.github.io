@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectLoad_8h" kind="file" language="C++">
     <compoundname>MRObjectLoad.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
       <node id="1">
@@ -13,17 +13,31 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
       </node>
       <node id="4">
-        <label>stdbool.h</label>
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -35,36 +49,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="12" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectLoad_8h_1ac492f1c84cf92602c38877cfaa415714" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_LoadedObjectT_std_string MR_expected_MR_LoadedObjectT_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_LoadedObjectT_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="13" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectLoad_8h_1afddfdf9f07abac630b268df02dbaed95" prot="public" static="no">
-        <type>struct <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_LoadedObjects_std_string MR_expected_MR_LoadedObjects_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_LoadedObjects_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="14" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="14" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" prot="public" static="no">
         <type>struct <ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref></type>
@@ -74,10 +63,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>MR::ObjectDistanceMap</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="15" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="17" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" prot="public" static="no">
         <type>struct <ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref></type>
@@ -87,10 +77,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>MR::ObjectGcode</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="16" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="18" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" prot="public" static="no">
         <type>struct <ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref></type>
@@ -100,10 +91,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>MR::ObjectLines</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="17" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="19" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" prot="public" static="no">
         <type>struct <ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref></type>
@@ -113,23 +105,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>MR::ObjectPoints</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="18" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectLoad_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="19" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="20" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" prot="public" static="no">
         <type>struct <ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref></type>
@@ -139,28 +119,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>void(const std::filesystem::path &amp;)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="20" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectLoad_8h_1ac9eb9a9e1e6066f522661733a7c739df" prot="public" static="no">
-        <type>struct <ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref></type>
-        <definition>typedef struct MR_std_vector_MR_IOFilter MR_std_vector_MR_IOFilter</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_IOFilter</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="21" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="22" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" bodystart="22" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRObjectLoad_8h_1a3184bfaddc3fbecffa29ee031f5116a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string * MR_makeObjectMeshFromFile</definition>
         <argsstring>(const char *file, const char *file_end, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_makeObjectMeshFromFile</name>
@@ -179,14 +147,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads mesh from given file in new object Generated from function <computeroutput>MR::makeObjectMeshFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads mesh from given file in new object Generated from function <computeroutput>MR::makeObjectMeshFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__LoadedObjectT__MR__ObjectMesh__std__string_8h_1a2b129ca81222fd416c13b8537f6daf2f" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="30" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="30" declcolumn="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="32" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="32" declcolumn="63"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1ac50e11935b065eca4620640636426acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_LoadedObjectT_std_string * MR_makeObjectFromMeshFile</definition>
         <argsstring>(const char *file, const char *file_end, const MR_std_function_bool_from_float *cb, const bool *returnOnlyMesh)</argsstring>
         <name>MR_makeObjectFromMeshFile</name>
@@ -209,14 +177,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads data from given file and makes either ObjectMesh, ObjectLines or ObjectPoints (if the file has points or edges but not faces) Generated from function <computeroutput>MR::makeObjectFromMeshFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>returnOnlyMesh</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_LoadedObjectT_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads data from given file and makes either ObjectMesh, ObjectLines or ObjectPoints (if the file has points or edges but not faces) Generated from function <computeroutput>MR::makeObjectFromMeshFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>returnOnlyMesh</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__LoadedObjectT__std__string_8h_1a430535da406bb3080722e7f69306b553" kindref="member">MR_expected_MR_LoadedObjectT_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="39" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="39" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="41" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="41" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1a8c9bdf548fff27778f05c22a4eb65f0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_ObjectLines_std_string * MR_makeObjectLinesFromFile</definition>
         <argsstring>(const char *file, const char *file_end, MR_PassBy callback_pass_by, MR_std_function_bool_from_float *callback)</argsstring>
         <name>MR_makeObjectLinesFromFile</name>
@@ -229,7 +197,7 @@
           <declname>file_end</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>callback_pass_by</declname>
         </param>
         <param>
@@ -239,14 +207,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads lines from given file in new object Generated from function <computeroutput>MR::makeObjectLinesFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_ObjectLines_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads lines from given file in new object Generated from function <computeroutput>MR::makeObjectLinesFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__ObjectLines__std__string_8h_1a0ec9a97d94b45616fe2dfe5cfd965db4" kindref="member">MR_expected_MR_ObjectLines_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="46" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="46" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="48" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="48" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1a78a24f872fbf3e5774bd17ab5ea1cd50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_ObjectPoints_std_string * MR_makeObjectPointsFromFile</definition>
         <argsstring>(const char *file, const char *file_end, MR_PassBy callback_pass_by, MR_std_function_bool_from_float *callback)</argsstring>
         <name>MR_makeObjectPointsFromFile</name>
@@ -259,7 +227,7 @@
           <declname>file_end</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>callback_pass_by</declname>
         </param>
         <param>
@@ -269,14 +237,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads points from given file in new object Generated from function <computeroutput>MR::makeObjectPointsFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_ObjectPoints_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads points from given file in new object Generated from function <computeroutput>MR::makeObjectPointsFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__ObjectPoints__std__string_8h_1a6bb0b9090ff8d288a492a64719602880" kindref="member">MR_expected_MR_ObjectPoints_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="53" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="53" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="55" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="55" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1a3b9389c5178f5a82332e63a1fc754cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_ObjectDistanceMap_std_string * MR_makeObjectDistanceMapFromFile</definition>
         <argsstring>(const char *file, const char *file_end, MR_PassBy callback_pass_by, MR_std_function_bool_from_float *callback)</argsstring>
         <name>MR_makeObjectDistanceMapFromFile</name>
@@ -289,7 +257,7 @@
           <declname>file_end</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>callback_pass_by</declname>
         </param>
         <param>
@@ -299,14 +267,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads distance map from given file in new object Generated from function <computeroutput>MR::makeObjectDistanceMapFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_ObjectDistanceMap_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads distance map from given file in new object Generated from function <computeroutput>MR::makeObjectDistanceMapFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__ObjectDistanceMap__std__string_8h_1a13021e70d9ea0c84bb81dc2494632c76" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="60" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="60" declcolumn="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="62" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="62" declcolumn="53"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1af9bf8f86b995bbeeb44e9afb0077b5f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_ObjectGcode_std_string * MR_makeObjectGcodeFromFile</definition>
         <argsstring>(const char *file, const char *file_end, MR_PassBy callback_pass_by, MR_std_function_bool_from_float *callback)</argsstring>
         <name>MR_makeObjectGcodeFromFile</name>
@@ -319,7 +287,7 @@
           <declname>file_end</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>callback_pass_by</declname>
         </param>
         <param>
@@ -329,14 +297,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads gcode from given file in new object Generated from function <computeroutput>MR::makeObjectGcodeFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_ObjectGcode_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads gcode from given file in new object Generated from function <computeroutput>MR::makeObjectGcodeFromFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__ObjectGcode__std__string_8h_1a69b3d0d17e2425ffd4233ec688f84313" kindref="member">MR_expected_MR_ObjectGcode_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="67" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="67" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="69" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="69" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1a71fd171039022c3691f4015026e0b62a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_LoadedObjects_std_string * MR_loadObjectFromFile</definition>
         <argsstring>(const char *filename, const char *filename_end, const MR_std_function_bool_from_float *callback)</argsstring>
         <name>MR_loadObjectFromFile</name>
@@ -361,7 +329,7 @@
 <parametername>callback</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- callback function to set progress (for progress bar) Generated from function <computeroutput>MR::loadObjectFromFile</computeroutput>. Parameter <computeroutput>filename</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> is a single object. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_LoadedObjects_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>- callback function to set progress (for progress bar) Generated from function <computeroutput>MR::loadObjectFromFile</computeroutput>. Parameter <computeroutput>filename</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> is a single object. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__LoadedObjects__std__string_8h_1a473289ce8f7d72bea2182cb2dba9257b" kindref="member">MR_expected_MR_LoadedObjects_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -369,10 +337,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="78" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="78" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="80" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="80" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1adb3ad6eb0ccf720f4bb679f8d88d1f92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_isSupportedFileInSubfolders</definition>
         <argsstring>(const char *folder, const char *folder_end)</argsstring>
         <name>MR_isSupportedFileInSubfolders</name>
@@ -387,14 +355,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::isSupportedFileInSubfolders</computeroutput>. Parameter <computeroutput>folder</computeroutput> is a UTF-8 encoded filesystem path. </para>
+<para>checks if there are any supported files folder and subfolders Generated from function <computeroutput>MR::isSupportedFileInSubfolders</computeroutput>. Parameter <computeroutput>folder</computeroutput> is a UTF-8 encoded filesystem path. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="83" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="85" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1a3844f472deb17103df5c1e9f50cf9eb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_LoadedObjectT_std_string * MR_loadSceneFromAnySupportedFormat</definition>
         <argsstring>(const char *path, const char *path_end, const MR_std_function_bool_from_float *callback)</argsstring>
         <name>MR_loadSceneFromAnySupportedFormat</name>
@@ -413,14 +381,44 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::loadSceneFromAnySupportedFormat</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> is a single object. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_LoadedObjectT_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>tries to load scene from every format listed in SceneFormatFilters Generated from function <computeroutput>MR::loadSceneFromAnySupportedFormat</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>callback</computeroutput> is a single object. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__LoadedObjectT__std__string_8h_1a430535da406bb3080722e7f69306b553" kindref="member">MR_expected_MR_LoadedObjectT_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="91" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="91" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="93" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="93" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectLoad_8h_1ac951d29a9db8b774e96cbfae037d05c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRLoadedObjects_8h_1aadfcb0c6fd8b6edf1a0766a40ca4399a" kindref="member">MR_LoadedObjectT</ref> *</type>
+        <definition>MRC_API MR_LoadedObjectT * MR_makeObjectMesh</definition>
+        <argsstring>(const char *objName, const char *objName_end, MR_PassBy data_pass_by, MR_LoadedMeshData *data)</argsstring>
+        <name>MR_makeObjectMesh</name>
+        <param>
+          <type>const char *</type>
+          <declname>objName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>objName_end</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>data_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRLoadedMeshData_8h_1a7266f0da86a80aa7ce2088b7c7ed983a" kindref="member">MR_LoadedMeshData</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructs new ObjectMesh from the given data Generated from function <computeroutput>MR::makeObjectMesh</computeroutput>. Parameter <computeroutput>objName</computeroutput> can not be null. If <computeroutput>objName_end</computeroutput> is null, then <computeroutput>objName</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1aa33a6f93428c78b7748bdf57aec0ce13" kindref="member">MR_LoadedObjectT_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="100" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="100" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1a5f9425181ae03341a073e9551764974e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_LoadedObjectT_std_string * MR_deserializeObjectTree</definition>
         <argsstring>(const char *path, const char *path_end, const MR_std_function_void_from_const_std_filesystem_path_ref *postDecompress, const MR_std_function_bool_from_float *progressCb)</argsstring>
         <name>MR_deserializeObjectTree</name>
@@ -445,14 +443,14 @@
         </briefdescription>
         <detaileddescription>
 <para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</para>
-<para>if postDecompress is set, it is called after decompression loading is controlled with Object::deserializeModel_ and Object::deserializeFields_ Generated from function <computeroutput>MR::deserializeObjectTree</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>postDecompress</computeroutput> is a single object. Parameter <computeroutput>postDecompress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>progressCb</computeroutput> is a single object. Parameter <computeroutput>progressCb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_LoadedObjectT_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>if postDecompress is set, it is called after decompression loading is controlled with Object::deserializeModel_ and Object::deserializeFields_ Generated from function <computeroutput>MR::deserializeObjectTree</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>postDecompress</computeroutput> is a single object. Parameter <computeroutput>postDecompress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>progressCb</computeroutput> is a single object. Parameter <computeroutput>progressCb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__LoadedObjectT__std__string_8h_1a430535da406bb3080722e7f69306b553" kindref="member">MR_expected_MR_LoadedObjectT_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="109" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="109" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="118" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="118" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1a715e5e6eeaab746ae612a76137875888" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_LoadedObjectT_std_string * MR_deserializeObjectTreeFromFolder</definition>
         <argsstring>(const char *folder, const char *folder_end, const MR_std_function_bool_from_float *progressCb)</argsstring>
         <name>MR_deserializeObjectTreeFromFolder</name>
@@ -473,14 +471,14 @@
         </briefdescription>
         <detaileddescription>
 <para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</para>
-<para>loading is controlled with Object::deserializeModel_ and Object::deserializeFields_ Generated from function <computeroutput>MR::deserializeObjectTreeFromFolder</computeroutput>. Parameter <computeroutput>folder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>progressCb</computeroutput> is a single object. Parameter <computeroutput>progressCb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_LoadedObjectT_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loading is controlled with Object::deserializeModel_ and Object::deserializeFields_ Generated from function <computeroutput>MR::deserializeObjectTreeFromFolder</computeroutput>. Parameter <computeroutput>folder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>progressCb</computeroutput> is a single object. Parameter <computeroutput>progressCb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__LoadedObjectT__std__string_8h_1a430535da406bb3080722e7f69306b553" kindref="member">MR_expected_MR_LoadedObjectT_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="124" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="124" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="133" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="133" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLoad_8h_1a836ffb5fbcec279995802f96bfc68c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_IOFilter * MR_getAllFilters</definition>
         <argsstring>(void)</argsstring>
         <name>MR_getAllFilters</name>
@@ -490,11 +488,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns filters for all supported file formats for all types of objects Generated from function <computeroutput>MR::getAllFilters</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_IOFilter_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>returns filters for all supported file formats for all types of objects Generated from function <computeroutput>MR::getAllFilters</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__IOFilter_8h_1aeb4419f83395600f43dde9ce14cd5634" kindref="member">MR_std_vector_MR_IOFilter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" line="129" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h" declline="129" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" line="138" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h" declline="138" declcolumn="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -504,8 +502,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -513,48 +511,50 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjectT_MR_ObjectMesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRObjectLoad_8h_1ac492f1c84cf92602c38877cfaa415714" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjectT_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRObjectLoad_8h_1afddfdf9f07abac630b268df02dbaed95" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjects_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_ObjectDistanceMap_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_ObjectGcode_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_ObjectLines_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_ObjectPoints_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRObjectLoad_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_std_filesystem_path_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRObjectLoad_8h_1ac9eb9a9e1e6066f522661733a7c739df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_IOFilter.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRObjectLoad_8h_1a3184bfaddc3fbecffa29ee031f5116a4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a3184bfaddc3fbecffa29ee031f5116a4" kindref="member">MR_makeObjectMeshFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRObjectLoad_8h_1ac50e11935b065eca4620640636426acb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1ac50e11935b065eca4620640636426acb" kindref="member">MR_makeObjectFromMeshFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*returnOnlyMesh);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRObjectLoad_8h_1a8c9bdf548fff27778f05c22a4eb65f0c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a8c9bdf548fff27778f05c22a4eb65f0c" kindref="member">MR_makeObjectLinesFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRObjectLoad_8h_1a78a24f872fbf3e5774bd17ab5ea1cd50" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a78a24f872fbf3e5774bd17ab5ea1cd50" kindref="member">MR_makeObjectPointsFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRObjectLoad_8h_1a3b9389c5178f5a82332e63a1fc754cb3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a3b9389c5178f5a82332e63a1fc754cb3" kindref="member">MR_makeObjectDistanceMapFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRObjectLoad_8h_1af9bf8f86b995bbeeb44e9afb0077b5f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1af9bf8f86b995bbeeb44e9afb0077b5f3" kindref="member">MR_makeObjectGcodeFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRObjectLoad_8h_1a71fd171039022c3691f4015026e0b62a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a71fd171039022c3691f4015026e0b62a" kindref="member">MR_loadObjectFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>there<sp/>are<sp/>any<sp/>supported<sp/>files<sp/>folder<sp/>and<sp/>subfolders</highlight></codeline>
-<codeline lineno="83" refid="MRObjectLoad_8h_1adb3ad6eb0ccf720f4bb679f8d88d1f92" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObjectLoad_8h_1adb3ad6eb0ccf720f4bb679f8d88d1f92" kindref="member">MR_isSupportedFileInSubfolders</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder_end);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//tries<sp/>to<sp/>load<sp/>scene<sp/>from<sp/>every<sp/>format<sp/>listed<sp/>in<sp/>SceneFormatFilters</highlight></codeline>
-<codeline lineno="91" refid="MRObjectLoad_8h_1a3844f472deb17103df5c1e9f50cf9eb6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a3844f472deb17103df5c1e9f50cf9eb6" kindref="member">MR_loadSceneFromAnySupportedFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRObjectLoad_8h_1a5f9425181ae03341a073e9551764974e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a5f9425181ae03341a073e9551764974e" kindref="member">MR_deserializeObjectTree</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/>*postDecompress,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRObjectLoad_8h_1a715e5e6eeaab746ae612a76137875888" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a715e5e6eeaab746ae612a76137875888" kindref="member">MR_deserializeObjectTreeFromFolder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRObjectLoad_8h_1a836ffb5fbcec279995802f96bfc68c97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/>*<ref refid="MRObjectLoad_8h_1a836ffb5fbcec279995802f96bfc68c97" kindref="member">MR_getAllFilters</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="132"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLoadedMeshData_8h_1a7266f0da86a80aa7ce2088b7c7ed983a" kindref="member">MR_LoadedMeshData</ref><sp/><ref refid="MRLoadedMeshData_8h_1a7266f0da86a80aa7ce2088b7c7ed983a" kindref="member">MR_LoadedMeshData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLoadedMeshData.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLoadedObjects_8h_1aadfcb0c6fd8b6edf1a0766a40ca4399a" kindref="member">MR_LoadedObjectT</ref><sp/><ref refid="MRLoadedObjects_8h_1aadfcb0c6fd8b6edf1a0766a40ca4399a" kindref="member">MR_LoadedObjectT</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLoadedObjects.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjectT_MR_ObjectMesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjectT_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjects_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_ObjectDistanceMap_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_ObjectGcode_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_ObjectLines_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref><sp/><ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_ObjectPoints_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_std_filesystem_path_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_IOFilter.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRObjectLoad_8h_1a3184bfaddc3fbecffa29ee031f5116a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectLoad_8h_1ae40f9724041f0a1171c0b1ea6a829d87" kindref="member">MR_expected_MR_LoadedObjectT_MR_ObjectMesh_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a3184bfaddc3fbecffa29ee031f5116a4" kindref="member">MR_makeObjectMeshFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRObjectLoad_8h_1ac50e11935b065eca4620640636426acb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1ac50e11935b065eca4620640636426acb" kindref="member">MR_makeObjectFromMeshFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*returnOnlyMesh);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRObjectLoad_8h_1a8c9bdf548fff27778f05c22a4eb65f0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectLoad_8h_1a078c09ececcbefd513f43417b21b06c2" kindref="member">MR_expected_MR_ObjectLines_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a8c9bdf548fff27778f05c22a4eb65f0c" kindref="member">MR_makeObjectLinesFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRObjectLoad_8h_1a78a24f872fbf3e5774bd17ab5ea1cd50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectLoad_8h_1abe325721d3420cbcf1a509382bd56ca9" kindref="member">MR_expected_MR_ObjectPoints_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a78a24f872fbf3e5774bd17ab5ea1cd50" kindref="member">MR_makeObjectPointsFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRObjectLoad_8h_1a3b9389c5178f5a82332e63a1fc754cb3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectLoad_8h_1a3a623c5c822dc68bac26f6ce75eb9381" kindref="member">MR_expected_MR_ObjectDistanceMap_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a3b9389c5178f5a82332e63a1fc754cb3" kindref="member">MR_makeObjectDistanceMapFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRObjectLoad_8h_1af9bf8f86b995bbeeb44e9afb0077b5f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectLoad_8h_1a106d1db643550876b913cf63822e961c" kindref="member">MR_expected_MR_ObjectGcode_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1af9bf8f86b995bbeeb44e9afb0077b5f3" kindref="member">MR_makeObjectGcodeFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRObjectLoad_8h_1a71fd171039022c3691f4015026e0b62a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a71fd171039022c3691f4015026e0b62a" kindref="member">MR_loadObjectFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRObjectLoad_8h_1adb3ad6eb0ccf720f4bb679f8d88d1f92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObjectLoad_8h_1adb3ad6eb0ccf720f4bb679f8d88d1f92" kindref="member">MR_isSupportedFileInSubfolders</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder_end);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRObjectLoad_8h_1a3844f472deb17103df5c1e9f50cf9eb6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a3844f472deb17103df5c1e9f50cf9eb6" kindref="member">MR_loadSceneFromAnySupportedFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRObjectLoad_8h_1ac951d29a9db8b774e96cbfae037d05c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRLoadedObjects_8h_1aadfcb0c6fd8b6edf1a0766a40ca4399a" kindref="member">MR_LoadedObjectT</ref><sp/>*<ref refid="MRObjectLoad_8h_1ac951d29a9db8b774e96cbfae037d05c5" kindref="member">MR_makeObjectMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*objName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*objName_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>data_pass_by,<sp/><ref refid="MRLoadedMeshData_8h_1a7266f0da86a80aa7ce2088b7c7ed983a" kindref="member">MR_LoadedMeshData</ref><sp/>*data);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRObjectLoad_8h_1a5f9425181ae03341a073e9551764974e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a5f9425181ae03341a073e9551764974e" kindref="member">MR_deserializeObjectTree</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/>*postDecompress,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRObjectLoad_8h_1a715e5e6eeaab746ae612a76137875888" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1ac492f1c84cf92602c38877cfaa415714" kindref="member">MR_expected_MR_LoadedObjectT_std_string</ref><sp/>*<ref refid="MRObjectLoad_8h_1a715e5e6eeaab746ae612a76137875888" kindref="member">MR_deserializeObjectTreeFromFolder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRObjectLoad_8h_1a836ffb5fbcec279995802f96bfc68c97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/>*<ref refid="MRObjectLoad_8h_1a836ffb5fbcec279995802f96bfc68c97" kindref="member">MR_getAllFilters</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectLoad.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectLoad.h"/>
   </compounddef>
 </doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTunnelDetector_8h" kind="file" language="C++">
     <compoundname>MRTunnelDetector.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,155 +14,36 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
-        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="15" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1a6aeecd4fac2aea90513510421de3f37b" prot="public" static="no">
-        <type>struct <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_FaceBitSet_std_string MR_expected_MR_FaceBitSet_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_FaceBitSet_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="16" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1a113b2c998614f463539fb118dd416dd0" prot="public" static="no">
-        <type>struct <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref></type>
-        <definition>typedef struct MR_expected_std_vector_MR_EdgeId_std_string MR_expected_std_vector_MR_EdgeId_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_std_vector_MR_EdgeId_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="17" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1afbb58c6b3a4c5746c9ae773c02b24591" prot="public" static="no">
-        <type>struct <ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref></type>
-        <definition>typedef struct MR_expected_std_vector_std_vector_MR_EdgeId_std_string MR_expected_std_vector_std_vector_MR_EdgeId_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_std_vector_std_vector_MR_EdgeId_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="18" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="19" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" prot="public" static="no">
-        <type>struct <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_function_float_from_MR_EdgeId MR_std_function_float_from_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_float_from_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="20" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1aa2cb99914308eb7429fd11738cf79483" prot="public" static="no">
-        <type>struct <ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_EdgeId MR_std_vector_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="21" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1ab5de264b6065dbf84f6b3fa0f6530592" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_EdgeId MR_std_vector_std_vector_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="22" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" prot="public" static="no">
         <type>struct <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref></type>
         <definition>typedef struct MR_DetectTunnelSettings MR_DetectTunnelSettings</definition>
@@ -171,16 +52,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::DetectTunnelSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::DetectTunnelSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="27" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="27" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="30" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRTunnelDetector_8h_1a3b79bba0199bbbcb1eb8ac8340e40d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_std_vector_MR_EdgeId_std_string * MR_detectBasisTunnels</definition>
         <argsstring>(const MR_MeshPart *mp, MR_PassBy metric_pass_by, MR_std_function_float_from_MR_EdgeId *metric, MR_PassBy progressCallback_pass_by, MR_std_function_bool_from_float *progressCallback)</argsstring>
         <name>MR_detectBasisTunnels</name>
@@ -189,7 +70,7 @@
           <declname>mp</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>metric_pass_by</declname>
         </param>
         <param>
@@ -197,7 +78,7 @@
           <declname>metric</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>progressCallback_pass_by</declname>
         </param>
         <param>
@@ -207,14 +88,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>detects all not-contractible-in-point and not-equivalent tunnel loops on the mesh; trying to include in the loops the edges with the smallest metric; if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Generated from function <computeroutput>MR::detectBasisTunnels</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metric</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>progressCallback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_std_vector_MR_EdgeId_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>detects all not-contractible-in-point and not-equivalent tunnel loops on the mesh; trying to include in the loops the edges with the smallest metric; if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Generated from function <computeroutput>MR::detectBasisTunnels</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metric</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>progressCallback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__std__vector__MR__EdgeId__std__string_8h_1a3f5f8deba5a718542c6408a289a1c707" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="37" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="37" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="40" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="40" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a1164232423f7ea43c12239f68751120d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_EdgeId_std_string * MR_findSmallestMetricCoLoop</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_std_vector_MR_EdgeId *loop, const MR_std_function_float_from_MR_EdgeId *metric, const MR_FaceBitSet *region)</argsstring>
         <name>MR_findSmallestMetricCoLoop</name>
@@ -237,14 +118,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>given not-separating loop on input, finds the loop (also not-separation) that 1) goes from left side of input loop 2) returns to the input loop from its right side 3) goes along the input loop to become closed such that the resulting loop has minimal sum of given metric for its edges; edges 1) and 2) can be only inner or boundary to the given region (they must have region from left or from right) Generated from function <computeroutput>MR::findSmallestMetricCoLoop</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>loop</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>given not-separating loop on input, finds the loop (also not-separation) that 1) goes from left side of input loop 2) returns to the input loop from its right side 3) goes along the input loop to become closed such that the resulting loop has minimal sum of given metric for its edges; edges 1) and 2) can be only inner or boundary to the given region (they must have region from left or from right) Generated from function <computeroutput>MR::findSmallestMetricCoLoop</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>loop</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__EdgeId__std__string_8h_1acc2c8c58bde7da4696e5ce41d7be5946" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="51" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="51" declcolumn="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="54" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="54" declcolumn="53"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1aa1eb7e94c86e5dd20f717918805ad185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_EdgeId_std_string * MR_findShortestCoLoop</definition>
         <argsstring>(const MR_MeshPart *mp, const MR_std_vector_MR_EdgeId *loop)</argsstring>
         <name>MR_findShortestCoLoop</name>
@@ -259,14 +140,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>same as findMinimalCoLoop with euclidean edge length metric Generated from function <computeroutput>MR::findShortestCoLoop</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>loop</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>same as findMinimalCoLoop with euclidean edge length metric Generated from function <computeroutput>MR::findShortestCoLoop</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>loop</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__EdgeId__std__string_8h_1acc2c8c58bde7da4696e5ce41d7be5946" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="58" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="58" declcolumn="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="61" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="61" declcolumn="53"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a69c51f1b2e49fad5c89d56d966597de5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_EdgeId * MR_findSmallestMetricEquivalentLoops</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_std_vector_MR_EdgeId *loop, const MR_std_function_float_from_MR_EdgeId *metric, const MR_FaceBitSet *region)</argsstring>
         <name>MR_findSmallestMetricEquivalentLoops</name>
@@ -289,14 +170,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>given not-separating loop on input, finds one or several loops such that 1) resulting loops together with input loop separate a part of mesh, 2) returned loops are oriented the same as input loop (and have the separated mesh part from the other side compared to input loop); 3) the sum of the given metric for their edges is minimal; 4) resulting edges can be only inner to the given region. Generated from function <computeroutput>MR::findSmallestMetricEquivalentLoops</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>loop</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_EdgeId_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>given not-separating loop on input, finds one or several loops such that 1) resulting loops together with input loop separate a part of mesh, 2) returned loops are oriented the same as input loop (and have the separated mesh part from the other side compared to input loop); 3) the sum of the given metric for their edges is minimal; 4) resulting edges can be only inner to the given region. Generated from function <computeroutput>MR::findSmallestMetricEquivalentLoops</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>loop</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgeId_8h_1aeef24721eeb11c2c74a8c0804ad4f104" kindref="member">MR_std_vector_std_vector_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="71" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="71" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="74" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="74" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a882085d7d896daf49a4f01589227bd1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_EdgeId * MR_findShortestEquivalentLoops</definition>
         <argsstring>(const MR_MeshPart *mp, const MR_std_vector_MR_EdgeId *loop)</argsstring>
         <name>MR_findShortestEquivalentLoops</name>
@@ -311,14 +192,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>same as findSmallestMetricEquivalentLoops with euclidean edge length metric Generated from function <computeroutput>MR::findShortestEquivalentLoops</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>loop</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_EdgeId_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>same as findSmallestMetricEquivalentLoops with euclidean edge length metric Generated from function <computeroutput>MR::findShortestEquivalentLoops</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>loop</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgeId_8h_1aeef24721eeb11c2c74a8c0804ad4f104" kindref="member">MR_std_vector_std_vector_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="78" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="78" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="81" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="81" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1ad53cd1269ed4da5bce80239c35b8e1e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_DetectTunnelSettings_Get_maxTunnelLength</definition>
         <argsstring>(const MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_Get_maxTunnelLength</name>
@@ -333,10 +214,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="85" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="85" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="88" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="88" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a723bd6eb2335bc7580bdebec8eef4348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DetectTunnelSettings_Set_maxTunnelLength</definition>
         <argsstring>(MR_DetectTunnelSettings *_this, float value)</argsstring>
         <name>MR_DetectTunnelSettings_Set_maxTunnelLength</name>
@@ -351,14 +232,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal euclidean length of tunnel loops to detect Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxTunnelLength</computeroutput>. </para>
+<para>maximal euclidean length of tunnel loops to detect Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxTunnelLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="91" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="94" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1aa5f0b07706a15d0e84a13001d9c82cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_DetectTunnelSettings_GetMutable_maxTunnelLength</definition>
         <argsstring>(MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_GetMutable_maxTunnelLength</name>
@@ -373,10 +254,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="98" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="98" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="101" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="101" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1afffe41a239a31d5a79940ddfaef7fedd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
         <definition>MRC_API const int * MR_DetectTunnelSettings_Get_maxIters</definition>
         <argsstring>(const MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_Get_maxIters</name>
@@ -391,10 +272,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="106" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="106" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="109" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="109" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1ad4e85a0ae6534fa9e59b5daf21c7ecea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DetectTunnelSettings_Set_maxIters</definition>
         <argsstring>(MR_DetectTunnelSettings *_this, int value)</argsstring>
         <name>MR_DetectTunnelSettings_Set_maxIters</name>
@@ -409,14 +290,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxIters</computeroutput>. </para>
+<para>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="113" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="116" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a1b4d82534ba1351d5345de2593a86fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
         <definition>MRC_API int * MR_DetectTunnelSettings_GetMutable_maxIters</definition>
         <argsstring>(MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_GetMutable_maxIters</name>
@@ -431,10 +312,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="121" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="121" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="124" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="124" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1aa4ca0acbed6521e4cdd14b607cbc64ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
         <definition>MRC_API const MR_std_function_float_from_MR_EdgeId * MR_DetectTunnelSettings_Get_metric</definition>
         <argsstring>(const MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_Get_metric</name>
@@ -449,10 +330,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="131" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="131" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="134" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="134" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1afd3fc575adea56c6e315220126442739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DetectTunnelSettings_Set_metric</definition>
         <argsstring>(MR_DetectTunnelSettings *_this, MR_PassBy value_pass_by, MR_std_function_float_from_MR_EdgeId *value)</argsstring>
         <name>MR_DetectTunnelSettings_Set_metric</name>
@@ -461,7 +342,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -471,14 +352,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>metric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>metric</computeroutput>. </para>
+<para>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>metric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>metric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="141" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="144" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a7c41a031ed46e5faadd827bc89e1d664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
         <definition>MRC_API MR_std_function_float_from_MR_EdgeId * MR_DetectTunnelSettings_GetMutable_metric</definition>
         <argsstring>(MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_GetMutable_metric</name>
@@ -493,10 +374,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="151" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="151" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="154" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="154" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1aa82e732a37a17383828171f4e14aff60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_DetectTunnelSettings_Get_buildCoLoops</definition>
         <argsstring>(const MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_Get_buildCoLoops</name>
@@ -511,10 +392,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="159" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="159" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="162" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="162" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a4dad0ca0a9a163fd21a399d88944f8f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DetectTunnelSettings_Set_buildCoLoops</definition>
         <argsstring>(MR_DetectTunnelSettings *_this, bool value)</argsstring>
         <name>MR_DetectTunnelSettings_Set_buildCoLoops</name>
@@ -529,14 +410,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>buildCoLoops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>buildCoLoops</computeroutput>. </para>
+<para>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>buildCoLoops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>buildCoLoops</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="166" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="169" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a0b64c02f058f9af115537619cb6ce865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_DetectTunnelSettings_GetMutable_buildCoLoops</definition>
         <argsstring>(MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_GetMutable_buildCoLoops</name>
@@ -551,10 +432,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="174" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="177" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a71bd0ffe91779c7d6d94b7af56fbfbf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_DetectTunnelSettings_Get_filterEquivalentCoLoops</definition>
         <argsstring>(const MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_Get_filterEquivalentCoLoops</name>
@@ -569,10 +450,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="182" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="182" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="185" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="185" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1aa31062931ee87d0e05d90adc28fb54ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DetectTunnelSettings_Set_filterEquivalentCoLoops</definition>
         <argsstring>(MR_DetectTunnelSettings *_this, bool value)</argsstring>
         <name>MR_DetectTunnelSettings_Set_filterEquivalentCoLoops</name>
@@ -587,14 +468,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>filterEquivalentCoLoops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>filterEquivalentCoLoops</computeroutput>. </para>
+<para>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>filterEquivalentCoLoops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>filterEquivalentCoLoops</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="189" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="192" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="192" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a6bd7e301e1dc23c2371a26a41050136d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_DetectTunnelSettings_GetMutable_filterEquivalentCoLoops</definition>
         <argsstring>(MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_GetMutable_filterEquivalentCoLoops</name>
@@ -609,10 +490,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="197" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="200" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1aebfd690d3f181284e378027375c1a6b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_DetectTunnelSettings_Get_progress</definition>
         <argsstring>(const MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_Get_progress</name>
@@ -627,10 +508,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="204" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="204" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="207" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="207" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a0da7f2e8a48e5f00a4d90c982e7da6ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DetectTunnelSettings_Set_progress</definition>
         <argsstring>(MR_DetectTunnelSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_DetectTunnelSettings_Set_progress</name>
@@ -639,7 +520,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -649,14 +530,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report algorithm progress and cancel from outside Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report algorithm progress and cancel from outside Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="211" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="214" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="214" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1aada4c4ac016514d8059d354613e8f610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_DetectTunnelSettings_GetMutable_progress</definition>
         <argsstring>(MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_GetMutable_progress</name>
@@ -671,10 +552,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="218" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="218" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="221" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="221" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1ab069192d102826e889d232e72941a7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
         <definition>MRC_API MR_DetectTunnelSettings * MR_DetectTunnelSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_DetectTunnelSettings_DefaultConstruct</name>
@@ -688,10 +569,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="222" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="222" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="225" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="225" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a2bca0ab7c30515c0f5913937ca4252ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
         <definition>MRC_API MR_DetectTunnelSettings * MR_DetectTunnelSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_DetectTunnelSettings_DefaultConstructArray</name>
@@ -706,10 +587,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="227" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="227" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="230" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="230" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1af5b4260d2ee2be2cd2c66a6a42a4f1c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
         <definition>MRC_API MR_DetectTunnelSettings * MR_DetectTunnelSettings_ConstructFrom</definition>
         <argsstring>(float maxTunnelLength, int maxIters, MR_PassBy metric_pass_by, MR_std_function_float_from_MR_EdgeId *metric, bool buildCoLoops, bool filterEquivalentCoLoops, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
         <name>MR_DetectTunnelSettings_ConstructFrom</name>
@@ -722,7 +603,7 @@
           <declname>maxIters</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>metric_pass_by</declname>
         </param>
         <param>
@@ -738,7 +619,7 @@
           <declname>filterEquivalentCoLoops</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>progress_pass_by</declname>
         </param>
         <param>
@@ -748,14 +629,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DetectTunnelSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>metric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" kindref="member">MR_DetectTunnelSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DetectTunnelSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>metric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" kindref="member">MR_DetectTunnelSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="234" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="234" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="237" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="237" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a54a96fd4dd1fe998cc1b6ccf15985f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
         <definition>MRC_API const MR_DetectTunnelSettings * MR_DetectTunnelSettings_OffsetPtr</definition>
         <argsstring>(const MR_DetectTunnelSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DetectTunnelSettings_OffsetPtr</name>
@@ -774,10 +655,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="238" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="238" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="241" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="241" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1ad5c8078919db0a8c08c81c204da1af1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
         <definition>MRC_API MR_DetectTunnelSettings * MR_DetectTunnelSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_DetectTunnelSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DetectTunnelSettings_OffsetMutablePtr</name>
@@ -796,15 +677,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="242" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="242" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="245" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="245" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1ab76d99b83415cd6aaed9961ea2eb9448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
         <definition>MRC_API MR_DetectTunnelSettings * MR_DetectTunnelSettings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_DetectTunnelSettings *_other)</argsstring>
         <name>MR_DetectTunnelSettings_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -818,10 +699,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="247" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="247" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="250" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="250" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DetectTunnelSettings_Destroy</definition>
         <argsstring>(const MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_Destroy</name>
@@ -830,16 +711,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DetectTunnelSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="250" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="253" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="253" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1acf9ced31590d150d679dd431acd2c73b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DetectTunnelSettings_DestroyArray</definition>
         <argsstring>(const MR_DetectTunnelSettings *_this)</argsstring>
         <name>MR_DetectTunnelSettings_DestroyArray</name>
@@ -848,16 +729,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DetectTunnelSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="253" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="253" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="256" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="256" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1aac5a4d8be3ed226e37cbbcd056d7df34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
         <definition>MRC_API MR_DetectTunnelSettings * MR_DetectTunnelSettings_AssignFromAnother</definition>
         <argsstring>(MR_DetectTunnelSettings *_this, MR_PassBy _other_pass_by, MR_DetectTunnelSettings *_other)</argsstring>
         <name>MR_DetectTunnelSettings_AssignFromAnother</name>
@@ -866,7 +747,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -876,14 +757,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DetectTunnelSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DetectTunnelSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="260" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="260" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="263" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="263" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRTunnelDetector_8h_1a1ab3a3b417424770b909ef7ac3611c94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_FaceBitSet_std_string * MR_detectTunnelFaces</definition>
         <argsstring>(const MR_MeshPart *mp, const MR_DetectTunnelSettings *settings)</argsstring>
         <name>MR_detectTunnelFaces</name>
@@ -898,11 +779,67 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns tunnels as a number of faces; if you remove these faces and patch every boundary with disk, then the surface will be topology equivalent to sphere Generated from function <computeroutput>MR::detectTunnelFaces</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_FaceBitSet_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>returns tunnels as a number of faces; if you remove these faces and patch every boundary with disk, then the surface will be topology equivalent to sphere Generated from function <computeroutput>MR::detectTunnelFaces</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__FaceBitSet__std__string_8h_1a49f25f78be01bd3b7e077cd474bb21d5" kindref="member">MR_expected_MR_FaceBitSet_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="269" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" declline="269" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="272" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="272" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTunnelDetector_8h_1abed5089f90d75e6eadb6c816b952a4f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_eliminateTunnels_3</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_FaceBitSet *region, const MR_DetectTunnelSettings *settings)</argsstring>
+        <name>MR_eliminateTunnels_3</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by 1) detecting tunnels, 2) deleting tunnel faces, and 3) filling holes appeared Generated from function <computeroutput>MR::eliminateTunnels</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="282" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="282" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTunnelDetector_8h_1a89ea0c78c6b51c7a62d7874b0daef2a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_eliminateTunnels_4</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_FillHoleParams *fillHoleParams, const MR_FaceBitSet *region, const MR_DetectTunnelSettings *settings)</argsstring>
+        <name>MR_eliminateTunnels_4</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref> *</type>
+          <declname>fillHoleParams</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::eliminateTunnels</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>fillHoleParams</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" line="291" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h" declline="291" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -912,8 +849,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -922,90 +859,97 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRTunnelDetector_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRTunnelDetector_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRTunnelDetector_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRTunnelDetector_8h_1a6aeecd4fac2aea90513510421de3f37b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FaceBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRTunnelDetector_8h_1a113b2c998614f463539fb118dd416dd0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_EdgeId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRTunnelDetector_8h_1afbb58c6b3a4c5746c9ae773c02b24591" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_std_vector_MR_EdgeId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRTunnelDetector_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRTunnelDetector_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRTunnelDetector_8h_1aa2cb99914308eb7429fd11738cf79483" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRTunnelDetector_8h_1ab5de264b6065dbf84f6b3fa0f6530592" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref>;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRTunnelDetector_8h_1a3b79bba0199bbbcb1eb8ac8340e40d90" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a3b79bba0199bbbcb1eb8ac8340e40d90" kindref="member">MR_detectBasisTunnels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/>MR_PassBy<sp/>metric_pass_by,<sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/>MR_PassBy<sp/>progressCallback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRTunnelDetector_8h_1a1164232423f7ea43c12239f68751120d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a1164232423f7ea43c12239f68751120d" kindref="member">MR_findSmallestMetricCoLoop</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*loop,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRTunnelDetector_8h_1aa1eb7e94c86e5dd20f717918805ad185" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aa1eb7e94c86e5dd20f717918805ad185" kindref="member">MR_findShortestCoLoop</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*loop);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRTunnelDetector_8h_1a69c51f1b2e49fad5c89d56d966597de5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a69c51f1b2e49fad5c89d56d966597de5" kindref="member">MR_findSmallestMetricEquivalentLoops</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*loop,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRTunnelDetector_8h_1a882085d7d896daf49a4f01589227bd1e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a882085d7d896daf49a4f01589227bd1e" kindref="member">MR_findShortestEquivalentLoops</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*loop);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRTunnelDetector_8h_1ad53cd1269ed4da5bce80239c35b8e1e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1ad53cd1269ed4da5bce80239c35b8e1e2" kindref="member">MR_DetectTunnelSettings_Get_maxTunnelLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRTunnelDetector_8h_1a723bd6eb2335bc7580bdebec8eef4348" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1a723bd6eb2335bc7580bdebec8eef4348" kindref="member">MR_DetectTunnelSettings_Set_maxTunnelLength</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRTunnelDetector_8h_1aa5f0b07706a15d0e84a13001d9c82cbb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1aa5f0b07706a15d0e84a13001d9c82cbb" kindref="member">MR_DetectTunnelSettings_GetMutable_maxTunnelLength</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRTunnelDetector_8h_1afffe41a239a31d5a79940ddfaef7fedd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1afffe41a239a31d5a79940ddfaef7fedd" kindref="member">MR_DetectTunnelSettings_Get_maxIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRTunnelDetector_8h_1ad4e85a0ae6534fa9e59b5daf21c7ecea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ad4e85a0ae6534fa9e59b5daf21c7ecea" kindref="member">MR_DetectTunnelSettings_Set_maxIters</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRTunnelDetector_8h_1a1b4d82534ba1351d5345de2593a86fa2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1a1b4d82534ba1351d5345de2593a86fa2" kindref="member">MR_DetectTunnelSettings_GetMutable_maxIters</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRTunnelDetector_8h_1aa4ca0acbed6521e4cdd14b607cbc64ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aa4ca0acbed6521e4cdd14b607cbc64ee" kindref="member">MR_DetectTunnelSettings_Get_metric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRTunnelDetector_8h_1afd3fc575adea56c6e315220126442739" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1afd3fc575adea56c6e315220126442739" kindref="member">MR_DetectTunnelSettings_Set_metric</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="MRTunnelDetector_8h_1a7c41a031ed46e5faadd827bc89e1d664" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a7c41a031ed46e5faadd827bc89e1d664" kindref="member">MR_DetectTunnelSettings_GetMutable_metric</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRTunnelDetector_8h_1aa82e732a37a17383828171f4e14aff60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1aa82e732a37a17383828171f4e14aff60" kindref="member">MR_DetectTunnelSettings_Get_buildCoLoops</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRTunnelDetector_8h_1a4dad0ca0a9a163fd21a399d88944f8f0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1a4dad0ca0a9a163fd21a399d88944f8f0" kindref="member">MR_DetectTunnelSettings_Set_buildCoLoops</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRTunnelDetector_8h_1a0b64c02f058f9af115537619cb6ce865" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1a0b64c02f058f9af115537619cb6ce865" kindref="member">MR_DetectTunnelSettings_GetMutable_buildCoLoops</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRTunnelDetector_8h_1a71bd0ffe91779c7d6d94b7af56fbfbf8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1a71bd0ffe91779c7d6d94b7af56fbfbf8" kindref="member">MR_DetectTunnelSettings_Get_filterEquivalentCoLoops</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="MRTunnelDetector_8h_1aa31062931ee87d0e05d90adc28fb54ca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1aa31062931ee87d0e05d90adc28fb54ca" kindref="member">MR_DetectTunnelSettings_Set_filterEquivalentCoLoops</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRTunnelDetector_8h_1a6bd7e301e1dc23c2371a26a41050136d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1a6bd7e301e1dc23c2371a26a41050136d" kindref="member">MR_DetectTunnelSettings_GetMutable_filterEquivalentCoLoops</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRTunnelDetector_8h_1aebfd690d3f181284e378027375c1a6b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aebfd690d3f181284e378027375c1a6b6" kindref="member">MR_DetectTunnelSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRTunnelDetector_8h_1a0da7f2e8a48e5f00a4d90c982e7da6ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1a0da7f2e8a48e5f00a4d90c982e7da6ec" kindref="member">MR_DetectTunnelSettings_Set_progress</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRTunnelDetector_8h_1aada4c4ac016514d8059d354613e8f610" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aada4c4ac016514d8059d354613e8f610" kindref="member">MR_DetectTunnelSettings_GetMutable_progress</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MRTunnelDetector_8h_1ab069192d102826e889d232e72941a7f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1ab069192d102826e889d232e72941a7f3" kindref="member">MR_DetectTunnelSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227" refid="MRTunnelDetector_8h_1a2bca0ab7c30515c0f5913937ca4252ce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a2bca0ab7c30515c0f5913937ca4252ce" kindref="member">MR_DetectTunnelSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="MRTunnelDetector_8h_1af5b4260d2ee2be2cd2c66a6a42a4f1c0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1af5b4260d2ee2be2cd2c66a6a42a4f1c0" kindref="member">MR_DetectTunnelSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxTunnelLength,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxIters,<sp/>MR_PassBy<sp/>metric_pass_by,<sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>buildCoLoops,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>filterEquivalentCoLoops,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRTunnelDetector_8h_1a54a96fd4dd1fe998cc1b6ccf15985f25" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a54a96fd4dd1fe998cc1b6ccf15985f25" kindref="member">MR_DetectTunnelSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="242" refid="MRTunnelDetector_8h_1ad5c8078919db0a8c08c81c204da1af1b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1ad5c8078919db0a8c08c81c204da1af1b" kindref="member">MR_DetectTunnelSettings_OffsetMutablePtr</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="MRTunnelDetector_8h_1ab76d99b83415cd6aaed9961ea2eb9448" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1ab76d99b83415cd6aaed9961ea2eb9448" kindref="member">MR_DetectTunnelSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" kindref="member">MR_DetectTunnelSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFillHole.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FaceBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_EdgeId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_std_vector_MR_EdgeId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRTunnelDetector_8h_1a3b79bba0199bbbcb1eb8ac8340e40d90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a3b79bba0199bbbcb1eb8ac8340e40d90" kindref="member">MR_detectBasisTunnels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>metric_pass_by,<sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progressCallback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRTunnelDetector_8h_1a1164232423f7ea43c12239f68751120d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a1164232423f7ea43c12239f68751120d" kindref="member">MR_findSmallestMetricCoLoop</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*loop,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRTunnelDetector_8h_1aa1eb7e94c86e5dd20f717918805ad185" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aa1eb7e94c86e5dd20f717918805ad185" kindref="member">MR_findShortestCoLoop</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*loop);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRTunnelDetector_8h_1a69c51f1b2e49fad5c89d56d966597de5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a69c51f1b2e49fad5c89d56d966597de5" kindref="member">MR_findSmallestMetricEquivalentLoops</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*loop,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRTunnelDetector_8h_1a882085d7d896daf49a4f01589227bd1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a882085d7d896daf49a4f01589227bd1e" kindref="member">MR_findShortestEquivalentLoops</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*loop);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRTunnelDetector_8h_1ad53cd1269ed4da5bce80239c35b8e1e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1ad53cd1269ed4da5bce80239c35b8e1e2" kindref="member">MR_DetectTunnelSettings_Get_maxTunnelLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRTunnelDetector_8h_1a723bd6eb2335bc7580bdebec8eef4348" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1a723bd6eb2335bc7580bdebec8eef4348" kindref="member">MR_DetectTunnelSettings_Set_maxTunnelLength</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRTunnelDetector_8h_1aa5f0b07706a15d0e84a13001d9c82cbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1aa5f0b07706a15d0e84a13001d9c82cbb" kindref="member">MR_DetectTunnelSettings_GetMutable_maxTunnelLength</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRTunnelDetector_8h_1afffe41a239a31d5a79940ddfaef7fedd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1afffe41a239a31d5a79940ddfaef7fedd" kindref="member">MR_DetectTunnelSettings_Get_maxIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRTunnelDetector_8h_1ad4e85a0ae6534fa9e59b5daf21c7ecea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ad4e85a0ae6534fa9e59b5daf21c7ecea" kindref="member">MR_DetectTunnelSettings_Set_maxIters</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRTunnelDetector_8h_1a1b4d82534ba1351d5345de2593a86fa2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1a1b4d82534ba1351d5345de2593a86fa2" kindref="member">MR_DetectTunnelSettings_GetMutable_maxIters</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRTunnelDetector_8h_1aa4ca0acbed6521e4cdd14b607cbc64ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aa4ca0acbed6521e4cdd14b607cbc64ee" kindref="member">MR_DetectTunnelSettings_Get_metric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRTunnelDetector_8h_1afd3fc575adea56c6e315220126442739" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1afd3fc575adea56c6e315220126442739" kindref="member">MR_DetectTunnelSettings_Set_metric</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRTunnelDetector_8h_1a7c41a031ed46e5faadd827bc89e1d664" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a7c41a031ed46e5faadd827bc89e1d664" kindref="member">MR_DetectTunnelSettings_GetMutable_metric</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRTunnelDetector_8h_1aa82e732a37a17383828171f4e14aff60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1aa82e732a37a17383828171f4e14aff60" kindref="member">MR_DetectTunnelSettings_Get_buildCoLoops</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRTunnelDetector_8h_1a4dad0ca0a9a163fd21a399d88944f8f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1a4dad0ca0a9a163fd21a399d88944f8f0" kindref="member">MR_DetectTunnelSettings_Set_buildCoLoops</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRTunnelDetector_8h_1a0b64c02f058f9af115537619cb6ce865" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1a0b64c02f058f9af115537619cb6ce865" kindref="member">MR_DetectTunnelSettings_GetMutable_buildCoLoops</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRTunnelDetector_8h_1a71bd0ffe91779c7d6d94b7af56fbfbf8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1a71bd0ffe91779c7d6d94b7af56fbfbf8" kindref="member">MR_DetectTunnelSettings_Get_filterEquivalentCoLoops</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="MRTunnelDetector_8h_1aa31062931ee87d0e05d90adc28fb54ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1aa31062931ee87d0e05d90adc28fb54ca" kindref="member">MR_DetectTunnelSettings_Set_filterEquivalentCoLoops</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRTunnelDetector_8h_1a6bd7e301e1dc23c2371a26a41050136d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTunnelDetector_8h_1a6bd7e301e1dc23c2371a26a41050136d" kindref="member">MR_DetectTunnelSettings_GetMutable_filterEquivalentCoLoops</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRTunnelDetector_8h_1aebfd690d3f181284e378027375c1a6b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aebfd690d3f181284e378027375c1a6b6" kindref="member">MR_DetectTunnelSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRTunnelDetector_8h_1a0da7f2e8a48e5f00a4d90c982e7da6ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1a0da7f2e8a48e5f00a4d90c982e7da6ec" kindref="member">MR_DetectTunnelSettings_Set_progress</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRTunnelDetector_8h_1aada4c4ac016514d8059d354613e8f610" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aada4c4ac016514d8059d354613e8f610" kindref="member">MR_DetectTunnelSettings_GetMutable_progress</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRTunnelDetector_8h_1ab069192d102826e889d232e72941a7f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1ab069192d102826e889d232e72941a7f3" kindref="member">MR_DetectTunnelSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRTunnelDetector_8h_1a2bca0ab7c30515c0f5913937ca4252ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a2bca0ab7c30515c0f5913937ca4252ce" kindref="member">MR_DetectTunnelSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="MRTunnelDetector_8h_1af5b4260d2ee2be2cd2c66a6a42a4f1c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1af5b4260d2ee2be2cd2c66a6a42a4f1c0" kindref="member">MR_DetectTunnelSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxTunnelLength,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxIters,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>metric_pass_by,<sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>buildCoLoops,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>filterEquivalentCoLoops,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRTunnelDetector_8h_1a54a96fd4dd1fe998cc1b6ccf15985f25" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a54a96fd4dd1fe998cc1b6ccf15985f25" kindref="member">MR_DetectTunnelSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRTunnelDetector_8h_1ad5c8078919db0a8c08c81c204da1af1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1ad5c8078919db0a8c08c81c204da1af1b" kindref="member">MR_DetectTunnelSettings_OffsetMutablePtr</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="MRTunnelDetector_8h_1ab76d99b83415cd6aaed9961ea2eb9448" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1ab76d99b83415cd6aaed9961ea2eb9448" kindref="member">MR_DetectTunnelSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRTunnelDetector_8h_1acf9ced31590d150d679dd431acd2c73b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1acf9ced31590d150d679dd431acd2c73b" kindref="member">MR_DetectTunnelSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="253" refid="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" kindref="member">MR_DetectTunnelSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="260" refid="MRTunnelDetector_8h_1aac5a4d8be3ed226e37cbbcd056d7df34" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aac5a4d8be3ed226e37cbbcd056d7df34" kindref="member">MR_DetectTunnelSettings_AssignFromAnother</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="261"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269" refid="MRTunnelDetector_8h_1a1ab3a3b417424770b909ef7ac3611c94" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a1ab3a3b417424770b909ef7ac3611c94" kindref="member">MR_detectTunnelFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="272"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="273"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="256" refid="MRTunnelDetector_8h_1acf9ced31590d150d679dd431acd2c73b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1acf9ced31590d150d679dd431acd2c73b" kindref="member">MR_DetectTunnelSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRTunnelDetector_8h_1aac5a4d8be3ed226e37cbbcd056d7df34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*<ref refid="MRTunnelDetector_8h_1aac5a4d8be3ed226e37cbbcd056d7df34" kindref="member">MR_DetectTunnelSettings_AssignFromAnother</ref>(<ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="MRTunnelDetector_8h_1a1ab3a3b417424770b909ef7ac3611c94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a1ab3a3b417424770b909ef7ac3611c94" kindref="member">MR_detectTunnelFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="MRTunnelDetector_8h_1abed5089f90d75e6eadb6c816b952a4f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1abed5089f90d75e6eadb6c816b952a4f2" kindref="member">MR_eliminateTunnels_3</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291" refid="MRTunnelDetector_8h_1a89ea0c78c6b51c7a62d7874b0daef2a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a89ea0c78c6b51c7a62d7874b0daef2a2" kindref="member">MR_eliminateTunnels_4</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*fillHoleParams,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTunnelDetector.h"/>
   </compounddef>
 </doxygen>

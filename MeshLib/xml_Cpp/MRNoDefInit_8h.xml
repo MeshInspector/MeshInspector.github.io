@@ -1,23 +1,77 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRNoDefInit_8h" kind="file" language="C++">
     <compoundname>MRNoDefInit.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
-    <includedby refid="MRBuffer_8h" local="yes">MRBuffer.h</includedby>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includedby refid="MRBuffer_8h" local="yes">MRMesh/MRBuffer.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
       <node id="1">
-        <label>MRNoDefInit.h</label>
+        <label>MRMesh/MRNoDefInit.h</label>
         <link refid="MRNoDefInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRBuffer.h</label>
+        <label>MRMesh/MRBuffer.h</label>
         <link refid="MRBuffer_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -39,37 +93,37 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRGridSettings.h</label>
+        <label>MRMesh/MRGridSettings.h</label>
         <link refid="MRGridSettings_8h"/>
       </node>
       <node id="4">
-        <label>MRIOParsing.h</label>
+        <label>MRMesh/MRIOParsing.h</label>
         <link refid="MRIOParsing_8h"/>
       </node>
       <node id="5">
-        <label>MRLocalTriangulations.h</label>
+        <label>MRMesh/MRLocalTriangulations.h</label>
         <link refid="MRLocalTriangulations_8h"/>
       </node>
       <node id="6">
-        <label>MRMapEdge.h</label>
+        <label>MRMesh/MRMapEdge.h</label>
         <link refid="MRMapEdge_8h"/>
       </node>
       <node id="1">
-        <label>MRNoDefInit.h</label>
+        <label>MRMesh/MRNoDefInit.h</label>
         <link refid="MRNoDefInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>MROrder.h</label>
+        <label>MRMesh/MROrder.h</label>
         <link refid="MROrder_8h"/>
       </node>
       <node id="8">
-        <label>MRPointCloudTriangulationHelpers.h</label>
+        <label>MRMesh/MRPointCloudTriangulationHelpers.h</label>
         <link refid="MRPointCloudTriangulationHelpers_8h"/>
       </node>
       <node id="10">
-        <label>MRGLStaticHolder.h</label>
+        <label>MRViewer/MRGLStaticHolder.h</label>
         <link refid="MRGLStaticHolder_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
@@ -79,11 +133,11 @@
         </childnode>
       </node>
       <node id="12">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="9">
-        <label>MRRenderHelpers.h</label>
+        <label>MRViewer/MRRenderHelpers.h</label>
         <link refid="MRRenderHelpers_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -99,29 +153,29 @@
         </childnode>
       </node>
       <node id="15">
-        <label>MRRenderLabelObject.h</label>
+        <label>MRViewer/MRRenderLabelObject.h</label>
         <link refid="MRRenderLabelObject_8h"/>
       </node>
       <node id="11">
-        <label>MRRenderLinesObject.h</label>
+        <label>MRViewer/MRRenderLinesObject.h</label>
         <link refid="MRRenderLinesObject_8h"/>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="13">
-        <label>MRRenderMeshObject.h</label>
+        <label>MRViewer/MRRenderMeshObject.h</label>
         <link refid="MRRenderMeshObject_8h"/>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>MRRenderPointsObject.h</label>
+        <label>MRViewer/MRRenderPointsObject.h</label>
         <link refid="MRRenderPointsObject_8h"/>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="16">
-        <label>MRRenderVolumeObject.h</label>
+        <label>MRViewer/MRRenderVolumeObject.h</label>
         <link refid="MRRenderVolumeObject_8h"/>
       </node>
     </invincdepgraph>
@@ -134,21 +188,21 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1NoDefInit" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1NoDefInit" kindref="compound">NoDefInit</ref><sp/>:<sp/>T</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1NoDefInit" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" kindref="member">NoDefInit</ref><sp/>:<sp/>T</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15" refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" kindref="member">NoDefInit</ref>()<sp/>noexcept<sp/>:<sp/>T(<sp/>noInit<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" kindref="member">NoDefInit</ref>()<sp/>noexcept<sp/>:<sp/>T(<sp/><ref refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kindref="member">noInit</ref><sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">T::operator=;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h"/>
+    <location file="MRMesh/MRNoDefInit.h"/>
   </compounddef>
 </doxygen>

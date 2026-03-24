@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Nesting_1_1TetrisDensifyOptions" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Nesting::TetrisDensifyOptions</compoundname>
+    <includes refid="MRTetrisNesting_8h" local="no">MRVoxels/MRTetrisNesting.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafcba40b2766ddb0e65f0cd8b0fff1c33" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga2f011ee43797dfd41b3cf45ef8f73cd3" kind="variable"><name>densificationSequence</name></member>
+      <member refid="group__GeneralGroup_1gafa3d3ce9f1a239b0433ea41d932df07f" kind="variable"><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga9aa9eca3f4fabca2c8ac7cfa9bdfe5e8" kind="variable"><name>nestVoxelsCache</name></member>
+      <member refid="group__GeneralGroup_1gab94ca03ddd7606a0f2410eae5ef15632" kind="variable"><name>nestDimensionsCache</name></member>
+      <member refid="group__GeneralGroup_1gae37674fe33f509e39ddb625df76e3da1" kind="variable"><name>occupiedVoxelsCache</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Nesting::TetrisDensifyOptions</label>
+        <link refid="structMR_1_1Nesting_1_1TetrisDensifyOptions"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>nestVoxelsCache</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; ObjId, VoxelId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRVoxels/MRTetrisNesting.h" line="19" column="1" bodyfile="MRVoxels/MRTetrisNesting.h" bodystart="20" bodyend="32"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafa3d3ce9f1a239b0433ea41d932df07f" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga2f011ee43797dfd41b3cf45ef8f73cd3" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>densificationSequence</name></member>
+      <member refid="group__GeneralGroup_1gab94ca03ddd7606a0f2410eae5ef15632" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>nestDimensionsCache</name></member>
+      <member refid="group__GeneralGroup_1ga9aa9eca3f4fabca2c8ac7cfa9bdfe5e8" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>nestVoxelsCache</name></member>
+      <member refid="group__GeneralGroup_1gae37674fe33f509e39ddb625df76e3da1" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>occupiedVoxelsCache</name></member>
+      <member refid="group__GeneralGroup_1gafcba40b2766ddb0e65f0cd8b0fff1c33" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

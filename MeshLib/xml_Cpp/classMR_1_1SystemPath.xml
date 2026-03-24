@@ -1,47 +1,47 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SystemPath" kind="class" language="C++" prot="public">
     <compoundname>MR::SystemPath</compoundname>
-    <includes refid="MRSystemPath_8h" local="no">MRSystemPath.h</includes>
+    <includes refid="MRSystemPath_8h" local="no">MRMesh/MRSystemPath.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gafb3badbeb3302b38006c0c0bb407057b" kind="enum"><name>Directory</name></member>
       <member refid="group__GeneralGroup_1ga0cf7d55377d8e831c45ed8aa549b7ac8" kind="enum"><name>SystemFontType</name></member>
       <member refid="group__GeneralGroup_1gadca67651e9ad888aca1f1b9fd171366d" kind="typedef"><name>SystemFontPaths</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga453e2e3c6fb9d007fc46ed589a2eb367" kind="function"><name>getExecutablePath</name></member>
-      <member refid="group__GeneralGroup_1gadf165ab90985e307595cba9624b8d2e6" kind="function"><name>getLibraryPath</name></member>
-      <member refid="group__GeneralGroup_1ga5ca780a1511c9e6e7957e5f8e55109ae" kind="function"><name>getLibraryPathForSymbol</name></member>
-      <member refid="group__GeneralGroup_1ga9b8d7ac188dd7cc6efe81de03c7196d9" kind="function"><name>getExecutableDirectory</name></member>
-      <member refid="group__GeneralGroup_1ga61497af06afdddd7901fdb3138504926" kind="function"><name>getLibraryDirectory</name></member>
-      <member refid="group__GeneralGroup_1gaf6465d9083394a40711dd0845916bef1" kind="function"><name>getDirectory</name></member>
-      <member refid="group__GeneralGroup_1gac35cd65b07ab2b9ec30b9e1607cba77e" kind="function"><name>overrideDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga0a8beee24fce2236a1532b5c147d1a2a" kind="function"><name>getExecutablePath</name></member>
+      <member refid="group__GeneralGroup_1ga76b8fc8dd6764fdfd49c3de53afdec45" kind="function"><name>getLibraryPath</name></member>
+      <member refid="group__GeneralGroup_1ga3930854eaf2a22973f03db42ae5c6c1c" kind="function"><name>getLibraryPathForSymbol</name></member>
+      <member refid="group__GeneralGroup_1gab481f3c038687be36c5d272f6ebd98fc" kind="function"><name>getExecutableDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga407c3e089a42fcf0685abb299db195e5" kind="function"><name>getLibraryDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga32f7ef7d037115be21b0acf2a550920f" kind="function"><name>getDirectory</name></member>
+      <member refid="group__GeneralGroup_1gad6eff1e678045002acf2ed8e1a89c3ee" kind="function"><name>overrideDirectory</name></member>
       <member refid="group__GeneralGroup_1gaaa1081b4d630747efb71d1a82122d425" kind="function"><name>getResourcesDirectory</name></member>
       <member refid="group__GeneralGroup_1ga65c749ec96a56b9a992aed05254ecd8a" kind="function"><name>getFontsDirectory</name></member>
       <member refid="group__GeneralGroup_1ga182f27ccc099fa1f6a791cfcee12ad21" kind="function"><name>getPluginsDirectory</name></member>
       <member refid="group__GeneralGroup_1ga017792d241221ffcfa4c3a06904c3e9c" kind="function"><name>getPythonModulesDirectory</name></member>
-      <member refid="group__GeneralGroup_1ga357e5d407233a5d10fdeb480f4563c4a" kind="function"><name>getSystemFonts</name></member>
+      <member refid="group__GeneralGroup_1gaed028267ea8eb8b7829c96e5fef32257" kind="function"><name>getSystemFonts</name></member>
     </sectiondef>
     <briefdescription>
 <para>system directory path manager </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="16" bodyend="77"/>
+    <location file="MRMesh/MRSystemPath.h" line="15" column="1" bodyfile="MRMesh/MRSystemPath.h" bodystart="16" bodyend="77"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafb3badbeb3302b38006c0c0bb407057b" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>Directory</name></member>
-      <member refid="group__GeneralGroup_1gaf6465d9083394a40711dd0845916bef1" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getDirectory</name></member>
-      <member refid="group__GeneralGroup_1ga9b8d7ac188dd7cc6efe81de03c7196d9" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getExecutableDirectory</name></member>
-      <member refid="group__GeneralGroup_1ga453e2e3c6fb9d007fc46ed589a2eb367" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getExecutablePath</name></member>
+      <member refid="group__GeneralGroup_1ga32f7ef7d037115be21b0acf2a550920f" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getDirectory</name></member>
+      <member refid="group__GeneralGroup_1gab481f3c038687be36c5d272f6ebd98fc" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getExecutableDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga0a8beee24fce2236a1532b5c147d1a2a" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getExecutablePath</name></member>
       <member refid="group__GeneralGroup_1ga65c749ec96a56b9a992aed05254ecd8a" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getFontsDirectory</name></member>
-      <member refid="group__GeneralGroup_1ga61497af06afdddd7901fdb3138504926" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryDirectory</name></member>
-      <member refid="group__GeneralGroup_1gadf165ab90985e307595cba9624b8d2e6" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryPath</name></member>
-      <member refid="group__GeneralGroup_1ga5ca780a1511c9e6e7957e5f8e55109ae" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryPathForSymbol</name></member>
+      <member refid="group__GeneralGroup_1ga407c3e089a42fcf0685abb299db195e5" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga76b8fc8dd6764fdfd49c3de53afdec45" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryPath</name></member>
+      <member refid="group__GeneralGroup_1ga3930854eaf2a22973f03db42ae5c6c1c" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryPathForSymbol</name></member>
       <member refid="group__GeneralGroup_1ga182f27ccc099fa1f6a791cfcee12ad21" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getPluginsDirectory</name></member>
       <member refid="group__GeneralGroup_1ga017792d241221ffcfa4c3a06904c3e9c" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getPythonModulesDirectory</name></member>
       <member refid="group__GeneralGroup_1gaaa1081b4d630747efb71d1a82122d425" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getResourcesDirectory</name></member>
-      <member refid="group__GeneralGroup_1ga357e5d407233a5d10fdeb480f4563c4a" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getSystemFonts</name></member>
-      <member refid="group__GeneralGroup_1gac35cd65b07ab2b9ec30b9e1607cba77e" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>overrideDirectory</name></member>
+      <member refid="group__GeneralGroup_1gaed028267ea8eb8b7829c96e5fef32257" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getSystemFonts</name></member>
+      <member refid="group__GeneralGroup_1gad6eff1e678045002acf2ed8e1a89c3ee" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>overrideDirectory</name></member>
       <member refid="group__GeneralGroup_1gadca67651e9ad888aca1f1b9fd171366d" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemFontPaths</name></member>
       <member refid="group__GeneralGroup_1ga0cf7d55377d8e831c45ed8aa549b7ac8" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemFontType</name></member>
     </listofallmembers>

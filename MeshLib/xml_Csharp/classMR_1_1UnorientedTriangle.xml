@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UnorientedTriangle" kind="class" language="C#" prot="public">
     <compoundname>MR::UnorientedTriangle</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_UnorientedTriangle</basecompoundref>
@@ -25,7 +25,7 @@
         <name>this[ulong i]</name>
         <qualifiedname>MR.UnorientedTriangle.this[ulong i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UnorientedTriangle.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UnorientedTriangle::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -70,7 +70,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UnorientedTriangle.UnorientedTriangle</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UnorientedTriangle_1a176fa8ba1591d178ae6b5ab3c495cd31" kindref="member">MR.UnorientedTriangle.UnorientedTriangle</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89,7 +89,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UnorientedTriangle.UnorientedTriangle</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UnorientedTriangle_1a176fa8ba1591d178ae6b5ab3c495cd31" kindref="member">MR.UnorientedTriangle.UnorientedTriangle</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -113,7 +113,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UnorientedTriangle.UnorientedTriangle</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UnorientedTriangle_1a176fa8ba1591d178ae6b5ab3c495cd31" kindref="member">MR.UnorientedTriangle.UnorientedTriangle</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
         <name>convertTo_Std_Array_MRVertId_3Ref</name>
         <qualifiedname>MR.UnorientedTriangle.convertTo_Std_Array_MRVertId_3Ref</qualifiedname>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.UnorientedTriangle.operator std.array&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, 3&gt; &amp;</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::UnorientedTriangle::operator std::array&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, 3&amp;amp;gt; &amp;amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UnorientedTriangle.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UnorientedTriangle::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -168,7 +168,7 @@
           <declname>inVs</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UnorientedTriangle.UnorientedTriangle</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UnorientedTriangle_1a176fa8ba1591d178ae6b5ab3c495cd31" kindref="member">MR.UnorientedTriangle.UnorientedTriangle</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -183,8 +183,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.UnorientedTriangle</label>
+        <link refid="classMR_1_1UnorientedTriangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_UnorientedTriangle</label>
+        <label>MR.Const_UnorientedTriangle</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -192,25 +198,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.UnorientedTriangle</label>
-        <link refid="classMR_1_1UnorientedTriangle"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UnorientedTriangle &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_UnorientedTriangle &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.UnorientedTriangle</label>
+        <link refid="classMR_1_1UnorientedTriangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_UnorientedTriangle</label>
+        <label>MR.Const_UnorientedTriangle</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,20 +224,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.UnorientedTriangle</label>
-        <link refid="classMR_1_1UnorientedTriangle"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UnorientedTriangle &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_UnorientedTriangle &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="164" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="165" bodyend="249"/>

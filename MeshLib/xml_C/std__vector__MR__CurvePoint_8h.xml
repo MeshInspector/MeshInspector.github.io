@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__CurvePoint_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_CurvePoint.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_CurvePoint.h</label>
+        <link refid="std__vector__MR__CurvePoint_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_CurvePoint_const_iterator MR_std_vector_MR_CurvePoint_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="22" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_CurvePoint_iterator MR_std_vector_MR_CurvePoint_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="26" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ae839a6960796ce5fcb4c5210dc95ccb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint * MR_std_vector_MR_CurvePoint_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a7320e57add9db519fd21c8952c15ca96" kindref="member">MR_std_vector_MR_CurvePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="30" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="30" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ad03c3bfadaff0699187107614b214b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint * MR_std_vector_MR_CurvePoint_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1ae645761dd8d5ce398b12e2fd6c18e926" kindref="member">MR_std_vector_MR_CurvePoint_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a620c2d9866a03a2ff0386c0d18e729a3" kindref="member">MR_std_vector_MR_CurvePoint_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a02e386750d8b333073635b07c3ba4015" kindref="member">MR_std_vector_MR_CurvePoint_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="35" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="35" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a5b4cf8291e876747939313e89e7c3f6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint * MR_std_vector_MR_CurvePoint_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_CurvePoint *other)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a7320e57add9db519fd21c8952c15ca96" kindref="member">MR_std_vector_MR_CurvePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="41" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="41" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ab4788af668aaf2fdc356ffa4d97a538f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, MR_PassBy other_pass_by, MR_std_vector_MR_CurvePoint *other)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a7320e57add9db519fd21c8952c15ca96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ae645761dd8d5ce398b12e2fd6c18e926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a02e386750d8b333073635b07c3ba4015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_CurvePoint * MR_std_vector_MR_CurvePoint_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="57" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="57" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a620c2d9866a03a2ff0386c0d18e729a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint * MR_std_vector_MR_CurvePoint_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="61" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="61" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a1d181c40c525e2eb57526a353b060aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_CurvePoint_size</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_size</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a893f906f3a594f00cb40f82c0cb08d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_CurvePoint_empty</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_empty</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1afa1739829f55ca67563124185ce71ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_resize</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_resize</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a9228740c739f1d9a7339eefda6142920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, size_t new_size, const MR_CurvePoint *value)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ad3fd36f67c39d5c82cba2eb0bc6eb0c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_clear</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_clear</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a4fbc16af4f53c77184323f7f2c542f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_CurvePoint_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_capacity</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a12119565614132852dd7c104a2e28567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_reserve</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_reserve</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aa34a150cfceb904af46098ec18078c50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a37e2a1d496aac94cdc646068b226c4b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+        <definition>MRC_API const MR_CurvePoint * MR_std_vector_MR_CurvePoint_at</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_at</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="101" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="101" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aab05769dfde684b8f32cb1b9c6531071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+        <definition>MRC_API MR_CurvePoint * MR_std_vector_MR_CurvePoint_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_at_mut</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="107" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="107" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1abe675b686fccb83f09a7b95c517b2fb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+        <definition>MRC_API const MR_CurvePoint * MR_std_vector_MR_CurvePoint_front</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_front</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="112" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="112" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a8614c1020d01c24e7d2f90c77c702efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+        <definition>MRC_API MR_CurvePoint * MR_std_vector_MR_CurvePoint_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_front_mut</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="117" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="117" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a666b53aa0b320d0238f6f0d00ceefeeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+        <definition>MRC_API const MR_CurvePoint * MR_std_vector_MR_CurvePoint_back</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_back</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="122" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="122" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a1b104722916c09990b62419f881c6398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+        <definition>MRC_API MR_CurvePoint * MR_std_vector_MR_CurvePoint_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_back_mut</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="127" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="127" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a30c44a75d639bf1a9cf1e66b6bf986c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_push_back</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, const MR_CurvePoint *new_elem)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_push_back</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a8c062e1b1c4f6e45e2cfa6f9878f5f64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_pop_back</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ae47a7c8ec2b9215a880c1c3c62d7fe6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_insert</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, size_t position, const MR_CurvePoint *new_elem)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_insert</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a02bd83b3d0036cb140f5f4c281f261f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_erase</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_erase</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ab838530b5d5394002bd146bc22b40e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_iterator *position, const MR_CurvePoint *new_elem)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a07d154b63ef77fd88b0103d5cfdd297a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aa2b098eaaa18b006792675cf8ca11cd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_const_iterator *position, const MR_CurvePoint *new_elem)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a2b0d6656bd0e020cecc382a8029bfe1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aa3d00b8092545484ce3b4b61ff8e64f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_const_iterator * MR_std_vector_MR_CurvePoint_begin</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_begin</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a53fc31afe77a54d89c51731d28b70262" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="177" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="177" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a53cd226cc032f4676dc569585dc7a78e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_CurvePoint_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_is_begin</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ab3416766f55d946d2000142460b6ed99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_iterator * MR_std_vector_MR_CurvePoint_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_begin_mut</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a3f9d3d486909d9e52102b0ac1e1536da" kindref="member">MR_std_vector_MR_CurvePoint_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="188" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="188" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ab6d8836d264df7d467ae678728bf415d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_CurvePoint_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a77a38a79ce12c18b145576da9de6e35d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_const_iterator * MR_std_vector_MR_CurvePoint_end</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_end</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a53fc31afe77a54d89c51731d28b70262" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="199" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="199" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aad433a555656b83afd0dad9134c023c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_CurvePoint_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_is_end</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ab107bceb92646ef687c7a22c8d0ac1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_iterator * MR_std_vector_MR_CurvePoint_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_end_mut</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a3f9d3d486909d9e52102b0ac1e1536da" kindref="member">MR_std_vector_MR_CurvePoint_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="210" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="210" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a3d2e188003575a34e1357ce7cd7d13e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_CurvePoint_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a99c45a2a41dd4aae710b9c80597f9552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_CurvePoint_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_to_index</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aad7bb8085482fa9b5bc64165e6eb63bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_CurvePoint_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint *_this, const MR_std_vector_MR_CurvePoint_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a856e12ac148a83733f1dc08428057182" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_const_iterator * MR_std_vector_MR_CurvePoint_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a53fc31afe77a54d89c51731d28b70262" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="229" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="229" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1acb6d4ec41342f3566120e65df3afb196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_const_iterator * MR_std_vector_MR_CurvePoint_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1af85a2f7bb7ab3d21325fcc3681dd157a" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1ae8958875f88d0ee731ecd96e9516c034" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a147e80bae6811bb008759b157bc2501e" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="234" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="234" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a041ba50cff06139c468e1a1ad92de3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_const_iterator * MR_std_vector_MR_CurvePoint_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a53fc31afe77a54d89c51731d28b70262" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="241" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="241" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a41fbf10ae13caa39fe2a66e49f34bfb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_const_iterator *_this, const MR_std_vector_MR_CurvePoint_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a53fc31afe77a54d89c51731d28b70262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1af85a2f7bb7ab3d21325fcc3681dd157a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a147e80bae6811bb008759b157bc2501e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_CurvePoint_const_iterator * MR_std_vector_MR_CurvePoint_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="258" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="258" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ae8958875f88d0ee731ecd96e9516c034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_const_iterator * MR_std_vector_MR_CurvePoint_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="262" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="262" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aee54436216c382454ee31707cdb3827d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_const_iterator * MR_std_vector_MR_CurvePoint_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a53fc31afe77a54d89c51731d28b70262" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="267" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="267" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1af9e956c9476a5641065d76a3658a4c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_iterator * MR_std_vector_MR_CurvePoint_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a3f9d3d486909d9e52102b0ac1e1536da" kindref="member">MR_std_vector_MR_CurvePoint_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="271" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="271" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a6e645ff92ec4b2aa3b99d965afde5f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_iterator * MR_std_vector_MR_CurvePoint_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a1e7c5e98e8ff9ec490df22f845aa9225" kindref="member">MR_std_vector_MR_CurvePoint_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1aa9a130648db7efeb1e90398706826f0b" kindref="member">MR_std_vector_MR_CurvePoint_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1adefdfb4d881d62d71f158e25a005e266" kindref="member">MR_std_vector_MR_CurvePoint_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="276" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="276" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aff638f6434aeb8afa8fb2fa0620efc92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_iterator * MR_std_vector_MR_CurvePoint_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1a3f9d3d486909d9e52102b0ac1e1536da" kindref="member">MR_std_vector_MR_CurvePoint_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="283" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="283" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1af227c91a41ed1cc4ab59d6e6a7845f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_iterator *_this, const MR_std_vector_MR_CurvePoint_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a3f9d3d486909d9e52102b0ac1e1536da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a1e7c5e98e8ff9ec490df22f845aa9225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1adefdfb4d881d62d71f158e25a005e266" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_CurvePoint_iterator * MR_std_vector_MR_CurvePoint_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="300" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="300" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1aa9a130648db7efeb1e90398706826f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_CurvePoint_iterator * MR_std_vector_MR_CurvePoint_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="304" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="304" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a53f6e997aca7f9c27d8b4fae4c838053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+        <definition>MRC_API const MR_CurvePoint * MR_std_vector_MR_CurvePoint_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="310" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="310" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a2f8ff620fd47ec38a6d3756c94d64e12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a26449333989df3348d5b0e643acfe9f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a0cadd0266dd0d2e692b5bb56ca0b9f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1acef9310fa692a5588a1270152f8a1562" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_CurvePoint_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_const_iterator *a, const MR_std_vector_MR_CurvePoint_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_CurvePoint_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1ab1ea80d9af7103189b5a4d9ffc5cd4d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_CurvePoint_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_const_iterator *a, const MR_std_vector_MR_CurvePoint_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_CurvePoint_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a28e072b6d6f1e02bd5edffb84fe8d73a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref> *</type>
+        <definition>MRC_API MR_CurvePoint * MR_std_vector_MR_CurvePoint_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="338" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="338" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a4fe7b87f2d793ca9fd02efdfdd1e5331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a3a5025ccabf2a0e380be890cd10a8c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a9ff4880fab9743f2c747c618595cbca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_CurvePoint_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_CurvePoint_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_CurvePoint_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a0377e39cc3573a64b6b35f9e4dbb35bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_CurvePoint_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_iterator *a, const MR_std_vector_MR_CurvePoint_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_CurvePoint_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__CurvePoint_8h_1a61041d6b7ad7b17745b3c37909a60949" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_CurvePoint_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_CurvePoint_iterator *a, const MR_std_vector_MR_CurvePoint_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_CurvePoint_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCurve.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__CurvePoint_8h_1ae839a6960796ce5fcb4c5210dc95ccb6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1ae839a6960796ce5fcb4c5210dc95ccb6" kindref="member">MR_std_vector_MR_CurvePoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__CurvePoint_8h_1ad03c3bfadaff0699187107614b214b41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1ad03c3bfadaff0699187107614b214b41" kindref="member">MR_std_vector_MR_CurvePoint_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__CurvePoint_8h_1a5b4cf8291e876747939313e89e7c3f6f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a5b4cf8291e876747939313e89e7c3f6f" kindref="member">MR_std_vector_MR_CurvePoint_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__CurvePoint_8h_1ab4788af668aaf2fdc356ffa4d97a538f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ab4788af668aaf2fdc356ffa4d97a538f" kindref="member">MR_std_vector_MR_CurvePoint_AssignFromAnother</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__CurvePoint_8h_1a7320e57add9db519fd21c8952c15ca96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a7320e57add9db519fd21c8952c15ca96" kindref="member">MR_std_vector_MR_CurvePoint_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__CurvePoint_8h_1ae645761dd8d5ce398b12e2fd6c18e926" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae645761dd8d5ce398b12e2fd6c18e926" kindref="member">MR_std_vector_MR_CurvePoint_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__CurvePoint_8h_1a02e386750d8b333073635b07c3ba4015" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a02e386750d8b333073635b07c3ba4015" kindref="member">MR_std_vector_MR_CurvePoint_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__CurvePoint_8h_1a620c2d9866a03a2ff0386c0d18e729a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a620c2d9866a03a2ff0386c0d18e729a3" kindref="member">MR_std_vector_MR_CurvePoint_OffsetMutablePtr</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__CurvePoint_8h_1a1d181c40c525e2eb57526a353b060aa8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a1d181c40c525e2eb57526a353b060aa8" kindref="member">MR_std_vector_MR_CurvePoint_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__CurvePoint_8h_1a893f906f3a594f00cb40f82c0cb08d94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a893f906f3a594f00cb40f82c0cb08d94" kindref="member">MR_std_vector_MR_CurvePoint_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__CurvePoint_8h_1afa1739829f55ca67563124185ce71ef7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1afa1739829f55ca67563124185ce71ef7" kindref="member">MR_std_vector_MR_CurvePoint_resize</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__CurvePoint_8h_1a9228740c739f1d9a7339eefda6142920" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a9228740c739f1d9a7339eefda6142920" kindref="member">MR_std_vector_MR_CurvePoint_resize_with_default_value</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__CurvePoint_8h_1ad3fd36f67c39d5c82cba2eb0bc6eb0c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ad3fd36f67c39d5c82cba2eb0bc6eb0c9" kindref="member">MR_std_vector_MR_CurvePoint_clear</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__CurvePoint_8h_1a4fbc16af4f53c77184323f7f2c542f82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4fbc16af4f53c77184323f7f2c542f82" kindref="member">MR_std_vector_MR_CurvePoint_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__CurvePoint_8h_1a12119565614132852dd7c104a2e28567" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a12119565614132852dd7c104a2e28567" kindref="member">MR_std_vector_MR_CurvePoint_reserve</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__CurvePoint_8h_1aa34a150cfceb904af46098ec18078c50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1aa34a150cfceb904af46098ec18078c50" kindref="member">MR_std_vector_MR_CurvePoint_shrink_to_fit</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__CurvePoint_8h_1a37e2a1d496aac94cdc646068b226c4b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a37e2a1d496aac94cdc646068b226c4b9" kindref="member">MR_std_vector_MR_CurvePoint_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__CurvePoint_8h_1aab05769dfde684b8f32cb1b9c6531071" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1aab05769dfde684b8f32cb1b9c6531071" kindref="member">MR_std_vector_MR_CurvePoint_at_mut</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__CurvePoint_8h_1abe675b686fccb83f09a7b95c517b2fb9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1abe675b686fccb83f09a7b95c517b2fb9" kindref="member">MR_std_vector_MR_CurvePoint_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__CurvePoint_8h_1a8614c1020d01c24e7d2f90c77c702efb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a8614c1020d01c24e7d2f90c77c702efb" kindref="member">MR_std_vector_MR_CurvePoint_front_mut</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__CurvePoint_8h_1a666b53aa0b320d0238f6f0d00ceefeeb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a666b53aa0b320d0238f6f0d00ceefeeb" kindref="member">MR_std_vector_MR_CurvePoint_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__CurvePoint_8h_1a1b104722916c09990b62419f881c6398" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a1b104722916c09990b62419f881c6398" kindref="member">MR_std_vector_MR_CurvePoint_back_mut</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__CurvePoint_8h_1a30c44a75d639bf1a9cf1e66b6bf986c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a30c44a75d639bf1a9cf1e66b6bf986c8" kindref="member">MR_std_vector_MR_CurvePoint_push_back</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__CurvePoint_8h_1a8c062e1b1c4f6e45e2cfa6f9878f5f64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a8c062e1b1c4f6e45e2cfa6f9878f5f64" kindref="member">MR_std_vector_MR_CurvePoint_pop_back</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__CurvePoint_8h_1ae47a7c8ec2b9215a880c1c3c62d7fe6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae47a7c8ec2b9215a880c1c3c62d7fe6c" kindref="member">MR_std_vector_MR_CurvePoint_insert</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__CurvePoint_8h_1a02bd83b3d0036cb140f5f4c281f261f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a02bd83b3d0036cb140f5f4c281f261f9" kindref="member">MR_std_vector_MR_CurvePoint_erase</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__CurvePoint_8h_1ab838530b5d5394002bd146bc22b40e9a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ab838530b5d5394002bd146bc22b40e9a" kindref="member">MR_std_vector_MR_CurvePoint_insert_at_mutable_iter</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__CurvePoint_8h_1a07d154b63ef77fd88b0103d5cfdd297a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a07d154b63ef77fd88b0103d5cfdd297a" kindref="member">MR_std_vector_MR_CurvePoint_erase_at_mutable_iter</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__CurvePoint_8h_1aa2b098eaaa18b006792675cf8ca11cd8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1aa2b098eaaa18b006792675cf8ca11cd8" kindref="member">MR_std_vector_MR_CurvePoint_insert_at_iter</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__CurvePoint_8h_1a2b0d6656bd0e020cecc382a8029bfe1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a2b0d6656bd0e020cecc382a8029bfe1e" kindref="member">MR_std_vector_MR_CurvePoint_erase_at_iter</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__CurvePoint_8h_1aa3d00b8092545484ce3b4b61ff8e64f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1aa3d00b8092545484ce3b4b61ff8e64f0" kindref="member">MR_std_vector_MR_CurvePoint_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__CurvePoint_8h_1a53cd226cc032f4676dc569585dc7a78e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a53cd226cc032f4676dc569585dc7a78e" kindref="member">MR_std_vector_MR_CurvePoint_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__CurvePoint_8h_1ab3416766f55d946d2000142460b6ed99" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1ab3416766f55d946d2000142460b6ed99" kindref="member">MR_std_vector_MR_CurvePoint_begin_mut</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__CurvePoint_8h_1ab6d8836d264df7d467ae678728bf415d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ab6d8836d264df7d467ae678728bf415d" kindref="member">MR_std_vector_MR_CurvePoint_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__CurvePoint_8h_1a77a38a79ce12c18b145576da9de6e35d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a77a38a79ce12c18b145576da9de6e35d" kindref="member">MR_std_vector_MR_CurvePoint_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__CurvePoint_8h_1aad433a555656b83afd0dad9134c023c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1aad433a555656b83afd0dad9134c023c1" kindref="member">MR_std_vector_MR_CurvePoint_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__CurvePoint_8h_1ab107bceb92646ef687c7a22c8d0ac1f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1ab107bceb92646ef687c7a22c8d0ac1f9" kindref="member">MR_std_vector_MR_CurvePoint_end_mut</ref>(<ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__CurvePoint_8h_1a3d2e188003575a34e1357ce7cd7d13e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a3d2e188003575a34e1357ce7cd7d13e6" kindref="member">MR_std_vector_MR_CurvePoint_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__CurvePoint_8h_1a99c45a2a41dd4aae710b9c80597f9552" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__CurvePoint_8h_1a99c45a2a41dd4aae710b9c80597f9552" kindref="member">MR_std_vector_MR_CurvePoint_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__CurvePoint_8h_1aad7bb8085482fa9b5bc64165e6eb63bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__CurvePoint_8h_1aad7bb8085482fa9b5bc64165e6eb63bc" kindref="member">MR_std_vector_MR_CurvePoint_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__CurvePoint_8h_1a856e12ac148a83733f1dc08428057182" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a856e12ac148a83733f1dc08428057182" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__CurvePoint_8h_1acb6d4ec41342f3566120e65df3afb196" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1acb6d4ec41342f3566120e65df3afb196" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__CurvePoint_8h_1a041ba50cff06139c468e1a1ad92de3be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a041ba50cff06139c468e1a1ad92de3be" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__CurvePoint_8h_1a41fbf10ae13caa39fe2a66e49f34bfb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a41fbf10ae13caa39fe2a66e49f34bfb8" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__CurvePoint_8h_1a53fc31afe77a54d89c51731d28b70262" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a53fc31afe77a54d89c51731d28b70262" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__CurvePoint_8h_1af85a2f7bb7ab3d21325fcc3681dd157a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1af85a2f7bb7ab3d21325fcc3681dd157a" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__CurvePoint_8h_1a147e80bae6811bb008759b157bc2501e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a147e80bae6811bb008759b157bc2501e" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__CurvePoint_8h_1ae8958875f88d0ee731ecd96e9516c034" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1ae8958875f88d0ee731ecd96e9516c034" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__CurvePoint_8h_1aee54436216c382454ee31707cdb3827d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1aee54436216c382454ee31707cdb3827d" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__CurvePoint_8h_1af9e956c9476a5641065d76a3658a4c32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1af9e956c9476a5641065d76a3658a4c32" kindref="member">MR_std_vector_MR_CurvePoint_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__CurvePoint_8h_1a6e645ff92ec4b2aa3b99d965afde5f65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a6e645ff92ec4b2aa3b99d965afde5f65" kindref="member">MR_std_vector_MR_CurvePoint_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__CurvePoint_8h_1aff638f6434aeb8afa8fb2fa0620efc92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1aff638f6434aeb8afa8fb2fa0620efc92" kindref="member">MR_std_vector_MR_CurvePoint_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__CurvePoint_8h_1af227c91a41ed1cc4ab59d6e6a7845f19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1af227c91a41ed1cc4ab59d6e6a7845f19" kindref="member">MR_std_vector_MR_CurvePoint_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__CurvePoint_8h_1a3f9d3d486909d9e52102b0ac1e1536da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a3f9d3d486909d9e52102b0ac1e1536da" kindref="member">MR_std_vector_MR_CurvePoint_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__CurvePoint_8h_1a1e7c5e98e8ff9ec490df22f845aa9225" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a1e7c5e98e8ff9ec490df22f845aa9225" kindref="member">MR_std_vector_MR_CurvePoint_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__CurvePoint_8h_1adefdfb4d881d62d71f158e25a005e266" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1adefdfb4d881d62d71f158e25a005e266" kindref="member">MR_std_vector_MR_CurvePoint_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__CurvePoint_8h_1aa9a130648db7efeb1e90398706826f0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1aa9a130648db7efeb1e90398706826f0b" kindref="member">MR_std_vector_MR_CurvePoint_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__CurvePoint_8h_1a53f6e997aca7f9c27d8b4fae4c838053" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a53f6e997aca7f9c27d8b4fae4c838053" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__CurvePoint_8h_1a2f8ff620fd47ec38a6d3756c94d64e12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a2f8ff620fd47ec38a6d3756c94d64e12" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_incr</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__CurvePoint_8h_1a26449333989df3348d5b0e643acfe9f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a26449333989df3348d5b0e643acfe9f9" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_decr</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__CurvePoint_8h_1a0cadd0266dd0d2e692b5bb56ca0b9f48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a0cadd0266dd0d2e692b5bb56ca0b9f48" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__CurvePoint_8h_1acef9310fa692a5588a1270152f8a1562" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__CurvePoint_8h_1acef9310fa692a5588a1270152f8a1562" kindref="member">MR_sub_MR_std_vector_MR_CurvePoint_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__CurvePoint_8h_1ab1ea80d9af7103189b5a4d9ffc5cd4d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ab1ea80d9af7103189b5a4d9ffc5cd4d0" kindref="member">MR_equal_MR_std_vector_MR_CurvePoint_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4993d4281bf66062c7e55c78a37903de" kindref="member">MR_std_vector_MR_CurvePoint_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__CurvePoint_8h_1a28e072b6d6f1e02bd5edffb84fe8d73a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*<ref refid="std__vector__MR__CurvePoint_8h_1a28e072b6d6f1e02bd5edffb84fe8d73a" kindref="member">MR_std_vector_MR_CurvePoint_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__CurvePoint_8h_1a4fe7b87f2d793ca9fd02efdfdd1e5331" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a4fe7b87f2d793ca9fd02efdfdd1e5331" kindref="member">MR_std_vector_MR_CurvePoint_iterator_incr</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__CurvePoint_8h_1a3a5025ccabf2a0e380be890cd10a8c69" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a3a5025ccabf2a0e380be890cd10a8c69" kindref="member">MR_std_vector_MR_CurvePoint_iterator_decr</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__CurvePoint_8h_1a9ff4880fab9743f2c747c618595cbca6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a9ff4880fab9743f2c747c618595cbca6" kindref="member">MR_std_vector_MR_CurvePoint_iterator_add_assign</ref>(<ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__CurvePoint_8h_1a0377e39cc3573a64b6b35f9e4dbb35bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__CurvePoint_8h_1a0377e39cc3573a64b6b35f9e4dbb35bb" kindref="member">MR_sub_MR_std_vector_MR_CurvePoint_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__CurvePoint_8h_1a61041d6b7ad7b17745b3c37909a60949" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1a61041d6b7ad7b17745b3c37909a60949" kindref="member">MR_equal_MR_std_vector_MR_CurvePoint_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__CurvePoint_8h_1ae5e6d828054f79c3a470716e0e4e3e42" kindref="member">MR_std_vector_MR_CurvePoint_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_CurvePoint.h"/>
+  </compounddef>
+</doxygen>

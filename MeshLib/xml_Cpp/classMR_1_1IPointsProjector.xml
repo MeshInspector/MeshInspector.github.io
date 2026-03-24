@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IPointsProjector" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::IPointsProjector</compoundname>
     <derivedcompoundref refid="classMR_1_1Cuda_1_1PointsProjector" prot="public" virt="non-virtual">MR::Cuda::PointsProjector</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1PointsProjector" prot="public" virt="non-virtual">MR::PointsProjector</derivedcompoundref>
-    <includes refid="MRPointsProject_8h" local="no">MRPointsProject.h</includes>
+    <includes refid="MRPointsProject_8h" local="no">MRMesh/MRPointsProject.h</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1a2c0b970d9a78fe1a93045c851874c718" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="95" column="13"/>
+        <location file="MRMesh/MRPointsProject.h" line="95" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1ae6ae7b291953d433a794999d25ef10df" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -27,7 +27,7 @@
         <name>setPointCloud</name>
         <qualifiedname>MR::IPointsProjector::setPointCloud</qualifiedname>
         <reimplementedby refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160">setPointCloud</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointsProjector_1abbb8bb3a25f447af9b6abe188662181a">setPointCloud</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointsProjector_1a6e8b40dd14c3c9f33f62f7e0f8e2cadd">setPointCloud</reimplementedby>
         <param>
           <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
           <declname>pointCloud</declname>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="98" column="22"/>
+        <location file="MRMesh/MRPointsProject.h" line="98" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -47,7 +47,7 @@
         <argsstring>(std::vector&lt; PointsProjectionResult &gt; &amp;results, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings) const =0</argsstring>
         <name>findProjections</name>
         <qualifiedname>MR::IPointsProjector::findProjections</qualifiedname>
-        <reimplementedby refid="classMR_1_1PointsProjector_1a7f6e0c85341469a32a8424abb1a7e25f">findProjections</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointsProjector_1a8176e657fa7d5a4b859318c91de2bd91">findProjections</reimplementedby>
         <param>
           <type>std::vector&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref> &gt; &amp;</type>
           <declname>results</declname>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="101" column="22"/>
+        <location file="MRMesh/MRPointsProject.h" line="101" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>size_t</type>
@@ -76,7 +76,7 @@
         <name>projectionsHeapBytes</name>
         <qualifiedname>MR::IPointsProjector::projectionsHeapBytes</qualifiedname>
         <reimplementedby refid="classMR_1_1Cuda_1_1PointsProjector_1acc3b795a692a05aa71390db850bb9ff4">projectionsHeapBytes</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointsProjector_1a2ae04a83d426c8411c3e839482a1f96f">projectionsHeapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointsProjector_1aeb970ece1c2d3764ce6369fc07d74181">projectionsHeapBytes</reimplementedby>
         <param>
           <type>size_t</type>
           <declname>numProjections</declname>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="105" column="20"/>
+        <location file="MRMesh/MRPointsProject.h" line="105" column="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -114,7 +114,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="92" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="93" bodyend="106"/>
+    <location file="MRMesh/MRPointsProject.h" line="92" column="1" bodyfile="MRMesh/MRPointsProject.h" bodystart="93" bodyend="106"/>
     <listofallmembers>
       <member refid="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" prot="public" virt="pure-virtual"><scope>MR::IPointsProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" prot="public" virt="pure-virtual"><scope>MR::IPointsProjector</scope><name>projectionsHeapBytes</name></member>

@@ -1,7 +1,6 @@
 var MRPositionedText_8h =
 [
     [ "MR_PositionedText", "MRPositionedText_8h.html#a925fb33e4ae59890bdbaf8f1ea3a8775", null ],
-    [ "MR_std_string", "MRPositionedText_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_equal_MR_PositionedText", "MRPositionedText_8h.html#a939adfc1ba3016a1d611d69b6bfe31b1", null ],
     [ "MR_PositionedText_AssignFromAnother", "MRPositionedText_8h.html#a08c45ff754383f634f66f92b5497f5b1", null ],
     [ "MR_PositionedText_Construct", "MRPositionedText_8h.html#ae3a8db83d9521c98a76e0d51605cd73d", null ],

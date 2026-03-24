@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1MeshSave" kind="namespace" language="C++">
     <compoundname>MR::MeshSave</compoundname>
     <innerclass refid="classMR_1_1MeshSave_1_1BinaryStlSaver" prot="public">MR::MeshSave::BinaryStlSaver</innerclass>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="168" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="168" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1MeshSave_1a7e16b086c414a0768e241ea5f21ca9b6" prot="public" static="no">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;, std::ostream &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
@@ -34,41 +34,40 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="169" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="169" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="169" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1ga22395c6fe76cfa33bd45c5498865c20e" kind="function"><name>toCtm</name></member>
-      <member refid="group__GeneralGroup_1ga90c18563acc619bd464bf95f21a400fb" kind="function"><name>toCtm</name></member>
-      <member refid="group__GeneralGroup_1ga4b1c623e42018fe7527467c88152ec50" kind="function"><name>toCtm</name></member>
-      <member refid="group__GeneralGroup_1gaaff4727d142915f75818e3b082a90249" kind="function"><name>toCtm</name></member>
-      <member refid="group__MeshSaveGroup_1ga62df62b4aee4263089fc3ef0f91c7405" kind="function"><name>toMrmesh</name></member>
-      <member refid="group__MeshSaveGroup_1ga2aee8eeae26cae66b90a61ce4f15aea5" kind="function"><name>toMrmesh</name></member>
-      <member refid="group__MeshSaveGroup_1ga307b06c1c3ead50a2d460fa37bc1b409" kind="function"><name>toOff</name></member>
-      <member refid="group__MeshSaveGroup_1ga056deefee77d34a164a0f2c6d1097c7d" kind="function"><name>toOff</name></member>
-      <member refid="group__MeshSaveGroup_1gab760df35b57e01e8dcd026dfd57d832c" kind="function"><name>toObj</name></member>
-      <member refid="group__MeshSaveGroup_1ga9dd32c07ebafcd2509bc67da23006001" kind="function"><name>toObj</name></member>
-      <member refid="group__MeshSaveGroup_1ga08bceb44c2939fa849e458cad1b68c66" kind="function"><name>toObj</name></member>
-      <member refid="group__MeshSaveGroup_1ga732572455c51035ed09a0baeb640168c" kind="function"><name>toObj</name></member>
-      <member refid="group__MeshSaveGroup_1ga4ddea26e586be2e647b4043145fc48bf" kind="function"><name>toBinaryStl</name></member>
-      <member refid="group__MeshSaveGroup_1ga576e952344d47f7eee7db3c7c4a58d1a" kind="function"><name>toBinaryStl</name></member>
-      <member refid="group__MeshSaveGroup_1ga276bcc52bbcffca1496916fbadf625d3" kind="function"><name>toAsciiStl</name></member>
-      <member refid="group__MeshSaveGroup_1gad5bc630fe647582bd23c680ca809dc88" kind="function"><name>toAsciiStl</name></member>
-      <member refid="group__MeshSaveGroup_1ga9a03e471984e089dcc7bffccaad21232" kind="function"><name>toPly</name></member>
-      <member refid="group__MeshSaveGroup_1ga14b6127d4b32affdeb1d2dc85ad8ef82" kind="function"><name>toPly</name></member>
-      <member refid="group__MeshSaveGroup_1ga2c28b431b51d43f8242e88cff3336d37" kind="function"><name>toModel3mf</name></member>
-      <member refid="group__MeshSaveGroup_1ga5aab4d79369ecf5ebc3c896db040e950" kind="function"><name>toModel3mf</name></member>
-      <member refid="group__MeshSaveGroup_1ga243e1f662be38defccfbb68793ca9f57" kind="function"><name>to3mf</name></member>
-      <member refid="group__MeshSaveGroup_1ga6f98b4f73676fa32a7e3573939cb76b9" kind="function"><name>toAnySupportedFormat</name></member>
-      <member refid="group__MeshSaveGroup_1gad4a68b822ce0f6ca3a4ad05b0a9d3fca" kind="function"><name>toAnySupportedFormat</name></member>
-      <member refid="group__MeshSaveObjGroup_1gae3dd1ca3146e809db153793012e27d06" kind="function"><name>sceneToObj</name></member>
-      <member refid="group__MeshSaveObjGroup_1ga900edeee86233fa89b5303ab4ea9fdcd" kind="function"><name>sceneToObj</name></member>
+      <member refid="group__GeneralGroup_1ga6482d0b63851221c94c50665e4bbb4b9" kind="function"><name>toCtm</name></member>
+      <member refid="group__GeneralGroup_1ga61be7630e83bc41780d3e40c1dfb1351" kind="function"><name>toCtm</name></member>
+      <member refid="group__GeneralGroup_1ga0ac906684f9be8595fe62ce6ced0e1c8" kind="function"><name>toCtm</name></member>
+      <member refid="group__GeneralGroup_1ga98779f78c4bba8956c622a7d76eee8b3" kind="function"><name>toCtm</name></member>
+      <member refid="group__MeshSaveGroup_1ga9513ef1ff3f501a7e44ca11e8020add4" kind="function"><name>toMrmesh</name></member>
+      <member refid="group__MeshSaveGroup_1gaca2f6357ec8494d5605359f1605f00b3" kind="function"><name>toMrmesh</name></member>
+      <member refid="group__MeshSaveGroup_1ga9493b59b63946b2427188aed7ceae256" kind="function"><name>toOff</name></member>
+      <member refid="group__MeshSaveGroup_1ga5cab07cbc5369d18fca71011228d33b8" kind="function"><name>toOff</name></member>
+      <member refid="group__MeshSaveGroup_1ga4b9585f48a225b83d863e0e82383aa9c" kind="function"><name>toObj</name></member>
+      <member refid="group__MeshSaveGroup_1ga4fcb5ab4105d39961204edb69866a87c" kind="function"><name>toObj</name></member>
+      <member refid="group__MeshSaveGroup_1ga99361f5e73fcec76e460fe7153442d9b" kind="function"><name>toObj</name></member>
+      <member refid="group__MeshSaveGroup_1ga885ca3bf0f9f521539eca3f1bc82950c" kind="function"><name>toObj</name></member>
+      <member refid="group__MeshSaveGroup_1ga4f968ed54c31feadebfa02f4171cfa95" kind="function"><name>toBinaryStl</name></member>
+      <member refid="group__MeshSaveGroup_1ga850d272bef2b55dd5a298f29e36b2862" kind="function"><name>toBinaryStl</name></member>
+      <member refid="group__MeshSaveGroup_1ga1968a9ae2414592ce8ddd9065a03cb5b" kind="function"><name>toAsciiStl</name></member>
+      <member refid="group__MeshSaveGroup_1ga47d9eeebccc75c931f9cff81eb676f19" kind="function"><name>toAsciiStl</name></member>
+      <member refid="group__MeshSaveGroup_1ga1a0796b03ec2e8205ec985cb2214c362" kind="function"><name>toPly</name></member>
+      <member refid="group__MeshSaveGroup_1ga620714cb8a5706d3ec0694c34dfa83db" kind="function"><name>toPly</name></member>
+      <member refid="group__MeshSaveGroup_1gac7864ffe508d7d2a043b6e5006080939" kind="function"><name>toModel3mf</name></member>
+      <member refid="group__MeshSaveGroup_1gaa35cc232c4f90c198d7e92339daee858" kind="function"><name>toModel3mf</name></member>
+      <member refid="group__MeshSaveGroup_1ga8c9353b4703d4a74cbc6abf109e2f329" kind="function"><name>to3mf</name></member>
+      <member refid="group__MeshSaveGroup_1ga8c3547484d9f9d64e8d1d967225e190f" kind="function"><name>toAnySupportedFormat</name></member>
+      <member refid="group__MeshSaveGroup_1gae312c46875e32db543db5c77bdc1d1df" kind="function"><name>toAnySupportedFormat</name></member>
+      <member refid="group__MeshSaveObjGroup_1ga1a5490e813e3e91930caa8d81073f715" kind="function"><name>sceneToObj</name></member>
+      <member refid="group__MeshSaveObjGroup_1ga72979120d0709cf01e854d8d25814a5c" kind="function"><name>sceneToObj</name></member>
     </sectiondef>
     <briefdescription>
-<para>namespace <ref refid="namespaceMR_1_1MeshLoad" kindref="compound">MeshLoad</ref> </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="29" column="1"/>
+    <location file="MRIOExtras/MRCtm.h" line="29" column="1"/>
   </compounddef>
 </doxygen>

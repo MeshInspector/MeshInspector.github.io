@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SurfaceManipulationWidget_1_1PickedVertData" kind="struct" language="C++" prot="protected">
+    <compoundname>MR::SurfaceManipulationWidget::PickedVertData</compoundname>
+    <includes refid="MRSurfaceManipulationWidget_8h" local="no">MRViewer/MRSurfaceManipulationWidget.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac3a67a467bdc711c843eebdc84c4afc0" kind="variable"><name>target</name></member>
+      <member refid="group__GeneralGroup_1gaf5f398eb21b5c7e30480b4dbea5e0a51" kind="variable"><name>minMouseDistSq</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="208" column="5" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="209" bodyend="212"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf5f398eb21b5c7e30480b4dbea5e0a51" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::PickedVertData</scope><name>minMouseDistSq</name></member>
+      <member refid="group__GeneralGroup_1gac3a67a467bdc711c843eebdc84c4afc0" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::PickedVertData</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,13 +1,13 @@
 var MROffset_8h =
 [
-    [ "doubleOffsetMesh", "MROffset_8h.html#gacc11e2c793b76a5cae9e076283d14a41", null ],
-    [ "generalOffsetMesh", "MROffset_8h.html#ga5edbfcffae3bcdb000d83b7c6cf9e050", null ],
-    [ "mcOffsetMesh", "MROffset_8h.html#ga2feac3a50eec5b2f2d371d843f869f27", null ],
-    [ "mcShellMeshRegion", "MROffset_8h.html#ga26c58403810ae559f5aa4b2e7e0dd80d", null ],
-    [ "offsetMesh", "MROffset_8h.html#gaa8cff093ce429503e9b5c0e33d5b9080", null ],
-    [ "offsetOneDirection", "MROffset_8h.html#ga9ec48e1b0c1c9a1cca3e8368175b857e", null ],
-    [ "offsetPolyline", "MROffset_8h.html#gaa6f9ce8f2f7a4b39c759f54fbfede167", null ],
-    [ "sharpOffsetMesh", "MROffset_8h.html#gac1a0e7e32c8d591b83f66462ad4f89ef", null ],
-    [ "suggestVoxelSize", "MROffset_8h.html#ga346ad7a38921d6822ceffafc1eba769d", null ],
-    [ "thickenMesh", "MROffset_8h.html#ga966b3824bea42f802c68817d2edfde70", null ]
+    [ "MR::doubleOffsetMesh", "group__GeneralGroup.html#ga6acf9887747227cdd2fed4f4c202638f", null ],
+    [ "MR::generalOffsetMesh", "group__GeneralGroup.html#ga5294ca3a11f20ed63340b77a7eb9b18c", null ],
+    [ "MR::mcOffsetMesh", "group__GeneralGroup.html#gaeb9d1a8e4c95107a2e39717b1cf2efbf", null ],
+    [ "MR::mcShellMeshRegion", "group__GeneralGroup.html#gae4beec7cad6b11ac51fda4b561931df2", null ],
+    [ "MR::offsetMesh", "group__GeneralGroup.html#ga9451ab00d17418a216cab567f73b88ac", null ],
+    [ "MR::offsetOneDirection", "group__GeneralGroup.html#ga82129a33777afd02ab3b45b1062ef797", null ],
+    [ "MR::offsetPolyline", "group__GeneralGroup.html#ga50300aa7300f1e51f093d8351731d7f3", null ],
+    [ "MR::sharpOffsetMesh", "group__GeneralGroup.html#gacda5330d3946fce8cbf441e6f2d257b8", null ],
+    [ "MR::suggestVoxelSize", "group__GeneralGroup.html#ga8134bd36bc30764272b23a2c614b0e84", null ],
+    [ "MR::thickenMesh", "group__GeneralGroup.html#gab71fd6f93b613c7d69006787b13e5f3b", null ]
 ];

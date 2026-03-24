@@ -1,7 +1,388 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxels_2config_8h" kind="file" language="C++">
-    <compoundname>MRVoxels/config.h</compoundname>
+    <compoundname>config.h</compoundname>
+    <includedby refid="MRVoxelsFwd_8h" local="yes">MRVoxels/MRVoxelsFwd.h</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
+        <link refid="MRIOFilesMenuItems_8h"/>
+      </node>
+      <node id="25">
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
+        <link refid="MRBinaryOperationsPlugin_8h"/>
+      </node>
+      <node id="32">
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
+        <link refid="MROpenRawVoxelsPlugin_8h"/>
+      </node>
+      <node id="22">
+        <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
+        <link refid="MRCudaPointsToDistanceVolume_8h"/>
+      </node>
+      <node id="45">
+        <label>MRCuda/MRCudaSweptVolume.h</label>
+        <link refid="MRCudaSweptVolume_8h"/>
+      </node>
+      <node id="4">
+        <label>MRViewer/MRCudaAccessor.h</label>
+        <link refid="MRCudaAccessor_8h"/>
+      </node>
+      <node id="15">
+        <label>MRViewer/MRMarkedVoxelSlice.h</label>
+        <link refid="MRMarkedVoxelSlice_8h"/>
+      </node>
+      <node id="5">
+        <label>MRViewer/MRRenderVolumeObject.h</label>
+        <link refid="MRRenderVolumeObject_8h"/>
+      </node>
+      <node id="6">
+        <label>MRVoxels/MRBoolean.h</label>
+        <link refid="MRBoolean_8h"/>
+      </node>
+      <node id="7">
+        <label>MRVoxels/MRCalcDims.h</label>
+        <link refid="MRCalcDims_8h"/>
+      </node>
+      <node id="8">
+        <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
+        <link refid="MRChangeVoxelSelectionAction_8h"/>
+      </node>
+      <node id="9">
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
+        <link refid="MRChangeVoxelsAction_8h"/>
+      </node>
+      <node id="10">
+        <label>MRVoxels/MRComputeVolume.h</label>
+        <link refid="MRComputeVolume_8h"/>
+      </node>
+      <node id="11">
+        <label>MRVoxels/MRDicom.h</label>
+        <link refid="MRDicom_8h"/>
+      </node>
+      <node id="12">
+        <label>MRVoxels/MRFillingSurface.h</label>
+        <link refid="MRFillingSurface_8h"/>
+      </node>
+      <node id="13">
+        <label>MRVoxels/MRFixUndercuts.h</label>
+        <link refid="MRFixUndercuts_8h"/>
+      </node>
+      <node id="14">
+        <label>MRVoxels/MRFloatGrid.h</label>
+        <link refid="MRFloatGrid_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MRVoxels/MRFloatGridComponents.h</label>
+        <link refid="MRFloatGridComponents_8h"/>
+      </node>
+      <node id="23">
+        <label>MRVoxels/MRMarchingCubes.h</label>
+        <link refid="MRMarchingCubes_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRVoxels/MRMeshToDistanceVolume.h</label>
+        <link refid="MRMeshToDistanceVolume_8h"/>
+      </node>
+      <node id="18">
+        <label>MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</label>
+        <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
+      </node>
+      <node id="24">
+        <label>MRVoxels/MRObjectVoxels.h</label>
+        <link refid="MRObjectVoxels_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MRVoxels/MROffset.h</label>
+        <link refid="MROffset_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRVoxels/MROpenVDBHelper.h</label>
+        <link refid="MROpenVDBHelper_8h"/>
+      </node>
+      <node id="36">
+        <label>MRVoxels/MRPartialOffset.h</label>
+        <link refid="MRPartialOffset_8h"/>
+      </node>
+      <node id="38">
+        <label>MRVoxels/MRPointsToDistanceVolume.h</label>
+        <link refid="MRPointsToDistanceVolume_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRVoxels/MRPointsToMeshFusion.h</label>
+        <link refid="MRPointsToMeshFusion_8h"/>
+      </node>
+      <node id="40">
+        <label>MRVoxels/MRPolylineToVoxels.h</label>
+        <link refid="MRPolylineToVoxels_8h"/>
+      </node>
+      <node id="41">
+        <label>MRVoxels/MRRebuildMesh.h</label>
+        <link refid="MRRebuildMesh_8h"/>
+      </node>
+      <node id="42">
+        <label>MRVoxels/MRScalarConvert.h</label>
+        <link refid="MRScalarConvert_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MRVoxels/MRScanHelpers.h</label>
+        <link refid="MRScanHelpers_8h"/>
+      </node>
+      <node id="47">
+        <label>MRVoxels/MRSequentialNester.h</label>
+        <link refid="MRSequentialNester_8h"/>
+      </node>
+      <node id="44">
+        <label>MRVoxels/MRSweptVolume.h</label>
+        <link refid="MRSweptVolume_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRVoxels/MRTeethMaskToDirectionVolume.h</label>
+        <link refid="MRTeethMaskToDirectionVolume_8h"/>
+      </node>
+      <node id="46">
+        <label>MRVoxels/MRTetrisNesting.h</label>
+        <link refid="MRTetrisNesting_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MRVoxels/MRToolPath.h</label>
+        <link refid="MRToolPath_8h"/>
+      </node>
+      <node id="49">
+        <label>MRVoxels/MRVDBConversions.h</label>
+        <link refid="MRVDBConversions_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRVoxels/MRVDBFloatGrid.h</label>
+        <link refid="MRVDBFloatGrid_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MRVoxels/MRVDBProgressInterrupter.h</label>
+        <link refid="MRVDBProgressInterrupter_8h"/>
+      </node>
+      <node id="19">
+        <label>MRVoxels/MRVolumeInterpolation.h</label>
+        <link refid="MRVolumeInterpolation_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRVoxels/MRVolumeSegment.h</label>
+        <link refid="MRVolumeSegment_8h"/>
+      </node>
+      <node id="51">
+        <label>MRVoxels/MRVoxelFilter.h</label>
+        <link refid="MRVoxelFilter_8h"/>
+      </node>
+      <node id="52">
+        <label>MRVoxels/MRVoxelGraphCut.h</label>
+        <link refid="MRVoxelGraphCut_8h"/>
+      </node>
+      <node id="53">
+        <label>MRVoxels/MRVoxelPath.h</label>
+        <link refid="MRVoxelPath_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MRVoxels/MRVoxelsApplyTransform.h</label>
+        <link refid="MRVoxelsApplyTransform_8h"/>
+      </node>
+      <node id="54">
+        <label>MRVoxels/MRVoxelsConversionsByParts.h</label>
+        <link refid="MRVoxelsConversionsByParts_8h"/>
+      </node>
+      <node id="2">
+        <label>MRVoxels/MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MRVoxels/MRVoxelsLoad.h</label>
+        <link refid="MRVoxelsLoad_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRVoxels/MRVoxelsSave.h</label>
+        <link refid="MRVoxelsSave_8h"/>
+      </node>
+      <node id="21">
+        <label>MRVoxels/MRVoxelsVolume.h</label>
+        <link refid="MRVoxelsVolume_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRVoxels/MRVoxelsVolumeAccess.h</label>
+        <link refid="MRVoxelsVolumeAccess_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRVoxels/MRVoxelsVolumeCachingAccessor.h</label>
+        <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
+      </node>
+      <node id="26">
+        <label>MRVoxels/MRWeightedPointsShell.h</label>
+        <link refid="MRWeightedPointsShell_8h"/>
+      </node>
+      <node id="1">
+        <label>MRVoxels/config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -14,6 +395,6 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config_cmake.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/config.h"/>
+    <location file="MRVoxels/config.h"/>
   </compounddef>
 </doxygen>

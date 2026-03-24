@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TextureBitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TextureBitSet</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -25,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56274" bodyend="56275"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57571" bodyend="57572"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1af84e5d62b39dacebf1a4bbe0ef569c85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -42,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56277" bodyend="56280"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57574" bodyend="57577"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -65,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56283" bodyend="56284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57580" bodyend="57581"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -88,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56287" bodyend="56288"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57584" bodyend="57585"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +97,6 @@
         <argsstring>(self, TextureBitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -113,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56289" bodyend="56290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57586" bodyend="57587"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a2f8ae29589c2aa2bde6ccdd1830ffd88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -121,7 +119,6 @@
         <argsstring>(self, TextureBitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -136,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56291" bodyend="56292"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57588" bodyend="57589"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a0d3ff17f538ec7891dab74243a440dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -144,7 +141,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -155,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56294" bodyend="56295"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57591" bodyend="57592"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a0dfeaeb7cbfeb7e947f2635f5e1ad232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -163,7 +159,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -185,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56297" bodyend="56300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57594" bodyend="57597"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -193,7 +188,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -210,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56302" bodyend="56305"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57599" bodyend="57602"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -218,7 +212,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -235,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56307" bodyend="56310"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57604" bodyend="57607"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a23c662fb866debfb856dba7682a5421c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -243,7 +236,6 @@
         <argsstring>(self, TextureBitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -260,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56312" bodyend="56315"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57609" bodyend="57612"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a037760267dc5c133da70d212d3bf1d1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -268,7 +260,6 @@
         <argsstring>(self, TextureBitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -283,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56316" bodyend="56317"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57613" bodyend="57614"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a2c91ad89ed4ecd241aca6b3b760f2799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -291,7 +282,6 @@
         <argsstring>(self, TextureBitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -306,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56318" bodyend="56319"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57615" bodyend="57616"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a6c98feae275ecf3ffd17c59d4703538b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref>]</type>
@@ -314,7 +304,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -325,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56320" bodyend="56321"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57617" bodyend="57618"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a2cde06c67ddce2ba7409acd18542ba21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -333,7 +322,6 @@
         <argsstring>(self, TextureBitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -348,7 +336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56322" bodyend="56323"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57619" bodyend="57620"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1af0b6ac70b88b380f3f51a8a7f158da8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -356,7 +344,6 @@
         <argsstring>(self, TextureBitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -371,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56324" bodyend="56325"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57621" bodyend="57622"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a74578d9e7e34e5132036206163480bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -379,7 +366,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -390,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56326" bodyend="56327"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57623" bodyend="57624"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1aa6b5555229b9cd4e6d018a10f61c39fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -398,7 +384,6 @@
         <argsstring>(self, TextureBitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -413,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56328" bodyend="56329"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57625" bodyend="57626"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a12052dc58db7c1d117a7b38a84b2adb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -421,7 +406,6 @@
         <argsstring>(self, TextureBitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.TextureBitSet.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -436,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56330" bodyend="56331"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57627" bodyend="57628"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1aad305548e8acd90eaa55b268aaa6acd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -470,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56333" bodyend="56334"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57630" bodyend="57631"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a6fd8bc9b807c3b74d2ac7c566f4fe4ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -500,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56336" bodyend="56337"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57633" bodyend="57634"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a0b5f3d39211515c61af61310eeb9dc37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -530,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56338" bodyend="56339"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57635" bodyend="57636"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a3753414617e9a26eea32b10de5aed8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -551,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56340" bodyend="56343"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57637" bodyend="57640"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a17263eef564572fda45dddc9fc0b0641" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -570,7 +554,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56344" bodyend="56345"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57641" bodyend="57642"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a9957234c232f285d0ce2a97a053f78a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -591,7 +575,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56346" bodyend="56347"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57643" bodyend="57644"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ab4e37ff0bc7c2dc8bc6d8611889f4d20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -612,7 +596,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56348" bodyend="56349"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57645" bodyend="57646"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a571502dc19850d5c31a328eef68e03dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -633,7 +617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56350" bodyend="56351"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57647" bodyend="57648"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a13010249fb1e6b145e303fbf48c20f00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -654,7 +638,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56352" bodyend="56353"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57649" bodyend="57650"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a030744dec45f9c89270cfbe2ca9b69ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -679,7 +663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56354" bodyend="56355"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57651" bodyend="57652"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a110f217485b5b44983b74dd7423432c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -704,7 +688,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56356" bodyend="56357"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57653" bodyend="57654"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1afdbc239023298d7e7cd7dd9300e80c70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -731,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56359" bodyend="56360"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57656" bodyend="57657"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1adccb3c4dcb26e5eb01a7d49605b25128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -754,7 +738,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56362" bodyend="56363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57659" bodyend="57660"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a501ca697c0df73930a2a118138b599cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -773,7 +757,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56365" bodyend="56366"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57662" bodyend="57663"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a8a97c0795ff1c65a6ede2a8d6b1ac31d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -795,7 +779,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56368" bodyend="56369"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57665" bodyend="57666"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a15344ecdefe72a6475c625f9905b57e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -817,7 +801,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56371" bodyend="56372"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57668" bodyend="57669"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1aa669eae6d2e96b2aeef7fa818ecb4e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -839,7 +823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56374" bodyend="56375"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57671" bodyend="57672"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a433e68781317128861352427daa207c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -865,7 +849,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56377" bodyend="56378"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57674" bodyend="57675"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ad24538355393557fcda8e508b5c4beb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -891,7 +875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56380" bodyend="56381"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57677" bodyend="57678"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1af44b693e531b0c5f121697aa0430fe81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -916,7 +900,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56382" bodyend="56385"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57679" bodyend="57682"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a990726a1ac1e9b03de824784c3f5afa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -941,7 +925,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56386" bodyend="56389"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57683" bodyend="57686"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ac84d2dab038b85454efab1df371e2761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -966,7 +950,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56390" bodyend="56393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57687" bodyend="57690"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ada471c16cc241b7c0750e4ef9bca3a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -993,7 +977,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56395" bodyend="56396"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57692" bodyend="57693"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1aa8836fe022efa67fbad2b76b16a25be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -1016,7 +1000,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56398" bodyend="56399"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57695" bodyend="57696"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a1f69f227e20b60bb4b4e68f0f9aa522c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -1035,7 +1019,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56401" bodyend="56402"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57698" bodyend="57699"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ab0b40f2395c04e20404dd41cd2b91660" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -1066,7 +1050,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56404" bodyend="56405"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57701" bodyend="57702"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a4a3ad5a71f947bedd344e8ec4844e54a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -1093,7 +1077,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56407" bodyend="56408"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57704" bodyend="57705"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ac37bd5a1bb9b4c8c333033254b583e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -1116,7 +1100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56410" bodyend="56411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57707" bodyend="57708"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a6c61e0c3e1d79dd280b352a43c68e6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -1135,7 +1119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56413" bodyend="56414"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57710" bodyend="57711"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1af2381fbf286b2b3a6f77dede3bf802f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
@@ -1164,7 +1148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56415" bodyend="56418"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57712" bodyend="57715"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ae306f19b6c69bd70c59b38ac37510115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1189,7 +1173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56419" bodyend="56420"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57716" bodyend="57717"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1abf373ba71c247cb91271cd64d29eae3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1217,7 +1201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56421" bodyend="56422"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57718" bodyend="57719"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1251,18 +1235,12 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56265" bodyend="56422"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57562" bodyend="57719"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TextureBitSet_1abeb6a5aa6812a8c78f92e7b935269d26" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a2f8ae29589c2aa2bde6ccdd1830ffd88" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__iand__</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a47ee59c118ec12edd9e48b93ee2798a6" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a0d3ff17f538ec7891dab74243a440dc2" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__init__</name></member>
@@ -1276,13 +1254,23 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1TextureBitSet_1a2cde06c67ddce2ba7409acd18542ba21" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1af0b6ac70b88b380f3f51a8a7f158da8a" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a74578d9e7e34e5132036206163480bb6" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1aa6b5555229b9cd4e6d018a10f61c39fd" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a12052dc58db7c1d117a7b38a84b2adb2" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1aad305548e8acd90eaa55b268aaa6acd6" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a6fd8bc9b807c3b74d2ac7c566f4fe4ff" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a0b5f3d39211515c61af61310eeb9dc37" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a3753414617e9a26eea32b10de5aed8ae" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1af84e5d62b39dacebf1a4bbe0ef569c85" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a17263eef564572fda45dddc9fc0b0641" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a9957234c232f285d0ce2a97a053f78a3" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1ab4e37ff0bc7c2dc8bc6d8611889f4d20" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>find_first_not_set</name></member>
@@ -1293,26 +1281,41 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1TextureBitSet_1afdbc239023298d7e7cd7dd9300e80c70" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1adccb3c4dcb26e5eb01a7d49605b25128" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a501ca697c0df73930a2a118138b599cc" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a8a97c0795ff1c65a6ede2a8d6b1ac31d" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a15344ecdefe72a6475c625f9905b57e6" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1aa669eae6d2e96b2aeef7fa818ecb4e93" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a433e68781317128861352427daa207c0" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1ad24538355393557fcda8e508b5c4beb4" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1af44b693e531b0c5f121697aa0430fe81" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a990726a1ac1e9b03de824784c3f5afa2" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1ac84d2dab038b85454efab1df371e2761" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1ada471c16cc241b7c0750e4ef9bca3a0e" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1aa8836fe022efa67fbad2b76b16a25be7" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a1f69f227e20b60bb4b4e68f0f9aa522c" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1ab0b40f2395c04e20404dd41cd2b91660" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a4a3ad5a71f947bedd344e8ec4844e54a" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1ac37bd5a1bb9b4c8c333033254b583e0b" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1a6c61e0c3e1d79dd280b352a43c68e6d3" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1af2381fbf286b2b3a6f77dede3bf802f4" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1ae306f19b6c69bd70c59b38ac37510115" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1TextureBitSet_1abf373ba71c247cb91271cd64d29eae3f" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

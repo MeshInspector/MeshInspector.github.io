@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMapSave" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceMapSave</compoundname>
     <sectiondef kind="public-static-func">
@@ -120,7 +120,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="44" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapSave.cs" bodystart="4" bodyend="59"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="44" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="45" bodyend="63"/>
     <listofallmembers>
       <member refid="classMR_1_1DistanceMapSave_1ad2c46a3796f8ae801f2fdc9d7fbf41b3" prot="public" virt="non-virtual"><scope>MR::DistanceMapSave</scope><name>toAnySupportedFormat</name></member>
       <member refid="classMR_1_1DistanceMapSave_1a8d5a6944088df3384d615a495c64b210" prot="public" virt="non-virtual"><scope>MR::DistanceMapSave</scope><name>toMrDistanceMap</name></member>

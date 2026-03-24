@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OffsetContoursRestoreZParams" kind="class" language="C#" prot="public">
     <compoundname>MR::OffsetContoursRestoreZParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetContoursRestoreZParams</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1OffsetContoursRestoreZParams_1a07e5bf2e41f86f28bb9655921d110710" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffsetContourIndexRefConstMROffsetContoursOriginsRef</type>
-        <definition>new unsafe MR.Std.Function_FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffsetContourIndexRefConstMROffsetContoursOriginsRef MR.OffsetContoursRestoreZParams.zCallback</definition>
+      <memberdef kind="property" id="classMR_1_1OffsetContoursRestoreZParams_1ae6d8c64896790f543689b79710e3a0e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Float_From_ConstStdVectorStdVectorMRVector2fRef_ConstMROffsetContourIndexRef_ConstMROffsetContoursOriginsRef</type>
+        <definition>new unsafe MR.Std.Function_Float_From_ConstStdVectorStdVectorMRVector2fRef_ConstMROffsetContourIndexRef_ConstMROffsetContoursOriginsRef MR.OffsetContoursRestoreZParams.zCallback</definition>
         <argsstring></argsstring>
         <name>zCallback</name>
         <qualifiedname>MR.OffsetContoursRestoreZParams.zCallback</qualifiedname>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="968" column="150" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="968" bodyend="968"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="986" column="150" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="986" bodyend="986"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1OffsetContoursRestoreZParams_1a1205e017a48c5fb39141381c4ee12a7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -25,13 +25,13 @@
         <name>relaxIterations</name>
         <qualifiedname>MR.OffsetContoursRestoreZParams.relaxIterations</qualifiedname>
         <briefdescription>
-<para>if &gt; 0 z coordinate will be relaxed this many iterations </para>
+<para>if &amp;gt; 0 z coordinate will be relaxed this many iterations </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="971" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="971" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="991" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="991" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="990" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="990" bodyend="994"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1010" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1010" bodyend="1014"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1000" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1000" bodyend="1006"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1020" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1020" bodyend="1026"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursRestoreZParams_1a0a68f7e2337e127df29eabf68780492b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1011" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1011" bodyend="1018"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1031" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1031" bodyend="1038"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursRestoreZParams_1a6c7d9ee97891055c2811a5319ec548a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -108,13 +108,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OffsetContoursRestoreZParams.OffsetContoursRestoreZParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContoursRestoreZParams_1aa4f75c46da33daf7b4db0744e4d90218" kindref="member">MR.OffsetContoursRestoreZParams.OffsetContoursRestoreZParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1023" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1023" bodyend="1030"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1043" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1043" bodyend="1050"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursRestoreZParams_1a0b572b474aa921a824a612a020f72bad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -127,13 +127,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OffsetContoursRestoreZParams.OffsetContoursRestoreZParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContoursRestoreZParams_1aa4f75c46da33daf7b4db0744e4d90218" kindref="member">MR.OffsetContoursRestoreZParams.OffsetContoursRestoreZParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1035" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1035" bodyend="1035"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1055" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1055" bodyend="1055"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursRestoreZParams_1aa636bfd02f598b44e280a9325331cfb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -146,13 +146,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OffsetContoursRestoreZParams.OffsetContoursRestoreZParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContoursRestoreZParams_1aa4f75c46da33daf7b4db0744e4d90218" kindref="member">MR.OffsetContoursRestoreZParams.OffsetContoursRestoreZParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1040" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1040" bodyend="1040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1060" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1060" bodyend="1060"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OffsetContoursRestoreZParams_1ad49982a3cbaa30a2a68640f26fa949ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1OffsetContoursRestoreZParams" kindref="compound">MR.OffsetContoursRestoreZParams</ref></type>
@@ -165,13 +165,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.OffsetContoursRestoreZParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::OffsetContoursRestoreZParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1045" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1045" bodyend="1052"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="1065" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="1065" bodyend="1072"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -180,48 +180,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_OffsetContoursRestoreZParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OffsetContoursRestoreZParams</label>
         <link refid="classMR_1_1OffsetContoursRestoreZParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OffsetContoursRestoreZParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_OffsetContoursRestoreZParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_OffsetContoursRestoreZParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OffsetContoursRestoreZParams</label>
         <link refid="classMR_1_1OffsetContoursRestoreZParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OffsetContoursRestoreZParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_OffsetContoursRestoreZParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="966" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="967" bodyend="1053"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="984" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="985" bodyend="1073"/>
     <listofallmembers>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1ad49982a3cbaa30a2a68640f26fa949ab" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>assign</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1ad8e3b8d97838b0496237b610132db6e2" prot="package" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OffsetContoursRestoreZParams</name></member>
@@ -231,7 +231,7 @@
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1a0b572b474aa921a824a612a020f72bad" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OffsetContoursRestoreZParams</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1aa636bfd02f598b44e280a9325331cfb7" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OffsetContoursRestoreZParams</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1a1205e017a48c5fb39141381c4ee12a7c" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>relaxIterations</name></member>
-      <member refid="classMR_1_1OffsetContoursRestoreZParams_1a07e5bf2e41f86f28bb9655921d110710" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>zCallback</name></member>
+      <member refid="classMR_1_1OffsetContoursRestoreZParams_1ae6d8c64896790f543689b79710e3a0e6" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>zCallback</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SplineSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SplineSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SplineSettings</basecompoundref>
@@ -11,13 +11,13 @@
         <name>samplingStep</name>
         <qualifiedname>MR.SplineSettings.samplingStep</qualifiedname>
         <briefdescription>
+<para>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance </para>
         </briefdescription>
         <detaileddescription>
-<para>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="414" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="414" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="432" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="432" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SplineSettings_1ac7b67b2b0ad9abf82296eac7ebc2dc01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="417" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="417" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="437" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="437" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SplineSettings_1a1db69d1c397c5f5d0ea6a9657d00342b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -41,13 +41,13 @@
         <name>iterations</name>
         <qualifiedname>MR.SplineSettings.iterations</qualifiedname>
         <briefdescription>
+<para>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm </para>
         </briefdescription>
         <detaileddescription>
-<para>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="422" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="422" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="444" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="444" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SplineSettings_1acd47e5981765d598bc1df9f48ff40424" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_MRVector3f</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="425" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="426" bodyend="435"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="449" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="450" bodyend="459"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SplineSettings_1af4ce04eeca57df7b3d750330b95de7f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="438" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="438" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="464" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="464" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="442" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="442" bodyend="446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="468" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="468" bodyend="472"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="452" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="452" bodyend="458"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="478" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="478" bodyend="484"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SplineSettings_1afd0b9d49b9549e94718d00fd9cd21c42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="463" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="463" bodyend="470"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="489" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="489" bodyend="496"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SplineSettings_1a4d28749dd86311aaf1319d8c3d28b29c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SplineSettings.SplineSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SplineSettings_1ac7cadd8e66f73f734b4ff83a20b17777" kindref="member">MR.SplineSettings.SplineSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="475" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="475" bodyend="482"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="501" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="501" bodyend="508"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SplineSettings_1ace8c191a2ac6f0eded8020ed9fdd68f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SplineSettings.SplineSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SplineSettings_1ac7cadd8e66f73f734b4ff83a20b17777" kindref="member">MR.SplineSettings.SplineSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="487" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="487" bodyend="487"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="513" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="513" bodyend="513"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SplineSettings_1a3534c65de78e3b99c8303dee9a380bee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SplineSettings" kindref="compound">MR.SplineSettings</ref></type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SplineSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SplineSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="492" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="492" bodyend="499"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="518" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="518" bodyend="525"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -219,48 +219,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SplineSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SplineSettings</label>
         <link refid="classMR_1_1SplineSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SplineSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SplineSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SplineSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SplineSettings</label>
         <link refid="classMR_1_1SplineSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SplineSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SplineSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="410" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="411" bodyend="500"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="426" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="427" bodyend="526"/>
     <listofallmembers>
       <member refid="classMR_1_1SplineSettings_1a3534c65de78e3b99c8303dee9a380bee" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1SplineSettings_1ac7b67b2b0ad9abf82296eac7ebc2dc01" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>controlStability</name></member>

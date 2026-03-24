@@ -1,11 +1,7 @@
 var MRFixSelfIntersections_8h =
 [
-    [ "MR_expected_MR_FaceBitSet_std_string", "MRFixSelfIntersections_8h.html#a6aeecd4fac2aea90513510421de3f37b", null ],
-    [ "MR_expected_void_std_string", "MRFixSelfIntersections_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_Mesh", "MRFixSelfIntersections_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_SelfIntersections_Settings", "MRFixSelfIntersections_8h.html#a4f6deedc955d5097e00c2842d51d3cef", null ],
     [ "MR_SelfIntersections_Settings_Method", "MRFixSelfIntersections_8h.html#aa4201e50c5a079001bae9b509dc2f8c4", null ],
-    [ "MR_std_function_bool_from_float", "MRFixSelfIntersections_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_SelfIntersections_Settings_Method", "MRFixSelfIntersections_8h.html#a4c56632fe368956d2a2ca09ba4ec21b7", [
       [ "MR_SelfIntersections_Settings_Method_Relax", "MRFixSelfIntersections_8h.html#a4c56632fe368956d2a2ca09ba4ec21b7ac28c438771167d2ea8dad8bc0d44d467", null ],
       [ "MR_SelfIntersections_Settings_Method_CutAndFill", "MRFixSelfIntersections_8h.html#a4c56632fe368956d2a2ca09ba4ec21b7ae9afb0710cc07ee7b617f9abebb8dbaa", null ]

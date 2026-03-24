@@ -1,8 +1,5 @@
 var MRTriMesh_8h =
 [
-    [ "MR_Triangulation", "MRTriMesh_8h.html#a33f2cead15f3bf37534d3678feb4af22", null ],
-    [ "MR_TriMesh", "MRTriMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645", null ],
-    [ "MR_VertCoords", "MRTriMesh_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_TriMesh_AssignFromAnother", "MRTriMesh_8h.html#aed065bf8680186990084059c32fc506c", null ],
     [ "MR_TriMesh_ConstructFrom", "MRTriMesh_8h.html#ac38b40ec16a66c2a7ef4d31c04413a3b", null ],
     [ "MR_TriMesh_ConstructFromAnother", "MRTriMesh_8h.html#a091baa8258ab10c9c7753618ec811488", null ],

@@ -1,0 +1,1629 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__FaceBitSet_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_FaceBitSet.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_FaceBitSet.h</label>
+        <link refid="std__vector__MR__FaceBitSet_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1aff121cebf341697ce9dd27d27960c7fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a1aae2b704f40331e0954a4b2c6fabf31" kindref="member">MR_std_vector_MR_FaceBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="30" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="30" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1af4df423baf3bd5b8cf6dbe4c2d2b0516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1aaee07599806064749a08c6127ec07661" kindref="member">MR_std_vector_MR_FaceBitSet_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1ac0769573766bb8d681ec6d2abcf48268" kindref="member">MR_std_vector_MR_FaceBitSet_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1ae1fc823f8e97416aca425899c2671d20" kindref="member">MR_std_vector_MR_FaceBitSet_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="35" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="35" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a47f1c92ecfbc78a13ec3d28f2a8405f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_FaceBitSet *other)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a1aae2b704f40331e0954a4b2c6fabf31" kindref="member">MR_std_vector_MR_FaceBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="41" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="41" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a8d49a54e06f9d1350bdb349b6acc485c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, MR_PassBy other_pass_by, MR_std_vector_MR_FaceBitSet *other)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a1aae2b704f40331e0954a4b2c6fabf31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_Destroy</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1aaee07599806064749a08c6127ec07661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ae1fc823f8e97416aca425899c2671d20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="57" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="57" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ac0769573766bb8d681ec6d2abcf48268" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="61" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="61" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1adc77ed1685964f79f9e85ec68d1bb229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_FaceBitSet_size</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_size</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a7571fdc56556ef44e52667ad69e99561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FaceBitSet_empty</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_empty</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1aa24f52d76710ca88146b73c99b663aad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_resize</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_resize</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a1695614c8b43df2529d3bce477c537f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, size_t new_size, const MR_FaceBitSet *value)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ac65c3328530ed224e520c1252cf20172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_clear</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_clear</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a8e954b94d5769b7afd84f8dfd1cb12bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_FaceBitSet_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_capacity</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1aff4f1d3a31f4717ce0084e4876abd277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_reserve</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_reserve</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ac8c743f46e0df45f2c19f4ac7900adca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a1ee1e355b8fe7beda389116f758a58a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API const MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_at</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_at</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="101" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="101" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a376d00a73dfdf285f45bf1204751b0ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_at_mut</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="107" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="107" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ab5918a1e113c3e4b809785860ae76af5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API const MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_front</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_front</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="112" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="112" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1af122c4e1cfb8844ca8979a1f9e3cad4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_front_mut</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="117" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="117" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1addea67b40a79918e7fa31be4ae57abfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API const MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_back</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_back</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="122" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="122" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ae63f25abe8b830164da9d4ebef2edb4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_back_mut</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="127" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="127" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a7096af5e3894c62fba71812f0e0dec35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_push_back</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, MR_PassBy new_elem_pass_by, MR_FaceBitSet *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_push_back</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a9ea188e835ae1c29b9431a7f10ae02fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_pop_back</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ac0a17a5b8549b940920637af0d671baa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_insert</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, size_t position, MR_PassBy new_elem_pass_by, MR_FaceBitSet *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_insert</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="141" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a31d007137f708d358b5c397458c65356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_erase</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_erase</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="145" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a67ea988ec2ec0b7968b3d78892d2db4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_iterator *position, MR_PassBy new_elem_pass_by, MR_FaceBitSet *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="151" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ad7df582fff0fa096dd680c6fc2c2e088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1afd2d6ae1139564b5d73421e944e94943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_const_iterator *position, MR_PassBy new_elem_pass_by, MR_FaceBitSet *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ac2034b00eca38b1aae912bb2b342d388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a6189560c6c87ed2dae81c124996098cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_const_iterator * MR_std_vector_MR_FaceBitSet_begin</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_begin</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a2321d29f13a7ebd302cd1d6af162aac3" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="173" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="173" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ae6b5a149a8018303fa2fd8cef57c75aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FaceBitSet_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_is_begin</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a0ac97524c3d838ed3c033c8b67c97d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_iterator * MR_std_vector_MR_FaceBitSet_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_begin_mut</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a76a74566d64eb40484205ddf4ddd358b" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="184" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="184" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a00d5d1fab6e3dcfabc903f0c871828f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FaceBitSet_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1adfb82525086beb4e376cab4d11675506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_const_iterator * MR_std_vector_MR_FaceBitSet_end</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_end</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a2321d29f13a7ebd302cd1d6af162aac3" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="195" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="195" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a52b99931df062742aa4ae78d64bdc66c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FaceBitSet_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_is_end</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1aedc42ad3d4dfd62e2ef28ea7d02ec422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_iterator * MR_std_vector_MR_FaceBitSet_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_end_mut</name>
+        <param>
+          <type><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a76a74566d64eb40484205ddf4ddd358b" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="206" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="206" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a8eb98ead432cdb23595982aafd01ecf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FaceBitSet_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ac842fd4c3ebc184aaf298fb10ed28cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_FaceBitSet_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_to_index</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="216" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1afae51c64ecba28be3184d4b1cc8b6aae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_FaceBitSet_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet *_this, const MR_std_vector_MR_FaceBitSet_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a0c30b897352baacbd20f7f31382bdf9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_const_iterator * MR_std_vector_MR_FaceBitSet_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a2321d29f13a7ebd302cd1d6af162aac3" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="225" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="225" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a982787312cfbda3bc7a32d15c80d943f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_const_iterator * MR_std_vector_MR_FaceBitSet_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1aa076a6477b55511758073083186ec7ed" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a9a37fe6c8bb25e1647787136c6aae291" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a16ebecb0abf9b3e9f3a8380da3840bba" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="230" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="230" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ac716960ef4aa1e489e0c913c7ae4c1e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_const_iterator * MR_std_vector_MR_FaceBitSet_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a2321d29f13a7ebd302cd1d6af162aac3" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="237" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="237" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a64c4723bfdefdb5cf8a357c677ff921e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_const_iterator *_this, const MR_std_vector_MR_FaceBitSet_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a2321d29f13a7ebd302cd1d6af162aac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1aa076a6477b55511758073083186ec7ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="250" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a16ebecb0abf9b3e9f3a8380da3840bba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FaceBitSet_const_iterator * MR_std_vector_MR_FaceBitSet_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="254" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="254" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a9a37fe6c8bb25e1647787136c6aae291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_const_iterator * MR_std_vector_MR_FaceBitSet_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="258" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="258" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a841a60ea92f30c2aeb56ebabef7b3251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_const_iterator * MR_std_vector_MR_FaceBitSet_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a2321d29f13a7ebd302cd1d6af162aac3" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="263" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="263" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a5e5e3834e375d549e45a35fa454ad38e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_iterator * MR_std_vector_MR_FaceBitSet_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a76a74566d64eb40484205ddf4ddd358b" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="267" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="267" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a106c6be1cc8e0a04eabc7079615b20bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_iterator * MR_std_vector_MR_FaceBitSet_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a78e68afc9c6f111b9e2584e0eb473413" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a181a64d9b61fea41b29432ecc1f8911b" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a13b63a97a758c9f3d7d49e55f841c5eb" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="272" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="272" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1abb591c9940fdba180d57f93d019ecbc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_iterator * MR_std_vector_MR_FaceBitSet_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceBitSet_8h_1a76a74566d64eb40484205ddf4ddd358b" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="279" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="279" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a9e5545a4d74be07e0fc34b0ebbff69c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_iterator *_this, const MR_std_vector_MR_FaceBitSet_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a76a74566d64eb40484205ddf4ddd358b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a78e68afc9c6f111b9e2584e0eb473413" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a13b63a97a758c9f3d7d49e55f841c5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FaceBitSet_iterator * MR_std_vector_MR_FaceBitSet_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="296" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="296" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a181a64d9b61fea41b29432ecc1f8911b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FaceBitSet_iterator * MR_std_vector_MR_FaceBitSet_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="300" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="300" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a526f1d540ceaa90deded89e03e1a9cce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API const MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="306" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="306" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1aff34e3cbc37b1dc7a04877b171c2ca3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="310" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a31896bb33273f1fb6e332953752448e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1aeaef7b717e87d06202ab19d957297454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a9e31d9b96828570a5ad56ee1781c6277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_FaceBitSet_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_const_iterator *a, const MR_std_vector_MR_FaceBitSet_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_FaceBitSet_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="323" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="323" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ada9139c7511f47ee28811916f1b0f9e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_FaceBitSet_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_const_iterator *a, const MR_std_vector_MR_FaceBitSet_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_FaceBitSet_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a23875a83f889bac323a5ec804c44e84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_FaceBitSet * MR_std_vector_MR_FaceBitSet_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="334" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="334" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a582ac90ad23719986126d1a3a77e943d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a74c61fdf51278a1758b58f6beda44754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1ae7aa900e8b2058dd0c3d625f4f6b8fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FaceBitSet_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_FaceBitSet_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_FaceBitSet_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a6c0e29d5d6079e05e25eeb90947c06e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_FaceBitSet_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_iterator *a, const MR_std_vector_MR_FaceBitSet_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_FaceBitSet_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FaceBitSet_8h_1a0e2a7afbde61bbcb34e671a8dd498451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_FaceBitSet_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FaceBitSet_iterator *a, const MR_std_vector_MR_FaceBitSet_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_FaceBitSet_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h" declline="356" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__FaceBitSet_8h_1aff121cebf341697ce9dd27d27960c7fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1aff121cebf341697ce9dd27d27960c7fc" kindref="member">MR_std_vector_MR_FaceBitSet_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__FaceBitSet_8h_1af4df423baf3bd5b8cf6dbe4c2d2b0516" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1af4df423baf3bd5b8cf6dbe4c2d2b0516" kindref="member">MR_std_vector_MR_FaceBitSet_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__FaceBitSet_8h_1a47f1c92ecfbc78a13ec3d28f2a8405f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a47f1c92ecfbc78a13ec3d28f2a8405f0" kindref="member">MR_std_vector_MR_FaceBitSet_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__FaceBitSet_8h_1a8d49a54e06f9d1350bdb349b6acc485c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a8d49a54e06f9d1350bdb349b6acc485c" kindref="member">MR_std_vector_MR_FaceBitSet_AssignFromAnother</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__FaceBitSet_8h_1a1aae2b704f40331e0954a4b2c6fabf31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a1aae2b704f40331e0954a4b2c6fabf31" kindref="member">MR_std_vector_MR_FaceBitSet_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__FaceBitSet_8h_1aaee07599806064749a08c6127ec07661" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1aaee07599806064749a08c6127ec07661" kindref="member">MR_std_vector_MR_FaceBitSet_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__FaceBitSet_8h_1ae1fc823f8e97416aca425899c2671d20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1ae1fc823f8e97416aca425899c2671d20" kindref="member">MR_std_vector_MR_FaceBitSet_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__FaceBitSet_8h_1ac0769573766bb8d681ec6d2abcf48268" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1ac0769573766bb8d681ec6d2abcf48268" kindref="member">MR_std_vector_MR_FaceBitSet_OffsetMutablePtr</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__FaceBitSet_8h_1adc77ed1685964f79f9e85ec68d1bb229" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1adc77ed1685964f79f9e85ec68d1bb229" kindref="member">MR_std_vector_MR_FaceBitSet_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__FaceBitSet_8h_1a7571fdc56556ef44e52667ad69e99561" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a7571fdc56556ef44e52667ad69e99561" kindref="member">MR_std_vector_MR_FaceBitSet_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__FaceBitSet_8h_1aa24f52d76710ca88146b73c99b663aad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1aa24f52d76710ca88146b73c99b663aad" kindref="member">MR_std_vector_MR_FaceBitSet_resize</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__FaceBitSet_8h_1a1695614c8b43df2529d3bce477c537f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a1695614c8b43df2529d3bce477c537f2" kindref="member">MR_std_vector_MR_FaceBitSet_resize_with_default_value</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__FaceBitSet_8h_1ac65c3328530ed224e520c1252cf20172" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ac65c3328530ed224e520c1252cf20172" kindref="member">MR_std_vector_MR_FaceBitSet_clear</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__FaceBitSet_8h_1a8e954b94d5769b7afd84f8dfd1cb12bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a8e954b94d5769b7afd84f8dfd1cb12bf" kindref="member">MR_std_vector_MR_FaceBitSet_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__FaceBitSet_8h_1aff4f1d3a31f4717ce0084e4876abd277" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1aff4f1d3a31f4717ce0084e4876abd277" kindref="member">MR_std_vector_MR_FaceBitSet_reserve</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__FaceBitSet_8h_1ac8c743f46e0df45f2c19f4ac7900adca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ac8c743f46e0df45f2c19f4ac7900adca" kindref="member">MR_std_vector_MR_FaceBitSet_shrink_to_fit</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__FaceBitSet_8h_1a1ee1e355b8fe7beda389116f758a58a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a1ee1e355b8fe7beda389116f758a58a7" kindref="member">MR_std_vector_MR_FaceBitSet_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__FaceBitSet_8h_1a376d00a73dfdf285f45bf1204751b0ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a376d00a73dfdf285f45bf1204751b0ef" kindref="member">MR_std_vector_MR_FaceBitSet_at_mut</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__FaceBitSet_8h_1ab5918a1e113c3e4b809785860ae76af5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1ab5918a1e113c3e4b809785860ae76af5" kindref="member">MR_std_vector_MR_FaceBitSet_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__FaceBitSet_8h_1af122c4e1cfb8844ca8979a1f9e3cad4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1af122c4e1cfb8844ca8979a1f9e3cad4f" kindref="member">MR_std_vector_MR_FaceBitSet_front_mut</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__FaceBitSet_8h_1addea67b40a79918e7fa31be4ae57abfd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1addea67b40a79918e7fa31be4ae57abfd" kindref="member">MR_std_vector_MR_FaceBitSet_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__FaceBitSet_8h_1ae63f25abe8b830164da9d4ebef2edb4d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1ae63f25abe8b830164da9d4ebef2edb4d" kindref="member">MR_std_vector_MR_FaceBitSet_back_mut</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="std__vector__MR__FaceBitSet_8h_1a7096af5e3894c62fba71812f0e0dec35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a7096af5e3894c62fba71812f0e0dec35" kindref="member">MR_std_vector_MR_FaceBitSet_push_back</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="std__vector__MR__FaceBitSet_8h_1a9ea188e835ae1c29b9431a7f10ae02fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a9ea188e835ae1c29b9431a7f10ae02fe" kindref="member">MR_std_vector_MR_FaceBitSet_pop_back</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="std__vector__MR__FaceBitSet_8h_1ac0a17a5b8549b940920637af0d671baa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ac0a17a5b8549b940920637af0d671baa" kindref="member">MR_std_vector_MR_FaceBitSet_insert</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="std__vector__MR__FaceBitSet_8h_1a31d007137f708d358b5c397458c65356" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a31d007137f708d358b5c397458c65356" kindref="member">MR_std_vector_MR_FaceBitSet_erase</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="std__vector__MR__FaceBitSet_8h_1a67ea988ec2ec0b7968b3d78892d2db4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a67ea988ec2ec0b7968b3d78892d2db4b" kindref="member">MR_std_vector_MR_FaceBitSet_insert_at_mutable_iter</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="std__vector__MR__FaceBitSet_8h_1ad7df582fff0fa096dd680c6fc2c2e088" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ad7df582fff0fa096dd680c6fc2c2e088" kindref="member">MR_std_vector_MR_FaceBitSet_erase_at_mutable_iter</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__FaceBitSet_8h_1afd2d6ae1139564b5d73421e944e94943" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1afd2d6ae1139564b5d73421e944e94943" kindref="member">MR_std_vector_MR_FaceBitSet_insert_at_iter</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="std__vector__MR__FaceBitSet_8h_1ac2034b00eca38b1aae912bb2b342d388" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ac2034b00eca38b1aae912bb2b342d388" kindref="member">MR_std_vector_MR_FaceBitSet_erase_at_iter</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__FaceBitSet_8h_1a6189560c6c87ed2dae81c124996098cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a6189560c6c87ed2dae81c124996098cf" kindref="member">MR_std_vector_MR_FaceBitSet_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__MR__FaceBitSet_8h_1ae6b5a149a8018303fa2fd8cef57c75aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ae6b5a149a8018303fa2fd8cef57c75aa" kindref="member">MR_std_vector_MR_FaceBitSet_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__FaceBitSet_8h_1a0ac97524c3d838ed3c033c8b67c97d13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a0ac97524c3d838ed3c033c8b67c97d13" kindref="member">MR_std_vector_MR_FaceBitSet_begin_mut</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__MR__FaceBitSet_8h_1a00d5d1fab6e3dcfabc903f0c871828f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a00d5d1fab6e3dcfabc903f0c871828f5" kindref="member">MR_std_vector_MR_FaceBitSet_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__FaceBitSet_8h_1adfb82525086beb4e376cab4d11675506" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1adfb82525086beb4e376cab4d11675506" kindref="member">MR_std_vector_MR_FaceBitSet_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__MR__FaceBitSet_8h_1a52b99931df062742aa4ae78d64bdc66c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a52b99931df062742aa4ae78d64bdc66c" kindref="member">MR_std_vector_MR_FaceBitSet_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__FaceBitSet_8h_1aedc42ad3d4dfd62e2ef28ea7d02ec422" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1aedc42ad3d4dfd62e2ef28ea7d02ec422" kindref="member">MR_std_vector_MR_FaceBitSet_end_mut</ref>(<ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__MR__FaceBitSet_8h_1a8eb98ead432cdb23595982aafd01ecf7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a8eb98ead432cdb23595982aafd01ecf7" kindref="member">MR_std_vector_MR_FaceBitSet_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__vector__MR__FaceBitSet_8h_1ac842fd4c3ebc184aaf298fb10ed28cc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ac842fd4c3ebc184aaf298fb10ed28cc7" kindref="member">MR_std_vector_MR_FaceBitSet_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__vector__MR__FaceBitSet_8h_1afae51c64ecba28be3184d4b1cc8b6aae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FaceBitSet_8h_1afae51c64ecba28be3184d4b1cc8b6aae" kindref="member">MR_std_vector_MR_FaceBitSet_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__FaceBitSet_8h_1a0c30b897352baacbd20f7f31382bdf9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a0c30b897352baacbd20f7f31382bdf9e" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="std__vector__MR__FaceBitSet_8h_1a982787312cfbda3bc7a32d15c80d943f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a982787312cfbda3bc7a32d15c80d943f" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__vector__MR__FaceBitSet_8h_1ac716960ef4aa1e489e0c913c7ae4c1e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1ac716960ef4aa1e489e0c913c7ae4c1e7" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="std__vector__MR__FaceBitSet_8h_1a64c4723bfdefdb5cf8a357c677ff921e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a64c4723bfdefdb5cf8a357c677ff921e" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__FaceBitSet_8h_1a2321d29f13a7ebd302cd1d6af162aac3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a2321d29f13a7ebd302cd1d6af162aac3" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="std__vector__MR__FaceBitSet_8h_1aa076a6477b55511758073083186ec7ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1aa076a6477b55511758073083186ec7ed" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__FaceBitSet_8h_1a16ebecb0abf9b3e9f3a8380da3840bba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a16ebecb0abf9b3e9f3a8380da3840bba" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__FaceBitSet_8h_1a9a37fe6c8bb25e1647787136c6aae291" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a9a37fe6c8bb25e1647787136c6aae291" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="std__vector__MR__FaceBitSet_8h_1a841a60ea92f30c2aeb56ebabef7b3251" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a841a60ea92f30c2aeb56ebabef7b3251" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__FaceBitSet_8h_1a5e5e3834e375d549e45a35fa454ad38e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a5e5e3834e375d549e45a35fa454ad38e" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="std__vector__MR__FaceBitSet_8h_1a106c6be1cc8e0a04eabc7079615b20bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a106c6be1cc8e0a04eabc7079615b20bc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="std__vector__MR__FaceBitSet_8h_1abb591c9940fdba180d57f93d019ecbc5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1abb591c9940fdba180d57f93d019ecbc5" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="std__vector__MR__FaceBitSet_8h_1a9e5545a4d74be07e0fc34b0ebbff69c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a9e5545a4d74be07e0fc34b0ebbff69c6" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__FaceBitSet_8h_1a76a74566d64eb40484205ddf4ddd358b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a76a74566d64eb40484205ddf4ddd358b" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="std__vector__MR__FaceBitSet_8h_1a78e68afc9c6f111b9e2584e0eb473413" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a78e68afc9c6f111b9e2584e0eb473413" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__FaceBitSet_8h_1a13b63a97a758c9f3d7d49e55f841c5eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a13b63a97a758c9f3d7d49e55f841c5eb" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__FaceBitSet_8h_1a181a64d9b61fea41b29432ecc1f8911b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a181a64d9b61fea41b29432ecc1f8911b" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__FaceBitSet_8h_1a526f1d540ceaa90deded89e03e1a9cce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a526f1d540ceaa90deded89e03e1a9cce" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__FaceBitSet_8h_1aff34e3cbc37b1dc7a04877b171c2ca3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1aff34e3cbc37b1dc7a04877b171c2ca3d" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_incr</ref>(<ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__FaceBitSet_8h_1a31896bb33273f1fb6e332953752448e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a31896bb33273f1fb6e332953752448e4" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_decr</ref>(<ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__FaceBitSet_8h_1aeaef7b717e87d06202ab19d957297454" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1aeaef7b717e87d06202ab19d957297454" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__FaceBitSet_8h_1a9e31d9b96828570a5ad56ee1781c6277" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a9e31d9b96828570a5ad56ee1781c6277" kindref="member">MR_sub_MR_std_vector_MR_FaceBitSet_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="std__vector__MR__FaceBitSet_8h_1ada9139c7511f47ee28811916f1b0f9e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ada9139c7511f47ee28811916f1b0f9e6" kindref="member">MR_equal_MR_std_vector_MR_FaceBitSet_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ada60d7a7281ccbe12fe20549929fa307" kindref="member">MR_std_vector_MR_FaceBitSet_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__MR__FaceBitSet_8h_1a23875a83f889bac323a5ec804c44e84b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="std__vector__MR__FaceBitSet_8h_1a23875a83f889bac323a5ec804c44e84b" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__FaceBitSet_8h_1a582ac90ad23719986126d1a3a77e943d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a582ac90ad23719986126d1a3a77e943d" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_incr</ref>(<ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__FaceBitSet_8h_1a74c61fdf51278a1758b58f6beda44754" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a74c61fdf51278a1758b58f6beda44754" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_decr</ref>(<ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__FaceBitSet_8h_1ae7aa900e8b2058dd0c3d625f4f6b8fe7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1ae7aa900e8b2058dd0c3d625f4f6b8fe7" kindref="member">MR_std_vector_MR_FaceBitSet_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__FaceBitSet_8h_1a6c0e29d5d6079e05e25eeb90947c06e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a6c0e29d5d6079e05e25eeb90947c06e0" kindref="member">MR_sub_MR_std_vector_MR_FaceBitSet_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="std__vector__MR__FaceBitSet_8h_1a0e2a7afbde61bbcb34e671a8dd498451" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FaceBitSet_8h_1a0e2a7afbde61bbcb34e671a8dd498451" kindref="member">MR_equal_MR_std_vector_MR_FaceBitSet_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0307d3bcaadffe66273d48f5be3effbc" kindref="member">MR_std_vector_MR_FaceBitSet_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FaceBitSet.h"/>
+  </compounddef>
+</doxygen>

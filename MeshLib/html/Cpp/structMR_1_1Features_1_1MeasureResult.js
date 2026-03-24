@@ -7,7 +7,7 @@ var structMR_1_1Features_1_1MeasureResult =
       [ "badRelativeLocation", "group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2", null ],
       [ "notFinite", "group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c", null ]
     ] ],
-    [ "swapObjects", "group__GeneralGroup.html#ga0682477036fb2befa7ff871bab780be2", null ],
+    [ "swapObjects", "group__GeneralGroup.html#ga5dba144ad3a9ebca8c39bd09be9674e0", null ],
     [ "angle", "group__GeneralGroup.html#ga598c9f6b07a702e3e849bf9b0e6ec040", null ],
     [ "centerDistance", "group__GeneralGroup.html#ga31415c50f3b3e2ee62b2778114b20ec9", null ],
     [ "distance", "group__GeneralGroup.html#ga618a5c8cc475ae385a15f69aa6316d10", null ],

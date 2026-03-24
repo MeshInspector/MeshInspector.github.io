@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineIntersectionResult2" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineIntersectionResult2</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineIntersectionResult2</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="109" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="109" bodyend="109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="115" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="115" bodyend="115"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineIntersectionResult2_1a30a483de2b405b5beb7754fa22ab14a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="112" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="112" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="120" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="120" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="131" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="131" bodyend="135"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="139" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="139" bodyend="143"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="141" bodyend="147"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="149" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineIntersectionResult2_1a3fef73c0f2c7fe8c64f93d65ceb03beb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="152" bodyend="159"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="160" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="160" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineIntersectionResult2_1a8295a150b710fea9cfe5549a621a4f06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -109,13 +109,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PolylineIntersectionResult2.PolylineIntersectionResult2</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineIntersectionResult2_1aa8741a86b1c6b7bc43283a40283ebd74" kindref="member">MR.PolylineIntersectionResult2.PolylineIntersectionResult2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="164" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="164" bodyend="171"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="172" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="172" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineIntersectionResult2_1a4a47910a4c2671a7a9768622d43b45eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -128,13 +128,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PolylineIntersectionResult2.PolylineIntersectionResult2</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineIntersectionResult2_1aa8741a86b1c6b7bc43283a40283ebd74" kindref="member">MR.PolylineIntersectionResult2.PolylineIntersectionResult2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="176" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="176" bodyend="176"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="184" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="184" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineIntersectionResult2_1a16e59b959d9059f2df41f95a68e8dc6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PolylineIntersectionResult2" kindref="compound">MR.PolylineIntersectionResult2</ref></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PolylineIntersectionResult2.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PolylineIntersectionResult2::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="181" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="181" bodyend="188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="189" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="189" bodyend="196"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -162,48 +162,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PolylineIntersectionResult2</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PolylineIntersectionResult2</label>
         <link refid="classMR_1_1PolylineIntersectionResult2"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PolylineIntersectionResult2</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PolylineIntersectionResult2 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PolylineIntersectionResult2</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PolylineIntersectionResult2</label>
         <link refid="classMR_1_1PolylineIntersectionResult2"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PolylineIntersectionResult2</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PolylineIntersectionResult2 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="106" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="107" bodyend="189"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="110" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="111" bodyend="197"/>
     <listofallmembers>
       <member refid="classMR_1_1PolylineIntersectionResult2_1a16e59b959d9059f2df41f95a68e8dc6d" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>assign</name></member>
       <member refid="classMR_1_1PolylineIntersectionResult2_1a30a483de2b405b5beb7754fa22ab14a6" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>distanceAlongLine</name></member>

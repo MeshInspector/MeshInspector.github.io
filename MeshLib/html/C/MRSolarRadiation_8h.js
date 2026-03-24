@@ -1,14 +1,8 @@
 var MRSolarRadiation_8h =
 [
-    [ "MR_BitSet", "MRSolarRadiation_8h.html#a36d7d5a26d258211a2da5d9311a0798c", null ],
-    [ "MR_Mesh", "MRSolarRadiation_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_SkyPatch", "MRSolarRadiation_8h.html#aea5a1c36d53f5c2d9e2e8918ffdc3081", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult", "MRSolarRadiation_8h.html#a036dc80bf10949d81e50517828e6d453", null ],
     [ "MR_std_vector_MR_SkyPatch", "MRSolarRadiation_8h.html#a871d6f88c45ba11ce55155f87fdbe4c9", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRSolarRadiation_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_VertBitSet", "MRSolarRadiation_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRSolarRadiation_8h.html#a249fd9254c0c3395567807936ad32641", null ],
-    [ "MR_VertScalars", "MRSolarRadiation_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4", null ],
     [ "MR_computeSkyViewFactor", "MRSolarRadiation_8h.html#a4fc100c0bf7ede6c34c388a18c3554b0", null ],
     [ "MR_findSkyRays", "MRSolarRadiation_8h.html#acfa6c5e671e19575abb44566f6a989cc", null ],
     [ "MR_sampleHalfSphere", "MRSolarRadiation_8h.html#a6bd20b8037df7f3a5125e03df3b8d147", null ],

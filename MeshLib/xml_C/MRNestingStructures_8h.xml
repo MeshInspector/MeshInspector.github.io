@@ -1,0 +1,1169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRNestingStructures_8h" kind="file" language="C++">
+    <compoundname>MRNestingStructures.h</compoundname>
+    <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
+    <includes refid="MRBox_8h" local="no">MRCMesh/MRBox.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRCMesh/MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRNestingStructures.h</label>
+        <link refid="MRNestingStructures_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="9">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" prot="public" static="no">
+        <type>struct <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref></type>
+        <definition>typedef struct MR_Nesting_NestingResult MR_Nesting_NestingResult</definition>
+        <argsstring></argsstring>
+        <name>MR_Nesting_NestingResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::Nesting::NestingResult</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="19" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" prot="public" static="no">
+        <type>struct <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref></type>
+        <definition>typedef struct MR_Nesting_MeshXf MR_Nesting_MeshXf</definition>
+        <argsstring></argsstring>
+        <name>MR_Nesting_MeshXf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::Nesting::MeshXf</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="23" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRNestingStructures_8h_1a06b23b20cf01949af274cd31b12ca30c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_Nesting_NestingResult_Get_xf</definition>
+        <argsstring>(const MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_Nesting_NestingResult_Get_xf</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>best found xf for this object (might be equal with input xf if no good nesting was found) Returns a pointer to a member variable of class <computeroutput>MR::Nesting::NestingResult</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="34" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="34" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a9ab89c52c5496f9964ddc2ff3578bd0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_NestingResult_Set_xf</definition>
+        <argsstring>(MR_Nesting_NestingResult *_this, MR_AffineXf3f value)</argsstring>
+        <name>MR_Nesting_NestingResult_Set_xf</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>best found xf for this object (might be equal with input xf if no good nesting was found) Modifies a member variable of class <computeroutput>MR::Nesting::NestingResult</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1abe56a6f7ab96247fa7cbe70fa6206954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_Nesting_NestingResult_GetMutable_xf</definition>
+        <argsstring>(MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_Nesting_NestingResult_GetMutable_xf</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>best found xf for this object (might be equal with input xf if no good nesting was found) Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::NestingResult</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="48" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="48" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a62d2514cf42ee2782ffa931d2ec23811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
+        <definition>MRC_API const bool * MR_Nesting_NestingResult_Get_nested</definition>
+        <argsstring>(const MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_Nesting_NestingResult_Get_nested</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>false - means that this object does not fit the nest Returns a pointer to a member variable of class <computeroutput>MR::Nesting::NestingResult</computeroutput> named <computeroutput>nested</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="55" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="55" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a55ec1fb391378b6164b0c9d9eca37454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_NestingResult_Set_nested</definition>
+        <argsstring>(MR_Nesting_NestingResult *_this, bool value)</argsstring>
+        <name>MR_Nesting_NestingResult_Set_nested</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>false - means that this object does not fit the nest Modifies a member variable of class <computeroutput>MR::Nesting::NestingResult</computeroutput> named <computeroutput>nested</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>nested</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="61" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1aacf1f4c530aa189e315242b65dea57c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
+        <definition>MRC_API bool * MR_Nesting_NestingResult_GetMutable_nested</definition>
+        <argsstring>(MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_Nesting_NestingResult_GetMutable_nested</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>false - means that this object does not fit the nest Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::NestingResult</computeroutput> named <computeroutput>nested</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="68" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ac677c7c2cfa8522482db5f4911f9cf1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_Nesting_NestingResult_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Nesting_NestingResult_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1abae5de4fe63d6c34339db9086bcd4ca4" kindref="member">MR_Nesting_NestingResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="72" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="72" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a41d39b1761677f87f219a814ce3509a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_Nesting_NestingResult_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Nesting_NestingResult_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRNestingStructures_8h_1a1463bb8e1fa3a38b596a9a9d8f622ece" kindref="member">MR_Nesting_NestingResult_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRNestingStructures_8h_1afdaf6df6445ad720c2eb8065c611f4d6" kindref="member">MR_Nesting_NestingResult_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRNestingStructures_8h_1ab849bc47724462519aaf4c406a268a96" kindref="member">MR_Nesting_NestingResult_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="77" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="77" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a6572c4f5d2d43be9d5695af7d9745125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_Nesting_NestingResult_ConstructFrom</definition>
+        <argsstring>(MR_AffineXf3f xf, bool nested)</argsstring>
+        <name>MR_Nesting_NestingResult_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>nested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Nesting::NestingResult</computeroutput> elementwise. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1abae5de4fe63d6c34339db9086bcd4ca4" kindref="member">MR_Nesting_NestingResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="83" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="83" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ab849bc47724462519aaf4c406a268a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API const MR_Nesting_NestingResult * MR_Nesting_NestingResult_OffsetPtr</definition>
+        <argsstring>(const MR_Nesting_NestingResult *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_NestingResult_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="87" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="87" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1afdaf6df6445ad720c2eb8065c611f4d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_Nesting_NestingResult_OffsetMutablePtr</definition>
+        <argsstring>(MR_Nesting_NestingResult *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_NestingResult_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="91" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="91" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a36c76a8811b2bbbbb9a23fa55bfd074f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_Nesting_NestingResult_ConstructFromAnother</definition>
+        <argsstring>(const MR_Nesting_NestingResult *_other)</argsstring>
+        <name>MR_Nesting_NestingResult_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Nesting::NestingResult::NestingResult</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1abae5de4fe63d6c34339db9086bcd4ca4" kindref="member">MR_Nesting_NestingResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="97" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="97" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1abae5de4fe63d6c34339db9086bcd4ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_NestingResult_Destroy</definition>
+        <argsstring>(const MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_Nesting_NestingResult_Destroy</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="100" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="100" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a1463bb8e1fa3a38b596a9a9d8f622ece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_NestingResult_DestroyArray</definition>
+        <argsstring>(const MR_Nesting_NestingResult *_this)</argsstring>
+        <name>MR_Nesting_NestingResult_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="103" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a6f89a056f44a8c167977a43b5e50b8b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingResult * MR_Nesting_NestingResult_AssignFromAnother</definition>
+        <argsstring>(MR_Nesting_NestingResult *_this, const MR_Nesting_NestingResult *_other)</argsstring>
+        <name>MR_Nesting_NestingResult_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Nesting::NestingResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="111" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="111" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a87f9dd7bb3a5c5f5f077e37cf1e8acee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *const *</type>
+        <definition>MRC_API const MR_Mesh *const  * MR_Nesting_MeshXf_Get_mesh</definition>
+        <argsstring>(const MR_Nesting_MeshXf *_this)</argsstring>
+        <name>MR_Nesting_MeshXf_Get_mesh</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>input mesh - should not be nullptr Returns a pointer to a member variable of class <computeroutput>MR::Nesting::MeshXf</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="118" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="118" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1af9f46f2d397a0f4c3f4d19d00d714533" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_MeshXf_Set_mesh</definition>
+        <argsstring>(MR_Nesting_MeshXf *_this, const MR_Mesh *value)</argsstring>
+        <name>MR_Nesting_MeshXf_Set_mesh</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>input mesh - should not be nullptr Modifies a member variable of class <computeroutput>MR::Nesting::MeshXf</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="125" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a5011dddc83ecb547dcc22903cb384e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> **</type>
+        <definition>MRC_API const MR_Mesh ** MR_Nesting_MeshXf_GetMutable_mesh</definition>
+        <argsstring>(MR_Nesting_MeshXf *_this)</argsstring>
+        <name>MR_Nesting_MeshXf_GetMutable_mesh</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>input mesh - should not be nullptr Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::MeshXf</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="132" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="132" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a7280c9ff916ad6c269bc6e5967b25b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_Nesting_MeshXf_Get_xf</definition>
+        <argsstring>(const MR_Nesting_MeshXf *_this)</argsstring>
+        <name>MR_Nesting_MeshXf_Get_xf</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>input mesh world transformation before nesting Returns a pointer to a member variable of class <computeroutput>MR::Nesting::MeshXf</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="139" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="139" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1aca3cec20220e843f1ab6e5cf6ea9183e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_MeshXf_Set_xf</definition>
+        <argsstring>(MR_Nesting_MeshXf *_this, MR_AffineXf3f value)</argsstring>
+        <name>MR_Nesting_MeshXf_Set_xf</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>input mesh world transformation before nesting Modifies a member variable of class <computeroutput>MR::Nesting::MeshXf</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="146" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a7c4ab4d30b870f955edea09105d177a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_Nesting_MeshXf_GetMutable_xf</definition>
+        <argsstring>(MR_Nesting_MeshXf *_this)</argsstring>
+        <name>MR_Nesting_MeshXf_GetMutable_xf</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>input mesh world transformation before nesting Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::MeshXf</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="153" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="153" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a82709ff2602ab7b59607c448bd684912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+        <definition>MRC_API MR_Nesting_MeshXf * MR_Nesting_MeshXf_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Nesting_MeshXf_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1a913765790911c09c735a676e87469da7" kindref="member">MR_Nesting_MeshXf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="157" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="157" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a91b82a5195e8d47be7ddd090703644d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+        <definition>MRC_API MR_Nesting_MeshXf * MR_Nesting_MeshXf_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Nesting_MeshXf_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRNestingStructures_8h_1a34c14f22e187dbe7bd7a20dbeca2558b" kindref="member">MR_Nesting_MeshXf_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRNestingStructures_8h_1a04a57015f6f41cd961034c682d9bcfc4" kindref="member">MR_Nesting_MeshXf_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRNestingStructures_8h_1ac46b91bc6945fbf41f7fed55cbf07c0e" kindref="member">MR_Nesting_MeshXf_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="162" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="162" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1afd2879edc506cd88af355c8c500ba868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+        <definition>MRC_API MR_Nesting_MeshXf * MR_Nesting_MeshXf_ConstructFrom</definition>
+        <argsstring>(const MR_Mesh *mesh, MR_AffineXf3f xf)</argsstring>
+        <name>MR_Nesting_MeshXf_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Nesting::MeshXf</computeroutput> elementwise. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1a913765790911c09c735a676e87469da7" kindref="member">MR_Nesting_MeshXf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="169" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="169" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ac46b91bc6945fbf41f7fed55cbf07c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+        <definition>MRC_API const MR_Nesting_MeshXf * MR_Nesting_MeshXf_OffsetPtr</definition>
+        <argsstring>(const MR_Nesting_MeshXf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_MeshXf_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="173" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="173" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a04a57015f6f41cd961034c682d9bcfc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+        <definition>MRC_API MR_Nesting_MeshXf * MR_Nesting_MeshXf_OffsetMutablePtr</definition>
+        <argsstring>(MR_Nesting_MeshXf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_MeshXf_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="177" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="177" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a1f4aeee0e53cfc024a154b56d60611d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+        <definition>MRC_API MR_Nesting_MeshXf * MR_Nesting_MeshXf_ConstructFromAnother</definition>
+        <argsstring>(const MR_Nesting_MeshXf *_other)</argsstring>
+        <name>MR_Nesting_MeshXf_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Nesting::MeshXf::MeshXf</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1a913765790911c09c735a676e87469da7" kindref="member">MR_Nesting_MeshXf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="183" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="183" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a913765790911c09c735a676e87469da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_MeshXf_Destroy</definition>
+        <argsstring>(const MR_Nesting_MeshXf *_this)</argsstring>
+        <name>MR_Nesting_MeshXf_Destroy</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="186" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="186" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a34c14f22e187dbe7bd7a20dbeca2558b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_MeshXf_DestroyArray</definition>
+        <argsstring>(const MR_Nesting_MeshXf *_this)</argsstring>
+        <name>MR_Nesting_MeshXf_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ade00eeb3586792ed1a943b4be2729b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+        <definition>MRC_API MR_Nesting_MeshXf * MR_Nesting_MeshXf_AssignFromAnother</definition>
+        <argsstring>(MR_Nesting_MeshXf *_this, const MR_Nesting_MeshXf *_other)</argsstring>
+        <name>MR_Nesting_MeshXf_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Nesting::MeshXf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="197" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="197" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a0124f7f4548c67881f7ba5f9c7aa55a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
+        <definition>MRC_API const MR_Box3f * MR_Nesting_NestingBaseParams_Get_nest</definition>
+        <argsstring>(const MR_Nesting_NestingBaseParams *_this)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_Get_nest</name>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>available nest Returns a pointer to a member variable of class <computeroutput>MR::Nesting::NestingBaseParams</computeroutput> named <computeroutput>nest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="204" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="204" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1aefdf380180267a3af047c63778b74a41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_NestingBaseParams_Set_nest</definition>
+        <argsstring>(MR_Nesting_NestingBaseParams *_this, MR_Box3f value)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_Set_nest</name>
+        <param>
+          <type><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>available nest Modifies a member variable of class <computeroutput>MR::Nesting::NestingBaseParams</computeroutput> named <computeroutput>nest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nest</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>nest</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a3880b832c07c0789294bd4ac0befae1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
+        <definition>MRC_API MR_Box3f * MR_Nesting_NestingBaseParams_GetMutable_nest</definition>
+        <argsstring>(MR_Nesting_NestingBaseParams *_this)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_GetMutable_nest</name>
+        <param>
+          <type><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>available nest Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::NestingBaseParams</computeroutput> named <computeroutput>nest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="218" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="218" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1aeb47d5be71fcfd1c6ded29193740e567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_Nesting_NestingBaseParams_Get_minInterval</definition>
+        <argsstring>(const MR_Nesting_NestingBaseParams *_this)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_Get_minInterval</name>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum space among meshes in the nest Returns a pointer to a member variable of class <computeroutput>MR::Nesting::NestingBaseParams</computeroutput> named <computeroutput>minInterval</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="225" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="225" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a90ad98e2c5f4369f8ff514827a10fd57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_NestingBaseParams_Set_minInterval</definition>
+        <argsstring>(MR_Nesting_NestingBaseParams *_this, float value)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_Set_minInterval</name>
+        <param>
+          <type><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum space among meshes in the nest Modifies a member variable of class <computeroutput>MR::Nesting::NestingBaseParams</computeroutput> named <computeroutput>minInterval</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minInterval</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="231" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="231" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a362568f0cb53d0d92c5e3d958991e04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_Nesting_NestingBaseParams_GetMutable_minInterval</definition>
+        <argsstring>(MR_Nesting_NestingBaseParams *_this)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_GetMutable_minInterval</name>
+        <param>
+          <type><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum space among meshes in the nest Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::NestingBaseParams</computeroutput> named <computeroutput>minInterval</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="238" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="238" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ad1997e364ad5f792e305f14d28e766aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingBaseParams * MR_Nesting_NestingBaseParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1ab6cc5bdca7bb925515579b1cf1c51c1f" kindref="member">MR_Nesting_NestingBaseParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="242" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="242" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1aa5f18477eeebb96344f5bbf30c3f4452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingBaseParams * MR_Nesting_NestingBaseParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRNestingStructures_8h_1a6638df1150d0c1ef9b3e4d08c618f525" kindref="member">MR_Nesting_NestingBaseParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRNestingStructures_8h_1a86abf3b3eb0e9d0f9c4c5dab95e680b5" kindref="member">MR_Nesting_NestingBaseParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRNestingStructures_8h_1ad747353964c47d9d1800ae14f28d8e79" kindref="member">MR_Nesting_NestingBaseParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="247" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="247" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ad0e756c7b19f82696ba1d6b008006b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingBaseParams * MR_Nesting_NestingBaseParams_ConstructFrom</definition>
+        <argsstring>(MR_Box3f nest, float minInterval)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref></type>
+          <declname>nest</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minInterval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Nesting::NestingBaseParams</computeroutput> elementwise. The reference to the parameter <computeroutput>nest</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1ab6cc5bdca7bb925515579b1cf1c51c1f" kindref="member">MR_Nesting_NestingBaseParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="253" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="253" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ad747353964c47d9d1800ae14f28d8e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API const MR_Nesting_NestingBaseParams * MR_Nesting_NestingBaseParams_OffsetPtr</definition>
+        <argsstring>(const MR_Nesting_NestingBaseParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="257" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="257" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a86abf3b3eb0e9d0f9c4c5dab95e680b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingBaseParams * MR_Nesting_NestingBaseParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_Nesting_NestingBaseParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="261" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="261" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1adec7e5a1ba791ba2658d4daf1d53a0f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingBaseParams * MR_Nesting_NestingBaseParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_Nesting_NestingBaseParams *_other)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Nesting::NestingBaseParams::NestingBaseParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNestingStructures_8h_1ab6cc5bdca7bb925515579b1cf1c51c1f" kindref="member">MR_Nesting_NestingBaseParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="267" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="267" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ab6cc5bdca7bb925515579b1cf1c51c1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_NestingBaseParams_Destroy</definition>
+        <argsstring>(const MR_Nesting_NestingBaseParams *_this)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="270" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="270" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1a6638df1150d0c1ef9b3e4d08c618f525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Nesting_NestingBaseParams_DestroyArray</definition>
+        <argsstring>(const MR_Nesting_NestingBaseParams *_this)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="273" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="273" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNestingStructures_8h_1ae210eef92bb785bc3fc63da181eb92e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingBaseParams * MR_Nesting_NestingBaseParams_AssignFromAnother</definition>
+        <argsstring>(MR_Nesting_NestingBaseParams *_this, const MR_Nesting_NestingBaseParams *_other)</argsstring>
+        <name>MR_Nesting_NestingBaseParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Nesting::NestingBaseParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" line="281" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h" declline="281" declcolumn="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRBox_8h" kindref="compound">MRCMesh/MRBox.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRNestingStructures_8h_1a06b23b20cf01949af274cd31b12ca30c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRNestingStructures_8h_1a06b23b20cf01949af274cd31b12ca30c" kindref="member">MR_Nesting_NestingResult_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRNestingStructures_8h_1a9ab89c52c5496f9964ddc2ff3578bd0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1a9ab89c52c5496f9964ddc2ff3578bd0d" kindref="member">MR_Nesting_NestingResult_Set_xf</ref>(<ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRNestingStructures_8h_1abe56a6f7ab96247fa7cbe70fa6206954" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRNestingStructures_8h_1abe56a6f7ab96247fa7cbe70fa6206954" kindref="member">MR_Nesting_NestingResult_GetMutable_xf</ref>(<ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRNestingStructures_8h_1a62d2514cf42ee2782ffa931d2ec23811" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNestingStructures_8h_1a62d2514cf42ee2782ffa931d2ec23811" kindref="member">MR_Nesting_NestingResult_Get_nested</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRNestingStructures_8h_1a55ec1fb391378b6164b0c9d9eca37454" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1a55ec1fb391378b6164b0c9d9eca37454" kindref="member">MR_Nesting_NestingResult_Set_nested</ref>(<ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRNestingStructures_8h_1aacf1f4c530aa189e315242b65dea57c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNestingStructures_8h_1aacf1f4c530aa189e315242b65dea57c8" kindref="member">MR_Nesting_NestingResult_GetMutable_nested</ref>(<ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRNestingStructures_8h_1ac677c7c2cfa8522482db5f4911f9cf1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="MRNestingStructures_8h_1ac677c7c2cfa8522482db5f4911f9cf1f" kindref="member">MR_Nesting_NestingResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRNestingStructures_8h_1a41d39b1761677f87f219a814ce3509a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="MRNestingStructures_8h_1a41d39b1761677f87f219a814ce3509a4" kindref="member">MR_Nesting_NestingResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRNestingStructures_8h_1a6572c4f5d2d43be9d5695af7d9745125" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="MRNestingStructures_8h_1a6572c4f5d2d43be9d5695af7d9745125" kindref="member">MR_Nesting_NestingResult_ConstructFrom</ref>(<ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>xf,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>nested);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRNestingStructures_8h_1ab849bc47724462519aaf4c406a268a96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="MRNestingStructures_8h_1ab849bc47724462519aaf4c406a268a96" kindref="member">MR_Nesting_NestingResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRNestingStructures_8h_1afdaf6df6445ad720c2eb8065c611f4d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="MRNestingStructures_8h_1afdaf6df6445ad720c2eb8065c611f4d6" kindref="member">MR_Nesting_NestingResult_OffsetMutablePtr</ref>(<ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRNestingStructures_8h_1a36c76a8811b2bbbbb9a23fa55bfd074f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="MRNestingStructures_8h_1a36c76a8811b2bbbbb9a23fa55bfd074f" kindref="member">MR_Nesting_NestingResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRNestingStructures_8h_1abae5de4fe63d6c34339db9086bcd4ca4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1abae5de4fe63d6c34339db9086bcd4ca4" kindref="member">MR_Nesting_NestingResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRNestingStructures_8h_1a1463bb8e1fa3a38b596a9a9d8f622ece" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1a1463bb8e1fa3a38b596a9a9d8f622ece" kindref="member">MR_Nesting_NestingResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRNestingStructures_8h_1a6f89a056f44a8c167977a43b5e50b8b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*<ref refid="MRNestingStructures_8h_1a6f89a056f44a8c167977a43b5e50b8b0" kindref="member">MR_Nesting_NestingResult_AssignFromAnother</ref>(<ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aec9616ca3f7788a1ba512526b521d2fe" kindref="member">MR_Nesting_NestingResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRNestingStructures_8h_1a87f9dd7bb3a5c5f5f077e37cf1e8acee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRNestingStructures_8h_1a87f9dd7bb3a5c5f5f077e37cf1e8acee" kindref="member">MR_Nesting_MeshXf_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRNestingStructures_8h_1af9f46f2d397a0f4c3f4d19d00d714533" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1af9f46f2d397a0f4c3f4d19d00d714533" kindref="member">MR_Nesting_MeshXf_Set_mesh</ref>(<ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRNestingStructures_8h_1a5011dddc83ecb547dcc22903cb384e8e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>**<ref refid="MRNestingStructures_8h_1a5011dddc83ecb547dcc22903cb384e8e" kindref="member">MR_Nesting_MeshXf_GetMutable_mesh</ref>(<ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRNestingStructures_8h_1a7280c9ff916ad6c269bc6e5967b25b72" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRNestingStructures_8h_1a7280c9ff916ad6c269bc6e5967b25b72" kindref="member">MR_Nesting_MeshXf_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRNestingStructures_8h_1aca3cec20220e843f1ab6e5cf6ea9183e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aca3cec20220e843f1ab6e5cf6ea9183e" kindref="member">MR_Nesting_MeshXf_Set_xf</ref>(<ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRNestingStructures_8h_1a7c4ab4d30b870f955edea09105d177a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRNestingStructures_8h_1a7c4ab4d30b870f955edea09105d177a6" kindref="member">MR_Nesting_MeshXf_GetMutable_xf</ref>(<ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRNestingStructures_8h_1a82709ff2602ab7b59607c448bd684912" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*<ref refid="MRNestingStructures_8h_1a82709ff2602ab7b59607c448bd684912" kindref="member">MR_Nesting_MeshXf_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRNestingStructures_8h_1a91b82a5195e8d47be7ddd090703644d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*<ref refid="MRNestingStructures_8h_1a91b82a5195e8d47be7ddd090703644d0" kindref="member">MR_Nesting_MeshXf_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRNestingStructures_8h_1afd2879edc506cd88af355c8c500ba868" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*<ref refid="MRNestingStructures_8h_1afd2879edc506cd88af355c8c500ba868" kindref="member">MR_Nesting_MeshXf_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>xf);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRNestingStructures_8h_1ac46b91bc6945fbf41f7fed55cbf07c0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*<ref refid="MRNestingStructures_8h_1ac46b91bc6945fbf41f7fed55cbf07c0e" kindref="member">MR_Nesting_MeshXf_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRNestingStructures_8h_1a04a57015f6f41cd961034c682d9bcfc4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*<ref refid="MRNestingStructures_8h_1a04a57015f6f41cd961034c682d9bcfc4" kindref="member">MR_Nesting_MeshXf_OffsetMutablePtr</ref>(<ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRNestingStructures_8h_1a1f4aeee0e53cfc024a154b56d60611d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*<ref refid="MRNestingStructures_8h_1a1f4aeee0e53cfc024a154b56d60611d9" kindref="member">MR_Nesting_MeshXf_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRNestingStructures_8h_1a913765790911c09c735a676e87469da7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1a913765790911c09c735a676e87469da7" kindref="member">MR_Nesting_MeshXf_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRNestingStructures_8h_1a34c14f22e187dbe7bd7a20dbeca2558b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1a34c14f22e187dbe7bd7a20dbeca2558b" kindref="member">MR_Nesting_MeshXf_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRNestingStructures_8h_1ade00eeb3586792ed1a943b4be2729b7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*<ref refid="MRNestingStructures_8h_1ade00eeb3586792ed1a943b4be2729b7b" kindref="member">MR_Nesting_MeshXf_AssignFromAnother</ref>(<ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRNestingStructures_8h_1a0124f7f4548c67881f7ba5f9c7aa55a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*<ref refid="MRNestingStructures_8h_1a0124f7f4548c67881f7ba5f9c7aa55a6" kindref="member">MR_Nesting_NestingBaseParams_Get_nest</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="MRNestingStructures_8h_1aefdf380180267a3af047c63778b74a41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1aefdf380180267a3af047c63778b74a41" kindref="member">MR_Nesting_NestingBaseParams_Set_nest</ref>(<ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this,<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRNestingStructures_8h_1a3880b832c07c0789294bd4ac0befae1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*<ref refid="MRNestingStructures_8h_1a3880b832c07c0789294bd4ac0befae1b" kindref="member">MR_Nesting_NestingBaseParams_GetMutable_nest</ref>(<ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRNestingStructures_8h_1aeb47d5be71fcfd1c6ded29193740e567" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNestingStructures_8h_1aeb47d5be71fcfd1c6ded29193740e567" kindref="member">MR_Nesting_NestingBaseParams_Get_minInterval</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRNestingStructures_8h_1a90ad98e2c5f4369f8ff514827a10fd57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1a90ad98e2c5f4369f8ff514827a10fd57" kindref="member">MR_Nesting_NestingBaseParams_Set_minInterval</ref>(<ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRNestingStructures_8h_1a362568f0cb53d0d92c5e3d958991e04c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNestingStructures_8h_1a362568f0cb53d0d92c5e3d958991e04c" kindref="member">MR_Nesting_NestingBaseParams_GetMutable_minInterval</ref>(<ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRNestingStructures_8h_1ad1997e364ad5f792e305f14d28e766aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRNestingStructures_8h_1ad1997e364ad5f792e305f14d28e766aa" kindref="member">MR_Nesting_NestingBaseParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="MRNestingStructures_8h_1aa5f18477eeebb96344f5bbf30c3f4452" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRNestingStructures_8h_1aa5f18477eeebb96344f5bbf30c3f4452" kindref="member">MR_Nesting_NestingBaseParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRNestingStructures_8h_1ad0e756c7b19f82696ba1d6b008006b46" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRNestingStructures_8h_1ad0e756c7b19f82696ba1d6b008006b46" kindref="member">MR_Nesting_NestingBaseParams_ConstructFrom</ref>(<ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>nest,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minInterval);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRNestingStructures_8h_1ad747353964c47d9d1800ae14f28d8e79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRNestingStructures_8h_1ad747353964c47d9d1800ae14f28d8e79" kindref="member">MR_Nesting_NestingBaseParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRNestingStructures_8h_1a86abf3b3eb0e9d0f9c4c5dab95e680b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRNestingStructures_8h_1a86abf3b3eb0e9d0f9c4c5dab95e680b5" kindref="member">MR_Nesting_NestingBaseParams_OffsetMutablePtr</ref>(<ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="MRNestingStructures_8h_1adec7e5a1ba791ba2658d4daf1d53a0f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRNestingStructures_8h_1adec7e5a1ba791ba2658d4daf1d53a0f7" kindref="member">MR_Nesting_NestingBaseParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRNestingStructures_8h_1ab6cc5bdca7bb925515579b1cf1c51c1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ab6cc5bdca7bb925515579b1cf1c51c1f" kindref="member">MR_Nesting_NestingBaseParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRNestingStructures_8h_1a6638df1150d0c1ef9b3e4d08c618f525" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1a6638df1150d0c1ef9b3e4d08c618f525" kindref="member">MR_Nesting_NestingBaseParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="MRNestingStructures_8h_1ae210eef92bb785bc3fc63da181eb92e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRNestingStructures_8h_1ae210eef92bb785bc3fc63da181eb92e1" kindref="member">MR_Nesting_NestingBaseParams_AssignFromAnother</ref>(<ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRNestingStructures.h"/>
+  </compounddef>
+</doxygen>

@@ -1,8 +1,5 @@
 var MRPointsLoad_8h =
 [
-    [ "MR_expected_MR_PointCloud_std_string", "MRPointsLoad_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12", null ],
-    [ "MR_PointsLoadSettings", "MRPointsLoad_8h.html#a67029d3455a5c9aa45725d3c35e1e4df", null ],
-    [ "MR_std_istream", "MRPointsLoad_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
     [ "MR_PointsLoad_fromAnySupportedFormat_2", "MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df", null ],
     [ "MR_PointsLoad_fromAnySupportedFormat_3", "MRPointsLoad_8h.html#a106641323e0fff08bb96cfd0526ff52b", null ],
     [ "MR_PointsLoad_fromDxf_std_filesystem_path", "MRPointsLoad_8h.html#a092519e3e0e72b23978b4bc89bddc2f5", null ],

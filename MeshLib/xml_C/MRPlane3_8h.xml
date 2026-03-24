@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPlane3_8h" kind="file" language="C++">
     <compoundname>MRPlane3.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -13,7 +13,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -23,83 +23,38 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
       </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPlane3_8h_1aef22a11476e76208a3f9a5cf2eba4c98" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref></type>
-        <definition>typedef struct MR_std_istream MR_std_istream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_istream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="12" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPlane3_8h_1a933fad1748853c0c595a157b9f6527c6" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref></type>
-        <definition>typedef struct MR_std_ostream MR_std_ostream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_ostream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="13" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPlane3_8h_1aa7548d3448b3b7da1ea96433fe902e9a" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></type>
-        <definition>typedef struct MR_Plane3f MR_Plane3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Plane3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>3-dimensional plane: dot(n,x) - d = 0 Generated from class <computeroutput>MR::Plane3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="19" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPlane3_8h_1a47c990e52774bc8bd9e02d71ca3a353b" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref></type>
-        <definition>typedef struct MR_Plane3d MR_Plane3d</definition>
-        <argsstring></argsstring>
-        <name>MR_Plane3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>3-dimensional plane: dot(n,x) - d = 0 Generated from class <computeroutput>MR::Plane3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="24" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPlane3_8h_1a122763771c89e236bde3fb50cd6002d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_Vector3f * MR_Plane3f_Get_n</definition>
         <argsstring>(const MR_Plane3f *_this)</argsstring>
         <name>MR_Plane3f_Get_n</name>
@@ -114,10 +69,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="30" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="30" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="30" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="30" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1aca3dd1d71a77b47af1b41fb051154d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Plane3f_Set_n</definition>
         <argsstring>(MR_Plane3f *_this, MR_Vector3f value)</argsstring>
         <name>MR_Plane3f_Set_n</name>
@@ -132,14 +87,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>n</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>n</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>n</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>n</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="36" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="36" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1afbf6704d511f4e8672f5c27f122614d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_Vector3f * MR_Plane3f_GetMutable_n</definition>
         <argsstring>(MR_Plane3f *_this)</argsstring>
         <name>MR_Plane3f_GetMutable_n</name>
@@ -154,10 +109,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="42" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="42" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="42" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="42" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a9a39adcb0d90b9858a1464c854567784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_Plane3f_Get_d</definition>
         <argsstring>(const MR_Plane3f *_this)</argsstring>
         <name>MR_Plane3f_Get_d</name>
@@ -172,10 +127,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="48" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="48" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="48" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="48" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1aebf371e9cf3ac5d10432968c68318502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Plane3f_Set_d</definition>
         <argsstring>(MR_Plane3f *_this, float value)</argsstring>
         <name>MR_Plane3f_Set_d</name>
@@ -190,14 +145,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>d</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>d</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="53" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ac59a39bbec281021ab7e63927e499dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_Plane3f_GetMutable_d</definition>
         <argsstring>(MR_Plane3f *_this)</argsstring>
         <name>MR_Plane3f_GetMutable_d</name>
@@ -212,10 +167,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="59" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="59" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="59" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="59" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a8efb53a603d6e77e6fe7ed7b564f828b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Plane3f_DefaultConstruct</name>
@@ -229,10 +184,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="63" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="63" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="63" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="63" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a13963b7bfc0e9c2e81e6acdd4f02e934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Plane3f_DefaultConstructArray</name>
@@ -247,10 +202,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="68" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="68" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="68" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="68" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API const MR_Plane3f * MR_Plane3f_OffsetPtr</definition>
         <argsstring>(const MR_Plane3f *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Plane3f_OffsetPtr</name>
@@ -269,10 +224,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="72" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="72" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="72" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="72" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_OffsetMutablePtr</definition>
         <argsstring>(MR_Plane3f *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Plane3f_OffsetMutablePtr</name>
@@ -291,10 +246,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="76" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="76" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="76" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="76" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a31af7e2904042e205333fdd23e9c91f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_ConstructFromAnother</definition>
         <argsstring>(const MR_Plane3f *_other)</argsstring>
         <name>MR_Plane3f_ConstructFromAnother</name>
@@ -309,10 +264,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="82" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="82" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="82" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="82" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1aad5763d77bd350ba7555d9c63f15845c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_Construct</definition>
         <argsstring>(const MR_Vector3f *n, float d)</argsstring>
         <name>MR_Plane3f_Construct</name>
@@ -331,10 +286,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="88" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="88" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="88" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="88" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ab6d4bcca5ba5787986cd6d976807eb2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_Construct_double</definition>
         <argsstring>(const MR_Plane3d *p)</argsstring>
         <name>MR_Plane3f_Construct_double</name>
@@ -349,10 +304,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="96" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="96" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="96" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="96" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Plane3f_Destroy</definition>
         <argsstring>(const MR_Plane3f *_this)</argsstring>
         <name>MR_Plane3f_Destroy</name>
@@ -361,16 +316,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Plane3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="99" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="99" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Plane3f_DestroyArray</definition>
         <argsstring>(const MR_Plane3f *_this)</argsstring>
         <name>MR_Plane3f_DestroyArray</name>
@@ -379,16 +334,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Plane3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="102" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="102" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1accb58b54961ab128f9a11249dfd7fe66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_AssignFromAnother</definition>
         <argsstring>(MR_Plane3f *_this, const MR_Plane3f *_other)</argsstring>
         <name>MR_Plane3f_AssignFromAnother</name>
@@ -403,14 +358,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Plane3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Plane3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="110" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="110" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="110" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="110" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ad6e5feb62358a92b93d0f057523c61ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_fromDirAndPt</definition>
         <argsstring>(const MR_Vector3f *n, const MR_Vector3f *p)</argsstring>
         <name>MR_Plane3f_fromDirAndPt</name>
@@ -429,10 +384,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="116" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="116" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="116" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="116" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_Plane3f_distance</definition>
         <argsstring>(const MR_Plane3f *_this, const MR_Vector3f *x)</argsstring>
         <name>MR_Plane3f_distance</name>
@@ -451,10 +406,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="122" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="122" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="122" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="122" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1af20a73df7c02ef3c38aebd6d345b4c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_neg_MR_Plane3f</definition>
         <argsstring>(const MR_Plane3f *_this)</argsstring>
         <name>MR_neg_MR_Plane3f</name>
@@ -469,10 +424,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="128" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="128" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="128" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="128" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a118c8760034ea30bebb058b1d1e94ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API const MR_Plane3f * MR_pos_MR_Plane3f</definition>
         <argsstring>(const MR_Plane3f *_this)</argsstring>
         <name>MR_pos_MR_Plane3f</name>
@@ -487,10 +442,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="134" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="134" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="134" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="134" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a262f998fbab2de5ef151a3cd07584629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
         <definition>MRC_API MR_Plane3f * MR_Plane3f_normalized</definition>
         <argsstring>(const MR_Plane3f *_this)</argsstring>
         <name>MR_Plane3f_normalized</name>
@@ -505,10 +460,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="140" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="140" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="140" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="140" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a12963c09e6453c44c77f13b7aff8c4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
         <definition>MRC_API MR_Vector3f MR_Plane3f_project</definition>
         <argsstring>(const MR_Plane3f *_this, const MR_Vector3f *p)</argsstring>
         <name>MR_Plane3f_project</name>
@@ -527,10 +482,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="146" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="146" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ade87140c2d16a13db328a6cf4b2d4bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
         <definition>MRC_API MR_std_ostream * MR_print_MR_Plane3f</definition>
         <argsstring>(MR_std_ostream *s, const MR_Plane3f *pl)</argsstring>
         <name>MR_print_MR_Plane3f</name>
@@ -549,10 +504,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="152" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="152" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="152" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="152" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a6c6ce1c312c8370942ebc59f8a0f7ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
         <definition>MRC_API MR_std_istream * MR_input_MR_Plane3f</definition>
         <argsstring>(MR_std_istream *s, MR_Plane3f *pl)</argsstring>
         <name>MR_input_MR_Plane3f</name>
@@ -571,10 +526,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="158" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="158" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="158" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="158" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a54d5d8c2f0f71bfa69c9152b4a26474f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
         <definition>MRC_API const MR_Vector3d * MR_Plane3d_Get_n</definition>
         <argsstring>(const MR_Plane3d *_this)</argsstring>
         <name>MR_Plane3d_Get_n</name>
@@ -589,10 +544,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="164" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="164" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="164" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="164" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a0f42f6177176cec8d669f97c9ff4d3c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Plane3d_Set_n</definition>
         <argsstring>(MR_Plane3d *_this, MR_Vector3d value)</argsstring>
         <name>MR_Plane3d_Set_n</name>
@@ -607,14 +562,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>n</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>n</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>n</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>n</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="170" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="170" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a7dcb48805f79bb679e9887ca2dec211e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_Vector3d * MR_Plane3d_GetMutable_n</definition>
         <argsstring>(MR_Plane3d *_this)</argsstring>
         <name>MR_Plane3d_GetMutable_n</name>
@@ -629,10 +584,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="176" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="176" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="176" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="176" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a53eb5f7f3b73e616ac015f22209af39c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_Plane3d_Get_d</definition>
         <argsstring>(const MR_Plane3d *_this)</argsstring>
         <name>MR_Plane3d_Get_d</name>
@@ -647,10 +602,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="182" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="182" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="182" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="182" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a37ef19af566f0d096e1c55872a135d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Plane3d_Set_d</definition>
         <argsstring>(MR_Plane3d *_this, double value)</argsstring>
         <name>MR_Plane3d_Set_d</name>
@@ -665,14 +620,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>d</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>d</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="187" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="187" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1aaaf2b095ca1916d6c03d65673c430457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_Plane3d_GetMutable_d</definition>
         <argsstring>(MR_Plane3d *_this)</argsstring>
         <name>MR_Plane3d_GetMutable_d</name>
@@ -687,10 +642,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="193" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="193" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="193" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="193" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a20142fd373bcc033f5aa20b2a323071c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Plane3d_DefaultConstruct</name>
@@ -704,10 +659,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="197" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="197" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="197" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="197" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a990a2e6e25a90ae359ddcac961c0c52b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Plane3d_DefaultConstructArray</name>
@@ -722,10 +677,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="202" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="202" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="202" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="202" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API const MR_Plane3d * MR_Plane3d_OffsetPtr</definition>
         <argsstring>(const MR_Plane3d *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Plane3d_OffsetPtr</name>
@@ -744,10 +699,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="206" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="206" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="206" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="206" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_OffsetMutablePtr</definition>
         <argsstring>(MR_Plane3d *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Plane3d_OffsetMutablePtr</name>
@@ -766,10 +721,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="210" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="210" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="210" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="210" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a11fb948e08da0f7422209b1ca248efe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_ConstructFromAnother</definition>
         <argsstring>(const MR_Plane3d *_other)</argsstring>
         <name>MR_Plane3d_ConstructFromAnother</name>
@@ -784,10 +739,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="216" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="216" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="216" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="216" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1ab69f40b787a42b6779979cde29fa87c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_Construct</definition>
         <argsstring>(const MR_Vector3d *n, double d)</argsstring>
         <name>MR_Plane3d_Construct</name>
@@ -806,10 +761,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="222" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="222" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="222" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="222" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a8d71761b4ac5ea2de74b6145b6f73b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_Construct_float</definition>
         <argsstring>(const MR_Plane3f *p)</argsstring>
         <name>MR_Plane3d_Construct_float</name>
@@ -824,10 +779,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="230" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="230" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="230" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="230" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Plane3d_Destroy</definition>
         <argsstring>(const MR_Plane3d *_this)</argsstring>
         <name>MR_Plane3d_Destroy</name>
@@ -836,16 +791,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Plane3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="233" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="233" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Plane3d_DestroyArray</definition>
         <argsstring>(const MR_Plane3d *_this)</argsstring>
         <name>MR_Plane3d_DestroyArray</name>
@@ -854,16 +809,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Plane3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="236" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="236" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a817a8e3ab69835026b97a7241170903f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_AssignFromAnother</definition>
         <argsstring>(MR_Plane3d *_this, const MR_Plane3d *_other)</argsstring>
         <name>MR_Plane3d_AssignFromAnother</name>
@@ -878,14 +833,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Plane3d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Plane3d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="244" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="244" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="244" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="244" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a3ecb7b6232d59fee69258d4d80107ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_fromDirAndPt</definition>
         <argsstring>(const MR_Vector3d *n, const MR_Vector3d *p)</argsstring>
         <name>MR_Plane3d_fromDirAndPt</name>
@@ -904,10 +859,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="250" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="250" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="250" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="250" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1afca9cc2d06ab857d0bae08606f9ba481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
         <definition>MRC_API double MR_Plane3d_distance</definition>
         <argsstring>(const MR_Plane3d *_this, const MR_Vector3d *x)</argsstring>
         <name>MR_Plane3d_distance</name>
@@ -926,10 +881,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="256" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="256" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="256" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="256" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a23a39c97fb89286ee4e334b32a2b166f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_neg_MR_Plane3d</definition>
         <argsstring>(const MR_Plane3d *_this)</argsstring>
         <name>MR_neg_MR_Plane3d</name>
@@ -944,10 +899,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="262" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="262" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="262" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="262" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a03772356aa3a28c173be49ed2509fb5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API const MR_Plane3d * MR_pos_MR_Plane3d</definition>
         <argsstring>(const MR_Plane3d *_this)</argsstring>
         <name>MR_pos_MR_Plane3d</name>
@@ -962,10 +917,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="268" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="268" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="268" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="268" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1aa3cd55121123d687e578d46a2bae1b59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
         <definition>MRC_API MR_Plane3d * MR_Plane3d_normalized</definition>
         <argsstring>(const MR_Plane3d *_this)</argsstring>
         <name>MR_Plane3d_normalized</name>
@@ -980,10 +935,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="274" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="274" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="274" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="274" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1a1282c6e6ee613ca4fa7532287c7f4415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
         <definition>MRC_API MR_Vector3d MR_Plane3d_project</definition>
         <argsstring>(const MR_Plane3d *_this, const MR_Vector3d *p)</argsstring>
         <name>MR_Plane3d_project</name>
@@ -1002,10 +957,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="280" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="280" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="280" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="280" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1abfb9600c3a6c6aa2dc5d3047b5748dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
         <definition>MRC_API MR_std_ostream * MR_print_MR_Plane3d</definition>
         <argsstring>(MR_std_ostream *s, const MR_Plane3d *pl)</argsstring>
         <name>MR_print_MR_Plane3d</name>
@@ -1024,10 +979,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="286" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="286" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="286" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="286" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRPlane3_8h_1aa6e0ea07c380ae48b0d3d655a5ba31ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
         <definition>MRC_API MR_std_istream * MR_input_MR_Plane3d</definition>
         <argsstring>(MR_std_istream *s, MR_Plane3d *pl)</argsstring>
         <name>MR_input_MR_Plane3d</name>
@@ -1046,7 +1001,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="292" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="292" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" line="292" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h" declline="292" declcolumn="24"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1057,7 +1012,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -1065,118 +1020,118 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRPlane3_8h_1aef22a11476e76208a3f9a5cf2eba4c98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPlane3_8h_1a933fad1748853c0c595a157b9f6527c6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRPlane3_8h_1aa7548d3448b3b7da1ea96433fe902e9a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRPlane3_8h_1a47c990e52774bc8bd9e02d71ca3a353b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRPlane3_8h_1a122763771c89e236bde3fb50cd6002d2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPlane3_8h_1a122763771c89e236bde3fb50cd6002d2" kindref="member">MR_Plane3f_Get_n</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30" refid="MRPlane3_8h_1a122763771c89e236bde3fb50cd6002d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPlane3_8h_1a122763771c89e236bde3fb50cd6002d2" kindref="member">MR_Plane3f_Get_n</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRPlane3_8h_1aca3dd1d71a77b47af1b41fb051154d9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aca3dd1d71a77b47af1b41fb051154d9e" kindref="member">MR_Plane3f_Set_n</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="36" refid="MRPlane3_8h_1aca3dd1d71a77b47af1b41fb051154d9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aca3dd1d71a77b47af1b41fb051154d9e" kindref="member">MR_Plane3f_Set_n</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRPlane3_8h_1afbf6704d511f4e8672f5c27f122614d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPlane3_8h_1afbf6704d511f4e8672f5c27f122614d6" kindref="member">MR_Plane3f_GetMutable_n</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42" refid="MRPlane3_8h_1afbf6704d511f4e8672f5c27f122614d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPlane3_8h_1afbf6704d511f4e8672f5c27f122614d6" kindref="member">MR_Plane3f_GetMutable_n</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRPlane3_8h_1a9a39adcb0d90b9858a1464c854567784" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1a9a39adcb0d90b9858a1464c854567784" kindref="member">MR_Plane3f_Get_d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48" refid="MRPlane3_8h_1a9a39adcb0d90b9858a1464c854567784" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1a9a39adcb0d90b9858a1464c854567784" kindref="member">MR_Plane3f_Get_d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRPlane3_8h_1aebf371e9cf3ac5d10432968c68318502" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aebf371e9cf3ac5d10432968c68318502" kindref="member">MR_Plane3f_Set_d</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="53" refid="MRPlane3_8h_1aebf371e9cf3ac5d10432968c68318502" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aebf371e9cf3ac5d10432968c68318502" kindref="member">MR_Plane3f_Set_d</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRPlane3_8h_1ac59a39bbec281021ab7e63927e499dae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1ac59a39bbec281021ab7e63927e499dae" kindref="member">MR_Plane3f_GetMutable_d</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59" refid="MRPlane3_8h_1ac59a39bbec281021ab7e63927e499dae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1ac59a39bbec281021ab7e63927e499dae" kindref="member">MR_Plane3f_GetMutable_d</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRPlane3_8h_1a8efb53a603d6e77e6fe7ed7b564f828b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a8efb53a603d6e77e6fe7ed7b564f828b" kindref="member">MR_Plane3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63" refid="MRPlane3_8h_1a8efb53a603d6e77e6fe7ed7b564f828b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a8efb53a603d6e77e6fe7ed7b564f828b" kindref="member">MR_Plane3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRPlane3_8h_1a13963b7bfc0e9c2e81e6acdd4f02e934" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a13963b7bfc0e9c2e81e6acdd4f02e934" kindref="member">MR_Plane3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="68" refid="MRPlane3_8h_1a13963b7bfc0e9c2e81e6acdd4f02e934" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a13963b7bfc0e9c2e81e6acdd4f02e934" kindref="member">MR_Plane3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" kindref="member">MR_Plane3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="72" refid="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" kindref="member">MR_Plane3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" kindref="member">MR_Plane3f_OffsetMutablePtr</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="76" refid="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" kindref="member">MR_Plane3f_OffsetMutablePtr</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRPlane3_8h_1a31af7e2904042e205333fdd23e9c91f4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a31af7e2904042e205333fdd23e9c91f4" kindref="member">MR_Plane3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="82" refid="MRPlane3_8h_1a31af7e2904042e205333fdd23e9c91f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a31af7e2904042e205333fdd23e9c91f4" kindref="member">MR_Plane3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRPlane3_8h_1aad5763d77bd350ba7555d9c63f15845c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1aad5763d77bd350ba7555d9c63f15845c" kindref="member">MR_Plane3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
+<codeline lineno="88" refid="MRPlane3_8h_1aad5763d77bd350ba7555d9c63f15845c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1aad5763d77bd350ba7555d9c63f15845c" kindref="member">MR_Plane3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Here<sp/>`T<sp/>==<sp/>U`<sp/>doesn&apos;t<sp/>seem<sp/>to<sp/>cause<sp/>any<sp/>issues<sp/>in<sp/>the<sp/>C++<sp/>code,<sp/>but<sp/>we&apos;re<sp/>still<sp/>disabling<sp/>it<sp/>because<sp/>it<sp/>somehow<sp/>gets<sp/>emitted</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight></codeline>
-<codeline lineno="96" refid="MRPlane3_8h_1ab6d4bcca5ba5787986cd6d976807eb2e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ab6d4bcca5ba5787986cd6d976807eb2e" kindref="member">MR_Plane3f_Construct_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRPlane3_8h_1ab6d4bcca5ba5787986cd6d976807eb2e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ab6d4bcca5ba5787986cd6d976807eb2e" kindref="member">MR_Plane3f_Construct_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99" refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" kindref="member">MR_Plane3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102" refid="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" kindref="member">MR_Plane3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRPlane3_8h_1accb58b54961ab128f9a11249dfd7fe66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1accb58b54961ab128f9a11249dfd7fe66" kindref="member">MR_Plane3f_AssignFromAnother</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="110" refid="MRPlane3_8h_1accb58b54961ab128f9a11249dfd7fe66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1accb58b54961ab128f9a11249dfd7fe66" kindref="member">MR_Plane3f_AssignFromAnother</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRPlane3_8h_1ad6e5feb62358a92b93d0f057523c61ae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ad6e5feb62358a92b93d0f057523c61ae" kindref="member">MR_Plane3f_fromDirAndPt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="116" refid="MRPlane3_8h_1ad6e5feb62358a92b93d0f057523c61ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ad6e5feb62358a92b93d0f057523c61ae" kindref="member">MR_Plane3f_fromDirAndPt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRPlane3_8h_1ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" kindref="member">MR_Plane3f_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*x);</highlight></codeline>
+<codeline lineno="122" refid="MRPlane3_8h_1ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" kindref="member">MR_Plane3f_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*x);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRPlane3_8h_1af20a73df7c02ef3c38aebd6d345b4c39" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1af20a73df7c02ef3c38aebd6d345b4c39" kindref="member">MR_neg_MR_Plane3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128" refid="MRPlane3_8h_1af20a73df7c02ef3c38aebd6d345b4c39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1af20a73df7c02ef3c38aebd6d345b4c39" kindref="member">MR_neg_MR_Plane3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRPlane3_8h_1a118c8760034ea30bebb058b1d1e94ee9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a118c8760034ea30bebb058b1d1e94ee9" kindref="member">MR_pos_MR_Plane3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134" refid="MRPlane3_8h_1a118c8760034ea30bebb058b1d1e94ee9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a118c8760034ea30bebb058b1d1e94ee9" kindref="member">MR_pos_MR_Plane3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRPlane3_8h_1a262f998fbab2de5ef151a3cd07584629" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a262f998fbab2de5ef151a3cd07584629" kindref="member">MR_Plane3f_normalized</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140" refid="MRPlane3_8h_1a262f998fbab2de5ef151a3cd07584629" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a262f998fbab2de5ef151a3cd07584629" kindref="member">MR_Plane3f_normalized</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRPlane3_8h_1a12963c09e6453c44c77f13b7aff8c4aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRPlane3_8h_1a12963c09e6453c44c77f13b7aff8c4aa" kindref="member">MR_Plane3f_project</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="146" refid="MRPlane3_8h_1a12963c09e6453c44c77f13b7aff8c4aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRPlane3_8h_1a12963c09e6453c44c77f13b7aff8c4aa" kindref="member">MR_Plane3f_project</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRPlane3_8h_1ade87140c2d16a13db328a6cf4b2d4bdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRPlane3_8h_1ade87140c2d16a13db328a6cf4b2d4bdb" kindref="member">MR_print_MR_Plane3f</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*pl);</highlight></codeline>
+<codeline lineno="152" refid="MRPlane3_8h_1ade87140c2d16a13db328a6cf4b2d4bdb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRPlane3_8h_1ade87140c2d16a13db328a6cf4b2d4bdb" kindref="member">MR_print_MR_Plane3f</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*pl);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158" refid="MRPlane3_8h_1a6c6ce1c312c8370942ebc59f8a0f7ec4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRPlane3_8h_1a6c6ce1c312c8370942ebc59f8a0f7ec4" kindref="member">MR_input_MR_Plane3f</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*pl);</highlight></codeline>
+<codeline lineno="158" refid="MRPlane3_8h_1a6c6ce1c312c8370942ebc59f8a0f7ec4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRPlane3_8h_1a6c6ce1c312c8370942ebc59f8a0f7ec4" kindref="member">MR_input_MR_Plane3f</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*pl);</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRPlane3_8h_1a54d5d8c2f0f71bfa69c9152b4a26474f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPlane3_8h_1a54d5d8c2f0f71bfa69c9152b4a26474f" kindref="member">MR_Plane3d_Get_n</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164" refid="MRPlane3_8h_1a54d5d8c2f0f71bfa69c9152b4a26474f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPlane3_8h_1a54d5d8c2f0f71bfa69c9152b4a26474f" kindref="member">MR_Plane3d_Get_n</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRPlane3_8h_1a0f42f6177176cec8d669f97c9ff4d3c6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a0f42f6177176cec8d669f97c9ff4d3c6" kindref="member">MR_Plane3d_Set_n</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="170" refid="MRPlane3_8h_1a0f42f6177176cec8d669f97c9ff4d3c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a0f42f6177176cec8d669f97c9ff4d3c6" kindref="member">MR_Plane3d_Set_n</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="MRPlane3_8h_1a7dcb48805f79bb679e9887ca2dec211e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPlane3_8h_1a7dcb48805f79bb679e9887ca2dec211e" kindref="member">MR_Plane3d_GetMutable_n</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176" refid="MRPlane3_8h_1a7dcb48805f79bb679e9887ca2dec211e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPlane3_8h_1a7dcb48805f79bb679e9887ca2dec211e" kindref="member">MR_Plane3d_GetMutable_n</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRPlane3_8h_1a53eb5f7f3b73e616ac015f22209af39c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1a53eb5f7f3b73e616ac015f22209af39c" kindref="member">MR_Plane3d_Get_d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="182" refid="MRPlane3_8h_1a53eb5f7f3b73e616ac015f22209af39c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1a53eb5f7f3b73e616ac015f22209af39c" kindref="member">MR_Plane3d_Get_d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRPlane3_8h_1a37ef19af566f0d096e1c55872a135d7f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a37ef19af566f0d096e1c55872a135d7f" kindref="member">MR_Plane3d_Set_d</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="187" refid="MRPlane3_8h_1a37ef19af566f0d096e1c55872a135d7f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a37ef19af566f0d096e1c55872a135d7f" kindref="member">MR_Plane3d_Set_d</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRPlane3_8h_1aaaf2b095ca1916d6c03d65673c430457" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1aaaf2b095ca1916d6c03d65673c430457" kindref="member">MR_Plane3d_GetMutable_d</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="193" refid="MRPlane3_8h_1aaaf2b095ca1916d6c03d65673c430457" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1aaaf2b095ca1916d6c03d65673c430457" kindref="member">MR_Plane3d_GetMutable_d</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRPlane3_8h_1a20142fd373bcc033f5aa20b2a323071c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a20142fd373bcc033f5aa20b2a323071c" kindref="member">MR_Plane3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197" refid="MRPlane3_8h_1a20142fd373bcc033f5aa20b2a323071c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a20142fd373bcc033f5aa20b2a323071c" kindref="member">MR_Plane3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="MRPlane3_8h_1a990a2e6e25a90ae359ddcac961c0c52b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a990a2e6e25a90ae359ddcac961c0c52b" kindref="member">MR_Plane3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="202" refid="MRPlane3_8h_1a990a2e6e25a90ae359ddcac961c0c52b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a990a2e6e25a90ae359ddcac961c0c52b" kindref="member">MR_Plane3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206" refid="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" kindref="member">MR_Plane3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="206" refid="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" kindref="member">MR_Plane3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" kindref="member">MR_Plane3d_OffsetMutablePtr</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="210" refid="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" kindref="member">MR_Plane3d_OffsetMutablePtr</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRPlane3_8h_1a11fb948e08da0f7422209b1ca248efe8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a11fb948e08da0f7422209b1ca248efe8" kindref="member">MR_Plane3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="216" refid="MRPlane3_8h_1a11fb948e08da0f7422209b1ca248efe8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a11fb948e08da0f7422209b1ca248efe8" kindref="member">MR_Plane3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MRPlane3_8h_1ab69f40b787a42b6779979cde29fa87c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1ab69f40b787a42b6779979cde29fa87c6" kindref="member">MR_Plane3d_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*n,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
+<codeline lineno="222" refid="MRPlane3_8h_1ab69f40b787a42b6779979cde29fa87c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1ab69f40b787a42b6779979cde29fa87c6" kindref="member">MR_Plane3d_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*n,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Here<sp/>`T<sp/>==<sp/>U`<sp/>doesn&apos;t<sp/>seem<sp/>to<sp/>cause<sp/>any<sp/>issues<sp/>in<sp/>the<sp/>C++<sp/>code,<sp/>but<sp/>we&apos;re<sp/>still<sp/>disabling<sp/>it<sp/>because<sp/>it<sp/>somehow<sp/>gets<sp/>emitted</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight></codeline>
-<codeline lineno="230" refid="MRPlane3_8h_1a8d71761b4ac5ea2de74b6145b6f73b38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a8d71761b4ac5ea2de74b6145b6f73b38" kindref="member">MR_Plane3d_Construct_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRPlane3_8h_1a8d71761b4ac5ea2de74b6145b6f73b38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a8d71761b4ac5ea2de74b6145b6f73b38" kindref="member">MR_Plane3d_Construct_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="233" refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" kindref="member">MR_Plane3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="236" refid="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" kindref="member">MR_Plane3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRPlane3_8h_1a817a8e3ab69835026b97a7241170903f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a817a8e3ab69835026b97a7241170903f" kindref="member">MR_Plane3d_AssignFromAnother</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="244" refid="MRPlane3_8h_1a817a8e3ab69835026b97a7241170903f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a817a8e3ab69835026b97a7241170903f" kindref="member">MR_Plane3d_AssignFromAnother</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRPlane3_8h_1a3ecb7b6232d59fee69258d4d80107ba7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a3ecb7b6232d59fee69258d4d80107ba7" kindref="member">MR_Plane3d_fromDirAndPt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="250" refid="MRPlane3_8h_1a3ecb7b6232d59fee69258d4d80107ba7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a3ecb7b6232d59fee69258d4d80107ba7" kindref="member">MR_Plane3d_fromDirAndPt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MRPlane3_8h_1afca9cc2d06ab857d0bae08606f9ba481" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1afca9cc2d06ab857d0bae08606f9ba481" kindref="member">MR_Plane3d_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*x);</highlight></codeline>
+<codeline lineno="256" refid="MRPlane3_8h_1afca9cc2d06ab857d0bae08606f9ba481" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1afca9cc2d06ab857d0bae08606f9ba481" kindref="member">MR_Plane3d_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*x);</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRPlane3_8h_1a23a39c97fb89286ee4e334b32a2b166f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a23a39c97fb89286ee4e334b32a2b166f" kindref="member">MR_neg_MR_Plane3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="262" refid="MRPlane3_8h_1a23a39c97fb89286ee4e334b32a2b166f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a23a39c97fb89286ee4e334b32a2b166f" kindref="member">MR_neg_MR_Plane3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268" refid="MRPlane3_8h_1a03772356aa3a28c173be49ed2509fb5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a03772356aa3a28c173be49ed2509fb5a" kindref="member">MR_pos_MR_Plane3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="268" refid="MRPlane3_8h_1a03772356aa3a28c173be49ed2509fb5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a03772356aa3a28c173be49ed2509fb5a" kindref="member">MR_pos_MR_Plane3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRPlane3_8h_1aa3cd55121123d687e578d46a2bae1b59" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1aa3cd55121123d687e578d46a2bae1b59" kindref="member">MR_Plane3d_normalized</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="274" refid="MRPlane3_8h_1aa3cd55121123d687e578d46a2bae1b59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1aa3cd55121123d687e578d46a2bae1b59" kindref="member">MR_Plane3d_normalized</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="280" refid="MRPlane3_8h_1a1282c6e6ee613ca4fa7532287c7f4415" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRPlane3_8h_1a1282c6e6ee613ca4fa7532287c7f4415" kindref="member">MR_Plane3d_project</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="280" refid="MRPlane3_8h_1a1282c6e6ee613ca4fa7532287c7f4415" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRPlane3_8h_1a1282c6e6ee613ca4fa7532287c7f4415" kindref="member">MR_Plane3d_project</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRPlane3_8h_1abfb9600c3a6c6aa2dc5d3047b5748dd3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRPlane3_8h_1abfb9600c3a6c6aa2dc5d3047b5748dd3" kindref="member">MR_print_MR_Plane3d</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*pl);</highlight></codeline>
+<codeline lineno="286" refid="MRPlane3_8h_1abfb9600c3a6c6aa2dc5d3047b5748dd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRPlane3_8h_1abfb9600c3a6c6aa2dc5d3047b5748dd3" kindref="member">MR_print_MR_Plane3d</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*pl);</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292" refid="MRPlane3_8h_1aa6e0ea07c380ae48b0d3d655a5ba31ea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRPlane3_8h_1aa6e0ea07c380ae48b0d3d655a5ba31ea" kindref="member">MR_input_MR_Plane3d</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*pl);</highlight></codeline>
+<codeline lineno="292" refid="MRPlane3_8h_1aa6e0ea07c380ae48b0d3d655a5ba31ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRPlane3_8h_1aa6e0ea07c380ae48b0d3d655a5ba31ea" kindref="member">MR_input_MR_Plane3d</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*pl);</highlight></codeline>
 <codeline lineno="293"><highlight class="normal"></highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="295"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="296"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPlane3.h"/>
   </compounddef>
 </doxygen>

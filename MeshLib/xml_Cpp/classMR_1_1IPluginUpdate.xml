@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IPluginUpdate" kind="class" language="C++" prot="public">
     <compoundname>MR::IPluginUpdate</compoundname>
     <derivedcompoundref refid="classMR_1_1PluginCloseOnChangeMesh" prot="public" virt="virtual">MR::PluginCloseOnChangeMesh</derivedcompoundref>
@@ -8,7 +8,7 @@
     <derivedcompoundref refid="classMR_1_1PluginCloseOnSelectedObjectRemove" prot="public" virt="virtual">MR::PluginCloseOnSelectedObjectRemove</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1PluginUpdateOnChangeMeshPart" prot="public" virt="virtual">MR::PluginUpdateOnChangeMeshPart</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1StateBasePlugin" prot="public" virt="virtual">MR::StateBasePlugin</derivedcompoundref>
-    <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
+    <includes refid="MRStatePluginUpdate_8h" local="no">MRViewer/MRStatePluginUpdate.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" kind="function"><name>~IPluginUpdate</name></member>
       <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" kind="function"><name>preDrawUpdate</name></member>
@@ -24,20 +24,46 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="12">
+        <label>MR::AddCustomThemePlugin</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="7">
         <label>MR::BinaryOperations</label>
         <link refid="classMR_1_1BinaryOperations"/>
         <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::CameraOrientation</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::CaptureScreenshotMenuItem</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="11" relation="public-inheritance">
         </childnode>
       </node>
       <node id="1">
         <label>MR::IPluginUpdate</label>
         <link refid="classMR_1_1IPluginUpdate"/>
       </node>
-      <node id="11">
+      <node id="18">
         <label>MR::MoveObjectByMouse</label>
         <link refid="classMR_1_1MoveObjectByMouse"/>
-        <childnode refid="10" relation="public-inheritance">
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::OpenRawVoxelsPlugin</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="11" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -75,7 +101,7 @@
         <link refid="classMR_1_1SelectObjectByClick"/>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
-        <childnode refid="12" relation="public-inheritance">
+        <childnode refid="19" relation="public-inheritance">
         </childnode>
       </node>
       <node id="9">
@@ -84,26 +110,44 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="13">
+      <node id="20">
         <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
       <node id="10">
+        <label>MR::StateListenerPlugin&lt; Connectables... &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="12">
+      <node id="19">
         <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="11">
+        <label>MR::StateListenerPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::ViewerSettingsPlugin</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="15" bodyend="27"/>
+    <location file="MRViewer/MRStatePluginUpdate.h" line="14" column="1" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="15" bodyend="27"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::IPluginUpdate</scope><name>onPluginDisable_</name></member>
       <member refid="group__GeneralGroup_1gac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::IPluginUpdate</scope><name>onPluginEnable_</name></member>

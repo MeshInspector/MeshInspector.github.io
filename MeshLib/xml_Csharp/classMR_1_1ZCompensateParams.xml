@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ZCompensateParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ZCompensateParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ZCompensateParams</basecompoundref>
@@ -11,13 +11,13 @@
         <name>maxShift</name>
         <qualifiedname>MR.ZCompensateParams.maxShift</qualifiedname>
         <briefdescription>
+<para>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis </para>
         </briefdescription>
         <detaileddescription>
-<para>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="358" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="358" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="380" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="380" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ZCompensateParams_1a7151ed5110bf1981af95debb4d3f9c04" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="361" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="361" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="385" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="385" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ZCompensateParams_1a6b19a4dde59c64bcbc07bc3f44e6e5ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -47,11 +47,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="364" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="364" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="390" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="390" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1ZCompensateParams_1a3f1b0148393f8db7af5d7c985cdc7477" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.ZCompensateParams.progress</definition>
+      <memberdef kind="property" id="classMR_1_1ZCompensateParams_1a56098b858916cb24c0fc96902f20d45f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.ZCompensateParams.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.ZCompensateParams.progress</qualifiedname>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="367" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="367" bodyend="367"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="395" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="395" bodyend="395"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="386" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="386" bodyend="390"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="414" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="414" bodyend="418"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="396" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="396" bodyend="402"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="424" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="424" bodyend="430"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZCompensateParams_1ad7dcaa9e3a31703d004ddaa199ae5735" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="407" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="407" bodyend="414"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="435" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="435" bodyend="442"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZCompensateParams_1acaf0bd91a5aa01d32777bc585ae3ec7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ZCompensateParams.ZCompensateParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZCompensateParams_1a78417a5d20ab8cf7989c8d53005e18a9" kindref="member">MR.ZCompensateParams.ZCompensateParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="419" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="419" bodyend="426"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="447" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="447" bodyend="454"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZCompensateParams_1a4b5bf5e96693a295db34a12482033d1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ZCompensateParams.ZCompensateParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZCompensateParams_1a78417a5d20ab8cf7989c8d53005e18a9" kindref="member">MR.ZCompensateParams.ZCompensateParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="431" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="431" bodyend="431"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="459" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="459" bodyend="459"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZCompensateParams_1a87a6b614fdb3f8b49b3f691dfb4609d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ZCompensateParams.ZCompensateParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZCompensateParams_1a78417a5d20ab8cf7989c8d53005e18a9" kindref="member">MR.ZCompensateParams.ZCompensateParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="436" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="436" bodyend="436"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="464" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="464" bodyend="464"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZCompensateParams_1a58900502a72256ca9db2ad16512b3e10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ZCompensateParams" kindref="compound">MR.ZCompensateParams</ref></type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ZCompensateParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ZCompensateParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="441" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="441" bodyend="448"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="469" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="469" bodyend="476"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -219,53 +219,53 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ZCompensateParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ZCompensateParams</label>
         <link refid="classMR_1_1ZCompensateParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ZCompensateParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ZCompensateParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ZCompensateParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ZCompensateParams</label>
         <link refid="classMR_1_1ZCompensateParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ZCompensateParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ZCompensateParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="354" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="355" bodyend="449"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="374" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="375" bodyend="477"/>
     <listofallmembers>
       <member refid="classMR_1_1ZCompensateParams_1a58900502a72256ca9db2ad16512b3e10" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>assign</name></member>
       <member refid="classMR_1_1ZCompensateParams_1add0c6a404bef78e4b7e20ec0f9ec688e" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>maxShift</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a6b19a4dde59c64bcbc07bc3f44e6e5ea" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>minThickness</name></member>
-      <member refid="classMR_1_1ZCompensateParams_1a3f1b0148393f8db7af5d7c985cdc7477" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>progress</name></member>
+      <member refid="classMR_1_1ZCompensateParams_1a56098b858916cb24c0fc96902f20d45f" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>progress</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a7151ed5110bf1981af95debb4d3f9c04" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>reduceSelfIntersections</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a57321c23bcefb28ef0799ab23fd9e6d6" prot="package" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a78417a5d20ab8cf7989c8d53005e18a9" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>

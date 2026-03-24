@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TwoLineSegmClosestPoints_double</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a1b285e62f7a24fca60041b1035459d97" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TwoLineSegmClosestPoints_double::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double._offsetof_a</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60057" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1ae3520320bf8538ad39726fbfe87f092f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TwoLineSegmClosestPoints_double::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double._offsetof_b</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60058" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1aa50430e78d1c3ea441c7760c6ad8c242" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TwoLineSegmClosestPoints_double::_offsetof_dir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dir</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double._offsetof_dir</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60059" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1ad9438c0e617aef46718e18c8e522aa67" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TwoLineSegmClosestPoints_double.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60062" bodyend="60063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a5b56574aa4f3ea224d6baac4c23cbdd2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double" kindref="compound">TwoLineSegmClosestPoints_double</ref></type>
+        <definition> TwoLineSegmClosestPoints_double mrmeshpy.TwoLineSegmClosestPoints_double.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60066" bodyend="60067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a5b56574aa4f3ea224d6baac4c23cbdd2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double" kindref="compound">TwoLineSegmClosestPoints_double</ref></type>
+        <definition> TwoLineSegmClosestPoints_double mrmeshpy.TwoLineSegmClosestPoints_double.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60070" bodyend="60071"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1aef9a1341407e5041ca2fbf708a34ad9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TwoLineSegmClosestPoints_double.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60073" bodyend="60074"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a3523cb4edf128363b187bc9fa9623bdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TwoLineSegmClosestPoints_double.__init__</definition>
+        <argsstring>(self, TwoLineSegmClosestPoints_double arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double" kindref="compound">TwoLineSegmClosestPoints_double</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60076" bodyend="60079"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1ad876344f0580e6d10c64f91338474923" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TwoLineSegmClosestPoints_double.__init__</definition>
+        <argsstring>(self, Vector3d a, Vector3d b, Vector3d dir)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60081" bodyend="60084"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a305eeb4a78aaf16cd53bfc179fed560c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.TwoLineSegmClosestPoints_double.a</definition>
+        <argsstring>(self)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the closest points each from its respective segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60086" bodyend="60089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a0a9853ff6292470032c9b15ac1ea5796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TwoLineSegmClosestPoints_double.a</definition>
+        <argsstring>(self, Vector3d arg1)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60091" bodyend="60092"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a7f508ff616921deb34049038800771f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.TwoLineSegmClosestPoints_double.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the closest points each from its respective segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60094" bodyend="60097"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1abb55c2feba989554551f6734a1821be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TwoLineSegmClosestPoints_double.b</definition>
+        <argsstring>(self, Vector3d arg1)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60099" bodyend="60100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a01e8b99ec9544a5409017d015eca57df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.TwoLineSegmClosestPoints_double.dir</definition>
+        <argsstring>(self)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if both closest points are in segment endpoints, then directed from closest point a to closest point b,
+if both closest points are inner to the segments, then its orthogonal to both segments and directed from a to b,
+otherwise it is orthogonal to the segment with inner closest point and rotated toward/away the other closest point in endpoint
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60102" bodyend="60107"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1abce671d59ebfb1ed350954e791a1e616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TwoLineSegmClosestPoints_double.dir</definition>
+        <argsstring>(self, Vector3d arg1)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.TwoLineSegmClosestPoints_double.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60109" bodyend="60110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TwoLineSegmClosestPoints&lt;double&gt;
+Aliases:  TwoLineSegmClosestPointsd
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60052" bodyend="60110"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1ad9438c0e617aef46718e18c8e522aa67" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1aef9a1341407e5041ca2fbf708a34ad9c" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a3523cb4edf128363b187bc9fa9623bdf" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1ad876344f0580e6d10c64f91338474923" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a1b285e62f7a24fca60041b1035459d97" prot="protected" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1ae3520320bf8538ad39726fbfe87f092f" prot="protected" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1aa50430e78d1c3ea441c7760c6ad8c242" prot="protected" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>_offsetof_dir</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a305eeb4a78aaf16cd53bfc179fed560c" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a0a9853ff6292470032c9b15ac1ea5796" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a7f508ff616921deb34049038800771f9" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1abb55c2feba989554551f6734a1821be7" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a01e8b99ec9544a5409017d015eca57df" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1abce671d59ebfb1ed350954e791a1e616" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a5b56574aa4f3ea224d6baac4c23cbdd2" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TwoLineSegmClosestPoints__double_1a5b56574aa4f3ea224d6baac4c23cbdd2" prot="public" virt="non-virtual"><scope>mrmeshpy::TwoLineSegmClosestPoints_double</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__shared__ptr__MR__ObjectPoints_8h" kind="file" language="C++">
+    <compoundname>std_shared_ptr_MR_ObjectPoints.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_shared_ptr_MR_ObjectPoints.h</label>
+        <link refid="std__shared__ptr__MR__ObjectPoints_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1acdf8663e548189d3f1fd01c4f4efde5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="24" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="24" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a9c5dd2c9f5259364cb77ae992c7b96a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a95bc427f574b8d622ed6724339b3a698" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a62e91d895278ad5912f049d207b968d3" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a687a374c8f8e0cd3c07ff7c8e322dd85" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="29" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="29" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a83742256ca27de0a37aee8fb3693554d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectPoints *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="35" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="35" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1ae5bc5a9281168f830c90fddb42083398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectPoints_AssignFromAnother</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectPoints *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectPoints *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectPoints_Destroy</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectPoints *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a95bc427f574b8d622ed6724339b3a698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectPoints_DestroyArray</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectPoints *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a687a374c8f8e0cd3c07ff7c8e322dd85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_OffsetPtr</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectPoints *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="51" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="51" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a62e91d895278ad5912f049d207b968d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectPoints *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="55" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="55" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a1616042929483084cb5a617cf17a1f4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_get</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectPoints *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_get</name>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stored pointer, possibly null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="60" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="60" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a236840d0ba99014733072f1be4bee6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_shared_ptr_MR_ObjectPoints_has_value</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectPoints *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_has_value</name>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if non-null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1afc4712aff40db2b3fb4effbba2a34bc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_std_shared_ptr_MR_ObjectPoints_use_count</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectPoints *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_use_count</name>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a1616042929483084cb5a617cf17a1f4d" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_get()</ref></computeroutput> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a7ded9660819f52d9feafeaa9ec33ca4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectPoints_reset</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectPoints *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_reset</name>
+        <param>
+          <type><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the pointer to null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a3b8650b7a9e73022e444c3a82ba7e857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_ConstructFromValue</definition>
+        <argsstring>(MR_PassBy value_pass_by, MR_ObjectPoints *value)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_ConstructFromValue</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a value. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="80" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="80" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a0be7858b6fbfcce21fb7a873ff44b60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_Construct</definition>
+        <argsstring>(MR_ObjectPoints *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_Construct</name>
+        <param>
+          <type><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, taking ownership of an existing pointer. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRObjectPoints_8h_1aaab88d56bdcaf94f0e0ea6e7c5d257fc" kindref="member">MR_ObjectPoints_Destroy()</ref></computeroutput> on it automatically. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="86" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="86" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1aab9f609917d5aeed0e7622a5f55518bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectPoints_Assign</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectPoints *_this, MR_ObjectPoints *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_Assign</name>
+        <param>
+          <type><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRObjectPoints_8h_1aaab88d56bdcaf94f0e0ea6e7c5d257fc" kindref="member">MR_ObjectPoints_Destroy()</ref></computeroutput> on it automatically. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="92" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a289b51dcd7f59e9770295b0dd0869dca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_ConstructNonOwning</definition>
+        <argsstring>(MR_ObjectPoints *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_ConstructNonOwning</name>
+        <param>
+          <type><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, storing a non-owning pointer. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="98" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="98" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a06131ff5d0ead5a591d92eee8aa06c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectPoints_AssignNonOwning</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectPoints *_this, MR_ObjectPoints *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_AssignNonOwning</name>
+        <param>
+          <type><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="104" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1acbf38c688a72feff14e87777fbb30e3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectPoints * MR_std_shared_ptr_MR_ObjectPoints_ConstructAliasing</definition>
+        <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectPoints *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_ConstructAliasing</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="111" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="111" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a2bc1ade12484d90a89435bfa4f9ee0cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectPoints_AssignAliasing</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectPoints *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectPoints *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_AssignAliasing</name>
+        <param>
+          <type><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a20f66b1c6738fe9dd499059abebb4fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_void * MR_std_shared_ptr_MR_ObjectPoints_ConvertTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectPoints *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_ConvertTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an untyped <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> pointing to the same object as the source typed pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__void_8h_1a4058fff40b43d1e3047fc56d51306aa3" kindref="member">MR_std_shared_ptr_void_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="123" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="123" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectPoints_8h_1a2da1dc4fd5e391451b583351cb9fc442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectPoints_AssignTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectPoints *_this, MR_std_shared_ptr_void *_target)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPoints_AssignTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+          <declname>_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrites an existing <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> to point to the same object as this instance. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_target</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h" declline="128" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__ObjectPoints_8h_1acdf8663e548189d3f1fd01c4f4efde5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1acdf8663e548189d3f1fd01c4f4efde5b" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__ObjectPoints_8h_1a9c5dd2c9f5259364cb77ae992c7b96a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a9c5dd2c9f5259364cb77ae992c7b96a8" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__ObjectPoints_8h_1a83742256ca27de0a37aee8fb3693554d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a83742256ca27de0a37aee8fb3693554d" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__ObjectPoints_8h_1ae5bc5a9281168f830c90fddb42083398" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1ae5bc5a9281168f830c90fddb42083398" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_AssignFromAnother</ref>(<ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a570f5e3628e7e709e35a6fe2a1ec646e" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__ObjectPoints_8h_1a95bc427f574b8d622ed6724339b3a698" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a95bc427f574b8d622ed6724339b3a698" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__ObjectPoints_8h_1a687a374c8f8e0cd3c07ff7c8e322dd85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a687a374c8f8e0cd3c07ff7c8e322dd85" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__ObjectPoints_8h_1a62e91d895278ad5912f049d207b968d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a62e91d895278ad5912f049d207b968d3" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_OffsetMutablePtr</ref>(<ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__ObjectPoints_8h_1a1616042929483084cb5a617cf17a1f4d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a1616042929483084cb5a617cf17a1f4d" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__ObjectPoints_8h_1a236840d0ba99014733072f1be4bee6f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a236840d0ba99014733072f1be4bee6f7" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__ObjectPoints_8h_1afc4712aff40db2b3fb4effbba2a34bc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1afc4712aff40db2b3fb4effbba2a34bc3" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__ObjectPoints_8h_1a7ded9660819f52d9feafeaa9ec33ca4d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a7ded9660819f52d9feafeaa9ec33ca4d" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_reset</ref>(<ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__ObjectPoints_8h_1a3b8650b7a9e73022e444c3a82ba7e857" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a3b8650b7a9e73022e444c3a82ba7e857" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__ObjectPoints_8h_1a0be7858b6fbfcce21fb7a873ff44b60e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a0be7858b6fbfcce21fb7a873ff44b60e" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Construct</ref>(<ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__ObjectPoints_8h_1aab9f609917d5aeed0e7622a5f55518bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1aab9f609917d5aeed0e7622a5f55518bf" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_Assign</ref>(<ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this,<sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__ObjectPoints_8h_1a289b51dcd7f59e9770295b0dd0869dca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a289b51dcd7f59e9770295b0dd0869dca" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_ConstructNonOwning</ref>(<ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="std__shared__ptr__MR__ObjectPoints_8h_1a06131ff5d0ead5a591d92eee8aa06c91" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a06131ff5d0ead5a591d92eee8aa06c91" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_AssignNonOwning</ref>(<ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this,<sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="std__shared__ptr__MR__ObjectPoints_8h_1acbf38c688a72feff14e87777fbb30e3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1acbf38c688a72feff14e87777fbb30e3a" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__shared__ptr__MR__ObjectPoints_8h_1a2bc1ade12484d90a89435bfa4f9ee0cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a2bc1ade12484d90a89435bfa4f9ee0cf" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_AssignAliasing</ref>(<ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="std__shared__ptr__MR__ObjectPoints_8h_1a20f66b1c6738fe9dd499059abebb4fc6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a20f66b1c6738fe9dd499059abebb4fc6" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="std__shared__ptr__MR__ObjectPoints_8h_1a2da1dc4fd5e391451b583351cb9fc442" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPoints_8h_1a2da1dc4fd5e391451b583351cb9fc442" kindref="member">MR_std_shared_ptr_MR_ObjectPoints_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPoints.h"/>
+  </compounddef>
+</doxygen>

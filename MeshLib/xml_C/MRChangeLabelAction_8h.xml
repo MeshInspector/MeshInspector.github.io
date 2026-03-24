@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeLabelAction_8h" kind="file" language="C++">
     <compoundname>MRChangeLabelAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="2">
@@ -14,10 +14,24 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="1">
         <label>MRChangeLabelAction.h</label>
@@ -28,89 +42,31 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
-      <node id="4">
-        <label>MRCMisc/exports.h</label>
-      </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
       </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRChangeLabelAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
-        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
-        <argsstring></argsstring>
-        <name>MR_HistoryAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="13" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeLabelAction_8h_1ad1f067f53336cb27d2f73aa6923d6081" prot="public" static="no">
-        <type>struct <ref refid="MRChangeLabelAction_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_ObjectLabel MR_std_shared_ptr_MR_ObjectLabel</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_ObjectLabel</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="14" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeLabelAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" prot="public" static="no">
-        <type>struct <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref></type>
-        <definition>typedef struct MR_ChangeLabelAction MR_ChangeLabelAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeLabelAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::ChangeLabelAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="23" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRChangeLabelAction_8h_1a5475a658e9ba31e72dba89b155890cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
         <definition>MRC_API MR_ChangeLabelAction * MR_ChangeLabelAction_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_ChangeLabelAction *_other)</argsstring>
         <name>MR_ChangeLabelAction_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -120,15 +76,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="28" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="28" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="28" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="28" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1af45faac4c6fc65b03eb364c870b1a0b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
         <definition>MRC_API const MR_ChangeLabelAction * MR_ChangeLabelAction_OffsetPtr</definition>
         <argsstring>(const MR_ChangeLabelAction *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChangeLabelAction_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -142,15 +98,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="32" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="32" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="32" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="32" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1aadcd1b79b92c1382cfc48c9cf6b41514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
         <definition>MRC_API MR_ChangeLabelAction * MR_ChangeLabelAction_OffsetMutablePtr</definition>
         <argsstring>(MR_ChangeLabelAction *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChangeLabelAction_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -164,15 +120,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="36" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="36" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="36" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="36" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1acce496fd2552c20372e338f801ce0d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API const MR_HistoryAction * MR_ChangeLabelAction_UpcastTo_MR_HistoryAction</definition>
         <argsstring>(const MR_ChangeLabelAction *object)</argsstring>
         <name>MR_ChangeLabelAction_UpcastTo_MR_HistoryAction</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>object</declname>
         </param>
         <briefdescription>
@@ -182,15 +138,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="41" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="41" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="41" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="41" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1a8f0c7e9da39d2bfdaefc5fd3b505be94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API MR_HistoryAction * MR_ChangeLabelAction_MutableUpcastTo_MR_HistoryAction</definition>
         <argsstring>(MR_ChangeLabelAction *object)</argsstring>
         <name>MR_ChangeLabelAction_MutableUpcastTo_MR_HistoryAction</name>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>object</declname>
         </param>
         <briefdescription>
@@ -200,10 +156,118 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="45" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="45" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="45" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="45" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeLabelAction_8h_1ac004a606a012c43edee714e30ab9275c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeLabelAction * MR_ChangeLabelAction_StaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeLabelAction_StaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeLabelAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="51" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="51" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeLabelAction_8h_1af289ed3f2e15d25a263ebc9ff2392f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <definition>MRC_API MR_ChangeLabelAction * MR_ChangeLabelAction_MutableStaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeLabelAction_MutableStaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeLabelAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="56" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="56" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeLabelAction_8h_1a34ee4e53a1b97d1ac3a9125678c92325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeLabelAction * MR_ChangeLabelAction_DynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeLabelAction_DynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeLabelAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="62" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="62" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeLabelAction_8h_1a535571dff7f4cc3e0bd1b577de48c746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <definition>MRC_API MR_ChangeLabelAction * MR_ChangeLabelAction_MutableDynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeLabelAction_MutableDynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeLabelAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="67" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="67" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeLabelAction_8h_1a9351142b38927e9bc9211574f38be964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeLabelAction * MR_ChangeLabelAction_DynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeLabelAction_DynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeLabelAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="75" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="75" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeLabelAction_8h_1a330ffa61bb0cda7955c831ce352d78be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <definition>MRC_API MR_ChangeLabelAction * MR_ChangeLabelAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeLabelAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeLabelAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="82" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="82" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1afb2c914d69815e9b1bf1797d1ae3e24d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
         <definition>MRC_API MR_ChangeLabelAction * MR_ChangeLabelAction_Construct</definition>
         <argsstring>(const char *actionName, const char *actionName_end, MR_PassBy obj_pass_by, MR_std_shared_ptr_MR_ObjectLabel *obj)</argsstring>
         <name>MR_ChangeLabelAction_Construct</name>
@@ -216,11 +280,11 @@
           <declname>actionName_end</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>obj_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRChangeLabelAction_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref> *</type>
           <declname>obj</declname>
         </param>
         <briefdescription>
@@ -230,95 +294,95 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="53" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="53" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="90" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="90" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1aa72ec32c62b1b6b1dfae547d13cc6a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeLabelAction_Destroy</definition>
         <argsstring>(const MR_ChangeLabelAction *_this)</argsstring>
         <name>MR_ChangeLabelAction_Destroy</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeLabelAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="56" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="93" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1a1b495a1b4f59072b2983acb046374bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeLabelAction_DestroyArray</definition>
         <argsstring>(const MR_ChangeLabelAction *_this)</argsstring>
         <name>MR_ChangeLabelAction_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeLabelAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="59" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="96" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1a01ea3c030786973362c52b5b85b97ca5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
         <definition>MRC_API MR_ChangeLabelAction * MR_ChangeLabelAction_AssignFromAnother</definition>
         <argsstring>(MR_ChangeLabelAction *_this, MR_PassBy _other_pass_by, MR_ChangeLabelAction *_other)</argsstring>
         <name>MR_ChangeLabelAction_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChangeLabelAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ChangeLabelAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="66" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="66" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="103" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="103" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1ac5c01f04e2641c0008ea6f938e33718f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API MR_std_string * MR_ChangeLabelAction_name</definition>
         <argsstring>(const MR_ChangeLabelAction *_this)</argsstring>
         <name>MR_ChangeLabelAction_name</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChangeLabelAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::ChangeLabelAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string_8h_1a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" kindref="member">MR_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="71" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="71" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="108" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="108" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1a23f8bb69ac0b85fb7640228051f712e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeLabelAction_action</definition>
         <argsstring>(MR_ChangeLabelAction *_this, MR_HistoryAction_Type _1)</argsstring>
         <name>MR_ChangeLabelAction_action</name>
         <param>
-          <type><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -332,15 +396,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="75" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="112" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeLabelAction_8h_1aa97787eaaff7fe5c38ab7d25cfc2ed5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_ChangeLabelAction_heapBytes</definition>
         <argsstring>(const MR_ChangeLabelAction *_this)</argsstring>
         <name>MR_ChangeLabelAction_heapBytes</name>
         <param>
-          <type>const <ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -350,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" line="79" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h" declline="79" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" line="116" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h" declline="116" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -361,8 +425,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRHistoryAction_8h" kindref="compound">MRCMesh/MRHistoryAction.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -370,41 +434,53 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRChangeLabelAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRChangeLabelAction_8h_1ad1f067f53336cb27d2f73aa6923d6081" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeLabelAction_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref><sp/><ref refid="MRChangeLabelAction_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectLabel.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRChangeLabelAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref><sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectLabel.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRChangeLabelAction_8h_1a5475a658e9ba31e72dba89b155890cad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a5475a658e9ba31e72dba89b155890cad" kindref="member">MR_ChangeLabelAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="28" refid="MRChangeLabelAction_8h_1a5475a658e9ba31e72dba89b155890cad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a5475a658e9ba31e72dba89b155890cad" kindref="member">MR_ChangeLabelAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRChangeLabelAction_8h_1af45faac4c6fc65b03eb364c870b1a0b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1af45faac4c6fc65b03eb364c870b1a0b2" kindref="member">MR_ChangeLabelAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="32" refid="MRChangeLabelAction_8h_1af45faac4c6fc65b03eb364c870b1a0b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1af45faac4c6fc65b03eb364c870b1a0b2" kindref="member">MR_ChangeLabelAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRChangeLabelAction_8h_1aadcd1b79b92c1382cfc48c9cf6b41514" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1aadcd1b79b92c1382cfc48c9cf6b41514" kindref="member">MR_ChangeLabelAction_OffsetMutablePtr</ref>(<ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="36" refid="MRChangeLabelAction_8h_1aadcd1b79b92c1382cfc48c9cf6b41514" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1aadcd1b79b92c1382cfc48c9cf6b41514" kindref="member">MR_ChangeLabelAction_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRChangeLabelAction_8h_1acce496fd2552c20372e338f801ce0d6f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1acce496fd2552c20372e338f801ce0d6f" kindref="member">MR_ChangeLabelAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41" refid="MRChangeLabelAction_8h_1acce496fd2552c20372e338f801ce0d6f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1acce496fd2552c20372e338f801ce0d6f" kindref="member">MR_ChangeLabelAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRChangeLabelAction_8h_1a8f0c7e9da39d2bfdaefc5fd3b505be94" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a8f0c7e9da39d2bfdaefc5fd3b505be94" kindref="member">MR_ChangeLabelAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45" refid="MRChangeLabelAction_8h_1a8f0c7e9da39d2bfdaefc5fd3b505be94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a8f0c7e9da39d2bfdaefc5fd3b505be94" kindref="member">MR_ChangeLabelAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRChangeLabelAction_8h_1afb2c914d69815e9b1bf1797d1ae3e24d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1afb2c914d69815e9b1bf1797d1ae3e24d" kindref="member">MR_ChangeLabelAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actionName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actionName_end,<sp/>MR_PassBy<sp/>obj_pass_by,<sp/><ref refid="MRChangeLabelAction_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRChangeLabelAction_8h_1aa72ec32c62b1b6b1dfae547d13cc6a20" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeLabelAction_8h_1aa72ec32c62b1b6b1dfae547d13cc6a20" kindref="member">MR_ChangeLabelAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51" refid="MRChangeLabelAction_8h_1ac004a606a012c43edee714e30ab9275c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1ac004a606a012c43edee714e30ab9275c" kindref="member">MR_ChangeLabelAction_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRChangeLabelAction_8h_1af289ed3f2e15d25a263ebc9ff2392f18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1af289ed3f2e15d25a263ebc9ff2392f18" kindref="member">MR_ChangeLabelAction_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRChangeLabelAction_8h_1a1b495a1b4f59072b2983acb046374bfd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeLabelAction_8h_1a1b495a1b4f59072b2983acb046374bfd" kindref="member">MR_ChangeLabelAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRChangeLabelAction_8h_1a01ea3c030786973362c52b5b85b97ca5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a01ea3c030786973362c52b5b85b97ca5" kindref="member">MR_ChangeLabelAction_AssignFromAnother</ref>(<ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRChangeLabelAction_8h_1ac5c01f04e2641c0008ea6f938e33718f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1ac5c01f04e2641c0008ea6f938e33718f" kindref="member">MR_ChangeLabelAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRChangeLabelAction_8h_1a23f8bb69ac0b85fb7640228051f712e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeLabelAction_8h_1a23f8bb69ac0b85fb7640228051f712e1" kindref="member">MR_ChangeLabelAction_action</ref>(<ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="62" refid="MRChangeLabelAction_8h_1a34ee4e53a1b97d1ac3a9125678c92325" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a34ee4e53a1b97d1ac3a9125678c92325" kindref="member">MR_ChangeLabelAction_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRChangeLabelAction_8h_1a535571dff7f4cc3e0bd1b577de48c746" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a535571dff7f4cc3e0bd1b577de48c746" kindref="member">MR_ChangeLabelAction_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRChangeLabelAction_8h_1a9351142b38927e9bc9211574f38be964" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a9351142b38927e9bc9211574f38be964" kindref="member">MR_ChangeLabelAction_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRChangeLabelAction_8h_1aa97787eaaff7fe5c38ab7d25cfc2ed5d" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeLabelAction_8h_1aa97787eaaff7fe5c38ab7d25cfc2ed5d" kindref="member">MR_ChangeLabelAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="82" refid="MRChangeLabelAction_8h_1a330ffa61bb0cda7955c831ce352d78be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a330ffa61bb0cda7955c831ce352d78be" kindref="member">MR_ChangeLabelAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRChangeLabelAction_8h_1afb2c914d69815e9b1bf1797d1ae3e24d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1afb2c914d69815e9b1bf1797d1ae3e24d" kindref="member">MR_ChangeLabelAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actionName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actionName_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>obj_pass_by,<sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1ad1f067f53336cb27d2f73aa6923d6081" kindref="member">MR_std_shared_ptr_MR_ObjectLabel</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRChangeLabelAction_8h_1aa72ec32c62b1b6b1dfae547d13cc6a20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeLabelAction_8h_1aa72ec32c62b1b6b1dfae547d13cc6a20" kindref="member">MR_ChangeLabelAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRChangeLabelAction_8h_1a1b495a1b4f59072b2983acb046374bfd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeLabelAction_8h_1a1b495a1b4f59072b2983acb046374bfd" kindref="member">MR_ChangeLabelAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRChangeLabelAction_8h_1a01ea3c030786973362c52b5b85b97ca5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1a01ea3c030786973362c52b5b85b97ca5" kindref="member">MR_ChangeLabelAction_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRChangeLabelAction_8h_1ac5c01f04e2641c0008ea6f938e33718f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeLabelAction_8h_1ac5c01f04e2641c0008ea6f938e33718f" kindref="member">MR_ChangeLabelAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRChangeLabelAction_8h_1a23f8bb69ac0b85fb7640228051f712e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeLabelAction_8h_1a23f8bb69ac0b85fb7640228051f712e1" kindref="member">MR_ChangeLabelAction_action</ref>(<ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRChangeLabelAction_8h_1aa97787eaaff7fe5c38ab7d25cfc2ed5d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeLabelAction_8h_1aa97787eaaff7fe5c38ab7d25cfc2ed5d" kindref="member">MR_ChangeLabelAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeLabelAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRChangeLabelAction.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRChangeLabelAction.h"/>
   </compounddef>
 </doxygen>

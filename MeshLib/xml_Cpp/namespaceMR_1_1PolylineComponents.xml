@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1PolylineComponents" kind="namespace" language="C++">
     <compoundname>MR::PolylineComponents</compoundname>
     <innerclass refid="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public">MR::PolylineComponents::LargeByLengthComponentsSettings</innerclass>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1ga7b49dea5ec0f482893a31e642b0118b6" kind="function"><name>getNumComponents</name></member>
-      <member refid="group__ComponentsGroup_1gaf31a9bdb0fcd7f0b1ae5f69a4b83415d" kind="function"><name>getComponent</name></member>
-      <member refid="group__ComponentsGroup_1ga80e95c2ddcd2a35b79f66a0540d4a152" kind="function"><name>getAllComponents</name></member>
-      <member refid="group__ComponentsGroup_1ga2c677b8145a12d5f3bfba158ff3e719d" kind="function"><name>getAllComponents</name></member>
+      <member refid="group__GeneralGroup_1gabec2d7d813f0159e3532c158410ca712" kind="function"><name>getNumComponents</name></member>
+      <member refid="group__ComponentsGroup_1gae454bfbd27b24030c793ab3382963143" kind="function"><name>getComponent</name></member>
+      <member refid="group__ComponentsGroup_1ga8765004daa3420ce02b70999e3922293" kind="function"><name>getAllComponents</name></member>
+      <member refid="group__ComponentsGroup_1ga006413ee980027528e83f3b7c524e0b0" kind="function"><name>getAllComponents</name></member>
       <member refid="group__ComponentsGroup_1gaff8ff9103faf452503ccfda3a3a8def2" kind="function"><name>getNLargeByLengthComponents</name></member>
-      <member refid="group__ComponentsGroup_1ga4e45c9f9a413927f7c08c3cd1062d8b3" kind="function"><name>getUnionFindStructure</name></member>
+      <member refid="group__ComponentsGroup_1gaadd77175cc33edfab01c4159ec6438a0" kind="function"><name>getUnionFindStructure</name></member>
       <member refid="group__ComponentsGroup_1ga0ab7676eb3ec7a769260f636d14c495c" kind="function"><name>getLargestComponent</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="11" column="1"/>
+    <location file="MRMesh/MRPolylineComponents.h" line="11" column="1"/>
   </compounddef>
 </doxygen>

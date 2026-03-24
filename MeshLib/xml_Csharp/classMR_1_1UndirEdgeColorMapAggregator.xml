@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UndirEdgeColorMapAggregator" kind="class" language="C#" prot="public">
     <compoundname>MR::UndirEdgeColorMapAggregator</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirEdgeColorMapAggregator</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="902" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="902" bodyend="902"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="912" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="912" bodyend="912"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="907" bodyend="912"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="917" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="917" bodyend="922"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1aed707045b5a58c9c99c0084a70fa949f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,13 +54,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UndirEdgeColorMapAggregator.UndirEdgeColorMapAggregator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirEdgeColorMapAggregator_1a0bd7017544b9377ff23a1c88c4192106" kindref="member">MR.UndirEdgeColorMapAggregator.UndirEdgeColorMapAggregator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="917" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="917" bodyend="923"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="927" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="927" bodyend="933"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a2439a0073047ce182e834f42483985cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,13 +73,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UndirEdgeColorMapAggregator.UndirEdgeColorMapAggregator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirEdgeColorMapAggregator_1a0bd7017544b9377ff23a1c88c4192106" kindref="member">MR.UndirEdgeColorMapAggregator.UndirEdgeColorMapAggregator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="928" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="928" bodyend="928"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="938" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="938" bodyend="938"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1ae230ad841ad3059a170c8fb53c01e910" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -92,13 +92,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UndirEdgeColorMapAggregator.UndirEdgeColorMapAggregator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirEdgeColorMapAggregator_1a0bd7017544b9377ff23a1c88c4192106" kindref="member">MR.UndirEdgeColorMapAggregator.UndirEdgeColorMapAggregator</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="933" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="933" bodyend="933"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="943" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="943" bodyend="943"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a90c3a313a42c39684e68043d2e247d6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirEdgeColorMapAggregator" kindref="compound">MR.UndirEdgeColorMapAggregator</ref></type>
@@ -111,13 +111,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UndirEdgeColorMapAggregator.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirEdgeColorMapAggregator::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="938" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="938" bodyend="945"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="948" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="948" bodyend="955"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a458e50de3e61676d6ea541dc3abb4ce6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="951" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="951" bodyend="959"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="961" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="961" bodyend="969"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1af7cf95f2867c4b33520ccef323cf62b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="965" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="965" bodyend="970"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="975" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="975" bodyend="980"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1aaf2449d5c5a40ed6c876086fe8bb950a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="976" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="976" bodyend="981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="986" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="986" bodyend="991"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1afa19e310517bd3061a14069301c39000" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="987" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="987" bodyend="992"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="997" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="997" bodyend="1002"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1aecfad71bce8ab425f97c9b0302234db7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="998" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="998" bodyend="1003"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1008" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1008" bodyend="1013"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a6b081f89b7e8276d8f4d8107ffeaba33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ulong</type>
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1009" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1009" bodyend="1014"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1019" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1019" bodyend="1024"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a3f36a0cab31c59c993b5c4a64a9d1637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</type>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1020" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1020" bodyend="1025"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1030" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1030" bodyend="1035"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a94a0070c9ce688b293ea11c9a18294b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1032" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1032" bodyend="1038"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1042" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1042" bodyend="1048"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1ab213b7ff563303412227a2977c5737a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -293,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1044" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1044" bodyend="1049"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1054" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1054" bodyend="1059"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a303510aa3e1d0e9943bcf5b4c436fc69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeColors" kindref="compound">MR.UndirectedEdgeColors</ref></type>
@@ -312,7 +312,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1055" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1055" bodyend="1060"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1065" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1065" bodyend="1070"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -321,48 +321,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_UndirEdgeColorMapAggregator</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UndirEdgeColorMapAggregator</label>
         <link refid="classMR_1_1UndirEdgeColorMapAggregator"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UndirEdgeColorMapAggregator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UndirEdgeColorMapAggregator &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_UndirEdgeColorMapAggregator</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UndirEdgeColorMapAggregator</label>
         <link refid="classMR_1_1UndirEdgeColorMapAggregator"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UndirEdgeColorMapAggregator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UndirEdgeColorMapAggregator &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="900" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="901" bodyend="1061"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="910" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="911" bodyend="1071"/>
     <listofallmembers>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a303510aa3e1d0e9943bcf5b4c436fc69" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>aggregate</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a90c3a313a42c39684e68043d2e247d6c" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>assign</name></member>

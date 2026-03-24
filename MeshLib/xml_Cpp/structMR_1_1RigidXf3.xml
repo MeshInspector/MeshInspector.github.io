@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RigidXf3" kind="struct" language="C++" prot="public">
     <compoundname>MR::RigidXf3</compoundname>
-    <includes refid="MRRigidXf3_8h" local="no">MRRigidXf3.h</includes>
+    <includes refid="MRRigidXf3_8h" local="no">MRMesh/MRRigidXf3.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -27,7 +27,7 @@
     <detaileddescription>
 <para>rigid transformation preserving all distances: y = A*x + b, where A is rotation matrix 3x3 stored as 3 angles, and b is shift vector </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidXf3.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidXf3.h" bodystart="16" bodyend="32"/>
+    <location file="MRMesh/MRRigidXf3.h" line="15" column="1" bodyfile="MRMesh/MRRigidXf3.h" bodystart="16" bodyend="32"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad344bdee6f6f01c79ad1f21d6ee2e283" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1ga1c18eb2cefaafa045ec3e26dc9948f71" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>b</name></member>

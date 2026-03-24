@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__ConversionBetween2and3dimGroup" kind="group">
     <compoundname>ConversionBetween2and3dimGroup</compoundname>
     <title>2d &lt;-&gt; 3d conversion</title>
@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" line="21" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" bodystart="21" bodyend="24"/>
+        <location file="MRMesh/MR2to3.h" line="21" column="17" bodyfile="MRMesh/MR2to3.h" bodystart="21" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" line="27" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" bodystart="27" bodyend="30"/>
+        <location file="MRMesh/MR2to3.h" line="27" column="17" bodyfile="MRMesh/MR2to3.h" bodystart="27" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="group__ConversionBetween2and3dimGroup_1gaec12159443820ad007ef070ec329a5bd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" bodystart="33" bodyend="36"/>
+        <location file="MRMesh/MR2to3.h" line="33" column="17" bodyfile="MRMesh/MR2to3.h" bodystart="33" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="group__ConversionBetween2and3dimGroup_1ga56b942afa415c4adc6496cd94d888892" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" line="39" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" bodystart="39" bodyend="42"/>
+        <location file="MRMesh/MR2to3.h" line="39" column="17" bodyfile="MRMesh/MR2to3.h" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="group__ConversionBetween2and3dimGroup_1gad5a04e5b51ad4523afb6a14b3d8dd250" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" line="45" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" bodystart="45" bodyend="48"/>
+        <location file="MRMesh/MR2to3.h" line="45" column="19" bodyfile="MRMesh/MR2to3.h" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="group__ConversionBetween2and3dimGroup_1ga4a844799c3d17d7ef03c8fbd4e8546b6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -140,13 +140,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" line="51" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h" bodystart="51" bodyend="54"/>
+        <location file="MRMesh/MR2to3.h" line="51" column="19" bodyfile="MRMesh/MR2to3.h" bodystart="51" bodyend="54"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Conversion functions from lower-dimensional data to higher-dimensional put 0 in additional dimensions of vectors or identity elements in matrix Conversion functions from higher-dimensional data to lower-dimensional just omit additional dimensions    </para>
+<para>Conversion functions from lower-dimensional data to higher-dimensional put 0 in additional dimensions of vectors or identity elements in matrix Conversion functions from higher-dimensional data to lower-dimensional just omit additional dimensions </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

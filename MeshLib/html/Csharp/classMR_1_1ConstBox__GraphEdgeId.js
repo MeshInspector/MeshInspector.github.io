@@ -5,6 +5,7 @@ var classMR_1_1ConstBox__GraphEdgeId =
     [ "ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html#a9524085426a808a695f198ddab0746a3", null ],
     [ "ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html#a1649ee21f6d165b73122f96a59532a3e", null ],
     [ "ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html#afe5f5bef3699b88ed4108132394e703d", null ],
+    [ "ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html#a41e97e5f81d72b034d0903726ca9926b", null ],
     [ "Dispose", "classMR_1_1ConstBox__GraphEdgeId.html#a6d376b8b7b055dd89ee0d17b873c4d49", null ],
     [ "Dispose", "classMR_1_1ConstBox__GraphEdgeId.html#a270b9ac7652f459d8b44a8f47007b11b", null ],
     [ "Equals", "classMR_1_1ConstBox__GraphEdgeId.html#a5b6eec73028a6a371af79efb2aabd92c", null ],

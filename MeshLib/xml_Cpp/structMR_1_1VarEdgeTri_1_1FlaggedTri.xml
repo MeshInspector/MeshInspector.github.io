@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VarEdgeTri_1_1FlaggedTri" kind="struct" language="C++" prot="public">
     <compoundname>MR::VarEdgeTri::FlaggedTri</compoundname>
-    <includes refid="MRMeshCollidePrecise_8h" local="no">MRMeshCollidePrecise.h</includes>
+    <includes refid="MRMeshCollidePrecise_8h" local="no">MRMesh/MRMeshCollidePrecise.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1VarEdgeTri_1_1FlaggedTri_1a29688551fde640070c748b997eddb5ab" prot="public" static="no" mutable="no">
         <type>unsigned int</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="36" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="36" column="22" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VarEdgeTri_1_1FlaggedTri_1aa5ab2cbeb1b2f73ba9d3a268be384ace" prot="public" static="no" mutable="no">
         <type>unsigned int</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="37" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="37" bodyend="-1"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="37" column="22" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="37" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -51,14 +51,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="38" column="14"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="38" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="35" bodyend="39"/>
+    <location file="MRMesh/MRMeshCollidePrecise.h" line="34" column="5" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="35" bodyend="39"/>
     <listofallmembers>
       <member refid="structMR_1_1VarEdgeTri_1_1FlaggedTri_1aa5ab2cbeb1b2f73ba9d3a268be384ace" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri::FlaggedTri</scope><name>face</name></member>
       <member refid="structMR_1_1VarEdgeTri_1_1FlaggedTri_1a29688551fde640070c748b997eddb5ab" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri::FlaggedTri</scope><name>isEdgeATriB</name></member>

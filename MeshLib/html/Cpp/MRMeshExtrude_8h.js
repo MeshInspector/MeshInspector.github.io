@@ -1,4 +1,4 @@
 var MRMeshExtrude_8h =
 [
-    [ "makeDegenerateBandAroundRegion", "MRMeshExtrude_8h.html#ga22f39580f90cbdb1bd5c77bd7b922251", null ]
+    [ "MR::makeDegenerateBandAroundRegion", "group__GeneralGroup.html#gadd5038dba629ab9f09789d2855c2aa73", null ]
 ];

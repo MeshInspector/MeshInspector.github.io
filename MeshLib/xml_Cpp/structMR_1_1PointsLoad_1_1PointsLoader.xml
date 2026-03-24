@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointsLoad_1_1PointsLoader" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointsLoad::PointsLoader</compoundname>
-    <includes refid="MRIOFormatsRegistry_8h" local="no">MRIOFormatsRegistry.h</includes>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRMesh/MRIOFormatsRegistry.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1PointsLoader_1a4cd96c08ac7c58d159d713edac45f799" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMR_1_1PointsLoad_1acaeabf1d4cced15a0961b626a6e9b868" kindref="member">PointsFileLoader</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="251" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="251" bodyend="251"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="251" column="22" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="251" bodyend="251"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1PointsLoader_1a799a24a6bd721d10d31a02b8b1e918f7" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMR_1_1PointsLoad_1a0f81139db68679c906d09ff033071478" kindref="member">PointsStreamLoader</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="252" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="252" bodyend="252"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="252" column="24" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="252" bodyend="252"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -53,7 +53,7 @@
         <link refid="structMR_1_1PointsLoadSettings"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="250" bodyend="253"/>
+    <location file="MRMesh/MRIOFormatsRegistry.h" line="249" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="250" bodyend="253"/>
     <listofallmembers>
       <member refid="structMR_1_1PointsLoad_1_1PointsLoader_1a4cd96c08ac7c58d159d713edac45f799" prot="public" virt="non-virtual"><scope>MR::PointsLoad::PointsLoader</scope><name>fileLoad</name></member>
       <member refid="structMR_1_1PointsLoad_1_1PointsLoader_1a799a24a6bd721d10d31a02b8b1e918f7" prot="public" virt="non-virtual"><scope>MR::PointsLoad::PointsLoader</scope><name>streamLoad</name></member>

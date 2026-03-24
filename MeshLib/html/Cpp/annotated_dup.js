@@ -128,7 +128,8 @@ var annotated_dup =
       [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", [
         [ "MeshLoader", "structMR_1_1MeshLoad_1_1MeshLoader.html", "structMR_1_1MeshLoad_1_1MeshLoader" ],
         [ "NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", "structMR_1_1MeshLoad_1_1NamedMesh" ],
-        [ "ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", "structMR_1_1MeshLoad_1_1ObjLoadSettings" ]
+        [ "ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", "structMR_1_1MeshLoad_1_1ObjLoadSettings" ],
+        [ "StepLoadSettings", "structMR_1_1MeshLoad_1_1StepLoadSettings.html", "structMR_1_1MeshLoad_1_1StepLoadSettings" ]
       ] ],
       [ "MeshSave", "namespaceMR_1_1MeshSave.html", [
         [ "BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html", "classMR_1_1MeshSave_1_1BinaryStlSaver" ],
@@ -140,8 +141,21 @@ var annotated_dup =
       [ "Meta", "namespaceMR_1_1Meta.html", [
         [ "SharedPtrTraits", "structMR_1_1Meta_1_1SharedPtrTraits.html", "structMR_1_1Meta_1_1SharedPtrTraits" ]
       ] ],
+      [ "Nesting", "namespaceMR_1_1Nesting.html", [
+        [ "BoxNestingCorner", "structMR_1_1Nesting_1_1BoxNestingCorner.html", "structMR_1_1Nesting_1_1BoxNestingCorner" ],
+        [ "BoxNestingOptions", "structMR_1_1Nesting_1_1BoxNestingOptions.html", "structMR_1_1Nesting_1_1BoxNestingOptions" ],
+        [ "BoxNestingParams", "structMR_1_1Nesting_1_1BoxNestingParams.html", "structMR_1_1Nesting_1_1BoxNestingParams" ],
+        [ "IBoxNestingPriority", "classMR_1_1Nesting_1_1IBoxNestingPriority.html", "classMR_1_1Nesting_1_1IBoxNestingPriority" ],
+        [ "MeshXf", "structMR_1_1Nesting_1_1MeshXf.html", "structMR_1_1Nesting_1_1MeshXf" ],
+        [ "Nesting3mfParams", "structMR_1_1Nesting_1_1Nesting3mfParams.html", "structMR_1_1Nesting_1_1Nesting3mfParams" ],
+        [ "NestingBaseParams", "structMR_1_1Nesting_1_1NestingBaseParams.html", "structMR_1_1Nesting_1_1NestingBaseParams" ],
+        [ "NestingResult", "structMR_1_1Nesting_1_1NestingResult.html", "structMR_1_1Nesting_1_1NestingResult" ],
+        [ "SequentialNester", "classMR_1_1Nesting_1_1SequentialNester.html", "classMR_1_1Nesting_1_1SequentialNester" ],
+        [ "TetrisDensifyOptions", "structMR_1_1Nesting_1_1TetrisDensifyOptions.html", "structMR_1_1Nesting_1_1TetrisDensifyOptions" ],
+        [ "TetrisDensifyParams", "structMR_1_1Nesting_1_1TetrisDensifyParams.html", "structMR_1_1Nesting_1_1TetrisDensifyParams" ]
+      ] ],
       [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
-        [ "Settings", "structMR_1_1ObjectSave_1_1Settings.html", "structMR_1_1ObjectSave_1_1Settings" ]
+        [ "Settings", "structMR_1_1ObjectSave_1_1Settings.html", null ]
       ] ],
       [ "Parallel", "namespaceMR_1_1Parallel.html", [
         [ "CallSimply", "structMR_1_1Parallel_1_1CallSimply.html", "structMR_1_1Parallel_1_1CallSimply" ],
@@ -213,6 +227,9 @@ var annotated_dup =
       [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", [
         [ "Result", "structMR_1_1SceneLoad_1_1Result.html", "structMR_1_1SceneLoad_1_1Result" ],
         [ "Settings", "structMR_1_1SceneLoad_1_1Settings.html", "structMR_1_1SceneLoad_1_1Settings" ]
+      ] ],
+      [ "SceneSave", "namespaceMR_1_1SceneSave.html", [
+        [ "Settings", "structMR_1_1SceneSave_1_1Settings.html", "structMR_1_1SceneSave_1_1Settings" ]
       ] ],
       [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", [
         [ "Settings", "structMR_1_1SelfIntersections_1_1Settings.html", "structMR_1_1SelfIntersections_1_1Settings" ]
@@ -382,6 +399,7 @@ var annotated_dup =
       [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", "classMR_1_1CombinedHistoryAction" ],
       [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ],
       [ "CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", "structMR_1_1CompensateRadiusParams" ],
+      [ "CompressZipSettings", "structMR_1_1CompressZipSettings.html", "structMR_1_1CompressZipSettings" ],
       [ "ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", "structMR_1_1ComputeSteepestDescentPathSettings" ],
       [ "ComputeSweptVolumeParameters", "structMR_1_1ComputeSweptVolumeParameters.html", "structMR_1_1ComputeSweptVolumeParameters" ],
       [ "Cone3", "classMR_1_1Cone3.html", "classMR_1_1Cone3" ],
@@ -439,6 +457,7 @@ var annotated_dup =
       [ "DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", "classMR_1_1DistanceMeasurementObject" ],
       [ "DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", "structMR_1_1DistanceToMeshOptions" ],
       [ "DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", "structMR_1_1DistanceVolumeParams" ],
+      [ "DivideMeshWithPlaneParams", "structMR_1_1DivideMeshWithPlaneParams.html", "structMR_1_1DivideMeshWithPlaneParams" ],
       [ "DividePointCloudOptionalOutput", "structMR_1_1DividePointCloudOptionalOutput.html", "structMR_1_1DividePointCloudOptionalOutput" ],
       [ "DividePolylineParameters", "structMR_1_1DividePolylineParameters.html", "structMR_1_1DividePolylineParameters" ],
       [ "DoubleOffsetSettings", "structMR_1_1DoubleOffsetSettings.html", "structMR_1_1DoubleOffsetSettings" ],
@@ -591,6 +610,7 @@ var annotated_dup =
       [ "LineObject", "classMR_1_1LineObject.html", "classMR_1_1LineObject" ],
       [ "LineSegm", "structMR_1_1LineSegm.html", "structMR_1_1LineSegm" ],
       [ "LinesLoadSettings", "structMR_1_1LinesLoadSettings.html", "structMR_1_1LinesLoadSettings" ],
+      [ "LoadedMeshData", "structMR_1_1LoadedMeshData.html", "structMR_1_1LoadedMeshData" ],
       [ "LoadedObjects", "structMR_1_1LoadedObjects.html", "structMR_1_1LoadedObjects" ],
       [ "LoadedObjectT", "structMR_1_1LoadedObjectT.html", "structMR_1_1LoadedObjectT" ],
       [ "Logger", "classMR_1_1Logger.html", "classMR_1_1Logger" ],
@@ -678,6 +698,7 @@ var annotated_dup =
       [ "NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", "structMR_1_1NoCtor_3_01T_01_4" ],
       [ "NoDefInit", "structMR_1_1NoDefInit.html", "structMR_1_1NoDefInit" ],
       [ "NodeNode", "structMR_1_1NodeNode.html", "structMR_1_1NodeNode" ],
+      [ "NoInit", "structMR_1_1NoInit.html", null ],
       [ "NoInitId", "classMR_1_1NoInitId.html", "classMR_1_1NoInitId" ],
       [ "NoiseSettings", "structMR_1_1NoiseSettings.html", "structMR_1_1NoiseSettings" ],
       [ "NoModelCheck", "structMR_1_1NoModelCheck.html", null ],
@@ -728,9 +749,11 @@ var annotated_dup =
       [ "OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", "classMR_1_1OpenRawVoxelsPlugin" ],
       [ "OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", "structMR_1_1OpenVdbFloatGrid" ],
       [ "OriginAndDimensions", "structMR_1_1OriginAndDimensions.html", "structMR_1_1OriginAndDimensions" ],
+      [ "OutAttributesFillingSettings", "structMR_1_1OutAttributesFillingSettings.html", "structMR_1_1OutAttributesFillingSettings" ],
       [ "OutlierParams", "structMR_1_1OutlierParams.html", "structMR_1_1OutlierParams" ],
       [ "OutliersDetector", "classMR_1_1OutliersDetector.html", "classMR_1_1OutliersDetector" ],
       [ "OutputFlows", "structMR_1_1OutputFlows.html", "structMR_1_1OutputFlows" ],
+      [ "overloaded", "structMR_1_1overloaded.html", null ],
       [ "PackMapping", "structMR_1_1PackMapping.html", "structMR_1_1PackMapping" ],
       [ "Palette", "classMR_1_1Palette.html", "classMR_1_1Palette" ],
       [ "PalettePresets", "classMR_1_1PalettePresets.html", null ],
@@ -933,6 +956,7 @@ var annotated_dup =
       [ "SkyPatch", "structMR_1_1SkyPatch.html", "structMR_1_1SkyPatch" ],
       [ "SliceInfo", "structMR_1_1SliceInfo.html", "structMR_1_1SliceInfo" ],
       [ "SliceInfoBase", "structMR_1_1SliceInfoBase.html", "structMR_1_1SliceInfoBase" ],
+      [ "SmoothFillingSettings", "structMR_1_1SmoothFillingSettings.html", "structMR_1_1SmoothFillingSettings" ],
       [ "SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", "structMR_1_1SomeLocalTriangulations" ],
       [ "SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", "structMR_1_1SortIntersectionsData" ],
       [ "SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", "structMR_1_1SpaceMouseDownListener" ],
@@ -948,8 +972,10 @@ var annotated_dup =
       [ "Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", "classMR_1_1Src2TgtMaps" ],
       [ "StateBasePlugin", "classMR_1_1StateBasePlugin.html", "classMR_1_1StateBasePlugin" ],
       [ "StateListenerPlugin", "classMR_1_1StateListenerPlugin.html", "classMR_1_1StateListenerPlugin" ],
+      [ "StitchHolesNicelySettings", "structMR_1_1StitchHolesNicelySettings.html", "structMR_1_1StitchHolesNicelySettings" ],
       [ "StitchHolesParams", "structMR_1_1StitchHolesParams.html", "structMR_1_1StitchHolesParams" ],
       [ "StopOnTrueCombiner", "structMR_1_1StopOnTrueCombiner.html", "structMR_1_1StopOnTrueCombiner" ],
+      [ "SubdivideFillingSettings", "structMR_1_1SubdivideFillingSettings.html", "structMR_1_1SubdivideFillingSettings" ],
       [ "SubdivideSettings", "structMR_1_1SubdivideSettings.html", "structMR_1_1SubdivideSettings" ],
       [ "SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html", "classMR_1_1SurfaceDistanceBuilder" ],
       [ "SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html", "classMR_1_1SurfaceManipulationWidget" ],
@@ -1001,7 +1027,10 @@ var annotated_dup =
       [ "TrimOptionalOutput", "structMR_1_1TrimOptionalOutput.html", "structMR_1_1TrimOptionalOutput" ],
       [ "TrimWithPlaneParams", "structMR_1_1TrimWithPlaneParams.html", "structMR_1_1TrimWithPlaneParams" ],
       [ "TriPoint", "structMR_1_1TriPoint.html", "structMR_1_1TriPoint" ],
+      [ "TriTriDistanceParams", "structMR_1_1TriTriDistanceParams.html", "structMR_1_1TriTriDistanceParams" ],
+      [ "TriTriDistanceResult", "structMR_1_1TriTriDistanceResult.html", "structMR_1_1TriTriDistanceResult" ],
       [ "TrivialMetricToPenalty", "structMR_1_1TrivialMetricToPenalty.html", "structMR_1_1TrivialMetricToPenalty" ],
+      [ "TwoLineSegmClosestPoints", "structMR_1_1TwoLineSegmClosestPoints.html", "structMR_1_1TwoLineSegmClosestPoints" ],
       [ "TypedBitSet", "classMR_1_1TypedBitSet.html", "classMR_1_1TypedBitSet" ],
       [ "TypedFlatTree", "structMR_1_1TypedFlatTree.html", "structMR_1_1TypedFlatTree" ],
       [ "UiRenderManager", "structMR_1_1UiRenderManager.html", "structMR_1_1UiRenderManager" ],
@@ -1030,6 +1059,7 @@ var annotated_dup =
       [ "VectorTraits< Vector2< T > >", "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4" ],
       [ "VectorTraits< Vector3< T > >", "structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4" ],
       [ "VectorTraits< Vector4< T > >", "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4" ],
+      [ "VersatileChangeMeshPointsAction", "classMR_1_1VersatileChangeMeshPointsAction.html", "classMR_1_1VersatileChangeMeshPointsAction" ],
       [ "VertCoordsDiff", "classMR_1_1VertCoordsDiff.html", "classMR_1_1VertCoordsDiff" ],
       [ "VertDistance", "structMR_1_1VertDistance.html", "structMR_1_1VertDistance" ],
       [ "VertPathInfo", "structMR_1_1VertPathInfo.html", "structMR_1_1VertPathInfo" ],
@@ -1063,7 +1093,6 @@ var annotated_dup =
       [ "VoxelsVolume", "structMR_1_1VoxelsVolume.html", "structMR_1_1VoxelsVolume" ],
       [ "VoxelsVolumeAccessor", "classMR_1_1VoxelsVolumeAccessor.html", null ],
       [ "VoxelsVolumeAccessor< VdbVolume >", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4" ],
-      [ "VoxelsVolumeAccessor< VoxelsVolume< Vector< T, VoxelId > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4" ],
       [ "VoxelsVolumeAccessor< VoxelsVolume< VoxelValueGetter< T > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4" ],
       [ "VoxelsVolumeAccessor< VoxelsVolumeMinMax< Vector< T, VoxelId > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4" ],
       [ "VoxelsVolumeCachingAccessor", "classMR_1_1VoxelsVolumeCachingAccessor.html", "classMR_1_1VoxelsVolumeCachingAccessor" ],

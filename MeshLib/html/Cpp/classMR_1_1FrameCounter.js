@@ -1,7 +1,7 @@
 var classMR_1_1FrameCounter =
 [
-    [ "endDraw", "group__GeneralGroup.html#ga6e8afcba61c4ec89dfe8c220c5bd44be", null ],
-    [ "reset", "group__GeneralGroup.html#gaa00e5f661bf88c35e8fcb83709eab2d1", null ],
+    [ "endDraw", "group__GeneralGroup.html#gab565c8657588a4b578f147fd10456b43", null ],
+    [ "reset", "group__GeneralGroup.html#ga7327ef9217c0d637a3fe427f72676165", null ],
     [ "startDraw", "group__GeneralGroup.html#ga807173f53f5c23dec924754664827f7e", null ],
     [ "drawTimeMilliSec", "group__GeneralGroup.html#gab152bae1e1a65d8d52cba5b78cd43a8c", null ],
     [ "fps", "group__GeneralGroup.html#ga25923dd70b8324ec74a8d347e1cd40d2", null ],

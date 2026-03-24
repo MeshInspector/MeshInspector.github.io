@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BendTextAlongCurveParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BendTextAlongCurveParams</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -631,25 +631,6 @@
 <para><verbatim>Generated from:  MR::BendTextAlongCurveParams
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BendTextAlongCurveParams</label>
-        <link refid="classmrmeshpy_1_1BendTextAlongCurveParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_fontBasedSizeCalc</edgelabel>
-          <edgelabel>_offsetof_fontHeight</edgelabel>
-          <edgelabel>_offsetof_periodicCurve</edgelabel>
-          <edgelabel>_offsetof_pivotBoxPoint</edgelabel>
-          <edgelabel>_offsetof_pivotCurveTime</edgelabel>
-          <edgelabel>_offsetof_stretch</edgelabel>
-          <edgelabel>_offsetof_surfaceOffset</edgelabel>
-          <edgelabel>_offsetof_symbolMesh</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2974" bodyend="3075"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a6f29455bd96a8c2e19a3e83ddd1b9df1" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>__init__</name></member>

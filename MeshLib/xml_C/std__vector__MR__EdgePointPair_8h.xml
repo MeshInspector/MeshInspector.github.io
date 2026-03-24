@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__EdgePointPair_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_EdgePointPair.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_EdgePointPair.h</label>
+        <link refid="std__vector__MR__EdgePointPair_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_EdgePointPair_const_iterator MR_std_vector_MR_EdgePointPair_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="22" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_EdgePointPair_iterator MR_std_vector_MR_EdgePointPair_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="26" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a15cf23cbc607b7c4133eb428c6d30c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a9f76c34e8453c3cec4a07a698ba02db2" kindref="member">MR_std_vector_MR_EdgePointPair_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="30" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="30" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ab0864da49ecc1c1284627f56a391c3a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1afe38f89539a0819982ab0a8b19dd0e52" kindref="member">MR_std_vector_MR_EdgePointPair_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a287af2dc1de14be167a421c5c3216f5e" kindref="member">MR_std_vector_MR_EdgePointPair_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1acc759505fff4ba2353aa27b608511acf" kindref="member">MR_std_vector_MR_EdgePointPair_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="35" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="35" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a7da984de88b11c2329ef443c0a30fb77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_EdgePointPair *other)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a9f76c34e8453c3cec4a07a698ba02db2" kindref="member">MR_std_vector_MR_EdgePointPair_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="41" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="41" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a8cb93f5d748bf5891a4eac593a15da1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, MR_PassBy other_pass_by, MR_std_vector_MR_EdgePointPair *other)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a9f76c34e8453c3cec4a07a698ba02db2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1afe38f89539a0819982ab0a8b19dd0e52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1acc759505fff4ba2353aa27b608511acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="57" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="57" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a287af2dc1de14be167a421c5c3216f5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="61" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="61" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1aa5026c3432d7dbdb708c13ebe538548a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_EdgePointPair_size</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_size</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a620cf6143103662e367e9055ba50848f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgePointPair_empty</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_empty</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a2fec87f17786d8f6e4d2c7d20ad382fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_resize</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_resize</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1afc75b0d017960cb34393e67bc7c201ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, size_t new_size, const MR_EdgePointPair *value)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1acc5a6ef6f9b5cc5c977a05a9c3466cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_clear</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_clear</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ab0a6eeb1636781d901f5a694705e9058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_EdgePointPair_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_capacity</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a2da53b6cc58b02ef18e69c6b9a903948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_reserve</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_reserve</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1abdb84f5e2d27748681ccb98283dcfe1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ae21ebec52e249027ec8f9bea4698da3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API const MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_at</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_at</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="101" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="101" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ac193450280d75c319a999f4d9903927d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_at_mut</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="107" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="107" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a8d455ba74984699f5bab4e04916abba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API const MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_front</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_front</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="112" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="112" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a8b2ffa647ec1330c2947de2e318e9ed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_front_mut</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="117" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="117" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a4504b8bb8c7e6e1e784a1fe5eaeb73e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API const MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_back</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_back</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="122" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="122" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a9b8824caeef0f599af840a1c28995ac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_back_mut</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="127" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="127" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1aac9f6e038c3ccfe1e0a1bec1df20bccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_push_back</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, const MR_EdgePointPair *new_elem)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_push_back</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a755e901adb0595033a19ead95a1250d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_pop_back</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1aeb7d91278242b16e4ace5dabcec1e26a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_insert</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, size_t position, const MR_EdgePointPair *new_elem)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_insert</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ac06dc940a9c0e26f50e47e3de45ae51c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_erase</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_erase</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1aeabf282206b0bdc3c100d5a97ad8d461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_iterator *position, const MR_EdgePointPair *new_elem)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a0ffe889d6eaac0165420943fa9c93866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a5823a79af1635faf452f7a3f6d6c3977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_const_iterator *position, const MR_EdgePointPair *new_elem)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a7b58e12adbeb356cfe53756d401ffb61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a63fcdb753c4203ba0f6ece6380af32b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_const_iterator * MR_std_vector_MR_EdgePointPair_begin</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_begin</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1af906130123f2dffa846581a68c47a5a4" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="177" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="177" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a58f206bf34341bd0f1c6c288af4e3519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgePointPair_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_is_begin</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a700c73e6648cf4c73f036716a1aca2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_iterator * MR_std_vector_MR_EdgePointPair_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_begin_mut</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1ac42c84ff324429760fc9ab56e477356a" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="188" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="188" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a8d854dcfff894df8f8fce01fb22985e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgePointPair_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ae810fb93341f61f71d01849a38ab484e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_const_iterator * MR_std_vector_MR_EdgePointPair_end</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_end</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1af906130123f2dffa846581a68c47a5a4" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="199" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="199" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a3a80f77e762516311fcd5a28763b7bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgePointPair_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_is_end</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1aaa4e4587527394f8c17609c03b11258a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_iterator * MR_std_vector_MR_EdgePointPair_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_end_mut</name>
+        <param>
+          <type><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1ac42c84ff324429760fc9ab56e477356a" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="210" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="210" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1af7f173cc444eef75fd712085c977ea50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgePointPair_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ad16824da99d8530b85692d68eda5c0e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_EdgePointPair_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_to_index</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a6bdc579a29a66f06a6f79e46fc4a0dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_EdgePointPair_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair *_this, const MR_std_vector_MR_EdgePointPair_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1af07c7cee60c721370cd4e036ba36a26c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_const_iterator * MR_std_vector_MR_EdgePointPair_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1af906130123f2dffa846581a68c47a5a4" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="229" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="229" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a01329fb6002c3aa25c86bf4babc6df51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_const_iterator * MR_std_vector_MR_EdgePointPair_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1aefdda3beed800be97c567bdb88cfa68f" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1af5809fab9f0c8aa193065265b565af19" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a8774bee3daa1e996629e704d3b35e88e" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="234" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="234" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a5311428281ad9d55db0cbb43fd8ccad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_const_iterator * MR_std_vector_MR_EdgePointPair_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1af906130123f2dffa846581a68c47a5a4" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="241" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="241" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1abc9ec1c86676d69936654ead1d26ed9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_const_iterator *_this, const MR_std_vector_MR_EdgePointPair_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1af906130123f2dffa846581a68c47a5a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1aefdda3beed800be97c567bdb88cfa68f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a8774bee3daa1e996629e704d3b35e88e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_EdgePointPair_const_iterator * MR_std_vector_MR_EdgePointPair_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="258" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="258" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1af5809fab9f0c8aa193065265b565af19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_const_iterator * MR_std_vector_MR_EdgePointPair_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="262" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="262" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ac9548b2057c258104b9b31159ffffd31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_const_iterator * MR_std_vector_MR_EdgePointPair_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1af906130123f2dffa846581a68c47a5a4" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="267" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="267" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a9b6e4beb54905c89cd949bdb7c040eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_iterator * MR_std_vector_MR_EdgePointPair_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1ac42c84ff324429760fc9ab56e477356a" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="271" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="271" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a8dd0098739e909cee6b815687f1d28e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_iterator * MR_std_vector_MR_EdgePointPair_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a031d148e2e67cc89f2bb36a7a4200d3d" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a935b77678e23f2161de2517d4e7431f7" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1adc9e338c7d3a6a04c0f4d51530d19009" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="276" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="276" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a2378190f8ca09c66695cadadbd215270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_iterator * MR_std_vector_MR_EdgePointPair_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1ac42c84ff324429760fc9ab56e477356a" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="283" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="283" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a18e2a25a016787c4b8899239106f5234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_iterator *_this, const MR_std_vector_MR_EdgePointPair_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ac42c84ff324429760fc9ab56e477356a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a031d148e2e67cc89f2bb36a7a4200d3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1adc9e338c7d3a6a04c0f4d51530d19009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_EdgePointPair_iterator * MR_std_vector_MR_EdgePointPair_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="300" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="300" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a935b77678e23f2161de2517d4e7431f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgePointPair_iterator * MR_std_vector_MR_EdgePointPair_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="304" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="304" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ad225f7e35998489cdf686ee0bab5bf84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API const MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="310" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="310" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ac9de104badfa7a6da0222b29a3a32a71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a9f575b1920f77d5c10678b942b5cd3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ae7791d68dabe0104172354f382dcecd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a35ca8fa66918aa387db1619640465d87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_EdgePointPair_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_const_iterator *a, const MR_std_vector_MR_EdgePointPair_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_EdgePointPair_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a11c523dcc0a5322ac2420343e532be97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_EdgePointPair_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_const_iterator *a, const MR_std_vector_MR_EdgePointPair_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_EdgePointPair_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a3b880e091d474e328ade44a6a9c0a2e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
+        <definition>MRC_API MR_EdgePointPair * MR_std_vector_MR_EdgePointPair_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="338" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="338" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1ac4b4ceb74f51bbd8cda962fa4b1c3cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a8b2fc3a71f7651b7b45990f590bfd69b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a6737dc5f21394b8a041e2acb7794e996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgePointPair_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_EdgePointPair_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_EdgePointPair_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a2bb095c1e4bbb73acd8042987ab398db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_EdgePointPair_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_iterator *a, const MR_std_vector_MR_EdgePointPair_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_EdgePointPair_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgePointPair_8h_1a5ad12b53b10a75d91020f96f4cdef4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_EdgePointPair_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_EdgePointPair_iterator *a, const MR_std_vector_MR_EdgePointPair_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_EdgePointPair_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__EdgePointPair_8h_1a15cf23cbc607b7c4133eb428c6d30c6f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a15cf23cbc607b7c4133eb428c6d30c6f" kindref="member">MR_std_vector_MR_EdgePointPair_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__EdgePointPair_8h_1ab0864da49ecc1c1284627f56a391c3a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1ab0864da49ecc1c1284627f56a391c3a5" kindref="member">MR_std_vector_MR_EdgePointPair_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__EdgePointPair_8h_1a7da984de88b11c2329ef443c0a30fb77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a7da984de88b11c2329ef443c0a30fb77" kindref="member">MR_std_vector_MR_EdgePointPair_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__EdgePointPair_8h_1a8cb93f5d748bf5891a4eac593a15da1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a8cb93f5d748bf5891a4eac593a15da1a" kindref="member">MR_std_vector_MR_EdgePointPair_AssignFromAnother</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__EdgePointPair_8h_1a9f76c34e8453c3cec4a07a698ba02db2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a9f76c34e8453c3cec4a07a698ba02db2" kindref="member">MR_std_vector_MR_EdgePointPair_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__EdgePointPair_8h_1afe38f89539a0819982ab0a8b19dd0e52" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1afe38f89539a0819982ab0a8b19dd0e52" kindref="member">MR_std_vector_MR_EdgePointPair_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__EdgePointPair_8h_1acc759505fff4ba2353aa27b608511acf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1acc759505fff4ba2353aa27b608511acf" kindref="member">MR_std_vector_MR_EdgePointPair_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__EdgePointPair_8h_1a287af2dc1de14be167a421c5c3216f5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a287af2dc1de14be167a421c5c3216f5e" kindref="member">MR_std_vector_MR_EdgePointPair_OffsetMutablePtr</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__EdgePointPair_8h_1aa5026c3432d7dbdb708c13ebe538548a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1aa5026c3432d7dbdb708c13ebe538548a" kindref="member">MR_std_vector_MR_EdgePointPair_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__EdgePointPair_8h_1a620cf6143103662e367e9055ba50848f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a620cf6143103662e367e9055ba50848f" kindref="member">MR_std_vector_MR_EdgePointPair_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__EdgePointPair_8h_1a2fec87f17786d8f6e4d2c7d20ad382fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a2fec87f17786d8f6e4d2c7d20ad382fd" kindref="member">MR_std_vector_MR_EdgePointPair_resize</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__EdgePointPair_8h_1afc75b0d017960cb34393e67bc7c201ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1afc75b0d017960cb34393e67bc7c201ea" kindref="member">MR_std_vector_MR_EdgePointPair_resize_with_default_value</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__EdgePointPair_8h_1acc5a6ef6f9b5cc5c977a05a9c3466cff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1acc5a6ef6f9b5cc5c977a05a9c3466cff" kindref="member">MR_std_vector_MR_EdgePointPair_clear</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__EdgePointPair_8h_1ab0a6eeb1636781d901f5a694705e9058" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1ab0a6eeb1636781d901f5a694705e9058" kindref="member">MR_std_vector_MR_EdgePointPair_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__EdgePointPair_8h_1a2da53b6cc58b02ef18e69c6b9a903948" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a2da53b6cc58b02ef18e69c6b9a903948" kindref="member">MR_std_vector_MR_EdgePointPair_reserve</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__EdgePointPair_8h_1abdb84f5e2d27748681ccb98283dcfe1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1abdb84f5e2d27748681ccb98283dcfe1b" kindref="member">MR_std_vector_MR_EdgePointPair_shrink_to_fit</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__EdgePointPair_8h_1ae21ebec52e249027ec8f9bea4698da3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1ae21ebec52e249027ec8f9bea4698da3f" kindref="member">MR_std_vector_MR_EdgePointPair_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__EdgePointPair_8h_1ac193450280d75c319a999f4d9903927d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1ac193450280d75c319a999f4d9903927d" kindref="member">MR_std_vector_MR_EdgePointPair_at_mut</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__EdgePointPair_8h_1a8d455ba74984699f5bab4e04916abba0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a8d455ba74984699f5bab4e04916abba0" kindref="member">MR_std_vector_MR_EdgePointPair_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__EdgePointPair_8h_1a8b2ffa647ec1330c2947de2e318e9ed5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a8b2ffa647ec1330c2947de2e318e9ed5" kindref="member">MR_std_vector_MR_EdgePointPair_front_mut</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__EdgePointPair_8h_1a4504b8bb8c7e6e1e784a1fe5eaeb73e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a4504b8bb8c7e6e1e784a1fe5eaeb73e8" kindref="member">MR_std_vector_MR_EdgePointPair_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__EdgePointPair_8h_1a9b8824caeef0f599af840a1c28995ac5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a9b8824caeef0f599af840a1c28995ac5" kindref="member">MR_std_vector_MR_EdgePointPair_back_mut</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__EdgePointPair_8h_1aac9f6e038c3ccfe1e0a1bec1df20bccf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1aac9f6e038c3ccfe1e0a1bec1df20bccf" kindref="member">MR_std_vector_MR_EdgePointPair_push_back</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__EdgePointPair_8h_1a755e901adb0595033a19ead95a1250d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a755e901adb0595033a19ead95a1250d2" kindref="member">MR_std_vector_MR_EdgePointPair_pop_back</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__EdgePointPair_8h_1aeb7d91278242b16e4ace5dabcec1e26a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1aeb7d91278242b16e4ace5dabcec1e26a" kindref="member">MR_std_vector_MR_EdgePointPair_insert</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__EdgePointPair_8h_1ac06dc940a9c0e26f50e47e3de45ae51c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1ac06dc940a9c0e26f50e47e3de45ae51c" kindref="member">MR_std_vector_MR_EdgePointPair_erase</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__EdgePointPair_8h_1aeabf282206b0bdc3c100d5a97ad8d461" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1aeabf282206b0bdc3c100d5a97ad8d461" kindref="member">MR_std_vector_MR_EdgePointPair_insert_at_mutable_iter</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__EdgePointPair_8h_1a0ffe889d6eaac0165420943fa9c93866" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a0ffe889d6eaac0165420943fa9c93866" kindref="member">MR_std_vector_MR_EdgePointPair_erase_at_mutable_iter</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__EdgePointPair_8h_1a5823a79af1635faf452f7a3f6d6c3977" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5823a79af1635faf452f7a3f6d6c3977" kindref="member">MR_std_vector_MR_EdgePointPair_insert_at_iter</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__EdgePointPair_8h_1a7b58e12adbeb356cfe53756d401ffb61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a7b58e12adbeb356cfe53756d401ffb61" kindref="member">MR_std_vector_MR_EdgePointPair_erase_at_iter</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__EdgePointPair_8h_1a63fcdb753c4203ba0f6ece6380af32b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a63fcdb753c4203ba0f6ece6380af32b2" kindref="member">MR_std_vector_MR_EdgePointPair_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__EdgePointPair_8h_1a58f206bf34341bd0f1c6c288af4e3519" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a58f206bf34341bd0f1c6c288af4e3519" kindref="member">MR_std_vector_MR_EdgePointPair_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__EdgePointPair_8h_1a700c73e6648cf4c73f036716a1aca2af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a700c73e6648cf4c73f036716a1aca2af" kindref="member">MR_std_vector_MR_EdgePointPair_begin_mut</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__EdgePointPair_8h_1a8d854dcfff894df8f8fce01fb22985e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a8d854dcfff894df8f8fce01fb22985e7" kindref="member">MR_std_vector_MR_EdgePointPair_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__EdgePointPair_8h_1ae810fb93341f61f71d01849a38ab484e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1ae810fb93341f61f71d01849a38ab484e" kindref="member">MR_std_vector_MR_EdgePointPair_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__EdgePointPair_8h_1a3a80f77e762516311fcd5a28763b7bff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a3a80f77e762516311fcd5a28763b7bff" kindref="member">MR_std_vector_MR_EdgePointPair_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__EdgePointPair_8h_1aaa4e4587527394f8c17609c03b11258a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1aaa4e4587527394f8c17609c03b11258a" kindref="member">MR_std_vector_MR_EdgePointPair_end_mut</ref>(<ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__EdgePointPair_8h_1af7f173cc444eef75fd712085c977ea50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1af7f173cc444eef75fd712085c977ea50" kindref="member">MR_std_vector_MR_EdgePointPair_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__EdgePointPair_8h_1ad16824da99d8530b85692d68eda5c0e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__EdgePointPair_8h_1ad16824da99d8530b85692d68eda5c0e0" kindref="member">MR_std_vector_MR_EdgePointPair_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__EdgePointPair_8h_1a6bdc579a29a66f06a6f79e46fc4a0dff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6bdc579a29a66f06a6f79e46fc4a0dff" kindref="member">MR_std_vector_MR_EdgePointPair_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__EdgePointPair_8h_1af07c7cee60c721370cd4e036ba36a26c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1af07c7cee60c721370cd4e036ba36a26c" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__EdgePointPair_8h_1a01329fb6002c3aa25c86bf4babc6df51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a01329fb6002c3aa25c86bf4babc6df51" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__EdgePointPair_8h_1a5311428281ad9d55db0cbb43fd8ccad7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a5311428281ad9d55db0cbb43fd8ccad7" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__EdgePointPair_8h_1abc9ec1c86676d69936654ead1d26ed9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1abc9ec1c86676d69936654ead1d26ed9f" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__EdgePointPair_8h_1af906130123f2dffa846581a68c47a5a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1af906130123f2dffa846581a68c47a5a4" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__EdgePointPair_8h_1aefdda3beed800be97c567bdb88cfa68f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1aefdda3beed800be97c567bdb88cfa68f" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__EdgePointPair_8h_1a8774bee3daa1e996629e704d3b35e88e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a8774bee3daa1e996629e704d3b35e88e" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__EdgePointPair_8h_1af5809fab9f0c8aa193065265b565af19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1af5809fab9f0c8aa193065265b565af19" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__EdgePointPair_8h_1ac9548b2057c258104b9b31159ffffd31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1ac9548b2057c258104b9b31159ffffd31" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__EdgePointPair_8h_1a9b6e4beb54905c89cd949bdb7c040eb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a9b6e4beb54905c89cd949bdb7c040eb7" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__EdgePointPair_8h_1a8dd0098739e909cee6b815687f1d28e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a8dd0098739e909cee6b815687f1d28e6" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__EdgePointPair_8h_1a2378190f8ca09c66695cadadbd215270" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a2378190f8ca09c66695cadadbd215270" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__EdgePointPair_8h_1a18e2a25a016787c4b8899239106f5234" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a18e2a25a016787c4b8899239106f5234" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__EdgePointPair_8h_1ac42c84ff324429760fc9ab56e477356a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1ac42c84ff324429760fc9ab56e477356a" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__EdgePointPair_8h_1a031d148e2e67cc89f2bb36a7a4200d3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a031d148e2e67cc89f2bb36a7a4200d3d" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__EdgePointPair_8h_1adc9e338c7d3a6a04c0f4d51530d19009" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1adc9e338c7d3a6a04c0f4d51530d19009" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__EdgePointPair_8h_1a935b77678e23f2161de2517d4e7431f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a935b77678e23f2161de2517d4e7431f7" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__EdgePointPair_8h_1ad225f7e35998489cdf686ee0bab5bf84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1ad225f7e35998489cdf686ee0bab5bf84" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__EdgePointPair_8h_1ac9de104badfa7a6da0222b29a3a32a71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1ac9de104badfa7a6da0222b29a3a32a71" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_incr</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__EdgePointPair_8h_1a9f575b1920f77d5c10678b942b5cd3b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a9f575b1920f77d5c10678b942b5cd3b1" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_decr</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__EdgePointPair_8h_1ae7791d68dabe0104172354f382dcecd5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1ae7791d68dabe0104172354f382dcecd5" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__EdgePointPair_8h_1a35ca8fa66918aa387db1619640465d87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a35ca8fa66918aa387db1619640465d87" kindref="member">MR_sub_MR_std_vector_MR_EdgePointPair_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__EdgePointPair_8h_1a11c523dcc0a5322ac2420343e532be97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a11c523dcc0a5322ac2420343e532be97" kindref="member">MR_equal_MR_std_vector_MR_EdgePointPair_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6c29337d3c7b9c15b977100db9796002" kindref="member">MR_std_vector_MR_EdgePointPair_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__EdgePointPair_8h_1a3b880e091d474e328ade44a6a9c0a2e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="std__vector__MR__EdgePointPair_8h_1a3b880e091d474e328ade44a6a9c0a2e1" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__EdgePointPair_8h_1ac4b4ceb74f51bbd8cda962fa4b1c3cfe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1ac4b4ceb74f51bbd8cda962fa4b1c3cfe" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_incr</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__EdgePointPair_8h_1a8b2fc3a71f7651b7b45990f590bfd69b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a8b2fc3a71f7651b7b45990f590bfd69b" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_decr</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__EdgePointPair_8h_1a6737dc5f21394b8a041e2acb7794e996" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a6737dc5f21394b8a041e2acb7794e996" kindref="member">MR_std_vector_MR_EdgePointPair_iterator_add_assign</ref>(<ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__EdgePointPair_8h_1a2bb095c1e4bbb73acd8042987ab398db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a2bb095c1e4bbb73acd8042987ab398db" kindref="member">MR_sub_MR_std_vector_MR_EdgePointPair_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__EdgePointPair_8h_1a5ad12b53b10a75d91020f96f4cdef4e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5ad12b53b10a75d91020f96f4cdef4e5" kindref="member">MR_equal_MR_std_vector_MR_EdgePointPair_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgePointPair_8h_1a5f35deccd2d7d57a14eaf556801106be" kindref="member">MR_std_vector_MR_EdgePointPair_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgePointPair.h"/>
+  </compounddef>
+</doxygen>

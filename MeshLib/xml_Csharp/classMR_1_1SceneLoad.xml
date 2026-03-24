@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneLoad</compoundname>
     <innerclass refid="classMR_1_1SceneLoad_1_1Result" prot="public">MR::SceneLoad::Result</innerclass>
@@ -27,12 +27,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="630" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="630" bodyend="635"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="662" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="662" bodyend="667"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneLoad_1ad6435fed9e0649b9bed9095860303cb6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SceneLoad_1a96d2043d3e4418ed6385168a79674449" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.SceneLoad.asyncFromAnySupportedFormat</definition>
-        <argsstring>(MR.Std.Const_Vector_StdFilesystemPath files, MR.Std.Const_Function_VoidFuncFromMRSceneLoadResult postLoadCallback, MR.SceneLoad.Const_Settings? settings=null)</argsstring>
+        <argsstring>(MR.Std.Const_Vector_StdFilesystemPath files, MR.Std.Const_Function_Void_From_MRSceneLoadResult postLoadCallback, MR.SceneLoad.Const_Settings? settings=null)</argsstring>
         <name>asyncFromAnySupportedFormat</name>
         <qualifiedname>MR.SceneLoad.asyncFromAnySupportedFormat</qualifiedname>
         <param>
@@ -40,7 +40,7 @@
           <declname>files</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_VoidFuncFromMRSceneLoadResult</type>
+          <type>MR.Std.Const_Function_Void_From_MRSceneLoadResult</type>
           <declname>postLoadCallback</declname>
         </param>
         <param>
@@ -49,22 +49,22 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1SceneLoad_1ad6435fed9e0649b9bed9095860303cb6" kindref="member">MR.SceneLoad.asyncFromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1SceneLoad_1a96d2043d3e4418ed6385168a79674449" kindref="member">MR.SceneLoad.asyncFromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="641" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="641" bodyend="646"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="673" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="673" bodyend="678"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="4" bodyend="647"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="4" bodyend="679"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneLoad_1ad6435fed9e0649b9bed9095860303cb6" prot="public" virt="non-virtual"><scope>MR::SceneLoad</scope><name>asyncFromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1SceneLoad_1a96d2043d3e4418ed6385168a79674449" prot="public" virt="non-virtual"><scope>MR::SceneLoad</scope><name>asyncFromAnySupportedFormat</name></member>
       <member refid="classMR_1_1SceneLoad_1a6454c7eeb30ea3233839662323f54406" prot="public" virt="non-virtual"><scope>MR::SceneLoad</scope><name>fromAnySupportedFormat</name></member>
     </listofallmembers>
   </compounddef>

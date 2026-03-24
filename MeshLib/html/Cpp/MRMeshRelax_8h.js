@@ -1,18 +1,18 @@
 var MRMeshRelax_8h =
 [
-    [ "equalizeTriAreas", "MRMeshRelax_8h.html#ga4d18f403309407bc884de403549fd99f", null ],
-    [ "equalizeTriAreas", "MRMeshRelax_8h.html#gaae1979d9e4a28ec7ad4642bbb77e477f", null ],
-    [ "hardSmoothTetrahedrons", "MRMeshRelax_8h.html#gaeb54f6e7ad3bb704eb561e63bc53a9af", null ],
-    [ "hardSmoothTetrahedrons", "MRMeshRelax_8h.html#ga287157ee21ca3461b897a4f9e982739b", null ],
-    [ "relax", "MRMeshRelax_8h.html#gab9e8104718c5b38b7f6c20a652942410", null ],
-    [ "relax", "MRMeshRelax_8h.html#gaf1790e242d0c45c246335b07bfb7c5af", null ],
-    [ "relaxApprox", "MRMeshRelax_8h.html#ga6e76217244fff2be67a0f598cd0fecf8", null ],
-    [ "relaxApprox", "MRMeshRelax_8h.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc", null ],
-    [ "relaxKeepVolume", "MRMeshRelax_8h.html#gab4933a7a1fd47670308213d4069e4316", null ],
-    [ "relaxKeepVolume", "MRMeshRelax_8h.html#gade2c4c373a0a3c4e594f194dc55a92b8", null ],
-    [ "removeSpikes", "MRMeshRelax_8h.html#gab2c357f2577a4c6f872ef3f36c09426d", null ],
-    [ "removeSpikes", "MRMeshRelax_8h.html#gaf3dd7b36bb56c94c95b1bea9f7546349", null ],
-    [ "smoothRegionBoundary", "MRMeshRelax_8h.html#ga8befca5bcec5f332e23a665e97e9ecbf", null ],
-    [ "vertexPosEqualNeiAreas", "MRMeshRelax_8h.html#gaba816e24c8bb07c99f1d084e59d0ec48", null ],
-    [ "vertexPosEqualNeiAreas", "MRMeshRelax_8h.html#ga183937de64babe0d41509706eb2be41d", null ]
+    [ "MR::equalizeTriAreas", "group__MeshRelaxGroup.html#gaa1dce47380c062d2c483761c304e96a6", null ],
+    [ "MR::equalizeTriAreas", "group__MeshRelaxGroup.html#ga0b7b12e3abc437cc721146292d65991b", null ],
+    [ "MR::hardSmoothTetrahedrons", "group__MeshRelaxGroup.html#ga5334e44dde4cc350f4731fd75154f896", null ],
+    [ "MR::hardSmoothTetrahedrons", "group__MeshRelaxGroup.html#ga2fdc8d3b573ee09fec87e7ab823ee3cd", null ],
+    [ "MR::relax", "group__MeshRelaxGroup.html#ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e", null ],
+    [ "MR::relax", "group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee", null ],
+    [ "MR::relaxApprox", "group__MeshRelaxGroup.html#ga627da0d5cc2bd7fb8124183d0e1482d6", null ],
+    [ "MR::relaxApprox", "group__MeshRelaxGroup.html#gaefa276ee29dcda75a6e5dc13844047f2", null ],
+    [ "MR::relaxKeepVolume", "group__MeshRelaxGroup.html#ga285895a15897accb6d69c1403ee53f93", null ],
+    [ "MR::relaxKeepVolume", "group__MeshRelaxGroup.html#ga894cdb8a2d420dfb6ba8b0dbb3133408", null ],
+    [ "MR::removeSpikes", "group__MeshRelaxGroup.html#ga39d942209bb1452b07dc1c6176d0113d", null ],
+    [ "MR::removeSpikes", "group__MeshRelaxGroup.html#ga81eff59a2228d4ebc80ca39dbf2df492", null ],
+    [ "MR::smoothRegionBoundary", "group__MeshRelaxGroup.html#ga1e187006b1fd0ad4a2ae525c00b813d7", null ],
+    [ "MR::vertexPosEqualNeiAreas", "group__MeshRelaxGroup.html#ga11a3c4423d57bdec0536c0916269613c", null ],
+    [ "MR::vertexPosEqualNeiAreas", "group__MeshRelaxGroup.html#gafbd4050c45f9441d53f08ae512d5b495", null ]
 ];

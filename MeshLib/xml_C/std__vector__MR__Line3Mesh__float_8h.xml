@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__Line3Mesh__float_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_Line3Mesh_float.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_Line3Mesh_float.h</label>
+        <link refid="std__vector__MR__Line3Mesh__float_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_Line3Mesh_float_const_iterator MR_std_vector_MR_Line3Mesh_float_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="22" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_Line3Mesh_float_iterator MR_std_vector_MR_Line3Mesh_float_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="26" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aea50e77a843de902c66deb15d2c0aa44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a71067185d012e55930ead7d7f962f004" kindref="member">MR_std_vector_MR_Line3Mesh_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="30" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="30" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a7fa1e1d85d07e8e5a43cf02c4e8285d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1af8738cc08e5878bb58266e5b2783bfc7" kindref="member">MR_std_vector_MR_Line3Mesh_float_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a19f78e17d3cafd818a8043f4033ee1c1" kindref="member">MR_std_vector_MR_Line3Mesh_float_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a23130e6208604a10bbaa645e830ec0fa" kindref="member">MR_std_vector_MR_Line3Mesh_float_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="35" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="35" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aff64876112bbbc0fec3592d69442c299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_Line3Mesh_float *other)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a71067185d012e55930ead7d7f962f004" kindref="member">MR_std_vector_MR_Line3Mesh_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="41" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="41" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1acd91f84814802666e4bc3af4b1367d5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, MR_PassBy other_pass_by, MR_std_vector_MR_Line3Mesh_float *other)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a71067185d012e55930ead7d7f962f004" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1af8738cc08e5878bb58266e5b2783bfc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a23130e6208604a10bbaa645e830ec0fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="57" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="57" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a19f78e17d3cafd818a8043f4033ee1c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="61" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="61" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a4baff42e91b0b08d9214010987aebd0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_Line3Mesh_float_size</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_size</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a6d7e409cfb72cafececb4f7776cbbf8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Line3Mesh_float_empty</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_empty</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a1bf87b82035dda0984c5b61972f5ea67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_resize</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_resize</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ae207acf7edca54f1ac8a1496e4c6903e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, size_t new_size, const MR_Line3Mesh_float *value)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a79df1cea20d47e7df2f9347711055741" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_clear</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_clear</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a7b649bb90e747215ccef886d448b8845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_Line3Mesh_float_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_capacity</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ad15431ae52e71b9f65ad5ba362cd8f92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_reserve</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_reserve</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ae0e475e7143e92cc8ada0600d8bdb9d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a5a62965948cab06408b424122e458161" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API const MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_at</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_at</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="101" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="101" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aea8cee352956a12fff12142215d404d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_at_mut</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="107" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="107" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ab3c54f324212467533aaf8e036c17ccd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API const MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_front</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_front</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="112" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="112" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a25890881027d587fa647d6b1365794c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_front_mut</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="117" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="117" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ab461e00d6059dfdab01bcc3e8dc9301f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API const MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_back</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_back</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="122" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="122" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a2ecbd0d244dd941b9380d8a48f3c6c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_back_mut</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="127" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="127" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a0046dc54661f8975b9a506cb56c0e74a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_push_back</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, const MR_Line3Mesh_float *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_push_back</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a915059f9da0aed208695825d13f4a682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_pop_back</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aa60a8419ba3ff18feed8083de548df6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_insert</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, size_t position, const MR_Line3Mesh_float *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_insert</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1acf6a5c3124ee7fd4c0c33be821332cc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_erase</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_erase</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a50344023dcf92166b43eee2171806f1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_iterator *position, const MR_Line3Mesh_float *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ac32d7ad16095b2cf007ffc3983e4710e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a4c22c504f33fcda4459fee0576c39ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_const_iterator *position, const MR_Line3Mesh_float *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aceba1b27db1f13afcc5bb755638498e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a118be8ceffe57105c46837f6d393a552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_const_iterator * MR_std_vector_MR_Line3Mesh_float_begin</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_begin</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a893b37be9712f3992ed8d07e3a96fee8" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="177" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="177" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ae8b8bf63880f498273ea5a774e9a7c5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Line3Mesh_float_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_is_begin</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a3e71576f0b35d1dd5a162edaa1cef730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_iterator * MR_std_vector_MR_Line3Mesh_float_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_begin_mut</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a8881dfdba4d470c3f77d9b444f99a7fe" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="188" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="188" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1adf51692891870f5e5406fa9c2cf4d719" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Line3Mesh_float_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a3bcf180eba644799b7c9d98910ae943d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_const_iterator * MR_std_vector_MR_Line3Mesh_float_end</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_end</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a893b37be9712f3992ed8d07e3a96fee8" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="199" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="199" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1abe5450af56409df0bc9535be4834ae29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Line3Mesh_float_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_is_end</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aba2a6cd628b6028b018e77930a6bfde0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_iterator * MR_std_vector_MR_Line3Mesh_float_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_end_mut</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a8881dfdba4d470c3f77d9b444f99a7fe" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="210" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="210" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a5686efbc416acef1842fb1f895a8917e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Line3Mesh_float_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a4dad091e6379c7059a31c954b0d8734f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_Line3Mesh_float_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_to_index</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a1313838de729e83b2ac2f843accff7b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_Line3Mesh_float_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float *_this, const MR_std_vector_MR_Line3Mesh_float_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a2cf96aec3d72b4dc219399cbb768e3eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_const_iterator * MR_std_vector_MR_Line3Mesh_float_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a893b37be9712f3992ed8d07e3a96fee8" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="229" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="229" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1af9b22c5841550412be9fc06861778208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_const_iterator * MR_std_vector_MR_Line3Mesh_float_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a089be78448f55f75fd5890506275223d" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1aec357f2cb69a30b225c7c0249fda8d22" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a8b2f30ba56fcc96dbc77571b0018069a" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="234" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="234" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a75a9ad3d745698b72b36753f8324409c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_const_iterator * MR_std_vector_MR_Line3Mesh_float_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a893b37be9712f3992ed8d07e3a96fee8" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="241" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="241" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a664739b8b3c701473400f6365203839b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_const_iterator *_this, const MR_std_vector_MR_Line3Mesh_float_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a893b37be9712f3992ed8d07e3a96fee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a089be78448f55f75fd5890506275223d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a8b2f30ba56fcc96dbc77571b0018069a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Line3Mesh_float_const_iterator * MR_std_vector_MR_Line3Mesh_float_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="258" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="258" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aec357f2cb69a30b225c7c0249fda8d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_const_iterator * MR_std_vector_MR_Line3Mesh_float_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="262" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="262" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a8f887014ebfd487a05dfe7988b193837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_const_iterator * MR_std_vector_MR_Line3Mesh_float_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a893b37be9712f3992ed8d07e3a96fee8" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="267" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="267" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a60ae05dba0ce54ae65ca15b6b3d51bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_iterator * MR_std_vector_MR_Line3Mesh_float_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a8881dfdba4d470c3f77d9b444f99a7fe" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="271" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="271" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a1f454aa6939c001eb3bd32a4eaaf14ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_iterator * MR_std_vector_MR_Line3Mesh_float_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6e0af5a49eb3748ed77f64814ae8645a" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1acc5367d77a133acdf44cc85ccff0619e" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1aec46beef459323ea7d7c7a67d100b851" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="276" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="276" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a5130fdde1f064cca8f28a3ed66d13f8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_iterator * MR_std_vector_MR_Line3Mesh_float_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1a8881dfdba4d470c3f77d9b444f99a7fe" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="283" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="283" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a1c0d0cba42a139376a8f4bc195f10eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_iterator *_this, const MR_std_vector_MR_Line3Mesh_float_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a8881dfdba4d470c3f77d9b444f99a7fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a6e0af5a49eb3748ed77f64814ae8645a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aec46beef459323ea7d7c7a67d100b851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Line3Mesh_float_iterator * MR_std_vector_MR_Line3Mesh_float_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="300" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="300" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1acc5367d77a133acdf44cc85ccff0619e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Line3Mesh_float_iterator * MR_std_vector_MR_Line3Mesh_float_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="304" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="304" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ab3849b22f056359382fca0961ef25d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API const MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="310" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="310" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a28fdccf6940b17661761128c75c91029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a62fc9d0bd554f9eb8c15f75cdf31e699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1add25eb9da437c8e3a2a4213a6658896d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ad54199e4c485b28632d949cfd40fe1c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_Line3Mesh_float_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_const_iterator *a, const MR_std_vector_MR_Line3Mesh_float_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_Line3Mesh_float_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a35696af14ab161451bc470ef04934e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_Line3Mesh_float_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_const_iterator *a, const MR_std_vector_MR_Line3Mesh_float_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_Line3Mesh_float_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a6cae9dac2ab730655c77dd156b5d2380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref> *</type>
+        <definition>MRC_API MR_Line3Mesh_float * MR_std_vector_MR_Line3Mesh_float_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="338" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="338" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1afa1ec8d706328921d5ebd723077ca3d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1ab7a7dba3bb7e0a88813ae7d843a0655f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1aa47b5d343dc12390dfac90eb610cac67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Line3Mesh_float_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_Line3Mesh_float_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_Line3Mesh_float_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a1bf12ce1f26104a098699ff53a87a817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_Line3Mesh_float_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_iterator *a, const MR_std_vector_MR_Line3Mesh_float_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_Line3Mesh_float_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Line3Mesh__float_8h_1a798849520b9edd08e3ac12217e1d61d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_Line3Mesh_float_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Line3Mesh_float_iterator *a, const MR_std_vector_MR_Line3Mesh_float_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_Line3Mesh_float_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshIntersect.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__Line3Mesh__float_8h_1aea50e77a843de902c66deb15d2c0aa44" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1aea50e77a843de902c66deb15d2c0aa44" kindref="member">MR_std_vector_MR_Line3Mesh_float_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__Line3Mesh__float_8h_1a7fa1e1d85d07e8e5a43cf02c4e8285d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a7fa1e1d85d07e8e5a43cf02c4e8285d5" kindref="member">MR_std_vector_MR_Line3Mesh_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__Line3Mesh__float_8h_1aff64876112bbbc0fec3592d69442c299" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1aff64876112bbbc0fec3592d69442c299" kindref="member">MR_std_vector_MR_Line3Mesh_float_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__Line3Mesh__float_8h_1acd91f84814802666e4bc3af4b1367d5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1acd91f84814802666e4bc3af4b1367d5e" kindref="member">MR_std_vector_MR_Line3Mesh_float_AssignFromAnother</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__Line3Mesh__float_8h_1a71067185d012e55930ead7d7f962f004" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a71067185d012e55930ead7d7f962f004" kindref="member">MR_std_vector_MR_Line3Mesh_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__Line3Mesh__float_8h_1af8738cc08e5878bb58266e5b2783bfc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1af8738cc08e5878bb58266e5b2783bfc7" kindref="member">MR_std_vector_MR_Line3Mesh_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__Line3Mesh__float_8h_1a23130e6208604a10bbaa645e830ec0fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a23130e6208604a10bbaa645e830ec0fa" kindref="member">MR_std_vector_MR_Line3Mesh_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__Line3Mesh__float_8h_1a19f78e17d3cafd818a8043f4033ee1c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a19f78e17d3cafd818a8043f4033ee1c1" kindref="member">MR_std_vector_MR_Line3Mesh_float_OffsetMutablePtr</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__Line3Mesh__float_8h_1a4baff42e91b0b08d9214010987aebd0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a4baff42e91b0b08d9214010987aebd0e" kindref="member">MR_std_vector_MR_Line3Mesh_float_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__Line3Mesh__float_8h_1a6d7e409cfb72cafececb4f7776cbbf8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6d7e409cfb72cafececb4f7776cbbf8a" kindref="member">MR_std_vector_MR_Line3Mesh_float_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__Line3Mesh__float_8h_1a1bf87b82035dda0984c5b61972f5ea67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a1bf87b82035dda0984c5b61972f5ea67" kindref="member">MR_std_vector_MR_Line3Mesh_float_resize</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__Line3Mesh__float_8h_1ae207acf7edca54f1ac8a1496e4c6903e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ae207acf7edca54f1ac8a1496e4c6903e" kindref="member">MR_std_vector_MR_Line3Mesh_float_resize_with_default_value</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__Line3Mesh__float_8h_1a79df1cea20d47e7df2f9347711055741" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a79df1cea20d47e7df2f9347711055741" kindref="member">MR_std_vector_MR_Line3Mesh_float_clear</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__Line3Mesh__float_8h_1a7b649bb90e747215ccef886d448b8845" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a7b649bb90e747215ccef886d448b8845" kindref="member">MR_std_vector_MR_Line3Mesh_float_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__Line3Mesh__float_8h_1ad15431ae52e71b9f65ad5ba362cd8f92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ad15431ae52e71b9f65ad5ba362cd8f92" kindref="member">MR_std_vector_MR_Line3Mesh_float_reserve</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__Line3Mesh__float_8h_1ae0e475e7143e92cc8ada0600d8bdb9d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ae0e475e7143e92cc8ada0600d8bdb9d9" kindref="member">MR_std_vector_MR_Line3Mesh_float_shrink_to_fit</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__Line3Mesh__float_8h_1a5a62965948cab06408b424122e458161" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a5a62965948cab06408b424122e458161" kindref="member">MR_std_vector_MR_Line3Mesh_float_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__Line3Mesh__float_8h_1aea8cee352956a12fff12142215d404d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1aea8cee352956a12fff12142215d404d7" kindref="member">MR_std_vector_MR_Line3Mesh_float_at_mut</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__Line3Mesh__float_8h_1ab3c54f324212467533aaf8e036c17ccd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1ab3c54f324212467533aaf8e036c17ccd" kindref="member">MR_std_vector_MR_Line3Mesh_float_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__Line3Mesh__float_8h_1a25890881027d587fa647d6b1365794c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a25890881027d587fa647d6b1365794c2" kindref="member">MR_std_vector_MR_Line3Mesh_float_front_mut</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__Line3Mesh__float_8h_1ab461e00d6059dfdab01bcc3e8dc9301f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1ab461e00d6059dfdab01bcc3e8dc9301f" kindref="member">MR_std_vector_MR_Line3Mesh_float_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__Line3Mesh__float_8h_1a2ecbd0d244dd941b9380d8a48f3c6c88" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a2ecbd0d244dd941b9380d8a48f3c6c88" kindref="member">MR_std_vector_MR_Line3Mesh_float_back_mut</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__Line3Mesh__float_8h_1a0046dc54661f8975b9a506cb56c0e74a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a0046dc54661f8975b9a506cb56c0e74a" kindref="member">MR_std_vector_MR_Line3Mesh_float_push_back</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__Line3Mesh__float_8h_1a915059f9da0aed208695825d13f4a682" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a915059f9da0aed208695825d13f4a682" kindref="member">MR_std_vector_MR_Line3Mesh_float_pop_back</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__Line3Mesh__float_8h_1aa60a8419ba3ff18feed8083de548df6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1aa60a8419ba3ff18feed8083de548df6c" kindref="member">MR_std_vector_MR_Line3Mesh_float_insert</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__Line3Mesh__float_8h_1acf6a5c3124ee7fd4c0c33be821332cc0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1acf6a5c3124ee7fd4c0c33be821332cc0" kindref="member">MR_std_vector_MR_Line3Mesh_float_erase</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__Line3Mesh__float_8h_1a50344023dcf92166b43eee2171806f1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a50344023dcf92166b43eee2171806f1a" kindref="member">MR_std_vector_MR_Line3Mesh_float_insert_at_mutable_iter</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__Line3Mesh__float_8h_1ac32d7ad16095b2cf007ffc3983e4710e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ac32d7ad16095b2cf007ffc3983e4710e" kindref="member">MR_std_vector_MR_Line3Mesh_float_erase_at_mutable_iter</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__Line3Mesh__float_8h_1a4c22c504f33fcda4459fee0576c39ac0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a4c22c504f33fcda4459fee0576c39ac0" kindref="member">MR_std_vector_MR_Line3Mesh_float_insert_at_iter</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__Line3Mesh__float_8h_1aceba1b27db1f13afcc5bb755638498e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1aceba1b27db1f13afcc5bb755638498e2" kindref="member">MR_std_vector_MR_Line3Mesh_float_erase_at_iter</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__Line3Mesh__float_8h_1a118be8ceffe57105c46837f6d393a552" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a118be8ceffe57105c46837f6d393a552" kindref="member">MR_std_vector_MR_Line3Mesh_float_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__Line3Mesh__float_8h_1ae8b8bf63880f498273ea5a774e9a7c5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ae8b8bf63880f498273ea5a774e9a7c5e" kindref="member">MR_std_vector_MR_Line3Mesh_float_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__Line3Mesh__float_8h_1a3e71576f0b35d1dd5a162edaa1cef730" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a3e71576f0b35d1dd5a162edaa1cef730" kindref="member">MR_std_vector_MR_Line3Mesh_float_begin_mut</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__Line3Mesh__float_8h_1adf51692891870f5e5406fa9c2cf4d719" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1adf51692891870f5e5406fa9c2cf4d719" kindref="member">MR_std_vector_MR_Line3Mesh_float_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__Line3Mesh__float_8h_1a3bcf180eba644799b7c9d98910ae943d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a3bcf180eba644799b7c9d98910ae943d" kindref="member">MR_std_vector_MR_Line3Mesh_float_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__Line3Mesh__float_8h_1abe5450af56409df0bc9535be4834ae29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1abe5450af56409df0bc9535be4834ae29" kindref="member">MR_std_vector_MR_Line3Mesh_float_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__Line3Mesh__float_8h_1aba2a6cd628b6028b018e77930a6bfde0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1aba2a6cd628b6028b018e77930a6bfde0" kindref="member">MR_std_vector_MR_Line3Mesh_float_end_mut</ref>(<ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__Line3Mesh__float_8h_1a5686efbc416acef1842fb1f895a8917e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a5686efbc416acef1842fb1f895a8917e" kindref="member">MR_std_vector_MR_Line3Mesh_float_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__Line3Mesh__float_8h_1a4dad091e6379c7059a31c954b0d8734f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a4dad091e6379c7059a31c954b0d8734f" kindref="member">MR_std_vector_MR_Line3Mesh_float_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__Line3Mesh__float_8h_1a1313838de729e83b2ac2f843accff7b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a1313838de729e83b2ac2f843accff7b0" kindref="member">MR_std_vector_MR_Line3Mesh_float_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kindref="member">MR_std_vector_MR_Line3Mesh_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__Line3Mesh__float_8h_1a2cf96aec3d72b4dc219399cbb768e3eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a2cf96aec3d72b4dc219399cbb768e3eb" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__Line3Mesh__float_8h_1af9b22c5841550412be9fc06861778208" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1af9b22c5841550412be9fc06861778208" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__Line3Mesh__float_8h_1a75a9ad3d745698b72b36753f8324409c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a75a9ad3d745698b72b36753f8324409c" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__Line3Mesh__float_8h_1a664739b8b3c701473400f6365203839b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a664739b8b3c701473400f6365203839b" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__Line3Mesh__float_8h_1a893b37be9712f3992ed8d07e3a96fee8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a893b37be9712f3992ed8d07e3a96fee8" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__Line3Mesh__float_8h_1a089be78448f55f75fd5890506275223d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a089be78448f55f75fd5890506275223d" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__Line3Mesh__float_8h_1a8b2f30ba56fcc96dbc77571b0018069a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a8b2f30ba56fcc96dbc77571b0018069a" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__Line3Mesh__float_8h_1aec357f2cb69a30b225c7c0249fda8d22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1aec357f2cb69a30b225c7c0249fda8d22" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__Line3Mesh__float_8h_1a8f887014ebfd487a05dfe7988b193837" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a8f887014ebfd487a05dfe7988b193837" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__Line3Mesh__float_8h_1a60ae05dba0ce54ae65ca15b6b3d51bdb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a60ae05dba0ce54ae65ca15b6b3d51bdb" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__Line3Mesh__float_8h_1a1f454aa6939c001eb3bd32a4eaaf14ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a1f454aa6939c001eb3bd32a4eaaf14ae" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__Line3Mesh__float_8h_1a5130fdde1f064cca8f28a3ed66d13f8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a5130fdde1f064cca8f28a3ed66d13f8f" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__Line3Mesh__float_8h_1a1c0d0cba42a139376a8f4bc195f10eed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a1c0d0cba42a139376a8f4bc195f10eed" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__Line3Mesh__float_8h_1a8881dfdba4d470c3f77d9b444f99a7fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a8881dfdba4d470c3f77d9b444f99a7fe" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__Line3Mesh__float_8h_1a6e0af5a49eb3748ed77f64814ae8645a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6e0af5a49eb3748ed77f64814ae8645a" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__Line3Mesh__float_8h_1aec46beef459323ea7d7c7a67d100b851" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1aec46beef459323ea7d7c7a67d100b851" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__Line3Mesh__float_8h_1acc5367d77a133acdf44cc85ccff0619e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1acc5367d77a133acdf44cc85ccff0619e" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__Line3Mesh__float_8h_1ab3849b22f056359382fca0961ef25d4e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1ab3849b22f056359382fca0961ef25d4e" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__Line3Mesh__float_8h_1a28fdccf6940b17661761128c75c91029" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a28fdccf6940b17661761128c75c91029" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_incr</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__Line3Mesh__float_8h_1a62fc9d0bd554f9eb8c15f75cdf31e699" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a62fc9d0bd554f9eb8c15f75cdf31e699" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_decr</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__Line3Mesh__float_8h_1add25eb9da437c8e3a2a4213a6658896d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1add25eb9da437c8e3a2a4213a6658896d" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__Line3Mesh__float_8h_1ad54199e4c485b28632d949cfd40fe1c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ad54199e4c485b28632d949cfd40fe1c6" kindref="member">MR_sub_MR_std_vector_MR_Line3Mesh_float_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__Line3Mesh__float_8h_1a35696af14ab161451bc470ef04934e1d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a35696af14ab161451bc470ef04934e1d" kindref="member">MR_equal_MR_std_vector_MR_Line3Mesh_float_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a6f3a50ad6415b356d6798a43d489d8f0" kindref="member">MR_std_vector_MR_Line3Mesh_float_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__Line3Mesh__float_8h_1a6cae9dac2ab730655c77dd156b5d2380" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshIntersect_8h_1a40e33b97afdb47d75532ba090d31c85c" kindref="member">MR_Line3Mesh_float</ref><sp/>*<ref refid="std__vector__MR__Line3Mesh__float_8h_1a6cae9dac2ab730655c77dd156b5d2380" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__Line3Mesh__float_8h_1afa1ec8d706328921d5ebd723077ca3d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1afa1ec8d706328921d5ebd723077ca3d3" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_incr</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__Line3Mesh__float_8h_1ab7a7dba3bb7e0a88813ae7d843a0655f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab7a7dba3bb7e0a88813ae7d843a0655f" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_decr</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__Line3Mesh__float_8h_1aa47b5d343dc12390dfac90eb610cac67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1aa47b5d343dc12390dfac90eb610cac67" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator_add_assign</ref>(<ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__Line3Mesh__float_8h_1a1bf12ce1f26104a098699ff53a87a817" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a1bf12ce1f26104a098699ff53a87a817" kindref="member">MR_sub_MR_std_vector_MR_Line3Mesh_float_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__Line3Mesh__float_8h_1a798849520b9edd08e3ac12217e1d61d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1a798849520b9edd08e3ac12217e1d61d3" kindref="member">MR_equal_MR_std_vector_MR_Line3Mesh_float_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Line3Mesh__float_8h_1ab1126f8c8aa169a5272034ab1dd366f5" kindref="member">MR_std_vector_MR_Line3Mesh_float_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Line3Mesh_float.h"/>
+  </compounddef>
+</doxygen>

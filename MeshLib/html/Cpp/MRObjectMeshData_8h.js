@@ -1,4 +1,4 @@
 var MRObjectMeshData_8h =
 [
-    [ "edgesBetweenDifferentColors", "MRObjectMeshData_8h.html#ga673650f651c7934a570071f72d73ad09", null ]
+    [ "MR::edgesBetweenDifferentColors", "group__GeneralGroup.html#gaae4731717fe16466c829b33fc212802e", null ]
 ];

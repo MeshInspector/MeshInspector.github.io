@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolynomialWrapper__Float" kind="class" language="C#" prot="public">
     <compoundname>MR::PolynomialWrapper_Float</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PolynomialWrapper_Float</basecompoundref>
@@ -55,7 +55,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PolynomialWrapper&lt;float&gt;::PolynomialWrapper</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;amp;lt;float&amp;amp;gt;::PolynomialWrapper</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -74,7 +74,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PolynomialWrapper&lt;float&gt;::PolynomialWrapper</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;amp;lt;float&amp;amp;gt;::PolynomialWrapper</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,7 +93,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PolynomialWrapper&lt;float&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PolynomialWrapper&amp;amp;lt;float&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -103,50 +103,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>This is a unifying interface for a polynomial of some degree, known only in runtime Generated from class <computeroutput>MR.PolynomialWrapper&lt;float&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>This is a unifying interface for a polynomial of some degree, known only in runtime Generated from class <computeroutput>MR::PolynomialWrapper&amp;amp;lt;float&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PolynomialWrapper_Float</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PolynomialWrapper_Float</label>
         <link refid="classMR_1_1PolynomialWrapper__Float"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PolynomialWrapper_Float</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PolynomialWrapper_Float &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PolynomialWrapper_Float</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PolynomialWrapper_Float</label>
         <link refid="classMR_1_1PolynomialWrapper__Float"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PolynomialWrapper_Float</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PolynomialWrapper_Float &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2656" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2657" bodyend="2712"/>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4" kind="struct" language="C++" prot="public">
     <compoundname>MR::ObjKindTraits&lt; FeaturesObjectKind::Plane &gt;</compoundname>
-    <includes refid="MRFeatureHelpers_8h" local="no">MRFeatureHelpers.h</includes>
+    <includes refid="MRFeatureHelpers_8h" local="no">MRMesh/MRFeatureHelpers.h</includes>
     <templateparamlist>
     </templateparamlist>
     <sectiondef kind="public-type">
@@ -15,7 +15,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="47" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="48" bodyend="51"/>
+    <location file="MRMesh/MRFeatureHelpers.h" line="47" column="11" bodyfile="MRMesh/MRFeatureHelpers.h" bodystart="48" bodyend="51"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae43aec6103d11ca5ace40c97b424a96d" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Plane &gt;</scope><name>name</name></member>
       <member refid="group__GeneralGroup_1ga6cce32400bcbe22e29d7873410a975f9" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Plane &gt;</scope><name>type</name></member>

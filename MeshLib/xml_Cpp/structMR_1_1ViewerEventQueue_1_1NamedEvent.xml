@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ViewerEventQueue_1_1NamedEvent" kind="struct" language="C++" prot="private">
     <compoundname>MR::ViewerEventQueue::NamedEvent</compoundname>
     <sectiondef kind="public-attrib">
@@ -10,7 +10,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="30" bodyend="33"/>
+    <location file="MRViewer/MRViewerEventQueue.h" line="29" column="5" bodyfile="MRViewer/MRViewerEventQueue.h" bodystart="30" bodyend="33"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga62992c1610b7cedfa3ba9d8fe46078b1" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue::NamedEvent</scope><name>cb</name></member>
       <member refid="group__GeneralGroup_1gab5b099b7d40ec529bc932d45cefc5593" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue::NamedEvent</scope><name>name</name></member>

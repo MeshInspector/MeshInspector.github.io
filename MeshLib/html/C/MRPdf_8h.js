@@ -1,7 +1,5 @@
 var MRPdf_8h =
 [
-    [ "MR_expected_void_std_string", "MRPdf_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_Image", "MRPdf_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0", null ],
     [ "MR_Pdf", "MRPdf_8h.html#a0c39d182e0489d71e7a28dd6358004c2", null ],
     [ "MR_Pdf_AlignmentHorizontal", "MRPdf_8h.html#af326df2b32b3083afa700113093fe6ed", null ],
     [ "MR_Pdf_Cell", "MRPdf_8h.html#ac32c6eea51284f144d284dc88e942cf8", null ],
@@ -17,16 +15,13 @@ var MRPdf_8h =
     [ "MR_PdfParameters", "MRPdf_8h.html#a8b6be769cbbdb6045fd66a4b0b9102e7", null ],
     [ "MR_std_function_MR_Pdf_CellCustomParams_from_int_int_const_std_string_ref", "MRPdf_8h.html#a47238309c07fca30562fc48b02387c36", null ],
     [ "MR_std_function_void_from_MR_Pdf_ref", "MRPdf_8h.html#aeda2ce2e7a7e99a9f35e4c976913b9dd", null ],
-    [ "MR_std_optional_MR_Color", "MRPdf_8h.html#af8e34c593afc89cf4494928ca552201f", null ],
     [ "MR_std_optional_std_string", "MRPdf_8h.html#a4dbf32bc085ae52474e8115b26ead654", null ],
-    [ "MR_std_string", "MRPdf_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_std_variant_int_float_bool_std_string_MR_Pdf_Cell_Empty", "MRPdf_8h.html#a8e16741698a9b77ba669cb915121d9f4", null ],
     [ "MR_std_variant_MR_PdfBuildinFont_std_filesystem_path", "MRPdf_8h.html#a31d16fcb6aa5c1276f0375cbf06d8941", null ],
     [ "MR_std_vector_float", "MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
     [ "MR_std_vector_MR_Pdf_Cell", "MRPdf_8h.html#aef8d990bfea0998dac0c1348fef4b81e", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats", "MRPdf_8h.html#a3a02eff57619c7f1f4ebe81a9aca0c4a", null ],
     [ "MR_std_vector_std_pair_std_string_float", "MRPdf_8h.html#af7b77ccae07737ff0cd656471d9e777e", null ],
-    [ "MR_std_vector_std_string", "MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
     [ "MR_Pdf_AlignmentHorizontal", "MRPdf_8h.html#a60d6bc5e019e4dc263c69c242dab35ba", [
       [ "MR_Pdf_AlignmentHorizontal_Left", "MRPdf_8h.html#a60d6bc5e019e4dc263c69c242dab35baaacd0df14637cb347ea34eed319ed1d57", null ],
       [ "MR_Pdf_AlignmentHorizontal_Center", "MRPdf_8h.html#a60d6bc5e019e4dc263c69c242dab35baaa42dae9a157a0bd3aef2628bf6ecdde2", null ],

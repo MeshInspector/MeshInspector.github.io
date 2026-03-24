@@ -1,9 +1,7 @@
 var MRTripleFaceIntersections_8h =
 [
     [ "MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#a740ce925862132ce11f530430d5dda94", null ],
-    [ "MR_MeshTopology", "MRTripleFaceIntersections_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_std_vector_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#abd79e78e95147ae5cbfc323abad5c758", null ],
-    [ "MR_std_vector_std_vector_MR_VarEdgeTri", "MRTripleFaceIntersections_8h.html#ab48ef760c2671fd11ca83216d1b17ff8", null ],
     [ "MR_FaceFaceFace_AssignFromAnother", "MRTripleFaceIntersections_8h.html#a7f2191cf88a47a18b81c157cf3c7bbbc", null ],
     [ "MR_FaceFaceFace_Construct", "MRTripleFaceIntersections_8h.html#a01c0cfaa26a42d8b4ff6a2919408080b", null ],
     [ "MR_FaceFaceFace_ConstructFromAnother", "MRTripleFaceIntersections_8h.html#a51806312db211445662f611906cd12f0", null ],

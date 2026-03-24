@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRExtractIsolines_8h" kind="file" language="C++">
     <compoundname>MRExtractIsolines.h</compoundname>
     <includes refid="MREnums_8h" local="no">MRCMesh/MREnums.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
       <node id="2">
@@ -26,129 +26,13 @@
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stdbool.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
-        <type>struct MR_AffineXf3f</type>
-        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
-        <argsstring></argsstring>
-        <name>MR_AffineXf3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="14" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
-        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="16" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" prot="public" static="no">
-        <type>struct <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref></type>
-        <definition>typedef struct MR_MeshTriPoint MR_MeshTriPoint</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTriPoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="17" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1aa7548d3448b3b7da1ea96433fe902e9a" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></type>
-        <definition>typedef struct MR_Plane3f MR_Plane3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Plane3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="18" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="19" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" prot="public" static="no">
-        <type>struct <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref></type>
-        <definition>typedef struct MR_VertScalars MR_VertScalars</definition>
-        <argsstring></argsstring>
-        <name>MR_VertScalars</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" prot="public" static="no">
         <type>struct <ref refid="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" kindref="member">MR_expected_std_vector_MR_EdgePoint_std_string</ref></type>
         <definition>typedef struct MR_expected_std_vector_MR_EdgePoint_std_string MR_expected_std_vector_MR_EdgePoint_std_string</definition>
@@ -157,36 +41,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>std::vector&lt;MR::EdgePoint&gt;</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="21" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1ac83010bf4ae4af15d0e13d005e33fce1" prot="public" static="no">
-        <type>struct <ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref></type>
-        <definition>typedef struct MR_std_function_float_from_MR_VertId MR_std_function_float_from_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_float_from_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="22" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1a9138e3f58ce2b39215044d2e368587ae" prot="public" static="no">
-        <type>struct <ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref></type>
-        <definition>typedef struct MR_std_vector_MR_EdgePoint MR_std_vector_MR_EdgePoint</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_EdgePoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="23" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="21" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" prot="public" static="no">
         <type>struct <ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref></type>
@@ -196,10 +55,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::FaceId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="24" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="24" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" prot="public" static="no">
         <type>struct <ref refid="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" kindref="member">MR_std_vector_MR_LineSegm3f</ref></type>
@@ -209,23 +69,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::LineSegm3f&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="25" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" prot="public" static="no">
-        <type>struct <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector2f MR_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="26" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="26" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="25" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" prot="public" static="no">
         <type>struct <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref></type>
@@ -235,28 +83,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;std::vector&lt;MR::EdgePoint&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="27" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRExtractIsolines_8h_1a603c36c96311a8cb693f3e5500963e17" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_Vector2f MR_std_vector_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="28" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" bodystart="28" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="27" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" bodystart="27" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRExtractIsolines_8h_1a7daa529999eccf5e181151775b42b7d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_EdgePoint * MR_extractIsolines_3</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_std_function_float_from_MR_VertId *vertValues, const MR_FaceBitSet *region)</argsstring>
         <name>MR_extractIsolines_3</name>
@@ -275,14 +111,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>extracts all iso-lines from given scalar field and iso-value=0 Generated from function <computeroutput>MR::extractIsolines</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vertValues</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_EdgePoint_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>extracts all iso-lines from given scalar field and iso-value=0 Generated from function <computeroutput>MR::extractIsolines</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vertValues</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgePoint_8h_1abf1bd0dc298f0befe0c41071883be551" kindref="member">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="37" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="37" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="37" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="37" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a08b8796fda36e7a4ef7bc79169f488c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_hasAnyIsoline_3</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_std_function_float_from_MR_VertId *vertValues, const MR_FaceBitSet *region)</argsstring>
         <name>MR_hasAnyIsoline_3</name>
@@ -305,10 +141,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="44" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="44" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a3c0179fba5a2c68a941168db456b9c3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_EdgePoint * MR_extractIsolines_4</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_VertScalars *vertValues, float isoValue, const MR_FaceBitSet *region)</argsstring>
         <name>MR_extractIsolines_4</name>
@@ -331,14 +167,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>extracts all iso-lines from given scalar field and iso-value Generated from function <computeroutput>MR::extractIsolines</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vertValues</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_EdgePoint_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>extracts all iso-lines from given scalar field and iso-value Generated from function <computeroutput>MR::extractIsolines</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vertValues</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgePoint_8h_1abf1bd0dc298f0befe0c41071883be551" kindref="member">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="52" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="52" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="52" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="52" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1ac6868f232fe66d5d26f7e77e6f9abdc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_hasAnyIsoline_4</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_VertScalars *vertValues, float isoValue, const MR_FaceBitSet *region)</argsstring>
         <name>MR_hasAnyIsoline_4</name>
@@ -365,10 +201,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="59" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="59" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a6f31c9bf332e81209d26aa917d9ee646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_EdgePoint * MR_extractPlaneSections</definition>
         <argsstring>(const MR_MeshPart *mp, const MR_Plane3f *plane, const MR_UseAABBTree *u)</argsstring>
         <name>MR_extractPlaneSections</name>
@@ -387,14 +223,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>extracts all plane sections of given mesh Generated from function <computeroutput>MR::extractPlaneSections</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_EdgePoint_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>extracts all plane sections of given mesh Generated from function <computeroutput>MR::extractPlaneSections</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgePoint_8h_1abf1bd0dc298f0befe0c41071883be551" kindref="member">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="67" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="67" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="67" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="67" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a6a944f314a016c5af7fc8669f892580e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_hasAnyPlaneSection</definition>
         <argsstring>(const MR_MeshPart *mp, const MR_Plane3f *plane, const MR_UseAABBTree *u)</argsstring>
         <name>MR_hasAnyPlaneSection</name>
@@ -417,10 +253,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="74" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a60add93eb9ea6e89342b5f662d622707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_EdgePoint * MR_extractXYPlaneSections</definition>
         <argsstring>(const MR_MeshPart *mp, float zLevel, const MR_UseAABBTree *u)</argsstring>
         <name>MR_extractXYPlaneSections</name>
@@ -439,14 +275,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>extracts all sections of given mesh with the plane z=zLevel Generated from function <computeroutput>MR::extractXYPlaneSections</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_EdgePoint_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>extracts all sections of given mesh with the plane z=zLevel Generated from function <computeroutput>MR::extractXYPlaneSections</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgePoint_8h_1abf1bd0dc298f0befe0c41071883be551" kindref="member">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="81" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="81" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="81" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="81" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a46daf3c83b78f16eaeb6eab943426de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_hasAnyXYPlaneSection</definition>
         <argsstring>(const MR_MeshPart *mp, float zLevel, const MR_UseAABBTree *u)</argsstring>
         <name>MR_hasAnyXYPlaneSection</name>
@@ -469,10 +305,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="87" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="87" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a6c2f718674c50e226722bb617b036655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" kindref="member">MR_std_vector_MR_LineSegm3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" kindref="member">MR_std_vector_MR_LineSegm3f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_LineSegm3f * MR_findTriangleSectionsByXYPlane</definition>
         <argsstring>(const MR_MeshPart *mp, float zLevel, MR_std_vector_MR_FaceId *faces, const MR_UseAABBTree *u)</argsstring>
         <name>MR_findTriangleSectionsByXYPlane</name>
@@ -506,14 +342,14 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time Generated from function <computeroutput>MR::findTriangleSectionsByXYPlane</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>faces</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_LineSegm3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time Generated from function <computeroutput>MR::findTriangleSectionsByXYPlane</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>faces</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__LineSegm3f_8h_1a3eda08640d7804599f35772e67f3c091" kindref="member">MR_std_vector_MR_LineSegm3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="99" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="99" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="99" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="99" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1ac1a50c5ef33444a58eaa6fee2adb225f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_EdgePoint * MR_trackSection_MR_MeshTriPoint_ref</definition>
         <argsstring>(const MR_MeshPart *mp, const MR_MeshTriPoint *start, MR_MeshTriPoint *end, const MR_Vector3f *direction, float distance)</argsstring>
         <name>MR_trackSection_MR_MeshTriPoint_ref</name>
@@ -540,14 +376,14 @@ this function must be faster than extractXYPlaneSections function when connectin
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>track section of plane set by start point, direction and surface normal in start point in given direction while given distance or mesh boundary is not reached, or track looped negative distance means moving in opposite direction returns track on surface and end point (same as start if path has looped) Generated from function <computeroutput>MR::trackSection</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Parameter <computeroutput>direction</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_EdgePoint_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>track section of plane set by start point, direction and surface normal in start point in given direction while given distance or mesh boundary is not reached, or track looped negative distance means moving in opposite direction returns track on surface and end point (same as start if path has looped) Generated from function <computeroutput>MR::trackSection</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Parameter <computeroutput>direction</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePoint_8h_1ac3f444edfe88c774ff3a1962e1137ba6" kindref="member">MR_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="112" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="112" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="112" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="112" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a08716be2bc0cb3560aad249e36353d0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" kindref="member">MR_expected_std_vector_MR_EdgePoint_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" kindref="member">MR_expected_std_vector_MR_EdgePoint_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_EdgePoint_std_string * MR_trackSection_const_MR_MeshTriPoint_ref</definition>
         <argsstring>(const MR_MeshPart *mp, const MR_MeshTriPoint *start, const MR_MeshTriPoint *end, const MR_Vector3f *planePoint, bool ccw)</argsstring>
         <name>MR_trackSection_const_MR_MeshTriPoint_ref</name>
@@ -579,7 +415,7 @@ this function must be faster than extractXYPlaneSections function when connectin
 <parametername>ccw</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- if true use start-&gt;end-&gt;planePoint plane, otherwise use start-&gt;planePoint-&gt;end (changes direction of plane tracking) returns track on surface without end point (return error if path was looped or reached boundary) Generated from function <computeroutput>MR::trackSection</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Parameter <computeroutput>planePoint</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_EdgePoint_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>- if true use start-&gt;end-&gt;planePoint plane, otherwise use start-&gt;planePoint-&gt;end (changes direction of plane tracking) returns track on surface without end point (return error if path was looped or reached boundary) Generated from function <computeroutput>MR::trackSection</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Parameter <computeroutput>planePoint</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__EdgePoint__std__string_8h_1a50074b0557fbb49a0f4be4824bb45bb1" kindref="member">MR_expected_std_vector_MR_EdgePoint_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -587,10 +423,10 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="124" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="124" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="124" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="124" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a476ad33a2ffff07add85adefd88acb3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_isConsistentlyOriented</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_std_vector_MR_EdgePoint *isoline)</argsstring>
         <name>MR_isConsistentlyOriented</name>
@@ -609,10 +445,10 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="131" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="131" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a9bd3500b6632036c344416725c8dfdb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
         <definition>MRC_API MR_FaceBitSet * MR_getCrossedFaces</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_std_vector_MR_EdgePoint *isoline)</argsstring>
         <name>MR_getCrossedFaces</name>
@@ -631,10 +467,10 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="138" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="138" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="138" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="138" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a2113f09112d9824f577a754dc5d73477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2f * MR_planeSectionToContour2f</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_std_vector_MR_EdgePoint *section, const MR_AffineXf3f *meshToPlane)</argsstring>
         <name>MR_planeSectionToContour2f</name>
@@ -653,14 +489,14 @@ this function must be faster than extractXYPlaneSections function when connectin
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>converts PlaneSections in 2D contours by computing coordinate of each point, applying given xf to it, and retaining only x and y Generated from function <computeroutput>MR::planeSectionToContour2f</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>section</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshToPlane</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>converts PlaneSections in 2D contours by computing coordinate of each point, applying given xf to it, and retaining only x and y Generated from function <computeroutput>MR::planeSectionToContour2f</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>section</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshToPlane</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2f_8h_1aeab3bfadb986f1cf0210b5857e6fd125" kindref="member">MR_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="146" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="146" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="146" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="146" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRExtractIsolines_8h_1a6b4ee7dfba5488d1f8137095886ea797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2f * MR_planeSectionsToContours2f</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_std_vector_std_vector_MR_EdgePoint *sections, const MR_AffineXf3f *meshToPlane)</argsstring>
         <name>MR_planeSectionsToContours2f</name>
@@ -679,11 +515,11 @@ this function must be faster than extractXYPlaneSections function when connectin
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::planeSectionsToContours2f</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>sections</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshToPlane</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::planeSectionsToContours2f</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>sections</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshToPlane</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2f_8h_1a163951b7acd39b66fcea579eb89c2c6a" kindref="member">MR_std_vector_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" line="153" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h" declline="153" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" line="153" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h" declline="153" declcolumn="46"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -694,7 +530,7 @@ this function must be faster than extractXYPlaneSections function when connectin
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MREnums_8h" kindref="compound">MRCMesh/MREnums.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -702,59 +538,59 @@ this function must be faster than extractXYPlaneSections function when connectin
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRExtractIsolines_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRExtractIsolines_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRExtractIsolines_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRExtractIsolines_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRExtractIsolines_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRExtractIsolines_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRExtractIsolines_8h_1aa7548d3448b3b7da1ea96433fe902e9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlane3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRExtractIsolines_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRExtractIsolines_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlane3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" kindref="member">MR_expected_std_vector_MR_EdgePoint_std_string</ref><sp/><ref refid="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" kindref="member">MR_expected_std_vector_MR_EdgePoint_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_EdgePoint_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRExtractIsolines_8h_1ac83010bf4ae4af15d0e13d005e33fce1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRExtractIsolines_8h_1a9138e3f58ce2b39215044d2e368587ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_FaceId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" kindref="member">MR_std_vector_MR_LineSegm3f</ref><sp/><ref refid="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" kindref="member">MR_std_vector_MR_LineSegm3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_LineSegm3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRExtractIsolines_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRExtractIsolines_8h_1a603c36c96311a8cb693f3e5500963e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRExtractIsolines_8h_1a7daa529999eccf5e181151775b42b7d5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a7daa529999eccf5e181151775b42b7d5" kindref="member">MR_extractIsolines_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/>*vertValues,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="37" refid="MRExtractIsolines_8h_1a7daa529999eccf5e181151775b42b7d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a7daa529999eccf5e181151775b42b7d5" kindref="member">MR_extractIsolines_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/>*vertValues,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRExtractIsolines_8h_1a08b8796fda36e7a4ef7bc79169f488c5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a08b8796fda36e7a4ef7bc79169f488c5" kindref="member">MR_hasAnyIsoline_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/>*vertValues,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="44" refid="MRExtractIsolines_8h_1a08b8796fda36e7a4ef7bc79169f488c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a08b8796fda36e7a4ef7bc79169f488c5" kindref="member">MR_hasAnyIsoline_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/>*vertValues,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRExtractIsolines_8h_1a3c0179fba5a2c68a941168db456b9c3c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a3c0179fba5a2c68a941168db456b9c3c" kindref="member">MR_extractIsolines_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*vertValues,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="52" refid="MRExtractIsolines_8h_1a3c0179fba5a2c68a941168db456b9c3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a3c0179fba5a2c68a941168db456b9c3c" kindref="member">MR_extractIsolines_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*vertValues,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRExtractIsolines_8h_1ac6868f232fe66d5d26f7e77e6f9abdc6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1ac6868f232fe66d5d26f7e77e6f9abdc6" kindref="member">MR_hasAnyIsoline_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*vertValues,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="59" refid="MRExtractIsolines_8h_1ac6868f232fe66d5d26f7e77e6f9abdc6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1ac6868f232fe66d5d26f7e77e6f9abdc6" kindref="member">MR_hasAnyIsoline_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*vertValues,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRExtractIsolines_8h_1a6f31c9bf332e81209d26aa917d9ee646" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a6f31c9bf332e81209d26aa917d9ee646" kindref="member">MR_extractPlaneSections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
+<codeline lineno="67" refid="MRExtractIsolines_8h_1a6f31c9bf332e81209d26aa917d9ee646" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a6f31c9bf332e81209d26aa917d9ee646" kindref="member">MR_extractPlaneSections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRExtractIsolines_8h_1a6a944f314a016c5af7fc8669f892580e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a6a944f314a016c5af7fc8669f892580e" kindref="member">MR_hasAnyPlaneSection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
+<codeline lineno="74" refid="MRExtractIsolines_8h_1a6a944f314a016c5af7fc8669f892580e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a6a944f314a016c5af7fc8669f892580e" kindref="member">MR_hasAnyPlaneSection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRExtractIsolines_8h_1a60add93eb9ea6e89342b5f662d622707" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a60add93eb9ea6e89342b5f662d622707" kindref="member">MR_extractXYPlaneSections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
+<codeline lineno="81" refid="MRExtractIsolines_8h_1a60add93eb9ea6e89342b5f662d622707" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a60add93eb9ea6e89342b5f662d622707" kindref="member">MR_extractXYPlaneSections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRExtractIsolines_8h_1a46daf3c83b78f16eaeb6eab943426de2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a46daf3c83b78f16eaeb6eab943426de2" kindref="member">MR_hasAnyXYPlaneSection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
+<codeline lineno="87" refid="MRExtractIsolines_8h_1a46daf3c83b78f16eaeb6eab943426de2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a46daf3c83b78f16eaeb6eab943426de2" kindref="member">MR_hasAnyXYPlaneSection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRExtractIsolines_8h_1a6c2f718674c50e226722bb617b036655" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" kindref="member">MR_std_vector_MR_LineSegm3f</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a6c2f718674c50e226722bb617b036655" kindref="member">MR_findTriangleSectionsByXYPlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*faces,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
+<codeline lineno="99" refid="MRExtractIsolines_8h_1a6c2f718674c50e226722bb617b036655" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtractIsolines_8h_1aa84dbb2068f89932d53c85c16f97059c" kindref="member">MR_std_vector_MR_LineSegm3f</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a6c2f718674c50e226722bb617b036655" kindref="member">MR_findTriangleSectionsByXYPlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*faces,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" kindref="member">MR_UseAABBTree</ref><sp/>*u);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRExtractIsolines_8h_1ac1a50c5ef33444a58eaa6fee2adb225f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1ac1a50c5ef33444a58eaa6fee2adb225f" kindref="member">MR_trackSection_MR_MeshTriPoint_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*direction,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="112" refid="MRExtractIsolines_8h_1ac1a50c5ef33444a58eaa6fee2adb225f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRExtractIsolines_8h_1ac1a50c5ef33444a58eaa6fee2adb225f" kindref="member">MR_trackSection_MR_MeshTriPoint_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*direction,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRExtractIsolines_8h_1a08716be2bc0cb3560aad249e36353d0f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" kindref="member">MR_expected_std_vector_MR_EdgePoint_std_string</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a08716be2bc0cb3560aad249e36353d0f" kindref="member">MR_trackSection_const_MR_MeshTriPoint_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*planePoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ccw);</highlight></codeline>
+<codeline lineno="124" refid="MRExtractIsolines_8h_1a08716be2bc0cb3560aad249e36353d0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtractIsolines_8h_1a6777c06d70b58cded71a4a47021d560f" kindref="member">MR_expected_std_vector_MR_EdgePoint_std_string</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a08716be2bc0cb3560aad249e36353d0f" kindref="member">MR_trackSection_const_MR_MeshTriPoint_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*planePoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ccw);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRExtractIsolines_8h_1a476ad33a2ffff07add85adefd88acb3c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a476ad33a2ffff07add85adefd88acb3c" kindref="member">MR_isConsistentlyOriented</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*isoline);</highlight></codeline>
+<codeline lineno="131" refid="MRExtractIsolines_8h_1a476ad33a2ffff07add85adefd88acb3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a476ad33a2ffff07add85adefd88acb3c" kindref="member">MR_isConsistentlyOriented</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*isoline);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRExtractIsolines_8h_1a9bd3500b6632036c344416725c8dfdb1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a9bd3500b6632036c344416725c8dfdb1" kindref="member">MR_getCrossedFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*isoline);</highlight></codeline>
+<codeline lineno="138" refid="MRExtractIsolines_8h_1a9bd3500b6632036c344416725c8dfdb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a9bd3500b6632036c344416725c8dfdb1" kindref="member">MR_getCrossedFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*isoline);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRExtractIsolines_8h_1a2113f09112d9824f577a754dc5d73477" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a2113f09112d9824f577a754dc5d73477" kindref="member">MR_planeSectionToContour2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*section,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*meshToPlane);</highlight></codeline>
+<codeline lineno="146" refid="MRExtractIsolines_8h_1a2113f09112d9824f577a754dc5d73477" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a2113f09112d9824f577a754dc5d73477" kindref="member">MR_planeSectionToContour2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*section,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*meshToPlane);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRExtractIsolines_8h_1a6b4ee7dfba5488d1f8137095886ea797" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a6b4ee7dfba5488d1f8137095886ea797" kindref="member">MR_planeSectionsToContours2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*sections,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*meshToPlane);</highlight></codeline>
+<codeline lineno="153" refid="MRExtractIsolines_8h_1a6b4ee7dfba5488d1f8137095886ea797" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRExtractIsolines_8h_1a6b4ee7dfba5488d1f8137095886ea797" kindref="member">MR_planeSectionsToContours2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*sections,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*meshToPlane);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="156"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRExtractIsolines.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRExtractIsolines.h"/>
   </compounddef>
 </doxygen>

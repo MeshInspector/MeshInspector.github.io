@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RenderDimensions_1_1RadiusParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::RenderDimensions::RadiusParams</compoundname>
-    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <includes refid="MRRenderDimensions_8h" local="no">MRViewer/MRRenderDimensions.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga840dbe12e26001840b6e0464356dce72" kind="variable"><name>common</name></member>
       <member refid="group__GeneralGroup_1gacbc9da122212ec41904e71d4e3002cc9" kind="variable"><name>center</name></member>
@@ -92,7 +92,6 @@
         <childnode refid="9" relation="usage">
           <edgelabel>clipByPlane_</edgelabel>
           <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
           <edgelabel>pickable_</edgelabel>
           <edgelabel>showName_</edgelabel>
         </childnode>
@@ -112,7 +111,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="80" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="81" bodyend="102"/>
+    <location file="MRViewer/MRRenderDimensions.h" line="80" column="1" bodyfile="MRViewer/MRRenderDimensions.h" bodystart="81" bodyend="102"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacbc9da122212ec41904e71d4e3002cc9" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>center</name></member>
       <member refid="group__GeneralGroup_1ga840dbe12e26001840b6e0464356dce72" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>common</name></member>

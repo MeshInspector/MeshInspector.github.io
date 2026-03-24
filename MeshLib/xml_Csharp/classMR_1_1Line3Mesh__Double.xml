@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Line3Mesh__Double" kind="class" language="C#" prot="public">
     <compoundname>MR::Line3Mesh_Double</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Line3Mesh_Double</basecompoundref>
@@ -11,14 +11,13 @@
         <name>line</name>
         <qualifiedname>MR.Line3Mesh_Double.line</qualifiedname>
         <briefdescription>
-<para>&lt; in the reference frame of mesh </para>
+<para>in the reference frame of mesh </para>
         </briefdescription>
         <detaileddescription>
-<para>set it to a valid pointer for better performance </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1463" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1463" bodyend="1463"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1543" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1543" bodyend="1543"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Double_1a071cb9413989670fd61bf0eee8283c03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1IntersectionPrecomputes__Double" kindref="compound">IntersectionPrecomputes_Double</ref></type>
@@ -27,13 +26,13 @@
         <name>prec</name>
         <qualifiedname>MR.Line3Mesh_Double.prec</qualifiedname>
         <briefdescription>
-<para>must be set a valid pointer before use </para>
+<para>set it to a valid pointer for better performance </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1466" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1467" bodyend="1476"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1548" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1549" bodyend="1558"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Double_1a01ddf2b93a7647087af52da52be1e6c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_Mesh</type>
@@ -48,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1479" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1480" bodyend="1489"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1563" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1564" bodyend="1573"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Double_1ae359c9995b02bfb82954a5ac04597586" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_AABBTree</type>
@@ -57,13 +56,13 @@
         <name>tree</name>
         <qualifiedname>MR.Line3Mesh_Double.tree</qualifiedname>
         <briefdescription>
-<para>may remain nullptr, meaning all mesh </para>
+<para>must be set a valid pointer before use </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1492" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1493" bodyend="1502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1578" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1579" bodyend="1588"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Double_1a29c4609b57601ced5db98f4797005798" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_FaceBitSet</type>
@@ -72,12 +71,13 @@
         <name>region</name>
         <qualifiedname>MR.Line3Mesh_Double.region</qualifiedname>
         <briefdescription>
+<para>may remain nullptr, meaning all mesh </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1505" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1506" bodyend="1515"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1593" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1594" bodyend="1603"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1534" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1534" bodyend="1538"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1622" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1622" bodyend="1626"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1544" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1544" bodyend="1550"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1632" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1632" bodyend="1638"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Line3Mesh__Double_1a1158698c907dbb50b048e544a76e06ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -147,13 +147,13 @@
           <declname>region</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.Line3Mesh&lt;double&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::Line3Mesh&amp;amp;lt;double&amp;amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1555" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1555" bodyend="1566"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1643" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1643" bodyend="1654"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Line3Mesh__Double_1aa461a046715fe163ec8f6b4497f32e09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Line3Mesh&lt;double&gt;::Line3Mesh</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Line3Mesh&amp;amp;lt;double&amp;amp;gt;::Line3Mesh</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1571" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1571" bodyend="1578"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1659" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1659" bodyend="1666"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Line3Mesh__Double_1afed35ccbc72b9fefde71b64c82e6a6b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Line3Mesh&lt;double&gt;::Line3Mesh</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Line3Mesh&amp;amp;lt;double&amp;amp;gt;::Line3Mesh</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1583" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1583" bodyend="1583"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1671" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1671" bodyend="1671"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Line3Mesh__Double_1aab1a0a2b1e4c88cfe72c4b13b38bd95c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Line3Mesh__Double" kindref="compound">MR.Line3Mesh_Double</ref></type>
@@ -204,63 +204,63 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Line3Mesh&lt;double&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Line3Mesh&amp;amp;lt;double&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1588" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1588" bodyend="1595"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1676" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1676" bodyend="1683"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.Line3Mesh&lt;double&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::Line3Mesh&amp;amp;lt;double&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Line3Mesh_Double</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Line3Mesh_Double</label>
         <link refid="classMR_1_1Line3Mesh__Double"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Line3Mesh_Double</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Line3Mesh_Double &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Line3Mesh_Double</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Line3Mesh_Double</label>
         <link refid="classMR_1_1Line3Mesh__Double"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Line3Mesh_Double</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Line3Mesh_Double &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1460" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1461" bodyend="1596"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1538" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1539" bodyend="1684"/>
     <listofallmembers>
       <member refid="classMR_1_1Line3Mesh__Double_1aab1a0a2b1e4c88cfe72c4b13b38bd95c" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>assign</name></member>
       <member refid="classMR_1_1Line3Mesh__Double_1a23a03750f5b82504818bff54d616d196" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>line</name></member>

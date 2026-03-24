@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2066" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2066" bodyend="2066"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2098" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2098" bodyend="2098"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,13 +39,13 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshOnVoxelsT&lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&gt;::MeshOnVoxelsT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2071" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2071" bodyend="2077"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2103" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2103" bodyend="2109"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1af6c799af3a749418a3cb760261b0dd9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -58,13 +58,13 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshOnVoxelsT&lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&gt;::MeshOnVoxelsT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2082" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2082" bodyend="2082"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2114" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2114" bodyend="2114"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1aa2c2e824ffbc27a834883057da7a9ca4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -77,13 +77,13 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshOnVoxelsT&lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&gt;::MeshOnVoxelsT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2087" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2087" bodyend="2087"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2119" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2119" bodyend="2119"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1ac6b9ed07b527bd509511aca067c5fc54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -108,66 +108,66 @@
           <declname>volumeXf</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshOnVoxelsT&lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&gt;::MeshOnVoxelsT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2092" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2092" bodyend="2105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2124" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2124" bodyend="2137"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
 <para>Helper class to organize mesh and voxels volume access and build point sequences. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="note"><para>this class is not thread-safe but accessing same volume from different instances is ok Generated from class <computeroutput>MR.MeshOnVoxelsT&lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para><simplesect kind="note"><para>this class is not thread-safe but accessing same volume from different instances is ok Generated from class <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshOnVoxelsT_MRMesh_MRFunctionVolume</label>
         <link refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshOnVoxelsT_MRMesh_MRFunctionVolume</label>
         <link refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2064" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2065" bodyend="2106"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2096" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2097" bodyend="2138"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a7580889b5cf1dc811b22245b92a07941" prot="package" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1abaa562ae86a3d56f62900c6d20f8de5c" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>

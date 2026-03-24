@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMultiwayAligningTransform_8h" kind="file" language="C++">
     <compoundname>MRMultiwayAligningTransform.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -18,41 +18,26 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stddef.h</label>
       </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMultiwayAligningTransform_8h_1aa6b35c703a4572c3ccc120ee82723a66" prot="public" static="no">
-        <type>struct MR_Vector3d</type>
-        <definition>typedef struct MR_Vector3d MR_Vector3d</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="12" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayAligningTransform_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="13" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" prot="public" static="no">
         <type>struct <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref></type>
         <definition>typedef struct MR_std_vector_MR_RigidXf3d MR_std_vector_MR_RigidXf3d</definition>
@@ -61,10 +46,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::RigidXf3d&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="14" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="14" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" prot="public" static="no">
         <type>struct <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref></type>
@@ -74,11 +60,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>small stabilizer allows one to convert the linear system from under-determined to determined (e.g. too few linearly independent pairs for some object); large stabilizer results in suboptimal found transformations (huge stabilizier =&gt; zero transforamtions) Generated from class <computeroutput>MR::MultiwayAligningTransform::Stabilizer</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>small stabilizer allows one to convert the linear system from under-determined to determined (e.g. too few linearly independent pairs for some object); large stabilizer results in suboptimal found transformations (huge stabilizier =&gt; zero transforamtions) Generated from class <computeroutput>MR::MultiwayAligningTransform::Stabilizer</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="21" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="21" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" prot="public" static="no">
         <type>struct <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref></type>
@@ -88,16 +74,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This class can be used to solve the problem of multiple 3D objects alignment, by first collecting weighted links between pairs of points from different objects, and then solving for transformations minimizing weighted average of link penalties Generated from class <computeroutput>MR::MultiwayAligningTransform</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>This class can be used to solve the problem of multiple 3D objects alignment, by first collecting weighted links between pairs of points from different objects, and then solving for transformations minimizing weighted average of link penalties Generated from class <computeroutput>MR::MultiwayAligningTransform</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="28" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" bodystart="28" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="28" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" bodystart="28" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a52808f79da78dfb0eea61d18596c584b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform * MR_MultiwayAligningTransform_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MultiwayAligningTransform_DefaultConstruct</name>
@@ -111,10 +97,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="32" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="32" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="32" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="32" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1aa2dfb464f210ad9303186c652233427f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform * MR_MultiwayAligningTransform_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MultiwayAligningTransform_DefaultConstructArray</name>
@@ -129,10 +115,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="37" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="37" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="37" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="37" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a465405e8d3c9a65cf41fa3c59c2c1d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
         <definition>MRC_API const MR_MultiwayAligningTransform * MR_MultiwayAligningTransform_OffsetPtr</definition>
         <argsstring>(const MR_MultiwayAligningTransform *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MultiwayAligningTransform_OffsetPtr</name>
@@ -151,10 +137,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="41" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="41" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="41" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="41" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a7a416b6faa8d79ad2886ea1703dc8d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform * MR_MultiwayAligningTransform_OffsetMutablePtr</definition>
         <argsstring>(MR_MultiwayAligningTransform *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MultiwayAligningTransform_OffsetMutablePtr</name>
@@ -173,15 +159,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="45" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="45" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="45" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="45" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a7f805cf4fbcb145b564086e0d7d4b8a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform * MR_MultiwayAligningTransform_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_MultiwayAligningTransform *_other)</argsstring>
         <name>MR_MultiwayAligningTransform_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -195,10 +181,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="50" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="50" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="50" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="50" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a3eb0d0816b5f7ca817ac57f3563ea56b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform * MR_MultiwayAligningTransform_Construct</definition>
         <argsstring>(int numObjs)</argsstring>
         <name>MR_MultiwayAligningTransform_Construct</name>
@@ -213,10 +199,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="55" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="55" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="55" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="55" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a3a8593bbf4f4e553427048cbc8dfd934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_Destroy</definition>
         <argsstring>(const MR_MultiwayAligningTransform *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_Destroy</name>
@@ -225,16 +211,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MultiwayAligningTransform</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="58" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="58" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a122f6d8222524246589fd90ffae4efd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_DestroyArray</definition>
         <argsstring>(const MR_MultiwayAligningTransform *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_DestroyArray</name>
@@ -243,16 +229,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MultiwayAligningTransform</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="61" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="61" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a20cc4e3f1a57117a5d08bd61fc5e09b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform * MR_MultiwayAligningTransform_AssignFromAnother</definition>
         <argsstring>(MR_MultiwayAligningTransform *_this, MR_PassBy _other_pass_by, MR_MultiwayAligningTransform *_other)</argsstring>
         <name>MR_MultiwayAligningTransform_AssignFromAnother</name>
@@ -261,7 +247,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -271,14 +257,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MultiwayAligningTransform::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MultiwayAligningTransform::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="69" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="69" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="69" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="69" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a90b645df07641a1fd0aff5a9290d35d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_reset</definition>
         <argsstring>(MR_MultiwayAligningTransform *_this, int numObjs)</argsstring>
         <name>MR_MultiwayAligningTransform_reset</name>
@@ -297,10 +283,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="74" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1ae5fd6a9339f4553db23ccd59fb1fd136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_add_5_MR_Vector3d</definition>
         <argsstring>(MR_MultiwayAligningTransform *_this, int objA, const MR_Vector3d *pA, int objB, const MR_Vector3d *pB, const double *w)</argsstring>
         <name>MR_MultiwayAligningTransform_add_5_MR_Vector3d</name>
@@ -335,10 +321,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="83" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="83" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a20217acd828ca6f4f02dd921f7353f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_add_5_MR_Vector3f</definition>
         <argsstring>(MR_MultiwayAligningTransform *_this, int objA, const MR_Vector3f *pA, int objB, const MR_Vector3f *pB, const float *w)</argsstring>
         <name>MR_MultiwayAligningTransform_add_5_MR_Vector3f</name>
@@ -373,10 +359,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="92" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1abccad6edfda79aa98769abf4db8ae6b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_add_6_MR_Vector3d</definition>
         <argsstring>(MR_MultiwayAligningTransform *_this, int objA, const MR_Vector3d *pA, int objB, const MR_Vector3d *pB, const MR_Vector3d *n, const double *w)</argsstring>
         <name>MR_MultiwayAligningTransform_add_6_MR_Vector3d</name>
@@ -415,10 +401,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="103" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="103" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1aea16b87dec9079c9fc7522854a08aab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_add_6_MR_Vector3f</definition>
         <argsstring>(MR_MultiwayAligningTransform *_this, int objA, const MR_Vector3f *pA, int objB, const MR_Vector3f *pB, const MR_Vector3f *n, const float *w)</argsstring>
         <name>MR_MultiwayAligningTransform_add_6_MR_Vector3f</name>
@@ -457,10 +443,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="114" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="114" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a60825ddf39aadf7f088cf72330910ba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_add_1</definition>
         <argsstring>(MR_MultiwayAligningTransform *_this, const MR_MultiwayAligningTransform *r)</argsstring>
         <name>MR_MultiwayAligningTransform_add_1</name>
@@ -479,10 +465,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="120" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="120" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1ad8092f7185e9e65c352bb599e7b270ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_RigidXf3d * MR_MultiwayAligningTransform_solve_1</definition>
         <argsstring>(const MR_MultiwayAligningTransform *_this, const MR_MultiwayAligningTransform_Stabilizer *stab)</argsstring>
         <name>MR_MultiwayAligningTransform_solve_1</name>
@@ -497,14 +483,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds the solution consisting of all objects transformations (numObj), that minimizes the summed weighted squared distance among accumulated links; the transform of the last object is always identity (it is fixed) Generated from method <computeroutput>MR::MultiwayAligningTransform::solve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>stab</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_RigidXf3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds the solution consisting of all objects transformations (numObj), that minimizes the summed weighted squared distance among accumulated links; the transform of the last object is always identity (it is fixed) Generated from method <computeroutput>MR::MultiwayAligningTransform::solve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>stab</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a467285b994abb2754c0a2a79cd65a963" kindref="member">MR_std_vector_MR_RigidXf3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="129" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="129" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="129" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="129" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a10a8e19bddad62e1379b4c8acc1efe6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_RigidXf3d * MR_MultiwayAligningTransform_solve_0</definition>
         <argsstring>(const MR_MultiwayAligningTransform *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_solve_0</name>
@@ -515,14 +501,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MultiwayAligningTransform::solve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_RigidXf3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::MultiwayAligningTransform::solve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a467285b994abb2754c0a2a79cd65a963" kindref="member">MR_std_vector_MR_RigidXf3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="134" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="134" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="134" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="134" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a6a482adf3bdb7aa686de3df46004a19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_MultiwayAligningTransform_Stabilizer_Get_rot</definition>
         <argsstring>(const MR_MultiwayAligningTransform_Stabilizer *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_Get_rot</name>
@@ -537,10 +523,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="141" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="141" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="141" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="141" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a9393ddb269ecfc4fc00b3501e2a7f00c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_Stabilizer_Set_rot</definition>
         <argsstring>(MR_MultiwayAligningTransform_Stabilizer *_this, double value)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_Set_rot</name>
@@ -555,14 +541,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MultiwayAligningTransform::Stabilizer</computeroutput> named <computeroutput>rot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>rot</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MultiwayAligningTransform::Stabilizer</computeroutput> named <computeroutput>rot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>rot</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="147" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="147" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a977fcabd360ea5d80b2e26c90410e865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_MultiwayAligningTransform_Stabilizer_GetMutable_rot</definition>
         <argsstring>(MR_MultiwayAligningTransform_Stabilizer *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_GetMutable_rot</name>
@@ -577,10 +563,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="154" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="154" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="154" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="154" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a4805a897069202a0b0ab422203d8b8a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_MultiwayAligningTransform_Stabilizer_Get_shift</definition>
         <argsstring>(const MR_MultiwayAligningTransform_Stabilizer *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_Get_shift</name>
@@ -595,10 +581,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="161" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="161" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="161" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="161" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a0c88126490b41f115a6af3edab8769e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_Stabilizer_Set_shift</definition>
         <argsstring>(MR_MultiwayAligningTransform_Stabilizer *_this, double value)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_Set_shift</name>
@@ -613,14 +599,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MultiwayAligningTransform::Stabilizer</computeroutput> named <computeroutput>shift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>shift</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MultiwayAligningTransform::Stabilizer</computeroutput> named <computeroutput>shift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>shift</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="167" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="167" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a60a473462f5b940404a7e2c47a1ce071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_MultiwayAligningTransform_Stabilizer_GetMutable_shift</definition>
         <argsstring>(MR_MultiwayAligningTransform_Stabilizer *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_GetMutable_shift</name>
@@ -635,10 +621,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="174" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="174" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="174" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="174" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1ad21090c91707d4c6f01a5b19b3f8dfa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform_Stabilizer * MR_MultiwayAligningTransform_Stabilizer_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_DefaultConstruct</name>
@@ -652,10 +638,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="178" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="178" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="178" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="178" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a5b21785be1238b4861884b71eb50f6f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform_Stabilizer * MR_MultiwayAligningTransform_Stabilizer_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_DefaultConstructArray</name>
@@ -670,10 +656,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="183" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="183" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="183" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="183" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a2afae0b871507c7fa599679fe44f0887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform_Stabilizer * MR_MultiwayAligningTransform_Stabilizer_ConstructFrom</definition>
         <argsstring>(double rot, double shift)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_ConstructFrom</name>
@@ -688,14 +674,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MultiwayAligningTransform::Stabilizer</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1ab9ebf3e9474f72d5aeab9be097c45fdb" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MultiwayAligningTransform::Stabilizer</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1ab9ebf3e9474f72d5aeab9be097c45fdb" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="188" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="188" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="188" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="188" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1aeb08474ba282a249d1633f9af1249f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
         <definition>MRC_API const MR_MultiwayAligningTransform_Stabilizer * MR_MultiwayAligningTransform_Stabilizer_OffsetPtr</definition>
         <argsstring>(const MR_MultiwayAligningTransform_Stabilizer *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_OffsetPtr</name>
@@ -714,10 +700,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="192" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="192" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="192" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="192" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1ac6cbffef218dcfeb03f74d8eb3d39c93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform_Stabilizer * MR_MultiwayAligningTransform_Stabilizer_OffsetMutablePtr</definition>
         <argsstring>(MR_MultiwayAligningTransform_Stabilizer *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_OffsetMutablePtr</name>
@@ -736,10 +722,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="196" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="196" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="196" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="196" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1ab76cb3639e8059f28f04d3f3e10d50e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform_Stabilizer * MR_MultiwayAligningTransform_Stabilizer_ConstructFromAnother</definition>
         <argsstring>(const MR_MultiwayAligningTransform_Stabilizer *_other)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_ConstructFromAnother</name>
@@ -754,10 +740,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="202" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="202" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="202" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="202" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1ab9ebf3e9474f72d5aeab9be097c45fdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_Stabilizer_Destroy</definition>
         <argsstring>(const MR_MultiwayAligningTransform_Stabilizer *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_Destroy</name>
@@ -766,16 +752,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MultiwayAligningTransform_Stabilizer</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="205" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="205" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1afd58dcd5932e32a176ec77c1c81e2b99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MultiwayAligningTransform_Stabilizer_DestroyArray</definition>
         <argsstring>(const MR_MultiwayAligningTransform_Stabilizer *_this)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_DestroyArray</name>
@@ -784,16 +770,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MultiwayAligningTransform_Stabilizer</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="208" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="208" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayAligningTransform_8h_1a052a3477d845269928a28731402b0d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref> *</type>
         <definition>MRC_API MR_MultiwayAligningTransform_Stabilizer * MR_MultiwayAligningTransform_Stabilizer_AssignFromAnother</definition>
         <argsstring>(MR_MultiwayAligningTransform_Stabilizer *_this, const MR_MultiwayAligningTransform_Stabilizer *_other)</argsstring>
         <name>MR_MultiwayAligningTransform_Stabilizer_AssignFromAnother</name>
@@ -808,11 +794,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MultiwayAligningTransform::Stabilizer::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MultiwayAligningTransform::Stabilizer::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" line="216" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h" declline="216" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" line="216" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h" declline="216" declcolumn="49"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -822,8 +808,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -831,89 +817,89 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRMultiwayAligningTransform_8h_1aa6b35c703a4572c3ccc120ee82723a66" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMultiwayAligningTransform_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_RigidXf3d.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref>;</highlight></codeline>
+<codeline lineno="28" refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRMultiwayAligningTransform_8h_1a52808f79da78dfb0eea61d18596c584b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a52808f79da78dfb0eea61d18596c584b" kindref="member">MR_MultiwayAligningTransform_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32" refid="MRMultiwayAligningTransform_8h_1a52808f79da78dfb0eea61d18596c584b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a52808f79da78dfb0eea61d18596c584b" kindref="member">MR_MultiwayAligningTransform_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRMultiwayAligningTransform_8h_1aa2dfb464f210ad9303186c652233427f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1aa2dfb464f210ad9303186c652233427f" kindref="member">MR_MultiwayAligningTransform_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="37" refid="MRMultiwayAligningTransform_8h_1aa2dfb464f210ad9303186c652233427f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1aa2dfb464f210ad9303186c652233427f" kindref="member">MR_MultiwayAligningTransform_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRMultiwayAligningTransform_8h_1a465405e8d3c9a65cf41fa3c59c2c1d92" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a465405e8d3c9a65cf41fa3c59c2c1d92" kindref="member">MR_MultiwayAligningTransform_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="41" refid="MRMultiwayAligningTransform_8h_1a465405e8d3c9a65cf41fa3c59c2c1d92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a465405e8d3c9a65cf41fa3c59c2c1d92" kindref="member">MR_MultiwayAligningTransform_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRMultiwayAligningTransform_8h_1a7a416b6faa8d79ad2886ea1703dc8d99" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a7a416b6faa8d79ad2886ea1703dc8d99" kindref="member">MR_MultiwayAligningTransform_OffsetMutablePtr</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="45" refid="MRMultiwayAligningTransform_8h_1a7a416b6faa8d79ad2886ea1703dc8d99" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a7a416b6faa8d79ad2886ea1703dc8d99" kindref="member">MR_MultiwayAligningTransform_OffsetMutablePtr</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRMultiwayAligningTransform_8h_1a7f805cf4fbcb145b564086e0d7d4b8a3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a7f805cf4fbcb145b564086e0d7d4b8a3" kindref="member">MR_MultiwayAligningTransform_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="50" refid="MRMultiwayAligningTransform_8h_1a7f805cf4fbcb145b564086e0d7d4b8a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a7f805cf4fbcb145b564086e0d7d4b8a3" kindref="member">MR_MultiwayAligningTransform_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRMultiwayAligningTransform_8h_1a3eb0d0816b5f7ca817ac57f3563ea56b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a3eb0d0816b5f7ca817ac57f3563ea56b" kindref="member">MR_MultiwayAligningTransform_Construct</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs);</highlight></codeline>
+<codeline lineno="55" refid="MRMultiwayAligningTransform_8h_1a3eb0d0816b5f7ca817ac57f3563ea56b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a3eb0d0816b5f7ca817ac57f3563ea56b" kindref="member">MR_MultiwayAligningTransform_Construct</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRMultiwayAligningTransform_8h_1a3a8593bbf4f4e553427048cbc8dfd934" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a3a8593bbf4f4e553427048cbc8dfd934" kindref="member">MR_MultiwayAligningTransform_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58" refid="MRMultiwayAligningTransform_8h_1a3a8593bbf4f4e553427048cbc8dfd934" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a3a8593bbf4f4e553427048cbc8dfd934" kindref="member">MR_MultiwayAligningTransform_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRMultiwayAligningTransform_8h_1a122f6d8222524246589fd90ffae4efd2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a122f6d8222524246589fd90ffae4efd2" kindref="member">MR_MultiwayAligningTransform_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61" refid="MRMultiwayAligningTransform_8h_1a122f6d8222524246589fd90ffae4efd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a122f6d8222524246589fd90ffae4efd2" kindref="member">MR_MultiwayAligningTransform_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRMultiwayAligningTransform_8h_1a20cc4e3f1a57117a5d08bd61fc5e09b3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a20cc4e3f1a57117a5d08bd61fc5e09b3" kindref="member">MR_MultiwayAligningTransform_AssignFromAnother</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="69" refid="MRMultiwayAligningTransform_8h_1a20cc4e3f1a57117a5d08bd61fc5e09b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a20cc4e3f1a57117a5d08bd61fc5e09b3" kindref="member">MR_MultiwayAligningTransform_AssignFromAnother</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRMultiwayAligningTransform_8h_1a90b645df07641a1fd0aff5a9290d35d2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a90b645df07641a1fd0aff5a9290d35d2" kindref="member">MR_MultiwayAligningTransform_reset</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs);</highlight></codeline>
+<codeline lineno="74" refid="MRMultiwayAligningTransform_8h_1a90b645df07641a1fd0aff5a9290d35d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a90b645df07641a1fd0aff5a9290d35d2" kindref="member">MR_MultiwayAligningTransform_reset</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRMultiwayAligningTransform_8h_1ae5fd6a9339f4553db23ccd59fb1fd136" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae5fd6a9339f4553db23ccd59fb1fd136" kindref="member">MR_MultiwayAligningTransform_add_5_MR_Vector3d</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
+<codeline lineno="83" refid="MRMultiwayAligningTransform_8h_1ae5fd6a9339f4553db23ccd59fb1fd136" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae5fd6a9339f4553db23ccd59fb1fd136" kindref="member">MR_MultiwayAligningTransform_add_5_MR_Vector3d</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRMultiwayAligningTransform_8h_1a20217acd828ca6f4f02dd921f7353f71" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a20217acd828ca6f4f02dd921f7353f71" kindref="member">MR_MultiwayAligningTransform_add_5_MR_Vector3f</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
+<codeline lineno="92" refid="MRMultiwayAligningTransform_8h_1a20217acd828ca6f4f02dd921f7353f71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a20217acd828ca6f4f02dd921f7353f71" kindref="member">MR_MultiwayAligningTransform_add_5_MR_Vector3f</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRMultiwayAligningTransform_8h_1abccad6edfda79aa98769abf4db8ae6b8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1abccad6edfda79aa98769abf4db8ae6b8" kindref="member">MR_MultiwayAligningTransform_add_6_MR_Vector3d</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
+<codeline lineno="103" refid="MRMultiwayAligningTransform_8h_1abccad6edfda79aa98769abf4db8ae6b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1abccad6edfda79aa98769abf4db8ae6b8" kindref="member">MR_MultiwayAligningTransform_add_6_MR_Vector3d</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRMultiwayAligningTransform_8h_1aea16b87dec9079c9fc7522854a08aab3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aea16b87dec9079c9fc7522854a08aab3" kindref="member">MR_MultiwayAligningTransform_add_6_MR_Vector3f</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
+<codeline lineno="114" refid="MRMultiwayAligningTransform_8h_1aea16b87dec9079c9fc7522854a08aab3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aea16b87dec9079c9fc7522854a08aab3" kindref="member">MR_MultiwayAligningTransform_add_6_MR_Vector3f</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRMultiwayAligningTransform_8h_1a60825ddf39aadf7f088cf72330910ba5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a60825ddf39aadf7f088cf72330910ba5" kindref="member">MR_MultiwayAligningTransform_add_1</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*r);</highlight></codeline>
+<codeline lineno="120" refid="MRMultiwayAligningTransform_8h_1a60825ddf39aadf7f088cf72330910ba5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a60825ddf39aadf7f088cf72330910ba5" kindref="member">MR_MultiwayAligningTransform_add_1</ref>(<ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*r);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRMultiwayAligningTransform_8h_1ad8092f7185e9e65c352bb599e7b270ae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1ad8092f7185e9e65c352bb599e7b270ae" kindref="member">MR_MultiwayAligningTransform_solve_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*stab);</highlight></codeline>
+<codeline lineno="129" refid="MRMultiwayAligningTransform_8h_1ad8092f7185e9e65c352bb599e7b270ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1ad8092f7185e9e65c352bb599e7b270ae" kindref="member">MR_MultiwayAligningTransform_solve_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*stab);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRMultiwayAligningTransform_8h_1a10a8e19bddad62e1379b4c8acc1efe6b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a10a8e19bddad62e1379b4c8acc1efe6b" kindref="member">MR_MultiwayAligningTransform_solve_0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134" refid="MRMultiwayAligningTransform_8h_1a10a8e19bddad62e1379b4c8acc1efe6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a10a8e19bddad62e1379b4c8acc1efe6b" kindref="member">MR_MultiwayAligningTransform_solve_0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ae4788ca705054c89fcae182f4556c0ed" kindref="member">MR_MultiwayAligningTransform</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//<sp/>length<sp/>units</highlight></codeline>
-<codeline lineno="141" refid="MRMultiwayAligningTransform_8h_1a6a482adf3bdb7aa686de3df46004a19b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a6a482adf3bdb7aa686de3df46004a19b" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Get_rot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//<sp/>length<sp/>units</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRMultiwayAligningTransform_8h_1a6a482adf3bdb7aa686de3df46004a19b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a6a482adf3bdb7aa686de3df46004a19b" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Get_rot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">//<sp/>length<sp/>units</highlight></codeline>
-<codeline lineno="147" refid="MRMultiwayAligningTransform_8h_1a9393ddb269ecfc4fc00b3501e2a7f00c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a9393ddb269ecfc4fc00b3501e2a7f00c" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Set_rot</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">//<sp/>length<sp/>units</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRMultiwayAligningTransform_8h_1a9393ddb269ecfc4fc00b3501e2a7f00c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a9393ddb269ecfc4fc00b3501e2a7f00c" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Set_rot</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>length<sp/>units</highlight></codeline>
-<codeline lineno="154" refid="MRMultiwayAligningTransform_8h_1a977fcabd360ea5d80b2e26c90410e865" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a977fcabd360ea5d80b2e26c90410e865" kindref="member">MR_MultiwayAligningTransform_Stabilizer_GetMutable_rot</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>length<sp/>units</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRMultiwayAligningTransform_8h_1a977fcabd360ea5d80b2e26c90410e865" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a977fcabd360ea5d80b2e26c90410e865" kindref="member">MR_MultiwayAligningTransform_Stabilizer_GetMutable_rot</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dimensionless</highlight></codeline>
-<codeline lineno="161" refid="MRMultiwayAligningTransform_8h_1a4805a897069202a0b0ab422203d8b8a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a4805a897069202a0b0ab422203d8b8a7" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Get_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dimensionless</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRMultiwayAligningTransform_8h_1a4805a897069202a0b0ab422203d8b8a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a4805a897069202a0b0ab422203d8b8a7" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Get_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dimensionless</highlight></codeline>
-<codeline lineno="167" refid="MRMultiwayAligningTransform_8h_1a0c88126490b41f115a6af3edab8769e7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0c88126490b41f115a6af3edab8769e7" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Set_shift</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dimensionless</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRMultiwayAligningTransform_8h_1a0c88126490b41f115a6af3edab8769e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0c88126490b41f115a6af3edab8769e7" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Set_shift</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dimensionless</highlight></codeline>
-<codeline lineno="174" refid="MRMultiwayAligningTransform_8h_1a60a473462f5b940404a7e2c47a1ce071" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a60a473462f5b940404a7e2c47a1ce071" kindref="member">MR_MultiwayAligningTransform_Stabilizer_GetMutable_shift</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dimensionless</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRMultiwayAligningTransform_8h_1a60a473462f5b940404a7e2c47a1ce071" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a60a473462f5b940404a7e2c47a1ce071" kindref="member">MR_MultiwayAligningTransform_Stabilizer_GetMutable_shift</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRMultiwayAligningTransform_8h_1ad21090c91707d4c6f01a5b19b3f8dfa2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1ad21090c91707d4c6f01a5b19b3f8dfa2" kindref="member">MR_MultiwayAligningTransform_Stabilizer_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178" refid="MRMultiwayAligningTransform_8h_1ad21090c91707d4c6f01a5b19b3f8dfa2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1ad21090c91707d4c6f01a5b19b3f8dfa2" kindref="member">MR_MultiwayAligningTransform_Stabilizer_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="MRMultiwayAligningTransform_8h_1a5b21785be1238b4861884b71eb50f6f0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a5b21785be1238b4861884b71eb50f6f0" kindref="member">MR_MultiwayAligningTransform_Stabilizer_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="183" refid="MRMultiwayAligningTransform_8h_1a5b21785be1238b4861884b71eb50f6f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a5b21785be1238b4861884b71eb50f6f0" kindref="member">MR_MultiwayAligningTransform_Stabilizer_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRMultiwayAligningTransform_8h_1a2afae0b871507c7fa599679fe44f0887" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a2afae0b871507c7fa599679fe44f0887" kindref="member">MR_MultiwayAligningTransform_Stabilizer_ConstructFrom</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rot,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>shift);</highlight></codeline>
+<codeline lineno="188" refid="MRMultiwayAligningTransform_8h_1a2afae0b871507c7fa599679fe44f0887" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a2afae0b871507c7fa599679fe44f0887" kindref="member">MR_MultiwayAligningTransform_Stabilizer_ConstructFrom</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rot,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>shift);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRMultiwayAligningTransform_8h_1aeb08474ba282a249d1633f9af1249f5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1aeb08474ba282a249d1633f9af1249f5b" kindref="member">MR_MultiwayAligningTransform_Stabilizer_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="192" refid="MRMultiwayAligningTransform_8h_1aeb08474ba282a249d1633f9af1249f5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1aeb08474ba282a249d1633f9af1249f5b" kindref="member">MR_MultiwayAligningTransform_Stabilizer_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRMultiwayAligningTransform_8h_1ac6cbffef218dcfeb03f74d8eb3d39c93" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1ac6cbffef218dcfeb03f74d8eb3d39c93" kindref="member">MR_MultiwayAligningTransform_Stabilizer_OffsetMutablePtr</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="196" refid="MRMultiwayAligningTransform_8h_1ac6cbffef218dcfeb03f74d8eb3d39c93" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1ac6cbffef218dcfeb03f74d8eb3d39c93" kindref="member">MR_MultiwayAligningTransform_Stabilizer_OffsetMutablePtr</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="MRMultiwayAligningTransform_8h_1ab76cb3639e8059f28f04d3f3e10d50e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1ab76cb3639e8059f28f04d3f3e10d50e9" kindref="member">MR_MultiwayAligningTransform_Stabilizer_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="202" refid="MRMultiwayAligningTransform_8h_1ab76cb3639e8059f28f04d3f3e10d50e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1ab76cb3639e8059f28f04d3f3e10d50e9" kindref="member">MR_MultiwayAligningTransform_Stabilizer_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205" refid="MRMultiwayAligningTransform_8h_1ab9ebf3e9474f72d5aeab9be097c45fdb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ab9ebf3e9474f72d5aeab9be097c45fdb" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="205" refid="MRMultiwayAligningTransform_8h_1ab9ebf3e9474f72d5aeab9be097c45fdb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1ab9ebf3e9474f72d5aeab9be097c45fdb" kindref="member">MR_MultiwayAligningTransform_Stabilizer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRMultiwayAligningTransform_8h_1afd58dcd5932e32a176ec77c1c81e2b99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1afd58dcd5932e32a176ec77c1c81e2b99" kindref="member">MR_MultiwayAligningTransform_Stabilizer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="208" refid="MRMultiwayAligningTransform_8h_1afd58dcd5932e32a176ec77c1c81e2b99" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1afd58dcd5932e32a176ec77c1c81e2b99" kindref="member">MR_MultiwayAligningTransform_Stabilizer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRMultiwayAligningTransform_8h_1a052a3477d845269928a28731402b0d1a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a052a3477d845269928a28731402b0d1a" kindref="member">MR_MultiwayAligningTransform_Stabilizer_AssignFromAnother</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="216" refid="MRMultiwayAligningTransform_8h_1a052a3477d845269928a28731402b0d1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*<ref refid="MRMultiwayAligningTransform_8h_1a052a3477d845269928a28731402b0d1a" kindref="member">MR_MultiwayAligningTransform_Stabilizer_AssignFromAnother</ref>(<ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1a0b07f164f45d823b1fdf19542501783e" kindref="member">MR_MultiwayAligningTransform_Stabilizer</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="219"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayAligningTransform.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayAligningTransform.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PartialChangeMeshDataAction" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PartialChangeMeshDataAction</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42470" bodyend="42473"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43414" bodyend="43417"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshDataAction_1a96a9c87af286f280df260484be753562" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42474" bodyend="42475"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43418" bodyend="43419"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshDataAction_1a7cc32cb545443063b619a3745d3f1457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42476" bodyend="42477"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43420" bodyend="43421"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshDataAction_1a6922013aca4dd8eeb7f162ea00e40829" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42478" bodyend="42479"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43422" bodyend="43423"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -134,12 +134,13 @@ Undo action for ObjectMeshData change partially
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42464" bodyend="42479"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43408" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43408" bodyend="43423"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a6be42be400b9bfb9fe789b4d7a9d760c" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshDataAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a96a9c87af286f280df260484be753562" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshDataAction</scope><name>action</name></member>
       <member refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a7cc32cb545443063b619a3745d3f1457" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshDataAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a6922013aca4dd8eeb7f162ea00e40829" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshDataAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshDataAction</scope><name>operator</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

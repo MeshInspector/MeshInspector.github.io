@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SubdivideSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::SubdivideSettings</compoundname>
-    <includes refid="MRMeshSubdivide_8h" local="no">MRMeshSubdivide.h</includes>
+    <includes refid="MRMeshSubdivide_8h" local="no">MRMesh/MRMeshSubdivide.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a36d315cb2aaa92503d1a85c889074250" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="20" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ae48504fe6f54fb67dee57969d77efc43" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="24" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="24" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1aff0af54aeab721522fe62a3eab94a74d" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="27" column="9" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1adf497f2181525852eaeee09ce71fb476" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="30" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="30" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="30" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ac22dd26860cd94e68e46004cd88fc7ce" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="33" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="33" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="33" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a772aa28ef31f33140c7b3f6bfbc36d30" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="38" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="38" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a5e24bf5e1bf140cdfac3cc68b9a693fa" prot="public" static="no" mutable="no">
         <type>FaceBitSet *</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="41" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="41" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="41" column="17" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1acfa476aa1e7c9c2507f12fde82a81f8f" prot="public" static="no" mutable="no">
         <type>FaceBitSet *</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="45" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="45" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="45" column="17" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1acb648b35ff705d5ee52cdae10e7cb9b5" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeBitSet *</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="48" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="48" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="48" column="26" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1af4c50e1143edfb7886c734be3226ff9d" prot="public" static="no" mutable="no">
         <type>VertBitSet *</type>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="51" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="51" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="51" column="17" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a9288f9c5670484c0f76b53be1311b3cc" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -175,11 +175,11 @@
         </briefdescription>
         <detaileddescription>
 <para>If false do not touch border edges (cannot subdivide lone faces)<linebreak/>
-use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref="member">MR::findRegionOuterFaces</ref> to find boundary faces </para>
+use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref="member">MR::findRegionOuterFaces</ref> to find boundary faces </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="55" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="55" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="55" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a33de3142a2aa3715df6e72e27478d3e1" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -195,7 +195,7 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="58" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="58" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ad1664c92f743cfb7fc8dd795f7d89d9f" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -211,7 +211,7 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="63" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="63" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a757c0278a48bf06117256165bec538c0" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -227,7 +227,7 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="67" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="67" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a55b830f7823b4a74b6891945bafa12a5" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -243,7 +243,7 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="71" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="71" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="71" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a52aa2a88771ab9ca39f096cae8256c7d" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -260,7 +260,7 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="74" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="74" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="74" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a47209d51dfa333bfbaecd311df98c6b8" prot="public" static="no" mutable="no">
         <type>std::function&lt; bool(EdgeId e)&gt;</type>
@@ -275,7 +275,7 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="77" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="77" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="77" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a9e8653d42d8358f40dca297f675d4111" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(VertId)&gt;</type>
@@ -290,7 +290,7 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="80" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="80" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="80" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1afcfc1a9eeddefe49c96b100fce1be413" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
@@ -305,10 +305,10 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="83" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="83" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="83" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::SubdivideSettings::progressCallback</definition>
         <argsstring></argsstring>
         <name>progressCallback</name>
@@ -320,14 +320,14 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="86" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="86" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="86" column="22" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="86" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="18" bodyend="87"/>
+    <location file="MRMesh/MRMeshSubdivide.h" line="17" column="1" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="18" bodyend="87"/>
     <listofallmembers>
       <member refid="structMR_1_1SubdivideSettings_1a47209d51dfa333bfbaecd311df98c6b8" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>beforeEdgeSplit</name></member>
       <member refid="structMR_1_1SubdivideSettings_1a772aa28ef31f33140c7b3f6bfbc36d30" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>criticalAspectRatioFlip</name></member>

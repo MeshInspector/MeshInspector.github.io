@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GcodeToolsLibrary" kind="class" language="C++" prot="public">
     <compoundname>MR::GcodeToolsLibrary</compoundname>
-    <includes refid="MRToolsLibrary_8h" local="no">MRToolsLibrary.h</includes>
+    <includes refid="MRToolsLibrary_8h" local="no">MRViewer/MRToolsLibrary.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga20927a270a59ac8319be9d1c1df678c6" kind="variable"><name>libraryName_</name></member>
       <member refid="group__GeneralGroup_1ga743be925e838e9b2804bcf9fa959d1bf" kind="variable"><name>filesList_</name></member>
@@ -21,12 +21,12 @@
       <member refid="group__GeneralGroup_1gaed4134f617677d26bb28809ac7fc74d6" kind="variable"><name>createToolEndDiameter_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga602053a5eb257238e0adc6f7c4a7c8da" kind="function"><name>GcodeToolsLibrary</name></member>
-      <member refid="group__GeneralGroup_1ga5474fc576f9fa84ee1d57d476553bcbd" kind="function"><name>drawInterface</name></member>
-      <member refid="group__GeneralGroup_1ga8c33b66d774fd733e5666c6fa0db1cda" kind="function"><name>drawCreateToolDialog</name></member>
-      <member refid="group__GeneralGroup_1ga491da975eada25f78297b3c3befecf79" kind="function"><name>getToolObject</name></member>
+      <member refid="group__GeneralGroup_1ga5317acdbff866aec9e102a8924741d60" kind="function"><name>GcodeToolsLibrary</name></member>
+      <member refid="group__GeneralGroup_1ga679ae38cc1c8c886d1c3dbfd25c0c5f2" kind="function"><name>drawInterface</name></member>
+      <member refid="group__GeneralGroup_1ga2cd29bf7eedea0226e1e34201a1c3f84" kind="function"><name>drawCreateToolDialog</name></member>
+      <member refid="group__GeneralGroup_1ga90ec71083529d39f27e9e3f0296651ef" kind="function"><name>getToolObject</name></member>
       <member refid="group__GeneralGroup_1gae33089c9019e6ce8f918a7291f9e4d89" kind="function"><name>getEndMillTool</name></member>
-      <member refid="group__GeneralGroup_1ga545ff3b6a5d9cdf2987f1dbd3ece6769" kind="function"><name>setAutoSize</name></member>
+      <member refid="group__GeneralGroup_1ga6cbe9c335bb4b0794a34c8510408b830" kind="function"><name>setAutoSize</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga78fa2db6a9a074d299373390967d97e3" kind="function"><name>getFolder_</name></member>
@@ -43,7 +43,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="18" bodyend="73"/>
+    <location file="MRViewer/MRToolsLibrary.h" line="17" column="1" bodyfile="MRViewer/MRToolsLibrary.h" bodystart="18" bodyend="73"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6caa0229a5a8da3fd4cba9829ed4aff1" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>addNewTool_</name></member>
       <member refid="group__GeneralGroup_1ga528d4a4874ad406032e58ec6d32e682e" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>addNewToolFromFile_</name></member>
@@ -58,20 +58,20 @@
       <member refid="group__GeneralGroup_1gaa20095a6eb347db610d84cbc41ea04f1" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolName_</name></member>
       <member refid="group__GeneralGroup_1ga57744d3d4b3dcd57adfe262cc456ca9c" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolType_</name></member>
       <member refid="group__GeneralGroup_1ga8914f75ae68482156f1c0639d32ad7be" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>defaultToolMesh_</name></member>
-      <member refid="group__GeneralGroup_1ga8c33b66d774fd733e5666c6fa0db1cda" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>drawCreateToolDialog</name></member>
-      <member refid="group__GeneralGroup_1ga5474fc576f9fa84ee1d57d476553bcbd" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>drawInterface</name></member>
+      <member refid="group__GeneralGroup_1ga2cd29bf7eedea0226e1e34201a1c3f84" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>drawCreateToolDialog</name></member>
+      <member refid="group__GeneralGroup_1ga679ae38cc1c8c886d1c3dbfd25c0c5f2" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>drawInterface</name></member>
       <member refid="group__GeneralGroup_1ga9a20a5410d6d9efdd71e2651e30f8148" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>drawSelectMeshPopup_</name></member>
       <member refid="group__GeneralGroup_1ga2a8391f14964cf286111dac0308618cf" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>endMillTool_</name></member>
       <member refid="group__GeneralGroup_1ga743be925e838e9b2804bcf9fa959d1bf" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>filesList_</name></member>
-      <member refid="group__GeneralGroup_1ga602053a5eb257238e0adc6f7c4a7c8da" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>GcodeToolsLibrary</name></member>
+      <member refid="group__GeneralGroup_1ga5317acdbff866aec9e102a8924741d60" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>GcodeToolsLibrary</name></member>
       <member refid="group__GeneralGroup_1gae33089c9019e6ce8f918a7291f9e4d89" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>getEndMillTool</name></member>
       <member refid="group__GeneralGroup_1ga78fa2db6a9a074d299373390967d97e3" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>getFolder_</name></member>
-      <member refid="group__GeneralGroup_1ga491da975eada25f78297b3c3befecf79" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>getToolObject</name></member>
+      <member refid="group__GeneralGroup_1ga90ec71083529d39f27e9e3f0296651ef" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>getToolObject</name></member>
       <member refid="group__GeneralGroup_1ga20927a270a59ac8319be9d1c1df678c6" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>libraryName_</name></member>
       <member refid="group__GeneralGroup_1gaaabaaec020cd535ad6633bd83e6e7627" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>loadFromFile_</name></member>
       <member refid="group__GeneralGroup_1ga7f4beb2c7913db113817eb784a34a063" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>removeSelectedTool_</name></member>
       <member refid="group__GeneralGroup_1ga86a8325ed1650d7684f3cf51e1fa42ac" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>selectedFileName_</name></member>
-      <member refid="group__GeneralGroup_1ga545ff3b6a5d9cdf2987f1dbd3ece6769" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>setAutoSize</name></member>
+      <member refid="group__GeneralGroup_1ga6cbe9c335bb4b0794a34c8510408b830" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>setAutoSize</name></member>
       <member refid="group__GeneralGroup_1gacd23da2efb178dbb0721f6ed104dc153" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>toolMesh_</name></member>
       <member refid="group__GeneralGroup_1ga098eaffdb4137063be94810a5cec0257" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>updateFilesList_</name></member>
     </listofallmembers>

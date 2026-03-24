@@ -19,5 +19,14 @@ var MRBitSet_8cs =
     [ "MR.VertSetBitIterator", "classMR_1_1VertSetBitIterator.html", "classMR_1_1VertSetBitIterator" ],
     [ "MR.EdgeSetBitIterator", "classMR_1_1EdgeSetBitIterator.html", "classMR_1_1EdgeSetBitIterator" ],
     [ "MR.UndirectedEdgeSetBitIterator", "classMR_1_1UndirectedEdgeSetBitIterator.html", "classMR_1_1UndirectedEdgeSetBitIterator" ],
+    [ "MR.SetBitIteratorT_MRPixelBitSet", "classMR_1_1SetBitIteratorT__MRPixelBitSet.html", "classMR_1_1SetBitIteratorT__MRPixelBitSet" ],
+    [ "MR.SetBitIteratorT_MRVoxelBitSet", "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html", "classMR_1_1SetBitIteratorT__MRVoxelBitSet" ],
+    [ "MR.SetBitIteratorT_MRRegionBitSet", "classMR_1_1SetBitIteratorT__MRRegionBitSet.html", "classMR_1_1SetBitIteratorT__MRRegionBitSet" ],
+    [ "MR.SetBitIteratorT_MRNodeBitSet", "classMR_1_1SetBitIteratorT__MRNodeBitSet.html", "classMR_1_1SetBitIteratorT__MRNodeBitSet" ],
+    [ "MR.SetBitIteratorT_MRObjBitSet", "classMR_1_1SetBitIteratorT__MRObjBitSet.html", "classMR_1_1SetBitIteratorT__MRObjBitSet" ],
+    [ "MR.SetBitIteratorT_MRTextureBitSet", "classMR_1_1SetBitIteratorT__MRTextureBitSet.html", "classMR_1_1SetBitIteratorT__MRTextureBitSet" ],
+    [ "MR.SetBitIteratorT_MRGraphVertBitSet", "classMR_1_1SetBitIteratorT__MRGraphVertBitSet.html", "classMR_1_1SetBitIteratorT__MRGraphVertBitSet" ],
+    [ "MR.SetBitIteratorT_MRGraphEdgeBitSet", "classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet.html", "classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet" ],
+    [ "MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag", "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html", "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" ],
     [ "MR.BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ]
 ];

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewport_8h" kind="file" language="C++">
     <compoundname>MRViewport.h</compoundname>
     <includes refid="MRViewportGL_8h" local="yes">MRViewportGL.h</includes>
@@ -19,369 +19,412 @@
     <includes local="no">unordered_map</includes>
     <includes local="no">optional</includes>
     <includes local="no">span</includes>
-    <includedby refid="MRPickPointManager_8h" local="yes">MRPickPointManager.h</includedby>
-    <includedby refid="MRSurfaceManipulationWidget_8h" local="yes">MRSurfaceManipulationWidget.h</includedby>
-    <includedby refid="MRTouchpadController_8h" local="yes">MRTouchpadController.h</includedby>
-    <includedby refid="MRViewportParametersAction_8h" local="yes">MRViewportParametersAction.h</includedby>
+    <includedby refid="MRPickPointManager_8h" local="yes">MRViewer/MRPickPointManager.h</includedby>
+    <includedby refid="MRTouchpadController_8h" local="yes">MRViewer/MRTouchpadController.h</includedby>
+    <includedby refid="MRViewportParametersAction_8h" local="yes">MRViewer/MRViewportParametersAction.h</includedby>
     <incdepgraph>
-      <node id="22">
+      <node id="32">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="30">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="21" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="29">
         <label>MRMesh/MRBox.h</label>
         <link refid="MRBox_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="28">
-        <label>MRMesh/MRColor.h</label>
-        <link refid="MRColor_8h"/>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRConstants.h</label>
-        <link refid="MRConstants_8h"/>
-      </node>
-      <node id="44">
-        <label>MREdgePoint.h</label>
-        <link refid="MREdgePoint_8h"/>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-      </node>
-      <node id="31">
-        <label>MRMesh/MRFlagOperators.h</label>
-        <link refid="MRFlagOperators_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="30">
-        <label>MRMesh/MRIRenderObject.h</label>
-        <link refid="MRIRenderObject_8h"/>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
         <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="8">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MRMesh/MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="51">
+        <label>MREdgePoint.h</label>
+        <link refid="MREdgePoint_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRMesh/MRFlagOperators.h</label>
+        <link refid="MRFlagOperators_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRMesh/MRIRenderObject.h</label>
+        <link refid="MRIRenderObject_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="9">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="21">
+      <node id="31">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="55">
         <label>MRMesh/MRMatrix4.h</label>
         <link refid="MRMatrix4_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>MRMeshTriPoint.h</label>
-        <link refid="MRMeshTriPoint_8h"/>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>MRMesh/MRPlane3.h</label>
-        <link refid="MRPlane3_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="39">
-        <label>MRPointOnFace.h</label>
-        <link refid="MRPointOnFace_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="38">
-        <label>MRMesh/MRPointOnObject.h</label>
-        <link refid="MRPointOnObject_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="41" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-        <childnode refid="45" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-      </node>
-      <node id="47">
-        <label>MRMesh/MRQuaternion.h</label>
-        <link refid="MRQuaternion_8h"/>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="32">
-        <label>MRRenderModelParameters.h</label>
-        <link refid="MRRenderModelParameters_8h"/>
-        <childnode refid="31" relation="include">
-        </childnode>
-      </node>
-      <node id="43">
-        <label>MRSegmPoint.h</label>
-        <link refid="MRSegmPoint_8h"/>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-      </node>
-      <node id="42">
-        <label>MRTriPoint.h</label>
-        <link refid="MRTriPoint_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>MRMesh/MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="9" relation="include">
+      <node id="6">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
       </node>
-      <node id="4">
-        <label>MRMesh/MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="5" relation="include">
+      <node id="48">
+        <label>MRMeshTriPoint.h</label>
+        <link refid="MRMeshTriPoint_8h"/>
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MRMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="37">
-        <label>MRFitData.h</label>
-        <link refid="MRFitData_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="49">
-        <label>MRImGui.h</label>
-        <link refid="MRImGui_8h"/>
-        <childnode refid="50" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="51" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>MRViewport.h</label>
-        <link refid="MRViewport_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
+      <node id="35">
+        <label>MRMesh/MRPlane3.h</label>
+        <link refid="MRPlane3_8h"/>
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+      </node>
+      <node id="46">
+        <label>MRPointOnFace.h</label>
+        <link refid="MRPointOnFace_8h"/>
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>MRMesh/MRPointOnObject.h</label>
+        <link refid="MRPointOnObject_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="52" relation="include">
         </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MRMesh/MRQuaternion.h</label>
+        <link refid="MRQuaternion_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRRenderModelParameters.h</label>
+        <link refid="MRRenderModelParameters_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MRSegmPoint.h</label>
+        <link refid="MRSegmPoint_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MRTriPoint.h</label>
+        <link refid="MRTriPoint_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="44">
+        <label>MRFitData.h</label>
+        <link refid="MRFitData_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>MRImGui.h</label>
+        <link refid="MRImGui_8h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRViewer/MRViewport.h</label>
+        <link refid="MRViewport_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
         <childnode refid="45" relation="include">
         </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
         <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -389,105 +432,111 @@
         <link refid="MRViewportGL_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
       </node>
-      <node id="24">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
-      <node id="13">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="8">
+      <node id="10">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="50">
+      <node id="57">
         <label>MRPch/MRSuppressWarning.h</label>
       </node>
-      <node id="3">
-        <label>MRViewerFwd.h</label>
-      </node>
-      <node id="15">
+      <node id="25">
         <label>algorithm</label>
       </node>
-      <node id="25">
-        <label>cassert</label>
-      </node>
-      <node id="5">
-        <label>cmath</label>
-      </node>
-      <node id="12">
-        <label>cstddef</label>
+      <node id="11">
+        <label>array</label>
       </node>
       <node id="16">
-        <label>cstring</label>
+        <label>cassert</label>
       </node>
-      <node id="33">
-        <label>functional</label>
+      <node id="18">
+        <label>cmath</label>
       </node>
-      <node id="51">
-        <label>imgui.h</label>
-      </node>
-      <node id="6">
-        <label>iosfwd</label>
+      <node id="23">
+        <label>cstddef</label>
       </node>
       <node id="26">
-        <label>limits</label>
+        <label>cstring</label>
       </node>
-      <node id="35">
-        <label>memory</label>
+      <node id="5">
+        <label>exports.h</label>
       </node>
-      <node id="45">
-        <label>optional</label>
+      <node id="15">
+        <label>functional</label>
       </node>
-      <node id="36">
-        <label>span</label>
+      <node id="58">
+        <label>imgui.h</label>
       </node>
-      <node id="7">
-        <label>type_traits</label>
+      <node id="19">
+        <label>iosfwd</label>
       </node>
       <node id="34">
-        <label>typeindex</label>
+        <label>limits</label>
+      </node>
+      <node id="42">
+        <label>memory</label>
       </node>
       <node id="52">
+        <label>optional</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="43">
+        <label>span</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="20">
+        <label>type_traits</label>
+      </node>
+      <node id="41">
+        <label>typeindex</label>
+      </node>
+      <node id="59">
         <label>unordered_map</label>
       </node>
-      <node id="17">
+      <node id="27">
         <label>utility</label>
       </node>
-      <node id="46">
+      <node id="53">
         <label>variant</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRPickPointManager.h</label>
+        <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
       <node id="3">
-        <label>MRSurfaceManipulationWidget.h</label>
-        <link refid="MRSurfaceManipulationWidget_8h"/>
-      </node>
-      <node id="4">
-        <label>MRTouchpadController.h</label>
+        <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
       <node id="1">
-        <label>MRViewport.h</label>
+        <label>MRViewer/MRViewport.h</label>
         <link refid="MRViewport_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -495,11 +544,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
-      <node id="5">
-        <label>MRViewportParametersAction.h</label>
+      <node id="4">
+        <label>MRViewer/MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>
     </invincdepgraph>
@@ -538,70 +585,70 @@
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga0ca61d3fae40bcd7a9e8ce848bf0362d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" kindref="member">position</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ViewportRectangle&amp;<sp/>rect<sp/>)</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga0ca61d3fae40bcd7a9e8ce848bf0362d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" kindref="member">position</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae679240dc1c3cb46bbffe4002f1f48e5" kindref="member">ViewportRectangle</ref>&amp;<sp/>rect<sp/>)</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>rect.min.x,<sp/>rect.min.y<sp/>};</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ViewportRectangle&amp;<sp/>rect<sp/>)</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae679240dc1c3cb46bbffe4002f1f48e5" kindref="member">ViewportRectangle</ref>&amp;<sp/>rect<sp/>)</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>(<sp/>rect<sp/>),<sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">height</ref>(<sp/>rect<sp/>)<sp/>};</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="41" refid="group__GeneralGroup_1ga8f5fb86a1540069cb56260e0edbde09e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8f5fb86a1540069cb56260e0edbde09e" kindref="member">toVec4</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ViewportRectangle&amp;<sp/>rect<sp/>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga8f5fb86a1540069cb56260e0edbde09e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8f5fb86a1540069cb56260e0edbde09e" kindref="member">toVec4</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae679240dc1c3cb46bbffe4002f1f48e5" kindref="member">ViewportRectangle</ref>&amp;<sp/>rect<sp/>)</highlight></codeline>
 <codeline lineno="42"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref>{T(<sp/>rect.min.x<sp/>),<sp/>T(<sp/>rect.min.y<sp/>),<sp/>T(<sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">MR::width</ref>(<sp/>rect<sp/>)<sp/>),<sp/>T(<sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">MR::height</ref>(<sp/>rect<sp/>)<sp/>)};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="classMR_1_1Viewport" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref></highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1Viewport" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref></highlight></codeline>
 <codeline lineno="49"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" kindref="member">ViewportRectangle</ref><sp/>=<sp/>MR::ViewportRectangle;</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" kindref="member">ViewportRectangle</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gae679240dc1c3cb46bbffe4002f1f48e5" kindref="member">MR::ViewportRectangle</ref>;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="group__GeneralGroup_1gaa6240448d9cff317ce58003ce33ff1b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaa6240448d9cff317ce58003ce33ff1b6" kindref="member">get</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1gaa63ad726de4f8ed054254810d1e74b3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaa63ad726de4f8ed054254810d1e74b3e" kindref="member">get</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="group__GeneralGroup_1gadc0a625e7bd0d7fecf55699b470659ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gadc0a625e7bd0d7fecf55699b470659ac" kindref="member">Viewport</ref>();</highlight></codeline>
-<codeline lineno="58" refid="group__GeneralGroup_1ga1d65bf318796ffdc96002b5d70d984a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga1d65bf318796ffdc96002b5d70d984a7" kindref="member">~Viewport</ref>();</highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref>();</highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1ga8eb0360ddc396efa4203aeee18c307fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga8eb0360ddc396efa4203aeee18c307fe" kindref="member">~Viewport</ref>();</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadc0a625e7bd0d7fecf55699b470659ac" kindref="member">Viewport</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref><sp/>&amp;<sp/>operator<sp/>=<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref><sp/>&amp;<sp/>operator<sp/>=<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="64" refid="group__GeneralGroup_1ga8758496f20f36201246e0f4d2eceb5c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref><sp/><ref refid="group__GeneralGroup_1ga8758496f20f36201246e0f4d2eceb5c4" kindref="member">clone</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadc0a625e7bd0d7fecf55699b470659ac" kindref="member">Viewport</ref>(<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1gab2c9307e0042dfba8ab64f861356ad72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab2c9307e0042dfba8ab64f861356ad72" kindref="member">Viewport</ref>(<sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="66" refid="group__GeneralGroup_1gabe2f2d2fe99553548fc2b3f3a9f3d4b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref><sp/>&amp;<sp/>operator<sp/>=<sp/>(<sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1ga8758496f20f36201246e0f4d2eceb5c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref><sp/><ref refid="group__GeneralGroup_1ga8758496f20f36201246e0f4d2eceb5c4" kindref="member">clone</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref>(<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1gab2c9307e0042dfba8ab64f861356ad72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab2c9307e0042dfba8ab64f861356ad72" kindref="member">Viewport</ref>(<sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1gabe2f2d2fe99553548fc2b3f3a9f3d4b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref><sp/>&amp;<sp/>operator<sp/>=<sp/>(<sp/><ref refid="group__GeneralGroup_1ga25079118ea3ec81bab9c8b86d82d540c" kindref="member">Viewport</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="group__GeneralGroup_1ga46c4638cf48b92aebc19e3212ec421ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga46c4638cf48b92aebc19e3212ec421ec" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1gaee900463cf938244f0a05aa2b61b66b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaee900463cf938244f0a05aa2b61b66b2" kindref="member">init</ref>();</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="group__GeneralGroup_1gaea73df9e40d43b09061ad03b015f1c3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaea73df9e40d43b09061ad03b015f1c3e" kindref="member">setAxesPos</ref>(<sp/>const<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pixelXoffset<sp/>=<sp/>-100,<sp/>const<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pixelYoffset<sp/>=<sp/>-100<sp/>);</highlight></codeline>
-<codeline lineno="78" refid="group__GeneralGroup_1ga9af25421c857c554aaabfdc28898cd61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9af25421c857c554aaabfdc28898cd61" kindref="member">setAxesSize</ref>(<sp/>const<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>axisPixSize<sp/>=<sp/>80<sp/>);</highlight></codeline>
+<codeline lineno="77" refid="group__GeneralGroup_1ga2c63751546309d0bbdee319b38733df0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2c63751546309d0bbdee319b38733df0" kindref="member">setAxesPos</ref>(<sp/>const<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pixelXoffset<sp/>=<sp/>-100,<sp/>const<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pixelYoffset<sp/>=<sp/>-100<sp/>);</highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1ga7cdcd9c1df701794b889bdac69a123fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7cdcd9c1df701794b889bdac69a123fd" kindref="member">setAxesSize</ref>(<sp/>const<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>axisPixSize<sp/>=<sp/>80<sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="group__GeneralGroup_1ga42b2f4de02033c7851a3b5278b630363" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>const<sp/>Vector2f&amp;<sp/><ref refid="group__GeneralGroup_1ga42b2f4de02033c7851a3b5278b630363" kindref="member">getAxesPosition</ref>()<sp/>const;</highlight></codeline>
-<codeline lineno="82" refid="group__GeneralGroup_1ga16f5609993c8491d9e241e4147f8d706" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga16f5609993c8491d9e241e4147f8d706" kindref="member">getAxesSize</ref>()<sp/>const;</highlight></codeline>
+<codeline lineno="81" refid="group__GeneralGroup_1ga1ce6532359096556ddad5e2f303f59a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>const<sp/>Vector2f&amp;<sp/><ref refid="group__GeneralGroup_1ga1ce6532359096556ddad5e2f303f59a8" kindref="member">getAxesPosition</ref>()<sp/>const;</highlight></codeline>
+<codeline lineno="82" refid="group__GeneralGroup_1gaabc1b7dad421265d2168106316112914" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaabc1b7dad421265d2168106316112914" kindref="member">getAxesSize</ref>()<sp/>const;</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(&quot;Use<sp/>(<ref refid="group__GeneralGroup_1ga5db126693ea50ec4094b651633099a21" kindref="member">draw</ref>/<ref refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" kindref="member">getBaseRenderParams</ref>/<ref refid="group__GeneralGroup_1ga62815b7bf4fde034d4d73d5a993f7985" kindref="member">getModelRenderParams</ref>)OrthoFixedPos<sp/>functions<sp/>instead<sp/>of<sp/>using<sp/>this<sp/>value&quot;)]]<sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>(draw/getBaseRenderParams/getModelRenderParams)OrthoFixedPos<sp/>functions<sp/>instead<sp/>of<sp/>using<sp/>this<sp/>value&quot;</highlight><highlight class="normal">)]]<sp/></highlight></codeline>
 <codeline lineno="86" refid="group__GeneralGroup_1gac39f390490ab32f3e82944c85978c7f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>Matrix4f&amp;<sp/><ref refid="group__GeneralGroup_1gac39f390490ab32f3e82944c85978c7f6" kindref="member">getAxesProjectionMatrix</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>axesProjMat_;<sp/>}</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="group__GeneralGroup_1ga0fc1e84a964766414f289905f15aa910" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0fc1e84a964766414f289905f15aa910" kindref="member">shut</ref>();</highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1ga177a67c3dd52fb1f49b8b1b67b49f181" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga177a67c3dd52fb1f49b8b1b67b49f181" kindref="member">shut</ref>();</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"></codeline>
-<codeline lineno="94" refid="group__GeneralGroup_1gaed7cd0744cb8952c62680f7168da3a5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaed7cd0744cb8952c62680f7168da3a5b" kindref="member">clearFramebuffers</ref>();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="group__GeneralGroup_1ga1289923b29bf7cb5ad7941147797516b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1289923b29bf7cb5ad7941147797516b" kindref="member">clearFramebuffers</ref>();</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="group__GeneralGroup_1ga9bbcf7b095b6123ee7916f93d2f3ff01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9bbcf7b095b6123ee7916f93d2f3ff01" kindref="member">recursiveDraw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>obj,</highlight></codeline>
+<codeline lineno="97" refid="group__GeneralGroup_1gaa1496cb43fc603cb4054ef3934ed2d61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa1496cb43fc603cb4054ef3934ed2d61" kindref="member">recursiveDraw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>obj,</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa1ff587f4ced1a1f1f1be9787830ef93" kindref="member">DepthFunction</ref><sp/>depthFunc<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67" kindref="member">DepthFunction::Default</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>rootXf<sp/>=<sp/>{},<sp/><ref refid="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref><sp/>renderType<sp/>=<sp/><ref refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">RenderModelPassMask::All</ref>,</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref>&amp;<sp/>transparentMode<sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>numDraws<sp/>=<sp/>nullptr<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref>&amp;<sp/>transparentMode<sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>numDraws<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="group__GeneralGroup_1ga5db126693ea50ec4094b651633099a21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5db126693ea50ec4094b651633099a21" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>obj,</highlight></codeline>
+<codeline lineno="103" refid="group__GeneralGroup_1ga9265e4d964bc521f2126bd436259e741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9265e4d964bc521f2126bd436259e741" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>obj,</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa1ff587f4ced1a1f1f1be9787830ef93" kindref="member">DepthFunction</ref><sp/>depthFunc<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67" kindref="member">DepthFunction::Default</ref>,<sp/><ref refid="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref><sp/>pass<sp/>=<sp/><ref refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">RenderModelPassMask::All</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref>&amp;<sp/>transparentMode<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="group__GeneralGroup_1ga8124fe1c8f92cdb4eddab9dde317b96f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8124fe1c8f92cdb4eddab9dde317b96f" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1ga8842e3935f41f4180cd7fd51cd808884" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8842e3935f41f4180cd7fd51cd808884" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa1ff587f4ced1a1f1f1be9787830ef93" kindref="member">DepthFunction</ref><sp/>depthFunc<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67" kindref="member">DepthFunction::Default</ref>,<sp/><ref refid="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref><sp/>pass<sp/>=<sp/><ref refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">RenderModelPassMask::All</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref>&amp;<sp/>transparentMode<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="group__GeneralGroup_1ga020bc7c22b9f6b3084db655ddb8d1b10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga020bc7c22b9f6b3084db655ddb8d1b10" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix4f<sp/>&amp;<sp/>projM,</highlight></codeline>
+<codeline lineno="113" refid="group__GeneralGroup_1ga76759212f620a4483861b70b0d7d0e8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga76759212f620a4483861b70b0d7d0e8f" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix4f<sp/>&amp;<sp/>projM,</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa1ff587f4ced1a1f1f1be9787830ef93" kindref="member">DepthFunction</ref><sp/>depthFunc<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67" kindref="member">DepthFunction::Default</ref>,<sp/><ref refid="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref><sp/>pass<sp/>=<sp/><ref refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">RenderModelPassMask::All</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref>&amp;<sp/>transparentMode<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="group__GeneralGroup_1ga206a9695d926451f9f28ba92220e74a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga206a9695d926451f9f28ba92220e74a4" kindref="member">drawOrthoFixedPos</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,</highlight></codeline>
+<codeline lineno="118" refid="group__GeneralGroup_1ga0ca49910fb3d31cf47aa072fd3eb769b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0ca49910fb3d31cf47aa072fd3eb769b" kindref="member">drawOrthoFixedPos</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa1ff587f4ced1a1f1f1be9787830ef93" kindref="member">DepthFunction</ref><sp/>depthFunc<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67" kindref="member">DepthFunction::Default</ref>,<sp/><ref refid="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref><sp/>pass<sp/>=<sp/><ref refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">RenderModelPassMask::All</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref>&amp;<sp/>transparentMode<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122" refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" kindref="compound">LinePointImmediateRenderParams</ref><sp/>:<sp/><ref refid="structMR_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref></highlight></codeline>
@@ -610,21 +657,21 @@
 <codeline lineno="125" refid="group__GeneralGroup_1ga66920eee269c99c0e8fc16530ac5399d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga66920eee269c99c0e8fc16530ac5399d" kindref="member">depthTest</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="group__GeneralGroup_1gad5878bbade38f79c89bd155f44126fbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad5878bbade38f79c89bd155f44126fbf" kindref="member">drawLines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;LineSegm3f&gt;&amp;<sp/>lines,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;SegmEndColors&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" kindref="compound">LinePointImmediateRenderParams</ref><sp/>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="129" refid="group__GeneralGroup_1ga9ba24a263477563b531e82832c6c0b7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9ba24a263477563b531e82832c6c0b7e" kindref="member">drawLines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;LineSegm3f&gt;&amp;<sp/>lines,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;SegmEndColors&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" kindref="compound">LinePointImmediateRenderParams</ref><sp/>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="130" refid="group__GeneralGroup_1ga45b3b12cb1134a17b3a1b92588aeb7b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45b3b12cb1134a17b3a1b92588aeb7b5" kindref="member">drawLines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;LineSegm3f&gt;&amp;<sp/>lines,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;SegmEndColors&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref><sp/>=<sp/>1,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>depthTest<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__GeneralGroup_1gad5878bbade38f79c89bd155f44126fbf" kindref="member">drawLines</ref>(<sp/>lines,<sp/>colors,<sp/>{<sp/><ref refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" kindref="member">getBaseRenderParams</ref>(),<sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/>depthTest<sp/>}<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__GeneralGroup_1ga9ba24a263477563b531e82832c6c0b7e" kindref="member">drawLines</ref>(<sp/>lines,<sp/>colors,<sp/>{<sp/><ref refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" kindref="member">getBaseRenderParams</ref>(),<sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/>depthTest<sp/>}<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="group__GeneralGroup_1ga9bffa9f786d355eee89fc586de637362" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9bffa9f786d355eee89fc586de637362" kindref="member">drawPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector4f&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" kindref="compound">LinePointImmediateRenderParams</ref><sp/>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="134" refid="group__GeneralGroup_1ga0d9a99f9a43fc70d342a0c3af6763f60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0d9a99f9a43fc70d342a0c3af6763f60" kindref="member">drawPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector4f&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" kindref="compound">LinePointImmediateRenderParams</ref><sp/>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="135" refid="group__GeneralGroup_1gad9165dc8844420f9c4824b6acc0e4038" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad9165dc8844420f9c4824b6acc0e4038" kindref="member">drawPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector4f&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref><sp/>=<sp/>1,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>depthTest<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__GeneralGroup_1ga9bffa9f786d355eee89fc586de637362" kindref="member">drawPoints</ref>(<sp/>points,<sp/>colors,<sp/>{<sp/><ref refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" kindref="member">getBaseRenderParams</ref>(),<sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/>depthTest<sp/>}<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__GeneralGroup_1ga0d9a99f9a43fc70d342a0c3af6763f60" kindref="member">drawPoints</ref>(<sp/>points,<sp/>colors,<sp/>{<sp/><ref refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" kindref="member">getBaseRenderParams</ref>(),<sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/>depthTest<sp/>}<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
 <codeline lineno="138" refid="structMR_1_1Viewport_1_1TriCornerColors" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Viewport_1_1TriCornerColors" kindref="compound">TriCornerColors</ref></highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="140" refid="group__GeneralGroup_1ga52ef91aaa0208aa1e90b238eef7bbee9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector4f<sp/><ref refid="group__GeneralGroup_1ga52ef91aaa0208aa1e90b238eef7bbee9" kindref="member">a</ref>,<sp/><ref refid="group__GeneralGroup_1ga4bb6813b4c01f5510e20837676efa7ae" kindref="member">b</ref>,<sp/><ref refid="group__GeneralGroup_1ga06e3dd2db55e7e7ba53ba5b07c8ae542" kindref="member">c</ref>;</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="group__GeneralGroup_1ga75b7ef9770b635d037f0a8730b3858f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75b7ef9770b635d037f0a8730b3858f3" kindref="member">drawTris</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Triangle3f&gt;&amp;<sp/>tris,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;TriCornerColors&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>depthTest<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="145" refid="group__GeneralGroup_1ga7573cf7e3dde8d3414fdc0b1c15f88bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7573cf7e3dde8d3414fdc0b1c15f88bf" kindref="member">drawTris</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Triangle3f&gt;&amp;<sp/>tris,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;TriCornerColors&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix4f&amp;<sp/>modelM<sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>depthTest<sp/>=<sp/>true<sp/>);</highlight></codeline>
+<codeline lineno="144" refid="group__GeneralGroup_1ga41fcad2d24840aa9e8ce135b6aaaa6ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga41fcad2d24840aa9e8ce135b6aaaa6ed" kindref="member">drawTris</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Triangle3f&gt;&amp;<sp/>tris,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;TriCornerColors&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>depthTest<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="145" refid="group__GeneralGroup_1ga6d31b00b0ded9a5fddc8dd417a3f5f64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d31b00b0ded9a5fddc8dd417a3f5f64" kindref="member">drawTris</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Triangle3f&gt;&amp;<sp/>tris,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;TriCornerColors&gt;&amp;<sp/>colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix4f&amp;<sp/>modelM<sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>depthTest<sp/>=<sp/>true<sp/>);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
 <codeline lineno="148" refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref><sp/><ref refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" kindref="member">getBaseRenderParams</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacefecc8d9d03c70e7857a71ca787b627" kindref="member">getBaseRenderParams</ref>(<sp/>projM_<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
@@ -652,7 +699,7 @@
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62815b7bf4fde034d4d73d5a993f7985" kindref="member">getModelRenderParams</ref>(<sp/>modelM,<sp/><ref refid="group__GeneralGroup_1ga7026550eeb8349cd37cb7b431b06c491" kindref="member">getBaseRenderParamsOrthoFixedPos</ref>(),<sp/>normM,<sp/>depthFunc,<sp/>pass,<sp/>transparentMode<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="group__GeneralGroup_1ga50635d7c0599207f2c763752a20836a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref><sp/><ref refid="group__GeneralGroup_1ga50635d7c0599207f2c763752a20836a1" kindref="member">getModelRenderParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix4f<sp/>&amp;<sp/>modelM,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref>&amp;<sp/>baseParams,</highlight></codeline>
+<codeline lineno="179" refid="group__GeneralGroup_1gae972d72a13c1ad3ebdc595382cbabfa6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref><sp/><ref refid="group__GeneralGroup_1gae972d72a13c1ad3ebdc595382cbabfa6" kindref="member">getModelRenderParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix4f<sp/>&amp;<sp/>modelM,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref>&amp;<sp/>baseParams,</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Matrix4f<sp/>*<sp/>normM,<sp/></highlight></codeline>
 <codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa1ff587f4ced1a1f1f1be9787830ef93" kindref="member">DepthFunction</ref><sp/>depthFunc<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67" kindref="member">DepthFunction::Default</ref>,</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref><sp/>pass<sp/>=<sp/><ref refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">RenderModelPassMask::All</ref>,</highlight></codeline>
@@ -676,42 +723,42 @@
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="218" refid="group__GeneralGroup_1ga369adff2e21395db75c910b75b18f8c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1ga369adff2e21395db75c910b75b18f8c7" kindref="member">pickRenderObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1PickRenderObjectParams" kindref="compound">PickRenderObjectParams</ref>&amp;<sp/>params<sp/>=<sp/><ref refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" kindref="member">PickRenderObjectParams::defaults</ref>()<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="220" refid="group__GeneralGroup_1gaaf6012ade9216e280391d67facbec2af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1gaaf6012ade9216e280391d67facbec2af" kindref="member">pickRenderObject</ref>(<sp/>std::span&lt;VisualObject*<sp/>const&gt;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1PickRenderObjectParams" kindref="compound">PickRenderObjectParams</ref>&amp;<sp/>params<sp/>=<sp/><ref refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" kindref="member">PickRenderObjectParams::defaults</ref>()<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="222" refid="group__GeneralGroup_1ga2a0d67f34ea510525f6e1c930f8abbd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ConstObjAndPick<sp/><ref refid="group__GeneralGroup_1ga2a0d67f34ea510525f6e1c930f8abbd5" kindref="member">pickRenderObjectConst</ref>(<sp/>std::span&lt;const<sp/>VisualObject*<sp/>const&gt;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1PickRenderObjectParams" kindref="compound">PickRenderObjectParams</ref>&amp;<sp/>params<sp/>=<sp/><ref refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" kindref="member">PickRenderObjectParams::defaults</ref>()<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="218" refid="group__GeneralGroup_1ga5894a46842dbcc1e2bc127fed12a825d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1ga5894a46842dbcc1e2bc127fed12a825d" kindref="member">pickRenderObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1PickRenderObjectParams" kindref="compound">PickRenderObjectParams</ref>&amp;<sp/>params<sp/>=<sp/><ref refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" kindref="member">PickRenderObjectParams::defaults</ref>()<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220" refid="group__GeneralGroup_1gabab5890d3e0948adb120c240e02738e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1gabab5890d3e0948adb120c240e02738e3" kindref="member">pickRenderObject</ref>(<sp/>std::span&lt;VisualObject*<sp/>const&gt;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1PickRenderObjectParams" kindref="compound">PickRenderObjectParams</ref>&amp;<sp/>params<sp/>=<sp/><ref refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" kindref="member">PickRenderObjectParams::defaults</ref>()<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="222" refid="group__GeneralGroup_1ga23858c8cd1616c67edd3a25905ab7474" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga823106cad6887745b09385757b15b82e" kindref="member">ConstObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1ga23858c8cd1616c67edd3a25905ab7474" kindref="member">pickRenderObjectConst</ref>(<sp/>std::span&lt;const<sp/>VisualObject*<sp/>const&gt;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1PickRenderObjectParams" kindref="compound">PickRenderObjectParams</ref>&amp;<sp/>params<sp/>=<sp/><ref refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" kindref="member">PickRenderObjectParams::defaults</ref>()<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231" refid="group__GeneralGroup_1gafbd763b1cfd8fceb2d5a66dee6830e70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1gafbd763b1cfd8fceb2d5a66dee6830e70" kindref="member">pick_render_object</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="231" refid="group__GeneralGroup_1ga9cf7727c5bbcb7ad43c396f50b5c2f64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1ga9cf7727c5bbcb7ad43c396f50b5c2f64" kindref="member">pick_render_object</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>`pickRenderObject()`&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
-<codeline lineno="233" refid="group__GeneralGroup_1ga29b9417149264e16eeb727982e61dc64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1ga29b9417149264e16eeb727982e61dc64" kindref="member">pick_render_object</ref>(<sp/>uint16_t<sp/>pickRadius<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="233" refid="group__GeneralGroup_1gaa2ba948a66fac00a9334a9682c8f736a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1gaa2ba948a66fac00a9334a9682c8f736a" kindref="member">pick_render_object</ref>(<sp/>uint16_t<sp/>pickRadius<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>`pickRenderObject(<sp/>objects<sp/>}<sp/>)`&quot;</highlight><highlight class="normal">)]]<sp/></highlight></codeline>
-<codeline lineno="240" refid="group__GeneralGroup_1ga7d514777994544be1badff5b0a39015a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1ga7d514777994544be1badff5b0a39015a" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;VisualObject*&gt;&amp;<sp/>objects<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="240" refid="group__GeneralGroup_1gad91d059862348453f924cf3c55d9fda5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1gad91d059862348453f924cf3c55d9fda5" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;VisualObject*&gt;&amp;<sp/>objects<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>`pickRenderObject(<sp/>...<sp/>)`&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
-<codeline lineno="246" refid="group__GeneralGroup_1ga0c83894a98b4264b98b4163211288854" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1ga0c83894a98b4264b98b4163211288854" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;VisualObject*&gt;&amp;<sp/>objects,<sp/>uint16_t<sp/>pickRadius,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exactPickFirst<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="246" refid="group__GeneralGroup_1gae834b04d48f63be44d1cf132e18ec1f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1gae834b04d48f63be44d1cf132e18ec1f9" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;VisualObject*&gt;&amp;<sp/>objects,<sp/>uint16_t<sp/>pickRadius,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exactPickFirst<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>`pickRenderObject(<sp/>{<sp/>.exactPickFirst<sp/>=<sp/>...<sp/>}<sp/>)`&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
-<codeline lineno="249" refid="group__GeneralGroup_1gac0659d4a5dd0df38ac51ced37ea4b26d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1gac0659d4a5dd0df38ac51ced37ea4b26d" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exactPickFirst<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="249" refid="group__GeneralGroup_1ga2b5b1092c6ce7d82200b46ee1e279813" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1ga2b5b1092c6ce7d82200b46ee1e279813" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exactPickFirst<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>`pickRenderObject(<sp/>{<sp/>.point<sp/>=<sp/>...<sp/>}<sp/>)`&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
-<codeline lineno="256" refid="group__GeneralGroup_1gaeea675f914f282d4bb811e8e4c771bb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1gaeea675f914f282d4bb811e8e4c771bb9" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>viewportPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="256" refid="group__GeneralGroup_1ga001baa634d6d10c2fe5533285adc7b83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1ga001baa634d6d10c2fe5533285adc7b83" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>viewportPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>`multiPickObjects(<sp/>objects,<sp/>{<sp/>.point<sp/>=<sp/>...<sp/>}<sp/>)`&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
-<codeline lineno="262" refid="group__GeneralGroup_1ga190a1a73b0c964dd18d83d248e27b26f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ObjAndPick<sp/><ref refid="group__GeneralGroup_1ga190a1a73b0c964dd18d83d248e27b26f" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;VisualObject*&gt;&amp;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>viewportPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="262" refid="group__GeneralGroup_1gaacb0380af4e8094eec7aa7575e657f6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1gaacb0380af4e8094eec7aa7575e657f6b" kindref="member">pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;VisualObject*&gt;&amp;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>viewportPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267" refid="group__GeneralGroup_1gab849f5462b1c06bb481e6c4bc9ba751d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;ObjAndPick&gt;<sp/><ref refid="group__GeneralGroup_1gab849f5462b1c06bb481e6c4bc9ba751d" kindref="member">multiPickObjects</ref>(<sp/>std::span&lt;VisualObject*<sp/>const&gt;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector2f&gt;&amp;<sp/>viewportPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref>*<sp/>overrideRenderParams<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="267" refid="group__GeneralGroup_1gabe237ae23636b5c43f1572391f1ac677" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;ObjAndPick&gt;<sp/><ref refid="group__GeneralGroup_1gabe237ae23636b5c43f1572391f1ac677" kindref="member">multiPickObjects</ref>(<sp/>std::span&lt;VisualObject*<sp/>const&gt;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector2f&gt;&amp;<sp/>viewportPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref>*<sp/>overrideRenderParams<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="268"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="group__GeneralGroup_1gae8d2d1ebf05bdfac6a830fc7ccb9c76c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;<sp/><ref refid="group__GeneralGroup_1gae8d2d1ebf05bdfac6a830fc7ccb9c76c" kindref="member">findObjectsInRect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box2i&amp;<sp/>rect,</highlight></codeline>
+<codeline lineno="273" refid="group__GeneralGroup_1gacf87d31869f2a26755a366a8754bc614" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;<sp/><ref refid="group__GeneralGroup_1gacf87d31869f2a26755a366a8754bc614" kindref="member">findObjectsInRect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box2i&amp;<sp/>rect,</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxRenderResolutionSide<sp/>=<sp/>512<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="280" refid="group__GeneralGroup_1ga92197d0812be326f98d5480f8235b4de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::unordered_map&lt;std::shared_ptr&lt;ObjectMesh&gt;,<sp/>FaceBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga92197d0812be326f98d5480f8235b4de" kindref="member">findVisibleFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref>&amp;<sp/>includePixBs,</highlight></codeline>
+<codeline lineno="280" refid="group__GeneralGroup_1ga3e2375dec10c97b5e3cab243764e850f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::unordered_map&lt;std::shared_ptr&lt;ObjectMesh&gt;,<sp/>FaceBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga3e2375dec10c97b5e3cab243764e850f" kindref="member">findVisibleFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref>&amp;<sp/>includePixBs,</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxRenderResolutionSide<sp/>=<sp/>512<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="284" refid="group__GeneralGroup_1ga97fad8eacc6d5437d8216e90a5dd23b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga97fad8eacc6d5437d8216e90a5dd23b2" kindref="member">findCameraLookingFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>meshToWorld<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="284" refid="group__GeneralGroup_1ga0d754f9d4f9709be2c4a6cec2795a556" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga0d754f9d4f9709be2c4a6cec2795a556" kindref="member">findCameraLookingFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>meshToWorld<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
 <codeline lineno="286"><highlight class="normal"></highlight></codeline>
 <codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>`pickRenderObject()`.&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
-<codeline lineno="293" refid="group__GeneralGroup_1ga070e1760f853d8260fec359e0ae560a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ConstObjAndPick<sp/><ref refid="group__GeneralGroup_1ga070e1760f853d8260fec359e0ae560a6" kindref="member">const_pick_render_object</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="293" refid="group__GeneralGroup_1ga8a704aa16b57922b1af0d8079ea063b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga823106cad6887745b09385757b15b82e" kindref="member">ConstObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1ga8a704aa16b57922b1af0d8079ea063b7" kindref="member">const_pick_render_object</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>`pickRenderObject(<sp/>objects<sp/>)`.&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
-<codeline lineno="299" refid="group__GeneralGroup_1ga3fbdff73baac11261d9ca67ff15add59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ConstObjAndPick<sp/><ref refid="group__GeneralGroup_1ga3fbdff73baac11261d9ca67ff15add59" kindref="member">const_pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;const<sp/>VisualObject*&gt;&amp;<sp/>objects<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="302" refid="group__GeneralGroup_1gac14fb13300d3dcf19a0baf3ae59163c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;ConstObjAndPick&gt;<sp/><ref refid="group__GeneralGroup_1gac14fb13300d3dcf19a0baf3ae59163c6" kindref="member">constMultiPickObjects</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;const<sp/>VisualObject*&gt;&amp;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector2f&gt;&amp;<sp/>viewportPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="299" refid="group__GeneralGroup_1gae9d7864df9fec84fa9f9da4258668cb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga823106cad6887745b09385757b15b82e" kindref="member">ConstObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1gae9d7864df9fec84fa9f9da4258668cb0" kindref="member">const_pick_render_object</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;const<sp/>VisualObject*&gt;&amp;<sp/>objects<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="302" refid="group__GeneralGroup_1ga390dbff05c3012a93d214e3ff4b0823d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;ConstObjAndPick&gt;<sp/><ref refid="group__GeneralGroup_1ga390dbff05c3012a93d214e3ff4b0823d" kindref="member">constMultiPickObjects</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;const<sp/>VisualObject*&gt;&amp;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector2f&gt;&amp;<sp/>viewportPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="group__GeneralGroup_1gab977a36a5474fc72fb2a9370f1a892aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab977a36a5474fc72fb2a9370f1a892aa" kindref="member">transformView</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/>xf<sp/>);</highlight></codeline>
+<codeline lineno="307" refid="group__GeneralGroup_1gae18ff77fe4c5cad359fcec544a753769" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae18ff77fe4c5cad359fcec544a753769" kindref="member">transformView</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/>xf<sp/>);</highlight></codeline>
 <codeline lineno="308"><highlight class="normal"></highlight></codeline>
 <codeline lineno="309" refid="group__GeneralGroup_1ga37332cce582bf8cc2203f972a6350a3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga37332cce582bf8cc2203f972a6350a3c" kindref="member">getRedrawFlag</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>needRedraw_;<sp/>}</highlight></codeline>
 <codeline lineno="310" refid="group__GeneralGroup_1ga48d0af17aa1142d78dcc98ee60bcde3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga48d0af17aa1142d78dcc98ee60bcde3e" kindref="member">resetRedrawFlag</ref>()<sp/>{<sp/>needRedraw_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
@@ -723,7 +770,7 @@
 <codeline lineno="317" refid="group__GeneralGroup_1ga22334f5bd9465a4b836b6ca117f39068" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="group__GeneralGroup_1ga22334f5bd9465a4b836b6ca117f39068" kindref="member">backgroundColor</ref><sp/>=<sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>(<sp/>Vector3f{0.3f,<sp/>0.3f,<sp/>0.5f}<sp/>);</highlight></codeline>
 <codeline lineno="318" refid="group__GeneralGroup_1ga8f5b4aad145854c698416a4ac59ae0f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga8f5b4aad145854c698416a4ac59ae0f1" kindref="member">lightPosition</ref>{0.0f,<sp/>0.3f,<sp/>0.0f};</highlight></codeline>
 <codeline lineno="319"><highlight class="normal"></highlight></codeline>
-<codeline lineno="320" refid="group__GeneralGroup_1ga8eb6827f455ef93e1175b0364c9cbc40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Quaternionf<sp/><ref refid="group__GeneralGroup_1ga8eb6827f455ef93e1175b0364c9cbc40" kindref="member">cameraTrackballAngle</ref>;</highlight></codeline>
+<codeline lineno="320" refid="group__GeneralGroup_1ga8eb6827f455ef93e1175b0364c9cbc40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaaeefc18e0b5d4277fd54d80dd8b861d2" kindref="member">Quaternionf</ref><sp/><ref refid="group__GeneralGroup_1ga8eb6827f455ef93e1175b0364c9cbc40" kindref="member">cameraTrackballAngle</ref>;</highlight></codeline>
 <codeline lineno="321" refid="group__GeneralGroup_1ga1df762dce4c2e6b6f250ab0220bf3429" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga1df762dce4c2e6b6f250ab0220bf3429" kindref="member">cameraTranslation</ref>;</highlight></codeline>
 <codeline lineno="322" refid="group__GeneralGroup_1ga899380f5e0c8dac5d5d3f4045a1b9790" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga899380f5e0c8dac5d5d3f4045a1b9790" kindref="member">cameraZoom</ref>{1.0f};</highlight></codeline>
 <codeline lineno="323" refid="group__GeneralGroup_1ga1c27a50a950c5531b7b4198a165971f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1c27a50a950c5531b7b4198a165971f4" kindref="member">cameraViewAngle</ref>{45.0f};</highlight></codeline>
@@ -735,8 +782,8 @@
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
 <codeline lineno="330" refid="group__GeneralGroup_1gab498d9b4852811b8095a89935081126f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab498d9b4852811b8095a89935081126f" kindref="member">GlobalBasisScaleMode</ref></highlight></codeline>
 <codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa0449b17fbc4c4ecf681446e0fb638d6" kindref="member">Auto</ref>,<sp/></highlight></codeline>
-<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61" kindref="member">Fixed</ref><sp/></highlight></codeline>
+<codeline lineno="332" refid="group__GeneralGroup_1ggab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa0449b17fbc4c4ecf681446e0fb638d6" kindref="member">Auto</ref>,<sp/></highlight></codeline>
+<codeline lineno="333" refid="group__GeneralGroup_1ggab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61" kindref="member">Fixed</ref><sp/></highlight></codeline>
 <codeline lineno="334" refid="group__GeneralGroup_1gaa0449b17fbc4c4ecf681446e0fb638d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>globalBasisScaleMode{<sp/><ref refid="group__GeneralGroup_1ggab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb" kindref="member">GlobalBasisScaleMode::Auto</ref><sp/>};</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"></highlight></codeline>
 <codeline lineno="337" refid="group__GeneralGroup_1gaf702c49c5d0e216669074795ef81a796" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf702c49c5d0e216669074795ef81a796" kindref="member">objectScale</ref>{1.0f};</highlight></codeline>
@@ -745,13 +792,13 @@
 <codeline lineno="340"><highlight class="normal"></highlight></codeline>
 <codeline lineno="341" refid="group__GeneralGroup_1ga79a816e2ea798ee49a1d02cd65fc53a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga79a816e2ea798ee49a1d02cd65fc53a9" kindref="member">label</ref>;</highlight></codeline>
 <codeline lineno="342"><highlight class="normal"></highlight></codeline>
-<codeline lineno="343" refid="group__GeneralGroup_1ga784d7971f07e64aba46caec551eeae94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Plane3f<sp/><ref refid="group__GeneralGroup_1ga784d7971f07e64aba46caec551eeae94" kindref="member">clippingPlane</ref>{Vector3f::plusX(),<sp/>0.0f};</highlight></codeline>
+<codeline lineno="343" refid="group__GeneralGroup_1ga784d7971f07e64aba46caec551eeae94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/><ref refid="group__GeneralGroup_1ga784d7971f07e64aba46caec551eeae94" kindref="member">clippingPlane</ref>{Vector3f::plusX(),<sp/>0.0f};</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"></highlight></codeline>
 <codeline lineno="345" refid="group__GeneralGroup_1ga021c10bdda5a71cfdc88b0e7142e780b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga021c10bdda5a71cfdc88b0e7142e780b" kindref="member">RotationCenterMode</ref></highlight></codeline>
 <codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16" kindref="member">Static</ref>,<sp/></highlight></codeline>
-<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e" kindref="member">DynamicStatic</ref>,<sp/></highlight></codeline>
-<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab86532888b668d97ffd4c158c84ad63d" kindref="member">Dynamic</ref><sp/></highlight></codeline>
+<codeline lineno="347" refid="group__GeneralGroup_1gga021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16" kindref="member">Static</ref>,<sp/></highlight></codeline>
+<codeline lineno="348" refid="group__GeneralGroup_1gga021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e" kindref="member">DynamicStatic</ref>,<sp/></highlight></codeline>
+<codeline lineno="349" refid="group__GeneralGroup_1gga021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab86532888b668d97ffd4c158c84ad63d" kindref="member">Dynamic</ref><sp/></highlight></codeline>
 <codeline lineno="350" refid="group__GeneralGroup_1gab86532888b668d97ffd4c158c84ad63d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>rotationMode{<sp/><ref refid="group__GeneralGroup_1gga021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c" kindref="member">RotationCenterMode::Dynamic</ref><sp/>};</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"></highlight></codeline>
 <codeline lineno="354" refid="group__GeneralGroup_1gaba40f3c99bf1294e53abdd88d21278e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1gaba40f3c99bf1294e53abdd88d21278e8" kindref="member">staticRotationPivot</ref>;</highlight></codeline>
@@ -763,22 +810,22 @@
 <codeline lineno="363" refid="group__GeneralGroup_1gabe736bf771f335d8d782c1037715fd75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabe736bf771f335d8d782c1037715fd75" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1Parameters" kindref="compound">Viewport::Parameters</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="367" refid="group__GeneralGroup_1ga511d516b1bb61ba54e2b72284b65fceb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga511d516b1bb61ba54e2b72284b65fceb" kindref="member">setRotation</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state<sp/>);</highlight></codeline>
+<codeline lineno="367" refid="group__GeneralGroup_1gac23c05ec8355df106cc1b1d681c34152" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac23c05ec8355df106cc1b1d681c34152" kindref="member">setRotation</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state<sp/>);</highlight></codeline>
 <codeline lineno="368"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370" refid="group__GeneralGroup_1ga6a26dcb3f94973f448562e9604478b23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" kindref="member">ViewportRectangle</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6a26dcb3f94973f448562e9604478b23" kindref="member">getViewportRect</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="370" refid="group__GeneralGroup_1gad9c15fc1007294f2fa8f89b1659802c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" kindref="member">ViewportRectangle</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gad9c15fc1007294f2fa8f89b1659802c1" kindref="member">getViewportRect</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="371"><highlight class="normal"></highlight></codeline>
-<codeline lineno="373" refid="group__GeneralGroup_1ga3ca3512f6cd58445197edaec9da81131" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3ca3512f6cd58445197edaec9da81131" kindref="member">getPixelSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="373" refid="group__GeneralGroup_1ga1506ca2c2e88f6a8b03d3f0dfe531bd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1506ca2c2e88f6a8b03d3f0dfe531bd4" kindref="member">getPixelSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="374"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377" refid="group__GeneralGroup_1ga484b6380515f929cdcfca16c9a30edee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga484b6380515f929cdcfca16c9a30edee" kindref="member">getPixelSizeAtPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>worldPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="377" refid="group__GeneralGroup_1ga14b58b172e7568f0385fa8242b5bbe19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga14b58b172e7568f0385fa8242b5bbe19" kindref="member">getPixelSizeAtPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>worldPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="378"><highlight class="normal"></highlight></codeline>
-<codeline lineno="381" refid="group__GeneralGroup_1gab2c0e713c7540bb9c2f53e69607bfed8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab2c0e713c7540bb9c2f53e69607bfed8" kindref="member">setViewportRect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" kindref="member">ViewportRectangle</ref>&amp;<sp/>rect<sp/>);</highlight></codeline>
+<codeline lineno="381" refid="group__GeneralGroup_1gafaf152c2b300a66129a8077b2445375b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafaf152c2b300a66129a8077b2445375b" kindref="member">setViewportRect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ffdd066d297db0b871f78fa572166a3" kindref="member">ViewportRectangle</ref>&amp;<sp/>rect<sp/>);</highlight></codeline>
 <codeline lineno="382"><highlight class="normal"></highlight></codeline>
 <codeline lineno="383"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/>Matrix4f<sp/>viewM_;</highlight></codeline>
 <codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/>Matrix4f<sp/>projM_;</highlight></codeline>
 <codeline lineno="387"><highlight class="normal"></highlight></codeline>
 <codeline lineno="388"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="390" refid="group__GeneralGroup_1gac2aaf8088000285ded9ea6caa36de96c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1gac2aaf8088000285ded9ea6caa36de96c" kindref="member">getUnscaledViewXf</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="390" refid="group__GeneralGroup_1ga0247dad5e89c7d9bd3eb5367042d6dc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1ga0247dad5e89c7d9bd3eb5367042d6dc8" kindref="member">getUnscaledViewXf</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="391"><highlight class="normal"></highlight></codeline>
 <codeline lineno="393" refid="group__GeneralGroup_1ga62e34967fa338bdaebee75bcc2342a0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1ga62e34967fa338bdaebee75bcc2342a0b" kindref="member">getViewXf</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>AffineXf3f(<sp/>viewM_<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="394"><highlight class="normal"></highlight></codeline>
@@ -788,86 +835,86 @@
 <codeline lineno="400"><highlight class="normal"></highlight></codeline>
 <codeline lineno="402" refid="group__GeneralGroup_1ga8255ed3018ea3bae113c3b6c87ccbc96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga8255ed3018ea3bae113c3b6c87ccbc96" kindref="member">getBackwardDirection</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Vector3f(<sp/>viewM_.z.x,<sp/>viewM_.z.y,<sp/>viewM_.z.z<sp/>).normalized();<sp/>}<sp/></highlight></codeline>
 <codeline lineno="403"><highlight class="normal"></highlight></codeline>
-<codeline lineno="407" refid="group__GeneralGroup_1ga82a8f9d0d4ea9aee8a0cd3a742059cbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Line3f<sp/><ref refid="group__GeneralGroup_1ga82a8f9d0d4ea9aee8a0cd3a742059cbc" kindref="member">unprojectPixelRay</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>viewportPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="407" refid="group__GeneralGroup_1ga5ef038bd9bf8c8911bcb10f103fcc0ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Line3f<sp/><ref refid="group__GeneralGroup_1ga5ef038bd9bf8c8911bcb10f103fcc0ec" kindref="member">unprojectPixelRay</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>viewportPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="408"><highlight class="normal"></highlight></codeline>
-<codeline lineno="410" refid="group__GeneralGroup_1gabf9bc36eda02472e52c41323484ca493" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gabf9bc36eda02472e52c41323484ca493" kindref="member">worldToCameraSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="411" refid="group__GeneralGroup_1ga71dda2baf413b787d9b0fb12035d3827" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga71dda2baf413b787d9b0fb12035d3827" kindref="member">worldToCameraSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="410" refid="group__GeneralGroup_1ga765ce80b74a5ee4546085cc49ab8d2bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga765ce80b74a5ee4546085cc49ab8d2bd" kindref="member">worldToCameraSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="411" refid="group__GeneralGroup_1ga32a00d53d47ac59f2fdfc49877a3626e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga32a00d53d47ac59f2fdfc49877a3626e" kindref="member">worldToCameraSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="412"><highlight class="normal"></highlight></codeline>
-<codeline lineno="416" refid="group__GeneralGroup_1ga00da2d719e774e11cc2c5b367e1caa97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga00da2d719e774e11cc2c5b367e1caa97" kindref="member">projectToClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>worldPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="417" refid="group__GeneralGroup_1gaf84b449c6ac06983b1cc77946aeb75e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1gaf84b449c6ac06983b1cc77946aeb75e2" kindref="member">projectToClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>worldPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="418" refid="group__GeneralGroup_1ga280af5b0f24b3003b52b66b9bdf70705" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga280af5b0f24b3003b52b66b9bdf70705" kindref="member">unprojectFromClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>clipPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="419" refid="group__GeneralGroup_1ga840a18b408675ea0b3d9b662916d8969" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga840a18b408675ea0b3d9b662916d8969" kindref="member">unprojectFromClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>clipPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="416" refid="group__GeneralGroup_1ga17ecc6023d8af2a1b27d567d91676a4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga17ecc6023d8af2a1b27d567d91676a4f" kindref="member">projectToClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>worldPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="417" refid="group__GeneralGroup_1gab931f12556bf35d1195059ce15358279" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1gab931f12556bf35d1195059ce15358279" kindref="member">projectToClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>worldPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="418" refid="group__GeneralGroup_1ga75d232ecd80ed672d4b8f1d3da27a8b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga75d232ecd80ed672d4b8f1d3da27a8b4" kindref="member">unprojectFromClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>clipPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="419" refid="group__GeneralGroup_1ga04d407d9f9ed51c86003289be1e91ddf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga04d407d9f9ed51c86003289be1e91ddf" kindref="member">unprojectFromClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>clipPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="420"><highlight class="normal"></highlight></codeline>
-<codeline lineno="424" refid="group__GeneralGroup_1ga0767b6772d648de3599d6d6c1e828076" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga0767b6772d648de3599d6d6c1e828076" kindref="member">projectToViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>worldPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="425" refid="group__GeneralGroup_1ga98fa71f145a3139ddd609e7a4b7dd818" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga98fa71f145a3139ddd609e7a4b7dd818" kindref="member">projectToViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>worldPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="429" refid="group__GeneralGroup_1ga40d0c918528a3ba76f1df78f0e6008e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga40d0c918528a3ba76f1df78f0e6008e5" kindref="member">unprojectFromViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>viewportPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="430" refid="group__GeneralGroup_1ga1f1335831c811df8d399d4bf4a7dfad2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga1f1335831c811df8d399d4bf4a7dfad2" kindref="member">unprojectFromViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>viewportPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="424" refid="group__GeneralGroup_1ga8fa5c567ac3ba99d55e310a6a4aa8ecc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga8fa5c567ac3ba99d55e310a6a4aa8ecc" kindref="member">projectToViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>worldPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="425" refid="group__GeneralGroup_1ga180d6b93463c5f7697cac148d49fd97d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga180d6b93463c5f7697cac148d49fd97d" kindref="member">projectToViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>worldPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="429" refid="group__GeneralGroup_1ga0c86336ca4a6c0660f4f6eaa3a1745b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga0c86336ca4a6c0660f4f6eaa3a1745b2" kindref="member">unprojectFromViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>viewportPoint<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="430" refid="group__GeneralGroup_1gae8a56f2400988d9bb463d6669e20455a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1gae8a56f2400988d9bb463d6669e20455a" kindref="member">unprojectFromViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>viewportPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="431"><highlight class="normal"></highlight></codeline>
-<codeline lineno="437" refid="group__GeneralGroup_1gaf3e7b103d35676eb9d8f9dfb51126f07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gaf3e7b103d35676eb9d8f9dfb51126f07" kindref="member">clipSpaceToViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="438" refid="group__GeneralGroup_1ga542a6c5150303402abea783a142d1d7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga542a6c5150303402abea783a142d1d7a" kindref="member">clipSpaceToViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="439" refid="group__GeneralGroup_1ga4fcaf26b57c2f33aa87b085f76d81f7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga4fcaf26b57c2f33aa87b085f76d81f7c" kindref="member">viewportSpaceToClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="440" refid="group__GeneralGroup_1ga97fad091717d46988a64c161dc734e76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga97fad091717d46988a64c161dc734e76" kindref="member">viewportSpaceToClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="437" refid="group__GeneralGroup_1gaca4f019287a610faeb8b3c64d83ef4de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gaca4f019287a610faeb8b3c64d83ef4de" kindref="member">clipSpaceToViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="438" refid="group__GeneralGroup_1ga53dcf35cc7bcdd81ceebae7edc57f113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga53dcf35cc7bcdd81ceebae7edc57f113" kindref="member">clipSpaceToViewportSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="439" refid="group__GeneralGroup_1gab5751c4a616e2528f9ab90cc03b5605b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gab5751c4a616e2528f9ab90cc03b5605b" kindref="member">viewportSpaceToClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="440" refid="group__GeneralGroup_1ga76651da13086ba0e63b4edf2ac234ca5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga76651da13086ba0e63b4edf2ac234ca5" kindref="member">viewportSpaceToClipSpace</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>p<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="441"><highlight class="normal"></highlight></codeline>
 <codeline lineno="443" refid="group__GeneralGroup_1gaab7a9dc1a3bb2ced85d438c2501530a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaab7a9dc1a3bb2ced85d438c2501530a4" kindref="member">setupView</ref>();</highlight></codeline>
 <codeline lineno="449" refid="group__GeneralGroup_1ga6332bebf8263890d7c3757b5ccb4f57c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6332bebf8263890d7c3757b5ccb4f57c" kindref="member">preDraw</ref>();</highlight></codeline>
 <codeline lineno="455" refid="group__GeneralGroup_1gace8d34917dcc01ffe64f0bccef923f96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gace8d34917dcc01ffe64f0bccef923f96" kindref="member">postDraw</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="456"><highlight class="normal"></highlight></codeline>
-<codeline lineno="460" refid="group__GeneralGroup_1ga9a3a641b649270fae26cb2659d47a756" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9a3a641b649270fae26cb2659d47a756" kindref="member">fitData</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fill<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>snapView<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="460" refid="group__GeneralGroup_1gadbba32e84e0732c723c0755d72f25799" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbba32e84e0732c723c0755d72f25799" kindref="member">fitData</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fill<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>snapView<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="461"><highlight class="normal"></highlight></codeline>
-<codeline lineno="465" refid="group__GeneralGroup_1ga6ac594d0dfd749cdb836fe216d2f63a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6ac594d0dfd749cdb836fe216d2f63a9" kindref="member">fitBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/>newSceneBox,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fill<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>snapView<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="465" refid="group__GeneralGroup_1ga208dafb44fb37521a23b45366e49ce9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga208dafb44fb37521a23b45366e49ce9b" kindref="member">fitBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/>newSceneBox,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fill<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>snapView<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="466"><highlight class="normal"></highlight></codeline>
-<codeline lineno="467" refid="group__GeneralGroup_1ga03ac32b61f9c93a1a780e490c999ad0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga286c087de610b6e6a6baaf3c7cff3f4b" kindref="member">FitMode</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga286c087de610b6e6a6baaf3c7cff3f4b" kindref="member">MR::FitMode</ref>;</highlight></codeline>
-<codeline lineno="468" refid="group__GeneralGroup_1ga14d9ce8dba0a41d18ce159115c94cef4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BaseFitParams" kindref="compound">BaseFitParams</ref><sp/>=<sp/><ref refid="structMR_1_1BaseFitParams" kindref="compound">MR::BaseFitParams</ref>;</highlight></codeline>
-<codeline lineno="469" refid="group__GeneralGroup_1ga510e738a3af8ee63e000ddfdc7679a55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FitDataParams" kindref="compound">FitDataParams</ref><sp/>=<sp/><ref refid="structMR_1_1FitDataParams" kindref="compound">MR::FitDataParams</ref>;</highlight></codeline>
-<codeline lineno="470" refid="group__GeneralGroup_1gac77d7d4e41e9f6fac8540acc18f23da5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FitBoxParams" kindref="compound">FitBoxParams</ref><sp/>=<sp/><ref refid="structMR_1_1FitBoxParams" kindref="compound">MR::FitBoxParams</ref>;</highlight></codeline>
+<codeline lineno="467" refid="group__GeneralGroup_1ga03ac32b61f9c93a1a780e490c999ad0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga03ac32b61f9c93a1a780e490c999ad0d" kindref="member">FitMode</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga286c087de610b6e6a6baaf3c7cff3f4b" kindref="member">MR::FitMode</ref>;</highlight></codeline>
+<codeline lineno="468" refid="group__GeneralGroup_1ga14d9ce8dba0a41d18ce159115c94cef4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga14d9ce8dba0a41d18ce159115c94cef4" kindref="member">BaseFitParams</ref><sp/>=<sp/><ref refid="structMR_1_1BaseFitParams" kindref="compound">MR::BaseFitParams</ref>;</highlight></codeline>
+<codeline lineno="469" refid="group__GeneralGroup_1ga510e738a3af8ee63e000ddfdc7679a55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga510e738a3af8ee63e000ddfdc7679a55" kindref="member">FitDataParams</ref><sp/>=<sp/><ref refid="structMR_1_1FitDataParams" kindref="compound">MR::FitDataParams</ref>;</highlight></codeline>
+<codeline lineno="470" refid="group__GeneralGroup_1gac77d7d4e41e9f6fac8540acc18f23da5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac77d7d4e41e9f6fac8540acc18f23da5" kindref="member">FitBoxParams</ref><sp/>=<sp/><ref refid="structMR_1_1FitBoxParams" kindref="compound">MR::FitBoxParams</ref>;</highlight></codeline>
 <codeline lineno="471"><highlight class="normal"></highlight></codeline>
-<codeline lineno="473" refid="group__GeneralGroup_1gac7e39309c7a603790ebc1bafaa1c1d4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7e39309c7a603790ebc1bafaa1c1d4b" kindref="member">preciseFitBoxToScreenBorder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FitBoxParams" kindref="compound">FitBoxParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
-<codeline lineno="475" refid="group__GeneralGroup_1ga4ce56c17b29dbcb0186c4f34c414eb78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ce56c17b29dbcb0186c4f34c414eb78" kindref="member">preciseFitDataToScreenBorder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FitDataParams" kindref="compound">FitDataParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="473" refid="group__GeneralGroup_1gaabf08c558f0cb3bad8482b8bc2bf1044" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaabf08c558f0cb3bad8482b8bc2bf1044" kindref="member">preciseFitBoxToScreenBorder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac77d7d4e41e9f6fac8540acc18f23da5" kindref="member">FitBoxParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="475" refid="group__GeneralGroup_1ga0c9489f28aa931f689d2d0e054132ed2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0c9489f28aa931f689d2d0e054132ed2" kindref="member">preciseFitDataToScreenBorder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga510e738a3af8ee63e000ddfdc7679a55" kindref="member">FitDataParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="476"><highlight class="normal"></highlight></codeline>
-<codeline lineno="478" refid="group__GeneralGroup_1ga3b2eb984c0ab39709c45d27d3de876de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b2eb984c0ab39709c45d27d3de876de" kindref="member">getRatio</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="478" refid="group__GeneralGroup_1gaf2cfaeda5778c416a29d21ff14f80e06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2cfaeda5778c416a29d21ff14f80e06" kindref="member">getRatio</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="479"><highlight class="normal"></highlight></codeline>
-<codeline lineno="481" refid="group__GeneralGroup_1gace405908e14931de8db932f8a41d3b7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gace405908e14931de8db932f8a41d3b7c" kindref="member">allModelsInsideViewportRectangle</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="481" refid="group__GeneralGroup_1ga7de1b213b70aabd1ed6f41b3abf5c002" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7de1b213b70aabd1ed6f41b3abf5c002" kindref="member">allModelsInsideViewportRectangle</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="482"><highlight class="normal"></highlight></codeline>
-<codeline lineno="483" refid="group__GeneralGroup_1gaa0a55f6269ae743f49c2fde95869cab4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/><ref refid="group__GeneralGroup_1gaa0a55f6269ae743f49c2fde95869cab4" kindref="member">getSceneBox</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="483" refid="group__GeneralGroup_1gaa161054d6ad945482f167defcae351e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/><ref refid="group__GeneralGroup_1gaa161054d6ad945482f167defcae351e2" kindref="member">getSceneBox</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="484"><highlight class="normal"></highlight></codeline>
 <codeline lineno="485" refid="group__GeneralGroup_1ga926a8d8f0ce76178064c958cdb012a10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1Parameters" kindref="compound">Parameters</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga926a8d8f0ce76178064c958cdb012a10" kindref="member">getParameters</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_;<sp/>}</highlight></codeline>
 <codeline lineno="486"><highlight class="normal"></highlight></codeline>
-<codeline lineno="488" refid="group__GeneralGroup_1ga7255259d0bcd6a919bc061e1b8328f74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga7255259d0bcd6a919bc061e1b8328f74" kindref="member">getCameraPoint</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="490" refid="group__GeneralGroup_1gaf2fe6abc9e300a389c2a303f836f20d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2fe6abc9e300a389c2a303f836f20d5" kindref="member">setCameraPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>cameraWorldPos<sp/>);</highlight></codeline>
+<codeline lineno="488" refid="group__GeneralGroup_1ga8a6fef179f0272293667540d02e5e201" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga8a6fef179f0272293667540d02e5e201" kindref="member">getCameraPoint</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="490" refid="group__GeneralGroup_1gadb5215d292d0b8ec5b7c9370b199ad47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb5215d292d0b8ec5b7c9370b199ad47" kindref="member">setCameraPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>cameraWorldPos<sp/>);</highlight></codeline>
 <codeline lineno="491"><highlight class="normal"></highlight></codeline>
-<codeline lineno="492" refid="group__GeneralGroup_1ga7992f00d88f9468b7378bb264a6c7126" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7992f00d88f9468b7378bb264a6c7126" kindref="member">setCameraTrackballAngle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Quaternionf&amp;<sp/>rot<sp/>);</highlight></codeline>
+<codeline lineno="492" refid="group__GeneralGroup_1ga62aeb2520e267966a40f85f4d3e05972" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62aeb2520e267966a40f85f4d3e05972" kindref="member">setCameraTrackballAngle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaeefc18e0b5d4277fd54d80dd8b861d2" kindref="member">Quaternionf</ref>&amp;<sp/>rot<sp/>);</highlight></codeline>
 <codeline lineno="493"><highlight class="normal"></highlight></codeline>
-<codeline lineno="494" refid="group__GeneralGroup_1ga359181a4adccaea790fc8d2ace945198" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga359181a4adccaea790fc8d2ace945198" kindref="member">setCameraTranslation</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>translation<sp/>);</highlight></codeline>
+<codeline lineno="494" refid="group__GeneralGroup_1ga0f85b9ccf4f79bc5faa8cc613c40e7bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0f85b9ccf4f79bc5faa8cc613c40e7bd" kindref="member">setCameraTranslation</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>translation<sp/>);</highlight></codeline>
 <codeline lineno="495"><highlight class="normal"></highlight></codeline>
-<codeline lineno="496" refid="group__GeneralGroup_1ga08e78306b6826a1e5a7cb961115406a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga08e78306b6826a1e5a7cb961115406a2" kindref="member">setCameraViewAngle</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>newViewAngle<sp/>);</highlight></codeline>
+<codeline lineno="496" refid="group__GeneralGroup_1gadba749ae20939d308d42aa0abd7ad548" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadba749ae20939d308d42aa0abd7ad548" kindref="member">setCameraViewAngle</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>newViewAngle<sp/>);</highlight></codeline>
 <codeline lineno="497"><highlight class="normal"></highlight></codeline>
-<codeline lineno="498" refid="group__GeneralGroup_1ga0a7950c085a074ebecb668d2e455d102" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0a7950c085a074ebecb668d2e455d102" kindref="member">setCameraZoom</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zoom<sp/>);</highlight></codeline>
+<codeline lineno="498" refid="group__GeneralGroup_1gabf89a5f2ff7df2a3184070d6fb46ba7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabf89a5f2ff7df2a3184070d6fb46ba7d" kindref="member">setCameraZoom</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zoom<sp/>);</highlight></codeline>
 <codeline lineno="499"><highlight class="normal"></highlight></codeline>
-<codeline lineno="500" refid="group__GeneralGroup_1ga56e8d58b1c72aeec336d74a6da7c2cc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga56e8d58b1c72aeec336d74a6da7c2cc1" kindref="member">setOrthographic</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>orthographic<sp/>);</highlight></codeline>
+<codeline lineno="500" refid="group__GeneralGroup_1ga44f0fc83a678d120b15fe0cbbbffb586" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga44f0fc83a678d120b15fe0cbbbffb586" kindref="member">setOrthographic</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>orthographic<sp/>);</highlight></codeline>
 <codeline lineno="501"><highlight class="normal"></highlight></codeline>
-<codeline lineno="502" refid="group__GeneralGroup_1gadd402fe6a91aa235f98db029c80be9b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadd402fe6a91aa235f98db029c80be9b9" kindref="member">setBackgroundColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>);</highlight></codeline>
+<codeline lineno="502" refid="group__GeneralGroup_1gacee1b8365dc494c521d2b1870bec8713" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacee1b8365dc494c521d2b1870bec8713" kindref="member">setBackgroundColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>);</highlight></codeline>
 <codeline lineno="503"><highlight class="normal"></highlight></codeline>
-<codeline lineno="504" refid="group__GeneralGroup_1gac46fbd652ee514d031889d120da54424" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac46fbd652ee514d031889d120da54424" kindref="member">setClippingPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f&amp;<sp/>plane<sp/>);</highlight></codeline>
+<codeline lineno="504" refid="group__GeneralGroup_1gadfc8999d530b5b84dab99023d3fea24f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadfc8999d530b5b84dab99023d3fea24f" kindref="member">setClippingPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane<sp/>);</highlight></codeline>
 <codeline lineno="505"><highlight class="normal"></highlight></codeline>
-<codeline lineno="506" refid="group__GeneralGroup_1ga8c34b39f70fe8da63382acdae5d87498" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8c34b39f70fe8da63382acdae5d87498" kindref="member">setLabel</ref>(<sp/>std::string<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="506" refid="group__GeneralGroup_1ga352b2c1cb1d20b02b021f68b7ffac28e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga352b2c1cb1d20b02b021f68b7ffac28e" kindref="member">setLabel</ref>(<sp/>std::string<sp/>s<sp/>);</highlight></codeline>
 <codeline lineno="507"><highlight class="normal"></highlight></codeline>
-<codeline lineno="508" refid="group__GeneralGroup_1ga3b38a130389402efd292caab868bfd57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b38a130389402efd292caab868bfd57" kindref="member">setSelectable</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>)<sp/>{<sp/>params_.<ref refid="group__GeneralGroup_1gab1f95c9313aac4dc9276cd0a0a4071d2" kindref="member">selectable</ref><sp/>=<sp/>on;<sp/>}</highlight></codeline>
+<codeline lineno="508" refid="group__GeneralGroup_1ga3b38a130389402efd292caab868bfd57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b38a130389402efd292caab868bfd57" kindref="member">setSelectable</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>)<sp/>{<sp/>params_.selectable<sp/>=<sp/>on;<sp/>}</highlight></codeline>
 <codeline lineno="509"><highlight class="normal"></highlight></codeline>
-<codeline lineno="510" refid="group__GeneralGroup_1ga6d103e17a81a5229a01ae2a67eb05128" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d103e17a81a5229a01ae2a67eb05128" kindref="member">showAxes</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>);</highlight></codeline>
-<codeline lineno="511" refid="group__GeneralGroup_1ga68b36d6e25e5af04a632f74f526c4cda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga68b36d6e25e5af04a632f74f526c4cda" kindref="member">showClippingPlane</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>);</highlight></codeline>
-<codeline lineno="512" refid="group__GeneralGroup_1ga069049d89298e103d7c82e1454532734" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga069049d89298e103d7c82e1454532734" kindref="member">showRotationCenter</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>);</highlight></codeline>
-<codeline lineno="513" refid="group__GeneralGroup_1ga2da00f8d67bdd913870c371eab44dc24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2da00f8d67bdd913870c371eab44dc24" kindref="member">showGlobalBasis</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>);</highlight></codeline>
-<codeline lineno="514" refid="group__GeneralGroup_1gaf9e6c144fff12c1d75af0be0b6ed5650" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9e6c144fff12c1d75af0be0b6ed5650" kindref="member">rotationCenterMode</ref>(<sp/><ref refid="group__GeneralGroup_1ga021c10bdda5a71cfdc88b0e7142e780b" kindref="member">Parameters::RotationCenterMode</ref><sp/>mode<sp/>);</highlight></codeline>
+<codeline lineno="510" refid="group__GeneralGroup_1gaae5ff4fd8bbb8ac44480e6b945a38dbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaae5ff4fd8bbb8ac44480e6b945a38dbb" kindref="member">showAxes</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>);</highlight></codeline>
+<codeline lineno="511" refid="group__GeneralGroup_1ga3c246d5060a27db7067453280cdb85d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c246d5060a27db7067453280cdb85d5" kindref="member">showClippingPlane</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>);</highlight></codeline>
+<codeline lineno="512" refid="group__GeneralGroup_1ga3b3f85b57ad12fdd5fb2b97e781ceb1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b3f85b57ad12fdd5fb2b97e781ceb1a" kindref="member">showRotationCenter</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>);</highlight></codeline>
+<codeline lineno="513" refid="group__GeneralGroup_1gae239dbd60a1a4f0300faca5f780517da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae239dbd60a1a4f0300faca5f780517da" kindref="member">showGlobalBasis</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>);</highlight></codeline>
+<codeline lineno="514" refid="group__GeneralGroup_1ga32f520027876c213e77b698e6db8d75d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga32f520027876c213e77b698e6db8d75d" kindref="member">rotationCenterMode</ref>(<sp/><ref refid="group__GeneralGroup_1ga021c10bdda5a71cfdc88b0e7142e780b" kindref="member">Parameters::RotationCenterMode</ref><sp/>mode<sp/>);</highlight></codeline>
 <codeline lineno="515"><highlight class="normal"></highlight></codeline>
-<codeline lineno="516" refid="group__GeneralGroup_1ga538c80bc0a06c494f1865d6ad6f83d3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga538c80bc0a06c494f1865d6ad6f83d3d" kindref="member">setParameters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1Parameters" kindref="compound">Viewport::Parameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="516" refid="group__GeneralGroup_1ga9c2da3521710c4de2851bf46f246ec0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9c2da3521710c4de2851bf46f246ec0f" kindref="member">setParameters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Viewport_1_1Parameters" kindref="compound">Viewport::Parameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="517"><highlight class="normal"></highlight></codeline>
-<codeline lineno="521" refid="group__GeneralGroup_1ga2761afb44a51e6e0ca9e057067ac05c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2761afb44a51e6e0ca9e057067ac05c6" kindref="member">cameraLookAlong</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>up<sp/>);</highlight></codeline>
+<codeline lineno="521" refid="group__GeneralGroup_1ga87e8a818a341d6d5062639dc69494359" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga87e8a818a341d6d5062639dc69494359" kindref="member">cameraLookAlong</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>up<sp/>);</highlight></codeline>
 <codeline lineno="522"><highlight class="normal"></highlight></codeline>
-<codeline lineno="525" refid="group__GeneralGroup_1ga2ff8a41f74c4cfd9e8b28c545772b89e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2ff8a41f74c4cfd9e8b28c545772b89e" kindref="member">cameraRotateAround</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3f&amp;<sp/>axis,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref><sp/>);</highlight></codeline>
+<codeline lineno="525" refid="group__GeneralGroup_1gada1ff2adbf65466eae3e774e09e360fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gada1ff2adbf65466eae3e774e09e360fd" kindref="member">cameraRotateAround</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3f&amp;<sp/>axis,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref><sp/>);</highlight></codeline>
 <codeline lineno="526"><highlight class="normal"></highlight></codeline>
 <codeline lineno="528" refid="group__GeneralGroup_1ga357b7f0de8d573b2e8bc9b04ed3adc56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga357b7f0de8d573b2e8bc9b04ed3adc56" kindref="member">getRotationPivot</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rotationPivot_;<sp/>}</highlight></codeline>
 <codeline lineno="529"><highlight class="normal"></highlight></codeline>
-<codeline lineno="534" refid="group__GeneralGroup_1ga782d90e6f95f86f9b73e603aaca615af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga782d90e6f95f86f9b73e603aaca615af" kindref="member">resetStaticRotationPivot</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::optional&lt;Vector3f&gt;&amp;<sp/>pivot<sp/>=<sp/>std::nullopt<sp/>);</highlight></codeline>
+<codeline lineno="534" refid="group__GeneralGroup_1ga7ad75f9b39cadb35c6dac36b8dc3fa7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7ad75f9b39cadb35c6dac36b8dc3fa7e" kindref="member">resetStaticRotationPivot</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::optional&lt;Vector3f&gt;&amp;<sp/>pivot<sp/>=<sp/>std::nullopt<sp/>);</highlight></codeline>
 <codeline lineno="535"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="538"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setRotationPivot_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point<sp/>)<sp/>{<sp/>rotationPivot_<sp/>=<sp/>point;<sp/>}</highlight></codeline>
 <codeline lineno="540"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setupViewMatrix_();</highlight></codeline>
@@ -928,11 +975,11 @@
 <codeline lineno="621"><highlight class="normal"></highlight></codeline>
 <codeline lineno="623"><highlight class="normal"><sp/><sp/><sp/><sp/>Box3f<sp/>sceneBox_;</highlight></codeline>
 <codeline lineno="624"><highlight class="normal"></highlight></codeline>
-<codeline lineno="625"><highlight class="normal"><sp/><sp/><sp/><sp/>Parameters<sp/>params_;</highlight></codeline>
+<codeline lineno="625"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Viewport_1_1Parameters" kindref="compound">Parameters</ref><sp/>params_;</highlight></codeline>
 <codeline lineno="626"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="627"><highlight class="normal"></highlight></codeline>
-<codeline lineno="628"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="628"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h"/>
+    <location file="MRViewer/MRViewport.h"/>
   </compounddef>
 </doxygen>

@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VoxelsVolumeMinMax" kind="struct" language="C++" prot="public">
     <compoundname>MR::VoxelsVolumeMinMax</compoundname>
     <basecompoundref refid="structMR_1_1VoxelsVolume" prot="public" virt="non-virtual">MR::VoxelsVolume&lt; T &gt;</basecompoundref>
-    <basecompoundref prot="public" virt="non-virtual">MinMax&lt; VoxelsVolume&lt; T &gt;::ValueType &gt;</basecompoundref>
-    <includes refid="MRVoxelsVolume_8h" local="no">MRVoxelsVolume.h</includes>
+    <basecompoundref refid="structMR_1_1Box" prot="public" virt="non-virtual">MR::Box&lt; T &gt;</basecompoundref>
+    <includes refid="MRVoxelsVolume_8h" local="no">MRVoxels/MRVoxelsVolume.h</includes>
     <templateparamlist>
       <param>
-        <type>typename T</type>
+        <type>typename <ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
       </param>
     </templateparamlist>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels </para>
+<para>represents a box in 3D space subdivided on voxels stored in <ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref>; and stores minimum and maximum values among all valid voxels </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
@@ -30,6 +30,7 @@
       </node>
       <node id="3">
         <label>MinMax&lt; VoxelsVolume&lt; T &gt;::ValueType &gt;</label>
+        <link refid="structMR_1_1Box"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -47,15 +48,54 @@
       </node>
       <node id="3">
         <label>MinMax&lt; VoxelsVolume&lt; T &gt;::ValueType &gt;</label>
+        <link refid="structMR_1_1Box"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" bodystart="65" bodyend="71"/>
+    <location file="MRVoxels/MRVoxelsVolume.h" line="64" column="1" bodyfile="MRVoxels/MRVoxelsVolume.h" bodystart="65" bodyend="71"/>
     <listofallmembers>
+      <member refid="structMR_1_1Box_1ab72759c3d199697fa09474bba5c5284c" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>Box</name></member>
+      <member refid="structMR_1_1Box_1a0b1e0b6b95e8b735eda8de2bb06fd987" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>Box</name></member>
+      <member refid="structMR_1_1Box_1af6d43e68039fbfc977b3d70beb1f30c8" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>Box</name></member>
+      <member refid="structMR_1_1Box_1af6d43e68039fbfc977b3d70beb1f30c8" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>Box</name></member>
+      <member refid="structMR_1_1Box_1a5edd7e58dce05a67482b2c179f6abc6e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>center</name></member>
+      <member refid="structMR_1_1Box_1ada11cc33b5ba6f38f12211e1ae500598" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>contains</name></member>
+      <member refid="structMR_1_1Box_1ad7f75d672fee1cd837085bd09be3c66e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>contains</name></member>
+      <member refid="structMR_1_1Box_1a58367ea0fa34d4b4d1009044564aded9" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>corner</name></member>
       <member refid="group__GeneralGroup_1ga6ea81e0ad21fc888dfa262fb957f3c2e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>data</name></member>
+      <member refid="structMR_1_1Box_1a2cfcb26887cd979172fd1831229c8144" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>diagonal</name></member>
       <member refid="group__GeneralGroup_1gaec69290a92637368e463e39fadfea701" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>dims</name></member>
+      <member refid="structMR_1_1Box_1aad57eed448ea8dc0bd7b331055005b4f" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>elements</name></member>
+      <member refid="structMR_1_1Box_1a3f06adfa8006bd6000537a4d96e4f66e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>expanded</name></member>
+      <member refid="structMR_1_1Box_1ab2ec32268e6b124dd96b07c0e4da7fd9" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>fromMinAndSize</name></member>
+      <member refid="structMR_1_1Box_1a1af67d1761b8fd15fa204b39d5f9bd46" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="structMR_1_1Box_1a25efa79c9a3710f2c59fac06fb39ad12" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>getDistanceSq</name></member>
+      <member refid="structMR_1_1Box_1a6fa5434776a3bb7b53014edc67295ec8" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>getDistanceSq</name></member>
+      <member refid="structMR_1_1Box_1a5700cf25abb8325b86fda919b3022e65" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>getMaxBoxCorner</name></member>
+      <member refid="structMR_1_1Box_1aa47072e05e75f449f745364a9bcd91ec" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>getMinBoxCorner</name></member>
+      <member refid="structMR_1_1Box_1a36a72e5786051efa6c3fa7512b00c6c3" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>getProjection</name></member>
       <member refid="group__GeneralGroup_1ga6098927f3eb1a5ae05be948dd3ddf6ea" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>heapBytes</name></member>
+      <member refid="structMR_1_1Box_1a14ec2de1def8e99ce267fe830e9caa51" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>include</name></member>
+      <member refid="structMR_1_1Box_1a2d9fecc0393e456242b1409f8a6a79f9" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>include</name></member>
+      <member refid="structMR_1_1Box_1a5221795da9f2f569a0ac9fd9a1a5cba4" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>insignificantlyExpanded</name></member>
+      <member refid="structMR_1_1Box_1adcbce4d705b1bf09dd04c5023fe58ec3" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>intersect</name></member>
+      <member refid="structMR_1_1Box_1acd003ee915daffe1dccdfe6bec573abc" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>intersection</name></member>
+      <member refid="structMR_1_1Box_1aacbc2c9aca82714d27d007c9cc6aa696" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>intersects</name></member>
+      <member refid="structMR_1_1Box_1a493e21ced874aa010247428e109d524d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>max</name></member>
+      <member refid="structMR_1_1Box_1acc1e8e06848f35838481ee10e0308cda" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>min</name></member>
+      <member refid="structMR_1_1Box_1abaa0e8fa0a608290aa2ac4bee9a34a4e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="structMR_1_1Box_1ac8eb14ff1a01b09de851695a4a0007d4" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1Box_1af93a3ccd5c9d9d678844e2578807089f" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Box_1abed683751e55c40fd8fdaf88da2fb35d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1Box_1aba9d01a2283f33ef63e5d1cb49a6b84a" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1Box_1a71c94df372502f935a239c62e591a70c" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>size</name></member>
+      <member refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>T</name></member>
+      <member refid="structMR_1_1Box_1ae8181cac57d5ff92d32bfa86bdc5caf3" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>valid</name></member>
       <member refid="group__GeneralGroup_1gaf9f77daea56312d1b6f7ac20d2473713" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>ValueType</name></member>
+      <member refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>Vb</name></member>
+      <member refid="structMR_1_1Box_1a30f9aaac8de3e73144319e59e64d5add" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>VbTraits</name></member>
+      <member refid="structMR_1_1Box_1aaf8c494ec86f9a6ef904299b78f1cc23" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>volume</name></member>
       <member refid="group__GeneralGroup_1ga3d40ff5d6e909a58566b67d177842ba0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>voxelSize</name></member>
+      <member refid="structMR_1_1Box_1a72642a4bb313d2774abf257cefe1f2f0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>VTraits</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

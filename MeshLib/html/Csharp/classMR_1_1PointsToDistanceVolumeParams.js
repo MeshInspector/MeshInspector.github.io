@@ -6,7 +6,7 @@ var classMR_1_1PointsToDistanceVolumeParams =
     [ "PointsToDistanceVolumeParams", "classMR_1_1PointsToDistanceVolumeParams.html#a83f1609a45afd0aedef5f7b2d212ad0b", null ],
     [ "assign", "classMR_1_1PointsToDistanceVolumeParams.html#ae609b3910ef0c644ce0dc7158d6d4439", null ],
     [ "operator MR.DistanceVolumeParams", "classMR_1_1PointsToDistanceVolumeParams.html#a6aa9c34ab0746a14ffa75147a63dafe5", null ],
-    [ "cb", "classMR_1_1PointsToDistanceVolumeParams.html#a55203693765836a074062cfbd502d8f2", null ],
+    [ "cb", "classMR_1_1PointsToDistanceVolumeParams.html#ae0d051753759ecaa9c315a503709bc31", null ],
     [ "dimensions", "classMR_1_1PointsToDistanceVolumeParams.html#a714c26b509911b35254732e978ec4f5b", null ],
     [ "invSigmaModifier", "classMR_1_1PointsToDistanceVolumeParams.html#a651bc31c7fee04dc0bc47641145328ba", null ],
     [ "minWeight", "classMR_1_1PointsToDistanceVolumeParams.html#adbef596027a558f43194134340ad1b25", null ],

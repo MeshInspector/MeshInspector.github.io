@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSchemaLoadListener" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::RibbonSchemaLoadListener</compoundname>
-    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <includes refid="MRRibbonSchema_8h" local="no">MRViewer/MRRibbonSchema.h</includes>
     <sectiondef kind="friend">
       <member refid="group__GeneralGroup_1ga246ba9e59dd5b36be0e8b8144ff30b86" kind="friend"><name>RibbonSchemaLoader</name></member>
     </sectiondef>
@@ -17,7 +17,7 @@
     <detaileddescription>
 <para>interface for plugins that should be notified when their information is loaded from the schema json file allows to alternate behavior depending on whether the plugin is available in the app </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="40" bodyend="47"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="42" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="43" bodyend="50"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga76315b1d51caa43fb0c118321f6f3ce8" prot="protected" virt="pure-virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>onRibbonSchemaLoad_</name></member>
       <member refid="group__GeneralGroup_1ga246ba9e59dd5b36be0e8b8144ff30b86" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>RibbonSchemaLoader</name></member>

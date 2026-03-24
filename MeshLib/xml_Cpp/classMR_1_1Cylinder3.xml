@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cylinder3" kind="class" language="C++" prot="public">
     <compoundname>MR::Cylinder3</compoundname>
-    <includes refid="MRCylinder3_8h" local="no">MRCylinder3.h</includes>
+    <includes refid="MRCylinder3_8h" local="no">MRMesh/MRCylinder3.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -27,7 +27,20 @@
     <detaileddescription>
 <para>A class describing a cylinder as a mathematical object.A cylinder is represented by a centerline, a radius, and a length.template &lt;typename T&gt; TODO: <ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref> could be infinite. For example for infinite <ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref> we could use negative length or length = -1 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="15" bodyend="56"/>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Cylinder3&lt; T &gt;</label>
+        <link refid="classMR_1_1Cylinder3"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mainAxis</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Line&lt; Vector3&lt; T &gt; &gt;&lt; T &gt;</label>
+        <link refid="structMR_1_1Line"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRCylinder3.h" line="14" column="1" bodyfile="MRMesh/MRCylinder3.h" bodystart="15" bodyend="56"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8d4a9e9f09d98b1f8fd1fe07bb507344" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>center</name></member>
       <member refid="group__GeneralGroup_1ga69c15d8609407d79671f321442db4645" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>center</name></member>

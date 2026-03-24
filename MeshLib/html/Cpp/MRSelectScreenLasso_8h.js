@@ -1,8 +1,8 @@
 var MRSelectScreenLasso_8h =
 [
-    [ "appendGPUVisibleFaces", "MRSelectScreenLasso_8h.html#ga576eea4c4f274e1c943476be2be2394e", null ],
-    [ "calculateSelectedPixelsInsidePolygon", "MRSelectScreenLasso_8h.html#ga42e8e573c0aec9b5d59ac648be980eff", null ],
-    [ "calculateSelectedPixelsNearPolygon", "MRSelectScreenLasso_8h.html#ga7dbec46cb811f57b258ac04ea3fcf64a", null ],
-    [ "findIncidentFaces", "MRSelectScreenLasso_8h.html#ga29b6abcd794dd6dfbb8d197b6d944685", null ],
-    [ "findVertsInViewportArea", "MRSelectScreenLasso_8h.html#ga5296205b5f80eb5b87c334ab98121aff", null ]
+    [ "MR::appendGPUVisibleFaces", "group__GeneralGroup.html#gaf8236246b7628850d508b7a3ce080125", null ],
+    [ "MR::calculateSelectedPixelsInsidePolygon", "group__GeneralGroup.html#ga2cb0245e06108c4828d0f0074bb2cfb1", null ],
+    [ "MR::calculateSelectedPixelsNearPolygon", "group__GeneralGroup.html#ga6098fea6f2e9598fc4da6cc44af41d6d", null ],
+    [ "MR::findIncidentFaces", "group__GeneralGroup.html#gac8a3360d0255d400d87d4dd71dbbbbe9", null ],
+    [ "MR::findVertsInViewportArea", "group__GeneralGroup.html#ga453de97692bb136908d836a84916e966", null ]
 ];

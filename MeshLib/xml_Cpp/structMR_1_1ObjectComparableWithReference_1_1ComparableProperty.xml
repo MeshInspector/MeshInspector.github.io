@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" kind="struct" language="C++" prot="public">
     <compoundname>MR::ObjectComparableWithReference::ComparableProperty</compoundname>
-    <includes refid="MRObjectComparableWithReference_8h" local="no">MRObjectComparableWithReference.h</includes>
+    <includes refid="MRObjectComparableWithReference_8h" local="no">MRMesh/MRObjectComparableWithReference.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gab9ac8279a8d66047dae4a3de73f94647" kind="variable"><name>value</name></member>
       <member refid="group__GeneralGroup_1ga27219918674f15345809979f639c640e" kind="variable"><name>referenceValue</name></member>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="37" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="38" bodyend="46"/>
+    <location file="MRMesh/MRObjectComparableWithReference.h" line="37" column="5" bodyfile="MRMesh/MRObjectComparableWithReference.h" bodystart="38" bodyend="46"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga27219918674f15345809979f639c640e" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparableProperty</scope><name>referenceValue</name></member>
       <member refid="group__GeneralGroup_1gab9ac8279a8d66047dae4a3de73f94647" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparableProperty</scope><name>value</name></member>

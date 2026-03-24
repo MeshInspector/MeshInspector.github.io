@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OffsetContourIndex" kind="class" language="C#" prot="public">
     <compoundname>MR::OffsetContourIndex</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetContourIndex</basecompoundref>
@@ -107,7 +107,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OffsetContourIndex.OffsetContourIndex</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContourIndex_1a925758e57ede0dcdd8f66afcd4f5e14d" kindref="member">MR.OffsetContourIndex.OffsetContourIndex</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OffsetContourIndex.OffsetContourIndex</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContourIndex_1a925758e57ede0dcdd8f66afcd4f5e14d" kindref="member">MR.OffsetContourIndex.OffsetContourIndex</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -145,7 +145,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.OffsetContourIndex.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::OffsetContourIndex::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,45 +160,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_OffsetContourIndex</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OffsetContourIndex</label>
         <link refid="classMR_1_1OffsetContourIndex"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OffsetContourIndex</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_OffsetContourIndex &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_OffsetContourIndex</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OffsetContourIndex</label>
         <link refid="classMR_1_1OffsetContourIndex"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OffsetContourIndex</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_OffsetContourIndex &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="115" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="116" bodyend="182"/>

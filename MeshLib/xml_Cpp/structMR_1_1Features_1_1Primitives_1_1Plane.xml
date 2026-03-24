@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Features_1_1Primitives_1_1Plane" kind="struct" language="C++" prot="public">
     <compoundname>MR::Features::Primitives::Plane</compoundname>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga17291dba0d3768973959e35d4105ceea" kind="variable"><name>center</name></member>
       <member refid="group__GeneralGroup_1gaaef9e3698f1254ac0f28afb12046695d" kind="variable"><name>normal</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga7e5d4af61b0fcde8d7631027f240b57a" kind="function"><name>intersectWithPlane</name></member>
-      <member refid="group__GeneralGroup_1ga4fede0e0dd7626dce7467556c551aa40" kind="function"><name>intersectWithLine</name></member>
+      <member refid="group__GeneralGroup_1ga19b26e859cd35d7972e25355535ce283" kind="function"><name>intersectWithPlane</name></member>
+      <member refid="group__GeneralGroup_1ga9943b098a0c2f6210aab93e83517eaa7" kind="function"><name>intersectWithLine</name></member>
     </sectiondef>
     <sectiondef kind="friend">
       <member refid="group__GeneralGroup_1ga8ad7586da649f116dbeefd965f5ff897" kind="friend"><name>operator==</name></member>
@@ -18,11 +18,11 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="35" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="36" bodyend="51"/>
+    <location file="MRMesh/MRFeatures.h" line="35" column="5" bodyfile="MRMesh/MRFeatures.h" bodystart="36" bodyend="51"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga17291dba0d3768973959e35d4105ceea" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>center</name></member>
-      <member refid="group__GeneralGroup_1ga4fede0e0dd7626dce7467556c551aa40" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithLine</name></member>
-      <member refid="group__GeneralGroup_1ga7e5d4af61b0fcde8d7631027f240b57a" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithPlane</name></member>
+      <member refid="group__GeneralGroup_1ga9943b098a0c2f6210aab93e83517eaa7" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithLine</name></member>
+      <member refid="group__GeneralGroup_1ga19b26e859cd35d7972e25355535ce283" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithPlane</name></member>
       <member refid="group__GeneralGroup_1gaaef9e3698f1254ac0f28afb12046695d" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>normal</name></member>
       <member refid="group__GeneralGroup_1ga8ad7586da649f116dbeefd965f5ff897" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>operator==</name></member>
     </listofallmembers>

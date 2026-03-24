@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1UI_1_1StateStorage" kind="namespace" language="C++">
     <compoundname>MR::UI::StateStorage</compoundname>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1ga3638eb4d405379f7ea1bda54b46284b2" kind="function"><name>readBool</name></member>
-      <member refid="group__GeneralGroup_1ga654e0febe730841dfa2856e4eae81e48" kind="function"><name>writeBool</name></member>
+      <member refid="group__GeneralGroup_1ga85b0f61a330d5a93d58614f5d51d3a5d" kind="function"><name>readBool</name></member>
+      <member refid="group__GeneralGroup_1gab2d91f6bfec43ba9d3cbbc6a347cea86" kind="function"><name>writeBool</name></member>
     </sectiondef>
     <briefdescription>
 <para>Use this to store state across frames. Like what <computeroutput>CollapsingHeader()</computeroutput> uses to store it&apos;s open/close state. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="38" column="1"/>
+    <location file="MRViewer/MRUIStyle.h" line="38" column="1"/>
   </compounddef>
 </doxygen>

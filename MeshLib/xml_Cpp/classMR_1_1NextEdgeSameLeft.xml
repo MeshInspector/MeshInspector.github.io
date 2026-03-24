@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NextEdgeSameLeft" kind="class" language="C++" prot="public">
     <compoundname>MR::NextEdgeSameLeft</compoundname>
-    <includes refid="MRRingIterator_8h" local="no">MRRingIterator.h</includes>
+    <derivedcompoundref refid="classMR_1_1RingIterator" prot="public" virt="non-virtual">MR::RingIterator&lt; NextEdgeSameLeft &gt;</derivedcompoundref>
+    <includes refid="MRRingIterator_8h" local="no">MRMesh/MRRingIterator.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga51a904c48660dc3c791b21a5d506b688" kind="variable"><name>topology_</name></member>
     </sectiondef>
@@ -14,7 +15,19 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="54" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="55" bodyend="61"/>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::NextEdgeSameLeft</label>
+        <link refid="classMR_1_1NextEdgeSameLeft"/>
+      </node>
+      <node id="2">
+        <label>MR::RingIterator&lt; NextEdgeSameLeft &gt;</label>
+        <link refid="classMR_1_1RingIterator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="MRMesh/MRRingIterator.h" line="54" column="1" bodyfile="MRMesh/MRRingIterator.h" bodystart="55" bodyend="61"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0d76f45cd46c08d651d08d28d0570524" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>next</name></member>
       <member refid="group__GeneralGroup_1ga7cd53c8ae9e36043c2dc5e9750efcce3" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>NextEdgeSameLeft</name></member>

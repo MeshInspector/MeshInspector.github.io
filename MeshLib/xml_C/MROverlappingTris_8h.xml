@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROverlappingTris_8h" kind="file" language="C++">
     <compoundname>MROverlappingTris.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -18,41 +18,26 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stddef.h</label>
       </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MROverlappingTris_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
-        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="12" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROverlappingTris_8h_1a6aeecd4fac2aea90513510421de3f37b" prot="public" static="no">
-        <type>struct <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_FaceBitSet_std_string MR_expected_MR_FaceBitSet_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_FaceBitSet_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="13" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" prot="public" static="no">
         <type>struct <ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref></type>
         <definition>typedef struct MR_std_function_bool_from_MR_FaceId_MR_FaceId MR_std_function_bool_from_MR_FaceId_MR_FaceId</definition>
@@ -61,23 +46,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>bool(MR::FaceId, MR::FaceId)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="14" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROverlappingTris_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="15" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="14" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" prot="public" static="no">
         <type>struct <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref></type>
@@ -87,16 +60,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::FindOverlappingSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::FindOverlappingSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="20" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="20" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MROverlappingTris_8h_1af64e7f9122dcc4276d00933352bd7198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_FindOverlappingSettings_Get_maxDistSq</definition>
         <argsstring>(const MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_Get_maxDistSq</name>
@@ -111,10 +84,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="27" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="27" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a00a8dd2b2c1addbb812ff0bd7975613b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FindOverlappingSettings_Set_maxDistSq</definition>
         <argsstring>(MR_FindOverlappingSettings *_this, float value)</argsstring>
         <name>MR_FindOverlappingSettings_Set_maxDistSq</name>
@@ -129,14 +102,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDistSq</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDistSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="33" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="33" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a10411015707b34c1388c3aa8f14c52bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_FindOverlappingSettings_GetMutable_maxDistSq</definition>
         <argsstring>(MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_GetMutable_maxDistSq</name>
@@ -151,10 +124,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="40" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="40" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="40" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="40" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a07d249129b85a46ffec0a7bc4cd29d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_FindOverlappingSettings_Get_maxNormalDot</definition>
         <argsstring>(const MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_Get_maxNormalDot</name>
@@ -169,10 +142,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="47" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="47" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="47" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="47" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a6dda198266fb162294ecd70038771cca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FindOverlappingSettings_Set_maxNormalDot</definition>
         <argsstring>(MR_FindOverlappingSettings *_this, float value)</argsstring>
         <name>MR_FindOverlappingSettings_Set_maxNormalDot</name>
@@ -187,14 +160,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal dot product of one triangle and another overlapping triangle normals Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>maxNormalDot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxNormalDot</computeroutput>. </para>
+<para>maximal dot product of one triangle and another overlapping triangle normals Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>maxNormalDot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxNormalDot</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="53" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a3186caaa2b7e5c317998bffc52ac9e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_FindOverlappingSettings_GetMutable_maxNormalDot</definition>
         <argsstring>(MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_GetMutable_maxNormalDot</name>
@@ -209,10 +182,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="60" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="60" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="60" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="60" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a80c7d590c5cf0394f8be8a65acfc6d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_FindOverlappingSettings_Get_minAreaFraction</definition>
         <argsstring>(const MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_Get_minAreaFraction</name>
@@ -227,10 +200,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="67" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="67" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="67" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="67" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1aa5e2579fcf28d3a65b1f87d69286780e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FindOverlappingSettings_Set_minAreaFraction</definition>
         <argsstring>(MR_FindOverlappingSettings *_this, float value)</argsstring>
         <name>MR_FindOverlappingSettings_Set_minAreaFraction</name>
@@ -245,14 +218,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle&apos;s area Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>minAreaFraction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minAreaFraction</computeroutput>. </para>
+<para>consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle&apos;s area Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>minAreaFraction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minAreaFraction</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="73" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="73" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1ac770a43e4517d42b62968e0266bf1327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_FindOverlappingSettings_GetMutable_minAreaFraction</definition>
         <argsstring>(MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_GetMutable_minAreaFraction</name>
@@ -267,10 +240,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="80" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="80" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="80" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="80" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1ae72a5b16588ab7f487b0ceb4c41b0831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_MR_FaceId_MR_FaceId * MR_FindOverlappingSettings_Get_pred</definition>
         <argsstring>(const MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_Get_pred</name>
@@ -285,10 +258,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="87" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="87" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="87" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="87" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1adf6b1efe026fb0141b67b535c11e1143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FindOverlappingSettings_Set_pred</definition>
         <argsstring>(MR_FindOverlappingSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_MR_FaceId_MR_FaceId *value)</argsstring>
         <name>MR_FindOverlappingSettings_Set_pred</name>
@@ -297,7 +270,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -307,14 +280,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if predicate is present it should return true for pair of faces that should be considered as overlap Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>pred</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pred</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pred</computeroutput>. </para>
+<para>if predicate is present it should return true for pair of faces that should be considered as overlap Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>pred</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pred</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pred</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="94" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="94" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a40a617e81c6e168827192ad96b210285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_MR_FaceId_MR_FaceId * MR_FindOverlappingSettings_GetMutable_pred</definition>
         <argsstring>(MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_GetMutable_pred</name>
@@ -329,10 +302,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="101" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="101" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="101" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="101" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a96f0556c1876863d594338419c4092dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_FindOverlappingSettings_Get_cb</definition>
         <argsstring>(const MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_Get_cb</name>
@@ -347,10 +320,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="108" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="108" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="108" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="108" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a7236582b839fccdb339bcbe8c61deed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FindOverlappingSettings_Set_cb</definition>
         <argsstring>(MR_FindOverlappingSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_FindOverlappingSettings_Set_cb</name>
@@ -359,7 +332,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -369,14 +342,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for reporting current progress and allowing the user to cancel the algorithm Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>for reporting current progress and allowing the user to cancel the algorithm Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="115" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="115" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1adcbf3e333357db479185f1727f51d779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_FindOverlappingSettings_GetMutable_cb</definition>
         <argsstring>(MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_GetMutable_cb</name>
@@ -391,10 +364,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="122" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="122" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="122" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="122" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a8448e341144518fbb548ece1d9d0efaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
         <definition>MRC_API MR_FindOverlappingSettings * MR_FindOverlappingSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_FindOverlappingSettings_DefaultConstruct</name>
@@ -408,10 +381,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="126" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="126" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="126" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="126" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a0b88e729bb69733766c408b514aa2bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
         <definition>MRC_API MR_FindOverlappingSettings * MR_FindOverlappingSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_FindOverlappingSettings_DefaultConstructArray</name>
@@ -426,10 +399,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="131" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="131" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="131" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="131" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1af43850fe714ab4c66d1d598bfe610fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
         <definition>MRC_API MR_FindOverlappingSettings * MR_FindOverlappingSettings_ConstructFrom</definition>
         <argsstring>(float maxDistSq, float maxNormalDot, float minAreaFraction, MR_PassBy pred_pass_by, MR_std_function_bool_from_MR_FaceId_MR_FaceId *pred, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_FindOverlappingSettings_ConstructFrom</name>
@@ -446,7 +419,7 @@
           <declname>minAreaFraction</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>pred_pass_by</declname>
         </param>
         <param>
@@ -454,7 +427,7 @@
           <declname>pred</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>cb_pass_by</declname>
         </param>
         <param>
@@ -464,14 +437,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FindOverlappingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pred</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" kindref="member">MR_FindOverlappingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FindOverlappingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pred</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" kindref="member">MR_FindOverlappingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="138" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="138" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="138" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="138" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a1bf8621e8173e5f1f563ba02a82d789d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
         <definition>MRC_API const MR_FindOverlappingSettings * MR_FindOverlappingSettings_OffsetPtr</definition>
         <argsstring>(const MR_FindOverlappingSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FindOverlappingSettings_OffsetPtr</name>
@@ -490,10 +463,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="142" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="142" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="142" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="142" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a05b0551e3e3c951553743e2ec843946c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
         <definition>MRC_API MR_FindOverlappingSettings * MR_FindOverlappingSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_FindOverlappingSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FindOverlappingSettings_OffsetMutablePtr</name>
@@ -512,15 +485,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="146" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="146" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="146" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="146" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1ac518fb32900766656598ba34f7446489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
         <definition>MRC_API MR_FindOverlappingSettings * MR_FindOverlappingSettings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_FindOverlappingSettings *_other)</argsstring>
         <name>MR_FindOverlappingSettings_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -534,10 +507,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="151" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="151" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="151" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="151" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FindOverlappingSettings_Destroy</definition>
         <argsstring>(const MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_Destroy</name>
@@ -546,16 +519,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FindOverlappingSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="154" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="154" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1ad951e366736b6b373212fdb53395ed26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FindOverlappingSettings_DestroyArray</definition>
         <argsstring>(const MR_FindOverlappingSettings *_this)</argsstring>
         <name>MR_FindOverlappingSettings_DestroyArray</name>
@@ -564,16 +537,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FindOverlappingSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="157" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="157" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a426b44dc99fb3e644684d5dfacf5f218" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref> *</type>
         <definition>MRC_API MR_FindOverlappingSettings * MR_FindOverlappingSettings_AssignFromAnother</definition>
         <argsstring>(MR_FindOverlappingSettings *_this, MR_PassBy _other_pass_by, MR_FindOverlappingSettings *_other)</argsstring>
         <name>MR_FindOverlappingSettings_AssignFromAnother</name>
@@ -582,7 +555,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -592,14 +565,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FindOverlappingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FindOverlappingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="164" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="164" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="164" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="164" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MROverlappingTris_8h_1a2bbaab755ce5b02a1c304d6e7fd82d0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_FaceBitSet_std_string * MR_findOverlappingTris</definition>
         <argsstring>(const MR_MeshPart *mp, const MR_FindOverlappingSettings *settings)</argsstring>
         <name>MR_findOverlappingTris</name>
@@ -614,11 +587,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds all triangles that have oppositely oriented close triangle in the mesh Generated from function <computeroutput>MR::findOverlappingTris</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_FaceBitSet_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds all triangles that have oppositely oriented close triangle in the mesh Generated from function <computeroutput>MR::findOverlappingTris</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__FaceBitSet__std__string_8h_1a49f25f78be01bd3b7e077cd474bb21d5" kindref="member">MR_expected_MR_FaceBitSet_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" line="171" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h" declline="171" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" line="171" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h" declline="171" declcolumn="46"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -628,8 +601,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -637,71 +610,71 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MROverlappingTris_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MROverlappingTris_8h_1a6aeecd4fac2aea90513510421de3f37b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FaceBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FaceBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_MR_FaceId_MR_FaceId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MROverlappingTris_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>suggestion:<sp/>multiply<sp/>it<sp/>on<sp/>mesh.getBoundingBox().size().lengthSq();</highlight></codeline>
-<codeline lineno="27" refid="MROverlappingTris_8h_1af64e7f9122dcc4276d00933352bd7198" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1af64e7f9122dcc4276d00933352bd7198" kindref="member">MR_FindOverlappingSettings_Get_maxDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>suggestion:<sp/>multiply<sp/>it<sp/>on<sp/>mesh.getBoundingBox().size().lengthSq();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MROverlappingTris_8h_1af64e7f9122dcc4276d00933352bd7198" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1af64e7f9122dcc4276d00933352bd7198" kindref="member">MR_FindOverlappingSettings_Get_maxDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>suggestion:<sp/>multiply<sp/>it<sp/>on<sp/>mesh.getBoundingBox().size().lengthSq();</highlight></codeline>
-<codeline lineno="33" refid="MROverlappingTris_8h_1a00a8dd2b2c1addbb812ff0bd7975613b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a00a8dd2b2c1addbb812ff0bd7975613b" kindref="member">MR_FindOverlappingSettings_Set_maxDistSq</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>suggestion:<sp/>multiply<sp/>it<sp/>on<sp/>mesh.getBoundingBox().size().lengthSq();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MROverlappingTris_8h_1a00a8dd2b2c1addbb812ff0bd7975613b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a00a8dd2b2c1addbb812ff0bd7975613b" kindref="member">MR_FindOverlappingSettings_Set_maxDistSq</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>suggestion:<sp/>multiply<sp/>it<sp/>on<sp/>mesh.getBoundingBox().size().lengthSq();</highlight></codeline>
-<codeline lineno="40" refid="MROverlappingTris_8h_1a10411015707b34c1388c3aa8f14c52bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1a10411015707b34c1388c3aa8f14c52bb" kindref="member">MR_FindOverlappingSettings_GetMutable_maxDistSq</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>suggestion:<sp/>multiply<sp/>it<sp/>on<sp/>mesh.getBoundingBox().size().lengthSq();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MROverlappingTris_8h_1a10411015707b34c1388c3aa8f14c52bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1a10411015707b34c1388c3aa8f14c52bb" kindref="member">MR_FindOverlappingSettings_GetMutable_maxDistSq</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MROverlappingTris_8h_1a07d249129b85a46ffec0a7bc4cd29d1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1a07d249129b85a46ffec0a7bc4cd29d1a" kindref="member">MR_FindOverlappingSettings_Get_maxNormalDot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="MROverlappingTris_8h_1a07d249129b85a46ffec0a7bc4cd29d1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1a07d249129b85a46ffec0a7bc4cd29d1a" kindref="member">MR_FindOverlappingSettings_Get_maxNormalDot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MROverlappingTris_8h_1a6dda198266fb162294ecd70038771cca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a6dda198266fb162294ecd70038771cca" kindref="member">MR_FindOverlappingSettings_Set_maxNormalDot</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="53" refid="MROverlappingTris_8h_1a6dda198266fb162294ecd70038771cca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a6dda198266fb162294ecd70038771cca" kindref="member">MR_FindOverlappingSettings_Set_maxNormalDot</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MROverlappingTris_8h_1a3186caaa2b7e5c317998bffc52ac9e3b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1a3186caaa2b7e5c317998bffc52ac9e3b" kindref="member">MR_FindOverlappingSettings_GetMutable_maxNormalDot</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60" refid="MROverlappingTris_8h_1a3186caaa2b7e5c317998bffc52ac9e3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1a3186caaa2b7e5c317998bffc52ac9e3b" kindref="member">MR_FindOverlappingSettings_GetMutable_maxNormalDot</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MROverlappingTris_8h_1a80c7d590c5cf0394f8be8a65acfc6d41" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1a80c7d590c5cf0394f8be8a65acfc6d41" kindref="member">MR_FindOverlappingSettings_Get_minAreaFraction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67" refid="MROverlappingTris_8h_1a80c7d590c5cf0394f8be8a65acfc6d41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1a80c7d590c5cf0394f8be8a65acfc6d41" kindref="member">MR_FindOverlappingSettings_Get_minAreaFraction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MROverlappingTris_8h_1aa5e2579fcf28d3a65b1f87d69286780e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1aa5e2579fcf28d3a65b1f87d69286780e" kindref="member">MR_FindOverlappingSettings_Set_minAreaFraction</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="73" refid="MROverlappingTris_8h_1aa5e2579fcf28d3a65b1f87d69286780e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1aa5e2579fcf28d3a65b1f87d69286780e" kindref="member">MR_FindOverlappingSettings_Set_minAreaFraction</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MROverlappingTris_8h_1ac770a43e4517d42b62968e0266bf1327" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1ac770a43e4517d42b62968e0266bf1327" kindref="member">MR_FindOverlappingSettings_GetMutable_minAreaFraction</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80" refid="MROverlappingTris_8h_1ac770a43e4517d42b62968e0266bf1327" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROverlappingTris_8h_1ac770a43e4517d42b62968e0266bf1327" kindref="member">MR_FindOverlappingSettings_GetMutable_minAreaFraction</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MROverlappingTris_8h_1ae72a5b16588ab7f487b0ceb4c41b0831" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/>*<ref refid="MROverlappingTris_8h_1ae72a5b16588ab7f487b0ceb4c41b0831" kindref="member">MR_FindOverlappingSettings_Get_pred</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87" refid="MROverlappingTris_8h_1ae72a5b16588ab7f487b0ceb4c41b0831" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/>*<ref refid="MROverlappingTris_8h_1ae72a5b16588ab7f487b0ceb4c41b0831" kindref="member">MR_FindOverlappingSettings_Get_pred</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MROverlappingTris_8h_1adf6b1efe026fb0141b67b535c11e1143" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1adf6b1efe026fb0141b67b535c11e1143" kindref="member">MR_FindOverlappingSettings_Set_pred</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="94" refid="MROverlappingTris_8h_1adf6b1efe026fb0141b67b535c11e1143" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1adf6b1efe026fb0141b67b535c11e1143" kindref="member">MR_FindOverlappingSettings_Set_pred</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MROverlappingTris_8h_1a40a617e81c6e168827192ad96b210285" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/>*<ref refid="MROverlappingTris_8h_1a40a617e81c6e168827192ad96b210285" kindref="member">MR_FindOverlappingSettings_GetMutable_pred</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101" refid="MROverlappingTris_8h_1a40a617e81c6e168827192ad96b210285" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/>*<ref refid="MROverlappingTris_8h_1a40a617e81c6e168827192ad96b210285" kindref="member">MR_FindOverlappingSettings_GetMutable_pred</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MROverlappingTris_8h_1a96f0556c1876863d594338419c4092dd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROverlappingTris_8h_1a96f0556c1876863d594338419c4092dd" kindref="member">MR_FindOverlappingSettings_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108" refid="MROverlappingTris_8h_1a96f0556c1876863d594338419c4092dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROverlappingTris_8h_1a96f0556c1876863d594338419c4092dd" kindref="member">MR_FindOverlappingSettings_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MROverlappingTris_8h_1a7236582b839fccdb339bcbe8c61deed9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a7236582b839fccdb339bcbe8c61deed9" kindref="member">MR_FindOverlappingSettings_Set_cb</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="115" refid="MROverlappingTris_8h_1a7236582b839fccdb339bcbe8c61deed9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a7236582b839fccdb339bcbe8c61deed9" kindref="member">MR_FindOverlappingSettings_Set_cb</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MROverlappingTris_8h_1adcbf3e333357db479185f1727f51d779" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROverlappingTris_8h_1adcbf3e333357db479185f1727f51d779" kindref="member">MR_FindOverlappingSettings_GetMutable_cb</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122" refid="MROverlappingTris_8h_1adcbf3e333357db479185f1727f51d779" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROverlappingTris_8h_1adcbf3e333357db479185f1727f51d779" kindref="member">MR_FindOverlappingSettings_GetMutable_cb</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MROverlappingTris_8h_1a8448e341144518fbb548ece1d9d0efaa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a8448e341144518fbb548ece1d9d0efaa" kindref="member">MR_FindOverlappingSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126" refid="MROverlappingTris_8h_1a8448e341144518fbb548ece1d9d0efaa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a8448e341144518fbb548ece1d9d0efaa" kindref="member">MR_FindOverlappingSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MROverlappingTris_8h_1a0b88e729bb69733766c408b514aa2bb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a0b88e729bb69733766c408b514aa2bb5" kindref="member">MR_FindOverlappingSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="131" refid="MROverlappingTris_8h_1a0b88e729bb69733766c408b514aa2bb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a0b88e729bb69733766c408b514aa2bb5" kindref="member">MR_FindOverlappingSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MROverlappingTris_8h_1af43850fe714ab4c66d1d598bfe610fd6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1af43850fe714ab4c66d1d598bfe610fd6" kindref="member">MR_FindOverlappingSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxNormalDot,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minAreaFraction,<sp/>MR_PassBy<sp/>pred_pass_by,<sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/>*pred,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="138" refid="MROverlappingTris_8h_1af43850fe714ab4c66d1d598bfe610fd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1af43850fe714ab4c66d1d598bfe610fd6" kindref="member">MR_FindOverlappingSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxNormalDot,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minAreaFraction,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>pred_pass_by,<sp/><ref refid="MROverlappingTris_8h_1aa877810c44f69df2d226b9e030b53faa" kindref="member">MR_std_function_bool_from_MR_FaceId_MR_FaceId</ref><sp/>*pred,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MROverlappingTris_8h_1a1bf8621e8173e5f1f563ba02a82d789d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a1bf8621e8173e5f1f563ba02a82d789d" kindref="member">MR_FindOverlappingSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="142" refid="MROverlappingTris_8h_1a1bf8621e8173e5f1f563ba02a82d789d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a1bf8621e8173e5f1f563ba02a82d789d" kindref="member">MR_FindOverlappingSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MROverlappingTris_8h_1a05b0551e3e3c951553743e2ec843946c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a05b0551e3e3c951553743e2ec843946c" kindref="member">MR_FindOverlappingSettings_OffsetMutablePtr</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="146" refid="MROverlappingTris_8h_1a05b0551e3e3c951553743e2ec843946c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a05b0551e3e3c951553743e2ec843946c" kindref="member">MR_FindOverlappingSettings_OffsetMutablePtr</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="MROverlappingTris_8h_1ac518fb32900766656598ba34f7446489" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1ac518fb32900766656598ba34f7446489" kindref="member">MR_FindOverlappingSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="151" refid="MROverlappingTris_8h_1ac518fb32900766656598ba34f7446489" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1ac518fb32900766656598ba34f7446489" kindref="member">MR_FindOverlappingSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" kindref="member">MR_FindOverlappingSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154" refid="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" kindref="member">MR_FindOverlappingSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MROverlappingTris_8h_1ad951e366736b6b373212fdb53395ed26" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1ad951e366736b6b373212fdb53395ed26" kindref="member">MR_FindOverlappingSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157" refid="MROverlappingTris_8h_1ad951e366736b6b373212fdb53395ed26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1ad951e366736b6b373212fdb53395ed26" kindref="member">MR_FindOverlappingSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MROverlappingTris_8h_1a426b44dc99fb3e644684d5dfacf5f218" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a426b44dc99fb3e644684d5dfacf5f218" kindref="member">MR_FindOverlappingSettings_AssignFromAnother</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="164" refid="MROverlappingTris_8h_1a426b44dc99fb3e644684d5dfacf5f218" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*<ref refid="MROverlappingTris_8h_1a426b44dc99fb3e644684d5dfacf5f218" kindref="member">MR_FindOverlappingSettings_AssignFromAnother</ref>(<ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MROverlappingTris_8h_1a2bbaab755ce5b02a1c304d6e7fd82d0e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MROverlappingTris_8h_1a2bbaab755ce5b02a1c304d6e7fd82d0e" kindref="member">MR_findOverlappingTris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="171" refid="MROverlappingTris_8h_1a2bbaab755ce5b02a1c304d6e7fd82d0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MROverlappingTris_8h_1a2bbaab755ce5b02a1c304d6e7fd82d0e" kindref="member">MR_findOverlappingTris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROverlappingTris_8h_1a0c1a5be4d33252d042fbdba932462d18" kindref="member">MR_FindOverlappingSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="174"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROverlappingTris.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROverlappingTris.h"/>
   </compounddef>
 </doxygen>

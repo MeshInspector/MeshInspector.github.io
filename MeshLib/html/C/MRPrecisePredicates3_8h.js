@@ -1,13 +1,10 @@
 var MRPrecisePredicates3_8h =
 [
-    [ "MR_Box3d", "MRPrecisePredicates3_8h.html#a6cf9a7d704c7c9de33ec858bf8a54856", null ],
-    [ "MR_CoordinateConverters", "MRPrecisePredicates3_8h.html#a1d5f64a5e4478ee2148c84427aaaf552", null ],
     [ "MR_PreciseVertCoords", "MRPrecisePredicates3_8h.html#acf8295b8fee8090e376d3d1c18eb3356", null ],
     [ "MR_std_array_MR_PreciseVertCoords_4", "MRPrecisePredicates3_8h.html#afbd71da17cb8b105d2507c528d7a841e", null ],
     [ "MR_std_array_MR_PreciseVertCoords_5", "MRPrecisePredicates3_8h.html#a19d1c83619a5f85c59e93ca89af7b70f", null ],
     [ "MR_std_array_MR_PreciseVertCoords_8", "MRPrecisePredicates3_8h.html#a681fec384dfcea4b7158ec1b4edf50b0", null ],
     [ "MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref", "MRPrecisePredicates3_8h.html#af8e03eb68c4b919e1505cede068d6729", null ],
-    [ "MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref", "MRPrecisePredicates3_8h.html#a5926f17bfcecf57ef54dbdaae762d53a", null ],
     [ "MR_std_optional_MR_Vector3i", "MRPrecisePredicates3_8h.html#a469fa520597b79e2e4f047cb3a6cb55a", null ],
     [ "MR_TriangleSegmentIntersectResult", "MRPrecisePredicates3_8h.html#a2fdac89a858155a824599baf2b62c690", null ],
     [ "MR_CoordinateConverters_AssignFromAnother", "MRPrecisePredicates3_8h.html#a32afb87513279afdade2d9b2860489bf", null ],

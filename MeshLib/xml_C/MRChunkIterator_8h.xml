@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChunkIterator_8h" kind="file" language="C++">
     <compoundname>MRChunkIterator.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,22 +14,33 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -39,12 +50,13 @@
         <argsstring></argsstring>
         <name>MR_IteratorRange_MR_ChunkIterator</name>
         <briefdescription>
+<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&lt;MR::ChunkIterator&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="13" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="13" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" prot="public" static="no">
         <type>struct <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref></type>
@@ -54,11 +66,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>array chunk representation Generated from class <computeroutput>MR::Chunk</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>array chunk representation Generated from class <computeroutput>MR::Chunk</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="19" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="19" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" prot="public" static="no">
         <type>struct <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref></type>
@@ -68,16 +80,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>iterator class for array chunks Generated from class <computeroutput>MR::ChunkIterator</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>iterator class for array chunks Generated from class <computeroutput>MR::ChunkIterator</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="24" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="24" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRChunkIterator_8h_1abe55eb90a40bd72e010c6557a607010e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API const MR_uint64_t * MR_Chunk_Get_offset</definition>
         <argsstring>(const MR_Chunk *_this)</argsstring>
         <name>MR_Chunk_Get_offset</name>
@@ -92,10 +104,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="31" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="31" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="31" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="31" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a86d17038f9f20a5b5041a2a6ad0655c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Chunk_Set_offset</definition>
         <argsstring>(MR_Chunk *_this, MR_uint64_t value)</argsstring>
         <name>MR_Chunk_Set_offset</name>
@@ -104,20 +116,20 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>chunk offset Modifies a member variable of class <computeroutput>MR::Chunk</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>offset</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>offset</computeroutput>. </para>
+<para>chunk offset Modifies a member variable of class <computeroutput>MR::Chunk</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>offset</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>offset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="38" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="38" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1ae5aae965c8e8394533c5c22eb8264b03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API MR_uint64_t * MR_Chunk_GetMutable_offset</definition>
         <argsstring>(MR_Chunk *_this)</argsstring>
         <name>MR_Chunk_GetMutable_offset</name>
@@ -132,10 +144,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="45" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="45" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="45" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="45" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a3624238b057fd91d79cd02a504db63e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API const MR_uint64_t * MR_Chunk_Get_size</definition>
         <argsstring>(const MR_Chunk *_this)</argsstring>
         <name>MR_Chunk_Get_size</name>
@@ -150,10 +162,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="52" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="52" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="52" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="52" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a90749f663885d2542e9d09ddf6d9da6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Chunk_Set_size</definition>
         <argsstring>(MR_Chunk *_this, MR_uint64_t value)</argsstring>
         <name>MR_Chunk_Set_size</name>
@@ -162,20 +174,20 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>chunk size; the last chunk&apos;s size may be smaller than other chunk&apos;s ones Modifies a member variable of class <computeroutput>MR::Chunk</computeroutput> named <computeroutput>size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>size</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>size</computeroutput>. </para>
+<para>chunk size; the last chunk&apos;s size may be smaller than other chunk&apos;s ones Modifies a member variable of class <computeroutput>MR::Chunk</computeroutput> named <computeroutput>size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>size</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>size</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="59" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="59" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a796676797456c4a567b23d7771cbc037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API MR_uint64_t * MR_Chunk_GetMutable_size</definition>
         <argsstring>(MR_Chunk *_this)</argsstring>
         <name>MR_Chunk_GetMutable_size</name>
@@ -190,10 +202,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="66" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="66" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1aaebea3819e9942ffa475a5333a28c2fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API MR_Chunk * MR_Chunk_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Chunk_DefaultConstruct</name>
@@ -207,10 +219,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="70" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="70" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="70" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="70" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a48125cdf5706c3858299b28eeba6c1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API MR_Chunk * MR_Chunk_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Chunk_DefaultConstructArray</name>
@@ -225,32 +237,32 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="75" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="75" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="75" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="75" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1ab235abd9faee4e942047924b2c978fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API MR_Chunk * MR_Chunk_ConstructFrom</definition>
         <argsstring>(MR_uint64_t offset, MR_uint64_t size)</argsstring>
         <name>MR_Chunk_ConstructFrom</name>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>offset</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>size</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Chunk</computeroutput> elementwise. The reference to the parameter <computeroutput>offset</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" kindref="member">MR_Chunk_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Chunk</computeroutput> elementwise. The reference to the parameter <computeroutput>offset</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" kindref="member">MR_Chunk_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="82" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="82" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="82" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="82" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a5fae97dee1c0775efa9ba83e29cd4c61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API const MR_Chunk * MR_Chunk_OffsetPtr</definition>
         <argsstring>(const MR_Chunk *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Chunk_OffsetPtr</name>
@@ -269,10 +281,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="86" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="86" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="86" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="86" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a92b3fc33099acf0e60d8bde8ee5547e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API MR_Chunk * MR_Chunk_OffsetMutablePtr</definition>
         <argsstring>(MR_Chunk *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Chunk_OffsetMutablePtr</name>
@@ -291,10 +303,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="90" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="90" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="90" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="90" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a15f3a5438ed1233854b98bceac46e5c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API MR_Chunk * MR_Chunk_ConstructFromAnother</definition>
         <argsstring>(const MR_Chunk *_other)</argsstring>
         <name>MR_Chunk_ConstructFromAnother</name>
@@ -309,10 +321,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="96" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="96" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="96" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="96" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Chunk_Destroy</definition>
         <argsstring>(const MR_Chunk *_this)</argsstring>
         <name>MR_Chunk_Destroy</name>
@@ -321,16 +333,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Chunk</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="99" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="99" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a213ce7f1e6380427ab4a318f2bca9ab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Chunk_DestroyArray</definition>
         <argsstring>(const MR_Chunk *_this)</argsstring>
         <name>MR_Chunk_DestroyArray</name>
@@ -339,16 +351,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Chunk</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="102" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="102" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a895734c0a8a256df6870ad49b266c21a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API MR_Chunk * MR_Chunk_AssignFromAnother</definition>
         <argsstring>(MR_Chunk *_this, const MR_Chunk *_other)</argsstring>
         <name>MR_Chunk_AssignFromAnother</name>
@@ -363,14 +375,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Chunk::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Chunk::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="110" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="110" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="110" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="110" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1aedff0d05f80109940341898b12bb376c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API const MR_uint64_t * MR_ChunkIterator_Get_totalSize</definition>
         <argsstring>(const MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_Get_totalSize</name>
@@ -385,10 +397,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="116" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="116" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="116" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="116" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a327b6810c1f409bb9685ad3a25eb535e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChunkIterator_Set_totalSize</definition>
         <argsstring>(MR_ChunkIterator *_this, MR_uint64_t value)</argsstring>
         <name>MR_ChunkIterator_Set_totalSize</name>
@@ -397,20 +409,20 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>totalSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>totalSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>totalSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>totalSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>totalSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>totalSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="122" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a3d325a075e36ea9cc734eeb7ec242930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API MR_uint64_t * MR_ChunkIterator_GetMutable_totalSize</definition>
         <argsstring>(MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_GetMutable_totalSize</name>
@@ -425,10 +437,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="128" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="128" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="128" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="128" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a17085a472272bdb17635148c77f2118b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API const MR_uint64_t * MR_ChunkIterator_Get_chunkSize</definition>
         <argsstring>(const MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_Get_chunkSize</name>
@@ -443,10 +455,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="134" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="134" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="134" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="134" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a788f212863225d9f6156e31c4b3c86a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChunkIterator_Set_chunkSize</definition>
         <argsstring>(MR_ChunkIterator *_this, MR_uint64_t value)</argsstring>
         <name>MR_ChunkIterator_Set_chunkSize</name>
@@ -455,20 +467,20 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>chunkSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>chunkSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>chunkSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>chunkSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>chunkSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>chunkSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="140" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="140" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a36fc4e5ac3bcd90461748d462cf1bd60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API MR_uint64_t * MR_ChunkIterator_GetMutable_chunkSize</definition>
         <argsstring>(MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_GetMutable_chunkSize</name>
@@ -483,10 +495,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="146" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="146" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a64e7e83e417e1c0f115f38ddb81e1385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API const MR_uint64_t * MR_ChunkIterator_Get_overlap</definition>
         <argsstring>(const MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_Get_overlap</name>
@@ -501,10 +513,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="152" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="152" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="152" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="152" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1ac2577c6c61ee9229e9661eb100cb4877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChunkIterator_Set_overlap</definition>
         <argsstring>(MR_ChunkIterator *_this, MR_uint64_t value)</argsstring>
         <name>MR_ChunkIterator_Set_overlap</name>
@@ -513,20 +525,20 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>overlap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>overlap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>overlap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>overlap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="158" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="158" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a07fd454a205ea0c37246979b206d5c1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API MR_uint64_t * MR_ChunkIterator_GetMutable_overlap</definition>
         <argsstring>(MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_GetMutable_overlap</name>
@@ -541,10 +553,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="164" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="164" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="164" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="164" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a47fb9620c6f488893702793d40170e34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API const MR_uint64_t * MR_ChunkIterator_Get_index</definition>
         <argsstring>(const MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_Get_index</name>
@@ -559,10 +571,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="170" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="170" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="170" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="170" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a4cc5fb31575eae419b3f421160e1fa3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChunkIterator_Set_index</definition>
         <argsstring>(MR_ChunkIterator *_this, MR_uint64_t value)</argsstring>
         <name>MR_ChunkIterator_Set_index</name>
@@ -571,20 +583,20 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>index</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>index</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>index</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>index</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>index</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>index</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="176" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="176" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a0984beb98e5a9316545a5449f81872d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
         <definition>MRC_API MR_uint64_t * MR_ChunkIterator_GetMutable_index</definition>
         <argsstring>(MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_GetMutable_index</name>
@@ -599,10 +611,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="182" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="182" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="182" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="182" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a971786c2362cb35e2af853b055ace26d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_ChunkIterator * MR_ChunkIterator_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_ChunkIterator_DefaultConstruct</name>
@@ -616,10 +628,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="186" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="186" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="186" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="186" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a0e5b1ad946784d52cb5e9436985a2747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_ChunkIterator * MR_ChunkIterator_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_ChunkIterator_DefaultConstructArray</name>
@@ -634,40 +646,40 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="191" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="191" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="191" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="191" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1afbec33287bd89a62a9e28edf621aae0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_ChunkIterator * MR_ChunkIterator_ConstructFrom</definition>
         <argsstring>(MR_uint64_t totalSize, MR_uint64_t chunkSize, MR_uint64_t overlap, MR_uint64_t index)</argsstring>
         <name>MR_ChunkIterator_ConstructFrom</name>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>totalSize</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>chunkSize</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>overlap</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>index</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ChunkIterator</computeroutput> elementwise. The reference to the parameter <computeroutput>totalSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>chunkSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>overlap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>index</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" kindref="member">MR_ChunkIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ChunkIterator</computeroutput> elementwise. The reference to the parameter <computeroutput>totalSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>chunkSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>overlap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>index</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" kindref="member">MR_ChunkIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="200" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="200" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="200" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="200" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1aa8f5def72dd0bf443c3c38dfc57c2476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API const MR_ChunkIterator * MR_ChunkIterator_OffsetPtr</definition>
         <argsstring>(const MR_ChunkIterator *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChunkIterator_OffsetPtr</name>
@@ -686,10 +698,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="204" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="204" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="204" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="204" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1af48e5e92bade5789096b495532bd48e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_ChunkIterator * MR_ChunkIterator_OffsetMutablePtr</definition>
         <argsstring>(MR_ChunkIterator *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChunkIterator_OffsetMutablePtr</name>
@@ -708,10 +720,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="208" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="208" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="208" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="208" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1abcc0ad456da5cb20e46724fc510a3786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_ChunkIterator * MR_ChunkIterator_ConstructFromAnother</definition>
         <argsstring>(const MR_ChunkIterator *_other)</argsstring>
         <name>MR_ChunkIterator_ConstructFromAnother</name>
@@ -726,10 +738,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="214" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="214" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="214" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="214" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChunkIterator_Destroy</definition>
         <argsstring>(const MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_Destroy</name>
@@ -738,16 +750,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChunkIterator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="217" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="217" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a2158dedfda0ef58a3bf2baf67c25ce19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChunkIterator_DestroyArray</definition>
         <argsstring>(const MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_DestroyArray</name>
@@ -756,16 +768,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChunkIterator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="220" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="220" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1ab04117ae470aefcad523d6491c602d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_ChunkIterator * MR_ChunkIterator_AssignFromAnother</definition>
         <argsstring>(MR_ChunkIterator *_this, const MR_ChunkIterator *_other)</argsstring>
         <name>MR_ChunkIterator_AssignFromAnother</name>
@@ -780,14 +792,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChunkIterator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ChunkIterator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="228" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="228" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="228" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="228" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a529085e4bbfa58e55a968be3336ef889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_equal_MR_ChunkIterator</definition>
         <argsstring>(const MR_ChunkIterator *_this, const MR_ChunkIterator *other)</argsstring>
         <name>MR_equal_MR_ChunkIterator</name>
@@ -806,10 +818,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="233" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="233" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1ad75f9e9ee7cd56fb66248ec9c187368c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_ChunkIterator * MR_incr_MR_ChunkIterator</definition>
         <argsstring>(MR_ChunkIterator *_this)</argsstring>
         <name>MR_incr_MR_ChunkIterator</name>
@@ -824,10 +836,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="238" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="238" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="238" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="238" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a339688755ae103527d862e618d96d87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_ChunkIterator * MR_post_incr_MR_ChunkIterator</definition>
         <argsstring>(MR_ChunkIterator *_this)</argsstring>
         <name>MR_post_incr_MR_ChunkIterator</name>
@@ -842,10 +854,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="243" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="243" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="243" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="243" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1af5d34485827c5b5529ec0cc58bb41fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API MR_Chunk * MR_deref_MR_ChunkIterator</definition>
         <argsstring>(const MR_ChunkIterator *_this)</argsstring>
         <name>MR_deref_MR_ChunkIterator</name>
@@ -860,10 +872,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="249" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="249" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="249" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="249" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a3f392c421998faec48b8efa88fed10d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref> *</type>
         <definition>MRC_API MR_Chunk * MR_ChunkIterator_arrow</definition>
         <argsstring>(const MR_ChunkIterator *_this)</argsstring>
         <name>MR_ChunkIterator_arrow</name>
@@ -878,23 +890,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="254" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="254" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="254" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="254" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a18568deafec23e1645d3bee3920ef62a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_chunkCount</definition>
         <argsstring>(MR_uint64_t totalSize, MR_uint64_t chunkSize, const MR_uint64_t *overlap)</argsstring>
         <name>MR_chunkCount</name>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>totalSize</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>chunkSize</declname>
         </param>
         <param>
-          <type>const MR_uint64_t *</type>
+          <type>const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
           <declname>overlap</declname>
         </param>
         <briefdescription>
@@ -904,23 +916,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="259" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="259" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="259" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="259" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChunkIterator_8h_1a866eed6a802e939e3088148808b9bfad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref> *</type>
         <definition>MRC_API MR_IteratorRange_MR_ChunkIterator * MR_splitByChunks</definition>
         <argsstring>(MR_uint64_t totalSize, MR_uint64_t chunkSize, const MR_uint64_t *overlap)</argsstring>
         <name>MR_splitByChunks</name>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>totalSize</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>chunkSize</declname>
         </param>
         <param>
-          <type>const MR_uint64_t *</type>
+          <type>const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
           <declname>overlap</declname>
         </param>
         <briefdescription>
@@ -930,7 +942,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" line="265" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h" declline="265" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" line="265" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h" declline="265" declcolumn="43"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -940,8 +952,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -953,100 +965,100 @@
 <codeline lineno="13" refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIteratorRange.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRChunkIterator_8h_1abe55eb90a40bd72e010c6557a607010e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1abe55eb90a40bd72e010c6557a607010e" kindref="member">MR_Chunk_Get_offset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="31" refid="MRChunkIterator_8h_1abe55eb90a40bd72e010c6557a607010e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1abe55eb90a40bd72e010c6557a607010e" kindref="member">MR_Chunk_Get_offset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRChunkIterator_8h_1a86d17038f9f20a5b5041a2a6ad0655c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a86d17038f9f20a5b5041a2a6ad0655c3" kindref="member">MR_Chunk_Set_offset</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="38" refid="MRChunkIterator_8h_1a86d17038f9f20a5b5041a2a6ad0655c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a86d17038f9f20a5b5041a2a6ad0655c3" kindref="member">MR_Chunk_Set_offset</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRChunkIterator_8h_1ae5aae965c8e8394533c5c22eb8264b03" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1ae5aae965c8e8394533c5c22eb8264b03" kindref="member">MR_Chunk_GetMutable_offset</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45" refid="MRChunkIterator_8h_1ae5aae965c8e8394533c5c22eb8264b03" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1ae5aae965c8e8394533c5c22eb8264b03" kindref="member">MR_Chunk_GetMutable_offset</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRChunkIterator_8h_1a3624238b057fd91d79cd02a504db63e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a3624238b057fd91d79cd02a504db63e1" kindref="member">MR_Chunk_Get_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52" refid="MRChunkIterator_8h_1a3624238b057fd91d79cd02a504db63e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a3624238b057fd91d79cd02a504db63e1" kindref="member">MR_Chunk_Get_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRChunkIterator_8h_1a90749f663885d2542e9d09ddf6d9da6a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a90749f663885d2542e9d09ddf6d9da6a" kindref="member">MR_Chunk_Set_size</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="59" refid="MRChunkIterator_8h_1a90749f663885d2542e9d09ddf6d9da6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a90749f663885d2542e9d09ddf6d9da6a" kindref="member">MR_Chunk_Set_size</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRChunkIterator_8h_1a796676797456c4a567b23d7771cbc037" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a796676797456c4a567b23d7771cbc037" kindref="member">MR_Chunk_GetMutable_size</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66" refid="MRChunkIterator_8h_1a796676797456c4a567b23d7771cbc037" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a796676797456c4a567b23d7771cbc037" kindref="member">MR_Chunk_GetMutable_size</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRChunkIterator_8h_1aaebea3819e9942ffa475a5333a28c2fb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1aaebea3819e9942ffa475a5333a28c2fb" kindref="member">MR_Chunk_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70" refid="MRChunkIterator_8h_1aaebea3819e9942ffa475a5333a28c2fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1aaebea3819e9942ffa475a5333a28c2fb" kindref="member">MR_Chunk_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRChunkIterator_8h_1a48125cdf5706c3858299b28eeba6c1f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a48125cdf5706c3858299b28eeba6c1f3" kindref="member">MR_Chunk_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="75" refid="MRChunkIterator_8h_1a48125cdf5706c3858299b28eeba6c1f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a48125cdf5706c3858299b28eeba6c1f3" kindref="member">MR_Chunk_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRChunkIterator_8h_1ab235abd9faee4e942047924b2c978fac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1ab235abd9faee4e942047924b2c978fac" kindref="member">MR_Chunk_ConstructFrom</ref>(MR_uint64_t<sp/>offset,<sp/>MR_uint64_t<sp/>size);</highlight></codeline>
+<codeline lineno="82" refid="MRChunkIterator_8h_1ab235abd9faee4e942047924b2c978fac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1ab235abd9faee4e942047924b2c978fac" kindref="member">MR_Chunk_ConstructFrom</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>offset,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>size);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRChunkIterator_8h_1a5fae97dee1c0775efa9ba83e29cd4c61" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a5fae97dee1c0775efa9ba83e29cd4c61" kindref="member">MR_Chunk_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="86" refid="MRChunkIterator_8h_1a5fae97dee1c0775efa9ba83e29cd4c61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a5fae97dee1c0775efa9ba83e29cd4c61" kindref="member">MR_Chunk_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRChunkIterator_8h_1a92b3fc33099acf0e60d8bde8ee5547e6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a92b3fc33099acf0e60d8bde8ee5547e6" kindref="member">MR_Chunk_OffsetMutablePtr</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="90" refid="MRChunkIterator_8h_1a92b3fc33099acf0e60d8bde8ee5547e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a92b3fc33099acf0e60d8bde8ee5547e6" kindref="member">MR_Chunk_OffsetMutablePtr</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRChunkIterator_8h_1a15f3a5438ed1233854b98bceac46e5c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a15f3a5438ed1233854b98bceac46e5c1" kindref="member">MR_Chunk_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="96" refid="MRChunkIterator_8h_1a15f3a5438ed1233854b98bceac46e5c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a15f3a5438ed1233854b98bceac46e5c1" kindref="member">MR_Chunk_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" kindref="member">MR_Chunk_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99" refid="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" kindref="member">MR_Chunk_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRChunkIterator_8h_1a213ce7f1e6380427ab4a318f2bca9ab5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a213ce7f1e6380427ab4a318f2bca9ab5" kindref="member">MR_Chunk_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102" refid="MRChunkIterator_8h_1a213ce7f1e6380427ab4a318f2bca9ab5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a213ce7f1e6380427ab4a318f2bca9ab5" kindref="member">MR_Chunk_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRChunkIterator_8h_1a895734c0a8a256df6870ad49b266c21a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a895734c0a8a256df6870ad49b266c21a" kindref="member">MR_Chunk_AssignFromAnother</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="110" refid="MRChunkIterator_8h_1a895734c0a8a256df6870ad49b266c21a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a895734c0a8a256df6870ad49b266c21a" kindref="member">MR_Chunk_AssignFromAnother</ref>(<ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRChunkIterator_8h_1aedff0d05f80109940341898b12bb376c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1aedff0d05f80109940341898b12bb376c" kindref="member">MR_ChunkIterator_Get_totalSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116" refid="MRChunkIterator_8h_1aedff0d05f80109940341898b12bb376c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1aedff0d05f80109940341898b12bb376c" kindref="member">MR_ChunkIterator_Get_totalSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRChunkIterator_8h_1a327b6810c1f409bb9685ad3a25eb535e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a327b6810c1f409bb9685ad3a25eb535e" kindref="member">MR_ChunkIterator_Set_totalSize</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="122" refid="MRChunkIterator_8h_1a327b6810c1f409bb9685ad3a25eb535e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a327b6810c1f409bb9685ad3a25eb535e" kindref="member">MR_ChunkIterator_Set_totalSize</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRChunkIterator_8h_1a3d325a075e36ea9cc734eeb7ec242930" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a3d325a075e36ea9cc734eeb7ec242930" kindref="member">MR_ChunkIterator_GetMutable_totalSize</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128" refid="MRChunkIterator_8h_1a3d325a075e36ea9cc734eeb7ec242930" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a3d325a075e36ea9cc734eeb7ec242930" kindref="member">MR_ChunkIterator_GetMutable_totalSize</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRChunkIterator_8h_1a17085a472272bdb17635148c77f2118b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a17085a472272bdb17635148c77f2118b" kindref="member">MR_ChunkIterator_Get_chunkSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134" refid="MRChunkIterator_8h_1a17085a472272bdb17635148c77f2118b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a17085a472272bdb17635148c77f2118b" kindref="member">MR_ChunkIterator_Get_chunkSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRChunkIterator_8h_1a788f212863225d9f6156e31c4b3c86a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a788f212863225d9f6156e31c4b3c86a3" kindref="member">MR_ChunkIterator_Set_chunkSize</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="140" refid="MRChunkIterator_8h_1a788f212863225d9f6156e31c4b3c86a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a788f212863225d9f6156e31c4b3c86a3" kindref="member">MR_ChunkIterator_Set_chunkSize</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRChunkIterator_8h_1a36fc4e5ac3bcd90461748d462cf1bd60" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a36fc4e5ac3bcd90461748d462cf1bd60" kindref="member">MR_ChunkIterator_GetMutable_chunkSize</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146" refid="MRChunkIterator_8h_1a36fc4e5ac3bcd90461748d462cf1bd60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a36fc4e5ac3bcd90461748d462cf1bd60" kindref="member">MR_ChunkIterator_GetMutable_chunkSize</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRChunkIterator_8h_1a64e7e83e417e1c0f115f38ddb81e1385" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a64e7e83e417e1c0f115f38ddb81e1385" kindref="member">MR_ChunkIterator_Get_overlap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152" refid="MRChunkIterator_8h_1a64e7e83e417e1c0f115f38ddb81e1385" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a64e7e83e417e1c0f115f38ddb81e1385" kindref="member">MR_ChunkIterator_Get_overlap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158" refid="MRChunkIterator_8h_1ac2577c6c61ee9229e9661eb100cb4877" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ac2577c6c61ee9229e9661eb100cb4877" kindref="member">MR_ChunkIterator_Set_overlap</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="158" refid="MRChunkIterator_8h_1ac2577c6c61ee9229e9661eb100cb4877" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ac2577c6c61ee9229e9661eb100cb4877" kindref="member">MR_ChunkIterator_Set_overlap</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRChunkIterator_8h_1a07fd454a205ea0c37246979b206d5c1b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a07fd454a205ea0c37246979b206d5c1b" kindref="member">MR_ChunkIterator_GetMutable_overlap</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164" refid="MRChunkIterator_8h_1a07fd454a205ea0c37246979b206d5c1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a07fd454a205ea0c37246979b206d5c1b" kindref="member">MR_ChunkIterator_GetMutable_overlap</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRChunkIterator_8h_1a47fb9620c6f488893702793d40170e34" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a47fb9620c6f488893702793d40170e34" kindref="member">MR_ChunkIterator_Get_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170" refid="MRChunkIterator_8h_1a47fb9620c6f488893702793d40170e34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a47fb9620c6f488893702793d40170e34" kindref="member">MR_ChunkIterator_Get_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="MRChunkIterator_8h_1a4cc5fb31575eae419b3f421160e1fa3c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a4cc5fb31575eae419b3f421160e1fa3c" kindref="member">MR_ChunkIterator_Set_index</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="176" refid="MRChunkIterator_8h_1a4cc5fb31575eae419b3f421160e1fa3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a4cc5fb31575eae419b3f421160e1fa3c" kindref="member">MR_ChunkIterator_Set_index</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRChunkIterator_8h_1a0984beb98e5a9316545a5449f81872d2" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1a0984beb98e5a9316545a5449f81872d2" kindref="member">MR_ChunkIterator_GetMutable_index</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="182" refid="MRChunkIterator_8h_1a0984beb98e5a9316545a5449f81872d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRChunkIterator_8h_1a0984beb98e5a9316545a5449f81872d2" kindref="member">MR_ChunkIterator_GetMutable_index</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="MRChunkIterator_8h_1a971786c2362cb35e2af853b055ace26d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1a971786c2362cb35e2af853b055ace26d" kindref="member">MR_ChunkIterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186" refid="MRChunkIterator_8h_1a971786c2362cb35e2af853b055ace26d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1a971786c2362cb35e2af853b055ace26d" kindref="member">MR_ChunkIterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRChunkIterator_8h_1a0e5b1ad946784d52cb5e9436985a2747" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1a0e5b1ad946784d52cb5e9436985a2747" kindref="member">MR_ChunkIterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="191" refid="MRChunkIterator_8h_1a0e5b1ad946784d52cb5e9436985a2747" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1a0e5b1ad946784d52cb5e9436985a2747" kindref="member">MR_ChunkIterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRChunkIterator_8h_1afbec33287bd89a62a9e28edf621aae0c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1afbec33287bd89a62a9e28edf621aae0c" kindref="member">MR_ChunkIterator_ConstructFrom</ref>(MR_uint64_t<sp/>totalSize,<sp/>MR_uint64_t<sp/>chunkSize,<sp/>MR_uint64_t<sp/>overlap,<sp/>MR_uint64_t<sp/>index);</highlight></codeline>
+<codeline lineno="200" refid="MRChunkIterator_8h_1afbec33287bd89a62a9e28edf621aae0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1afbec33287bd89a62a9e28edf621aae0c" kindref="member">MR_ChunkIterator_ConstructFrom</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>totalSize,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>chunkSize,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>overlap,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>index);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRChunkIterator_8h_1aa8f5def72dd0bf443c3c38dfc57c2476" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1aa8f5def72dd0bf443c3c38dfc57c2476" kindref="member">MR_ChunkIterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="204" refid="MRChunkIterator_8h_1aa8f5def72dd0bf443c3c38dfc57c2476" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1aa8f5def72dd0bf443c3c38dfc57c2476" kindref="member">MR_ChunkIterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRChunkIterator_8h_1af48e5e92bade5789096b495532bd48e1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1af48e5e92bade5789096b495532bd48e1" kindref="member">MR_ChunkIterator_OffsetMutablePtr</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="208" refid="MRChunkIterator_8h_1af48e5e92bade5789096b495532bd48e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1af48e5e92bade5789096b495532bd48e1" kindref="member">MR_ChunkIterator_OffsetMutablePtr</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214" refid="MRChunkIterator_8h_1abcc0ad456da5cb20e46724fc510a3786" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1abcc0ad456da5cb20e46724fc510a3786" kindref="member">MR_ChunkIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="214" refid="MRChunkIterator_8h_1abcc0ad456da5cb20e46724fc510a3786" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1abcc0ad456da5cb20e46724fc510a3786" kindref="member">MR_ChunkIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" kindref="member">MR_ChunkIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="217" refid="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" kindref="member">MR_ChunkIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRChunkIterator_8h_1a2158dedfda0ef58a3bf2baf67c25ce19" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a2158dedfda0ef58a3bf2baf67c25ce19" kindref="member">MR_ChunkIterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="220" refid="MRChunkIterator_8h_1a2158dedfda0ef58a3bf2baf67c25ce19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a2158dedfda0ef58a3bf2baf67c25ce19" kindref="member">MR_ChunkIterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="MRChunkIterator_8h_1ab04117ae470aefcad523d6491c602d57" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1ab04117ae470aefcad523d6491c602d57" kindref="member">MR_ChunkIterator_AssignFromAnother</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="228" refid="MRChunkIterator_8h_1ab04117ae470aefcad523d6491c602d57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1ab04117ae470aefcad523d6491c602d57" kindref="member">MR_ChunkIterator_AssignFromAnother</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="MRChunkIterator_8h_1a529085e4bbfa58e55a968be3336ef889" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a529085e4bbfa58e55a968be3336ef889" kindref="member">MR_equal_MR_ChunkIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="233" refid="MRChunkIterator_8h_1a529085e4bbfa58e55a968be3336ef889" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a529085e4bbfa58e55a968be3336ef889" kindref="member">MR_equal_MR_ChunkIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRChunkIterator_8h_1ad75f9e9ee7cd56fb66248ec9c187368c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1ad75f9e9ee7cd56fb66248ec9c187368c" kindref="member">MR_incr_MR_ChunkIterator</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="238" refid="MRChunkIterator_8h_1ad75f9e9ee7cd56fb66248ec9c187368c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1ad75f9e9ee7cd56fb66248ec9c187368c" kindref="member">MR_incr_MR_ChunkIterator</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243" refid="MRChunkIterator_8h_1a339688755ae103527d862e618d96d87e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1a339688755ae103527d862e618d96d87e" kindref="member">MR_post_incr_MR_ChunkIterator</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243" refid="MRChunkIterator_8h_1a339688755ae103527d862e618d96d87e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1a339688755ae103527d862e618d96d87e" kindref="member">MR_post_incr_MR_ChunkIterator</ref>(<ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="249" refid="MRChunkIterator_8h_1af5d34485827c5b5529ec0cc58bb41fa3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1af5d34485827c5b5529ec0cc58bb41fa3" kindref="member">MR_deref_MR_ChunkIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="249" refid="MRChunkIterator_8h_1af5d34485827c5b5529ec0cc58bb41fa3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1af5d34485827c5b5529ec0cc58bb41fa3" kindref="member">MR_deref_MR_ChunkIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="MRChunkIterator_8h_1a3f392c421998faec48b8efa88fed10d5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a3f392c421998faec48b8efa88fed10d5" kindref="member">MR_ChunkIterator_arrow</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="254" refid="MRChunkIterator_8h_1a3f392c421998faec48b8efa88fed10d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*<ref refid="MRChunkIterator_8h_1a3f392c421998faec48b8efa88fed10d5" kindref="member">MR_ChunkIterator_arrow</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="MRChunkIterator_8h_1a18568deafec23e1645d3bee3920ef62a" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChunkIterator_8h_1a18568deafec23e1645d3bee3920ef62a" kindref="member">MR_chunkCount</ref>(MR_uint64_t<sp/>totalSize,<sp/>MR_uint64_t<sp/>chunkSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*overlap);</highlight></codeline>
+<codeline lineno="259" refid="MRChunkIterator_8h_1a18568deafec23e1645d3bee3920ef62a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChunkIterator_8h_1a18568deafec23e1645d3bee3920ef62a" kindref="member">MR_chunkCount</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>totalSize,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>chunkSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*overlap);</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265" refid="MRChunkIterator_8h_1a866eed6a802e939e3088148808b9bfad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1a866eed6a802e939e3088148808b9bfad" kindref="member">MR_splitByChunks</ref>(MR_uint64_t<sp/>totalSize,<sp/>MR_uint64_t<sp/>chunkSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*overlap);</highlight></codeline>
+<codeline lineno="265" refid="MRChunkIterator_8h_1a866eed6a802e939e3088148808b9bfad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*<ref refid="MRChunkIterator_8h_1a866eed6a802e939e3088148808b9bfad" kindref="member">MR_splitByChunks</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>totalSize,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>chunkSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*overlap);</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="268"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChunkIterator.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChunkIterator.h"/>
   </compounddef>
 </doxygen>

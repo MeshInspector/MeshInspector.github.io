@@ -1,14 +1,7 @@
 var MRPolylineTrimWithPlane_8h =
 [
     [ "MR_DividePolylineParameters", "MRPolylineTrimWithPlane_8h.html#a22e6670341a6bdb7bd5511b9a1b6688a", null ],
-    [ "MR_EdgeBitSet", "MRPolylineTrimWithPlane_8h.html#a0ab67259585b94fe4f3e06c70ba102f3", null ],
-    [ "MR_EdgeMap", "MRPolylineTrimWithPlane_8h.html#acf89b8158bff9cb2bf3196841138345f", null ],
-    [ "MR_Plane3f", "MRPolylineTrimWithPlane_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
-    [ "MR_Polyline3", "MRPolylineTrimWithPlane_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
-    [ "MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float", "MRPolylineTrimWithPlane_8h.html#a617f57058bc560d18faf7e059ea0f4e3", null ],
     [ "MR_std_vector_MR_EdgeSegment", "MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRPolylineTrimWithPlane_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_VertMap", "MRPolylineTrimWithPlane_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
     [ "MR_DividePolylineParameters_AssignFromAnother", "MRPolylineTrimWithPlane_8h.html#ac7d52d2291e16a56277a8e98cbd23018", null ],
     [ "MR_DividePolylineParameters_ConstructFrom", "MRPolylineTrimWithPlane_8h.html#a4b64df0f19c198ee692733fe1d3358fc", null ],
     [ "MR_DividePolylineParameters_ConstructFromAnother", "MRPolylineTrimWithPlane_8h.html#a4cebcbd980512b6c47ddd7a7dd544ce2", null ],

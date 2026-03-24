@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cuda" kind="class" language="C#" prot="public">
+    <compoundname>MR::Cuda</compoundname>
+    <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public">MR::Cuda::FastWindingNumber</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1PointsProjector" prot="public">MR::Cuda::PointsProjector</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1PointsToMeshProjector" prot="public">MR::Cuda::PointsToMeshProjector</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1a04b08f3d11b26042141dd3cd5033f6ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Cuda.isCudaAvailable</definition>
+        <argsstring>(MR.Misc.InOut&lt; int &gt;? driverVersion=null, MR.Misc.InOut&lt; int &gt;? runtimeVersion=null, MR.Misc.InOut&lt; int &gt;? computeMajor=null, MR.Misc.InOut&lt; int &gt;? computeMinor=null)</argsstring>
+        <name>isCudaAvailable</name>
+        <qualifiedname>MR.Cuda.isCudaAvailable</qualifiedname>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>driverVersion</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>runtimeVersion</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>computeMajor</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>computeMinor</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a04b08f3d11b26042141dd3cd5033f6ee" kindref="member">MR.Cuda.isCudaAvailable</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="13" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="13" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1aac586972c76d5a58dfd032e7d1060d8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ulong</type>
+        <definition>static ulong MR.Cuda.getCudaAvailableMemory</definition>
+        <argsstring>()</argsstring>
+        <name>getCudaAvailableMemory</name>
+        <qualifiedname>MR.Cuda.getCudaAvailableMemory</qualifiedname>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aac586972c76d5a58dfd032e7d1060d8e" kindref="member">MR.Cuda.getCudaAvailableMemory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="33" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a5904c95b5b911d6ac0b9539e238fa83f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ulong</type>
+        <definition>static ulong MR.Cuda.getCudaSafeMemoryLimit</definition>
+        <argsstring>()</argsstring>
+        <name>getCudaSafeMemoryLimit</name>
+        <qualifiedname>MR.Cuda.getCudaSafeMemoryLimit</qualifiedname>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a5904c95b5b911d6ac0b9539e238fa83f" kindref="member">MR.Cuda.getCudaSafeMemoryLimit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="44" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a69b1f402d08b3b324e0c77694a740101" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ulong</type>
+        <definition>static ulong MR.Cuda.maxBufferSize</definition>
+        <argsstring>(ulong availableBytes, ulong elementCount, ulong elementBytes)</argsstring>
+        <name>maxBufferSize</name>
+        <qualifiedname>MR.Cuda.maxBufferSize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>elementCount</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a69b1f402d08b3b324e0c77694a740101" kindref="member">MR.Cuda.maxBufferSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="55" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.Cuda.maxBufferSizeAlignedByBlock</definition>
+        <argsstring>(ulong availableBytes, in MR.Vector2i blockDims, ulong elementBytes)</argsstring>
+        <name>maxBufferSizeAlignedByBlock</name>
+        <qualifiedname>MR.Cuda.maxBufferSizeAlignedByBlock</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>blockDims</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" kindref="member">MR.Cuda.maxBufferSizeAlignedByBlock</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="67" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="67" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1aefb189df8f6d85fbf79e770d31a57360" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.Cuda.maxBufferSizeAlignedByBlock</definition>
+        <argsstring>(ulong availableBytes, in MR.Vector3i blockDims, ulong elementBytes)</argsstring>
+        <name>maxBufferSizeAlignedByBlock</name>
+        <qualifiedname>MR.Cuda.maxBufferSizeAlignedByBlock</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>blockDims</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" kindref="member">MR.Cuda.maxBufferSizeAlignedByBlock</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="80" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="80" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1ad3e17c83bdc91cabccc103c84ee2652c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
+        <definition>static unsafe MR.DistanceMap MR.Cuda.distanceMapFromContours</definition>
+        <argsstring>(MR.Const_Polyline2 polyline, MR.Const_ContourToDistanceMapParams params_)</argsstring>
+        <name>distanceMapFromContours</name>
+        <qualifiedname>MR.Cuda.distanceMapFromContours</qualifiedname>
+        <param>
+          <type>MR.Const_Polyline2</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>MR.Const_ContourToDistanceMapParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Computes distance of 2d contours according to <ref refid="classMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref> (works correctly only when withSign==false) Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ad3e17c83bdc91cabccc103c84ee2652c" kindref="member">MR.Cuda.distanceMapFromContours</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaContoursDistanceMap.cs" line="9" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaContoursDistanceMap.cs" bodystart="9" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1aba9a63934e6514252549752a4e216024" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.Cuda.distanceMapFromContoursHeapBytes</definition>
+        <argsstring>(MR.Const_Polyline2 polyline, MR.Const_ContourToDistanceMapParams params_)</argsstring>
+        <name>distanceMapFromContoursHeapBytes</name>
+        <qualifiedname>MR.Cuda.distanceMapFromContoursHeapBytes</qualifiedname>
+        <param>
+          <type>MR.Const_Polyline2</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>MR.Const_ContourToDistanceMapParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Computes memory consumption of distanceMapFromContours function Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aba9a63934e6514252549752a4e216024" kindref="member">MR.Cuda.distanceMapFromContoursHeapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaContoursDistanceMap.cs" line="23" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaContoursDistanceMap.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1ad69766bef468c8b9ce8fb77c1319cca2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
+        <definition>static unsafe MR.DistanceMap MR.Cuda.computeDistanceMap</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_MeshToDistanceMapParams params_, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, MR.Std.Vector_MRMeshTriPoint? outSamples=null)</argsstring>
+        <name>computeDistanceMap</name>
+        <qualifiedname>MR.Cuda.computeDistanceMap</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshToDistanceMapParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRMeshTriPoint?</type>
+          <declname>outSamples</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ad69766bef468c8b9ce8fb77c1319cca2" kindref="member">MR.Cuda.computeDistanceMap</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaMeshDistanceMap.cs" line="11" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaMeshDistanceMap.cs" bodystart="11" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a3ab27361d47f6d576bfb8fa27a8f9c37" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.Cuda.computeDistanceMapHeapBytes</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_MeshToDistanceMapParams params_, bool? needOutSamples=null)</argsstring>
+        <name>computeDistanceMapHeapBytes</name>
+        <qualifiedname>MR.Cuda.computeDistanceMapHeapBytes</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshToDistanceMapParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>needOutSamples</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Computes memory consumption of computeDistanceMap function Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a3ab27361d47f6d576bfb8fa27a8f9c37" kindref="member">MR.Cuda.computeDistanceMapHeapBytes</ref></computeroutput>. Parameter <computeroutput>needOutSamples</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaMeshDistanceMap.cs" line="26" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaMeshDistanceMap.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRPointsProjectionResult</type>
+        <definition>static unsafe MR.Std.Vector_MRPointsProjectionResult MR.Cuda.findProjectionOnPoints</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, MR.Std.Const_Vector_MRVector3f points, MR.Const_FindProjectionOnPointsSettings? settings=null)</argsstring>
+        <name>findProjectionOnPoints</name>
+        <qualifiedname>MR.Cuda.findProjectionOnPoints</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Const_FindProjectionOnPointsSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes the closest points on point cloud to given points Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" kindref="member">MR.Cuda.findProjectionOnPoints</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="263" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="263" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1ad7c3e99dda6dc43d2165d3b1143a9ae3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.Cuda.findProjectionOnPointsHeapBytes</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, ulong pointsCount)</argsstring>
+        <name>findProjectionOnPointsHeapBytes</name>
+        <qualifiedname>MR.Cuda.findProjectionOnPointsHeapBytes</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>pointsCount</declname>
+        </param>
+        <briefdescription>
+<para>returns the minimal amount of free GPU memory required for <ref refid="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" kindref="member">MR.Cuda.findProjectionOnPoints</ref> Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ad7c3e99dda6dc43d2165d3b1143a9ae3" kindref="member">MR.Cuda.findProjectionOnPointsHeapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="277" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="277" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref></type>
+        <definition>static unsafe MR.SimpleVolumeMinMax MR.Cuda.pointsToDistanceVolume</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.Const_PointsToDistanceVolumeParams params_)</argsstring>
+        <name>pointsToDistanceVolume</name>
+        <qualifiedname>MR.Cuda.pointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>MR.Const_PointsToDistanceVolumeParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>makes <ref refid="classMR_1_1SimpleVolume" kindref="compound">SimpleVolume</ref> filled with signed distances to points with normals Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" kindref="member">MR.Cuda.pointsToDistanceVolume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="9" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" bodystart="9" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1aa4424e8eec38230eb05046c5f5d8a96f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Cuda.pointsToDistanceVolumeByParts</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.Const_PointsToDistanceVolumeParams params_, MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromConstMRSimpleVolumeMinMaxRefInt addPart, int layerOverlap)</argsstring>
+        <name>pointsToDistanceVolumeByParts</name>
+        <qualifiedname>MR.Cuda.pointsToDistanceVolumeByParts</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>MR.Const_PointsToDistanceVolumeParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromConstMRSimpleVolumeMinMaxRefInt</type>
+          <declname>addPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <briefdescription>
+<para>makes <ref refid="classMR_1_1SimpleVolume" kindref="compound">SimpleVolume</ref> filled with signed distances to points with normals populate the volume by parts to the given callback Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aa4424e8eec38230eb05046c5f5d8a96f" kindref="member">MR.Cuda.pointsToDistanceVolumeByParts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="24" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" bodystart="24" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
+        <definition>static unsafe MR.VertScalars MR.Cuda.computeSkyViewFactor</definition>
+        <argsstring>(MR.Const_Mesh terrain, MR.Const_VertCoords samples, MR.Const_VertBitSet validSamples, MR.Std.Const_Vector_MRSkyPatch skyPatches, MR.BitSet? outSkyRays=null, MR.Std.Vector_MRMeshIntersectionResult? outIntersections=null)</argsstring>
+        <name>computeSkyViewFactor</name>
+        <qualifiedname>MR.Cuda.computeSkyViewFactor</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>terrain</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertCoords</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>validSamples</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRSkyPatch</type>
+          <declname>skyPatches</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref>?</type>
+          <declname>outSkyRays</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRMeshIntersectionResult?</type>
+          <declname>outIntersections</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes relative radiation in each valid sample point by emitting rays from that point in the sky: the radiation is 1.0f if all rays reach the sky not hitting the terrain; the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outSkyRays</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- optional output bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outIntersections</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- optional output vector of <ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref> for every valid sample point Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" kindref="member">MR.Cuda.computeSkyViewFactor</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSolarRadiation.cs" line="14" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSolarRadiation.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1acd8af53537c95be1eac56310bc9cd725" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></type>
+        <definition>static unsafe MR.BitSet MR.Cuda.findSkyRays</definition>
+        <argsstring>(MR.Const_Mesh terrain, MR.Const_VertCoords samples, MR.Const_VertBitSet validSamples, MR.Std.Const_Vector_MRSkyPatch skyPatches, MR.Std.Vector_MRMeshIntersectionResult? outIntersections=null)</argsstring>
+        <name>findSkyRays</name>
+        <qualifiedname>MR.Cuda.findSkyRays</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>terrain</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertCoords</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>validSamples</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRSkyPatch</type>
+          <declname>skyPatches</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRMeshIntersectionResult?</type>
+          <declname>outIntersections</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>In each valid sample point tests the rays from that point in the sky;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outIntersections</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- optional output vector of <ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref> for every valid sample point Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1acd8af53537c95be1eac56310bc9cd725" kindref="member">MR.Cuda.findSkyRays</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSolarRadiation.cs" line="28" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSolarRadiation.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1ab2b7f6383c91b4355a8e3efd50505461" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Cuda.negatePicture</definition>
+        <argsstring>(MR.Image image)</argsstring>
+        <name>negatePicture</name>
+        <qualifiedname>MR.Cuda.negatePicture</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ab2b7f6383c91b4355a8e3efd50505461" kindref="member">MR.Cuda.negatePicture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaTest.cs" line="9" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaTest.cs" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a8db36893e32eb473a8bb07f103afe1b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR.Cuda.loadMRCudaDll</definition>
+        <argsstring>()</argsstring>
+        <name>loadMRCudaDll</name>
+        <qualifiedname>MR.Cuda.loadMRCudaDll</qualifiedname>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a8db36893e32eb473a8bb07f103afe1b2" kindref="member">MR.Cuda.loadMRCudaDll</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaTest.cs" line="22" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaTest.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="4" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cuda_1ad69766bef468c8b9ce8fb77c1319cca2" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMap</name></member>
+      <member refid="classMR_1_1Cuda_1a3ab27361d47f6d576bfb8fa27a8f9c37" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMapHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeSkyViewFactor</name></member>
+      <member refid="classMR_1_1Cuda_1ad3e17c83bdc91cabccc103c84ee2652c" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>distanceMapFromContours</name></member>
+      <member refid="classMR_1_1Cuda_1aba9a63934e6514252549752a4e216024" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>distanceMapFromContoursHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>findProjectionOnPoints</name></member>
+      <member refid="classMR_1_1Cuda_1ad7c3e99dda6dc43d2165d3b1143a9ae3" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>findProjectionOnPointsHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1acd8af53537c95be1eac56310bc9cd725" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>findSkyRays</name></member>
+      <member refid="classMR_1_1Cuda_1aac586972c76d5a58dfd032e7d1060d8e" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>getCudaAvailableMemory</name></member>
+      <member refid="classMR_1_1Cuda_1a5904c95b5b911d6ac0b9539e238fa83f" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>getCudaSafeMemoryLimit</name></member>
+      <member refid="classMR_1_1Cuda_1a04b08f3d11b26042141dd3cd5033f6ee" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>isCudaAvailable</name></member>
+      <member refid="classMR_1_1Cuda_1a8db36893e32eb473a8bb07f103afe1b2" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>loadMRCudaDll</name></member>
+      <member refid="classMR_1_1Cuda_1a69b1f402d08b3b324e0c77694a740101" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSize</name></member>
+      <member refid="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSizeAlignedByBlock</name></member>
+      <member refid="classMR_1_1Cuda_1aefb189df8f6d85fbf79e770d31a57360" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSizeAlignedByBlock</name></member>
+      <member refid="classMR_1_1Cuda_1ab2b7f6383c91b4355a8e3efd50505461" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>negatePicture</name></member>
+      <member refid="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Cuda_1aa4424e8eec38230eb05046c5f5d8a96f" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolumeByParts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FeatureObject" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FeatureObject</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1VisualObject" prot="public" virt="non-virtual">mrmeshpy.VisualObject</basecompoundref>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17781" bodyend="17782"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17919" bodyend="17920"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17784" bodyend="17785"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17922" bodyend="17923"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17787" bodyend="17788"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17925" bodyend="17926"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17789" bodyend="17790"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17927" bodyend="17928"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17791" bodyend="17792"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17929" bodyend="17930"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17793" bodyend="17796"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17931" bodyend="17934"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a840b68101f6eb43e4abae6222e049566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17797" bodyend="17798"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17935" bodyend="17936"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a9bd28c315bbee7dcf28bf18da8c115bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17799" bodyend="17802"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17937" bodyend="17940"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1af5cd022e49cfeef46533032a24abb7c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17803" bodyend="17807"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17941" bodyend="17945"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a6920eada96b5b1f2f7084dbfd8d65fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17808" bodyend="17809"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17946" bodyend="17947"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a71bfd44645b5b2938d50aaeba643f6ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17810" bodyend="17811"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17948" bodyend="17949"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aa77a6dfcab6ca2c60ed2314e49e73786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17812" bodyend="17815"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17950" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17950" bodyend="17953"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a80d467fec3bbe81b1c9edc5acbd6c622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -333,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17816" bodyend="17817"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17954" bodyend="17955"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a3369428f8818e202162bd656aa2092da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17818" bodyend="17821"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17956" bodyend="17959"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a7ee1a9fb17182a6329dc58a61676c45c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
@@ -384,7 +384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17822" bodyend="17826"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17960" bodyend="17964"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aa76aebe3230f5fbf2ce7f408c12a7578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17827" bodyend="17831"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17965" bodyend="17969"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a0dd5541ee688b5c1de7d3467f7a7b47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17832" bodyend="17833"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17970" bodyend="17971"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a22a60dac2b4ce868dcb1a110c70e9686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17834" bodyend="17835"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17972" bodyend="17973"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a9c04ef615ba77572fd1034e4355a7084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -469,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17836" bodyend="17837"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17974" bodyend="17975"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1abb14605bd99443b1af7a33edff166d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -487,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17838" bodyend="17839"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17976" bodyend="17977"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1acccddaf8f0b6e89a653222c8b6e5624b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -507,7 +507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17840" bodyend="17843"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17978" bodyend="17981"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a7b7ed6a567132ae14467b9a6d12479ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -535,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17844" bodyend="17845"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17982" bodyend="17983"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
@@ -572,7 +572,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17846" bodyend="17850"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17984" bodyend="17988"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a53c03b6b1591522a7efbabcb3963309c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -598,7 +598,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17851" bodyend="17852"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17989" bodyend="17990"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a12a48864fde34a3b0a6f72b6f95fcc00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -629,7 +629,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17853" bodyend="17854"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17991" bodyend="17992"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a480f0e55188febfa611327e53e9f9038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -655,7 +655,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17855" bodyend="17856"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17993" bodyend="17994"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a2790c6551ffa765a85c99292e11c3560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -677,7 +677,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17857" bodyend="17858"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17995" bodyend="17996"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aa7412a85414788847a881e0c18c59878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -699,7 +699,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17859" bodyend="17860"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17997" bodyend="17998"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1ac56f7310a58bc5eaa32a7e739685f2b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -721,7 +721,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17861" bodyend="17862"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17999" bodyend="18000"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a3a61fc447facbe3a8c21ddd5207e0e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -743,7 +743,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17863" bodyend="17864"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18001" bodyend="18002"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1ae0106a4c6e67d8c7644d226f4cd45ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -765,7 +765,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17865" bodyend="17866"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18003" bodyend="18004"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a14cfdc55290f5ad1883488b6876811f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -787,7 +787,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17867" bodyend="17868"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18005" bodyend="18006"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a40a4acaefd1752b0e9359ab3876e97e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -809,7 +809,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17869" bodyend="17870"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18007" bodyend="18008"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a537928713294647267cf4d68345087b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -831,7 +831,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17871" bodyend="17872"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18009" bodyend="18010"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a2006a2111c8adb13fafa58f39df307d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -859,7 +859,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17873" bodyend="17874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18011" bodyend="18012"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a1d424208c478b75ec64eccd64a0d78d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -887,7 +887,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17875" bodyend="17876"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18013" bodyend="18014"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -913,7 +913,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17877" bodyend="17878"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18015" bodyend="18016"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1032,45 +1032,154 @@ An interface class which allows feature objects to share setters and getters on 
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17774" bodyend="17878"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17912" bodyend="18016"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4c9a5cdc889f952e88f15efc92859b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>addChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a628d57698bee030f4e37809eed20fdb6" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>addChildBefore</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a14c3c142ce5c7a92531fcf914b1ffea2" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>addTag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1db3f0240dda415f1f066fed72225e16" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a35f5a7bbb06be9169dbe752e0b8440e3" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>children</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3c285511171875eaa87d26a18bd45efc" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>children</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>className</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>cloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a567315111aee91b3dd5bfef4188b23b7" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>detachFromParent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>findCommonAncestor</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getAllSharedProperties</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a840b68101f6eb43e4abae6222e049566" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a9bd28c315bbee7dcf28bf18da8c115bc" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getBasePoint</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getColoringType</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1af5cd022e49cfeef46533032a24abb7c2" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getDecorationsColor</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a6920eada96b5b1f2f7084dbfd8d65fa0" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getInfoLines</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a71bfd44645b5b2938d50aaeba643f6ec" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getLineWidth</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1aa77a6dfcab6ca2c60ed2314e49e73786" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3eef5ed5fd88feb0b2e586d0b1c0e254" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getModelHash</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a80d467fec3bbe81b1c9edc5acbd6c622" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getNormal</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a3369428f8818e202162bd656aa2092da" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getPointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9b36e627e752037bbe0d6cfeee96dbaf" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getRedrawFlag</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a7ee1a9fb17182a6329dc58a61676c45c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getRotationMatrix</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1aa76aebe3230f5fbf2ce7f408c12a7578" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1aa1020074c1326a825c86467a0580791d" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSpecularStrength</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a0dd5541ee688b5c1de7d3467f7a7b47c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeatureAlphaLines</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a22a60dac2b4ce868dcb1a110c70e9686" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeatureAlphaMesh</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a9c04ef615ba77572fd1034e4355a7084" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeatureAlphaPoints</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1abb14605bd99443b1af7a33edff166d5f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeatureLineWidth</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1acccddaf8f0b6e89a653222c8b6e5624b" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a7b7ed6a567132ae14467b9a6d12479ea" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3270abd9924fa3f784d3105824979f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a21510ca05f3888f5db9ff0aae662c9d1" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a33d0fafc2423205d5a3ba75eae112655" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>isAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a5a2cb58be1a7e062e9c502295eb6ce23" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>isAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>isLocked</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>isParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>isSelected</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>parent</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa593f6befb32f6453133a516f1c863b8" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>removeAllChildren</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a50fdb1e10c8b57d176b21fd1224c1292" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>removeTag</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>renderForPicker</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>renderUi</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1abf55328c86b56d62b4b1654186f4f68f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>resetDirty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a69ef0caef1ec3fa51cab56ad9959bb22" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3f27a64bfcdec74242fdf571a687c94c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a53c03b6b1591522a7efbabcb3963309c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>resetXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a390de01f2ab8caa5e1d044458234a6d5" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>sameModels</name></member>
+      <member refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2db756ea98710dbbc11ae7d00752b069" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setAncillary</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setColoringType</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a12a48864fde34a3b0a6f72b6f95fcc00" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setDecorationsColor</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a480f0e55188febfa611327e53e9f9038" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a883cdf9eb84b10488087440af6534a26" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setGlobalVisibility</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a2790c6551ffa765a85c99292e11c3560" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setLocked</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1aa7412a85414788847a881e0c18c59878" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setPickable</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1ac56f7310a58bc5eaa32a7e739685f2b5" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setPointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSpecularStrength</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a3a61fc447facbe3a8c21ddd5207e0e41" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeatureAlphaLines</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1ae0106a4c6e67d8c7644d226f4cd45ee8" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeatureAlphaMesh</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a14cfdc55290f5ad1883488b6876811f2" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeatureAlphaPoints</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a40a4acaefd1752b0e9359ab3876e97e4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeatureLineWidth</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a537928713294647267cf4d68345087b4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setWorldXf</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a2006a2111c8adb13fafa58f39df307d8" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aac6bdfb45902aa99fc95799b508c57f5" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ab39f51bc5e295bf79bf21e09e8a4374b" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a81fe3b89047200dec9832c065dd92ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>sortChildren</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>StaticClassName</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>StaticTypeName</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a1d424208c478b75ec64eccd64a0d78d6" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a6c92cdb11df4d895c639f0e26dca1c83" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a12a90ffff0f3f0d2f6054e8e82a63679" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>tags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>toggleVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>visibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a0fe057c0f6fe9f8ee98bd8210faa983c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>worldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a157327fa8110ea13a8b12bf04748331d" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05ee8acaa199b194040b1613d4038012" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

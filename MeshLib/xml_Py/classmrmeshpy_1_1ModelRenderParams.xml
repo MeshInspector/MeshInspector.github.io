@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ModelRenderParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ModelRenderParams</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1ModelBaseRenderParams" prot="public" virt="non-virtual">mrmeshpy.ModelBaseRenderParams</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35986" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36263" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1ModelRenderParams_1ac6ef1d08cc36dc10973e4afcfdcc3b60" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35987" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36264" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1ModelRenderParams_1a9d45824dd61d02b33d1f8e349ca28fcc" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35988" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36265" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1ModelRenderParams_1ac6c0f48c98b6a5b060c7a0949a82279a" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35989" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36266" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -72,7 +72,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ModelRenderParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -87,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35992" bodyend="35993"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36269" bodyend="36270"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -97,7 +96,6 @@
         <argsstring>(self, ModelRenderParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ModelRenderParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -114,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35995" bodyend="35998"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36272" bodyend="36275"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelRenderParams_1a5927943d9f72232b33f047fdb93d3e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -134,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36000" bodyend="36003"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36277" bodyend="36280"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelRenderParams_1aaf433156f608c9d670c299cb3cdfe793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -156,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36005" bodyend="36006"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36282" bodyend="36283"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelRenderParams_1aa0899b1e1b23e572842781af487429e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix4f" kindref="compound">Matrix4f</ref></type>
@@ -176,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36008" bodyend="36011"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36285" bodyend="36288"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelRenderParams_1a35ed91bdaf6b0caef1ac994d54ed95ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -198,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36013" bodyend="36014"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36290" bodyend="36291"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelRenderParams_1abcd7e2a880901f4d0bb72995a85bb385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
@@ -218,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36016" bodyend="36019"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36293" bodyend="36296"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelRenderParams_1ae5deedbcae85c95fd12d58662e8de5bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -240,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36021" bodyend="36022"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36298" bodyend="36299"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelRenderParams_1a9f2e3a0c96bfd90abe35a228b668ca9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TransparencyMode" kindref="compound">TransparencyMode</ref></type>
@@ -260,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36024" bodyend="36027"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36301" bodyend="36304"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ModelRenderParams_1a70e77d5291df5ba9048414be23939d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -282,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36029" bodyend="36030"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36306" bodyend="36307"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -317,54 +315,49 @@ Mesh rendering parameters for primary rendering (as opposed to the picker).
         <link refid="classmrmeshpy_1_1ModelRenderParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="4" relation="usage">
-          <edgelabel>_offsetof_lightPos</edgelabel>
-          <edgelabel>_offsetof_normMatrixPtr</edgelabel>
-          <edgelabel>_offsetof_passMask</edgelabel>
-          <edgelabel>_offsetof_transparencyMode</edgelabel>
-        </childnode>
       </node>
       <node id="3">
         <label>mrmeshpy.BaseRenderParams</label>
         <link refid="classmrmeshpy_1_1BaseRenderParams"/>
-        <childnode refid="4" relation="usage">
-          <edgelabel>_offsetof_projMatrix</edgelabel>
-          <edgelabel>_offsetof_viewMatrix</edgelabel>
-          <edgelabel>_offsetof_viewport</edgelabel>
-          <edgelabel>_offsetof_viewportId</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.ModelBaseRenderParams</label>
         <link refid="classmrmeshpy_1_1ModelBaseRenderParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
-        <childnode refid="4" relation="usage">
-          <edgelabel>_offsetof_clipPlane</edgelabel>
-          <edgelabel>_offsetof_depthFunction</edgelabel>
-          <edgelabel>_offsetof_modelMatrix</edgelabel>
-        </childnode>
-      </node>
-      <node id="4">
-        <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35980" bodyend="36030"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36257" bodyend="36307"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1a1aefb9240bd73939f48077f69e7534a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_clipPlane</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1ade356b6819548e5c4c3d41f8038e9f11" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_depthFunction</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1afd00f77ba78d604ddb51f2230d051ba8" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_lightPos</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1adc1d147ef997cadfda305621b5702e95" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_modelMatrix</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1ac6ef1d08cc36dc10973e4afcfdcc3b60" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_normMatrixPtr</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1a9d45824dd61d02b33d1f8e349ca28fcc" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_passMask</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1af7997e808b6568af2a49c55a235c3857" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_projMatrix</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1ac6c0f48c98b6a5b060c7a0949a82279a" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_transparencyMode</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1ac31eb9426e51e8bdf9345f89b6011c35" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_viewMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a568dec1e206b4f44ccdc0aa769c26fc4" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a640000a5d2d184e97188790f3ec5c3d2" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>_offsetof_viewportId</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1ae92beac97e365f7d6538e863182e257b" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>clipPlane</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1a5927943d9f72232b33f047fdb93d3e26" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>lightPos</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1aaf433156f608c9d670c299cb3cdfe793" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>lightPos</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1a235b7a0ad2ece15baba598b369f4221a" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>modelMatrix</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1aa0899b1e1b23e572842781af487429e4" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>normMatrixPtr</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1a35ed91bdaf6b0caef1ac994d54ed95ab" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>normMatrixPtr</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1abcd7e2a880901f4d0bb72995a85bb385" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>passMask</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1ae5deedbcae85c95fd12d58662e8de5bc" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>passMask</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a66148c04dc295e2bdf7b7b622bf44ff2" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>projMatrix</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1a9f2e3a0c96bfd90abe35a228b668ca9f" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>transparencyMode</name></member>
       <member refid="classmrmeshpy_1_1ModelRenderParams_1a70e77d5291df5ba9048414be23939d17" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>transparencyMode</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a06a24f78b01ee76af109eec7fdd8a6e6" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a3151a01c38d5c2e60e7030dc94614922" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a6d55411a0fd13023b9bb7f1c0af1de4d" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1af45fd7caab5cc62075d65f1168bd1300" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>viewportId</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a44585bc0b0c20ddbf9fb174fe454473c" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelRenderParams</scope><name>viewportId</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

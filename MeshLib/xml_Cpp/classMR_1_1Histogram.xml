@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Histogram" kind="class" language="C++" prot="public">
     <compoundname>MR::Histogram</compoundname>
-    <includes refid="MRHistogram_8h" local="no">MRHistogram.h</includes>
+    <includes refid="MRHistogram_8h" local="no">MRMesh/MRHistogram.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga15f621762bad334bfe43bfaf4b5b7d83" kind="variable"><name>bins_</name></member>
       <member refid="group__GeneralGroup_1ga9751323300b9e28451f7f9fa6adf098d" kind="variable"><name>min_</name></member>
@@ -11,14 +11,14 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kind="function"><name>Histogram</name></member>
-      <member refid="group__GeneralGroup_1ga9987d6f205ec5eb085631e1d45e333b7" kind="function"><name>Histogram</name></member>
-      <member refid="group__GeneralGroup_1ga2b4f6ecb70d69c8ccba757095f5162cc" kind="function"><name>addSample</name></member>
-      <member refid="group__GeneralGroup_1gac1ebc3ae44e75437744d7f0b35a0dad5" kind="function"><name>addHistogram</name></member>
-      <member refid="group__GeneralGroup_1ga489a0a4c59abc3a2d4a5b3382fd7e4b3" kind="function"><name>getBins</name></member>
-      <member refid="group__GeneralGroup_1ga46da7c1b719682c2e39bfb89ee04eca3" kind="function"><name>getMin</name></member>
-      <member refid="group__GeneralGroup_1ga827e85fc6dbb381db1ecdd86cc85efc8" kind="function"><name>getMax</name></member>
-      <member refid="group__GeneralGroup_1gaa191601972d6382ef20f1b6fa9ad85a0" kind="function"><name>getBinId</name></member>
-      <member refid="group__GeneralGroup_1ga77d44fead356e682cf2c30805722b59c" kind="function"><name>getBinMinMax</name></member>
+      <member refid="group__GeneralGroup_1gad5ea2693d9db6b1e3a7b67617c339db0" kind="function"><name>Histogram</name></member>
+      <member refid="group__GeneralGroup_1gab826dc466fb10e173c94b9cf2f5c19be" kind="function"><name>addSample</name></member>
+      <member refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" kind="function"><name>addHistogram</name></member>
+      <member refid="group__GeneralGroup_1ga7f76d8d458118ec2a7e966bc9d00e576" kind="function"><name>getBins</name></member>
+      <member refid="group__GeneralGroup_1ga3881c7b843a4627bcb06716c07ccf9dc" kind="function"><name>getMin</name></member>
+      <member refid="group__GeneralGroup_1gaf9aa6fd5d961ef9d8be749d04462bb20" kind="function"><name>getMax</name></member>
+      <member refid="group__GeneralGroup_1ga09293cb2dee99d5947d104123d90b0a3" kind="function"><name>getBinId</name></member>
+      <member refid="group__GeneralGroup_1gae3c682af52ef9db6180d864329779bfc" kind="function"><name>getBinMinMax</name></member>
       <member refid="group__GeneralGroup_1ga4666262b73e1f92125d26cb27d2d5eca" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
@@ -26,20 +26,20 @@
     <detaileddescription>
 <para>Simple class for calculating histogram </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="13" bodyend="46"/>
+    <location file="MRMesh/MRHistogram.h" line="12" column="1" bodyfile="MRMesh/MRHistogram.h" bodystart="13" bodyend="46"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gac1ebc3ae44e75437744d7f0b35a0dad5" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addHistogram</name></member>
-      <member refid="group__GeneralGroup_1ga2b4f6ecb70d69c8ccba757095f5162cc" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addSample</name></member>
+      <member refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addHistogram</name></member>
+      <member refid="group__GeneralGroup_1gab826dc466fb10e173c94b9cf2f5c19be" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addSample</name></member>
       <member refid="group__GeneralGroup_1ga15f621762bad334bfe43bfaf4b5b7d83" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>bins_</name></member>
       <member refid="group__GeneralGroup_1ga97c4c672a329bfd1d51743c738ecbabd" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>binSize_</name></member>
-      <member refid="group__GeneralGroup_1gaa191601972d6382ef20f1b6fa9ad85a0" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBinId</name></member>
-      <member refid="group__GeneralGroup_1ga77d44fead356e682cf2c30805722b59c" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBinMinMax</name></member>
-      <member refid="group__GeneralGroup_1ga489a0a4c59abc3a2d4a5b3382fd7e4b3" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBins</name></member>
-      <member refid="group__GeneralGroup_1ga827e85fc6dbb381db1ecdd86cc85efc8" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getMax</name></member>
-      <member refid="group__GeneralGroup_1ga46da7c1b719682c2e39bfb89ee04eca3" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getMin</name></member>
+      <member refid="group__GeneralGroup_1ga09293cb2dee99d5947d104123d90b0a3" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBinId</name></member>
+      <member refid="group__GeneralGroup_1gae3c682af52ef9db6180d864329779bfc" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBinMinMax</name></member>
+      <member refid="group__GeneralGroup_1ga7f76d8d458118ec2a7e966bc9d00e576" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBins</name></member>
+      <member refid="group__GeneralGroup_1gaf9aa6fd5d961ef9d8be749d04462bb20" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getMax</name></member>
+      <member refid="group__GeneralGroup_1ga3881c7b843a4627bcb06716c07ccf9dc" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getMin</name></member>
       <member refid="group__GeneralGroup_1ga4666262b73e1f92125d26cb27d2d5eca" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
-      <member refid="group__GeneralGroup_1ga9987d6f205ec5eb085631e1d45e333b7" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+      <member refid="group__GeneralGroup_1gad5ea2693d9db6b1e3a7b67617c339db0" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
       <member refid="group__GeneralGroup_1ga249621b2451b634318652fbf88970b20" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>max_</name></member>
       <member refid="group__GeneralGroup_1ga9751323300b9e28451f7f9fa6adf098d" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>min_</name></member>
     </listofallmembers>

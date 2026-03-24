@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderPointsObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderPointsObject</compoundname>
     <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
-    <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;</derivedcompoundref>
-    <includes refid="MRRenderPointsObject_8h" local="no">MRRenderPointsObject.h</includes>
+    <includes refid="MRRenderPointsObject_8h" local="no">MRViewer/MRRenderPointsObject.h</includes>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga402f81a43c073fbc9f96cc00b7c5077c" kind="typedef"><name>GLuint</name></member>
     </sectiondef>
@@ -57,28 +56,10 @@
         <label>MR::IRenderObject</label>
         <link refid="classMR_1_1IRenderObject"/>
       </node>
-      <node id="4">
-        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectPoints, RenderPointsObject &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent"/>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR::RenderPointsObject</label>
         <link refid="classMR_1_1RenderPointsObject"/>
         <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;</label>
-        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
-        <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
@@ -94,7 +75,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="14" bodyend="69"/>
+    <location file="MRViewer/MRRenderPointsObject.h" line="13" column="1" bodyfile="MRViewer/MRRenderPointsObject.h" bodystart="14" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3b8aeb7199a7a44fa681ac40a963109e" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>bindPoints_</name></member>
       <member refid="group__GeneralGroup_1ga2b9f3c5d4353c49afd98c9e1e6f348c1" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>bindPointsPicker_</name></member>

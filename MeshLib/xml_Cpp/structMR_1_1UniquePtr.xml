@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UniquePtr" kind="struct" language="C++" prot="public">
     <compoundname>MR::UniquePtr</compoundname>
     <basecompoundref prot="public" virt="non-virtual">std::unique_ptr&lt; T &gt;</basecompoundref>
-    <includes refid="MRUniquePtr_8h" local="no">MRUniquePtr.h</includes>
+    <includes refid="MRUniquePtr_8h" local="no">MRMesh/MRUniquePtr.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -44,7 +44,7 @@
         <label>std::unique_ptr&lt; T &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" bodystart="15" bodyend="22"/>
+    <location file="MRMesh/MRUniquePtr.h" line="14" column="1" bodyfile="MRMesh/MRUniquePtr.h" bodystart="15" bodyend="22"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaab2ceb1171b2a26773ddd20b58e22a85" prot="public" virt="non-virtual"><scope>MR::UniquePtr</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga42efa327646696f0d3cafc2f14acb727" prot="public" virt="non-virtual"><scope>MR::UniquePtr</scope><name>operator=</name></member>

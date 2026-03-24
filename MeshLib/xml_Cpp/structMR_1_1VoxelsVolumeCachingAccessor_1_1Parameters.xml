@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::VoxelsVolumeCachingAccessor::Parameters</compoundname>
-    <includes refid="MRVoxelsVolumeCachingAccessor_8h" local="no">MRVoxelsVolumeCachingAccessor.h</includes>
+    <includes refid="MRVoxelsVolumeCachingAccessor_8h" local="no">MRVoxels/MRVoxelsVolumeCachingAccessor.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaf8a829af89a52b2fc7092ffa6f36f3e0" kind="variable"><name>preloadedLayerCount</name></member>
     </sectiondef>
@@ -10,7 +10,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="23" bodyend="26"/>
+    <location file="MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="22" column="5" bodyfile="MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="23" bodyend="26"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf8a829af89a52b2fc7092ffa6f36f3e0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor::Parameters</scope><name>preloadedLayerCount</name></member>
     </listofallmembers>

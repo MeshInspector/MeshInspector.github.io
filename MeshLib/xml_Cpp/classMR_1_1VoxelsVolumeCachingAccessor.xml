@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeCachingAccessor" kind="class" language="C++" prot="public">
     <compoundname>MR::VoxelsVolumeCachingAccessor</compoundname>
-    <includes refid="MRVoxelsVolumeCachingAccessor_8h" local="no">MRVoxelsVolumeCachingAccessor.h</includes>
+    <includes refid="MRVoxelsVolumeCachingAccessor_8h" local="no">MRVoxels/MRVoxelsVolumeCachingAccessor.h</includes>
     <innerclass refid="structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters" prot="public">MR::VoxelsVolumeCachingAccessor::Parameters</innerclass>
     <templateparamlist>
       <param>
@@ -37,7 +37,7 @@
     <detaileddescription>
 <para>This accessor first loads data for given number of layers in internal cache, and then returns values from the cache. Direct access to data outside of cache is not allowed. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="17" bodyend="120"/>
+    <location file="MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="16" column="1" bodyfile="MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="17" bodyend="120"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2eafb8ef604986b1b8fc8d79bb424792" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>accessor_</name></member>
       <member refid="group__GeneralGroup_1ga558587609465a7dd36240569f5891047" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>currentLayer</name></member>

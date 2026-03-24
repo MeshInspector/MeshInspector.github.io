@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Laplacian" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Laplacian</compoundname>
-    <innerclass refid="classmrmeshpy_1_1Laplacian_1_1RememberShape" prot="public">mrmeshpy::Laplacian::RememberShape</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Laplacian_1_1Attractor" prot="public">mrmeshpy::Laplacian::Attractor</innerclass>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a01c18de522ef5d4337a86a271591e9d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25320" bodyend="25321"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25387" bodyend="25388"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1ab24751ee0b489bd8995949094969da0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -50,7 +50,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25323" bodyend="25324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25390" bodyend="25391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1ab9e15cb10cc81c0cd98ad5971c643e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.addAttractor</definition>
+        <argsstring>(self, Laplacian.Attractor a)</argsstring>
+        <name>addAttractor</name>
+        <qualifiedname>mrmeshpy.Laplacian.addAttractor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Laplacian_1_1Attractor" kindref="compound">Laplacian.Attractor</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds one more attractor to the stored list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25392" bodyend="25395"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a74976cdf1db0e786256d485745725a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -65,12 +89,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>given fixed vertices, computes positions of remaining region vertices
+<para><verbatim>takes fixed vertex positions from the points vector passed to a constructor,
+computes and writes free vertex positions in the points vector passed to a constructor as well
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25325" bodyend="25328"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25396" bodyend="25400"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a798fff826171aeae8b689297df7b874f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -89,12 +114,38 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices
+<para><verbatim>takes fixed vertex scalars from the given field,
+computes and writes free vertex scalars in the given field as well
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25329" bodyend="25332"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25401" bodyend="25405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1acc40634927ba1072289ae3b471c87854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.applyToVector</definition>
+        <argsstring>(self, VertCoords points)</argsstring>
+        <name>applyToVector</name>
+        <qualifiedname>mrmeshpy.Laplacian.applyToVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>takes fixed vertex positions from the given points vector,
+computes and writes free vertex positions in the given points vector as well
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25406" bodyend="25410"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a7d9e2d2d3aacf175b748364a640c240a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -114,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25333" bodyend="25336"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25411" bodyend="25414"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a4f8471107ab24c092d9f4433137a7123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -144,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25338" bodyend="25342"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25416" bodyend="25420"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a6d27c2a94043d2a8efae6288902a9e5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -178,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25344" bodyend="25348"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25422" bodyend="25426"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a3679c8f277694985b452a72ea9a5cd3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -198,12 +249,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25349" bodyend="25352"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25427" bodyend="25430"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1accf5ca986168fc7ef7de3f018937b6dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1ab25bca66c5156873056d36f9aeb28b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Laplacian.init</definition>
-        <argsstring>(self, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass=&apos;VertexMass::Unit&apos;, Laplacian.RememberShape rem=&apos;Laplacian::RememberShape::Yes&apos;)</argsstring>
+        <argsstring>(self, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass=&apos;VertexMass::Unit&apos;, RememberShape rem=&apos;RememberShape::Yes&apos;)</argsstring>
         <name>init</name>
         <qualifiedname>mrmeshpy.Laplacian.init</qualifiedname>
         <param>
@@ -224,20 +275,111 @@
           <defval>&apos;<ref refid="classmrmeshpy_1_1VertexMass_1adbc5fb8f5b08837bd2e7640876531753" kindref="member">VertexMass::Unit</ref>&apos;</defval>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1Laplacian_1_1RememberShape" kindref="compound">Laplacian.RememberShape</ref></type>
+          <type><ref refid="classmrmeshpy_1_1RememberShape" kindref="compound">RememberShape</ref></type>
           <declname>rem</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a2072f8d66bba0d5f0a0dae409955dec8" kindref="member">Laplacian::RememberShape::Yes</ref>&apos;</defval>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1RememberShape_1ab424adad106e29292331caebfbc45e91" kindref="member">RememberShape::Yes</ref>&apos;</defval>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>initialize Laplacian for the region being deformed, here region properties are remembered and precomputed;
-\\param freeVerts must not include all vertices of a mesh connected component
+<para><verbatim>(re)initialize Laplacian for the region being deformed, here region properties are remembered and precomputed;
+\\param freeVerts must not include all vertices of a mesh connected component;
+\\param usePoints is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25353" bodyend="25357"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25431" bodyend="25436"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a02a0041d9ada1a0e0d6d35b9cb6377db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.initFromPoints</definition>
+        <argsstring>(self, VertCoords points, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass=&apos;VertexMass::Unit&apos;, RememberShape rem=&apos;RememberShape::Yes&apos;)</argsstring>
+        <name>initFromPoints</name>
+        <qualifiedname>mrmeshpy.Laplacian.initFromPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>freeVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref></type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref></type>
+          <declname>vmass</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1VertexMass_1adbc5fb8f5b08837bd2e7640876531753" kindref="member">VertexMass::Unit</ref>&apos;</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RememberShape" kindref="compound">RememberShape</ref></type>
+          <declname>rem</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1RememberShape_1ab424adad106e29292331caebfbc45e91" kindref="member">RememberShape::Yes</ref>&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as init() but uses the given points instead of ones passed to a constructor for weights computation and shape memory
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25437" bodyend="25440"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a19194855335e38994790a25008570eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.multVertexWeight</definition>
+        <argsstring>(self, VertId v, float factor)</argsstring>
+        <name>multVertexWeight</name>
+        <qualifiedname>mrmeshpy.Laplacian.multVertexWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>multiplies vertex equation&apos;s weight on the given factor
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25441" bodyend="25444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a473d35ed5b906e7e9fafc06fff258143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.Laplacian.points</definition>
+        <argsstring>(self)</argsstring>
+        <name>points</name>
+        <qualifiedname>mrmeshpy.Laplacian.points</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the vector of coordinates for which Laplacian was constructed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25445" bodyend="25448"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a397e9c7782643cb024e4dc759bae415a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -257,7 +399,47 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25358" bodyend="25361"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25449" bodyend="25452"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1aa41072443163d8150b3249b9e5b63329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.removeAllAttractors</definition>
+        <argsstring>(self)</argsstring>
+        <name>removeAllAttractors</name>
+        <qualifiedname>mrmeshpy.Laplacian.removeAllAttractors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets all attractors added previously
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25453" bodyend="25456"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1ab2de54cbe949f98f111b0c2f1966e8af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+        <definition> MeshTopology mrmeshpy.Laplacian.topology</definition>
+        <argsstring>(self)</argsstring>
+        <name>topology</name>
+        <qualifiedname>mrmeshpy.Laplacian.topology</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the topology for which Laplacian was constructed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25457" bodyend="25460"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a2f08ce89d085f4800192cfc97ea15938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -277,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25362" bodyend="25365"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25461" bodyend="25464"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -295,18 +477,25 @@ Then steps 1-4 or 2-4 can be repeated.
 \\snippet cpp-samples/LaplacianDeformation.cpp 0
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25269" bodyend="25365"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25326" bodyend="25464"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Laplacian_1a01c18de522ef5d4337a86a271591e9d9" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1ab24751ee0b489bd8995949094969da0e" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1ab9e15cb10cc81c0cd98ad5971c643e9f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>addAttractor</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a74976cdf1db0e786256d485745725a78" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>apply</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a798fff826171aeae8b689297df7b874f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>applyToScalar</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1acc40634927ba1072289ae3b471c87854" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>applyToVector</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a7d9e2d2d3aacf175b748364a640c240a" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>firstLayerFixedVerts</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a4f8471107ab24c092d9f4433137a7123" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>fixVertex</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a6d27c2a94043d2a8efae6288902a9e5d" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>fixVertex</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a3679c8f277694985b452a72ea9a5cd3f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>freeVerts</name></member>
-      <member refid="classmrmeshpy_1_1Laplacian_1accf5ca986168fc7ef7de3f018937b6dc" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>init</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1ab25bca66c5156873056d36f9aeb28b18" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>init</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a02a0041d9ada1a0e0d6d35b9cb6377db" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>initFromPoints</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a19194855335e38994790a25008570eaf" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>multVertexWeight</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a473d35ed5b906e7e9fafc06fff258143" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>points</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a397e9c7782643cb024e4dc759bae415a" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1aa41072443163d8150b3249b9e5b63329" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>removeAllAttractors</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1ab2de54cbe949f98f111b0c2f1966e8af" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>topology</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a2f08ce89d085f4800192cfc97ea15938" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>updateSolver</name></member>
     </listofallmembers>
   </compounddef>

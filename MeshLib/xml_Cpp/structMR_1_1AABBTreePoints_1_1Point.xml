@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1AABBTreePoints_1_1Point" kind="struct" language="C++" prot="public">
     <compoundname>MR::AABBTreePoints::Point</compoundname>
-    <includes refid="MRAABBTreePoints_8h" local="no">MRAABBTreePoints.h</includes>
+    <includes refid="MRAABBTreePoints_8h" local="no">MRMesh/MRAABBTreePoints.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1AABBTreePoints_1_1Point_1a14a9b34e597a6b504acd6c3ee97e12be" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="40" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="40" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreePoints.h" line="40" column="18" bodyfile="MRMesh/MRAABBTreePoints.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1AABBTreePoints_1_1Point_1a75824d74d5ccd55a0440bf75f7d19077" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -30,14 +30,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="41" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="41" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreePoints.h" line="41" column="16" bodyfile="MRMesh/MRAABBTreePoints.h" bodystart="41" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="38" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="39" bodyend="42"/>
+    <location file="MRMesh/MRAABBTreePoints.h" line="38" column="5" bodyfile="MRMesh/MRAABBTreePoints.h" bodystart="39" bodyend="42"/>
     <listofallmembers>
       <member refid="structMR_1_1AABBTreePoints_1_1Point_1a14a9b34e597a6b504acd6c3ee97e12be" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints::Point</scope><name>coord</name></member>
       <member refid="structMR_1_1AABBTreePoints_1_1Point_1a75824d74d5ccd55a0440bf75f7d19077" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints::Point</scope><name>id</name></member>

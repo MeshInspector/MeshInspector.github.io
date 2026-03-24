@@ -1,4 +1,4 @@
 var MROverlappingTris_8h =
 [
-    [ "findOverlappingTris", "MROverlappingTris_8h.html#ga6f854d1ee48b4520a2bc23d7c73c648f", null ]
+    [ "MR::findOverlappingTris", "group__GeneralGroup.html#ga82e6843a66b16ee1912ffa7d48bd7c34", null ]
 ];

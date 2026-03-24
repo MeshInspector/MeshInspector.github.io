@@ -1,0 +1,837 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h" kind="file" language="C++">
+    <compoundname>std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h</label>
+        <link refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aba481b4a18c0e725a89f8193624720c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="26" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="26" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a9937b63994c49339eaed611301506d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a14910164a9062662f20e1ae8b6dfc038" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ad61babbfe130dc7e5d7a331e6a36585c" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ae24170734511d7701eec873d6b6bc9a3" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="31" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="31" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a101e33ac80dd331041b4004a4b024a83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *other)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="38" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="38" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1acd0fbb6c7e07b3b66f03855e6be4e0bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignFromAnother</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this, const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *other)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="45" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a14910164a9062662f20e1ae8b6dfc038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DestroyArray</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="51" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ae24170734511d7701eec873d6b6bc9a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetPtr</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="55" column="191" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="55" declcolumn="191"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ad61babbfe130dc7e5d7a331e6a36585c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="59" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="59" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4564c3515feeb573bed92fee5fc3888c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_index</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_index</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the index of the stored element type. In rare cases may return -1 if this variant is &quot;valueless by exception&quot;. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="63" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="63" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a10a081c685890b2eb36671c2b45c32b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_0</definition>
+        <argsstring>(const MR_Polynomial_double_0 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_0</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 0, of type <computeroutput>MR::Polynomial&lt;double, 0&gt;</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="70" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="70" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4f5a7dc5e92c282cc59d646c79c2277f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_1</definition>
+        <argsstring>(const MR_Polynomial_double_1 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_1</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 1, of type <computeroutput>MR::Polynomial&lt;double, 1&gt;</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="77" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="77" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a292fc0c7824401f7f1450bd8438e4115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_2</definition>
+        <argsstring>(const MR_Polynomial_double_2 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_2</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 2, of type <computeroutput>MR::Polynomial&lt;double, 2&gt;</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="84" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="84" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a540140a6bb28da73702dc8c0a5f2e797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_3</definition>
+        <argsstring>(const MR_Polynomial_double_3 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_3</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 3, of type <computeroutput>MR::Polynomial&lt;double, 3&gt;</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="91" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="91" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a58240894f8847b09a694540c1b23c505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_4</definition>
+        <argsstring>(const MR_Polynomial_double_4 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_4</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 4, of type <computeroutput>MR::Polynomial&lt;double, 4&gt;</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="98" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="98" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4f33c1a149cf6abe1b5f6ed19e55ee6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_5</definition>
+        <argsstring>(const MR_Polynomial_double_5 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_5</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 5, of type <computeroutput>MR::Polynomial&lt;double, 5&gt;</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="105" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="105" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ae98ea09c06c89149b9966576f91b6eef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_6</definition>
+        <argsstring>(const MR_Polynomial_double_6 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_6</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 6, of type <computeroutput>MR::Polynomial&lt;double, 6&gt;</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="112" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="112" declcolumn="185"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a98c2c110c14246b57432d1f24508994d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_0</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this, const MR_Polynomial_double_0 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_0</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 0, of type <computeroutput>MR::Polynomial&lt;double, 0&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="119" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1acb21b965b464da708540cb1865c837cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_1</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this, const MR_Polynomial_double_1 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_1</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 1, of type <computeroutput>MR::Polynomial&lt;double, 1&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="126" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="126" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a516336d868ea9d4e869855d57eb794a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_2</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this, const MR_Polynomial_double_2 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_2</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 2, of type <computeroutput>MR::Polynomial&lt;double, 2&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a429b4480bb69d061049da09e8a63e93a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_3</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this, const MR_Polynomial_double_3 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_3</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 3, of type <computeroutput>MR::Polynomial&lt;double, 3&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="140" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a3a6388dcb1adc03f2c16756bc4dcce74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_4</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this, const MR_Polynomial_double_4 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_4</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 4, of type <computeroutput>MR::Polynomial&lt;double, 4&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab4ede41465195650e1e93940dcd3b36f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_5</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this, const MR_Polynomial_double_5 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_5</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 5, of type <computeroutput>MR::Polynomial&lt;double, 5&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a5046d713ac12ca3bff94a41b0e7eceab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_6</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this, const MR_Polynomial_double_6 *value)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_6</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 6, of type <computeroutput>MR::Polynomial&lt;double, 6&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="161" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="161" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab58bf8e2d9c2b1d703d6cc6d1c6c8c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref> *</type>
+        <definition>MRC_API const MR_Polynomial_double_0 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_0</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_0</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>MR::Polynomial&lt;double, 0&gt;</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="166" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="166" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ac2a9e4730d272471d306775b86730851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref> *</type>
+        <definition>MRC_API MR_Polynomial_double_0 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_0_mut</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_0_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>MR::Polynomial&lt;double, 0&gt;</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="171" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="171" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab02ab2572a183bd08679bf61ea60ef7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref> *</type>
+        <definition>MRC_API const MR_Polynomial_double_1 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_1</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_1</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>MR::Polynomial&lt;double, 1&gt;</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="176" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="176" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a3d11542842b5f9c8fbc10f1cedb60865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref> *</type>
+        <definition>MRC_API MR_Polynomial_double_1 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_1_mut</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_1_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>MR::Polynomial&lt;double, 1&gt;</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="181" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="181" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a0a4c173d3b704041d92237cb9ba0f23e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref> *</type>
+        <definition>MRC_API const MR_Polynomial_double_2 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_2</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_2</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 2, of type <computeroutput>MR::Polynomial&lt;double, 2&gt;</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="186" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="186" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aefee4f2bd82b4fe362cf40b3ffa8832c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref> *</type>
+        <definition>MRC_API MR_Polynomial_double_2 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_2_mut</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_2_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 2, of type <computeroutput>MR::Polynomial&lt;double, 2&gt;</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="191" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="191" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a01f452b11aec82b54f93df27a51e327d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref> *</type>
+        <definition>MRC_API const MR_Polynomial_double_3 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_3</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_3</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 3, of type <computeroutput>MR::Polynomial&lt;double, 3&gt;</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="196" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="196" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1adca87e9ebe966ce76fcd9ccae170ae3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref> *</type>
+        <definition>MRC_API MR_Polynomial_double_3 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_3_mut</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_3_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 3, of type <computeroutput>MR::Polynomial&lt;double, 3&gt;</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="201" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="201" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a82c8cdbe807d25187dc47bd634e570cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref> *</type>
+        <definition>MRC_API const MR_Polynomial_double_4 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_4</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_4</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 4, of type <computeroutput>MR::Polynomial&lt;double, 4&gt;</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="206" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="206" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a842d7a198cb26ef93830ee6d7637841d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref> *</type>
+        <definition>MRC_API MR_Polynomial_double_4 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_4_mut</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_4_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 4, of type <computeroutput>MR::Polynomial&lt;double, 4&gt;</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="211" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="211" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a6a5c547c4930f3f47d7a630dcda1364c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref> *</type>
+        <definition>MRC_API const MR_Polynomial_double_5 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_5</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_5</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 5, of type <computeroutput>MR::Polynomial&lt;double, 5&gt;</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="216" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="216" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a37ac8f49364c0dd294a869d3ae7b177c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref> *</type>
+        <definition>MRC_API MR_Polynomial_double_5 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_5_mut</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_5_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 5, of type <computeroutput>MR::Polynomial&lt;double, 5&gt;</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="221" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="221" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a0a704d2328906ab7b85afd3d96ee9e89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API const MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_6</definition>
+        <argsstring>(const MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_6</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 6, of type <computeroutput>MR::Polynomial&lt;double, 6&gt;</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="226" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="226" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a78ed76c38e88be533ceee72b778f02e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref> *</type>
+        <definition>MRC_API MR_Polynomial_double_6 * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_6_mut</definition>
+        <argsstring>(MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6 *_this)</argsstring>
+        <name>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_6_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 6, of type <computeroutput>MR::Polynomial&lt;double, 6&gt;</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" line="231" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h" declline="231" declcolumn="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBestFitPolynomial.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBestFitPolynomial.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBestFitPolynomial.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBestFitPolynomial.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBestFitPolynomial.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBestFitPolynomial.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBestFitPolynomial.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aba481b4a18c0e725a89f8193624720c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aba481b4a18c0e725a89f8193624720c9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a9937b63994c49339eaed611301506d70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a9937b63994c49339eaed611301506d70" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a101e33ac80dd331041b4004a4b024a83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a101e33ac80dd331041b4004a4b024a83" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1acd0fbb6c7e07b3b66f03855e6be4e0bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1acd0fbb6c7e07b3b66f03855e6be4e0bb" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignFromAnother</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aac993e735e455be0da003b5eb5f883b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a14910164a9062662f20e1ae8b6dfc038" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a14910164a9062662f20e1ae8b6dfc038" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ae24170734511d7701eec873d6b6bc9a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ae24170734511d7701eec873d6b6bc9a3" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ad61babbfe130dc7e5d7a331e6a36585c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ad61babbfe130dc7e5d7a331e6a36585c" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetMutablePtr</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4564c3515feeb573bed92fee5fc3888c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4564c3515feeb573bed92fee5fc3888c" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a10a081c685890b2eb36671c2b45c32b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a10a081c685890b2eb36671c2b45c32b9" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4f5a7dc5e92c282cc59d646c79c2277f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4f5a7dc5e92c282cc59d646c79c2277f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a292fc0c7824401f7f1450bd8438e4115" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a292fc0c7824401f7f1450bd8438e4115" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a540140a6bb28da73702dc8c0a5f2e797" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a540140a6bb28da73702dc8c0a5f2e797" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a58240894f8847b09a694540c1b23c505" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a58240894f8847b09a694540c1b23c505" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4f33c1a149cf6abe1b5f6ed19e55ee6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a4f33c1a149cf6abe1b5f6ed19e55ee6e" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ae98ea09c06c89149b9966576f91b6eef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ae98ea09c06c89149b9966576f91b6eef" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_6</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a98c2c110c14246b57432d1f24508994d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a98c2c110c14246b57432d1f24508994d" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_0</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1acb21b965b464da708540cb1865c837cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1acb21b965b464da708540cb1865c837cd" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_1</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a516336d868ea9d4e869855d57eb794a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a516336d868ea9d4e869855d57eb794a6" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_2</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a429b4480bb69d061049da09e8a63e93a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a429b4480bb69d061049da09e8a63e93a" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_3</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a3a6388dcb1adc03f2c16756bc4dcce74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a3a6388dcb1adc03f2c16756bc4dcce74" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_4</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab4ede41465195650e1e93940dcd3b36f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab4ede41465195650e1e93940dcd3b36f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_5</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a5046d713ac12ca3bff94a41b0e7eceab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a5046d713ac12ca3bff94a41b0e7eceab" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_6</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab58bf8e2d9c2b1d703d6cc6d1c6c8c74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab58bf8e2d9c2b1d703d6cc6d1c6c8c74" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ac2a9e4730d272471d306775b86730851" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ac2a9e4730d272471d306775b86730851" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_0_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab02ab2572a183bd08679bf61ea60ef7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1ab02ab2572a183bd08679bf61ea60ef7b" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a3d11542842b5f9c8fbc10f1cedb60865" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a3d11542842b5f9c8fbc10f1cedb60865" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_1_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a0a4c173d3b704041d92237cb9ba0f23e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a0a4c173d3b704041d92237cb9ba0f23e" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aefee4f2bd82b4fe362cf40b3ffa8832c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1aefee4f2bd82b4fe362cf40b3ffa8832c" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_2_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a01f452b11aec82b54f93df27a51e327d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a01f452b11aec82b54f93df27a51e327d" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1adca87e9ebe966ce76fcd9ccae170ae3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1adca87e9ebe966ce76fcd9ccae170ae3c" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_3_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a82c8cdbe807d25187dc47bd634e570cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a82c8cdbe807d25187dc47bd634e570cc" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a842d7a198cb26ef93830ee6d7637841d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a842d7a198cb26ef93830ee6d7637841d" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_4_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a6a5c547c4930f3f47d7a630dcda1364c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a6a5c547c4930f3f47d7a630dcda1364c" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a37ac8f49364c0dd294a869d3ae7b177c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a37ac8f49364c0dd294a869d3ae7b177c" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_5_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a0a704d2328906ab7b85afd3d96ee9e89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a0a704d2328906ab7b85afd3d96ee9e89" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_6</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a78ed76c38e88be533ceee72b778f02e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref><sp/>*<ref refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_1a78ed76c38e88be533ceee72b778f02e0" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_get_MR_Polynomial_double_6_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h"/>
+  </compounddef>
+</doxygen>

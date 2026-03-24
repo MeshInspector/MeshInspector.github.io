@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SpacingSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::SpacingSettings</compoundname>
-    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRPositionVertsSmoothly.h</includes>
+    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRMesh/MRPositionVertsSmoothly.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gac011fc95d61ece99cc3358e1236104d9" kind="variable"><name>region</name></member>
       <member refid="group__GeneralGroup_1ga49adf144c8f1f64aafce1e6927f03dc0" kind="variable"><name>dist</name></member>
@@ -15,7 +15,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="47" bodyend="65"/>
+    <location file="MRMesh/MRPositionVertsSmoothly.h" line="46" column="1" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="47" bodyend="65"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga49adf144c8f1f64aafce1e6927f03dc0" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>dist</name></member>
       <member refid="group__GeneralGroup_1ga65572ad8925a4fe549d886d23dc4b2e5" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>isInverted</name></member>

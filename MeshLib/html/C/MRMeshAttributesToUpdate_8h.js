@@ -1,10 +1,6 @@
 var MRMeshAttributesToUpdate_8h =
 [
-    [ "MR_FaceColors", "MRMeshAttributesToUpdate_8h.html#a88c7503c40b624a577fda0eab1faa5fa", null ],
     [ "MR_MeshAttributesToUpdate", "MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0", null ],
-    [ "MR_TexturePerFace", "MRMeshAttributesToUpdate_8h.html#a248aef9b7513a21932ba1dfcfbd3410d", null ],
-    [ "MR_VertColors", "MRMeshAttributesToUpdate_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
-    [ "MR_VertCoords2", "MRMeshAttributesToUpdate_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a", null ],
     [ "MR_MeshAttributesToUpdate_AssignFromAnother", "MRMeshAttributesToUpdate_8h.html#a47188d85c78eefc3547e2b3f71b101e0", null ],
     [ "MR_MeshAttributesToUpdate_ConstructFrom", "MRMeshAttributesToUpdate_8h.html#a9b00b2f9609231f058a2c1f94e193fe5", null ],
     [ "MR_MeshAttributesToUpdate_ConstructFromAnother", "MRMeshAttributesToUpdate_8h.html#a11dd2bb19e3682c547bc3b37fb3bfd2c", null ],

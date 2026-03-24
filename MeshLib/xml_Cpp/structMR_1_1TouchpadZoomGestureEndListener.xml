@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TouchpadZoomGestureEndListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::TouchpadZoomGestureEndListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gad1668e1d1874a834c7c6875f53d9f728" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gadd56d98f370e0b09bbe4eb85331b6cad" kind="function"><name>~TouchpadZoomGestureEndListener</name></member>
-      <member refid="group__GeneralGroup_1ga2921d52163618add8bbd7a16dd5203f6" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga6b93e0a65431d81009b5252ac9ee246f" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1gadd9106c04de1117bd9eba7d3cd191637" kind="function"><name>touchpadZoomGestureEnd_</name></member>
@@ -53,9 +53,9 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="390" bodyend="396"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="389" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="390" bodyend="396"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga2921d52163618add8bbd7a16dd5203f6" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureEndListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga6b93e0a65431d81009b5252ac9ee246f" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureEndListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadZoomGestureEndListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureEndListener</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1gad1668e1d1874a834c7c6875f53d9f728" prot="public" virt="non-virtual"><scope>MR::TouchpadZoomGestureEndListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>

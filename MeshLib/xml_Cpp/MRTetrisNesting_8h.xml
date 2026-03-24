@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRTetrisNesting_8h" kind="file" language="C++">
+    <compoundname>MRTetrisNesting.h</compoundname>
+    <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
+    <includes refid="MRNestingStructures_8h" local="yes">MRMesh/MRNestingStructures.h</includes>
+    <includes refid="MRVector_8h" local="yes">MRMesh/MRVector.h</includes>
+    <includes refid="MRId_8h" local="yes">MRMesh/MRId.h</includes>
+    <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
+    <includes refid="MRVolumeIndexer_8h" local="yes">MRMesh/MRVolumeIndexer.h</includes>
+    <includedby refid="MRSequentialNester_8h" local="yes">MRVoxels/MRSequentialNester.h</includedby>
+    <incdepgraph>
+      <node id="28">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="36">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MRMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="17">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRMesh/MRNestingStructures.h</label>
+        <link refid="MRNestingStructures_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MRMesh/MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRMesh/MRVolumeIndexer.h</label>
+        <link refid="MRVolumeIndexer_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MRVoxels/MRTetrisNesting.h</label>
+        <link refid="MRTetrisNesting_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="37">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="23">
+        <label>algorithm</label>
+      </node>
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="24">
+        <label>cmath</label>
+      </node>
+      <node id="34">
+        <label>concepts</label>
+      </node>
+      <node id="20">
+        <label>cstddef</label>
+      </node>
+      <node id="25">
+        <label>cstring</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="26">
+        <label>iosfwd</label>
+      </node>
+      <node id="31">
+        <label>limits</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="21">
+        <label>type_traits</label>
+      </node>
+      <node id="27">
+        <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRVoxels/MRSequentialNester.h</label>
+        <link refid="MRSequentialNester_8h"/>
+      </node>
+      <node id="1">
+        <label>MRVoxels/MRTetrisNesting.h</label>
+        <link refid="MRTetrisNesting_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1Nesting_1_1TetrisDensifyOptions" prot="public">MR::Nesting::TetrisDensifyOptions</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1TetrisDensifyParams" prot="public">MR::Nesting::TetrisDensifyParams</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1Nesting">MR::Nesting</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxelsFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRNestingStructures_8h" kindref="compound">MRMesh/MRNestingStructures.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector_8h" kindref="compound">MRMesh/MRVector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRMesh/MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVolumeIndexer_8h" kindref="compound">MRMesh/MRVolumeIndexer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Nesting" kindref="compound">Nesting</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1Nesting_1_1TetrisDensifyOptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Nesting_1_1TetrisDensifyOptions" kindref="compound">TetrisDensifyOptions</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gafcba40b2766ddb0e65f0cd8b0fff1c33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafcba40b2766ddb0e65f0cd8b0fff1c33" kindref="member">voxelSize</ref>{<sp/>0.0f<sp/>};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga2f011ee43797dfd41b3cf45ef8f73cd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;OutEdge&gt;<sp/><ref refid="group__GeneralGroup_1ga2f011ee43797dfd41b3cf45ef8f73cd3" kindref="member">densificationSequence</ref><sp/>=<sp/>{<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb" kindref="member">OutEdge::MinusZ</ref>,<ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565" kindref="member">OutEdge::MinusY</ref>,<ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454" kindref="member">OutEdge::MinusX</ref><sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gafa3d3ce9f1a239b0433ea41d932df07f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1gafa3d3ce9f1a239b0433ea41d932df07f" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga9aa9eca3f4fabca2c8ac7cfa9bdfe5e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;ObjId, VoxelId&gt;</ref>*<sp/><ref refid="group__GeneralGroup_1ga9aa9eca3f4fabca2c8ac7cfa9bdfe5e8" kindref="member">nestVoxelsCache</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gab94ca03ddd7606a0f2410eae5ef15632" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i*<sp/><ref refid="group__GeneralGroup_1gab94ca03ddd7606a0f2410eae5ef15632" kindref="member">nestDimensionsCache</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gae37674fe33f509e39ddb625df76e3da1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VoxelBitSet*<sp/><ref refid="group__GeneralGroup_1gae37674fe33f509e39ddb625df76e3da1" kindref="member">occupiedVoxelsCache</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1Nesting_1_1TetrisDensifyParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">TetrisDensifyParams</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gabe169f4acb2c0d3499f4789ad4d63e6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Nesting_1_1NestingBaseParams" kindref="compound">NestingBaseParams</ref><sp/><ref refid="group__GeneralGroup_1gabe169f4acb2c0d3499f4789ad4d63e6b" kindref="member">baseParams</ref>;</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga558380f5544f18c8eef21feef0149630" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Nesting_1_1TetrisDensifyOptions" kindref="compound">TetrisDensifyOptions</ref><sp/><ref refid="group__GeneralGroup_1ga558380f5544f18c8eef21feef0149630" kindref="member">options</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga2cbe87a23074d994591bf8ff7998359a" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Vector&lt;AffineXf3f, ObjId&gt;</ref>&gt;<sp/><ref refid="group__GeneralGroup_1ga2cbe87a23074d994591bf8ff7998359a" kindref="member">tetrisNestingDensify</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;MeshXf, ObjId&gt;</ref>&amp;<sp/>meshes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">TetrisDensifyParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRVoxels/MRTetrisNesting.h"/>
+  </compounddef>
+</doxygen>

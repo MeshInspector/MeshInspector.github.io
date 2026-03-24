@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeOneNormalInCloudAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeOneNormalInCloudAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangePointCloudNormalsAction_8h" local="no">MRChangePointCloudNormalsAction.h</includes>
+    <includes refid="MRChangePointCloudNormalsAction_8h" local="no">MRMesh/MRChangePointCloudNormalsAction.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gac4f0cb98bb0490e5bc3bf86995a76ac0" kind="typedef"><name>Obj</name></member>
     </sectiondef>
@@ -52,7 +52,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudNormalsAction.h" line="77" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudNormalsAction.h" bodystart="78" bodyend="143"/>
+    <location file="MRMesh/MRChangePointCloudNormalsAction.h" line="77" column="1" bodyfile="MRMesh/MRChangePointCloudNormalsAction.h" bodystart="78" bodyend="143"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaafd6fc62e7b35ee903d98899500b8dc9" prot="public" virt="virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga56b040ed71f05bfbf64a540bf3b4bf3d" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>

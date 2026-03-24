@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__ViewportMask_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_ViewportMask.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_ViewportMask.h</label>
+        <link refid="std__vector__MR__ViewportMask_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_ViewportMask_const_iterator MR_std_vector_MR_ViewportMask_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="22" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_ViewportMask_iterator MR_std_vector_MR_ViewportMask_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="26" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ac9c37f97b6c893c42ee25ddb2aad4229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask * MR_std_vector_MR_ViewportMask_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1acb1f68e6a33d62b9eda72a303af894e2" kindref="member">MR_std_vector_MR_ViewportMask_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="30" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="30" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a8768b823969f1aeb847dbddeff220637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask * MR_std_vector_MR_ViewportMask_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1ac152d7ee0508dda014eac805879168e5" kindref="member">MR_std_vector_MR_ViewportMask_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a0b138931d6d7a7705fbf10aea8ddd88b" kindref="member">MR_std_vector_MR_ViewportMask_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a555983b0aef38111021fa05e3fd40003" kindref="member">MR_std_vector_MR_ViewportMask_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="35" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="35" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a53a72ea6508337b75b9a2c78fb712b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask * MR_std_vector_MR_ViewportMask_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_ViewportMask *other)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1acb1f68e6a33d62b9eda72a303af894e2" kindref="member">MR_std_vector_MR_ViewportMask_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="41" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="41" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a7135e8e5dd83b7a3a8c720973eb205a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, MR_PassBy other_pass_by, MR_std_vector_MR_ViewportMask *other)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1acb1f68e6a33d62b9eda72a303af894e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ac152d7ee0508dda014eac805879168e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a555983b0aef38111021fa05e3fd40003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_ViewportMask * MR_std_vector_MR_ViewportMask_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="57" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="57" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a0b138931d6d7a7705fbf10aea8ddd88b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask * MR_std_vector_MR_ViewportMask_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="61" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="61" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a78841e46fc08c8230f0097824407475f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_ViewportMask_size</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_size</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a0671487ff76072c5a016541e631c381b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ViewportMask_empty</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_empty</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a70d3230e16363d43a9361bd1402c9329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_resize</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_resize</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a086a471b0ce2e05ff25d79b4623b2990" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, size_t new_size, const MR_ViewportMask *value)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a5a2bc9b0ef42afbce5a857688cf7c42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_clear</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_clear</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1aebe5049401cccbeb256c6ceba2a437a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_ViewportMask_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_capacity</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a3a06a64c2158210b447e88a606f4c38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_reserve</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_reserve</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a9191a9ec9d1830e8c78cfe8411c638d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a49345a9f08f67fdcbe6e05bb0d6b8e09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+        <definition>MRC_API const MR_ViewportMask * MR_std_vector_MR_ViewportMask_at</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_at</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="101" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="101" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a8a8ad3e50fa35c0371f4ae722aa0fe22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+        <definition>MRC_API MR_ViewportMask * MR_std_vector_MR_ViewportMask_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_at_mut</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="107" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="107" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a03cdeb420d4c1cdd1046536cdfdfffcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+        <definition>MRC_API const MR_ViewportMask * MR_std_vector_MR_ViewportMask_front</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_front</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="112" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="112" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ac646cb37b598bc28d272399094efa0e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+        <definition>MRC_API MR_ViewportMask * MR_std_vector_MR_ViewportMask_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_front_mut</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="117" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="117" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a9cfb179447271a954d42406c440ff92e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+        <definition>MRC_API const MR_ViewportMask * MR_std_vector_MR_ViewportMask_back</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_back</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="122" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="122" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a82d0c75cc89f946a8e09170d702a9d39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+        <definition>MRC_API MR_ViewportMask * MR_std_vector_MR_ViewportMask_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_back_mut</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="127" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="127" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1aa620ebb55cc614b22846b4001da1277e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_push_back</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, const MR_ViewportMask *new_elem)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_push_back</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a6e8894fa26321ef2ceb8aaed38ff0a19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_pop_back</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a35333c5da05d07c8482816157a317f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_insert</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, size_t position, const MR_ViewportMask *new_elem)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_insert</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a0610a9691dacf2e00e2ab5cec06067d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_erase</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_erase</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ac05397ebdb9192d57c649a1e73f89115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_iterator *position, const MR_ViewportMask *new_elem)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1acd1858a74a5e752d131ffa024cac09b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a1e0a7d740d8f6dfe9a688f270bbf0634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_const_iterator *position, const MR_ViewportMask *new_elem)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ab303870c5db154abdf4926107b9a49a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a4eef70f365240ce9a7d766513225c894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_const_iterator * MR_std_vector_MR_ViewportMask_begin</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_begin</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a6369c205848032a569d89c9944754112" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="177" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="177" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a51555e12b8d75c54ddf68959c2c40051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ViewportMask_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_is_begin</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a7d1c77b92825dbddde510049f3f7aca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_iterator * MR_std_vector_MR_ViewportMask_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_begin_mut</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a3019fe0b0503157df759891e62e00b14" kindref="member">MR_std_vector_MR_ViewportMask_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="188" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="188" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ae8a7e0c9199d9f9d6ed2519e372f0c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ViewportMask_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a0fca836969745f72c92bc98abdd640ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_const_iterator * MR_std_vector_MR_ViewportMask_end</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_end</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a6369c205848032a569d89c9944754112" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="199" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="199" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1aa42db0b49d7843c8a8e35245d64959f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ViewportMask_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_is_end</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a44878d903f5a289f5af89604c2b7504c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_iterator * MR_std_vector_MR_ViewportMask_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_end_mut</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a3019fe0b0503157df759891e62e00b14" kindref="member">MR_std_vector_MR_ViewportMask_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="210" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="210" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ad46719b1683de905b50c92b784d22a19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_ViewportMask_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a96715a4a1b45636c1ccb2de839fd2495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_ViewportMask_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_to_index</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ac71cbddeda55412534944e0dd21ed438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_ViewportMask_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask *_this, const MR_std_vector_MR_ViewportMask_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a4b63a6c2cfbdf26f3b456b40d26517d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_const_iterator * MR_std_vector_MR_ViewportMask_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a6369c205848032a569d89c9944754112" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="229" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="229" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a8f5e5314abbd1815f15937759d420e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_const_iterator * MR_std_vector_MR_ViewportMask_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a6debe1ddcea334571416a6c64eb3ceef" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a4d38e3d33faf69170e1cd443c885eaf1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a2993adfc1c2044225d5df0be3c43238e" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="234" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="234" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a467926c588c391d903b373c27f127d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_const_iterator * MR_std_vector_MR_ViewportMask_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a6369c205848032a569d89c9944754112" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="241" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="241" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a77f1aa8978545e0a14c42e8acdcbbf3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_const_iterator *_this, const MR_std_vector_MR_ViewportMask_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a6369c205848032a569d89c9944754112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a6debe1ddcea334571416a6c64eb3ceef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a2993adfc1c2044225d5df0be3c43238e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_ViewportMask_const_iterator * MR_std_vector_MR_ViewportMask_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="258" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="258" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a4d38e3d33faf69170e1cd443c885eaf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_const_iterator * MR_std_vector_MR_ViewportMask_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="262" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="262" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a0370583cbe1befec81d0ca80c457706b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_const_iterator * MR_std_vector_MR_ViewportMask_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a6369c205848032a569d89c9944754112" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="267" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="267" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a79190a1597216f7baee02712881c935a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_iterator * MR_std_vector_MR_ViewportMask_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a3019fe0b0503157df759891e62e00b14" kindref="member">MR_std_vector_MR_ViewportMask_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="271" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="271" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a6a404c630a71b7a0a58032c214e3aaad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_iterator * MR_std_vector_MR_ViewportMask_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1ab65aacf1bf51a6a5b300e99c103ea485" kindref="member">MR_std_vector_MR_ViewportMask_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1af142337ba25ad4174628ad26b508d2ce" kindref="member">MR_std_vector_MR_ViewportMask_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a66e6cbf6ee9d183ab8c223704987eb01" kindref="member">MR_std_vector_MR_ViewportMask_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="276" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="276" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a120b20c32aa50a58bbfc504c8b1529e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_iterator * MR_std_vector_MR_ViewportMask_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1a3019fe0b0503157df759891e62e00b14" kindref="member">MR_std_vector_MR_ViewportMask_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="283" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="283" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ab2c8dc84e434ce6d63c05a9d3139b758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_iterator *_this, const MR_std_vector_MR_ViewportMask_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a3019fe0b0503157df759891e62e00b14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ab65aacf1bf51a6a5b300e99c103ea485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a66e6cbf6ee9d183ab8c223704987eb01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_ViewportMask_iterator * MR_std_vector_MR_ViewportMask_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="300" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="300" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1af142337ba25ad4174628ad26b508d2ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_ViewportMask_iterator * MR_std_vector_MR_ViewportMask_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="304" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="304" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a52a2f5be95e94fce25351b62625a56db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+        <definition>MRC_API const MR_ViewportMask * MR_std_vector_MR_ViewportMask_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="310" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="310" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1aca6af0300444e6fddaf0191fb2921eb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1add17477804794655a54ce78c01e55eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1ac8ff7e0aa5ea4e20ef3df217fabe8559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a82c27de8d27366f3c660d06e1d929601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_ViewportMask_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_const_iterator *a, const MR_std_vector_MR_ViewportMask_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_ViewportMask_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a8fe65ed4f0ce2c14a7ad4b996854597a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_ViewportMask_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_const_iterator *a, const MR_std_vector_MR_ViewportMask_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_ViewportMask_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a15fd076cfee825e73e212e7e4e2e422d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref> *</type>
+        <definition>MRC_API MR_ViewportMask * MR_std_vector_MR_ViewportMask_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="338" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="338" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1aec7e8c9b86f9f956726d7df44bdae0dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a5d35d77412c00b214ec6f0e0c4ca4732" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a0a6da41e1b0522bba13727c56ab028f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_ViewportMask_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_ViewportMask_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_ViewportMask_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1a6274973c4e6f5476c3d06b83d24771d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_ViewportMask_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_iterator *a, const MR_std_vector_MR_ViewportMask_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_ViewportMask_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__ViewportMask_8h_1abe9fa1049ab76850405915238af628d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_ViewportMask_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_ViewportMask_iterator *a, const MR_std_vector_MR_ViewportMask_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_ViewportMask_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__ViewportMask_8h_1ac9c37f97b6c893c42ee25ddb2aad4229" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1ac9c37f97b6c893c42ee25ddb2aad4229" kindref="member">MR_std_vector_MR_ViewportMask_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__ViewportMask_8h_1a8768b823969f1aeb847dbddeff220637" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a8768b823969f1aeb847dbddeff220637" kindref="member">MR_std_vector_MR_ViewportMask_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__ViewportMask_8h_1a53a72ea6508337b75b9a2c78fb712b9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a53a72ea6508337b75b9a2c78fb712b9e" kindref="member">MR_std_vector_MR_ViewportMask_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__ViewportMask_8h_1a7135e8e5dd83b7a3a8c720973eb205a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a7135e8e5dd83b7a3a8c720973eb205a2" kindref="member">MR_std_vector_MR_ViewportMask_AssignFromAnother</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__ViewportMask_8h_1acb1f68e6a33d62b9eda72a303af894e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1acb1f68e6a33d62b9eda72a303af894e2" kindref="member">MR_std_vector_MR_ViewportMask_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__ViewportMask_8h_1ac152d7ee0508dda014eac805879168e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1ac152d7ee0508dda014eac805879168e5" kindref="member">MR_std_vector_MR_ViewportMask_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__ViewportMask_8h_1a555983b0aef38111021fa05e3fd40003" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a555983b0aef38111021fa05e3fd40003" kindref="member">MR_std_vector_MR_ViewportMask_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__ViewportMask_8h_1a0b138931d6d7a7705fbf10aea8ddd88b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a0b138931d6d7a7705fbf10aea8ddd88b" kindref="member">MR_std_vector_MR_ViewportMask_OffsetMutablePtr</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__ViewportMask_8h_1a78841e46fc08c8230f0097824407475f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a78841e46fc08c8230f0097824407475f" kindref="member">MR_std_vector_MR_ViewportMask_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__ViewportMask_8h_1a0671487ff76072c5a016541e631c381b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a0671487ff76072c5a016541e631c381b" kindref="member">MR_std_vector_MR_ViewportMask_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__ViewportMask_8h_1a70d3230e16363d43a9361bd1402c9329" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a70d3230e16363d43a9361bd1402c9329" kindref="member">MR_std_vector_MR_ViewportMask_resize</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__ViewportMask_8h_1a086a471b0ce2e05ff25d79b4623b2990" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a086a471b0ce2e05ff25d79b4623b2990" kindref="member">MR_std_vector_MR_ViewportMask_resize_with_default_value</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__ViewportMask_8h_1a5a2bc9b0ef42afbce5a857688cf7c42e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a5a2bc9b0ef42afbce5a857688cf7c42e" kindref="member">MR_std_vector_MR_ViewportMask_clear</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__ViewportMask_8h_1aebe5049401cccbeb256c6ceba2a437a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1aebe5049401cccbeb256c6ceba2a437a4" kindref="member">MR_std_vector_MR_ViewportMask_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__ViewportMask_8h_1a3a06a64c2158210b447e88a606f4c38b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a3a06a64c2158210b447e88a606f4c38b" kindref="member">MR_std_vector_MR_ViewportMask_reserve</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__ViewportMask_8h_1a9191a9ec9d1830e8c78cfe8411c638d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a9191a9ec9d1830e8c78cfe8411c638d9" kindref="member">MR_std_vector_MR_ViewportMask_shrink_to_fit</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__ViewportMask_8h_1a49345a9f08f67fdcbe6e05bb0d6b8e09" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a49345a9f08f67fdcbe6e05bb0d6b8e09" kindref="member">MR_std_vector_MR_ViewportMask_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__ViewportMask_8h_1a8a8ad3e50fa35c0371f4ae722aa0fe22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a8a8ad3e50fa35c0371f4ae722aa0fe22" kindref="member">MR_std_vector_MR_ViewportMask_at_mut</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__ViewportMask_8h_1a03cdeb420d4c1cdd1046536cdfdfffcd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a03cdeb420d4c1cdd1046536cdfdfffcd" kindref="member">MR_std_vector_MR_ViewportMask_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__ViewportMask_8h_1ac646cb37b598bc28d272399094efa0e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1ac646cb37b598bc28d272399094efa0e3" kindref="member">MR_std_vector_MR_ViewportMask_front_mut</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__ViewportMask_8h_1a9cfb179447271a954d42406c440ff92e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a9cfb179447271a954d42406c440ff92e" kindref="member">MR_std_vector_MR_ViewportMask_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__ViewportMask_8h_1a82d0c75cc89f946a8e09170d702a9d39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a82d0c75cc89f946a8e09170d702a9d39" kindref="member">MR_std_vector_MR_ViewportMask_back_mut</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__ViewportMask_8h_1aa620ebb55cc614b22846b4001da1277e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1aa620ebb55cc614b22846b4001da1277e" kindref="member">MR_std_vector_MR_ViewportMask_push_back</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__ViewportMask_8h_1a6e8894fa26321ef2ceb8aaed38ff0a19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a6e8894fa26321ef2ceb8aaed38ff0a19" kindref="member">MR_std_vector_MR_ViewportMask_pop_back</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__ViewportMask_8h_1a35333c5da05d07c8482816157a317f02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a35333c5da05d07c8482816157a317f02" kindref="member">MR_std_vector_MR_ViewportMask_insert</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__ViewportMask_8h_1a0610a9691dacf2e00e2ab5cec06067d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a0610a9691dacf2e00e2ab5cec06067d7" kindref="member">MR_std_vector_MR_ViewportMask_erase</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__ViewportMask_8h_1ac05397ebdb9192d57c649a1e73f89115" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1ac05397ebdb9192d57c649a1e73f89115" kindref="member">MR_std_vector_MR_ViewportMask_insert_at_mutable_iter</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__ViewportMask_8h_1acd1858a74a5e752d131ffa024cac09b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1acd1858a74a5e752d131ffa024cac09b5" kindref="member">MR_std_vector_MR_ViewportMask_erase_at_mutable_iter</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__ViewportMask_8h_1a1e0a7d740d8f6dfe9a688f270bbf0634" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a1e0a7d740d8f6dfe9a688f270bbf0634" kindref="member">MR_std_vector_MR_ViewportMask_insert_at_iter</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__ViewportMask_8h_1ab303870c5db154abdf4926107b9a49a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1ab303870c5db154abdf4926107b9a49a5" kindref="member">MR_std_vector_MR_ViewportMask_erase_at_iter</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__ViewportMask_8h_1a4eef70f365240ce9a7d766513225c894" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a4eef70f365240ce9a7d766513225c894" kindref="member">MR_std_vector_MR_ViewportMask_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__ViewportMask_8h_1a51555e12b8d75c54ddf68959c2c40051" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a51555e12b8d75c54ddf68959c2c40051" kindref="member">MR_std_vector_MR_ViewportMask_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__ViewportMask_8h_1a7d1c77b92825dbddde510049f3f7aca8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a7d1c77b92825dbddde510049f3f7aca8" kindref="member">MR_std_vector_MR_ViewportMask_begin_mut</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__ViewportMask_8h_1ae8a7e0c9199d9f9d6ed2519e372f0c25" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1ae8a7e0c9199d9f9d6ed2519e372f0c25" kindref="member">MR_std_vector_MR_ViewportMask_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__ViewportMask_8h_1a0fca836969745f72c92bc98abdd640ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a0fca836969745f72c92bc98abdd640ec" kindref="member">MR_std_vector_MR_ViewportMask_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__ViewportMask_8h_1aa42db0b49d7843c8a8e35245d64959f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1aa42db0b49d7843c8a8e35245d64959f5" kindref="member">MR_std_vector_MR_ViewportMask_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__ViewportMask_8h_1a44878d903f5a289f5af89604c2b7504c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a44878d903f5a289f5af89604c2b7504c" kindref="member">MR_std_vector_MR_ViewportMask_end_mut</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__ViewportMask_8h_1ad46719b1683de905b50c92b784d22a19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1ad46719b1683de905b50c92b784d22a19" kindref="member">MR_std_vector_MR_ViewportMask_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__ViewportMask_8h_1a96715a4a1b45636c1ccb2de839fd2495" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__ViewportMask_8h_1a96715a4a1b45636c1ccb2de839fd2495" kindref="member">MR_std_vector_MR_ViewportMask_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__ViewportMask_8h_1ac71cbddeda55412534944e0dd21ed438" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__ViewportMask_8h_1ac71cbddeda55412534944e0dd21ed438" kindref="member">MR_std_vector_MR_ViewportMask_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__ViewportMask_8h_1a4b63a6c2cfbdf26f3b456b40d26517d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a4b63a6c2cfbdf26f3b456b40d26517d3" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__ViewportMask_8h_1a8f5e5314abbd1815f15937759d420e90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a8f5e5314abbd1815f15937759d420e90" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__ViewportMask_8h_1a467926c588c391d903b373c27f127d07" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a467926c588c391d903b373c27f127d07" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__ViewportMask_8h_1a77f1aa8978545e0a14c42e8acdcbbf3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a77f1aa8978545e0a14c42e8acdcbbf3d" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__ViewportMask_8h_1a6369c205848032a569d89c9944754112" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a6369c205848032a569d89c9944754112" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__ViewportMask_8h_1a6debe1ddcea334571416a6c64eb3ceef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a6debe1ddcea334571416a6c64eb3ceef" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__ViewportMask_8h_1a2993adfc1c2044225d5df0be3c43238e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a2993adfc1c2044225d5df0be3c43238e" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__ViewportMask_8h_1a4d38e3d33faf69170e1cd443c885eaf1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a4d38e3d33faf69170e1cd443c885eaf1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__ViewportMask_8h_1a0370583cbe1befec81d0ca80c457706b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a0370583cbe1befec81d0ca80c457706b" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__ViewportMask_8h_1a79190a1597216f7baee02712881c935a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a79190a1597216f7baee02712881c935a" kindref="member">MR_std_vector_MR_ViewportMask_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__ViewportMask_8h_1a6a404c630a71b7a0a58032c214e3aaad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a6a404c630a71b7a0a58032c214e3aaad" kindref="member">MR_std_vector_MR_ViewportMask_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__ViewportMask_8h_1a120b20c32aa50a58bbfc504c8b1529e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a120b20c32aa50a58bbfc504c8b1529e4" kindref="member">MR_std_vector_MR_ViewportMask_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__ViewportMask_8h_1ab2c8dc84e434ce6d63c05a9d3139b758" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1ab2c8dc84e434ce6d63c05a9d3139b758" kindref="member">MR_std_vector_MR_ViewportMask_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__ViewportMask_8h_1a3019fe0b0503157df759891e62e00b14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a3019fe0b0503157df759891e62e00b14" kindref="member">MR_std_vector_MR_ViewportMask_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__ViewportMask_8h_1ab65aacf1bf51a6a5b300e99c103ea485" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1ab65aacf1bf51a6a5b300e99c103ea485" kindref="member">MR_std_vector_MR_ViewportMask_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__ViewportMask_8h_1a66e6cbf6ee9d183ab8c223704987eb01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a66e6cbf6ee9d183ab8c223704987eb01" kindref="member">MR_std_vector_MR_ViewportMask_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__ViewportMask_8h_1af142337ba25ad4174628ad26b508d2ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1af142337ba25ad4174628ad26b508d2ce" kindref="member">MR_std_vector_MR_ViewportMask_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__ViewportMask_8h_1a52a2f5be95e94fce25351b62625a56db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a52a2f5be95e94fce25351b62625a56db" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__ViewportMask_8h_1aca6af0300444e6fddaf0191fb2921eb6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1aca6af0300444e6fddaf0191fb2921eb6" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_incr</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__ViewportMask_8h_1add17477804794655a54ce78c01e55eba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1add17477804794655a54ce78c01e55eba" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_decr</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__ViewportMask_8h_1ac8ff7e0aa5ea4e20ef3df217fabe8559" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1ac8ff7e0aa5ea4e20ef3df217fabe8559" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__ViewportMask_8h_1a82c27de8d27366f3c660d06e1d929601" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__ViewportMask_8h_1a82c27de8d27366f3c660d06e1d929601" kindref="member">MR_sub_MR_std_vector_MR_ViewportMask_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__ViewportMask_8h_1a8fe65ed4f0ce2c14a7ad4b996854597a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8fe65ed4f0ce2c14a7ad4b996854597a" kindref="member">MR_equal_MR_std_vector_MR_ViewportMask_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a8720efdb4a03596a0abed7e00733cff1" kindref="member">MR_std_vector_MR_ViewportMask_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__ViewportMask_8h_1a15fd076cfee825e73e212e7e4e2e422d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*<ref refid="std__vector__MR__ViewportMask_8h_1a15fd076cfee825e73e212e7e4e2e422d" kindref="member">MR_std_vector_MR_ViewportMask_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__ViewportMask_8h_1aec7e8c9b86f9f956726d7df44bdae0dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1aec7e8c9b86f9f956726d7df44bdae0dc" kindref="member">MR_std_vector_MR_ViewportMask_iterator_incr</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__ViewportMask_8h_1a5d35d77412c00b214ec6f0e0c4ca4732" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a5d35d77412c00b214ec6f0e0c4ca4732" kindref="member">MR_std_vector_MR_ViewportMask_iterator_decr</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__ViewportMask_8h_1a0a6da41e1b0522bba13727c56ab028f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1a0a6da41e1b0522bba13727c56ab028f6" kindref="member">MR_std_vector_MR_ViewportMask_iterator_add_assign</ref>(<ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__ViewportMask_8h_1a6274973c4e6f5476c3d06b83d24771d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__ViewportMask_8h_1a6274973c4e6f5476c3d06b83d24771d8" kindref="member">MR_sub_MR_std_vector_MR_ViewportMask_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__ViewportMask_8h_1abe9fa1049ab76850405915238af628d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1abe9fa1049ab76850405915238af628d2" kindref="member">MR_equal_MR_std_vector_MR_ViewportMask_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__ViewportMask_8h_1af68b61690f4fe20841ab39a1db0b3e20" kindref="member">MR_std_vector_MR_ViewportMask_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_ViewportMask.h"/>
+  </compounddef>
+</doxygen>

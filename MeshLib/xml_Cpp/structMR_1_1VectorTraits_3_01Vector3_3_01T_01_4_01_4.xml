@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4" kind="struct" language="C++" prot="public">
     <compoundname>MR::VectorTraits&lt; Vector3&lt; T &gt; &gt;</compoundname>
-    <includes refid="MRMesh_2MRVectorTraits_8h" local="no">MRVectorTraits.h</includes>
+    <includes refid="MRMesh_2MRVectorTraits_8h" local="no">MRMesh/MRVectorTraits.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -24,7 +24,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="61" bodyend="78"/>
+    <location file="MRMesh/MRVectorTraits.h" line="60" column="1" bodyfile="MRMesh/MRVectorTraits.h" bodystart="61" bodyend="78"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1e5f44968abe54db23651f259feba506" prot="public" virt="non-virtual"><scope>MR::VectorTraits&lt; Vector3&lt; T &gt; &gt;</scope><name>BaseType</name></member>
       <member refid="group__GeneralGroup_1ga5fd55f8cb6c26f1a29d3ba4b2c809a3b" prot="public" virt="non-virtual"><scope>MR::VectorTraits&lt; Vector3&lt; T &gt; &gt;</scope><name>ChangeBaseType</name></member>

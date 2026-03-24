@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshDiff" kind="class" language="C++" prot="public">
     <compoundname>MR::MeshDiff</compoundname>
-    <includes refid="MRMeshDiff_8h" local="no">MRMeshDiff.h</includes>
+    <includes refid="MRMeshDiff_8h" local="no">MRMesh/MRMeshDiff.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gae8ba62d9fd860d946081aab9ed0857ed" kind="variable"><name>pointsDiff_</name></member>
       <member refid="group__GeneralGroup_1ga255abe029dce6739c8a2765dae25727d" kind="variable"><name>topologyDiff_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga5864778df831e322d932e266452fe232" kind="function"><name>MeshDiff</name></member>
-      <member refid="group__GeneralGroup_1ga61c8061aba710ec09a8b346b784a35c0" kind="function"><name>MeshDiff</name></member>
-      <member refid="group__GeneralGroup_1ga65a9fe9422ed5dee5b092c31a59bd145" kind="function"><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1ga2191cca7b439b8c10322774d1d042ddb" kind="function"><name>MeshDiff</name></member>
+      <member refid="group__GeneralGroup_1ga0ca2efbedbc4a22640ef0e348d55bfaf" kind="function"><name>applyAndSwap</name></member>
       <member refid="group__GeneralGroup_1ga75b8d7d561c4183ee307a3c1f1d85ba1" kind="function"><name>any</name></member>
       <member refid="group__GeneralGroup_1gafc1a1ad047dc4eb7b120e4cc9ab2c915" kind="function"><name>heapBytes</name></member>
     </sectiondef>
@@ -20,13 +20,13 @@
 <para>this object stores a difference between two meshes: both in coordinates and in topology</para>
 <para>if the meshes are similar then this object is small, if the meshes are very distinct then this object will be even larger than one mesh itself </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDiff.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDiff.h" bodystart="16" bodyend="39"/>
+    <location file="MRMesh/MRMeshDiff.h" line="15" column="1" bodyfile="MRMesh/MRMeshDiff.h" bodystart="16" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga75b8d7d561c4183ee307a3c1f1d85ba1" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>any</name></member>
-      <member refid="group__GeneralGroup_1ga65a9fe9422ed5dee5b092c31a59bd145" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1ga0ca2efbedbc4a22640ef0e348d55bfaf" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>applyAndSwap</name></member>
       <member refid="group__GeneralGroup_1gafc1a1ad047dc4eb7b120e4cc9ab2c915" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1ga5864778df831e322d932e266452fe232" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
-      <member refid="group__GeneralGroup_1ga61c8061aba710ec09a8b346b784a35c0" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
+      <member refid="group__GeneralGroup_1ga2191cca7b439b8c10322774d1d042ddb" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
       <member refid="group__GeneralGroup_1gae8ba62d9fd860d946081aab9ed0857ed" prot="private" virt="non-virtual"><scope>MR::MeshDiff</scope><name>pointsDiff_</name></member>
       <member refid="group__GeneralGroup_1ga255abe029dce6739c8a2765dae25727d" prot="private" virt="non-virtual"><scope>MR::MeshDiff</scope><name>topologyDiff_</name></member>
     </listofallmembers>

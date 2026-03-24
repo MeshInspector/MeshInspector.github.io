@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SetBitIteratorT__MRObjBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::SetBitIteratorT_MRObjBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRObjBitSet</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRObjBitSet_1afddca9a74dfb6cacf03e8d101689b800" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SetBitIteratorT_MRObjBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15688" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15688" bodyend="15688"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRObjBitSet_1af64bf6623bade8b907bfccf51a671ea4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>SetBitIteratorT_MRObjBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15693" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15693" bodyend="15698"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRObjBitSet_1a4e0b4ff417d8312047f9267e761751bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRObjBitSet _other)</argsstring>
+        <name>SetBitIteratorT_MRObjBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_SetBitIteratorT_MRObjBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15703" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15703" bodyend="15709"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRObjBitSet_1a3f53cba6365a2377c61b9026c18e7c0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</definition>
+        <argsstring>(SetBitIteratorT_MRObjBitSet _other)</argsstring>
+        <name>SetBitIteratorT_MRObjBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SetBitIteratorT__MRObjBitSet" kindref="compound">SetBitIteratorT_MRObjBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15714" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15714" bodyend="15714"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRObjBitSet_1a2c0bb2a85a78267fc691eee1181e6c71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</definition>
+        <argsstring>(MR.Const_ObjBitSet bitset)</argsstring>
+        <name>SetBitIteratorT_MRObjBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRObjBitSet.SetBitIteratorT_MRObjBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_ObjBitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15720" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15720" bodyend="15726"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRObjBitSet_1a10be95cfdb66ea13723475c76ab34d54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SetBitIteratorT__MRObjBitSet" kindref="compound">MR.SetBitIteratorT_MRObjBitSet</ref></type>
+        <definition>unsafe MR.SetBitIteratorT_MRObjBitSet MR.SetBitIteratorT_MRObjBitSet.assign</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRObjBitSet _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SetBitIteratorT_MRObjBitSet.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SetBitIteratorT_MRObjBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15737" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15737" bodyend="15744"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRObjBitSet_1a4c48e7943aba393477b04bf01b921c6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.SetBitIteratorT_MRObjBitSet.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.SetBitIteratorT_MRObjBitSet.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref>&amp;amp;gt;::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15749" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15749" bodyend="15754"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRObjBitSet_1a9613bbe3241cd575da4caf2676d6134a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.SetBitIteratorT_MRObjBitSet.operator SetBitIteratorT_MRObjBitSet</definition>
+        <argsstring>(MR.Const_ObjBitSet bitset)</argsstring>
+        <name>operator SetBitIteratorT_MRObjBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRObjBitSet.operator SetBitIteratorT_MRObjBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_ObjBitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15732" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15732" bodyend="15732"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.SetBitIteratorT_MRObjBitSet</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRObjBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SetBitIteratorT_MRObjBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.SetBitIteratorT_MRObjBitSet</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRObjBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SetBitIteratorT_MRObjBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15686" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15687" bodyend="15755"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SetBitIteratorT__MRObjBitSet_1a10be95cfdb66ea13723475c76ab34d54" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRObjBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRObjBitSet_1a4c48e7943aba393477b04bf01b921c6f" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRObjBitSet</scope><name>incr</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRObjBitSet_1a9613bbe3241cd575da4caf2676d6134a" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRObjBitSet</scope><name>operator SetBitIteratorT_MRObjBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRObjBitSet_1afddca9a74dfb6cacf03e8d101689b800" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRObjBitSet</scope><name>SetBitIteratorT_MRObjBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRObjBitSet_1af64bf6623bade8b907bfccf51a671ea4" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRObjBitSet</scope><name>SetBitIteratorT_MRObjBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRObjBitSet_1a4e0b4ff417d8312047f9267e761751bd" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRObjBitSet</scope><name>SetBitIteratorT_MRObjBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRObjBitSet_1a3f53cba6365a2377c61b9026c18e7c0f" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRObjBitSet</scope><name>SetBitIteratorT_MRObjBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRObjBitSet_1a2c0bb2a85a78267fc691eee1181e6c71" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRObjBitSet</scope><name>SetBitIteratorT_MRObjBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

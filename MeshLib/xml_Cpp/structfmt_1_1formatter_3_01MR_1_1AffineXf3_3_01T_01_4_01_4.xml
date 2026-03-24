@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4" kind="struct" language="C++" prot="public">
     <compoundname>fmt::formatter&lt; MR::AffineXf3&lt; T &gt; &gt;</compoundname>
     <basecompoundref refid="structfmt_1_1formatter_3_01MR_1_1Vector3_3_01T_01_4_01_4" prot="public" virt="non-virtual">fmt::formatter&lt; MR::Vector3&lt; T &gt; &gt;</basecompoundref>
-    <includes refid="MRFormat_8h" local="no">MRFormat.h</includes>
+    <includes refid="MRFormat_8h" local="no">MRMesh/MRFormat.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -22,7 +22,7 @@
         <name>format</name>
         <qualifiedname>fmt::formatter&lt; MR::AffineXf3&lt; T &gt; &gt;::format</qualifiedname>
         <param>
-          <type>const MR::AffineXf3&lt; T &gt; &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1gac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">MR::AffineXf3</ref>&lt; T &gt; &amp;</type>
           <declname>xf</declname>
         </param>
         <param>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="127" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="127" bodyend="141"/>
+        <location file="MRMesh/MRFormat.h" line="127" column="20" bodyfile="MRMesh/MRFormat.h" bodystart="127" bodyend="141"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -76,7 +76,7 @@
         <label>fmt::formatter&lt; T &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="125" bodyend="142"/>
+    <location file="MRMesh/MRFormat.h" line="124" column="1" bodyfile="MRMesh/MRFormat.h" bodystart="125" bodyend="142"/>
     <listofallmembers>
       <member refid="structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4_1a9516609c5c321a3e3829b7e12b0ed9b6" prot="public" virt="non-virtual"><scope>fmt::formatter&lt; MR::AffineXf3&lt; T &gt; &gt;</scope><name>format</name></member>
       <member refid="structfmt_1_1formatter_3_01MR_1_1Vector3_3_01T_01_4_01_4_1a70abde1896e9f18cec9470698f04be5c" prot="public" virt="non-virtual" ambiguityscope="fmt::formatter&lt; MR::Vector3&lt; T &gt; &gt;::"><scope>fmt::formatter&lt; MR::AffineXf3&lt; T &gt; &gt;</scope><name>format</name></member>

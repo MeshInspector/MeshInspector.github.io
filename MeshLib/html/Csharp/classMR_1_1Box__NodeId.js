@@ -5,6 +5,7 @@ var classMR_1_1Box__NodeId =
     [ "Box_NodeId", "classMR_1_1Box__NodeId.html#a15206ecb4c28fd11d77f1fd22b379756", null ],
     [ "Box_NodeId", "classMR_1_1Box__NodeId.html#a33c5503db47d7f5f50649637547ce5dc", null ],
     [ "Box_NodeId", "classMR_1_1Box__NodeId.html#a5c219c0659fb984ae50be8ffa469c356", null ],
+    [ "Box_NodeId", "classMR_1_1Box__NodeId.html#a1268697a5d8278a7c3d277a2a92d91a5", null ],
     [ "addAssign", "classMR_1_1Box__NodeId.html#aeaff0515ba5e7dc18319433b3f83af93", null ],
     [ "Assign", "classMR_1_1Box__NodeId.html#ab4f615929a77ef341ad18b4b797b7f7c", null ],
     [ "decr", "classMR_1_1Box__NodeId.html#ae2762f72537e2dbb9d2342d8b94bd246", null ],

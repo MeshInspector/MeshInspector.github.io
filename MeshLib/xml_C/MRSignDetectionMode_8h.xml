@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSignDetectionMode_8h" kind="file" language="C++">
     <compoundname>MRSignDetectionMode.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includedby refid="MRDistanceToMeshOptions_8h" local="no">MRDistanceToMeshOptions.h</includedby>
     <includedby refid="MROffset_8h" local="no">MROffset.h</includedby>
     <includedby refid="MRRebuildMesh_8h" local="no">MRRebuildMesh.h</includedby>
+    <includedby refid="std__function__void__from__MR__SignDetectionMode_8h" local="no">std_function_void_from_MR_SignDetectionMode.h</includedby>
     <incdepgraph>
       <node id="1">
         <label>MRSignDetectionMode.h</label>
@@ -15,6 +16,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -31,6 +33,12 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std_function_void_from_MR_SignDetectionMode.h</label>
+        <link refid="std__function__void__from__MR__SignDetectionMode_8h"/>
       </node>
       <node id="3">
         <label>MROffset.h</label>
@@ -97,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h" bodystart="12" bodyend="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h" bodystart="12" bodyend="25"/>
       </memberdef>
       <memberdef kind="enum" id="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" prot="public" static="no" strong="no">
         <type></type>
@@ -136,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h" bodystart="29" bodyend="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h" bodystart="29" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -152,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h" line="25" column="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h" line="25" column="22"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSignDetectionMode_8h_1a58cc14f1136bfffa8f15fdbb95d48406" prot="public" static="no">
         <type>enum <ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" kindref="member">MR_SignDetectionModeShort</ref></type>
@@ -166,12 +174,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h" line="36" column="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h" line="36" column="27"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRSignDetectionMode_8h_1a8bab0f090f5563fc8869d6c2242b3ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const char *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const char *</type>
         <definition>MRC_API const char * MR_asString_MR_SignDetectionMode</definition>
         <argsstring>(MR_SignDetectionMode m)</argsstring>
         <name>MR_asString_MR_SignDetectionMode</name>
@@ -186,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h" line="40" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h" declline="40" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h" line="40" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h" declline="40" declcolumn="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -196,14 +204,14 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref></highlight></codeline>
+<codeline lineno="11" refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14" refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1" kindref="member">MR_SignDetectionMode_Unsigned</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="16" refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571a2455f559eee51bfd07ac40102eaae775" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571a2455f559eee51bfd07ac40102eaae775" kindref="member">MR_SignDetectionMode_OpenVDB</ref><sp/>=<sp/>1,</highlight></codeline>
@@ -212,19 +220,19 @@
 <codeline lineno="24" refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571a7f2d79698464d85d61eef3259fe78bea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571a7f2d79698464d85d61eef3259fe78bea" kindref="member">MR_SignDetectionMode_HoleWindingRule</ref><sp/>=<sp/>4,</highlight></codeline>
 <codeline lineno="25" refid="MRSignDetectionMode_8h_1ac5667a6a1d6e9fb09c95678ff68a3fad" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" kindref="member">MR_SignDetectionModeShort</ref></highlight></codeline>
+<codeline lineno="28" refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" kindref="member">MR_SignDetectionModeShort</ref></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259" kindref="member">MR_SignDetectionModeShort_Auto</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6a806b7735c8bdc889b7355db916d61ae8" kindref="member">MR_SignDetectionModeShort_HoleWindingNumber</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="31" refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259" kindref="member">MR_SignDetectionModeShort_Auto</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="33" refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6a806b7735c8bdc889b7355db916d61ae8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6a806b7735c8bdc889b7355db916d61ae8" kindref="member">MR_SignDetectionModeShort_HoleWindingNumber</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="35" refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6ade831408e3d4d44037958e2995f5c8be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6ade831408e3d4d44037958e2995f5c8be" kindref="member">MR_SignDetectionModeShort_ProjectionNormal</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="36" refid="MRSignDetectionMode_8h_1a58cc14f1136bfffa8f15fdbb95d48406" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" kindref="member">MR_SignDetectionModeShort</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRSignDetectionMode_8h_1a8bab0f090f5563fc8869d6c2242b3ce2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRSignDetectionMode_8h_1a8bab0f090f5563fc8869d6c2242b3ce2" kindref="member">MR_asString_MR_SignDetectionMode</ref>(<ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>m);</highlight></codeline>
+<codeline lineno="40" refid="MRSignDetectionMode_8h_1a8bab0f090f5563fc8869d6c2242b3ce2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRSignDetectionMode_8h_1a8bab0f090f5563fc8869d6c2242b3ce2" kindref="member">MR_asString_MR_SignDetectionMode</ref>(<ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>m);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSignDetectionMode.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSignDetectionMode.h"/>
   </compounddef>
 </doxygen>

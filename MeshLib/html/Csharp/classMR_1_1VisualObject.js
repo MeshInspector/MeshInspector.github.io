@@ -2,8 +2,8 @@ var classMR_1_1VisualObject =
 [
     [ "VisualObject", "classMR_1_1VisualObject.html#a1a2947d0fc7d25c529942b8219766825", null ],
     [ "VisualObject", "classMR_1_1VisualObject.html#a5a1c5cbaaa8c607b9c48e82a31dd17fc", null ],
-    [ "addChild", "classMR_1_1VisualObject.html#a1c2d1dec97de77469bdf2495a1d60f8e", null ],
-    [ "addChildBefore", "classMR_1_1VisualObject.html#a5f5340d1cd985acdd721d67c61b22b8d", null ],
+    [ "addChild", "classMR_1_1VisualObject.html#ae64cd03d049d47031206d1609777734e", null ],
+    [ "addChildBefore", "classMR_1_1VisualObject.html#a91279b48634b1f195ed634c86c401d02", null ],
     [ "addTag", "classMR_1_1VisualObject.html#a632589d5adf08d0bc341b2fe0d310330", null ],
     [ "applyScale", "classMR_1_1VisualObject.html#ac6d7e43baa084e95b3632dceedbc4908", null ],
     [ "assign", "classMR_1_1VisualObject.html#ab6e2de4c7c6dc32c1e400132f23a353c", null ],

@@ -1,57 +1,102 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROffsetContours_8h" kind="file" language="C++">
     <compoundname>MROffsetContours.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRConstants_8h" local="yes">MRConstants.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes local="no">functional</includes>
     <includes local="no">string</includes>
     <incdepgraph>
-      <node id="3">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="4">
+      <node id="14">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
       <node id="1">
-        <label>MROffsetContours.h</label>
+        <label>MRMesh/MROffsetContours.h</label>
         <link refid="MROffsetContours_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="5">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="15">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="8">
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
         <label>functional</label>
       </node>
-      <node id="7">
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
         <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1OffsetContourIndex" prot="public">MR::OffsetContourIndex</innerclass>
@@ -65,7 +110,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRConstants_8h" kindref="compound">MRConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -92,8 +137,8 @@
 <codeline lineno="38" refid="group__GeneralGroup_1ga1633716ab89e852055090daa8b6eb2ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1633716ab89e852055090daa8b6eb2ab" kindref="member">lRatio</ref>{<sp/>0.0f<sp/>};</highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1gabafa00798fb1314aef0b80b10f1db15e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabafa00798fb1314aef0b80b10f1db15e" kindref="member">uRatio</ref>{<sp/>0.0f<sp/>};</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1gaaf61c67899c9c542304ca52c98efd6aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf61c67899c9c542304ca52c98efd6aa" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad5f2ee568aa0c645e5784e53f1ae0e72" kindref="member">lOrg</ref>.<ref refid="group__GeneralGroup_1gae382efff2f4e2a54df6db8e72d4c7420" kindref="member">valid</ref>();<sp/>}</highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1gad2a2ed17dca73e3016e3cd9df4d02b02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad2a2ed17dca73e3016e3cd9df4d02b02" kindref="member">isIntersection</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab76af177457e5c7d897c84971b38bc83" kindref="member">lDest</ref>.<ref refid="group__GeneralGroup_1gae382efff2f4e2a54df6db8e72d4c7420" kindref="member">valid</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1gaaf61c67899c9c542304ca52c98efd6aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf61c67899c9c542304ca52c98efd6aa" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad5f2ee568aa0c645e5784e53f1ae0e72" kindref="member">lOrg</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1gad2a2ed17dca73e3016e3cd9df4d02b02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad2a2ed17dca73e3016e3cd9df4d02b02" kindref="member">isIntersection</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab76af177457e5c7d897c84971b38bc83" kindref="member">lDest</ref>.valid();<sp/>}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="47" refid="group__GeneralGroup_1gabbeb6c9515d4865378050cb9687fd180" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabbeb6c9515d4865378050cb9687fd180" kindref="member">OffsetContoursVertMap</ref><sp/>=<sp/>std::vector&lt;OffsetContoursOrigins&gt;;</highlight></codeline>
 <codeline lineno="48" refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" kindref="member">OffsetContoursVertMaps</ref><sp/>=<sp/>std::vector&lt;OffsetContoursVertMap&gt;;</highlight></codeline>
@@ -102,20 +147,20 @@
 <codeline lineno="51"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="53" refid="group__GeneralGroup_1gaf7ce0ff6c24247a435c6742c785db972" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf7ce0ff6c24247a435c6742c785db972" kindref="member">Type</ref></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaaa59d5575d36ccf9d5237292d79740c8" kindref="member">Offset</ref>,<sp/></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaf7ce0ff6c24247a435c6742c785db972aea89b68c34ce4a63c0f77e17413c6e30" kindref="member">Shell</ref><sp/></highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1ggaf7ce0ff6c24247a435c6742c785db972adfd0a82c4bf37b1e90b690a22a20692e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaaa59d5575d36ccf9d5237292d79740c8" kindref="member">Offset</ref>,<sp/></highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1ggaf7ce0ff6c24247a435c6742c785db972aea89b68c34ce4a63c0f77e17413c6e30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaf7ce0ff6c24247a435c6742c785db972aea89b68c34ce4a63c0f77e17413c6e30" kindref="member">Shell</ref><sp/></highlight></codeline>
 <codeline lineno="57" refid="group__GeneralGroup_1gaaa59d5575d36ccf9d5237292d79740c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>type{<sp/><ref refid="group__GeneralGroup_1ggaf7ce0ff6c24247a435c6742c785db972adfd0a82c4bf37b1e90b690a22a20692e" kindref="member">Type::Offset</ref><sp/>};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="60" refid="group__GeneralGroup_1ga1edd2d4e6c07ebdd654ef43eeb7d3da8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1edd2d4e6c07ebdd654ef43eeb7d3da8" kindref="member">EndType</ref></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" kindref="member">Round</ref>,<sp/></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7" kindref="member">Cut</ref><sp/></highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1gga1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" kindref="member">Round</ref>,<sp/></highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1gga1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7" kindref="member">Cut</ref><sp/></highlight></codeline>
 <codeline lineno="64" refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>endType{<sp/><ref refid="group__GeneralGroup_1gga1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c" kindref="member">EndType::Round</ref><sp/>};</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67" refid="group__GeneralGroup_1ga7211722e3debbfaa5ad3c7b9dfa090a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7211722e3debbfaa5ad3c7b9dfa090a4" kindref="member">CornerType</ref></highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" kindref="member">Round</ref>,<sp/></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga7211722e3debbfaa5ad3c7b9dfa090a4a60c17eb98355db0fe5ce016db6c6f444" kindref="member">Sharp</ref><sp/></highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1gga7211722e3debbfaa5ad3c7b9dfa090a4ab7f41fc1412ad2ee75e9b2635d3b9d5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" kindref="member">Round</ref>,<sp/></highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1gga7211722e3debbfaa5ad3c7b9dfa090a4a60c17eb98355db0fe5ce016db6c6f444" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga7211722e3debbfaa5ad3c7b9dfa090a4a60c17eb98355db0fe5ce016db6c6f444" kindref="member">Sharp</ref><sp/></highlight></codeline>
 <codeline lineno="71" refid="group__GeneralGroup_1ga11a811849fd3702f4abc2c898b1fe5dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>cornerType{<sp/><ref refid="group__GeneralGroup_1gga7211722e3debbfaa5ad3c7b9dfa090a4ab7f41fc1412ad2ee75e9b2635d3b9d5c" kindref="member">CornerType::Round</ref><sp/>};</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74" refid="group__GeneralGroup_1ga52ea8121bcdb1c1f7d2c638a77f9b9d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga52ea8121bcdb1c1f7d2c638a77f9b9d9" kindref="member">minAnglePrecision</ref><sp/>=<sp/>PI_F<sp/>/<sp/>9.0f;<sp/></highlight></codeline>
@@ -124,29 +169,29 @@
 <codeline lineno="79" refid="group__GeneralGroup_1ga8f22257eec663355f415c139933b24e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" kindref="member">OffsetContoursVertMaps</ref>*<sp/><ref refid="group__GeneralGroup_1ga8f22257eec663355f415c139933b24e3" kindref="member">indicesMap</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours2f<sp/><ref refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87" refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kindref="member">ContoursVariableOffset</ref><sp/>=<sp/>std::function&lt;float(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)&gt;;</highlight></codeline>
-<codeline lineno="89" refid="group__GeneralGroup_1ga27899d08f51f8b1106ec145d7a116f9f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours2f<sp/><ref refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,<sp/></highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1ga37d160a0ced942b7139aafba1321e8f0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kindref="member">ContoursVariableOffset</ref><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="structMR_1_1OffsetContoursRestoreZParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OffsetContoursRestoreZParams" kindref="compound">OffsetContoursRestoreZParams</ref></highlight></codeline>
+<codeline lineno="93" refid="structMR_1_1OffsetContoursRestoreZParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OffsetContoursRestoreZParams" kindref="compound">OffsetContoursRestoreZParams</ref></highlight></codeline>
 <codeline lineno="94"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="97" refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kindref="member">OriginZCallback</ref><sp/>=<sp/>std::function&lt;float(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>offsetCont,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref>&amp;<sp/>offsetIndex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref>&amp;<sp/>origingContourMapoing)&gt;;</highlight></codeline>
+<codeline lineno="97" refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kindref="member">OriginZCallback</ref><sp/>=<sp/>std::function&lt;float(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>offsetCont,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref>&amp;<sp/>offsetIndex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref>&amp;<sp/>origingContourMapoing)&gt;;</highlight></codeline>
 <codeline lineno="98" refid="group__GeneralGroup_1ga438c80b5404a4c86a8a262af5bf56945" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kindref="member">OriginZCallback</ref><sp/><ref refid="group__GeneralGroup_1ga438c80b5404a4c86a8a262af5bf56945" kindref="member">zCallback</ref>;</highlight></codeline>
 <codeline lineno="100" refid="group__GeneralGroup_1gad56a82055a6779969941251b8ad56f97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad56a82055a6779969941251b8ad56f97" kindref="member">relaxIterations</ref><sp/>=<sp/>1;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="group__GeneralGroup_1ga5603e7e0bf45735134643ec3745b0573" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours3f<sp/><ref refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours3f&amp;<sp/>contours,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
+<codeline lineno="104" refid="group__GeneralGroup_1ga132f18e77a51cf27dfa56d8b0101c6bb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref><sp/><ref refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>OffsetContoursRestoreZParams&amp;<sp/>zParmas<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="group__GeneralGroup_1gaade58963fb6a70bd69db550185bd5af7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours3f<sp/><ref refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours3f&amp;<sp/>contours,</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1ga24775cda4bf6c1d82342273ec197768b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref><sp/><ref refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kindref="member">ContoursVariableOffset</ref><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>OffsetContoursRestoreZParams&amp;<sp/>zParmas<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h"/>
+    <location file="MRMesh/MROffsetContours.h"/>
   </compounddef>
 </doxygen>

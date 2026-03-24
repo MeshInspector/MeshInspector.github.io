@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__const__MR__ObjId__MR__ObjId_8h" kind="file" language="C++">
+    <compoundname>std_pair_const_MR_ObjId_MR_ObjId.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_const_MR_ObjId_MR_ObjId.h</label>
+        <link refid="std__pair__const__MR__ObjId__MR__ObjId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1a90d9924aeaebe3666033c0f64df13f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_ObjId_MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1abe36486974ac3cd5b422225e43a801bd" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="19" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="19" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1a29eb72a9cceafa78106b38b56d1f68bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_ObjId_MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1ac49a669a4b1c4e76e0d5e81f60fe3d56" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a72634c480c9605213a3af2167439cd40" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a9031f0bdec30bbaa7668af21bd553b5e" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="24" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="24" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1aab5645c3eea06f6118b8c6e8a96d8814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_ObjId_MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_pair_const_MR_ObjId_MR_ObjId *other)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1abe36486974ac3cd5b422225e43a801bd" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="31" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="31" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1abe36486974ac3cd5b422225e43a801bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_const_MR_ObjId_MR_ObjId_Destroy</definition>
+        <argsstring>(const MR_std_pair_const_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_Destroy</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="34" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="34" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1ac49a669a4b1c4e76e0d5e81f60fe3d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_const_MR_ObjId_MR_ObjId_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_const_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="37" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1a9031f0bdec30bbaa7668af21bd553b5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_std_pair_const_MR_ObjId_MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_const_MR_ObjId_MR_ObjId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="41" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="41" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1a72634c480c9605213a3af2167439cd40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_ObjId_MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_const_MR_ObjId_MR_ObjId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="45" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="45" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1aa971edf2e388174488d1bb1c5dea4524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_ObjId_MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_Construct</definition>
+        <argsstring>(MR_ObjId first, MR_ObjId second)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_Construct</name>
+        <param>
+          <type><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>second</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1abe36486974ac3cd5b422225e43a801bd" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="52" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="52" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1ac0993e09fa77312808ddabc1665dd7a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_first</definition>
+        <argsstring>(const MR_std_pair_const_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_first</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="58" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="58" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1a6fb9f71b5ce2d03cc077dadd16fe2001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_second</definition>
+        <argsstring>(const MR_std_pair_const_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_second</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="64" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="64" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__ObjId__MR__ObjId_8h_1a348b52818a119f86d1dcb48264932d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_ObjId * MR_std_pair_const_MR_ObjId_MR_ObjId_second_mut</definition>
+        <argsstring>(MR_std_pair_const_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId_second_mut</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" line="70" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h" declline="70" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a90d9924aeaebe3666033c0f64df13f2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a90d9924aeaebe3666033c0f64df13f2a" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a29eb72a9cceafa78106b38b56d1f68bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a29eb72a9cceafa78106b38b56d1f68bd" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1aab5645c3eea06f6118b8c6e8a96d8814" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1aab5645c3eea06f6118b8c6e8a96d8814" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1abe36486974ac3cd5b422225e43a801bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1abe36486974ac3cd5b422225e43a801bd" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1ac49a669a4b1c4e76e0d5e81f60fe3d56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1ac49a669a4b1c4e76e0d5e81f60fe3d56" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a9031f0bdec30bbaa7668af21bd553b5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a9031f0bdec30bbaa7668af21bd553b5e" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a72634c480c9605213a3af2167439cd40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a72634c480c9605213a3af2167439cd40" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_OffsetMutablePtr</ref>(<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1aa971edf2e388174488d1bb1c5dea4524" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1aa971edf2e388174488d1bb1c5dea4524" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_Construct</ref>(<ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>first,<sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>second);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1ac0993e09fa77312808ddabc1665dd7a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1ac0993e09fa77312808ddabc1665dd7a4" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a6fb9f71b5ce2d03cc077dadd16fe2001" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a6fb9f71b5ce2d03cc077dadd16fe2001" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a348b52818a119f86d1dcb48264932d57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="std__pair__const__MR__ObjId__MR__ObjId_8h_1a348b52818a119f86d1dcb48264932d57" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId_second_mut</ref>(<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h"/>
+  </compounddef>
+</doxygen>

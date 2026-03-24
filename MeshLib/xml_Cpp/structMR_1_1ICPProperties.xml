@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ICPProperties" kind="struct" language="C++" prot="public">
     <compoundname>MR::ICPProperties</compoundname>
-    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <includes refid="MRICP_8h" local="no">MRMesh/MRICP.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" kind="variable"><name>method</name></member>
       <member refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" kind="variable"><name>p2plAngleLimit</name></member>
@@ -22,7 +22,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="125" bodyend="175"/>
+    <location file="MRMesh/MRICP.h" line="124" column="1" bodyfile="MRMesh/MRICP.h" bodystart="125" bodyend="175"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>badIterStopCount</name></member>
       <member refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>cosThreshold</name></member>

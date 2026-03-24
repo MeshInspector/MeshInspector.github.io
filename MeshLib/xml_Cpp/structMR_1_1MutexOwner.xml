@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MutexOwner" kind="struct" language="C++" prot="public">
     <compoundname>MR::MutexOwner</compoundname>
-    <includes refid="MRMutexOwner_8h" local="no">MRMutexOwner.h</includes>
+    <includes refid="MRMutexOwner_8h" local="no">MRMesh/MRMutexOwner.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga14db8ca7d0c17638612e3c103c8418a9" kind="variable"><name>m</name></member>
     </sectiondef>
@@ -18,7 +18,7 @@
     <detaileddescription>
 <para>This class exists to provide copy and move constructors and assignment operations for std::mutex which actually does nothing </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" bodystart="15" bodyend="23"/>
+    <location file="MRMesh/MRMutexOwner.h" line="14" column="1" bodyfile="MRMesh/MRMutexOwner.h" bodystart="15" bodyend="23"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga14db8ca7d0c17638612e3c103c8418a9" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>m</name></member>
       <member refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>

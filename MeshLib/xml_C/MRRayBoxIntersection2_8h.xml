@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRayBoxIntersection2_8h" kind="file" language="C++">
     <compoundname>MRRayBoxIntersection2.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,42 +15,15 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stdbool.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRRayBoxIntersection2_8h_1a05745414240b5f207ca38fdc6d06f099" prot="public" static="no">
-        <type>struct MR_Box2f</type>
-        <definition>typedef struct MR_Box2f MR_Box2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Box2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection2.h" line="11" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection2.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRayBoxIntersection2_8h_1a42f4324f3958a2b1ca19cd1728c5db67" prot="public" static="no">
-        <type>struct <ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref></type>
-        <definition>typedef struct MR_Line2f MR_Line2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Line2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection2.h" line="12" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection2.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRRayBoxIntersection2_8h_1ae9f97cb91b3c48ca4b8ebcb3303300db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_rayBoxIntersect_4_MR_Box2f</definition>
         <argsstring>(const MR_Box2f *box, const MR_Line2f *line, float t0, float t1)</argsstring>
         <name>MR_rayBoxIntersect_4_MR_Box2f</name>
@@ -77,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection2.h" line="18" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection2.h" declline="18" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRayBoxIntersection2.h" line="18" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRayBoxIntersection2.h" declline="18" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -87,7 +60,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -95,16 +68,16 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRRayBoxIntersection2_8h_1a05745414240b5f207ca38fdc6d06f099" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRRayBoxIntersection2_8h_1a42f4324f3958a2b1ca19cd1728c5db67" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRRayBoxIntersection2_8h_1ae9f97cb91b3c48ca4b8ebcb3303300db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRayBoxIntersection2_8h_1ae9f97cb91b3c48ca4b8ebcb3303300db" kindref="member">MR_rayBoxIntersect_4_MR_Box2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/>*box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/>*line,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t1);</highlight></codeline>
+<codeline lineno="18" refid="MRRayBoxIntersection2_8h_1ae9f97cb91b3c48ca4b8ebcb3303300db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRayBoxIntersection2_8h_1ae9f97cb91b3c48ca4b8ebcb3303300db" kindref="member">MR_rayBoxIntersect_4_MR_Box2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/>*box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/>*line,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t1);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection2.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRayBoxIntersection2.h"/>
   </compounddef>
 </doxygen>

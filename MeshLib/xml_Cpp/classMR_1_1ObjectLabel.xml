@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectLabel" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectLabel</compoundname>
     <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
-    <includes refid="MRObjectLabel_8h" local="no">MRObjectLabel.h</includes>
+    <includes refid="MRObjectLabel_8h" local="no">MRSymbolMesh/MRObjectLabel.h</includes>
     <sectiondef kind="protected-attrib">
       <member refid="group__GeneralGroup_1gae0172aed4b4967b65006a635afff2d6b" kind="variable"><name>label_</name></member>
       <member refid="group__GeneralGroup_1gad15dc682a4c68f588608e3690da71f81" kind="variable"><name>pathToFont_</name></member>
@@ -27,60 +27,60 @@
       <member refid="group__GeneralGroup_1ga032d6ec577b05041fd30ffefd87f4650" kind="variable"><name>meshBox_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gadac04396da1b83bf5b3cddc3b9f6fac7" kind="function"><name>ObjectLabel</name></member>
+      <member refid="group__GeneralGroup_1ga91841476496cdd77a6769db2731c4c0e" kind="function"><name>ObjectLabel</name></member>
       <member refid="group__GeneralGroup_1ga05d6a6f70fb7cc83673c180c7c23335b" kind="function"><name>ObjectLabel</name></member>
       <member refid="group__GeneralGroup_1ga50aaf3757356ccffb73f014770fa24e4" kind="function"><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga4c2b4d2f1feca2726294451d193259d9" kind="function"><name>typeName</name></member>
-      <member refid="group__GeneralGroup_1ga8fc4869a46109f5f0c443a8766620452" kind="function"><name>applyScale</name></member>
+      <member refid="group__GeneralGroup_1gad0b91f113f9983703e0a9118838e7708" kind="function"><name>applyScale</name></member>
       <member refid="group__GeneralGroup_1gab8661825d2a0395152d6fb6b82d994f1" kind="function"><name>hasVisualRepresentation</name></member>
-      <member refid="group__GeneralGroup_1gab79717ed9223b4f94cf8d564d1bc126d" kind="function"><name>clone</name></member>
-      <member refid="group__GeneralGroup_1ga21e09826b77caa1991f22c27088ada44" kind="function"><name>shallowClone</name></member>
-      <member refid="group__GeneralGroup_1ga4057dce997287066f87e0e9383800f4a" kind="function"><name>setFontHeight</name></member>
+      <member refid="group__GeneralGroup_1ga38dc603b0f2b556cbbfdbe7ad57f78a9" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gac2aff24651dd71f257bdd1bc7e5cab02" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga13a7e95f277fc6708a28fd442871f9f3" kind="function"><name>setFontHeight</name></member>
       <member refid="group__GeneralGroup_1gabad194094703dd1d925c246090f8acf6" kind="function"><name>getFontHeight</name></member>
-      <member refid="group__GeneralGroup_1ga35da258e2581326e4a8317dc42f440a0" kind="function"><name>setLabel</name></member>
+      <member refid="group__GeneralGroup_1gaecf5543da9ad09a4bfb7de00c12d1f0a" kind="function"><name>setLabel</name></member>
       <member refid="group__GeneralGroup_1ga1d72e7f4d72cb5498d8ef35a334c7d49" kind="function"><name>getLabel</name></member>
-      <member refid="group__GeneralGroup_1ga5a6dabaa5139adaf0ea3c78fb52f7f3b" kind="function"><name>setFontPath</name></member>
+      <member refid="group__GeneralGroup_1ga1136561d6a6372214f3b6359ee94eb76" kind="function"><name>setFontPath</name></member>
       <member refid="group__GeneralGroup_1ga23afe1ab31ee4d005fddf5ec6c0b8e89" kind="function"><name>getFontPath</name></member>
-      <member refid="group__GeneralGroup_1ga91ceadbcce9ca978ec89699c22b9a368" kind="function"><name>setPivotPoint</name></member>
+      <member refid="group__GeneralGroup_1gafd863758e7c73fd8d054e729c8442a65" kind="function"><name>setPivotPoint</name></member>
       <member refid="group__GeneralGroup_1ga4749aa36f962e97efaaa445c260e36b8" kind="function"><name>getPivotPoint</name></member>
       <member refid="group__GeneralGroup_1ga243d48c407076f946e1366e8cc43231d" kind="function"><name>getPivotShift</name></member>
-      <member refid="group__GeneralGroup_1ga848d5b06819e10e09913e1d33f5aa460" kind="function"><name>setLeaderLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga9e85d96211744a88fd83d6bdb2f4eb0d" kind="function"><name>setLeaderLineWidth</name></member>
       <member refid="group__GeneralGroup_1ga9c17b4728f4e0f0684f393cde072c498" kind="function"><name>getLeaderLineWidth</name></member>
-      <member refid="group__GeneralGroup_1gae04f81a073170c38074e076f323ea2cd" kind="function"><name>setSourcePointSize</name></member>
+      <member refid="group__GeneralGroup_1ga4589ccd6afd1d7c1e8ef36a3fb0ed999" kind="function"><name>setSourcePointSize</name></member>
       <member refid="group__GeneralGroup_1ga2ef821f8b318ac94b1c38cd17b7fec28" kind="function"><name>getSourcePointSize</name></member>
-      <member refid="group__GeneralGroup_1ga7e0331be3b1a1a1400fb9efd9698858f" kind="function"><name>setBackgroundPadding</name></member>
+      <member refid="group__GeneralGroup_1ga2779cce4a20ee8a9c388375b07efc258" kind="function"><name>setBackgroundPadding</name></member>
       <member refid="group__GeneralGroup_1ga7ace8711326d2a662e01572a80216ece" kind="function"><name>getBackgroundPadding</name></member>
-      <member refid="group__GeneralGroup_1ga5f3d3a9c1c4f9e894308be7d9d737b5c" kind="function"><name>setSourcePointColor</name></member>
+      <member refid="group__GeneralGroup_1gaff3e668ce8b7bf8b50746c3881e3ef95" kind="function"><name>setSourcePointColor</name></member>
       <member refid="group__GeneralGroup_1gafa7cca94bb7c52c65b8e8fad9b7a2f17" kind="function"><name>getSourcePointColor</name></member>
-      <member refid="group__GeneralGroup_1ga736b16f9c0f20255184c4a2e57995599" kind="function"><name>setLeaderLineColor</name></member>
+      <member refid="group__GeneralGroup_1ga082bdeb2e255943bbd20c846f674d8c5" kind="function"><name>setLeaderLineColor</name></member>
       <member refid="group__GeneralGroup_1ga490545e03a5ff1d5639ceb3f569bb2bf" kind="function"><name>getLeaderLineColor</name></member>
-      <member refid="group__GeneralGroup_1gadd43f0fa707ab9a84cca2cac22b4d217" kind="function"><name>setContourColor</name></member>
+      <member refid="group__GeneralGroup_1ga93a4782393f7a5979864e1819f39169f" kind="function"><name>setContourColor</name></member>
       <member refid="group__GeneralGroup_1gae77a8bdb570398fdc93c9de8f73015f2" kind="function"><name>getContourColor</name></member>
-      <member refid="group__GeneralGroup_1ga1292dd58ffac8db2bc630f5625a08fe2" kind="function"><name>getSourcePointColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga0e4aaeb30afddb1a5c10376aec4feec6" kind="function"><name>setSourcePointColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga8a87a0a647577a0a1aeea04f055bb087" kind="function"><name>getLeaderLineColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga4e801b7a159f17e408ed016b642a0936" kind="function"><name>setLeaderLineColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga1e573ae8cc406f865177a06867d1eb90" kind="function"><name>getContourColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga393f0b6c17f435c5a70985d6e25caab4" kind="function"><name>setContourColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga10256a4de4137247b3f83ee145a28376" kind="function"><name>getSourcePointColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga929343ee7bf9dd93a482a309eb9fdb5f" kind="function"><name>setSourcePointColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga8e9143e953a4195125eeca94daac25b4" kind="function"><name>getLeaderLineColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1gaf65c31e311fe35dac260f9beda65869e" kind="function"><name>setLeaderLineColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga27b12b33b6f6d85b2d6ca74dd492a1ec" kind="function"><name>getContourColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga83a75c4c467a339fb23394076ff5628b" kind="function"><name>setContourColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1ga21f7e3a3e9705c1cc258cf3af3212696" kind="function"><name>ObjectLabel</name></member>
-      <member refid="group__GeneralGroup_1ga1b7dd5988b7afd2f99debb1cfed9225e" kind="function"><name>getWorldBox</name></member>
+      <member refid="group__GeneralGroup_1gae648c5a3ff98482e5e6d48c7108de85a" kind="function"><name>getWorldBox</name></member>
       <member refid="group__GeneralGroup_1ga2b5155ef1e07c779cf760515b4653c08" kind="function"><name>labelRepresentingMesh</name></member>
-      <member refid="group__GeneralGroup_1gad0dafa16ac297c6861333ff5d93eb037" kind="function"><name>heapBytes</name></member>
-      <member refid="group__GeneralGroup_1ga48d67e46ddf2d603bbe15943d84d7e7b" kind="function"><name>getAllVisualizeProperties</name></member>
-      <member refid="group__GeneralGroup_1gafc03bf6428dfd9116ff618a39f7a4f20" kind="function"><name>getVisualizePropertyMask</name></member>
-      <member refid="group__GeneralGroup_1ga97ab4effb71dc605e1393cdf812788fc" kind="function"><name>buildMeshFromText</name></member>
+      <member refid="group__GeneralGroup_1ga5b38b5c2336386cba4698801bf3a4abc" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga89502a0387ca8daa12e66c5192aee2c2" kind="function"><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1ga379685d2de54bd1ae14f028fc19a8316" kind="function"><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1gadc45f45ced684b3baf2c6ad7c0d4a3ec" kind="function"><name>buildMeshFromText</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <member refid="group__GeneralGroup_1ga81f9ef2311c3eff8e8f2bc2f94919133" kind="function"><name>StaticTypeName</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1gab256cedc71a3de3ca2c09ae69d35e973" kind="function"><name>ObjectLabel</name></member>
-      <member refid="group__GeneralGroup_1ga3c2f6a903e0a0d8bee8bb94b6385bb82" kind="function"><name>swapBase_</name></member>
-      <member refid="group__GeneralGroup_1ga8a2c844b058ff7ae2ae3ccfed86bb62f" kind="function"><name>computeBoundingBox_</name></member>
-      <member refid="group__GeneralGroup_1ga4f32870205a547a67ffb38cd5b8f11ff" kind="function"><name>serializeFields_</name></member>
-      <member refid="group__GeneralGroup_1ga1b4fadc47c45703484507fe084472ccb" kind="function"><name>deserializeFields_</name></member>
-      <member refid="group__GeneralGroup_1ga24cbb50f1855d6c25c214a360db2648e" kind="function"><name>setupRenderObject_</name></member>
-      <member refid="group__GeneralGroup_1ga76f0c50a2b27ed61e7e6033571be7250" kind="function"><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga0f3430f822c51cddbd4d3450663aa90d" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga4984e1fd0de3ca9f68581167f630e772" kind="function"><name>computeBoundingBox_</name></member>
+      <member refid="group__GeneralGroup_1gadb7d2408a063000ed821231690d5c9bd" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga7330b8204ab2b1d0b1144bba934c4ef3" kind="function"><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga0c94bcd649c22cb06962841a900ecba4" kind="function"><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1gaf6c31afebbc126acb816c0ca52196b3a" kind="function"><name>setAllVisualizeProperties_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gab6b15c75b1b92367c2520f55d8b5d34f" kind="function"><name>setDefaultColors_</name></member>
@@ -203,7 +203,6 @@
         <childnode refid="8" relation="usage">
           <edgelabel>clipByPlane_</edgelabel>
           <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
           <edgelabel>pickable_</edgelabel>
           <edgelabel>showName_</edgelabel>
         </childnode>
@@ -223,99 +222,98 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="29" bodyend="198"/>
+    <location file="MRSymbolMesh/MRObjectLabel.h" line="28" column="1" bodyfile="MRSymbolMesh/MRObjectLabel.h" bodystart="29" bodyend="198"/>
     <listofallmembers>
-      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>addChild</name></member>
-      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>addChildBefore</name></member>
-      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>addTag</name></member>
+      <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a56371d5594dc04ece2f123377835e11d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>addTag</name></member>
       <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ambientStrength_</name></member>
       <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ancillary_</name></member>
-      <member refid="group__GeneralGroup_1ga8fc4869a46109f5f0c443a8766620452" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>applyScale</name></member>
+      <member refid="group__GeneralGroup_1gad0b91f113f9983703e0a9118838e7708" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>applyScale</name></member>
       <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>asType</name></member>
       <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>asType</name></member>
       <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>backFacesColor_</name></member>
       <member refid="group__GeneralGroup_1ga9e07961f427e19ec5413b339077cd007" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>background_</name></member>
       <member refid="group__GeneralGroup_1ga09df9107adde5b00678f15bfa4420411" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>backgroundPadding_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>bastards_</name></member>
-      <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>boundingBoxToInfoLines_</name></member>
-      <member refid="group__GeneralGroup_1ga97ab4effb71dc605e1393cdf812788fc" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>buildMeshFromText</name></member>
+      <member refid="classMR_1_1VisualObject_1a5166814acd584216ff6f71fa1b642a6a" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>boundingBoxToInfoLines_</name></member>
+      <member refid="group__GeneralGroup_1gadc45f45ced684b3baf2c6ad7c0d4a3ec" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>buildMeshFromText</name></member>
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>children_</name></member>
       <member refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>className</name></member>
       <member refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>clipByPlane_</name></member>
-      <member refid="group__GeneralGroup_1gab79717ed9223b4f94cf8d564d1bc126d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>clone</name></member>
-      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>cloneTree</name></member>
+      <member refid="group__GeneralGroup_1ga38dc603b0f2b556cbbfdbe7ad57f78a9" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>clone</name></member>
+      <member refid="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>coloringType_</name></member>
-      <member refid="group__GeneralGroup_1ga8a2c844b058ff7ae2ae3ccfed86bb62f" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>computeBoundingBox_</name></member>
+      <member refid="group__GeneralGroup_1ga4984e1fd0de3ca9f68581167f630e772" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>computeBoundingBox_</name></member>
       <member refid="group__GeneralGroup_1gaee1743b888226be20aed8d683d65c188" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>contour_</name></member>
       <member refid="group__GeneralGroup_1ga12d207d71db54cf8592a72d10a999d3a" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>contourColor_</name></member>
-      <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a64b9343aa9d5bb3c96e4a4f25fec077e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>depthTest_</name></member>
-      <member refid="group__GeneralGroup_1ga1b4fadc47c45703484507fe084472ccb" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>deserializeFields_</name></member>
-      <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>deserializeModel_</name></member>
-      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>deserializeRecursive</name></member>
-      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>detachFromParent</name></member>
-      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
+      <member refid="group__GeneralGroup_1ga7330b8204ab2b1d0b1144bba934c4ef3" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>deserializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a24103b426aec928b849c1c5aed3849fd" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a5ad7a9244371a01ba7538ff24ce15165" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1acde230852a1c88579a652d00e088d03a" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Object_1a0520ac7d486992d1ab8e2e421b9237f9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
-      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1a831f4bf76e2d9593f570d292c549999f" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>findCommonAncestor</name></member>
       <member refid="group__GeneralGroup_1gaa11557f43ed662feb8a618c2df1db1e7" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>fontHeight_</name></member>
-      <member refid="group__GeneralGroup_1ga48d67e46ddf2d603bbe15943d84d7e7b" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1ga89502a0387ca8daa12e66c5192aee2c2" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getAllVisualizeProperties</name></member>
       <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getAmbientStrength</name></member>
-      <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBackColor</name></member>
-      <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1aaadfdf324a8f3034c46482d41883c7ed" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1ac2e2bd1a56e1f645197a55b4cd836447" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1ga7ace8711326d2a662e01572a80216ece" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBackgroundPadding</name></member>
-      <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1VisualObject_1a879917fdd52cd217edf1813bb70f208c" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBoundingBox</name></member>
       <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getColoringType</name></member>
       <member refid="group__GeneralGroup_1gae77a8bdb570398fdc93c9de8f73015f2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getContourColor</name></member>
-      <member refid="group__GeneralGroup_1ga1e573ae8cc406f865177a06867d1eb90" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getContourColorsForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getDirtyFlags</name></member>
+      <member refid="group__GeneralGroup_1ga27b12b33b6f6d85b2d6ca74dd492a1ec" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getContourColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a914e8fc171467b6f166d49699142cdab" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getDirtyFlags</name></member>
       <member refid="group__GeneralGroup_1gabad194094703dd1d925c246090f8acf6" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFontHeight</name></member>
       <member refid="group__GeneralGroup_1ga23afe1ab31ee4d005fddf5ec6c0b8e89" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFontPath</name></member>
-      <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFrontColor</name></member>
-      <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getFrontColorsForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getGlobalAlpha</name></member>
-      <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getGlobalAlphaForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1VisualObject_1a1a7338d02444c3c17636f700e2d3deaa" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a0327ee42465cea0b0b7bba53bd891278" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a4ad6675a1fd07271d8e43ebb948c5f66" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a922537446a44518abfb3a0f77c50456e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a50b598ca7511883951a2af242c22a323" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getInfoLines</name></member>
       <member refid="group__GeneralGroup_1ga1d72e7f4d72cb5498d8ef35a334c7d49" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLabel</name></member>
       <member refid="group__GeneralGroup_1ga490545e03a5ff1d5639ceb3f569bb2bf" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineColor</name></member>
-      <member refid="group__GeneralGroup_1ga8a87a0a647577a0a1aeea04f055bb087" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga8e9143e953a4195125eeca94daac25b4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1ga9c17b4728f4e0f0684f393cde072c498" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineWidth</name></member>
-      <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Object_1a3f895610f42b2b4dec3e99d8b0920ecf" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getModelHash</name></member>
       <member refid="group__GeneralGroup_1ga4749aa36f962e97efaaa445c260e36b8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getPivotPoint</name></member>
       <member refid="group__GeneralGroup_1ga243d48c407076f946e1366e8cc43231d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getPivotShift</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getRedrawFlag</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a05ec077c2240d9e3d7a9889ec4ad308d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getShininess</name></member>
       <member refid="group__GeneralGroup_1gafa7cca94bb7c52c65b8e8fad9b7a2f17" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointColor</name></member>
-      <member refid="group__GeneralGroup_1ga1292dd58ffac8db2bc630f5625a08fe2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga10256a4de4137247b3f83ee145a28376" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1ga2ef821f8b318ac94b1c38cd17b7fec28" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointSize</name></member>
       <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSpecularStrength</name></member>
-      <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getVisualizeProperty</name></member>
-      <member refid="group__GeneralGroup_1gafc03bf6428dfd9116ff618a39f7a4f20" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getVisualizePropertyMask</name></member>
-      <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getVisualizePropertyMask_</name></member>
-      <member refid="group__GeneralGroup_1ga1b7dd5988b7afd2f99debb1cfed9225e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getWorldBox</name></member>
-      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1VisualObject_1a8a2a869017f81470b3f79df6d3cf6ba3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1ga379685d2de54bd1ae14f028fc19a8316" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a40041b6ff06cecae8e29609f272c1dc7" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getVisualizePropertyMask_</name></member>
+      <member refid="group__GeneralGroup_1gae648c5a3ff98482e5e6d48c7108de85a" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Object_1ad214d65abcf7233510a268c7d615beda" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalAlpha_</name></member>
       <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalClippedByPlane</name></member>
-      <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a60eba5ae5638c7f26c6fb7995b234222" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalClippedByPlaneMask</name></member>
       <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalVisibility</name></member>
-      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a33afd7cea9523c3669d9d549f1ab53b4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>hasModel</name></member>
       <member refid="group__GeneralGroup_1gab8661825d2a0395152d6fb6b82d994f1" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>hasVisualRepresentation</name></member>
-      <member refid="group__GeneralGroup_1gad0dafa16ac297c6861333ff5d93eb037" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>invalidateMetricsCache_</name></member>
-      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>invertNormals_</name></member>
-      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncestor</name></member>
+      <member refid="group__GeneralGroup_1ga5b38b5c2336386cba4698801bf3a4abc" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1a0afddb47790734d5e623060cab2fa9e4" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>invalidateMetricsCache_</name></member>
+      <member refid="classMR_1_1Object_1a253fd3912bdef96fa071f29d781225a9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncillary</name></member>
-      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1a67ca42a9190dd34feda17f5c75fa676c" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isGlobalAncillary</name></member>
       <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isLocked</name></member>
       <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isPickable</name></member>
@@ -339,17 +337,17 @@
       <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>Object</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="group__GeneralGroup_1gadac04396da1b83bf5b3cddc3b9f6fac7" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1ac39b8635e5ec3a3e5d0c900806a6766e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="group__GeneralGroup_1ga91841476496cdd77a6769db2731c4c0e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
       <member refid="group__GeneralGroup_1ga05d6a6f70fb7cc83673c180c7c23335b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
       <member refid="group__GeneralGroup_1ga21f7e3a3e9705c1cc258cf3af3212696" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
       <member refid="group__GeneralGroup_1gab256cedc71a3de3ca2c09ae69d35e973" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
-      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>onWorldXfChanged_</name></member>
+      <member refid="classMR_1_1Object_1aac36fc983d44d6c7aca1abc5d12dd457" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>onWorldXfChanged_</name></member>
       <member refid="group__GeneralGroup_1ga50aaf3757356ccffb73f014770fa24e4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1af9423022c44615eb44c4c83247239a89" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>parent</name></member>
       <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>parent</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>parent_</name></member>
@@ -358,82 +356,82 @@
       <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>pickable_</name></member>
       <member refid="group__GeneralGroup_1ga0378ca9fa08bdab3d867515998f544ea" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>pivotPoint_</name></member>
       <member refid="group__GeneralGroup_1ga8ec8f174d0cd7cbd62ceeefb4ef80b62" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>pivotShift_</name></member>
-      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1Object_1a7a29a352087add682135f1b2e1c8030e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>removeChild</name></member>
-      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>removeChild</name></member>
-      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>removeTag</name></member>
-      <member refid="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>render</name></member>
-      <member refid="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Object_1a47b1fa919826f583d492e9c5c12b448f" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aaf5c6ed94ae5c2460bd980f52836d6c4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a63e449ef55a202b2a236381ea648c197" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>render</name></member>
+      <member refid="classMR_1_1VisualObject_1aac0a5515da7ce6683875d89c3be53962" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>renderForPicker</name></member>
       <member refid="classMR_1_1VisualObject_1ab054b578e5da7a7822d693ec0f61b1e7" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>renderObj_</name></member>
-      <member refid="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>renderUi</name></member>
-      <member refid="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetColors</name></member>
-      <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetDirty</name></member>
-      <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetDirtyExceptMask</name></member>
-      <member refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a59c2d4684d78ce2b766917491d4423c6" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1VisualObject_1a7387ee85db3c6749a3cc19cfa5c8454d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a082b75c147ea8895dfebb00954bbe55b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1VisualObject_1ab36aa732541316cc626236ab5d3c2e1f" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a002972c54ee74e8975df17820b82de93" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetFrontColor</name></member>
       <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetRedrawFlag</name></member>
-      <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetXf</name></member>
-      <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>sameModels</name></member>
-      <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>select</name></member>
+      <member refid="classMR_1_1Object_1a28ae4cd299540ffaf382524cb03062c8" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Object_1abea48cadbb0a62e3251ab0dc7fea2976" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Object_1a6a0d3c1523518070b289fea6871fb3b2" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>select</name></member>
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>selected_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>selectedColor_</name></member>
-      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="group__GeneralGroup_1ga4f32870205a547a67ffb38cd5b8f11ff" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>serializeFields_</name></member>
-      <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>serializeModel_</name></member>
-      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>serializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a51befbcd75bb0e8dabe65ab428c0ca61" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="group__GeneralGroup_1gadb7d2408a063000ed821231690d5c9bd" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>serializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a50700fd5697a12cef45947f3b26adc2b" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a816a99fe61e3ee86b2dddb57fc65aef9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setAllVisualizeProperties</name></member>
-      <member refid="group__GeneralGroup_1ga76f0c50a2b27ed61e7e6033571be7250" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1gaf6c31afebbc126acb816c0ca52196b3a" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setAllVisualizeProperties_</name></member>
       <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setAmbientStrength</name></member>
-      <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setAncillary</name></member>
-      <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackColor</name></member>
-      <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga7e0331be3b1a1a1400fb9efd9698858f" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackgroundPadding</name></member>
-      <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setColoringType</name></member>
-      <member refid="group__GeneralGroup_1gadd43f0fa707ab9a84cca2cac22b4d217" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setContourColor</name></member>
-      <member refid="group__GeneralGroup_1ga393f0b6c17f435c5a70985d6e25caab4" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setContourColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Object_1aff1c500650f7ae09501f12d0830ebe69" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1VisualObject_1a1e3ac26b9298450f4ceca9647eba0ebe" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a0804555b5e6ebc6457db73f7ece2f2f0" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga2779cce4a20ee8a9c388375b07efc258" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackgroundPadding</name></member>
+      <member refid="classMR_1_1VisualObject_1a02b8062708aff001c1a3b54b9701358c" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setColoringType</name></member>
+      <member refid="group__GeneralGroup_1ga93a4782393f7a5979864e1819f39169f" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setContourColor</name></member>
+      <member refid="group__GeneralGroup_1ga83a75c4c467a339fb23394076ff5628b" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setContourColorsForAllViewports</name></member>
       <member refid="group__GeneralGroup_1gab6b15c75b1b92367c2520f55d8b5d34f" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDefaultColors_</name></member>
       <member refid="group__GeneralGroup_1gaa7a7115ec458c530a16c8ccdd5ffd744" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDefaultSceneProperties_</name></member>
-      <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setDirtyFlags</name></member>
-      <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDirtyFlagsFast_</name></member>
-      <member refid="group__GeneralGroup_1ga4057dce997287066f87e0e9383800f4a" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFontHeight</name></member>
-      <member refid="group__GeneralGroup_1ga5a6dabaa5139adaf0ea3c78fb52f7f3b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setFontPath</name></member>
-      <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFrontColor</name></member>
-      <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFrontColorsForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setGlobalAlpha</name></member>
-      <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setGlobalAlphaForAllViewports</name></member>
-      <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setGlobalClippedByPlane</name></member>
-      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setGlobalVisibility</name></member>
-      <member refid="group__GeneralGroup_1ga35da258e2581326e4a8317dc42f440a0" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setLabel</name></member>
-      <member refid="group__GeneralGroup_1ga736b16f9c0f20255184c4a2e57995599" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineColor</name></member>
-      <member refid="group__GeneralGroup_1ga4e801b7a159f17e408ed016b642a0936" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga848d5b06819e10e09913e1d33f5aa460" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineWidth</name></member>
+      <member refid="classMR_1_1VisualObject_1a87ffaa3ea3d69894addebd33f0d94792" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1ada03a725b4d776e6f5cf4ffef8d69ab8" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDirtyFlagsFast_</name></member>
+      <member refid="group__GeneralGroup_1ga13a7e95f277fc6708a28fd442871f9f3" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFontHeight</name></member>
+      <member refid="group__GeneralGroup_1ga1136561d6a6372214f3b6359ee94eb76" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setFontPath</name></member>
+      <member refid="classMR_1_1VisualObject_1a3c722ed93ed3e9d102e112407e954dfb" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a6b7f9fbf5c1ff6ad337c466292694f50" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a91fc5d3b3532c88837d1186e65726910" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a4b0fbd86e1de750cfd532b814e9650b2" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1ad02af726a65c651f1bef221ac46e7966" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1Object_1a2d67075395231ca81600bcf6241a6e24" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setGlobalVisibility</name></member>
+      <member refid="group__GeneralGroup_1gaecf5543da9ad09a4bfb7de00c12d1f0a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setLabel</name></member>
+      <member refid="group__GeneralGroup_1ga082bdeb2e255943bbd20c846f674d8c5" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineColor</name></member>
+      <member refid="group__GeneralGroup_1gaf65c31e311fe35dac260f9beda65869e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga9e85d96211744a88fd83d6bdb2f4eb0d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineWidth</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLocked</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setParentLocked</name></member>
-      <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setPickable</name></member>
-      <member refid="group__GeneralGroup_1ga91ceadbcce9ca978ec89699c22b9a368" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setPivotPoint</name></member>
-      <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSharedModel_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa3e7f7bc3338336fb7978ac720bd690c" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setPickable</name></member>
+      <member refid="group__GeneralGroup_1gafd863758e7c73fd8d054e729c8442a65" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setPivotPoint</name></member>
+      <member refid="classMR_1_1Object_1ae255ade2b73c7c74b291f272f5073e73" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setShininess</name></member>
-      <member refid="group__GeneralGroup_1ga5f3d3a9c1c4f9e894308be7d9d737b5c" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointColor</name></member>
-      <member refid="group__GeneralGroup_1ga0e4aaeb30afddb1a5c10376aec4feec6" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointColorsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1gae04f81a073170c38074e076f323ea2cd" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointSize</name></member>
+      <member refid="group__GeneralGroup_1gaff3e668ce8b7bf8b50746c3881e3ef95" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointColor</name></member>
+      <member refid="group__GeneralGroup_1ga929343ee7bf9dd93a482a309eb9fdb5f" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga4589ccd6afd1d7c1e8ef36a3fb0ed999" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointSize</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSpecularStrength</name></member>
-      <member refid="group__GeneralGroup_1ga24cbb50f1855d6c25c214a360db2648e" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setupRenderObject_</name></member>
-      <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
-      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setVisibilityMask</name></member>
-      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setVisible</name></member>
-      <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setVisualizeProperty</name></member>
-      <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setVisualizePropertyMask</name></member>
-      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setWorldXf</name></member>
-      <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setXf</name></member>
+      <member refid="group__GeneralGroup_1ga0c94bcd649c22cb06962841a900ecba4" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setupRenderObject_</name></member>
+      <member refid="classMR_1_1VisualObject_1a6452b6118f39a4d050c573f6ec1668ba" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Object_1abd94110891bc5e4715ab564a4912a01a" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a7c38cdec34f5eb072645d48c9c348046" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1VisualObject_1a9b8b6765c96451bc5ff4518f62dd3213" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1a696363ee390aa359dc5738c2cdf603ca" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Object_1a61f69554fe584800b9f60fac7e7f2200" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1Object_1a13e613fb84a7c11c723e88c920ddbfda" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setXfsForAllViewports</name></member>
-      <member refid="group__GeneralGroup_1ga21e09826b77caa1991f22c27088ada44" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>shallowClone</name></member>
-      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>shallowCloneTree</name></member>
+      <member refid="group__GeneralGroup_1gac2aff24651dd71f257bdd1bc7e5cab02" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1a406d860dc855babd99ec6eb2eccd06d8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>shininess_</name></member>
       <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>showName</name></member>
       <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>showName</name></member>
       <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>showName_</name></member>
-      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Object_1a4cf0bc879b98d57f31a9787e357dce2a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sortChildren</name></member>
       <member refid="group__GeneralGroup_1ga46b25ed3275d1a41588168f24ae385d9" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sourcePoint_</name></member>
       <member refid="group__GeneralGroup_1ga5d2d7ba2d1452d4ea652d46428d7c8d3" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sourcePointColor_</name></member>
       <member refid="group__GeneralGroup_1gae49ac0521404a46a1e170fbd2153014b" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sourcePointSize_</name></member>
@@ -441,32 +439,32 @@
       <member refid="classMR_1_1VisualObject_1aada7c90048febb2b7885af4b99e67f0e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>StaticClassName</name></member>
       <member refid="classMR_1_1VisualObject_1a98cd3516a6d384fb7370afbc397cf704" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>StaticClassNameInPlural</name></member>
       <member refid="group__GeneralGroup_1ga81f9ef2311c3eff8e8f2bc2f94919133" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>StaticTypeName</name></member>
-      <member refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>supportsVisualizeProperty</name></member>
-      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>swap</name></member>
-      <member refid="group__GeneralGroup_1ga3c2f6a903e0a0d8bee8bb94b6385bb82" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>swapBase_</name></member>
-      <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1VisualObject_1af0822d138d3e6151d17137b7d5afc6fe" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Object_1af6d1058c77b340a20c6cfaf8ccbf48fd" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>swap</name></member>
+      <member refid="group__GeneralGroup_1ga0f3430f822c51cddbd4d3450663aa90d" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>swapBase_</name></member>
+      <member refid="classMR_1_1Object_1a379568377624da7413adaabeac8222d2" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>tags_</name></member>
-      <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1a86ce6403029b66a411da5fda4efde0a3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>toggleVisualizeProperty</name></member>
       <member refid="group__GeneralGroup_1ga4c2b4d2f1feca2726294451d193259d9" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>unselectedColor_</name></member>
       <member refid="group__GeneralGroup_1ga0c3ac5f82272e5cf5184e7e65bb5b175" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>updatePivotShift_</name></member>
-      <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1VisualObject_1ac2b8bafaf72ee52d9a2312d0a51666b2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>visibilityMask_</name></member>
-      <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1afba4e36ba430b26b2a358fe7669c568b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
-      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a2b84ff3669616f30ffec70c763993f12" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>worldXf</name></member>
       <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>worldXfChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>xf</name></member>
       <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>xf_</name></member>
       <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>XfChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>xfsForAllViewports</name></member>
       <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>~Object</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>~ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1afc70bfdd1da7c7b37030df9392d86ab5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>~ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>~VisualObject</name></member>
     </listofallmembers>
   </compounddef>

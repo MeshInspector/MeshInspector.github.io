@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointCloud" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointCloud</compoundname>
-    <includes refid="MRPointCloud_8h" local="no">MRPointCloud.h</includes>
+    <includes refid="MRPointCloud_8h" local="no">MRMesh/MRPointCloud.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PointCloud_1a0da05bf74b7157037f314c884ab018b4" prot="public" static="no" mutable="no">
         <type>VertCoords</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="19" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="19" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloud.h" line="19" column="16" bodyfile="MRMesh/MRPointCloud.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointCloud_1a25c1039968a5dc3a24591ac5b74148ad" prot="public" static="no" mutable="no">
         <type>VertNormals</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="22" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloud.h" line="22" column="17" bodyfile="MRMesh/MRPointCloud.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointCloud_1a99cd2bd3f8fa8482032603f382ab9a03" prot="public" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="25" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="25" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloud.h" line="25" column="16" bodyfile="MRMesh/MRPointCloud.h" bodystart="25" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="104" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="104" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloud.h" line="104" column="35" bodyfile="MRMesh/MRPointCloud.h" bodystart="104" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="28" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="28" bodyend="28"/>
+        <location file="MRMesh/MRPointCloud.h" line="28" column="13" bodyfile="MRMesh/MRPointCloud.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PointCloud_1a400e79598dd6367452f3bfe56249615b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="31" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="31" bodyend="31"/>
+        <location file="MRMesh/MRPointCloud.h" line="31" column="11" bodyfile="MRMesh/MRPointCloud.h" bodystart="31" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PointCloud_1a5da247e2172bb10e5ba6ed1105d5c167" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -115,11 +115,11 @@
         <inbodydescription>
 <para>if region is given, then region must be a subset of valid points</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="34" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="34" bodyend="38"/>
+        <location file="MRMesh/MRPointCloud.h" line="34" column="24" bodyfile="MRMesh/MRPointCloud.h" bodystart="34" bodyend="38"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a683c82721c7a330fcc77903d1f3bb7d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
-        <definition>MRMESH_API const AABBTreePoints &amp; MR::PointCloud::getAABBTree</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a645a4b6af1de600172fab56912082219" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
+        <definition>const AABBTreePoints &amp; MR::PointCloud::getAABBTree</definition>
         <argsstring>() const</argsstring>
         <name>getAABBTree</name>
         <qualifiedname>MR::PointCloud::getAABBTree</qualifiedname>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="41" column="37"/>
+        <location file="MRMesh/MRPointCloud.h" line="41" column="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PointCloud_1ac58b0b5f3bf2f48f46f9fe30e054b7cb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> *</type>
@@ -145,26 +145,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="44" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="44" bodyend="44"/>
+        <location file="MRMesh/MRPointCloud.h" line="44" column="28" bodyfile="MRMesh/MRPointCloud.h" bodystart="44" bodyend="44"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a28846bc1f86b18053ff605bd9cdffc26" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Box3f</type>
-        <definition>MRMESH_API Box3f MR::PointCloud::getBoundingBox</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1ab8528785525982a60c9bb9ea1ddcc103" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Box3f</type>
+        <definition>Box3f MR::PointCloud::getBoundingBox</definition>
         <argsstring>() const</argsstring>
         <name>getBoundingBox</name>
         <qualifiedname>MR::PointCloud::getBoundingBox</qualifiedname>
         <briefdescription>
-<para>returns the minimal bounding box containing all valid vertices (implemented via <ref refid="structMR_1_1PointCloud_1a683c82721c7a330fcc77903d1f3bb7d9" kindref="member">getAABBTree()</ref>) </para>
+<para>returns the minimal bounding box containing all valid vertices (implemented via <ref refid="structMR_1_1PointCloud_1a645a4b6af1de600172fab56912082219" kindref="member">getAABBTree()</ref>) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="47" column="23"/>
+        <location file="MRMesh/MRPointCloud.h" line="47" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1ac3b1015ea089d93658ff4783c2282c8e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Box3f</type>
-        <definition>MRMESH_API Box3f MR::PointCloud::computeBoundingBox</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a314c3d7c570cf70aed6cf664175740cd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Box3f</type>
+        <definition>Box3f MR::PointCloud::computeBoundingBox</definition>
         <argsstring>(const AffineXf3f *toWorld=nullptr) const</argsstring>
         <name>computeBoundingBox</name>
         <qualifiedname>MR::PointCloud::computeBoundingBox</qualifiedname>
@@ -180,11 +180,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="51" column="23"/>
+        <location file="MRMesh/MRPointCloud.h" line="51" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1aa0daa10e890c517ea30f6ad9fc8cf4bd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Box3f</type>
-        <definition>MRMESH_API Box3f MR::PointCloud::computeBoundingBox</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a7f4cc661b8564a36aabab04453b0e27f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Box3f</type>
+        <definition>Box3f MR::PointCloud::computeBoundingBox</definition>
         <argsstring>(const VertBitSet *region, const AffineXf3f *toWorld=nullptr) const</argsstring>
         <name>computeBoundingBox</name>
         <qualifiedname>MR::PointCloud::computeBoundingBox</qualifiedname>
@@ -204,11 +204,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="55" column="23"/>
+        <location file="MRMesh/MRPointCloud.h" line="55" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1af2811d551e2205169b30d34edd323c26" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::PointCloud::findCenterFromPoints</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a442397a4e191dbf7addbd86427681aaa" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::PointCloud::findCenterFromPoints</definition>
         <argsstring>() const</argsstring>
         <name>findCenterFromPoints</name>
         <qualifiedname>MR::PointCloud::findCenterFromPoints</qualifiedname>
@@ -219,11 +219,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="58" column="26"/>
+        <location file="MRMesh/MRPointCloud.h" line="58" column="16"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1af4769b0bcb9a9bd664aa03c8e23c0ca0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::PointCloud::findCenterFromBBox</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a8ac1e905740b138eb0ea9644d11c6ad9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::PointCloud::findCenterFromBBox</definition>
         <argsstring>() const</argsstring>
         <name>findCenterFromBBox</name>
         <qualifiedname>MR::PointCloud::findCenterFromBBox</qualifiedname>
@@ -234,11 +234,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="61" column="26"/>
+        <location file="MRMesh/MRPointCloud.h" line="61" column="16"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a03a45682f57cbf2e74847106e858f712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PointCloud::transform</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a050308043ec1ab0b5b1170e045463514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointCloud::transform</definition>
         <argsstring>(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</argsstring>
         <name>transform</name>
         <qualifiedname>MR::PointCloud::transform</qualifiedname>
@@ -258,11 +258,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="65" column="21"/>
+        <location file="MRMesh/MRPointCloud.h" line="65" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a8907016552924260082e3eaa3f163359" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; VertId &gt;</type>
-        <definition>MRMESH_API std::vector&lt; VertId &gt; MR::PointCloud::getLexicographicalOrder</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1ab63b94ac2b31f8c2e5b7ee94bcfa2471" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; VertId &gt;</type>
+        <definition>std::vector&lt; VertId &gt; MR::PointCloud::getLexicographicalOrder</definition>
         <argsstring>() const</argsstring>
         <name>getLexicographicalOrder</name>
         <qualifiedname>MR::PointCloud::getLexicographicalOrder</qualifiedname>
@@ -273,11 +273,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="68" column="29"/>
+        <location file="MRMesh/MRPointCloud.h" line="68" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a319f02ae48a72ea0f874efa137764365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PointCloud::addPartByMask</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointCloud::addPartByMask</definition>
         <argsstring>(const PointCloud &amp;from, const VertBitSet &amp;fromVerts, const CloudPartMapping &amp;outMap={}, const VertNormals *extNormals=nullptr)</argsstring>
         <name>addPartByMask</name>
         <qualifiedname>MR::PointCloud::addPartByMask</qualifiedname>
@@ -315,11 +315,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="73" column="21"/>
+        <location file="MRMesh/MRPointCloud.h" line="73" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a78808a7ef1e8232c61b442f9ea9bc9c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::PointCloud::addPoint</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::PointCloud::addPoint</definition>
         <argsstring>(const Vector3f &amp;point)</argsstring>
         <name>addPoint</name>
         <qualifiedname>MR::PointCloud::addPoint</qualifiedname>
@@ -334,11 +334,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="77" column="23"/>
+        <location file="MRMesh/MRPointCloud.h" line="77" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1ada79e353b7a72ed40a42bc08b60cc225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::PointCloud::addPoint</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::PointCloud::addPoint</definition>
         <argsstring>(const Vector3f &amp;point, const Vector3f &amp;normal)</argsstring>
         <name>addPoint</name>
         <qualifiedname>MR::PointCloud::addPoint</qualifiedname>
@@ -357,16 +357,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="80" column="23"/>
+        <location file="MRMesh/MRPointCloud.h" line="80" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a74fb469992209dc4114c864cd3cb38a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PointCloud::mirror</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointCloud::mirror</definition>
         <argsstring>(const Plane3f &amp;plane)</argsstring>
         <name>mirror</name>
         <qualifiedname>MR::PointCloud::mirror</qualifiedname>
         <param>
-          <type>const Plane3f &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref> &amp;</type>
           <declname>plane</declname>
         </param>
         <briefdescription>
@@ -376,11 +376,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="83" column="21"/>
+        <location file="MRMesh/MRPointCloud.h" line="83" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a2d87e2ca54a218f3beda5e403db122be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PointCloud::flipOrientation</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a8d42094704ecd8b5b4eb3a82c10c111d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointCloud::flipOrientation</definition>
         <argsstring>(const VertBitSet *region=nullptr)</argsstring>
         <name>flipOrientation</name>
         <qualifiedname>MR::PointCloud::flipOrientation</qualifiedname>
@@ -396,11 +396,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="86" column="21"/>
+        <location file="MRMesh/MRPointCloud.h" line="86" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1ac0910605ccb60ed6a5dbc543e9e98fe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::PointCloud::pack</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::PointCloud::pack</definition>
         <argsstring>(VertMap *outNew2Old=nullptr)</argsstring>
         <name>pack</name>
         <qualifiedname>MR::PointCloud::pack</qualifiedname>
@@ -416,11 +416,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="91" column="21"/>
+        <location file="MRMesh/MRPointCloud.h" line="91" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1aafd6df26682cdaa7a360a4fdacf869bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertBMap</type>
-        <definition>MRMESH_API VertBMap MR::PointCloud::pack</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a9fee9a45c5a54797c40fb2c7c9ed646e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBMap</type>
+        <definition>VertBMap MR::PointCloud::pack</definition>
         <argsstring>(Reorder reoder)</argsstring>
         <name>pack</name>
         <qualifiedname>MR::PointCloud::pack</qualifiedname>
@@ -437,7 +437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="95" column="25"/>
+        <location file="MRMesh/MRPointCloud.h" line="95" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PointCloud_1ab7c257206a284f22b8e2484b87436069" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -452,11 +452,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="98" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="98" bodyend="98"/>
+        <location file="MRMesh/MRPointCloud.h" line="98" column="10" bodyfile="MRMesh/MRPointCloud.h" bodystart="98" bodyend="98"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a25842b53d739f9841d97e66dd8221d59" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API size_t</type>
-        <definition>MRMESH_API size_t MR::PointCloud::heapBytes</definition>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a2a3bb316a10b49cacc3843090aa06a22" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::PointCloud::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::PointCloud::heapBytes</qualifiedname>
@@ -467,39 +467,39 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="101" column="24"/>
+        <location file="MRMesh/MRPointCloud.h" line="101" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h" bodystart="17" bodyend="105"/>
+    <location file="MRMesh/MRPointCloud.h" line="16" column="1" bodyfile="MRMesh/MRPointCloud.h" bodystart="17" bodyend="105"/>
     <listofallmembers>
       <member refid="structMR_1_1PointCloud_1a544b6f1222cd259ee283fafdb0700311" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>AABBTreeOwner_</name></member>
-      <member refid="structMR_1_1PointCloud_1a319f02ae48a72ea0f874efa137764365" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPartByMask</name></member>
-      <member refid="structMR_1_1PointCloud_1a78808a7ef1e8232c61b442f9ea9bc9c8" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPoint</name></member>
-      <member refid="structMR_1_1PointCloud_1ada79e353b7a72ed40a42bc08b60cc225" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPoint</name></member>
+      <member refid="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPartByMask</name></member>
+      <member refid="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPoint</name></member>
+      <member refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPoint</name></member>
       <member refid="structMR_1_1PointCloud_1a4e713072e68a27b247042676b693bb26" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>calcNumValidPoints</name></member>
-      <member refid="structMR_1_1PointCloud_1ac3b1015ea089d93658ff4783c2282c8e" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>computeBoundingBox</name></member>
-      <member refid="structMR_1_1PointCloud_1aa0daa10e890c517ea30f6ad9fc8cf4bd" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>computeBoundingBox</name></member>
-      <member refid="structMR_1_1PointCloud_1af4769b0bcb9a9bd664aa03c8e23c0ca0" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>findCenterFromBBox</name></member>
-      <member refid="structMR_1_1PointCloud_1af2811d551e2205169b30d34edd323c26" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>findCenterFromPoints</name></member>
-      <member refid="structMR_1_1PointCloud_1a2d87e2ca54a218f3beda5e403db122be" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>flipOrientation</name></member>
-      <member refid="structMR_1_1PointCloud_1a683c82721c7a330fcc77903d1f3bb7d9" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getAABBTree</name></member>
+      <member refid="structMR_1_1PointCloud_1a314c3d7c570cf70aed6cf664175740cd" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>computeBoundingBox</name></member>
+      <member refid="structMR_1_1PointCloud_1a7f4cc661b8564a36aabab04453b0e27f" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>computeBoundingBox</name></member>
+      <member refid="structMR_1_1PointCloud_1a8ac1e905740b138eb0ea9644d11c6ad9" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>findCenterFromBBox</name></member>
+      <member refid="structMR_1_1PointCloud_1a442397a4e191dbf7addbd86427681aaa" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>findCenterFromPoints</name></member>
+      <member refid="structMR_1_1PointCloud_1a8d42094704ecd8b5b4eb3a82c10c111d" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>flipOrientation</name></member>
+      <member refid="structMR_1_1PointCloud_1a645a4b6af1de600172fab56912082219" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getAABBTree</name></member>
       <member refid="structMR_1_1PointCloud_1ac58b0b5f3bf2f48f46f9fe30e054b7cb" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getAABBTreeNotCreate</name></member>
-      <member refid="structMR_1_1PointCloud_1a28846bc1f86b18053ff605bd9cdffc26" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getBoundingBox</name></member>
-      <member refid="structMR_1_1PointCloud_1a8907016552924260082e3eaa3f163359" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getLexicographicalOrder</name></member>
+      <member refid="structMR_1_1PointCloud_1ab8528785525982a60c9bb9ea1ddcc103" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getBoundingBox</name></member>
+      <member refid="structMR_1_1PointCloud_1ab63b94ac2b31f8c2e5b7ee94bcfa2471" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getLexicographicalOrder</name></member>
       <member refid="structMR_1_1PointCloud_1a5da247e2172bb10e5ba6ed1105d5c167" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getVertIds</name></member>
       <member refid="structMR_1_1PointCloud_1a400e79598dd6367452f3bfe56249615b" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>hasNormals</name></member>
-      <member refid="structMR_1_1PointCloud_1a25842b53d739f9841d97e66dd8221d59" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>heapBytes</name></member>
+      <member refid="structMR_1_1PointCloud_1a2a3bb316a10b49cacc3843090aa06a22" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>heapBytes</name></member>
       <member refid="structMR_1_1PointCloud_1ab7c257206a284f22b8e2484b87436069" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>invalidateCaches</name></member>
-      <member refid="structMR_1_1PointCloud_1a74fb469992209dc4114c864cd3cb38a5" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>mirror</name></member>
+      <member refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>mirror</name></member>
       <member refid="structMR_1_1PointCloud_1a25c1039968a5dc3a24591ac5b74148ad" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>normals</name></member>
-      <member refid="structMR_1_1PointCloud_1ac0910605ccb60ed6a5dbc543e9e98fe2" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>pack</name></member>
-      <member refid="structMR_1_1PointCloud_1aafd6df26682cdaa7a360a4fdacf869bf" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>pack</name></member>
+      <member refid="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>pack</name></member>
+      <member refid="structMR_1_1PointCloud_1a9fee9a45c5a54797c40fb2c7c9ed646e" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>pack</name></member>
       <member refid="structMR_1_1PointCloud_1a0da05bf74b7157037f314c884ab018b4" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>points</name></member>
-      <member refid="structMR_1_1PointCloud_1a03a45682f57cbf2e74847106e858f712" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>transform</name></member>
+      <member refid="structMR_1_1PointCloud_1a050308043ec1ab0b5b1170e045463514" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>transform</name></member>
       <member refid="structMR_1_1PointCloud_1a99cd2bd3f8fa8482032603f382ab9a03" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>validPoints</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,11 +1,7 @@
 var MRPartMappingAdapters_8h =
 [
-    [ "MR_FaceMap", "MRPartMappingAdapters_8h.html#ab809347fd151b45341bc9e7828673eb5", null ],
-    [ "MR_PartMapping", "MRPartMappingAdapters_8h.html#ac262f87c0239d73aafc464289f6eb02e", null ],
     [ "MR_Src2TgtMaps", "MRPartMappingAdapters_8h.html#add4f0a47fb9bf74fe147f20415780b8a", null ],
     [ "MR_Tgt2SrcMaps", "MRPartMappingAdapters_8h.html#a690f55ab8a605fe16184798dd8eb848b", null ],
-    [ "MR_VertMap", "MRPartMappingAdapters_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
-    [ "MR_WholeEdgeMap", "MRPartMappingAdapters_8h.html#a50066b58d97b0be73d826cfdcc9eb188", null ],
     [ "MR_Src2TgtMaps_AssignFromAnother", "MRPartMappingAdapters_8h.html#aab1efd1d264aefbd059abef314b467d0", null ],
     [ "MR_Src2TgtMaps_Construct", "MRPartMappingAdapters_8h.html#ab136ca2c4c46a4bdd62a325b786e461b", null ],
     [ "MR_Src2TgtMaps_ConstructFromAnother", "MRPartMappingAdapters_8h.html#a482bf902237f94f0fd28d49408abda6b", null ],

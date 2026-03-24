@@ -6,6 +6,7 @@ var classMR_1_1Buffer__MRFaceId =
     [ "assign", "classMR_1_1Buffer__MRFaceId.html#a69578f8deea59bb7d480899053895b2f", null ],
     [ "clear", "classMR_1_1Buffer__MRFaceId.html#a105ed74754b3a2eda28caa3bbf9fe0a0", null ],
     [ "data", "classMR_1_1Buffer__MRFaceId.html#a04bf11f2d5c7b3357e458c53baa7e0f8", null ],
+    [ "GetEnumerator", "classMR_1_1Buffer__MRFaceId.html#a771664157ae1f5edb709ee96baf67685", null ],
     [ "resize", "classMR_1_1Buffer__MRFaceId.html#a1494462e1349705bdcaeb5cf3135074e", null ],
     [ "this[ulong i]", "classMR_1_1Buffer__MRFaceId.html#a85a39d61599452c6978329daa89ac44d", null ]
 ];

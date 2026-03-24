@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MultiwayICP" kind="class" language="C#" prot="public">
     <compoundname>MR::MultiwayICP</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MultiwayICP</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1192" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1192" bodyend="1192"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1238" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1238" bodyend="1238"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,13 +39,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MultiwayICP.MultiwayICP</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MultiwayICP_1a459fc4554ad61e9938f58354dfe2b881" kindref="member">MR.MultiwayICP.MultiwayICP</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1197" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1197" bodyend="1203"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1243" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1243" bodyend="1249"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayICP_1a1db2b849c2514e2d54b344b6a96fc3dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -62,13 +62,13 @@
           <declname>samplingParams</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MultiwayICP.MultiwayICP</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MultiwayICP_1a459fc4554ad61e9938f58354dfe2b881" kindref="member">MR.MultiwayICP.MultiwayICP</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1208" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1208" bodyend="1215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1254" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1254" bodyend="1261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayICP_1a30ee37c521ac399cda9c733a92074df2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MultiwayICP" kindref="compound">MR.MultiwayICP</ref></type>
@@ -81,22 +81,22 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MultiwayICP.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MultiwayICP::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1220" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1220" bodyend="1227"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1266" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1266" bodyend="1273"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a3a7fc669c75fcf780f411f7052d0af4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a7b13a70761fa0392a1f65b40dd3b9244" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Vector__MRAffineXf3f__MRObjId" kindref="compound">MR.Vector_MRAffineXf3f_MRObjId</ref></type>
         <definition>unsafe MR.Vector_MRAffineXf3f_MRObjId MR.MultiwayICP.calculateTransformations</definition>
-        <argsstring>(MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>calculateTransformations</name>
         <qualifiedname>MR.MultiwayICP.calculateTransformations</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
@@ -104,22 +104,22 @@
 <para>runs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm given input objects, transformations, and parameters; </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>adjusted transformations of all objects to reach registered state the transformation of the last object is fixed and does not change here Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a3a7fc669c75fcf780f411f7052d0af4e" kindref="member">MR.MultiwayICP.calculateTransformations</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para><simplesect kind="return"><para>adjusted transformations of all objects to reach registered state the transformation of the last object is fixed and does not change here Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a7b13a70761fa0392a1f65b40dd3b9244" kindref="member">MR.MultiwayICP.calculateTransformations</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1236" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1236" bodyend="1241"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1282" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1282" bodyend="1287"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a592f74940817bf8de9a6e543fd5ed851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a68e7eecee78b000c60ff828b0b5cc45b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Vector__MRAffineXf3f__MRObjId" kindref="compound">MR.Vector_MRAffineXf3f_MRObjId</ref></type>
         <definition>unsafe MR.Vector_MRAffineXf3f_MRObjId MR.MultiwayICP.calculateTransformationsFixFirst</definition>
-        <argsstring>(MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>calculateTransformationsFixFirst</name>
         <qualifiedname>MR.MultiwayICP.calculateTransformationsFixFirst</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
@@ -127,13 +127,13 @@
 <para>runs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm given input objects, transformations, and parameters; </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>adjusted transformations of all objects to reach registered state the transformation of the first object is fixed and does not change here Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a592f74940817bf8de9a6e543fd5ed851" kindref="member">MR.MultiwayICP.calculateTransformationsFixFirst</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para><simplesect kind="return"><para>adjusted transformations of all objects to reach registered state the transformation of the first object is fixed and does not change here Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a68e7eecee78b000c60ff828b0b5cc45b" kindref="member">MR.MultiwayICP.calculateTransformationsFixFirst</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1250" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1250" bodyend="1255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1296" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1296" bodyend="1301"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayICP_1adc72d721bc443d2a5386600ac02245db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -152,27 +152,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1261" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1261" bodyend="1266"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1307" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1307" bodyend="1312"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a7e630a2a2eb09a7aee510f8c4d95b6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1ab40ecc7d1988d56294a3198330064ec1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.MultiwayICP.updateAllPointPairs</definition>
-        <argsstring>(MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>updateAllPointPairs</name>
         <qualifiedname>MR.MultiwayICP.updateAllPointPairs</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>in each pair updates the target data and performs basic filtering (activation) in cascade mode only useful for stats update Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a7e630a2a2eb09a7aee510f8c4d95b6ea" kindref="member">MR.MultiwayICP.updateAllPointPairs</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>in each pair updates the target data and performs basic filtering (activation) in cascade mode only useful for stats update Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1ab40ecc7d1988d56294a3198330064ec1" kindref="member">MR.MultiwayICP.updateAllPointPairs</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1274" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1274" bodyend="1279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1320" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1320" bodyend="1325"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayICP_1a18c8e783f38a8339216447e687db7af1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -185,13 +185,13 @@
           <declname>prop</declname>
         </param>
         <briefdescription>
-<para>tune algorithm params before run <ref refid="classMR_1_1MultiwayICP_1a3a7fc669c75fcf780f411f7052d0af4e" kindref="member">calculateTransformations()</ref> Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a18c8e783f38a8339216447e687db7af1" kindref="member">MR.MultiwayICP.setParams</ref></computeroutput>. </para>
+<para>tune algorithm params before run <ref refid="classMR_1_1MultiwayICP_1a7b13a70761fa0392a1f65b40dd3b9244" kindref="member">calculateTransformations()</ref> Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a18c8e783f38a8339216447e687db7af1" kindref="member">MR.MultiwayICP.setParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1285" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1285" bodyend="1290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1331" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1331" bodyend="1336"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayICP_1a891cf06bf2a92a57ec2a28c34b7389f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1296" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1296" bodyend="1301"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1342" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1342" bodyend="1347"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiwayICP_1ad2f07dda4a5478ad6f85163e8e1b08d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1306" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1306" bodyend="1311"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1352" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1352" bodyend="1357"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -239,52 +239,52 @@
 <para><programlisting filename="cpp-samples/GlobalRegistration.cpp"></programlisting> Generated from class <computeroutput><ref refid="classMR_1_1MultiwayICP" kindref="compound">MR.MultiwayICP</ref></computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MultiwayICP</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MultiwayICP</label>
         <link refid="classMR_1_1MultiwayICP"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MultiwayICP</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MultiwayICP &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MultiwayICP</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MultiwayICP</label>
         <link refid="classMR_1_1MultiwayICP"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MultiwayICP</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MultiwayICP &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1190" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1191" bodyend="1312"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1236" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1237" bodyend="1358"/>
     <listofallmembers>
       <member refid="classMR_1_1MultiwayICP_1a30ee37c521ac399cda9c733a92074df2" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>assign</name></member>
-      <member refid="classMR_1_1MultiwayICP_1a3a7fc669c75fcf780f411f7052d0af4e" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformations</name></member>
-      <member refid="classMR_1_1MultiwayICP_1a592f74940817bf8de9a6e543fd5ed851" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformationsFixFirst</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a7b13a70761fa0392a1f65b40dd3b9244" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformations</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a68e7eecee78b000c60ff828b0b5cc45b" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformationsFixFirst</name></member>
       <member refid="classMR_1_1MultiwayICP_1ad2f07dda4a5478ad6f85163e8e1b08d8" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>devEnableIndependentEquationsMode</name></member>
       <member refid="classMR_1_1MultiwayICP_1a975e77a75af633fae806c912fc7587ca" prot="package" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>MultiwayICP</name></member>
       <member refid="classMR_1_1MultiwayICP_1a459fc4554ad61e9938f58354dfe2b881" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>MultiwayICP</name></member>
@@ -292,7 +292,7 @@
       <member refid="classMR_1_1MultiwayICP_1adc72d721bc443d2a5386600ac02245db" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>resamplePoints</name></member>
       <member refid="classMR_1_1MultiwayICP_1a18c8e783f38a8339216447e687db7af1" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setParams</name></member>
       <member refid="classMR_1_1MultiwayICP_1a891cf06bf2a92a57ec2a28c34b7389f2" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setPerIterationCallback</name></member>
-      <member refid="classMR_1_1MultiwayICP_1a7e630a2a2eb09a7aee510f8c4d95b6ea" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>updateAllPointPairs</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ab40ecc7d1988d56294a3198330064ec1" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>updateAllPointPairs</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

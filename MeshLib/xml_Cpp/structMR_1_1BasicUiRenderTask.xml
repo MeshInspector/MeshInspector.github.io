@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BasicUiRenderTask" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::BasicUiRenderTask</compoundname>
     <derivedcompoundref refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public" virt="non-virtual">MR::BasicClickableRectUiRenderTask</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1UI_1_1NonOverlappingLabelTask" prot="public" virt="non-virtual">MR::UI::NonOverlappingLabelTask</derivedcompoundref>
-    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <includes refid="MRIRenderObject_8h" local="no">MRMesh/MRIRenderObject.h</includes>
     <innerclass refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" prot="public">MR::BasicUiRenderTask::BackwardPassParams</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" kind="enum"><name>InteractionMask</name></member>
@@ -69,7 +69,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="63" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="64" bodyend="107"/>
+    <location file="MRMesh/MRIRenderObject.h" line="63" column="1" bodyfile="MRMesh/MRIRenderObject.h" bodystart="64" bodyend="107"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
       <member refid="group__GeneralGroup_1ga25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>

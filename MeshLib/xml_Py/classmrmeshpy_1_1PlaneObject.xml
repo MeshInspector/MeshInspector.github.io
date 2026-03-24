@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PlaneObject" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PlaneObject</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1FeatureObject" prot="public" virt="non-virtual">mrmeshpy.FeatureObject</basecompoundref>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44040" bodyend="44041"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44984" bodyend="44985"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1aafd17b254a522618853d770e0f251270" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44043" bodyend="44044"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44987" bodyend="44988"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a52d2fc888aaf4cda55361f8c80cea733" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44046" bodyend="44047"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44990" bodyend="44991"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -63,7 +63,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PlaneObject.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -76,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44049" bodyend="44052"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44993" bodyend="44996"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a4c5ec9507fa15607f49f6734012fdb58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -84,7 +83,6 @@
         <argsstring>(self, std_vector_Vector3_float pointsToApprox)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PlaneObject.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -101,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44054" bodyend="44057"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44998" bodyend="45001"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a71c9a77364aea5823222f8711cfa7aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
@@ -126,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44058" bodyend="44061"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45002" bodyend="45005"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a8ccdad7dffc69a2a55488cbaca487680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -145,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44062" bodyend="44063"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45006" bodyend="45007"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1ac0b446132b2fcbf3c29a92fa5a056ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -164,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44064" bodyend="44065"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45008" bodyend="45009"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a8d6883e2122d697941f9a6773135213f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -186,7 +184,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44066" bodyend="44067"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45010" bodyend="45011"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1aabb3bfd5423a22f7c0e587b424149a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
@@ -207,7 +205,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44068" bodyend="44069"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45012" bodyend="45013"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a3f1eb67e2107843e489b2c04369915c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -233,7 +231,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44070" bodyend="44073"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45014" bodyend="45017"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a26aec51e4d269d639b6371b070e78921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -258,7 +256,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44074" bodyend="44077"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45018" bodyend="45021"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1afe02ed185e0905b9e913d9d038508638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -284,7 +282,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44078" bodyend="44081"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45022" bodyend="45025"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a307f9f9bee653de77457d8bb7c3562ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -309,7 +307,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44082" bodyend="44085"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45026" bodyend="45029"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a17f05051446cb8a88271b2e0217cae0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -332,7 +330,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44086" bodyend="44087"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45030" bodyend="45031"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1acf084a9cd135d239d39955731c744f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -355,7 +353,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44088" bodyend="44089"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45032" bodyend="45033"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a140df2fe67e3eaac85e2fbda05779512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
@@ -386,7 +384,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44090" bodyend="44091"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45034" bodyend="45035"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a4649479df37e55cf42d22be20ae6abae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -415,7 +413,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44092" bodyend="44095"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45036" bodyend="45039"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a7c5e5c97396e57af0a3fb4f6b23cb8ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -444,7 +442,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44096" bodyend="44099"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45040" bodyend="45043"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a3f03d432e698e5ea07bba07e4292289a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -473,7 +471,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44100" bodyend="44103"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45044" bodyend="45047"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a8efd237637ad78a60a6bb4f515cc1c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -500,7 +498,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44104" bodyend="44105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45048" bodyend="45049"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1ade618cd6b8dac3821a9c05322e2e3cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -527,7 +525,7 @@ the projection function simultaneously returns the normal to the surface at the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44106" bodyend="44107"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45050" bodyend="45051"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a31dea42dba989d6f4b0e1a438c674290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -549,7 +547,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44108" bodyend="44109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45052" bodyend="45053"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1ae0abbb8c5a7ec816b0741e6f4b346c61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -568,7 +566,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44110" bodyend="44111"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45054" bodyend="45055"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -640,32 +638,165 @@ Object to show plane feature
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44032" bodyend="44111"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44976" bodyend="45055"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PlaneObject_1a07e978419c9e85e79e42d49188d03e2f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a4c5ec9507fa15607f49f6734012fdb58" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4c9a5cdc889f952e88f15efc92859b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>addChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a628d57698bee030f4e37809eed20fdb6" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>addChildBefore</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a14c3c142ce5c7a92531fcf914b1ffea2" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>addTag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1db3f0240dda415f1f066fed72225e16" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>asType_VisualObject</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a71c9a77364aea5823222f8711cfa7aa7" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>calcLocalBasis</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a35f5a7bbb06be9169dbe752e0b8440e3" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>children</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3c285511171875eaa87d26a18bd45efc" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>children</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a8ccdad7dffc69a2a55488cbaca487680" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>className</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1ac0b446132b2fcbf3c29a92fa5a056ed1" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>classNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a8d6883e2122d697941f9a6773135213f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>cloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a567315111aee91b3dd5bfef4188b23b7" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>detachFromParent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>findCommonAncestor</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1aabb3bfd5423a22f7c0e587b424149a1a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a840b68101f6eb43e4abae6222e049566" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a3f1eb67e2107843e489b2c04369915c4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getBasePoint</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getBoundingBox</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a26aec51e4d269d639b6371b070e78921" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getCenter</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getColoringType</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1af5cd022e49cfeef46533032a24abb7c2" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a6920eada96b5b1f2f7084dbfd8d65fa0" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a71bfd44645b5b2938d50aaeba643f6ec" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aa77a6dfcab6ca2c60ed2314e49e73786" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3eef5ed5fd88feb0b2e586d0b1c0e254" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getModelHash</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1afe02ed185e0905b9e913d9d038508638" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getNormal</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a3369428f8818e202162bd656aa2092da" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getPointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9b36e627e752037bbe0d6cfeee96dbaf" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a7ee1a9fb17182a6329dc58a61676c45c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aa76aebe3230f5fbf2ce7f408c12a7578" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1aa1020074c1326a825c86467a0580791d" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getShininess</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a307f9f9bee653de77457d8bb7c3562ce" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSize</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a17f05051446cb8a88271b2e0217cae0f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSizeX</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1acf084a9cd135d239d39955731c744f1c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSizeY</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a0dd5541ee688b5c1de7d3467f7a7b47c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a22a60dac2b4ce868dcb1a110c70e9686" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a9c04ef615ba77572fd1034e4355a7084" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1abb14605bd99443b1af7a33edff166d5f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1acccddaf8f0b6e89a653222c8b6e5624b" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a7b7ed6a567132ae14467b9a6d12479ea" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3270abd9924fa3f784d3105824979f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a21510ca05f3888f5db9ff0aae662c9d1" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a33d0fafc2423205d5a3ba75eae112655" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>isAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a5a2cb58be1a7e062e9c502295eb6ce23" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>isAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>isLocked</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>isParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>isSelected</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>parent</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a140df2fe67e3eaac85e2fbda05779512" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa593f6befb32f6453133a516f1c863b8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>removeAllChildren</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a50fdb1e10c8b57d176b21fd1224c1292" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>removeTag</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>renderForPicker</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>renderUi</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1abf55328c86b56d62b4b1654186f4f68f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>resetDirty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a69ef0caef1ec3fa51cab56ad9959bb22" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3f27a64bfcdec74242fdf571a687c94c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a53c03b6b1591522a7efbabcb3963309c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>resetXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a390de01f2ab8caa5e1d044458234a6d5" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>sameModels</name></member>
+      <member refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2db756ea98710dbbc11ae7d00752b069" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setAncillary</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setBackColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a4649479df37e55cf42d22be20ae6abae" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setCenter</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setColoringType</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a12a48864fde34a3b0a6f72b6f95fcc00" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setDecorationsColor</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a480f0e55188febfa611327e53e9f9038" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a883cdf9eb84b10488087440af6534a26" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a2790c6551ffa765a85c99292e11c3560" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setLocked</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aa7412a85414788847a881e0c18c59878" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setName</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a7c5e5c97396e57af0a3fb4f6b23cb8ce" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setNormal</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1ac56f7310a58bc5eaa32a7e739685f2b5" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setPointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setShininess</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a3f03d432e698e5ea07bba07e4292289a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSize</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a8efd237637ad78a60a6bb4f515cc1c7d" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSizeX</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1ade618cd6b8dac3821a9c05322e2e3cd0" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSizeY</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a3a61fc447facbe3a8c21ddd5207e0e41" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1ae0106a4c6e67d8c7644d226f4cd45ee8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a14cfdc55290f5ad1883488b6876811f2" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a40a4acaefd1752b0e9359ab3876e97e4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a537928713294647267cf4d68345087b4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setWorldXf</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a2006a2111c8adb13fafa58f39df307d8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aac6bdfb45902aa99fc95799b508c57f5" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setXfsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a31dea42dba989d6f4b0e1a438c674290" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ab39f51bc5e295bf79bf21e09e8a4374b" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a81fe3b89047200dec9832c065dd92ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>sortChildren</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1afcbad577026c593a96ccb00ae84a80df" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>StaticClassName</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1aafd17b254a522618853d770e0f251270" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1a52d2fc888aaf4cda55361f8c80cea733" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a1d424208c478b75ec64eccd64a0d78d6" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a6c92cdb11df4d895c639f0e26dca1c83" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a12a90ffff0f3f0d2f6054e8e82a63679" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>tags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>toggleVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1PlaneObject_1ae0abbb8c5a7ec816b0741e6f4b346c61" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>visibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a0fe057c0f6fe9f8ee98bd8210faa983c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>worldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a157327fa8110ea13a8b12bf04748331d" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05ee8acaa199b194040b1613d4038012" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

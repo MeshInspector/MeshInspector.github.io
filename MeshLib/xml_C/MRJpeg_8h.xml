@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRJpeg_8h" kind="file" language="C++">
     <compoundname>MRJpeg.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
       <node id="1">
@@ -13,17 +13,31 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
       </node>
       <node id="4">
-        <label>stdbool.h</label>
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -35,10 +49,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>struct to hold Image data Generated from class <computeroutput>MR::Image</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::MeshTexture</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" line="12" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" line="12" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" prot="public" static="no">
         <type>struct <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref></type>
@@ -48,41 +63,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>MR::Image</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" line="13" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRJpeg_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" line="14" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRJpeg_8h_1aef22a11476e76208a3f9a5cf2eba4c98" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref></type>
-        <definition>typedef struct MR_std_istream MR_std_istream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_istream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" line="15" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" line="13" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRJpeg_8h_1a140c1ee85de6c2b6b0617ff04e69933f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Image_std_string * MR_ImageLoad_fromJpeg_2_std_filesystem_path</definition>
         <argsstring>(const char *path, const char *path_end, const bool *ignoreDecompressErrors)</argsstring>
         <name>MR_ImageLoad_fromJpeg_2_std_filesystem_path</name>
@@ -106,7 +96,7 @@
 <parametername>ignoreDecompressErrors</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if true do not return decompression error if the header was read sucessfully Generated from function <computeroutput>MR::ImageLoad::fromJpeg</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Image_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>if true do not return decompression error if the header was read sucessfully Generated from function <computeroutput>MR::ImageLoad::fromJpeg</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Image__std__string_8h_1a546f00d8e86a2a77282047264d88e6a2" kindref="member">MR_expected_MR_Image_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -114,10 +104,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" line="24" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" declline="24" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" line="24" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" declline="24" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRJpeg_8h_1adddc5ebd6ae2ff26823ed54d9af91c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Image_std_string * MR_ImageLoad_fromJpeg_2_std_istream</definition>
         <argsstring>(MR_std_istream *in, const bool *ignoreDecompressErrors)</argsstring>
         <name>MR_ImageLoad_fromJpeg_2_std_istream</name>
@@ -132,14 +122,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::ImageLoad::fromJpeg</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Image_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::ImageLoad::fromJpeg</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Image__std__string_8h_1a546f00d8e86a2a77282047264d88e6a2" kindref="member">MR_expected_MR_Image_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" line="30" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" declline="30" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" line="30" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" declline="30" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRJpeg_8h_1aa9419a5f87bbf65038119c504d96992d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Image_std_string * MR_ImageLoad_fromJpeg_3</definition>
         <argsstring>(const char *data, MR_uint64_t size, const bool *ignoreDecompressErrors)</argsstring>
         <name>MR_ImageLoad_fromJpeg_3</name>
@@ -148,7 +138,7 @@
           <declname>data</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>size</declname>
         </param>
         <param>
@@ -158,14 +148,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::ImageLoad::fromJpeg</computeroutput>. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Image_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::ImageLoad::fromJpeg</computeroutput>. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Image__std__string_8h_1a546f00d8e86a2a77282047264d88e6a2" kindref="member">MR_expected_MR_Image_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" line="35" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" declline="35" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" line="35" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" declline="35" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRJpeg_8h_1a5d526436c6c5192c523b0ee6f777ee1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_ImageSave_toJpeg</definition>
         <argsstring>(const MR_Image *image, const char *path, const char *path_end)</argsstring>
         <name>MR_ImageSave_toJpeg</name>
@@ -184,11 +174,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves in .jpg format Generated from function <computeroutput>MR::ImageSave::toJpeg</computeroutput>. Parameter <computeroutput>image</computeroutput> can not be null. It is a single object. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>saves in .jpg format Generated from function <computeroutput>MR::ImageSave::toJpeg</computeroutput>. Parameter <computeroutput>image</computeroutput> can not be null. It is a single object. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" line="42" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h" declline="42" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" line="42" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h" declline="42" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -198,8 +188,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -209,22 +199,22 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRImage.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Image_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRJpeg_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRJpeg_8h_1aef22a11476e76208a3f9a5cf2eba4c98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRJpeg_8h_1a140c1ee85de6c2b6b0617ff04e69933f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRJpeg_8h_1a140c1ee85de6c2b6b0617ff04e69933f" kindref="member">MR_ImageLoad_fromJpeg_2_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ignoreDecompressErrors);</highlight></codeline>
+<codeline lineno="24" refid="MRJpeg_8h_1a140c1ee85de6c2b6b0617ff04e69933f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRJpeg_8h_1a140c1ee85de6c2b6b0617ff04e69933f" kindref="member">MR_ImageLoad_fromJpeg_2_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ignoreDecompressErrors);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRJpeg_8h_1adddc5ebd6ae2ff26823ed54d9af91c5f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRJpeg_8h_1adddc5ebd6ae2ff26823ed54d9af91c5f" kindref="member">MR_ImageLoad_fromJpeg_2_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ignoreDecompressErrors);</highlight></codeline>
+<codeline lineno="30" refid="MRJpeg_8h_1adddc5ebd6ae2ff26823ed54d9af91c5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRJpeg_8h_1adddc5ebd6ae2ff26823ed54d9af91c5f" kindref="member">MR_ImageLoad_fromJpeg_2_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ignoreDecompressErrors);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRJpeg_8h_1aa9419a5f87bbf65038119c504d96992d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRJpeg_8h_1aa9419a5f87bbf65038119c504d96992d" kindref="member">MR_ImageLoad_fromJpeg_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/>MR_uint64_t<sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ignoreDecompressErrors);</highlight></codeline>
+<codeline lineno="35" refid="MRJpeg_8h_1aa9419a5f87bbf65038119c504d96992d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRJpeg_8h_1aa9419a5f87bbf65038119c504d96992d" kindref="member">MR_ImageLoad_fromJpeg_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ignoreDecompressErrors);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRJpeg_8h_1a5d526436c6c5192c523b0ee6f777ee1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRJpeg_8h_1a5d526436c6c5192c523b0ee6f777ee1f" kindref="member">MR_ImageSave_toJpeg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
+<codeline lineno="42" refid="MRJpeg_8h_1a5d526436c6c5192c523b0ee6f777ee1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRJpeg_8h_1a5d526436c6c5192c523b0ee6f777ee1f" kindref="member">MR_ImageSave_toJpeg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRJpeg.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRJpeg.h"/>
   </compounddef>
 </doxygen>

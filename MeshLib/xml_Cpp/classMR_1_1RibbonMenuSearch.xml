@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonMenuSearch" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonMenuSearch</compoundname>
-    <includes refid="MRRibbonMenuSearch_8h" local="no">MRRibbonMenuSearch.h</includes>
+    <includes refid="MRRibbonMenuSearch_8h" local="no">MRViewer/MRRibbonMenuSearch.h</includes>
     <innerclass refid="structMR_1_1RibbonMenuSearch_1_1Parameters" prot="public">MR::RibbonMenuSearch::Parameters</innerclass>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaebc64b96bc8c8dbcf6ef65641e9a5e4d" kind="variable"><name>onFocusSignal</name></member>
@@ -28,11 +28,11 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga9e21069323068b3d3e37691e3e2bdb09" kind="function"><name>windowName</name></member>
       <member refid="group__GeneralGroup_1gac74ec292a21908372b2925b5aa868cf8" kind="function"><name>pushRecentItem</name></member>
-      <member refid="group__GeneralGroup_1gaf63422eb95c89c1f0593b3c8f5dc00d8" kind="function"><name>drawMenuUI</name></member>
+      <member refid="group__GeneralGroup_1gac8f4001d5233669141be3ce487e7a138" kind="function"><name>drawMenuUI</name></member>
       <member refid="group__GeneralGroup_1gac091dc76627f29a6d704646a477f55c5" kind="function"><name>setSmallUI</name></member>
-      <member refid="group__GeneralGroup_1gabb54fa525352a97793f4948df5292ba7" kind="function"><name>getWidthMenuUI</name></member>
-      <member refid="group__GeneralGroup_1gafcef0eec09d9ab66c4eceebbb8b15d73" kind="function"><name>getSearchStringWidth</name></member>
-      <member refid="group__GeneralGroup_1gab0a9a0a890de308d579a6b1226cdbc6b" kind="function"><name>activate</name></member>
+      <member refid="group__GeneralGroup_1ga33635a208a5beadbb88da4bc44a7b252" kind="function"><name>getWidthMenuUI</name></member>
+      <member refid="group__GeneralGroup_1gaab30541029b94b3f1c2b3744112019e1" kind="function"><name>getSearchStringWidth</name></member>
+      <member refid="group__GeneralGroup_1ga83be28fa980e2abc39cd07557b87169e" kind="function"><name>activate</name></member>
       <member refid="group__GeneralGroup_1ga9c0a860e85f2d55494f4829c2720efa6" kind="function"><name>setRequirementsFunc</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -76,17 +76,17 @@
         <label>boost::signals2::signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;) &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="20" bodyend="87"/>
+    <location file="MRViewer/MRRibbonMenuSearch.h" line="19" column="1" bodyfile="MRViewer/MRRibbonMenuSearch.h" bodystart="20" bodyend="87"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gab0a9a0a890de308d579a6b1226cdbc6b" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>activate</name></member>
+      <member refid="group__GeneralGroup_1ga83be28fa980e2abc39cd07557b87169e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>activate</name></member>
       <member refid="group__GeneralGroup_1gacb9a4678bb1914f52ca40c8daedb83ff" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>active_</name></member>
       <member refid="group__GeneralGroup_1ga6b22d89d94492c95694c234dd3672789" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>blockSearchBtn_</name></member>
       <member refid="group__GeneralGroup_1ga7b82b98265cbae9189ed1e0b7b8a211b" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>captionCount_</name></member>
       <member refid="group__GeneralGroup_1ga59d883949a64346e0e826fe82d3b6c89" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>deactivateSearch_</name></member>
-      <member refid="group__GeneralGroup_1gaf63422eb95c89c1f0593b3c8f5dc00d8" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>drawMenuUI</name></member>
+      <member refid="group__GeneralGroup_1gac8f4001d5233669141be3ce487e7a138" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>drawMenuUI</name></member>
       <member refid="group__GeneralGroup_1ga59e2f2a11416b7a30ecf559bd0957f8e" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>drawWindow_</name></member>
-      <member refid="group__GeneralGroup_1gafcef0eec09d9ab66c4eceebbb8b15d73" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>getSearchStringWidth</name></member>
-      <member refid="group__GeneralGroup_1gabb54fa525352a97793f4948df5292ba7" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>getWidthMenuUI</name></member>
+      <member refid="group__GeneralGroup_1gaab30541029b94b3f1c2b3744112019e1" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>getSearchStringWidth</name></member>
+      <member refid="group__GeneralGroup_1ga33635a208a5beadbb88da4bc44a7b252" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>getWidthMenuUI</name></member>
       <member refid="group__GeneralGroup_1ga79acf7650d854c533507fd6ee3b891c0" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>hightlightedSearchItem_</name></member>
       <member refid="group__GeneralGroup_1ga0b4837e8857c47375053b8b76869c2fa" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>isSmallUI_</name></member>
       <member refid="group__GeneralGroup_1ga91e32fc5cada025e1255f661f8b559d9" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>isSmallUILast_</name></member>

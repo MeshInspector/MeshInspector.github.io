@@ -1,9 +1,5 @@
 var MRExpandShrink_8h =
 [
-    [ "MR_FaceBitSet", "MRExpandShrink_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_MeshTopology", "MRExpandShrink_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRExpandShrink_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_VertBitSet", "MRExpandShrink_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_expand_MR_FaceBitSet", "MRExpandShrink_8h.html#ae77d267887ff52832d252ff2742fb451", null ],
     [ "MR_expand_MR_FaceId", "MRExpandShrink_8h.html#a15ad8178ddce9cdd330b6e84912489eb", null ],
     [ "MR_expand_MR_VertBitSet", "MRExpandShrink_8h.html#aaa90fe9a5c2e826fa78f413db206bfc1", null ],

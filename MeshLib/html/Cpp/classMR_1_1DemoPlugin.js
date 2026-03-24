@@ -1,5 +1,5 @@
 var classMR_1_1DemoPlugin =
 [
-    [ "init", "group__GeneralGroup.html#ga6be2d6bfd3895d3f759775a2843ed7fe", null ],
-    [ "shutdown", "group__GeneralGroup.html#gafd0d013177b9745090ea82dd3e6321e7", null ]
+    [ "init", "group__GeneralGroup.html#gad27509c52d0c34930eecbe2402a7b67a", null ],
+    [ "shutdown", "group__GeneralGroup.html#gacd32f890433198b52a7b6117717c11f5", null ]
 ];

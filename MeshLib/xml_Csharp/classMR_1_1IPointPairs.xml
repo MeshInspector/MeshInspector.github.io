@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IPointPairs" kind="class" language="C#" prot="public">
     <compoundname>MR::IPointPairs</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_IPointPairs</basecompoundref>
@@ -11,13 +11,13 @@
         <name>active</name>
         <qualifiedname>MR.IPointPairs.active</qualifiedname>
         <briefdescription>
-<para>&lt; whether corresponding pair from vec must be considered during minimization </para>
+<para>whether corresponding pair from vec must be considered during minimization </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="740" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="740" bodyend="740"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="808" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="808" bodyend="808"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IPointPairs_1a600879d87e9ed117bcc0038a9a1b7fbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1ICPPairData" kindref="compound">MR.ICPPairData</ref></type>
@@ -26,13 +26,13 @@
         <name>this[ulong _1]</name>
         <qualifiedname>MR.IPointPairs.this[ulong _1]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.IPointPairs.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IPointPairs::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="769" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="770" bodyend="777"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="837" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="838" bodyend="845"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="759" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="759" bodyend="763"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="827" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="827" bodyend="831"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -65,48 +65,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_IPointPairs</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.IPointPairs</label>
         <link refid="classMR_1_1IPointPairs"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_IPointPairs</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IPointPairs &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_IPointPairs</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.IPointPairs</label>
         <link refid="classMR_1_1IPointPairs"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_IPointPairs</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IPointPairs &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="737" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="738" bodyend="778"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="803" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="804" bodyend="846"/>
     <listofallmembers>
       <member refid="classMR_1_1IPointPairs_1af8bf3c1f87d9be39210356c794329ad3" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>active</name></member>
       <member refid="classMR_1_1IPointPairs_1a264e34c0503915623ab5a0cf27d36467" prot="package" virt="non-virtual"><scope>MR::IPointPairs</scope><name>IPointPairs</name></member>

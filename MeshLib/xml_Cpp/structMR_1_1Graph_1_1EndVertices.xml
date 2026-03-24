@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Graph_1_1EndVertices" kind="struct" language="C++" prot="public">
     <compoundname>MR::Graph::EndVertices</compoundname>
-    <includes refid="MRGraph_8h" local="no">MRGraph.h</includes>
+    <includes refid="MRGraph_8h" local="no">MRMesh/MRGraph.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kind="variable"><name>v0</name></member>
       <member refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kind="variable"><name>v1</name></member>
@@ -16,7 +16,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="29" bodyend="48"/>
+    <location file="MRMesh/MRGraph.h" line="28" column="5" bodyfile="MRMesh/MRGraph.h" bodystart="29" bodyend="48"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafe146d825ed418eab8e42d1bdb2f7a43" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>operator&lt;=&gt;</name></member>
       <member refid="group__GeneralGroup_1ga57f201c07d8a9aee027911668d5c9f8b" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>otherEnd</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PreciseVertCoord" kind="struct" language="C++" prot="public">
     <compoundname>MR::PreciseVertCoord</compoundname>
-    <includes refid="MRPrecisePredicates2_8h" local="no">MRPrecisePredicates2.h</includes>
+    <includes refid="MRPrecisePredicates2_8h" local="no">MRMesh/MRPrecisePredicates2.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga06f1bfc70a05a9294afb6050626e61dd" kind="variable"><name>id</name></member>
       <member refid="group__GeneralGroup_1ga547304af4a3486eb429f7737c6f9fc3e" kind="variable"><name>pt</name></member>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" bodystart="18" bodyend="21"/>
+    <location file="MRMesh/MRPrecisePredicates2.h" line="17" column="1" bodyfile="MRMesh/MRPrecisePredicates2.h" bodystart="18" bodyend="21"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga06f1bfc70a05a9294afb6050626e61dd" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>id</name></member>
       <member refid="group__GeneralGroup_1ga547304af4a3486eb429f7737c6f9fc3e" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>pt</name></member>

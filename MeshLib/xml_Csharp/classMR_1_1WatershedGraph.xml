@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WatershedGraph" kind="class" language="C#" prot="public">
     <compoundname>MR::WatershedGraph</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_WatershedGraph</basecompoundref>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1017" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1017" bodyend="1017"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1061" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1061" bodyend="1061"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,13 +39,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.WatershedGraph.WatershedGraph</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" kindref="member">MR.WatershedGraph.WatershedGraph</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1022" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1022" bodyend="1028"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1066" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1066" bodyend="1072"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1aba4bc53a0ef298617141d5668abd953c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -58,13 +58,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.WatershedGraph.WatershedGraph</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" kindref="member">MR.WatershedGraph.WatershedGraph</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1033" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1033" bodyend="1033"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1077" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1077" bodyend="1077"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1ab19b95643e86cffe573d2e090d07a208" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -77,13 +77,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.WatershedGraph.WatershedGraph</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" kindref="member">MR.WatershedGraph.WatershedGraph</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1038" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1038" bodyend="1038"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1082" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1082" bodyend="1082"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1a12b09913ed53c1b6ab8c54a92704dcda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -104,13 +104,13 @@
           <declname>numBasins</declname>
         </param>
         <briefdescription>
-<para>constructs the graph from given mesh, heights in z-coordinate, and initial subdivision on basins Generated from constructor <computeroutput>MR.WatershedGraph.WatershedGraph</computeroutput>. </para>
+<para>constructs the graph from given mesh, heights in z-coordinate, and initial subdivision on basins Generated from constructor <computeroutput><ref refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" kindref="member">MR.WatershedGraph.WatershedGraph</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1044" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1044" bodyend="1051"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1088" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1088" bodyend="1095"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1a18232b2ebc524ead9718a678045ba03e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.WatershedGraph.BasinInfo</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1056" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1056" bodyend="1061"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1100" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1100" bodyend="1105"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1a5b2c2401848105a2680e58cd003d954c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.WatershedGraph.BdInfo</type>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1066" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1066" bodyend="1071"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1110" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1110" bodyend="1115"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1a23d6b3bc273652e246115fee49451b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1078" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1078" bodyend="1083"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1122" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1122" bodyend="1127"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1aba8155ec71a26aeb3390e5f25c3f4a6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1089" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1089" bodyend="1094"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1133" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1133" bodyend="1138"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1a1e2e6c34cf43ba93e15747e4705abe48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1100" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1100" bodyend="1105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1144" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1144" bodyend="1149"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -214,48 +214,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_WatershedGraph</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.WatershedGraph</label>
         <link refid="classMR_1_1WatershedGraph"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_WatershedGraph</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_WatershedGraph &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_WatershedGraph</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.WatershedGraph</label>
         <link refid="classMR_1_1WatershedGraph"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_WatershedGraph</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_WatershedGraph &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1015" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1016" bodyend="1106"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1059" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1060" bodyend="1150"/>
     <listofallmembers>
       <member refid="classMR_1_1WatershedGraph_1a18232b2ebc524ead9718a678045ba03e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basinInfo</name></member>
       <member refid="classMR_1_1WatershedGraph_1a5b2c2401848105a2680e58cd003d954c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bdInfo</name></member>

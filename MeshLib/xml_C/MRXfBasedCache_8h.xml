@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRXfBasedCache_8h" kind="file" language="C++">
     <compoundname>MRXfBasedCache.h</compoundname>
     <includes refid="MRBox_8h" local="no">MRCMesh/MRBox.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="2">
@@ -11,15 +11,15 @@
         <link refid="MRBox_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -29,21 +29,21 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
       </node>
-      <node id="8">
+      <node id="9">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -53,36 +53,34 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
       <node id="5">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="6">
+      <node id="8">
         <label>stdbool.h</label>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stddef.h</label>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRXfBasedCache_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
-        <type>struct MR_AffineXf3f</type>
-        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
-        <argsstring></argsstring>
-        <name>MR_AffineXf3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" prot="public" static="no">
         <type>struct <ref refid="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" kindref="member">MR_std_optional_MR_Box3f</ref></type>
         <definition>typedef struct MR_std_optional_MR_Box3f MR_std_optional_MR_Box3f</definition>
@@ -91,29 +89,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a single <computeroutput>MR::Box3f</computeroutput> or nothing. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRXfBasedCache_8h_1afd809241b98e686da37ea296a946c1ee" prot="public" static="no">
-        <type>struct <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref></type>
-        <definition>typedef struct MR_XfBasedCache_MR_Box3f MR_XfBasedCache_MR_Box3f</definition>
-        <argsstring></argsstring>
-        <name>MR_XfBasedCache_MR_Box3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>optional T-object container, which stores a transformation as well for which the object is valid Generated from class <computeroutput>MR::XfBasedCache&lt;MR::Box3f&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="19" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRXfBasedCache_8h_1afe84742b8f8ae58d0675c3901f548f98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
         <definition>MRC_API MR_XfBasedCache_MR_Box3f * MR_XfBasedCache_MR_Box3f_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_DefaultConstruct</name>
@@ -127,10 +112,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="23" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="23" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="23" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="23" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1ad2ca3c68bd0c695f0eef8703bee1f94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
         <definition>MRC_API MR_XfBasedCache_MR_Box3f * MR_XfBasedCache_MR_Box3f_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_DefaultConstructArray</name>
@@ -145,10 +130,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="28" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="28" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="28" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="28" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1a196a12babd38147090d98cd03d908923" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
         <definition>MRC_API const MR_XfBasedCache_MR_Box3f * MR_XfBasedCache_MR_Box3f_OffsetPtr</definition>
         <argsstring>(const MR_XfBasedCache_MR_Box3f *ptr, ptrdiff_t i)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_OffsetPtr</name>
@@ -167,10 +152,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="32" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="32" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="32" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="32" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1a7231ed3ef171181c2c73a66263e0d292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
         <definition>MRC_API MR_XfBasedCache_MR_Box3f * MR_XfBasedCache_MR_Box3f_OffsetMutablePtr</definition>
         <argsstring>(MR_XfBasedCache_MR_Box3f *ptr, ptrdiff_t i)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_OffsetMutablePtr</name>
@@ -189,10 +174,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="36" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="36" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="36" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="36" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1a3fb7f067e30dd08799e456cacabce24a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
         <definition>MRC_API MR_XfBasedCache_MR_Box3f * MR_XfBasedCache_MR_Box3f_ConstructFromAnother</definition>
         <argsstring>(const MR_XfBasedCache_MR_Box3f *_other)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_ConstructFromAnother</name>
@@ -207,10 +192,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="42" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="42" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="42" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="42" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1a3539c602e503e731df453078e86a471b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_XfBasedCache_MR_Box3f_Destroy</definition>
         <argsstring>(const MR_XfBasedCache_MR_Box3f *_this)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_Destroy</name>
@@ -219,16 +204,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_XfBasedCache_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="45" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="45" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1a536c776bf5b63ad621f4fec02b732ea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_XfBasedCache_MR_Box3f_DestroyArray</definition>
         <argsstring>(const MR_XfBasedCache_MR_Box3f *_this)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_DestroyArray</name>
@@ -237,16 +222,16 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_XfBasedCache_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="48" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="48" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1a7b77ba2eae0dabaa3755646ebeacccec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref> *</type>
         <definition>MRC_API MR_XfBasedCache_MR_Box3f * MR_XfBasedCache_MR_Box3f_AssignFromAnother</definition>
         <argsstring>(MR_XfBasedCache_MR_Box3f *_this, const MR_XfBasedCache_MR_Box3f *_other)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_AssignFromAnother</name>
@@ -261,14 +246,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::XfBasedCache&lt;MR::Box3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::XfBasedCache&lt;MR::Box3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="56" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="56" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="56" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="56" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1aab0cb20e49b686a521d83df6b13bff68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" kindref="member">MR_std_optional_MR_Box3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" kindref="member">MR_std_optional_MR_Box3f</ref> *</type>
         <definition>MRC_API const MR_std_optional_MR_Box3f * MR_XfBasedCache_MR_Box3f_get</definition>
         <argsstring>(const MR_XfBasedCache_MR_Box3f *_this, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_get</name>
@@ -287,10 +272,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="63" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="63" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="63" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="63" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1a27136581e721626fd347041b7b177103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_XfBasedCache_MR_Box3f_set</definition>
         <argsstring>(MR_XfBasedCache_MR_Box3f *_this, const MR_AffineXf3f *xf, MR_Box3f t)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_set</name>
@@ -313,10 +298,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="69" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="69" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRXfBasedCache_8h_1a0ea0d138657614378b336bb7cf3258b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_XfBasedCache_MR_Box3f_reset</definition>
         <argsstring>(MR_XfBasedCache_MR_Box3f *_this)</argsstring>
         <name>MR_XfBasedCache_MR_Box3f_reset</name>
@@ -331,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h" declline="74" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h" declline="74" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -342,7 +327,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRBox_8h" kindref="compound">MRCMesh/MRBox.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -350,38 +335,38 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRXfBasedCache_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" kindref="member">MR_std_optional_MR_Box3f</ref><sp/><ref refid="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" kindref="member">MR_std_optional_MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Box3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRXfBasedCache_8h_1afd809241b98e686da37ea296a946c1ee" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRXfBasedCache_8h_1afe84742b8f8ae58d0675c3901f548f98" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1afe84742b8f8ae58d0675c3901f548f98" kindref="member">MR_XfBasedCache_MR_Box3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23" refid="MRXfBasedCache_8h_1afe84742b8f8ae58d0675c3901f548f98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1afe84742b8f8ae58d0675c3901f548f98" kindref="member">MR_XfBasedCache_MR_Box3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRXfBasedCache_8h_1ad2ca3c68bd0c695f0eef8703bee1f94f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1ad2ca3c68bd0c695f0eef8703bee1f94f" kindref="member">MR_XfBasedCache_MR_Box3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28" refid="MRXfBasedCache_8h_1ad2ca3c68bd0c695f0eef8703bee1f94f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1ad2ca3c68bd0c695f0eef8703bee1f94f" kindref="member">MR_XfBasedCache_MR_Box3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRXfBasedCache_8h_1a196a12babd38147090d98cd03d908923" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1a196a12babd38147090d98cd03d908923" kindref="member">MR_XfBasedCache_MR_Box3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="32" refid="MRXfBasedCache_8h_1a196a12babd38147090d98cd03d908923" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1a196a12babd38147090d98cd03d908923" kindref="member">MR_XfBasedCache_MR_Box3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRXfBasedCache_8h_1a7231ed3ef171181c2c73a66263e0d292" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1a7231ed3ef171181c2c73a66263e0d292" kindref="member">MR_XfBasedCache_MR_Box3f_OffsetMutablePtr</ref>(<ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="36" refid="MRXfBasedCache_8h_1a7231ed3ef171181c2c73a66263e0d292" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1a7231ed3ef171181c2c73a66263e0d292" kindref="member">MR_XfBasedCache_MR_Box3f_OffsetMutablePtr</ref>(<ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRXfBasedCache_8h_1a3fb7f067e30dd08799e456cacabce24a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1a3fb7f067e30dd08799e456cacabce24a" kindref="member">MR_XfBasedCache_MR_Box3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="42" refid="MRXfBasedCache_8h_1a3fb7f067e30dd08799e456cacabce24a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1a3fb7f067e30dd08799e456cacabce24a" kindref="member">MR_XfBasedCache_MR_Box3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRXfBasedCache_8h_1a3539c602e503e731df453078e86a471b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a3539c602e503e731df453078e86a471b" kindref="member">MR_XfBasedCache_MR_Box3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45" refid="MRXfBasedCache_8h_1a3539c602e503e731df453078e86a471b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a3539c602e503e731df453078e86a471b" kindref="member">MR_XfBasedCache_MR_Box3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRXfBasedCache_8h_1a536c776bf5b63ad621f4fec02b732ea2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a536c776bf5b63ad621f4fec02b732ea2" kindref="member">MR_XfBasedCache_MR_Box3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48" refid="MRXfBasedCache_8h_1a536c776bf5b63ad621f4fec02b732ea2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a536c776bf5b63ad621f4fec02b732ea2" kindref="member">MR_XfBasedCache_MR_Box3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRXfBasedCache_8h_1a7b77ba2eae0dabaa3755646ebeacccec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1a7b77ba2eae0dabaa3755646ebeacccec" kindref="member">MR_XfBasedCache_MR_Box3f_AssignFromAnother</ref>(<ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="56" refid="MRXfBasedCache_8h_1a7b77ba2eae0dabaa3755646ebeacccec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1a7b77ba2eae0dabaa3755646ebeacccec" kindref="member">MR_XfBasedCache_MR_Box3f_AssignFromAnother</ref>(<ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRXfBasedCache_8h_1aab0cb20e49b686a521d83df6b13bff68" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" kindref="member">MR_std_optional_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1aab0cb20e49b686a521d83df6b13bff68" kindref="member">MR_XfBasedCache_MR_Box3f_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="63" refid="MRXfBasedCache_8h_1aab0cb20e49b686a521d83df6b13bff68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a53b3364da66b915610d4690df7793a76" kindref="member">MR_std_optional_MR_Box3f</ref><sp/>*<ref refid="MRXfBasedCache_8h_1aab0cb20e49b686a521d83df6b13bff68" kindref="member">MR_XfBasedCache_MR_Box3f_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRXfBasedCache_8h_1a27136581e721626fd347041b7b177103" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a27136581e721626fd347041b7b177103" kindref="member">MR_XfBasedCache_MR_Box3f_set</ref>(<ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>t);</highlight></codeline>
+<codeline lineno="69" refid="MRXfBasedCache_8h_1a27136581e721626fd347041b7b177103" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a27136581e721626fd347041b7b177103" kindref="member">MR_XfBasedCache_MR_Box3f_set</ref>(<ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>t);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRXfBasedCache_8h_1a0ea0d138657614378b336bb7cf3258b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a0ea0d138657614378b336bb7cf3258b1" kindref="member">MR_XfBasedCache_MR_Box3f_reset</ref>(<ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="MRXfBasedCache_8h_1a0ea0d138657614378b336bb7cf3258b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRXfBasedCache_8h_1a0ea0d138657614378b336bb7cf3258b1" kindref="member">MR_XfBasedCache_MR_Box3f_reset</ref>(<ref refid="MRViewportProperty_8h_1afd809241b98e686da37ea296a946c1ee" kindref="member">MR_XfBasedCache_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="77"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRXfBasedCache.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRXfBasedCache.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 var MRMeshToDistanceVolume_8h =
 [
-    [ "makeCloseToMeshVolume", "MRMeshToDistanceVolume_8h.html#ga55971324aa47ba1d36d8e64dbd6b8ebc", null ],
-    [ "meshRegionToIndicatorVolume", "MRMeshToDistanceVolume_8h.html#ga150c8492a3dc820bde5db5249c54ba5d", null ],
-    [ "meshToDirectionVolume", "MRMeshToDistanceVolume_8h.html#ga7cfd6d2c7fdde75ec5577e2e10511787", null ],
-    [ "meshToDistanceFunctionVolume", "MRMeshToDistanceVolume_8h.html#ga0b9ea4d2768e4899763f4545ebdd2bcb", null ],
-    [ "meshToDistanceVolume", "MRMeshToDistanceVolume_8h.html#gaae0bf6d4703f88d08bb65aa94ccc1934", null ]
+    [ "MR::makeCloseToMeshVolume", "group__GeneralGroup.html#ga03b89c7f5f3a6ea810077d91c14c98b5", null ],
+    [ "MR::meshRegionToIndicatorVolume", "group__GeneralGroup.html#gaf99b4c073dc700a6e84295c59f0cbdef", null ],
+    [ "MR::meshToDirectionVolume", "group__GeneralGroup.html#ga0752e5390277bae84ef50d8e1f0a5db9", null ],
+    [ "MR::meshToDistanceFunctionVolume", "group__GeneralGroup.html#gaf240d29116bdd27249c44e9978b98541", null ],
+    [ "MR::meshToDistanceVolume", "group__GeneralGroup.html#gaed72deb95016a3c136004932e83ae969", null ]
 ];

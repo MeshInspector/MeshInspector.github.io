@@ -1,8 +1,5 @@
 var MRMeshLoad_8h =
 [
-    [ "MR_expected_MR_Mesh_std_string", "MRMeshLoad_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_MeshLoadSettings", "MRMeshLoad_8h.html#a616a0b042e712074c2ed4013f47fa0af", null ],
-    [ "MR_std_istream", "MRMeshLoad_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
     [ "MR_loadASCIIStl_std_filesystem_path", "MRMeshLoad_8h.html#a889186794202128fc6c7d1cfcf78445a", null ],
     [ "MR_loadASCIIStl_std_istream", "MRMeshLoad_8h.html#af9beb502e15d4821569cda36d44af6d2", null ],
     [ "MR_loadBinaryStl_std_filesystem_path", "MRMeshLoad_8h.html#a15bee7234b9e4132f0a5a81744ab9dcf", null ],

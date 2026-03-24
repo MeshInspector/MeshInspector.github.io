@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSpaceMouseHandlerHidapi_8h" kind="file" language="C++">
     <compoundname>MRSpaceMouseHandlerHidapi.h</compoundname>
     <includes refid="MRSpaceMouseHandler_8h" local="yes">MRSpaceMouseHandler.h</includes>
@@ -14,79 +14,91 @@
     <includes local="no">thread</includes>
     <includes local="no">unordered_map</includes>
     <incdepgraph>
-      <node id="13">
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="8">
-        <label>MRMacros.h</label>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="30">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="12" relation="include">
+      <node id="3">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="26">
-        <label>MRMesh/MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MRMesh/MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+      </node>
+      <node id="35">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
+      </node>
+      <node id="31">
+        <label>MRMesh/MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
         <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+      </node>
+      <node id="34">
+        <label>MRMesh/MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRSpaceMouseDevice.h</label>
-        <link refid="MRSpaceMouseDevice_8h"/>
+      <node id="15">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
@@ -97,7 +109,27 @@
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="14">
+        <label>MRSpaceMouseDevice.h</label>
+        <link refid="MRSpaceMouseDevice_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -105,127 +137,140 @@
         <link refid="MRSpaceMouseHandler_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRSpaceMouseHandlerHidapi.h</label>
+        <label>MRViewer/MRSpaceMouseHandlerHidapi.h</label>
         <link refid="MRSpaceMouseHandlerHidapi_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
         <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-      </node>
-      <node id="24">
-        <label>MRViewerEventsListener.h</label>
-        <link refid="MRViewerEventsListener_8h"/>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMesh/MRMeshFwd.h</label>
-      </node>
-      <node id="12">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="14">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="25">
-        <label>MRViewerFwd.h</label>
-      </node>
-      <node id="15">
-        <label>algorithm</label>
-      </node>
-      <node id="21">
-        <label>array</label>
-      </node>
-      <node id="34">
-        <label>atomic</label>
-      </node>
-      <node id="20">
-        <label>bitset</label>
       </node>
       <node id="27">
-        <label>boost/signals2/signal.hpp</label>
-      </node>
-      <node id="32">
-        <label>cassert</label>
-      </node>
-      <node id="16">
-        <label>cmath</label>
-      </node>
-      <node id="31">
-        <label>concepts</label>
-      </node>
-      <node id="35">
-        <label>condition_variable</label>
-      </node>
-      <node id="10">
-        <label>cstddef</label>
-      </node>
-      <node id="17">
-        <label>cstring</label>
+        <label>MRViewerEventsListener.h</label>
+        <link refid="MRViewerEventsListener_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
       </node>
       <node id="28">
-        <label>filesystem</label>
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>functional</label>
+      <node id="29">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
-      <node id="33">
-        <label>hidapi/hidapi.h</label>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="18">
-        <label>iosfwd</label>
+      <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="38">
+        <label>atomic</label>
+      </node>
+      <node id="25">
+        <label>bitset</label>
+      </node>
+      <node id="32">
+        <label>boost/signals2/signal.hpp</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="21">
+        <label>cmath</label>
       </node>
       <node id="36">
-        <label>mutex</label>
+        <label>concepts</label>
       </node>
-      <node id="5">
-        <label>string</label>
+      <node id="39">
+        <label>condition_variable</label>
       </node>
-      <node id="37">
-        <label>thread</label>
-      </node>
-      <node id="11">
-        <label>type_traits</label>
-      </node>
-      <node id="23">
-        <label>unordered_map</label>
-      </node>
-      <node id="19">
-        <label>utility</label>
+      <node id="17">
+        <label>cstddef</label>
       </node>
       <node id="22">
+        <label>cstring</label>
+      </node>
+      <node id="30">
+        <label>exports.h</label>
+      </node>
+      <node id="33">
+        <label>filesystem</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="37">
+        <label>hidapi/hidapi.h</label>
+      </node>
+      <node id="23">
+        <label>iosfwd</label>
+      </node>
+      <node id="40">
+        <label>mutex</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="41">
+        <label>thread</label>
+      </node>
+      <node id="18">
+        <label>type_traits</label>
+      </node>
+      <node id="26">
+        <label>unordered_map</label>
+      </node>
+      <node id="24">
+        <label>utility</label>
+      </node>
+      <node id="9">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -265,7 +310,7 @@
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SpaceMouse" kindref="compound">MR::SpaceMouse</ref></highlight></codeline>
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" kindref="compound">HandlerHidapi</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1Handler" kindref="compound">Handler</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PostFocusListener" kindref="compound">PostFocusListener</ref></highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1ae504a5e70f7acf22ea7a2989e0069f35" kindref="member">HandlerHidapi</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1Handler" kindref="compound">Handler</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PostFocusListener" kindref="compound">PostFocusListener</ref></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="31" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1ae504a5e70f7acf22ea7a2989e0069f35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1ae504a5e70f7acf22ea7a2989e0069f35" kindref="member">HandlerHidapi</ref>();</highlight></codeline>
@@ -274,7 +319,7 @@
 <codeline lineno="34" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a72e91164e356ea478b0e5df93aaed69c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a72e91164e356ea478b0e5df93aaed69c" kindref="member">initialize</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="35" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a20c6b0e22bec8be84b2034de74bf6073" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a20c6b0e22bec8be84b2034de74bf6073" kindref="member">handle</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a3dc021818a03274186e2b78274e47551" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a3dc021818a03274186e2b78274e47551" kindref="member">hasValidDeviceConnected</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a11dc848394777b3ad3ebabada8ff3ad8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a11dc848394777b3ad3ebabada8ff3ad8" kindref="member">hasValidDeviceConnected</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initListenerThread_();</highlight></codeline>
@@ -314,6 +359,6 @@
 <codeline lineno="76"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h"/>
+    <location file="MRViewer/MRSpaceMouseHandlerHidapi.h"/>
   </compounddef>
 </doxygen>

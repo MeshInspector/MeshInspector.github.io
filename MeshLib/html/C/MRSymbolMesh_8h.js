@@ -1,12 +1,6 @@
 var MRSymbolMesh_8h =
 [
     [ "MR_AlignType", "MRSymbolMesh_8h.html#a1e277c214b29d3ad0568598d3bfee8af", null ],
-    [ "MR_expected_MR_Mesh_std_string", "MRSymbolMesh_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_expected_std_vector_std_vector_MR_Vector2f_std_string", "MRSymbolMesh_8h.html#afdcb1f8d5602f1f7db00a97d0b5dd528", null ],
-    [ "MR_std_filesystem_path", "MRSymbolMesh_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
-    [ "MR_std_string", "MRSymbolMesh_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_SymbolMeshParams", "MRSymbolMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59", null ],
-    [ "MR_TextMeshAlignParams", "MRSymbolMesh_8h.html#a248de3625afa5f345225a9c64501932b", null ],
     [ "MR_AlignType", "MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cd", [
       [ "MR_AlignType_Left", "MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cda7223564bc3249aaa9925a9950ce63bc6", null ],
       [ "MR_AlignType_Center", "MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cda0e0f2ae6f0d08db3f690825d88e7550a", null ],
@@ -34,7 +28,6 @@ var MRSymbolMesh_8h =
     [ "MR_SymbolMeshParams_GetMutable_symbolsDistanceAdditionalOffset", "MRSymbolMesh_8h.html#a9e56beace1cdecabcfaf86e62bb4bf85", null ],
     [ "MR_SymbolMeshParams_GetMutable_symbolsThicknessOffsetModifier", "MRSymbolMesh_8h.html#a48617ce07f1377e74acf5eb29877271d", null ],
     [ "MR_SymbolMeshParams_GetMutable_text", "MRSymbolMesh_8h.html#a98a5719f6bc745e38e7f44db0d76e704", null ],
-    [ "MR_SymbolMeshParams_MutableStaticDowncastTo_MR_TextMeshAlignParams", "MRSymbolMesh_8h.html#a373db4a1f3a1b4c561886ab1a0bcb0fa", null ],
     [ "MR_SymbolMeshParams_OffsetMutablePtr", "MRSymbolMesh_8h.html#a0cbab972a133d438058e74eddad6dcdd", null ],
     [ "MR_SymbolMeshParams_OffsetPtr", "MRSymbolMesh_8h.html#a1293bbcd04ee143f9359628f2fd9b1db", null ],
     [ "MR_SymbolMeshParams_Set_align", "MRSymbolMesh_8h.html#a1a5f11da0a1c24023c5ac48fa79cdd0b", null ],
@@ -42,6 +35,5 @@ var MRSymbolMesh_8h =
     [ "MR_SymbolMeshParams_Set_pathToFontFile", "MRSymbolMesh_8h.html#a2c18e7cfd3a2f9d2fb37722323598b9c", null ],
     [ "MR_SymbolMeshParams_Set_symbolsDistanceAdditionalOffset", "MRSymbolMesh_8h.html#a45390f0c2d2dbcb8ec15753a0d5943bd", null ],
     [ "MR_SymbolMeshParams_Set_symbolsThicknessOffsetModifier", "MRSymbolMesh_8h.html#a182ddc89d20eb4debc91c00e0405b839", null ],
-    [ "MR_SymbolMeshParams_Set_text", "MRSymbolMesh_8h.html#a7e6ce16a1d8f7a024dbc61b3b547b8bf", null ],
-    [ "MR_SymbolMeshParams_StaticDowncastTo_MR_TextMeshAlignParams", "MRSymbolMesh_8h.html#a966dda210fe301f835a50c2bdde128e2", null ]
+    [ "MR_SymbolMeshParams_Set_text", "MRSymbolMesh_8h.html#a7e6ce16a1d8f7a024dbc61b3b547b8bf", null ]
 ];

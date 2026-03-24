@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSceneLoad_8h" kind="file" language="C++">
     <compoundname>MRSceneLoad.h</compoundname>
     <includes refid="MRObject_8h" local="yes">MRObject.h</includes>
     <includes refid="MRUnitInfo_8h" local="yes">MRUnitInfo.h</includes>
     <includes local="no">optional</includes>
     <incdepgraph>
-      <node id="18">
+      <node id="26">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -23,30 +23,30 @@
         <link refid="MRAffineXf3_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="27">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="34">
         <label>MRBox.h</label>
         <link refid="MRBox_8h"/>
         <childnode refid="5" relation="include">
@@ -55,49 +55,55 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="12">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="32">
+      <node id="37">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="28">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -111,120 +117,14 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MRObject.h</label>
-        <link refid="MRObject_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="41" relation="include">
-        </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-        <childnode refid="45" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-      </node>
-      <node id="35">
-        <label>MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRSceneLoad.h</label>
-        <link refid="MRSceneLoad_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="36">
-        <label>MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="37" relation="include">
-        </childnode>
-      </node>
-      <node id="47">
-        <label>MRUnitInfo.h</label>
-        <link refid="MRUnitInfo_8h"/>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
       </node>
-      <node id="6">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
+      <node id="10">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
@@ -239,112 +139,241 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-      </node>
-      <node id="29">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="30" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="39">
-        <label>MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="10" relation="include">
+      <node id="2">
+        <label>MRObject.h</label>
+        <link refid="MRObject_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-      </node>
-      <node id="38">
-        <label>MRViewportProperty.h</label>
-        <link refid="MRViewportProperty_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
         <childnode refid="39" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRSceneLoad.h</label>
+        <link refid="MRSceneLoad_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MRUnitInfo.h</label>
+        <link refid="MRUnitInfo_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
       </node>
       <node id="30">
-        <label>MRMesh/MRMeshFwd.h</label>
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
-      <node id="10">
-        <label>MRMeshFwd.h</label>
+      <node id="6">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
-      <node id="12">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="35">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
-      <node id="33">
-        <label>MRPch/MRExpected.h</label>
+      <node id="43">
+        <label>MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
-      <node id="22">
-        <label>MRphmap.h</label>
+      <node id="42">
+        <label>MRViewportProperty.h</label>
+        <link refid="MRViewportProperty_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="13">
-        <label>algorithm</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="41">
-        <label>array</label>
+      <node id="38">
+        <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="37">
-        <label>boost/signals2/signal.hpp</label>
+      <node id="29">
+        <label>MRphmap.h</label>
       </node>
       <node id="21">
-        <label>cassert</label>
+        <label>algorithm</label>
       </node>
       <node id="14">
+        <label>array</label>
+      </node>
+      <node id="41">
+        <label>boost/signals2/signal.hpp</label>
+      </node>
+      <node id="19">
+        <label>cassert</label>
+      </node>
+      <node id="22">
         <label>cmath</label>
       </node>
-      <node id="25">
+      <node id="32">
         <label>concepts</label>
       </node>
       <node id="8">
         <label>cstddef</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>cstring</label>
       </node>
-      <node id="42">
+      <node id="45">
         <label>filesystem</label>
       </node>
-      <node id="26">
+      <node id="18">
         <label>functional</label>
       </node>
-      <node id="43">
+      <node id="46">
         <label>future</label>
       </node>
-      <node id="16">
+      <node id="24">
         <label>iosfwd</label>
       </node>
-      <node id="27">
+      <node id="33">
         <label>iterator</label>
       </node>
-      <node id="31">
+      <node id="36">
         <label>limits</label>
       </node>
-      <node id="40">
+      <node id="44">
         <label>map</label>
       </node>
-      <node id="44">
+      <node id="47">
         <label>memory</label>
       </node>
-      <node id="48">
+      <node id="50">
         <label>optional</label>
       </node>
-      <node id="45">
+      <node id="17">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="48">
         <label>set</label>
       </node>
-      <node id="34">
+      <node id="16">
         <label>string</label>
       </node>
       <node id="9">
         <label>type_traits</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>utility</label>
       </node>
-      <node id="46">
+      <node id="15">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -370,13 +399,13 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14" refid="structMR_1_1SceneLoad_1_1Settings_1af5b8ca73e0491595900574e2c8ab17d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="structMR_1_1SceneLoad_1_1Settings_1af5b8ca73e0491595900574e2c8ab17d8" kindref="member">targetUnit</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1SceneLoad_1_1Settings_1ac5c932854de305eb8458df1d84eee28a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="structMR_1_1SceneLoad_1_1Settings_1ac5c932854de305eb8458df1d84eee28a" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1SceneLoad_1_1Settings_1ac5c932854de305eb8458df1d84eee28a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings_1ac5c932854de305eb8458df1d84eee28a" kindref="member">progress</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="structMR_1_1SceneLoad_1_1Settings_1a01397df55967ecaab97eaba28056aaf9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SceneLoad_1_1Settings_1a01397df55967ecaab97eaba28056aaf9" kindref="member">OpenFolder</ref><sp/>=<sp/>std::function&lt;Expected&lt;LoadedObjects&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1SceneLoad_1_1Settings_1a01397df55967ecaab97eaba28056aaf9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SceneLoad_1_1Settings_1a01397df55967ecaab97eaba28056aaf9" kindref="member">OpenFolder</ref><sp/>=<sp/>std::function&lt;Expected&lt;LoadedObjects&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="22" refid="structMR_1_1SceneLoad_1_1Settings_1aeefaeaf2dac0299fbdece77fe19bd751" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings_1a01397df55967ecaab97eaba28056aaf9" kindref="member">OpenFolder</ref><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings_1aeefaeaf2dac0299fbdece77fe19bd751" kindref="member">openFolder</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="structMR_1_1SceneLoad_1_1Result" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref></highlight></codeline>
+<codeline lineno="26" refid="structMR_1_1SceneLoad_1_1Result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="29" refid="structMR_1_1SceneLoad_1_1Result_1aae5ebe12ef215f5866a7b1e6e8d59818" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;SceneRootObject&gt;<sp/><ref refid="structMR_1_1SceneLoad_1_1Result_1aae5ebe12ef215f5866a7b1e6e8d59818" kindref="member">scene</ref>;</highlight></codeline>
 <codeline lineno="31" refid="structMR_1_1SceneLoad_1_1Result_1a0dcfb794202c73cf1889f44eaed89d0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneLoad_1_1Result_1a0dcfb794202c73cf1889f44eaed89d0d" kindref="member">isSceneConstructed</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
@@ -385,13 +414,13 @@
 <codeline lineno="39" refid="structMR_1_1SceneLoad_1_1Result_1aa7891207519da19a19494389126e28db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1SceneLoad_1_1Result_1aa7891207519da19a19494389126e28db" kindref="member">warningSummary</ref>;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="namespaceMR_1_1SceneLoad_1ac487a300831be5cc92806c51ce12f922" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref><sp/><ref refid="namespaceMR_1_1SceneLoad_1ac487a300831be5cc92806c51ce12f922" kindref="member">fromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>files,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="44" refid="namespaceMR_1_1SceneLoad_1ace59001f56846dcae763df3dd8b2df6c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref><sp/><ref refid="namespaceMR_1_1SceneLoad_1ace59001f56846dcae763df3dd8b2df6c" kindref="member">fromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>files,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" kindref="member">PostLoadCallback</ref><sp/>=<sp/>std::function&lt;void<sp/>(<sp/><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref><sp/>)&gt;;</highlight></codeline>
-<codeline lineno="49" refid="namespaceMR_1_1SceneLoad_1adf9736b6c4eba76b43a108d16f183036" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1SceneLoad_1adf9736b6c4eba76b43a108d16f183036" kindref="member">asyncFromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>files,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" kindref="member">PostLoadCallback</ref>&amp;<sp/>postLoadCallback,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="48" refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" kindref="member">PostLoadCallback</ref><sp/>=<sp/>std::function&lt;void<sp/>(<sp/><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref><sp/>)&gt;;</highlight></codeline>
+<codeline lineno="49" refid="namespaceMR_1_1SceneLoad_1a2a4af1d8739f0881fc254c4f1aa18df0" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1SceneLoad_1a2a4af1d8739f0881fc254c4f1aa18df0" kindref="member">asyncFromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>files,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" kindref="member">PostLoadCallback</ref>&amp;<sp/>postLoadCallback,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h"/>
+    <location file="MRMesh/MRSceneLoad.h"/>
   </compounddef>
 </doxygen>

@@ -1,68 +1,125 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelPath_8h" kind="file" language="C++">
     <compoundname>MRVoxelPath.h</compoundname>
-    <includes local="yes">MRVoxelsFwd.h</includes>
+    <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
     <includes refid="MRFlagOperators_8h" local="yes">MRMesh/MRFlagOperators.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRMesh/MRProgressCallback.h</includes>
     <includes local="no">functional</includes>
-    <includedby refid="MRMarkedVoxelSlice_8h" local="no">MRMarkedVoxelSlice.h</includedby>
-    <includedby refid="MRVoxelsSave_8h" local="yes">MRVoxelsSave.h</includedby>
+    <includedby refid="MRMarkedVoxelSlice_8h" local="no">MRViewer/MRMarkedVoxelSlice.h</includedby>
+    <includedby refid="MRVoxelsSave_8h" local="yes">MRVoxels/MRVoxelsSave.h</includedby>
     <incdepgraph>
-      <node id="3">
-        <label>MRMesh/MRFlagOperators.h</label>
-        <link refid="MRFlagOperators_8h"/>
-        <childnode refid="4" relation="include">
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRMesh/MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="6" relation="include">
+      <node id="15">
+        <label>MRMesh/MRFlagOperators.h</label>
+        <link refid="MRFlagOperators_8h"/>
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRVoxelPath.h</label>
+        <label>MRVoxels/MRVoxelPath.h</label>
         <link refid="MRVoxelPath_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="6">
-        <label>MRMeshFwd.h</label>
       </node>
       <node id="2">
         <label>MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
-      <node id="7">
-        <label>cassert</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
       </node>
       <node id="8">
-        <label>cmath</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="13">
         <label>functional</label>
       </node>
-      <node id="4">
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="16">
         <label>type_traits</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRMarkedVoxelSlice.h</label>
+        <label>MRViewer/MRMarkedVoxelSlice.h</label>
         <link refid="MRMarkedVoxelSlice_8h"/>
       </node>
       <node id="1">
-        <label>MRVoxelPath.h</label>
+        <label>MRVoxels/MRVoxelPath.h</label>
         <link refid="MRVoxelPath_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -70,7 +127,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRVoxelsSave.h</label>
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
     </invincdepgraph>
@@ -82,7 +139,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRVoxelsFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxelsFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFlagOperators_8h" kindref="compound">MRMesh/MRFlagOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRMesh/MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -96,11 +153,11 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="group__VoxelPathGroup_1ga85e60c553cc81b298c4bfeac4a623b79" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__VoxelPathGroup_1ga85e60c553cc81b298c4bfeac4a623b79" kindref="member">QuarterBit</ref><sp/>:<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a" kindref="member">LeftLeft</ref><sp/>=<sp/>0b1,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4" kindref="member">LeftRight</ref><sp/>=<sp/>0b10,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a84f58e01676ac59dfa39f05ab0e4fdaf" kindref="member">RightLeft</ref><sp/>=<sp/>0b100,</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a338f1941aaeb45ceefaa84416d2aaddb" kindref="member">RightRight</ref><sp/>=<sp/>0b1000,</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/>=<sp/>0b1111</highlight></codeline>
+<codeline lineno="19" refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a" kindref="member">LeftLeft</ref><sp/>=<sp/>0b1,</highlight></codeline>
+<codeline lineno="20" refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4" kindref="member">LeftRight</ref><sp/>=<sp/>0b10,</highlight></codeline>
+<codeline lineno="21" refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a84f58e01676ac59dfa39f05ab0e4fdaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a84f58e01676ac59dfa39f05ab0e4fdaf" kindref="member">RightLeft</ref><sp/>=<sp/>0b100,</highlight></codeline>
+<codeline lineno="22" refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a338f1941aaeb45ceefaa84416d2aaddb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79a338f1941aaeb45ceefaa84416d2aaddb" kindref="member">RightRight</ref><sp/>=<sp/>0b1000,</highlight></codeline>
+<codeline lineno="23" refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/>=<sp/>0b1111</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><ref refid="MRFlagOperators_8h_1afbd9348d27fb58bbb0befb3db34fab6a" kindref="member">MR_MAKE_FLAG_OPERATORS</ref>(<sp/><ref refid="group__VoxelPathGroup_1ga85e60c553cc81b298c4bfeac4a623b79" kindref="member">QuarterBit</ref><sp/>)</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
@@ -110,10 +167,10 @@
 <codeline lineno="30" refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74" kindref="member">YZ</ref>,<sp/></highlight></codeline>
 <codeline lineno="31" refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9" kindref="member">ZX</ref>,<sp/></highlight></codeline>
 <codeline lineno="32" refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9" kindref="member">XY</ref>,<sp/></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref><sp/></highlight></codeline>
-<codeline lineno="34" refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33" refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="structMR_1_1VoxelMetricParameters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref></highlight></codeline>
+<codeline lineno="37" refid="structMR_1_1VoxelMetricParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="39" refid="structMR_1_1VoxelMetricParameters_1ae851669e25fee95a2b98a79736a529cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelMetricParameters_1ae851669e25fee95a2b98a79736a529cf" kindref="member">start</ref>;<sp/></highlight></codeline>
 <codeline lineno="40" refid="structMR_1_1VoxelMetricParameters_1ab2680e847f9d7f989c60b09700889278" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelMetricParameters_1ab2680e847f9d7f989c60b09700889278" kindref="member">stop</ref>;<sp/><sp/></highlight></codeline>
@@ -122,17 +179,17 @@
 <codeline lineno="43" refid="structMR_1_1VoxelMetricParameters_1a4a39f4473b82dc98d9b380e6c081a438" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1ga85e60c553cc81b298c4bfeac4a623b79" kindref="member">QuarterBit</ref><sp/><ref refid="structMR_1_1VoxelMetricParameters_1a4a39f4473b82dc98d9b380e6c081a438" kindref="member">quatersMask</ref>{<ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">QuarterBit::All</ref>};<sp/></highlight></codeline>
 <codeline lineno="44"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="group__VoxelPathGroup_1ga149abd6a892e1284e051e285396c94c6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/><ref refid="group__VoxelPathGroup_1ga803e99bc9c6b6b6afa785b1395881cce" kindref="member">VoxelsMetric</ref><sp/><ref refid="group__VoxelPathGroup_1ga149abd6a892e1284e051e285396c94c6" kindref="member">voxelsExponentMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref>&amp;<sp/>parameters,</highlight></codeline>
+<codeline lineno="47" refid="group__VoxelPathGroup_1ga71893ed176bf05baf89d6e5a3e42c3f8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__VoxelPathGroup_1ga803e99bc9c6b6b6afa785b1395881cce" kindref="member">VoxelsMetric</ref><sp/><ref refid="group__VoxelPathGroup_1ga71893ed176bf05baf89d6e5a3e42c3f8" kindref="member">voxelsExponentMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref>&amp;<sp/>parameters,</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>modifier<sp/>=<sp/>-1.0f<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="group__VoxelPathGroup_1gaffc0e3988ac89d7c4ed030de11be4b80" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/><ref refid="group__VoxelPathGroup_1ga803e99bc9c6b6b6afa785b1395881cce" kindref="member">VoxelsMetric</ref><sp/><ref refid="group__VoxelPathGroup_1gaffc0e3988ac89d7c4ed030de11be4b80" kindref="member">voxelsSumDiffsMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref>&amp;<sp/>parameters<sp/>);</highlight></codeline>
+<codeline lineno="51" refid="group__VoxelPathGroup_1ga26f2d73245508897220a463898d518ae" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__VoxelPathGroup_1ga803e99bc9c6b6b6afa785b1395881cce" kindref="member">VoxelsMetric</ref><sp/><ref refid="group__VoxelPathGroup_1ga26f2d73245508897220a463898d518ae" kindref="member">voxelsSumDiffsMetric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref>&amp;<sp/>parameters<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="group__VoxelPathGroup_1gad1772070c201609ff1aac3958e6b9005" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/>std::vector&lt;size_t&gt;<sp/><ref refid="group__SurfacePathGroup_1ga849a027d86e0a30b1a32b629a14f74f3" kindref="member">buildSmallestMetricPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume<sp/>&amp;<sp/>voxels,<sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__VoxelPathGroup_1ga803e99bc9c6b6b6afa785b1395881cce" kindref="member">VoxelsMetric</ref><sp/>&amp;<sp/>metric,</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>finish,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="54" refid="group__VoxelPathGroup_1gae4966f63c7b2037c5dd9048a7103e382" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>std::vector&lt;size_t&gt;<sp/><ref refid="group__SurfacePathGroup_1ga2e859da5422bb433cd50959d4c1f5c3c" kindref="member">buildSmallestMetricPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume<sp/>&amp;<sp/>voxels,<sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__VoxelPathGroup_1ga803e99bc9c6b6b6afa785b1395881cce" kindref="member">VoxelsMetric</ref><sp/>&amp;<sp/>metric,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>finish,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h"/>
+    <location file="MRVoxels/MRVoxelPath.h"/>
   </compounddef>
 </doxygen>

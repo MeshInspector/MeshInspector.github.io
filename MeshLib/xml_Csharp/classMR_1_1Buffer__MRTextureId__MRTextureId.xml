@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRTextureId__MRTextureId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRTextureId_MRTextureId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRTextureId_MRTextureId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1acd3c975ad1b88e498870e630e36fb3d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1NoDefInit__MRTextureId" kindref="compound">MR.NoDefInit_MRTextureId</ref></type>
@@ -11,13 +12,166 @@
         <name>this[MR.TextureId i]</name>
         <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.this[MR.TextureId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5714" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5715" bodyend="5725"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8052" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8053" bodyend="8063"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1afcbaf6131a0f41fec6f2ccbac838571b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1NoDefInit__MRTextureId" kindref="compound">MR.NoDefInit_MRTextureId</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.NoDefInit_MRTextureId &gt; MR.Buffer_MRTextureId_MRTextureId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7974" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7974" bodyend="7977"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1ae346b1fed8f1cb188f5ba465fe5d5aa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</definition>
+        <argsstring>()</argsstring>
+        <name>Buffer_MRTextureId_MRTextureId</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7989" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7989" bodyend="7994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a53a9f7ba4c82fa39740d22ee222cca25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</definition>
+        <argsstring>(MR._ByValue_Buffer_MRTextureId_MRTextureId _other)</argsstring>
+        <name>Buffer_MRTextureId_MRTextureId</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRTextureId_MRTextureId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7999" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7999" bodyend="8005"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a326690407c621410124cce9f38a3d419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Buffer_MRTextureId_MRTextureId</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8010" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8010" bodyend="8015"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1af65de09b234204cec5361edf63d09500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Buffer__MRTextureId__MRTextureId" kindref="compound">MR.Buffer_MRTextureId_MRTextureId</ref></type>
+        <definition>unsafe MR.Buffer_MRTextureId_MRTextureId MR.Buffer_MRTextureId_MRTextureId.assign</definition>
+        <argsstring>(MR._ByValue_Buffer_MRTextureId_MRTextureId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRTextureId_MRTextureId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8020" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8020" bodyend="8027"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1aa00418db9bdbd45f17bb3cbcaf3505a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MRTextureId_MRTextureId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1aa00418db9bdbd45f17bb3cbcaf3505a8" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8032" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8032" bodyend="8037"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a98840a44d0132956d474bb2fe4a1e80f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MRTextureId_MRTextureId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a98840a44d0132956d474bb2fe4a1e80f" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8042" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8042" bodyend="8047"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a0364c8a7d2c90ad5879fef887ce4116e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRTextureId" kindref="compound">NoDefInit_MRTextureId</ref></type>
+        <definition>unsafe new MR.? NoDefInit_MRTextureId MR.Buffer_MRTextureId_MRTextureId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a0364c8a7d2c90ad5879fef887ce4116e" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8068" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8068" bodyend="8077"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a3a175c0c1b57acb971e58f1e47644d63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Buffer_MRTextureId_MRTextureId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7979" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7979" bodyend="7982"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,134 +195,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5646" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5646" bodyend="5646"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1ae346b1fed8f1cb188f5ba465fe5d5aa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</definition>
-        <argsstring>()</argsstring>
-        <name>Buffer_MRTextureId_MRTextureId</name>
-        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5651" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5651" bodyend="5656"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a53a9f7ba4c82fa39740d22ee222cca25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</definition>
-        <argsstring>(MR._ByValue_Buffer_MRTextureId_MRTextureId _other)</argsstring>
-        <name>Buffer_MRTextureId_MRTextureId</name>
-        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MRTextureId_MRTextureId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5661" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5661" bodyend="5667"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a326690407c621410124cce9f38a3d419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Buffer_MRTextureId_MRTextureId</name>
-        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.Buffer_MRTextureId_MRTextureId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5672" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5672" bodyend="5677"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1af65de09b234204cec5361edf63d09500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Buffer__MRTextureId__MRTextureId" kindref="compound">MR.Buffer_MRTextureId_MRTextureId</ref></type>
-        <definition>unsafe MR.Buffer_MRTextureId_MRTextureId MR.Buffer_MRTextureId_MRTextureId.assign</definition>
-        <argsstring>(MR._ByValue_Buffer_MRTextureId_MRTextureId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MRTextureId_MRTextureId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5682" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5682" bodyend="5689"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1aa00418db9bdbd45f17bb3cbcaf3505a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MRTextureId_MRTextureId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5694" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5694" bodyend="5699"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a98840a44d0132956d474bb2fe4a1e80f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MRTextureId_MRTextureId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5704" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5704" bodyend="5709"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1a0364c8a7d2c90ad5879fef887ce4116e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRTextureId" kindref="compound">NoDefInit_MRTextureId</ref></type>
-        <definition>unsafe new MR.? NoDefInit_MRTextureId MR.Buffer_MRTextureId_MRTextureId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Buffer_MRTextureId_MRTextureId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5730" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5730" bodyend="5739"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7984" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7984" bodyend="7984"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+<para>std::vector&amp;lt;V&amp;gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -184,55 +215,69 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Buffer&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Buffer_MRTextureId_MRTextureId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Buffer_MRTextureId_MRTextureId</label>
         <link refid="classMR_1_1Buffer__MRTextureId__MRTextureId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Buffer_MRTextureId_MRTextureId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Buffer_MRTextureId_MRTextureId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Buffer_MRTextureId_MRTextureId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="5">
+        <label>IEnumerable</label>
       </node>
       <node id="1">
         <label>MR.Buffer_MRTextureId_MRTextureId</label>
         <link refid="classMR_1_1Buffer__MRTextureId__MRTextureId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Buffer_MRTextureId_MRTextureId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Buffer_MRTextureId_MRTextureId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5644" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5645" bodyend="5740"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7918" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7919" bodyend="8078"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1af65de09b234204cec5361edf63d09500" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>assign</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1aa32f2f736235f7c2552d5cee3ebf0776" prot="package" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Buffer_MRTextureId_MRTextureId</name></member>
@@ -241,6 +286,8 @@
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a326690407c621410124cce9f38a3d419" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Buffer_MRTextureId_MRTextureId</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1aa00418db9bdbd45f17bb3cbcaf3505a8" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>clear</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a0364c8a7d2c90ad5879fef887ce4116e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>data</name></member>
+      <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1afcbaf6131a0f41fec6f2ccbac838571b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a3a175c0c1b57acb971e58f1e47644d63" prot="private" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a98840a44d0132956d474bb2fe4a1e80f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>resize</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1acd3c975ad1b88e498870e630e36fb3d1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>this[MR.TextureId i]</name></member>
     </listofallmembers>

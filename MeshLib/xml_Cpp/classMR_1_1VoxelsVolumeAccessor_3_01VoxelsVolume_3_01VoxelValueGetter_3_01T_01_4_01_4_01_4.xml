@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4" kind="class" language="C++" prot="public">
     <compoundname>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</compoundname>
-    <includes refid="MRVoxelsVolumeAccess_8h" local="no">MRVoxelsVolumeAccess.h</includes>
+    <includes refid="MRVoxelsVolumeAccess_8h" local="no">MRVoxels/MRVoxelsVolumeAccess.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -29,7 +29,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="103" bodyend="128"/>
+    <location file="MRVoxels/MRVoxelsVolumeAccess.h" line="102" column="1" bodyfile="MRVoxels/MRVoxelsVolumeAccess.h" bodystart="103" bodyend="128"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae0fa19ac8a58bf4a8d329de67390f554" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>cacheEffective</name></member>
       <member refid="group__GeneralGroup_1gadec5e64aa6367f3c1b92edeaa4d43c3d" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>data_</name></member>

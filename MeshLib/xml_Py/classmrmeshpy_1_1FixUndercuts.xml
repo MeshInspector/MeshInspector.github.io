@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FixUndercuts" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FixUndercuts</compoundname>
     <innerclass refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" prot="public">mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</innerclass>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20873" bodyend="20877"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20930" bodyend="20934"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1ad13d91fb1046c904bacb7d3ffa465bc4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -64,7 +64,7 @@ if metric is set returns metric of found undercuts, otherwise returns DBL_MAX
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20880" bodyend="20884"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20937" bodyend="20941"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1a021c436df054b6c37942739d57dcd51e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -92,7 +92,7 @@ if metric is set returns metric of found undercuts, otherwise returns DBL_MAX
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20887" bodyend="20890"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20944" bodyend="20947"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1a2c82e800d70cbbda1ea96261728adc79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -117,7 +117,7 @@ algorithm is performed in voxel space, so the mesh is completely rebuilt after t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20892" bodyend="20896"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20949" bodyend="20953"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1a9187b3db2399c361689d1261b1b4c893" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams" kindref="compound">func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</ref></type>
@@ -137,7 +137,7 @@ algorithm is performed in voxel space, so the mesh is completely rebuilt after t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20898" bodyend="20901"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20955" bodyend="20958"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1a5681fd075e316639ec95dee58715e21f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams" kindref="compound">func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</ref></type>
@@ -157,7 +157,7 @@ algorithm is performed in voxel space, so the mesh is completely rebuilt after t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20903" bodyend="20906"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20960" bodyend="20963"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1afd042d843922aae7a58e90a156e63fd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -193,7 +193,7 @@ algorithm is performed in voxel space, so the mesh is completely rebuilt after t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20908" bodyend="20919"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20965" bodyend="20976"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1a357471268aa370bc63e74c82147d6656" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -223,7 +223,7 @@ lower resolution means lower precision, but faster work
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20921" bodyend="20926"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20978" bodyend="20983"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -232,7 +232,7 @@ lower resolution means lower precision, but faster work
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20640" bodyend="20926"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20697" bodyend="20983"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FixUndercuts_1aed9e48fa566b559cd5db063cf4a53e53" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts</scope><name>distMapImproveDirection</name></member>
       <member refid="classmrmeshpy_1_1FixUndercuts_1ad13d91fb1046c904bacb7d3ffa465bc4" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts</scope><name>find</name></member>

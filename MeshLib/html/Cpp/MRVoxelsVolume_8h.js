@@ -1,4 +1,4 @@
 var MRVoxelsVolume_8h =
 [
-    [ "functionVolumeToSimpleVolume", "MRVoxelsVolume_8h.html#ga5b17a3df087eb45c2679db67da9c672f", null ]
+    [ "MR::functionVolumeToSimpleVolume", "group__GeneralGroup.html#ga98e1035b952283c216159688c04819fd", null ]
 ];

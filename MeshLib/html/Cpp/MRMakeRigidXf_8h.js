@@ -1,5 +1,5 @@
 var MRMakeRigidXf_8h =
 [
-    [ "makeRigidXf", "MRMakeRigidXf_8h.html#gaf420bd1285dda4239d2ac0fac2eff1f9", null ],
-    [ "makeRigidXf", "MRMakeRigidXf_8h.html#ga433a8d6bdf429a6aeef4abc1a9f05798", null ]
+    [ "MR::makeRigidXf", "group__MathGroup.html#ga9a3e0f5e3441afd311bdaca50e3edf16", null ],
+    [ "MR::makeRigidXf", "group__GeneralGroup.html#gaafcab5cb1e6ba0fb12f08dc9041a1503", null ]
 ];

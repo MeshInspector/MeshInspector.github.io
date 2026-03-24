@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshToVolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshToVolumeParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshToVolumeParams</basecompoundref>
@@ -74,9 +74,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="186" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="187" bodyend="196"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1MeshToVolumeParams_1a725929b6c6e47ddb59b49fa267510037" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.MeshToVolumeParams.cb</definition>
+      <memberdef kind="property" id="classMR_1_1MeshToVolumeParams_1a4a506b9fe551bb02b00c5c3f67755e64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.MeshToVolumeParams.cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
         <qualifiedname>MR.MeshToVolumeParams.cb</qualifiedname>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="198" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="198" bodyend="198"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="198" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="198" bodyend="198"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -179,7 +179,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshToVolumeParams.MeshToVolumeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToVolumeParams_1ae50f914bd319606a2aeec82bba2f9f35" kindref="member">MR.MeshToVolumeParams.MeshToVolumeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -198,7 +198,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshToVolumeParams.MeshToVolumeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToVolumeParams_1ae50f914bd319606a2aeec82bba2f9f35" kindref="member">MR.MeshToVolumeParams.MeshToVolumeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -217,7 +217,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshToVolumeParams.MeshToVolumeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToVolumeParams_1ae50f914bd319606a2aeec82bba2f9f35" kindref="member">MR.MeshToVolumeParams.MeshToVolumeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -236,7 +236,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshToVolumeParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshToVolumeParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -251,51 +251,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshToVolumeParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshToVolumeParams</label>
         <link refid="classMR_1_1MeshToVolumeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshToVolumeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshToVolumeParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshToVolumeParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshToVolumeParams</label>
         <link refid="classMR_1_1MeshToVolumeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshToVolumeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshToVolumeParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="173" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="174" bodyend="282"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshToVolumeParams_1a2c96fbd2294e1ff0e39f56f6313a5fae" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>assign</name></member>
-      <member refid="classMR_1_1MeshToVolumeParams_1a725929b6c6e47ddb59b49fa267510037" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1MeshToVolumeParams_1a4a506b9fe551bb02b00c5c3f67755e64" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>cb</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1af754e7597a122895f53cf4a9f68682c1" prot="package" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1ae50f914bd319606a2aeec82bba2f9f35" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1a284c1bb6cbd251ecaefb0d22b377b8bc" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR__std__array__MR__AffineXf3d__4" kind="struct" language="C++" prot="public">
+    <compoundname>MR_std_array_MR_AffineXf3d_4</compoundname>
+    <includes refid="std__array__MR__AffineXf3d__4_8h" local="no">std_array_MR_AffineXf3d_4.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__std__array__MR__AffineXf3d__4_1a8da4bd68e18f7a6100b66c2445e33270" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
+        <definition>MR_AffineXf3d MR_std_array_MR_AffineXf3d_4::elems[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>elems</name>
+        <qualifiedname>MR_std_array_MR_AffineXf3d_4::elems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_AffineXf3d_4.h" line="13" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_AffineXf3d_4.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A fixed-size array of <computeroutput>MR::AffineXf3d</computeroutput> of size 4. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR_AffineXf3d</label>
+        <link refid="structMR__AffineXf3d"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>A</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR_Matrix3d</label>
+        <link refid="structMR__Matrix3d"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+          <edgelabel>z</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR_Vector3d</label>
+        <link refid="structMR__Vector3d"/>
+      </node>
+      <node id="1">
+        <label>MR_std_array_MR_AffineXf3d_4</label>
+        <link refid="structMR__std__array__MR__AffineXf3d__4"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>elems</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_AffineXf3d_4.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_AffineXf3d_4.h" bodystart="12" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structMR__std__array__MR__AffineXf3d__4_1a8da4bd68e18f7a6100b66c2445e33270" prot="public" virt="non-virtual"><scope>MR_std_array_MR_AffineXf3d_4</scope><name>elems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

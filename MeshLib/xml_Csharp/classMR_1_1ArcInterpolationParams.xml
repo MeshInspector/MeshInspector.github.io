@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ArcInterpolationParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ArcInterpolationParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ArcInterpolationParams</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1604" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1604" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1610" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1610" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ArcInterpolationParams_1a7b08becbaf0a29e247c7f1a0e3741cb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -30,11 +30,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1607" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1607" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1613" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1613" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1ArcInterpolationParams_1a85070e607deb5fe2f48492578342e32a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.ArcInterpolationParams.cb</definition>
+      <memberdef kind="property" id="classMR_1_1ArcInterpolationParams_1a87503d9b19229b126798623351d003d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.ArcInterpolationParams.cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
         <qualifiedname>MR.ArcInterpolationParams.cb</qualifiedname>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1610" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1610" bodyend="1610"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1616" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1616" bodyend="1616"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1629" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1629" bodyend="1633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1635" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1635" bodyend="1639"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1639" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1639" bodyend="1645"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1645" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1645" bodyend="1651"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ArcInterpolationParams_1a789dc798f5e71150410e8bc69e2c1c89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1650" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1650" bodyend="1657"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1656" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1656" bodyend="1663"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ArcInterpolationParams_1a32c635d7b5d9c2b86b73ff4ce528fe0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -125,13 +125,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ArcInterpolationParams.ArcInterpolationParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ArcInterpolationParams_1a32c219d9906b1344bf8ac1d3751a7a87" kindref="member">MR.ArcInterpolationParams.ArcInterpolationParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1662" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1662" bodyend="1669"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1668" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1668" bodyend="1675"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ArcInterpolationParams_1a4b5fb7cfbd1de755fe1414b25090c0ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -144,13 +144,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ArcInterpolationParams.ArcInterpolationParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ArcInterpolationParams_1a32c219d9906b1344bf8ac1d3751a7a87" kindref="member">MR.ArcInterpolationParams.ArcInterpolationParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1674" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1674" bodyend="1674"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1680" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1680" bodyend="1680"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ArcInterpolationParams_1ad06499cf2e874e125456b92cf2d73894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -163,13 +163,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ArcInterpolationParams.ArcInterpolationParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ArcInterpolationParams_1a32c219d9906b1344bf8ac1d3751a7a87" kindref="member">MR.ArcInterpolationParams.ArcInterpolationParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1679" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1679" bodyend="1679"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1685" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1685" bodyend="1685"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ArcInterpolationParams_1ab5feeb59997872df7436810d1425635c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ArcInterpolationParams" kindref="compound">MR.ArcInterpolationParams</ref></type>
@@ -182,13 +182,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ArcInterpolationParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ArcInterpolationParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1684" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1684" bodyend="1691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1690" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1690" bodyend="1697"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -197,48 +197,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ArcInterpolationParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ArcInterpolationParams</label>
         <link refid="classMR_1_1ArcInterpolationParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ArcInterpolationParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ArcInterpolationParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ArcInterpolationParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ArcInterpolationParams</label>
         <link refid="classMR_1_1ArcInterpolationParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ArcInterpolationParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ArcInterpolationParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1601" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1602" bodyend="1692"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1607" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1608" bodyend="1698"/>
     <listofallmembers>
       <member refid="classMR_1_1ArcInterpolationParams_1a56275122fab5c59f96f0776a5665390b" prot="package" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a32c219d9906b1344bf8ac1d3751a7a87" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
@@ -247,7 +247,7 @@
       <member refid="classMR_1_1ArcInterpolationParams_1a4b5fb7cfbd1de755fe1414b25090c0ba" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1ad06499cf2e874e125456b92cf2d73894" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1ab5feeb59997872df7436810d1425635c" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>assign</name></member>
-      <member refid="classMR_1_1ArcInterpolationParams_1a85070e607deb5fe2f48492578342e32a" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1ArcInterpolationParams_1a87503d9b19229b126798623351d003d8" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>cb</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a843a6b500f0606b83fafbe1db975a602" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>eps</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a7b08becbaf0a29e247c7f1a0e3741cb5" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>maxRadius</name></member>
     </listofallmembers>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TbbTaskArenaAndGroup" kind="struct" language="C++" prot="public">
     <compoundname>MR::TbbTaskArenaAndGroup</compoundname>
-    <includes refid="MRTbbTaskArenaAndGroup_8h" local="no">MRTbbTaskArenaAndGroup.h</includes>
+    <includes refid="MRTbbTaskArenaAndGroup_8h" local="no">MRMesh/MRTbbTaskArenaAndGroup.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga24c1257c943adf488e8748f5a05298ee" kind="variable"><name>arena</name></member>
       <member refid="group__GeneralGroup_1ga1f5614244e1fa27e65469e5f0266ec4b" kind="variable"><name>group</name></member>
@@ -16,7 +16,7 @@
     <detaileddescription>
 <para>allows several threads to work on a group of tasks in isolation (in one arena): they cannot steal outside tasks until the all these tasks are finished; this solves the issue of recursive calling of the function where <ref refid="structMR_1_1TbbTaskArenaAndGroup" kindref="compound">TbbTaskArenaAndGroup</ref> was created </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" bodystart="16" bodyend="42"/>
+    <location file="MRMesh/MRTbbTaskArenaAndGroup.h" line="15" column="1" bodyfile="MRMesh/MRTbbTaskArenaAndGroup.h" bodystart="16" bodyend="42"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga24c1257c943adf488e8748f5a05298ee" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>arena</name></member>
       <member refid="group__GeneralGroup_1ga42c69991d5313139fd4a95c3e361a60d" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>execute</name></member>

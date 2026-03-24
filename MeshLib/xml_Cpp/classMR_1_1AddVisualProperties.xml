@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AddVisualProperties" kind="class" language="C++" prot="public">
     <compoundname>MR::AddVisualProperties</compoundname>
     <basecompoundref prot="public" virt="non-virtual">BaseObjectType</basecompoundref>
-    <includes refid="MRAddVisualPropertiesMixin_8h" local="no">MRAddVisualPropertiesMixin.h</includes>
+    <includes refid="MRAddVisualPropertiesMixin_8h" local="no">MRMesh/MRAddVisualPropertiesMixin.h</includes>
     <templateparamlist>
       <param>
         <type>typename BaseObjectType</type>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddVisualPropertiesMixin.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddVisualPropertiesMixin.h" bodystart="17" bodyend="59"/>
+    <location file="MRMesh/MRAddVisualPropertiesMixin.h" line="16" column="1" bodyfile="MRMesh/MRAddVisualPropertiesMixin.h" bodystart="17" bodyend="59"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties</scope><name>getAllVisualizeProperties</name></member>
       <member refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties</scope><name>getVisualizePropertyMask</name></member>

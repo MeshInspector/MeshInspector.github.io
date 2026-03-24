@@ -1,10 +1,6 @@
 var MROffsetVerts_8h =
 [
-    [ "MR_Mesh", "MROffsetVerts_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_std_function_bool_from_float", "MROffsetVerts_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_function_float_from_MR_VertId", "MROffsetVerts_8h.html#ac83010bf4ae4af15d0e13d005e33fce1", null ],
     [ "MR_std_optional_MR_VertCoords", "MROffsetVerts_8h.html#aa15c8fc617d3f9c35203c043e5c8a078", null ],
-    [ "MR_std_optional_MR_VertScalars", "MROffsetVerts_8h.html#aba93fea86ae074ee1b7541e7729dca55", null ],
     [ "MR_ThickenParams", "MROffsetVerts_8h.html#aab9015c36c2d8e2dc6b6e2dd876905a3", null ],
     [ "MR_ZCompensateParams", "MROffsetVerts_8h.html#aba5e4bdfdaae2b4eb0af6f4aec7f933a", null ],
     [ "MR_findZcompensatedPositions", "MROffsetVerts_8h.html#a2259c5c21f451bc573a7fb9a616781f6", null ],

@@ -1,33 +1,99 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRScalarConvert_8h" kind="file" language="C++">
     <compoundname>MRScalarConvert.h</compoundname>
-    <includes local="yes">MRVoxelsFwd.h</includes>
-    <includedby refid="MRVoxelsLoad_8h" local="yes">MRVoxelsLoad.h</includedby>
+    <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
+    <includedby refid="MRVoxelsLoad_8h" local="yes">MRVoxels/MRVoxelsLoad.h</includedby>
     <incdepgraph>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
       <node id="1">
-        <label>MRScalarConvert.h</label>
+        <label>MRVoxels/MRScalarConvert.h</label>
         <link refid="MRScalarConvert_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="1">
-        <label>MRScalarConvert.h</label>
+        <label>MRVoxels/MRScalarConvert.h</label>
         <link refid="MRScalarConvert_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -45,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScalarConvert.h" line="40" column="9"/>
+        <location file="MRVoxels/MRScalarConvert.h" line="40" column="9"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -55,33 +121,33 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRVoxelsFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxelsFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kindref="member">ScalarType</ref></highlight></codeline>
+<codeline lineno="12" refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kindref="member">ScalarType</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a" kindref="member">UInt8</ref>,</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539" kindref="member">Int8</ref>,</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf" kindref="member">UInt16</ref>,</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208" kindref="member">Int16</ref>,</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd" kindref="member">UInt32</ref>,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31" kindref="member">Int32</ref>,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a" kindref="member">UInt64</ref>,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487" kindref="member">Int64</ref>,</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" kindref="member">Float32</ref>,</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" kindref="member">Float64</ref>,</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" kindref="member">Float32_4</ref>,<sp/></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">Unknown</ref>,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a" kindref="member">UInt8</ref>,</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539" kindref="member">Int8</ref>,</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf" kindref="member">UInt16</ref>,</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208" kindref="member">Int16</ref>,</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd" kindref="member">UInt32</ref>,</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31" kindref="member">Int32</ref>,</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a" kindref="member">UInt64</ref>,</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref>,</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" kindref="member">Float32</ref>,</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" kindref="member">Float64</ref>,</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" kindref="member">Float32_4</ref>,<sp/></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">Unknown</ref>,</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1ga2f36bcb1427ce8363c183d6c6be900c0" refkind="member"><highlight class="normal">MRVOXELS_API<sp/>std::function&lt;float<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga2f36bcb1427ce8363c183d6c6be900c0" kindref="member">getTypeConverter</ref>(<sp/><ref refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kindref="member">ScalarType</ref><sp/>scalarType,<sp/>Uint64<sp/>range,<sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487" kindref="member">Int64</ref><sp/>min<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga6fb38ee2f7f333262ea9c3b4a561489e" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>std::function&lt;float<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga6fb38ee2f7f333262ea9c3b4a561489e" kindref="member">getTypeConverter</ref>(<sp/><ref refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kindref="member">ScalarType</ref><sp/>scalarType,<sp/><ref refid="group__GeneralGroup_1ga4d53a06ada7172e8664379b0839b9f98" kindref="member">Uint64</ref><sp/>range,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>min<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
 <codeline lineno="38" refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" refkind="member"><highlight class="normal">std::invoke_result_t&lt;F,<sp/>int&gt;<sp/><ref refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kindref="member">visitScalarType</ref>(<sp/>F&amp;&amp;<sp/>f,<sp/><ref refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kindref="member">ScalarType</ref><sp/>scalarType,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>c<sp/>)</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M(T)<sp/>return<sp/>f(<sp/>*(<sp/>const<sp/>T*<sp/>)(<sp/>c<sp/>)<sp/>);</highlight><highlight class="normal"></highlight></codeline>
@@ -113,15 +179,15 @@
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType::Unknown</ref>:</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">ScalarType::Count</ref>:</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MR_UNREACHABLE</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1aaa2c9e5a899e212852b81dbb084d081c" kindref="member">MR_UNREACHABLE</ref></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>MR_UNREACHABLE</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1aaa2c9e5a899e212852b81dbb084d081c" kindref="member">MR_UNREACHABLE</ref></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>M</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScalarConvert.h"/>
+    <location file="MRVoxels/MRScalarConvert.h"/>
   </compounddef>
 </doxygen>

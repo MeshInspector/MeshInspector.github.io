@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1PointsLoad" kind="namespace" language="C++">
     <compoundname>MR::PointsLoad</compoundname>
     <innerclass refid="structMR_1_1PointsLoad_1_1E57LoadSettings" prot="public">MR::PointsLoad::E57LoadSettings</innerclass>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="246" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="246" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="246" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1PointsLoad_1a0f81139db68679c906d09ff033071478" prot="public" static="no">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;(*)(std::istream &amp;, const <ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref> &amp;)</type>
@@ -32,15 +32,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="247" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="247" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="247" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1ga9b59aa67ceb07a2c286623b602b0df14" kind="function"><name>fromCtm</name></member>
-      <member refid="group__GeneralGroup_1gad0030f09e2896b2052ba028b90a6fbb7" kind="function"><name>fromCtm</name></member>
-      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1ad5e9f8e6672cc948a2e5206a91b2b261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsLoad_1_1NamedCloud" kindref="compound">NamedCloud</ref> &gt; &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; std::vector&lt; NamedCloud &gt; &gt; MR::PointsLoad::fromSceneE57File</definition>
+      <member refid="group__GeneralGroup_1ga8a580b810c0308121d566693f5e196a2" kind="function"><name>fromCtm</name></member>
+      <member refid="group__GeneralGroup_1ga1afe750e0a8c61a6730d43d9b071987f" kind="function"><name>fromCtm</name></member>
+      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a4e26659cfe9947e314c23ec7aed1a859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsLoad_1_1NamedCloud" kindref="compound">NamedCloud</ref> &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; NamedCloud &gt; &gt; MR::PointsLoad::fromSceneE57File</definition>
         <argsstring>(const std::filesystem::path &amp;file, const E57LoadSettings &amp;settings={})</argsstring>
         <name>fromSceneE57File</name>
         <qualifiedname>MR::PointsLoad::fromSceneE57File</qualifiedname>
@@ -59,11 +59,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="41" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" declline="41" declcolumn="25"/>
+        <location file="MRIOExtras/MRE57.h" line="41" column="11" declfile="MRIOExtras/MRE57.h" declline="41" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1abd37d2ce03a3b80ed6007282794d1232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromE57</definition>
+      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a2375d8a5796d1b39ee7f5f90ef0c6649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
+        <definition>Expected&lt; PointCloud &gt; MR::PointsLoad::fromE57</definition>
         <argsstring>(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromE57</name>
         <qualifiedname>MR::PointsLoad::fromE57</qualifiedname>
@@ -83,11 +83,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="45" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" declline="45" declcolumn="25"/>
+        <location file="MRIOExtras/MRE57.h" line="45" column="11" declfile="MRIOExtras/MRE57.h" declline="45" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a017223f665d17204885688a9f3e0d66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromE57</definition>
+      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a74d1bdfae49f008619b4a62372672501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
+        <definition>Expected&lt; PointCloud &gt; MR::PointsLoad::fromE57</definition>
         <argsstring>(std::istream &amp;in, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromE57</name>
         <qualifiedname>MR::PointsLoad::fromE57</qualifiedname>
@@ -106,11 +106,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="47" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" declline="47" declcolumn="25"/>
+        <location file="MRIOExtras/MRE57.h" line="47" column="11" declfile="MRIOExtras/MRE57.h" declline="47" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a0b7a6c4b1858171ee10c0d0af8ebd77b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; LoadedObjects &gt; MR::PointsLoad::loadObjectFromE57</definition>
+      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a01b4e00f4add2695b9e1a518880a315a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;</type>
+        <definition>Expected&lt; LoadedObjects &gt; MR::PointsLoad::loadObjectFromE57</definition>
         <argsstring>(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})</argsstring>
         <name>loadObjectFromE57</name>
         <qualifiedname>MR::PointsLoad::loadObjectFromE57</qualifiedname>
@@ -119,7 +119,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>const ProgressCallback &amp;</type>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -129,30 +129,28 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="49" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" declline="49" declcolumn="25"/>
+        <location file="MRIOExtras/MRE57.h" line="49" column="11" declfile="MRIOExtras/MRE57.h" declline="49" declcolumn="11"/>
       </memberdef>
-      <member refid="group__GeneralGroup_1gab39953df84a0deacd37f047884a37372" kind="function"><name>fromLas</name></member>
-      <member refid="group__GeneralGroup_1gae4cbf7590e7b73675bbbdaa9fb468ac2" kind="function"><name>fromLas</name></member>
-      <member refid="group__IOGroup_1gaff1fcad8c4a57da6a7dc90d9fb1f2a56" kind="function"><name>fromText</name></member>
-      <member refid="group__IOGroup_1gab1a6e8a21cedba988c7ecaea8eda8d2c" kind="function"><name>fromText</name></member>
-      <member refid="group__IOGroup_1ga365add9d0f24601d5f6b167a7401409c" kind="function"><name>fromPts</name></member>
-      <member refid="group__IOGroup_1ga76499883ce907d382fed5d9522aadaa8" kind="function"><name>fromPts</name></member>
-      <member refid="group__IOGroup_1ga64740729d79ac47a437b07ade4cdd263" kind="function"><name>fromPly</name></member>
-      <member refid="group__IOGroup_1gabcb84700ed6a15a625e0033b4b70004b" kind="function"><name>fromPly</name></member>
-      <member refid="group__IOGroup_1ga397a19d78a3050dda279565c1962c330" kind="function"><name>fromObj</name></member>
-      <member refid="group__IOGroup_1gad4657017f48af1fe3829844adc135bf0" kind="function"><name>fromObj</name></member>
-      <member refid="group__IOGroup_1ga20c9e8324f81247ee337a60745ad7c8c" kind="function"><name>fromDxf</name></member>
-      <member refid="group__IOGroup_1ga750d0574c9ee2875720273d1f4c73e62" kind="function"><name>fromDxf</name></member>
-      <member refid="group__IOGroup_1gab0f629849bb97f655fcf29a1b3afd9fa" kind="function"><name>fromAnySupportedFormat</name></member>
-      <member refid="group__IOGroup_1ga9a63511b8cba2da2a8c8373fefc0a384" kind="function"><name>fromAnySupportedFormat</name></member>
-      <member refid="group__IOGroup_1ga7f50d8551f5f8f8aaa9a7175d5f639cc" kind="function"><name>telemetryLogSize</name></member>
+      <member refid="group__GeneralGroup_1ga53e10905b0b0c7883ff7e24d2a59385d" kind="function"><name>fromLas</name></member>
+      <member refid="group__GeneralGroup_1gac78490328f89a7922ecb887a7373da8c" kind="function"><name>fromLas</name></member>
+      <member refid="group__IOGroup_1ga1c3cebd38d164d456af80671f7250fbf" kind="function"><name>fromText</name></member>
+      <member refid="group__IOGroup_1gacc3b6b39e72f9a09af6653f353e66998" kind="function"><name>fromText</name></member>
+      <member refid="group__IOGroup_1ga182f784fd22c46cd583b17466226b26a" kind="function"><name>fromPts</name></member>
+      <member refid="group__IOGroup_1ga756bfbe6cede3121408e2ef95f428411" kind="function"><name>fromPts</name></member>
+      <member refid="group__IOGroup_1ga352bcd3eb201034b3436586ca04f097b" kind="function"><name>fromPly</name></member>
+      <member refid="group__IOGroup_1ga63584572783b16916778f68be00de68b" kind="function"><name>fromPly</name></member>
+      <member refid="group__IOGroup_1ga6b969b26544c7ea1a5d6c27d3f6dce43" kind="function"><name>fromObj</name></member>
+      <member refid="group__IOGroup_1ga80e4f60af0a019706ae5488aa2d1acb2" kind="function"><name>fromObj</name></member>
+      <member refid="group__IOGroup_1ga0bcd39338d08939438531f7d5c9d077d" kind="function"><name>fromDxf</name></member>
+      <member refid="group__IOGroup_1ga72bf2e744527a6f283dc17ddb3f49317" kind="function"><name>fromDxf</name></member>
+      <member refid="group__IOGroup_1ga7ffd96e7cc233f9a5d99dfc3e8bb0edb" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__IOGroup_1gaecd3b7671e06c949d93c808ec95506f7" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__IOGroup_1ga56f3c968fa0da7592fff9bf39304344e" kind="function"><name>telemetryLogSize</name></member>
     </sectiondef>
     <briefdescription>
-<para>namespace <ref refid="namespaceMR_1_1MeshSave" kindref="compound">MeshSave</ref> </para>
     </briefdescription>
     <detaileddescription>
-<para>namespace <ref refid="namespaceMR_1_1LinesSave" kindref="compound">LinesSave</ref> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="58" column="1"/>
+    <location file="MRIOExtras/MRCtm.h" line="58" column="1"/>
   </compounddef>
 </doxygen>

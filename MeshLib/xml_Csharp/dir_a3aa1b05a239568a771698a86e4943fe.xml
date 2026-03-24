@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="dir_a3aa1b05a239568a771698a86e4943fe" kind="dir">
     <compoundname>MRCMesh</compoundname>
     <innerfile refid="MR2DContoursTriangulation_8cs">MR2DContoursTriangulation.cs</innerfile>
@@ -29,6 +29,7 @@
     <innerfile refid="MRBitSet_8cs">MRBitSet.cs</innerfile>
     <innerfile refid="MRBooleanOperation_8cs">MRBooleanOperation.cs</innerfile>
     <innerfile refid="MRBox_8cs">MRBox.cs</innerfile>
+    <innerfile refid="MRBoxNesting_8cs">MRBoxNesting.cs</innerfile>
     <innerfile refid="MRBuffer_8cs">MRBuffer.cs</innerfile>
     <innerfile refid="MRChangeColoringActions_8cs">MRChangeColoringActions.cs</innerfile>
     <innerfile refid="MRChangeColoringType_8cs">MRChangeColoringType.cs</innerfile>
@@ -142,6 +143,7 @@
     <innerfile refid="MRLinesLoad_8cs">MRLinesLoad.cs</innerfile>
     <innerfile refid="MRLinesLoadSettings_8cs">MRLinesLoadSettings.cs</innerfile>
     <innerfile refid="MRLinesSave_8cs">MRLinesSave.cs</innerfile>
+    <innerfile refid="MRLoadedMeshData_8cs">MRLoadedMeshData.cs</innerfile>
     <innerfile refid="MRLoadedObjects_8cs">MRLoadedObjects.cs</innerfile>
     <innerfile refid="MRLocalTriangulations_8cs">MRLocalTriangulations.cs</innerfile>
     <innerfile refid="MRMakePlane_8cs">MRMakePlane.cs</innerfile>
@@ -171,6 +173,7 @@
     <innerfile refid="MRMeshDelone_8cs">MRMeshDelone.cs</innerfile>
     <innerfile refid="MRMeshDiff_8cs">MRMeshDiff.cs</innerfile>
     <innerfile refid="MRMeshDistance_8cs">MRMeshDistance.cs</innerfile>
+    <innerfile refid="MRMeshDivideWithPlane_8cs">MRMeshDivideWithPlane.cs</innerfile>
     <innerfile refid="MRMeshDoubleLayer_8cs">MRMeshDoubleLayer.cs</innerfile>
     <innerfile refid="MRMeshExtrude_8cs">MRMeshExtrude.cs</innerfile>
     <innerfile refid="MRMeshFillHole_8cs">MRMeshFillHole.cs</innerfile>
@@ -188,6 +191,7 @@
     <innerfile refid="MRMeshOrPointsObject_8cs">MRMeshOrPointsObject.cs</innerfile>
     <innerfile refid="MRMeshOverhangs_8cs">MRMeshOverhangs.cs</innerfile>
     <innerfile refid="MRMeshPart_8cs">MRMeshPart.cs</innerfile>
+    <innerfile refid="MRMeshPatch_8cs">MRMeshPatch.cs</innerfile>
     <innerfile refid="MRMeshProject_8cs">MRMeshProject.cs</innerfile>
     <innerfile refid="MRMeshRelax_8cs">MRMeshRelax.cs</innerfile>
     <innerfile refid="MRMeshReplicate_8cs">MRMeshReplicate.cs</innerfile>
@@ -208,6 +212,7 @@
     <innerfile refid="MRMultiwayAligningTransform_8cs">MRMultiwayAligningTransform.cs</innerfile>
     <innerfile refid="MRMultiwayICP_8cs">MRMultiwayICP.cs</innerfile>
     <innerfile refid="MRMutexOwner_8cs">MRMutexOwner.cs</innerfile>
+    <innerfile refid="MRNestingStructures_8cs">MRNestingStructures.cs</innerfile>
     <innerfile refid="MRNoDefInit_8cs">MRNoDefInit.cs</innerfile>
     <innerfile refid="MRNormalDenoising_8cs">MRNormalDenoising.cs</innerfile>
     <innerfile refid="MRNormalsToPoints_8cs">MRNormalsToPoints.cs</innerfile>
@@ -316,7 +321,6 @@
     <innerfile refid="MRSolidOfRevolution_8cs">MRSolidOfRevolution.cs</innerfile>
     <innerfile refid="MRSphere_8cs">MRSphere.cs</innerfile>
     <innerfile refid="MRSphereObject_8cs">MRSphereObject.cs</innerfile>
-    <innerfile refid="MRStacktrace_8cs">MRStacktrace.cs</innerfile>
     <innerfile refid="MRString_8cs">MRString.cs</innerfile>
     <innerfile refid="MRStringConvert_8cs">MRStringConvert.cs</innerfile>
     <innerfile refid="MRSubfeatures_8cs">MRSubfeatures.cs</innerfile>
@@ -342,6 +346,7 @@
     <innerfile refid="MRTripleFaceIntersections_8cs">MRTripleFaceIntersections.cs</innerfile>
     <innerfile refid="MRTriPoint_8cs">MRTriPoint.cs</innerfile>
     <innerfile refid="MRTunnelDetector_8cs">MRTunnelDetector.cs</innerfile>
+    <innerfile refid="MRTwoLineSegmDist_8cs">MRTwoLineSegmDist.cs</innerfile>
     <innerfile refid="MRUniformSampling_8cs">MRUniformSampling.cs</innerfile>
     <innerfile refid="MRUnionFind_8cs">MRUnionFind.cs</innerfile>
     <innerfile refid="MRUniqueTemporaryFolder_8cs">MRUniqueTemporaryFolder.cs</innerfile>
@@ -353,6 +358,7 @@
     <innerfile refid="MRVector2_8cs">MRVector2.cs</innerfile>
     <innerfile refid="MRVector3_8cs">MRVector3.cs</innerfile>
     <innerfile refid="MRVector4_8cs">MRVector4.cs</innerfile>
+    <innerfile refid="MRVersatileChangeMeshAction_8cs">MRVersatileChangeMeshAction.cs</innerfile>
     <innerfile refid="MRVertCoordsDiff_8cs">MRVertCoordsDiff.cs</innerfile>
     <innerfile refid="MRViewportId_8cs">MRViewportId.cs</innerfile>
     <innerfile refid="MRViewportProperty_8cs">MRViewportProperty.cs</innerfile>

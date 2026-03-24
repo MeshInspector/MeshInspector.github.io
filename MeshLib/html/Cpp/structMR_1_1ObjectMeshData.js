@@ -1,7 +1,7 @@
 var structMR_1_1ObjectMeshData =
 [
-    [ "clone", "group__GeneralGroup.html#gae2138d0f4aa888b995a052230ca48a40", null ],
-    [ "heapBytes", "group__GeneralGroup.html#ga479a0806f9e83ea1a7a1ad5aa4bc28cd", null ],
+    [ "clone", "group__GeneralGroup.html#gae12896dbfb3b9f1cbea264c478768f85", null ],
+    [ "heapBytes", "group__GeneralGroup.html#ga5f3fabf962173f318cdc109b9768b8a2", null ],
     [ "creases", "group__GeneralGroup.html#ga3a3a9e8e30929bf38302f1e9c6176c35", null ],
     [ "faceColors", "group__GeneralGroup.html#ga25ec108c32cc11b19a998c2aab325055", null ],
     [ "mesh", "group__GeneralGroup.html#gab37aa2308b1d163cba441684f134762a", null ],

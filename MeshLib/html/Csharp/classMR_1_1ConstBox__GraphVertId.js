@@ -5,6 +5,7 @@ var classMR_1_1ConstBox__GraphVertId =
     [ "ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html#af352f1c5155e5b07b96f7e792f5294e9", null ],
     [ "ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html#a26423d1b4d91bc08b3ca79ab5b6505da", null ],
     [ "ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html#ab1ee6c1e6dde576dba638d3e7ba93642", null ],
+    [ "ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html#aa9e4f5411db471af13497630d0f221b1", null ],
     [ "Dispose", "classMR_1_1ConstBox__GraphVertId.html#a8ea342160c81d171a0b820006f33f9f9", null ],
     [ "Dispose", "classMR_1_1ConstBox__GraphVertId.html#a8851dba988f9f28f7863faf964d3d33b", null ],
     [ "Equals", "classMR_1_1ConstBox__GraphVertId.html#abfc2901043c2726f4ec4b8aebb042c4a", null ],

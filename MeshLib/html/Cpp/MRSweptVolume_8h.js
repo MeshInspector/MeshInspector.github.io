@@ -1,8 +1,8 @@
 var MRSweptVolume_8h =
 [
-    [ "computeGridBox", "MRSweptVolume_8h.html#gaf590a2721f4796524975bc0be4f8d2d0", null ],
-    [ "computeSweptVolumeWithCustomToolDistance", "MRSweptVolume_8h.html#gaa91ec60e342e62e88f740e7fab22eaf0", null ],
-    [ "computeSweptVolumeWithDistanceVolume", "MRSweptVolume_8h.html#gaff37dc7dc71521d21f88feca9dec28ee", null ],
-    [ "computeSweptVolumeWithMeshMovement", "MRSweptVolume_8h.html#gab7de93f663b2025ec247f2e5fffede03", null ],
-    [ "computeWorkArea", "MRSweptVolume_8h.html#ga7f080f919e3c7334a412f19631c396fe", null ]
+    [ "MR::computeGridBox", "group__GeneralGroup.html#gad430aa6bda176d93601f5ae0e30b39a2", null ],
+    [ "MR::computeSweptVolumeWithCustomToolDistance", "group__GeneralGroup.html#gaa1659b82dc99e8c5f412e35c7a94b4d7", null ],
+    [ "MR::computeSweptVolumeWithDistanceVolume", "group__GeneralGroup.html#ga2f14cbbe32f9cd74502e01f1f2e40173", null ],
+    [ "MR::computeSweptVolumeWithMeshMovement", "group__GeneralGroup.html#gac72b9b05041cc9229cb46ef3216d254f", null ],
+    [ "MR::computeWorkArea", "group__GeneralGroup.html#ga1df5256f57ba20b4fa8abc68edfd2021", null ]
 ];

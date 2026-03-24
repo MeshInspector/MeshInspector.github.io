@@ -1,6 +1,5 @@
 var MRVDBFloatGrid_8h =
 [
-    [ "MR_OpenVdbFloatGrid", "MRVDBFloatGrid_8h.html#aac20c639173df481ee73c6586269c72f", null ],
     [ "MR_OpenVdbFloatGrid_ConstructFromAnother", "MRVDBFloatGrid_8h.html#a0b4cfdf219bf2904fe4c92c815392b5a", null ],
     [ "MR_OpenVdbFloatGrid_DefaultConstruct", "MRVDBFloatGrid_8h.html#a7ca51fc2db8e0d7b97688a91667084bd", null ],
     [ "MR_OpenVdbFloatGrid_DefaultConstructArray", "MRVDBFloatGrid_8h.html#a56ec1c61e372f2303be7f7972a85f62e", null ],

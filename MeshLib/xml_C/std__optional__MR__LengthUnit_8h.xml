@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__optional__MR__LengthUnit_8h" kind="file" language="C++">
+    <compoundname>std_optional_MR_LengthUnit.h</compoundname>
+    <includes refid="MRUnitInfo_8h" local="no">MRCMesh/MRUnitInfo.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRUnitInfo.h</label>
+        <link refid="MRUnitInfo_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_optional_MR_LengthUnit.h</label>
+        <link refid="std__optional__MR__LengthUnit_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1ab7c5552f93715db11380dcc6139ba1c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_LengthUnit * MR_std_optional_MR_LengthUnit_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__LengthUnit_8h_1ad6d4cc43cdc5ffd8adc7846524ffb1c2" kindref="member">MR_std_optional_MR_LengthUnit_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="20" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="20" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1a5ffb5b84dc8ce69d7c8f16f35c757ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_LengthUnit * MR_std_optional_MR_LengthUnit_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__optional__MR__LengthUnit_8h_1a342436b77432e4547ec54a9e42b34f2c" kindref="member">MR_std_optional_MR_LengthUnit_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__optional__MR__LengthUnit_8h_1ac2366137afde042dea3313ea0a9caae7" kindref="member">MR_std_optional_MR_LengthUnit_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__optional__MR__LengthUnit_8h_1afa77aa92570912e78d3850c522f2b130" kindref="member">MR_std_optional_MR_LengthUnit_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="25" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="25" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1aff1d37af1bb45ea5aab6c461c16eddcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_LengthUnit * MR_std_optional_MR_LengthUnit_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_optional_MR_LengthUnit *other)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__LengthUnit_8h_1ad6d4cc43cdc5ffd8adc7846524ffb1c2" kindref="member">MR_std_optional_MR_LengthUnit_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="32" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="32" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1a3d63656f293aa87ee1518b8aedd43ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_LengthUnit * MR_std_optional_MR_LengthUnit_ConstructFrom</definition>
+        <argsstring>(const MR_LengthUnit *other)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new instance. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass a null pointer. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__LengthUnit_8h_1ad6d4cc43cdc5ffd8adc7846524ffb1c2" kindref="member">MR_std_optional_MR_LengthUnit_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="37" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="37" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1a5f73baea8e3e1c4d36801ba2319ac7e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_LengthUnit_AssignFromAnother</definition>
+        <argsstring>(MR_std_optional_MR_LengthUnit *_this, const MR_std_optional_MR_LengthUnit *other)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1aaa5a0a2d3281cbb971928139ea47a7d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_LengthUnit_AssignFrom</definition>
+        <argsstring>(MR_std_optional_MR_LengthUnit *_this, const MR_LengthUnit *other)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_AssignFrom</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass a null pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1ad6d4cc43cdc5ffd8adc7846524ffb1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_LengthUnit_Destroy</definition>
+        <argsstring>(const MR_std_optional_MR_LengthUnit *_this)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_Destroy</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1a342436b77432e4547ec54a9e42b34f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_LengthUnit_DestroyArray</definition>
+        <argsstring>(const MR_std_optional_MR_LengthUnit *_this)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="55" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1afa77aa92570912e78d3850c522f2b130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_LengthUnit * MR_std_optional_MR_LengthUnit_OffsetPtr</definition>
+        <argsstring>(const MR_std_optional_MR_LengthUnit *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="59" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="59" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1ac2366137afde042dea3313ea0a9caae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_LengthUnit * MR_std_optional_MR_LengthUnit_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_optional_MR_LengthUnit *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="63" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="63" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1abf90e7b2f3ea42ec766bd8e81ee70801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_optional_MR_LengthUnit_has_value</definition>
+        <argsstring>(const MR_std_optional_MR_LengthUnit *_this)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_has_value</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores an object, as opposed to being empty. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1a6576a30a439519ca8154bcfb1d0710cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+        <definition>MRC_API const MR_LengthUnit * MR_std_optional_MR_LengthUnit_value</definition>
+        <argsstring>(const MR_std_optional_MR_LengthUnit *_this)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_value</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="72" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="72" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__LengthUnit_8h_1ab2e873a3292d05f950f83cf8c746af95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_LengthUnit * MR_std_optional_MR_LengthUnit_value_mut</definition>
+        <argsstring>(MR_std_optional_MR_LengthUnit *_this)</argsstring>
+        <name>MR_std_optional_MR_LengthUnit_value_mut</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" line="77" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h" declline="77" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRUnitInfo_8h" kindref="compound">MRCMesh/MRUnitInfo.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__optional__MR__LengthUnit_8h_1ab7c5552f93715db11380dcc6139ba1c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="std__optional__MR__LengthUnit_8h_1ab7c5552f93715db11380dcc6139ba1c0" kindref="member">MR_std_optional_MR_LengthUnit_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="std__optional__MR__LengthUnit_8h_1a5ffb5b84dc8ce69d7c8f16f35c757ac0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="std__optional__MR__LengthUnit_8h_1a5ffb5b84dc8ce69d7c8f16f35c757ac0" kindref="member">MR_std_optional_MR_LengthUnit_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="std__optional__MR__LengthUnit_8h_1aff1d37af1bb45ea5aab6c461c16eddcb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="std__optional__MR__LengthUnit_8h_1aff1d37af1bb45ea5aab6c461c16eddcb" kindref="member">MR_std_optional_MR_LengthUnit_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="std__optional__MR__LengthUnit_8h_1a3d63656f293aa87ee1518b8aedd43ab3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="std__optional__MR__LengthUnit_8h_1a3d63656f293aa87ee1518b8aedd43ab3" kindref="member">MR_std_optional_MR_LengthUnit_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__optional__MR__LengthUnit_8h_1a5f73baea8e3e1c4d36801ba2319ac7e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__LengthUnit_8h_1a5f73baea8e3e1c4d36801ba2319ac7e1" kindref="member">MR_std_optional_MR_LengthUnit_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__optional__MR__LengthUnit_8h_1aaa5a0a2d3281cbb971928139ea47a7d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__LengthUnit_8h_1aaa5a0a2d3281cbb971928139ea47a7d5" kindref="member">MR_std_optional_MR_LengthUnit_AssignFrom</ref>(<ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__optional__MR__LengthUnit_8h_1ad6d4cc43cdc5ffd8adc7846524ffb1c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__LengthUnit_8h_1ad6d4cc43cdc5ffd8adc7846524ffb1c2" kindref="member">MR_std_optional_MR_LengthUnit_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__optional__MR__LengthUnit_8h_1a342436b77432e4547ec54a9e42b34f2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__LengthUnit_8h_1a342436b77432e4547ec54a9e42b34f2c" kindref="member">MR_std_optional_MR_LengthUnit_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__optional__MR__LengthUnit_8h_1afa77aa92570912e78d3850c522f2b130" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="std__optional__MR__LengthUnit_8h_1afa77aa92570912e78d3850c522f2b130" kindref="member">MR_std_optional_MR_LengthUnit_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__optional__MR__LengthUnit_8h_1ac2366137afde042dea3313ea0a9caae7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="std__optional__MR__LengthUnit_8h_1ac2366137afde042dea3313ea0a9caae7" kindref="member">MR_std_optional_MR_LengthUnit_OffsetMutablePtr</ref>(<ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__optional__MR__LengthUnit_8h_1abf90e7b2f3ea42ec766bd8e81ee70801" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__LengthUnit_8h_1abf90e7b2f3ea42ec766bd8e81ee70801" kindref="member">MR_std_optional_MR_LengthUnit_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__optional__MR__LengthUnit_8h_1a6576a30a439519ca8154bcfb1d0710cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*<ref refid="std__optional__MR__LengthUnit_8h_1a6576a30a439519ca8154bcfb1d0710cf" kindref="member">MR_std_optional_MR_LengthUnit_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__optional__MR__LengthUnit_8h_1ab2e873a3292d05f950f83cf8c746af95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*<ref refid="std__optional__MR__LengthUnit_8h_1ab2e873a3292d05f950f83cf8c746af95" kindref="member">MR_std_optional_MR_LengthUnit_value_mut</ref>(<ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_LengthUnit.h"/>
+  </compounddef>
+</doxygen>

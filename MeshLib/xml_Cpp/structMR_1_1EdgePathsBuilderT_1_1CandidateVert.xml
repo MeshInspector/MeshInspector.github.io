@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1EdgePathsBuilderT_1_1CandidateVert" kind="struct" language="C++" prot="private">
     <compoundname>MR::EdgePathsBuilderT::CandidateVert</compoundname>
     <sectiondef kind="public-attrib">
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="106" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="107" bodyend="117"/>
+    <location file="MRMesh/MREdgePathsBuilder.h" line="106" column="5" bodyfile="MRMesh/MREdgePathsBuilder.h" bodystart="107" bodyend="117"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2479fd18962eebc79164a5a5485a0c31" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::CandidateVert</scope><name>operator&lt;</name></member>
       <member refid="group__GeneralGroup_1gae535b54cf5106417da209d0f0dbcc42a" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::CandidateVert</scope><name>penalty</name></member>

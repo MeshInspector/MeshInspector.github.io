@@ -1,4 +1,4 @@
 var MRVisualSubfeatures_8h =
 [
-    [ "forEachVisualSubfeature", "MRVisualSubfeatures_8h.html#a5d8f9dc8288a74b574ebe08113e9f6cf", null ]
+    [ "MR::Features::forEachVisualSubfeature", "namespaceMR_1_1Features.html#a91acadf34447ca8b79061efb805693dc", null ]
 ];

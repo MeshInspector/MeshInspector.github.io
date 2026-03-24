@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__const__MR__VertId__MR__VertPathInfo_8h" kind="file" language="C++">
+    <compoundname>std_pair_const_MR_VertId_MR_VertPathInfo.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_const_MR_VertId_MR_VertPathInfo.h</label>
+        <link refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1abdc2d2e7ac459e8c4906d0b19495a08f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_VertPathInfo * MR_std_pair_const_MR_VertId_MR_VertPathInfo_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af5dbaad9a1da5e9b0d7c72de93367599" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="21" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="21" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af3ae5f8cff3f01a6b4de1fffd9476f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_VertPathInfo * MR_std_pair_const_MR_VertId_MR_VertPathInfo_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a92af50701af6fa2878a8b1e591bf95e3" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1ac2d44bb5046202a3bdc1c7bc7909cd2b" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a82f360ae809a24b11bd704cd8d8c4172" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="26" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="26" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1aaa8a824d9854dd831842522fbd3019ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_VertPathInfo * MR_std_pair_const_MR_VertId_MR_VertPathInfo_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_VertPathInfo *other)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af5dbaad9a1da5e9b0d7c72de93367599" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="33" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="33" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af5dbaad9a1da5e9b0d7c72de93367599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_const_MR_VertId_MR_VertPathInfo_Destroy</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_VertPathInfo *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_Destroy</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="36" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a92af50701af6fa2878a8b1e591bf95e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_const_MR_VertId_MR_VertPathInfo_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_VertPathInfo *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_DestroyArray</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="39" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="39" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a82f360ae809a24b11bd704cd8d8c4172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+        <definition>MRC_API const MR_std_pair_const_MR_VertId_MR_VertPathInfo * MR_std_pair_const_MR_VertId_MR_VertPathInfo_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_VertPathInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="43" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="43" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1ac2d44bb5046202a3bdc1c7bc7909cd2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_VertPathInfo * MR_std_pair_const_MR_VertId_MR_VertPathInfo_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_const_MR_VertId_MR_VertPathInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="47" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="47" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a4374ac2fea20bf9921c590028e690a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_VertId_MR_VertPathInfo * MR_std_pair_const_MR_VertId_MR_VertPathInfo_Construct</definition>
+        <argsstring>(MR_VertId first, const MR_VertPathInfo *second)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_Construct</name>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref> *</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>second</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>second</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af5dbaad9a1da5e9b0d7c72de93367599" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="55" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="55" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af06d533988c7b855f649e9e2e3adbb20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <definition>MRC_API const MR_VertId * MR_std_pair_const_MR_VertId_MR_VertPathInfo_first</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_VertPathInfo *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_first</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="61" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="61" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1adac4f2afcdd2cd765bf237f4e6362bb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref> *</type>
+        <definition>MRC_API const MR_VertPathInfo * MR_std_pair_const_MR_VertId_MR_VertPathInfo_second</definition>
+        <argsstring>(const MR_std_pair_const_MR_VertId_MR_VertPathInfo *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_second</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="67" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="67" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a2b9ee1242237793ff41015b6170fa5f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref> *</type>
+        <definition>MRC_API MR_VertPathInfo * MR_std_pair_const_MR_VertId_MR_VertPathInfo_second_mut</definition>
+        <argsstring>(MR_std_pair_const_MR_VertId_MR_VertPathInfo *_this)</argsstring>
+        <name>MR_std_pair_const_MR_VertId_MR_VertPathInfo_second_mut</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" line="73" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h" declline="73" declcolumn="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREdgePathsBuilder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1abdc2d2e7ac459e8c4906d0b19495a08f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1abdc2d2e7ac459e8c4906d0b19495a08f" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af3ae5f8cff3f01a6b4de1fffd9476f13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af3ae5f8cff3f01a6b4de1fffd9476f13" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1aaa8a824d9854dd831842522fbd3019ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1aaa8a824d9854dd831842522fbd3019ec" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af5dbaad9a1da5e9b0d7c72de93367599" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af5dbaad9a1da5e9b0d7c72de93367599" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a92af50701af6fa2878a8b1e591bf95e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a92af50701af6fa2878a8b1e591bf95e3" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a82f360ae809a24b11bd704cd8d8c4172" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a82f360ae809a24b11bd704cd8d8c4172" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1ac2d44bb5046202a3bdc1c7bc7909cd2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1ac2d44bb5046202a3bdc1c7bc7909cd2b" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_OffsetMutablePtr</ref>(<ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a4374ac2fea20bf9921c590028e690a16" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a4374ac2fea20bf9921c590028e690a16" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_Construct</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>first,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*second);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af06d533988c7b855f649e9e2e3adbb20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1af06d533988c7b855f649e9e2e3adbb20" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1adac4f2afcdd2cd765bf237f4e6362bb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1adac4f2afcdd2cd765bf237f4e6362bb8" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a2b9ee1242237793ff41015b6170fa5f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*<ref refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h_1a2b9ee1242237793ff41015b6170fa5f6" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo_second_mut</ref>(<ref refid="phmap__flat__hash__map__MR__VertId__MR__VertPathInfo_8h_1ab10b0caa22388b126a97c9d4a3088940" kindref="member">MR_std_pair_const_MR_VertId_MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_MR_VertId_MR_VertPathInfo.h"/>
+  </compounddef>
+</doxygen>

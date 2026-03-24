@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PalettePresets" kind="class" language="C++" prot="public">
     <compoundname>MR::PalettePresets</compoundname>
-    <includes refid="MRPalette_8h" local="no">MRPalette.h</includes>
+    <includes refid="MRPalette_8h" local="no">MRViewer/MRPalette.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga1b79582928a957d51ade1340dd12000e" kind="variable"><name>names_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gafae0db05776d515b613b0c2f061a58c0" kind="function"><name>getPresetNames</name></member>
-      <member refid="group__GeneralGroup_1gabfc0b877261efaf989795949936003df" kind="function"><name>loadPreset</name></member>
-      <member refid="group__GeneralGroup_1ga02b40d3f15eb662ef912dad09bbb89d9" kind="function"><name>savePreset</name></member>
-      <member refid="group__GeneralGroup_1ga1899de3b88880fc1b289748cc336be04" kind="function"><name>getPalettePresetsFolder</name></member>
+      <member refid="group__GeneralGroup_1ga8f089b137d9e85696729847a1407d759" kind="function"><name>getPresetNames</name></member>
+      <member refid="group__GeneralGroup_1ga07da41b0ff0423c53d18bd5ca2a2c0b7" kind="function"><name>loadPreset</name></member>
+      <member refid="group__GeneralGroup_1ga95c876104f000d2cb596f8ae8eded7cf" kind="function"><name>savePreset</name></member>
+      <member refid="group__GeneralGroup_1ga96ad4bb41ba9bbf53813546896f9ed21" kind="function"><name>getPalettePresetsFolder</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gab26c277b04777aa3f45a35551f06ba01" kind="function"><name>PalettePresets</name></member>
@@ -25,15 +25,15 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="320" bodyend="340"/>
+    <location file="MRViewer/MRPalette.h" line="319" column="1" bodyfile="MRViewer/MRPalette.h" bodystart="320" bodyend="340"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga1899de3b88880fc1b289748cc336be04" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>getPalettePresetsFolder</name></member>
-      <member refid="group__GeneralGroup_1gafae0db05776d515b613b0c2f061a58c0" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>getPresetNames</name></member>
+      <member refid="group__GeneralGroup_1ga96ad4bb41ba9bbf53813546896f9ed21" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>getPalettePresetsFolder</name></member>
+      <member refid="group__GeneralGroup_1ga8f089b137d9e85696729847a1407d759" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>getPresetNames</name></member>
       <member refid="group__GeneralGroup_1gaeba4b9c3a1b35dd6dfaf516e29ffefd1" prot="private" virt="non-virtual"><scope>MR::PalettePresets</scope><name>instance_</name></member>
-      <member refid="group__GeneralGroup_1gabfc0b877261efaf989795949936003df" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>loadPreset</name></member>
+      <member refid="group__GeneralGroup_1ga07da41b0ff0423c53d18bd5ca2a2c0b7" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>loadPreset</name></member>
       <member refid="group__GeneralGroup_1ga1b79582928a957d51ade1340dd12000e" prot="private" virt="non-virtual"><scope>MR::PalettePresets</scope><name>names_</name></member>
       <member refid="group__GeneralGroup_1gab26c277b04777aa3f45a35551f06ba01" prot="private" virt="non-virtual"><scope>MR::PalettePresets</scope><name>PalettePresets</name></member>
-      <member refid="group__GeneralGroup_1ga02b40d3f15eb662ef912dad09bbb89d9" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>savePreset</name></member>
+      <member refid="group__GeneralGroup_1ga95c876104f000d2cb596f8ae8eded7cf" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>savePreset</name></member>
       <member refid="group__GeneralGroup_1gae16416acec604fdbd175b7f6483fd15f" prot="private" virt="non-virtual"><scope>MR::PalettePresets</scope><name>update_</name></member>
       <member refid="group__GeneralGroup_1ga1396343d9b8f713fbe95802e4b0431ca" prot="private" virt="non-virtual"><scope>MR::PalettePresets</scope><name>~PalettePresets</name></member>
     </listofallmembers>

@@ -1,25 +1,10 @@
 var MRVDBConversions_8h =
 [
-    [ "MR_Box3i", "MRVDBConversions_8h.html#aef38c2356795f5ec9c47c717985eda63", null ],
     [ "MR_DoubleOffsetSettings", "MRVDBConversions_8h.html#ad8e8df3c0304301ee9d2cc35af635819", null ],
-    [ "MR_expected_MR_Mesh_std_string", "MRVDBConversions_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_expected_MR_SimpleVolumeMinMax_std_string", "MRVDBConversions_8h.html#aa92b66a9548e8504eac52319ee60536a", null ],
-    [ "MR_expected_MR_SimpleVolumeMinMaxU16_std_string", "MRVDBConversions_8h.html#a549b28f89035b62cf18669e0902d60d0", null ],
-    [ "MR_expected_MR_VdbVolume_std_string", "MRVDBConversions_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1", null ],
-    [ "MR_expected_void_std_string", "MRVDBConversions_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_FloatGrid", "MRVDBConversions_8h.html#abc899d5a6475d6b9c15b9ccd231431b3", null ],
-    [ "MR_FunctionVolume", "MRVDBConversions_8h.html#ab294732b2988d23c13fd8799dc19a43a", null ],
     [ "MR_GridToMeshSettings", "MRVDBConversions_8h.html#a8891df202a8efc9e07dba59c3e8e71b8", null ],
     [ "MR_MakeSignedByWindingNumberSettings", "MRVDBConversions_8h.html#ab509f8f9285fcbabf0029563c6e5a754", null ],
-    [ "MR_Mesh", "MRVDBConversions_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRVDBConversions_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_MeshToVolumeParams", "MRVDBConversions_8h.html#a5380e0c3df890d82f6c17396ab7108cd", null ],
     [ "MR_MeshToVolumeParams_Type", "MRVDBConversions_8h.html#a85de000e3b94f18ece90650c7cb332d1", null ],
-    [ "MR_SimpleVolume", "MRVDBConversions_8h.html#a9eebc3ffb6c9528989e38a2930f391cf", null ],
-    [ "MR_SimpleVolumeMinMax", "MRVDBConversions_8h.html#a8926b75bb2beb7a906aef87b4867fe03", null ],
-    [ "MR_std_function_bool_from_float", "MRVDBConversions_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_shared_ptr_MR_IFastWindingNumber", "MRVDBConversions_8h.html#a264b5271a8409b6f782f8649cf34c164", null ],
-    [ "MR_VdbVolume", "MRVDBConversions_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
     [ "MR_MeshToVolumeParams_Type", "MRVDBConversions_8h.html#ae87247918d15904ca0ccbe8733533d30", [
       [ "MR_MeshToVolumeParams_Type_Signed", "MRVDBConversions_8h.html#ae87247918d15904ca0ccbe8733533d30adb2e41c7984fb955fd5dea97a1c6ac36", null ],
       [ "MR_MeshToVolumeParams_Type_Unsigned", "MRVDBConversions_8h.html#ae87247918d15904ca0ccbe8733533d30afe178a033d57aaaee4152205b93f446c", null ]

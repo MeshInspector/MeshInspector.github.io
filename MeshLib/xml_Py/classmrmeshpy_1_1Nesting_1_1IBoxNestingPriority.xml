@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Nesting::IBoxNestingPriority</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1ad46508453237747594d04d6ab7cf4536" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority" kindref="compound">Nesting.IBoxNestingPriority</ref></type>
+        <definition> Nesting.IBoxNestingPriority mrmeshpy.Nesting.IBoxNestingPriority.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Nesting.IBoxNestingPriority.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37310" bodyend="37311"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1a71ff37a799ce1b44bde9aaf391d8b463" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.IBoxNestingPriority.addNested</definition>
+        <argsstring>(self, Box3f box)</argsstring>
+        <name>addNested</name>
+        <qualifiedname>mrmeshpy.Nesting.IBoxNestingPriority.addNested</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>accumulate priority by one of already nested boxes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37312" bodyend="37315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1a95b69f404529b26193f320c675985cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Nesting.IBoxNestingPriority.complete</definition>
+        <argsstring>(self)</argsstring>
+        <name>complete</name>
+        <qualifiedname>mrmeshpy.Nesting.IBoxNestingPriority.complete</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finalize priority and return the value (more - better)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37316" bodyend="37319"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1ab6feb4fcd9d88f96001f1df5b094a450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.IBoxNestingPriority.init</definition>
+        <argsstring>(self, Box3f thisBox)</argsstring>
+        <name>init</name>
+        <qualifiedname>mrmeshpy.Nesting.IBoxNestingPriority.init</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+          <declname>thisBox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>init priority calculation with box of placed object 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37320" bodyend="37324"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Nesting::IBoxNestingPriority
+
+class to override box nesting metrics
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37303" bodyend="37323"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1a71ff37a799ce1b44bde9aaf391d8b463" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::IBoxNestingPriority</scope><name>addNested</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1a95b69f404529b26193f320c675985cf9" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::IBoxNestingPriority</scope><name>complete</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1ab6feb4fcd9d88f96001f1df5b094a450" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::IBoxNestingPriority</scope><name>init</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1ad46508453237747594d04d6ab7cf4536" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::IBoxNestingPriority</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

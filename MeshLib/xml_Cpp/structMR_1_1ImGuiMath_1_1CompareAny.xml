@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMath_1_1CompareAny" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMath::CompareAny</compoundname>
     <basecompoundref refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper" prot="public" virt="non-virtual">MR::ImGuiMath::BasicVectorCompareHelper&lt; CompareAll&lt; A &gt;, A, false &gt;</basecompoundref>
-    <includes refid="MRImGuiVectorOperators_8h" local="no">MRImGuiVectorOperators.h</includes>
+    <includes refid="MRImGuiVectorOperators_8h" local="no">MRViewer/MRImGuiVectorOperators.h</includes>
     <templateparamlist>
       <param>
         <type>detail::VectorOrScalar</type>
@@ -45,7 +45,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="188" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="189" bodyend="191"/>
+    <location file="MRViewer/MRImGuiVectorOperators.h" line="188" column="5" bodyfile="MRViewer/MRImGuiVectorOperators.h" bodystart="189" bodyend="191"/>
     <listofallmembers>
       <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1abdaba674868a5f1afc3921361820ff63" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAny</scope><name>BasicVectorCompareHelper</name></member>
       <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1a45f2a7a4631ecb502475eeddcf0947e8" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAny</scope><name>compare</name></member>

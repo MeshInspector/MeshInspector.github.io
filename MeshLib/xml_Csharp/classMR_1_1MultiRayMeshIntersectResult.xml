@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MultiRayMeshIntersectResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MultiRayMeshIntersectResult</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MultiRayMeshIntersectResult</basecompoundref>
@@ -11,14 +11,13 @@
         <name>intersectingRays</name>
         <qualifiedname>MR.MultiRayMeshIntersectResult.intersectingRays</qualifiedname>
         <briefdescription>
-<para>&lt; true if the ray has intersection with mesh part, false otherwise </para>
+<para>true if the ray has intersection with mesh part, false otherwise </para>
         </briefdescription>
         <detaileddescription>
-<para>distance along each ray till the intersection point or NaN if no intersection </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="464" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="465" bodyend="474"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="488" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="489" bodyend="498"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MultiRayMeshIntersectResult_1acc8d1677b570543589d2fe42e4eaf6da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_Float</type>
@@ -27,13 +26,13 @@
         <name>rayDistances</name>
         <qualifiedname>MR.MultiRayMeshIntersectResult.rayDistances</qualifiedname>
         <briefdescription>
-<para>intersected triangles from mesh </para>
+<para>distance along each ray till the intersection point or NaN if no intersection </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="477" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="478" bodyend="487"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="503" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="504" bodyend="513"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MultiRayMeshIntersectResult_1a7cb70fc3acd1f293810ea45c04c2255d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_MRFaceId</type>
@@ -42,13 +41,13 @@
         <name>isectFaces</name>
         <qualifiedname>MR.MultiRayMeshIntersectResult.isectFaces</qualifiedname>
         <briefdescription>
-<para>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection </para>
+<para>intersected triangles from mesh </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="490" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="491" bodyend="500"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="518" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="519" bodyend="528"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MultiRayMeshIntersectResult_1a22c3fe6969e21ca25cc06d6d59b2942b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_MRTriPointf</type>
@@ -57,13 +56,13 @@
         <name>isectBary</name>
         <qualifiedname>MR.MultiRayMeshIntersectResult.isectBary</qualifiedname>
         <briefdescription>
-<para>intersection points or NaNs if no intersection </para>
+<para>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="503" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="504" bodyend="513"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="533" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="534" bodyend="543"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MultiRayMeshIntersectResult_1ab74456b7ba6c7165dd02995473d7e05b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_MRVector3f</type>
@@ -72,12 +71,13 @@
         <name>isectPts</name>
         <qualifiedname>MR.MultiRayMeshIntersectResult.isectPts</qualifiedname>
         <briefdescription>
+<para>intersection points or NaNs if no intersection </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="516" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="517" bodyend="526"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="548" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="549" bodyend="558"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="530" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="530" bodyend="534"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="562" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="562" bodyend="566"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="540" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="540" bodyend="546"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="572" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="572" bodyend="578"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiRayMeshIntersectResult_1ad3aededb3b4c3cd291479bf165965b80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="551" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="551" bodyend="562"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="583" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="583" bodyend="594"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiRayMeshIntersectResult_1a396c9bf4777e053ef9246292d11a3e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -166,13 +166,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MultiRayMeshIntersectResult.MultiRayMeshIntersectResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MultiRayMeshIntersectResult_1acd66fb8444c18065476917728de44d6a" kindref="member">MR.MultiRayMeshIntersectResult.MultiRayMeshIntersectResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="567" bodyend="574"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="599" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="599" bodyend="606"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiRayMeshIntersectResult_1a48daf9a35bafcd48a75627bc8f691a27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -185,13 +185,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MultiRayMeshIntersectResult.MultiRayMeshIntersectResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MultiRayMeshIntersectResult_1acd66fb8444c18065476917728de44d6a" kindref="member">MR.MultiRayMeshIntersectResult.MultiRayMeshIntersectResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="579" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="579" bodyend="579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="611" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="611" bodyend="611"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MultiRayMeshIntersectResult_1a4dd5f87dcf59b9ec8539662970b59eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MultiRayMeshIntersectResult" kindref="compound">MR.MultiRayMeshIntersectResult</ref></type>
@@ -204,13 +204,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MultiRayMeshIntersectResult.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MultiRayMeshIntersectResult::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="584" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="584" bodyend="591"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="616" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="616" bodyend="623"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -219,48 +219,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MultiRayMeshIntersectResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MultiRayMeshIntersectResult</label>
         <link refid="classMR_1_1MultiRayMeshIntersectResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MultiRayMeshIntersectResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MultiRayMeshIntersectResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MultiRayMeshIntersectResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MultiRayMeshIntersectResult</label>
         <link refid="classMR_1_1MultiRayMeshIntersectResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MultiRayMeshIntersectResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MultiRayMeshIntersectResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="461" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="462" bodyend="592"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="483" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="484" bodyend="624"/>
     <listofallmembers>
       <member refid="classMR_1_1MultiRayMeshIntersectResult_1a4dd5f87dcf59b9ec8539662970b59eb2" prot="public" virt="non-virtual"><scope>MR::MultiRayMeshIntersectResult</scope><name>assign</name></member>
       <member refid="classMR_1_1MultiRayMeshIntersectResult_1a697c4e6e62007458abb67c319d787edc" prot="public" virt="non-virtual"><scope>MR::MultiRayMeshIntersectResult</scope><name>intersectingRays</name></member>

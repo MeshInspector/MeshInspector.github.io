@@ -1,6 +1,6 @@
 var structMR_1_1UI_1_1CustomConfigModalSettings =
 [
-    [ "popupName", "group__GeneralGroup.html#ga53d5fbf42a4e448c9913451533392082", null ],
+    [ "popupName", "group__GeneralGroup.html#gad4225a9395aba6680bfe4c48f8091ee5", null ],
     [ "configDirectory", "group__GeneralGroup.html#ga70a9bbad22124d697e18eee72f3f9c6c", null ],
     [ "configName", "group__GeneralGroup.html#ga80732e1bb274d668762100222e9fcdb3", null ],
     [ "imGuiIdKey", "group__GeneralGroup.html#ga4b91e9beaa4407b11b1f892f9e6f596b", null ],

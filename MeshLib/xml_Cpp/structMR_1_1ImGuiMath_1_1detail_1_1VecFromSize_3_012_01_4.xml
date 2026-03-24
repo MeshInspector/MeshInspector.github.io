@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMath::detail::VecFromSize&lt; 2 &gt;</compoundname>
-    <includes refid="MRImGuiVectorOperators_8h" local="no">MRImGuiVectorOperators.h</includes>
+    <includes refid="MRImGuiVectorOperators_8h" local="no">MRViewer/MRImGuiVectorOperators.h</includes>
     <templateparamlist>
     </templateparamlist>
     <sectiondef kind="public-type">
@@ -18,14 +18,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="30" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="30" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiVectorOperators.h" line="30" column="38" bodyfile="MRViewer/MRImGuiVectorOperators.h" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="30" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="30" bodyend="30"/>
+    <location file="MRViewer/MRImGuiVectorOperators.h" line="30" column="19" bodyfile="MRViewer/MRImGuiVectorOperators.h" bodystart="30" bodyend="30"/>
     <listofallmembers>
       <member refid="structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4_1a27c3f4fb399c5305651f2dd9386238c3" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::detail::VecFromSize&lt; 2 &gt;</scope><name>type</name></member>
     </listofallmembers>

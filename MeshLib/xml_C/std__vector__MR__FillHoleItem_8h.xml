@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__FillHoleItem_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_FillHoleItem.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_FillHoleItem.h</label>
+        <link refid="std__vector__MR__FillHoleItem_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_FillHoleItem_const_iterator MR_std_vector_MR_FillHoleItem_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="22" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_FillHoleItem_iterator MR_std_vector_MR_FillHoleItem_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="26" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a8391cc5e4a7c36032f1dac506fbd4343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1a187beaf5166f749520f10862818b3eb8" kindref="member">MR_std_vector_MR_FillHoleItem_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="30" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="30" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a70bb29f5723ed2a3dedf4ef984c8f1ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1ad4a25b4d015e7d1c1b8ae60813110ff8" kindref="member">MR_std_vector_MR_FillHoleItem_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1a88deed9ad3241b0d8b015c2d8d436c6e" kindref="member">MR_std_vector_MR_FillHoleItem_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1a00b6444a3d7e7a24a1ff56add420b122" kindref="member">MR_std_vector_MR_FillHoleItem_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="35" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="35" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a0ed1ac4a8586369ed9f2dc9e7f894052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_FillHoleItem *other)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1a187beaf5166f749520f10862818b3eb8" kindref="member">MR_std_vector_MR_FillHoleItem_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="41" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="41" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a4d2afd380995a2ea7f33a2c037fd8c15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, MR_PassBy other_pass_by, MR_std_vector_MR_FillHoleItem *other)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a187beaf5166f749520f10862818b3eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ad4a25b4d015e7d1c1b8ae60813110ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a00b6444a3d7e7a24a1ff56add420b122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="57" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="57" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a88deed9ad3241b0d8b015c2d8d436c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="61" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="61" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a1ce6e21273f314fbfa971345188b2cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_FillHoleItem_size</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_size</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a173ca8b7ddca0b2cc530ee338d4877fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FillHoleItem_empty</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_empty</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1adb2ea13bdce8c8f3bda54be94669fed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_resize</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_resize</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a26acd621d236441db2161646c9ef66bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, size_t new_size, const MR_FillHoleItem *value)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a82dad0e6687264e5808c4c86731fc528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_clear</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_clear</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a04eb57f8a73f449df5493daf21f526c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_FillHoleItem_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_capacity</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a99aafaa10e67f1b31a4e333b02c1f824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_reserve</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_reserve</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a3c8b08a1446ccc510e7c79c2804c928e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a94d9d96c85adbc97aaed185ac72cde4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API const MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_at</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_at</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="101" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="101" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ae5270a8ebc2ca5363b7b8d62a50ce8a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_at_mut</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="107" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="107" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a7ab2b3eccfa31cae3cefeda27402b67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API const MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_front</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_front</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="112" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="112" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a51e82ab5093f794088e57b584d26a03a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_front_mut</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="117" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="117" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ac9e66181d431d9affd57465138d2ccbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API const MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_back</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_back</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="122" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="122" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ad07d2a0405a5b2654cccce4a0573c411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_back_mut</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="127" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="127" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a28ae6c9fca88e4c4cc85057f9e360999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_push_back</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, const MR_FillHoleItem *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_push_back</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a41cea6a2ba76baee69e88a5af049a6ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_pop_back</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a792274df3d5265b6ae5066a581d150bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_insert</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, size_t position, const MR_FillHoleItem *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_insert</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a0dceba9cdda5e60720b992c01532f382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_erase</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_erase</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ad0525c465786dcf1405cab52f6accdfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_iterator *position, const MR_FillHoleItem *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a35e88853fc5339d5562694e4ce93d171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a14827008f35fa0c863e9ace557570cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_const_iterator *position, const MR_FillHoleItem *new_elem)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a9b84369ebbf1d947be6c0c66298348db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1adfbe783536a94d7b448f541d31d73f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_const_iterator * MR_std_vector_MR_FillHoleItem_begin</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_begin</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1af241e9845776dbb2bed7864621d980dd" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="177" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="177" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a487b58b3fbe96485f9cc66e53aa12647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FillHoleItem_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_is_begin</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ae8213af4800e4161e3b7d4717ffd44f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_iterator * MR_std_vector_MR_FillHoleItem_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_begin_mut</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1aabd4a0776ef44316ede42bd650212fc6" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="188" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="188" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ae57e7d521f44ca114ad535755fb65c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FillHoleItem_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a36b1ec78a25ebe5a7adfdbdae2f63a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_const_iterator * MR_std_vector_MR_FillHoleItem_end</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_end</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1af241e9845776dbb2bed7864621d980dd" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="199" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="199" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ab816d9e61a2cfc451e22c4619446420a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FillHoleItem_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_is_end</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a63d2170d6b5302d84dc2488d8462dfed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_iterator * MR_std_vector_MR_FillHoleItem_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_end_mut</name>
+        <param>
+          <type><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1aabd4a0776ef44316ede42bd650212fc6" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="210" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="210" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a584c0a346247770fe517c3c6269689c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_FillHoleItem_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a2a18d2375b67a0909b5f755632a1769b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_FillHoleItem_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_to_index</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a02bea4114a0f908c31383d34308647bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_FillHoleItem_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem *_this, const MR_std_vector_MR_FillHoleItem_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1af7eb8fe0b1c4aeacb141ea64d0d49fec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_const_iterator * MR_std_vector_MR_FillHoleItem_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1af241e9845776dbb2bed7864621d980dd" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="229" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="229" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a8188284bdf1fcf476d02d2ea0ab3d5ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_const_iterator * MR_std_vector_MR_FillHoleItem_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1ad166e63ad087d1eb1c6063d3a31f874d" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1ab9688b6c9ebda1cdf9cc236fd69d9069" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1a703b66c8ef066ca36fa7baddbceeecda" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="234" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="234" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1abd7b615bdc9452bc90e6e67de0bc22e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_const_iterator * MR_std_vector_MR_FillHoleItem_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1af241e9845776dbb2bed7864621d980dd" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="241" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="241" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ac1eee5f29f4d355b325ca2491b48f5a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_const_iterator *_this, const MR_std_vector_MR_FillHoleItem_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1af241e9845776dbb2bed7864621d980dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ad166e63ad087d1eb1c6063d3a31f874d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a703b66c8ef066ca36fa7baddbceeecda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FillHoleItem_const_iterator * MR_std_vector_MR_FillHoleItem_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="258" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="258" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ab9688b6c9ebda1cdf9cc236fd69d9069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_const_iterator * MR_std_vector_MR_FillHoleItem_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="262" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="262" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a0a2499fa5553ba9832c378aec1b03a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_const_iterator * MR_std_vector_MR_FillHoleItem_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1af241e9845776dbb2bed7864621d980dd" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="267" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="267" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ada6fc18ee452d17bae0bb9aa183563cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_iterator * MR_std_vector_MR_FillHoleItem_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1aabd4a0776ef44316ede42bd650212fc6" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="271" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="271" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a6beaee2e50053961c3124f8141059ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_iterator * MR_std_vector_MR_FillHoleItem_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1a5d8dfbb4722e7cd163bfb82ab14d88d6" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1aa60e0544859395eb1f6086cc203b8c55" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1adc2e50d6f4ffae880b36997df3a9961b" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="276" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="276" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1af9a3bec655601a4792d7296a2ca22e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_iterator * MR_std_vector_MR_FillHoleItem_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1aabd4a0776ef44316ede42bd650212fc6" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="283" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="283" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a782f0628880b05e92c36e0791c128a77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_iterator *_this, const MR_std_vector_MR_FillHoleItem_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1aabd4a0776ef44316ede42bd650212fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a5d8dfbb4722e7cd163bfb82ab14d88d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1adc2e50d6f4ffae880b36997df3a9961b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_FillHoleItem_iterator * MR_std_vector_MR_FillHoleItem_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="300" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="300" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1aa60e0544859395eb1f6086cc203b8c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_FillHoleItem_iterator * MR_std_vector_MR_FillHoleItem_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="304" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="304" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ac2ca8820fd08adf799703e1a739a8363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API const MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="310" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="310" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1aa34450b1949e482e690d097076e80fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ae024f34a18f7ee20f9189a0cf945b8a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a3218696033ade09d9ea6f5bac0b847d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a4d2dd2ea3d4a99db89b17fae5f2c6c28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_FillHoleItem_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_const_iterator *a, const MR_std_vector_MR_FillHoleItem_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_FillHoleItem_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a8153c2d6336d61eb3f39f8aee7aa4d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_FillHoleItem_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_const_iterator *a, const MR_std_vector_MR_FillHoleItem_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_FillHoleItem_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a06e587b46aea1564c40aa4f985971b81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref> *</type>
+        <definition>MRC_API MR_FillHoleItem * MR_std_vector_MR_FillHoleItem_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="338" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="338" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a556c6ae321506f563cb68a0244e3e1af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a735106183e68bf1ea3c4f12ecfeb83bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1ad5508646ab263e918bcc8b8d7fe7cef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_FillHoleItem_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_FillHoleItem_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_FillHoleItem_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a1858cb2a35fe9ebf0be69a86cce3d912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_FillHoleItem_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_iterator *a, const MR_std_vector_MR_FillHoleItem_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_FillHoleItem_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__FillHoleItem_8h_1a8465bc692bde12354b54871c8c1cf7c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_FillHoleItem_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_FillHoleItem_iterator *a, const MR_std_vector_MR_FillHoleItem_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_FillHoleItem_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFillHole.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__FillHoleItem_8h_1a8391cc5e4a7c36032f1dac506fbd4343" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a8391cc5e4a7c36032f1dac506fbd4343" kindref="member">MR_std_vector_MR_FillHoleItem_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__FillHoleItem_8h_1a70bb29f5723ed2a3dedf4ef984c8f1ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a70bb29f5723ed2a3dedf4ef984c8f1ef" kindref="member">MR_std_vector_MR_FillHoleItem_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__FillHoleItem_8h_1a0ed1ac4a8586369ed9f2dc9e7f894052" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a0ed1ac4a8586369ed9f2dc9e7f894052" kindref="member">MR_std_vector_MR_FillHoleItem_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__FillHoleItem_8h_1a4d2afd380995a2ea7f33a2c037fd8c15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a4d2afd380995a2ea7f33a2c037fd8c15" kindref="member">MR_std_vector_MR_FillHoleItem_AssignFromAnother</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__FillHoleItem_8h_1a187beaf5166f749520f10862818b3eb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a187beaf5166f749520f10862818b3eb8" kindref="member">MR_std_vector_MR_FillHoleItem_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__FillHoleItem_8h_1ad4a25b4d015e7d1c1b8ae60813110ff8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1ad4a25b4d015e7d1c1b8ae60813110ff8" kindref="member">MR_std_vector_MR_FillHoleItem_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__FillHoleItem_8h_1a00b6444a3d7e7a24a1ff56add420b122" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a00b6444a3d7e7a24a1ff56add420b122" kindref="member">MR_std_vector_MR_FillHoleItem_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__FillHoleItem_8h_1a88deed9ad3241b0d8b015c2d8d436c6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a88deed9ad3241b0d8b015c2d8d436c6e" kindref="member">MR_std_vector_MR_FillHoleItem_OffsetMutablePtr</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__FillHoleItem_8h_1a1ce6e21273f314fbfa971345188b2cb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a1ce6e21273f314fbfa971345188b2cb2" kindref="member">MR_std_vector_MR_FillHoleItem_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__FillHoleItem_8h_1a173ca8b7ddca0b2cc530ee338d4877fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a173ca8b7ddca0b2cc530ee338d4877fa" kindref="member">MR_std_vector_MR_FillHoleItem_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__FillHoleItem_8h_1adb2ea13bdce8c8f3bda54be94669fed2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1adb2ea13bdce8c8f3bda54be94669fed2" kindref="member">MR_std_vector_MR_FillHoleItem_resize</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__FillHoleItem_8h_1a26acd621d236441db2161646c9ef66bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a26acd621d236441db2161646c9ef66bd" kindref="member">MR_std_vector_MR_FillHoleItem_resize_with_default_value</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__FillHoleItem_8h_1a82dad0e6687264e5808c4c86731fc528" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a82dad0e6687264e5808c4c86731fc528" kindref="member">MR_std_vector_MR_FillHoleItem_clear</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__FillHoleItem_8h_1a04eb57f8a73f449df5493daf21f526c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a04eb57f8a73f449df5493daf21f526c9" kindref="member">MR_std_vector_MR_FillHoleItem_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__FillHoleItem_8h_1a99aafaa10e67f1b31a4e333b02c1f824" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a99aafaa10e67f1b31a4e333b02c1f824" kindref="member">MR_std_vector_MR_FillHoleItem_reserve</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__FillHoleItem_8h_1a3c8b08a1446ccc510e7c79c2804c928e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a3c8b08a1446ccc510e7c79c2804c928e" kindref="member">MR_std_vector_MR_FillHoleItem_shrink_to_fit</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__FillHoleItem_8h_1a94d9d96c85adbc97aaed185ac72cde4e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a94d9d96c85adbc97aaed185ac72cde4e" kindref="member">MR_std_vector_MR_FillHoleItem_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__FillHoleItem_8h_1ae5270a8ebc2ca5363b7b8d62a50ce8a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1ae5270a8ebc2ca5363b7b8d62a50ce8a5" kindref="member">MR_std_vector_MR_FillHoleItem_at_mut</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__FillHoleItem_8h_1a7ab2b3eccfa31cae3cefeda27402b67b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a7ab2b3eccfa31cae3cefeda27402b67b" kindref="member">MR_std_vector_MR_FillHoleItem_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__FillHoleItem_8h_1a51e82ab5093f794088e57b584d26a03a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a51e82ab5093f794088e57b584d26a03a" kindref="member">MR_std_vector_MR_FillHoleItem_front_mut</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__FillHoleItem_8h_1ac9e66181d431d9affd57465138d2ccbf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1ac9e66181d431d9affd57465138d2ccbf" kindref="member">MR_std_vector_MR_FillHoleItem_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__FillHoleItem_8h_1ad07d2a0405a5b2654cccce4a0573c411" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1ad07d2a0405a5b2654cccce4a0573c411" kindref="member">MR_std_vector_MR_FillHoleItem_back_mut</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__FillHoleItem_8h_1a28ae6c9fca88e4c4cc85057f9e360999" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a28ae6c9fca88e4c4cc85057f9e360999" kindref="member">MR_std_vector_MR_FillHoleItem_push_back</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__FillHoleItem_8h_1a41cea6a2ba76baee69e88a5af049a6ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a41cea6a2ba76baee69e88a5af049a6ed" kindref="member">MR_std_vector_MR_FillHoleItem_pop_back</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__FillHoleItem_8h_1a792274df3d5265b6ae5066a581d150bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a792274df3d5265b6ae5066a581d150bd" kindref="member">MR_std_vector_MR_FillHoleItem_insert</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__FillHoleItem_8h_1a0dceba9cdda5e60720b992c01532f382" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a0dceba9cdda5e60720b992c01532f382" kindref="member">MR_std_vector_MR_FillHoleItem_erase</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__FillHoleItem_8h_1ad0525c465786dcf1405cab52f6accdfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1ad0525c465786dcf1405cab52f6accdfc" kindref="member">MR_std_vector_MR_FillHoleItem_insert_at_mutable_iter</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__FillHoleItem_8h_1a35e88853fc5339d5562694e4ce93d171" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a35e88853fc5339d5562694e4ce93d171" kindref="member">MR_std_vector_MR_FillHoleItem_erase_at_mutable_iter</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__FillHoleItem_8h_1a14827008f35fa0c863e9ace557570cda" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a14827008f35fa0c863e9ace557570cda" kindref="member">MR_std_vector_MR_FillHoleItem_insert_at_iter</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__FillHoleItem_8h_1a9b84369ebbf1d947be6c0c66298348db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a9b84369ebbf1d947be6c0c66298348db" kindref="member">MR_std_vector_MR_FillHoleItem_erase_at_iter</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__FillHoleItem_8h_1adfbe783536a94d7b448f541d31d73f18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1adfbe783536a94d7b448f541d31d73f18" kindref="member">MR_std_vector_MR_FillHoleItem_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__FillHoleItem_8h_1a487b58b3fbe96485f9cc66e53aa12647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a487b58b3fbe96485f9cc66e53aa12647" kindref="member">MR_std_vector_MR_FillHoleItem_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__FillHoleItem_8h_1ae8213af4800e4161e3b7d4717ffd44f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1ae8213af4800e4161e3b7d4717ffd44f4" kindref="member">MR_std_vector_MR_FillHoleItem_begin_mut</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__FillHoleItem_8h_1ae57e7d521f44ca114ad535755fb65c7d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1ae57e7d521f44ca114ad535755fb65c7d" kindref="member">MR_std_vector_MR_FillHoleItem_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__FillHoleItem_8h_1a36b1ec78a25ebe5a7adfdbdae2f63a95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a36b1ec78a25ebe5a7adfdbdae2f63a95" kindref="member">MR_std_vector_MR_FillHoleItem_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__FillHoleItem_8h_1ab816d9e61a2cfc451e22c4619446420a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1ab816d9e61a2cfc451e22c4619446420a" kindref="member">MR_std_vector_MR_FillHoleItem_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__FillHoleItem_8h_1a63d2170d6b5302d84dc2488d8462dfed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a63d2170d6b5302d84dc2488d8462dfed" kindref="member">MR_std_vector_MR_FillHoleItem_end_mut</ref>(<ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__FillHoleItem_8h_1a584c0a346247770fe517c3c6269689c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a584c0a346247770fe517c3c6269689c5" kindref="member">MR_std_vector_MR_FillHoleItem_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__FillHoleItem_8h_1a2a18d2375b67a0909b5f755632a1769b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a2a18d2375b67a0909b5f755632a1769b" kindref="member">MR_std_vector_MR_FillHoleItem_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__FillHoleItem_8h_1a02bea4114a0f908c31383d34308647bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a02bea4114a0f908c31383d34308647bc" kindref="member">MR_std_vector_MR_FillHoleItem_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a785aae8725e582179852d911f99b48f7" kindref="member">MR_std_vector_MR_FillHoleItem</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__FillHoleItem_8h_1af7eb8fe0b1c4aeacb141ea64d0d49fec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1af7eb8fe0b1c4aeacb141ea64d0d49fec" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__FillHoleItem_8h_1a8188284bdf1fcf476d02d2ea0ab3d5ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a8188284bdf1fcf476d02d2ea0ab3d5ac" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__FillHoleItem_8h_1abd7b615bdc9452bc90e6e67de0bc22e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1abd7b615bdc9452bc90e6e67de0bc22e9" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__FillHoleItem_8h_1ac1eee5f29f4d355b325ca2491b48f5a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1ac1eee5f29f4d355b325ca2491b48f5a4" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__FillHoleItem_8h_1af241e9845776dbb2bed7864621d980dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1af241e9845776dbb2bed7864621d980dd" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__FillHoleItem_8h_1ad166e63ad087d1eb1c6063d3a31f874d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1ad166e63ad087d1eb1c6063d3a31f874d" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__FillHoleItem_8h_1a703b66c8ef066ca36fa7baddbceeecda" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a703b66c8ef066ca36fa7baddbceeecda" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__FillHoleItem_8h_1ab9688b6c9ebda1cdf9cc236fd69d9069" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1ab9688b6c9ebda1cdf9cc236fd69d9069" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__FillHoleItem_8h_1a0a2499fa5553ba9832c378aec1b03a1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a0a2499fa5553ba9832c378aec1b03a1a" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__FillHoleItem_8h_1ada6fc18ee452d17bae0bb9aa183563cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1ada6fc18ee452d17bae0bb9aa183563cb" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__FillHoleItem_8h_1a6beaee2e50053961c3124f8141059ada" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a6beaee2e50053961c3124f8141059ada" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__FillHoleItem_8h_1af9a3bec655601a4792d7296a2ca22e10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1af9a3bec655601a4792d7296a2ca22e10" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__FillHoleItem_8h_1a782f0628880b05e92c36e0791c128a77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a782f0628880b05e92c36e0791c128a77" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__FillHoleItem_8h_1aabd4a0776ef44316ede42bd650212fc6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1aabd4a0776ef44316ede42bd650212fc6" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__FillHoleItem_8h_1a5d8dfbb4722e7cd163bfb82ab14d88d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a5d8dfbb4722e7cd163bfb82ab14d88d6" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__FillHoleItem_8h_1adc2e50d6f4ffae880b36997df3a9961b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1adc2e50d6f4ffae880b36997df3a9961b" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__FillHoleItem_8h_1aa60e0544859395eb1f6086cc203b8c55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1aa60e0544859395eb1f6086cc203b8c55" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__FillHoleItem_8h_1ac2ca8820fd08adf799703e1a739a8363" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1ac2ca8820fd08adf799703e1a739a8363" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__FillHoleItem_8h_1aa34450b1949e482e690d097076e80fb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1aa34450b1949e482e690d097076e80fb5" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_incr</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__FillHoleItem_8h_1ae024f34a18f7ee20f9189a0cf945b8a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1ae024f34a18f7ee20f9189a0cf945b8a1" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_decr</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__FillHoleItem_8h_1a3218696033ade09d9ea6f5bac0b847d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a3218696033ade09d9ea6f5bac0b847d1" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__FillHoleItem_8h_1a4d2dd2ea3d4a99db89b17fae5f2c6c28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a4d2dd2ea3d4a99db89b17fae5f2c6c28" kindref="member">MR_sub_MR_std_vector_MR_FillHoleItem_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__FillHoleItem_8h_1a8153c2d6336d61eb3f39f8aee7aa4d75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8153c2d6336d61eb3f39f8aee7aa4d75" kindref="member">MR_equal_MR_std_vector_MR_FillHoleItem_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1acb1d7cb69e577b9b4fdef0fd036a2ea3" kindref="member">MR_std_vector_MR_FillHoleItem_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__FillHoleItem_8h_1a06e587b46aea1564c40aa4f985971b81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/>*<ref refid="std__vector__MR__FillHoleItem_8h_1a06e587b46aea1564c40aa4f985971b81" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__FillHoleItem_8h_1a556c6ae321506f563cb68a0244e3e1af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a556c6ae321506f563cb68a0244e3e1af" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_incr</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__FillHoleItem_8h_1a735106183e68bf1ea3c4f12ecfeb83bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a735106183e68bf1ea3c4f12ecfeb83bd" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_decr</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__FillHoleItem_8h_1ad5508646ab263e918bcc8b8d7fe7cef8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1ad5508646ab263e918bcc8b8d7fe7cef8" kindref="member">MR_std_vector_MR_FillHoleItem_iterator_add_assign</ref>(<ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__FillHoleItem_8h_1a1858cb2a35fe9ebf0be69a86cce3d912" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a1858cb2a35fe9ebf0be69a86cce3d912" kindref="member">MR_sub_MR_std_vector_MR_FillHoleItem_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__FillHoleItem_8h_1a8465bc692bde12354b54871c8c1cf7c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8465bc692bde12354b54871c8c1cf7c4" kindref="member">MR_equal_MR_std_vector_MR_FillHoleItem_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__FillHoleItem_8h_1a8dd9eee39d5049fb91325a77830abb67" kindref="member">MR_std_vector_MR_FillHoleItem_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_FillHoleItem.h"/>
+  </compounddef>
+</doxygen>

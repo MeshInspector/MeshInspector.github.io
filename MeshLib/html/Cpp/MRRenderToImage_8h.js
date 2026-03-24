@@ -1,4 +1,4 @@
 var MRRenderToImage_8h =
 [
-    [ "renderToImage", "MRRenderToImage_8h.html#ga229141a2cae5cae49e7e7ed1a6dc453a", null ]
+    [ "MR::renderToImage", "group__GeneralGroup.html#ga4c4f616dcfee998b3b8291856758241d", null ]
 ];
